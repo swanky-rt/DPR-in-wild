@@ -1,0 +1,28 @@
+[
+  {
+    "dpr_id": "1",
+    "DPR": "Analyze the composition and representation of political parties in national legislatures, comparing the electoral performance of parties in the 2019 Canadian Federal Election with the party affiliations of current members of the Australian Senate, to identify trends, patterns, and insights into the distribution of political power and voter preferences across different countries and electoral systems.",
+    "model": "groq/llama-3.3-70b-versatile",
+    "ground_truth": {
+      "table_uids": [
+        "T2",
+        "T3"
+      ]
+    }
+  },
+  {
+    "dpr_id": "2",
+    "DPR": "We need a comprehensive dataset that integrates global health, economic, and sports performance metrics to analyze the relationships between a country's COVID-19 vaccination rates, disease burden, economic indicators such as GDP and unemployment rates, and international sports performance, including FIFA World Cup and Olympic medal standings. \nThis dataset should enable queries on how vaccination progress and disease burden impact economic growth, labor market outcomes, and sports achievements, as well as comparisons of countries' performance across these different domains to identify patterns, correlations, or outliers that could inform policy decisions or strategic investments.\nAdditionally, the data product should support analysis of regional variations in health, economic, and sports outcomes, and allow for the tracking of changes in these metrics over time to assess the effectiveness of interventions or the emergence of new trends.\nUltimately, this integrated dataset should provide a holistic view of national well-being and competitiveness, facilitating a deeper understanding of the complex interplay between public health, economic development, and international sporting success.",
+    "model": "groq/llama-3.3-70b-versatile",
+    "ground_truth": {
+      "table_uids": [
+        "T4",
+        "T6",
+        "T7",
+        "T8",
+        "T9",
+        "T10"
+      ]
+    }
+  }
+]
