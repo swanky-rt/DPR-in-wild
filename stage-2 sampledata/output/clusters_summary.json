@@ -1,0 +1,64 @@
+{
+  "metrics": {
+    "n_clusters": 4,
+    "n_tables": 10,
+    "silhouette_score": 0.0896,
+    "cluster_sizes": {
+      "0": 6,
+      "1": 2,
+      "2": 1,
+      "3": 1
+    },
+    "avg_intra_cluster_similarity": 0.384
+  },
+  "clusters": [
+    {
+      "cluster_id": "3",
+      "num_tables": 1,
+      "table_ids": [
+        "T1"
+      ],
+      "domains": [
+        "Politics"
+      ]
+    },
+    {
+      "cluster_id": "1",
+      "num_tables": 2,
+      "table_ids": [
+        "T2",
+        "T3"
+      ],
+      "domains": [
+        "Politics"
+      ]
+    },
+    {
+      "cluster_id": "0",
+      "num_tables": 6,
+      "table_ids": [
+        "T4",
+        "T6",
+        "T7",
+        "T8",
+        "T9",
+        "T10"
+      ],
+      "domains": [
+        "Science",
+        "Sports",
+        "Economy"
+      ]
+    },
+    {
+      "cluster_id": "2",
+      "num_tables": 1,
+      "table_ids": [
+        "T5"
+      ],
+      "domains": [
+        "Sports"
+      ]
+    }
+  ]
+}

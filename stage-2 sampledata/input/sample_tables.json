@@ -1,0 +1,22 @@
+{
+  "T1": {
+    "domain": "Politics",
+    "title": "14th Parliament of British Columbia",
+    "columns": ["Member", "Electoral district", "Party"],
+    "description": "This table provides information about the members of the 14th Parliament of British Columbia, including their names, electoral districts, and political parties.",
+    "numeric_columns": [],
+    "categorical_columns": ["Party"],
+    "entities": ["Member", "Electoral district"],
+    "embedding": [0.0, 0.0, 0.0]
+  },
+  "T2": {
+    "domain": "Politics",
+    "title": "Canadian Federal Election Results 2019",
+    "columns": ["Riding", "Candidate", "Party", "Votes", "Percentage"],
+    "description": "This table contains results from the 2019 Canadian Federal Election, listing candidates, their party affiliations, vote counts, and percentage of votes per riding.",
+    "numeric_columns": ["Votes", "Percentage"],
+    "categorical_columns": ["Party"],
+    "entities": ["Riding", "Candidate"],
+    "embedding": [0.0, 0.0, 0.0]
+  }
+}
