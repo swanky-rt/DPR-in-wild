@@ -1,0 +1,143 @@
+[
+  {
+    "dpr_id": "1",
+    "cluster_key": "1",
+    "tables": [
+      {
+        "table_id": "T1",
+        "title": "\"Weird Al\" Yankovic",
+        "domain": "General",
+        "columns": [
+          "Year",
+          "Title",
+          "Role"
+        ],
+        "description": "This table provides information about \"Weird Al\" Yankovic's appearances in films, including the year of release, the title of the film, and his role in it. It includes 51 rows and 3 columns, with sample entries showcasing his roles in movies like 'Tapeheads' and 'UHF'. The table categorizes his filmography by year, title, and role."
+      },
+      {
+        "table_id": "T2",
+        "title": "\"Weird Al\" Yankovic",
+        "domain": "General",
+        "columns": [
+          "Year",
+          "Title",
+          "Role",
+          "Notes"
+        ],
+        "description": "This table provides information about appearances of 'Weird Al' Yankovic in various media, including the year, title of the work, his role, and additional notes. It includes details about his contributions to television shows and other productions."
+      },
+      {
+        "table_id": "T3",
+        "title": "\"Weird Al\" Yankovic",
+        "domain": "General",
+        "columns": [
+          "Year",
+          "Title",
+          "Role",
+          "Notes"
+        ],
+        "description": "This table provides information about appearances and roles of 'Weird Al' Yankovic in various media, including the year, title, role, and additional notes. It includes details about his contributions to shows like 'Eek! The Cat' and 'The Simpsons.' The table highlights his involvement in specific episodes and his portrayal as himself."
+      }
+    ]
+  },
+  {
+    "dpr_id": "2",
+    "cluster_key": "0",
+    "tables": [
+      {
+        "table_id": "T4",
+        "title": "14th Parliament of British Columbia",
+        "domain": "Politics",
+        "columns": [
+          "Member",
+          "Electoral district",
+          "Party"
+        ],
+        "description": "This table provides information about the members of the 14th Parliament of British Columbia, including their names, electoral districts, and political parties. It highlights key figures, their constituencies, and party affiliations during this period in British Columbia's political history."
+      },
+      {
+        "table_id": "T5",
+        "title": "1898 International Cross Country Championships",
+        "domain": "Sports",
+        "columns": [
+          "Rank",
+          "Athlete",
+          "Nationality",
+          "Time"
+        ],
+        "description": "This table provides details of the 1898 International Cross Country Championships, including the rank, athlete names, their nationalities, and their completion times. It highlights individual performances and national representation in the event."
+      },
+      {
+        "table_id": "T6",
+        "title": "1913 International Cross Country Championships",
+        "domain": "Sports",
+        "columns": [
+          "Rank",
+          "Athlete",
+          "Nationality",
+          "Time"
+        ],
+        "description": "This table provides information about the 1913 International Cross Country Championships, including the rank, athlete names, their nationalities, and their recorded times. It highlights notable participants and their achievements during the event."
+      },
+      {
+        "table_id": "T7",
+        "title": "1920 International Cross Country Championships",
+        "domain": "Sports",
+        "columns": [
+          "Rank",
+          "Athlete",
+          "Nationality",
+          "Time"
+        ],
+        "description": "This table provides details of the 1920 International Cross Country Championships, including the rank, athlete names, their nationalities, and their recorded times. It highlights individual and team performances in the event. The data includes notable athletes and their achievements."
+      }
+    ]
+  },
+  {
+    "dpr_id": "3",
+    "cluster_key": "2",
+    "tables": [
+      {
+        "table_id": "T8",
+        "title": "1954 in film",
+        "domain": "Film/TV",
+        "columns": [
+          "International market",
+          "Film",
+          "Studio",
+          "Revenue",
+          "Admissions",
+          "Production country"
+        ],
+        "description": "This table provides information about films released in 1954, including their international market, title, studio, revenue, admissions, and production country. It highlights notable films and their performance in terms of revenue and audience reach. The table also includes links to relevant summaries and details about the films and their production context."
+      },
+      {
+        "table_id": "T9",
+        "title": "1955 in music",
+        "domain": "Music",
+        "columns": [
+          "Composer",
+          "Composition",
+          "Date",
+          "Location",
+          "Performers"
+        ],
+        "description": "This table provides information about notable musical compositions and events from 1955. It includes details about composers, their compositions, the date and location of performances, and the performers involved. The data highlights significant contributions to music during this year."
+      },
+      {
+        "table_id": "T10",
+        "title": "1957 in film",
+        "domain": "Film/TV",
+        "columns": [
+          "Country",
+          "Title",
+          "Director",
+          "Studio",
+          "Revenue",
+          "Admissions"
+        ],
+        "description": "This table provides information about films released in 1957, including their country of origin, title, director, studio, revenue, and admissions. It highlights notable films such as 'The Bridge on the River Kwai' and includes details about their production and reception. The table also links to relevant summaries and historical context for some entries."
+      }
+    ]
+  }
+]
