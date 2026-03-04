@@ -3,10 +3,12 @@
 This stage is responsible for validating whether the Data Product Requests (DPRs) generated in Stage 2 can actually be grounded in the original structured tables.
 
 Input: dprs.json, Metadata: T1.json to T10.json
+
 For each DPR:
 - Load referenced tables
 - Generate SQL using LLM
 - Execute SQL on SQLite & Validate execution
+
 Output: stage3_output.json
 
 ### Steps:
