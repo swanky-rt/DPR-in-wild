@@ -1,4 +1,3 @@
-# dpr-discovery
 ## Stage 1 – Data Selection, Table Preparation, Descriptions, and Embeddings (Uninformed User Baseline)
 
 Stage 1 creates the table inputs needed for the rest of the pipeline. It selects 10 unique tables from HybridQA, keeps the column names exactly the same, generates a short description for each table, and creates one embedding vector per table for clustering. The same tables (T1–T10) are used again in later stages such as clustering, DPR generation, and SQL grounding.
