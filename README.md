@@ -142,7 +142,7 @@ Requirements:
 * The embedding vector length is 384 because `all-MiniLM-L6-v2` always returns 384-dimensional vectors.
 * Stage 2 (Clustering + DPR Generation) should use:
 
-table_embeddings.json for semantic similarity between tables (embedding vectors)
+***table_embeddings.json for semantic similarity between tables (embedding vectors)
 
 columns for common column overlap
 
