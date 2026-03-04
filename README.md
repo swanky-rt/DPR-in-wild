@@ -142,12 +142,12 @@ Requirements:
 * The embedding vector length is 384 because `all-MiniLM-L6-v2` always returns 384-dimensional vectors.
 * Stage 2 (Clustering + DPR Generation) should use:
 
-- table_embeddings.json for semantic similarity between tables (embedding vectors)
+table_embeddings.json for semantic similarity between tables (embedding vectors)
 
-- columns for common column overlap
+columns for common column overlap
 
-- Optionally, domain, numeric_columns, categorical_columns, and entities from tables_clean/ for extra heuristics
+Optionally, domain, numeric_columns, categorical_columns, and entities from tables_clean/ for extra heuristics
 
 * Later stages reuse the same T1..T10 tables:
 
-- Stage 3 (SQL generation and grounding) uses tables_clean/ (rows + columns) to build a SQLite database and validate the generated DPRs by execution.
+Stage 3 (SQL generation and grounding) uses tables_clean/ (rows + columns) to build a SQLite database and validate the generated DPRs by execution.
