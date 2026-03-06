@@ -146,52 +146,6 @@ Each element in the top-level JSON array is **one DPR**. Representative fields:
 | `schema_mapping` | Original column name → SQL-safe name per table |
 | `llm_model` | Model used (e.g. `llama-3.1-8b-instant`) |
 
-**Example from your output (DPR 1):**  
-- Sub-questions include: “What are the titles of films and television shows…?”, “What are the different types of media…?”, “What are the notable collaborations…?”  
-- Each gets 1+ attempt; e.g. `SELECT Title FROM T1 WHERE Role = 'Himself'` returns 6 rows and a mini-summary about Tapeheads, Naked Gun, etc.  
-- The final_summary weaves those into a short narrative about filmography and TV appearances, all grounded in the same data.
-
-**Example of self-correction (DPR 1_v3):**  
-- One sub-question asked for “additional notes”. First attempt: `WHERE T2.Role = 'Weird Al' Yankovic'` → syntax error (unescaped quote).  
-- Second attempt: `WHERE T2.Role = 'Himself'` → success, 3 rows, mini-summary about episode titles (Banjo, Noretta, etc.).  
-So the loop **fixed a syntax error** and **aligned the filter to actual data** (Role = 'Himself').
-
----
-
-## 5. How to Explain It in a Presentation
-
-### Slide 1: Problem
-
-- **Before:** One complex SQL per DPR → high chance of schema/join hallucination, wrong filters, empty results.
-- **Goal:** Better **grounding** (answers supported by real data) and fewer **semantic errors** (invented columns, cartesian joins, invalid filter values).
-
-### Slide 2: Approach — Agentic Discovery Loop
-
-- We adopt an **agentic**, **multi-step** pipeline inspired by open-ended discovery (e.g. AutoDiscovery-style ideas):
-  1. **Decompose** the DPR into small sub-questions.
-  2. **Build a real database** (schema + sample rows from our table JSONs).
-  3. For each sub-question: **generate SQL** (with schema + sample rows in the prompt) → **sanitize** (block cartesian joins) → **execute** → if error or 0 rows, **refine** and retry (up to 3 times).
-  4. **Summarize** each successful result into a mini-summary, then **synthesize** a final summary for the DPR.
-
-### Slide 3: Two Levels of Grounding
-
-- **Schema grounding:** Only tables and columns from metadata; SQLite validates at execution; time-like columns kept as TEXT to avoid type errors.
-- **Data grounding:** (1) In-memory DB is filled with sample rows from T1..T10 JSONs. (2) Example rows are shown in the LLM prompt so filters use real values (e.g. `Role = 'Himself'`). (3) Mini-summaries and final summary are derived only from query result previews.
-
-### Slide 4: Reducing Hallucination
-
-- **Join hallucination:** Prompt forbids `ON 1=1` and `CROSS JOIN`; we only allow JOIN when there is a clear shared column; `_is_cartesian_sql` blocks bad SQL before execution.
-- **Schema hallucination:** Prompt says “never invent tables/columns”; execution fails on invalid names and we retry with `refine_sql_with_error`.
-- **Data hallucination:** Sample rows in prompt + “prefer values from example rows” + refinement on empty results so the model can try broader (e.g. LIKE) or different filters.
-
-### Slide 5: Output and Downstream Use
-
-- **Stage 3 output:** One JSON object per DPR with `sub_questions`, `subquery_results` (full trace of attempts), `mini_summaries`, and **`final_summary`**.
-- **Stage 4:** LLM-as-a-Judge compares `final_summary` to the original DPR and assigns a **grounding score (0.0–1.0)** based only on the provided data results.
-
-### Slide 6: Example from Real Run
-
-- Show one DPR from `stage3_output_final.json`: sub-questions, one sub-query with 2 attempts (first syntax error, second success with `Role = 'Himself'`), and the resulting mini-summaries and final_summary. Emphasize: “The pipeline **self-corrected** from a malformed filter to a grounded filter and produced a summary that stays within the data.”
 
 ---
 
@@ -208,5 +162,3 @@ So the loop **fixed a syntax error** and **aligned the filter to actual data** (
 - **Run (example):**  
   `python src/sql_grounding/pipeline.py -i data/stage2/output/run_test_groq/dprs.json -o stage3_output_final.json -n 5 --tables-meta data/stage1/tables_clean --require-non-empty`
 - **Constants:** `MAX_SAMPLE_ROWS_PER_TABLE` (rows inserted per table), `LLM_SAMPLE_ROWS_PER_TABLE` (rows shown in prompt per table).
-
-You can copy sections from this document into slides or a report; the structure is intended to support both a short overview and a detailed technical walkthrough.
