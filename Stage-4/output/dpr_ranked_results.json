@@ -1,0 +1,539 @@
+{
+  "summary": {
+    "total_dprs": 5,
+    "total_ranked": 5,
+    "unique_count": 5,
+    "multi_table_count": 5,
+    "llm_model": "gpt4o",
+    "llm_api_base": "https://thekeymaker.umass.edu/v1",
+    "weights_used": {
+      "coverage": 0.2143,
+      "complexity": 0.1429,
+      "diversity": 0.1429,
+      "surprisal": 0.1429,
+      "uniqueness": 0.1429,
+      "llm_quality": 0.1071,
+      "llm_relevance": 0.1071,
+      "llm_clarity": 0.0
+    },
+    "formulas": {
+      "coverage": "|tables_used \u2229 ground_truth| / |ground_truth|",
+      "complexity": "mean(multi_table, join, agg, subquery, multi_entity)",
+      "diversity": "1 - avg_cosine_sim(DPR_i, all other DPRs)",
+      "surprisal": "-log P(tables_used) / log(|all_tables|)",
+      "uniqueness": "1 if no near-duplicate (cosine > 0.85), else 0",
+      "llm_scores": "GPT-4 scores: 0 / 0.5 / 0.75 / 1.0"
+    }
+  },
+  "ranked_dprs": [
+    {
+      "rank": 1,
+      "dpr_id": "2",
+      "combined_score": 0.6577,
+      "dpr_text": "Compile a dataset that captures historical information on political representation in British Columbia and athlete performance in International Cross Country Championships, allowing for queries on trends in electoral outcomes, athlete performance over time, and comparisons between different political parties and national teams, and assess how factors such as constituency, party affiliation, nationality, and event year influence these trends and outcomes.",
+      "tables_used": [
+        "T4",
+        "T5",
+        "T6",
+        "T7"
+      ],
+      "ground_truth": [
+        "T4",
+        "T5",
+        "T6",
+        "T7"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The historical electoral outcomes for British Columbia have been recorded for at least five electoral districts, including Alberni, Atlin, Cariboo, Chilliwack, and Columbia. These districts demonstrate the presence of electoral data for various areas within the province. In the context of international cross-country championships, athlete performance times vary by nationality, with at least two English athletes recording times of 56:36 and 56:36.4. Notably, the distribution of athlete performance metrics by constituency in British Columbia reveals that the electoral district of Columbia has multiple athlete performance times associated with the Liberal party.",
+      "metrics": {
+        "coverage": 0.75,
+        "complexity": 0.3333,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.3333,
+          "agg": 0.0,
+          "subquery": 0.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.7368,
+        "surprisal": 0.4709,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_clarity": 0.75,
+        "llm_relevance": 0.5,
+        "llm_reasoning": "The DPR is analytical and mostly clear but loosely related to the schema, as it combines political and athletic data without direct alignment to the available columns."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the historical electoral outcomes for each constituency in British Columbia?",
+          "sql": "SELECT Electoral_district FROM T4 WHERE Party = 'Liberal'",
+          "summary_source": "stage3_output",
+          "mini_summary": "The historical electoral outcomes for British Columbia have been recorded for at least five electoral districts: Alberni, Atlin, Cariboo, Chilliwack, and Columbia. These districts are part of the electoral landscape in British Columbia, indicating the presence of electoral data for various areas within the province.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 8
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "How do athlete performance metrics vary by nationality and event year in International Cross Country Championships?",
+          "sql": "SELECT Nationality, Time FROM T5",
+          "summary_source": "stage3_output",
+          "mini_summary": "Athlete performance times vary by nationality, with at least one athlete from England recording a time of 56:36 and another athlete from England recording a time of 56:36.4.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 10
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What is the distribution of athlete performance metrics by constituency and party affiliation in British Columbia?",
+          "sql": "SELECT T4.Electoral_district, T4.Party, T5.Time FROM T4 INNER JOIN T5 ON T4.Member = 'John Andrew Buckham' INNER JOIN T7 ON T7.Athlete = 'Jim Wilson' WHERE T4.Electoral_district = 'Columbia'",
+          "summary_source": "stage3_output",
+          "mini_summary": "The distribution of athlete performance metrics by constituency in British Columbia shows that the electoral district of Columbia has multiple athlete performance times. The majority of these times are associated with the Liberal party.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 1.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 10
+          }
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "dpr_id": "1_v3",
+      "combined_score": 0.6215,
+      "dpr_text": "Compile a dataset that will allow queries on \"Weird Al\" Yankovic's filmography and media appearances, including his roles in films and television shows, the year of release, and any additional notes about his contributions, in order to analyze his career trajectory, the diversity of his roles, and his impact on popular culture.",
+      "tables_used": [
+        "T1",
+        "T2",
+        "T3"
+      ],
+      "ground_truth": [
+        "T1",
+        "T2",
+        "T3"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "\"Weird Al\" Yankovic's filmography and media appearances include a diverse range of roles in films and television shows. His notable works include the films \"Tapeheads\", \"The Naked Gun : From the Files of Police Squad !\", \"Naked Gun 33\u2153 : The Final Insult\", \"Spy Hard\", and \"Safety Patrol\", as well as television appearances. The release years for these works span from 1988 to 2002, indicating a significant period of activity in his career. Additionally, his contributions to these projects are documented in the dataset, including specific episode titles such as \"Banjo\", \"Drew Between the Rock and a Hard Place\", and \"Noretta\".",
+      "metrics": {
+        "coverage": 0.6667,
+        "complexity": 0.2,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.5753,
+        "surprisal": 0.2625,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_clarity": 0.75,
+        "llm_relevance": 1.0,
+        "llm_reasoning": "The DPR is analytical and mostly clear, aligning directly with the schema columns, but could benefit from slightly more precision in its scope and phrasing."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the film and television shows that 'Weird Al' Yankovic has appeared in?",
+          "sql": "SELECT Title FROM T1 WHERE Role = 'Himself'",
+          "summary_source": "stage3_output",
+          "mini_summary": "\"Weird Al\" Yankovic has appeared in films and television shows titled \"Tapeheads\", \"The Naked Gun : From the Files of Police Squad !\", \"Naked Gun 33\u2153 : The Final Insult\", \"Spy Hard\", and \"Safety Patrol\". The titles of these works are a subset of his filmography and media appearances.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 6
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What are the release years for each of 'Weird Al' Yankovic's film and television appearances?",
+          "sql": "SELECT DISTINCT T1.Year \nFROM T1 \nWHERE T1.Role = 'Himself'",
+          "summary_source": "stage3_output",
+          "mini_summary": "The release years for 'Weird Al' Yankovic's film and television appearances include 1988, 1994, 1996, 1997, and 2002. These years represent the earliest years of appearances documented in the dataset.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 5
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What are the additional notes about 'Weird Al' Yankovic's contributions to each film and television show?",
+          "sql": "SELECT T2.Notes FROM T2 WHERE T2.Role = 'Himself'",
+          "summary_source": "stage3_output",
+          "mini_summary": "The additional notes about 'Weird Al' Yankovic's contributions to each film and television show include mentions of specific episodes. These notes reference episode titles such as \"Banjo\", \"Drew Between the Rock and a Hard Place\", and \"Noretta\".",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 0.5,
+            "n_attempts": 2,
+            "rows_returned": 3
+          }
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "dpr_id": "1",
+      "combined_score": 0.6021,
+      "dpr_text": "Compile a comprehensive dataset of \"Weird Al\" Yankovic's filmography and media appearances, including his roles in films, television shows, and other productions, and analyze how his involvement in different types of media and his portrayal in various roles have evolved over time, as well as identify any notable patterns or collaborations throughout his career.",
+      "tables_used": [
+        "T1",
+        "T2",
+        "T3"
+      ],
+      "ground_truth": [
+        "T1",
+        "T2",
+        "T3"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "\"Weird Al\" Yankovic has had a diverse career in film and television, with notable appearances in a range of productions. His filmography includes titles such as \"Tapeheads,\" \"The Naked Gun : From the Files of Police Squad !,\" \"Naked Gun 33\u2153 : The Final Insult,\" \"Spy Hard,\" and \"Safety Patrol.\" In addition to his film work, Yankovic has also made appearances on television, including at least three shows: \"Space Ghost Coast to Coast,\" \"The Drew Carey Show,\" and \"How I Met Your Mother.\" Notably, he has often portrayed himself in these productions, appearing as himself in films such as \"Tapeheads,\" \"The Naked Gun : From the Files of Police Squad !,\" and \"Naked Gun 33\u2153 : The Final Insult,\" as well as in \"Spy Hard\" and \"Safety Patrol.\"",
+      "metrics": {
+        "coverage": 0.6667,
+        "complexity": 0.2,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.6267,
+        "surprisal": 0.2625,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_clarity": 0.75,
+        "llm_relevance": 0.75,
+        "llm_reasoning": "The DPR is analytical and mostly clear, but its scope slightly exceeds the schema by requesting analysis of evolution and patterns, which are not directly supported by the available columns."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the titles of films and television shows that 'Weird Al' Yankovic has been involved in?",
+          "sql": "SELECT Title FROM T1 WHERE Role = 'Himself'",
+          "summary_source": "stage3_output",
+          "mini_summary": "\"Weird Al\" Yankovic has been involved in films and television shows including \"Tapeheads\", \"The Naked Gun : From the Files of Police Squad !\", \"Naked Gun 33\u2153 : The Final Insult\", \"Spy Hard\", and \"Safety Patrol\". These titles represent a selection of the media appearances in the dataset.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 6
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What are the different types of media that 'Weird Al' Yankovic has been involved in?",
+          "sql": "SELECT DISTINCT Title FROM T2 WHERE Role = 'Himself'",
+          "summary_source": "stage3_output",
+          "mini_summary": "The different types of media that 'Weird Al' Yankovic has been involved in include television shows. Specifically, the preview shows involvement in at least three television shows: \"Space Ghost Coast to Coast\", \"The Drew Carey Show\", and \"How I Met Your Mother\".",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 3
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What are the notable collaborations and patterns in 'Weird Al' Yankovic's filmography and media appearances?",
+          "sql": "SELECT Title, Role FROM T1 WHERE Role = 'Himself'",
+          "summary_source": "stage3_output",
+          "mini_summary": "\"Weird Al\" Yankovic has appeared as himself in films such as \"Tapeheads,\" \"The Naked Gun : From the Files of Police Squad !,\" and \"Naked Gun 33\u2153 : The Final Insult.\" He has also appeared in at least two other films, \"Spy Hard\" and \"Safety Patrol,\" in the same capacity.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 6
+          }
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "dpr_id": "2_v2",
+      "combined_score": 0.5783,
+      "dpr_text": "Compile a dataset that combines historical political data with international athletic competition results, specifically focusing on the 14th Parliament of British Columbia and the International Cross Country Championships from 1898, 1913, and 1920. This dataset should allow for queries on political party representation and changes in parliamentary composition over time, as well as athlete performance, national team standings, and trends in completion times across different championships. The data should support analyses of how political demographics and athletic performances reflect broader societal or international trends, enabling insights into both the political history of British Columbia and the evolution of international cross-country running.",
+      "tables_used": [
+        "T4",
+        "T5",
+        "T6",
+        "T7"
+      ],
+      "ground_truth": [
+        "T4",
+        "T5",
+        "T6",
+        "T7"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "Our analysis of the 14th Parliament of British Columbia and the International Cross Country Championships reveals key insights into the political history of the region and the evolution of international cross-country running. The 14th Parliament is represented by three parties: the Liberal, Independent, and Conservative parties. This diverse representation is a notable aspect of the parliament's composition. In contrast, the International Cross Country Championships in 1898, 1913, and 1920 demonstrate the endurance of athletes, with at least one notable athlete, Sidney Robinson, completing the course with a recorded time of 56:36 in 1898.",
+      "metrics": {
+        "coverage": 0.5,
+        "complexity": 0.2,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.689,
+        "surprisal": 0.4709,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_clarity": 0.75,
+        "llm_relevance": 0.5,
+        "llm_reasoning": "The DPR is analytical and mostly clear but loosely related to the schema, as it combines political and athletic data without direct support for broader societal trends."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the political party representations in the 14th Parliament of British Columbia?",
+          "sql": "SELECT DISTINCT Party FROM T4",
+          "summary_source": "stage3_output",
+          "mini_summary": "The 14th Parliament of British Columbia is represented by the Liberal, Independent, and Conservative parties. \n\nThese three parties have representation in the 14th Parliament.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 3
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What are the athlete performance metrics (e.g. completion times) for the International Cross Country Championships in 1898, 1913, and 1920?",
+          "sql": "SELECT Athlete, Time FROM T5 WHERE Time = '56:36'",
+          "summary_source": "stage3_output",
+          "mini_summary": "The International Cross Country Championships in 1898, 1913, and 1920 featured at least one athlete, Sidney Robinson, with a recorded completion time of 56:36.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "How do national team standings change across the International Cross Country Championships in 1898, 1913, and 1920?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 0.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "dpr_id": "1_v2",
+      "combined_score": 0.555,
+      "dpr_text": "Compile a comprehensive dataset of \"Weird Al\" Yankovic's filmography and media appearances, including details on the year of release, title of the work, his role, and any additional notes, to analyze his career trajectory, the variety of roles he has undertaken, and the impact of his contributions to different genres and formats of media, supporting insights into his professional evolution and the reception of his work across various platforms.",
+      "tables_used": [
+        "T1",
+        "T2",
+        "T3"
+      ],
+      "ground_truth": [
+        "T1",
+        "T2",
+        "T3"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "Based on the comprehensive dataset of 'Weird Al' Yankovic's filmography and media appearances, it is evident that he has had a diverse career trajectory. His filmography includes a range of titles such as \"Tapeheads\", \"The Naked Gun : From the Files of Police Squad !\", \"Naked Gun 33\u2153 : The Final Insult\", \"Spy Hard\", and \"Safety Patrol\", showcasing his involvement in various genres and formats of media. The release years of these works, spanning from 1988 to 2002, demonstrate his prolonged presence in the industry. Notably, 'Weird Al' Yankovic has often played the role of \"Himself\" in multiple films and media appearances, including \"Tapeheads\", \"The Naked Gun : From the Files of Police Squad !\", \"Naked Gun 33\u2153 : The Final Insult\", \"Spy Hard\", and \"Safety Patrol\". This pattern highlights his ability to navigate different roles and formats throughout his career.",
+      "metrics": {
+        "coverage": 0.3333,
+        "complexity": 0.2,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.6101,
+        "surprisal": 0.2625,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_clarity": 0.75,
+        "llm_relevance": 1.0,
+        "llm_reasoning": "The DPR is analytical and mostly clear, aligning directly with the schema, but could benefit from slightly more precision in its scope and phrasing."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the titles of all films and media appearances by 'Weird Al' Yankovic?",
+          "sql": "SELECT Title FROM T1 WHERE Role = 'Himself'",
+          "summary_source": "stage3_output",
+          "mini_summary": "The titles of 'Weird Al' Yankovic's filmography and media appearances include \"Tapeheads\", \"The Naked Gun : From the Files of Police Squad !\", \"Naked Gun 33\u2153 : The Final Insult\", \"Spy Hard\", and \"Safety Patrol\". These titles represent a selection of his works in film and media.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 6
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What are the release years of all films and media appearances by 'Weird Al' Yankovic?",
+          "sql": "SELECT DISTINCT Year FROM T1 WHERE Role = 'Himself'",
+          "summary_source": "stage3_output",
+          "mini_summary": "The release years of 'Weird Al' Yankovic's films and media appearances include 1988, 1994, 1996, 1997, and 2002. These years represent a selection of the total release years in his filmography and media appearances.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 5
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What are the roles undertaken by 'Weird Al' Yankovic in his films and media appearances?",
+          "sql": "SELECT Title, Role FROM T1 WHERE Role = 'Himself'",
+          "summary_source": "stage3_output",
+          "mini_summary": "In his films and media appearances, 'Weird Al' Yankovic has undertaken the role of \"Himself\" multiple times. The titles of these works include \"Tapeheads\", \"The Naked Gun : From the Files of Police Squad !\", \"Naked Gun 33\u2153 : The Final Insult\", \"Spy Hard\", and \"Safety Patrol\".",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 6
+          }
+        }
+      ]
+    }
+  ]
+}
