@@ -37,7 +37,7 @@ from sentence_transformers import SentenceTransformer
 EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"
 
 # Directory containing Layer 1A outputs.
-TABLES_CLEAN_DIR = "../tables_clean"
+TABLES_CLEAN_DIR = "tables_clean"
 
 # Output JSON file containing embeddings for all tables.
 OUT_PATH = "table_embeddings.json"

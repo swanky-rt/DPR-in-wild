@@ -33,7 +33,7 @@ API_BASE = "https://thekeymaker.umass.edu/"
 MODEL_NAME = "openai/gpt4o"
 
 TABLES_RAW_DIR = "tables_raw"
-TABLES_CLEAN_DIR = "../tables_clean"
+TABLES_CLEAN_DIR = "tables_clean"
 SCHEMA_DESCRIPTIONS_PATH = "schema_descriptions.json"
 
 # We show only a few rows to the LLM so prompts stay small and cheap.
