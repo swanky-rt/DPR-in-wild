@@ -40,7 +40,7 @@ EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"
 TABLES_CLEAN_DIR = "tables_clean"
 
 # Output JSON file containing embeddings for all tables.
-OUT_PATH = "table_embeddings.json"
+OUT_PATH = "../Stage-2/data/input/table_embeddings.json"
 
 
 # ----------------------------
