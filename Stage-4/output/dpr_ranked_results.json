@@ -4,8 +4,8 @@
     "total_ranked": 5,
     "unique_count": 5,
     "multi_table_count": 5,
-    "llm_model": "gpt4o",
-    "llm_api_base": "https://thekeymaker.umass.edu/v1",
+    "llm_model": "gpt-4",
+    "llm_api_base": "https://api.openai.com/v1",
     "weights_used": {
       "coverage": 0.2143,
       "complexity": 0.1429,
@@ -29,7 +29,7 @@
     {
       "rank": 1,
       "dpr_id": "2",
-      "combined_score": 0.6577,
+      "combined_score": 0.6309,
       "dpr_text": "Compile a dataset that captures historical information on political representation in British Columbia and athlete performance in International Cross Country Championships, allowing for queries on trends in electoral outcomes, athlete performance over time, and comparisons between different political parties and national teams, and assess how factors such as constituency, party affiliation, nationality, and event year influence these trends and outcomes.",
       "tables_used": [
         "T4",
@@ -58,10 +58,10 @@
         "diversity": 0.7368,
         "surprisal": 0.4709,
         "uniqueness": 1.0,
-        "llm_quality": 0.75,
-        "llm_clarity": 0.75,
+        "llm_quality": 0.5,
+        "llm_clarity": 0.5,
         "llm_relevance": 0.5,
-        "llm_reasoning": "The DPR is analytical and mostly clear but loosely related to the schema, as it combines political and athletic data without direct alignment to the available columns."
+        "llm_reasoning": "LLM judge skipped (no API key provided)."
       },
       "sub_queries": [
         {
@@ -131,23 +131,25 @@
     },
     {
       "rank": 2,
-      "dpr_id": "1_v3",
-      "combined_score": 0.6215,
-      "dpr_text": "Compile a dataset that will allow queries on \"Weird Al\" Yankovic's filmography and media appearances, including his roles in films and television shows, the year of release, and any additional notes about his contributions, in order to analyze his career trajectory, the diversity of his roles, and his impact on popular culture.",
+      "dpr_id": "2_v2",
+      "combined_score": 0.5515,
+      "dpr_text": "Compile a dataset that combines historical political data with international athletic competition results, specifically focusing on the 14th Parliament of British Columbia and the International Cross Country Championships from 1898, 1913, and 1920. This dataset should allow for queries on political party representation and changes in parliamentary composition over time, as well as athlete performance, national team standings, and trends in completion times across different championships. The data should support analyses of how political demographics and athletic performances reflect broader societal or international trends, enabling insights into both the political history of British Columbia and the evolution of international cross-country running.",
       "tables_used": [
-        "T1",
-        "T2",
-        "T3"
+        "T4",
+        "T5",
+        "T6",
+        "T7"
       ],
       "ground_truth": [
-        "T1",
-        "T2",
-        "T3"
+        "T4",
+        "T5",
+        "T6",
+        "T7"
       ],
       "summary_source": "stage3_output",
-      "final_summary": "\"Weird Al\" Yankovic's filmography and media appearances include a diverse range of roles in films and television shows. His notable works include the films \"Tapeheads\", \"The Naked Gun : From the Files of Police Squad !\", \"Naked Gun 33\u2153 : The Final Insult\", \"Spy Hard\", and \"Safety Patrol\", as well as television appearances. The release years for these works span from 1988 to 2002, indicating a significant period of activity in his career. Additionally, his contributions to these projects are documented in the dataset, including specific episode titles such as \"Banjo\", \"Drew Between the Rock and a Hard Place\", and \"Noretta\".",
+      "final_summary": "Our analysis of the 14th Parliament of British Columbia and the International Cross Country Championships reveals key insights into the political history of the region and the evolution of international cross-country running. The 14th Parliament is represented by three parties: the Liberal, Independent, and Conservative parties. This diverse representation is a notable aspect of the parliament's composition. In contrast, the International Cross Country Championships in 1898, 1913, and 1920 demonstrate the endurance of athletes, with at least one notable athlete, Sidney Robinson, completing the course with a recorded time of 56:36 in 1898.",
       "metrics": {
-        "coverage": 0.6667,
+        "coverage": 0.5,
         "complexity": 0.2,
         "complexity_breakdown": {
           "multi_table": 0.0,
@@ -156,21 +158,21 @@
           "subquery": 0.0,
           "multi_entity": 1.0
         },
-        "diversity": 0.5753,
-        "surprisal": 0.2625,
+        "diversity": 0.689,
+        "surprisal": 0.4709,
         "uniqueness": 1.0,
-        "llm_quality": 0.75,
-        "llm_clarity": 0.75,
-        "llm_relevance": 1.0,
-        "llm_reasoning": "The DPR is analytical and mostly clear, aligning directly with the schema columns, but could benefit from slightly more precision in its scope and phrasing."
+        "llm_quality": 0.5,
+        "llm_clarity": 0.5,
+        "llm_relevance": 0.5,
+        "llm_reasoning": "LLM judge skipped (no API key provided)."
       },
       "sub_queries": [
         {
           "sub_query_index": 1,
-          "sub_question": "What are the film and television shows that 'Weird Al' Yankovic has appeared in?",
-          "sql": "SELECT Title FROM T1 WHERE Role = 'Himself'",
+          "sub_question": "What are the political party representations in the 14th Parliament of British Columbia?",
+          "sql": "SELECT DISTINCT Party FROM T4",
           "summary_source": "stage3_output",
-          "mini_summary": "\"Weird Al\" Yankovic has appeared in films and television shows titled \"Tapeheads\", \"The Naked Gun : From the Files of Police Squad !\", \"Naked Gun 33\u2153 : The Final Insult\", \"Spy Hard\", and \"Safety Patrol\". The titles of these works are a subset of his filmography and media appearances.",
+          "mini_summary": "The 14th Parliament of British Columbia is represented by the Liberal, Independent, and Conservative parties. \n\nThese three parties have representation in the 14th Parliament.",
           "metrics": {
             "execution_status": 1.0,
             "complexity": 0.2,
@@ -183,15 +185,15 @@
             },
             "attempt_success_rate": 1.0,
             "n_attempts": 1,
-            "rows_returned": 6
+            "rows_returned": 3
           }
         },
         {
           "sub_query_index": 2,
-          "sub_question": "What are the release years for each of 'Weird Al' Yankovic's film and television appearances?",
-          "sql": "SELECT DISTINCT T1.Year \nFROM T1 \nWHERE T1.Role = 'Himself'",
+          "sub_question": "What are the athlete performance metrics (e.g. completion times) for the International Cross Country Championships in 1898, 1913, and 1920?",
+          "sql": "SELECT Athlete, Time FROM T5 WHERE Time = '56:36'",
           "summary_source": "stage3_output",
-          "mini_summary": "The release years for 'Weird Al' Yankovic's film and television appearances include 1988, 1994, 1996, 1997, and 2002. These years represent the earliest years of appearances documented in the dataset.",
+          "mini_summary": "The International Cross Country Championships in 1898, 1913, and 1920 featured at least one athlete, Sidney Robinson, with a recorded completion time of 56:36.",
           "metrics": {
             "execution_status": 1.0,
             "complexity": 0.2,
@@ -204,17 +206,17 @@
             },
             "attempt_success_rate": 1.0,
             "n_attempts": 1,
-            "rows_returned": 5
+            "rows_returned": 1
           }
         },
         {
           "sub_query_index": 3,
-          "sub_question": "What are the additional notes about 'Weird Al' Yankovic's contributions to each film and television show?",
-          "sql": "SELECT T2.Notes FROM T2 WHERE T2.Role = 'Himself'",
+          "sub_question": "How do national team standings change across the International Cross Country Championships in 1898, 1913, and 1920?",
+          "sql": "",
           "summary_source": "stage3_output",
-          "mini_summary": "The additional notes about 'Weird Al' Yankovic's contributions to each film and television show include mentions of specific episodes. These notes reference episode titles such as \"Banjo\", \"Drew Between the Rock and a Hard Place\", and \"Noretta\".",
+          "mini_summary": "",
           "metrics": {
-            "execution_status": 1.0,
+            "execution_status": 0.0,
             "complexity": 0.2,
             "complexity_breakdown": {
               "multi_table": 0.0,
@@ -223,9 +225,9 @@
               "subquery": 0.0,
               "multi_entity": 1.0
             },
-            "attempt_success_rate": 0.5,
-            "n_attempts": 2,
-            "rows_returned": 3
+            "attempt_success_rate": 0.0,
+            "n_attempts": 3,
+            "rows_returned": 0
           }
         }
       ]
@@ -233,7 +235,7 @@
     {
       "rank": 3,
       "dpr_id": "1",
-      "combined_score": 0.6021,
+      "combined_score": 0.5485,
       "dpr_text": "Compile a comprehensive dataset of \"Weird Al\" Yankovic's filmography and media appearances, including his roles in films, television shows, and other productions, and analyze how his involvement in different types of media and his portrayal in various roles have evolved over time, as well as identify any notable patterns or collaborations throughout his career.",
       "tables_used": [
         "T1",
@@ -260,10 +262,10 @@
         "diversity": 0.6267,
         "surprisal": 0.2625,
         "uniqueness": 1.0,
-        "llm_quality": 0.75,
-        "llm_clarity": 0.75,
-        "llm_relevance": 0.75,
-        "llm_reasoning": "The DPR is analytical and mostly clear, but its scope slightly exceeds the schema by requesting analysis of evolution and patterns, which are not directly supported by the available columns."
+        "llm_quality": 0.5,
+        "llm_clarity": 0.5,
+        "llm_relevance": 0.5,
+        "llm_reasoning": "LLM judge skipped (no API key provided)."
       },
       "sub_queries": [
         {
@@ -333,25 +335,23 @@
     },
     {
       "rank": 4,
-      "dpr_id": "2_v2",
-      "combined_score": 0.5783,
-      "dpr_text": "Compile a dataset that combines historical political data with international athletic competition results, specifically focusing on the 14th Parliament of British Columbia and the International Cross Country Championships from 1898, 1913, and 1920. This dataset should allow for queries on political party representation and changes in parliamentary composition over time, as well as athlete performance, national team standings, and trends in completion times across different championships. The data should support analyses of how political demographics and athletic performances reflect broader societal or international trends, enabling insights into both the political history of British Columbia and the evolution of international cross-country running.",
+      "dpr_id": "1_v3",
+      "combined_score": 0.5412,
+      "dpr_text": "Compile a dataset that will allow queries on \"Weird Al\" Yankovic's filmography and media appearances, including his roles in films and television shows, the year of release, and any additional notes about his contributions, in order to analyze his career trajectory, the diversity of his roles, and his impact on popular culture.",
       "tables_used": [
-        "T4",
-        "T5",
-        "T6",
-        "T7"
+        "T1",
+        "T2",
+        "T3"
       ],
       "ground_truth": [
-        "T4",
-        "T5",
-        "T6",
-        "T7"
+        "T1",
+        "T2",
+        "T3"
       ],
       "summary_source": "stage3_output",
-      "final_summary": "Our analysis of the 14th Parliament of British Columbia and the International Cross Country Championships reveals key insights into the political history of the region and the evolution of international cross-country running. The 14th Parliament is represented by three parties: the Liberal, Independent, and Conservative parties. This diverse representation is a notable aspect of the parliament's composition. In contrast, the International Cross Country Championships in 1898, 1913, and 1920 demonstrate the endurance of athletes, with at least one notable athlete, Sidney Robinson, completing the course with a recorded time of 56:36 in 1898.",
+      "final_summary": "\"Weird Al\" Yankovic's filmography and media appearances include a diverse range of roles in films and television shows. His notable works include the films \"Tapeheads\", \"The Naked Gun : From the Files of Police Squad !\", \"Naked Gun 33\u2153 : The Final Insult\", \"Spy Hard\", and \"Safety Patrol\", as well as television appearances. The release years for these works span from 1988 to 2002, indicating a significant period of activity in his career. Additionally, his contributions to these projects are documented in the dataset, including specific episode titles such as \"Banjo\", \"Drew Between the Rock and a Hard Place\", and \"Noretta\".",
       "metrics": {
-        "coverage": 0.5,
+        "coverage": 0.6667,
         "complexity": 0.2,
         "complexity_breakdown": {
           "multi_table": 0.0,
@@ -360,21 +360,21 @@
           "subquery": 0.0,
           "multi_entity": 1.0
         },
-        "diversity": 0.689,
-        "surprisal": 0.4709,
+        "diversity": 0.5753,
+        "surprisal": 0.2625,
         "uniqueness": 1.0,
-        "llm_quality": 0.75,
-        "llm_clarity": 0.75,
+        "llm_quality": 0.5,
+        "llm_clarity": 0.5,
         "llm_relevance": 0.5,
-        "llm_reasoning": "The DPR is analytical and mostly clear but loosely related to the schema, as it combines political and athletic data without direct support for broader societal trends."
+        "llm_reasoning": "LLM judge skipped (no API key provided)."
       },
       "sub_queries": [
         {
           "sub_query_index": 1,
-          "sub_question": "What are the political party representations in the 14th Parliament of British Columbia?",
-          "sql": "SELECT DISTINCT Party FROM T4",
+          "sub_question": "What are the film and television shows that 'Weird Al' Yankovic has appeared in?",
+          "sql": "SELECT Title FROM T1 WHERE Role = 'Himself'",
           "summary_source": "stage3_output",
-          "mini_summary": "The 14th Parliament of British Columbia is represented by the Liberal, Independent, and Conservative parties. \n\nThese three parties have representation in the 14th Parliament.",
+          "mini_summary": "\"Weird Al\" Yankovic has appeared in films and television shows titled \"Tapeheads\", \"The Naked Gun : From the Files of Police Squad !\", \"Naked Gun 33\u2153 : The Final Insult\", \"Spy Hard\", and \"Safety Patrol\". The titles of these works are a subset of his filmography and media appearances.",
           "metrics": {
             "execution_status": 1.0,
             "complexity": 0.2,
@@ -387,15 +387,15 @@
             },
             "attempt_success_rate": 1.0,
             "n_attempts": 1,
-            "rows_returned": 3
+            "rows_returned": 6
           }
         },
         {
           "sub_query_index": 2,
-          "sub_question": "What are the athlete performance metrics (e.g. completion times) for the International Cross Country Championships in 1898, 1913, and 1920?",
-          "sql": "SELECT Athlete, Time FROM T5 WHERE Time = '56:36'",
+          "sub_question": "What are the release years for each of 'Weird Al' Yankovic's film and television appearances?",
+          "sql": "SELECT DISTINCT T1.Year \nFROM T1 \nWHERE T1.Role = 'Himself'",
           "summary_source": "stage3_output",
-          "mini_summary": "The International Cross Country Championships in 1898, 1913, and 1920 featured at least one athlete, Sidney Robinson, with a recorded completion time of 56:36.",
+          "mini_summary": "The release years for 'Weird Al' Yankovic's film and television appearances include 1988, 1994, 1996, 1997, and 2002. These years represent the earliest years of appearances documented in the dataset.",
           "metrics": {
             "execution_status": 1.0,
             "complexity": 0.2,
@@ -408,17 +408,17 @@
             },
             "attempt_success_rate": 1.0,
             "n_attempts": 1,
-            "rows_returned": 1
+            "rows_returned": 5
           }
         },
         {
           "sub_query_index": 3,
-          "sub_question": "How do national team standings change across the International Cross Country Championships in 1898, 1913, and 1920?",
-          "sql": "",
+          "sub_question": "What are the additional notes about 'Weird Al' Yankovic's contributions to each film and television show?",
+          "sql": "SELECT T2.Notes FROM T2 WHERE T2.Role = 'Himself'",
           "summary_source": "stage3_output",
-          "mini_summary": "",
+          "mini_summary": "The additional notes about 'Weird Al' Yankovic's contributions to each film and television show include mentions of specific episodes. These notes reference episode titles such as \"Banjo\", \"Drew Between the Rock and a Hard Place\", and \"Noretta\".",
           "metrics": {
-            "execution_status": 0.0,
+            "execution_status": 1.0,
             "complexity": 0.2,
             "complexity_breakdown": {
               "multi_table": 0.0,
@@ -427,9 +427,9 @@
               "subquery": 0.0,
               "multi_entity": 1.0
             },
-            "attempt_success_rate": 0.0,
-            "n_attempts": 3,
-            "rows_returned": 0
+            "attempt_success_rate": 0.5,
+            "n_attempts": 2,
+            "rows_returned": 3
           }
         }
       ]
@@ -437,7 +437,7 @@
     {
       "rank": 5,
       "dpr_id": "1_v2",
-      "combined_score": 0.555,
+      "combined_score": 0.4747,
       "dpr_text": "Compile a comprehensive dataset of \"Weird Al\" Yankovic's filmography and media appearances, including details on the year of release, title of the work, his role, and any additional notes, to analyze his career trajectory, the variety of roles he has undertaken, and the impact of his contributions to different genres and formats of media, supporting insights into his professional evolution and the reception of his work across various platforms.",
       "tables_used": [
         "T1",
@@ -464,10 +464,10 @@
         "diversity": 0.6101,
         "surprisal": 0.2625,
         "uniqueness": 1.0,
-        "llm_quality": 0.75,
-        "llm_clarity": 0.75,
-        "llm_relevance": 1.0,
-        "llm_reasoning": "The DPR is analytical and mostly clear, aligning directly with the schema, but could benefit from slightly more precision in its scope and phrasing."
+        "llm_quality": 0.5,
+        "llm_clarity": 0.5,
+        "llm_relevance": 0.5,
+        "llm_reasoning": "LLM judge skipped (no API key provided)."
       },
       "sub_queries": [
         {

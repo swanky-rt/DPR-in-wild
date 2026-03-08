@@ -26,6 +26,7 @@ import numpy as np
 from pathlib import Path
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+import argparse
 
 # ── Optional: real LLM judge ──────────────────────────────────────────────────
 try:
@@ -38,7 +39,12 @@ except ImportError:
 #  LOAD DATA
 # ─────────────────────────────────────────────────────────────────────────────
 
-with open("stage3_output_final.json") as f:
+parser = argparse.ArgumentParser()
+parser.add_argument("--input", required=True)
+parser.add_argument("--output_dir", required=True)
+args = parser.parse_args()
+
+with open(args.input) as f:
     raw_data = json.load(f)
 
 
