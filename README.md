@@ -47,6 +47,7 @@ Stage 2 (DPRs + table_uids)
          ▼
 Stage 3 output JSON (per DPR: sub_questions, subquery_results, mini_summaries, final_summary, …)
 
+```
 ---
 
 ## 3. Implementation Details
