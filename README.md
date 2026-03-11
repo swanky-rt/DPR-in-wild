@@ -112,8 +112,8 @@ For **each sub-question** we run up to **3 attempts**:
 ---
 
 ## 4. Output Structure (`stage3_output_final.json`)
-
-{
+```
+ {
     "dpr_id": "1",
     "DPR": "Compile a comprehensive dataset of \"Weird Al\" Yankovic's filmography and media appearances, including his roles in films, television shows, and other productions, and analyze how his involvement in different types of media and his portrayal in various roles have evolved over time, as well as identify any notable patterns or collaborations throughout his career.",
     "sub_questions": [
@@ -231,7 +231,7 @@ For **each sub-question** we run up to **3 attempts**:
     "llm_model": "llama-3.1-8b-instant",
     "upstream_model": null
   }
-
+```
 
 ---
 
