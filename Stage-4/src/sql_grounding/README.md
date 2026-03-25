@@ -1,63 +1,52 @@
 # Stage 3 — SQL generation + grounding (from Stage 2 output)
 
-This folder contains **Stage 3** of your project pipeline:
+**Stage 2** (DPRs + `ground_truth.table_uids`) → **Stage 3** (this module) → **Stage 4** (metrics).
 
-**Stage 2 output (Athulya)** → **Stage 3 (this code: SQL generation + grounding)** → **Stage 4 metrics**.
+## Inputs
 
-## Inputs (Stage 2)
+- **DPR list:** `dprs-*.json` (JSON array) or `dprs-*.jsonl` (one JSON object per line). Each object should include `dpr_id`, `DPR`, `ground_truth.table_uids` (cluster — not all ~100 tables).
 
-Stage 3 accepts either of these Stage‑2 output files:
+## Table data (Stage 1)
 
-### 1) DPR list (recommended)
-`dprs-*.json` (example: `stage-2 sampledata/output/dprs-llama-3.3-70b-versatile.json`)
+- Pass **`--tables-meta`** to `data/stage1_outputs/tables_clean` (directory of per-table JSON with `rows`), **or** omit it: the pipeline tries to resolve `data/stage1_outputs/tables_clean` from the repo root.
+- **SQLite:** For each DPR, only **cluster** tables are loaded, with **all rows** from each JSON. The LLM still sees only a **small sample** of rows in the prompt (`LLM_SAMPLE_ROWS_PER_TABLE`).
 
-A JSON list of objects:
-- **dpr_id**
-- **DPR**
-- **model** (optional; which LLM produced the DPR)
-- **ground_truth.table_uids** (e.g. `["T2","T3"]`)
+## Model
 
-Stage 3 will automatically infer `tables.json` from the stage‑2 folder structure:
-`stage-2 sampledata/input/tables.json`
+- Default Groq model: **`llama-3.3-70b-versatile`** (override with env **`GROQ_MODEL`**).
 
-### 2) Filtered clusters
-`filtered_clusters.json`
+## Output sidecar
 
-This file contains per‑DPR table metadata but does **not** contain the DPR text, so Stage 3 automatically joins it with a neighboring `dprs-*.json`.
+Next to `-o` JSON, the pipeline also writes **`{stem}_execution_summary.json`** (counts: execution success and positive row counts). LLM-based relevance/quality metrics belong in Stage 4, not here.
 
-## Output (for Stage 4 metrics)
+## Running (project root)
 
-Stage 3 writes a JSON list, one object per DPR:
-- **dpr_id**
-- **DPR**
-- **tables**: list of `T*` table ids used
-- **ground_truth**
-- **generated_sql**
-- **execution_status**: whether SQL executed successfully against the schema
-- **result**: `{ validation, row_count, preview }` or `{ validation, error }`
-- **schema_mapping**: original column → SQL-safe column (important because stage‑2 schemas often include spaces like `"GDP Nominal (USD)"`)
-- **llm_model**: model used for SQL generation
-- **upstream_model**: model that produced the DPR upstream (if present)
-
-## Grounding note (important)
-
-Stage‑2 sample data includes **schemas only**, not table rows, so “grounding” here defaults to:
-- **SQL executes successfully against the schema** (even if 0 rows are returned).
-
-If later you have real rows and want to fail empty results, run with `--require-non-empty`.
-
-## Running
-
-From project root:
+Full Stage 2 JSONL (e.g. 30 DPRs), inferred `tables_clean`:
 
 ```bash
-python -m src.sql_grounding.pipeline -i "stage-2 sampledata/output/dprs-llama-3.3-70b-versatile.json" -o stage3_output.json -n 5
+python src/sql_grounding/pipeline.py -i "data/stage2_outputs/dprs-qwen3-32b.jsonl" -o "data/stage3/stage3_output.json"
 ```
 
-If `tables.json` cannot be inferred, pass it explicitly:
+Explicit paths:
 
 ```bash
-python -m src.sql_grounding.pipeline -i <dprs.json> -o stage3_output.json -n 5 --tables-meta "stage-2 sampledata/input/tables.json"
+python src/sql_grounding/pipeline.py -i "data/stage2_outputs/your_dprs.jsonl" -o "data/stage3/stage3_output.json" --tables-meta "data/stage1_outputs/tables_clean"
 ```
 
-To run all DPRs, set `-n 100` (or whatever count you have).
+- **`-n N`:** process only the first `N` DPRs (smoke test).
+- **`--all`:** same as default now (process entire file); kept for clarity.
+
+Optional: `--require-non-empty` to treat empty `SELECT` results as failed grounding.
+
+## Behaviour notes
+
+- **SQL attempts:** Up to **4** generation/refinement attempts per sub-question (`MAX_SQL_ATTEMPTS`).
+- **Column whitelist:** Prompts include allowed columns per table to reduce hallucinated fields.
+- **Feasibility:** Sub-questions that look like they require missing columns (e.g. `year` when no Year exists) may be **skipped** with `skipped: true` in `subquery_results`.
+- **Decomposition:** Prompts discourage lazy generic questions; sub-questions should preserve analytical intent when schema supports it.
+- **Empty results:** Refinement prompt steers toward LIKE/fuzzy text match, MIN/MAX discovery, or another cluster table—not blind `SELECT *`.
+- **Summaries:** Mini- and final summaries are **evidence-constrained** (only what appears in result rows / prior bullets).
+
+## Troubleshooting “empty” output
+
+If `result.error` mentions **tokens per day (TPD)** or **429**, Groq’s free tier quota is exhausted — the implementation is not “empty SQL”; the API refused the request. Options: wait for reset, upgrade tier, switch `GROQ_MODEL` to another model, or run fewer DPRs (`-n 3`). Partial progress (`sub_questions`, `subquery_results`) is preserved when a later call fails.

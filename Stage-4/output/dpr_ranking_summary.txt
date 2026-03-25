@@ -1,129 +1,632 @@
-Rank #1  |  DPR: 2  |  Combined Score: 0.6309
+Rank #1  |  DPR: 8_v2  |  Combined Score: 0.7941
 ============================================================
-  Coverage           0.7500
-  Complexity         0.3333
-  Diversity          0.7368
-  Surprisal          0.4709
+  Coverage           1.0000
+  Complexity         0.4000
+  Diversity          0.8551
+  Surprisal          0.4905
   Uniqueness         1.0000
-  LLM Quality        0.5000
-  LLM Relevance      0.5000
-  LLM Clarity        0.5000
+  LLM Quality        1.0000
+  LLM Relevance      0.7500
+  LLM Clarity        0.7500
 
   Summary:
-    The historical electoral outcomes for British Columbia have been
-    recorded for at least five electoral districts, including Alberni,
-    Atlin, Cariboo, Chilliwack, and Columbia. These districts demonstrate
-    the presence of electoral data for various areas within the province. In
-    the context of international cross-country championships, athlete
-    performance times vary by nationality, with at least two English
-    athletes recording times of 56:36 and 56:36.4. Notably, the distribution
-    of athlete performance metrics by constituency in British Columbia
-    reveals that the electoral district of Columbia has multiple athlete
-    performance times associated with the Liberal party.
+    The unified dataset contains record times for 110m hurdles and 1500m
+    world records, including athlete names, timestamps, recorded times, and
+    locations. However, the dataset is limited in that it does not include
+    record times for 1500m in T55. For 110m hurdles in T34, the fastest
+    times are 13.33 seconds and 13.42 seconds. The location with the most
+    records in T56 and T57 is Moscow, Soviet Union, with 8 records.
 
 ============================================================
 
-Rank #2  |  DPR: 2_v2  |  Combined Score: 0.5515
+Rank #2  |  DPR: 6  |  Combined Score: 0.7363
 ============================================================
-  Coverage           0.5000
-  Complexity         0.2000
-  Diversity          0.6890
-  Surprisal          0.4709
+  Coverage           1.0000
+  Complexity         0.4000
+  Diversity          0.8258
+  Surprisal          0.4905
   Uniqueness         1.0000
-  LLM Quality        0.5000
+  LLM Quality        0.7500
   LLM Relevance      0.5000
-  LLM Clarity        0.5000
+  LLM Clarity        0.7500
 
   Summary:
-    Our analysis of the 14th Parliament of British Columbia and the
-    International Cross Country Championships reveals key insights into the
-    political history of the region and the evolution of international
-    cross-country running. The 14th Parliament is represented by three
-    parties: the Liberal, Independent, and Conservative parties. This
-    diverse representation is a notable aspect of the parliament's
-    composition. In contrast, the International Cross Country Championships
-    in 1898, 1913, and 1920 demonstrate the endurance of athletes, with at
-    least one notable athlete, Sidney Robinson, completing the course with a
-    recorded time of 56:36 in 1898.
+    The dataset shows that long-distance event average race times in T22
+    have fluctuated between 26.2 and 27.04 minutes over the years. All
+    athletes in the result set are from the United States, with varying
+    records of breaking the 100m barrier. Record-breaking performances in
+    T22 and T23 are most common in Brussels, with a total of 8 such
+    performances. However, the dataset does not provide information on
+    sprint event times, athlete representation by country, or geographic
+    influences on event outcomes, indicating limitations in the available
+    evidence.
 
 ============================================================
 
-Rank #3  |  DPR: 1  |  Combined Score: 0.5485
+Rank #3  |  DPR: 5  |  Combined Score: 0.7171
+============================================================
+  Coverage           0.7143
+  Complexity         0.6667
+  Diversity          0.8527
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.7500
+  LLM Relevance      0.5000
+  LLM Clarity        0.7500
+
+  Summary:
+    The school affiliation in one of the datasets is USC. In another
+    dataset, the most common positions are WR, with WR appearing twice. The
+    distribution of player statuses in a different dataset includes EFA,
+    RFA, and UFA, with EFA having a total count of 5, RFA having a total
+    count of 14, and UFA having a total count of 9. However, the comparison
+    of school affiliations across different datasets is not shown in the
+    evidence.
+
+============================================================
+
+Rank #4  |  DPR: 5_v3  |  Combined Score: 0.7149
+============================================================
+  Coverage           0.7143
+  Complexity         0.6667
+  Diversity          0.8373
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.7500
+  LLM Relevance      0.5000
+  LLM Clarity        0.7500
+
+  Summary:
+    The analysis of player transitions and historical college sports
+    excellence reveals that WR and OG are the most common positions among
+    players. However, the number of players for each position is not shown.
+    Additionally, USC has the most players in certain datasets, but the
+    total number of players is unknown. Limitations are visible in the
+    evidence as it does not provide information on player transitions
+    between teams or the number of players for each position.
+
+============================================================
+
+Rank #5  |  DPR: 6_v2  |  Combined Score: 0.7143
+============================================================
+  Coverage           1.0000
+  Complexity         0.0667
+  Diversity          0.8177
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.7500
+  LLM Relevance      0.7500
+  LLM Clarity        0.7500
+
+  Summary:
+    Historical 10,000m race times have shown improvement, with a notable
+    decrease in time between 2000 and 2004. Major events are predominantly
+    hosted in Sollentuna, but the evidence does not provide information on
+    how 10,000m race times have improved across decades or how frequently
+    100m records are broken over time, indicating limitations in the
+    available data.
+
+============================================================
+
+Rank #6  |  DPR: 9_v2  |  Combined Score: 0.7019
+============================================================
+  Coverage           0.4545
+  Complexity         0.6000
+  Diversity          0.8285
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        1.0000
+  LLM Relevance      0.7500
+  LLM Clarity        0.7500
+
+  Summary:
+    The dataset should track representatives' residences, which include
+    locations such as East Palestine, Delaware, Wooster, Lima, and
+    Lancaster, and their corresponding party affiliations, which are
+    Republican and Democratic. However, the dataset does not show party
+    changes that occur between first election and term limited dates. It
+    does show that the most common reasons for change are retirement and
+    election with a specified percentage of the vote, but the years in which
+    these changes occurred are not visible in the evidence.
+
+============================================================
+
+Rank #7  |  DPR: 7_v2  |  Combined Score: 0.6946
+============================================================
+  Coverage           0.4286
+  Complexity         0.6000
+  Diversity          0.8157
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        1.0000
+  LLM Relevance      0.7500
+  LLM Clarity        0.7500
+
+  Summary:
+    The party affiliations of vacators and successors in certain instances
+    are Democrat and Republican. Successor appointment timelines vary by
+    reason for change, with formal installation dates occurring for deaths
+    on June 5, 2001, June 19, 2001, or October 16, 2001, and for
+    resignations on May 15, 2001, or November 20, 2001. Reasons for change
+    include death, resignation due to appointment as U.S. Secretary of
+    Agriculture, resignation, and resignation to become President of the
+    Negro College Fund. However, the evidence does not provide a
+    comprehensive dataset spanning multiple Congresses, limiting the ability
+    to analyze broader trends and correlations.
+
+============================================================
+
+Rank #8  |  DPR: 9  |  Combined Score: 0.6847
+============================================================
+  Coverage           0.3636
+  Complexity         0.6000
+  Diversity          0.8444
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        1.0000
+  LLM Relevance      0.7500
+  LLM Clarity        0.7500
+
+  Summary:
+    The dataset does not provide comprehensive information on
+    district-level leadership changes, specifically noting no changes in
+    districts T39 and T46 during the relevant sessions. Additionally, the
+    specific seat turnover rates affected by term limits in districts T40
+    and T48 are not shown. It is also evident that certain districts are
+    term-limited, including districts 1, 9, and 13. However, the dataset
+    does not provide specific trends in causes of legislative transitions in
+    districts T39 and T46, and the seat turnover rates affected by term
+    limits in districts T40 and T48 remain unclear.
+
+============================================================
+
+Rank #9  |  DPR: 1  |  Combined Score: 0.6806
 ============================================================
   Coverage           0.6667
-  Complexity         0.2000
-  Diversity          0.6267
-  Surprisal          0.2625
+  Complexity         0.4667
+  Diversity          0.8691
+  Surprisal          0.4905
   Uniqueness         1.0000
-  LLM Quality        0.5000
+  LLM Quality        0.7500
   LLM Relevance      0.5000
   LLM Clarity        0.5000
 
   Summary:
-    "Weird Al" Yankovic has had a diverse career in film and television,
-    with notable appearances in a range of productions. His filmography
-    includes titles such as "Tapeheads," "The Naked Gun : From the Files of
-    Police Squad !," "Naked Gun 33⅓ : The Final Insult," "Spy Hard," and
-    "Safety Patrol." In addition to his film work, Yankovic has also made
-    appearances on television, including at least three shows: "Space Ghost
-    Coast to Coast," "The Drew Carey Show," and "How I Met Your Mother."
-    Notably, he has often portrayed himself in these productions, appearing
-    as himself in films such as "Tapeheads," "The Naked Gun : From the Files
-    of Police Squad !," and "Naked Gun 33⅓ : The Final Insult," as well as
-    in "Spy Hard" and "Safety Patrol."
+    Weird Al Yankovic's film roles include Clothing Store Customer,
+    Himself, Himself / Kevin, Himself / Phineaus Cage, and Petroleum Joe.
+    However, limitations are visible in the evidence as revenue metrics for
+    films from 1957 and 1974 are not available. Compositions from 1955-1964
+    were performed by various groups and individuals at locations including
+    Bergamo, Cologne, Birmingham, London, and Baden-Baden.
 
 ============================================================
 
-Rank #4  |  DPR: 1_v3  |  Combined Score: 0.5412
+Rank #10  |  DPR: 5_v2  |  Combined Score: 0.6806
 ============================================================
-  Coverage           0.6667
-  Complexity         0.2000
-  Diversity          0.5753
-  Surprisal          0.2625
+  Coverage           0.5714
+  Complexity         0.6667
+  Diversity          0.8115
+  Surprisal          0.4905
   Uniqueness         1.0000
-  LLM Quality        0.5000
+  LLM Quality        0.7500
   LLM Relevance      0.5000
   LLM Clarity        0.5000
 
   Summary:
-    "Weird Al" Yankovic's filmography and media appearances include a
-    diverse range of roles in films and television shows. His notable works
-    include the films "Tapeheads", "The Naked Gun : From the Files of Police
-    Squad !", "Naked Gun 33⅓ : The Final Insult", "Spy Hard", and "Safety
-    Patrol", as well as television appearances. The release years for these
-    works span from 1988 to 2002, indicating a significant period of
-    activity in his career. Additionally, his contributions to these
-    projects are documented in the dataset, including specific episode
-    titles such as "Banjo", "Drew Between the Rock and a Hard Place", and
-    "Noretta".
+    The positions of OG, RB, S, and WR are present among Kansas City Chiefs
+    players, but the positions most common among players in T16 and T17 are
+    not shown. The schools of Yale and USC are most represented among
+    selected players, with USC being the most represented school. In T16,
+    the positions of C, CB, and FB appear once, while LB and OG appear
+    twice. The distribution of positions in T17 is not shown, and
+    limitations are visible in the evidence regarding the positions most
+    common among players in T16 and T17.
 
 ============================================================
 
-Rank #5  |  DPR: 1_v2  |  Combined Score: 0.4747
+Rank #11  |  DPR: 10  |  Combined Score: 0.6598
 ============================================================
   Coverage           0.3333
   Complexity         0.2000
-  Diversity          0.6101
-  Surprisal          0.2625
+  Diversity          0.8738
+  Surprisal          0.7317
   Uniqueness         1.0000
-  LLM Quality        0.5000
+  LLM Quality        1.0000
+  LLM Relevance      0.7500
+  LLM Clarity        0.7500
+
+  Summary:
+    The positions selected by teams in the dataset are F, G/F, -, and C,
+    with the first round of the 1947 draft featuring Forward, Guard/Forward,
+    Guard/Forward, Unknown, and Center. However, the positions selected in
+    rounds other than the first are not shown. The 1948 draft saw players
+    from various colleges drafted by teams, including Vermont, Purdue, Ohio
+    State, Long Island, and Pennsylvania. Despite this information, the
+    distribution of positions selected and team drafting priorities between
+    the two years remain unclear, as the evidence does not provide this
+    information.
+
+============================================================
+
+Rank #12  |  DPR: 2  |  Combined Score: 0.6588
+============================================================
+  Coverage           0.4444
+  Complexity         0.3333
+  Diversity          0.8084
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        1.0000
+  LLM Relevance      0.7500
+  LLM Clarity        0.7500
+
+  Summary:
+    A standardized dataset of legislative members can be compiled for
+    British Columbia, Manitoba, and Puerto Rico, mapping electoral districts
+    to their respective members and political affiliations. The dataset will
+    include electoral districts such as Alberni, Atlin, Cariboo, Chilliwack,
+    and Columbia, and their associated members. In Puerto Rico, the parties
+    represented in District Num . V ( District 21-25 ) Ponce are PDP, while
+    in Senator At-Large, both NPP and PDP are represented. In District Num .
+    I ( District 1-5 ) San Juan, NPP is the represented party. The
+    affiliations in T31 and T30 are both Conservative. However, limitations
+    are visible in the evidence as it does not provide information on the
+    affiliations of all electoral districts or the parties represented in
+    Manitoba.
+
+============================================================
+
+Rank #13  |  DPR: 6_v3  |  Combined Score: 0.6274
+============================================================
+  Coverage           0.6667
+  Complexity         0.1333
+  Diversity          0.8297
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.7500
+  LLM Relevance      0.5000
+  LLM Clarity        0.7500
+
+  Summary:
+    A unified dataset of historical performance records in 10,000m and 100m
+    sprints could be compiled, including locations and record-breaking
+    milestones. The locations of top-performing athletes are Rio de Janeiro,
+    Utrecht, Beijing, Munich, and Paris. However, the years associated with
+    record-breaking times are only known for T22 and T23, which are 2000,
+    2001, 2002, 2003, and 2004. Limitations are visible in the evidence as
+    the years for T23 are unknown, and the dataset does not include
+    information on athlete names or the 100m barrier.
+
+============================================================
+
+Rank #14  |  DPR: 8  |  Combined Score: 0.6238
+============================================================
+  Coverage           0.6000
+  Complexity         0.2000
+  Diversity          0.8384
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.7500
+  LLM Relevance      0.5000
+  LLM Clarity        0.7500
+
+  Summary:
+    The unified dataset should combine 110m hurdles and 1500m world record
+    data, standardizing temporal fields and athlete attributes, to allow
+    comparative analysis of rate of record progression over time and
+    geographical concentration patterns in record-setting locations.
+    However, the evidence does not provide sufficient information to support
+    querying correlations between athlete specialization shifts and
+    performance milestones, as it does not show any correlations between
+    Place values and Athlete performance in T56.
+
+============================================================
+
+Rank #15  |  DPR: 1_v2  |  Combined Score: 0.6216
+============================================================
+  Coverage           0.4444
+  Complexity         0.4000
+  Diversity          0.8563
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.7500
   LLM Relevance      0.5000
   LLM Clarity        0.5000
 
   Summary:
-    Based on the comprehensive dataset of 'Weird Al' Yankovic's filmography
-    and media appearances, it is evident that he has had a diverse career
-    trajectory. His filmography includes a range of titles such as
-    "Tapeheads", "The Naked Gun : From the Files of Police Squad !", "Naked
-    Gun 33⅓ : The Final Insult", "Spy Hard", and "Safety Patrol", showcasing
-    his involvement in various genres and formats of media. The release
-    years of these works, spanning from 1988 to 2002, demonstrate his
-    prolonged presence in the industry. Notably, 'Weird Al' Yankovic has
-    often played the role of "Himself" in multiple films and media
-    appearances, including "Tapeheads", "The Naked Gun : From the Files of
-    Police Squad !", "Naked Gun 33⅓ : The Final Insult", "Spy Hard", and
-    "Safety Patrol". This pattern highlights his ability to navigate
-    different roles and formats throughout his career.
+    The revenue for certain films, such as "The Bridge on the River Kwai"
+    and "The Ten Commandments", is $0.0, while others, like "Mother India",
+    have a revenue of $16800000.0. The admissions for these films vary, with
+    "The Bridge on the River Kwai" having 13481750.0 and 14500000.0
+    admissions, and "Mother India" having 100000000.0 admissions. However,
+    the Domestic_gross values for films from 1974 are not shown in the
+    evidence, indicating a limitation in the available data.
+
+============================================================
+
+Rank #16  |  DPR: 4  |  Combined Score: 0.6215
+============================================================
+  Coverage           0.3846
+  Complexity         0.5333
+  Diversity          0.8117
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.7500
+  LLM Relevance      0.5000
+  LLM Clarity        0.7500
+
+  Summary:
+    The analysis reveals that certain provinces, including Auckland,
+    Canterbury, Nelson, New Plymouth, and Otago, are consistently
+    represented in rugby union tour teams. However, the distribution of
+    rugby players' provinces over time is not shown in the evidence.
+    Additionally, the result set does not provide information about the
+    correlation between rugby match venues and parliamentary electorates,
+    nor does it show the distribution of rugby players' provinces in T65 and
+    T74 over time.
+
+============================================================
+
+Rank #17  |  DPR: 8_v3  |  Combined Score: 0.6112
+============================================================
+  Coverage           0.6000
+  Complexity         0.1333
+  Diversity          0.8166
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.7500
+  LLM Relevance      0.5000
+  LLM Clarity        0.7500
+
+  Summary:
+    The compilation of historical world records for the 110m hurdles and
+    1500m events reveals that Moscow, Soviet Union is a location with a
+    record-setting time. However, the dataset does not provide information
+    on record-setting locations in the T56 classification or how athlete
+    performances in the T54 classification change over time.
+
+============================================================
+
+Rank #18  |  DPR: 7  |  Combined Score: 0.6018
+============================================================
+  Coverage           0.2143
+  Complexity         0.2667
+  Diversity          0.8213
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        1.0000
+  LLM Relevance      0.7500
+  LLM Clarity        0.7500
+
+  Summary:
+    The dataset documents legislative turnover, including vacancy causes
+    such as death and resignation, but frequencies of other causes are
+    unknown. The party affiliations of successors are all "Rep", but the
+    affiliations of vacators are not shown. The time to successor
+    installation is not correlated with vacancy reasons for T29, and the
+    dates of successor formal installation are available for certain
+    instances.
+
+============================================================
+
+Rank #19  |  DPR: 7_v3  |  Combined Score: 0.5969
+============================================================
+  Coverage           0.1429
+  Complexity         0.3333
+  Diversity          0.8276
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        1.0000
+  LLM Relevance      0.7500
+  LLM Clarity        0.7500
+
+  Summary:
+    A historical dataset documenting legislative vacancies and replacements
+    across U.S. Congresses and states should include information on
+    districts, parties, reasons for vacancies, successor timelines, and
+    demographic details. The average age of representatives in high-turnover
+    districts is approximately 56 years old, with an average tenure of
+    approximately 2001 months. Successor timelines vary by reason for change
+    and party, with some successors being installed after a resignation and
+    others after a death. The most common reason for legislative vacancies
+    varies by district, with resignation being the most common in Arizona's
+    2nd district and death being the most common in several other districts.
+    However, limitations are visible in the evidence as the most common
+    reasons for legislative vacancies in other districts are not shown.
+
+============================================================
+
+Rank #20  |  DPR: 9_v3  |  Combined Score: 0.5969
+============================================================
+  Coverage           0.1818
+  Complexity         0.2667
+  Diversity          0.8356
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.7500
+  LLM Relevance      1.0000
+  LLM Clarity        0.7500
+
+  Summary:
+    A comprehensive dataset on Ohio legislative representation and turnover
+    events is needed to analyze how turnover patterns, party affiliation
+    shifts, and term limits influence legislative decision-making. The
+    dataset should include historical records of member transitions, party
+    composition trends by district, and demographic factors such as
+    residence. However, limitations are visible in the evidence, as it does
+    not provide information on party composition trends for all districts,
+    nor does it show the years in which term limits influenced legislative
+    turnover.
+
+============================================================
+
+Rank #21  |  DPR: 3_v2  |  Combined Score: 0.5911
+============================================================
+  Coverage           0.2778
+  Complexity         0.4667
+  Diversity          0.8260
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.7500
+  LLM Relevance      0.5000
+  LLM Clarity        0.7500
+
+  Summary:
+    The historical sports performance data shows that the top 5 teams in
+    T83 had the same Team Points, but the times for T5 and T6 between 1898
+    and 1948 are 56:36, 56:36.4, 57:14.8, 57:22.6, and 57:48.4, though the
+    years these times occurred are unknown. The result set also indicates
+    that Nationality affects Rank in T7 and T77, but only shows empty Rank
+    values for "Scotland" and "England", limiting the assessment of this
+    relationship.
+
+============================================================
+
+Rank #22  |  DPR: 2_v2  |  Combined Score: 0.5786
+============================================================
+  Coverage           0.3333
+  Complexity         0.2667
+  Diversity          0.8553
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.7500
+  LLM Relevance      0.5000
+  LLM Clarity        0.7500
+
+  Summary:
+    The analysis of legislative data reveals that certain electoral
+    districts, including Manitou, Portage la Prairie, Winnipeg South, and
+    Emerson, are mentioned. However, the study does not show how these
+    districts change over time. The parties represented in the data are
+    Liberal, Independent, and Conservative, while the distribution of
+    parties in another context is NPP with 13 Senators and PDP with 7
+    Senators. Limitations are visible in the evidence as the study does not
+    provide information on how electoral districts in T31 change over time.
+
+============================================================
+
+Rank #23  |  DPR: 2_v3  |  Combined Score: 0.5745
+============================================================
+  Coverage           0.3333
+  Complexity         0.2667
+  Diversity          0.8265
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.7500
+  LLM Relevance      0.5000
+  LLM Clarity        0.7500
+
+  Summary:
+    The current dataset only includes electoral districts affiliated with
+    the Conservative Party, with no information on districts in T31 or T58.
+    It also shows that the Liberal Party is represented in Alberni, Atlin,
+    Cariboo, Chilliwack, and Columbia districts in T4, but does not provide
+    information on other parties in T4 or any districts in T31 and T58.
+
+============================================================
+
+Rank #24  |  DPR: 3_v3  |  Combined Score: 0.5717
+============================================================
+  Coverage           0.2222
+  Complexity         0.4000
+  Diversity          0.8402
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.7500
+  LLM Relevance      0.5000
+  LLM Clarity        0.5000
+
+  Summary:
+    The top-performing nationalities in cross country championships are
+    France and England. In motorsport events, the most successful car
+    constructors are Alfa Romeo, Bugatti, ERA, and Maserati. However, the
+    conservation statuses of New World monkey species by size are not shown
+    in the available data, indicating a limitation in the evidence.
+
+============================================================
+
+Rank #25  |  DPR: 4_v3  |  Combined Score: 0.5655
+============================================================
+  Coverage           0.2308
+  Complexity         0.3333
+  Diversity          0.8503
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.7500
+  LLM Relevance      0.5000
+  LLM Clarity        0.7500
+
+  Summary:
+    The provinces represented in historical New Zealand rugby union tours
+    include Auckland, Canterbury, Nelson, New Plymouth, and Otago. The
+    distribution of scores in these tours is limited to the United States,
+    with cities such as San Francisco, Berkeley, and Palo Alto being
+    mentioned. However, the evidence does not provide information on the
+    match outcomes, team composition, or regional demographics, indicating
+    limitations in the available data.
+
+============================================================
+
+Rank #26  |  DPR: 1_v3  |  Combined Score: 0.5562
+============================================================
+  Coverage           0.2222
+  Complexity         0.2667
+  Diversity          0.8649
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.7500
+  LLM Relevance      0.5000
+  LLM Clarity        0.5000
+
+  Summary:
+    Warner Bros. has the highest domestic gross, with a revenue of
+    119,500,000. The revenue trends for top-grossing films in different
+    countries include a film from India with a revenue of 16,800,000.0 and a
+    film from France and Germany with a revenue of 0.0, indicating varying
+    international market performance. However, limitations are visible in
+    the evidence as it does not provide information on market preferences,
+    artist career impacts, or historical chart success patterns.
+
+============================================================
+
+Rank #27  |  DPR: 4_v2  |  Combined Score: 0.5291
+============================================================
+  Coverage           0.1538
+  Complexity         0.2000
+  Diversity          0.8447
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.7500
+  LLM Relevance      0.5000
+  LLM Clarity        0.7500
+
+  Summary:
+    The 1st New Zealand Parliament's members represented the provinces of
+    Canterbury and Auckland. However, limitations in the available data make
+    it unclear when the parliament was formed. Historical records of
+    inter-colonial rugby tours show that matches were played at various
+    venues, including the Parramatta Ground, Agricultural Society Ground,
+    and Cricket Ground, but the specific years of these matches are not
+    provided.
+
+============================================================
+
+Rank #28  |  DPR: 3  |  Combined Score: 0.5174
+============================================================
+  Coverage           0.1667
+  Complexity         0.2667
+  Diversity          0.8642
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.5000
+  LLM Relevance      0.5000
+  LLM Clarity        0.7500
+
+  Summary:
+    The analysis of athlete performance trends is limited, as no trends are
+    visible. Similarly, the evaluation of conservation statuses by taxonomy
+    classification is incomplete, as the variation of conservation statuses
+    by taxonomy classification is not shown. Additionally, the average sizes
+    of species by conservation status are not provided.
 
 ============================================================
 

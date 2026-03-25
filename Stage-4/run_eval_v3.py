@@ -39,13 +39,13 @@ except ImportError:
 #  LOAD DATA
 # ─────────────────────────────────────────────────────────────────────────────
 
-parser = argparse.ArgumentParser()
-parser.add_argument("--input", required=True)
-parser.add_argument("--output_dir", required=True)
-args = parser.parse_args()
-
-with open(args.input) as f:
-    raw_data = json.load(f)
+# parser = argparse.ArgumentParser()
+# parser.add_argument("--input", required=True)
+# parser.add_argument("--output_dir", required=True)
+# args = parser.parse_args()
+#
+# with open(args.input) as f:
+#     raw_data = json.load(f)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
