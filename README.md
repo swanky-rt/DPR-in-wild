@@ -61,19 +61,19 @@ Stage 3 output JSON (per DPR: sub_questions, subquery_results, mini_summaries, f
 
 ### 3.2 Database: Schema + Real Data Grounding
 
-- **Function:** `_build_empty_db_from_table_metadata(table_metas)`
+- **Function:** `_build_cluster_sqlite_from_table_metadata(table_metas)`
 - **Input:** Table metadata for the DPR’s tables only (e.g., T1, T2, T3). Metadata comes from `_load_tables_meta(path)`, which supports:
   - A **directory** of JSON files (e.g., `data/stage1/tables_clean/` with T1.json … T10.json)
   - A **single** `tables.json` file (dict of table_id → meta).
   - **Data:** We read `meta["rows"]` from each T*.json. We support:
     - **Row dicts:** `[{ "Year": 1988, "Title": "Tapeheads", "Role": "Himself" }, ...]`
     - **Flattened cells (HybridQA):** `[{ "value": "1988", "urls": [] }, { "value": "Tapeheads", ... }, ...]` grouped by column count.
-  - We insert up to `MAX_SAMPLE_ROWS_PER_TABLE` (e.g., 10) rows per table so that **SQL runs against real data**, not empty tables.
+  - **SQLite:** All rows from `meta["rows"]` are inserted into an in-memory DB (real schema + real table contents). The LLM prompt uses a **small sample** of rows separately (`_fetch_table_samples`); execution still runs against the full loaded data.
 - **Result:** Execution returns real `row_count` and `preview`; mini-summaries are grounded in actual cells.
 
 ### 3.3 Phase 2: Self-Correcting SQL Loop (Per Sub-Question)
 
-For **each sub-question** we run up to **3 attempts**:
+For **each sub-question** we run up to **4 attempts** (typed retry policy):
 
 1. **Sample rows for the LLM**  
    `_fetch_table_samples(cursor, table_uids)` runs `SELECT * FROM Tn LIMIT 5` for each table and formats the result as JSON. This is passed into both `generate_sql` and `refine_sql_with_error` so the model sees **real values** (e.g., `Role = 'Himself'`).
@@ -237,7 +237,7 @@ For **each sub-question** we run up to **3 attempts**:
 
 ## 6. One-Paragraph Summary (For Abstract or Intro)
 
-*Stage 3 turns Stage 2 DPRs into grounded, judgeable answers. It decomposes each DPR into atomic sub-questions, builds an in-memory SQLite database from table metadata and sample rows (T1..T10 JSONs), and runs an agentic loop per sub-question: the LLM generates SQL using schema and example rows, the pipeline blocks cartesian joins and executes queries, and on error or empty result it refines the SQL (up to 3 attempts). Successful results are summarized into mini-summaries and then into a single final summary per DPR. This design enforces schema and data grounding and reduces join/schema/data hallucination, so Stage 4 can reliably score how well the final summary reflects the DPR given the actual data.*
+*Stage 3 turns Stage 2 DPRs into grounded, judgeable answers. It decomposes each DPR into atomic sub-questions, builds an in-memory SQLite database from table metadata and sample rows (T1..T10 JSONs), and runs an agentic loop per sub-question: the LLM generates SQL using schema and example rows, the pipeline blocks cartesian joins and executes queries, and on error or empty result it refines the SQL (up to 4 attempts, with simplify/discovery/alternate-table phases). Successful results are summarized into mini-summaries and then into a single final summary per DPR. This design enforces schema and data grounding and reduces join/schema/data hallucination, so Stage 4 can reliably score how well the final summary reflects the DPR given the actual data.*
 
 ---
 
