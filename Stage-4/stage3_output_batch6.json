@@ -1,0 +1,579 @@
+[
+  {
+    "dpr_id": "9_v2",
+    "DPR": "Compile a dataset spanning the 127th to 130th Ohio General Assemblies to analyze trends in party affiliation stability, term limit turnover, and leadership transitions. This should include: (1) tracking how often representatives/senators face term limits and succeed in running for other roles; (2) identifying shifts in partisan control of districts over time by comparing first-election dates and party alignment; (3) examining geographical concentration of representatives\u2019 residences to detect regional political influence changes. The dataset should support queries to quantify long-term institutional continuity, assess demographic consistency in representation, and model electoral cycle patterns against legislative outcomes.",
+    "sub_questions": [
+      "How do residence locations in T41 and T42 correlate with district party control over time?",
+      "What party changes occur in T40 and T41 between first election and term limited dates?",
+      "What are the most common reasons for change in T39 and T46 across different districts?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "How do residence locations in T41 and T42 correlate with district party control over time?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT T41.Residence, T41.Party, T42.Party FROM T41 INNER JOIN T42 ON T41.District = T42.District",
+            "execution_status": true,
+            "error": null,
+            "row_count": 20,
+            "retry_phase": "generate"
+          }
+        ],
+        "final_sql": "SELECT T41.Residence, T41.Party, T42.Party FROM T41 INNER JOIN T42 ON T41.District = T42.District",
+        "final_execution_status": true,
+        "final_row_count": 20,
+        "mini_summary": "The residence locations in T41 and T42 include East Palestine, Delaware, Wooster, Lima, and Lancaster. \n\nThe parties of the residence locations in T41 and T42 include Republican and Democratic."
+      },
+      {
+        "sub_question": "What party changes occur in T40 and T41 between first election and term limited dates?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT T40.Party, T41.Party FROM T40 INNER JOIN T41 ON T40.District = T41.District WHERE T40.First_elected < T40.Term_Limited AND T41.First_Elected < T41.Term_Limited",
+            "execution_status": true,
+            "error": null,
+            "row_count": 8,
+            "retry_phase": "generate"
+          }
+        ],
+        "final_sql": "SELECT T40.Party, T41.Party FROM T40 INNER JOIN T41 ON T40.District = T41.District WHERE T40.First_elected < T40.Term_Limited AND T41.First_Elected < T41.Term_Limited",
+        "final_execution_status": true,
+        "final_row_count": 8,
+        "mini_summary": "The result set does not show the party changes that occur in T40 and T41 between first election and term limited dates."
+      },
+      {
+        "sub_question": "What are the most common reasons for change in T39 and T46 across different districts?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Reason_for_change FROM T39 UNION ALL SELECT Reason_for_change FROM T46",
+            "execution_status": true,
+            "error": null,
+            "row_count": 17,
+            "retry_phase": "generate"
+          }
+        ],
+        "final_sql": "SELECT Reason_for_change FROM T39 UNION ALL SELECT Reason_for_change FROM T46",
+        "final_execution_status": true,
+        "final_row_count": 17,
+        "mini_summary": "The most common reasons for change in T39 and T46 across different districts are retirement and election with a specified percentage of the vote. \n\nThe result set does not show the years in which these changes occurred."
+      }
+    ],
+    "mini_summaries": [
+      "The residence locations in T41 and T42 include East Palestine, Delaware, Wooster, Lima, and Lancaster. \n\nThe parties of the residence locations in T41 and T42 include Republican and Democratic.",
+      "The result set does not show the party changes that occur in T40 and T41 between first election and term limited dates.",
+      "The most common reasons for change in T39 and T46 across different districts are retirement and election with a specified percentage of the vote. \n\nThe result set does not show the years in which these changes occurred."
+    ],
+    "final_summary": "The dataset should track representatives' residences, which include locations such as East Palestine, Delaware, Wooster, Lima, and Lancaster, and their corresponding party affiliations, which are Republican and Democratic. However, the dataset does not show party changes that occur between first election and term limited dates. It does show that the most common reasons for change are retirement and election with a specified percentage of the vote, but the years in which these changes occurred are not visible in the evidence.",
+    "tables": [
+      "T39",
+      "T40",
+      "T41",
+      "T42",
+      "T43",
+      "T44",
+      "T45",
+      "T46",
+      "T47",
+      "T48",
+      "T49"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T44",
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T49"
+      ]
+    },
+    "generated_sql": "SELECT T41.Residence, T41.Party, T42.Party FROM T41 INNER JOIN T42 ON T41.District = T42.District",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 20,
+      "preview": [
+        {
+          "Residence": "East Palestine",
+          "Party": "Republican"
+        },
+        {
+          "Residence": "Delaware",
+          "Party": "Republican"
+        },
+        {
+          "Residence": "Wooster",
+          "Party": "Republican"
+        },
+        {
+          "Residence": "Lima",
+          "Party": "Republican"
+        },
+        {
+          "Residence": "Lancaster",
+          "Party": "Democratic"
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T39": {
+        "District": "District",
+        "Previous Senator": "Previous_Senator",
+        "Reason for change": "Reason_for_change",
+        "New Senator": "New_Senator",
+        "Date": "Date"
+      },
+      "T40": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T41": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T42": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T43": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T44": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T45": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T46": {
+        "District": "District",
+        "Predecessor": "Predecessor",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date successor seated": "Date_successor_seated"
+      },
+      "T47": {
+        "District": "District",
+        "Predecessor": "Predecessor",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date successor seated": "Date_successor_seated"
+      },
+      "T48": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T49": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "9_v3",
+    "DPR": "Compile a comprehensive dataset documenting Ohio legislative representation and turnover events (123rd\u2013130th General Assemblies) that enables analysis of how turnover patterns, party affiliation shifts, and term limits influence legislative decision-making. The dataset should include historical records of member transitions (predecessors, successors, reasons for change), party composition trends by district, and demographic factors (residence, first elected year) to support strategic planning for political engagement, policy resource allocation, and electoral strategy development in Ohio.",
+    "sub_questions": [
+      "What party composition trends exist in Ohio districts?",
+      "What residence demographics are associated with first elected year in T41?",
+      "How do term limits influence legislative turnover in T40?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "What party composition trends exist in Ohio districts?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Party, COUNT(District) FROM T40 GROUP BY Party",
+            "execution_status": true,
+            "error": null,
+            "row_count": 2,
+            "retry_phase": "generate"
+          }
+        ],
+        "final_sql": "SELECT Party, COUNT(District) FROM T40 GROUP BY Party",
+        "final_execution_status": true,
+        "final_row_count": 2,
+        "mini_summary": "The result set shows that there are 5 districts with a Democratic party composition and 15 districts with a Republican party composition."
+      },
+      {
+        "sub_question": "What residence demographics are associated with first elected year in T41?",
+        "feasibility_warning": "Feasibility warning: question references risky concepts (e.g. year/date/rank) that may not exist in this cluster schema.",
+        "attempts": [
+          {
+            "sql": "SELECT Residence, First_Elected FROM T41",
+            "execution_status": true,
+            "error": null,
+            "row_count": 20,
+            "retry_phase": "generate"
+          }
+        ],
+        "final_sql": "SELECT Residence, First_Elected FROM T41",
+        "final_execution_status": true,
+        "final_row_count": 20,
+        "mini_summary": "The residence demographics associated with first elected year in T41 include East Palestine (2006), Delaware (2000), Wooster (2000), Lima (2006), and Lancaster (2006). \n\nThe result set does not show the years or metrics for other residence demographics in T41."
+      },
+      {
+        "sub_question": "How do term limits influence legislative turnover in T40?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Term_Limited FROM T40 WHERE Party LIKE '%Republican%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 15,
+            "retry_phase": "generate"
+          }
+        ],
+        "final_sql": "SELECT Term_Limited FROM T40 WHERE Party LIKE '%Republican%'",
+        "final_execution_status": true,
+        "final_row_count": 15,
+        "mini_summary": "The result set does not show the years in which term limits influenced legislative turnover in T40."
+      }
+    ],
+    "mini_summaries": [
+      "The result set shows that there are 5 districts with a Democratic party composition and 15 districts with a Republican party composition.",
+      "The residence demographics associated with first elected year in T41 include East Palestine (2006), Delaware (2000), Wooster (2000), Lima (2006), and Lancaster (2006). \n\nThe result set does not show the years or metrics for other residence demographics in T41.",
+      "The result set does not show the years in which term limits influenced legislative turnover in T40."
+    ],
+    "final_summary": "A comprehensive dataset on Ohio legislative representation and turnover events is needed to analyze how turnover patterns, party affiliation shifts, and term limits influence legislative decision-making. The dataset should include historical records of member transitions, party composition trends by district, and demographic factors such as residence. However, limitations are visible in the evidence, as it does not provide information on party composition trends for all districts, nor does it show the years in which term limits influenced legislative turnover.",
+    "tables": [
+      "T39",
+      "T40",
+      "T41",
+      "T42",
+      "T43",
+      "T44",
+      "T45",
+      "T46",
+      "T47",
+      "T48",
+      "T49"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T44",
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T49"
+      ]
+    },
+    "generated_sql": "SELECT Party, COUNT(District) FROM T40 GROUP BY Party",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 2,
+      "preview": [
+        {
+          "Party": "Democratic",
+          "COUNT(District)": 5
+        },
+        {
+          "Party": "Republican",
+          "COUNT(District)": 15
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T39": {
+        "District": "District",
+        "Previous Senator": "Previous_Senator",
+        "Reason for change": "Reason_for_change",
+        "New Senator": "New_Senator",
+        "Date": "Date"
+      },
+      "T40": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T41": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T42": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T43": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T44": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T45": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T46": {
+        "District": "District",
+        "Predecessor": "Predecessor",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date successor seated": "Date_successor_seated"
+      },
+      "T47": {
+        "District": "District",
+        "Predecessor": "Predecessor",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date successor seated": "Date_successor_seated"
+      },
+      "T48": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T49": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "10",
+    "DPR": "Compile a dataset containing the 1947 and 1948 BAA draft selections by player, including their position, team, college, and draft round/pick. Analyze how the distribution of positions selected differs between the two years, investigate correlations between players\u2019 colleges and teams that drafted them, and assess how early-round concentration and team drafting priorities evolved between 1947 and 1948.",
+    "sub_questions": [
+      "How do team drafting priorities differ between 1947 and 1948 by position?",
+      "What positions were selected in each round of the 1947 draft?",
+      "What colleges were most commonly associated with each team in the 1948 draft?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "How do team drafting priorities differ between 1947 and 1948 by position?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Team, Position FROM T93 UNION ALL SELECT Team, Position FROM T94",
+            "execution_status": true,
+            "error": null,
+            "row_count": 30,
+            "retry_phase": "generate"
+          }
+        ],
+        "final_sql": "SELECT Team, Position FROM T93 UNION ALL SELECT Team, Position FROM T94",
+        "final_execution_status": true,
+        "final_row_count": 30,
+        "mini_summary": "The result set does not show how team drafting priorities differ between 1947 and 1948 by position. \n\nThe positions selected by teams in the result set are F, G/F, -, and C."
+      },
+      {
+        "sub_question": "What positions were selected in each round of the 1947 draft?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Round, Position FROM T93",
+            "execution_status": true,
+            "error": null,
+            "row_count": 10,
+            "retry_phase": "generate"
+          }
+        ],
+        "final_sql": "SELECT Round, Position FROM T93",
+        "final_execution_status": true,
+        "final_row_count": 10,
+        "mini_summary": "The positions selected in the first round of the 1947 draft were Forward, Guard/Forward, Guard/Forward, Unknown, and Center. \n\nThe result set does not show the positions selected in rounds other than the first."
+      },
+      {
+        "sub_question": "What colleges were most commonly associated with each team in the 1948 draft?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Team, College, COUNT(*) as count FROM T93 GROUP BY Team, College ORDER BY count DESC",
+            "execution_status": true,
+            "error": null,
+            "row_count": 10,
+            "retry_phase": "generate"
+          }
+        ],
+        "final_sql": "SELECT Team, College, COUNT(*) as count FROM T93 GROUP BY Team, College ORDER BY count DESC",
+        "final_execution_status": true,
+        "final_row_count": 10,
+        "mini_summary": "The Baltimore Bullets drafted a player from Vermont in the 1948 draft. \nThe Boston Celtics drafted a player from Purdue in the 1948 draft. \nThe Chicago Stags drafted a player from Ohio State in the 1948 draft. \nThe New York Knicks drafted a player from Long Island in the 1948 draft. \nThe Philadelphia Warriors drafted a player from Pennsylvania in the 1948 draft."
+      }
+    ],
+    "mini_summaries": [
+      "The result set does not show how team drafting priorities differ between 1947 and 1948 by position. \n\nThe positions selected by teams in the result set are F, G/F, -, and C.",
+      "The positions selected in the first round of the 1947 draft were Forward, Guard/Forward, Guard/Forward, Unknown, and Center. \n\nThe result set does not show the positions selected in rounds other than the first.",
+      "The Baltimore Bullets drafted a player from Vermont in the 1948 draft. \nThe Boston Celtics drafted a player from Purdue in the 1948 draft. \nThe Chicago Stags drafted a player from Ohio State in the 1948 draft. \nThe New York Knicks drafted a player from Long Island in the 1948 draft. \nThe Philadelphia Warriors drafted a player from Pennsylvania in the 1948 draft."
+    ],
+    "final_summary": "The positions selected by teams in the dataset are F, G/F, -, and C, with the first round of the 1947 draft featuring Forward, Guard/Forward, Guard/Forward, Unknown, and Center. However, the positions selected in rounds other than the first are not shown. The 1948 draft saw players from various colleges drafted by teams, including Vermont, Purdue, Ohio State, Long Island, and Pennsylvania. Despite this information, the distribution of positions selected and team drafting priorities between the two years remain unclear, as the evidence does not provide this information.",
+    "tables": [
+      "T93",
+      "T94",
+      "T95",
+      "T96",
+      "T97",
+      "T98"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T93",
+        "T94",
+        "T95",
+        "T96",
+        "T97",
+        "T98"
+      ]
+    },
+    "generated_sql": "SELECT Team, Position FROM T93 UNION ALL SELECT Team, Position FROM T94",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 30,
+      "preview": [
+        {
+          "Team": "Pittsburgh Ironmen",
+          "Position": "F"
+        },
+        {
+          "Team": "Toronto Huskies",
+          "Position": "G/F"
+        },
+        {
+          "Team": "Boston Celtics",
+          "Position": "G/F"
+        },
+        {
+          "Team": "Providence Steamrollers",
+          "Position": "-"
+        },
+        {
+          "Team": "New York Knicks",
+          "Position": "C"
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T93": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T94": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T95": {
+        "Player": "Player",
+        "Position": "Position",
+        "College": "College"
+      },
+      "T96": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T97": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T98": {
+        "Player": "Player",
+        "Position": "Position",
+        "College": "College"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  }
+]

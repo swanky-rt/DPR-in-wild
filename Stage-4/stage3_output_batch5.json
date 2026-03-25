@@ -1,0 +1,901 @@
+[
+  {
+    "dpr_id": "7_v3",
+    "DPR": "Compile a historical dataset documenting legislative vacancies and replacements across U.S. Congresses and states, including districts, parties, reasons for vacancies, successor timelines, and demographic details (e.g., age, tenure, political affiliation). The data product should enable analysis of vacancy frequency, causes, and resolution efficiency to support decisions such as: optimizing emergency succession protocols, identifying high-turnover regions for targeted candidate recruitment or retention strategies, and assessing the political, geographic, or demographic factors influencing stability in legislative representation. Include comparative metrics across time periods and regions to guide policy interventions and resource allocation.",
+    "sub_questions": [
+      "What is the average age and tenure of representatives in high-turnover districts?",
+      "How do successor timelines vary by party and region?",
+      "What are the most common reasons for legislative vacancies in each district?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "What is the average age and tenure of representatives in high-turnover districts?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT AVG(T26.Current_Age) AS average_age, AVG(T26.First_Elected) AS average_tenure FROM T26 WHERE T26.District LIKE '%1%' OR T26.District LIKE '%2%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 1,
+            "retry_phase": "generate"
+          }
+        ],
+        "final_sql": "SELECT AVG(T26.Current_Age) AS average_age, AVG(T26.First_Elected) AS average_tenure FROM T26 WHERE T26.District LIKE '%1%' OR T26.District LIKE '%2%'",
+        "final_execution_status": true,
+        "final_row_count": 1,
+        "mini_summary": "The average age of representatives in high-turnover districts is approximately 56 years old. \n\nThe average tenure of representatives in high-turnover districts is approximately 2001 months."
+      },
+      {
+        "sub_question": "How do successor timelines vary by party and region?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Successor, Reason_for_change, Date_of_successor_s_formal_installation FROM T27 WHERE Reason_for_change LIKE '%Resigned%' OR Reason_for_change LIKE '%Died%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 10,
+            "retry_phase": "generate"
+          }
+        ],
+        "final_sql": "SELECT Successor, Reason_for_change, Date_of_successor_s_formal_installation FROM T27 WHERE Reason_for_change LIKE '%Resigned%' OR Reason_for_change LIKE '%Died%'",
+        "final_execution_status": true,
+        "final_row_count": 10,
+        "mini_summary": "The successor timelines vary by reason for change, with some successors being installed after a resignation and others after a death. \nThe successor timelines also vary by party, with Democratic successors being installed on dates such as June 18, 1991, and Republican successors being installed on dates such as July 2, 1991."
+      },
+      {
+        "sub_question": "What are the most common reasons for legislative vacancies in each district?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT District, Reason_for_change, COUNT(*) as count \nFROM T27 \nGROUP BY District, Reason_for_change \nORDER BY count DESC;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 10,
+            "retry_phase": "generate"
+          }
+        ],
+        "final_sql": "SELECT District, Reason_for_change, COUNT(*) as count \nFROM T27 \nGROUP BY District, Reason_for_change \nORDER BY count DESC;",
+        "final_execution_status": true,
+        "final_row_count": 10,
+        "mini_summary": "The most common reason for legislative vacancies in Arizona's 2nd district is resignation. \nThe most common reason for legislative vacancies in Illinois's 15th district is resignation after being appointed U.S. Secretary of Agriculture. \nThe most common reason for legislative vacancies in Massachusetts's 1st district is death. \nThe most common reason for legislative vacancies in New York's 17th district is death. \nThe most common reason for legislative vacancies in North Carolina's 1st district is death. \nThe result set does not show the most common reasons for legislative vacancies in other districts."
+      }
+    ],
+    "mini_summaries": [
+      "The average age of representatives in high-turnover districts is approximately 56 years old. \n\nThe average tenure of representatives in high-turnover districts is approximately 2001 months.",
+      "The successor timelines vary by reason for change, with some successors being installed after a resignation and others after a death. \nThe successor timelines also vary by party, with Democratic successors being installed on dates such as June 18, 1991, and Republican successors being installed on dates such as July 2, 1991.",
+      "The most common reason for legislative vacancies in Arizona's 2nd district is resignation. \nThe most common reason for legislative vacancies in Illinois's 15th district is resignation after being appointed U.S. Secretary of Agriculture. \nThe most common reason for legislative vacancies in Massachusetts's 1st district is death. \nThe most common reason for legislative vacancies in New York's 17th district is death. \nThe most common reason for legislative vacancies in North Carolina's 1st district is death. \nThe result set does not show the most common reasons for legislative vacancies in other districts."
+    ],
+    "final_summary": "A historical dataset documenting legislative vacancies and replacements across U.S. Congresses and states should include information on districts, parties, reasons for vacancies, successor timelines, and demographic details. The average age of representatives in high-turnover districts is approximately 56 years old, with an average tenure of approximately 2001 months. Successor timelines vary by reason for change and party, with some successors being installed after a resignation and others after a death. The most common reason for legislative vacancies varies by district, with resignation being the most common in Arizona's 2nd district and death being the most common in several other districts. However, limitations are visible in the evidence as the most common reasons for legislative vacancies in other districts are not shown.",
+    "tables": [
+      "T26",
+      "T27",
+      "T28",
+      "T29",
+      "T32",
+      "T33",
+      "T35",
+      "T36",
+      "T37",
+      "T38",
+      "T51",
+      "T59",
+      "T68",
+      "T69"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T26",
+        "T27",
+        "T28",
+        "T29",
+        "T32",
+        "T33",
+        "T35",
+        "T36",
+        "T37",
+        "T38",
+        "T51",
+        "T59",
+        "T68",
+        "T69"
+      ]
+    },
+    "generated_sql": "SELECT AVG(T26.Current_Age) AS average_age, AVG(T26.First_Elected) AS average_tenure FROM T26 WHERE T26.District LIKE '%1%' OR T26.District LIKE '%2%'",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 1,
+      "preview": [
+        {
+          "average_age": 56.07692307692308,
+          "average_tenure": 2001.5384615384614
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T26": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Current Age": "Current_Age",
+        "Residence": "Residence",
+        "First Elected": "First_Elected"
+      },
+      "T27": {
+        "District": "District",
+        "Vacator": "Vacator",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date of successor 's formal installation": "Date_of_successor_s_formal_installation"
+      },
+      "T28": {
+        "District": "District",
+        "Vacator": "Vacator",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date of successor 's formal installation": "Date_of_successor_s_formal_installation"
+      },
+      "T29": {
+        "District": "District",
+        "Vacator": "Vacator",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date of successor 's formal installation": "Date_of_successor_s_formal_installation"
+      },
+      "T32": {
+        "State ( class )": "State_class_",
+        "Vacator": "Vacator",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date of successor 's formal installation": "Date_of_successor_s_formal_installation"
+      },
+      "T33": {
+        "District": "District",
+        "Vacator": "Vacator",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date of successor 's formal installation": "Date_of_successor_s_formal_installation"
+      },
+      "T35": {
+        "State ( class )": "State_class_",
+        "Vacator": "Vacator",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date of successor 's formal installation": "Date_of_successor_s_formal_installation"
+      },
+      "T36": {
+        "District": "District",
+        "Vacator": "Vacator",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date of successor 's formal installation": "Date_of_successor_s_formal_installation"
+      },
+      "T37": {
+        "State ( class )": "State_class_",
+        "Vacator": "Vacator",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date of successor 's formal installation": "Date_of_successor_s_formal_installation"
+      },
+      "T38": {
+        "District": "District",
+        "Vacator": "Vacator",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date of successor 's formal installation": "Date_of_successor_s_formal_installation"
+      },
+      "T51": {
+        "District": "District",
+        "Vacator": "Vacator",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date of successor 's formal installation": "Date_of_successor_s_formal_installation"
+      },
+      "T59": {
+        "Rank": "Rank",
+        "City": "City",
+        "State": "State",
+        "Population": "Population",
+        "Region ( 2016 )": "Region_2016_",
+        "Population ( 2010 )": "Population_2010_"
+      },
+      "T68": {
+        "State ( class )": "State_class_",
+        "Vacator": "Vacator",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date of successor 's formal installation": "Date_of_successor_s_formal_installation"
+      },
+      "T69": {
+        "District": "District",
+        "Vacator": "Vacator",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date of successor 's formal installation": "Date_of_successor_s_formal_installation"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "8",
+    "DPR": "Compile a unified dataset combining 110m hurdles and 1500m world record data, standardizing temporal fields and athlete attributes, to allow comparative analysis of: \n1. Rate of record progression over time between sprint and distance events, \n2. Geographical concentration patterns in record-setting locations, \n3. Correlations between athlete specialization shifts and performance milestones. \nThe data should support querying temporal trends, cross-event comparisons, and location-based performance relationships through standardized athlete-event metadata.",
+    "sub_questions": [
+      "What Time values are associated with each Athlete in T34?",
+      "What Place values are correlated with Athlete performance in T56?",
+      "Which Date values appear in T54 for 110m hurdles?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "What Time values are associated with each Athlete in T34?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Time, Athlete FROM T34",
+            "execution_status": true,
+            "error": null,
+            "row_count": 20,
+            "retry_phase": "generate"
+          }
+        ],
+        "final_sql": "SELECT Time, Athlete FROM T34",
+        "final_execution_status": true,
+        "final_row_count": 20,
+        "mini_summary": "The Time values associated with Willie Davenport are 13.47, 13.33, and 13.45. \nThe Time value associated with Thomas Hill is 13.42."
+      },
+      {
+        "sub_question": "What Place values are correlated with Athlete performance in T56?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Place FROM T56 WHERE Athlete LIKE '%Mushkina%' OR Athlete LIKE '%Freiberg%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 3,
+            "retry_phase": "generate"
+          }
+        ],
+        "final_sql": "SELECT Place FROM T56 WHERE Athlete LIKE '%Mushkina%' OR Athlete LIKE '%Freiberg%'",
+        "final_execution_status": true,
+        "final_row_count": 3,
+        "mini_summary": "The result set does not show Place values correlated with Athlete performance in T56."
+      },
+      {
+        "sub_question": "Which Date values appear in T54 for 110m hurdles?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Date FROM T54 WHERE Athlete LIKE '%USA%' OR Athlete LIKE '%FRA%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 11,
+            "retry_phase": "generate"
+          }
+        ],
+        "final_sql": "SELECT Date FROM T54 WHERE Athlete LIKE '%USA%' OR Athlete LIKE '%FRA%'",
+        "final_execution_status": true,
+        "final_row_count": 11,
+        "mini_summary": "The Date values that appear in T54 for 110m hurdles are 1892, 1893-05-28, 1894-07-22, 1895-05-12, and 1895-05-26."
+      }
+    ],
+    "mini_summaries": [
+      "The Time values associated with Willie Davenport are 13.47, 13.33, and 13.45. \nThe Time value associated with Thomas Hill is 13.42.",
+      "The result set does not show Place values correlated with Athlete performance in T56.",
+      "The Date values that appear in T54 for 110m hurdles are 1892, 1893-05-28, 1894-07-22, 1895-05-12, and 1895-05-26."
+    ],
+    "final_summary": "The unified dataset should combine 110m hurdles and 1500m world record data, standardizing temporal fields and athlete attributes, to allow comparative analysis of rate of record progression over time and geographical concentration patterns in record-setting locations. However, the evidence does not provide sufficient information to support querying correlations between athlete specialization shifts and performance milestones, as it does not show any correlations between Place values and Athlete performance in T56.",
+    "tables": [
+      "T34",
+      "T54",
+      "T55",
+      "T56",
+      "T57"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ]
+    },
+    "generated_sql": "SELECT Time, Athlete FROM T34",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 20,
+      "preview": [
+        {
+          "Time": "13.47",
+          "Athlete": "Willie Davenport ( USA )"
+        },
+        {
+          "Time": "13.43",
+          "Athlete": "Earl McCullouch ( USA )"
+        },
+        {
+          "Time": "13.33",
+          "Athlete": "Willie Davenport ( USA )"
+        },
+        {
+          "Time": "13.45",
+          "Athlete": "Willie Davenport ( USA ) Leon Coleman ( USA )"
+        },
+        {
+          "Time": "13.42",
+          "Athlete": "Thomas Hill ( USA )"
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T34": {
+        "Year": "Year",
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Location": "Location"
+      },
+      "T54": {
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Date": "Date",
+        "Place": "Place"
+      },
+      "T55": {
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Date": "Date",
+        "Place": "Place"
+      },
+      "T56": {
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Date": "Date",
+        "Place": "Place"
+      },
+      "T57": {
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Date": "Date",
+        "Place": "Place"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "8_v2",
+    "DPR": "Compile historical 110m hurdles and 1500m world record data into a unified dataset containing athlete names, timestamps (year/date), recorded times, and locations. Analyze how world record times have progressed decade-by-decade for both events, identify acceleration patterns in record-breaking frequency, and compare the rate of improvement between sprint hurdles and middle-distance running. The dataset should support trend analysis of where (geographic hotspots) and when (seasonal/monthly patterns) records tend to be broken most frequently.",
+    "sub_questions": [
+      "How do record times in T54 and T55 compare by Date?",
+      "What are the fastest times for 110m hurdles in T34 by Year?",
+      "What locations in T56 and T57 have the most records?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "How do record times in T54 and T55 compare by Date?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT 'T54' AS table_name, Date, Time FROM T54 WHERE Date LIKE '189%' \nUNION \nSELECT 'T55' AS table_name, Date, Time FROM T55 WHERE Date LIKE '191%' OR Date LIKE '192%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 11,
+            "retry_phase": "generate"
+          }
+        ],
+        "final_sql": "SELECT 'T54' AS table_name, Date, Time FROM T54 WHERE Date LIKE '189%' \nUNION \nSELECT 'T55' AS table_name, Date, Time FROM T55 WHERE Date LIKE '191%' OR Date LIKE '192%'",
+        "final_execution_status": true,
+        "final_row_count": 11,
+        "mini_summary": "The result set shows that record times in T54 are 4:24 + 3 / 5 in 1892, 4:21 in 1893-05-28, 4:19 + 4 / 5 in 1894-07-22, 4:18 + 2 / 5 in 1895-05-12, and 4:16 + 4 / 5 in 1895-05-26.\n\nThe result set does not show record times in T55 by Date."
+      },
+      {
+        "sub_question": "What are the fastest times for 110m hurdles in T34 by Year?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Year, MIN(Time) FROM T34 GROUP BY Year",
+            "execution_status": true,
+            "error": null,
+            "row_count": 20,
+            "retry_phase": "generate"
+          }
+        ],
+        "final_sql": "SELECT Year, MIN(Time) FROM T34 GROUP BY Year",
+        "final_execution_status": true,
+        "final_row_count": 20,
+        "mini_summary": "The fastest times for 110m hurdles in T34 are 13.33 seconds in 1968.0 and 13.42 seconds in 1970.0."
+      },
+      {
+        "sub_question": "What locations in T56 and T57 have the most records?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Place, COUNT(*) as count FROM (SELECT Place FROM T56 UNION ALL SELECT Place FROM T57) GROUP BY Place ORDER BY count DESC LIMIT 1",
+            "execution_status": true,
+            "error": null,
+            "row_count": 1,
+            "retry_phase": "generate"
+          }
+        ],
+        "final_sql": "SELECT Place, COUNT(*) as count FROM (SELECT Place FROM T56 UNION ALL SELECT Place FROM T57) GROUP BY Place ORDER BY count DESC LIMIT 1",
+        "final_execution_status": true,
+        "final_row_count": 1,
+        "mini_summary": "The location with the most records in T56 and T57 is Moscow, Soviet Union, with 8 records."
+      }
+    ],
+    "mini_summaries": [
+      "The result set shows that record times in T54 are 4:24 + 3 / 5 in 1892, 4:21 in 1893-05-28, 4:19 + 4 / 5 in 1894-07-22, 4:18 + 2 / 5 in 1895-05-12, and 4:16 + 4 / 5 in 1895-05-26.\n\nThe result set does not show record times in T55 by Date.",
+      "The fastest times for 110m hurdles in T34 are 13.33 seconds in 1968.0 and 13.42 seconds in 1970.0.",
+      "The location with the most records in T56 and T57 is Moscow, Soviet Union, with 8 records."
+    ],
+    "final_summary": "The unified dataset contains record times for 110m hurdles and 1500m world records, including athlete names, timestamps, recorded times, and locations. However, the dataset is limited in that it does not include record times for 1500m in T55. For 110m hurdles in T34, the fastest times are 13.33 seconds and 13.42 seconds. The location with the most records in T56 and T57 is Moscow, Soviet Union, with 8 records.",
+    "tables": [
+      "T34",
+      "T54",
+      "T55",
+      "T56",
+      "T57"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ]
+    },
+    "generated_sql": "SELECT 'T54' AS table_name, Date, Time FROM T54 WHERE Date LIKE '189%' \nUNION \nSELECT 'T55' AS table_name, Date, Time FROM T55 WHERE Date LIKE '191%' OR Date LIKE '192%'",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 11,
+      "preview": [
+        {
+          "table_name": "T54",
+          "Date": "1892",
+          "Time": "4:24 + 3 / 5"
+        },
+        {
+          "table_name": "T54",
+          "Date": "1893-05-28",
+          "Time": "4:21"
+        },
+        {
+          "table_name": "T54",
+          "Date": "1894-07-22",
+          "Time": "4:19 + 4 / 5"
+        },
+        {
+          "table_name": "T54",
+          "Date": "1895-05-12",
+          "Time": "4:18 + 2 / 5"
+        },
+        {
+          "table_name": "T54",
+          "Date": "1895-05-26",
+          "Time": "4:16 + 4 / 5"
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T34": {
+        "Year": "Year",
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Location": "Location"
+      },
+      "T54": {
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Date": "Date",
+        "Place": "Place"
+      },
+      "T55": {
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Date": "Date",
+        "Place": "Place"
+      },
+      "T56": {
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Date": "Date",
+        "Place": "Place"
+      },
+      "T57": {
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Date": "Date",
+        "Place": "Place"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "8_v3",
+    "DPR": "Compile a dataset of historical world records for the 110m hurdles and 1500m events that tracks improvements in athlete performance over time, including trends in record-setting locations and dates. This data should enable analysis of how location and calendar timing influence performance, and inform decisions on optimal training venues, competition scheduling, and identification of periods with highest potential for record-breaking achievements.",
+    "sub_questions": [
+      "How do athlete performances in T54 change over time by date?",
+      "What are the fastest times for each athlete in T34?",
+      "What locations in T56 have the most record-setting times?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "How do athlete performances in T54 change over time by date?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Date, Time, Athlete FROM T54 ORDER BY Date",
+            "execution_status": true,
+            "error": null,
+            "row_count": 13,
+            "retry_phase": "generate"
+          }
+        ],
+        "final_sql": "SELECT Date, Time, Athlete FROM T54 ORDER BY Date",
+        "final_execution_status": true,
+        "final_row_count": 13,
+        "mini_summary": "The result set does not show how athlete performances in T54 change over time by date, as the provided rows do not contain any information about the T54 classification."
+      },
+      {
+        "sub_question": "What are the fastest times for each athlete in T34?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Athlete, MIN(Time) FROM T34 GROUP BY Athlete",
+            "execution_status": true,
+            "error": null,
+            "row_count": 10,
+            "retry_phase": "generate"
+          }
+        ],
+        "final_sql": "SELECT Athlete, MIN(Time) FROM T34 GROUP BY Athlete",
+        "final_execution_status": true,
+        "final_row_count": 10,
+        "mini_summary": "The fastest time for Alejandro Casa\u00f1as is 13.21 seconds. \nThe fastest time for Renaldo Nehemiah is 12.93 seconds."
+      },
+      {
+        "sub_question": "What locations in T56 have the most record-setting times?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Place FROM T56 GROUP BY Place ORDER BY COUNT(Time) DESC LIMIT 1",
+            "execution_status": true,
+            "error": null,
+            "row_count": 1,
+            "retry_phase": "generate"
+          }
+        ],
+        "final_sql": "SELECT Place FROM T56 GROUP BY Place ORDER BY COUNT(Time) DESC LIMIT 1",
+        "final_execution_status": true,
+        "final_row_count": 1,
+        "mini_summary": "The result set does not show locations in T56 with record-setting times, but it does show that Moscow, Soviet Union is a location with a record-setting time."
+      }
+    ],
+    "mini_summaries": [
+      "The result set does not show how athlete performances in T54 change over time by date, as the provided rows do not contain any information about the T54 classification.",
+      "The fastest time for Alejandro Casa\u00f1as is 13.21 seconds. \nThe fastest time for Renaldo Nehemiah is 12.93 seconds.",
+      "The result set does not show locations in T56 with record-setting times, but it does show that Moscow, Soviet Union is a location with a record-setting time."
+    ],
+    "final_summary": "The compilation of historical world records for the 110m hurdles and 1500m events reveals that Moscow, Soviet Union is a location with a record-setting time. However, the dataset does not provide information on record-setting locations in the T56 classification or how athlete performances in the T54 classification change over time.",
+    "tables": [
+      "T34",
+      "T54",
+      "T55",
+      "T56",
+      "T57"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ]
+    },
+    "generated_sql": "SELECT Date, Time, Athlete FROM T54 ORDER BY Date",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 13,
+      "preview": [
+        {
+          "Date": "1892",
+          "Time": "4:24 + 3 / 5",
+          "Athlete": "J. Borel ( FRA )"
+        },
+        {
+          "Date": "1893-05-28",
+          "Time": "4:21",
+          "Athlete": "Fernand Meiers ( FRA )"
+        },
+        {
+          "Date": "1894-07-22",
+          "Time": "4:19 + 4 / 5",
+          "Athlete": "Felix Bourdier ( FRA )"
+        },
+        {
+          "Date": "1895-05-12",
+          "Time": "4:18 + 2 / 5",
+          "Athlete": "Albin Lermusiaux ( FRA )"
+        },
+        {
+          "Date": "1895-05-26",
+          "Time": "4:16 + 4 / 5",
+          "Athlete": "Michel Soalhat ( FRA )"
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T34": {
+        "Year": "Year",
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Location": "Location"
+      },
+      "T54": {
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Date": "Date",
+        "Place": "Place"
+      },
+      "T55": {
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Date": "Date",
+        "Place": "Place"
+      },
+      "T56": {
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Date": "Date",
+        "Place": "Place"
+      },
+      "T57": {
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Date": "Date",
+        "Place": "Place"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "9",
+    "DPR": "Compile a comprehensive dataset spanning Ohio General Assembly sessions 123rd to 130th, integrating district-level leadership information with transition records. Analyze how partisan representation and term limit policies correlate with seat turnover rates, track shifts in district residency patterns across elections, and identify trends in the causes of legislative transitions (e.g., resignations, expirations, by-elections). Contrast the workforce stability in the Ohio Senate versus House of Representatives and benchmark re-election success rates between party affiliations. The final product should enable comparative analysis of institutional continuity, partisan dynamics, and demographic representation across the eight legislative cycles.",
+    "sub_questions": [
+      "What are the district-level leadership changes in T39 and T46 during the 123rd to 130th sessions?",
+      "How do term limits in T40 and T48 affect seat turnover rates?",
+      "What are the trends in causes of legislative transitions in T39 and T46?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "What are the district-level leadership changes in T39 and T46 during the 123rd to 130th sessions?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT District, Previous_Senator, Reason_for_change, New_Senator, Date FROM T39 WHERE Date LIKE '%January 3 , 199%' UNION ALL SELECT District, Predecessor, Reason_for_change, Successor, Date_successor_seated FROM T46 WHERE Date_successor_seated LIKE '%January 11 , 2011%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 7,
+            "retry_phase": "generate"
+          }
+        ],
+        "final_sql": "SELECT District, Previous_Senator, Reason_for_change, New_Senator, Date FROM T39 WHERE Date LIKE '%January 3 , 199%' UNION ALL SELECT District, Predecessor, Reason_for_change, Successor, Date_successor_seated FROM T46 WHERE Date_successor_seated LIKE '%January 11 , 2011%'",
+        "final_execution_status": true,
+        "final_row_count": 7,
+        "mini_summary": "There are no district-level leadership changes in T39 during the 123rd to 130th sessions shown in the result set.\nThe result set does not show district-level leadership changes in T46 during the 123rd to 130th sessions."
+      },
+      {
+        "sub_question": "How do term limits in T40 and T48 affect seat turnover rates?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT T40.District, T40.Term_Limited, T48.Term_Limited FROM T40 INNER JOIN T48 ON T40.District = T48.District WHERE T40.Term_Limited = '2014' OR T48.Term_Limited = '2014'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 3,
+            "retry_phase": "generate"
+          }
+        ],
+        "final_sql": "SELECT T40.District, T40.Term_Limited, T48.Term_Limited FROM T40 INNER JOIN T48 ON T40.District = T48.District WHERE T40.Term_Limited = '2014' OR T48.Term_Limited = '2014'",
+        "final_execution_status": true,
+        "final_row_count": 3,
+        "mini_summary": "The result set does not show the specific seat turnover rates affected by term limits in T40 and T48. \n\nThe result set shows that districts 1, 9, and 13 are term-limited in the years 2022, 2014, and 2018, respectively."
+      },
+      {
+        "sub_question": "What are the trends in causes of legislative transitions in T39 and T46?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Reason_for_change FROM T39 UNION SELECT Reason_for_change FROM T46",
+            "execution_status": true,
+            "error": null,
+            "row_count": 17,
+            "retry_phase": "generate"
+          }
+        ],
+        "final_sql": "SELECT Reason_for_change FROM T39 UNION SELECT Reason_for_change FROM T46",
+        "final_execution_status": true,
+        "final_row_count": 17,
+        "mini_summary": "The result set does not show the specific trends in causes of legislative transitions in T39 and T46."
+      }
+    ],
+    "mini_summaries": [
+      "There are no district-level leadership changes in T39 during the 123rd to 130th sessions shown in the result set.\nThe result set does not show district-level leadership changes in T46 during the 123rd to 130th sessions.",
+      "The result set does not show the specific seat turnover rates affected by term limits in T40 and T48. \n\nThe result set shows that districts 1, 9, and 13 are term-limited in the years 2022, 2014, and 2018, respectively.",
+      "The result set does not show the specific trends in causes of legislative transitions in T39 and T46."
+    ],
+    "final_summary": "The dataset does not provide comprehensive information on district-level leadership changes, specifically noting no changes in districts T39 and T46 during the relevant sessions. Additionally, the specific seat turnover rates affected by term limits in districts T40 and T48 are not shown. It is also evident that certain districts are term-limited, including districts 1, 9, and 13. However, the dataset does not provide specific trends in causes of legislative transitions in districts T39 and T46, and the seat turnover rates affected by term limits in districts T40 and T48 remain unclear.",
+    "tables": [
+      "T39",
+      "T40",
+      "T41",
+      "T42",
+      "T43",
+      "T44",
+      "T45",
+      "T46",
+      "T47",
+      "T48",
+      "T49"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T44",
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T49"
+      ]
+    },
+    "generated_sql": "SELECT District, Previous_Senator, Reason_for_change, New_Senator, Date FROM T39 WHERE Date LIKE '%January 3 , 199%' UNION ALL SELECT District, Predecessor, Reason_for_change, Successor, Date_successor_seated FROM T46 WHERE Date_successor_seated LIKE '%January 11 , 2011%'",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 7,
+      "preview": [
+        {
+          "District": "1st",
+          "Previous_Senator": "M. Ben Gaeth ( R )",
+          "Reason_for_change": "Gaeth retired . Wachtmann elected with 61% of the vote",
+          "New_Senator": "Lynn Wachtmann ( R )",
+          "Date": "January 3 , 1999"
+        },
+        {
+          "District": "9th",
+          "Previous_Senator": "Janet C. Howard ( R )",
+          "Reason_for_change": "Howard defeated by Mark Mallory 59% to 41% in 1998 general election",
+          "New_Senator": "Mark Mallory ( D )",
+          "Date": "January 3 , 1999"
+        },
+        {
+          "District": "13th",
+          "Previous_Senator": "Alan Zaleski ( D )",
+          "Reason_for_change": "Zaleski retired . Armbruster elected with 47% of the vote",
+          "New_Senator": "Jeff Armbruster ( R )",
+          "Date": "January 3 , 1999"
+        },
+        {
+          "District": "21st",
+          "Previous_Senator": "Jeff Johnson ( D )",
+          "Reason_for_change": "Johnson retired . Prentiss elected with 86% of the vote",
+          "New_Senator": "C.J . Prentiss ( D )",
+          "Date": "January 3 , 1999"
+        },
+        {
+          "District": "23rd",
+          "Previous_Senator": "Patrick Sweeney ( D )",
+          "Reason_for_change": "Sweeney retired . Brady elected unopposed",
+          "New_Senator": "Dan Brady ( D )",
+          "Date": "January 3 , 1999"
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T39": {
+        "District": "District",
+        "Previous Senator": "Previous_Senator",
+        "Reason for change": "Reason_for_change",
+        "New Senator": "New_Senator",
+        "Date": "Date"
+      },
+      "T40": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T41": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T42": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T43": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T44": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T45": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T46": {
+        "District": "District",
+        "Predecessor": "Predecessor",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date successor seated": "Date_successor_seated"
+      },
+      "T47": {
+        "District": "District",
+        "Predecessor": "Predecessor",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date successor seated": "Date_successor_seated"
+      },
+      "T48": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T49": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  }
+]
