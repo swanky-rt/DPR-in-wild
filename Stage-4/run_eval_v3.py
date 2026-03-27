@@ -590,6 +590,10 @@ def _write_ranking_summary(output: dict, path: str):
         lines.append(f"Rank #{r['rank']}  |  DPR: {r['dpr_id']}  |  Combined Score: {r['combined_score']:.4f}\n")
         lines.append(SEP + "\n")
 
+        lines.append("  Original DPR:\n")
+        lines.append(_wrap(r["dpr_text"], width=72, indent=4) + "\n")
+        lines.append("\n")
+
         # metrics — score only, no weights
         for label, key in [
             ("Coverage",      "coverage"),

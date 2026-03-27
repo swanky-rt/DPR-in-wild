@@ -1,13 +1,24 @@
-Rank #1  |  DPR: 8_v2  |  Combined Score: 0.7941
+Rank #1  |  DPR: 8_v2  |  Combined Score: 0.7137
 ============================================================
+  Original DPR:
+    Compile historical 110m hurdles and 1500m world record data into a
+    unified dataset containing athlete names, timestamps (year/date),
+    recorded times, and locations. Analyze how world record times have
+    progressed decade-by-decade for both events, identify acceleration
+    patterns in record-breaking frequency, and compare the rate of
+    improvement between sprint hurdles and middle-distance running. The
+    dataset should support trend analysis of where (geographic hotspots) and
+    when (seasonal/monthly patterns) records tend to be broken most
+    frequently.
+
   Coverage           1.0000
   Complexity         0.4000
   Diversity          0.8551
   Surprisal          0.4905
   Uniqueness         1.0000
-  LLM Quality        1.0000
-  LLM Relevance      0.7500
-  LLM Clarity        0.7500
+  LLM Quality        0.5000
+  LLM Relevance      0.5000
+  LLM Clarity        0.5000
 
   Summary:
     The unified dataset contains record times for 110m hurdles and 1500m
@@ -19,16 +30,27 @@ Rank #1  |  DPR: 8_v2  |  Combined Score: 0.7941
 
 ============================================================
 
-Rank #2  |  DPR: 6  |  Combined Score: 0.7363
+Rank #2  |  DPR: 6  |  Combined Score: 0.7096
 ============================================================
+  Original DPR:
+    Compile data that will allow comparisons between long-distance
+    (10,000m) and sprint (100m) track performances, including race times,
+    athletes, years, locations, and nationalities. The dataset should
+    support analysis of correlations between discipline performance trends,
+    athlete nationalities, and record-breaking patterns (e.g., comparing how
+    frequently 100m barriers are broken vs. 10,000m time advancements). It
+    should enable queries to assess differences in performance progression
+    over time, athlete representation by country, and geographic influences
+    on event outcomes across both event types.
+
   Coverage           1.0000
   Complexity         0.4000
   Diversity          0.8258
   Surprisal          0.4905
   Uniqueness         1.0000
-  LLM Quality        0.7500
+  LLM Quality        0.5000
   LLM Relevance      0.5000
-  LLM Clarity        0.7500
+  LLM Clarity        0.5000
 
   Summary:
     The dataset shows that long-distance event average race times in T22
@@ -43,16 +65,26 @@ Rank #2  |  DPR: 6  |  Combined Score: 0.7363
 
 ============================================================
 
-Rank #3  |  DPR: 5  |  Combined Score: 0.7171
+Rank #3  |  DPR: 5  |  Combined Score: 0.6903
 ============================================================
+  Original DPR:
+    Compile historical data on College Football and Baseball All-America
+    teams (1935–1948) and Kansas City Chiefs rosters (2009–2011), and
+    analyze how player position distributions, school affiliations, and
+    professional/college career trajectories correlate across eras.
+    Specifically, compare the frequency of positions in All-America teams
+    versus pro rosters, assess the persistence of dominant schools in
+    producing talent, and evaluate how player status changes (e.g., team
+    changes, inductions) reflect career continuity or disruption.
+
   Coverage           0.7143
   Complexity         0.6667
   Diversity          0.8527
   Surprisal          0.4905
   Uniqueness         1.0000
-  LLM Quality        0.7500
+  LLM Quality        0.5000
   LLM Relevance      0.5000
-  LLM Clarity        0.7500
+  LLM Clarity        0.5000
 
   Summary:
     The school affiliation in one of the datasets is USC. In another
@@ -65,16 +97,28 @@ Rank #3  |  DPR: 5  |  Combined Score: 0.7171
 
 ============================================================
 
-Rank #4  |  DPR: 5_v3  |  Combined Score: 0.7149
+Rank #4  |  DPR: 5_v3  |  Combined Score: 0.6881
 ============================================================
+  Original DPR:
+    Compile data tracking player transitions across NFL rosters (e.g.,
+    Kansas City Chiefs 2009–2011) and historical college sports excellence
+    (1935–1943 All-America teams, 1948 All-America baseball), including
+    attributes like position, team affiliation, recognition, and career
+    milestones. This dataset should enable analysis of patterns in player
+    retention and development, identify correlations between college
+    accolades and professional success, and assess institutional strengths
+    in producing elite talent. Insights would support decisions in talent
+    forecasting, college recruitment strategies, and optimizing
+    team-building timelines to align with player growth trajectories.
+
   Coverage           0.7143
   Complexity         0.6667
   Diversity          0.8373
   Surprisal          0.4905
   Uniqueness         1.0000
-  LLM Quality        0.7500
+  LLM Quality        0.5000
   LLM Relevance      0.5000
-  LLM Clarity        0.7500
+  LLM Clarity        0.5000
 
   Summary:
     The analysis of player transitions and historical college sports
@@ -87,16 +131,26 @@ Rank #4  |  DPR: 5_v3  |  Combined Score: 0.7149
 
 ============================================================
 
-Rank #5  |  DPR: 6_v2  |  Combined Score: 0.7143
+Rank #5  |  DPR: 6_v2  |  Combined Score: 0.6608
 ============================================================
+  Original DPR:
+    Compile historical 10,000m race results and 100m sprint record-breaking
+    data to analyze trends in competitive performance, geographic dominance
+    of race locations, and how frequently records are broken over time.
+    Specifically, assess how 10,000m race times have improved across
+    decades, identify shifts in dominant host city locations for major
+    events, and track progression in 100m record-breaking frequency and
+    athlete nationalities. The data should enable comparisons between
+    long-distance and sprinting progressions.
+
   Coverage           1.0000
   Complexity         0.0667
   Diversity          0.8177
   Surprisal          0.4905
   Uniqueness         1.0000
-  LLM Quality        0.7500
-  LLM Relevance      0.7500
-  LLM Clarity        0.7500
+  LLM Quality        0.5000
+  LLM Relevance      0.5000
+  LLM Clarity        0.5000
 
   Summary:
     Historical 10,000m race times have shown improvement, with a notable
@@ -108,86 +162,29 @@ Rank #5  |  DPR: 6_v2  |  Combined Score: 0.7143
 
 ============================================================
 
-Rank #6  |  DPR: 9_v2  |  Combined Score: 0.7019
+Rank #6  |  DPR: 1  |  Combined Score: 0.6539
 ============================================================
-  Coverage           0.4545
-  Complexity         0.6000
-  Diversity          0.8285
-  Surprisal          0.4905
-  Uniqueness         1.0000
-  LLM Quality        1.0000
-  LLM Relevance      0.7500
-  LLM Clarity        0.7500
+  Original DPR:
+    Compile data on "Weird Al" Yankovic's film roles (1970s–2000s)
+    alongside corresponding film financials (1954–1974) to analyze how his
+    roles intersect with industry revenue trends. Compare revenue and
+    admissions metrics of films from 1954 (international markets), 1957
+    (country of origin), and 1974 (domestic gross) to assess longitudinal
+    changes in box office success. Cross-analyze 1955–1964 musical
+    compositions (performers, locations) with 1970 country music chart
+    positions to identify correlations between regional music success and
+    film production trends. Evaluate whether specific film roles, studios,
+    or directors are statistically associated with higher revenue or
+    admissions across eras, and contrast these patterns with regional music
+    chart performances. This dataset should enable queries on cross-decade
+    cultural-economic linkages and role-based financial predictors.
 
-  Summary:
-    The dataset should track representatives' residences, which include
-    locations such as East Palestine, Delaware, Wooster, Lima, and
-    Lancaster, and their corresponding party affiliations, which are
-    Republican and Democratic. However, the dataset does not show party
-    changes that occur between first election and term limited dates. It
-    does show that the most common reasons for change are retirement and
-    election with a specified percentage of the vote, but the years in which
-    these changes occurred are not visible in the evidence.
-
-============================================================
-
-Rank #7  |  DPR: 7_v2  |  Combined Score: 0.6946
-============================================================
-  Coverage           0.4286
-  Complexity         0.6000
-  Diversity          0.8157
-  Surprisal          0.4905
-  Uniqueness         1.0000
-  LLM Quality        1.0000
-  LLM Relevance      0.7500
-  LLM Clarity        0.7500
-
-  Summary:
-    The party affiliations of vacators and successors in certain instances
-    are Democrat and Republican. Successor appointment timelines vary by
-    reason for change, with formal installation dates occurring for deaths
-    on June 5, 2001, June 19, 2001, or October 16, 2001, and for
-    resignations on May 15, 2001, or November 20, 2001. Reasons for change
-    include death, resignation due to appointment as U.S. Secretary of
-    Agriculture, resignation, and resignation to become President of the
-    Negro College Fund. However, the evidence does not provide a
-    comprehensive dataset spanning multiple Congresses, limiting the ability
-    to analyze broader trends and correlations.
-
-============================================================
-
-Rank #8  |  DPR: 9  |  Combined Score: 0.6847
-============================================================
-  Coverage           0.3636
-  Complexity         0.6000
-  Diversity          0.8444
-  Surprisal          0.4905
-  Uniqueness         1.0000
-  LLM Quality        1.0000
-  LLM Relevance      0.7500
-  LLM Clarity        0.7500
-
-  Summary:
-    The dataset does not provide comprehensive information on
-    district-level leadership changes, specifically noting no changes in
-    districts T39 and T46 during the relevant sessions. Additionally, the
-    specific seat turnover rates affected by term limits in districts T40
-    and T48 are not shown. It is also evident that certain districts are
-    term-limited, including districts 1, 9, and 13. However, the dataset
-    does not provide specific trends in causes of legislative transitions in
-    districts T39 and T46, and the seat turnover rates affected by term
-    limits in districts T40 and T48 remain unclear.
-
-============================================================
-
-Rank #9  |  DPR: 1  |  Combined Score: 0.6806
-============================================================
   Coverage           0.6667
   Complexity         0.4667
   Diversity          0.8691
   Surprisal          0.4905
   Uniqueness         1.0000
-  LLM Quality        0.7500
+  LLM Quality        0.5000
   LLM Relevance      0.5000
   LLM Clarity        0.5000
 
@@ -201,14 +198,23 @@ Rank #9  |  DPR: 1  |  Combined Score: 0.6806
 
 ============================================================
 
-Rank #10  |  DPR: 5_v2  |  Combined Score: 0.6806
+Rank #7  |  DPR: 5_v2  |  Combined Score: 0.6538
 ============================================================
+  Original DPR:
+    Compile data that enables analysis of player retention and turnover
+    trends for the Kansas City Chiefs between 2009 and 2011, and identify
+    historical shifts in College Football All-America selections across
+    1935-1946 and college baseball talent recognition in 1948. The data
+    should track changes in position distributions, team affiliations, and
+    selection criteria over time to uncover patterns in roster stability and
+    athletic acclaim evolution.
+
   Coverage           0.5714
   Complexity         0.6667
   Diversity          0.8115
   Surprisal          0.4905
   Uniqueness         1.0000
-  LLM Quality        0.7500
+  LLM Quality        0.5000
   LLM Relevance      0.5000
   LLM Clarity        0.5000
 
@@ -224,16 +230,300 @@ Rank #10  |  DPR: 5_v2  |  Combined Score: 0.6806
 
 ============================================================
 
-Rank #11  |  DPR: 10  |  Combined Score: 0.6598
+Rank #8  |  DPR: 9_v2  |  Combined Score: 0.6216
 ============================================================
+  Original DPR:
+    Compile a dataset spanning the 127th to 130th Ohio General Assemblies
+    to analyze trends in party affiliation stability, term limit turnover,
+    and leadership transitions. This should include: (1) tracking how often
+    representatives/senators face term limits and succeed in running for
+    other roles; (2) identifying shifts in partisan control of districts
+    over time by comparing first-election dates and party alignment; (3)
+    examining geographical concentration of representatives’ residences to
+    detect regional political influence changes. The dataset should support
+    queries to quantify long-term institutional continuity, assess
+    demographic consistency in representation, and model electoral cycle
+    patterns against legislative outcomes.
+
+  Coverage           0.4545
+  Complexity         0.6000
+  Diversity          0.8285
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.5000
+  LLM Relevance      0.5000
+  LLM Clarity        0.5000
+
+  Summary:
+    The dataset should track representatives' residences, which include
+    locations such as East Palestine, Delaware, Wooster, Lima, and
+    Lancaster, and their corresponding party affiliations, which are
+    Republican and Democratic. However, the dataset does not show party
+    changes that occur between first election and term limited dates. It
+    does show that the most common reasons for change are retirement and
+    election with a specified percentage of the vote, but the years in which
+    these changes occurred are not visible in the evidence.
+
+============================================================
+
+Rank #9  |  DPR: 7_v2  |  Combined Score: 0.6142
+============================================================
+  Original DPR:
+    Compile a dataset spanning seat vacancies and replacements in U.S.
+    Congress and Senate across the 10th to 113th Congresses, tracking
+    reasons for vacancies, successor appointment timelines, and party
+    affiliations of vacators and successors. Analyze how frequency, causes,
+    and patterns of legislative turnover (e.g., deaths, resignations,
+    succession rules) evolved over time, and assess correlations between
+    these trends and broader political or demographic shifts, such as
+    changes in party dominance or structural reforms in representation.
+
+  Coverage           0.4286
+  Complexity         0.6000
+  Diversity          0.8157
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.5000
+  LLM Relevance      0.5000
+  LLM Clarity        0.5000
+
+  Summary:
+    The party affiliations of vacators and successors in certain instances
+    are Democrat and Republican. Successor appointment timelines vary by
+    reason for change, with formal installation dates occurring for deaths
+    on June 5, 2001, June 19, 2001, or October 16, 2001, and for
+    resignations on May 15, 2001, or November 20, 2001. Reasons for change
+    include death, resignation due to appointment as U.S. Secretary of
+    Agriculture, resignation, and resignation to become President of the
+    Negro College Fund. However, the evidence does not provide a
+    comprehensive dataset spanning multiple Congresses, limiting the ability
+    to analyze broader trends and correlations.
+
+============================================================
+
+Rank #10  |  DPR: 9  |  Combined Score: 0.6044
+============================================================
+  Original DPR:
+    Compile a comprehensive dataset spanning Ohio General Assembly sessions
+    123rd to 130th, integrating district-level leadership information with
+    transition records. Analyze how partisan representation and term limit
+    policies correlate with seat turnover rates, track shifts in district
+    residency patterns across elections, and identify trends in the causes
+    of legislative transitions (e.g., resignations, expirations,
+    by-elections). Contrast the workforce stability in the Ohio Senate
+    versus House of Representatives and benchmark re-election success rates
+    between party affiliations. The final product should enable comparative
+    analysis of institutional continuity, partisan dynamics, and demographic
+    representation across the eight legislative cycles.
+
+  Coverage           0.3636
+  Complexity         0.6000
+  Diversity          0.8444
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.5000
+  LLM Relevance      0.5000
+  LLM Clarity        0.5000
+
+  Summary:
+    The dataset does not provide comprehensive information on
+    district-level leadership changes, specifically noting no changes in
+    districts T39 and T46 during the relevant sessions. Additionally, the
+    specific seat turnover rates affected by term limits in districts T40
+    and T48 are not shown. It is also evident that certain districts are
+    term-limited, including districts 1, 9, and 13. However, the dataset
+    does not provide specific trends in causes of legislative transitions in
+    districts T39 and T46, and the seat turnover rates affected by term
+    limits in districts T40 and T48 remain unclear.
+
+============================================================
+
+Rank #11  |  DPR: 6_v3  |  Combined Score: 0.6006
+============================================================
+  Original DPR:
+    Compile a unified dataset of historical performance records in 10,000m
+    and 100m sprints, including race years, athlete names, locations, and
+    record-breaking milestones for the 100m barrier. Analyze trends in
+    performance progression over time, geographic distribution of
+    high-performing athletes, and factors driving record advancements (e.g.,
+    training innovations, nationality-based performance clusters). The data
+    should support actionable decisions for sports governance bodies to
+    allocate resources for talent development, optimize athlete training
+    programs, and predict future world record trajectories based on
+    historical patterns.
+
+  Coverage           0.6667
+  Complexity         0.1333
+  Diversity          0.8297
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.5000
+  LLM Relevance      0.5000
+  LLM Clarity        0.5000
+
+  Summary:
+    A unified dataset of historical performance records in 10,000m and 100m
+    sprints could be compiled, including locations and record-breaking
+    milestones. The locations of top-performing athletes are Rio de Janeiro,
+    Utrecht, Beijing, Munich, and Paris. However, the years associated with
+    record-breaking times are only known for T22 and T23, which are 2000,
+    2001, 2002, 2003, and 2004. Limitations are visible in the evidence as
+    the years for T23 are unknown, and the dataset does not include
+    information on athlete names or the 100m barrier.
+
+============================================================
+
+Rank #12  |  DPR: 8  |  Combined Score: 0.5971
+============================================================
+  Original DPR:
+    Compile a unified dataset combining 110m hurdles and 1500m world record
+    data, standardizing temporal fields and athlete attributes, to allow
+    comparative analysis of: 1. Rate of record progression over time between
+    sprint and distance events, 2. Geographical concentration patterns in
+    record-setting locations, 3. Correlations between athlete specialization
+    shifts and performance milestones. The data should support querying
+    temporal trends, cross-event comparisons, and location-based performance
+    relationships through standardized athlete-event metadata.
+
+  Coverage           0.6000
+  Complexity         0.2000
+  Diversity          0.8384
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.5000
+  LLM Relevance      0.5000
+  LLM Clarity        0.5000
+
+  Summary:
+    The unified dataset should combine 110m hurdles and 1500m world record
+    data, standardizing temporal fields and athlete attributes, to allow
+    comparative analysis of rate of record progression over time and
+    geographical concentration patterns in record-setting locations.
+    However, the evidence does not provide sufficient information to support
+    querying correlations between athlete specialization shifts and
+    performance milestones, as it does not show any correlations between
+    Place values and Athlete performance in T56.
+
+============================================================
+
+Rank #13  |  DPR: 1_v2  |  Combined Score: 0.5949
+============================================================
+  Original DPR:
+    Compile a dataset tracking changes in the entertainment industry over
+    time, including: 1. Analyze revenue and admissions trends in films from
+    1954–1974 to identify financial growth or decline patterns. 2. Examine
+    "Weird Al" Yankovic’s career progression from the 1970s to 2000s,
+    mapping how roles in films/TV evolved. 3. Assess shifts in popular music
+    through country chart rankings (1970) and film composers’ works
+    (1955–1964), identifying how styles or market dominance changed. 4.
+    Correlate box office performance of 1974 films with studio strategies to
+    evaluate industry competition dynamics. This should provide insights
+    into entertainment sector evolution across decades, cultural shifts, and
+    career trajectories.
+
+  Coverage           0.4444
+  Complexity         0.4000
+  Diversity          0.8563
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.5000
+  LLM Relevance      0.5000
+  LLM Clarity        0.5000
+
+  Summary:
+    The revenue for certain films, such as "The Bridge on the River Kwai"
+    and "The Ten Commandments", is $0.0, while others, like "Mother India",
+    have a revenue of $16800000.0. The admissions for these films vary, with
+    "The Bridge on the River Kwai" having 13481750.0 and 14500000.0
+    admissions, and "Mother India" having 100000000.0 admissions. However,
+    the Domestic_gross values for films from 1974 are not shown in the
+    evidence, indicating a limitation in the available data.
+
+============================================================
+
+Rank #14  |  DPR: 4  |  Combined Score: 0.5947
+============================================================
+  Original DPR:
+    Compile data on New Zealand's early parliamentary representatives (1st
+    Parliament) and rugby union tour teams/matches (1884-1920), and analyze
+    how provincial affiliations in politics and sports correlate over time.
+    Specifically, investigate changes in team composition and match
+    performance across tours (e.g., 1884 vs. 1920), compare regional
+    representation between parliamentary electorates and rugby player
+    provinces, and identify historical patterns in how cities/venues with
+    political importance influenced or mirrored the frequency of rugby
+    matches. The product should enable comparisons of regional influence
+    across domains and chronological trends in team structure, performance,
+    and geographic reach.
+
+  Coverage           0.3846
+  Complexity         0.5333
+  Diversity          0.8117
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.5000
+  LLM Relevance      0.5000
+  LLM Clarity        0.5000
+
+  Summary:
+    The analysis reveals that certain provinces, including Auckland,
+    Canterbury, Nelson, New Plymouth, and Otago, are consistently
+    represented in rugby union tour teams. However, the distribution of
+    rugby players' provinces over time is not shown in the evidence.
+    Additionally, the result set does not provide information about the
+    correlation between rugby match venues and parliamentary electorates,
+    nor does it show the distribution of rugby players' provinces in T65 and
+    T74 over time.
+
+============================================================
+
+Rank #15  |  DPR: 8_v3  |  Combined Score: 0.5844
+============================================================
+  Original DPR:
+    Compile a dataset of historical world records for the 110m hurdles and
+    1500m events that tracks improvements in athlete performance over time,
+    including trends in record-setting locations and dates. This data should
+    enable analysis of how location and calendar timing influence
+    performance, and inform decisions on optimal training venues,
+    competition scheduling, and identification of periods with highest
+    potential for record-breaking achievements.
+
+  Coverage           0.6000
+  Complexity         0.1333
+  Diversity          0.8166
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.5000
+  LLM Relevance      0.5000
+  LLM Clarity        0.5000
+
+  Summary:
+    The compilation of historical world records for the 110m hurdles and
+    1500m events reveals that Moscow, Soviet Union is a location with a
+    record-setting time. However, the dataset does not provide information
+    on record-setting locations in the T56 classification or how athlete
+    performances in the T54 classification change over time.
+
+============================================================
+
+Rank #16  |  DPR: 10  |  Combined Score: 0.5794
+============================================================
+  Original DPR:
+    Compile a dataset containing the 1947 and 1948 BAA draft selections by
+    player, including their position, team, college, and draft round/pick.
+    Analyze how the distribution of positions selected differs between the
+    two years, investigate correlations between players’ colleges and teams
+    that drafted them, and assess how early-round concentration and team
+    drafting priorities evolved between 1947 and 1948.
+
   Coverage           0.3333
   Complexity         0.2000
   Diversity          0.8738
   Surprisal          0.7317
   Uniqueness         1.0000
-  LLM Quality        1.0000
-  LLM Relevance      0.7500
-  LLM Clarity        0.7500
+  LLM Quality        0.5000
+  LLM Relevance      0.5000
+  LLM Clarity        0.5000
 
   Summary:
     The positions selected by teams in the dataset are F, G/F, -, and C,
@@ -248,16 +538,27 @@ Rank #11  |  DPR: 10  |  Combined Score: 0.6598
 
 ============================================================
 
-Rank #12  |  DPR: 2  |  Combined Score: 0.6588
+Rank #17  |  DPR: 2  |  Combined Score: 0.5785
 ============================================================
+  Original DPR:
+    Compile a standardized dataset of legislative members across British
+    Columbia, Manitoba, and Puerto Rico from 1899 to 1972, mapping districts
+    to members and their political affiliations. Structure the data to
+    enable comparative analysis of party representation trends over time,
+    regional differences in electoral district distribution, and
+    correlations between jurisdictional political dynamics and legislative
+    composition. Include contextual attributes like legislative term periods
+    to analyze shifts in party alignment between geographic regions and
+    historical periods.
+
   Coverage           0.4444
   Complexity         0.3333
   Diversity          0.8084
   Surprisal          0.4905
   Uniqueness         1.0000
-  LLM Quality        1.0000
-  LLM Relevance      0.7500
-  LLM Clarity        0.7500
+  LLM Quality        0.5000
+  LLM Relevance      0.5000
+  LLM Clarity        0.5000
 
   Summary:
     A standardized dataset of legislative members can be compiled for
@@ -275,127 +576,231 @@ Rank #12  |  DPR: 2  |  Combined Score: 0.6588
 
 ============================================================
 
-Rank #13  |  DPR: 6_v3  |  Combined Score: 0.6274
+Rank #18  |  DPR: 3_v2  |  Combined Score: 0.5644
 ============================================================
-  Coverage           0.6667
-  Complexity         0.1333
-  Diversity          0.8297
+  Original DPR:
+    Compile historical sports performance data spanning 1898–1948,
+    including individual and team results from International Cross Country
+    Championships, motorsport events (e.g., Mannin Moar, Campbell Trophy),
+    and the 1936 Tour de France stages. Analyze trends in athlete
+    performance (race times, rankings), shifts in national representation
+    and dominance across sporting events, and changes in event formats
+    (individual vs. team-based competition) over time. Assess motorsport
+    results for technological advancements or constructor performance
+    patterns between 1933 and 1937, and evaluate how competitive structures
+    evolved in cross country and cycling events.
+
+  Coverage           0.2778
+  Complexity         0.4667
+  Diversity          0.8260
   Surprisal          0.4905
   Uniqueness         1.0000
-  LLM Quality        0.7500
-  LLM Relevance      0.5000
-  LLM Clarity        0.7500
-
-  Summary:
-    A unified dataset of historical performance records in 10,000m and 100m
-    sprints could be compiled, including locations and record-breaking
-    milestones. The locations of top-performing athletes are Rio de Janeiro,
-    Utrecht, Beijing, Munich, and Paris. However, the years associated with
-    record-breaking times are only known for T22 and T23, which are 2000,
-    2001, 2002, 2003, and 2004. Limitations are visible in the evidence as
-    the years for T23 are unknown, and the dataset does not include
-    information on athlete names or the 100m barrier.
-
-============================================================
-
-Rank #14  |  DPR: 8  |  Combined Score: 0.6238
-============================================================
-  Coverage           0.6000
-  Complexity         0.2000
-  Diversity          0.8384
-  Surprisal          0.4905
-  Uniqueness         1.0000
-  LLM Quality        0.7500
-  LLM Relevance      0.5000
-  LLM Clarity        0.7500
-
-  Summary:
-    The unified dataset should combine 110m hurdles and 1500m world record
-    data, standardizing temporal fields and athlete attributes, to allow
-    comparative analysis of rate of record progression over time and
-    geographical concentration patterns in record-setting locations.
-    However, the evidence does not provide sufficient information to support
-    querying correlations between athlete specialization shifts and
-    performance milestones, as it does not show any correlations between
-    Place values and Athlete performance in T56.
-
-============================================================
-
-Rank #15  |  DPR: 1_v2  |  Combined Score: 0.6216
-============================================================
-  Coverage           0.4444
-  Complexity         0.4000
-  Diversity          0.8563
-  Surprisal          0.4905
-  Uniqueness         1.0000
-  LLM Quality        0.7500
+  LLM Quality        0.5000
   LLM Relevance      0.5000
   LLM Clarity        0.5000
 
   Summary:
-    The revenue for certain films, such as "The Bridge on the River Kwai"
-    and "The Ten Commandments", is $0.0, while others, like "Mother India",
-    have a revenue of $16800000.0. The admissions for these films vary, with
-    "The Bridge on the River Kwai" having 13481750.0 and 14500000.0
-    admissions, and "Mother India" having 100000000.0 admissions. However,
-    the Domestic_gross values for films from 1974 are not shown in the
-    evidence, indicating a limitation in the available data.
+    The historical sports performance data shows that the top 5 teams in
+    T83 had the same Team Points, but the times for T5 and T6 between 1898
+    and 1948 are 56:36, 56:36.4, 57:14.8, 57:22.6, and 57:48.4, though the
+    years these times occurred are unknown. The result set also indicates
+    that Nationality affects Rank in T7 and T77, but only shows empty Rank
+    values for "Scotland" and "England", limiting the assessment of this
+    relationship.
 
 ============================================================
 
-Rank #16  |  DPR: 4  |  Combined Score: 0.6215
+Rank #19  |  DPR: 2_v2  |  Combined Score: 0.5519
 ============================================================
-  Coverage           0.3846
-  Complexity         0.5333
-  Diversity          0.8117
+  Original DPR:
+    Compile historical legislative data from British Columbia (1949-1952,
+    1966-1972), Manitoba (1899-1914, 1922-1935), and Puerto Rico (various)
+    to analyze long-term trends in political party representation, electoral
+    district evolution, and legislative composition changes. Track how
+    regional partisan control shifted over decades, identify emerging vs.
+    declining parties, and assess changes in geographic representation
+    patterns across these jurisdictions.
+
+  Coverage           0.3333
+  Complexity         0.2667
+  Diversity          0.8553
   Surprisal          0.4905
   Uniqueness         1.0000
-  LLM Quality        0.7500
+  LLM Quality        0.5000
   LLM Relevance      0.5000
-  LLM Clarity        0.7500
+  LLM Clarity        0.5000
 
   Summary:
-    The analysis reveals that certain provinces, including Auckland,
-    Canterbury, Nelson, New Plymouth, and Otago, are consistently
-    represented in rugby union tour teams. However, the distribution of
-    rugby players' provinces over time is not shown in the evidence.
-    Additionally, the result set does not provide information about the
-    correlation between rugby match venues and parliamentary electorates,
-    nor does it show the distribution of rugby players' provinces in T65 and
-    T74 over time.
+    The analysis of legislative data reveals that certain electoral
+    districts, including Manitou, Portage la Prairie, Winnipeg South, and
+    Emerson, are mentioned. However, the study does not show how these
+    districts change over time. The parties represented in the data are
+    Liberal, Independent, and Conservative, while the distribution of
+    parties in another context is NPP with 13 Senators and PDP with 7
+    Senators. Limitations are visible in the evidence as the study does not
+    provide information on how electoral districts in T31 change over time.
 
 ============================================================
 
-Rank #17  |  DPR: 8_v3  |  Combined Score: 0.6112
+Rank #20  |  DPR: 2_v3  |  Combined Score: 0.5477
 ============================================================
-  Coverage           0.6000
-  Complexity         0.1333
-  Diversity          0.8166
+  Original DPR:
+    Compile historical legislative data from British Columbia, Manitoba,
+    and Puerto Rico to analyze patterns of political representation across
+    electoral districts and time periods. This should enable strategic
+    decision-making for political campaigns by identifying key swing
+    districts, assessing party dominance in specific regions, and tracking
+    resource allocation needs based on district demographics and historical
+    voting behavior. The dataset should support predictive modeling of
+    election outcomes based on district characteristics and party
+    affiliation trends, while also enabling scenario planning for
+    redistricting impacts and political strategy adjustments over time.
+
+  Coverage           0.3333
+  Complexity         0.2667
+  Diversity          0.8265
   Surprisal          0.4905
   Uniqueness         1.0000
-  LLM Quality        0.7500
+  LLM Quality        0.5000
   LLM Relevance      0.5000
-  LLM Clarity        0.7500
+  LLM Clarity        0.5000
 
   Summary:
-    The compilation of historical world records for the 110m hurdles and
-    1500m events reveals that Moscow, Soviet Union is a location with a
-    record-setting time. However, the dataset does not provide information
-    on record-setting locations in the T56 classification or how athlete
-    performances in the T54 classification change over time.
+    The current dataset only includes electoral districts affiliated with
+    the Conservative Party, with no information on districts in T31 or T58.
+    It also shows that the Liberal Party is represented in Alberni, Atlin,
+    Cariboo, Chilliwack, and Columbia districts in T4, but does not provide
+    information on other parties in T4 or any districts in T31 and T58.
 
 ============================================================
 
-Rank #18  |  DPR: 7  |  Combined Score: 0.6018
+Rank #21  |  DPR: 3_v3  |  Combined Score: 0.5449
 ============================================================
+  Original DPR:
+    Compile and integrate results from historical international cross
+    country championships (1898-1933), motorsport events (1933-1937), New
+    World monkey species data (80-100 species), and 1948 Colombian football
+    teams. Analyze patterns in athlete performance by nationality and
+    timeframe to identify high-performing training strategies and regional
+    athletic advantages. Evaluate conservation urgency for monkey species
+    based on classification, size, and status. Compare motorsport outcomes
+    by car constructor and driver to optimize equipment decisions. Assess
+    football stadium distribution and team locations to inform operational
+    logistics. Prioritize these insights to guide resource allocation in
+    sports development, wildlife preservation, and sports infrastructure
+    planning.
+
+  Coverage           0.2222
+  Complexity         0.4000
+  Diversity          0.8402
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.5000
+  LLM Relevance      0.5000
+  LLM Clarity        0.5000
+
+  Summary:
+    The top-performing nationalities in cross country championships are
+    France and England. In motorsport events, the most successful car
+    constructors are Alfa Romeo, Bugatti, ERA, and Maserati. However, the
+    conservation statuses of New World monkey species by size are not shown
+    in the available data, indicating a limitation in the evidence.
+
+============================================================
+
+Rank #22  |  DPR: 4_v3  |  Combined Score: 0.5387
+============================================================
+  Original DPR:
+    Compile data on historical New Zealand rugby union tours (players'
+    provincial affiliations, match outcomes, and tour logistics) alongside
+    early parliamentary representation by province to analyze correlations
+    between regional demographics, team composition, and match performance.
+    Use this to inform current decisions on regional recruitment strategies,
+    tour scheduling optimizations, and resource allocation for team
+    development, while assessing historical patterns in regional political
+    and sports engagement.
+
+  Coverage           0.2308
+  Complexity         0.3333
+  Diversity          0.8503
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.5000
+  LLM Relevance      0.5000
+  LLM Clarity        0.5000
+
+  Summary:
+    The provinces represented in historical New Zealand rugby union tours
+    include Auckland, Canterbury, Nelson, New Plymouth, and Otago. The
+    distribution of scores in these tours is limited to the United States,
+    with cities such as San Francisco, Berkeley, and Palo Alto being
+    mentioned. However, the evidence does not provide information on the
+    match outcomes, team composition, or regional demographics, indicating
+    limitations in the available data.
+
+============================================================
+
+Rank #23  |  DPR: 1_v3  |  Combined Score: 0.5294
+============================================================
+  Original DPR:
+    Compile a dataset that analyzes the financial and cultural performance
+    of film/music projects across decades, comparing revenue/admissions data
+    with artist involvement (e.g., "Weird Al" Yankovic's roles in films) to
+    inform strategic decisions for production studios. The data should
+    support: 1) Identifying market preferences by comparing film/music
+    revenue trends and artist career impacts; 2) Evaluating international
+    market performance to prioritize studio investments; 3) Assessing
+    historical chart success patterns (e.g., 1970 country singles) to guide
+    marketing strategies. The dataset must include metadata on roles,
+    production years, geographic markets, revenue figures, and studio
+    performance metrics to enable actionable cross-industry insights.
+
+  Coverage           0.2222
+  Complexity         0.2667
+  Diversity          0.8649
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.5000
+  LLM Relevance      0.5000
+  LLM Clarity        0.5000
+
+  Summary:
+    Warner Bros. has the highest domestic gross, with a revenue of
+    119,500,000. The revenue trends for top-grossing films in different
+    countries include a film from India with a revenue of 16,800,000.0 and a
+    film from France and Germany with a revenue of 0.0, indicating varying
+    international market performance. However, limitations are visible in
+    the evidence as it does not provide information on market preferences,
+    artist career impacts, or historical chart success patterns.
+
+============================================================
+
+Rank #24  |  DPR: 7  |  Combined Score: 0.5215
+============================================================
+  Original DPR:
+    Compile a dataset documenting legislative turnover across U.S.
+    Congresses (House and Senate) and state legislatures (like the Wisconsin
+    example), including: 1. Vacancy causes (death, resignation, removal) and
+    their frequency across legislative bodies and time periods 2.
+    Correlations between vacancy reasons and the time elapsed between
+    vacancy and successor installation 3. Comparisons of political party
+    affiliation of vacators vs. successors to identify partisan trends in
+    replacements 4. Geographic patterns in turnover, contrasting urban vs.
+    rural districts/states (as context from the census table) 5. Historical
+    trends in turnover rates, including how frequently seats were vacant
+    versus continuously held 6. Cross-institutional contrasts between Senate
+    seat stability and House seat changes over time. This should enable
+    analysis of how institutional design, region, and political context
+    influence legislative continuity and replacement patterns.
+
   Coverage           0.2143
   Complexity         0.2667
   Diversity          0.8213
   Surprisal          0.4905
   Uniqueness         1.0000
-  LLM Quality        1.0000
-  LLM Relevance      0.7500
-  LLM Clarity        0.7500
+  LLM Quality        0.5000
+  LLM Relevance      0.5000
+  LLM Clarity        0.5000
 
   Summary:
     The dataset documents legislative turnover, including vacancy causes
@@ -408,16 +813,58 @@ Rank #18  |  DPR: 7  |  Combined Score: 0.6018
 
 ============================================================
 
-Rank #19  |  DPR: 7_v3  |  Combined Score: 0.5969
+Rank #25  |  DPR: 3  |  Combined Score: 0.5174
 ============================================================
+  Original DPR:
+    Compile data from International Cross Country Championships (1898–1933)
+    to analyze athlete performance trends, nationality dominance, and race
+    time improvements across historical years. Simultaneously, compile New
+    World monkey species data to evaluate correlations between taxonomy
+    classifications and conservation statuses. This dual focus will enable
+    comparative insights into long-term athletic competitiveness and
+    biodiversity preservation patterns.
+
+  Coverage           0.1667
+  Complexity         0.2667
+  Diversity          0.8642
+  Surprisal          0.4905
+  Uniqueness         1.0000
+  LLM Quality        0.5000
+  LLM Relevance      0.5000
+  LLM Clarity        0.5000
+
+  Summary:
+    The analysis of athlete performance trends is limited, as no trends are
+    visible. Similarly, the evaluation of conservation statuses by taxonomy
+    classification is incomplete, as the variation of conservation statuses
+    by taxonomy classification is not shown. Additionally, the average sizes
+    of species by conservation status are not provided.
+
+============================================================
+
+Rank #26  |  DPR: 7_v3  |  Combined Score: 0.5166
+============================================================
+  Original DPR:
+    Compile a historical dataset documenting legislative vacancies and
+    replacements across U.S. Congresses and states, including districts,
+    parties, reasons for vacancies, successor timelines, and demographic
+    details (e.g., age, tenure, political affiliation). The data product
+    should enable analysis of vacancy frequency, causes, and resolution
+    efficiency to support decisions such as: optimizing emergency succession
+    protocols, identifying high-turnover regions for targeted candidate
+    recruitment or retention strategies, and assessing the political,
+    geographic, or demographic factors influencing stability in legislative
+    representation. Include comparative metrics across time periods and
+    regions to guide policy interventions and resource allocation.
+
   Coverage           0.1429
   Complexity         0.3333
   Diversity          0.8276
   Surprisal          0.4905
   Uniqueness         1.0000
-  LLM Quality        1.0000
-  LLM Relevance      0.7500
-  LLM Clarity        0.7500
+  LLM Quality        0.5000
+  LLM Relevance      0.5000
+  LLM Clarity        0.5000
 
   Summary:
     A historical dataset documenting legislative vacancies and replacements
@@ -435,16 +882,27 @@ Rank #19  |  DPR: 7_v3  |  Combined Score: 0.5969
 
 ============================================================
 
-Rank #20  |  DPR: 9_v3  |  Combined Score: 0.5969
+Rank #27  |  DPR: 9_v3  |  Combined Score: 0.5166
 ============================================================
+  Original DPR:
+    Compile a comprehensive dataset documenting Ohio legislative
+    representation and turnover events (123rd–130th General Assemblies) that
+    enables analysis of how turnover patterns, party affiliation shifts, and
+    term limits influence legislative decision-making. The dataset should
+    include historical records of member transitions (predecessors,
+    successors, reasons for change), party composition trends by district,
+    and demographic factors (residence, first elected year) to support
+    strategic planning for political engagement, policy resource allocation,
+    and electoral strategy development in Ohio.
+
   Coverage           0.1818
   Complexity         0.2667
   Diversity          0.8356
   Surprisal          0.4905
   Uniqueness         1.0000
-  LLM Quality        0.7500
-  LLM Relevance      1.0000
-  LLM Clarity        0.7500
+  LLM Quality        0.5000
+  LLM Relevance      0.5000
+  LLM Clarity        0.5000
 
   Summary:
     A comprehensive dataset on Ohio legislative representation and turnover
@@ -459,145 +917,28 @@ Rank #20  |  DPR: 9_v3  |  Combined Score: 0.5969
 
 ============================================================
 
-Rank #21  |  DPR: 3_v2  |  Combined Score: 0.5911
+Rank #28  |  DPR: 4_v2  |  Combined Score: 0.5023
 ============================================================
-  Coverage           0.2778
-  Complexity         0.4667
-  Diversity          0.8260
-  Surprisal          0.4905
-  Uniqueness         1.0000
-  LLM Quality        0.7500
-  LLM Relevance      0.5000
-  LLM Clarity        0.7500
+  Original DPR:
+    Compile historical data on the 1st New Zealand Parliament's members and
+    electoral provinces (1854) alongside comprehensive records of New
+    Zealand's inter-colonial rugby tours from 1884–1920, including player
+    team affiliations, match venues, and scores. Analyze these datasets to
+    identify: 1. How electoral representation evolved versus shifts in
+    sports team provinces. 2. Geographic expansion of rugby matches and
+    evolving preferences for venues over time. 3. Changes in team
+    composition patterns and potential correlations with national
+    infrastructure development. 4. Trends in match scores indicating shifts
+    in gameplay style or competitive balance across decades.
 
-  Summary:
-    The historical sports performance data shows that the top 5 teams in
-    T83 had the same Team Points, but the times for T5 and T6 between 1898
-    and 1948 are 56:36, 56:36.4, 57:14.8, 57:22.6, and 57:48.4, though the
-    years these times occurred are unknown. The result set also indicates
-    that Nationality affects Rank in T7 and T77, but only shows empty Rank
-    values for "Scotland" and "England", limiting the assessment of this
-    relationship.
-
-============================================================
-
-Rank #22  |  DPR: 2_v2  |  Combined Score: 0.5786
-============================================================
-  Coverage           0.3333
-  Complexity         0.2667
-  Diversity          0.8553
-  Surprisal          0.4905
-  Uniqueness         1.0000
-  LLM Quality        0.7500
-  LLM Relevance      0.5000
-  LLM Clarity        0.7500
-
-  Summary:
-    The analysis of legislative data reveals that certain electoral
-    districts, including Manitou, Portage la Prairie, Winnipeg South, and
-    Emerson, are mentioned. However, the study does not show how these
-    districts change over time. The parties represented in the data are
-    Liberal, Independent, and Conservative, while the distribution of
-    parties in another context is NPP with 13 Senators and PDP with 7
-    Senators. Limitations are visible in the evidence as the study does not
-    provide information on how electoral districts in T31 change over time.
-
-============================================================
-
-Rank #23  |  DPR: 2_v3  |  Combined Score: 0.5745
-============================================================
-  Coverage           0.3333
-  Complexity         0.2667
-  Diversity          0.8265
-  Surprisal          0.4905
-  Uniqueness         1.0000
-  LLM Quality        0.7500
-  LLM Relevance      0.5000
-  LLM Clarity        0.7500
-
-  Summary:
-    The current dataset only includes electoral districts affiliated with
-    the Conservative Party, with no information on districts in T31 or T58.
-    It also shows that the Liberal Party is represented in Alberni, Atlin,
-    Cariboo, Chilliwack, and Columbia districts in T4, but does not provide
-    information on other parties in T4 or any districts in T31 and T58.
-
-============================================================
-
-Rank #24  |  DPR: 3_v3  |  Combined Score: 0.5717
-============================================================
-  Coverage           0.2222
-  Complexity         0.4000
-  Diversity          0.8402
-  Surprisal          0.4905
-  Uniqueness         1.0000
-  LLM Quality        0.7500
-  LLM Relevance      0.5000
-  LLM Clarity        0.5000
-
-  Summary:
-    The top-performing nationalities in cross country championships are
-    France and England. In motorsport events, the most successful car
-    constructors are Alfa Romeo, Bugatti, ERA, and Maserati. However, the
-    conservation statuses of New World monkey species by size are not shown
-    in the available data, indicating a limitation in the evidence.
-
-============================================================
-
-Rank #25  |  DPR: 4_v3  |  Combined Score: 0.5655
-============================================================
-  Coverage           0.2308
-  Complexity         0.3333
-  Diversity          0.8503
-  Surprisal          0.4905
-  Uniqueness         1.0000
-  LLM Quality        0.7500
-  LLM Relevance      0.5000
-  LLM Clarity        0.7500
-
-  Summary:
-    The provinces represented in historical New Zealand rugby union tours
-    include Auckland, Canterbury, Nelson, New Plymouth, and Otago. The
-    distribution of scores in these tours is limited to the United States,
-    with cities such as San Francisco, Berkeley, and Palo Alto being
-    mentioned. However, the evidence does not provide information on the
-    match outcomes, team composition, or regional demographics, indicating
-    limitations in the available data.
-
-============================================================
-
-Rank #26  |  DPR: 1_v3  |  Combined Score: 0.5562
-============================================================
-  Coverage           0.2222
-  Complexity         0.2667
-  Diversity          0.8649
-  Surprisal          0.4905
-  Uniqueness         1.0000
-  LLM Quality        0.7500
-  LLM Relevance      0.5000
-  LLM Clarity        0.5000
-
-  Summary:
-    Warner Bros. has the highest domestic gross, with a revenue of
-    119,500,000. The revenue trends for top-grossing films in different
-    countries include a film from India with a revenue of 16,800,000.0 and a
-    film from France and Germany with a revenue of 0.0, indicating varying
-    international market performance. However, limitations are visible in
-    the evidence as it does not provide information on market preferences,
-    artist career impacts, or historical chart success patterns.
-
-============================================================
-
-Rank #27  |  DPR: 4_v2  |  Combined Score: 0.5291
-============================================================
   Coverage           0.1538
   Complexity         0.2000
   Diversity          0.8447
   Surprisal          0.4905
   Uniqueness         1.0000
-  LLM Quality        0.7500
+  LLM Quality        0.5000
   LLM Relevance      0.5000
-  LLM Clarity        0.7500
+  LLM Clarity        0.5000
 
   Summary:
     The 1st New Zealand Parliament's members represented the provinces of
@@ -607,26 +948,6 @@ Rank #27  |  DPR: 4_v2  |  Combined Score: 0.5291
     venues, including the Parramatta Ground, Agricultural Society Ground,
     and Cricket Ground, but the specific years of these matches are not
     provided.
-
-============================================================
-
-Rank #28  |  DPR: 3  |  Combined Score: 0.5174
-============================================================
-  Coverage           0.1667
-  Complexity         0.2667
-  Diversity          0.8642
-  Surprisal          0.4905
-  Uniqueness         1.0000
-  LLM Quality        0.5000
-  LLM Relevance      0.5000
-  LLM Clarity        0.7500
-
-  Summary:
-    The analysis of athlete performance trends is limited, as no trends are
-    visible. Similarly, the evaluation of conservation statuses by taxonomy
-    classification is incomplete, as the variation of conservation statuses
-    by taxonomy classification is not shown. Additionally, the average sizes
-    of species by conservation status are not provided.
 
 ============================================================
 
