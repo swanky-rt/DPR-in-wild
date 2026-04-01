@@ -61,7 +61,7 @@ import sqlite3
 import sys
 import time
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Set, Tuple
+from typing import Any, Dict, List, Optional, Set, Tuple, TypedDict
 
 
 # Load .env from project root so GROQ_API_KEY can be set there.
@@ -83,6 +83,14 @@ try:
     from openai import OpenAI
 except ImportError:
     OpenAI = None
+
+try:
+    from langgraph.graph import END, StateGraph
+    LANGGRAPH_AVAILABLE = True
+except Exception:
+    END = "__end__"
+    StateGraph = None
+    LANGGRAPH_AVAILABLE = False
 
 
 GROQ_BASE_URL = "https://api.groq.com/openai/v1"
@@ -112,6 +120,13 @@ class TokensPerDayExhaustedError(RuntimeError):
 # With MAX_SQL_ATTEMPTS=3: 0 generate → 1 simplify/drop join → 2 adaptive (discovery OR alternate-table pivot).
 MAX_SQL_ATTEMPTS = 3
 
+# Minimum successful sub-questions required for DPR execution success.
+# Recommended: 2 (for 2-3 generated sub-questions).
+try:
+    STAGE3_MIN_SUBQ_SUCCESSES = max(1, int(os.environ.get("STAGE3_MIN_SUBQ_SUCCESSES", "2")))
+except ValueError:
+    STAGE3_MIN_SUBQ_SUCCESSES = 2
+
 # Defensive execution limits for SQLite queries.
 # - Progress handler wall-time timeout per SQL statement (helps avoid implicit cartesian joins)
 # - Fetch-capping prevents pulling huge result sets into Python memory.
@@ -125,6 +140,17 @@ try:
     DPR_PROCESS_DELAY_SEC = max(0.0, float(os.environ.get("STAGE3_DPR_DELAY_SEC", "20")))
 except ValueError:
     DPR_PROCESS_DELAY_SEC = 10.0
+
+# Hybrid SQL proposal: lightweight LLM JSON router chooses generate_sql vs refine_sql (see propose_sql node).
+# Set STAGE3_SQL_ACTION_ROUTER=0 to skip the extra call and always refine after a failed execution.
+try:
+    STAGE3_SQL_ACTION_ROUTER = os.environ.get("STAGE3_SQL_ACTION_ROUTER", "1").strip().lower() not in (
+        "0",
+        "false",
+        "no",
+    )
+except Exception:
+    STAGE3_SQL_ACTION_ROUTER = True
 
 # Sub-question feasibility: tokens that often refer to columns; if absent from schema, skip or warn.
 _COLUMN_RISK_STEMS = frozenset(
@@ -918,12 +944,12 @@ SQL:"""
 
     resp = _chat_with_retry(
         client,
-                model=model,
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.1,
+        model=model,
+        messages=[{"role": "user", "content": prompt}],
+        temperature=0.1,
         max_tokens=384,
-            )
-            raw = (resp.choices[0].message.content or "").strip()
+    )
+    raw = (resp.choices[0].message.content or "").strip()
     sql = _extract_sql_candidate(raw)
     if not _is_valid_sql_start(sql):
         return _fallback_sql_from_schema(schema_string)
@@ -942,11 +968,14 @@ def refine_sql_with_error(
     refine_strategy: str = "default",
     excluded_tables: Optional[Set[str]] = None,
     alternate_table_hint: Optional[str] = None,
+    attempts_log: Optional[List[Dict[str, Any]]] = None,
 ) -> str:
     """
     Self-correcting SQL generation step driven by observed errors and empty results.
 
     Key improvement: include sample rows so the refinement step ALSO stays grounded.
+    Optional attempts_log is the full per-sub-question execution history (including the
+    latest failed/empty attempt) for trace-aware refinement.
     """
     feedback_parts: List[str] = []
     if error_message:
@@ -973,6 +1002,8 @@ def refine_sql_with_error(
     feedback_block = "\n\n".join(feedback_parts) if feedback_parts else "The previous SQL can be improved."
 
     allowed_cols = _allowed_columns_text(schema_string)
+    exec_trace = _format_refinement_execution_trace(attempts_log)
+    trace_section = f"{exec_trace}\n" if exec_trace else ""
 
     prompt = f"""You are a SQL expert working in an iterative, self-correcting loop.
 
@@ -991,7 +1022,7 @@ Example rows (GROUND TRUTH — copy filter literals from here when possible):
 Question:
 \"\"\"{_truncate_for_llm(question, 2000)}\"\"\"
 
-Previous SQL:
+{trace_section}SQL to revise (must match the latest attempt in the trace above when a trace is present):
 ```sql
 {previous_sql}
 ```
@@ -1002,6 +1033,7 @@ Feedback:
 {_refine_strategy_block(refine_strategy, excluded_tables=excluded_tables or set(), alternate_table_hint=alternate_table_hint)}
 
 Important constraints:
+- If an execution trace is listed above, learn from it: do not repeat the same failing join, table choice, or literals unless you have a concrete fix.
 - Keep the query focused on the question.
 - Do NOT hallucinate new tables or columns.
 - When filtering by categorical columns, prefer values shown in the example rows; use LIKE for fuzzy match when 0 rows.
@@ -1025,6 +1057,123 @@ Return ONLY the revised SQL statement starting with SELECT or WITH ... AS (. No 
     if not _is_valid_sql_start(sql):
         return _fallback_sql_from_schema(schema_string)
     return sql
+
+
+def tool_generate_sql(
+    *,
+    client,
+    model: str,
+    question: str,
+    schema_string: str,
+    samples_string: str = "",
+) -> str:
+    """Explicit tool wrapper for hybrid routing; delegates to generate_sql."""
+    return generate_sql(client, model, question, schema_string, samples_string=samples_string)
+
+
+def tool_refine_sql(
+    *,
+    client,
+    model: str,
+    question: str,
+    schema_string: str,
+    previous_sql: str,
+    error_message: Optional[str],
+    empty_result: bool,
+    samples_string: str = "",
+    refine_strategy: str = "default",
+    excluded_tables: Optional[Set[str]] = None,
+    alternate_table_hint: Optional[str] = None,
+    attempts_log: Optional[List[Dict[str, Any]]] = None,
+) -> str:
+    """Explicit tool wrapper for hybrid routing; delegates to refine_sql_with_error."""
+    return refine_sql_with_error(
+        client,
+        model,
+        question,
+        schema_string,
+        previous_sql,
+        error_message,
+        empty_result=empty_result,
+        samples_string=samples_string,
+        refine_strategy=refine_strategy,
+        excluded_tables=excluded_tables,
+        alternate_table_hint=alternate_table_hint,
+        attempts_log=attempts_log,
+    )
+
+
+def _parse_json_object_from_llm(text: str) -> Optional[Dict[str, Any]]:
+    s = (text or "").strip()
+    if not s:
+        return None
+    try:
+        o = json.loads(s)
+        return o if isinstance(o, dict) else None
+    except Exception:
+        pass
+    m = re.search(r"\{[\s\S]*\}", s)
+    if m:
+        try:
+            o = json.loads(m.group(0))
+            return o if isinstance(o, dict) else None
+        except Exception:
+            pass
+    return None
+
+
+def _llm_route_sql_proposal_action(
+    client,
+    model: str,
+    *,
+    question: str,
+    last_error: Optional[str],
+    empty_result: bool,
+    refine_strategy: str,
+    attempt_idx: int,
+) -> str:
+    """
+    Lightweight JSON router: generate_sql (fresh SELECT) vs refine_sql (fix last).
+    Execution stays in LangGraph; this only chooses which SQL tool to call in propose_sql.
+    """
+    prompt = f"""You choose the next SQL authoring step for a bounded retry loop.
+Return ONLY valid JSON (no markdown, no code fences):
+{{"action":"generate_sql"|"refine_sql","rationale":"one short phrase"}}
+
+Sub-question:
+\"\"\"{_truncate_for_llm(question, 1500)}\"\"\"
+
+Context:
+- After-execution attempt index (0 = first execution done; higher = more retries): {attempt_idx}
+- System policy hint for this round: {refine_strategy}
+- Last execution error (if any): {_truncate_for_llm(last_error or "(none)", 800)}
+- Last run returned 0 rows (empty result): {empty_result}
+
+Rules:
+- choose "refine_sql" when the last query is close and needs fixes (syntax/schema, predicates, JOIN simplification, discovery tweaks).
+- choose "generate_sql" only when abandoning the prior approach for a clean new SELECT (e.g. wrong table family, irreparable join).
+- prefer "refine_sql" if the error looks like schema/syntax/no such column/table.
+
+JSON:"""
+
+    try:
+        resp = _chat_with_retry(
+            client,
+            model=model,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.1,
+            max_tokens=160,
+        )
+        raw = (resp.choices[0].message.content or "").strip()
+        obj = _parse_json_object_from_llm(raw) or {}
+        action = str(obj.get("action", "")).strip().lower()
+        if action in ("generate_sql", "refine_sql"):
+            return action
+    except TokensPerDayExhaustedError:
+        raise
+    except Exception:
+        pass
+    return "refine_sql"
 
 
 def summarize_subquestion_result(
@@ -1088,7 +1237,7 @@ Output ONLY those sentences. No planning, no reasoning, no tags, no "Okay" pream
         raw = (resp.choices[0].message.content or "").strip()
         return _clean_llm_prose_response(raw)
     except TokensPerDayExhaustedError:
-            raise
+        raise
     except Exception:
         return ""
 
@@ -1345,6 +1494,58 @@ def _refine_strategy_block(
     return ""
 
 
+def _format_refinement_execution_trace(
+    attempts_log: Optional[List[Dict[str, Any]]],
+    *,
+    max_entries: int = 8,
+    max_sql_chars: int = 1200,
+) -> str:
+    """
+    Full per-sub-question execution history for refine_sql_with_error, including the
+    latest attempt (marked as the one to revise). Fixes the first-retry gap where only
+    one execution existed but no structured trace was shown.
+    """
+    if not attempts_log:
+        return ""
+    entries = attempts_log[-max_entries:]
+    lines: List[str] = []
+    base = len(attempts_log) - len(entries)
+    for i, att in enumerate(entries):
+        n = base + i + 1
+        is_last = i == len(entries) - 1
+        marker = " **← REVISE THIS CANDIDATE**" if is_last else ""
+        sql = (att.get("sql") or "").strip()
+        if len(sql) > max_sql_chars:
+            sql = sql[: max_sql_chars - 3] + "..."
+        ok = att.get("execution_status")
+        err = att.get("error")
+        rc = int(att.get("row_count", 0) or 0)
+        phase = att.get("retry_phase") or "?"
+        status = "executed OK" if ok else "failed"
+        detail_parts: List[str] = [f"rows={rc}"]
+        if err:
+            detail_parts.append(f"error={_truncate_for_llm(str(err), 500)}")
+        hint_parts: List[str] = []
+        if att.get("explicit_join"):
+            hint_parts.append("uses JOIN")
+        tabs = att.get("tables")
+        if isinstance(tabs, list) and tabs:
+            hint_parts.append("tables=" + ",".join(str(t) for t in tabs[:12]))
+        if hint_parts:
+            detail_parts.append("; ".join(hint_parts))
+        detail = "; ".join(detail_parts)
+        lines.append(
+            f"Attempt {n} (phase={phase}): {status} ({detail}){marker}\n"
+            f"SQL:\n{sql}"
+        )
+    block = "\n\n".join(lines)
+    return (
+        "## Execution trace for this sub-question (do not repeat failed patterns)\n"
+        f"{block}\n"
+        "---\n"
+    )
+
+
 def execute_and_validate(
     cursor, sql: str, require_non_empty: bool
 ) -> Tuple[bool, List[Dict[str, Any]], Optional[str], int]:
@@ -1389,6 +1590,344 @@ def execute_and_validate(
             conn.set_progress_handler(None, 0)
         except Exception:
             pass
+
+
+class SQLLoopState(TypedDict, total=False):
+    sub_question: str
+    schema_string: str
+    samples_string: str
+    attempt_count: int
+    max_attempts: int
+    last_sql: Optional[str]
+    last_error: Optional[str]
+    last_execution_ok: bool
+    last_row_count: int
+    last_preview: List[Dict[str, Any]]
+    attempts_log: List[Dict[str, Any]]
+    # Explicit "reasoning/strategy" stage for the next SQL proposal.
+    empty_result: bool
+    refine_strategy: str
+    excluded_tables: Optional[List[str]]
+    alternate_table_hint: Optional[str]
+    retry_phase: str
+    done: bool
+    success: bool
+    best_sql: Optional[str]
+    best_preview: List[Dict[str, Any]]
+    best_row_count: int
+
+
+def _should_retry_sql_attempt(sql: Optional[str], ok: bool, row_count: int, err: Optional[str]) -> bool:
+    return bool(
+        _is_schema_error(err)
+        or _is_execution_timeout_error(err)
+        or _is_cartesian_sql(sql)
+        or _is_speculative_join(sql)
+        or _uses_unsafe_text_metric_aggregate(sql)
+        or _is_empty_result_error(err)
+        or (ok and row_count == 0)
+        or (ok and row_count > 0 and _sql_is_trivial_probe(sql))
+    )
+
+
+def _execute_sql_candidate(
+    *,
+    cursor,
+    schema_string: str,
+    sql: Optional[str],
+    require_non_empty: bool,
+) -> Tuple[bool, List[Dict[str, Any]], Optional[str], int]:
+    if not sql:
+        return False, [], "Empty SQL candidate.", 0
+    if _is_cartesian_sql(sql):
+        return False, [], "Detected disallowed cartesian join pattern (e.g., ON 1=1 or CROSS JOIN).", 0
+    if _is_speculative_join(sql):
+        return (
+            False,
+            [],
+            "Detected speculative fuzzy JOIN predicate (ON ... LIKE ...). Use a clear relational key or prefer a single-table query.",
+            0,
+        )
+    if _uses_unsafe_text_metric_aggregate(sql):
+        return (
+            False,
+            [],
+            "Detected text-based aggregation/sort on numeric-like metric columns (Revenue/Admissions/Gross) without numeric CAST.",
+            0,
+        )
+    schema_val_err = _validate_sql_against_schema(sql, schema_string)
+    if schema_val_err:
+        return False, [], schema_val_err, 0
+    return execute_and_validate(cursor, sql, require_non_empty=require_non_empty)
+
+
+def tool_execute_sql(
+    *,
+    cursor,
+    schema_string: str,
+    sql: Optional[str],
+    require_non_empty: bool,
+) -> Tuple[bool, List[Dict[str, Any]], Optional[str], int]:
+    """Agent tool wrapper: validate + execute SQL against the in-memory SQLite cluster DB."""
+    return _execute_sql_candidate(
+        cursor=cursor,
+        schema_string=schema_string,
+        sql=sql,
+        require_non_empty=require_non_empty,
+    )
+
+
+def _run_subquestion_sql_loop_langgraph(
+    *,
+    client,
+    model: str,
+    cursor,
+    sub_q: str,
+    schema_string: str,
+    samples_string: str,
+    table_uids: List[str],
+    require_non_empty: bool,
+) -> Dict[str, Any]:
+    if not LANGGRAPH_AVAILABLE or StateGraph is None:
+        raise RuntimeError("LangGraph not installed. Install with `pip install langgraph` for pipelinenew.py SQL loop.")
+
+    def reason_node(state: SQLLoopState) -> SQLLoopState:
+        """
+        Explicit "reason about last failure" stage.
+
+        This does not require another LLM call: it converts the latest tool outputs
+        (error text, row_count, and SQL patterns) into a structured refinement plan
+        for the *next* SQL proposal.
+        """
+        attempt_idx = int(state.get("attempt_count", 0))
+        sql_prev = state.get("last_sql")
+        err_prev = state.get("last_error")
+        row_prev = int(state.get("last_row_count", 0))
+
+        # Defaults for attempt 0 (no previous execution).
+        if attempt_idx == 0 or not sql_prev:
+            return {
+                "retry_phase": "generate",
+                "refine_strategy": "generate",
+                "empty_result": False,
+                "excluded_tables": None,
+                "alternate_table_hint": None,
+            }
+
+        empty_result = (row_prev == 0) and (err_prev is None or _is_empty_result_error(err_prev))
+
+        if attempt_idx == 1:
+            refine_strategy = "simplify_drop_join"
+            excluded_tables: Optional[List[str]] = None
+            alt_hint: Optional[str] = None
+        else:
+            prev_attempts = state.get("attempts_log", []) or []
+            prev_attempt_had_empty = (
+                len(prev_attempts) > 0
+                and prev_attempts[-1].get("execution_status") is True
+                and int(prev_attempts[-1].get("row_count", 0) or 0) == 0
+            )
+            hard_pivot_signals = (
+                _is_speculative_join(sql_prev)
+                or _is_cartesian_sql(sql_prev)
+                or _is_schema_error(err_prev)
+                or _is_execution_timeout_error(err_prev)
+                or prev_attempt_had_empty
+            )
+            if hard_pivot_signals:
+                refine_strategy = "alternate_table"
+                excluded_set = _extract_tables_from_sql(sql_prev or "")
+                excluded_tables = sorted(excluded_set) if excluded_set else None
+                alt_hint = _pick_alternate_table(table_uids, excluded_set) if excluded_set else None
+            else:
+                refine_strategy = "discovery"
+                excluded_tables = None
+                alt_hint = None
+
+        retry_phase = (
+            "simplify_drop_join"
+            if refine_strategy == "simplify_drop_join"
+            else "alternate_table"
+            if refine_strategy == "alternate_table"
+            else "discovery"
+        )
+
+        return {
+            "retry_phase": retry_phase,
+            "refine_strategy": refine_strategy,
+            "empty_result": empty_result,
+            "excluded_tables": excluded_tables,
+            "alternate_table_hint": alt_hint,
+        }
+
+    def propose_sql_node(state: SQLLoopState) -> SQLLoopState:
+        attempt_idx = int(state.get("attempt_count", 0))
+        sql_prev = state.get("last_sql")
+        err_prev = state.get("last_error")
+
+        if attempt_idx == 0 or not sql_prev:
+            sql_new = generate_sql(client, model, sub_q, schema_string, samples_string=samples_string)
+            return {"last_sql": sql_new}
+
+        empty_result = bool(state.get("empty_result", False))
+        refine_strategy = str(state.get("refine_strategy", "discovery") or "discovery")
+        excluded_tables_list = state.get("excluded_tables")
+        excluded_tables_set: Optional[Set[str]] = set(excluded_tables_list) if excluded_tables_list else None
+        alternate_table_hint = state.get("alternate_table_hint")
+        log = state.get("attempts_log") or []
+
+        action = "refine_sql"
+        if STAGE3_SQL_ACTION_ROUTER:
+            action = _llm_route_sql_proposal_action(
+                client,
+                model,
+                question=sub_q,
+                last_error=err_prev,
+                empty_result=empty_result,
+                refine_strategy=refine_strategy,
+                attempt_idx=attempt_idx,
+            )
+        if action not in ("generate_sql", "refine_sql"):
+            action = "refine_sql"
+        if _is_schema_error(err_prev):
+            action = "refine_sql"
+
+        if action == "generate_sql":
+            sql_new = tool_generate_sql(
+                client=client,
+                model=model,
+                question=sub_q,
+                schema_string=schema_string,
+                samples_string=samples_string,
+            )
+        else:
+            sql_new = tool_refine_sql(
+                client=client,
+                model=model,
+                question=sub_q,
+                schema_string=schema_string,
+                previous_sql=sql_prev or "",
+                error_message=err_prev,
+                empty_result=empty_result,
+                samples_string=samples_string,
+                refine_strategy=refine_strategy,
+                excluded_tables=excluded_tables_set,
+                alternate_table_hint=alternate_table_hint,
+                attempts_log=log,
+            )
+        return {"last_sql": sql_new}
+
+    def execute_sql_node(state: SQLLoopState) -> SQLLoopState:
+        sql_now = state.get("last_sql")
+        ok, preview, err, row_count = tool_execute_sql(
+            cursor=cursor,
+            schema_string=schema_string,
+            sql=sql_now,
+            require_non_empty=require_non_empty,
+        )
+        attempts_log = list(state.get("attempts_log", []))
+        sn = sql_now or ""
+        attempts_log.append(
+            {
+                "sql": sql_now,
+                "execution_status": ok,
+                "error": err,
+                "row_count": row_count,
+                "retry_phase": state.get("retry_phase", "generate"),
+                "explicit_join": _sql_has_explicit_join(sn),
+                "tables": sorted(_extract_tables_from_sql(sn)),
+            }
+        )
+        out: SQLLoopState = {
+            "attempt_count": int(state.get("attempt_count", 0)) + 1,
+            "attempts_log": attempts_log,
+            "last_error": err,
+            "last_execution_ok": ok,
+            "last_row_count": row_count,
+            "last_preview": preview,
+            "success": False,
+            "done": False,
+        }
+        if ok and row_count > 0 and not _sql_is_trivial_probe(sql_now):
+            out.update(
+                {
+                    "success": True,
+                    "done": True,
+                    "best_sql": sql_now,
+                    "best_preview": preview,
+                    "best_row_count": row_count,
+                }
+            )
+        return out
+
+    def decide_next(state: SQLLoopState) -> str:
+        if bool(state.get("done")) or bool(state.get("success")):
+            return "end"
+        attempts_used = int(state.get("attempt_count", 0))
+        if attempts_used >= int(state.get("max_attempts", MAX_SQL_ATTEMPTS)):
+            return "end"
+        if not _should_retry_sql_attempt(
+            state.get("last_sql"),
+            bool(state.get("last_execution_ok")),
+            int(state.get("last_row_count", 0)),
+            state.get("last_error"),
+        ):
+            return "end"
+
+        return "reason"
+
+    graph = StateGraph(SQLLoopState)
+    graph.add_node("reason", reason_node)
+    graph.add_node("propose_sql", propose_sql_node)
+    graph.add_node("execute_sql", execute_sql_node)
+
+    graph.set_entry_point("reason")
+    graph.add_edge("reason", "propose_sql")
+    graph.add_edge("propose_sql", "execute_sql")
+    graph.add_conditional_edges(
+        "execute_sql",
+        decide_next,
+        {"reason": "reason", "end": END},
+    )
+    app = graph.compile()
+
+    try:
+        final_state = app.invoke(
+            {
+                "sub_question": sub_q,
+                "schema_string": schema_string,
+                "samples_string": samples_string,
+                "attempt_count": 0,
+                "max_attempts": MAX_SQL_ATTEMPTS,
+                "last_sql": None,
+                "last_error": None,
+                "last_execution_ok": False,
+                "last_row_count": 0,
+                "last_preview": [],
+                "attempts_log": [],
+                "success": False,
+                "done": False,
+                "best_sql": None,
+                "best_preview": [],
+                "best_row_count": 0,
+                "retry_phase": "generate",
+                "refine_strategy": "generate",
+                "empty_result": False,
+                "excluded_tables": None,
+                "alternate_table_hint": None,
+            }
+        )
+    except TokensPerDayExhaustedError:
+        raise
+
+    return {
+        "attempts": list(final_state.get("attempts_log", [])),
+        "best_ok": bool(final_state.get("success", False)),
+        "best_sql": final_state.get("best_sql"),
+        "best_preview": list(final_state.get("best_preview", [])),
+        "best_row_count": int(final_state.get("best_row_count", 0)),
+        "last_error": final_state.get("last_error"),
+    }
 
 
 def _sql_safe_identifier(name: str) -> str:
@@ -1685,6 +2224,16 @@ def run_stage3_pipeline(
             f"Using LLM: {model} (summaries: {model_light}) | tables_meta: {tables_meta_root} "
             f"| loaded {len(tables_meta_all)} table JSON(s) | DPRs to run: {len(dprs_list)}"
         )
+        if not LANGGRAPH_AVAILABLE or StateGraph is None:
+            raise RuntimeError(
+                "pipelinenew.py requires LangGraph for the SQL agentic loop. "
+                "Install dependency: `pip install langgraph`."
+            )
+        print(
+            f"[stage3] SQL loop engine=langgraph | max_attempts={MAX_SQL_ATTEMPTS} "
+            f"| min_subq_successes={STAGE3_MIN_SUBQ_SUCCESSES}",
+            flush=True,
+        )
 
         out: List[Dict[str, Any]] = []
         n_dprs = len(dprs_list)
@@ -1752,7 +2301,9 @@ def run_stage3_pipeline(
                 # Sample rows are identical for every sub-question (same cluster DB); fetch once per DPR.
                 samples_string = _fetch_table_samples(cursor, table_uids, limit=LLM_SAMPLE_ROWS_PER_TABLE)
 
-                for sub_q in sub_questions:
+                success_subq_count = 0
+
+                for sub_idx, sub_q in enumerate(sub_questions, start=1):
                     feasibility_warning = ""
                     if _question_references_unknown_risk_columns(sub_q, schema_string):
                         # Soft warning only: do NOT skip. Let SQL generation/refinement try to pivot.
@@ -1761,157 +2312,32 @@ def run_stage3_pipeline(
                             "that may not exist in this cluster schema."
                         )
 
-                    attempts: List[Dict[str, Any]] = []
-                    best_sql: Optional[str] = None
-                    best_preview: List[Dict[str, Any]] = []
-                    best_row_count = 0
-                    best_ok = False
+                    print(
+                        f"[stage3]   subq {sub_idx}/{len(sub_questions)} start | engine=langgraph",
+                        flush=True,
+                    )
                     mini_summary = ""
+                    sub_loop = _run_subquestion_sql_loop_langgraph(
+                        client=client,
+                        model=model,
+                        cursor=cursor,
+                        sub_q=sub_q,
+                        schema_string=schema_string,
+                        samples_string=samples_string,
+                        table_uids=table_uids,
+                        require_non_empty=require_non_empty,
+                    )
 
-                    sql = None
-                    err = None
-                    row_count = 0
-
-                    for attempt_idx in range(MAX_SQL_ATTEMPTS):
-                        retry_phase = "generate"
-                        try:
-                            if attempt_idx == 0 or not sql:
-                                sql = generate_sql(client, model, sub_q, schema_string, samples_string=samples_string)
-                            else:
-                                empty_result = (row_count == 0) and (err is None or _is_empty_result_error(err))
-                                prev_sql = sql
-                                if attempt_idx == 1:
-                                    refine_strategy = "simplify_drop_join"
-                                    excluded: Optional[Set[str]] = None
-                                    alt_hint: Optional[str] = None
-                                else:
-                                    # Adaptive final attempt (for MAX_SQL_ATTEMPTS=3):
-                                    # choose discovery vs hard-pivot based on prior signals.
-                                    prev_attempt_had_empty = (
-                                        len(attempts) > 0
-                                        and attempts[-1].get("execution_status") is True
-                                        and int(attempts[-1].get("row_count", 0) or 0) == 0
-                                    )
-                                    hard_pivot_signals = (
-                                        _is_speculative_join(prev_sql)
-                                        or _is_cartesian_sql(prev_sql)
-                                        or _is_schema_error(err)
-                                        or _is_execution_timeout_error(err)
-                                        or prev_attempt_had_empty
-                                    )
-                                    if hard_pivot_signals:
-                                        refine_strategy = "alternate_table"
-                                        excluded = _extract_tables_from_sql(prev_sql or "")
-                                        alt_hint = _pick_alternate_table(table_uids, excluded)
-                                    else:
-                                        refine_strategy = "discovery"
-                                        excluded = None
-                                        alt_hint = None
-                                retry_phase = (
-                                    "simplify_drop_join"
-                                    if refine_strategy == "simplify_drop_join"
-                                    else "alternate_table" if refine_strategy == "alternate_table" else "discovery"
-                                )
-                                sql = refine_sql_with_error(
-                                    client,
-                                    model,
-                                    sub_q,
-                                    schema_string,
-                                    prev_sql,
-                                    err,
-                                    empty_result=empty_result,
-                                    samples_string=samples_string,
-                                    refine_strategy=refine_strategy,
-                                    excluded_tables=excluded,
-                                    alternate_table_hint=alt_hint,
-                                )
-                        except TokensPerDayExhaustedError:
-                            raise
-                        except Exception as api_err:
-                            attempts.append(
-                                {
-                                    "sql": None,
-                                    "execution_status": False,
-                                    "error": str(api_err),
-                                    "row_count": 0,
-                                }
-                            )
-                            last_error = str(api_err)
-                            err = str(api_err)
-                            break
-
-                        if _is_cartesian_sql(sql):
-                            ok = False
-                            preview = []
-                            err = "Detected disallowed cartesian join pattern (e.g., ON 1=1 or CROSS JOIN)."
-                            row_count = 0
-                        elif _is_speculative_join(sql):
-                            ok = False
-                            preview = []
-                            err = (
-                                "Detected speculative fuzzy JOIN predicate (ON ... LIKE ...). "
-                                "Use a clear relational key or prefer a single-table query."
-                            )
-                            row_count = 0
-                        elif _uses_unsafe_text_metric_aggregate(sql):
-                            ok = False
-                            preview = []
-                            err = (
-                                "Detected text-based aggregation/sort on numeric-like metric columns "
-                                "(Revenue/Admissions/Gross) without numeric CAST."
-                            )
-                            row_count = 0
-                        else:
-                            schema_val_err = _validate_sql_against_schema(sql, schema_string)
-                            if schema_val_err:
-                                ok = False
-                                preview = []
-                                err = schema_val_err
-                                row_count = 0
-                            else:
-                                ok, preview, err, row_count = execute_and_validate(
-                                    cursor, sql, require_non_empty=require_non_empty
-                                )
-
-                        attempts.append(
-                            {
-                                "sql": sql,
-                                "execution_status": ok,
-                                "error": err,
-                                "row_count": row_count,
-                                "retry_phase": retry_phase,
-                            }
-                        )
-
-                        if ok and row_count > 0:
-                            if _sql_is_trivial_probe(sql):
-                                err = (
-                                    "The previous SQL executed but is only SELECT * FROM one table (schema probe). "
-                                    "Return a non-trivial SELECT listing specific column names from the allowed list, "
-                                    "with filters or joins as needed."
-                                )
-                            else:
-                                best_sql = sql
-                                best_preview = preview
-                                best_row_count = row_count
-                                best_ok = True
-                                break
-
-                        should_retry = (
-                            _is_schema_error(err)
-                            or _is_execution_timeout_error(err)
-                            or _is_cartesian_sql(sql)
-                            or _is_speculative_join(sql)
-                            or _uses_unsafe_text_metric_aggregate(sql)
-                            or _is_empty_result_error(err)
-                            or (ok and row_count == 0)
-                            or (ok and row_count > 0 and _sql_is_trivial_probe(sql))
-                        )
-                        if not should_retry:
-                            break
+                    attempts = list(sub_loop.get("attempts", []))
+                    best_ok = bool(sub_loop.get("best_ok"))
+                    best_sql = sub_loop.get("best_sql")
+                    best_preview = list(sub_loop.get("best_preview", []))
+                    best_row_count = int(sub_loop.get("best_row_count", 0))
+                    err = sub_loop.get("last_error")
 
                     if best_ok:
                         any_success = True
+                        success_subq_count += 1
                         if representative_sql is None:
                             representative_sql = best_sql
                             first_success_preview = best_preview
@@ -1942,8 +2368,17 @@ def run_stage3_pipeline(
                             "mini_summary": mini_summary,
                         }
                     )
+                    print(
+                        f"[stage3]   subq {sub_idx}/{len(sub_questions)} done | attempts={len(attempts)} "
+                        f"| success={'yes' if best_ok else 'no'} | rows={best_row_count}",
+                        flush=True,
+                    )
 
-                if any_success:
+                required_successes = 1
+                if len(sub_questions) >= 2:
+                    required_successes = min(STAGE3_MIN_SUBQ_SUCCESSES, len(sub_questions))
+
+                if success_subq_count >= required_successes:
                     ok = True
                     preview = first_success_preview
                     row_count = first_success_row_count
@@ -1954,7 +2389,15 @@ def run_stage3_pipeline(
                     preview = []
                     row_count = 0
                     sql = representative_sql
-                    err = last_error or "No successful sub-queries were executed."
+                    err = (
+                        f"Insufficient successful sub-questions: {success_subq_count}/{len(sub_questions)} "
+                        f"(required={required_successes}). Last error: {last_error or 'n/a'}"
+                    )
+                print(
+                    f"[stage3] DPR sub-question success count: {success_subq_count}/{len(sub_questions)} "
+                    f"(required={required_successes})",
+                    flush=True,
+                )
 
                 try:
                     final_summary = generate_final_summary(client, model_light, dpr_text, all_mini_summaries)
@@ -2075,13 +2518,13 @@ if __name__ == "__main__":
 
     try:
         out = run_stage3_pipeline(
-        input_path=args.input,
-        output_path=args.output,
+            input_path=args.input,
+            output_path=args.output,
             limit=None if args.all else args.limit,
             offset=0 if args.all else args.offset,
-        tables_meta_path=args.tables_meta,
-        require_non_empty=bool(args.require_non_empty),
-    )
+            tables_meta_path=args.tables_meta,
+            require_non_empty=bool(args.require_non_empty),
+        )
     except TokensPerDayExhaustedError:
         sys.exit(2)
     print(f"Done. Wrote {len(out)} record(s) to {args.output}")
