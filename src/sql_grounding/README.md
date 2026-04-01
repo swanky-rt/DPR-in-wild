@@ -84,20 +84,29 @@ Execution itself is not delegated to the router LLM: the graph always executes i
 Each element in the output array roughly contains:
 
 - **Identity:** `dpr_id`, `DPR`, `tables`, `ground_truth`
-- **Decomposition:** `sub_questions`, `subquery_results` 
+- **Decomposition:** `sub_questions`, `subquery_results`
+
 Per sub-question: Each subquery_results[] item usually has
 `feasibility_warning` — optional note if the question mentions risky concepts (e.g. year) that might not match the schema; the run still continues.
+
 `attempts` — chronological SQL tries for that sub-question: each has sql, execution_status, error, row_count, retry_phase, explicit_join, tables, etc.
+
 `final_sql` — SQL the loop ended with for that sub-question (the successful query from attempts for that sub question when final_execution_status is true).
+
 `final_execution_status / final_row_count` — whether that sub-question got an acceptable success and how many rows that final query had.
+
 `mini_summary` — short prose for that sub-question, written to use only facts from that query’s preview rows (when it succeeded).
 
 - **Narrative:** `mini_summaries`, `final_summary`
 - **Top-level SQL:** `generated_sql`, `execution_status`, `result`
+
 `generated_sql` - SQL chosen as the DPR-level representative: first successful query of first sub question that succeeds, in order.
+
 `execution_status` - Did this DPR meet the minimum successful sub-questions rule?.
+
 `result` - If execution_status is true: validation: "Success", row_count, preview (first few rows as dicts) for generated_sql.
 - `result.validation`, `result.row_count`, `result.preview`
+
 If false: validation: "Failed", error (human-readable reason).
 - `result.validation`, `result.error`
   
@@ -123,8 +132,11 @@ These measures reduce hallucinated columns and unsupported claims; they do not g
 Defaults (overridable via environment):
 
 - **Heavy model** (`GROQ_MODEL`): decomposition, sub-question SQL generation/refinement, SQL action router. 
+
 GROQ_MODEL = "llama-3.3-70b-versatile"
+
 - **Light model** (`GROQ_MODEL_LIGHT`): mini-summaries and final summary. 
+
 GROQ_MODEL_LIGHT = "llama-3.1-8b-instant"
 
 Transient rate limits and similar errors are retried with bounded backoff. **Tokens-per-day** exhaustion is fail-fast: the process exits without long sleeps, and any DPRs already finished are flushed to the output file.
