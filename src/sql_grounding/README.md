@@ -1,243 +1,172 @@
-# Stage 3: SQL Grounding and Evidence Synthesis
+# Stage 3: SQL grounding and evidence synthesis
 
-Stage 3 is the execution layer between DPR generation (Stage 2) and evaluation (Stage 4).
-
-- **Input:** DPRs with associated table clusters (`ground_truth.table_uids`).
-- **Core job:** Convert each DPR into SQL-backed sub-questions, execute them against real table rows, and synthesize evidence-constrained text.
-- **Output:** Per-DPR execution artifacts and summaries, plus an execution summary sidecar.
+Stage 3 sits between Stage 2 (DPR generation) and Stage 4 (evaluation). For each DPR it loads the cluster tables into SQLite, turns the prose question into executable sub-questions, runs SQL until it gets useful answers or hits limits, then writes summaries that are only allowed to cite what actually came back from the database.
 
 ---
 
-## What Stage 3 Implements
+## What you run
 
-For each DPR:
+There are two Python entry points in this folder:
 
-1. Build an in-memory SQLite database for the DPR's cluster tables.
-2. Generate a small set of SQL-answerable sub-questions.
-3. Generate/refine SQL for each sub-question (up to a fixed number of attempts).
-4. Execute SQL safely, validate outputs, and collect previews/counts.
-5. Produce mini-summaries from successful SQL result rows.
-6. Produce one final synthesis paragraph from mini-summaries.
-7. Save structured results and aggregate execution stats.
+| Script | Role |
+|--------|------|
+| **`pipelinenew.py`** | Current implementation. Per sub-question it uses a **LangGraph** state machine for the SQL retry loop (reason → propose → execute → decide). **Requires `langgraph`** (`pip install langgraph` or `pip install -r requirements.txt`). |
+| **`pipeline.py`** | Earlier loop without LangGraph. Same overall Stage 3 contract (inputs/outputs), different internal control flow. Use if you cannot install LangGraph or need to compare behavior. |
 
-This design keeps final text grounded in executed table evidence.
+Unless you have a reason to use `pipeline.py`, treat **`pipelinenew.py` as the default** for new runs.
 
 ---
 
 ## Inputs
 
-### Stage 2 DPR file
-
-Pass one of:
-
-- `dprs-*.json` (JSON array), or
-- `dprs-*.jsonl` (one object per line)
-
-Each row should include:
+**Stage 2 file** — JSON array (`dprs-*.json`) or JSONL (`dprs-*.jsonl`). Each record needs at least:
 
 - `dpr_id`
-- `DPR`
-- `ground_truth.table_uids` (cluster table IDs, for example `["T2", "T3"]`)
-- `model` (optional upstream metadata)
+- `DPR` (the natural-language question)
+- `ground_truth.table_uids` — list of table IDs in the cluster (e.g. `["T1","T8"]`)
+- `model` (optional; passed through for traceability)
 
-### Table metadata
+**Table metadata** — Point `--tables-meta` at either:
 
-Provide `--tables-meta` pointing to either:
+- a directory of per-table JSON files (e.g. `data/stage1_outputs/tables_clean`), or  
+- a single `tables.json` mapping table id → metadata including `rows`.
 
-- a directory like `data/stage1_outputs/tables_clean` (one JSON per table), or
-- a single `tables.json` mapping `table_id -> table_meta`.
+If you omit `--tables-meta`, Stage 3 tries to infer a `tables_clean`-style path from the repo layout.
 
-If omitted, the pipeline attempts to infer a `tables_clean` path from repo conventions.
-
----
-
-## How Each Step Is Implemented
-
-### Database Initialization
-
-- For each DPR, Stage 3 reads its `ground_truth.table_uids` cluster.
-- It calls `_build_cluster_sqlite_from_table_metadata(...)` to create an in-memory SQLite database.
-- For each table in the cluster:
-  - columns are normalized into SQL-safe identifiers,
-  - the table is created in SQLite with inferred types,
-  - rows from `meta["rows"]` are inserted (row-wise or HybridQA flattened layout).
-- Result: SQL runs on real cluster data, not a schema-only mock.
-
-### Decomposition
-
-- Stage 3 calls `generate_subquestions(...)` to split the DPR into 2 to 3 SQL-answerable sub-questions.
-- It then applies quality filtering (`_quality_select_subquestions`) to remove vague or redundant prompts.
-- If decomposition is weak, fallback atomic questions are generated to guarantee coverage.
-- Decomposition is constrained by schema context and table IDs to keep questions executable.
-
-### Agentic SQL Loop
-
-- For each sub-question, Stage 3 runs up to `MAX_SQL_ATTEMPTS = 3`.
-- Attempt pattern:
-  1. initial SQL generation,
-  2. simplify/drop-join correction,
-  3. adaptive recovery (`discovery` or `alternate_table`) based on prior error signals.
-- The loop tracks retry phases and errors per attempt for transparency in `subquery_results`.
-- It rejects risky SQL patterns (cartesian joins, speculative fuzzy joins, trivial probes) and keeps refining.
-
-### Execution & Validation
-
-- SQL is executed via `execute_and_validate(...)` with safety limits:
-  - SQLite progress-handler timeout,
-  - fetch cap for previews,
-  - row-count estimation via wrapped `COUNT(*)` query when possible.
-- Validation marks success/failure and records:
-  - execution status,
-  - row count,
-  - preview rows,
-  - error message (if any).
-- Empty-result behavior is handled in the retry loop to attempt better SQL before giving up.
-
-### Evidence Synthesis
-
-- On successful sub-queries with rows, Stage 3 creates mini-summaries using `summarize_subquestion_result(...)`.
-- Mini-summaries are prompt-constrained to only use values present in SQL result previews.
-- Stage 3 then generates one final paragraph with `generate_final_summary(...)` from the mini-summaries.
-- This keeps the final text tied to observed evidence from the executed queries.
-
-### Artifact Generation
-
-- For each DPR, Stage 3 writes a structured object with:
-  - input DPR metadata,
-  - sub-questions and attempt history,
-  - SQL/execution outputs,
-  - mini and final summaries.
-- After the run, it writes:
-  - main output JSON (`-o`),
-  - execution sidecar `{output_stem}_execution_summary.json`.
-- If TPD quota is hit, Stage 3 fail-fast exits but still flushes completed DPR artifacts.
+**Environment** — Groq (or compatible OpenAI-style API) credentials and models, typically via project root `.env` (`GROQ_API_KEY`, optional `GROQ_MODEL` / `GROQ_MODEL_LIGHT`).
 
 ---
 
-## Database Grounding Details
+## End-to-end flow (one DPR)
 
-Stage 3 creates a fresh in-memory SQLite DB per DPR cluster via
-`_build_cluster_sqlite_from_table_metadata(...)`.
+1. **Build a cluster database** — For that DPR’s `table_uids`, create an in-memory SQLite database: normalize column names for SQL safety, create tables, insert all rows from metadata. Prompts may see a few sample rows; execution sees the full loaded data.
 
-- Uses declared table columns and normalized SQL-safe column names.
-- Inserts **all rows from `meta["rows"]`** for each cluster table.
-- Supports both row-wise JSON and flattened HybridQA-style cell layouts.
-- Uses small prompt samples for LLM grounding, but SQL executes on the full loaded rows.
+2. **Decompose** — An LLM proposes 2–3 short sub-questions that can be answered with SELECTs on the cluster schema. A small rule-based pass drops weak or redundant questions; fallbacks exist if decomposition is thin.
 
-So SQL validation runs against real table content, not schema-only tables.
+3. **Per sub-question: SQL loop** — For each sub-question, run up to **`MAX_SQL_ATTEMPTS` (3)** tries to get a non-trivial, successful query with rows (subject to `--require-non-empty` if you enable it).
 
----
+4. **Summarize** — For each sub-question that succeeds, a light model writes a mini-summary using **only** the preview rows returned by SQL (not free-form world knowledge).
 
-## SQL Generation and Retry Policy
+5. **Final paragraph** — Another call stitches mini-summaries into one DPR-level summary, again grounded in what was summarized.
 
-Per sub-question, Stage 3 runs up to `MAX_SQL_ATTEMPTS = 3`:
+6. **Persist** — Append one JSON object for this DPR to the output list. If enough sub-questions succeeded (`STAGE3_MIN_SUBQ_SUCCESSES`, default 2 when there are 2+ sub-questions), the DPR is marked executed successfully at the top level.
 
-1. Initial SQL generation.
-2. Simplify/drop-join style correction.
-3. Adaptive recovery (`discovery` or `alternate_table`) based on prior failures/signals.
-
-The retry loop catches and adapts to:
-
-- schema errors (`no such column`, etc.),
-- execution timeout signals,
-- disallowed join patterns,
-- trivial probe SQL,
-- empty-result outcomes.
-
-The objective is to return non-trivial, schema-valid SQL with useful rows when possible.
+7. **Sidecar** — After the run, an execution summary JSON is written next to the main output (`{stem}_execution_summary.json`).
 
 ---
 
-## Safety and Anti-Hallucination Controls
+## LangGraph SQL loop (`pipelinenew.py`)
 
-Implemented safeguards include:
+The sub-question loop is a compiled graph with four ideas:
 
-- allowed-column whitelist in prompts,
-- detection of speculative fuzzy joins (`ON ... LIKE ...`),
-- cartesian-pattern guardrails,
-- typed checks for unsafe text-based metric aggregation,
-- SQLite execution wall-time cap and fetch cap,
-- evidence-constrained summarization prompts.
+- **`reason`** — No extra LLM call here. Python looks at the last execution (error text, row count, SQL shape) and sets the next **refinement strategy**: first retry tends toward simplify/drop join; later retries may switch to discovery-style queries or an alternate table in the cluster.
 
-These controls reduce fabricated columns, poor joins, and unsupported claims.
+- **`propose_sql`** — First round: plain SQL generation from the sub-question and schema. Later rounds: either **refine** the last SQL (with error feedback, sample rows, strategy text, and a **full execution trace** of prior attempts in the same sub-question) or, optionally, **regenerate** from scratch. A small JSON router LLM can choose `generate_sql` vs `refine_sql`; schema-style errors **force** refine. Disable the extra router call with `STAGE3_SQL_ACTION_ROUTER=0` if you want always-refine after a failure.
 
----
+- **`execute_sql`** — Validates SQL (schema tables/columns, cartesian joins, fuzzy joins, unsafe text aggregates where applicable), runs SQLite with a wall-clock guard and fetch cap, records `row_count` (via `COUNT(*)` when possible) and a short **preview** of rows. Each attempt is appended to `attempts_log` (SQL, status, error, row count, phase, join/table hints).
 
-## Models
+- **`decide_next`** — Deterministic: stop on success, stop when attempts are exhausted, stop when the outcome is not worth retrying; otherwise go back to `reason`.
 
-By default:
-
-- `GROQ_MODEL=llama-3.3-70b-versatile` for decomposition + SQL reasoning.
-- `GROQ_MODEL_LIGHT=llama-3.1-8b-instant` for mini/final summary generation.
-
-Override with environment variables when needed.
+Execution itself is not delegated to the router LLM: the graph always executes in `execute_sql`. That keeps costs and behavior bounded.
 
 ---
 
-## Rate Limits and Failure Behavior
+## DPR-level success vs sub-question success
 
-### TPM / transient 429-style failures
+- Each **sub-question** can succeed or fail independently; failures and every SQL attempt are listed under `subquery_results[].attempts`.
 
-Stage 3 retries with bounded backoff for transient rate-limit/overload patterns.
-
-### TPD (tokens per day)
-
-TPD exhaustion is **fail-fast** by design:
-
-- no long sleep,
-- current run stops quickly,
-- completed DPR outputs are written before exit.
-
-This avoids wasting compute during long quota windows.
+- **DPR `execution_status`** is true only if enough sub-questions hit success (`STAGE3_MIN_SUBQ_SUCCESSES`, environment overridable). The **representative** `generated_sql` and top-level `result.preview` / `result.row_count` come from the **first** successful sub-question, not a merge of all sub-queries.
 
 ---
 
-## Outputs
+## Output shape (main JSON)
 
-### Main output (`-o`)
+Each element in the output array roughly contains:
 
-JSON list, one object per DPR, including:
+- **Identity:** `dpr_id`, `DPR`, `tables`, `ground_truth`
+- **Decomposition:** `sub_questions`, `subquery_results` (per sub-question: `attempts`, `final_sql`, `final_execution_status`, `final_row_count`, `mini_summary`)
+- **Narrative:** `mini_summaries`, `final_summary`
+- **Top-level SQL signal:** `generated_sql`, `execution_status`, `result`
+  - On success: `result.validation`, **`result.row_count`** (total rows for that representative query), **`result.preview`** (first few rows as objects — enough for manual sanity checks, not the full result set)
+  - On failure: `result.validation`, `result.error`
+- **Technical:** `schema_mapping` (original → SQL-safe column names), `llm_model`, `llm_model_summaries`, optional `upstream_model`
 
-- identifiers and original DPR text,
-- sub-questions and per-sub-question attempts/results,
-- mini summaries and final summary,
-- representative SQL and execution status,
-- execution result payload (`validation`, `row_count`, `preview` / `error`),
-- schema mapping and model metadata.
+Intermediate attempts in `subquery_results[].attempts` store counts and errors but **not** full row previews per attempt; use `result.preview` at DPR level or re-run `final_sql` locally if you need exact row-level regression tests per sub-question.
 
 ---
 
-## CLI Usage
+## Safety and grounding
 
-Run from repo root.
+- Prompts include allowed column names derived from the schema string.
+- Preflight checks block obvious bad patterns (e.g. cartesian joins, speculative `ON ... LIKE ...`, some unsafe aggregations on text metric columns).
+- SQLite execution uses a progress-handler timeout and a small fetch limit so runaway queries do not dominate memory.
+- Summaries are instructed to stick to cells present in the preview JSON.
 
-### Full run
+These measures reduce hallucinated columns and unsupported claims; they do not guarantee correct analytics—that is what Stage 4 and human review are for.
+
+---
+
+## Models and rate limits
+
+Defaults (overridable via environment):
+
+- **Heavy model** (`GROQ_MODEL`): decomposition, sub-question SQL generation/refinement, SQL action router.
+- **Light model** (`GROQ_MODEL_LIGHT`): mini-summaries and final summary.
+
+Transient rate limits and similar errors are retried with bounded backoff. **Tokens-per-day** exhaustion is fail-fast: the process exits without long sleeps, and any DPRs already finished are flushed to the output file.
+
+---
+
+## Useful environment variables
+
+| Variable | Effect |
+|----------|--------|
+| `GROQ_API_KEY` | Required for API access. |
+| `GROQ_MODEL` / `GROQ_MODEL_LIGHT` | Override default models. |
+| `STAGE3_MIN_SUBQ_SUCCESSES` | Minimum successful sub-questions for DPR-level success (default 2 when 2+ sub-questions exist). |
+| `STAGE3_DPR_DELAY_SEC` | Optional pause between DPRs to smooth API traffic. |
+| `STAGE3_SQL_ACTION_ROUTER` | `0` / `false` / `no` disables the extra LLM call that chooses generate vs refine after a failure. |
+
+---
+
+## CLI
+
+Run from the **repository root**.
+
+**Full file (recommended script):**
 
 ```bash
-python src/sql_grounding/pipeline.py -i "data/stage2_outputs/dprs-qwen3-32b.jsonl" -o "data/stage3/stage3_output.json"
+python src/sql_grounding/pipelinenew.py -i "data/stage2_outputs/dprs-qwen3-32b.jsonl" -o "data/stage3/stage3_output.json" --tables-meta "data/stage1_outputs/tables_clean"
 ```
 
-### Explicit table metadata path
+**Batch slice** (e.g. five DPRs starting at index 0):
 
 ```bash
-python src/sql_grounding/pipeline.py -i "data/stage2_outputs/your_dprs.jsonl" -o "data/stage3/stage3_output.json" --tables-meta "data/stage1_outputs/tables_clean"
+python src/sql_grounding/pipelinenew.py -i "data/stage2_outputs/dprs-qwen3-32b.jsonl" -o "data/stage3/stage3_output_batch1.json" --offset 0 -n 5 --tables-meta "data/stage1_outputs/tables_clean"
 ```
 
-### Batch/slice runs
+Next slice: `--offset 5 -n 5`, and so on. Use `--all` to process the entire input (ignores `-n`).
 
-- `--offset`: start index in DPR list
-- `-n` / `--limit`: number of DPRs to run
-- `--all`: process full input (overrides limit)
-
-Example:
+**Strict empty results** — treat zero-row success as failure for retry logic:
 
 ```bash
-python src/sql_grounding/pipeline.py -i "data/stage2_outputs/dprs-qwen3-32b.jsonl" -o "data/stage3/stage3_output_batch1.json" --offset 0 -n 5 --tables-meta "data/stage1_outputs/tables_clean"
+python src/sql_grounding/pipelinenew.py -i "..." -o "..." --tables-meta "..." --require-non-empty
 ```
 
-### Optional strictness flag
+**Legacy entry point** (same flags, no LangGraph):
 
-- `--require-non-empty`: treats empty SQL results as failed execution.
+```bash
+python src/sql_grounding/pipeline.py -i "..." -o "..." --tables-meta "..."
+```
 
 ---
 
+## Dependencies
+
+Install project requirements from the repo root:
+
+```bash
+pip install -r requirements.txt
+```
+
+`pipelinenew.py` needs **`langgraph`** (listed in `requirements.txt`). If imports fail at runtime, install it explicitly: `pip install langgraph`.
