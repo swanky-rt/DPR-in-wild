@@ -87,6 +87,7 @@ Each element in the output array roughly contains:
 - **Decomposition:** `sub_questions`, `subquery_results`
 
 Per sub-question: Each subquery_results[] item usually has
+
 `feasibility_warning` — optional note if the question mentions risky concepts (e.g. year) that might not match the schema; the run still continues.
 
 `attempts` — chronological SQL tries for that sub-question: each has sql, execution_status, error, row_count, retry_phase, explicit_join, tables, etc.
@@ -105,10 +106,12 @@ Per sub-question: Each subquery_results[] item usually has
 `execution_status` - Did this DPR meet the minimum successful sub-questions rule?.
 
 `result` - If execution_status is true: validation: "Success", row_count, preview (first few rows as dicts) for generated_sql.
-- `result.validation`, `result.row_count`, `result.preview`
+
+`result.validation`, `result.row_count`, `result.preview`
 
 If false: validation: "Failed", error (human-readable reason).
-- `result.validation`, `result.error`
+
+`result.validation`, `result.error`
   
 - **Technical:** `schema_mapping` (original → SQL-safe column names), `llm_model`, `llm_model_summaries`, optional `upstream_model`
 
