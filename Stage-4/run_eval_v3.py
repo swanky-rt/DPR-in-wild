@@ -26,7 +26,10 @@ import numpy as np
 from pathlib import Path
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+import os
 import argparse
+from dotenv import load_dotenv
+load_dotenv()
 
 # ── Optional: real LLM judge ──────────────────────────────────────────────────
 try:
@@ -688,17 +691,29 @@ if __name__ == "__main__":
     print(f"  top_k       : {args.top_k}")
     print(f"  llm_model   : {args.llm_model}")
     print(f"  llm_api_base: {args.llm_api_base}")
-    print(f"  llm_api_key : {'SET (' + args.llm_api_key[:8] + '...)' if args.llm_api_key else 'NOT SET — judge defaults to 0.5'}")
+    # print(f"  llm_api_key : {'SET (' + args.llm_api_key[:8] + '...)' if args.llm_api_key else 'NOT SET — judge defaults to 0.5'}")
+    # Load from environment first, fallback to CLI
+    env_api_key = os.getenv("LLM_API_KEY")
+    env_api_base = os.getenv("LLM_API_BASE")
+    env_model = os.getenv("LLM_MODEL")
+
+    llm_api_key = env_api_key if env_api_key else args.llm_api_key
+    llm_api_base = env_api_base if env_api_base else args.llm_api_base
+    llm_model = env_model if env_model else args.llm_model
+
+    print(f"  llm_model   : {llm_model}")
+    print(f"  llm_api_base: {llm_api_base}")
+    print(f"  llm_api_key : {'SET (env)' if env_api_key else 'SET (cli)' if args.llm_api_key else 'NOT SET'}")
 
     with open(args.input) as f:
         raw_data = json.load(f)
     print(f"\nLoaded {len(raw_data)} DPRs from {args.input}")
 
     run_pipeline(
-        raw_data     = raw_data,
-        output_dir   = args.output_dir,
-        llm_api_key  = args.llm_api_key,
-        llm_api_base = args.llm_api_base,
-        llm_model    = args.llm_model,
-        top_k        = args.top_k,
+        raw_data=raw_data,
+        output_dir=args.output_dir,
+        llm_api_key=llm_api_key,
+        llm_api_base=llm_api_base,
+        llm_model=llm_model,
+        top_k=args.top_k,
     )
