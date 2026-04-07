@@ -18,8 +18,13 @@ Rank #1  |  DPR: 6  |  Combined Score: 0.7363
   Uniqueness           1.0000
   LLM Quality          0.7500
   Summary Relevance    0.5000
-  LLM Reasoning:     The DPR is analytical with clear goals and multi-dimensional questions, but it lacks precision in aligning with the sche
-  Summary Reasoning: The summary partially addresses the DPR by mentioning long-distance race times and record-breaking patterns but fails to
+  LLM Reasoning:     The DPR is analytical with clear goals and multi-dimensional questions,
+                      but the scope slightly exceeds the schema's ability to fully address
+                      geographic influences and record-breaking patterns.
+  Summary Reasoning: The summary partially addresses the DPR by mentioning long-distance
+                      race times and record-breaking patterns but fails to include sprint
+                      event data, athlete nationalities, or geographic influences, which are
+                      key analytical goals.
 
   Summary:
     The dataset shows that long-distance event average race times in T22
@@ -72,8 +77,13 @@ Rank #2  |  DPR: 5_v3  |  Combined Score: 0.7149
   Uniqueness           1.0000
   LLM Quality          0.7500
   Summary Relevance    0.5000
-  LLM Reasoning:     The DPR has clear analytical goals and multi-dimensional questions, but the scope is slightly mismatched to the schema, 
-  Summary Reasoning: The summary partially addresses the DPR by mentioning player positions and college affiliations but fails to provide ins
+  LLM Reasoning:     The DPR has clear analytical goals and multi-dimensional questions, but
+                      the scope is slightly mismatched to the schema, which lacks direct
+                      historical college sports excellence data.
+  Summary Reasoning: The summary partially addresses the DPR by mentioning player positions
+                      and college affiliations but fails to provide insights on player
+                      transitions, career milestones, or correlations between college
+                      accolades and professional success.
 
   Summary:
     The analysis of player transitions and historical college sports
@@ -117,8 +127,12 @@ Rank #3  |  DPR: 5  |  Combined Score: 0.6903
   Uniqueness           1.0000
   LLM Quality          0.5000
   Summary Relevance    0.5000
-  LLM Reasoning:     The DPR demonstrates analytical intent but is poorly scoped, as it spans multiple eras and datasets without clear alignm
-  Summary Reasoning: The summary provides isolated data points but fails to address the requested analytical comparisons, correlations, and t
+  LLM Reasoning:     The DPR demonstrates analytical intent but is poorly scoped, as it
+                      spans multiple eras and datasets without clear alignment to the schema's
+                      structure or limitations.
+  Summary Reasoning: The summary provides isolated data points but fails to address the
+                      requested analytical goals, such as position frequency comparisons,
+                      school dominance trends, or career trajectory evaluations.
 
   Summary:
     The school affiliation in one of the datasets is USC. In another
@@ -163,8 +177,14 @@ Rank #4  |  DPR: 6_v2  |  Combined Score: 0.6875
   Uniqueness           1.0000
   LLM Quality          0.7500
   Summary Relevance    0.5000
-  LLM Reasoning:     The DPR is analytical with clear goals and multi-dimensional questions, but it is slightly mismatched to the schema as i
-  Summary Reasoning: The summary partially addresses the DPR by mentioning improvements in 10,000m race times and a dominant host city but fa
+  LLM Reasoning:     The DPR is analytical with clear goals and multi-dimensional questions,
+                      but it is slightly mismatched to the schema as it assumes data
+                      relationships and trends that may not be fully supported by the provided
+                      tables.
+  Summary Reasoning: The summary partially addresses the DPR by mentioning improvements in
+                      10,000m race times and a dominant host city but fails to analyze trends
+                      across decades, geographic shifts, or 100m record-breaking frequency and
+                      athlete nationalities.
 
   Summary:
     Historical 10,000m race times have shown improvement, with a notable
@@ -208,8 +228,12 @@ Rank #5  |  DPR: 8_v2  |  Combined Score: 0.6870
   Uniqueness           1.0000
   LLM Quality          0.7500
   Summary Relevance    0.0000
-  LLM Reasoning:     The DPR is analytical with clear goals and multi-dimensional questions, but the scope could be better aligned with the s
-  Summary Reasoning: The summary is unrelated to the DPR, as it introduces irrelevant classifications (e.g., T55, T34) and fails to address t
+  LLM Reasoning:     The DPR is analytical with clear goals and multi-dimensional questions,
+                      but the scope could be better aligned with the schema, as it spans
+                      multiple tables without clarifying integration details.
+  Summary Reasoning: The summary is unrelated to the DPR, as it introduces irrelevant
+                      classifications (e.g., T55, T34) and fails to address the requested
+                      dataset structure, trend analysis, or comparisons between events.
 
   Summary:
     The unified dataset contains record times for 110m hurdles and 1500m
@@ -259,8 +283,13 @@ Rank #6  |  DPR: 1  |  Combined Score: 0.6539
   Uniqueness           1.0000
   LLM Quality          0.5000
   Summary Relevance    0.5000
-  LLM Reasoning:     The DPR demonstrates analytical intent but is overly complex, poorly scoped, and misaligned with the schema, making it d
-  Summary Reasoning: The summary partially addresses the DPR by listing Weird Al's film roles and mentioning some musical compositions, but i
+  LLM Reasoning:     The DPR demonstrates analytical intent but is overly complex, poorly
+                      scoped, and misaligned with the schema, making it difficult to execute
+                      effectively.
+  Summary Reasoning: The summary partially addresses the DPR by listing Weird Al's film
+                      roles and mentioning some musical compositions, but it fails to analyze
+                      financial metrics, cross-decade linkages, or correlations between roles,
+                      revenue, and music trends as requested.
 
   Summary:
     Weird Al Yankovic's film roles include Clothing Store Customer,
@@ -311,8 +340,13 @@ Rank #7  |  DPR: 5_v2  |  Combined Score: 0.6538
   Uniqueness           1.0000
   LLM Quality          0.5000
   Summary Relevance    0.5000
-  LLM Reasoning:     The DPR demonstrates analytical intent but is poorly scoped, as it combines unrelated time periods and lacks clarity on 
-  Summary Reasoning: The summary partially addresses the DPR by mentioning position distributions and school affiliations but fails to provid
+  LLM Reasoning:     The DPR demonstrates analytical intent but is poorly scoped, as it
+                      combines unrelated time periods and lacks clarity on how the schema
+                      tables align with the requested analysis.
+  Summary Reasoning: The summary partially addresses the DPR by mentioning position
+                      distributions and school affiliations but fails to provide comprehensive
+                      data on player retention, turnover trends, or historical shifts in
+                      athletic recognition as requested.
 
   Summary:
     The positions of OG, RB, S, and WR are present among Kansas City Chiefs
@@ -362,8 +396,13 @@ Rank #8  |  DPR: 9_v2  |  Combined Score: 0.6484
   Uniqueness           1.0000
   LLM Quality          0.7500
   Summary Relevance    0.5000
-  LLM Reasoning:     The DPR is analytical with clear multi-dimensional goals, but the scope could be better aligned with the schema, as it s
-  Summary Reasoning: The summary partially addresses the DPR by mentioning representatives' residences and party affiliations but fails to co
+  LLM Reasoning:     The DPR is analytical with clear multi-dimensional goals, but the scope
+                      could be better aligned with the schema, which contains redundant and
+                      overlapping tables.
+  Summary Reasoning: The summary partially addresses the DPR by mentioning representatives'
+                      residences and party affiliations but fails to cover key analytical
+                      goals such as term limit turnover, partisan control shifts, and
+                      leadership transitions.
 
   Summary:
     The dataset should track representatives' residences, which include
@@ -408,8 +447,12 @@ Rank #9  |  DPR: 7_v2  |  Combined Score: 0.6410
   Uniqueness           1.0000
   LLM Quality          0.7500
   Summary Relevance    0.5000
-  LLM Reasoning:     The DPR is analytical with clear goals and multi-dimensional questions, but its scope could be better aligned with the s
-  Summary Reasoning: The summary partially addresses the DPR by mentioning reasons for vacancies, successor timelines, and party affiliations
+  LLM Reasoning:     The DPR has clear analytical goals and multi-dimensional questions, but
+                      the scope could be better aligned with the schema, which contains
+                      redundant and potentially overlapping tables.
+  Summary Reasoning: The summary provides some details on reasons for vacancies and
+                      successor timelines but lacks a comprehensive dataset, analysis of
+                      trends, and correlations required by the DPR.
 
   Summary:
     The party affiliations of vacators and successors in certain instances
@@ -461,8 +504,13 @@ Rank #10  |  DPR: 9  |  Combined Score: 0.6312
   Uniqueness           1.0000
   LLM Quality          0.7500
   Summary Relevance    0.5000
-  LLM Reasoning:     The DPR is analytical with clear multi-dimensional goals, but its scope is slightly over-ambitious given the redundancy 
-  Summary Reasoning: The summary partially addresses the DPR by mentioning district-level leadership and term limits but fails to cover key a
+  LLM Reasoning:     The DPR is analytical with clear multi-dimensional goals, but its scope
+                      is slightly over-ambitious given the schema's redundancy and lack of
+                      clarity in distinguishing between similar tables.
+  Summary Reasoning: The summary partially addresses the DPR by mentioning district-level
+                      leadership and term limits but fails to cover key analytical goals such
+                      as partisan representation, causes of legislative transitions, workforce
+                      stability, and comparative analysis between the Senate and House.
 
   Summary:
     The dataset does not provide comprehensive information on
@@ -510,8 +558,14 @@ Rank #11  |  DPR: 6_v3  |  Combined Score: 0.6274
   Uniqueness           1.0000
   LLM Quality          0.7500
   Summary Relevance    0.5000
-  LLM Reasoning:     The DPR is analytical with clear goals and multi-dimensional questions, but it overreaches the schema by requesting fact
-  Summary Reasoning: The summary partially addresses the DPR by mentioning a dataset and some locations, but it lacks critical details such a
+  LLM Reasoning:     The DPR is analytical with clear goals and multi-dimensional questions,
+                      but it overreaches the schema by requesting factors like training
+                      innovations and nationality-based clusters, which are not directly
+                      supported by the provided tables.
+  Summary Reasoning: The summary partially addresses the DPR by mentioning a dataset and
+                      some locations, but it lacks critical details such as athlete names,
+                      comprehensive race years, analysis of trends, geographic distribution,
+                      and factors driving record advancements.
 
   Summary:
     A unified dataset of historical performance records in 10,000m and 100m
@@ -523,16 +577,13 @@ Rank #11  |  DPR: 6_v3  |  Combined Score: 0.6274
     the years for T23 are unknown, and the dataset does not include
     information on athlete names or the 100m barrier.
 
-  Sub-Queries (3 total):
+  Sub-Queries (2 total):
 ------------------------------------------------------------
   [1] SQL:
         SELECT Location FROM T23 ORDER BY CAST(REPLACE(Time, ':', '.') AS REAL) ASC LIMIT 10
 
   [2] SQL:
         SELECT DISTINCT T22.Year FROM T22 UNION SELECT DISTINCT T23.Year FROM T23
-
-  [3] SQL:
-        N/A
 
 ------------------------------------------------------------
 ============================================================
@@ -556,8 +607,14 @@ Rank #12  |  DPR: 8  |  Combined Score: 0.6238
   Uniqueness           1.0000
   LLM Quality          0.7500
   Summary Relevance    0.5000
-  LLM Reasoning:     The DPR has clear analytical goals and multi-dimensional questions, but the scope could be better aligned with the schem
-  Summary Reasoning: The summary partially addresses the DPR by mentioning the combination of datasets and two analytical goals, but it omits
+  LLM Reasoning:     The DPR has clear analytical goals and multi-dimensional questions, but
+                      the scope could be better aligned with the schema, as it assumes
+                      standardized metadata not explicitly present in the tables.
+  Summary Reasoning: The summary partially addresses the DPR by mentioning the combination
+                      of datasets and two analytical goals, but it omits the third goal
+                      regarding athlete specialization shifts and performance milestones, and
+                      does not fully address the need for standardized metadata to support
+                      querying.
 
   Summary:
     The unified dataset should combine 110m hurdles and 1500m world record
@@ -605,8 +662,12 @@ Rank #13  |  DPR: 1_v2  |  Combined Score: 0.6216
   Uniqueness           1.0000
   LLM Quality          0.7500
   Summary Relevance    0.5000
-  LLM Reasoning:     The DPR is analytical with multi-dimensional goals, but some requests lack precision and alignment with the schema, such
-  Summary Reasoning: The summary partially addresses the DPR by mentioning film revenue and admissions but fails to analyze trends, cover Wei
+  LLM Reasoning:     The DPR is analytical with multi-dimensional goals, but some requests
+                      (e.g., 'Weird Al' Yankovic's career progression) are poorly scoped
+                      relative to the schema.
+  Summary Reasoning: The summary partially addresses the DPR by mentioning film revenue and
+                      admissions but fails to analyze trends, cover Weird Al's career, music
+                      shifts, or box office-studio strategy correlations.
 
   Summary:
     The revenue for certain films, such as "The Bridge on the River Kwai"
@@ -664,8 +725,13 @@ Rank #14  |  DPR: 4  |  Combined Score: 0.6215
   Uniqueness           1.0000
   LLM Quality          0.7500
   Summary Relevance    0.5000
-  LLM Reasoning:     The DPR is analytical with clear goals and multi-dimensional questions, but its scope is broad and may require additiona
-  Summary Reasoning: The summary partially addresses the DPR by mentioning provincial representation in rugby but fails to analyze correlatio
+  LLM Reasoning:     The DPR is analytical with clear goals and multi-dimensional questions,
+                      but its scope is broad and may require refinement to align fully with
+                      the schema.
+  Summary Reasoning: The summary partially addresses the DPR by mentioning provincial
+                      representation in rugby but fails to analyze correlations, chronological
+                      trends, or connections between political and sports domains as
+                      requested.
 
   Summary:
     The analysis reveals that certain provinces, including Auckland,
@@ -710,8 +776,13 @@ Rank #15  |  DPR: 10  |  Combined Score: 0.6062
   Uniqueness           1.0000
   LLM Quality          0.7500
   Summary Relevance    0.5000
-  LLM Reasoning:     The DPR is analytical with clear goals and multi-dimensional questions, but it could be more precise in defining metrics
-  Summary Reasoning: The summary partially addresses the DPR by mentioning positions and colleges but fails to analyze position distribution 
+  LLM Reasoning:     The DPR is analytical with clear goals and multi-dimensional questions,
+                      but it could be more precise in defining measurable criteria for the
+                      analyses.
+  Summary Reasoning: The summary partially addresses the DPR by mentioning some player
+                      positions and colleges but fails to analyze position distribution
+                      differences, correlations between colleges and teams, or changes in
+                      drafting priorities.
 
   Summary:
     The positions selected by teams in the dataset are F, G/F, -, and C,
@@ -758,8 +829,13 @@ Rank #16  |  DPR: 2  |  Combined Score: 0.6053
   Uniqueness           1.0000
   LLM Quality          0.7500
   Summary Relevance    0.5000
-  LLM Reasoning:     The DPR is analytical with clear goals and multi-dimensional questions, but the scope is broad and may require additiona
-  Summary Reasoning: The summary partially addresses the DPR by mentioning some districts, members, and political affiliations, but it lacks 
+  LLM Reasoning:     The DPR is analytical with clear goals and multi-dimensional questions,
+                      but the scope is slightly ambitious given the schema's lack of explicit
+                      temporal or jurisdictional attributes.
+  Summary Reasoning: The summary partially addresses the DPR by mentioning some districts,
+                      members, and political affiliations, but it lacks comprehensive
+                      coverage, structured data for comparative analysis, and contextual
+                      attributes like legislative term periods.
 
   Summary:
     A standardized dataset of legislative members can be compiled for
@@ -807,8 +883,12 @@ Rank #17  |  DPR: 2_v2  |  Combined Score: 0.5786
   Uniqueness           1.0000
   LLM Quality          0.7500
   Summary Relevance    0.5000
-  LLM Reasoning:     The DPR has clear analytical goals and multi-dimensional questions, but the scope is slightly vague regarding 'various' 
-  Summary Reasoning: The summary partially addresses the DPR by mentioning parties and electoral districts but fails to analyze long-term tre
+  LLM Reasoning:     The DPR has clear analytical goals and multi-dimensional questions, but
+                      the scope is slightly vague regarding 'various' years for Puerto Rico
+                      and lacks precision in matching schema tables.
+  Summary Reasoning: The summary partially addresses the DPR by mentioning parties and
+                      electoral districts but fails to analyze long-term trends, partisan
+                      shifts, or geographic representation changes as requested.
 
   Summary:
     The analysis of legislative data reveals that certain electoral
@@ -859,8 +939,13 @@ Rank #18  |  DPR: 7  |  Combined Score: 0.5750
   Uniqueness           1.0000
   LLM Quality          1.0000
   Summary Relevance    0.5000
-  LLM Reasoning:     The DPR is precise, multi-dimensional, and well-matched to the schema, with clear analytical goals that leverage the ava
-  Summary Reasoning: The summary partially addresses the DPR by mentioning vacancy causes and successor installation dates but lacks key deta
+  LLM Reasoning:     The DPR is precise, multi-dimensional, and well-matched to the schema,
+                      with clear analytical goals that leverage the available tables
+                      effectively.
+  Summary Reasoning: The summary partially addresses the DPR by mentioning vacancy causes
+                      and successor installation dates but lacks key details on frequencies,
+                      correlations, partisan trends, geographic patterns, and historical or
+                      institutional comparisons.
 
   Summary:
     The dataset documents legislative turnover, including vacancy causes
@@ -904,8 +989,13 @@ Rank #19  |  DPR: 4_v3  |  Combined Score: 0.5655
   Uniqueness           1.0000
   LLM Quality          0.7500
   Summary Relevance    0.5000
-  LLM Reasoning:     The DPR is analytical with clear goals and multi-dimensional questions, but it is somewhat vague in specifying how to op
-  Summary Reasoning: The summary mentions provinces and locations but fails to address key analytical goals such as match outcomes, team comp
+  LLM Reasoning:     The DPR is analytical with clear goals and multi-dimensional questions,
+                      but it is somewhat vague in specifying how to integrate historical rugby
+                      data with parliamentary representation using the provided schema.
+  Summary Reasoning: The summary partially addresses the DPR by listing provinces and
+                      mentioning tour locations, but it fails to provide data on match
+                      outcomes, team composition, regional demographics, or correlations
+                      needed for analytical goals.
 
   Summary:
     The provinces represented in historical New Zealand rugby union tours
@@ -916,15 +1006,12 @@ Rank #19  |  DPR: 4_v3  |  Combined Score: 0.5655
     match outcomes, team composition, or regional demographics, indicating
     limitations in the available data.
 
-  Sub-Queries (3 total):
+  Sub-Queries (2 total):
 ------------------------------------------------------------
   [1] SQL:
         SELECT City, Country, Score FROM T73
 
   [2] SQL:
-        N/A
-
-  [3] SQL:
         SELECT DISTINCT T14.Province FROM T14 UNION SELECT DISTINCT Province FROM T63
 
 ------------------------------------------------------------
@@ -948,8 +1035,13 @@ Rank #20  |  DPR: 8_v3  |  Combined Score: 0.5576
   Uniqueness           1.0000
   LLM Quality          0.7500
   Summary Relevance    0.0000
-  LLM Reasoning:     The DPR has clear analytical goals and multi-dimensional questions, but the scope could be better aligned with the schem
-  Summary Reasoning: The summary is unrelated to the DPR, as it focuses on irrelevant classifications (T56 and T54) and provides no meaningfu
+  LLM Reasoning:     The DPR has clear analytical goals and multi-dimensional questions, but
+                      the scope could be better aligned with the schema, as it does not
+                      specify how to handle multiple tables with overlapping columns.
+  Summary Reasoning: The summary is unrelated to the DPR, as it focuses on classifications
+                      (T56 and T54) not mentioned in the request and fails to address the
+                      dataset's purpose of analyzing trends in performance, locations, and
+                      timing for the specified events.
 
   Summary:
     The compilation of historical world records for the 110m hurdles and
@@ -993,8 +1085,13 @@ Rank #21  |  DPR: 2_v3  |  Combined Score: 0.5477
   Uniqueness           1.0000
   LLM Quality          0.5000
   Summary Relevance    0.5000
-  LLM Reasoning:     The DPR demonstrates analytical intent but is overly broad and misaligned with the schema, which lacks sufficient demogr
-  Summary Reasoning: The summary provides limited information on party representation in specific districts but fails to address the broader 
+  LLM Reasoning:     The DPR demonstrates analytical intent but is overly ambitious and
+                      poorly scoped given the schema, which lacks sufficient detail for
+                      demographic or resource allocation analysis.
+  Summary Reasoning: The summary provides limited information on party representation in
+                      specific districts but fails to address the broader analytical goals of
+                      identifying swing districts, party dominance, resource allocation, or
+                      enabling predictive modeling and scenario planning.
 
   Summary:
     The current dataset only includes electoral districts affiliated with
@@ -1040,8 +1137,14 @@ Rank #22  |  DPR: 3_v3  |  Combined Score: 0.5449
   Uniqueness           1.0000
   LLM Quality          0.5000
   Summary Relevance    0.5000
-  LLM Reasoning:     The DPR demonstrates analytical intent but is overly broad and mismatched to the schema, with unclear prioritization and
-  Summary Reasoning: The summary partially addresses the DPR by identifying top-performing nationalities and car constructors but fails to an
+  LLM Reasoning:     The DPR demonstrates analytical intent but is overly broad and
+                      mismatched to the schema, with vague goals and unclear connections
+                      between disparate datasets.
+  Summary Reasoning: The summary partially addresses the DPR by identifying top-performing
+                      nationalities in cross country championships and successful car
+                      constructors in motorsport, but it misses key analytical goals such as
+                      athlete performance patterns, conservation urgency for monkey species,
+                      and football stadium distribution.
 
   Summary:
     The top-performing nationalities in cross country championships are
@@ -1086,8 +1189,14 @@ Rank #23  |  DPR: 7_v3  |  Combined Score: 0.5434
   Uniqueness           1.0000
   LLM Quality          0.7500
   Summary Relevance    0.5000
-  LLM Reasoning:     The DPR is analytical with clear goals and multi-dimensional questions, but its scope is overly broad given the schema's
-  Summary Reasoning: The summary partially addresses the DPR by mentioning some data points like reasons for vacancies and successor timeline
+  LLM Reasoning:     The DPR is analytical with clear goals and multi-dimensional questions,
+                      but its scope is slightly mismatched to the schema due to redundancy and
+                      lack of demographic details in the tables.
+  Summary Reasoning: The summary partially addresses the DPR by mentioning some data points
+                      like age, tenure, and reasons for vacancies, but it lacks comprehensive
+                      coverage of comparative metrics, resolution efficiency, and analytical
+                      goals such as identifying high-turnover regions or guiding policy
+                      interventions.
 
   Summary:
     A historical dataset documenting legislative vacancies and replacements
@@ -1140,8 +1249,13 @@ Rank #24  |  DPR: 9_v3  |  Combined Score: 0.5433
   Uniqueness           1.0000
   LLM Quality          0.7500
   Summary Relevance    0.5000
-  LLM Reasoning:     The DPR has clear analytical goals and multi-dimensional questions, but the scope could be better refined to avoid redun
-  Summary Reasoning: The summary partially addresses the DPR by mentioning turnover patterns, party affiliation shifts, and term limits but m
+  LLM Reasoning:     The DPR has clear analytical goals and multi-dimensional questions, but
+                      the scope could be better refined to avoid redundancy across similar
+                      tables.
+  Summary Reasoning: The summary partially addresses the DPR by mentioning turnover patterns
+                      and party composition trends but misses key analytical goals such as
+                      term limits' impact, demographic factors, and strategic planning
+                      elements.
 
   Summary:
     A comprehensive dataset on Ohio legislative representation and turnover
@@ -1189,8 +1303,12 @@ Rank #25  |  DPR: 3_v2  |  Combined Score: 0.5376
   Uniqueness           1.0000
   LLM Quality          0.7500
   Summary Relevance    0.0000
-  LLM Reasoning:     The DPR is analytical with clear goals and multi-dimensional questions, but its scope is overly broad and not fully alig
-  Summary Reasoning: The summary is unrelated to the DPR, as it does not address the requested historical data, trends, technological advance
+  LLM Reasoning:     The DPR is analytical with clear goals and multi-dimensional questions,
+                      but its scope is overly broad and not fully aligned with the schema,
+                      particularly for motorsport and cycling-specific details.
+  Summary Reasoning: The summary is unrelated to the DPR, as it does not address the
+                      requested historical data, trends, or analyses of performance, national
+                      representation, event formats, or technological advancements.
 
   Summary:
     The historical sports performance data shows that the top 5 teams in
@@ -1237,8 +1355,14 @@ Rank #26  |  DPR: 1_v3  |  Combined Score: 0.5294
   Uniqueness           1.0000
   LLM Quality          0.5000
   Summary Relevance    0.5000
-  LLM Reasoning:     The DPR demonstrates analytical intent but is overly broad, lacks precision in its goals, and does not align well with t
-  Summary Reasoning: The summary partially addresses the DPR by mentioning revenue trends and international market performance but fails to a
+  LLM Reasoning:     The DPR demonstrates analytical intent but is overly broad, lacks
+                      precision in its goals, and does not align well with the provided
+                      schema, which has limited support for the requested cross-industry
+                      insights.
+  Summary Reasoning: The summary partially addresses the DPR by mentioning revenue trends
+                      and international market performance but fails to analyze artist
+                      involvement, historical chart success patterns, or provide actionable
+                      cross-industry insights.
 
   Summary:
     Warner Bros. has the highest domestic gross, with a revenue of
@@ -1249,15 +1373,12 @@ Rank #26  |  DPR: 1_v3  |  Combined Score: 0.5294
     the evidence as it does not provide information on market preferences,
     artist career impacts, or historical chart success patterns.
 
-  Sub-Queries (3 total):
+  Sub-Queries (2 total):
 ------------------------------------------------------------
   [1] SQL:
-        N/A
-
-  [2] SQL:
         SELECT Studio, MAX(CAST(REPLACE(REPLACE(REPLACE(Domestic_gross, '$',''), ',', ''), ' ', '') AS REAL)) AS max_domestic_gross FROM T13 GROUP BY Studio ORDER BY max_domestic_gross DESC LIMIT 1
 
-  [3] SQL:
+  [2] SQL:
         SELECT Country, Title, Director, Studio, CAST(REPLACE(REPLACE(REPLACE(Revenue, '$',''), ',', ''), ' ', '') AS REAL) AS Revenue, Admissions FROM T10 WHERE Country LIKE '%France%' OR Country LIKE '%Germany%' OR Country LIKE '%India%' ORDER BY CAST(REPLACE(REPLACE(REPLACE(Revenue, '$',''), ',', ''), ' ', '') AS REAL) DESC LIMIT 100
 
 ------------------------------------------------------------
@@ -1284,8 +1405,13 @@ Rank #27  |  DPR: 4_v2  |  Combined Score: 0.5291
   Uniqueness           1.0000
   LLM Quality          0.7500
   Summary Relevance    0.5000
-  LLM Reasoning:     The DPR is analytical with multi-dimensional goals, but its scope is overly broad and partially mismatched to the schema
-  Summary Reasoning: The summary partially addresses the DPR by mentioning parliamentary provinces and rugby match venues but fails to provid
+  LLM Reasoning:     The DPR is analytical with clear multi-dimensional goals, but its scope
+                      is overly broad and partially mismatched to the schema, which lacks
+                      direct infrastructure or gameplay style data.
+  Summary Reasoning: The summary partially addresses the DPR by mentioning parliamentary
+                      provinces and rugby match venues but fails to provide comprehensive
+                      historical data, analysis, or insights on the requested trends and
+                      correlations.
 
   Summary:
     The 1st New Zealand Parliament's members represented the provinces of
@@ -1296,15 +1422,12 @@ Rank #27  |  DPR: 4_v2  |  Combined Score: 0.5291
     and Cricket Ground, but the specific years of these matches are not
     provided.
 
-  Sub-Queries (3 total):
+  Sub-Queries (2 total):
 ------------------------------------------------------------
   [1] SQL:
         SELECT Province FROM T14
 
   [2] SQL:
-        N/A
-
-  [3] SQL:
         SELECT Date, Venue FROM T64 WHERE City LIKE '%Sydney%' OR City LIKE '%Wellington%' OR City LIKE '%Auckland%'
 
 ------------------------------------------------------------
@@ -1328,8 +1451,13 @@ Rank #28  |  DPR: 3  |  Combined Score: 0.5174
   Uniqueness           1.0000
   LLM Quality          0.5000
   Summary Relevance    0.5000
-  LLM Reasoning:     The DPR has analytical intent but combines two unrelated topics, making it poorly scoped and misaligned with the schema,
-  Summary Reasoning: The summary partially addresses the DPR by mentioning athlete performance trends and conservation statuses but fails to 
+  LLM Reasoning:     The DPR has analytical intent but combines two unrelated topics, making
+                      it poorly scoped and misaligned with the schema.
+  Summary Reasoning: The summary partially addresses the DPR by mentioning athlete
+                      performance trends and conservation statuses but fails to provide
+                      insights into nationality dominance, race time improvements, or
+                      taxonomy-based conservation correlations, which are key analytical
+                      goals.
 
   Summary:
     The analysis of athlete performance trends is limited, as no trends are

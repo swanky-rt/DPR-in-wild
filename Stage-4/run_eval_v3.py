@@ -598,14 +598,15 @@ def _write_ranking_summary(output: dict, path: str):
         lines.append("  Summary:\n")
         lines.append(_wrap(r["final_summary"], width=72, indent=4) + "\n\n")
 
-        # ── Sub-queries: SQL only ─────────────────────────────────────────────
-        sub_queries = r.get("sub_queries", [])
+        # ── Sub-queries: SQL only (skip any with no valid SQL) ───────────────
+        sub_queries = [sq for sq in r.get("sub_queries", [])
+                       if (sq.get("sql") or "").strip() not in ("", "N/A")]
         if sub_queries:
             lines.append(f"  Sub-Queries ({len(sub_queries)} total):\n")
             lines.append(DASH + "\n")
-            for sq in sub_queries:
-                lines.append(f"  [{sq['sub_query_index']}] SQL:\n")
-                sql_text = (sq.get("sql") or "N/A").strip()
+            for idx, sq in enumerate(sub_queries, start=1):
+                lines.append(f"  [{idx}] SQL:\n")
+                sql_text = sq["sql"].strip()
                 for sql_line in sql_text.splitlines():
                     lines.append(f"        {sql_line}\n")
                 lines.append("\n")
