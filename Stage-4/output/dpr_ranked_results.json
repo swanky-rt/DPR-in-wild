@@ -13,8 +13,7 @@
       "surprisal": 0.1429,
       "uniqueness": 0.1429,
       "llm_quality": 0.1071,
-      "llm_relevance": 0.1071,
-      "llm_clarity": 0.0
+      "summary_relevance": 0.1071
     },
     "formulas": {
       "coverage": "|tables_used \u2229 ground_truth| / |ground_truth|",
@@ -28,111 +27,6 @@
   "ranked_dprs": [
     {
       "rank": 1,
-      "dpr_id": "8_v2",
-      "combined_score": 0.7941,
-      "dpr_text": "Compile historical 110m hurdles and 1500m world record data into a unified dataset containing athlete names, timestamps (year/date), recorded times, and locations. Analyze how world record times have progressed decade-by-decade for both events, identify acceleration patterns in record-breaking frequency, and compare the rate of improvement between sprint hurdles and middle-distance running. The dataset should support trend analysis of where (geographic hotspots) and when (seasonal/monthly patterns) records tend to be broken most frequently.",
-      "tables_used": [
-        "T34",
-        "T54",
-        "T55",
-        "T56",
-        "T57"
-      ],
-      "ground_truth": [
-        "T34",
-        "T54",
-        "T55",
-        "T56",
-        "T57"
-      ],
-      "summary_source": "stage3_output",
-      "final_summary": "The unified dataset contains record times for 110m hurdles and 1500m world records, including athlete names, timestamps, recorded times, and locations. However, the dataset is limited in that it does not include record times for 1500m in T55. For 110m hurdles in T34, the fastest times are 13.33 seconds and 13.42 seconds. The location with the most records in T56 and T57 is Moscow, Soviet Union, with 8 records.",
-      "metrics": {
-        "coverage": 1.0,
-        "complexity": 0.4,
-        "complexity_breakdown": {
-          "multi_table": 0.6667,
-          "join": 0.0,
-          "agg": 0.6667,
-          "subquery": 0.6667,
-          "multi_entity": 0.0
-        },
-        "diversity": 0.8551,
-        "surprisal": 0.4905,
-        "uniqueness": 1.0,
-        "llm_quality": 1.0,
-        "llm_clarity": 0.75,
-        "llm_relevance": 0.75,
-        "llm_reasoning": "The DPR is analytical and well-formed, mostly clear but slightly verbose, and mostly aligned with the schema though geographic hotspots may require additional data."
-      },
-      "sub_queries": [
-        {
-          "sub_query_index": 1,
-          "sub_question": "How do record times in T54 and T55 compare by Date?",
-          "sql": "SELECT 'T54' AS table_name, Date, Time FROM T54 WHERE Date LIKE '189%' \nUNION \nSELECT 'T55' AS table_name, Date, Time FROM T55 WHERE Date LIKE '191%' OR Date LIKE '192%'",
-          "summary_source": "stage3_output",
-          "mini_summary": "The result set shows that record times in T54 are 4:24 + 3 / 5 in 1892, 4:21 in 1893-05-28, 4:19 + 4 / 5 in 1894-07-22, 4:18 + 2 / 5 in 1895-05-12, and 4:16 + 4 / 5 in 1895-05-26.\n\nThe result set does not show record times in T55 by Date.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.4,
-            "complexity_breakdown": {
-              "multi_table": 1.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 1.0,
-              "multi_entity": 0.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 11
-          }
-        },
-        {
-          "sub_query_index": 2,
-          "sub_question": "What are the fastest times for 110m hurdles in T34 by Year?",
-          "sql": "SELECT Year, MIN(Time) FROM T34 GROUP BY Year",
-          "summary_source": "stage3_output",
-          "mini_summary": "The fastest times for 110m hurdles in T34 are 13.33 seconds in 1968.0 and 13.42 seconds in 1970.0.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.2,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 1.0,
-              "subquery": 0.0,
-              "multi_entity": 0.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 20
-          }
-        },
-        {
-          "sub_query_index": 3,
-          "sub_question": "What locations in T56 and T57 have the most records?",
-          "sql": "SELECT Place, COUNT(*) as count FROM (SELECT Place FROM T56 UNION ALL SELECT Place FROM T57) GROUP BY Place ORDER BY count DESC LIMIT 1",
-          "summary_source": "stage3_output",
-          "mini_summary": "The location with the most records in T56 and T57 is Moscow, Soviet Union, with 8 records.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.6,
-            "complexity_breakdown": {
-              "multi_table": 1.0,
-              "join": 0.0,
-              "agg": 1.0,
-              "subquery": 1.0,
-              "multi_entity": 0.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 1
-          }
-        }
-      ]
-    },
-    {
-      "rank": 2,
       "dpr_id": "6",
       "combined_score": 0.7363,
       "dpr_text": "Compile data that will allow comparisons between long-distance (10,000m) and sprint (100m) track performances, including race times, athletes, years, locations, and nationalities. The dataset should support analysis of correlations between discipline performance trends, athlete nationalities, and record-breaking patterns (e.g., comparing how frequently 100m barriers are broken vs. 10,000m time advancements). It should enable queries to assess differences in performance progression over time, athlete representation by country, and geographic influences on event outcomes across both event types.",
@@ -162,9 +56,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_clarity": 0.75,
-        "llm_relevance": 0.5,
-        "llm_reasoning": "The DPR is analytical and mostly clear, but it partially misaligns with the schema as it assumes data on nationalities and record-breaking patterns that are not fully supported by the provided tables."
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but it lacks precision in aligning with the schema, particularly regarding nationality and record-breaking patterns.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning long-distance race times and record-breaking patterns but fails to include sprint event data, athlete nationalities, or geographic influences, which are key analytical goals."
       },
       "sub_queries": [
         {
@@ -233,9 +127,118 @@
       ]
     },
     {
+      "rank": 2,
+      "dpr_id": "5_v3",
+      "combined_score": 0.7149,
+      "dpr_text": "Compile data tracking player transitions across NFL rosters (e.g., Kansas City Chiefs 2009\u20132011) and historical college sports excellence (1935\u20131943 All-America teams, 1948 All-America baseball), including attributes like position, team affiliation, recognition, and career milestones. This dataset should enable analysis of patterns in player retention and development, identify correlations between college accolades and professional success, and assess institutional strengths in producing elite talent. Insights would support decisions in talent forecasting, college recruitment strategies, and optimizing team-building timelines to align with player growth trajectories.",
+      "tables_used": [
+        "T16",
+        "T17",
+        "T87",
+        "T90",
+        "T91",
+        "T92",
+        "T100"
+      ],
+      "ground_truth": [
+        "T16",
+        "T17",
+        "T87",
+        "T90",
+        "T91",
+        "T92",
+        "T100"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The analysis of player transitions and historical college sports excellence reveals that WR and OG are the most common positions among players. However, the number of players for each position is not shown. Additionally, USC has the most players in certain datasets, but the total number of players is unknown. Limitations are visible in the evidence as it does not provide information on player transitions between teams or the number of players for each position.",
+      "metrics": {
+        "coverage": 0.7143,
+        "complexity": 0.6667,
+        "complexity_breakdown": {
+          "multi_table": 1.0,
+          "join": 0.3333,
+          "agg": 0.3333,
+          "subquery": 0.6667,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8373,
+        "surprisal": 0.4905,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but the scope is slightly mismatched to the schema, which lacks comprehensive historical college sports data.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning player positions and college affiliations but fails to provide insights on player transitions, career milestones, or correlations between college accolades and professional success."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "How do player transitions between col_2009_Team and col_2010_Team in T16 compare to those in T17?",
+          "sql": "SELECT T16.col_2009_Team, T16.col_2010_Team, T17.col_2010_Team, T17.col_2011_Team FROM T16 INNER JOIN T17 ON T16.Player = T17.Player",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show player transitions between col_2009_Team and col_2010_Team in T17.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 1.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 5
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What positions are most common among players in T16 and T17?",
+          "sql": "SELECT Position FROM T16 UNION ALL SELECT Position FROM T17",
+          "summary_source": "stage3_output",
+          "mini_summary": "The positions most common among players in T16 and T17 are WR and OG. \n\nThe result set does not show the number of players for each position.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 40
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "Which schools in T100 have the most players in T87 and T90?",
+          "sql": "SELECT School FROM T100 WHERE School IN (SELECT School FROM T87 UNION SELECT School FROM T90) GROUP BY School ORDER BY COUNT(Name) DESC LIMIT 1",
+          "summary_source": "stage3_output",
+          "mini_summary": "The school with the most players in T87 and T90 is USC. \nThe result set does not show the number of players.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.8,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        }
+      ]
+    },
+    {
       "rank": 3,
       "dpr_id": "5",
-      "combined_score": 0.7171,
+      "combined_score": 0.6903,
       "dpr_text": "Compile historical data on College Football and Baseball All-America teams (1935\u20131948) and Kansas City Chiefs rosters (2009\u20132011), and analyze how player position distributions, school affiliations, and professional/college career trajectories correlate across eras. Specifically, compare the frequency of positions in All-America teams versus pro rosters, assess the persistence of dominant schools in producing talent, and evaluate how player status changes (e.g., team changes, inductions) reflect career continuity or disruption.",
       "tables_used": [
         "T16",
@@ -270,10 +273,10 @@
         "diversity": 0.8527,
         "surprisal": 0.4905,
         "uniqueness": 1.0,
-        "llm_quality": 0.75,
-        "llm_clarity": 0.75,
-        "llm_relevance": 0.5,
-        "llm_reasoning": "The DPR is analytical and mostly clear, but the schema lacks direct alignment with historical All-America teams and career trajectory data."
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR demonstrates analytical intent but is poorly scoped, as it spans multiple eras and datasets without clear alignment to the schema's structure or limitations.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary provides isolated data points but fails to address the requested analytical comparisons, correlations, and trends across eras and datasets."
       },
       "sub_queries": [
         {
@@ -343,117 +346,8 @@
     },
     {
       "rank": 4,
-      "dpr_id": "5_v3",
-      "combined_score": 0.7149,
-      "dpr_text": "Compile data tracking player transitions across NFL rosters (e.g., Kansas City Chiefs 2009\u20132011) and historical college sports excellence (1935\u20131943 All-America teams, 1948 All-America baseball), including attributes like position, team affiliation, recognition, and career milestones. This dataset should enable analysis of patterns in player retention and development, identify correlations between college accolades and professional success, and assess institutional strengths in producing elite talent. Insights would support decisions in talent forecasting, college recruitment strategies, and optimizing team-building timelines to align with player growth trajectories.",
-      "tables_used": [
-        "T16",
-        "T17",
-        "T87",
-        "T90",
-        "T91",
-        "T92",
-        "T100"
-      ],
-      "ground_truth": [
-        "T16",
-        "T17",
-        "T87",
-        "T90",
-        "T91",
-        "T92",
-        "T100"
-      ],
-      "summary_source": "stage3_output",
-      "final_summary": "The analysis of player transitions and historical college sports excellence reveals that WR and OG are the most common positions among players. However, the number of players for each position is not shown. Additionally, USC has the most players in certain datasets, but the total number of players is unknown. Limitations are visible in the evidence as it does not provide information on player transitions between teams or the number of players for each position.",
-      "metrics": {
-        "coverage": 0.7143,
-        "complexity": 0.6667,
-        "complexity_breakdown": {
-          "multi_table": 1.0,
-          "join": 0.3333,
-          "agg": 0.3333,
-          "subquery": 0.6667,
-          "multi_entity": 1.0
-        },
-        "diversity": 0.8373,
-        "surprisal": 0.4905,
-        "uniqueness": 1.0,
-        "llm_quality": 0.75,
-        "llm_clarity": 0.75,
-        "llm_relevance": 0.5,
-        "llm_reasoning": "The DPR is analytical and mostly clear, but it partially misaligns with the schema as it requests historical college sports data and career milestones that are not fully supported by the available tables."
-      },
-      "sub_queries": [
-        {
-          "sub_query_index": 1,
-          "sub_question": "How do player transitions between col_2009_Team and col_2010_Team in T16 compare to those in T17?",
-          "sql": "SELECT T16.col_2009_Team, T16.col_2010_Team, T17.col_2010_Team, T17.col_2011_Team FROM T16 INNER JOIN T17 ON T16.Player = T17.Player",
-          "summary_source": "stage3_output",
-          "mini_summary": "The result set does not show player transitions between col_2009_Team and col_2010_Team in T17.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.6,
-            "complexity_breakdown": {
-              "multi_table": 1.0,
-              "join": 1.0,
-              "agg": 0.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 5
-          }
-        },
-        {
-          "sub_query_index": 2,
-          "sub_question": "What positions are most common among players in T16 and T17?",
-          "sql": "SELECT Position FROM T16 UNION ALL SELECT Position FROM T17",
-          "summary_source": "stage3_output",
-          "mini_summary": "The positions most common among players in T16 and T17 are WR and OG. \n\nThe result set does not show the number of players for each position.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.6,
-            "complexity_breakdown": {
-              "multi_table": 1.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 1.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 40
-          }
-        },
-        {
-          "sub_query_index": 3,
-          "sub_question": "Which schools in T100 have the most players in T87 and T90?",
-          "sql": "SELECT School FROM T100 WHERE School IN (SELECT School FROM T87 UNION SELECT School FROM T90) GROUP BY School ORDER BY COUNT(Name) DESC LIMIT 1",
-          "summary_source": "stage3_output",
-          "mini_summary": "The school with the most players in T87 and T90 is USC. \nThe result set does not show the number of players.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.8,
-            "complexity_breakdown": {
-              "multi_table": 1.0,
-              "join": 0.0,
-              "agg": 1.0,
-              "subquery": 1.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 1
-          }
-        }
-      ]
-    },
-    {
-      "rank": 5,
       "dpr_id": "6_v2",
-      "combined_score": 0.7143,
+      "combined_score": 0.6875,
       "dpr_text": "Compile historical 10,000m race results and 100m sprint record-breaking data to analyze trends in competitive performance, geographic dominance of race locations, and how frequently records are broken over time. Specifically, assess how 10,000m race times have improved across decades, identify shifts in dominant host city locations for major events, and track progression in 100m record-breaking frequency and athlete nationalities. The data should enable comparisons between long-distance and sprinting progressions.",
       "tables_used": [
         "T22",
@@ -481,9 +375,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_clarity": 0.75,
-        "llm_relevance": 0.75,
-        "llm_reasoning": "The DPR is analytical and mostly clear, but some aspects like 'geographic dominance' and 'record-breaking frequency' are loosely aligned with the schema columns provided."
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but it is slightly mismatched to the schema as it assumes data relationships and trends that may not be fully supported by the provided tables.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning improvements in 10,000m race times and a dominant host city but fails to analyze trends across decades, geographic shifts, or 100m record-breaking frequency and athlete nationalities."
       },
       "sub_queries": [
         {
@@ -552,72 +446,81 @@
       ]
     },
     {
-      "rank": 6,
-      "dpr_id": "9_v2",
-      "combined_score": 0.7019,
-      "dpr_text": "Compile a dataset spanning the 127th to 130th Ohio General Assemblies to analyze trends in party affiliation stability, term limit turnover, and leadership transitions. This should include: (1) tracking how often representatives/senators face term limits and succeed in running for other roles; (2) identifying shifts in partisan control of districts over time by comparing first-election dates and party alignment; (3) examining geographical concentration of representatives\u2019 residences to detect regional political influence changes. The dataset should support queries to quantify long-term institutional continuity, assess demographic consistency in representation, and model electoral cycle patterns against legislative outcomes.",
+      "rank": 5,
+      "dpr_id": "8_v2",
+      "combined_score": 0.687,
+      "dpr_text": "Compile historical 110m hurdles and 1500m world record data into a unified dataset containing athlete names, timestamps (year/date), recorded times, and locations. Analyze how world record times have progressed decade-by-decade for both events, identify acceleration patterns in record-breaking frequency, and compare the rate of improvement between sprint hurdles and middle-distance running. The dataset should support trend analysis of where (geographic hotspots) and when (seasonal/monthly patterns) records tend to be broken most frequently.",
       "tables_used": [
-        "T39",
-        "T40",
-        "T41",
-        "T42",
-        "T43",
-        "T44",
-        "T45",
-        "T46",
-        "T47",
-        "T48",
-        "T49"
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
       ],
       "ground_truth": [
-        "T39",
-        "T40",
-        "T41",
-        "T42",
-        "T43",
-        "T44",
-        "T45",
-        "T46",
-        "T47",
-        "T48",
-        "T49"
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
       ],
       "summary_source": "stage3_output",
-      "final_summary": "The dataset should track representatives' residences, which include locations such as East Palestine, Delaware, Wooster, Lima, and Lancaster, and their corresponding party affiliations, which are Republican and Democratic. However, the dataset does not show party changes that occur between first election and term limited dates. It does show that the most common reasons for change are retirement and election with a specified percentage of the vote, but the years in which these changes occurred are not visible in the evidence.",
+      "final_summary": "The unified dataset contains record times for 110m hurdles and 1500m world records, including athlete names, timestamps, recorded times, and locations. However, the dataset is limited in that it does not include record times for 1500m in T55. For 110m hurdles in T34, the fastest times are 13.33 seconds and 13.42 seconds. The location with the most records in T56 and T57 is Moscow, Soviet Union, with 8 records.",
       "metrics": {
-        "coverage": 0.4545,
-        "complexity": 0.6,
+        "coverage": 1.0,
+        "complexity": 0.4,
         "complexity_breakdown": {
-          "multi_table": 1.0,
-          "join": 0.6667,
-          "agg": 0.0,
-          "subquery": 0.3333,
-          "multi_entity": 1.0
+          "multi_table": 0.6667,
+          "join": 0.0,
+          "agg": 0.6667,
+          "subquery": 0.6667,
+          "multi_entity": 0.0
         },
-        "diversity": 0.8285,
+        "diversity": 0.8551,
         "surprisal": 0.4905,
         "uniqueness": 1.0,
-        "llm_quality": 1.0,
-        "llm_clarity": 0.75,
-        "llm_relevance": 0.75,
-        "llm_reasoning": "The DPR is analytical and well-formed, mostly clear but slightly dense, and aligns with schema columns though some details require inferred connections."
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but the scope could be better aligned with the schema, as it assumes unified data across multiple tables without specifying integration details.",
+        "summary_relevance": 0.0,
+        "summary_relevance_reasoning": "The summary is unrelated to the DPR, as it introduces irrelevant classifications (e.g., T55, T34) and fails to address the requested dataset structure, trend analysis, or comparisons between events."
       },
       "sub_queries": [
         {
           "sub_query_index": 1,
-          "sub_question": "How do residence locations in T41 and T42 correlate with district party control over time?",
-          "sql": "SELECT T41.Residence, T41.Party, T42.Party FROM T41 INNER JOIN T42 ON T41.District = T42.District",
+          "sub_question": "How do record times in T54 and T55 compare by Date?",
+          "sql": "SELECT 'T54' AS table_name, Date, Time FROM T54 WHERE Date LIKE '189%' \nUNION \nSELECT 'T55' AS table_name, Date, Time FROM T55 WHERE Date LIKE '191%' OR Date LIKE '192%'",
           "summary_source": "stage3_output",
-          "mini_summary": "The residence locations in T41 and T42 include East Palestine, Delaware, Wooster, Lima, and Lancaster. \n\nThe parties of the residence locations in T41 and T42 include Republican and Democratic.",
+          "mini_summary": "The result set shows that record times in T54 are 4:24 + 3 / 5 in 1892, 4:21 in 1893-05-28, 4:19 + 4 / 5 in 1894-07-22, 4:18 + 2 / 5 in 1895-05-12, and 4:16 + 4 / 5 in 1895-05-26.\n\nThe result set does not show record times in T55 by Date.",
           "metrics": {
             "execution_status": 1.0,
-            "complexity": 0.6,
+            "complexity": 0.4,
             "complexity_breakdown": {
               "multi_table": 1.0,
-              "join": 1.0,
+              "join": 0.0,
               "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 11
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What are the fastest times for 110m hurdles in T34 by Year?",
+          "sql": "SELECT Year, MIN(Time) FROM T34 GROUP BY Year",
+          "summary_source": "stage3_output",
+          "mini_summary": "The fastest times for 110m hurdles in T34 are 13.33 seconds in 1968.0 and 13.42 seconds in 1970.0.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
               "subquery": 0.0,
-              "multi_entity": 1.0
+              "multi_entity": 0.0
             },
             "attempt_success_rate": 1.0,
             "n_attempts": 1,
@@ -625,293 +528,32 @@
           }
         },
         {
-          "sub_query_index": 2,
-          "sub_question": "What party changes occur in T40 and T41 between first election and term limited dates?",
-          "sql": "SELECT T40.Party, T41.Party FROM T40 INNER JOIN T41 ON T40.District = T41.District WHERE T40.First_elected < T40.Term_Limited AND T41.First_Elected < T41.Term_Limited",
-          "summary_source": "stage3_output",
-          "mini_summary": "The result set does not show the party changes that occur in T40 and T41 between first election and term limited dates.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.6,
-            "complexity_breakdown": {
-              "multi_table": 1.0,
-              "join": 1.0,
-              "agg": 0.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 8
-          }
-        },
-        {
           "sub_query_index": 3,
-          "sub_question": "What are the most common reasons for change in T39 and T46 across different districts?",
-          "sql": "SELECT Reason_for_change FROM T39 UNION ALL SELECT Reason_for_change FROM T46",
+          "sub_question": "What locations in T56 and T57 have the most records?",
+          "sql": "SELECT Place, COUNT(*) as count FROM (SELECT Place FROM T56 UNION ALL SELECT Place FROM T57) GROUP BY Place ORDER BY count DESC LIMIT 1",
           "summary_source": "stage3_output",
-          "mini_summary": "The most common reasons for change in T39 and T46 across different districts are retirement and election with a specified percentage of the vote. \n\nThe result set does not show the years in which these changes occurred.",
+          "mini_summary": "The location with the most records in T56 and T57 is Moscow, Soviet Union, with 8 records.",
           "metrics": {
             "execution_status": 1.0,
             "complexity": 0.6,
             "complexity_breakdown": {
               "multi_table": 1.0,
               "join": 0.0,
-              "agg": 0.0,
+              "agg": 1.0,
               "subquery": 1.0,
-              "multi_entity": 1.0
+              "multi_entity": 0.0
             },
             "attempt_success_rate": 1.0,
             "n_attempts": 1,
-            "rows_returned": 17
+            "rows_returned": 1
           }
         }
       ]
     },
     {
-      "rank": 7,
-      "dpr_id": "7_v2",
-      "combined_score": 0.6946,
-      "dpr_text": "Compile a dataset spanning seat vacancies and replacements in U.S. Congress and Senate across the 10th to 113th Congresses, tracking reasons for vacancies, successor appointment timelines, and party affiliations of vacators and successors. Analyze how frequency, causes, and patterns of legislative turnover (e.g., deaths, resignations, succession rules) evolved over time, and assess correlations between these trends and broader political or demographic shifts, such as changes in party dominance or structural reforms in representation.",
-      "tables_used": [
-        "T26",
-        "T27",
-        "T28",
-        "T29",
-        "T32",
-        "T33",
-        "T35",
-        "T36",
-        "T37",
-        "T38",
-        "T51",
-        "T59",
-        "T68",
-        "T69"
-      ],
-      "ground_truth": [
-        "T26",
-        "T27",
-        "T28",
-        "T29",
-        "T32",
-        "T33",
-        "T35",
-        "T36",
-        "T37",
-        "T38",
-        "T51",
-        "T59",
-        "T68",
-        "T69"
-      ],
-      "summary_source": "stage3_output",
-      "final_summary": "The party affiliations of vacators and successors in certain instances are Democrat and Republican. Successor appointment timelines vary by reason for change, with formal installation dates occurring for deaths on June 5, 2001, June 19, 2001, or October 16, 2001, and for resignations on May 15, 2001, or November 20, 2001. Reasons for change include death, resignation due to appointment as U.S. Secretary of Agriculture, resignation, and resignation to become President of the Negro College Fund. However, the evidence does not provide a comprehensive dataset spanning multiple Congresses, limiting the ability to analyze broader trends and correlations.",
-      "metrics": {
-        "coverage": 0.4286,
-        "complexity": 0.6,
-        "complexity_breakdown": {
-          "multi_table": 1.0,
-          "join": 0.0,
-          "agg": 0.0,
-          "subquery": 1.0,
-          "multi_entity": 1.0
-        },
-        "diversity": 0.8157,
-        "surprisal": 0.4905,
-        "uniqueness": 1.0,
-        "llm_quality": 1.0,
-        "llm_clarity": 0.75,
-        "llm_relevance": 0.75,
-        "llm_reasoning": "The DPR is analytical and well-formed, mostly clear but slightly verbose, and aligns with schema columns related to vacancies and successors but lacks direct demographic data for broader political shifts."
-      },
-      "sub_queries": [
-        {
-          "sub_query_index": 1,
-          "sub_question": "What party affiliations are most prevalent among vacators and successors in T26 and T69?",
-          "sql": "SELECT Party FROM T26 WHERE Party LIKE '%Rep%' OR Party LIKE '%Dem%' UNION SELECT Vacator FROM T69 WHERE Vacator LIKE '%Rep%' OR Vacator LIKE '%Dem%' UNION SELECT Successor FROM T69 WHERE Successor LIKE '%Rep%' OR Successor LIKE '%Dem%'",
-          "summary_source": "stage3_output",
-          "mini_summary": "The party affiliations of vacators and successors in T26 and T69 are Democrat and Republican.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.6,
-            "complexity_breakdown": {
-              "multi_table": 1.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 1.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 2
-          }
-        },
-        {
-          "sub_query_index": 2,
-          "sub_question": "How do successor appointment timelines vary by reason for change in T29 and T36?",
-          "sql": "SELECT Reason_for_change, Date_of_successor_s_formal_installation FROM T29\nUNION ALL\nSELECT Reason_for_change, Date_of_successor_s_formal_installation FROM T36",
-          "summary_source": "stage3_output",
-          "mini_summary": "Successor appointment timelines vary by reason for change in T29 and T36 as follows: \n- For a death, the successor's formal installation date is June 5, 2001, June 19, 2001, or October 16, 2001.\n- For a resignation, the successor's formal installation date is May 15, 2001, or November 20, 2001.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.6,
-            "complexity_breakdown": {
-              "multi_table": 1.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 1.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 2,
-            "rows_returned": 23
-          }
-        },
-        {
-          "sub_query_index": 3,
-          "sub_question": "What reasons for change are most common in T27 and T51?",
-          "sql": "SELECT Reason_for_change FROM T27 UNION ALL SELECT Reason_for_change FROM T51",
-          "summary_source": "stage3_output",
-          "mini_summary": "The reasons for change in T27 and T51 include death, resignation due to appointment as U.S. Secretary of Agriculture, resignation, and resignation to become President of the Negro College Fund. \n\nThe result set does not show the specific years associated with these reasons.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.6,
-            "complexity_breakdown": {
-              "multi_table": 1.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 1.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 30
-          }
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "dpr_id": "9",
-      "combined_score": 0.6847,
-      "dpr_text": "Compile a comprehensive dataset spanning Ohio General Assembly sessions 123rd to 130th, integrating district-level leadership information with transition records. Analyze how partisan representation and term limit policies correlate with seat turnover rates, track shifts in district residency patterns across elections, and identify trends in the causes of legislative transitions (e.g., resignations, expirations, by-elections). Contrast the workforce stability in the Ohio Senate versus House of Representatives and benchmark re-election success rates between party affiliations. The final product should enable comparative analysis of institutional continuity, partisan dynamics, and demographic representation across the eight legislative cycles.",
-      "tables_used": [
-        "T39",
-        "T40",
-        "T41",
-        "T42",
-        "T43",
-        "T44",
-        "T45",
-        "T46",
-        "T47",
-        "T48",
-        "T49"
-      ],
-      "ground_truth": [
-        "T39",
-        "T40",
-        "T41",
-        "T42",
-        "T43",
-        "T44",
-        "T45",
-        "T46",
-        "T47",
-        "T48",
-        "T49"
-      ],
-      "summary_source": "stage3_output",
-      "final_summary": "The dataset does not provide comprehensive information on district-level leadership changes, specifically noting no changes in districts T39 and T46 during the relevant sessions. Additionally, the specific seat turnover rates affected by term limits in districts T40 and T48 are not shown. It is also evident that certain districts are term-limited, including districts 1, 9, and 13. However, the dataset does not provide specific trends in causes of legislative transitions in districts T39 and T46, and the seat turnover rates affected by term limits in districts T40 and T48 remain unclear.",
-      "metrics": {
-        "coverage": 0.3636,
-        "complexity": 0.6,
-        "complexity_breakdown": {
-          "multi_table": 1.0,
-          "join": 0.3333,
-          "agg": 0.0,
-          "subquery": 0.6667,
-          "multi_entity": 1.0
-        },
-        "diversity": 0.8444,
-        "surprisal": 0.4905,
-        "uniqueness": 1.0,
-        "llm_quality": 1.0,
-        "llm_clarity": 0.75,
-        "llm_relevance": 0.75,
-        "llm_reasoning": "The DPR is analytical and well-formed, mostly clear but slightly verbose, and aligns with the schema though some columns may require inferred connections."
-      },
-      "sub_queries": [
-        {
-          "sub_query_index": 1,
-          "sub_question": "What are the district-level leadership changes in T39 and T46 during the 123rd to 130th sessions?",
-          "sql": "SELECT District, Previous_Senator, Reason_for_change, New_Senator, Date FROM T39 WHERE Date LIKE '%January 3 , 199%' UNION ALL SELECT District, Predecessor, Reason_for_change, Successor, Date_successor_seated FROM T46 WHERE Date_successor_seated LIKE '%January 11 , 2011%'",
-          "summary_source": "stage3_output",
-          "mini_summary": "There are no district-level leadership changes in T39 during the 123rd to 130th sessions shown in the result set.\nThe result set does not show district-level leadership changes in T46 during the 123rd to 130th sessions.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.6,
-            "complexity_breakdown": {
-              "multi_table": 1.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 1.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 7
-          }
-        },
-        {
-          "sub_query_index": 2,
-          "sub_question": "How do term limits in T40 and T48 affect seat turnover rates?",
-          "sql": "SELECT T40.District, T40.Term_Limited, T48.Term_Limited FROM T40 INNER JOIN T48 ON T40.District = T48.District WHERE T40.Term_Limited = '2014' OR T48.Term_Limited = '2014'",
-          "summary_source": "stage3_output",
-          "mini_summary": "The result set does not show the specific seat turnover rates affected by term limits in T40 and T48. \n\nThe result set shows that districts 1, 9, and 13 are term-limited in the years 2022, 2014, and 2018, respectively.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.6,
-            "complexity_breakdown": {
-              "multi_table": 1.0,
-              "join": 1.0,
-              "agg": 0.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 3
-          }
-        },
-        {
-          "sub_query_index": 3,
-          "sub_question": "What are the trends in causes of legislative transitions in T39 and T46?",
-          "sql": "SELECT Reason_for_change FROM T39 UNION SELECT Reason_for_change FROM T46",
-          "summary_source": "stage3_output",
-          "mini_summary": "The result set does not show the specific trends in causes of legislative transitions in T39 and T46.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.6,
-            "complexity_breakdown": {
-              "multi_table": 1.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 1.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 17
-          }
-        }
-      ]
-    },
-    {
-      "rank": 9,
+      "rank": 6,
       "dpr_id": "1",
-      "combined_score": 0.6806,
+      "combined_score": 0.6539,
       "dpr_text": "Compile data on \"Weird Al\" Yankovic's film roles (1970s\u20132000s) alongside corresponding film financials (1954\u20131974) to analyze how his roles intersect with industry revenue trends. Compare revenue and admissions metrics of films from 1954 (international markets), 1957 (country of origin), and 1974 (domestic gross) to assess longitudinal changes in box office success. Cross-analyze 1955\u20131964 musical compositions (performers, locations) with 1970 country music chart positions to identify correlations between regional music success and film production trends. Evaluate whether specific film roles, studios, or directors are statistically associated with higher revenue or admissions across eras, and contrast these patterns with regional music chart performances. This dataset should enable queries on cross-decade cultural-economic linkages and role-based financial predictors.",
       "tables_used": [
         "T1",
@@ -950,10 +592,10 @@
         "diversity": 0.8691,
         "surprisal": 0.4905,
         "uniqueness": 1.0,
-        "llm_quality": 0.75,
-        "llm_clarity": 0.5,
-        "llm_relevance": 0.5,
-        "llm_reasoning": "The DPR is analytical but overly complex and partially misaligned with the schema, as it mixes unrelated timeframes and datasets, making it somewhat unclear and loosely relevant."
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR demonstrates analytical intent but is overly complex, poorly scoped, and misaligned with the schema, making it difficult to execute effectively.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by listing Weird Al's film roles and mentioning some musical compositions, but it fails to analyze financial metrics, cross-decade linkages, or correlations between roles, studios, and revenue trends as requested."
       },
       "sub_queries": [
         {
@@ -1022,9 +664,9 @@
       ]
     },
     {
-      "rank": 10,
+      "rank": 7,
       "dpr_id": "5_v2",
-      "combined_score": 0.6806,
+      "combined_score": 0.6538,
       "dpr_text": "Compile data that enables analysis of player retention and turnover trends for the Kansas City Chiefs between 2009 and 2011, and identify historical shifts in College Football All-America selections across 1935-1946 and college baseball talent recognition in 1948. The data should track changes in position distributions, team affiliations, and selection criteria over time to uncover patterns in roster stability and athletic acclaim evolution.",
       "tables_used": [
         "T16",
@@ -1059,10 +701,10 @@
         "diversity": 0.8115,
         "surprisal": 0.4905,
         "uniqueness": 1.0,
-        "llm_quality": 0.75,
-        "llm_clarity": 0.5,
-        "llm_relevance": 0.5,
-        "llm_reasoning": "The DPR is analytical but overly broad, somewhat unclear in phrasing, and only partially aligns with the schema due to limited temporal and selection criteria coverage."
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR demonstrates analytical intent but is poorly scoped, as it combines unrelated time periods and lacks clarity on how the schema tables align with the requested analysis.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning position distributions and school affiliations but fails to provide comprehensive data on player retention, turnover trends, or historical shifts in athletic recognition as requested."
       },
       "sub_queries": [
         {
@@ -1131,313 +773,63 @@
       ]
     },
     {
-      "rank": 11,
-      "dpr_id": "8",
-      "combined_score": 0.6774,
-      "dpr_text": "Compile a unified dataset combining 110m hurdles and 1500m world record data, standardizing temporal fields and athlete attributes, to allow comparative analysis of: \n1. Rate of record progression over time between sprint and distance events, \n2. Geographical concentration patterns in record-setting locations, \n3. Correlations between athlete specialization shifts and performance milestones. \nThe data should support querying temporal trends, cross-event comparisons, and location-based performance relationships through standardized athlete-event metadata.",
+      "rank": 8,
+      "dpr_id": "9_v2",
+      "combined_score": 0.6484,
+      "dpr_text": "Compile a dataset spanning the 127th to 130th Ohio General Assemblies to analyze trends in party affiliation stability, term limit turnover, and leadership transitions. This should include: (1) tracking how often representatives/senators face term limits and succeed in running for other roles; (2) identifying shifts in partisan control of districts over time by comparing first-election dates and party alignment; (3) examining geographical concentration of representatives\u2019 residences to detect regional political influence changes. The dataset should support queries to quantify long-term institutional continuity, assess demographic consistency in representation, and model electoral cycle patterns against legislative outcomes.",
       "tables_used": [
-        "T34",
-        "T54",
-        "T55",
-        "T56",
-        "T57"
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T44",
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T49"
       ],
       "ground_truth": [
-        "T34",
-        "T54",
-        "T55",
-        "T56",
-        "T57"
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T44",
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T49"
       ],
       "summary_source": "stage3_output",
-      "final_summary": "The unified dataset should combine 110m hurdles and 1500m world record data, standardizing temporal fields and athlete attributes, to allow comparative analysis of rate of record progression over time and geographical concentration patterns in record-setting locations. However, the evidence does not provide sufficient information to support querying correlations between athlete specialization shifts and performance milestones, as it does not show any correlations between Place values and Athlete performance in T56.",
+      "final_summary": "The dataset should track representatives' residences, which include locations such as East Palestine, Delaware, Wooster, Lima, and Lancaster, and their corresponding party affiliations, which are Republican and Democratic. However, the dataset does not show party changes that occur between first election and term limited dates. It does show that the most common reasons for change are retirement and election with a specified percentage of the vote, but the years in which these changes occurred are not visible in the evidence.",
       "metrics": {
-        "coverage": 0.6,
-        "complexity": 0.2,
+        "coverage": 0.4545,
+        "complexity": 0.6,
         "complexity_breakdown": {
-          "multi_table": 0.0,
-          "join": 0.0,
+          "multi_table": 1.0,
+          "join": 0.6667,
           "agg": 0.0,
-          "subquery": 0.0,
+          "subquery": 0.3333,
           "multi_entity": 1.0
         },
-        "diversity": 0.8384,
+        "diversity": 0.8285,
         "surprisal": 0.4905,
-        "uniqueness": 1.0,
-        "llm_quality": 1.0,
-        "llm_clarity": 0.75,
-        "llm_relevance": 0.75,
-        "llm_reasoning": "The DPR is analytical and well-formed, mostly clear but slightly dense, and aligns with schema columns though lacks explicit mapping to all temporal fields."
-      },
-      "sub_queries": [
-        {
-          "sub_query_index": 1,
-          "sub_question": "What Time values are associated with each Athlete in T34?",
-          "sql": "SELECT Time, Athlete FROM T34",
-          "summary_source": "stage3_output",
-          "mini_summary": "The Time values associated with Willie Davenport are 13.47, 13.33, and 13.45. \nThe Time value associated with Thomas Hill is 13.42.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.2,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 20
-          }
-        },
-        {
-          "sub_query_index": 2,
-          "sub_question": "What Place values are correlated with Athlete performance in T56?",
-          "sql": "SELECT Place FROM T56 WHERE Athlete LIKE '%Mushkina%' OR Athlete LIKE '%Freiberg%'",
-          "summary_source": "stage3_output",
-          "mini_summary": "The result set does not show Place values correlated with Athlete performance in T56.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.2,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 3
-          }
-        },
-        {
-          "sub_query_index": 3,
-          "sub_question": "Which Date values appear in T54 for 110m hurdles?",
-          "sql": "SELECT Date FROM T54 WHERE Athlete LIKE '%USA%' OR Athlete LIKE '%FRA%'",
-          "summary_source": "stage3_output",
-          "mini_summary": "The Date values that appear in T54 for 110m hurdles are 1892, 1893-05-28, 1894-07-22, 1895-05-12, and 1895-05-26.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.2,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 11
-          }
-        }
-      ]
-    },
-    {
-      "rank": 12,
-      "dpr_id": "10",
-      "combined_score": 0.6598,
-      "dpr_text": "Compile a dataset containing the 1947 and 1948 BAA draft selections by player, including their position, team, college, and draft round/pick. Analyze how the distribution of positions selected differs between the two years, investigate correlations between players\u2019 colleges and teams that drafted them, and assess how early-round concentration and team drafting priorities evolved between 1947 and 1948.",
-      "tables_used": [
-        "T93",
-        "T94",
-        "T95",
-        "T96",
-        "T97",
-        "T98"
-      ],
-      "ground_truth": [
-        "T93",
-        "T94",
-        "T95",
-        "T96",
-        "T97",
-        "T98"
-      ],
-      "summary_source": "stage3_output",
-      "final_summary": "The positions selected by teams in the dataset are F, G/F, -, and C, with the first round of the 1947 draft featuring Forward, Guard/Forward, Guard/Forward, Unknown, and Center. However, the positions selected in rounds other than the first are not shown. The 1948 draft saw players from various colleges drafted by teams, including Vermont, Purdue, Ohio State, Long Island, and Pennsylvania. Despite this information, the distribution of positions selected and team drafting priorities between the two years remain unclear, as the evidence does not provide this information.",
-      "metrics": {
-        "coverage": 0.3333,
-        "complexity": 0.2,
-        "complexity_breakdown": {
-          "multi_table": 0.3333,
-          "join": 0.0,
-          "agg": 0.3333,
-          "subquery": 0.3333,
-          "multi_entity": 0.0
-        },
-        "diversity": 0.8738,
-        "surprisal": 0.7317,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_clarity": 0.75,
-        "llm_relevance": 1.0,
-        "llm_reasoning": "The DPR is analytical and mostly clear, directly grounded in the schema columns, but could benefit from slightly more precise phrasing."
+        "llm_reasoning": "The DPR is analytical with clear multi-dimensional goals, but the scope could be better aligned with the schema, as it spans multiple tables with overlapping columns that may complicate integration.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning representatives' residences and party affiliations but fails to cover key analytical goals such as term limit turnover, partisan control shifts, and leadership transitions."
       },
       "sub_queries": [
         {
           "sub_query_index": 1,
-          "sub_question": "How do team drafting priorities differ between 1947 and 1948 by position?",
-          "sql": "SELECT Team, Position FROM T93 UNION ALL SELECT Team, Position FROM T94",
+          "sub_question": "How do residence locations in T41 and T42 correlate with district party control over time?",
+          "sql": "SELECT T41.Residence, T41.Party, T42.Party FROM T41 INNER JOIN T42 ON T41.District = T42.District",
           "summary_source": "stage3_output",
-          "mini_summary": "The result set does not show how team drafting priorities differ between 1947 and 1948 by position. \n\nThe positions selected by teams in the result set are F, G/F, -, and C.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.4,
-            "complexity_breakdown": {
-              "multi_table": 1.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 1.0,
-              "multi_entity": 0.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 30
-          }
-        },
-        {
-          "sub_query_index": 2,
-          "sub_question": "What positions were selected in each round of the 1947 draft?",
-          "sql": "SELECT Round, Position FROM T93",
-          "summary_source": "stage3_output",
-          "mini_summary": "The positions selected in the first round of the 1947 draft were Forward, Guard/Forward, Guard/Forward, Unknown, and Center. \n\nThe result set does not show the positions selected in rounds other than the first.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.0,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 0.0,
-              "multi_entity": 0.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 10
-          }
-        },
-        {
-          "sub_query_index": 3,
-          "sub_question": "What colleges were most commonly associated with each team in the 1948 draft?",
-          "sql": "SELECT Team, College, COUNT(*) as count FROM T93 GROUP BY Team, College ORDER BY count DESC",
-          "summary_source": "stage3_output",
-          "mini_summary": "The Baltimore Bullets drafted a player from Vermont in the 1948 draft. \nThe Boston Celtics drafted a player from Purdue in the 1948 draft. \nThe Chicago Stags drafted a player from Ohio State in the 1948 draft. \nThe New York Knicks drafted a player from Long Island in the 1948 draft. \nThe Philadelphia Warriors drafted a player from Pennsylvania in the 1948 draft.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.2,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 1.0,
-              "subquery": 0.0,
-              "multi_entity": 0.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 10
-          }
-        }
-      ]
-    },
-    {
-      "rank": 13,
-      "dpr_id": "2",
-      "combined_score": 0.6588,
-      "dpr_text": "Compile a standardized dataset of legislative members across British Columbia, Manitoba, and Puerto Rico from 1899 to 1972, mapping districts to members and their political affiliations. Structure the data to enable comparative analysis of party representation trends over time, regional differences in electoral district distribution, and correlations between jurisdictional political dynamics and legislative composition. Include contextual attributes like legislative term periods to analyze shifts in party alignment between geographic regions and historical periods.",
-      "tables_used": [
-        "T4",
-        "T18",
-        "T30",
-        "T31",
-        "T50",
-        "T58",
-        "T60",
-        "T61",
-        "T62"
-      ],
-      "ground_truth": [
-        "T4",
-        "T18",
-        "T30",
-        "T31",
-        "T50",
-        "T58",
-        "T60",
-        "T61",
-        "T62"
-      ],
-      "summary_source": "stage3_output",
-      "final_summary": "A standardized dataset of legislative members can be compiled for British Columbia, Manitoba, and Puerto Rico, mapping electoral districts to their respective members and political affiliations. The dataset will include electoral districts such as Alberni, Atlin, Cariboo, Chilliwack, and Columbia, and their associated members. In Puerto Rico, the parties represented in District Num . V ( District 21-25 ) Ponce are PDP, while in Senator At-Large, both NPP and PDP are represented. In District Num . I ( District 1-5 ) San Juan, NPP is the represented party. The affiliations in T31 and T30 are both Conservative. However, limitations are visible in the evidence as it does not provide information on the affiliations of all electoral districts or the parties represented in Manitoba.",
-      "metrics": {
-        "coverage": 0.4444,
-        "complexity": 0.3333,
-        "complexity_breakdown": {
-          "multi_table": 0.3333,
-          "join": 0.3333,
-          "agg": 0.0,
-          "subquery": 0.0,
-          "multi_entity": 1.0
-        },
-        "diversity": 0.8084,
-        "surprisal": 0.4905,
-        "uniqueness": 1.0,
-        "llm_quality": 1.0,
-        "llm_clarity": 0.75,
-        "llm_relevance": 0.75,
-        "llm_reasoning": "The DPR is analytical and well-formed, mostly clear but slightly dense, and aligns with schema columns though some contextual attributes like term periods are not directly available."
-      },
-      "sub_queries": [
-        {
-          "sub_query_index": 1,
-          "sub_question": "What members are associated with each electoral district in T4?",
-          "sql": "SELECT Member, Electoral_district FROM T4",
-          "summary_source": "stage3_output",
-          "mini_summary": "The electoral districts associated with members in the result set are Alberni, Atlin, Cariboo, Chilliwack, and Columbia. \n\nThe members associated with each electoral district in the result set are Harlan Carey Brewster (Alberni), Frank Harry Mobley (Atlin), John MacKay Yorston (Cariboo), Edward Dodsley Barrow (Chilliwack), and John Andrew Buckham (Columbia).",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.2,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 20
-          }
-        },
-        {
-          "sub_query_index": 2,
-          "sub_question": "What parties are represented in each district in T58?",
-          "sql": "SELECT District, Party FROM T58",
-          "summary_source": "stage3_output",
-          "mini_summary": "The parties represented in District Num . V ( District 21-25 ) Ponce are PDP. \nThe parties represented in Senator At-Large are NPP and PDP. \nThe parties represented in District Num . I ( District 1-5 ) San Juan are NPP.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.2,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 20
-          }
-        },
-        {
-          "sub_query_index": 3,
-          "sub_question": "How do affiliations in T31 relate to parties in T30?",
-          "sql": "SELECT T31.Affiliation, T30.Party FROM T31 INNER JOIN T30 ON T31.Electoral_district = T30.Electoral_district WHERE T31.Affiliation LIKE '%Conservative%' AND T30.Party LIKE '%Conservative%'",
-          "summary_source": "stage3_output",
-          "mini_summary": "The affiliations in T31 are both Conservative. The parties in T30 are also both Conservative.",
+          "mini_summary": "The residence locations in T41 and T42 include East Palestine, Delaware, Wooster, Lima, and Lancaster. \n\nThe parties of the residence locations in T41 and T42 include Republican and Democratic.",
           "metrics": {
             "execution_status": 1.0,
             "complexity": 0.6,
@@ -1450,13 +842,295 @@
             },
             "attempt_success_rate": 1.0,
             "n_attempts": 1,
-            "rows_returned": 2
+            "rows_returned": 20
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What party changes occur in T40 and T41 between first election and term limited dates?",
+          "sql": "SELECT T40.Party, T41.Party FROM T40 INNER JOIN T41 ON T40.District = T41.District WHERE T40.First_elected < T40.Term_Limited AND T41.First_Elected < T41.Term_Limited",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show the party changes that occur in T40 and T41 between first election and term limited dates.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 1.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 8
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What are the most common reasons for change in T39 and T46 across different districts?",
+          "sql": "SELECT Reason_for_change FROM T39 UNION ALL SELECT Reason_for_change FROM T46",
+          "summary_source": "stage3_output",
+          "mini_summary": "The most common reasons for change in T39 and T46 across different districts are retirement and election with a specified percentage of the vote. \n\nThe result set does not show the years in which these changes occurred.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 17
           }
         }
       ]
     },
     {
-      "rank": 14,
+      "rank": 9,
+      "dpr_id": "7_v2",
+      "combined_score": 0.641,
+      "dpr_text": "Compile a dataset spanning seat vacancies and replacements in U.S. Congress and Senate across the 10th to 113th Congresses, tracking reasons for vacancies, successor appointment timelines, and party affiliations of vacators and successors. Analyze how frequency, causes, and patterns of legislative turnover (e.g., deaths, resignations, succession rules) evolved over time, and assess correlations between these trends and broader political or demographic shifts, such as changes in party dominance or structural reforms in representation.",
+      "tables_used": [
+        "T26",
+        "T27",
+        "T28",
+        "T29",
+        "T32",
+        "T33",
+        "T35",
+        "T36",
+        "T37",
+        "T38",
+        "T51",
+        "T59",
+        "T68",
+        "T69"
+      ],
+      "ground_truth": [
+        "T26",
+        "T27",
+        "T28",
+        "T29",
+        "T32",
+        "T33",
+        "T35",
+        "T36",
+        "T37",
+        "T38",
+        "T51",
+        "T59",
+        "T68",
+        "T69"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The party affiliations of vacators and successors in certain instances are Democrat and Republican. Successor appointment timelines vary by reason for change, with formal installation dates occurring for deaths on June 5, 2001, June 19, 2001, or October 16, 2001, and for resignations on May 15, 2001, or November 20, 2001. Reasons for change include death, resignation due to appointment as U.S. Secretary of Agriculture, resignation, and resignation to become President of the Negro College Fund. However, the evidence does not provide a comprehensive dataset spanning multiple Congresses, limiting the ability to analyze broader trends and correlations.",
+      "metrics": {
+        "coverage": 0.4286,
+        "complexity": 0.6,
+        "complexity_breakdown": {
+          "multi_table": 1.0,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 1.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8157,
+        "surprisal": 0.4905,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but its scope could be better aligned with the schema, which contains redundant and potentially overlapping tables.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning reasons for vacancies, successor timelines, and party affiliations, but it lacks a comprehensive dataset, analysis of trends over time, and correlations with political or demographic shifts."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What party affiliations are most prevalent among vacators and successors in T26 and T69?",
+          "sql": "SELECT Party FROM T26 WHERE Party LIKE '%Rep%' OR Party LIKE '%Dem%' UNION SELECT Vacator FROM T69 WHERE Vacator LIKE '%Rep%' OR Vacator LIKE '%Dem%' UNION SELECT Successor FROM T69 WHERE Successor LIKE '%Rep%' OR Successor LIKE '%Dem%'",
+          "summary_source": "stage3_output",
+          "mini_summary": "The party affiliations of vacators and successors in T26 and T69 are Democrat and Republican.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 2
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "How do successor appointment timelines vary by reason for change in T29 and T36?",
+          "sql": "SELECT Reason_for_change, Date_of_successor_s_formal_installation FROM T29\nUNION ALL\nSELECT Reason_for_change, Date_of_successor_s_formal_installation FROM T36",
+          "summary_source": "stage3_output",
+          "mini_summary": "Successor appointment timelines vary by reason for change in T29 and T36 as follows: \n- For a death, the successor's formal installation date is June 5, 2001, June 19, 2001, or October 16, 2001.\n- For a resignation, the successor's formal installation date is May 15, 2001, or November 20, 2001.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 2,
+            "rows_returned": 23
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What reasons for change are most common in T27 and T51?",
+          "sql": "SELECT Reason_for_change FROM T27 UNION ALL SELECT Reason_for_change FROM T51",
+          "summary_source": "stage3_output",
+          "mini_summary": "The reasons for change in T27 and T51 include death, resignation due to appointment as U.S. Secretary of Agriculture, resignation, and resignation to become President of the Negro College Fund. \n\nThe result set does not show the specific years associated with these reasons.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 30
+          }
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "dpr_id": "9",
+      "combined_score": 0.6312,
+      "dpr_text": "Compile a comprehensive dataset spanning Ohio General Assembly sessions 123rd to 130th, integrating district-level leadership information with transition records. Analyze how partisan representation and term limit policies correlate with seat turnover rates, track shifts in district residency patterns across elections, and identify trends in the causes of legislative transitions (e.g., resignations, expirations, by-elections). Contrast the workforce stability in the Ohio Senate versus House of Representatives and benchmark re-election success rates between party affiliations. The final product should enable comparative analysis of institutional continuity, partisan dynamics, and demographic representation across the eight legislative cycles.",
+      "tables_used": [
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T44",
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T49"
+      ],
+      "ground_truth": [
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T44",
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T49"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The dataset does not provide comprehensive information on district-level leadership changes, specifically noting no changes in districts T39 and T46 during the relevant sessions. Additionally, the specific seat turnover rates affected by term limits in districts T40 and T48 are not shown. It is also evident that certain districts are term-limited, including districts 1, 9, and 13. However, the dataset does not provide specific trends in causes of legislative transitions in districts T39 and T46, and the seat turnover rates affected by term limits in districts T40 and T48 remain unclear.",
+      "metrics": {
+        "coverage": 0.3636,
+        "complexity": 0.6,
+        "complexity_breakdown": {
+          "multi_table": 1.0,
+          "join": 0.3333,
+          "agg": 0.0,
+          "subquery": 0.6667,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8444,
+        "surprisal": 0.4905,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR is analytical with clear multi-dimensional goals, but its scope is slightly over-ambitious given the redundancy and potential inconsistencies in the schema tables.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning district-level leadership and term limits but fails to cover key analytical goals such as partisan representation, causes of legislative transitions, and comparative analysis of institutional continuity."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the district-level leadership changes in T39 and T46 during the 123rd to 130th sessions?",
+          "sql": "SELECT District, Previous_Senator, Reason_for_change, New_Senator, Date FROM T39 WHERE Date LIKE '%January 3 , 199%' UNION ALL SELECT District, Predecessor, Reason_for_change, Successor, Date_successor_seated FROM T46 WHERE Date_successor_seated LIKE '%January 11 , 2011%'",
+          "summary_source": "stage3_output",
+          "mini_summary": "There are no district-level leadership changes in T39 during the 123rd to 130th sessions shown in the result set.\nThe result set does not show district-level leadership changes in T46 during the 123rd to 130th sessions.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 7
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "How do term limits in T40 and T48 affect seat turnover rates?",
+          "sql": "SELECT T40.District, T40.Term_Limited, T48.Term_Limited FROM T40 INNER JOIN T48 ON T40.District = T48.District WHERE T40.Term_Limited = '2014' OR T48.Term_Limited = '2014'",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show the specific seat turnover rates affected by term limits in T40 and T48. \n\nThe result set shows that districts 1, 9, and 13 are term-limited in the years 2022, 2014, and 2018, respectively.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 1.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 3
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What are the trends in causes of legislative transitions in T39 and T46?",
+          "sql": "SELECT Reason_for_change FROM T39 UNION SELECT Reason_for_change FROM T46",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show the specific trends in causes of legislative transitions in T39 and T46.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 17
+          }
+        }
+      ]
+    },
+    {
+      "rank": 11,
       "dpr_id": "6_v3",
       "combined_score": 0.6274,
       "dpr_text": "Compile a unified dataset of historical performance records in 10,000m and 100m sprints, including race years, athlete names, locations, and record-breaking milestones for the 100m barrier. Analyze trends in performance progression over time, geographic distribution of high-performing athletes, and factors driving record advancements (e.g., training innovations, nationality-based performance clusters). The data should support actionable decisions for sports governance bodies to allocate resources for talent development, optimize athlete training programs, and predict future world record trajectories based on historical patterns.",
@@ -1486,9 +1160,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_clarity": 0.75,
-        "llm_relevance": 0.5,
-        "llm_reasoning": "The DPR is analytical and mostly clear, but some requested analyses (e.g., factors driving record advancements) are not directly supported by the schema columns provided."
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but it overreaches the schema by requesting factors like training innovations and nationality-based clusters, which are not directly supported by the provided tables.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning a dataset and some locations, but it lacks critical details such as athlete names, comprehensive race years, analysis of trends, geographic distribution, and factors driving record advancements."
       },
       "sub_queries": [
         {
@@ -1557,7 +1231,112 @@
       ]
     },
     {
-      "rank": 15,
+      "rank": 12,
+      "dpr_id": "8",
+      "combined_score": 0.6238,
+      "dpr_text": "Compile a unified dataset combining 110m hurdles and 1500m world record data, standardizing temporal fields and athlete attributes, to allow comparative analysis of: \n1. Rate of record progression over time between sprint and distance events, \n2. Geographical concentration patterns in record-setting locations, \n3. Correlations between athlete specialization shifts and performance milestones. \nThe data should support querying temporal trends, cross-event comparisons, and location-based performance relationships through standardized athlete-event metadata.",
+      "tables_used": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ],
+      "ground_truth": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The unified dataset should combine 110m hurdles and 1500m world record data, standardizing temporal fields and athlete attributes, to allow comparative analysis of rate of record progression over time and geographical concentration patterns in record-setting locations. However, the evidence does not provide sufficient information to support querying correlations between athlete specialization shifts and performance milestones, as it does not show any correlations between Place values and Athlete performance in T56.",
+      "metrics": {
+        "coverage": 0.6,
+        "complexity": 0.2,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8384,
+        "surprisal": 0.4905,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but the scope could be better aligned with the schema, as it assumes standardized metadata not explicitly present in the tables.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning the combination of datasets and two analytical goals, but it omits the third goal regarding athlete specialization shifts and performance milestones, and does not fully address the need for standardized metadata to support querying."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What Time values are associated with each Athlete in T34?",
+          "sql": "SELECT Time, Athlete FROM T34",
+          "summary_source": "stage3_output",
+          "mini_summary": "The Time values associated with Willie Davenport are 13.47, 13.33, and 13.45. \nThe Time value associated with Thomas Hill is 13.42.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 20
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What Place values are correlated with Athlete performance in T56?",
+          "sql": "SELECT Place FROM T56 WHERE Athlete LIKE '%Mushkina%' OR Athlete LIKE '%Freiberg%'",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show Place values correlated with Athlete performance in T56.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 3
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "Which Date values appear in T54 for 110m hurdles?",
+          "sql": "SELECT Date FROM T54 WHERE Athlete LIKE '%USA%' OR Athlete LIKE '%FRA%'",
+          "summary_source": "stage3_output",
+          "mini_summary": "The Date values that appear in T54 for 110m hurdles are 1892, 1893-05-28, 1894-07-22, 1895-05-12, and 1895-05-26.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 11
+          }
+        }
+      ]
+    },
+    {
+      "rank": 13,
       "dpr_id": "1_v2",
       "combined_score": 0.6216,
       "dpr_text": "Compile a dataset tracking changes in the entertainment industry over time, including:  \n1. Analyze revenue and admissions trends in films from 1954\u20131974 to identify financial growth or decline patterns.  \n2. Examine \"Weird Al\" Yankovic\u2019s career progression from the 1970s to 2000s, mapping how roles in films/TV evolved.  \n3. Assess shifts in popular music through country chart rankings (1970) and film composers\u2019 works (1955\u20131964), identifying how styles or market dominance changed.  \n4. Correlate box office performance of 1974 films with studio strategies to evaluate industry competition dynamics.  \nThis should provide insights into entertainment sector evolution across decades, cultural shifts, and career trajectories.",
@@ -1599,9 +1378,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_clarity": 0.5,
-        "llm_relevance": 0.5,
-        "llm_reasoning": "The DPR is analytical but overly broad, somewhat unclear in phrasing, and partially misaligned with the schema columns available."
+        "llm_reasoning": "The DPR is analytical with multi-dimensional goals, but some requests lack precision and alignment with the schema, such as 'Weird Al' Yankovic's career progression.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning film revenue and admissions but fails to analyze trends, cover Weird Al's career, music shifts, or box office-studio strategy correlations."
       },
       "sub_queries": [
         {
@@ -1670,7 +1449,7 @@
       ]
     },
     {
-      "rank": 16,
+      "rank": 14,
       "dpr_id": "4",
       "combined_score": 0.6215,
       "dpr_text": "Compile data on New Zealand's early parliamentary representatives (1st Parliament) and rugby union tour teams/matches (1884-1920), and analyze how provincial affiliations in politics and sports correlate over time. Specifically, investigate changes in team composition and match performance across tours (e.g., 1884 vs. 1920), compare regional representation between parliamentary electorates and rugby player provinces, and identify historical patterns in how cities/venues with political importance influenced or mirrored the frequency of rugby matches. The product should enable comparisons of regional influence across domains and chronological trends in team structure, performance, and geographic reach.",
@@ -1720,9 +1499,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_clarity": 0.75,
-        "llm_relevance": 0.5,
-        "llm_reasoning": "The DPR is analytical and mostly clear but loosely related to the schema, as it spans multiple domains and requires connections not directly evident in the tables."
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but its scope is broad and may require additional clarification to ensure alignment with the schema.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning provincial representation in rugby but fails to analyze correlations, chronological trends, or connections between political and sports domains as requested."
       },
       "sub_queries": [
         {
@@ -1791,51 +1570,74 @@
       ]
     },
     {
-      "rank": 17,
-      "dpr_id": "8_v3",
-      "combined_score": 0.6112,
-      "dpr_text": "Compile a dataset of historical world records for the 110m hurdles and 1500m events that tracks improvements in athlete performance over time, including trends in record-setting locations and dates. This data should enable analysis of how location and calendar timing influence performance, and inform decisions on optimal training venues, competition scheduling, and identification of periods with highest potential for record-breaking achievements.",
+      "rank": 15,
+      "dpr_id": "10",
+      "combined_score": 0.6062,
+      "dpr_text": "Compile a dataset containing the 1947 and 1948 BAA draft selections by player, including their position, team, college, and draft round/pick. Analyze how the distribution of positions selected differs between the two years, investigate correlations between players\u2019 colleges and teams that drafted them, and assess how early-round concentration and team drafting priorities evolved between 1947 and 1948.",
       "tables_used": [
-        "T34",
-        "T54",
-        "T55",
-        "T56",
-        "T57"
+        "T93",
+        "T94",
+        "T95",
+        "T96",
+        "T97",
+        "T98"
       ],
       "ground_truth": [
-        "T34",
-        "T54",
-        "T55",
-        "T56",
-        "T57"
+        "T93",
+        "T94",
+        "T95",
+        "T96",
+        "T97",
+        "T98"
       ],
       "summary_source": "stage3_output",
-      "final_summary": "The compilation of historical world records for the 110m hurdles and 1500m events reveals that Moscow, Soviet Union is a location with a record-setting time. However, the dataset does not provide information on record-setting locations in the T56 classification or how athlete performances in the T54 classification change over time.",
+      "final_summary": "The positions selected by teams in the dataset are F, G/F, -, and C, with the first round of the 1947 draft featuring Forward, Guard/Forward, Guard/Forward, Unknown, and Center. However, the positions selected in rounds other than the first are not shown. The 1948 draft saw players from various colleges drafted by teams, including Vermont, Purdue, Ohio State, Long Island, and Pennsylvania. Despite this information, the distribution of positions selected and team drafting priorities between the two years remain unclear, as the evidence does not provide this information.",
       "metrics": {
-        "coverage": 0.6,
-        "complexity": 0.1333,
+        "coverage": 0.3333,
+        "complexity": 0.2,
         "complexity_breakdown": {
-          "multi_table": 0.0,
+          "multi_table": 0.3333,
           "join": 0.0,
-          "agg": 0.6667,
-          "subquery": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.3333,
           "multi_entity": 0.0
         },
-        "diversity": 0.8166,
-        "surprisal": 0.4905,
+        "diversity": 0.8738,
+        "surprisal": 0.7317,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_clarity": 0.75,
-        "llm_relevance": 0.5,
-        "llm_reasoning": "The DPR is analytical and mostly clear, but the schema lacks explicit columns for trends or calendar timing, limiting direct alignment."
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but it could be more precise in defining metrics for 'early-round concentration' and 'team drafting priorities'.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning positions and colleges but fails to analyze position distribution differences, correlations between colleges and teams, or changes in drafting priorities between 1947 and 1948."
       },
       "sub_queries": [
         {
           "sub_query_index": 1,
-          "sub_question": "How do athlete performances in T54 change over time by date?",
-          "sql": "SELECT Date, Time, Athlete FROM T54 ORDER BY Date",
+          "sub_question": "How do team drafting priorities differ between 1947 and 1948 by position?",
+          "sql": "SELECT Team, Position FROM T93 UNION ALL SELECT Team, Position FROM T94",
           "summary_source": "stage3_output",
-          "mini_summary": "The result set does not show how athlete performances in T54 change over time by date, as the provided rows do not contain any information about the T54 classification.",
+          "mini_summary": "The result set does not show how team drafting priorities differ between 1947 and 1948 by position. \n\nThe positions selected by teams in the result set are F, G/F, -, and C.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 30
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What positions were selected in each round of the 1947 draft?",
+          "sql": "SELECT Round, Position FROM T93",
+          "summary_source": "stage3_output",
+          "mini_summary": "The positions selected in the first round of the 1947 draft were Forward, Guard/Forward, Guard/Forward, Unknown, and Center. \n\nThe result set does not show the positions selected in rounds other than the first.",
           "metrics": {
             "execution_status": 1.0,
             "complexity": 0.0,
@@ -1848,15 +1650,15 @@
             },
             "attempt_success_rate": 1.0,
             "n_attempts": 1,
-            "rows_returned": 13
+            "rows_returned": 10
           }
         },
         {
-          "sub_query_index": 2,
-          "sub_question": "What are the fastest times for each athlete in T34?",
-          "sql": "SELECT Athlete, MIN(Time) FROM T34 GROUP BY Athlete",
+          "sub_query_index": 3,
+          "sub_question": "What colleges were most commonly associated with each team in the 1948 draft?",
+          "sql": "SELECT Team, College, COUNT(*) as count FROM T93 GROUP BY Team, College ORDER BY count DESC",
           "summary_source": "stage3_output",
-          "mini_summary": "The fastest time for Alejandro Casa\u00f1as is 13.21 seconds. \nThe fastest time for Renaldo Nehemiah is 12.93 seconds.",
+          "mini_summary": "The Baltimore Bullets drafted a player from Vermont in the 1948 draft. \nThe Boston Celtics drafted a player from Purdue in the 1948 draft. \nThe Chicago Stags drafted a player from Ohio State in the 1948 draft. \nThe New York Knicks drafted a player from Long Island in the 1948 draft. \nThe Philadelphia Warriors drafted a player from Pennsylvania in the 1948 draft.",
           "metrics": {
             "execution_status": 1.0,
             "complexity": 0.2,
@@ -1871,26 +1673,231 @@
             "n_attempts": 1,
             "rows_returned": 10
           }
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "dpr_id": "2",
+      "combined_score": 0.6053,
+      "dpr_text": "Compile a standardized dataset of legislative members across British Columbia, Manitoba, and Puerto Rico from 1899 to 1972, mapping districts to members and their political affiliations. Structure the data to enable comparative analysis of party representation trends over time, regional differences in electoral district distribution, and correlations between jurisdictional political dynamics and legislative composition. Include contextual attributes like legislative term periods to analyze shifts in party alignment between geographic regions and historical periods.",
+      "tables_used": [
+        "T4",
+        "T18",
+        "T30",
+        "T31",
+        "T50",
+        "T58",
+        "T60",
+        "T61",
+        "T62"
+      ],
+      "ground_truth": [
+        "T4",
+        "T18",
+        "T30",
+        "T31",
+        "T50",
+        "T58",
+        "T60",
+        "T61",
+        "T62"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "A standardized dataset of legislative members can be compiled for British Columbia, Manitoba, and Puerto Rico, mapping electoral districts to their respective members and political affiliations. The dataset will include electoral districts such as Alberni, Atlin, Cariboo, Chilliwack, and Columbia, and their associated members. In Puerto Rico, the parties represented in District Num . V ( District 21-25 ) Ponce are PDP, while in Senator At-Large, both NPP and PDP are represented. In District Num . I ( District 1-5 ) San Juan, NPP is the represented party. The affiliations in T31 and T30 are both Conservative. However, limitations are visible in the evidence as it does not provide information on the affiliations of all electoral districts or the parties represented in Manitoba.",
+      "metrics": {
+        "coverage": 0.4444,
+        "complexity": 0.3333,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.3333,
+          "agg": 0.0,
+          "subquery": 0.0,
+          "multi_entity": 1.0
         },
+        "diversity": 0.8084,
+        "surprisal": 0.4905,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but the scope is broad and may require additional clarification to ensure alignment with the schema.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning some districts, members, and political affiliations, but it lacks comprehensive coverage, structured data for comparative analysis, and contextual attributes like legislative term periods."
+      },
+      "sub_queries": [
         {
-          "sub_query_index": 3,
-          "sub_question": "What locations in T56 have the most record-setting times?",
-          "sql": "SELECT Place FROM T56 GROUP BY Place ORDER BY COUNT(Time) DESC LIMIT 1",
+          "sub_query_index": 1,
+          "sub_question": "What members are associated with each electoral district in T4?",
+          "sql": "SELECT Member, Electoral_district FROM T4",
           "summary_source": "stage3_output",
-          "mini_summary": "The result set does not show locations in T56 with record-setting times, but it does show that Moscow, Soviet Union is a location with a record-setting time.",
+          "mini_summary": "The electoral districts associated with members in the result set are Alberni, Atlin, Cariboo, Chilliwack, and Columbia. \n\nThe members associated with each electoral district in the result set are Harlan Carey Brewster (Alberni), Frank Harry Mobley (Atlin), John MacKay Yorston (Cariboo), Edward Dodsley Barrow (Chilliwack), and John Andrew Buckham (Columbia).",
           "metrics": {
             "execution_status": 1.0,
             "complexity": 0.2,
             "complexity_breakdown": {
               "multi_table": 0.0,
               "join": 0.0,
-              "agg": 1.0,
+              "agg": 0.0,
               "subquery": 0.0,
-              "multi_entity": 0.0
+              "multi_entity": 1.0
             },
             "attempt_success_rate": 1.0,
             "n_attempts": 1,
-            "rows_returned": 1
+            "rows_returned": 20
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What parties are represented in each district in T58?",
+          "sql": "SELECT District, Party FROM T58",
+          "summary_source": "stage3_output",
+          "mini_summary": "The parties represented in District Num . V ( District 21-25 ) Ponce are PDP. \nThe parties represented in Senator At-Large are NPP and PDP. \nThe parties represented in District Num . I ( District 1-5 ) San Juan are NPP.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 20
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "How do affiliations in T31 relate to parties in T30?",
+          "sql": "SELECT T31.Affiliation, T30.Party FROM T31 INNER JOIN T30 ON T31.Electoral_district = T30.Electoral_district WHERE T31.Affiliation LIKE '%Conservative%' AND T30.Party LIKE '%Conservative%'",
+          "summary_source": "stage3_output",
+          "mini_summary": "The affiliations in T31 are both Conservative. The parties in T30 are also both Conservative.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 1.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 2
+          }
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "dpr_id": "2_v2",
+      "combined_score": 0.5786,
+      "dpr_text": "Compile historical legislative data from British Columbia (1949-1952, 1966-1972), Manitoba (1899-1914, 1922-1935), and Puerto Rico (various) to analyze long-term trends in political party representation, electoral district evolution, and legislative composition changes. Track how regional partisan control shifted over decades, identify emerging vs. declining parties, and assess changes in geographic representation patterns across these jurisdictions.",
+      "tables_used": [
+        "T4",
+        "T18",
+        "T30",
+        "T31",
+        "T50",
+        "T58",
+        "T60",
+        "T61",
+        "T62"
+      ],
+      "ground_truth": [
+        "T4",
+        "T18",
+        "T30",
+        "T31",
+        "T50",
+        "T58",
+        "T60",
+        "T61",
+        "T62"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The analysis of legislative data reveals that certain electoral districts, including Manitou, Portage la Prairie, Winnipeg South, and Emerson, are mentioned. However, the study does not show how these districts change over time. The parties represented in the data are Liberal, Independent, and Conservative, while the distribution of parties in another context is NPP with 13 Senators and PDP with 7 Senators. Limitations are visible in the evidence as the study does not provide information on how electoral districts in T31 change over time.",
+      "metrics": {
+        "coverage": 0.3333,
+        "complexity": 0.2667,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8553,
+        "surprisal": 0.4905,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but the scope is slightly vague regarding 'various' years for Puerto Rico and lacks precision in matching schema tables.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning parties and electoral districts but fails to analyze long-term trends, partisan shifts, or geographic representation changes as requested."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "How do electoral districts in T31 change over time?",
+          "sql": "SELECT Electoral_district, Election_date FROM T31 ORDER BY Election_date LIMIT 100",
+          "summary_source": "stage3_output",
+          "mini_summary": "The electoral districts mentioned in the result set are Manitou, Portage la Prairie, Winnipeg South, and Emerson. \n\nThe result set does not show how electoral districts in T31 change over time.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 11
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What parties are represented in T4?",
+          "sql": "SELECT DISTINCT Party FROM T4",
+          "summary_source": "stage3_output",
+          "mini_summary": "The parties represented in T4 are Liberal, Independent, and Conservative.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 3
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What is the distribution of parties in T58?",
+          "sql": "SELECT Party, COUNT(Senator) FROM T58 GROUP BY Party",
+          "summary_source": "stage3_output",
+          "mini_summary": "The distribution of parties in T58 is NPP with 13 Senators and PDP with 7 Senators.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 2
           }
         }
       ]
@@ -1898,7 +1905,7 @@
     {
       "rank": 18,
       "dpr_id": "7",
-      "combined_score": 0.6018,
+      "combined_score": 0.575,
       "dpr_text": "Compile a dataset documenting legislative turnover across U.S. Congresses (House and Senate) and state legislatures (like the Wisconsin example), including:  \n1. Vacancy causes (death, resignation, removal) and their frequency across legislative bodies and time periods  \n2. Correlations between vacancy reasons and the time elapsed between vacancy and successor installation  \n3. Comparisons of political party affiliation of vacators vs. successors to identify partisan trends in replacements  \n4. Geographic patterns in turnover, contrasting urban vs. rural districts/states (as context from the census table)  \n5. Historical trends in turnover rates, including how frequently seats were vacant versus continuously held  \n6. Cross-institutional contrasts between Senate seat stability and House seat changes over time.  \n\nThis should enable analysis of how institutional design, region, and political context influence legislative continuity and replacement patterns.",
       "tables_used": [
         "T26",
@@ -1948,9 +1955,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 1.0,
-        "llm_clarity": 0.75,
-        "llm_relevance": 0.75,
-        "llm_reasoning": "The DPR is analytical and well-formed, mostly clear but slightly verbose, and aligns with schema columns though geographic patterns require external census data."
+        "llm_reasoning": "The DPR is precise, multi-dimensional, and well-matched to the schema, with clear analytical goals that leverage the available data effectively.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning vacancy causes and successor installation dates but lacks key details on frequencies, correlations, geographic patterns, historical trends, and partisan comparisons."
       },
       "sub_queries": [
         {
@@ -2020,734 +2027,6 @@
     },
     {
       "rank": 19,
-      "dpr_id": "7_v3",
-      "combined_score": 0.5969,
-      "dpr_text": "Compile a historical dataset documenting legislative vacancies and replacements across U.S. Congresses and states, including districts, parties, reasons for vacancies, successor timelines, and demographic details (e.g., age, tenure, political affiliation). The data product should enable analysis of vacancy frequency, causes, and resolution efficiency to support decisions such as: optimizing emergency succession protocols, identifying high-turnover regions for targeted candidate recruitment or retention strategies, and assessing the political, geographic, or demographic factors influencing stability in legislative representation. Include comparative metrics across time periods and regions to guide policy interventions and resource allocation.",
-      "tables_used": [
-        "T26",
-        "T27",
-        "T28",
-        "T29",
-        "T32",
-        "T33",
-        "T35",
-        "T36",
-        "T37",
-        "T38",
-        "T51",
-        "T59",
-        "T68",
-        "T69"
-      ],
-      "ground_truth": [
-        "T26",
-        "T27",
-        "T28",
-        "T29",
-        "T32",
-        "T33",
-        "T35",
-        "T36",
-        "T37",
-        "T38",
-        "T51",
-        "T59",
-        "T68",
-        "T69"
-      ],
-      "summary_source": "stage3_output",
-      "final_summary": "A historical dataset documenting legislative vacancies and replacements across U.S. Congresses and states should include information on districts, parties, reasons for vacancies, successor timelines, and demographic details. The average age of representatives in high-turnover districts is approximately 56 years old, with an average tenure of approximately 2001 months. Successor timelines vary by reason for change and party, with some successors being installed after a resignation and others after a death. The most common reason for legislative vacancies varies by district, with resignation being the most common in Arizona's 2nd district and death being the most common in several other districts. However, limitations are visible in the evidence as the most common reasons for legislative vacancies in other districts are not shown.",
-      "metrics": {
-        "coverage": 0.1429,
-        "complexity": 0.3333,
-        "complexity_breakdown": {
-          "multi_table": 0.0,
-          "join": 0.0,
-          "agg": 0.6667,
-          "subquery": 0.0,
-          "multi_entity": 1.0
-        },
-        "diversity": 0.8276,
-        "surprisal": 0.4905,
-        "uniqueness": 1.0,
-        "llm_quality": 1.0,
-        "llm_clarity": 0.75,
-        "llm_relevance": 0.75,
-        "llm_reasoning": "The DPR is analytical and actionable, mostly clear but slightly verbose, and aligns well with schema columns related to legislative vacancies and replacements."
-      },
-      "sub_queries": [
-        {
-          "sub_query_index": 1,
-          "sub_question": "What is the average age and tenure of representatives in high-turnover districts?",
-          "sql": "SELECT AVG(T26.Current_Age) AS average_age, AVG(T26.First_Elected) AS average_tenure FROM T26 WHERE T26.District LIKE '%1%' OR T26.District LIKE '%2%'",
-          "summary_source": "stage3_output",
-          "mini_summary": "The average age of representatives in high-turnover districts is approximately 56 years old. \n\nThe average tenure of representatives in high-turnover districts is approximately 2001 months.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.4,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 1.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 1
-          }
-        },
-        {
-          "sub_query_index": 2,
-          "sub_question": "How do successor timelines vary by party and region?",
-          "sql": "SELECT Successor, Reason_for_change, Date_of_successor_s_formal_installation FROM T27 WHERE Reason_for_change LIKE '%Resigned%' OR Reason_for_change LIKE '%Died%'",
-          "summary_source": "stage3_output",
-          "mini_summary": "The successor timelines vary by reason for change, with some successors being installed after a resignation and others after a death. \nThe successor timelines also vary by party, with Democratic successors being installed on dates such as June 18, 1991, and Republican successors being installed on dates such as July 2, 1991.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.2,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 10
-          }
-        },
-        {
-          "sub_query_index": 3,
-          "sub_question": "What are the most common reasons for legislative vacancies in each district?",
-          "sql": "SELECT District, Reason_for_change, COUNT(*) as count \nFROM T27 \nGROUP BY District, Reason_for_change \nORDER BY count DESC;",
-          "summary_source": "stage3_output",
-          "mini_summary": "The most common reason for legislative vacancies in Arizona's 2nd district is resignation. \nThe most common reason for legislative vacancies in Illinois's 15th district is resignation after being appointed U.S. Secretary of Agriculture. \nThe most common reason for legislative vacancies in Massachusetts's 1st district is death. \nThe most common reason for legislative vacancies in New York's 17th district is death. \nThe most common reason for legislative vacancies in North Carolina's 1st district is death. \nThe result set does not show the most common reasons for legislative vacancies in other districts.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.4,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 1.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 10
-          }
-        }
-      ]
-    },
-    {
-      "rank": 20,
-      "dpr_id": "9_v3",
-      "combined_score": 0.5969,
-      "dpr_text": "Compile a comprehensive dataset documenting Ohio legislative representation and turnover events (123rd\u2013130th General Assemblies) that enables analysis of how turnover patterns, party affiliation shifts, and term limits influence legislative decision-making. The dataset should include historical records of member transitions (predecessors, successors, reasons for change), party composition trends by district, and demographic factors (residence, first elected year) to support strategic planning for political engagement, policy resource allocation, and electoral strategy development in Ohio.",
-      "tables_used": [
-        "T39",
-        "T40",
-        "T41",
-        "T42",
-        "T43",
-        "T44",
-        "T45",
-        "T46",
-        "T47",
-        "T48",
-        "T49"
-      ],
-      "ground_truth": [
-        "T39",
-        "T40",
-        "T41",
-        "T42",
-        "T43",
-        "T44",
-        "T45",
-        "T46",
-        "T47",
-        "T48",
-        "T49"
-      ],
-      "summary_source": "stage3_output",
-      "final_summary": "A comprehensive dataset on Ohio legislative representation and turnover events is needed to analyze how turnover patterns, party affiliation shifts, and term limits influence legislative decision-making. The dataset should include historical records of member transitions, party composition trends by district, and demographic factors such as residence. However, limitations are visible in the evidence, as it does not provide information on party composition trends for all districts, nor does it show the years in which term limits influenced legislative turnover.",
-      "metrics": {
-        "coverage": 0.1818,
-        "complexity": 0.2667,
-        "complexity_breakdown": {
-          "multi_table": 0.0,
-          "join": 0.0,
-          "agg": 0.3333,
-          "subquery": 0.0,
-          "multi_entity": 1.0
-        },
-        "diversity": 0.8356,
-        "surprisal": 0.4905,
-        "uniqueness": 1.0,
-        "llm_quality": 0.75,
-        "llm_clarity": 0.75,
-        "llm_relevance": 1.0,
-        "llm_reasoning": "The DPR is analytical and mostly clear, with direct alignment to schema columns documenting legislative turnover, party trends, and demographic factors."
-      },
-      "sub_queries": [
-        {
-          "sub_query_index": 1,
-          "sub_question": "What party composition trends exist in Ohio districts?",
-          "sql": "SELECT Party, COUNT(District) FROM T40 GROUP BY Party",
-          "summary_source": "stage3_output",
-          "mini_summary": "The result set shows that there are 5 districts with a Democratic party composition and 15 districts with a Republican party composition.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.4,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 1.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 2
-          }
-        },
-        {
-          "sub_query_index": 2,
-          "sub_question": "What residence demographics are associated with first elected year in T41?",
-          "sql": "SELECT Residence, First_Elected FROM T41",
-          "summary_source": "stage3_output",
-          "mini_summary": "The residence demographics associated with first elected year in T41 include East Palestine (2006), Delaware (2000), Wooster (2000), Lima (2006), and Lancaster (2006). \n\nThe result set does not show the years or metrics for other residence demographics in T41.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.2,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 20
-          }
-        },
-        {
-          "sub_query_index": 3,
-          "sub_question": "How do term limits influence legislative turnover in T40?",
-          "sql": "SELECT Term_Limited FROM T40 WHERE Party LIKE '%Republican%'",
-          "summary_source": "stage3_output",
-          "mini_summary": "The result set does not show the years in which term limits influenced legislative turnover in T40.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.2,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 15
-          }
-        }
-      ]
-    },
-    {
-      "rank": 21,
-      "dpr_id": "3_v2",
-      "combined_score": 0.5911,
-      "dpr_text": "Compile historical sports performance data spanning 1898\u20131948, including individual and team results from International Cross Country Championships, motorsport events (e.g., Mannin Moar, Campbell Trophy), and the 1936 Tour de France stages. Analyze trends in athlete performance (race times, rankings), shifts in national representation and dominance across sporting events, and changes in event formats (individual vs. team-based competition) over time. Assess motorsport results for technological advancements or constructor performance patterns between 1933 and 1937, and evaluate how competitive structures evolved in cross country and cycling events.",
-      "tables_used": [
-        "T5",
-        "T6",
-        "T7",
-        "T20",
-        "T21",
-        "T77",
-        "T78",
-        "T79",
-        "T80",
-        "T81",
-        "T82",
-        "T83",
-        "T84",
-        "T85",
-        "T86",
-        "T88",
-        "T89",
-        "T99"
-      ],
-      "ground_truth": [
-        "T5",
-        "T6",
-        "T7",
-        "T20",
-        "T21",
-        "T77",
-        "T78",
-        "T79",
-        "T80",
-        "T81",
-        "T82",
-        "T83",
-        "T84",
-        "T85",
-        "T86",
-        "T88",
-        "T89",
-        "T99"
-      ],
-      "summary_source": "stage3_output",
-      "final_summary": "The historical sports performance data shows that the top 5 teams in T83 had the same Team Points, but the times for T5 and T6 between 1898 and 1948 are 56:36, 56:36.4, 57:14.8, 57:22.6, and 57:48.4, though the years these times occurred are unknown. The result set also indicates that Nationality affects Rank in T7 and T77, but only shows empty Rank values for \"Scotland\" and \"England\", limiting the assessment of this relationship.",
-      "metrics": {
-        "coverage": 0.2778,
-        "complexity": 0.4667,
-        "complexity_breakdown": {
-          "multi_table": 0.6667,
-          "join": 0.0,
-          "agg": 0.0,
-          "subquery": 0.6667,
-          "multi_entity": 1.0
-        },
-        "diversity": 0.826,
-        "surprisal": 0.4905,
-        "uniqueness": 1.0,
-        "llm_quality": 0.75,
-        "llm_clarity": 0.75,
-        "llm_relevance": 0.5,
-        "llm_reasoning": "The DPR is analytical and mostly clear, but parts of it (e.g., technological advancements, event format changes) are not fully supported by the schema."
-      },
-      "sub_queries": [
-        {
-          "sub_query_index": 1,
-          "sub_question": "What are the changes in Team Points in T83 over time?",
-          "sql": "SELECT Rank, Country, Team, Points FROM T83 ORDER BY Points ASC",
-          "summary_source": "stage3_output",
-          "mini_summary": "The result set does not show the changes in Team Points over time, but it does show the Team Points for the top 5 teams in T83.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.2,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 10
-          }
-        },
-        {
-          "sub_query_index": 2,
-          "sub_question": "What are the trends in athlete Time in T5 and T6 between 1898 and 1948?",
-          "sql": "SELECT Time FROM T5 WHERE Nationality LIKE '%England%' UNION ALL SELECT Time FROM T6 WHERE Nationality LIKE '%France%'",
-          "summary_source": "stage3_output",
-          "mini_summary": "The times in T5 and T6 between 1898 and 1948 are 56:36, 56:36.4, 57:14.8, 57:22.6, and 57:48.4. \n\nThe result set does not show the years in which these times occurred.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.6,
-            "complexity_breakdown": {
-              "multi_table": 1.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 1.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 13
-          }
-        },
-        {
-          "sub_query_index": 3,
-          "sub_question": "How does Nationality affect Rank in T7 and T77?",
-          "sql": "SELECT Nationality, Rank FROM T7 UNION ALL SELECT Nationality, Rank FROM T77",
-          "summary_source": "stage3_output",
-          "mini_summary": "The result set does not show how Nationality affects Rank in T7 and T77, but it does show that there are rows with Nationality as \"Scotland\" and \"England\" with empty Rank values.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.6,
-            "complexity_breakdown": {
-              "multi_table": 1.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 1.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 40
-          }
-        }
-      ]
-    },
-    {
-      "rank": 22,
-      "dpr_id": "2_v2",
-      "combined_score": 0.5786,
-      "dpr_text": "Compile historical legislative data from British Columbia (1949-1952, 1966-1972), Manitoba (1899-1914, 1922-1935), and Puerto Rico (various) to analyze long-term trends in political party representation, electoral district evolution, and legislative composition changes. Track how regional partisan control shifted over decades, identify emerging vs. declining parties, and assess changes in geographic representation patterns across these jurisdictions.",
-      "tables_used": [
-        "T4",
-        "T18",
-        "T30",
-        "T31",
-        "T50",
-        "T58",
-        "T60",
-        "T61",
-        "T62"
-      ],
-      "ground_truth": [
-        "T4",
-        "T18",
-        "T30",
-        "T31",
-        "T50",
-        "T58",
-        "T60",
-        "T61",
-        "T62"
-      ],
-      "summary_source": "stage3_output",
-      "final_summary": "The analysis of legislative data reveals that certain electoral districts, including Manitou, Portage la Prairie, Winnipeg South, and Emerson, are mentioned. However, the study does not show how these districts change over time. The parties represented in the data are Liberal, Independent, and Conservative, while the distribution of parties in another context is NPP with 13 Senators and PDP with 7 Senators. Limitations are visible in the evidence as the study does not provide information on how electoral districts in T31 change over time.",
-      "metrics": {
-        "coverage": 0.3333,
-        "complexity": 0.2667,
-        "complexity_breakdown": {
-          "multi_table": 0.0,
-          "join": 0.0,
-          "agg": 0.3333,
-          "subquery": 0.0,
-          "multi_entity": 1.0
-        },
-        "diversity": 0.8553,
-        "surprisal": 0.4905,
-        "uniqueness": 1.0,
-        "llm_quality": 0.75,
-        "llm_clarity": 0.75,
-        "llm_relevance": 0.5,
-        "llm_reasoning": "The DPR is analytical and mostly clear but loosely related to the schema, as it requires data on trends and shifts that may not be fully captured by the available columns."
-      },
-      "sub_queries": [
-        {
-          "sub_query_index": 1,
-          "sub_question": "How do electoral districts in T31 change over time?",
-          "sql": "SELECT Electoral_district, Election_date FROM T31 ORDER BY Election_date LIMIT 100",
-          "summary_source": "stage3_output",
-          "mini_summary": "The electoral districts mentioned in the result set are Manitou, Portage la Prairie, Winnipeg South, and Emerson. \n\nThe result set does not show how electoral districts in T31 change over time.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.2,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 11
-          }
-        },
-        {
-          "sub_query_index": 2,
-          "sub_question": "What parties are represented in T4?",
-          "sql": "SELECT DISTINCT Party FROM T4",
-          "summary_source": "stage3_output",
-          "mini_summary": "The parties represented in T4 are Liberal, Independent, and Conservative.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.2,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 3
-          }
-        },
-        {
-          "sub_query_index": 3,
-          "sub_question": "What is the distribution of parties in T58?",
-          "sql": "SELECT Party, COUNT(Senator) FROM T58 GROUP BY Party",
-          "summary_source": "stage3_output",
-          "mini_summary": "The distribution of parties in T58 is NPP with 13 Senators and PDP with 7 Senators.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.4,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 1.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 2
-          }
-        }
-      ]
-    },
-    {
-      "rank": 23,
-      "dpr_id": "2_v3",
-      "combined_score": 0.5745,
-      "dpr_text": "Compile historical legislative data from British Columbia, Manitoba, and Puerto Rico to analyze patterns of political representation across electoral districts and time periods. This should enable strategic decision-making for political campaigns by identifying key swing districts, assessing party dominance in specific regions, and tracking resource allocation needs based on district demographics and historical voting behavior. The dataset should support predictive modeling of election outcomes based on district characteristics and party affiliation trends, while also enabling scenario planning for redistricting impacts and political strategy adjustments over time.",
-      "tables_used": [
-        "T4",
-        "T18",
-        "T30",
-        "T31",
-        "T50",
-        "T58",
-        "T60",
-        "T61",
-        "T62"
-      ],
-      "ground_truth": [
-        "T4",
-        "T18",
-        "T30",
-        "T31",
-        "T50",
-        "T58",
-        "T60",
-        "T61",
-        "T62"
-      ],
-      "summary_source": "stage3_output",
-      "final_summary": "The current dataset only includes electoral districts affiliated with the Conservative Party, with no information on districts in T31 or T58. It also shows that the Liberal Party is represented in Alberni, Atlin, Cariboo, Chilliwack, and Columbia districts in T4, but does not provide information on other parties in T4 or any districts in T31 and T58.",
-      "metrics": {
-        "coverage": 0.3333,
-        "complexity": 0.2667,
-        "complexity_breakdown": {
-          "multi_table": 0.0,
-          "join": 0.0,
-          "agg": 0.3333,
-          "subquery": 0.0,
-          "multi_entity": 1.0
-        },
-        "diversity": 0.8265,
-        "surprisal": 0.4905,
-        "uniqueness": 1.0,
-        "llm_quality": 0.75,
-        "llm_clarity": 0.75,
-        "llm_relevance": 0.5,
-        "llm_reasoning": "The DPR is analytical and mostly clear, but its scope partially exceeds the schema's available columns, as key elements like demographics and resource allocation are not directly supported."
-      },
-      "sub_queries": [
-        {
-          "sub_query_index": 1,
-          "sub_question": "How do party affiliations vary across districts in T31?",
-          "sql": "SELECT Electoral_district, Affiliation FROM T31 WHERE Affiliation LIKE '%Conservative%' OR Affiliation LIKE '%Liberal%' OR Affiliation LIKE '%Social Credit%' OR Affiliation LIKE '%NDP%'",
-          "summary_source": "stage3_output",
-          "mini_summary": "The result set does not show the districts in T31. \n\nThe affiliations of the districts in the result set are Conservative.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.2,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 11
-          }
-        },
-        {
-          "sub_query_index": 2,
-          "sub_question": "Which districts in T58 have senators from multiple parties?",
-          "sql": "SELECT District FROM T58 GROUP BY District HAVING COUNT(DISTINCT Party) > 1",
-          "summary_source": "stage3_output",
-          "mini_summary": "The result set does not show any districts in T58.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.4,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 1.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 1
-          }
-        },
-        {
-          "sub_query_index": 3,
-          "sub_question": "What parties are represented in each electoral district in T4?",
-          "sql": "SELECT Electoral_district, Party FROM T4",
-          "summary_source": "stage3_output",
-          "mini_summary": "The Liberal Party is represented in the electoral districts of Alberni, Atlin, Cariboo, Chilliwack, and Columbia in T4. \n\nThe result set does not show which parties are represented in other electoral districts in T4.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.2,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 20
-          }
-        }
-      ]
-    },
-    {
-      "rank": 24,
-      "dpr_id": "3_v3",
-      "combined_score": 0.5717,
-      "dpr_text": "Compile and integrate results from historical international cross country championships (1898-1933), motorsport events (1933-1937), New World monkey species data (80-100 species), and 1948 Colombian football teams. Analyze patterns in athlete performance by nationality and timeframe to identify high-performing training strategies and regional athletic advantages. Evaluate conservation urgency for monkey species based on classification, size, and status. Compare motorsport outcomes by car constructor and driver to optimize equipment decisions. Assess football stadium distribution and team locations to inform operational logistics. Prioritize these insights to guide resource allocation in sports development, wildlife preservation, and sports infrastructure planning.",
-      "tables_used": [
-        "T5",
-        "T6",
-        "T7",
-        "T20",
-        "T21",
-        "T77",
-        "T78",
-        "T79",
-        "T80",
-        "T81",
-        "T82",
-        "T83",
-        "T84",
-        "T85",
-        "T86",
-        "T88",
-        "T89",
-        "T99"
-      ],
-      "ground_truth": [
-        "T5",
-        "T6",
-        "T7",
-        "T20",
-        "T21",
-        "T77",
-        "T78",
-        "T79",
-        "T80",
-        "T81",
-        "T82",
-        "T83",
-        "T84",
-        "T85",
-        "T86",
-        "T88",
-        "T89",
-        "T99"
-      ],
-      "summary_source": "stage3_output",
-      "final_summary": "The top-performing nationalities in cross country championships are France and England. In motorsport events, the most successful car constructors are Alfa Romeo, Bugatti, ERA, and Maserati. However, the conservation statuses of New World monkey species by size are not shown in the available data, indicating a limitation in the evidence.",
-      "metrics": {
-        "coverage": 0.2222,
-        "complexity": 0.4,
-        "complexity_breakdown": {
-          "multi_table": 0.3333,
-          "join": 0.0,
-          "agg": 0.3333,
-          "subquery": 0.3333,
-          "multi_entity": 1.0
-        },
-        "diversity": 0.8402,
-        "surprisal": 0.4905,
-        "uniqueness": 1.0,
-        "llm_quality": 0.75,
-        "llm_clarity": 0.5,
-        "llm_relevance": 0.5,
-        "llm_reasoning": "The DPR is analytical but overly broad, somewhat unclear in its phrasing, and only partially aligns with the schema due to missing key columns for several analyses."
-      },
-      "sub_queries": [
-        {
-          "sub_query_index": 1,
-          "sub_question": "What are the top-performing nationalities in cross country championships from 1898-1933?",
-          "sql": "SELECT Nationality FROM T5 WHERE Nationality LIKE '%England%' OR Nationality LIKE '%France%' OR Nationality LIKE '%Scotland%' GROUP BY Nationality ORDER BY COUNT(Rank) DESC LIMIT 5",
-          "summary_source": "stage3_output",
-          "mini_summary": "The top-performing nationalities in cross country championships from 1898-1933 are France and England.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.4,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 1.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 2
-          }
-        },
-        {
-          "sub_query_index": 2,
-          "sub_question": "How do New World monkey species conservation statuses vary by classification and size?",
-          "sql": "SELECT Scientific_name, Classified, Average_size, Conservation_status FROM T21",
-          "summary_source": "stage3_output",
-          "mini_summary": "New World monkey species classified as \"1758 Linnaeus\" have a conservation status of \"least concern\". \nThe result set does not show the conservation statuses of monkey species by size.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.2,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 20
-          }
-        },
-        {
-          "sub_query_index": 3,
-          "sub_question": "What are the most successful car constructors in motorsport events from 1933-1937?",
-          "sql": "SELECT Car_Constructor FROM T86 WHERE Time_Diff_Status LIKE '%:%' UNION SELECT Car_Constructor FROM T89 WHERE Time_Diff_Status LIKE '%:%'",
-          "summary_source": "stage3_output",
-          "mini_summary": "The most successful car constructors in motorsport events from 1933-1937 are Alfa Romeo, Bugatti, ERA, and Maserati.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.6,
-            "complexity_breakdown": {
-              "multi_table": 1.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 1.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 4
-          }
-        }
-      ]
-    },
-    {
-      "rank": 25,
       "dpr_id": "4_v3",
       "combined_score": 0.5655,
       "dpr_text": "Compile data on historical New Zealand rugby union tours (players' provincial affiliations, match outcomes, and tour logistics) alongside early parliamentary representation by province to analyze correlations between regional demographics, team composition, and match performance. Use this to inform current decisions on regional recruitment strategies, tour scheduling optimizations, and resource allocation for team development, while assessing historical patterns in regional political and sports engagement.",
@@ -2797,9 +2076,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_clarity": 0.75,
-        "llm_relevance": 0.5,
-        "llm_reasoning": "The DPR is analytical and mostly clear, but its scope partially misaligns with the schema, as it assumes data connections (e.g., between rugby tours and parliamentary representation) that are not directly supported by the available tables."
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but it is somewhat vague in specifying how to operationalize the correlations and lacks precise alignment with the schema's structure.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary mentions provinces and locations but fails to address key analytical goals such as match outcomes, team composition, regional demographics, and their correlations with parliamentary representation."
       },
       "sub_queries": [
         {
@@ -2868,9 +2147,729 @@
       ]
     },
     {
+      "rank": 20,
+      "dpr_id": "8_v3",
+      "combined_score": 0.5576,
+      "dpr_text": "Compile a dataset of historical world records for the 110m hurdles and 1500m events that tracks improvements in athlete performance over time, including trends in record-setting locations and dates. This data should enable analysis of how location and calendar timing influence performance, and inform decisions on optimal training venues, competition scheduling, and identification of periods with highest potential for record-breaking achievements.",
+      "tables_used": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ],
+      "ground_truth": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The compilation of historical world records for the 110m hurdles and 1500m events reveals that Moscow, Soviet Union is a location with a record-setting time. However, the dataset does not provide information on record-setting locations in the T56 classification or how athlete performances in the T54 classification change over time.",
+      "metrics": {
+        "coverage": 0.6,
+        "complexity": 0.1333,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.6667,
+          "subquery": 0.0,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8166,
+        "surprisal": 0.4905,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but the scope could be better aligned with the schema, as it does not specify how to handle multiple tables with overlapping columns.",
+        "summary_relevance": 0.0,
+        "summary_relevance_reasoning": "The summary is unrelated to the DPR, as it focuses on irrelevant classifications (T56 and T54) and provides no meaningful analysis or data on historical world records, trends, or performance factors requested in the DPR."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "How do athlete performances in T54 change over time by date?",
+          "sql": "SELECT Date, Time, Athlete FROM T54 ORDER BY Date",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show how athlete performances in T54 change over time by date, as the provided rows do not contain any information about the T54 classification.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 13
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What are the fastest times for each athlete in T34?",
+          "sql": "SELECT Athlete, MIN(Time) FROM T34 GROUP BY Athlete",
+          "summary_source": "stage3_output",
+          "mini_summary": "The fastest time for Alejandro Casa\u00f1as is 13.21 seconds. \nThe fastest time for Renaldo Nehemiah is 12.93 seconds.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 10
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What locations in T56 have the most record-setting times?",
+          "sql": "SELECT Place FROM T56 GROUP BY Place ORDER BY COUNT(Time) DESC LIMIT 1",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show locations in T56 with record-setting times, but it does show that Moscow, Soviet Union is a location with a record-setting time.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "dpr_id": "2_v3",
+      "combined_score": 0.5477,
+      "dpr_text": "Compile historical legislative data from British Columbia, Manitoba, and Puerto Rico to analyze patterns of political representation across electoral districts and time periods. This should enable strategic decision-making for political campaigns by identifying key swing districts, assessing party dominance in specific regions, and tracking resource allocation needs based on district demographics and historical voting behavior. The dataset should support predictive modeling of election outcomes based on district characteristics and party affiliation trends, while also enabling scenario planning for redistricting impacts and political strategy adjustments over time.",
+      "tables_used": [
+        "T4",
+        "T18",
+        "T30",
+        "T31",
+        "T50",
+        "T58",
+        "T60",
+        "T61",
+        "T62"
+      ],
+      "ground_truth": [
+        "T4",
+        "T18",
+        "T30",
+        "T31",
+        "T50",
+        "T58",
+        "T60",
+        "T61",
+        "T62"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The current dataset only includes electoral districts affiliated with the Conservative Party, with no information on districts in T31 or T58. It also shows that the Liberal Party is represented in Alberni, Atlin, Cariboo, Chilliwack, and Columbia districts in T4, but does not provide information on other parties in T4 or any districts in T31 and T58.",
+      "metrics": {
+        "coverage": 0.3333,
+        "complexity": 0.2667,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8265,
+        "surprisal": 0.4905,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR demonstrates analytical intent but is overly broad and misaligned with the schema, which lacks sufficient demographic or voting behavior data to fully support the requested analysis.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary provides limited information on party representation in specific districts but fails to address the broader analytical goals of identifying swing districts, party dominance, resource allocation, or enabling predictive modeling and scenario planning."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "How do party affiliations vary across districts in T31?",
+          "sql": "SELECT Electoral_district, Affiliation FROM T31 WHERE Affiliation LIKE '%Conservative%' OR Affiliation LIKE '%Liberal%' OR Affiliation LIKE '%Social Credit%' OR Affiliation LIKE '%NDP%'",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show the districts in T31. \n\nThe affiliations of the districts in the result set are Conservative.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 11
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "Which districts in T58 have senators from multiple parties?",
+          "sql": "SELECT District FROM T58 GROUP BY District HAVING COUNT(DISTINCT Party) > 1",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show any districts in T58.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What parties are represented in each electoral district in T4?",
+          "sql": "SELECT Electoral_district, Party FROM T4",
+          "summary_source": "stage3_output",
+          "mini_summary": "The Liberal Party is represented in the electoral districts of Alberni, Atlin, Cariboo, Chilliwack, and Columbia in T4. \n\nThe result set does not show which parties are represented in other electoral districts in T4.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 20
+          }
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "dpr_id": "3_v3",
+      "combined_score": 0.5449,
+      "dpr_text": "Compile and integrate results from historical international cross country championships (1898-1933), motorsport events (1933-1937), New World monkey species data (80-100 species), and 1948 Colombian football teams. Analyze patterns in athlete performance by nationality and timeframe to identify high-performing training strategies and regional athletic advantages. Evaluate conservation urgency for monkey species based on classification, size, and status. Compare motorsport outcomes by car constructor and driver to optimize equipment decisions. Assess football stadium distribution and team locations to inform operational logistics. Prioritize these insights to guide resource allocation in sports development, wildlife preservation, and sports infrastructure planning.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The top-performing nationalities in cross country championships are France and England. In motorsport events, the most successful car constructors are Alfa Romeo, Bugatti, ERA, and Maserati. However, the conservation statuses of New World monkey species by size are not shown in the available data, indicating a limitation in the evidence.",
+      "metrics": {
+        "coverage": 0.2222,
+        "complexity": 0.4,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.3333,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8402,
+        "surprisal": 0.4905,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR demonstrates analytical intent but is overly broad and mismatched to the schema, with unclear prioritization and excessive scope.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by identifying top-performing nationalities and car constructors but fails to analyze patterns, conservation urgency, or provide insights on football logistics and resource allocation."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the top-performing nationalities in cross country championships from 1898-1933?",
+          "sql": "SELECT Nationality FROM T5 WHERE Nationality LIKE '%England%' OR Nationality LIKE '%France%' OR Nationality LIKE '%Scotland%' GROUP BY Nationality ORDER BY COUNT(Rank) DESC LIMIT 5",
+          "summary_source": "stage3_output",
+          "mini_summary": "The top-performing nationalities in cross country championships from 1898-1933 are France and England.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 2
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "How do New World monkey species conservation statuses vary by classification and size?",
+          "sql": "SELECT Scientific_name, Classified, Average_size, Conservation_status FROM T21",
+          "summary_source": "stage3_output",
+          "mini_summary": "New World monkey species classified as \"1758 Linnaeus\" have a conservation status of \"least concern\". \nThe result set does not show the conservation statuses of monkey species by size.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 20
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What are the most successful car constructors in motorsport events from 1933-1937?",
+          "sql": "SELECT Car_Constructor FROM T86 WHERE Time_Diff_Status LIKE '%:%' UNION SELECT Car_Constructor FROM T89 WHERE Time_Diff_Status LIKE '%:%'",
+          "summary_source": "stage3_output",
+          "mini_summary": "The most successful car constructors in motorsport events from 1933-1937 are Alfa Romeo, Bugatti, ERA, and Maserati.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 4
+          }
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "dpr_id": "7_v3",
+      "combined_score": 0.5434,
+      "dpr_text": "Compile a historical dataset documenting legislative vacancies and replacements across U.S. Congresses and states, including districts, parties, reasons for vacancies, successor timelines, and demographic details (e.g., age, tenure, political affiliation). The data product should enable analysis of vacancy frequency, causes, and resolution efficiency to support decisions such as: optimizing emergency succession protocols, identifying high-turnover regions for targeted candidate recruitment or retention strategies, and assessing the political, geographic, or demographic factors influencing stability in legislative representation. Include comparative metrics across time periods and regions to guide policy interventions and resource allocation.",
+      "tables_used": [
+        "T26",
+        "T27",
+        "T28",
+        "T29",
+        "T32",
+        "T33",
+        "T35",
+        "T36",
+        "T37",
+        "T38",
+        "T51",
+        "T59",
+        "T68",
+        "T69"
+      ],
+      "ground_truth": [
+        "T26",
+        "T27",
+        "T28",
+        "T29",
+        "T32",
+        "T33",
+        "T35",
+        "T36",
+        "T37",
+        "T38",
+        "T51",
+        "T59",
+        "T68",
+        "T69"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "A historical dataset documenting legislative vacancies and replacements across U.S. Congresses and states should include information on districts, parties, reasons for vacancies, successor timelines, and demographic details. The average age of representatives in high-turnover districts is approximately 56 years old, with an average tenure of approximately 2001 months. Successor timelines vary by reason for change and party, with some successors being installed after a resignation and others after a death. The most common reason for legislative vacancies varies by district, with resignation being the most common in Arizona's 2nd district and death being the most common in several other districts. However, limitations are visible in the evidence as the most common reasons for legislative vacancies in other districts are not shown.",
+      "metrics": {
+        "coverage": 0.1429,
+        "complexity": 0.3333,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.6667,
+          "subquery": 0.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8276,
+        "surprisal": 0.4905,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but its scope is overly broad given the schema's redundancy and lack of demographic details like tenure or political affiliation.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning some data points like reasons for vacancies and successor timelines, but it lacks comprehensive coverage of comparative metrics, analysis of vacancy frequency, and other key analytical goals outlined in the request."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What is the average age and tenure of representatives in high-turnover districts?",
+          "sql": "SELECT AVG(T26.Current_Age) AS average_age, AVG(T26.First_Elected) AS average_tenure FROM T26 WHERE T26.District LIKE '%1%' OR T26.District LIKE '%2%'",
+          "summary_source": "stage3_output",
+          "mini_summary": "The average age of representatives in high-turnover districts is approximately 56 years old. \n\nThe average tenure of representatives in high-turnover districts is approximately 2001 months.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "How do successor timelines vary by party and region?",
+          "sql": "SELECT Successor, Reason_for_change, Date_of_successor_s_formal_installation FROM T27 WHERE Reason_for_change LIKE '%Resigned%' OR Reason_for_change LIKE '%Died%'",
+          "summary_source": "stage3_output",
+          "mini_summary": "The successor timelines vary by reason for change, with some successors being installed after a resignation and others after a death. \nThe successor timelines also vary by party, with Democratic successors being installed on dates such as June 18, 1991, and Republican successors being installed on dates such as July 2, 1991.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 10
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What are the most common reasons for legislative vacancies in each district?",
+          "sql": "SELECT District, Reason_for_change, COUNT(*) as count \nFROM T27 \nGROUP BY District, Reason_for_change \nORDER BY count DESC;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The most common reason for legislative vacancies in Arizona's 2nd district is resignation. \nThe most common reason for legislative vacancies in Illinois's 15th district is resignation after being appointed U.S. Secretary of Agriculture. \nThe most common reason for legislative vacancies in Massachusetts's 1st district is death. \nThe most common reason for legislative vacancies in New York's 17th district is death. \nThe most common reason for legislative vacancies in North Carolina's 1st district is death. \nThe result set does not show the most common reasons for legislative vacancies in other districts.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 10
+          }
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "dpr_id": "9_v3",
+      "combined_score": 0.5433,
+      "dpr_text": "Compile a comprehensive dataset documenting Ohio legislative representation and turnover events (123rd\u2013130th General Assemblies) that enables analysis of how turnover patterns, party affiliation shifts, and term limits influence legislative decision-making. The dataset should include historical records of member transitions (predecessors, successors, reasons for change), party composition trends by district, and demographic factors (residence, first elected year) to support strategic planning for political engagement, policy resource allocation, and electoral strategy development in Ohio.",
+      "tables_used": [
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T44",
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T49"
+      ],
+      "ground_truth": [
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T44",
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T49"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "A comprehensive dataset on Ohio legislative representation and turnover events is needed to analyze how turnover patterns, party affiliation shifts, and term limits influence legislative decision-making. The dataset should include historical records of member transitions, party composition trends by district, and demographic factors such as residence. However, limitations are visible in the evidence, as it does not provide information on party composition trends for all districts, nor does it show the years in which term limits influenced legislative turnover.",
+      "metrics": {
+        "coverage": 0.1818,
+        "complexity": 0.2667,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8356,
+        "surprisal": 0.4905,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but the scope could be better refined to avoid redundancy across similar tables.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning turnover patterns, party affiliation shifts, and term limits but misses key analytical goals such as strategic planning, electoral strategy development, and detailed demographic factors like first elected year and reasons for member transitions."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What party composition trends exist in Ohio districts?",
+          "sql": "SELECT Party, COUNT(District) FROM T40 GROUP BY Party",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that there are 5 districts with a Democratic party composition and 15 districts with a Republican party composition.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 2
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What residence demographics are associated with first elected year in T41?",
+          "sql": "SELECT Residence, First_Elected FROM T41",
+          "summary_source": "stage3_output",
+          "mini_summary": "The residence demographics associated with first elected year in T41 include East Palestine (2006), Delaware (2000), Wooster (2000), Lima (2006), and Lancaster (2006). \n\nThe result set does not show the years or metrics for other residence demographics in T41.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 20
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "How do term limits influence legislative turnover in T40?",
+          "sql": "SELECT Term_Limited FROM T40 WHERE Party LIKE '%Republican%'",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show the years in which term limits influenced legislative turnover in T40.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 15
+          }
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "dpr_id": "3_v2",
+      "combined_score": 0.5376,
+      "dpr_text": "Compile historical sports performance data spanning 1898\u20131948, including individual and team results from International Cross Country Championships, motorsport events (e.g., Mannin Moar, Campbell Trophy), and the 1936 Tour de France stages. Analyze trends in athlete performance (race times, rankings), shifts in national representation and dominance across sporting events, and changes in event formats (individual vs. team-based competition) over time. Assess motorsport results for technological advancements or constructor performance patterns between 1933 and 1937, and evaluate how competitive structures evolved in cross country and cycling events.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The historical sports performance data shows that the top 5 teams in T83 had the same Team Points, but the times for T5 and T6 between 1898 and 1948 are 56:36, 56:36.4, 57:14.8, 57:22.6, and 57:48.4, though the years these times occurred are unknown. The result set also indicates that Nationality affects Rank in T7 and T77, but only shows empty Rank values for \"Scotland\" and \"England\", limiting the assessment of this relationship.",
+      "metrics": {
+        "coverage": 0.2778,
+        "complexity": 0.4667,
+        "complexity_breakdown": {
+          "multi_table": 0.6667,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.6667,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.826,
+        "surprisal": 0.4905,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but its scope is overly broad and not fully aligned with the schema, particularly for motorsport and cycling data.",
+        "summary_relevance": 0.0,
+        "summary_relevance_reasoning": "The summary is unrelated to the DPR, as it does not address the requested historical data, trends, technological advancements, or changes in competitive structures."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the changes in Team Points in T83 over time?",
+          "sql": "SELECT Rank, Country, Team, Points FROM T83 ORDER BY Points ASC",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show the changes in Team Points over time, but it does show the Team Points for the top 5 teams in T83.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 10
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What are the trends in athlete Time in T5 and T6 between 1898 and 1948?",
+          "sql": "SELECT Time FROM T5 WHERE Nationality LIKE '%England%' UNION ALL SELECT Time FROM T6 WHERE Nationality LIKE '%France%'",
+          "summary_source": "stage3_output",
+          "mini_summary": "The times in T5 and T6 between 1898 and 1948 are 56:36, 56:36.4, 57:14.8, 57:22.6, and 57:48.4. \n\nThe result set does not show the years in which these times occurred.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 13
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "How does Nationality affect Rank in T7 and T77?",
+          "sql": "SELECT Nationality, Rank FROM T7 UNION ALL SELECT Nationality, Rank FROM T77",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show how Nationality affects Rank in T7 and T77, but it does show that there are rows with Nationality as \"Scotland\" and \"England\" with empty Rank values.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 40
+          }
+        }
+      ]
+    },
+    {
       "rank": 26,
       "dpr_id": "1_v3",
-      "combined_score": 0.5562,
+      "combined_score": 0.5294,
       "dpr_text": "Compile a dataset that analyzes the financial and cultural performance of film/music projects across decades, comparing revenue/admissions data with artist involvement (e.g., \"Weird Al\" Yankovic's roles in films) to inform strategic decisions for production studios. The data should support: 1) Identifying market preferences by comparing film/music revenue trends and artist career impacts; 2) Evaluating international market performance to prioritize studio investments; 3) Assessing historical chart success patterns (e.g., 1970 country singles) to guide marketing strategies. The dataset must include metadata on roles, production years, geographic markets, revenue figures, and studio performance metrics to enable actionable cross-industry insights.",
       "tables_used": [
         "T1",
@@ -2909,10 +2908,10 @@
         "diversity": 0.8649,
         "surprisal": 0.4905,
         "uniqueness": 1.0,
-        "llm_quality": 0.75,
-        "llm_clarity": 0.75,
-        "llm_relevance": 0.5,
-        "llm_reasoning": "The DPR is analytical and mostly clear but loosely related to the schema, as some requested data (e.g., artist career impacts) lacks direct alignment with available columns."
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR demonstrates analytical intent but is overly broad, lacks precision in its goals, and does not align well with the provided schema, which has limited support for the requested cross-industry insights.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning revenue trends and international market performance but fails to analyze artist involvement, historical chart success patterns, or provide actionable insights for production studios."
       },
       "sub_queries": [
         {
@@ -3031,9 +3030,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_clarity": 0.75,
-        "llm_relevance": 0.5,
-        "llm_reasoning": "The DPR is analytical and mostly clear but partially misaligned with the schema, as it combines historical electoral data with rugby data, which are only loosely connected in the available tables."
+        "llm_reasoning": "The DPR is analytical with multi-dimensional goals, but its scope is overly broad and partially mismatched to the schema, which lacks direct infrastructure or gameplay style data.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning parliamentary provinces and rugby match venues but fails to provide comprehensive historical data, analysis of trends, or insights into the requested correlations and evolutions."
       },
       "sub_queries": [
         {
@@ -3162,9 +3161,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.5,
-        "llm_clarity": 0.75,
-        "llm_relevance": 0.5,
-        "llm_reasoning": "The DPR is somewhat analytical but overly broad and combines two unrelated topics; it is mostly clear but lacks focus, and only partially aligns with the schema as the biodiversity data is insufficiently supported."
+        "llm_reasoning": "The DPR has analytical intent but combines two unrelated topics, making it poorly scoped and misaligned with the schema, which lacks direct support for biodiversity analysis.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning athlete performance trends and conservation statuses but fails to provide insights into nationality dominance, race time improvements, or taxonomy-based conservation correlations, which are key analytical goals."
       },
       "sub_queries": [
         {
