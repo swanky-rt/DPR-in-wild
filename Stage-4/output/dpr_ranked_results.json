@@ -56,7 +56,7 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but it lacks precision in aligning with the schema, particularly regarding nationality and record-breaking patterns.",
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but the scope slightly exceeds the schema's ability to fully address geographic influences and record-breaking patterns.",
         "summary_relevance": 0.5,
         "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning long-distance race times and record-breaking patterns but fails to include sprint event data, athlete nationalities, or geographic influences, which are key analytical goals."
       },
@@ -165,7 +165,7 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but the scope is slightly mismatched to the schema, which lacks comprehensive historical college sports data.",
+        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but the scope is slightly mismatched to the schema, which lacks direct historical college sports excellence data.",
         "summary_relevance": 0.5,
         "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning player positions and college affiliations but fails to provide insights on player transitions, career milestones, or correlations between college accolades and professional success."
       },
@@ -276,7 +276,7 @@
         "llm_quality": 0.5,
         "llm_reasoning": "The DPR demonstrates analytical intent but is poorly scoped, as it spans multiple eras and datasets without clear alignment to the schema's structure or limitations.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary provides isolated data points but fails to address the requested analytical comparisons, correlations, and trends across eras and datasets."
+        "summary_relevance_reasoning": "The summary provides isolated data points but fails to address the requested analytical goals, such as position frequency comparisons, school dominance trends, or career trajectory evaluations."
       },
       "sub_queries": [
         {
@@ -480,7 +480,7 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but the scope could be better aligned with the schema, as it assumes unified data across multiple tables without specifying integration details.",
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but the scope could be better aligned with the schema, as it spans multiple tables without clarifying integration details.",
         "summary_relevance": 0.0,
         "summary_relevance_reasoning": "The summary is unrelated to the DPR, as it introduces irrelevant classifications (e.g., T55, T34) and fails to address the requested dataset structure, trend analysis, or comparisons between events."
       },
@@ -595,7 +595,7 @@
         "llm_quality": 0.5,
         "llm_reasoning": "The DPR demonstrates analytical intent but is overly complex, poorly scoped, and misaligned with the schema, making it difficult to execute effectively.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by listing Weird Al's film roles and mentioning some musical compositions, but it fails to analyze financial metrics, cross-decade linkages, or correlations between roles, studios, and revenue trends as requested."
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by listing Weird Al's film roles and mentioning some musical compositions, but it fails to analyze financial metrics, cross-decade linkages, or correlations between roles, revenue, and music trends as requested."
       },
       "sub_queries": [
         {
@@ -819,7 +819,7 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR is analytical with clear multi-dimensional goals, but the scope could be better aligned with the schema, as it spans multiple tables with overlapping columns that may complicate integration.",
+        "llm_reasoning": "The DPR is analytical with clear multi-dimensional goals, but the scope could be better aligned with the schema, which contains redundant and overlapping tables.",
         "summary_relevance": 0.5,
         "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning representatives' residences and party affiliations but fails to cover key analytical goals such as term limit turnover, partisan control shifts, and leadership transitions."
       },
@@ -942,9 +942,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but its scope could be better aligned with the schema, which contains redundant and potentially overlapping tables.",
+        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but the scope could be better aligned with the schema, which contains redundant and potentially overlapping tables.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning reasons for vacancies, successor timelines, and party affiliations, but it lacks a comprehensive dataset, analysis of trends over time, and correlations with political or demographic shifts."
+        "summary_relevance_reasoning": "The summary provides some details on reasons for vacancies and successor timelines but lacks a comprehensive dataset, analysis of trends, and correlations required by the DPR."
       },
       "sub_queries": [
         {
@@ -1059,9 +1059,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR is analytical with clear multi-dimensional goals, but its scope is slightly over-ambitious given the redundancy and potential inconsistencies in the schema tables.",
+        "llm_reasoning": "The DPR is analytical with clear multi-dimensional goals, but its scope is slightly over-ambitious given the schema's redundancy and lack of clarity in distinguishing between similar tables.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning district-level leadership and term limits but fails to cover key analytical goals such as partisan representation, causes of legislative transitions, and comparative analysis of institutional continuity."
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning district-level leadership and term limits but fails to cover key analytical goals such as partisan representation, causes of legislative transitions, workforce stability, and comparative analysis between the Senate and House."
       },
       "sub_queries": [
         {
@@ -1378,7 +1378,7 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR is analytical with multi-dimensional goals, but some requests lack precision and alignment with the schema, such as 'Weird Al' Yankovic's career progression.",
+        "llm_reasoning": "The DPR is analytical with multi-dimensional goals, but some requests (e.g., 'Weird Al' Yankovic's career progression) are poorly scoped relative to the schema.",
         "summary_relevance": 0.5,
         "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning film revenue and admissions but fails to analyze trends, cover Weird Al's career, music shifts, or box office-studio strategy correlations."
       },
@@ -1499,7 +1499,7 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but its scope is broad and may require additional clarification to ensure alignment with the schema.",
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but its scope is broad and may require refinement to align fully with the schema.",
         "summary_relevance": 0.5,
         "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning provincial representation in rugby but fails to analyze correlations, chronological trends, or connections between political and sports domains as requested."
       },
@@ -1606,9 +1606,9 @@
         "surprisal": 0.7317,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but it could be more precise in defining metrics for 'early-round concentration' and 'team drafting priorities'.",
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but it could be more precise in defining measurable criteria for the analyses.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning positions and colleges but fails to analyze position distribution differences, correlations between colleges and teams, or changes in drafting priorities between 1947 and 1948."
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning some player positions and colleges but fails to analyze position distribution differences, correlations between colleges and teams, or changes in drafting priorities."
       },
       "sub_queries": [
         {
@@ -1719,7 +1719,7 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but the scope is broad and may require additional clarification to ensure alignment with the schema.",
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but the scope is slightly ambitious given the schema's lack of explicit temporal or jurisdictional attributes.",
         "summary_relevance": 0.5,
         "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning some districts, members, and political affiliations, but it lacks comprehensive coverage, structured data for comparative analysis, and contextual attributes like legislative term periods."
       },
@@ -1955,9 +1955,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 1.0,
-        "llm_reasoning": "The DPR is precise, multi-dimensional, and well-matched to the schema, with clear analytical goals that leverage the available data effectively.",
+        "llm_reasoning": "The DPR is precise, multi-dimensional, and well-matched to the schema, with clear analytical goals that leverage the available tables effectively.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning vacancy causes and successor installation dates but lacks key details on frequencies, correlations, geographic patterns, historical trends, and partisan comparisons."
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning vacancy causes and successor installation dates but lacks key details on frequencies, correlations, partisan trends, geographic patterns, and historical or institutional comparisons."
       },
       "sub_queries": [
         {
@@ -2076,9 +2076,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but it is somewhat vague in specifying how to operationalize the correlations and lacks precise alignment with the schema's structure.",
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but it is somewhat vague in specifying how to integrate historical rugby data with parliamentary representation using the provided schema.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary mentions provinces and locations but fails to address key analytical goals such as match outcomes, team composition, regional demographics, and their correlations with parliamentary representation."
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by listing provinces and mentioning tour locations, but it fails to provide data on match outcomes, team composition, regional demographics, or correlations needed for analytical goals."
       },
       "sub_queries": [
         {
@@ -2183,7 +2183,7 @@
         "llm_quality": 0.75,
         "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but the scope could be better aligned with the schema, as it does not specify how to handle multiple tables with overlapping columns.",
         "summary_relevance": 0.0,
-        "summary_relevance_reasoning": "The summary is unrelated to the DPR, as it focuses on irrelevant classifications (T56 and T54) and provides no meaningful analysis or data on historical world records, trends, or performance factors requested in the DPR."
+        "summary_relevance_reasoning": "The summary is unrelated to the DPR, as it focuses on classifications (T56 and T54) not mentioned in the request and fails to address the dataset's purpose of analyzing trends in performance, locations, and timing for the specified events."
       },
       "sub_queries": [
         {
@@ -2294,7 +2294,7 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.5,
-        "llm_reasoning": "The DPR demonstrates analytical intent but is overly broad and misaligned with the schema, which lacks sufficient demographic or voting behavior data to fully support the requested analysis.",
+        "llm_reasoning": "The DPR demonstrates analytical intent but is overly ambitious and poorly scoped given the schema, which lacks sufficient detail for demographic or resource allocation analysis.",
         "summary_relevance": 0.5,
         "summary_relevance_reasoning": "The summary provides limited information on party representation in specific districts but fails to address the broader analytical goals of identifying swing districts, party dominance, resource allocation, or enabling predictive modeling and scenario planning."
       },
@@ -2425,9 +2425,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.5,
-        "llm_reasoning": "The DPR demonstrates analytical intent but is overly broad and mismatched to the schema, with unclear prioritization and excessive scope.",
+        "llm_reasoning": "The DPR demonstrates analytical intent but is overly broad and mismatched to the schema, with vague goals and unclear connections between disparate datasets.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by identifying top-performing nationalities and car constructors but fails to analyze patterns, conservation urgency, or provide insights on football logistics and resource allocation."
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by identifying top-performing nationalities in cross country championships and successful car constructors in motorsport, but it misses key analytical goals such as athlete performance patterns, conservation urgency for monkey species, and football stadium distribution."
       },
       "sub_queries": [
         {
@@ -2548,9 +2548,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but its scope is overly broad given the schema's redundancy and lack of demographic details like tenure or political affiliation.",
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but its scope is slightly mismatched to the schema due to redundancy and lack of demographic details in the tables.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning some data points like reasons for vacancies and successor timelines, but it lacks comprehensive coverage of comparative metrics, analysis of vacancy frequency, and other key analytical goals outlined in the request."
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning some data points like age, tenure, and reasons for vacancies, but it lacks comprehensive coverage of comparative metrics, resolution efficiency, and analytical goals such as identifying high-turnover regions or guiding policy interventions."
       },
       "sub_queries": [
         {
@@ -2667,7 +2667,7 @@
         "llm_quality": 0.75,
         "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but the scope could be better refined to avoid redundancy across similar tables.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning turnover patterns, party affiliation shifts, and term limits but misses key analytical goals such as strategic planning, electoral strategy development, and detailed demographic factors like first elected year and reasons for member transitions."
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning turnover patterns and party composition trends but misses key analytical goals such as term limits' impact, demographic factors, and strategic planning elements."
       },
       "sub_queries": [
         {
@@ -2796,9 +2796,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but its scope is overly broad and not fully aligned with the schema, particularly for motorsport and cycling data.",
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but its scope is overly broad and not fully aligned with the schema, particularly for motorsport and cycling-specific details.",
         "summary_relevance": 0.0,
-        "summary_relevance_reasoning": "The summary is unrelated to the DPR, as it does not address the requested historical data, trends, technological advancements, or changes in competitive structures."
+        "summary_relevance_reasoning": "The summary is unrelated to the DPR, as it does not address the requested historical data, trends, or analyses of performance, national representation, event formats, or technological advancements."
       },
       "sub_queries": [
         {
@@ -2911,7 +2911,7 @@
         "llm_quality": 0.5,
         "llm_reasoning": "The DPR demonstrates analytical intent but is overly broad, lacks precision in its goals, and does not align well with the provided schema, which has limited support for the requested cross-industry insights.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning revenue trends and international market performance but fails to analyze artist involvement, historical chart success patterns, or provide actionable insights for production studios."
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning revenue trends and international market performance but fails to analyze artist involvement, historical chart success patterns, or provide actionable cross-industry insights."
       },
       "sub_queries": [
         {
@@ -3030,9 +3030,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR is analytical with multi-dimensional goals, but its scope is overly broad and partially mismatched to the schema, which lacks direct infrastructure or gameplay style data.",
+        "llm_reasoning": "The DPR is analytical with clear multi-dimensional goals, but its scope is overly broad and partially mismatched to the schema, which lacks direct infrastructure or gameplay style data.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning parliamentary provinces and rugby match venues but fails to provide comprehensive historical data, analysis of trends, or insights into the requested correlations and evolutions."
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning parliamentary provinces and rugby match venues but fails to provide comprehensive historical data, analysis, or insights on the requested trends and correlations."
       },
       "sub_queries": [
         {
@@ -3161,7 +3161,7 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.5,
-        "llm_reasoning": "The DPR has analytical intent but combines two unrelated topics, making it poorly scoped and misaligned with the schema, which lacks direct support for biodiversity analysis.",
+        "llm_reasoning": "The DPR has analytical intent but combines two unrelated topics, making it poorly scoped and misaligned with the schema.",
         "summary_relevance": 0.5,
         "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning athlete performance trends and conservation statuses but fails to provide insights into nationality dominance, race time improvements, or taxonomy-based conservation correlations, which are key analytical goals."
       },
