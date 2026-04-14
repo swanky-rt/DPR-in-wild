@@ -56,7 +56,7 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but the scope slightly exceeds the schema's ability to fully address geographic influences and record-breaking patterns.",
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but it partially mismatches the schema as it requests nationality data not fully supported by the provided tables.",
         "summary_relevance": 0.5,
         "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning long-distance race times and record-breaking patterns but fails to include sprint event data, athlete nationalities, or geographic influences, which are key analytical goals."
       },
@@ -165,9 +165,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but the scope is slightly mismatched to the schema, which lacks direct historical college sports excellence data.",
+        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but its scope is slightly mismatched to the schema, which lacks direct historical college sports excellence data.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning player positions and college affiliations but fails to provide insights on player transitions, career milestones, or correlations between college accolades and professional success."
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning player positions and a college's contribution but fails to cover key analytical goals like player transitions, correlations between college accolades and professional success, and institutional strengths in producing elite talent."
       },
       "sub_queries": [
         {
@@ -274,9 +274,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.5,
-        "llm_reasoning": "The DPR demonstrates analytical intent but is poorly scoped, as it spans multiple eras and datasets without clear alignment to the schema's structure or limitations.",
+        "llm_reasoning": "The DPR demonstrates analytical intent but is poorly scoped, as the schema lacks sufficient temporal coverage and detailed career trajectory data to fully address the specified goals.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary provides isolated data points but fails to address the requested analytical goals, such as position frequency comparisons, school dominance trends, or career trajectory evaluations."
+        "summary_relevance_reasoning": "The summary provides isolated data points but fails to analyze correlations, compare positions, or assess school affiliations and career trajectories as requested in the DPR."
       },
       "sub_queries": [
         {
@@ -375,9 +375,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but it is slightly mismatched to the schema as it assumes data relationships and trends that may not be fully supported by the provided tables.",
+        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but the scope could be better aligned with the schema, as some aspects like geographic dominance may require additional data.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning improvements in 10,000m race times and a dominant host city but fails to analyze trends across decades, geographic shifts, or 100m record-breaking frequency and athlete nationalities."
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning improvements in 10,000m race times and dominant host city locations but fails to analyze trends across decades, record-breaking frequency, or athlete nationalities, leaving key analytical goals unmet."
       },
       "sub_queries": [
         {
@@ -482,7 +482,7 @@
         "llm_quality": 0.75,
         "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but the scope could be better aligned with the schema, as it spans multiple tables without clarifying integration details.",
         "summary_relevance": 0.0,
-        "summary_relevance_reasoning": "The summary is unrelated to the DPR, as it introduces irrelevant classifications (e.g., T55, T34) and fails to address the requested dataset structure, trend analysis, or comparisons between events."
+        "summary_relevance_reasoning": "The summary is unrelated to the DPR, as it introduces irrelevant classifications (e.g., T34, T55) and fails to address the requested analysis of decade-by-decade trends, acceleration patterns, or geographic and seasonal patterns."
       },
       "sub_queries": [
         {
@@ -595,7 +595,7 @@
         "llm_quality": 0.5,
         "llm_reasoning": "The DPR demonstrates analytical intent but is overly complex, poorly scoped, and misaligned with the schema, making it difficult to execute effectively.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by listing Weird Al's film roles and mentioning some musical compositions, but it fails to analyze financial metrics, cross-decade linkages, or correlations between roles, revenue, and music trends as requested."
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by listing Weird Al's film roles and mentioning some musical compositions, but it fails to analyze financial metrics, cross-decade linkages, or correlations between roles, studios, and revenue trends as requested."
       },
       "sub_queries": [
         {
@@ -704,7 +704,7 @@
         "llm_quality": 0.5,
         "llm_reasoning": "The DPR demonstrates analytical intent but is poorly scoped, as it combines unrelated time periods and lacks clarity on how the schema tables align with the requested analysis.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning position distributions and school affiliations but fails to provide comprehensive data on player retention, turnover trends, or historical shifts in athletic recognition as requested."
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning position distributions and school affiliations but fails to cover player retention, turnover trends, historical shifts in athletic recognition, or selection criteria changes."
       },
       "sub_queries": [
         {
@@ -819,7 +819,7 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR is analytical with clear multi-dimensional goals, but the scope could be better aligned with the schema, which contains redundant and overlapping tables.",
+        "llm_reasoning": "The DPR is analytical with clear multi-dimensional goals, but its scope could be better aligned with the schema, which contains redundant and overlapping tables.",
         "summary_relevance": 0.5,
         "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning representatives' residences and party affiliations but fails to cover key analytical goals such as term limit turnover, partisan control shifts, and leadership transitions."
       },
@@ -942,9 +942,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but the scope could be better aligned with the schema, which contains redundant and potentially overlapping tables.",
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but its scope could be better aligned with the schema, which contains redundant and potentially overlapping tables.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary provides some details on reasons for vacancies and successor timelines but lacks a comprehensive dataset, analysis of trends, and correlations required by the DPR."
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning reasons for vacancies and successor timelines but fails to provide a comprehensive dataset across multiple Congresses or analyze broader trends and correlations as requested."
       },
       "sub_queries": [
         {
@@ -1059,9 +1059,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR is analytical with clear multi-dimensional goals, but its scope is slightly over-ambitious given the schema's redundancy and lack of clarity in distinguishing between similar tables.",
+        "llm_reasoning": "The DPR is analytical with clear multi-dimensional goals, but its scope is slightly over-ambitious given the redundancy and potential inconsistencies in the schema tables.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning district-level leadership and term limits but fails to cover key analytical goals such as partisan representation, causes of legislative transitions, workforce stability, and comparative analysis between the Senate and House."
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning district-level leadership and term limits but fails to provide comprehensive analysis or address key goals such as partisan dynamics, demographic representation, and comparative institutional continuity."
       },
       "sub_queries": [
         {
@@ -1160,7 +1160,7 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but it overreaches the schema by requesting factors like training innovations and nationality-based clusters, which are not directly supported by the provided tables.",
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but the scope slightly exceeds the schema's ability to address factors like training innovations and nationality-based clusters comprehensively.",
         "summary_relevance": 0.5,
         "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning a dataset and some locations, but it lacks critical details such as athlete names, comprehensive race years, analysis of trends, geographic distribution, and factors driving record advancements."
       },
@@ -1265,9 +1265,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but the scope could be better aligned with the schema, as it assumes standardized metadata not explicitly present in the tables.",
+        "llm_reasoning": "The DPR is analytical with clear multi-dimensional goals, but the scope could be better aligned with the schema, as it assumes standardized metadata not explicitly present in the tables.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning the combination of datasets and two analytical goals, but it omits the third goal regarding athlete specialization shifts and performance milestones, and does not fully address the need for standardized metadata to support querying."
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning record progression and geographical patterns but omits athlete specialization shifts and does not fully support all analytical goals."
       },
       "sub_queries": [
         {
@@ -1378,9 +1378,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR is analytical with multi-dimensional goals, but some requests (e.g., 'Weird Al' Yankovic's career progression) are poorly scoped relative to the schema.",
+        "llm_reasoning": "The DPR is analytical with multi-dimensional goals, but some requests are overly broad or lack precise alignment with the schema.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning film revenue and admissions but fails to analyze trends, cover Weird Al's career, music shifts, or box office-studio strategy correlations."
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by providing revenue and admissions data for films, but it fails to analyze trends, cover other requested topics like Weird Al's career or shifts in music, and lacks correlation insights for 1974 films."
       },
       "sub_queries": [
         {
@@ -1499,9 +1499,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but its scope is broad and may require refinement to align fully with the schema.",
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but its scope is broad and may require additional refinement to align fully with the schema.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning provincial representation in rugby but fails to analyze correlations, chronological trends, or connections between political and sports domains as requested."
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning provincial representation in rugby but fails to analyze correlations, chronological trends, or connections to parliamentary electorates and match venues."
       },
       "sub_queries": [
         {
@@ -1608,7 +1608,7 @@
         "llm_quality": 0.75,
         "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but it could be more precise in defining measurable criteria for the analyses.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning some player positions and colleges but fails to analyze position distribution differences, correlations between colleges and teams, or changes in drafting priorities."
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning positions, colleges, and teams but fails to analyze position distribution differences, correlations, or drafting priorities as requested."
       },
       "sub_queries": [
         {
@@ -1719,9 +1719,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but the scope is slightly ambitious given the schema's lack of explicit temporal or jurisdictional attributes.",
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but the scope is slightly ambitious given the schema's lack of explicit historical or contextual attributes like legislative term periods.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning some districts, members, and political affiliations, but it lacks comprehensive coverage, structured data for comparative analysis, and contextual attributes like legislative term periods."
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning legislative members and their affiliations but fails to provide a comprehensive dataset, comparative analysis, or contextual attributes required for analyzing trends and correlations."
       },
       "sub_queries": [
         {
@@ -1832,9 +1832,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but the scope is slightly vague regarding 'various' years for Puerto Rico and lacks precision in matching schema tables.",
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but the scope is somewhat broad and the reference to 'various' for Puerto Rico lacks precision.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning parties and electoral districts but fails to analyze long-term trends, partisan shifts, or geographic representation changes as requested."
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning political parties and electoral districts but fails to analyze long-term trends, regional partisan shifts, or changes in legislative composition and geographic representation patterns."
       },
       "sub_queries": [
         {
@@ -1904,45 +1904,35 @@
     },
     {
       "rank": 18,
-      "dpr_id": "7",
-      "combined_score": 0.575,
-      "dpr_text": "Compile a dataset documenting legislative turnover across U.S. Congresses (House and Senate) and state legislatures (like the Wisconsin example), including:  \n1. Vacancy causes (death, resignation, removal) and their frequency across legislative bodies and time periods  \n2. Correlations between vacancy reasons and the time elapsed between vacancy and successor installation  \n3. Comparisons of political party affiliation of vacators vs. successors to identify partisan trends in replacements  \n4. Geographic patterns in turnover, contrasting urban vs. rural districts/states (as context from the census table)  \n5. Historical trends in turnover rates, including how frequently seats were vacant versus continuously held  \n6. Cross-institutional contrasts between Senate seat stability and House seat changes over time.  \n\nThis should enable analysis of how institutional design, region, and political context influence legislative continuity and replacement patterns.",
+      "dpr_id": "2_v3",
+      "combined_score": 0.5745,
+      "dpr_text": "Compile historical legislative data from British Columbia, Manitoba, and Puerto Rico to analyze patterns of political representation across electoral districts and time periods. This should enable strategic decision-making for political campaigns by identifying key swing districts, assessing party dominance in specific regions, and tracking resource allocation needs based on district demographics and historical voting behavior. The dataset should support predictive modeling of election outcomes based on district characteristics and party affiliation trends, while also enabling scenario planning for redistricting impacts and political strategy adjustments over time.",
       "tables_used": [
-        "T26",
-        "T27",
-        "T28",
-        "T29",
-        "T32",
-        "T33",
-        "T35",
-        "T36",
-        "T37",
-        "T38",
-        "T51",
-        "T59",
-        "T68",
-        "T69"
+        "T4",
+        "T18",
+        "T30",
+        "T31",
+        "T50",
+        "T58",
+        "T60",
+        "T61",
+        "T62"
       ],
       "ground_truth": [
-        "T26",
-        "T27",
-        "T28",
-        "T29",
-        "T32",
-        "T33",
-        "T35",
-        "T36",
-        "T37",
-        "T38",
-        "T51",
-        "T59",
-        "T68",
-        "T69"
+        "T4",
+        "T18",
+        "T30",
+        "T31",
+        "T50",
+        "T58",
+        "T60",
+        "T61",
+        "T62"
       ],
       "summary_source": "stage3_output",
-      "final_summary": "The dataset documents legislative turnover, including vacancy causes such as death and resignation, but frequencies of other causes are unknown. The party affiliations of successors are all \"Rep\", but the affiliations of vacators are not shown. The time to successor installation is not correlated with vacancy reasons for T29, and the dates of successor formal installation are available for certain instances.",
+      "final_summary": "The current dataset only includes electoral districts affiliated with the Conservative Party, with no information on districts in T31 or T58. It also shows that the Liberal Party is represented in Alberni, Atlin, Cariboo, Chilliwack, and Columbia districts in T4, but does not provide information on other parties in T4 or any districts in T31 and T58.",
       "metrics": {
-        "coverage": 0.2143,
+        "coverage": 0.3333,
         "complexity": 0.2667,
         "complexity_breakdown": {
           "multi_table": 0.0,
@@ -1951,21 +1941,63 @@
           "subquery": 0.0,
           "multi_entity": 1.0
         },
-        "diversity": 0.8213,
+        "diversity": 0.8265,
         "surprisal": 0.4905,
         "uniqueness": 1.0,
-        "llm_quality": 1.0,
-        "llm_reasoning": "The DPR is precise, multi-dimensional, and well-matched to the schema, with clear analytical goals that leverage the available tables effectively.",
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but the scope could be better aligned with the schema, as some tables lack direct relevance to predictive modeling or scenario planning.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning vacancy causes and successor installation dates but lacks key details on frequencies, correlations, partisan trends, geographic patterns, and historical or institutional comparisons."
+        "summary_relevance_reasoning": "The summary provides limited information on party representation in specific districts but fails to address key analytical goals such as swing district identification, historical voting behavior, predictive modeling, and redistricting impacts."
       },
       "sub_queries": [
         {
           "sub_query_index": 1,
-          "sub_question": "Do vacator and successor party affiliations differ in T26?",
-          "sql": "SELECT Representative, Party FROM T26 WHERE Party NOT LIKE '%' || Representative || '%'",
+          "sub_question": "How do party affiliations vary across districts in T31?",
+          "sql": "SELECT Electoral_district, Affiliation FROM T31 WHERE Affiliation LIKE '%Conservative%' OR Affiliation LIKE '%Liberal%' OR Affiliation LIKE '%Social Credit%' OR Affiliation LIKE '%NDP%'",
           "summary_source": "stage3_output",
-          "mini_summary": "The result set does not show the party affiliations of vacators. The party affiliations of the successors in the result set are all \"Rep\".",
+          "mini_summary": "The result set does not show the districts in T31. \n\nThe affiliations of the districts in the result set are Conservative.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 11
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "Which districts in T58 have senators from multiple parties?",
+          "sql": "SELECT District FROM T58 GROUP BY District HAVING COUNT(DISTINCT Party) > 1",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show any districts in T58.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What parties are represented in each electoral district in T4?",
+          "sql": "SELECT Electoral_district, Party FROM T4",
+          "summary_source": "stage3_output",
+          "mini_summary": "The Liberal Party is represented in the electoral districts of Alberni, Atlin, Cariboo, Chilliwack, and Columbia in T4. \n\nThe result set does not show which parties are represented in other electoral districts in T4.",
           "metrics": {
             "execution_status": 1.0,
             "complexity": 0.2,
@@ -1979,48 +2011,6 @@
             "attempt_success_rate": 1.0,
             "n_attempts": 1,
             "rows_returned": 20
-          }
-        },
-        {
-          "sub_query_index": 2,
-          "sub_question": "How do vacancy reasons in T29 correlate with time to successor installation?",
-          "sql": "SELECT Reason_for_change, Date_of_successor_s_formal_installation FROM T29",
-          "summary_source": "stage3_output",
-          "mini_summary": "The result set does not show the correlation between vacancy reasons and time to successor installation for T29. \n\nThe result set shows that the reasons for change include death and resignation, and the dates of successor formal installation include June 5, 2001, May 15, 2001, June 19, 2001, October 16, 2001, and November 20, 2001.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.2,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 12
-          }
-        },
-        {
-          "sub_query_index": 3,
-          "sub_question": "What are the frequencies of different vacancy causes in T27?",
-          "sql": "SELECT Reason_for_change, COUNT(*) AS frequency FROM T27 GROUP BY Reason_for_change",
-          "summary_source": "stage3_output",
-          "mini_summary": "There are 5 different vacancy causes in T27: death, death, death, resignation, and resignation. \n\nThe result set does not show the frequencies of vacancy causes other than death and resignation.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.4,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 1.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 10
           }
         }
       ]
@@ -2076,9 +2066,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but it is somewhat vague in specifying how to integrate historical rugby data with parliamentary representation using the provided schema.",
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but its scope is somewhat broad and may require additional clarification to fully align with the schema.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by listing provinces and mentioning tour locations, but it fails to provide data on match outcomes, team composition, regional demographics, or correlations needed for analytical goals."
+        "summary_relevance_reasoning": "The summary mentions provinces and locations but fails to address key analytical goals such as match outcomes, team composition, regional demographics, and correlations with parliamentary representation."
       },
       "sub_queries": [
         {
@@ -2181,9 +2171,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but the scope could be better aligned with the schema, as it does not specify how to handle multiple tables with overlapping columns.",
+        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but the scope is slightly ambiguous given the redundancy in schema tables and lack of clarity on how to handle overlapping data.",
         "summary_relevance": 0.0,
-        "summary_relevance_reasoning": "The summary is unrelated to the DPR, as it focuses on classifications (T56 and T54) not mentioned in the request and fails to address the dataset's purpose of analyzing trends in performance, locations, and timing for the specified events."
+        "summary_relevance_reasoning": "The summary is unrelated to the DPR, as it introduces irrelevant classifications (T56 and T54) and fails to address the requested dataset, trends, or analytical goals."
       },
       "sub_queries": [
         {
@@ -2253,35 +2243,35 @@
     },
     {
       "rank": 21,
-      "dpr_id": "2_v3",
-      "combined_score": 0.5477,
-      "dpr_text": "Compile historical legislative data from British Columbia, Manitoba, and Puerto Rico to analyze patterns of political representation across electoral districts and time periods. This should enable strategic decision-making for political campaigns by identifying key swing districts, assessing party dominance in specific regions, and tracking resource allocation needs based on district demographics and historical voting behavior. The dataset should support predictive modeling of election outcomes based on district characteristics and party affiliation trends, while also enabling scenario planning for redistricting impacts and political strategy adjustments over time.",
+      "dpr_id": "1_v3",
+      "combined_score": 0.5562,
+      "dpr_text": "Compile a dataset that analyzes the financial and cultural performance of film/music projects across decades, comparing revenue/admissions data with artist involvement (e.g., \"Weird Al\" Yankovic's roles in films) to inform strategic decisions for production studios. The data should support: 1) Identifying market preferences by comparing film/music revenue trends and artist career impacts; 2) Evaluating international market performance to prioritize studio investments; 3) Assessing historical chart success patterns (e.g., 1970 country singles) to guide marketing strategies. The dataset must include metadata on roles, production years, geographic markets, revenue figures, and studio performance metrics to enable actionable cross-industry insights.",
       "tables_used": [
-        "T4",
-        "T18",
-        "T30",
-        "T31",
-        "T50",
-        "T58",
-        "T60",
-        "T61",
-        "T62"
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
       ],
       "ground_truth": [
-        "T4",
-        "T18",
-        "T30",
-        "T31",
-        "T50",
-        "T58",
-        "T60",
-        "T61",
-        "T62"
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
       ],
       "summary_source": "stage3_output",
-      "final_summary": "The current dataset only includes electoral districts affiliated with the Conservative Party, with no information on districts in T31 or T58. It also shows that the Liberal Party is represented in Alberni, Atlin, Cariboo, Chilliwack, and Columbia districts in T4, but does not provide information on other parties in T4 or any districts in T31 and T58.",
+      "final_summary": "Warner Bros. has the highest domestic gross, with a revenue of 119,500,000. The revenue trends for top-grossing films in different countries include a film from India with a revenue of 16,800,000.0 and a film from France and Germany with a revenue of 0.0, indicating varying international market performance. However, limitations are visible in the evidence as it does not provide information on market preferences, artist career impacts, or historical chart success patterns.",
       "metrics": {
-        "coverage": 0.3333,
+        "coverage": 0.2222,
         "complexity": 0.2667,
         "complexity_breakdown": {
           "multi_table": 0.0,
@@ -2290,23 +2280,23 @@
           "subquery": 0.0,
           "multi_entity": 1.0
         },
-        "diversity": 0.8265,
+        "diversity": 0.8649,
         "surprisal": 0.4905,
         "uniqueness": 1.0,
-        "llm_quality": 0.5,
-        "llm_reasoning": "The DPR demonstrates analytical intent but is overly ambitious and poorly scoped given the schema, which lacks sufficient detail for demographic or resource allocation analysis.",
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but its scope is somewhat broad and may not fully align with the schema provided.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary provides limited information on party representation in specific districts but fails to address the broader analytical goals of identifying swing districts, party dominance, resource allocation, or enabling predictive modeling and scenario planning."
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning international market performance but fails to cover key analytical goals such as market preferences, artist career impacts, and historical chart success patterns."
       },
       "sub_queries": [
         {
           "sub_query_index": 1,
-          "sub_question": "How do party affiliations vary across districts in T31?",
-          "sql": "SELECT Electoral_district, Affiliation FROM T31 WHERE Affiliation LIKE '%Conservative%' OR Affiliation LIKE '%Liberal%' OR Affiliation LIKE '%Social Credit%' OR Affiliation LIKE '%NDP%'",
+          "sub_question": "How do artist roles in T1 correlate with film revenue in T8?",
+          "sql": "",
           "summary_source": "stage3_output",
-          "mini_summary": "The result set does not show the districts in T31. \n\nThe affiliations of the districts in the result set are Conservative.",
+          "mini_summary": "",
           "metrics": {
-            "execution_status": 1.0,
+            "execution_status": 0.0,
             "complexity": 0.2,
             "complexity_breakdown": {
               "multi_table": 0.0,
@@ -2315,17 +2305,17 @@
               "subquery": 0.0,
               "multi_entity": 1.0
             },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 11
+            "attempt_success_rate": 0.0,
+            "n_attempts": 3,
+            "rows_returned": 0
           }
         },
         {
           "sub_query_index": 2,
-          "sub_question": "Which districts in T58 have senators from multiple parties?",
-          "sql": "SELECT District FROM T58 GROUP BY District HAVING COUNT(DISTINCT Party) > 1",
+          "sub_question": "Which studios in T13 have the highest domestic gross across different years?",
+          "sql": "SELECT Studio, MAX(CAST(REPLACE(REPLACE(REPLACE(Domestic_gross, '$',''), ',', ''), ' ', '') AS REAL)) AS max_domestic_gross FROM T13 GROUP BY Studio ORDER BY max_domestic_gross DESC LIMIT 1",
           "summary_source": "stage3_output",
-          "mini_summary": "The result set does not show any districts in T58.",
+          "mini_summary": "The studio with the highest domestic gross is Warner Bros. \nThe domestic gross for Warner Bros is 119,500,000.",
           "metrics": {
             "execution_status": 1.0,
             "complexity": 0.4,
@@ -2343,10 +2333,91 @@
         },
         {
           "sub_query_index": 3,
-          "sub_question": "What parties are represented in each electoral district in T4?",
-          "sql": "SELECT Electoral_district, Party FROM T4",
+          "sub_question": "What revenue trends appear in T10 for films across different countries?",
+          "sql": "SELECT Country, Title, Director, Studio, CAST(REPLACE(REPLACE(REPLACE(Revenue, '$',''), ',', ''), ' ', '') AS REAL) AS Revenue, Admissions FROM T10 WHERE Country LIKE '%France%' OR Country LIKE '%Germany%' OR Country LIKE '%India%' ORDER BY CAST(REPLACE(REPLACE(REPLACE(Revenue, '$',''), ',', ''), ' ', '') AS REAL) DESC LIMIT 100",
           "summary_source": "stage3_output",
-          "mini_summary": "The Liberal Party is represented in the electoral districts of Alberni, Atlin, Cariboo, Chilliwack, and Columbia in T4. \n\nThe result set does not show which parties are represented in other electoral districts in T4.",
+          "mini_summary": "The revenue trends for films in T10 across different countries include a film from India with a revenue of 16,800,000.0 and a film from France and Germany with a revenue of 0.0.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 3
+          }
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "dpr_id": "7",
+      "combined_score": 0.5483,
+      "dpr_text": "Compile a dataset documenting legislative turnover across U.S. Congresses (House and Senate) and state legislatures (like the Wisconsin example), including:  \n1. Vacancy causes (death, resignation, removal) and their frequency across legislative bodies and time periods  \n2. Correlations between vacancy reasons and the time elapsed between vacancy and successor installation  \n3. Comparisons of political party affiliation of vacators vs. successors to identify partisan trends in replacements  \n4. Geographic patterns in turnover, contrasting urban vs. rural districts/states (as context from the census table)  \n5. Historical trends in turnover rates, including how frequently seats were vacant versus continuously held  \n6. Cross-institutional contrasts between Senate seat stability and House seat changes over time.  \n\nThis should enable analysis of how institutional design, region, and political context influence legislative continuity and replacement patterns.",
+      "tables_used": [
+        "T26",
+        "T27",
+        "T28",
+        "T29",
+        "T32",
+        "T33",
+        "T35",
+        "T36",
+        "T37",
+        "T38",
+        "T51",
+        "T59",
+        "T68",
+        "T69"
+      ],
+      "ground_truth": [
+        "T26",
+        "T27",
+        "T28",
+        "T29",
+        "T32",
+        "T33",
+        "T35",
+        "T36",
+        "T37",
+        "T38",
+        "T51",
+        "T59",
+        "T68",
+        "T69"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The dataset documents legislative turnover, including vacancy causes such as death and resignation, but frequencies of other causes are unknown. The party affiliations of successors are all \"Rep\", but the affiliations of vacators are not shown. The time to successor installation is not correlated with vacancy reasons for T29, and the dates of successor formal installation are available for certain instances.",
+      "metrics": {
+        "coverage": 0.2143,
+        "complexity": 0.2667,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8213,
+        "surprisal": 0.4905,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR is analytical with clear, multi-dimensional goals, but its scope is broad and may require refinement to align fully with the schema.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning vacancy causes and successor installation dates, but it misses key analytical goals such as correlations, geographic patterns, historical trends, and cross-institutional contrasts."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "Do vacator and successor party affiliations differ in T26?",
+          "sql": "SELECT Representative, Party FROM T26 WHERE Party NOT LIKE '%' || Representative || '%'",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show the party affiliations of vacators. The party affiliations of the successors in the result set are all \"Rep\".",
           "metrics": {
             "execution_status": 1.0,
             "complexity": 0.2,
@@ -2361,11 +2432,53 @@
             "n_attempts": 1,
             "rows_returned": 20
           }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "How do vacancy reasons in T29 correlate with time to successor installation?",
+          "sql": "SELECT Reason_for_change, Date_of_successor_s_formal_installation FROM T29",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show the correlation between vacancy reasons and time to successor installation for T29. \n\nThe result set shows that the reasons for change include death and resignation, and the dates of successor formal installation include June 5, 2001, May 15, 2001, June 19, 2001, October 16, 2001, and November 20, 2001.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 12
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What are the frequencies of different vacancy causes in T27?",
+          "sql": "SELECT Reason_for_change, COUNT(*) AS frequency FROM T27 GROUP BY Reason_for_change",
+          "summary_source": "stage3_output",
+          "mini_summary": "There are 5 different vacancy causes in T27: death, death, death, resignation, and resignation. \n\nThe result set does not show the frequencies of vacancy causes other than death and resignation.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 10
+          }
         }
       ]
     },
     {
-      "rank": 22,
+      "rank": 23,
       "dpr_id": "3_v3",
       "combined_score": 0.5449,
       "dpr_text": "Compile and integrate results from historical international cross country championships (1898-1933), motorsport events (1933-1937), New World monkey species data (80-100 species), and 1948 Colombian football teams. Analyze patterns in athlete performance by nationality and timeframe to identify high-performing training strategies and regional athletic advantages. Evaluate conservation urgency for monkey species based on classification, size, and status. Compare motorsport outcomes by car constructor and driver to optimize equipment decisions. Assess football stadium distribution and team locations to inform operational logistics. Prioritize these insights to guide resource allocation in sports development, wildlife preservation, and sports infrastructure planning.",
@@ -2425,7 +2538,7 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.5,
-        "llm_reasoning": "The DPR demonstrates analytical intent but is overly broad and mismatched to the schema, with vague goals and unclear connections between disparate datasets.",
+        "llm_reasoning": "The DPR demonstrates analytical intent but is overly broad, poorly scoped, and mismatched to the schema, with several requested analyses lacking clear alignment with available data.",
         "summary_relevance": 0.5,
         "summary_relevance_reasoning": "The summary partially addresses the DPR by identifying top-performing nationalities in cross country championships and successful car constructors in motorsport, but it misses key analytical goals such as athlete performance patterns, conservation urgency for monkey species, and football stadium distribution."
       },
@@ -2496,7 +2609,7 @@
       ]
     },
     {
-      "rank": 23,
+      "rank": 24,
       "dpr_id": "7_v3",
       "combined_score": 0.5434,
       "dpr_text": "Compile a historical dataset documenting legislative vacancies and replacements across U.S. Congresses and states, including districts, parties, reasons for vacancies, successor timelines, and demographic details (e.g., age, tenure, political affiliation). The data product should enable analysis of vacancy frequency, causes, and resolution efficiency to support decisions such as: optimizing emergency succession protocols, identifying high-turnover regions for targeted candidate recruitment or retention strategies, and assessing the political, geographic, or demographic factors influencing stability in legislative representation. Include comparative metrics across time periods and regions to guide policy interventions and resource allocation.",
@@ -2548,9 +2661,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but its scope is slightly mismatched to the schema due to redundancy and lack of demographic details in the tables.",
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but the scope is slightly mismatched to the schema, which lacks comprehensive demographic details like tenure or political affiliation.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning some data points like age, tenure, and reasons for vacancies, but it lacks comprehensive coverage of comparative metrics, resolution efficiency, and analytical goals such as identifying high-turnover regions or guiding policy interventions."
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning some data points like age, tenure, and reasons for vacancies, but it lacks comprehensive coverage of comparative metrics, resolution efficiency, and analytical goals outlined in the request."
       },
       "sub_queries": [
         {
@@ -2619,7 +2732,7 @@
       ]
     },
     {
-      "rank": 24,
+      "rank": 25,
       "dpr_id": "9_v3",
       "combined_score": 0.5433,
       "dpr_text": "Compile a comprehensive dataset documenting Ohio legislative representation and turnover events (123rd\u2013130th General Assemblies) that enables analysis of how turnover patterns, party affiliation shifts, and term limits influence legislative decision-making. The dataset should include historical records of member transitions (predecessors, successors, reasons for change), party composition trends by district, and demographic factors (residence, first elected year) to support strategic planning for political engagement, policy resource allocation, and electoral strategy development in Ohio.",
@@ -2667,7 +2780,7 @@
         "llm_quality": 0.75,
         "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but the scope could be better refined to avoid redundancy across similar tables.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning turnover patterns and party composition trends but misses key analytical goals such as term limits' impact, demographic factors, and strategic planning elements."
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning turnover patterns, party affiliation shifts, and term limits but omits key details like predecessors, successors, reasons for change, and demographic factors such as the first elected year, which are critical for the requested analysis."
       },
       "sub_queries": [
         {
@@ -2736,7 +2849,7 @@
       ]
     },
     {
-      "rank": 25,
+      "rank": 26,
       "dpr_id": "3_v2",
       "combined_score": 0.5376,
       "dpr_text": "Compile historical sports performance data spanning 1898\u20131948, including individual and team results from International Cross Country Championships, motorsport events (e.g., Mannin Moar, Campbell Trophy), and the 1936 Tour de France stages. Analyze trends in athlete performance (race times, rankings), shifts in national representation and dominance across sporting events, and changes in event formats (individual vs. team-based competition) over time. Assess motorsport results for technological advancements or constructor performance patterns between 1933 and 1937, and evaluate how competitive structures evolved in cross country and cycling events.",
@@ -2796,9 +2909,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but its scope is overly broad and not fully aligned with the schema, particularly for motorsport and cycling-specific details.",
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but its scope is slightly mismatched to the schema, as some requested analyses (e.g., technological advancements) lack direct support in the provided tables.",
         "summary_relevance": 0.0,
-        "summary_relevance_reasoning": "The summary is unrelated to the DPR, as it does not address the requested historical data, trends, or analyses of performance, national representation, event formats, or technological advancements."
+        "summary_relevance_reasoning": "The summary is unrelated to the DPR as it fails to address the requested historical sports data, trends, technological advancements, or competitive structure analysis."
       },
       "sub_queries": [
         {
@@ -2867,119 +2980,6 @@
       ]
     },
     {
-      "rank": 26,
-      "dpr_id": "1_v3",
-      "combined_score": 0.5294,
-      "dpr_text": "Compile a dataset that analyzes the financial and cultural performance of film/music projects across decades, comparing revenue/admissions data with artist involvement (e.g., \"Weird Al\" Yankovic's roles in films) to inform strategic decisions for production studios. The data should support: 1) Identifying market preferences by comparing film/music revenue trends and artist career impacts; 2) Evaluating international market performance to prioritize studio investments; 3) Assessing historical chart success patterns (e.g., 1970 country singles) to guide marketing strategies. The dataset must include metadata on roles, production years, geographic markets, revenue figures, and studio performance metrics to enable actionable cross-industry insights.",
-      "tables_used": [
-        "T1",
-        "T2",
-        "T3",
-        "T8",
-        "T9",
-        "T10",
-        "T11",
-        "T12",
-        "T13"
-      ],
-      "ground_truth": [
-        "T1",
-        "T2",
-        "T3",
-        "T8",
-        "T9",
-        "T10",
-        "T11",
-        "T12",
-        "T13"
-      ],
-      "summary_source": "stage3_output",
-      "final_summary": "Warner Bros. has the highest domestic gross, with a revenue of 119,500,000. The revenue trends for top-grossing films in different countries include a film from India with a revenue of 16,800,000.0 and a film from France and Germany with a revenue of 0.0, indicating varying international market performance. However, limitations are visible in the evidence as it does not provide information on market preferences, artist career impacts, or historical chart success patterns.",
-      "metrics": {
-        "coverage": 0.2222,
-        "complexity": 0.2667,
-        "complexity_breakdown": {
-          "multi_table": 0.0,
-          "join": 0.0,
-          "agg": 0.3333,
-          "subquery": 0.0,
-          "multi_entity": 1.0
-        },
-        "diversity": 0.8649,
-        "surprisal": 0.4905,
-        "uniqueness": 1.0,
-        "llm_quality": 0.5,
-        "llm_reasoning": "The DPR demonstrates analytical intent but is overly broad, lacks precision in its goals, and does not align well with the provided schema, which has limited support for the requested cross-industry insights.",
-        "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning revenue trends and international market performance but fails to analyze artist involvement, historical chart success patterns, or provide actionable cross-industry insights."
-      },
-      "sub_queries": [
-        {
-          "sub_query_index": 1,
-          "sub_question": "How do artist roles in T1 correlate with film revenue in T8?",
-          "sql": "",
-          "summary_source": "stage3_output",
-          "mini_summary": "",
-          "metrics": {
-            "execution_status": 0.0,
-            "complexity": 0.2,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 0.0,
-            "n_attempts": 3,
-            "rows_returned": 0
-          }
-        },
-        {
-          "sub_query_index": 2,
-          "sub_question": "Which studios in T13 have the highest domestic gross across different years?",
-          "sql": "SELECT Studio, MAX(CAST(REPLACE(REPLACE(REPLACE(Domestic_gross, '$',''), ',', ''), ' ', '') AS REAL)) AS max_domestic_gross FROM T13 GROUP BY Studio ORDER BY max_domestic_gross DESC LIMIT 1",
-          "summary_source": "stage3_output",
-          "mini_summary": "The studio with the highest domestic gross is Warner Bros. \nThe domestic gross for Warner Bros is 119,500,000.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.4,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 1.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 1
-          }
-        },
-        {
-          "sub_query_index": 3,
-          "sub_question": "What revenue trends appear in T10 for films across different countries?",
-          "sql": "SELECT Country, Title, Director, Studio, CAST(REPLACE(REPLACE(REPLACE(Revenue, '$',''), ',', ''), ' ', '') AS REAL) AS Revenue, Admissions FROM T10 WHERE Country LIKE '%France%' OR Country LIKE '%Germany%' OR Country LIKE '%India%' ORDER BY CAST(REPLACE(REPLACE(REPLACE(Revenue, '$',''), ',', ''), ' ', '') AS REAL) DESC LIMIT 100",
-          "summary_source": "stage3_output",
-          "mini_summary": "The revenue trends for films in T10 across different countries include a film from India with a revenue of 16,800,000.0 and a film from France and Germany with a revenue of 0.0.",
-          "metrics": {
-            "execution_status": 1.0,
-            "complexity": 0.2,
-            "complexity_breakdown": {
-              "multi_table": 0.0,
-              "join": 0.0,
-              "agg": 0.0,
-              "subquery": 0.0,
-              "multi_entity": 1.0
-            },
-            "attempt_success_rate": 1.0,
-            "n_attempts": 1,
-            "rows_returned": 3
-          }
-        }
-      ]
-    },
-    {
       "rank": 27,
       "dpr_id": "4_v2",
       "combined_score": 0.5291,
@@ -3030,7 +3030,7 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.75,
-        "llm_reasoning": "The DPR is analytical with clear multi-dimensional goals, but its scope is overly broad and partially mismatched to the schema, which lacks direct infrastructure or gameplay style data.",
+        "llm_reasoning": "The DPR is analytical with clear multi-dimensional goals, but its scope is overly ambitious given the schema's fragmented and repetitive structure, which may complicate data integration.",
         "summary_relevance": 0.5,
         "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning parliamentary provinces and rugby match venues but fails to provide comprehensive historical data, analysis, or insights on the requested trends and correlations."
       },
@@ -3161,9 +3161,9 @@
         "surprisal": 0.4905,
         "uniqueness": 1.0,
         "llm_quality": 0.5,
-        "llm_reasoning": "The DPR has analytical intent but combines two unrelated topics, making it poorly scoped and misaligned with the schema.",
+        "llm_reasoning": "The DPR has analytical intent but combines two unrelated scopes, making it poorly aligned with the schema and overly vague.",
         "summary_relevance": 0.5,
-        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning athlete performance trends and conservation statuses but fails to provide insights into nationality dominance, race time improvements, or taxonomy-based conservation correlations, which are key analytical goals."
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning athlete performance trends and conservation statuses but fails to provide detailed analysis or insights into nationality dominance, race time improvements, taxonomy classifications, or biodiversity preservation patterns."
       },
       "sub_queries": [
         {
