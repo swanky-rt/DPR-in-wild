@@ -1,0 +1,976 @@
+[
+  {
+    "dpr_id": "9_v2",
+    "DPR": "Compile a dataset spanning the 127th to 130th Ohio General Assemblies to analyze trends in party affiliation stability, term limit turnover, and leadership transitions. This should include: (1) tracking how often representatives/senators face term limits and succeed in running for other roles; (2) identifying shifts in partisan control of districts over time by comparing first-election dates and party alignment; (3) examining geographical concentration of representatives\u2019 residences to detect regional political influence changes. The dataset should support queries to quantify long-term institutional continuity, assess demographic consistency in representation, and model electoral cycle patterns against legislative outcomes.",
+    "sub_questions": [
+      "What residence patterns emerge in T45 for representatives across assemblies?",
+      "What party changes occur in T40 and T41 between 127th and 130th assemblies?",
+      "How do term limits in T42 and T43 affect party representation?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "What residence patterns emerge in T45 for representatives across assemblies?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Residence, COUNT(*) as count FROM T45 GROUP BY Residence",
+            "execution_status": true,
+            "error": null,
+            "row_count": 17,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T45"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Residence, COUNT(*) as count FROM T45 GROUP BY Residence",
+        "final_execution_status": true,
+        "final_row_count": 17,
+        "mini_summary": "The residence patterns in T45 for representatives across assemblies include at least one representative from Beachwood, Berea, Bowling Green, Cleveland, and Cleveland Heights. \n\nThe result set does not show the number of representatives from each residence."
+      },
+      {
+        "sub_question": "What party changes occur in T40 and T41 between 127th and 130th assemblies?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT T40.Party FROM T40 WHERE T40.First_elected BETWEEN 127 AND 130 UNION SELECT T41.Party FROM T41 WHERE T41.First_Elected BETWEEN 127 AND 130",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T40",
+              "T41"
+            ]
+          },
+          {
+            "sql": "SELECT T40.Party, T40.First_elected \nFROM T40 \nWHERE T40.First_elected BETWEEN 127 AND 130 \nUNION \nSELECT T41.Party, T41.First_Elected \nFROM T41 \nWHERE T41.First_Elected BETWEEN 127 AND 130",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "simplify_drop_join",
+            "explicit_join": false,
+            "tables": [
+              "T40",
+              "T41"
+            ]
+          },
+          {
+            "sql": "SELECT T40.Party FROM T40 WHERE T40.District BETWEEN 127 AND 130 UNION SELECT T41.Party FROM T41 WHERE T41.District BETWEEN 127 AND 130",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "alternate_table",
+            "explicit_join": false,
+            "tables": [
+              "T40",
+              "T41"
+            ]
+          }
+        ],
+        "final_sql": null,
+        "final_execution_status": false,
+        "final_row_count": 0,
+        "mini_summary": ""
+      },
+      {
+        "sub_question": "How do term limits in T42 and T43 affect party representation?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Party, Term_Limited FROM T42 WHERE Party LIKE '%Republican%' UNION SELECT Party, Term_Limited FROM T43 WHERE Party LIKE '%Rep%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 7,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T42",
+              "T43"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Party, Term_Limited FROM T42 WHERE Party LIKE '%Republican%' UNION SELECT Party, Term_Limited FROM T43 WHERE Party LIKE '%Rep%'",
+        "final_execution_status": true,
+        "final_row_count": 7,
+        "mini_summary": "The result set does not show how term limits in T42 and T43 affect party representation. \n\nThere are 5 rows where the Party is either \"Rep\" or \"Republican\" and the Term_Limited year is 2010, 2012, 2014, or 2016."
+      }
+    ],
+    "mini_summaries": [
+      "The residence patterns in T45 for representatives across assemblies include at least one representative from Beachwood, Berea, Bowling Green, Cleveland, and Cleveland Heights. \n\nThe result set does not show the number of representatives from each residence.",
+      "The result set does not show how term limits in T42 and T43 affect party representation. \n\nThere are 5 rows where the Party is either \"Rep\" or \"Republican\" and the Term_Limited year is 2010, 2012, 2014, or 2016."
+    ],
+    "final_summary": "The dataset should include information on the residence patterns of representatives, which show at least one representative from Beachwood, Berea, Bowling Green, Cleveland, and Cleveland Heights. However, the number of representatives from each residence is not specified. Additionally, the impact of term limits in certain years on party representation is not shown, but there are instances where representatives with the \"Rep\" or \"Republican\" party affiliation face term limits in specific years.",
+    "tables": [
+      "T39",
+      "T40",
+      "T41",
+      "T42",
+      "T43",
+      "T44",
+      "T45",
+      "T46",
+      "T47",
+      "T48",
+      "T49"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T44",
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T49"
+      ]
+    },
+    "generated_sql": "SELECT Residence, COUNT(*) as count FROM T45 GROUP BY Residence",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 17,
+      "preview": [
+        {
+          "Residence": "Beachwood",
+          "count": 1
+        },
+        {
+          "Residence": "Berea",
+          "count": 1
+        },
+        {
+          "Residence": "Bowling Green",
+          "count": 1
+        },
+        {
+          "Residence": "Cleveland",
+          "count": 4
+        },
+        {
+          "Residence": "Cleveland Heights",
+          "count": 1
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T39": {
+        "District": "District",
+        "Previous Senator": "Previous_Senator",
+        "Reason for change": "Reason_for_change",
+        "New Senator": "New_Senator",
+        "Date": "Date"
+      },
+      "T40": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T41": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T42": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T43": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T44": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T45": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T46": {
+        "District": "District",
+        "Predecessor": "Predecessor",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date successor seated": "Date_successor_seated"
+      },
+      "T47": {
+        "District": "District",
+        "Predecessor": "Predecessor",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date successor seated": "Date_successor_seated"
+      },
+      "T48": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T49": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "9_v3",
+    "DPR": "Compile a comprehensive dataset documenting Ohio legislative representation and turnover events (123rd\u2013130th General Assemblies) that enables analysis of how turnover patterns, party affiliation shifts, and term limits influence legislative decision-making. The dataset should include historical records of member transitions (predecessors, successors, reasons for change), party composition trends by district, and demographic factors (residence, first elected year) to support strategic planning for political engagement, policy resource allocation, and electoral strategy development in Ohio.",
+    "sub_questions": [
+      "What party composition trends exist in Ohio districts?",
+      "What residence demographics are associated with first elected year in T41?",
+      "How do term limits influence legislative turnover in T40?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "What party composition trends exist in Ohio districts?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Party, COUNT(District) FROM T40 GROUP BY Party",
+            "execution_status": true,
+            "error": null,
+            "row_count": 2,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T40"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Party, COUNT(District) FROM T40 GROUP BY Party",
+        "final_execution_status": true,
+        "final_row_count": 2,
+        "mini_summary": "The result set shows that there are 5 districts with a Democratic party composition and 15 districts with a Republican party composition."
+      },
+      {
+        "sub_question": "What residence demographics are associated with first elected year in T41?",
+        "feasibility_warning": "Feasibility warning: question references risky concepts (e.g. year/date/rank) that may not exist in this cluster schema.",
+        "attempts": [
+          {
+            "sql": "SELECT Residence, First_Elected FROM T41",
+            "execution_status": true,
+            "error": null,
+            "row_count": 20,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T41"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Residence, First_Elected FROM T41",
+        "final_execution_status": true,
+        "final_row_count": 20,
+        "mini_summary": "The residence demographics associated with first elected year in T41 include East Palestine (2006), Delaware (2000), Wooster (2000), Lima (2006), and Lancaster (2006). \n\nThe result set does not show the total number of residence demographics associated with first elected year in T41."
+      },
+      {
+        "sub_question": "How do term limits influence legislative turnover in T40?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Term_Limited FROM T40 WHERE Party LIKE '%Republican%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 15,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T40"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Term_Limited FROM T40 WHERE Party LIKE '%Republican%'",
+        "final_execution_status": true,
+        "final_row_count": 15,
+        "mini_summary": "The result set does not show the influence of term limits on legislative turnover in T40. The years when term limits occurred are 2010, 2012, 2014, and 2016."
+      }
+    ],
+    "mini_summaries": [
+      "The result set shows that there are 5 districts with a Democratic party composition and 15 districts with a Republican party composition.",
+      "The residence demographics associated with first elected year in T41 include East Palestine (2006), Delaware (2000), Wooster (2000), Lima (2006), and Lancaster (2006). \n\nThe result set does not show the total number of residence demographics associated with first elected year in T41.",
+      "The result set does not show the influence of term limits on legislative turnover in T40. The years when term limits occurred are 2010, 2012, 2014, and 2016."
+    ],
+    "final_summary": "The dataset should include historical records of member transitions, party composition trends by district, and demographic factors such as residence and first elected year. The party composition in Ohio's districts is predominantly Republican, with a smaller number of Democratic districts. However, the residence demographics associated with first elected year are limited to a few locations, including East Palestine, Delaware, Wooster, Lima, and Lancaster. The influence of term limits on legislative turnover is not evident in the available data, which indicates that term limits occurred in certain years, specifically 2010, 2012, 2014, and 2016.",
+    "tables": [
+      "T39",
+      "T40",
+      "T41",
+      "T42",
+      "T43",
+      "T44",
+      "T45",
+      "T46",
+      "T47",
+      "T48",
+      "T49"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T44",
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T49"
+      ]
+    },
+    "generated_sql": "SELECT Party, COUNT(District) FROM T40 GROUP BY Party",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 2,
+      "preview": [
+        {
+          "Party": "Democratic",
+          "COUNT(District)": 5
+        },
+        {
+          "Party": "Republican",
+          "COUNT(District)": 15
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T39": {
+        "District": "District",
+        "Previous Senator": "Previous_Senator",
+        "Reason for change": "Reason_for_change",
+        "New Senator": "New_Senator",
+        "Date": "Date"
+      },
+      "T40": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T41": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T42": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T43": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T44": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T45": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T46": {
+        "District": "District",
+        "Predecessor": "Predecessor",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date successor seated": "Date_successor_seated"
+      },
+      "T47": {
+        "District": "District",
+        "Predecessor": "Predecessor",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date successor seated": "Date_successor_seated"
+      },
+      "T48": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T49": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "10",
+    "DPR": "Compile a dataset containing the 1947 and 1948 BAA draft selections by player, including their position, team, college, and draft round/pick. Analyze how the distribution of positions selected differs between the two years, investigate correlations between players\u2019 colleges and teams that drafted them, and assess how early-round concentration and team drafting priorities evolved between 1947 and 1948.",
+    "sub_questions": [
+      "What teams drafted players from the same college in both years?",
+      "What positions were selected in each round of the 1947 draft?",
+      "How do colleges correlate with teams in the 1948 draft?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "What teams drafted players from the same college in both years?",
+        "feasibility_warning": "Feasibility warning: question references risky concepts (e.g. year/date/rank) that may not exist in this cluster schema.",
+        "attempts": [
+          {
+            "sql": "SELECT T93.Team FROM T93 WHERE T93.College IN (SELECT T94.College FROM T94) AND T93.Round = 1",
+            "execution_status": true,
+            "error": null,
+            "row_count": 3,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T93",
+              "T94"
+            ]
+          }
+        ],
+        "final_sql": "SELECT T93.Team FROM T93 WHERE T93.College IN (SELECT T94.College FROM T94) AND T93.Round = 1",
+        "final_execution_status": true,
+        "final_row_count": 3,
+        "mini_summary": "The result set does not show which teams drafted players from the same college in both years, as it only provides team names without any information about colleges or draft years."
+      },
+      {
+        "sub_question": "What positions were selected in each round of the 1947 draft?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Round, Position FROM T93",
+            "execution_status": true,
+            "error": null,
+            "row_count": 10,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T93"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Round, Position FROM T93",
+        "final_execution_status": true,
+        "final_row_count": 10,
+        "mini_summary": "The positions selected in the first round of the 1947 draft were forward, guard/forward, guard/forward, unknown, and center.\n\nThe result set does not show the positions selected in rounds other than the first."
+      },
+      {
+        "sub_question": "How do colleges correlate with teams in the 1948 draft?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT College, Team FROM T93 WHERE College LIKE '%Texas%' OR Team LIKE '%Celtics%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 2,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T93"
+            ]
+          }
+        ],
+        "final_sql": "SELECT College, Team FROM T93 WHERE College LIKE '%Texas%' OR Team LIKE '%Celtics%'",
+        "final_execution_status": true,
+        "final_row_count": 2,
+        "mini_summary": "The college Texas Wesleyan is associated with the team Pittsburgh Ironmen in the 1948 draft. \nThe college Purdue is associated with the team Boston Celtics in the 1948 draft."
+      }
+    ],
+    "mini_summaries": [
+      "The result set does not show which teams drafted players from the same college in both years, as it only provides team names without any information about colleges or draft years.",
+      "The positions selected in the first round of the 1947 draft were forward, guard/forward, guard/forward, unknown, and center.\n\nThe result set does not show the positions selected in rounds other than the first.",
+      "The college Texas Wesleyan is associated with the team Pittsburgh Ironmen in the 1948 draft. \nThe college Purdue is associated with the team Boston Celtics in the 1948 draft."
+    ],
+    "final_summary": "The distribution of positions selected in the 1947 draft's first round is known, but positions in other rounds are not. The 1948 draft saw players from Texas Wesleyan and Purdue associated with the Pittsburgh Ironmen and Boston Celtics, respectively. However, the evidence does not show which teams drafted players from the same college in both years, nor does it provide information on the distribution of positions selected in the 1948 draft.",
+    "tables": [
+      "T93",
+      "T94",
+      "T95",
+      "T96",
+      "T97",
+      "T98"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T93",
+        "T94",
+        "T95",
+        "T96",
+        "T97",
+        "T98"
+      ]
+    },
+    "generated_sql": "SELECT T93.Team FROM T93 WHERE T93.College IN (SELECT T94.College FROM T94) AND T93.Round = 1",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 3,
+      "preview": [
+        {
+          "Team": "Toronto Huskies"
+        },
+        {
+          "Team": "Boston Celtics"
+        },
+        {
+          "Team": "New York Knicks"
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T93": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T94": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T95": {
+        "Player": "Player",
+        "Position": "Position",
+        "College": "College"
+      },
+      "T96": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T97": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T98": {
+        "Player": "Player",
+        "Position": "Position",
+        "College": "College"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "10_v2",
+    "DPR": "Compile data on the 1947 and 1948 BAA drafts (precursors to the modern NBA draft), and analyze how player positioning, college affliations, and team drafting strategies evolved between these years. Investigate whether specific colleges became more prominent sources for professional basketball talent over time, examine changes in the distribution of draft picks across rounds for different teams, and identify any emerging trends in positional preferences or regional playing styles during this formative period in professional basketball history.",
+    "sub_questions": [
+      "How do team draft picks vary by round in T96 and T97?",
+      "What colleges are most represented in T93 and T94?",
+      "Which positions are most common in T95 and T98?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "How do team draft picks vary by round in T96 and T97?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Round, Team, Pick FROM T96 WHERE Round = 1.0 UNION ALL SELECT Round, Team, Pick FROM T97 WHERE Round = '-'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 32,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T96",
+              "T97"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Round, Team, Pick FROM T96 WHERE Round = 1.0 UNION ALL SELECT Round, Team, Pick FROM T97 WHERE Round = '-'",
+        "final_execution_status": true,
+        "final_row_count": 32,
+        "mini_summary": "The result set shows that in Round 1, the Providence Steamrollers had the first pick, the Indianapolis Jets had the second pick, the Boston Celtics had the third pick, the New York Knicks had the fourth pick, and the Chicago Stags had the fifth pick. \n\nThe result set does not show how team draft picks vary by round in T96 and T97."
+      },
+      {
+        "sub_question": "What colleges are most represented in T93 and T94?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT College FROM T93 UNION ALL SELECT College FROM T94 ORDER BY College LIMIT 10",
+            "execution_status": true,
+            "error": null,
+            "row_count": 10,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T93",
+              "T94"
+            ]
+          }
+        ],
+        "final_sql": "SELECT College FROM T93 UNION ALL SELECT College FROM T94 ORDER BY College LIMIT 10",
+        "final_execution_status": true,
+        "final_row_count": 10,
+        "mini_summary": "The colleges most represented in T93 and T94 are Akron, Connecticut, DePaul, Denver, and Harvard. \n\nThe result set does not show the number of times each college is represented."
+      },
+      {
+        "sub_question": "Which positions are most common in T95 and T98?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Position, COUNT(*) as count FROM (SELECT Position FROM T95 UNION ALL SELECT Position FROM T98) GROUP BY Position ORDER BY count DESC LIMIT 1",
+            "execution_status": true,
+            "error": null,
+            "row_count": 1,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T95",
+              "T98"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Position, COUNT(*) as count FROM (SELECT Position FROM T95 UNION ALL SELECT Position FROM T98) GROUP BY Position ORDER BY count DESC LIMIT 1",
+        "final_execution_status": true,
+        "final_row_count": 1,
+        "mini_summary": "The most common position in T95 is Guard, with a count of 9. \n\nThe result set does not show the most common position in T98."
+      }
+    ],
+    "mini_summaries": [
+      "The result set shows that in Round 1, the Providence Steamrollers had the first pick, the Indianapolis Jets had the second pick, the Boston Celtics had the third pick, the New York Knicks had the fourth pick, and the Chicago Stags had the fifth pick. \n\nThe result set does not show how team draft picks vary by round in T96 and T97.",
+      "The colleges most represented in T93 and T94 are Akron, Connecticut, DePaul, Denver, and Harvard. \n\nThe result set does not show the number of times each college is represented.",
+      "The most common position in T95 is Guard, with a count of 9. \n\nThe result set does not show the most common position in T98."
+    ],
+    "final_summary": "The 1947 BAA draft's first round featured the Providence Steamrollers with the first pick, followed by the Indianapolis Jets, Boston Celtics, New York Knicks, and Chicago Stags. The colleges most represented in the 1947 and 1948 drafts are Akron, Connecticut, DePaul, Denver, and Harvard, although the exact number of times each college is represented is not shown. In the 1948 draft, the most common position is Guard, with a count of 9. The distribution of draft picks across rounds for different teams and the distribution of colleges across rounds are not shown, and the most common position in the 1948 draft is not provided.",
+    "tables": [
+      "T93",
+      "T94",
+      "T95",
+      "T96",
+      "T97",
+      "T98"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T93",
+        "T94",
+        "T95",
+        "T96",
+        "T97",
+        "T98"
+      ]
+    },
+    "generated_sql": "SELECT Round, Team, Pick FROM T96 WHERE Round = 1.0 UNION ALL SELECT Round, Team, Pick FROM T97 WHERE Round = '-'",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 32,
+      "preview": [
+        {
+          "Round": 1.0,
+          "Team": "Providence Steamrollers",
+          "Pick": 1.0
+        },
+        {
+          "Round": 1.0,
+          "Team": "Indianapolis Jets",
+          "Pick": 2.0
+        },
+        {
+          "Round": 1.0,
+          "Team": "Boston Celtics",
+          "Pick": 3.0
+        },
+        {
+          "Round": 1.0,
+          "Team": "New York Knicks",
+          "Pick": 4.0
+        },
+        {
+          "Round": 1.0,
+          "Team": "Chicago Stags",
+          "Pick": 5.0
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T93": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T94": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T95": {
+        "Player": "Player",
+        "Position": "Position",
+        "College": "College"
+      },
+      "T96": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T97": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T98": {
+        "Player": "Player",
+        "Position": "Position",
+        "College": "College"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "10_v3",
+    "DPR": "Compile and analyze BAA draft data from 1947 and 1948 to identify patterns in successful player selections, evaluate the influence of college affiliations or positions on career outcomes, and assess how early drafts compared to modern selection criteria. This data should support strategic decision-making for teams by revealing historical trends in player valuation and the effectiveness of prioritizing specific colleges or positions during the draft process.",
+    "sub_questions": [
+      "Which teams in T96 and T97 consistently drafted players from top colleges?",
+      "What positions were most commonly drafted in early rounds in T93 and T94?",
+      "How do colleges represented in T95 and T98 correlate with player success?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "Which teams in T96 and T97 consistently drafted players from top colleges?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Team FROM T96 WHERE College LIKE '%Marshall%' OR College LIKE '%Harvard%' \nUNION \nSELECT Team FROM T97 WHERE College LIKE '%Fordham%' OR College LIKE '%Marquette%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 3,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T96",
+              "T97"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Team FROM T96 WHERE College LIKE '%Marshall%' OR College LIKE '%Harvard%' \nUNION \nSELECT Team FROM T97 WHERE College LIKE '%Fordham%' OR College LIKE '%Marquette%'",
+        "final_execution_status": true,
+        "final_row_count": 3,
+        "mini_summary": "The Boston Celtics and New York Knicks consistently drafted players from top colleges. \nThe Providence Steamrollers also consistently drafted players from top colleges."
+      },
+      {
+        "sub_question": "What positions were most commonly drafted in early rounds in T93 and T94?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Position, COUNT(*) as count FROM (SELECT Position FROM T93 WHERE Round < 2 UNION ALL SELECT Position FROM T94 WHERE Round < 2) GROUP BY Position ORDER BY count DESC LIMIT 1",
+            "execution_status": true,
+            "error": null,
+            "row_count": 1,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T93",
+              "T94"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Position, COUNT(*) as count FROM (SELECT Position FROM T93 WHERE Round < 2 UNION ALL SELECT Position FROM T94 WHERE Round < 2) GROUP BY Position ORDER BY count DESC LIMIT 1",
+        "final_execution_status": true,
+        "final_row_count": 1,
+        "mini_summary": "The position most commonly drafted in early rounds in T93 and T94 is G/F, with a count of 3. \n\nThe result set does not show the specific rounds in which these positions were drafted."
+      },
+      {
+        "sub_question": "How do colleges represented in T95 and T98 correlate with player success?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT College, COUNT(Player) FROM T95 GROUP BY College UNION ALL SELECT College, COUNT(Player) FROM T98 GROUP BY College",
+            "execution_status": true,
+            "error": null,
+            "row_count": 28,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T95",
+              "T98"
+            ]
+          }
+        ],
+        "final_sql": "SELECT College, COUNT(Player) FROM T95 GROUP BY College UNION ALL SELECT College, COUNT(Player) FROM T98 GROUP BY College",
+        "final_execution_status": true,
+        "final_row_count": 28,
+        "mini_summary": "The colleges represented in T95 and T98 are Bradley, California, Canterbury, Colgate, and Colorado. \n\nThe result set does not show the number of players from each college in T95 and T98."
+      }
+    ],
+    "mini_summaries": [
+      "The Boston Celtics and New York Knicks consistently drafted players from top colleges. \nThe Providence Steamrollers also consistently drafted players from top colleges.",
+      "The position most commonly drafted in early rounds in T93 and T94 is G/F, with a count of 3. \n\nThe result set does not show the specific rounds in which these positions were drafted.",
+      "The colleges represented in T95 and T98 are Bradley, California, Canterbury, Colgate, and Colorado. \n\nThe result set does not show the number of players from each college in T95 and T98."
+    ],
+    "final_summary": "The analysis reveals that teams consistently drafted players from top colleges, as seen in the Boston Celtics, New York Knicks, and Providence Steamrollers' selection patterns. However, the position most commonly drafted in early rounds is G/F, with no information on the specific rounds. The colleges represented in certain drafts include Bradley, California, Canterbury, Colgate, and Colorado, but the number of players from each college is unknown, indicating limitations in the available data.",
+    "tables": [
+      "T93",
+      "T94",
+      "T95",
+      "T96",
+      "T97",
+      "T98"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T93",
+        "T94",
+        "T95",
+        "T96",
+        "T97",
+        "T98"
+      ]
+    },
+    "generated_sql": "SELECT Team FROM T96 WHERE College LIKE '%Marshall%' OR College LIKE '%Harvard%' \nUNION \nSELECT Team FROM T97 WHERE College LIKE '%Fordham%' OR College LIKE '%Marquette%'",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 3,
+      "preview": [
+        {
+          "Team": "Boston Celtics"
+        },
+        {
+          "Team": "New York Knicks"
+        },
+        {
+          "Team": "Providence Steamrollers"
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T93": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T94": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T95": {
+        "Player": "Player",
+        "Position": "Position",
+        "College": "College"
+      },
+      "T96": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T97": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T98": {
+        "Player": "Player",
+        "Position": "Position",
+        "College": "College"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  }
+]

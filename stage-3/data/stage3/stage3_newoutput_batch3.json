@@ -1,0 +1,1083 @@
+[
+  {
+    "dpr_id": "4_v2",
+    "DPR": "Compile historical data on the 1st New Zealand Parliament's members and electoral provinces (1854) alongside comprehensive records of New Zealand's inter-colonial rugby tours from 1884\u20131920, including player team affiliations, match venues, and scores. Analyze these datasets to identify:  \n1. How electoral representation evolved versus shifts in sports team provinces.  \n2. Geographic expansion of rugby matches and evolving preferences for venues over time.  \n3. Changes in team composition patterns and potential correlations with national infrastructure development.  \n4. Trends in match scores indicating shifts in gameplay style or competitive balance across decades.",
+    "sub_questions": [
+      "What provinces had members in the 1st New Zealand Parliament in 1854?",
+      "How did rugby match venues change over time in New Zealand?",
+      "What was the trend in match scores from 1884 to 1920?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "What provinces had members in the 1st New Zealand Parliament in 1854?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Province FROM T14",
+            "execution_status": true,
+            "error": null,
+            "row_count": 20,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T14"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Province FROM T14",
+        "final_execution_status": true,
+        "final_row_count": 20,
+        "mini_summary": "The result set shows that the provinces represented in the 1st New Zealand Parliament in 1854 are Canterbury and Auckland."
+      },
+      {
+        "sub_question": "How did rugby match venues change over time in New Zealand?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Date, Venue FROM T64 ORDER BY Date",
+            "execution_status": true,
+            "error": null,
+            "row_count": 8,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T64"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Date, Venue FROM T64 ORDER BY Date",
+        "final_execution_status": true,
+        "final_row_count": 8,
+        "mini_summary": "Rugby match venues in New Zealand included Bathurst Ground, Cricket Ground, Agricultural Society Ground, and Parramatta Ground.\n\nThe result set does not show the years in which these rugby matches took place."
+      },
+      {
+        "sub_question": "What was the trend in match scores from 1884 to 1920?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Date, Score FROM T64 WHERE Date LIKE '%188%' OR Date LIKE '%192%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T64"
+            ]
+          },
+          {
+            "sql": "SELECT Date, Score \nFROM T64 \nWHERE Date LIKE '%188%' \n   OR Date LIKE '%192%'\nUNION\nSELECT Date, Score \nFROM T66 \nWHERE Date LIKE '%188%' \n   OR Date LIKE '%192%'\nUNION\nSELECT Date, Score \nFROM T71 \nWHERE Date LIKE '%188%' \n   OR Date LIKE '%192%'\nUNION\nSELECT Date, Score \nFROM T72 \nWHERE Date LIKE '%188%' \n   OR Date LIKE '%192%'\nUNION\nSELECT Date, Score \nFROM T75 \nWHERE Date LIKE '%188%' \n   OR Date LIKE '%192%'\nUNION\nSELECT Date, Score \nFROM T76 \nWHERE Date LIKE '%188%' \n   OR Date LIKE '%192%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "simplify_drop_join",
+            "explicit_join": false,
+            "tables": [
+              "T64",
+              "T66",
+              "T71",
+              "T72",
+              "T75",
+              "T76"
+            ]
+          },
+          {
+            "sql": "SELECT Date, Score FROM T64 WHERE Date LIKE '%188%' OR Date LIKE '%192%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "alternate_table",
+            "explicit_join": false,
+            "tables": [
+              "T64"
+            ]
+          }
+        ],
+        "final_sql": null,
+        "final_execution_status": false,
+        "final_row_count": 0,
+        "mini_summary": ""
+      }
+    ],
+    "mini_summaries": [
+      "The result set shows that the provinces represented in the 1st New Zealand Parliament in 1854 are Canterbury and Auckland.",
+      "Rugby match venues in New Zealand included Bathurst Ground, Cricket Ground, Agricultural Society Ground, and Parramatta Ground.\n\nThe result set does not show the years in which these rugby matches took place."
+    ],
+    "final_summary": "The 1st New Zealand Parliament represented the provinces of Canterbury and Auckland. Rugby matches in New Zealand took place at venues including Bathurst Ground, Cricket Ground, Agricultural Society Ground, and Parramatta Ground. However, the years of these matches are not specified in the available data, limiting the analysis of trends and shifts in gameplay style or competitive balance.",
+    "tables": [
+      "T14",
+      "T63",
+      "T64",
+      "T65",
+      "T66",
+      "T67",
+      "T70",
+      "T71",
+      "T72",
+      "T73",
+      "T74",
+      "T75",
+      "T76"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T14",
+        "T63",
+        "T64",
+        "T65",
+        "T66",
+        "T67",
+        "T70",
+        "T71",
+        "T72",
+        "T73",
+        "T74",
+        "T75",
+        "T76"
+      ]
+    },
+    "generated_sql": "SELECT Province FROM T14",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 20,
+      "preview": [
+        {
+          "Province": "Canterbury"
+        },
+        {
+          "Province": "Auckland"
+        },
+        {
+          "Province": "Auckland"
+        },
+        {
+          "Province": "Auckland"
+        },
+        {
+          "Province": "Auckland"
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T14": {
+        "Member": "Member",
+        "Electorate": "Electorate",
+        "Province": "Province",
+        "Election date": "Election_date"
+      },
+      "T63": {
+        "Name": "Name",
+        "Position": "Position",
+        "Province": "Province"
+      },
+      "T64": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      },
+      "T65": {
+        "Name": "Name",
+        "Position": "Position",
+        "Province": "Province"
+      },
+      "T66": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      },
+      "T67": {
+        "Name": "Name",
+        "Position": "Position",
+        "Province": "Province"
+      },
+      "T70": {
+        "Name": "Name",
+        "Position": "Position",
+        "Province": "Province"
+      },
+      "T71": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      },
+      "T72": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      },
+      "T73": {
+        "Rival": "Rival",
+        "Date": "Date",
+        "Venue": "Venue",
+        "City": "City",
+        "Country": "Country",
+        "Score": "Score"
+      },
+      "T74": {
+        "Name": "Name",
+        "Position": "Position",
+        "Province": "Province"
+      },
+      "T75": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      },
+      "T76": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "4_v3",
+    "DPR": "Compile data on historical New Zealand rugby union tours (players' provincial affiliations, match outcomes, and tour logistics) alongside early parliamentary representation by province to analyze correlations between regional demographics, team composition, and match performance. Use this to inform current decisions on regional recruitment strategies, tour scheduling optimizations, and resource allocation for team development, while assessing historical patterns in regional political and sports engagement.",
+    "sub_questions": [
+      "What are the match outcomes in T64 by Province of the rival team?",
+      "What provinces are associated with rugby players in T63?",
+      "How do election dates in T14 correlate with rugby match dates in T71?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "What are the match outcomes in T64 by Province of the rival team?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Rival, Score FROM T64 WHERE Rival LIKE '%Cumberland%' OR Rival LIKE '%NSW Waratahs%' OR Rival LIKE '%Combined Suburbs%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 5,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T64"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Rival, Score FROM T64 WHERE Rival LIKE '%Cumberland%' OR Rival LIKE '%NSW Waratahs%' OR Rival LIKE '%Combined Suburbs%'",
+        "final_execution_status": true,
+        "final_row_count": 5,
+        "mini_summary": "The match outcomes in T64 by Province of the rival team are 33-0 against Cumberland County, 11-0 and 21-2 against NSW Waratahs, and 16-0 and 23-5 against Combined Suburbs."
+      },
+      {
+        "sub_question": "What provinces are associated with rugby players in T63?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Province FROM T63",
+            "execution_status": true,
+            "error": null,
+            "row_count": 19,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T63"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Province FROM T63",
+        "final_execution_status": true,
+        "final_row_count": 19,
+        "mini_summary": "The provinces associated with rugby players in T63 are Otago, Canterbury, Auckland, and Wellington."
+      },
+      {
+        "sub_question": "How do election dates in T14 correlate with rugby match dates in T71?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT T14.Election_date, T71.Date FROM T14, T71 WHERE T14.Election_date LIKE '%' AND T71.Date LIKE '%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 220,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T14"
+            ]
+          }
+        ],
+        "final_sql": "SELECT T14.Election_date, T71.Date FROM T14, T71 WHERE T14.Election_date LIKE '%' AND T71.Date LIKE '%'",
+        "final_execution_status": true,
+        "final_row_count": 220,
+        "mini_summary": "The election dates in T14 are all \"24 August\". \nThe result set does not show the dates of rugby matches in T71."
+      }
+    ],
+    "mini_summaries": [
+      "The match outcomes in T64 by Province of the rival team are 33-0 against Cumberland County, 11-0 and 21-2 against NSW Waratahs, and 16-0 and 23-5 against Combined Suburbs.",
+      "The provinces associated with rugby players in T63 are Otago, Canterbury, Auckland, and Wellington.",
+      "The election dates in T14 are all \"24 August\". \nThe result set does not show the dates of rugby matches in T71."
+    ],
+    "final_summary": "Historical New Zealand rugby union tours show match outcomes against various teams, including Cumberland County, NSW Waratahs, and Combined Suburbs. The provinces associated with rugby players are Otago, Canterbury, Auckland, and Wellington. However, the evidence does not provide information on the dates of rugby matches or the election dates, which are all listed as \"24 August\".",
+    "tables": [
+      "T14",
+      "T63",
+      "T64",
+      "T65",
+      "T66",
+      "T67",
+      "T70",
+      "T71",
+      "T72",
+      "T73",
+      "T74",
+      "T75",
+      "T76"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T14",
+        "T63",
+        "T64",
+        "T65",
+        "T66",
+        "T67",
+        "T70",
+        "T71",
+        "T72",
+        "T73",
+        "T74",
+        "T75",
+        "T76"
+      ]
+    },
+    "generated_sql": "SELECT Rival, Score FROM T64 WHERE Rival LIKE '%Cumberland%' OR Rival LIKE '%NSW Waratahs%' OR Rival LIKE '%Combined Suburbs%'",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 5,
+      "preview": [
+        {
+          "Rival": "Cumberland County",
+          "Score": "33-0"
+        },
+        {
+          "Rival": "NSW Waratahs",
+          "Score": "11-0"
+        },
+        {
+          "Rival": "Combined Suburbs",
+          "Score": "23-5"
+        },
+        {
+          "Rival": "NSW Waratahs",
+          "Score": "21-2"
+        },
+        {
+          "Rival": "NSW Waratahs",
+          "Score": "16-0"
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T14": {
+        "Member": "Member",
+        "Electorate": "Electorate",
+        "Province": "Province",
+        "Election date": "Election_date"
+      },
+      "T63": {
+        "Name": "Name",
+        "Position": "Position",
+        "Province": "Province"
+      },
+      "T64": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      },
+      "T65": {
+        "Name": "Name",
+        "Position": "Position",
+        "Province": "Province"
+      },
+      "T66": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      },
+      "T67": {
+        "Name": "Name",
+        "Position": "Position",
+        "Province": "Province"
+      },
+      "T70": {
+        "Name": "Name",
+        "Position": "Position",
+        "Province": "Province"
+      },
+      "T71": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      },
+      "T72": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      },
+      "T73": {
+        "Rival": "Rival",
+        "Date": "Date",
+        "Venue": "Venue",
+        "City": "City",
+        "Country": "Country",
+        "Score": "Score"
+      },
+      "T74": {
+        "Name": "Name",
+        "Position": "Position",
+        "Province": "Province"
+      },
+      "T75": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      },
+      "T76": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "5",
+    "DPR": "Compile historical data on College Football and Baseball All-America teams (1935\u20131948) and Kansas City Chiefs rosters (2009\u20132011), and analyze how player position distributions, school affiliations, and professional/college career trajectories correlate across eras. Specifically, compare the frequency of positions in All-America teams versus pro rosters, assess the persistence of dominant schools in producing talent, and evaluate how player status changes (e.g., team changes, inductions) reflect career continuity or disruption.",
+    "sub_questions": [
+      "What is the distribution of player positions in T92?",
+      "How do school affiliations in T87 and T90 compare to those in T100?",
+      "What positions are most common in T16 and T17?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "What is the distribution of player positions in T92?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Position, COUNT(Name) FROM T92 GROUP BY Position",
+            "execution_status": true,
+            "error": null,
+            "row_count": 7,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T92"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Position, COUNT(Name) FROM T92 GROUP BY Position",
+        "final_execution_status": true,
+        "final_row_count": 7,
+        "mini_summary": "The distribution of player positions in T92 includes Coach, End, End/Tackle, Halfback/Fullback, and Quarterback. \n\nThe result set does not show the total count of players for each position."
+      },
+      {
+        "sub_question": "How do school affiliations in T87 and T90 compare to those in T100?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT T87.School, T90.School, T100.School FROM T87, T90, T100 WHERE T87.School LIKE '%USC%' AND T90.School LIKE '%USC%' AND T100.School LIKE '%USC%' LIMIT 10",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T87"
+            ]
+          },
+          {
+            "sql": "SELECT T87.School FROM T87 WHERE T87.School IN (SELECT School FROM T100) LIMIT 10",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "simplify_drop_join",
+            "explicit_join": false,
+            "tables": [
+              "T100",
+              "T87"
+            ]
+          },
+          {
+            "sql": "SELECT T100.School FROM T100 WHERE T100.School IN (SELECT School FROM T87) LIMIT 10",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "alternate_table",
+            "explicit_join": false,
+            "tables": [
+              "T100",
+              "T87"
+            ]
+          }
+        ],
+        "final_sql": null,
+        "final_execution_status": false,
+        "final_row_count": 0,
+        "mini_summary": ""
+      },
+      {
+        "sub_question": "What positions are most common in T16 and T17?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Position FROM T16 UNION ALL SELECT Position FROM T17",
+            "execution_status": true,
+            "error": null,
+            "row_count": 40,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T16",
+              "T17"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Position FROM T16 UNION ALL SELECT Position FROM T17",
+        "final_execution_status": true,
+        "final_row_count": 40,
+        "mini_summary": "The positions most common in T16 and T17 are WR and WR. \n\nThe result set does not show the frequency of positions."
+      }
+    ],
+    "mini_summaries": [
+      "The distribution of player positions in T92 includes Coach, End, End/Tackle, Halfback/Fullback, and Quarterback. \n\nThe result set does not show the total count of players for each position.",
+      "The positions most common in T16 and T17 are WR and WR. \n\nThe result set does not show the frequency of positions."
+    ],
+    "final_summary": "The distribution of player positions in certain teams includes Coach, End, End/Tackle, Halfback/Fullback, Quarterback, and WR. However, the frequency of these positions is not specified. The positions most common in T16 and T17 are WR, but the overall distribution of positions in these teams is not shown.",
+    "tables": [
+      "T16",
+      "T17",
+      "T87",
+      "T90",
+      "T91",
+      "T92",
+      "T100"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T16",
+        "T17",
+        "T87",
+        "T90",
+        "T91",
+        "T92",
+        "T100"
+      ]
+    },
+    "generated_sql": "SELECT Position, COUNT(Name) FROM T92 GROUP BY Position",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 7,
+      "preview": [
+        {
+          "Position": "Coach",
+          "COUNT(Name)": 1
+        },
+        {
+          "Position": "End",
+          "COUNT(Name)": 1
+        },
+        {
+          "Position": "End/Tackle",
+          "COUNT(Name)": 1
+        },
+        {
+          "Position": "Halfback/Fullback",
+          "COUNT(Name)": 1
+        },
+        {
+          "Position": "Quarterback",
+          "COUNT(Name)": 1
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T16": {
+        "Position": "Position",
+        "Player": "Player",
+        "Status*": "Status_",
+        "2009 Team": "col_2009_Team",
+        "2010 Team": "col_2010_Team"
+      },
+      "T17": {
+        "Position": "Position",
+        "Player": "Player",
+        "Status*": "Status_",
+        "2010 Team": "col_2010_Team",
+        "2011 Team": "col_2011_Team"
+      },
+      "T87": {
+        "Name": "Name",
+        "Position": "Position",
+        "School": "School",
+        "Number": "Number",
+        "Official": "Official",
+        "Other": "Other"
+      },
+      "T90": {
+        "Name": "Name",
+        "Position": "Position",
+        "School": "School",
+        "Number": "Number",
+        "Official": "Official",
+        "Other": "Other"
+      },
+      "T91": {
+        "Name": "Name",
+        "Position": "Position",
+        "School": "School",
+        "Number": "Number",
+        "Official selectors": "Official_selectors",
+        "Other selectors": "Other_selectors"
+      },
+      "T92": {
+        "Name": "Name",
+        "Position": "Position",
+        "Year Inducted": "Year_Inducted"
+      },
+      "T100": {
+        "Position": "Position",
+        "Name": "Name",
+        "School": "School"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "5_v2",
+    "DPR": "Compile data that enables analysis of player retention and turnover trends for the Kansas City Chiefs between 2009 and 2011, and identify historical shifts in College Football All-America selections across 1935-1946 and college baseball talent recognition in 1948. The data should track changes in position distributions, team affiliations, and selection criteria over time to uncover patterns in roster stability and athletic acclaim evolution.",
+    "sub_questions": [
+      "What positions were most common among Kansas City Chiefs players between 2009 and 2011 in T16 and T17?",
+      "Which schools had the most players in T87, T90, and T91?",
+      "How did the distribution of positions in College Football All-America selections change over time in T100?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "What positions were most common among Kansas City Chiefs players between 2009 and 2011 in T16 and T17?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Position FROM T16 WHERE col_2009_Team LIKE '%Kansas City Chiefs%' OR col_2010_Team LIKE '%Kansas City Chiefs%' UNION SELECT Position FROM T17 WHERE col_2010_Team LIKE '%Kansas City Chiefs%' OR col_2011_Team LIKE '%Kansas City Chiefs%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 13,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T16",
+              "T17"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Position FROM T16 WHERE col_2009_Team LIKE '%Kansas City Chiefs%' OR col_2010_Team LIKE '%Kansas City Chiefs%' UNION SELECT Position FROM T17 WHERE col_2010_Team LIKE '%Kansas City Chiefs%' OR col_2011_Team LIKE '%Kansas City Chiefs%'",
+        "final_execution_status": true,
+        "final_row_count": 13,
+        "mini_summary": "The positions most common among Kansas City Chiefs players between 2009 and 2011 in T16 and T17 are C, CB, DE, DT, and FB. \n\nThe result set does not show the years 2009 and 2011, but it does show the positions of the players."
+      },
+      {
+        "sub_question": "Which schools had the most players in T87, T90, and T91?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT School, COUNT(Name) as count FROM (SELECT School, Name FROM T87 UNION ALL SELECT School, Name FROM T90 UNION ALL SELECT School, Name FROM T91) GROUP BY School ORDER BY count DESC LIMIT 1",
+            "execution_status": true,
+            "error": null,
+            "row_count": 1,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T87",
+              "T90",
+              "T91"
+            ]
+          }
+        ],
+        "final_sql": "SELECT School, COUNT(Name) as count FROM (SELECT School, Name FROM T87 UNION ALL SELECT School, Name FROM T90 UNION ALL SELECT School, Name FROM T91) GROUP BY School ORDER BY count DESC LIMIT 1",
+        "final_execution_status": true,
+        "final_row_count": 1,
+        "mini_summary": "The school with the most players in T87, T90, and T91 is Notre Dame. \nNotre Dame had 6 players."
+      },
+      {
+        "sub_question": "How did the distribution of positions in College Football All-America selections change over time in T100?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Position, COUNT(Name) FROM T100 GROUP BY Position",
+            "execution_status": true,
+            "error": null,
+            "row_count": 7,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T100"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Position, COUNT(Name) FROM T100 GROUP BY Position",
+        "final_execution_status": true,
+        "final_row_count": 7,
+        "mini_summary": "The distribution of positions in College Football All-America selections in T100 includes Catcher, First baseman, Outfielder, Pitcher, and Second baseman. \n\nThe COUNT(Name) for Outfielder is 3, which is the highest COUNT(Name) among the positions listed."
+      }
+    ],
+    "mini_summaries": [
+      "The positions most common among Kansas City Chiefs players between 2009 and 2011 in T16 and T17 are C, CB, DE, DT, and FB. \n\nThe result set does not show the years 2009 and 2011, but it does show the positions of the players.",
+      "The school with the most players in T87, T90, and T91 is Notre Dame. \nNotre Dame had 6 players.",
+      "The distribution of positions in College Football All-America selections in T100 includes Catcher, First baseman, Outfielder, Pitcher, and Second baseman. \n\nThe COUNT(Name) for Outfielder is 3, which is the highest COUNT(Name) among the positions listed."
+    ],
+    "final_summary": "The Kansas City Chiefs players between certain years were primarily composed of C, CB, DE, DT, and FB positions. The school with the most players is Notre Dame, with an unspecified number of players. The positions most commonly selected in College Football All-America selections include Catcher, First baseman, Outfielder, Pitcher, and Second baseman, with Outfielder being the most frequently selected.",
+    "tables": [
+      "T16",
+      "T17",
+      "T87",
+      "T90",
+      "T91",
+      "T92",
+      "T100"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T16",
+        "T17",
+        "T87",
+        "T90",
+        "T91",
+        "T92",
+        "T100"
+      ]
+    },
+    "generated_sql": "SELECT Position FROM T16 WHERE col_2009_Team LIKE '%Kansas City Chiefs%' OR col_2010_Team LIKE '%Kansas City Chiefs%' UNION SELECT Position FROM T17 WHERE col_2010_Team LIKE '%Kansas City Chiefs%' OR col_2011_Team LIKE '%Kansas City Chiefs%'",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 13,
+      "preview": [
+        {
+          "Position": "C"
+        },
+        {
+          "Position": "CB"
+        },
+        {
+          "Position": "DE"
+        },
+        {
+          "Position": "DT"
+        },
+        {
+          "Position": "FB"
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T16": {
+        "Position": "Position",
+        "Player": "Player",
+        "Status*": "Status_",
+        "2009 Team": "col_2009_Team",
+        "2010 Team": "col_2010_Team"
+      },
+      "T17": {
+        "Position": "Position",
+        "Player": "Player",
+        "Status*": "Status_",
+        "2010 Team": "col_2010_Team",
+        "2011 Team": "col_2011_Team"
+      },
+      "T87": {
+        "Name": "Name",
+        "Position": "Position",
+        "School": "School",
+        "Number": "Number",
+        "Official": "Official",
+        "Other": "Other"
+      },
+      "T90": {
+        "Name": "Name",
+        "Position": "Position",
+        "School": "School",
+        "Number": "Number",
+        "Official": "Official",
+        "Other": "Other"
+      },
+      "T91": {
+        "Name": "Name",
+        "Position": "Position",
+        "School": "School",
+        "Number": "Number",
+        "Official selectors": "Official_selectors",
+        "Other selectors": "Other_selectors"
+      },
+      "T92": {
+        "Name": "Name",
+        "Position": "Position",
+        "Year Inducted": "Year_Inducted"
+      },
+      "T100": {
+        "Position": "Position",
+        "Name": "Name",
+        "School": "School"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "5_v3",
+    "DPR": "Compile data tracking player transitions across NFL rosters (e.g., Kansas City Chiefs 2009\u20132011) and historical college sports excellence (1935\u20131943 All-America teams, 1948 All-America baseball), including attributes like position, team affiliation, recognition, and career milestones. This dataset should enable analysis of patterns in player retention and development, identify correlations between college accolades and professional success, and assess institutional strengths in producing elite talent. Insights would support decisions in talent forecasting, college recruitment strategies, and optimizing team-building timelines to align with player growth trajectories.",
+    "sub_questions": [
+      "How do player transitions between col_2009_Team and col_2010_Team in T16 compare to those in T17?",
+      "What positions are most common among players in T16 and T17?",
+      "Which schools in T100 have the most players also found in T92?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "How do player transitions between col_2009_Team and col_2010_Team in T16 compare to those in T17?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT T16.col_2009_Team, T16.col_2010_Team, T17.col_2010_Team, T17.col_2011_Team FROM T16 INNER JOIN T17 ON T16.Player = T17.Player",
+            "execution_status": true,
+            "error": null,
+            "row_count": 5,
+            "retry_phase": "generate",
+            "explicit_join": true,
+            "tables": [
+              "T16",
+              "T17"
+            ]
+          }
+        ],
+        "final_sql": "SELECT T16.col_2009_Team, T16.col_2010_Team, T17.col_2010_Team, T17.col_2011_Team FROM T16 INNER JOIN T17 ON T16.Player = T17.Player",
+        "final_execution_status": true,
+        "final_row_count": 5,
+        "mini_summary": "The result set does not show player transitions between col_2009_Team and col_2010_Team in T17."
+      },
+      {
+        "sub_question": "What positions are most common among players in T16 and T17?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Position FROM T16 UNION ALL SELECT Position FROM T17",
+            "execution_status": true,
+            "error": null,
+            "row_count": 40,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T16",
+              "T17"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Position FROM T16 UNION ALL SELECT Position FROM T17",
+        "final_execution_status": true,
+        "final_row_count": 40,
+        "mini_summary": "The positions most common among players in T16 and T17 are WR and OG. \n\nThe result set does not show the number of players for each position."
+      },
+      {
+        "sub_question": "Which schools in T100 have the most players also found in T92?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT School FROM T100 WHERE Name IN (SELECT Name FROM T92) GROUP BY School ORDER BY COUNT(Name) DESC LIMIT 1",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T100",
+              "T92"
+            ]
+          },
+          {
+            "sql": "SELECT T100.School \nFROM T100 \nWHERE T100.Name IN (SELECT T92.Name FROM T92) \nGROUP BY T100.School \nORDER BY COUNT(T100.Name) DESC \nLIMIT 1",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "simplify_drop_join",
+            "explicit_join": false,
+            "tables": [
+              "T100",
+              "T92"
+            ]
+          },
+          {
+            "sql": "SELECT T100.School \nFROM T100 \nWHERE T100.Name IN (SELECT T92.Name FROM T92) \nGROUP BY T100.School \nORDER BY COUNT(T100.Name) DESC \nLIMIT 1",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "alternate_table",
+            "explicit_join": false,
+            "tables": [
+              "T100",
+              "T92"
+            ]
+          }
+        ],
+        "final_sql": null,
+        "final_execution_status": false,
+        "final_row_count": 0,
+        "mini_summary": ""
+      }
+    ],
+    "mini_summaries": [
+      "The result set does not show player transitions between col_2009_Team and col_2010_Team in T17.",
+      "The positions most common among players in T16 and T17 are WR and OG. \n\nThe result set does not show the number of players for each position."
+    ],
+    "final_summary": "The analysis of player transitions reveals a lack of data on movements between teams, but positions such as WR and OG are found to be common among players. However, the number of players for each position is not shown, indicating a limitation in the available data.",
+    "tables": [
+      "T16",
+      "T17",
+      "T87",
+      "T90",
+      "T91",
+      "T92",
+      "T100"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T16",
+        "T17",
+        "T87",
+        "T90",
+        "T91",
+        "T92",
+        "T100"
+      ]
+    },
+    "generated_sql": "SELECT T16.col_2009_Team, T16.col_2010_Team, T17.col_2010_Team, T17.col_2011_Team FROM T16 INNER JOIN T17 ON T16.Player = T17.Player",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 5,
+      "preview": [
+        {
+          "col_2009_Team": "Kansas City Chiefs",
+          "col_2010_Team": "Kansas City Chiefs",
+          "col_2011_Team": "Kansas City Chiefs"
+        },
+        {
+          "col_2009_Team": "Kansas City Chiefs",
+          "col_2010_Team": "Kansas City Chiefs",
+          "col_2011_Team": "Kansas City Chiefs"
+        },
+        {
+          "col_2009_Team": "Kansas City Chiefs",
+          "col_2010_Team": "Kansas City Chiefs",
+          "col_2011_Team": "Kansas City Chiefs"
+        },
+        {
+          "col_2009_Team": "Kansas City Chiefs",
+          "col_2010_Team": "Kansas City Chiefs",
+          "col_2011_Team": "Arizona Cardinals"
+        },
+        {
+          "col_2009_Team": "Kansas City Chiefs",
+          "col_2010_Team": "Kansas City Chiefs",
+          "col_2011_Team": "None"
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T16": {
+        "Position": "Position",
+        "Player": "Player",
+        "Status*": "Status_",
+        "2009 Team": "col_2009_Team",
+        "2010 Team": "col_2010_Team"
+      },
+      "T17": {
+        "Position": "Position",
+        "Player": "Player",
+        "Status*": "Status_",
+        "2010 Team": "col_2010_Team",
+        "2011 Team": "col_2011_Team"
+      },
+      "T87": {
+        "Name": "Name",
+        "Position": "Position",
+        "School": "School",
+        "Number": "Number",
+        "Official": "Official",
+        "Other": "Other"
+      },
+      "T90": {
+        "Name": "Name",
+        "Position": "Position",
+        "School": "School",
+        "Number": "Number",
+        "Official": "Official",
+        "Other": "Other"
+      },
+      "T91": {
+        "Name": "Name",
+        "Position": "Position",
+        "School": "School",
+        "Number": "Number",
+        "Official selectors": "Official_selectors",
+        "Other selectors": "Other_selectors"
+      },
+      "T92": {
+        "Name": "Name",
+        "Position": "Position",
+        "Year Inducted": "Year_Inducted"
+      },
+      "T100": {
+        "Position": "Position",
+        "Name": "Name",
+        "School": "School"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  }
+]

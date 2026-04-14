@@ -1,42 +1,120 @@
-# Stage 3 – SQL Generation & Grounding
+# Stage-4: DPR Evaluation & Ranking Pipeline
 
-This stage is responsible for validating whether the Data Product Requests (DPRs) generated in Stage 2 can actually be grounded in the original structured tables.
+## Overview
 
-Input: dprs.json, Metadata: T1.json to T10.json
+Stage-4 is responsible for evaluating and ranking Data Product Requests (DPRs) generated from Stage-3. It consumes a merged DPR output file and computes multiple metrics to assess the quality, diversity, and usefulness of each DPR.
 
-For each DPR:
-- Load referenced tables
-- Generate SQL using LLM
-- Execute SQL on SQLite & Validate execution
+The pipeline produces:
+- Ranked DPRs based on a composite score  
+- Metric summaries  
+- Human-readable evaluation outputs  
 
-Output: stage3_output.json
+---
 
-### Steps:
-1. Schema Preparation
-- Load relevant tables from data/stage1/tables_clean
-- Build SQLite database in-memory
-- Create schema mapping 
+## Input
 
-2. SQL Generation
-- Provide DPR text, Table schema
-- LLM generates a SQLite-compatible query 
-- Using the Llama-3.1-8b model (via Groq)
+### Primary Input
+- `stage3_output_final.json`  
+  - Created by merging all Stage-3 batch outputs  
+  - Each entry contains:
+    - DPR text  
+    - tables used  
+    - sub-query SQLs  
+    - summaries  
 
-3. SQL Grounding & Validation
-- The generated SQL is executed on the SQLite database
+---
 
-### How to Run:
-In the terminal, from the project root:
-python src/sql_grounding/pipeline.py `
-  -i "data/stage2/output/run_test_groq/dprs.json" `
-  -o "stage3_output.json" `
-  --tables-meta "data/stage1/tables_clean"
+## Pipeline Steps
 
-### Observations:
-During execution-based validation, three patterns were observed:
-- Executable queries with valid results – strong grounding.
-- Executable queries returning zero rows – schema valid but semantically weak joins and strong filters.
-- Failed execution due to missing columns – LLM schema hallucination.
+### 1. Load DPR Data
+- Reads the merged JSON file  
+- Processes each DPR independently  
 
-### Conclusion of stage-3:
-Stage 3 demonstrates that DPR generation must be coupled with execution-based grounding. Without this step, hallucinated or infeasible data products could propagate silently into systems.
+---
+
+### 2. Compute Per-DPR Metrics
+
+#### SQL / Schema-based Metrics
+- **Coverage**  
+  Measures overlap between used tables and ground truth  
+
+- **Complexity**  
+  Based on:
+  - multi-table usage  
+  - joins  
+  - aggregations  
+  - subqueries  
+  - multi-entity references  
+
+---
+
+#### Embedding-based Metrics
+- **Diversity**  
+  Ensures DPRs are not redundant  
+
+- **Surprisal**  
+  Measures novelty of table combinations  
+
+- **Uniqueness**  
+  Penalizes near-duplicate DPRs  
+
+---
+
+#### LLM-based Metrics
+- **LLM Quality**  
+  Evaluates how well-formed and analytical the DPR is  
+
+- **Summary Relevance**  
+  Measures how well the generated summary answers the DPR  
+
+---
+
+### 3. Ranking
+
+Each DPR is assigned a combined score using weighted metrics:
+
+- Coverage  
+- Complexity  
+- Diversity  
+- Surprisal  
+- Uniqueness  
+- LLM Quality  
+- Summary Relevance  
+
+Weights are normalized to sum to 1.0.
+
+---
+
+### 4. Output Generation
+
+The pipeline generates the following files:
+
+#### 1. `dpr_ranked_results.json`
+- Ranked DPRs  
+- Includes:
+  - DPR text  
+  - metrics  
+  - summaries  
+  - sub-query details  
+
+#### 2. `dpr_ranking_summary.txt`
+- Human-readable output  
+- Includes:
+  - DPR text  
+  - metrics  
+  - LLM reasoning  
+  - SQL queries  
+
+#### 3. `metrics_stats.txt`
+- Aggregate statistics:
+  - min / max / mean for each metric  
+  - overall score distribution  
+
+---
+
+## How to Run
+
+```bash
+python run_eval_v3.py \              
+  --input stage3_output_final.json \
+  --output_dir output
