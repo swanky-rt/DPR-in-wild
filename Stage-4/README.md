@@ -2,119 +2,138 @@
 
 ## Overview
 
-Stage-4 is responsible for evaluating and ranking Data Product Requests (DPRs) generated from Stage-3. It consumes a merged DPR output file and computes multiple metrics to assess the quality, diversity, and usefulness of each DPR.
+Stage-4 evaluates and ranks Data Product Requests (DPRs) generated from Stage-3. It consumes a merged DPR output file and computes multiple metrics to assess the quality, diversity, and usefulness of each DPR.
 
 The pipeline produces:
-- Ranked DPRs based on a composite score  
-- Metric summaries  
-- Human-readable evaluation outputs  
+
+- Ranked DPRs based on a composite score
+- Metric summaries
+- Human-readable evaluation outputs
 
 ---
 
 ## Input
 
 ### Primary Input
-- `stage3_output_final.json`  
-  - Created by merging all Stage-3 batch outputs  
-  - Each entry contains:
-    - DPR text  
-    - tables used  
-    - sub-query SQLs  
-    - summaries  
+
+**`stage3_output_final.json`**
+
+Created by merging all Stage-3 batch outputs. Each entry contains:
+
+- DPR text
+- Tables used
+- Sub-query SQLs
+- Summaries
+
+---
+
+## Execution Steps
+
+To run the complete pipeline:
+
+### 1. Run Stage-3
+
+Follow instructions in the Stage-3 README (Rishitha can provide details if needed).
+
+This generates batch output files: `stage3_output_batch*.json`
+
+### 2. Merge Stage-3 Outputs
+
+```bash
+python merge_files.py
+```
+
+Generates: `stage3_output_final.json`
+
+### 3. Run Stage-4 Evaluation
+
+```bash
+python run_eval_v3.py \
+  --input ../Stage-4/stage3_output_final.json \
+  --output_dir ../Stage-4/output \
+  --top_k 100
+```
 
 ---
 
 ## Pipeline Steps
 
 ### 1. Load DPR Data
-- Reads the merged JSON file  
-- Processes each DPR independently  
 
----
+- Reads merged JSON file
+- Processes each DPR independently
 
-### 2. Compute Per-DPR Metrics
+### 2. Compute Metrics
 
-#### SQL / Schema-based Metrics
-- **Coverage**  
-  Measures overlap between used tables and ground truth  
+**SQL / Schema-based**
+- Coverage
+- Complexity
 
-- **Complexity**  
-  Based on:
-  - multi-table usage  
-  - joins  
-  - aggregations  
-  - subqueries  
-  - multi-entity references  
+**Embedding-based**
+- Diversity
+- Surprisal
+- Uniqueness
 
----
-
-#### Embedding-based Metrics
-- **Diversity**  
-  Ensures DPRs are not redundant  
-
-- **Surprisal**  
-  Measures novelty of table combinations  
-
-- **Uniqueness**  
-  Penalizes near-duplicate DPRs  
-
----
-
-#### LLM-based Metrics
-- **LLM Quality**  
-  Evaluates how well-formed and analytical the DPR is  
-
-- **Summary Relevance**  
-  Measures how well the generated summary answers the DPR  
-
----
+**LLM-based**
+- LLM Quality
+- Summary Relevance
 
 ### 3. Ranking
 
-Each DPR is assigned a combined score using weighted metrics:
-
-- Coverage  
-- Complexity  
-- Diversity  
-- Surprisal  
-- Uniqueness  
-- LLM Quality  
-- Summary Relevance  
-
-Weights are normalized to sum to 1.0.
-
----
+DPRs are ranked using a weighted combined score based on all computed metrics.
 
 ### 4. Output Generation
 
-The pipeline generates the following files:
+The pipeline generates:
 
-#### 1. `dpr_ranked_results.json`
-- Ranked DPRs  
-- Includes:
-  - DPR text  
-  - metrics  
-  - summaries  
-  - sub-query details  
-
-#### 2. `dpr_ranking_summary.txt`
-- Human-readable output  
-- Includes:
-  - DPR text  
-  - metrics  
-  - LLM reasoning  
-  - SQL queries  
-
-#### 3. `metrics_stats.txt`
-- Aggregate statistics:
-  - min / max / mean for each metric  
-  - overall score distribution  
+- `dpr_ranked_results.json`
+- `dpr_ranking_summary.txt`
+- `metrics_stats.txt`
 
 ---
 
-## How to Run
+## Optional: LLM Evaluation
+
+Set environment variables:
 
 ```bash
-python run_eval_v3.py \              
-  --input stage3_output_final.json \
-  --output_dir output
+export LLM_API_KEY=your_key
+export LLM_API_BASE=https://api.openai.com/v1
+export LLM_MODEL=gpt-4
+```
+
+Or pass via CLI:
+
+```bash
+--llm_api_key <key>
+```
+
+> If not provided, LLM scores default to `0.5`.
+
+---
+
+## Folder Structure
+
+```
+698DS/
+├── stage-3/
+│   └── data/stage3/
+│       └── stage3_output_batch*.json
+│
+└── Stage-4/
+    ├── stage3_output_final.json
+    ├── run_eval_v3.py
+    └── output/
+        ├── dpr_ranked_results.json
+        ├── dpr_ranking_summary.txt
+        └── metrics_stats.txt
+```
+
+---
+
+## Notes
+
+- Execution summary files are excluded from merging
+- Input merging is deterministic
+- Designed for scalable DPR evaluation
+- LLM usage is optional
