@@ -1,0 +1,96 @@
+2026-04-15 05:36:36,855 INFO Query Q1, Cluster 1, variant 1: 18 tables
+2026-04-15 05:36:36,856 INFO Query Q1, Cluster 1, variant 2: 18 tables
+2026-04-15 05:36:36,857 INFO Perspective: Focus on relationships and comparisons across the data — what can be contrasted or correlated?
+2026-04-15 05:36:36,858 INFO Perspective: Focus on trends and changes over time — what patterns or progressions does the data reveal?
+2026-04-15 05:36:44,045 INFO Query Q1, Cluster 1, variant 3: 18 tables
+2026-04-15 05:36:44,052 ERROR Error on QQ1 C1 v2: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=qwen/qwen3-32b
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-15 05:36:44,052 INFO Perspective: Focus on decision-making and actionability — what decisions or strategies could this data support?
+2026-04-15 05:36:44,057 INFO Query Q1, Cluster 3, variant 1: 13 tables
+2026-04-15 05:36:44,062 INFO Perspective: Focus on relationships and comparisons across the data — what can be contrasted or correlated?
+2026-04-15 05:36:44,058 ERROR Error on QQ1 C1 v1: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=qwen/qwen3-32b
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-15 05:36:50,410 INFO Query Q1, Cluster 3, variant 2: 13 tables
+2026-04-15 05:36:50,410 INFO Perspective: Focus on trends and changes over time — what patterns or progressions does the data reveal?
+2026-04-15 05:36:50,410 ERROR Error on QQ1 C3 v1: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=qwen/qwen3-32b
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-15 05:36:50,429 INFO Query Q1, Cluster 3, variant 3: 13 tables
+2026-04-15 05:36:50,429 INFO Perspective: Focus on decision-making and actionability — what decisions or strategies could this data support?
+2026-04-15 05:36:50,429 ERROR Error on QQ1 C1 v3: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=qwen/qwen3-32b
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-15 05:36:56,799 INFO Query Q2, Cluster 1, variant 1: 18 tables
+2026-04-15 05:36:56,802 INFO Perspective: Focus on relationships and comparisons across the data — what can be contrasted or correlated?
+2026-04-15 05:36:56,808 INFO Query Q2, Cluster 1, variant 2: 18 tables
+2026-04-15 05:36:56,808 ERROR Error on QQ1 C3 v2: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=qwen/qwen3-32b
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-15 05:36:56,810 ERROR Error on QQ1 C3 v3: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=qwen/qwen3-32b
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-15 05:36:56,809 INFO Perspective: Focus on trends and changes over time — what patterns or progressions does the data reveal?
+2026-04-15 05:37:03,057 INFO Query Q2, Cluster 1, variant 3: 18 tables
+2026-04-15 05:37:03,058 INFO Perspective: Focus on decision-making and actionability — what decisions or strategies could this data support?
+2026-04-15 05:37:03,058 ERROR Error on QQ2 C1 v1: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=qwen/qwen3-32b
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-15 05:37:03,113 INFO Query Q2, Cluster 10, variant 1: 3 tables
+2026-04-15 05:37:03,113 ERROR Error on QQ2 C1 v2: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=qwen/qwen3-32b
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-15 05:37:03,113 INFO Perspective: Focus on relationships and comparisons across the data — what can be contrasted or correlated?
+2026-04-15 05:37:09,231 INFO Query Q2, Cluster 10, variant 2: 3 tables
+2026-04-15 05:37:09,231 INFO Perspective: Focus on trends and changes over time — what patterns or progressions does the data reveal?
+2026-04-15 05:37:09,231 ERROR Error on QQ2 C1 v3: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=qwen/qwen3-32b
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-15 05:37:09,258 INFO Query Q2, Cluster 10, variant 3: 3 tables
+2026-04-15 05:37:09,258 ERROR Error on QQ2 C10 v1: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=qwen/qwen3-32b
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-15 05:37:09,258 INFO Perspective: Focus on decision-making and actionability — what decisions or strategies could this data support?
+2026-04-15 05:37:15,418 INFO Query Q2, Cluster 9, variant 1: 5 tables
+2026-04-15 05:37:15,418 ERROR Error on QQ2 C10 v2: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=qwen/qwen3-32b
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-15 05:37:15,418 INFO Perspective: Focus on relationships and comparisons across the data — what can be contrasted or correlated?
+2026-04-15 05:37:15,640 INFO Query Q2, Cluster 9, variant 2: 5 tables
+2026-04-15 05:37:15,640 ERROR Error on QQ2 C10 v3: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=qwen/qwen3-32b
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-15 05:37:15,641 INFO Perspective: Focus on trends and changes over time — what patterns or progressions does the data reveal?
+2026-04-15 05:37:21,813 INFO Query Q2, Cluster 9, variant 3: 5 tables
+2026-04-15 05:37:21,814 ERROR Error on QQ2 C9 v1: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=qwen/qwen3-32b
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-15 05:37:21,814 INFO Perspective: Focus on decision-making and actionability — what decisions or strategies could this data support?
+2026-04-15 05:37:21,855 INFO Query Q3, Cluster 1, variant 1: 18 tables
+2026-04-15 05:37:21,855 INFO Perspective: Focus on relationships and comparisons across the data — what can be contrasted or correlated?
+2026-04-15 05:37:21,859 ERROR Error on QQ2 C9 v2: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=qwen/qwen3-32b
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-15 05:37:28,073 INFO Query Q3, Cluster 1, variant 2: 18 tables
+2026-04-15 05:37:28,073 INFO Perspective: Focus on trends and changes over time — what patterns or progressions does the data reveal?
+2026-04-15 05:37:28,073 ERROR Error on QQ2 C9 v3: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=qwen/qwen3-32b
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-15 05:37:28,143 INFO Query Q3, Cluster 1, variant 3: 18 tables
+2026-04-15 05:37:28,143 ERROR Error on QQ3 C1 v1: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=qwen/qwen3-32b
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-15 05:37:28,143 INFO Perspective: Focus on decision-making and actionability — what decisions or strategies could this data support?
+2026-04-15 05:37:34,242 INFO Query Q3, Cluster 5, variant 1: 9 tables
+2026-04-15 05:37:34,242 ERROR Error on QQ3 C1 v2: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=qwen/qwen3-32b
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-15 05:37:34,242 INFO Perspective: Focus on relationships and comparisons across the data — what can be contrasted or correlated?
+2026-04-15 05:37:34,287 INFO Query Q3, Cluster 5, variant 2: 9 tables
+2026-04-15 05:37:34,288 INFO Perspective: Focus on trends and changes over time — what patterns or progressions does the data reveal?
+2026-04-15 05:37:34,289 ERROR Error on QQ3 C1 v3: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=qwen/qwen3-32b
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-15 05:37:40,542 INFO Query Q3, Cluster 5, variant 3: 9 tables
+2026-04-15 05:37:40,542 INFO Perspective: Focus on decision-making and actionability — what decisions or strategies could this data support?
+2026-04-15 05:37:40,555 ERROR Error on QQ3 C5 v2: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=qwen/qwen3-32b
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-15 05:37:40,560 INFO Query Q3, Cluster 10, variant 1: 3 tables
+2026-04-15 05:37:40,560 ERROR Error on QQ3 C5 v1: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=qwen/qwen3-32b
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-15 05:37:40,560 INFO Perspective: Focus on relationships and comparisons across the data — what can be contrasted or correlated?
+2026-04-15 05:37:46,829 INFO Query Q3, Cluster 10, variant 2: 3 tables
+2026-04-15 05:37:46,838 ERROR Error on QQ3 C10 v1: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=qwen/qwen3-32b
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-15 05:37:46,838 INFO Perspective: Focus on trends and changes over time — what patterns or progressions does the data reveal?
+2026-04-15 05:37:46,856 INFO Query Q3, Cluster 10, variant 3: 3 tables
+2026-04-15 05:37:46,859 INFO Perspective: Focus on decision-making and actionability — what decisions or strategies could this data support?
+2026-04-15 05:37:46,856 ERROR Error on QQ3 C5 v3: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=qwen/qwen3-32b
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-15 05:37:53,019 ERROR Error on QQ3 C10 v3: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=qwen/qwen3-32b
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-15 05:37:53,067 ERROR Error on QQ3 C10 v2: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=qwen/qwen3-32b
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
