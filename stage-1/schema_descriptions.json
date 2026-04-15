@@ -1,0 +1,2167 @@
+{
+  "T1": {
+    "domain": "General",
+    "title": "\"Weird Al\" Yankovic",
+    "columns": [
+      "Year",
+      "Title",
+      "Role"
+    ],
+    "description": "This table lists information related to \"Weird Al\" Yankovic, including years, titles of works, and associated roles. The sample data references a 1988 film titled 'Tapeheads'.",
+    "numeric_columns": [
+      "Year"
+    ],
+    "categorical_columns": [],
+    "entities": [
+      "Title"
+    ]
+  },
+  "T2": {
+    "domain": "General",
+    "title": "\"Weird Al\" Yankovic",
+    "columns": [
+      "Year",
+      "Title",
+      "Role",
+      "Notes"
+    ],
+    "description": "This table lists \"Weird Al\" Yankovic's roles in TV shows and films, including the year, title of the production, his role, and additional notes. It covers his career spanning from the 1970s to the 2000s.",
+    "numeric_columns": [
+      "Year"
+    ],
+    "categorical_columns": [
+      "Role",
+      "Notes"
+    ],
+    "entities": [
+      "Title"
+    ]
+  },
+  "T3": {
+    "domain": "General",
+    "title": "\"Weird Al\" Yankovic",
+    "columns": [
+      "Year",
+      "Title",
+      "Role",
+      "Notes"
+    ],
+    "description": "This table lists \"Weird Al\" Yankovic's roles in various projects over the years, including the year, title of the project, and additional notes.",
+    "numeric_columns": [
+      "Year"
+    ],
+    "categorical_columns": [
+      "Role"
+    ],
+    "entities": [
+      "Title"
+    ]
+  },
+  "T4": {
+    "domain": "Politics",
+    "title": "14th Parliament of British Columbia",
+    "columns": [
+      "Member",
+      "Electoral district",
+      "Party"
+    ],
+    "description": "This table lists members of the 14th Parliament of British Columbia, their associated electoral districts, and their political parties. It provides a snapshot of the political composition of the legislature during that period.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Party"
+    ],
+    "entities": [
+      "Member",
+      "Electoral district"
+    ]
+  },
+  "T5": {
+    "domain": "Sports",
+    "title": "1898 International Cross Country Championships",
+    "columns": [
+      "Rank",
+      "Athlete",
+      "Nationality",
+      "Time"
+    ],
+    "description": "This table lists participants of the 1898 International Cross Country Championships, including their rank, athlete name, nationality, and race time. It provides results for athletes such as Sidney Robinson, detailing their performance and country of origin.",
+    "numeric_columns": [
+      "Rank",
+      "Time"
+    ],
+    "categorical_columns": [
+      "Nationality"
+    ],
+    "entities": [
+      "Athlete"
+    ]
+  },
+  "T6": {
+    "domain": "Sports",
+    "title": "1913 International Cross Country Championships",
+    "columns": [
+      "Rank",
+      "Athlete",
+      "Nationality",
+      "Time"
+    ],
+    "description": "This table lists results from the 1913 International Cross Country Championships, including athlete rankings, names, nationalities, and race times.",
+    "numeric_columns": [
+      "Rank",
+      "Time"
+    ],
+    "categorical_columns": [
+      "Nationality"
+    ],
+    "entities": [
+      "Athlete"
+    ]
+  },
+  "T7": {
+    "domain": "Sports",
+    "title": "1920 International Cross Country Championships",
+    "columns": [
+      "Rank",
+      "Athlete",
+      "Nationality",
+      "Time"
+    ],
+    "description": "This table lists the results of the 1920 International Cross Country Championships, including athlete rankings, names, nationalities, and race times. Sample data highlights Scottish athlete Jim Wilson.",
+    "numeric_columns": [
+      "Rank",
+      "Time"
+    ],
+    "categorical_columns": [
+      "Nationality"
+    ],
+    "entities": [
+      "Athlete",
+      "Nationality"
+    ]
+  },
+  "T8": {
+    "domain": "Film/TV",
+    "title": "1954 in film",
+    "columns": [
+      "International market",
+      "Film",
+      "Studio",
+      "Revenue",
+      "Admissions",
+      "Production country"
+    ],
+    "description": "This table lists films from 1954 with details on their international market, revenue, admissions, and production countries. It includes information on the studios involved and the financial performance of each film.",
+    "numeric_columns": [
+      "Revenue",
+      "Admissions"
+    ],
+    "categorical_columns": [],
+    "entities": [
+      "International market",
+      "Film",
+      "Studio",
+      "Production country"
+    ]
+  },
+  "T9": {
+    "domain": "Music",
+    "title": "1955 in music",
+    "columns": [
+      "Composer",
+      "Composition",
+      "Date",
+      "Location",
+      "Performers"
+    ],
+    "description": "This table lists musical compositions from 1955, including details such as the composer, composition title, date, location, and performers involved.",
+    "numeric_columns": [
+      "Date"
+    ],
+    "categorical_columns": [],
+    "entities": [
+      "Composer",
+      "Composition",
+      "Location",
+      "Performers"
+    ]
+  },
+  "T10": {
+    "domain": "Film/TV",
+    "title": "1957 in film",
+    "columns": [
+      "Country",
+      "Title",
+      "Director",
+      "Studio",
+      "Revenue",
+      "Admissions"
+    ],
+    "description": "This table lists films from 1957, including their country of origin, title, director, studio, revenue, and admissions data. It provides information on the financial and cultural impact of films released that year.",
+    "numeric_columns": [
+      "Revenue",
+      "Admissions"
+    ],
+    "categorical_columns": [
+      "Country"
+    ],
+    "entities": [
+      "Country",
+      "Title",
+      "Director",
+      "Studio"
+    ]
+  },
+  "T11": {
+    "domain": "Music",
+    "title": "1964 in music",
+    "columns": [
+      "Composer",
+      "Composition",
+      "Date",
+      "Location",
+      "Performers"
+    ],
+    "description": "This table lists musical compositions and related details from 1964, including composers, works, performance dates, locations, and performers.",
+    "numeric_columns": [],
+    "categorical_columns": [],
+    "entities": [
+      "Composer",
+      "Composition",
+      "Location",
+      "Performers"
+    ]
+  },
+  "T12": {
+    "domain": "Music",
+    "title": "1970 in country music",
+    "columns": [
+      "US",
+      "CAN",
+      "Single",
+      "Artist"
+    ],
+    "description": "This table lists country music singles from 1970 along with their chart positions in the United States (US) and Canada (CAN), and the corresponding artists. It provides a snapshot of the top songs and their rankings during that year.",
+    "numeric_columns": [
+      "US",
+      "CAN"
+    ],
+    "categorical_columns": [],
+    "entities": [
+      "Single",
+      "Artist"
+    ]
+  },
+  "T13": {
+    "domain": "Film/TV",
+    "title": "1974 in film",
+    "columns": [
+      "Rank",
+      "Title",
+      "Studio",
+      "Domestic gross"
+    ],
+    "description": "This table lists 40 films from 1974 with their rankings, titles, production studios, and domestic box office earnings. It includes notable entries like 'Blazing Saddles' and provides financial data alongside studio information.",
+    "numeric_columns": [
+      "Rank",
+      "Domestic gross"
+    ],
+    "categorical_columns": [
+      "Studio"
+    ],
+    "entities": [
+      "Title",
+      "Studio"
+    ]
+  },
+  "T14": {
+    "domain": "Politics",
+    "title": "1st New Zealand Parliament",
+    "columns": [
+      "Member",
+      "Electorate",
+      "Province",
+      "Election date"
+    ],
+    "description": "This table lists members of the 1st New Zealand Parliament along with their electorates, provinces, and election dates. It provides historical data on the initial parliamentary representation in New Zealand.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Electorate",
+      "Province",
+      "Election date"
+    ],
+    "entities": [
+      "Member",
+      "Electorate",
+      "Province"
+    ]
+  },
+  "T15": {
+    "domain": "Geography",
+    "title": "2009 Salford City Reds season",
+    "columns": [
+      "Number",
+      "Player",
+      "Position",
+      "Previous Club"
+    ],
+    "description": "This table lists the 2009 Salford City Reds rugby league team's players, including their jersey numbers, positions on the field, and their previous clubs before joining the team.",
+    "numeric_columns": [
+      "Number"
+    ],
+    "categorical_columns": [
+      "Position"
+    ],
+    "entities": [
+      "Player",
+      "Previous Club"
+    ]
+  },
+  "T16": {
+    "domain": "Geography",
+    "title": "2010 Kansas City Chiefs season",
+    "columns": [
+      "Position",
+      "Player",
+      "Status*",
+      "2009 Team",
+      "2010 Team"
+    ],
+    "description": "This table provides information on the Kansas City Chiefs' 2010 season, listing players' positions, their status, and the teams they were associated with in 2009 and 2010.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Position",
+      "Status*",
+      "2009 Team",
+      "2010 Team"
+    ],
+    "entities": [
+      "Player",
+      "2009 Team",
+      "2010 Team"
+    ]
+  },
+  "T17": {
+    "domain": "Geography",
+    "title": "2011 Kansas City Chiefs season",
+    "columns": [
+      "Position",
+      "Player",
+      "Status*",
+      "2010 Team",
+      "2011 Team"
+    ],
+    "description": "This table tracks the 2011 Kansas City Chiefs season roster, listing players' positions, their status, and team affiliations in 2010 and 2011.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Position",
+      "Status*"
+    ],
+    "entities": [
+      "Player",
+      "2010 Team",
+      "2011 Team"
+    ]
+  },
+  "T18": {
+    "domain": "Politics",
+    "title": "28th Parliament of British Columbia",
+    "columns": [
+      "Member",
+      "Electoral district",
+      "Party"
+    ],
+    "description": "This table lists members of the 28th Legislative Assembly of British Columbia, their electoral districts, and political parties. It represents data from the 1966-1972 parliamentary term.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Party"
+    ],
+    "entities": [
+      "Member",
+      "Electoral district",
+      "Party"
+    ]
+  },
+  "T19": {
+    "domain": "Science",
+    "title": "History of RNA biology",
+    "columns": [
+      "Name",
+      "Dates",
+      "Awards"
+    ],
+    "description": "This table lists historical figures in RNA biology, including their names, dates of birth or significant events, and notable awards they have received.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Dates",
+      "Awards"
+    ],
+    "entities": [
+      "Name"
+    ]
+  },
+  "T20": {
+    "domain": "Science",
+    "title": "List of New World monkey species",
+    "columns": [
+      "Scientific name",
+      "Common name",
+      "Classified",
+      "Conservation status"
+    ],
+    "description": "This table lists 80 New World monkey species, including their scientific and common names, taxonomic classification, and conservation status. It provides data for scientific research on biodiversity and species preservation.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Classified",
+      "Conservation status"
+    ],
+    "entities": [
+      "Scientific name",
+      "Common name"
+    ]
+  },
+  "T21": {
+    "domain": "Science",
+    "title": "List of New World monkey species",
+    "columns": [
+      "Scientific name",
+      "Common name",
+      "Classified",
+      "Average size",
+      "Conservation status"
+    ],
+    "description": "The table lists New World monkey species with their scientific and common names, classification status, average sizes, and conservation statuses. It provides taxonomic and ecological information for 100 species.",
+    "numeric_columns": [
+      "Average size"
+    ],
+    "categorical_columns": [
+      "Classified",
+      "Conservation status"
+    ],
+    "entities": [
+      "Scientific name",
+      "Common name"
+    ]
+  },
+  "T22": {
+    "domain": "General",
+    "title": "10,000 metres",
+    "columns": [
+      "Year",
+      "Time",
+      "Athlete",
+      "Location"
+    ],
+    "description": "This table records results from 10,000 metres track and field events, including the year of the event, race time, athlete name, and competition location. It contains 80 rows of historical race data with associated metadata.",
+    "numeric_columns": [
+      "Year",
+      "Time"
+    ],
+    "categorical_columns": [],
+    "entities": [
+      "Athlete",
+      "Location"
+    ]
+  },
+  "T23": {
+    "domain": "General",
+    "title": "10,000 metres",
+    "columns": [
+      "Year",
+      "Time",
+      "Athlete",
+      "Location"
+    ],
+    "description": "This table records results from 10,000 metres athletic events, including the year of the event, race time, athlete name, and competition location.",
+    "numeric_columns": [
+      "Year",
+      "Time"
+    ],
+    "categorical_columns": [],
+    "entities": [
+      "Athlete",
+      "Location"
+    ]
+  },
+  "T24": {
+    "domain": "General",
+    "title": "10-second barrier",
+    "columns": [
+      "Date first broken",
+      "Athlete",
+      "Nationality",
+      "No . of times broken"
+    ],
+    "description": "This table records instances of the 10-second barrier in the 100m sprint being broken, including the date it was first broken, the athlete's name, their nationality, and the number of times the record was broken.",
+    "numeric_columns": [
+      "No . of times broken"
+    ],
+    "categorical_columns": [
+      "Nationality"
+    ],
+    "entities": [
+      "Athlete"
+    ]
+  },
+  "T25": {
+    "domain": "General",
+    "title": "100 metres hurdles",
+    "columns": [
+      "Year",
+      "Time",
+      "Athlete",
+      "Place"
+    ],
+    "description": "This table records results from the 100 metres hurdles event, including the year each race occurred, the athletes' times, the athletes' names, and the competition locations.",
+    "numeric_columns": [
+      "Year",
+      "Time"
+    ],
+    "categorical_columns": [
+      "Place"
+    ],
+    "entities": [
+      "Athlete",
+      "Place"
+    ]
+  },
+  "T26": {
+    "domain": "General",
+    "title": "100th Wisconsin Legislature",
+    "columns": [
+      "District",
+      "Representative",
+      "Party",
+      "Current Age",
+      "Residence",
+      "First Elected"
+    ],
+    "description": "This table lists members of the 100th Wisconsin Legislature, including their district, representative name, political party, current age, residence, and the year they were first elected.",
+    "numeric_columns": [
+      "Current Age",
+      "First Elected"
+    ],
+    "categorical_columns": [
+      "District",
+      "Party",
+      "Residence"
+    ],
+    "entities": [
+      "District",
+      "Representative",
+      "Party",
+      "Residence"
+    ]
+  },
+  "T27": {
+    "domain": "General",
+    "title": "102nd United States Congress",
+    "columns": [
+      "District",
+      "Vacator",
+      "Reason for change",
+      "Successor",
+      "Date of successor 's formal installation"
+    ],
+    "description": "This table documents changes in congressional representation during the 102nd United States Congress, including the district affected, the vacator, reason for the change, successor, and installation date.",
+    "numeric_columns": [
+      "Date of successor 's formal installation"
+    ],
+    "categorical_columns": [
+      "Reason for change"
+    ],
+    "entities": [
+      "District",
+      "Vacator",
+      "Successor"
+    ]
+  },
+  "T28": {
+    "domain": "General",
+    "title": "105th United States Congress",
+    "columns": [
+      "District",
+      "Vacator",
+      "Reason for change",
+      "Successor",
+      "Date of successor 's formal installation"
+    ],
+    "description": "This table records changes in U.S. congressional representation during the 105th Congress, including the district affected, the vacating representative, the reason for the change, their successor, and the installation date.",
+    "numeric_columns": [
+      "Date of successor's formal installation"
+    ],
+    "categorical_columns": [
+      "Reason for change"
+    ],
+    "entities": [
+      "District",
+      "Vacator",
+      "Successor"
+    ]
+  },
+  "T29": {
+    "domain": "General",
+    "title": "107th United States Congress",
+    "columns": [
+      "District",
+      "Vacator",
+      "Reason for change",
+      "Successor",
+      "Date of successor 's formal installation"
+    ],
+    "description": "This table lists changes in representation during the 107th United States Congress, including congressional districts, vacators, reasons for seat changes, successors, and installation dates. It documents 60 instances of vacancies and replacements, with details on the districts affected and the formal installation dates of successors.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "District",
+      "Reason for change"
+    ],
+    "entities": [
+      "Vacator",
+      "Successor"
+    ]
+  },
+  "T30": {
+    "domain": "General",
+    "title": "10th Manitoba Legislature",
+    "columns": [
+      "Member",
+      "Electoral district",
+      "Party"
+    ],
+    "description": "This table lists members of the 10th Manitoba Legislature, their electoral districts, and their political parties. It provides information on the Legislative Assembly of Manitoba from 1899 to 1914.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Party"
+    ],
+    "entities": [
+      "Member",
+      "Electoral district"
+    ]
+  },
+  "T31": {
+    "domain": "General",
+    "title": "10th Manitoba Legislature",
+    "columns": [
+      "Electoral district",
+      "Member elected",
+      "Affiliation",
+      "Election date",
+      "Reason"
+    ],
+    "description": "This table lists members of the 10th Manitoba Legislature, including their electoral districts, affiliations, and election details. It provides information on who was elected, their political alignment, and contextual details about the election process.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Affiliation",
+      "Reason"
+    ],
+    "entities": [
+      "Electoral district",
+      "Member elected"
+    ]
+  },
+  "T32": {
+    "domain": "General",
+    "title": "10th United States Congress",
+    "columns": [
+      "State ( class )",
+      "Vacator",
+      "Reason for change",
+      "Successor",
+      "Date of successor 's formal installation"
+    ],
+    "description": "The table lists changes in U.S. Senate seats during the 10th Congress, including the state, the vacating senator, the reason for the change, the successor, and the installation date.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Reason for change"
+    ],
+    "entities": [
+      "State ( class )",
+      "Vacator",
+      "Successor"
+    ]
+  },
+  "T33": {
+    "domain": "General",
+    "title": "10th United States Congress",
+    "columns": [
+      "District",
+      "Vacator",
+      "Reason for change",
+      "Successor",
+      "Date of successor 's formal installation"
+    ],
+    "description": "This table documents changes in representation during the 10th United States Congress, including congressional districts affected, individuals who vacated seats, reasons for the changes, successors appointed, and dates of their formal installation.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Reason for change"
+    ],
+    "entities": [
+      "District",
+      "Vacator",
+      "Successor"
+    ]
+  },
+  "T34": {
+    "domain": "General",
+    "title": "110 metres hurdles",
+    "columns": [
+      "Year",
+      "Time",
+      "Athlete",
+      "Location"
+    ],
+    "description": "This table records athletic performance data for the 110 metres hurdles event, including the year of the record, the athlete's time, the competitor's name, and the location where the performance occurred. It spans 80 entries documenting historical results.",
+    "numeric_columns": [
+      "Year",
+      "Time"
+    ],
+    "categorical_columns": [],
+    "entities": [
+      "Athlete",
+      "Location"
+    ]
+  },
+  "T35": {
+    "domain": "General",
+    "title": "111th United States Congress",
+    "columns": [
+      "State ( class )",
+      "Vacator",
+      "Reason for change",
+      "Successor",
+      "Date of successor 's formal installation"
+    ],
+    "description": "This table lists changes in U.S. Senate seats during the 111th Congress, including the state, vacator, reason for the change, successor, and installation date.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Reason for change"
+    ],
+    "entities": [
+      "State ( class )",
+      "Vacator",
+      "Successor"
+    ]
+  },
+  "T36": {
+    "domain": "General",
+    "title": "113th United States Congress",
+    "columns": [
+      "District",
+      "Vacator",
+      "Reason for change",
+      "Successor",
+      "Date of successor 's formal installation"
+    ],
+    "description": "This table lists vacancies and successors in the 113th United States Congress, detailing the congressional districts affected, the reasons for the changes, and the dates when successors were formally installed.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Reason for change"
+    ],
+    "entities": [
+      "District",
+      "Vacator",
+      "Successor"
+    ]
+  },
+  "T37": {
+    "domain": "General",
+    "title": "11th United States Congress",
+    "columns": [
+      "State ( class )",
+      "Vacator",
+      "Reason for change",
+      "Successor",
+      "Date of successor 's formal installation"
+    ],
+    "description": "This table lists changes in U.S. Senate representation during the 11th Congress, including states affected, individuals vacating seats, reasons for vacancies, successors, and installation dates.",
+    "numeric_columns": [
+      "Date of successor's formal installation"
+    ],
+    "categorical_columns": [
+      "Reason for change"
+    ],
+    "entities": [
+      "State ( class )",
+      "Vacator",
+      "Successor"
+    ]
+  },
+  "T38": {
+    "domain": "General",
+    "title": "11th United States Congress",
+    "columns": [
+      "District",
+      "Vacator",
+      "Reason for change",
+      "Successor",
+      "Date of successor 's formal installation"
+    ],
+    "description": "This table records instances of vacancies and successors in the 11th United States Congress, detailing the district affected, the vacator, the reason for the change, the successor, and the date of the successor's formal installation.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Reason for change"
+    ],
+    "entities": [
+      "District",
+      "Vacator",
+      "Successor"
+    ]
+  },
+  "T39": {
+    "domain": "General",
+    "title": "123rd Ohio General Assembly",
+    "columns": [
+      "District",
+      "Previous Senator",
+      "Reason for change",
+      "New Senator",
+      "Date"
+    ],
+    "description": "The table documents changes in Ohio Senate representation during the 123rd General Assembly, listing affected districts, outgoing and incoming senators, reasons for transitions, and dates of changes.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Reason for change"
+    ],
+    "entities": [
+      "District",
+      "Previous Senator",
+      "New Senator"
+    ]
+  },
+  "T40": {
+    "domain": "General",
+    "title": "127th Ohio General Assembly",
+    "columns": [
+      "District",
+      "Senator",
+      "Party",
+      "Residence",
+      "First elected",
+      "Term Limited"
+    ],
+    "description": "This table provides information on members of the 127th Ohio General Assembly, including their districts, party affiliations, residences, election dates, and term limits.",
+    "numeric_columns": [
+      "District",
+      "First elected"
+    ],
+    "categorical_columns": [
+      "Party",
+      "Term Limited"
+    ],
+    "entities": [
+      "Senator",
+      "Residence"
+    ]
+  },
+  "T41": {
+    "domain": "General",
+    "title": "127th Ohio General Assembly",
+    "columns": [
+      "District",
+      "Representative",
+      "Party",
+      "Residence",
+      "First Elected",
+      "Term Limited"
+    ],
+    "description": "This table lists members of the 127th Ohio General Assembly, including their district numbers, names, political parties, residences, years first elected, and term limit statuses.",
+    "numeric_columns": [
+      "District",
+      "First Elected"
+    ],
+    "categorical_columns": [
+      "Term Limited"
+    ],
+    "entities": [
+      "Representative",
+      "Residence",
+      "Party"
+    ]
+  },
+  "T42": {
+    "domain": "General",
+    "title": "128th Ohio General Assembly",
+    "columns": [
+      "District",
+      "Senator",
+      "Party",
+      "Residence",
+      "First elected",
+      "Term Limited"
+    ],
+    "description": "This table lists members of the 128th Ohio General Assembly, including their district numbers, names, political parties, residences, election years, and term limit status. It contains 120 rows and 6 columns.",
+    "numeric_columns": [
+      "First elected"
+    ],
+    "categorical_columns": [
+      "District",
+      "Party",
+      "Term Limited"
+    ],
+    "entities": [
+      "Senator",
+      "Residence"
+    ]
+  },
+  "T43": {
+    "domain": "General",
+    "title": "128th Ohio General Assembly",
+    "columns": [
+      "District",
+      "Representative",
+      "Party",
+      "Residence",
+      "First Elected",
+      "Term Limited"
+    ],
+    "description": "This table lists members of the 128th Ohio General Assembly, including their districts, political parties, residences, election years, and term limit status.",
+    "numeric_columns": [
+      "District",
+      "First Elected"
+    ],
+    "categorical_columns": [
+      "Party",
+      "Term Limited"
+    ],
+    "entities": [
+      "Representative",
+      "Residence"
+    ]
+  },
+  "T44": {
+    "domain": "General",
+    "title": "129th Ohio General Assembly",
+    "columns": [
+      "District",
+      "Senator",
+      "Party",
+      "Residence",
+      "First elected",
+      "Term Limited"
+    ],
+    "description": "This table lists members of the 129th Ohio General Assembly, including their senatorial districts, political parties, residences, years first elected, and term limit status.",
+    "numeric_columns": [
+      "First elected"
+    ],
+    "categorical_columns": [
+      "District",
+      "Party",
+      "Term Limited"
+    ],
+    "entities": [
+      "Senator",
+      "Residence"
+    ]
+  },
+  "T45": {
+    "domain": "General",
+    "title": "129th Ohio General Assembly",
+    "columns": [
+      "District",
+      "Representative",
+      "Party",
+      "Residence",
+      "First Elected",
+      "Term Limited"
+    ],
+    "description": "This table lists members of the 129th Ohio General Assembly, including their districts, names, political parties, residences, and election details. It provides information on when they were first elected and their term limits.",
+    "numeric_columns": [
+      "District",
+      "First Elected"
+    ],
+    "categorical_columns": [
+      "Party",
+      "Term Limited"
+    ],
+    "entities": [
+      "Representative",
+      "Residence",
+      "District"
+    ]
+  },
+  "T46": {
+    "domain": "General",
+    "title": "129th Ohio General Assembly",
+    "columns": [
+      "District",
+      "Predecessor",
+      "Reason for change",
+      "Successor",
+      "Date successor seated"
+    ],
+    "description": "This table tracks changes in representatives during the 129th Ohio General Assembly, listing districts, predecessors, reasons for changes, successors, and dates successors were seated.",
+    "numeric_columns": [
+      "Date successor seated"
+    ],
+    "categorical_columns": [
+      "District",
+      "Reason for change"
+    ],
+    "entities": [
+      "Predecessor",
+      "Successor"
+    ]
+  },
+  "T47": {
+    "domain": "General",
+    "title": "129th Ohio General Assembly",
+    "columns": [
+      "District",
+      "Predecessor",
+      "Reason for change",
+      "Successor",
+      "Date successor seated"
+    ],
+    "description": "This table lists changes in representation during the 129th Ohio General Assembly, including the district, predecessor, reason for the change, successor, and the date the successor was seated.",
+    "numeric_columns": [
+      "District"
+    ],
+    "categorical_columns": [
+      "Reason for change"
+    ],
+    "entities": [
+      "District",
+      "Predecessor",
+      "Successor"
+    ]
+  },
+  "T48": {
+    "domain": "General",
+    "title": "130th Ohio General Assembly",
+    "columns": [
+      "District",
+      "Senator",
+      "Party",
+      "Residence",
+      "First elected",
+      "Term Limited"
+    ],
+    "description": "This table lists members of the 130th Ohio General Assembly, including their districts, political parties, residences, election dates, and term limit status. It provides data on Ohio Senate representatives and their associated information.",
+    "numeric_columns": [
+      "First elected"
+    ],
+    "categorical_columns": [
+      "Party",
+      "Term Limited"
+    ],
+    "entities": [
+      "District",
+      "Senator",
+      "Residence"
+    ]
+  },
+  "T49": {
+    "domain": "General",
+    "title": "130th Ohio General Assembly",
+    "columns": [
+      "District",
+      "Representative",
+      "Party",
+      "Residence",
+      "First Elected",
+      "Term Limited"
+    ],
+    "description": "This table lists members of the 130th Ohio General Assembly, including their district numbers, names, political parties, residences, election years, and term limit status.",
+    "numeric_columns": [
+      "District",
+      "First Elected"
+    ],
+    "categorical_columns": [
+      "Party",
+      "Term Limited"
+    ],
+    "entities": [
+      "Representative",
+      "Residence"
+    ]
+  },
+  "T50": {
+    "domain": "General",
+    "title": "13th Manitoba Legislature",
+    "columns": [
+      "Member",
+      "Electoral district",
+      "Party"
+    ],
+    "description": "This table lists members of the 13th Manitoba Legislature, their electoral districts, and political parties. It contains 60 rows and 3 columns, providing information on the legislators and their affiliations during that legislative period.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Party"
+    ],
+    "entities": [
+      "Member",
+      "Electoral district",
+      "Party"
+    ]
+  },
+  "T51": {
+    "domain": "General",
+    "title": "13th United States Congress",
+    "columns": [
+      "District",
+      "Vacator",
+      "Reason for change",
+      "Successor",
+      "Date of successor 's formal installation"
+    ],
+    "description": "This table records changes in representatives during the 13th United States Congress, including the district affected, the vacator, the reason for the change, the successor, and the installation date of the successor.",
+    "numeric_columns": [
+      "Date of successor 's formal installation"
+    ],
+    "categorical_columns": [
+      "Reason for change"
+    ],
+    "entities": [
+      "District",
+      "Vacator",
+      "Successor"
+    ]
+  },
+  "T52": {
+    "domain": "General",
+    "title": "1500 metres",
+    "columns": [
+      "Year",
+      "Time",
+      "Athlete",
+      "Location"
+    ],
+    "description": "This table records 1500 meters race results, including the year of the event, the athlete's time, the competitor's name, and the location where the race took place. It spans 80 entries with data from various years and locations.",
+    "numeric_columns": [
+      "Year"
+    ],
+    "categorical_columns": [],
+    "entities": [
+      "Athlete",
+      "Location"
+    ]
+  },
+  "T53": {
+    "domain": "General",
+    "title": "1500 metres",
+    "columns": [
+      "Year",
+      "Time",
+      "Athlete",
+      "Location"
+    ],
+    "description": "This table records 1500 metres race results, including the year of the event, the recorded time, the athlete's name, and the location where the race took place. It contains 64 entries spanning multiple years with associated performance data.",
+    "numeric_columns": [
+      "Year"
+    ],
+    "categorical_columns": [
+      "Time"
+    ],
+    "entities": [
+      "Athlete",
+      "Location"
+    ]
+  },
+  "T54": {
+    "domain": "General",
+    "title": "1500 metres world record progression",
+    "columns": [
+      "Time",
+      "Athlete",
+      "Date",
+      "Place"
+    ],
+    "description": "This table tracks the progression of 1500 metres world records, listing the time achieved, the athlete who set the record, the date it was set, and the location. It provides a historical overview of improvements in this athletic event.",
+    "numeric_columns": [
+      "Time"
+    ],
+    "categorical_columns": [
+      "Date"
+    ],
+    "entities": [
+      "Athlete",
+      "Place"
+    ]
+  },
+  "T55": {
+    "domain": "General",
+    "title": "1500 metres world record progression",
+    "columns": [
+      "Time",
+      "Athlete",
+      "Date",
+      "Place"
+    ],
+    "description": "This table tracks the progression of 1500 metres world records over time, listing the recorded time, athlete name, date of achievement, and location. Each row represents a new record set by an athlete.",
+    "numeric_columns": [
+      "Time"
+    ],
+    "categorical_columns": [],
+    "entities": [
+      "Athlete",
+      "Place"
+    ]
+  },
+  "T56": {
+    "domain": "General",
+    "title": "1500 metres world record progression",
+    "columns": [
+      "Time",
+      "Athlete",
+      "Date",
+      "Place"
+    ],
+    "description": "This table tracks the progression of the 1500 metres world record over time, listing the recorded time, athlete name, date of achievement, and location. It documents improvements in the record through historical data entries.",
+    "numeric_columns": [
+      "Time"
+    ],
+    "categorical_columns": [
+      "Date"
+    ],
+    "entities": [
+      "Athlete",
+      "Place"
+    ]
+  },
+  "T57": {
+    "domain": "General",
+    "title": "1500 metres world record progression",
+    "columns": [
+      "Time",
+      "Athlete",
+      "Date",
+      "Place"
+    ],
+    "description": "This table documents the progression of the 1500 metres world record, including the time achieved, the athlete who set the record, the date of the event, and the location where it occurred.",
+    "numeric_columns": [
+      "Time"
+    ],
+    "categorical_columns": [],
+    "entities": [
+      "Athlete",
+      "Place"
+    ]
+  },
+  "T58": {
+    "domain": "General",
+    "title": "15th Legislative Assembly of Puerto Rico",
+    "columns": [
+      "Senator",
+      "Party",
+      "District"
+    ],
+    "description": "This table lists members of the 15th Legislative Assembly of Puerto Rico, including their names, political parties, and electoral districts. It provides information on senators' affiliations and geographic representation.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Party",
+      "District"
+    ],
+    "entities": [
+      "Senator"
+    ]
+  },
+  "T59": {
+    "domain": "General",
+    "title": "1790 United States Census",
+    "columns": [
+      "Rank",
+      "City",
+      "State",
+      "Population",
+      "Region ( 2016 )",
+      "Population ( 2010 )"
+    ],
+    "description": "This table lists cities from the 1790 United States Census, including their rank, population, and regional classifications. It provides historical population data alongside modern regional groupings.",
+    "numeric_columns": [
+      "Rank",
+      "Population",
+      "Population ( 2010 )"
+    ],
+    "categorical_columns": [
+      "Region ( 2016 )"
+    ],
+    "entities": [
+      "City",
+      "State"
+    ]
+  },
+  "T60": {
+    "domain": "General",
+    "title": "17th Manitoba Legislature",
+    "columns": [
+      "Member",
+      "Electoral district",
+      "Party"
+    ],
+    "description": "This table lists members of the 17th Manitoba Legislature, their electoral districts, and their political parties. It provides information on the legislators who served during the 1922-1935 period.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Electoral district",
+      "Party"
+    ],
+    "entities": [
+      "Member",
+      "Electoral district",
+      "Party"
+    ]
+  },
+  "T61": {
+    "domain": "General",
+    "title": "17th Legislative Assembly of Puerto Rico",
+    "columns": [
+      "District",
+      "Name",
+      "Political party"
+    ],
+    "description": "This table lists the 60 members of the 17th Legislative Assembly of Puerto Rico, including their electoral districts, names, and political party affiliations. It provides a breakdown of representation across districts and political groups.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "District",
+      "Political party"
+    ],
+    "entities": [
+      "Name"
+    ]
+  },
+  "T62": {
+    "domain": "General",
+    "title": "17th Legislative Assembly of Puerto Rico",
+    "columns": [
+      "District",
+      "Name",
+      "Political party"
+    ],
+    "description": "This table lists members of the 17th Legislative Assembly of Puerto Rico, including their district representation, names, and political party affiliations. It contains 60 entries representing the assembly's composition.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "District",
+      "Political party"
+    ],
+    "entities": [
+      "Name"
+    ]
+  },
+  "T63": {
+    "domain": "General",
+    "title": "1884 New Zealand rugby union tour of New South Wales",
+    "columns": [
+      "Name",
+      "Position",
+      "Province"
+    ],
+    "description": "This table lists players from the 1884 New Zealand rugby union tour of New South Wales, including their positions and provinces. It provides information on individual athletes and their team affiliations during the tour.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Position"
+    ],
+    "entities": [
+      "Name",
+      "Province"
+    ]
+  },
+  "T64": {
+    "domain": "General",
+    "title": "1884 New Zealand rugby union tour of New South Wales",
+    "columns": [
+      "#",
+      "Date",
+      "Rival",
+      "City",
+      "Venue",
+      "Score"
+    ],
+    "description": "This table records details of matches from the 1884 New Zealand rugby union tour in New South Wales, including match numbers, dates, opposing teams, cities, venues, and scores.",
+    "numeric_columns": [
+      "#",
+      "Score"
+    ],
+    "categorical_columns": [
+      "Date"
+    ],
+    "entities": [
+      "Rival",
+      "City",
+      "Venue"
+    ]
+  },
+  "T65": {
+    "domain": "General",
+    "title": "1893 New Zealand rugby union tour of Australia",
+    "columns": [
+      "Name",
+      "Position",
+      "Province"
+    ],
+    "description": "This table lists players from the 1893 New Zealand rugby union tour of Australia, including their playing positions and provincial affiliations.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Position"
+    ],
+    "entities": [
+      "Name",
+      "Province"
+    ]
+  },
+  "T66": {
+    "domain": "General",
+    "title": "1893 New Zealand rugby union tour of Australia",
+    "columns": [
+      "#",
+      "Date",
+      "Rival",
+      "City",
+      "Venue",
+      "Score"
+    ],
+    "description": "This table records details of the 1893 New Zealand rugby union tour matches against Australia. It includes the match number, date, opposing team, location, venue, and score for each game.",
+    "numeric_columns": [
+      "#",
+      "Score"
+    ],
+    "categorical_columns": [
+      "Date"
+    ],
+    "entities": [
+      "Rival",
+      "City",
+      "Venue"
+    ]
+  },
+  "T67": {
+    "domain": "General",
+    "title": "1897 New Zealand rugby union tour of Australia",
+    "columns": [
+      "Name",
+      "Position",
+      "Province"
+    ],
+    "description": "This table lists players from the 1897 New Zealand rugby union tour of Australia, including their positions on the team and the provinces they represented.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Position",
+      "Province"
+    ],
+    "entities": [
+      "Name"
+    ]
+  },
+  "T68": {
+    "domain": "General",
+    "title": "18th United States Congress",
+    "columns": [
+      "State ( class )",
+      "Vacator",
+      "Reason for change",
+      "Successor",
+      "Date of successor 's formal installation"
+    ],
+    "description": "This table lists changes in U.S. Senate seats during the 18th Congress, including the state and class of the seat, the vacator, reason for the change, successor, and installation date.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Reason for change"
+    ],
+    "entities": [
+      "State ( class )",
+      "Vacator",
+      "Successor"
+    ]
+  },
+  "T69": {
+    "domain": "General",
+    "title": "18th United States Congress",
+    "columns": [
+      "District",
+      "Vacator",
+      "Reason for change",
+      "Successor",
+      "Date of successor 's formal installation"
+    ],
+    "description": "This table documents changes in representation during the 18th United States Congress, including the congressional district affected, the vacator, the reason for the change, the successor, and the date of the successor's formal installation.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Reason for change"
+    ],
+    "entities": [
+      "District",
+      "Vacator",
+      "Successor"
+    ]
+  },
+  "T70": {
+    "domain": "General",
+    "title": "1903 New Zealand rugby union tour of Australia",
+    "columns": [
+      "Name",
+      "Position",
+      "Province"
+    ],
+    "description": "This table lists players from the 1903 New Zealand rugby union tour of Australia, including their playing positions and provinces they represented.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Position",
+      "Province"
+    ],
+    "entities": [
+      "Name"
+    ]
+  },
+  "T71": {
+    "domain": "General",
+    "title": "1903 New Zealand rugby union tour of Australia",
+    "columns": [
+      "#",
+      "Date",
+      "Rival",
+      "City",
+      "Venue",
+      "Score"
+    ],
+    "description": "This table records details of the 1903 New Zealand rugby union tour of Australia, including game numbers, dates, opposing teams, cities, venues, and scores.",
+    "numeric_columns": [
+      "#",
+      "Score"
+    ],
+    "categorical_columns": [
+      "Date"
+    ],
+    "entities": [
+      "Rival",
+      "City",
+      "Venue"
+    ]
+  },
+  "T72": {
+    "domain": "General",
+    "title": "1910 New Zealand rugby union tour of Australia",
+    "columns": [
+      "#",
+      "Date",
+      "Rival",
+      "City",
+      "Venue",
+      "Score"
+    ],
+    "description": "This table records details of the 1910 New Zealand rugby union tour matches in Australia, including match numbers, dates, opposing teams, locations, venues, and scores.",
+    "numeric_columns": [
+      "#",
+      "Score"
+    ],
+    "categorical_columns": [
+      "Date",
+      "Rival",
+      "City",
+      "Venue"
+    ],
+    "entities": [
+      "Rival",
+      "City",
+      "Venue"
+    ]
+  },
+  "T73": {
+    "domain": "General",
+    "title": "1913 New Zealand rugby union tour of North America",
+    "columns": [
+      "Rival",
+      "Date",
+      "Venue",
+      "City",
+      "Country",
+      "Score"
+    ],
+    "description": "The table records details of matches from the 1913 New Zealand rugby union tour of North America, including opponents, dates, locations, and scores.",
+    "numeric_columns": [
+      "Score"
+    ],
+    "categorical_columns": [
+      "Date"
+    ],
+    "entities": [
+      "Rival",
+      "Venue",
+      "City",
+      "Country"
+    ]
+  },
+  "T74": {
+    "domain": "General",
+    "title": "1914 New Zealand rugby union tour of Australia",
+    "columns": [
+      "Name",
+      "Position",
+      "Province"
+    ],
+    "description": "This table lists players from the 1914 New Zealand rugby union tour of Australia, including their playing positions and provinces. It provides historical data on team composition during the event.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Position"
+    ],
+    "entities": [
+      "Name",
+      "Province"
+    ]
+  },
+  "T75": {
+    "domain": "General",
+    "title": "1914 New Zealand rugby union tour of Australia",
+    "columns": [
+      "#",
+      "Date",
+      "Rival",
+      "City",
+      "Venue",
+      "Score"
+    ],
+    "description": "The table lists matches from the 1914 New Zealand rugby union tour of Australia, including game numbers, dates, opposing teams, cities, venues, and scores.",
+    "numeric_columns": [
+      "#",
+      "Score"
+    ],
+    "categorical_columns": [
+      "Date"
+    ],
+    "entities": [
+      "Rival",
+      "City",
+      "Venue"
+    ]
+  },
+  "T76": {
+    "domain": "General",
+    "title": "1920 New Zealand rugby union tour of New South Wales",
+    "columns": [
+      "#",
+      "Date",
+      "Rival",
+      "City",
+      "Venue",
+      "Score"
+    ],
+    "description": "This table lists matches from the 1920 New Zealand rugby union tour of New South Wales, including match numbers, dates, opposing teams, cities, venues, and scores.",
+    "numeric_columns": [
+      "#",
+      "Score"
+    ],
+    "categorical_columns": [
+      "Date"
+    ],
+    "entities": [
+      "Rival",
+      "City",
+      "Venue"
+    ]
+  },
+  "T77": {
+    "domain": "Sports",
+    "title": "1921 International Cross Country Championships",
+    "columns": [
+      "Rank",
+      "Athlete",
+      "Nationality",
+      "Time"
+    ],
+    "description": "This table lists the results of the 1921 International Cross Country Championships, including the rank, athlete name, nationality, and race time for participants.",
+    "numeric_columns": [
+      "Rank",
+      "Time"
+    ],
+    "categorical_columns": [
+      "Nationality"
+    ],
+    "entities": [
+      "Athlete"
+    ]
+  },
+  "T78": {
+    "domain": "Sports",
+    "title": "1923 International Cross Country Championships",
+    "columns": [
+      "Rank",
+      "Athlete",
+      "Nationality",
+      "Time"
+    ],
+    "description": "This table lists the results of the 1923 International Cross Country Championships, including the rank, athlete name, nationality, and time for each participant.",
+    "numeric_columns": [
+      "Rank",
+      "Time"
+    ],
+    "categorical_columns": [
+      "Nationality"
+    ],
+    "entities": [
+      "Athlete"
+    ]
+  },
+  "T79": {
+    "domain": "Sports",
+    "title": "1924 International Cross Country Championships",
+    "columns": [
+      "Rank",
+      "Athlete",
+      "Nationality",
+      "Time"
+    ],
+    "description": "This table lists results from the 1924 International Cross Country Championships, showing athletes' ranks, names, nationalities, and race times.",
+    "numeric_columns": [
+      "Rank",
+      "Time"
+    ],
+    "categorical_columns": [
+      "Nationality"
+    ],
+    "entities": [
+      "Athlete"
+    ]
+  },
+  "T80": {
+    "domain": "Sports",
+    "title": "1926 International Cross Country Championships",
+    "columns": [
+      "Rank",
+      "Athlete",
+      "Nationality",
+      "Time"
+    ],
+    "description": "This table lists athletes from the 1926 International Cross Country Championships, including their rank, nationality, and race time. It highlights competitors like Ernie Harper, an English athlete who participated in multiple Olympics.",
+    "numeric_columns": [
+      "Rank",
+      "Time"
+    ],
+    "categorical_columns": [
+      "Nationality"
+    ],
+    "entities": [
+      "Athlete"
+    ]
+  },
+  "T81": {
+    "domain": "General",
+    "title": "1927 British Lions tour to Argentina",
+    "columns": [
+      "#",
+      "Date",
+      "Rival",
+      "City",
+      "Venue",
+      "Score"
+    ],
+    "description": "The table lists matches from the 1927 British Lions tour to Argentina, including the match number, date, opposing team, city, venue, and score.",
+    "numeric_columns": [
+      "#",
+      "Score"
+    ],
+    "categorical_columns": [
+      "Date"
+    ],
+    "entities": [
+      "Rival",
+      "City",
+      "Venue"
+    ]
+  },
+  "T82": {
+    "domain": "Sports",
+    "title": "1929 International Cross Country Championships",
+    "columns": [
+      "Rank",
+      "Athlete",
+      "Nationality",
+      "Time"
+    ],
+    "description": "This table lists results from the 1929 International Cross Country Championships, showing athlete rankings, their nationalities, and competition times.",
+    "numeric_columns": [
+      "Rank",
+      "Time"
+    ],
+    "categorical_columns": [
+      "Nationality"
+    ],
+    "entities": [
+      "Athlete"
+    ]
+  },
+  "T83": {
+    "domain": "Sports",
+    "title": "1929 International Cross Country Championships",
+    "columns": [
+      "Rank",
+      "Country",
+      "Team",
+      "Points"
+    ],
+    "description": "This table lists the results of the 1929 International Cross Country Championships, showing the rank, country, team name, and points earned by each participating nation.",
+    "numeric_columns": [
+      "Rank",
+      "Points"
+    ],
+    "categorical_columns": [],
+    "entities": [
+      "Country",
+      "Team"
+    ]
+  },
+  "T84": {
+    "domain": "Sports",
+    "title": "1931 International Cross Country Championships",
+    "columns": [
+      "Rank",
+      "Athlete",
+      "Nationality"
+    ],
+    "description": "This table lists athletes and their nationalities from the 1931 International Cross Country Championships, including their competition ranks. It provides results for individual competitors in an international sporting event.",
+    "numeric_columns": [
+      "Rank"
+    ],
+    "categorical_columns": [
+      "Nationality"
+    ],
+    "entities": [
+      "Athlete"
+    ]
+  },
+  "T85": {
+    "domain": "Sports",
+    "title": "1933 International Cross Country Championships",
+    "columns": [
+      "Rank",
+      "Athlete",
+      "Nationality",
+      "Time"
+    ],
+    "description": "This table lists results from the 1933 International Cross Country Championships, showing athlete rankings, names, nationalities, and race times. It captures competitive sports data with participant details and performance metrics.",
+    "numeric_columns": [
+      "Rank",
+      "Time"
+    ],
+    "categorical_columns": [
+      "Nationality"
+    ],
+    "entities": [
+      "Athlete"
+    ]
+  },
+  "T86": {
+    "domain": "General",
+    "title": "1933 Mannin Moar",
+    "columns": [
+      "Pos",
+      "Driver",
+      "Car Constructor",
+      "Time ( Diff . ) /Status"
+    ],
+    "description": "The table lists results from the 1933 Mannin Moar motorsport event, including driver positions, car constructors, and race times or statuses.",
+    "numeric_columns": [
+      "Pos"
+    ],
+    "categorical_columns": [
+      "Time ( Diff . ) /Status"
+    ],
+    "entities": [
+      "Driver",
+      "Car Constructor"
+    ]
+  },
+  "T87": {
+    "domain": "Sports",
+    "title": "1935 College Football All-America Team",
+    "columns": [
+      "Name",
+      "Position",
+      "School",
+      "Number",
+      "Official",
+      "Other"
+    ],
+    "description": "This table lists the 1935 College Football All-America Team members, including their positions, schools, and additional classifications. It provides historical data on standout college football players recognized that year.",
+    "numeric_columns": [
+      "Number"
+    ],
+    "categorical_columns": [
+      "Position",
+      "Official",
+      "Other"
+    ],
+    "entities": [
+      "Name",
+      "School"
+    ]
+  },
+  "T88": {
+    "domain": "General",
+    "title": "1936 Tour de France",
+    "columns": [
+      "Stage",
+      "Rider",
+      "Height",
+      "Mountain range",
+      "Winner"
+    ],
+    "description": "This table lists data from the 1936 Tour de France, including stages, riders, mountain ranges, and winners. It provides information on each stage's details such as height and the corresponding mountain range.",
+    "numeric_columns": [
+      "Stage",
+      "Height"
+    ],
+    "categorical_columns": [
+      "Mountain range"
+    ],
+    "entities": [
+      "Rider",
+      "Winner",
+      "Mountain range"
+    ]
+  },
+  "T89": {
+    "domain": "General",
+    "title": "1937 Campbell Trophy",
+    "columns": [
+      "Pos",
+      "Driver",
+      "Car Constructor",
+      "Time ( Diff . ) /Status"
+    ],
+    "description": "This table lists results from the 1937 Campbell Trophy event, including driver positions, names, car constructors, and race times/status. It features historical racing data with entries like Prince Bira.",
+    "numeric_columns": [
+      "Pos"
+    ],
+    "categorical_columns": [
+      "Car Constructor"
+    ],
+    "entities": [
+      "Driver",
+      "Car Constructor"
+    ]
+  },
+  "T90": {
+    "domain": "Sports",
+    "title": "1939 College Football All-America Team",
+    "columns": [
+      "Name",
+      "Position",
+      "School",
+      "Number",
+      "Official",
+      "Other"
+    ],
+    "description": "This table lists the 1939 College Football All-America Team members, including their positions, schools, jersey numbers, official designations, and other categories. It contains 72 players with details on their roles and affiliations.",
+    "numeric_columns": [
+      "Number"
+    ],
+    "categorical_columns": [
+      "Position",
+      "Official",
+      "Other"
+    ],
+    "entities": [
+      "Name",
+      "School"
+    ]
+  },
+  "T91": {
+    "domain": "Sports",
+    "title": "1943 College Football All-America Team",
+    "columns": [
+      "Name",
+      "Position",
+      "School",
+      "Number",
+      "Official selectors",
+      "Other selectors"
+    ],
+    "description": "This table lists the 1943 College Football All-America Team members, including their positions, schools, jersey numbers, and selectors. It provides a historical record of recognized college football players and their affiliations.",
+    "numeric_columns": [
+      "Number"
+    ],
+    "categorical_columns": [
+      "Position"
+    ],
+    "entities": [
+      "Name",
+      "School"
+    ]
+  },
+  "T92": {
+    "domain": "Sports",
+    "title": "1946 Notre Dame Fighting Irish football team",
+    "columns": [
+      "Name",
+      "Position",
+      "Year Inducted"
+    ],
+    "description": "This table lists members of the 1946 Notre Dame Fighting Irish football team, including their names, positions played, and years inducted into halls of fame. It highlights athletes recognized for their collegiate and professional achievements.",
+    "numeric_columns": [
+      "Year Inducted"
+    ],
+    "categorical_columns": [
+      "Position"
+    ],
+    "entities": [
+      "Name"
+    ]
+  },
+  "T93": {
+    "domain": "General",
+    "title": "1947 BAA draft",
+    "columns": [
+      "Round",
+      "Pick",
+      "Player",
+      "Position",
+      "Team",
+      "College"
+    ],
+    "description": "This table lists the 1947 BAA draft selections, including the round and pick number for each player, their position, the team that selected them, and their college affiliation.",
+    "numeric_columns": [
+      "Round",
+      "Pick"
+    ],
+    "categorical_columns": [
+      "Position"
+    ],
+    "entities": [
+      "Player",
+      "Team",
+      "College"
+    ]
+  },
+  "T94": {
+    "domain": "General",
+    "title": "1947 BAA draft",
+    "columns": [
+      "Round",
+      "Pick",
+      "Player",
+      "Position",
+      "Team",
+      "College"
+    ],
+    "description": "This table lists the 1947 BAA draft selections, including the draft round, pick number, player name, position, team, and college attended. It provides historical data on players drafted into professional basketball.",
+    "numeric_columns": [
+      "Round",
+      "Pick"
+    ],
+    "categorical_columns": [
+      "Position"
+    ],
+    "entities": [
+      "Player",
+      "Team",
+      "College"
+    ]
+  },
+  "T95": {
+    "domain": "General",
+    "title": "1947 BAA draft",
+    "columns": [
+      "Player",
+      "Position",
+      "College"
+    ],
+    "description": "This table lists players selected in the 1947 BAA draft, including their positions and colleges. It provides historical data on early professional basketball draft participants.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Position"
+    ],
+    "entities": [
+      "Player",
+      "College"
+    ]
+  },
+  "T96": {
+    "domain": "General",
+    "title": "1948 BAA draft",
+    "columns": [
+      "Round",
+      "Pick",
+      "Player",
+      "Position",
+      "Team",
+      "College"
+    ],
+    "description": "This table lists the 1948 BAA draft selections, including the round and pick number for each player, their position, the team that selected them, and their college affiliation.",
+    "numeric_columns": [
+      "Round",
+      "Pick"
+    ],
+    "categorical_columns": [
+      "Position"
+    ],
+    "entities": [
+      "Player",
+      "Team",
+      "College"
+    ]
+  },
+  "T97": {
+    "domain": "General",
+    "title": "1948 BAA draft",
+    "columns": [
+      "Round",
+      "Pick",
+      "Player",
+      "Position",
+      "Team",
+      "College"
+    ],
+    "description": "This table lists the 1948 BAA draft selections, including the draft round, pick number, player name, position, team, and college attended. It provides a historical record of players selected in the draft along with their associated teams and educational backgrounds.",
+    "numeric_columns": [
+      "Round",
+      "Pick"
+    ],
+    "categorical_columns": [
+      "Position"
+    ],
+    "entities": [
+      "Player",
+      "Team",
+      "College"
+    ]
+  },
+  "T98": {
+    "domain": "General",
+    "title": "1948 BAA draft",
+    "columns": [
+      "Player",
+      "Position",
+      "College"
+    ],
+    "description": "This table lists players selected in the 1948 BAA draft, including their positions and colleges. It contains 33 entries with columns for Player, Position, and College. Some players, like Joe Colone, have additional information linked.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Position"
+    ],
+    "entities": [
+      "Player",
+      "College"
+    ]
+  },
+  "T99": {
+    "domain": "General",
+    "title": "1948 Campeonato Profesional",
+    "columns": [
+      "Team",
+      "City",
+      "Stadium"
+    ],
+    "description": "This table lists teams participating in the 1948 Campeonato Profesional, along with their associated cities and stadiums. It provides historical data about Colombian football clubs and their locations during that season.",
+    "numeric_columns": [],
+    "categorical_columns": [],
+    "entities": [
+      "Team",
+      "City",
+      "Stadium"
+    ]
+  },
+  "T100": {
+    "domain": "Sports",
+    "title": "1948 College Baseball All-America Team",
+    "columns": [
+      "Position",
+      "Name",
+      "School"
+    ],
+    "description": "This table lists the 1948 College Baseball All-America Team, including players' positions, names, and their respective schools. It highlights collegiate baseball talent recognized for their performance during that year.",
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Position"
+    ],
+    "entities": [
+      "Name",
+      "School"
+    ]
+  }
+}

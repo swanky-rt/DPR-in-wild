@@ -1,0 +1,802 @@
+[
+  {
+    "table_id": "T1",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 51,
+    "num_columns": 3,
+    "path": "tables_raw/T1.json"
+  },
+  {
+    "table_id": "T2",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 80,
+    "num_columns": 4,
+    "path": "tables_raw/T2.json"
+  },
+  {
+    "table_id": "T3",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 80,
+    "num_columns": 4,
+    "path": "tables_raw/T3.json"
+  },
+  {
+    "table_id": "T4",
+    "source": "HybridQA",
+    "domain": "Politics",
+    "num_rows": 60,
+    "num_columns": 3,
+    "path": "tables_raw/T4.json"
+  },
+  {
+    "table_id": "T5",
+    "source": "HybridQA",
+    "domain": "Sports",
+    "num_rows": 64,
+    "num_columns": 4,
+    "path": "tables_raw/T5.json"
+  },
+  {
+    "table_id": "T6",
+    "source": "HybridQA",
+    "domain": "Sports",
+    "num_rows": 80,
+    "num_columns": 4,
+    "path": "tables_raw/T6.json"
+  },
+  {
+    "table_id": "T7",
+    "source": "HybridQA",
+    "domain": "Sports",
+    "num_rows": 80,
+    "num_columns": 4,
+    "path": "tables_raw/T7.json"
+  },
+  {
+    "table_id": "T8",
+    "source": "HybridQA",
+    "domain": "Film/TV",
+    "num_rows": 54,
+    "num_columns": 6,
+    "path": "tables_raw/T8.json"
+  },
+  {
+    "table_id": "T9",
+    "source": "HybridQA",
+    "domain": "Music",
+    "num_rows": 100,
+    "num_columns": 5,
+    "path": "tables_raw/T9.json"
+  },
+  {
+    "table_id": "T10",
+    "source": "HybridQA",
+    "domain": "Film/TV",
+    "num_rows": 48,
+    "num_columns": 6,
+    "path": "tables_raw/T10.json"
+  },
+  {
+    "table_id": "T11",
+    "source": "HybridQA",
+    "domain": "Music",
+    "num_rows": 60,
+    "num_columns": 5,
+    "path": "tables_raw/T11.json"
+  },
+  {
+    "table_id": "T12",
+    "source": "HybridQA",
+    "domain": "Music",
+    "num_rows": 80,
+    "num_columns": 4,
+    "path": "tables_raw/T12.json"
+  },
+  {
+    "table_id": "T13",
+    "source": "HybridQA",
+    "domain": "Film/TV",
+    "num_rows": 40,
+    "num_columns": 4,
+    "path": "tables_raw/T13.json"
+  },
+  {
+    "table_id": "T14",
+    "source": "HybridQA",
+    "domain": "Politics",
+    "num_rows": 80,
+    "num_columns": 4,
+    "path": "tables_raw/T14.json"
+  },
+  {
+    "table_id": "T15",
+    "source": "HybridQA",
+    "domain": "Geography",
+    "num_rows": 80,
+    "num_columns": 4,
+    "path": "tables_raw/T15.json"
+  },
+  {
+    "table_id": "T16",
+    "source": "HybridQA",
+    "domain": "Geography",
+    "num_rows": 100,
+    "num_columns": 5,
+    "path": "tables_raw/T16.json"
+  },
+  {
+    "table_id": "T17",
+    "source": "HybridQA",
+    "domain": "Geography",
+    "num_rows": 100,
+    "num_columns": 5,
+    "path": "tables_raw/T17.json"
+  },
+  {
+    "table_id": "T18",
+    "source": "HybridQA",
+    "domain": "Politics",
+    "num_rows": 60,
+    "num_columns": 3,
+    "path": "tables_raw/T18.json"
+  },
+  {
+    "table_id": "T19",
+    "source": "HybridQA",
+    "domain": "Science",
+    "num_rows": 60,
+    "num_columns": 3,
+    "path": "tables_raw/T19.json"
+  },
+  {
+    "table_id": "T20",
+    "source": "HybridQA",
+    "domain": "Science",
+    "num_rows": 80,
+    "num_columns": 4,
+    "path": "tables_raw/T20.json"
+  },
+  {
+    "table_id": "T21",
+    "source": "HybridQA",
+    "domain": "Science",
+    "num_rows": 100,
+    "num_columns": 5,
+    "path": "tables_raw/T21.json"
+  },
+  {
+    "table_id": "T22",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 80,
+    "num_columns": 4,
+    "path": "tables_raw/T22.json"
+  },
+  {
+    "table_id": "T23",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 80,
+    "num_columns": 4,
+    "path": "tables_raw/T23.json"
+  },
+  {
+    "table_id": "T24",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 36,
+    "num_columns": 4,
+    "path": "tables_raw/T24.json"
+  },
+  {
+    "table_id": "T25",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 80,
+    "num_columns": 4,
+    "path": "tables_raw/T25.json"
+  },
+  {
+    "table_id": "T26",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 120,
+    "num_columns": 6,
+    "path": "tables_raw/T26.json"
+  },
+  {
+    "table_id": "T27",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 50,
+    "num_columns": 5,
+    "path": "tables_raw/T27.json"
+  },
+  {
+    "table_id": "T28",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 45,
+    "num_columns": 5,
+    "path": "tables_raw/T28.json"
+  },
+  {
+    "table_id": "T29",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 60,
+    "num_columns": 5,
+    "path": "tables_raw/T29.json"
+  },
+  {
+    "table_id": "T30",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 60,
+    "num_columns": 3,
+    "path": "tables_raw/T30.json"
+  },
+  {
+    "table_id": "T31",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 55,
+    "num_columns": 5,
+    "path": "tables_raw/T31.json"
+  },
+  {
+    "table_id": "T32",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 40,
+    "num_columns": 5,
+    "path": "tables_raw/T32.json"
+  },
+  {
+    "table_id": "T33",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 60,
+    "num_columns": 5,
+    "path": "tables_raw/T33.json"
+  },
+  {
+    "table_id": "T34",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 80,
+    "num_columns": 4,
+    "path": "tables_raw/T34.json"
+  },
+  {
+    "table_id": "T35",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 65,
+    "num_columns": 5,
+    "path": "tables_raw/T35.json"
+  },
+  {
+    "table_id": "T36",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 55,
+    "num_columns": 5,
+    "path": "tables_raw/T36.json"
+  },
+  {
+    "table_id": "T37",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 60,
+    "num_columns": 5,
+    "path": "tables_raw/T37.json"
+  },
+  {
+    "table_id": "T38",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 75,
+    "num_columns": 5,
+    "path": "tables_raw/T38.json"
+  },
+  {
+    "table_id": "T39",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 40,
+    "num_columns": 5,
+    "path": "tables_raw/T39.json"
+  },
+  {
+    "table_id": "T40",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 120,
+    "num_columns": 6,
+    "path": "tables_raw/T40.json"
+  },
+  {
+    "table_id": "T41",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 120,
+    "num_columns": 6,
+    "path": "tables_raw/T41.json"
+  },
+  {
+    "table_id": "T42",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 120,
+    "num_columns": 6,
+    "path": "tables_raw/T42.json"
+  },
+  {
+    "table_id": "T43",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 120,
+    "num_columns": 6,
+    "path": "tables_raw/T43.json"
+  },
+  {
+    "table_id": "T44",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 120,
+    "num_columns": 6,
+    "path": "tables_raw/T44.json"
+  },
+  {
+    "table_id": "T45",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 120,
+    "num_columns": 6,
+    "path": "tables_raw/T45.json"
+  },
+  {
+    "table_id": "T46",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 45,
+    "num_columns": 5,
+    "path": "tables_raw/T46.json"
+  },
+  {
+    "table_id": "T47",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 95,
+    "num_columns": 5,
+    "path": "tables_raw/T47.json"
+  },
+  {
+    "table_id": "T48",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 120,
+    "num_columns": 6,
+    "path": "tables_raw/T48.json"
+  },
+  {
+    "table_id": "T49",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 120,
+    "num_columns": 6,
+    "path": "tables_raw/T49.json"
+  },
+  {
+    "table_id": "T50",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 60,
+    "num_columns": 3,
+    "path": "tables_raw/T50.json"
+  },
+  {
+    "table_id": "T51",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 100,
+    "num_columns": 5,
+    "path": "tables_raw/T51.json"
+  },
+  {
+    "table_id": "T52",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 80,
+    "num_columns": 4,
+    "path": "tables_raw/T52.json"
+  },
+  {
+    "table_id": "T53",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 64,
+    "num_columns": 4,
+    "path": "tables_raw/T53.json"
+  },
+  {
+    "table_id": "T54",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 52,
+    "num_columns": 4,
+    "path": "tables_raw/T54.json"
+  },
+  {
+    "table_id": "T55",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 80,
+    "num_columns": 4,
+    "path": "tables_raw/T55.json"
+  },
+  {
+    "table_id": "T56",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 52,
+    "num_columns": 4,
+    "path": "tables_raw/T56.json"
+  },
+  {
+    "table_id": "T57",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 56,
+    "num_columns": 4,
+    "path": "tables_raw/T57.json"
+  },
+  {
+    "table_id": "T58",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 60,
+    "num_columns": 3,
+    "path": "tables_raw/T58.json"
+  },
+  {
+    "table_id": "T59",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 120,
+    "num_columns": 6,
+    "path": "tables_raw/T59.json"
+  },
+  {
+    "table_id": "T60",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 60,
+    "num_columns": 3,
+    "path": "tables_raw/T60.json"
+  },
+  {
+    "table_id": "T61",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 60,
+    "num_columns": 3,
+    "path": "tables_raw/T61.json"
+  },
+  {
+    "table_id": "T62",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 60,
+    "num_columns": 3,
+    "path": "tables_raw/T62.json"
+  },
+  {
+    "table_id": "T63",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 57,
+    "num_columns": 3,
+    "path": "tables_raw/T63.json"
+  },
+  {
+    "table_id": "T64",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 48,
+    "num_columns": 6,
+    "path": "tables_raw/T64.json"
+  },
+  {
+    "table_id": "T65",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 60,
+    "num_columns": 3,
+    "path": "tables_raw/T65.json"
+  },
+  {
+    "table_id": "T66",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 60,
+    "num_columns": 6,
+    "path": "tables_raw/T66.json"
+  },
+  {
+    "table_id": "T67",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 60,
+    "num_columns": 3,
+    "path": "tables_raw/T67.json"
+  },
+  {
+    "table_id": "T68",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 45,
+    "num_columns": 5,
+    "path": "tables_raw/T68.json"
+  },
+  {
+    "table_id": "T69",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 50,
+    "num_columns": 5,
+    "path": "tables_raw/T69.json"
+  },
+  {
+    "table_id": "T70",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 60,
+    "num_columns": 3,
+    "path": "tables_raw/T70.json"
+  },
+  {
+    "table_id": "T71",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 66,
+    "num_columns": 6,
+    "path": "tables_raw/T71.json"
+  },
+  {
+    "table_id": "T72",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 48,
+    "num_columns": 6,
+    "path": "tables_raw/T72.json"
+  },
+  {
+    "table_id": "T73",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 96,
+    "num_columns": 6,
+    "path": "tables_raw/T73.json"
+  },
+  {
+    "table_id": "T74",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 60,
+    "num_columns": 3,
+    "path": "tables_raw/T74.json"
+  },
+  {
+    "table_id": "T75",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 66,
+    "num_columns": 6,
+    "path": "tables_raw/T75.json"
+  },
+  {
+    "table_id": "T76",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 60,
+    "num_columns": 6,
+    "path": "tables_raw/T76.json"
+  },
+  {
+    "table_id": "T77",
+    "source": "HybridQA",
+    "domain": "Sports",
+    "num_rows": 80,
+    "num_columns": 4,
+    "path": "tables_raw/T77.json"
+  },
+  {
+    "table_id": "T78",
+    "source": "HybridQA",
+    "domain": "Sports",
+    "num_rows": 80,
+    "num_columns": 4,
+    "path": "tables_raw/T78.json"
+  },
+  {
+    "table_id": "T79",
+    "source": "HybridQA",
+    "domain": "Sports",
+    "num_rows": 80,
+    "num_columns": 4,
+    "path": "tables_raw/T79.json"
+  },
+  {
+    "table_id": "T80",
+    "source": "HybridQA",
+    "domain": "Sports",
+    "num_rows": 80,
+    "num_columns": 4,
+    "path": "tables_raw/T80.json"
+  },
+  {
+    "table_id": "T81",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 54,
+    "num_columns": 6,
+    "path": "tables_raw/T81.json"
+  },
+  {
+    "table_id": "T82",
+    "source": "HybridQA",
+    "domain": "Sports",
+    "num_rows": 80,
+    "num_columns": 4,
+    "path": "tables_raw/T82.json"
+  },
+  {
+    "table_id": "T83",
+    "source": "HybridQA",
+    "domain": "Sports",
+    "num_rows": 40,
+    "num_columns": 4,
+    "path": "tables_raw/T83.json"
+  },
+  {
+    "table_id": "T84",
+    "source": "HybridQA",
+    "domain": "Sports",
+    "num_rows": 48,
+    "num_columns": 3,
+    "path": "tables_raw/T84.json"
+  },
+  {
+    "table_id": "T85",
+    "source": "HybridQA",
+    "domain": "Sports",
+    "num_rows": 80,
+    "num_columns": 4,
+    "path": "tables_raw/T85.json"
+  },
+  {
+    "table_id": "T86",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 36,
+    "num_columns": 4,
+    "path": "tables_raw/T86.json"
+  },
+  {
+    "table_id": "T87",
+    "source": "HybridQA",
+    "domain": "Sports",
+    "num_rows": 90,
+    "num_columns": 6,
+    "path": "tables_raw/T87.json"
+  },
+  {
+    "table_id": "T88",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 80,
+    "num_columns": 5,
+    "path": "tables_raw/T88.json"
+  },
+  {
+    "table_id": "T89",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 80,
+    "num_columns": 4,
+    "path": "tables_raw/T89.json"
+  },
+  {
+    "table_id": "T90",
+    "source": "HybridQA",
+    "domain": "Sports",
+    "num_rows": 72,
+    "num_columns": 6,
+    "path": "tables_raw/T90.json"
+  },
+  {
+    "table_id": "T91",
+    "source": "HybridQA",
+    "domain": "Sports",
+    "num_rows": 72,
+    "num_columns": 6,
+    "path": "tables_raw/T91.json"
+  },
+  {
+    "table_id": "T92",
+    "source": "HybridQA",
+    "domain": "Sports",
+    "num_rows": 24,
+    "num_columns": 3,
+    "path": "tables_raw/T92.json"
+  },
+  {
+    "table_id": "T93",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 60,
+    "num_columns": 6,
+    "path": "tables_raw/T93.json"
+  },
+  {
+    "table_id": "T94",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 120,
+    "num_columns": 6,
+    "path": "tables_raw/T94.json"
+  },
+  {
+    "table_id": "T95",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 57,
+    "num_columns": 3,
+    "path": "tables_raw/T95.json"
+  },
+  {
+    "table_id": "T96",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 72,
+    "num_columns": 6,
+    "path": "tables_raw/T96.json"
+  },
+  {
+    "table_id": "T97",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 120,
+    "num_columns": 6,
+    "path": "tables_raw/T97.json"
+  },
+  {
+    "table_id": "T98",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 33,
+    "num_columns": 3,
+    "path": "tables_raw/T98.json"
+  },
+  {
+    "table_id": "T99",
+    "source": "HybridQA",
+    "domain": "General",
+    "num_rows": 30,
+    "num_columns": 3,
+    "path": "tables_raw/T99.json"
+  },
+  {
+    "table_id": "T100",
+    "source": "HybridQA",
+    "domain": "Sports",
+    "num_rows": 30,
+    "num_columns": 3,
+    "path": "tables_raw/T100.json"
+  }
+]
