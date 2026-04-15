@@ -1,0 +1,130 @@
+{
+  "source": {
+    "embeddings": "data/input_2026-04-14/qwen_table_embeddings.json",
+    "clusters_summary": "data/output_2026-04-14/clusters_summary.json"
+  },
+  "geometric_metrics": {
+    "silhouette_score": 0.4288,
+    "davies_bouldin_index": 1.4201,
+    "calinski_harabasz_index": 13.53
+  },
+  "semantic_coherence": {
+    "intra_cluster": {
+      "mean_intra_cluster_cosine_sim": 0.713,
+      "per_cluster": {
+        "0": {
+          "n_tables": 18,
+          "avg_cosine_sim": 0.5727,
+          "min_cosine_sim": 0.2104
+        },
+        "1": {
+          "n_tables": 14,
+          "avg_cosine_sim": 0.7271,
+          "min_cosine_sim": 0.305
+        },
+        "2": {
+          "n_tables": 13,
+          "avg_cosine_sim": 0.7671,
+          "min_cosine_sim": 0.4349
+        },
+        "3": {
+          "n_tables": 11,
+          "avg_cosine_sim": 0.8618,
+          "min_cosine_sim": 0.7424
+        },
+        "4": {
+          "n_tables": 9,
+          "avg_cosine_sim": 0.4647,
+          "min_cosine_sim": 0.2432
+        },
+        "5": {
+          "n_tables": 9,
+          "avg_cosine_sim": 0.6224,
+          "min_cosine_sim": 0.3648
+        },
+        "6": {
+          "n_tables": 7,
+          "avg_cosine_sim": 0.5786,
+          "min_cosine_sim": 0.3856
+        },
+        "7": {
+          "n_tables": 6,
+          "avg_cosine_sim": 0.9244,
+          "min_cosine_sim": 0.8762
+        },
+        "8": {
+          "n_tables": 5,
+          "avg_cosine_sim": 0.865,
+          "min_cosine_sim": 0.6602
+        },
+        "9": {
+          "n_tables": 3,
+          "avg_cosine_sim": 0.7466,
+          "min_cosine_sim": 0.6348
+        }
+      }
+    },
+    "inter_cluster": {
+      "mean_centroid_cosine_distance": 0.6154,
+      "min_centroid_cosine_distance": 0.166,
+      "n_cluster_pairs": 45
+    }
+  },
+  "schema_overlap": {
+    "per_cluster": {
+      "0": {
+        "n_tables": 18,
+        "avg_jaccard_col_similarity": 0.3026
+      },
+      "1": {
+        "n_tables": 14,
+        "avg_jaccard_col_similarity": 0.6168
+      },
+      "2": {
+        "n_tables": 13,
+        "avg_jaccard_col_similarity": 0.3861
+      },
+      "3": {
+        "n_tables": 11,
+        "avg_jaccard_col_similarity": 0.4969
+      },
+      "4": {
+        "n_tables": 9,
+        "avg_jaccard_col_similarity": 0.1387
+      },
+      "5": {
+        "n_tables": 9,
+        "avg_jaccard_col_similarity": 0.3643
+      },
+      "6": {
+        "n_tables": 7,
+        "avg_jaccard_col_similarity": 0.3188
+      },
+      "7": {
+        "n_tables": 6,
+        "avg_jaccard_col_similarity": 0.7333
+      },
+      "8": {
+        "n_tables": 5,
+        "avg_jaccard_col_similarity": 0.7333
+      },
+      "9": {
+        "n_tables": 3,
+        "avg_jaccard_col_similarity": 0.4286
+      }
+    },
+    "mean_intra_cluster_jaccard": 0.4519
+  },
+  "cluster_health": {
+    "n_tables_total": 100,
+    "n_clusters": 10,
+    "noise_count": 5,
+    "noise_rate": 0.05,
+    "cluster_size_min": 3,
+    "cluster_size_max": 18,
+    "cluster_size_mean": 9.5,
+    "cluster_size_std": 4.34,
+    "singleton_rate": 0.0,
+    "doubleton_rate": 0.0
+  }
+}

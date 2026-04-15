@@ -1,0 +1,462 @@
+{
+  "metrics": {
+    "n_tables": 100,
+    "n_topics": 11,
+    "n_noise": 7,
+    "cluster_sizes": {
+      "4": 10,
+      "3": 11,
+      "2": 14,
+      "0": 15,
+      "1": 15,
+      "-1": 7,
+      "8": 3,
+      "6": 6,
+      "9": 3,
+      "7": 5,
+      "10": 3,
+      "5": 8
+    },
+    "silhouette_score": 0.8097
+  },
+  "topic_info": [
+    {
+      "Topic": -1,
+      "Count": 7,
+      "Name": "-1_metres_records results_statuses_ohio",
+      "Representation": [
+        "metres",
+        "records results",
+        "statuses",
+        "ohio",
+        "species",
+        "time athlete",
+        "time",
+        "athlete",
+        "records",
+        "college football"
+      ],
+      "Representative_Docs": [
+        "This table tracks the progression of 1500 metres world records over time, listing the recorded time, athlete name, date of achievement, and location. Each row represents a new record set by an athlete.",
+        "This table lists members of the 127th Ohio General Assembly, including their district numbers, names, political parties, residences, years first elected, and term limit statuses.",
+        "This table lists members of the 130th Ohio General Assembly, including their districts, political parties, residences, election dates, and term limit status. It provides data on Ohio Senate representatives and their associated information."
+      ]
+    },
+    {
+      "Topic": 0,
+      "Count": 15,
+      "Name": "0_new_tour_teams_numbers",
+      "Representation": [
+        "new",
+        "tour",
+        "teams",
+        "numbers",
+        "dates",
+        "lists players",
+        "including",
+        "table",
+        "team",
+        "players"
+      ],
+      "Representative_Docs": [
+        "This table lists players from the 1903 New Zealand rugby union tour of Australia, including their playing positions and provinces they represented.",
+        "This table records details of matches from the 1884 New Zealand rugby union tour in New South Wales, including match numbers, dates, opposing teams, cities, venues, and scores.",
+        "This table records details of the 1903 New Zealand rugby union tour of Australia, including game numbers, dates, opposing teams, cities, venues, and scores."
+      ]
+    },
+    {
+      "Topic": 1,
+      "Count": 15,
+      "Name": "1_changes_affected_states_successors",
+      "Representation": [
+        "changes",
+        "affected",
+        "states",
+        "successors",
+        "successor",
+        "united states",
+        "change successor",
+        "united",
+        "reason",
+        "reason change"
+      ],
+      "Representative_Docs": [
+        "This table records instances of vacancies and successors in the 11th United States Congress, detailing the district affected, the vacator, the reason for the change, the successor, and the date of the successor's formal installation.",
+        "This table documents changes in congressional representation during the 102nd United States Congress, including the district affected, the vacator, reason for the change, successor, and installation date.",
+        "This table documents changes in representation during the 18th United States Congress, including the congressional district affected, the vacator, the reason for the change, the successor, and the date of the successor's formal installation."
+      ]
+    },
+    {
+      "Topic": 2,
+      "Count": 14,
+      "Name": "2_country_international_results_athlete",
+      "Representation": [
+        "country",
+        "international",
+        "results",
+        "athlete",
+        "race",
+        "times",
+        "rank",
+        "table lists",
+        "lists",
+        "nationality"
+      ],
+      "Representative_Docs": [
+        "This table lists results from the 1924 International Cross Country Championships, showing athletes' ranks, names, nationalities, and race times.",
+        "This table lists the results of the 1921 International Cross Country Championships, including the rank, athlete name, nationality, and race time for participants.",
+        "This table lists results from the 1933 International Cross Country Championships, showing athlete rankings, names, nationalities, and race times. It captures competitive sports data with participant details and performance metrics."
+      ]
+    },
+    {
+      "Topic": 3,
+      "Count": 11,
+      "Name": "3_political_members_lists members_districts",
+      "Representation": [
+        "political",
+        "members",
+        "lists members",
+        "districts",
+        "districts political",
+        "political parties",
+        "parties",
+        "affiliations",
+        "provides",
+        "lists"
+      ],
+      "Representative_Docs": [
+        "This table lists members of the 15th Legislative Assembly of Puerto Rico, including their names, political parties, and electoral districts. It provides information on senators' affiliations and geographic representation.",
+        "This table lists members of the 10th Manitoba Legislature, their electoral districts, and their political parties. It provides information on the Legislative Assembly of Manitoba from 1899 to 1914.",
+        "This table lists members of the 17th Manitoba Legislature, their electoral districts, and their political parties. It provides information on the legislators who served during the 1922-1935 period."
+      ]
+    },
+    {
+      "Topic": 4,
+      "Count": 10,
+      "Name": "4_lists_table lists_roles_year",
+      "Representation": [
+        "lists",
+        "table lists",
+        "roles",
+        "year",
+        "table",
+        "information",
+        "includes",
+        "year table",
+        "including",
+        "additional"
+      ],
+      "Representative_Docs": [
+        "This table lists information related to \"Weird Al\" Yankovic, including years, titles of works, and associated roles. The sample data references a 1988 film titled 'Tapeheads'.",
+        "This table lists \"Weird Al\" Yankovic's roles in TV shows and films, including the year, title of the production, his role, and additional notes. It covers his career spanning from the 1970s to the 2000s.",
+        "This table lists \"Weird Al\" Yankovic's roles in various projects over the years, including the year, title of the project, and additional notes."
+      ]
+    },
+    {
+      "Topic": 5,
+      "Count": 8,
+      "Name": "5_college_players_number_team",
+      "Representation": [
+        "college",
+        "players",
+        "number",
+        "team",
+        "provides historical",
+        "historical",
+        "historical data",
+        "lists",
+        "table lists",
+        "professional"
+      ],
+      "Representative_Docs": [
+        "This table lists players selected in the 1947 BAA draft, including their positions and colleges. It provides historical data on early professional basketball draft participants.",
+        "This table lists the 1948 BAA draft selections, including the draft round, pick number, player name, position, team, and college attended. It provides a historical record of players selected in the draft along with their associated teams and educational backgrounds.",
+        "This table lists the 1947 BAA draft selections, including the draft round, pick number, player name, position, team, and college attended. It provides historical data on players drafted into professional basketball."
+      ]
+    },
+    {
+      "Topic": 6,
+      "Count": 6,
+      "Name": "6_general assembly_general_ohio_assembly",
+      "Representation": [
+        "general assembly",
+        "general",
+        "ohio",
+        "assembly",
+        "ohio general",
+        "assembly including",
+        "changes",
+        "parties residences",
+        "residences",
+        "term"
+      ],
+      "Representative_Docs": [
+        "This table lists members of the 129th Ohio General Assembly, including their districts, names, political parties, residences, and election details. It provides information on when they were first elected and their term limits.",
+        "This table lists members of the 128th Ohio General Assembly, including their district numbers, names, political parties, residences, election years, and term limit status. It contains 120 rows and 6 columns.",
+        "This table lists members of the 129th Ohio General Assembly, including their senatorial districts, political parties, residences, years first elected, and term limit status."
+      ]
+    },
+    {
+      "Topic": 7,
+      "Count": 5,
+      "Name": "7_1500_time_record_1500 metres",
+      "Representation": [
+        "1500",
+        "time",
+        "record",
+        "1500 metres",
+        "location",
+        "metres",
+        "metres world",
+        "progression",
+        "progression 1500",
+        "set"
+      ],
+      "Representative_Docs": [
+        "This table documents the progression of the 1500 metres world record, including the time achieved, the athlete who set the record, the date of the event, and the location where it occurred.",
+        "This table tracks the progression of 1500 metres world records, listing the time achieved, the athlete who set the record, the date it was set, and the location. It provides a historical overview of improvements in this athletic event.",
+        "This table tracks the progression of the 1500 metres world record over time, listing the recorded time, athlete name, date of achievement, and location. It documents improvements in the record through historical data entries."
+      ]
+    },
+    {
+      "Topic": 8,
+      "Count": 3,
+      "Name": "8_80_table records_records_including year",
+      "Representation": [
+        "80",
+        "table records",
+        "records",
+        "including year",
+        "performance",
+        "metres",
+        "record",
+        "location",
+        "athletes",
+        "event"
+      ],
+      "Representative_Docs": [
+        "This table records instances of the 10-second barrier in the 100m sprint being broken, including the date it was first broken, the athlete's name, their nationality, and the number of times the record was broken.",
+        "This table records athletic performance data for the 110 metres hurdles event, including the year of the record, the athlete's time, the competitor's name, and the location where the performance occurred. It spans 80 entries documenting historical results.",
+        "This table records results from 10,000 metres track and field events, including the year of the event, race time, athlete name, and competition location. It contains 80 rows of historical race data with associated metadata."
+      ]
+    },
+    {
+      "Topic": 9,
+      "Count": 3,
+      "Name": "9_residences election_residences_election_term",
+      "Representation": [
+        "residences election",
+        "residences",
+        "election",
+        "term",
+        "assembly including",
+        "ohio general",
+        "general assembly",
+        "general",
+        "election years",
+        "years term"
+      ],
+      "Representative_Docs": [
+        "This table provides information on members of the 127th Ohio General Assembly, including their districts, party affiliations, residences, election dates, and term limits.",
+        "This table lists members of the 128th Ohio General Assembly, including their districts, political parties, residences, election years, and term limit status.",
+        "This table lists members of the 130th Ohio General Assembly, including their district numbers, names, political parties, residences, election years, and term limit status."
+      ]
+    },
+    {
+      "Topic": 10,
+      "Count": 3,
+      "Name": "10_football_college football_college_football allamerica",
+      "Representation": [
+        "football",
+        "college football",
+        "college",
+        "football allamerica",
+        "positions schools",
+        "members including",
+        "team members",
+        "schools",
+        "allamerica",
+        "allamerica team"
+      ],
+      "Representative_Docs": [
+        "This table lists members of the 1946 Notre Dame Fighting Irish football team, including their names, positions played, and years inducted into halls of fame. It highlights athletes recognized for their collegiate and professional achievements.",
+        "This table lists the 1939 College Football All-America Team members, including their positions, schools, jersey numbers, official designations, and other categories. It contains 72 players with details on their roles and affiliations.",
+        "This table lists the 1935 College Football All-America Team members, including their positions, schools, and additional classifications. It provides historical data on standout college football players recognized that year."
+      ]
+    }
+  ],
+  "clusters": [
+    {
+      "topic_id": "-1",
+      "num_tables": 7,
+      "table_ids": [
+        "T21",
+        "T23",
+        "T25",
+        "T41",
+        "T48",
+        "T55",
+        "T91"
+      ]
+    },
+    {
+      "topic_id": "0",
+      "num_tables": 15,
+      "table_ids": [
+        "T14",
+        "T15",
+        "T63",
+        "T64",
+        "T65",
+        "T66",
+        "T67",
+        "T70",
+        "T71",
+        "T72",
+        "T73",
+        "T74",
+        "T75",
+        "T76",
+        "T81"
+      ]
+    },
+    {
+      "topic_id": "1",
+      "num_tables": 15,
+      "table_ids": [
+        "T16",
+        "T17",
+        "T27",
+        "T28",
+        "T29",
+        "T32",
+        "T33",
+        "T35",
+        "T36",
+        "T37",
+        "T38",
+        "T51",
+        "T59",
+        "T68",
+        "T69"
+      ]
+    },
+    {
+      "topic_id": "2",
+      "num_tables": 14,
+      "table_ids": [
+        "T5",
+        "T6",
+        "T7",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89"
+      ]
+    },
+    {
+      "topic_id": "3",
+      "num_tables": 11,
+      "table_ids": [
+        "T4",
+        "T18",
+        "T20",
+        "T26",
+        "T30",
+        "T31",
+        "T50",
+        "T58",
+        "T60",
+        "T61",
+        "T62"
+      ]
+    },
+    {
+      "topic_id": "4",
+      "num_tables": 10,
+      "table_ids": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13",
+        "T19"
+      ]
+    },
+    {
+      "topic_id": "5",
+      "num_tables": 8,
+      "table_ids": [
+        "T93",
+        "T94",
+        "T95",
+        "T96",
+        "T97",
+        "T98",
+        "T99",
+        "T100"
+      ]
+    },
+    {
+      "topic_id": "6",
+      "num_tables": 6,
+      "table_ids": [
+        "T39",
+        "T42",
+        "T44",
+        "T45",
+        "T46",
+        "T47"
+      ]
+    },
+    {
+      "topic_id": "7",
+      "num_tables": 5,
+      "table_ids": [
+        "T52",
+        "T53",
+        "T54",
+        "T56",
+        "T57"
+      ]
+    },
+    {
+      "topic_id": "8",
+      "num_tables": 3,
+      "table_ids": [
+        "T22",
+        "T24",
+        "T34"
+      ]
+    },
+    {
+      "topic_id": "9",
+      "num_tables": 3,
+      "table_ids": [
+        "T40",
+        "T43",
+        "T49"
+      ]
+    },
+    {
+      "topic_id": "10",
+      "num_tables": 3,
+      "table_ids": [
+        "T87",
+        "T90",
+        "T92"
+      ]
+    }
+  ]
+}

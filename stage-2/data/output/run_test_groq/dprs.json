@@ -1,0 +1,140 @@
+[
+  {
+    "dpr_id": "1",
+    "cluster_id": "1",
+    "variant": 1,
+    "temperature": 0.3,
+    "DPR": "Compile a comprehensive dataset of \"Weird Al\" Yankovic's filmography and media appearances, including his roles in films, television shows, and other productions, and analyze how his involvement in different types of media and his portrayal in various roles have evolved over time, as well as identify any notable patterns or collaborations throughout his career.",
+    "reasoning": "The provided cluster contains three tables, all of which pertain to the appearances and roles of \"Weird Al\" Yankovic in various media, including films and television shows. The tables share similar columns such as Year, Title, and Role, with some including additional Notes. To capture the combined data needs across these tables, the data product request should focus on compiling a comprehensive dataset that encompasses \"Weird Al\" Yankovic's entire filmography and media appearances. This dataset should support queries about his roles, the years of release, and the types of media he has been involved in, as well as any notable patterns or trends in his career.",
+    "ground_truth": {
+      "table_uids": [
+        "T1",
+        "T2",
+        "T3"
+      ]
+    }
+  },
+  {
+    "dpr_id": "1_v2",
+    "cluster_id": "1",
+    "variant": 2,
+    "temperature": 0.3,
+    "DPR": "Compile a comprehensive dataset of \"Weird Al\" Yankovic's filmography and media appearances, including details on the year of release, title of the work, his role, and any additional notes, to analyze his career trajectory, the variety of roles he has undertaken, and the impact of his contributions to different genres and formats of media, supporting insights into his professional evolution and the reception of his work across various platforms.",
+    "reasoning": "The provided cluster of tables focuses on the filmography and media appearances of \"Weird Al\" Yankovic, detailing his roles in various films, television shows, and other productions across different years. To create a comprehensive data product request, we need to identify the common analytical goals that can be supported by combining these tables. The primary goals seem to be tracking \"Weird Al\" Yankovic's career progression, understanding the diversity of his roles, and possibly analyzing the impact or reception of his appearances in different media formats. By integrating the information from these tables, a data product could facilitate insights into his body of work, collaborations, and the evolution of his career in the entertainment industry.",
+    "ground_truth": {
+      "table_uids": [
+        "T1",
+        "T2",
+        "T3"
+      ]
+    }
+  },
+  {
+    "dpr_id": "1_v3",
+    "cluster_id": "1",
+    "variant": 3,
+    "temperature": 0.3,
+    "DPR": "Compile a dataset that will allow queries on \"Weird Al\" Yankovic's filmography and media appearances, including his roles in films and television shows, the year of release, and any additional notes about his contributions, in order to analyze his career trajectory, the diversity of his roles, and his impact on popular culture.",
+    "reasoning": "To generate a data product request that captures the information needs across all tables in the cluster, we first identify the common theme among the tables, which is the filmography and media appearances of \"Weird Al\" Yankovic. The tables provide details about his roles in films, television shows, and other productions, including the year of release, title, and his role. The goal is to compile a comprehensive dataset that allows for queries about \"Weird Al\" Yankovic's career, including his film and television appearances, roles, and any additional notes about his contributions.",
+    "ground_truth": {
+      "table_uids": [
+        "T1",
+        "T2",
+        "T3"
+      ]
+    }
+  },
+  {
+    "dpr_id": "2",
+    "cluster_id": "2",
+    "variant": 1,
+    "temperature": 0.3,
+    "DPR": "Compile a dataset that captures historical information on political representation in British Columbia and athlete performance in International Cross Country Championships, allowing for queries on trends in electoral outcomes, athlete performance over time, and comparisons between different political parties and national teams, and assess how factors such as constituency, party affiliation, nationality, and event year influence these trends and outcomes.",
+    "reasoning": "The provided cluster of tables includes information about the 14th Parliament of British Columbia and several International Cross Country Championships. To create a unified data product request, we need to identify common themes or analytical goals across these tables. The tables related to the International Cross Country Championships share a common theme of athlete performance and national representation, while the table about the 14th Parliament of British Columbia focuses on political representation. A data product request that combines these themes could involve analyzing patterns or trends in performance or representation over time, comparing different groups or entities, or identifying factors that influence outcomes.",
+    "ground_truth": {
+      "table_uids": [
+        "T4",
+        "T5",
+        "T6",
+        "T7"
+      ]
+    }
+  },
+  {
+    "dpr_id": "2_v2",
+    "cluster_id": "2",
+    "variant": 2,
+    "temperature": 0.3,
+    "DPR": "Compile a dataset that combines historical political data with international athletic competition results, specifically focusing on the 14th Parliament of British Columbia and the International Cross Country Championships from 1898, 1913, and 1920. This dataset should allow for queries on political party representation and changes in parliamentary composition over time, as well as athlete performance, national team standings, and trends in completion times across different championships. The data should support analyses of how political demographics and athletic performances reflect broader societal or international trends, enabling insights into both the political history of British Columbia and the evolution of international cross-country running.",
+    "reasoning": "To generate a data product request that captures the information needs across all tables, we first identify the distinct themes and analytical goals present in the cluster. The tables provided pertain to two main categories: political history (specifically, the 14th Parliament of British Columbia) and sports history (the International Cross Country Championships for the years 1898, 1913, and 1920). The political table offers insights into the composition of a historical parliament, including member details and party affiliations. The sports tables provide rankings, athlete information, and completion times for various international cross-country championships. \n\nGiven these themes, the analytical goals can be broadly categorized into understanding historical political representation and analyzing athletic performance and trends in international cross-country championships. For the political aspect, a data product could aim to provide insights into how political parties were represented in the 14th Parliament of British Columbia, potentially comparing this to other periods or regions. For the sports aspect, the goal could involve analyzing athlete performance over time, comparing national teams' successes, or identifying factors that contribute to winning performances in cross-country championships.",
+    "ground_truth": {
+      "table_uids": [
+        "T4",
+        "T5",
+        "T6",
+        "T7"
+      ]
+    }
+  },
+  {
+    "dpr_id": "2_v3",
+    "cluster_id": "2",
+    "variant": 3,
+    "temperature": 0.3,
+    "DPR": "Compile a dataset that includes historical information on political representation in British Columbia and athletic performance in the International Cross Country Championships. The dataset should allow for queries on the composition of past parliaments, including party distribution and electoral district representation, as well as athlete performance metrics such as completion times, nationalities, and rankings across different years of the championships. It should support analysis of trends in political representation, athletic performance, and national participation in these events, enabling insights into historical patterns, comparisons of political and athletic achievements, and the evolution of these domains over time.",
+    "reasoning": "To generate a data product request that captures the information needs across all tables, we first identify the common themes and distinct analytical goals present in the provided tables. The tables primarily deal with historical data: one table is about the 14th Parliament of British Columbia, providing political and electoral information, while the other three tables are about different years of the International Cross Country Championships, offering details on athletic performances and national representation. The analytical goals can be broadly categorized into understanding political representation and athletic performance over time. \n\nFor the political aspect, the goal is to analyze the composition of the parliament, including the distribution of parties and the representation of different electoral districts. For the athletic events, the goals include comparing athlete performances across different years, analyzing national representation and performance trends, and possibly identifying factors that contribute to successful outcomes in these championships.\n\nGiven these diverse goals, the data product request should aim to compile data that facilitates queries on historical political representation, athletic performance, and trends over time, allowing for insights into how these domains have evolved.",
+    "ground_truth": {
+      "table_uids": [
+        "T4",
+        "T5",
+        "T6",
+        "T7"
+      ]
+    }
+  },
+  {
+    "dpr_id": "3",
+    "cluster_id": "3",
+    "variant": 1,
+    "temperature": 0.3,
+    "DPR": "Compile a comprehensive dataset on the film and music industries in the 1950s, including information on film releases, revenue, admissions, and production countries, as well as notable musical compositions, composers, and performances. The dataset should support analysis of trends and patterns in film and music production, comparisons of revenue and admissions across different countries and years, and identification of notable contributors and events that shaped the entertainment industry during this period.",
+    "reasoning": "To create a data product request that captures the information needs across all tables in the cluster, we need to identify the common themes and analytical goals. The tables provided are related to the entertainment industry, specifically films and music, from the 1950s. The common theme among these tables is the desire to understand the performance, trends, and notable events within the film and music industries during this time period. The analytical goals include comparing the revenue and admissions of films across different years and countries, analyzing the contributions of notable composers and directors, and identifying patterns in the production and reception of films and music.",
+    "ground_truth": {
+      "table_uids": [
+        "T8",
+        "T9",
+        "T10"
+      ]
+    }
+  },
+  {
+    "dpr_id": "3_v2",
+    "cluster_id": "3",
+    "variant": 2,
+    "temperature": 0.3,
+    "DPR": "Compile a comprehensive dataset on the film and music industries of the 1950s, including data on film releases, musical compositions, and notable events, and analyze how factors such as genre, director, composer, production studio, and cultural context contribute to the success and enduring impact of these works, in order to understand the evolution of entertainment during this period and its influence on contemporary culture.",
+    "reasoning": "To generate a data product request that effectively represents the combined data needs across all given tables, we need to identify the common themes and analytical goals present in the tables. The tables provided are related to the film and music industries in the 1950s, specifically focusing on film releases and musical compositions. The analytical goals can be inferred as understanding the performance and impact of films and music during this period, including revenue, admissions, composer and director contributions, and the cultural or historical context of these works. By combining these goals, we can formulate a data product request that seeks to compile data on the entertainment industry of the 1950s, analyzing factors such as genre, director, composer, production studio, revenue, admissions, and cultural impact.",
+    "ground_truth": {
+      "table_uids": [
+        "T8",
+        "T9",
+        "T10"
+      ]
+    }
+  },
+  {
+    "dpr_id": "3_v3",
+    "cluster_id": "3",
+    "variant": 3,
+    "temperature": 0.3,
+    "DPR": "Compile a comprehensive dataset on the entertainment industry from the 1950s, including films and musical compositions, to analyze the financial and audience performance of films across different countries, studios, and directors, as well as the impact and significance of musical compositions and their performers. The dataset should support queries on revenue, admissions, production countries, and release years for films, and composition details, performance dates, and locations for music. It should enable the evaluation of trends in film and music production, the comparison of the performance of different studios and directors, and the assessment of how musical compositions contribute to the industry's development during this period.",
+    "reasoning": "To generate a data product request that captures the information needs across all tables in the cluster, we must first identify the common themes and distinct analytical goals present in the tables. The tables provided are related to the entertainment industry, specifically films and music, across different years (1954, 1955, and 1957). The analytical goals can be inferred as understanding the performance of films and music compositions, identifying trends and patterns in their production and reception, and possibly comparing these trends over the years. The data product request should aim to compile data that allows for queries on the financial and audience performance of films, the impact of directors and studios, and the significance of musical compositions and their performers. It should also support the analysis of how these factors change over time and influence the entertainment industry.",
+    "ground_truth": {
+      "table_uids": [
+        "T8",
+        "T9",
+        "T10"
+      ]
+    }
+  }
+]
