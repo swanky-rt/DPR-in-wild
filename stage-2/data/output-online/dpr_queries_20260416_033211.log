@@ -1,0 +1,126 @@
+2026-04-16 03:32:14,254 INFO Query Q2 | clusters: ['1', '10', '9']
+2026-04-16 03:32:14,254 INFO Attempt 01 (DPR 1/20) | phase=bootstrap | trials=0 | cluster=1 | visit#=1 | perspective=1
+2026-04-16 03:32:14,254 INFO UCB scores: {'1': 0.0, '10': 0.0, '9': 0.0}
+2026-04-16 03:32:21,195 INFO Retrying request to /chat/completions in 0.423012 seconds
+2026-04-16 03:32:21,620 INFO Retrying request to /chat/completions in 0.824579 seconds
+2026-04-16 03:32:22,446 INFO Retrying request to /chat/completions in 1.592825 seconds
+2026-04-16 03:32:28,306 INFO Retrying request to /chat/completions in 0.414747 seconds
+2026-04-16 03:32:28,722 INFO Retrying request to /chat/completions in 0.893592 seconds
+2026-04-16 03:32:29,616 INFO Retrying request to /chat/completions in 1.543215 seconds
+2026-04-16 03:32:34,197 ERROR LLM-A failed on attempt 1: litellm.InternalServerError: InternalServerError: OpenAIException - Connection error.
+2026-04-16 03:32:34,197 INFO Attempt 02 (DPR 1/20) | phase=bootstrap | trials=0 | cluster=1 | visit#=1 | perspective=1
+2026-04-16 03:32:34,197 INFO UCB scores: {'1': 0.0, '10': 0.0, '9': 0.0}
+2026-04-16 03:32:34,207 INFO Retrying request to /chat/completions in 0.479194 seconds
+2026-04-16 03:32:34,688 INFO Retrying request to /chat/completions in 0.993050 seconds
+2026-04-16 03:32:35,758 INFO Retrying request to /chat/completions in 1.845821 seconds
+2026-04-16 03:32:41,001 INFO Retrying request to /chat/completions in 0.411023 seconds
+2026-04-16 03:32:41,413 INFO Retrying request to /chat/completions in 0.811614 seconds
+2026-04-16 03:32:42,226 INFO Retrying request to /chat/completions in 1.736885 seconds
+2026-04-16 03:32:47,118 ERROR LLM-A failed on attempt 2: litellm.InternalServerError: InternalServerError: OpenAIException - Connection error.
+2026-04-16 03:32:47,136 INFO Attempt 03 (DPR 1/20) | phase=bootstrap | trials=0 | cluster=1 | visit#=1 | perspective=1
+2026-04-16 03:32:47,136 INFO UCB scores: {'1': 0.0, '10': 0.0, '9': 0.0}
+2026-04-16 03:32:47,284 INFO Retrying request to /chat/completions in 0.440558 seconds
+2026-04-16 03:32:47,726 INFO Retrying request to /chat/completions in 0.956873 seconds
+2026-04-16 03:32:48,684 INFO Retrying request to /chat/completions in 1.809658 seconds
+2026-04-16 03:32:53,692 INFO Retrying request to /chat/completions in 0.494807 seconds
+2026-04-16 03:32:54,188 INFO Retrying request to /chat/completions in 0.860954 seconds
+2026-04-16 03:32:55,050 INFO Retrying request to /chat/completions in 1.799017 seconds
+2026-04-16 03:32:59,916 ERROR LLM-A failed on attempt 3: litellm.InternalServerError: InternalServerError: OpenAIException - Connection error.
+2026-04-16 03:32:59,927 INFO Attempt 04 (DPR 1/20) | phase=bootstrap | trials=0 | cluster=1 | visit#=1 | perspective=1
+2026-04-16 03:32:59,927 INFO UCB scores: {'1': 0.0, '10': 0.0, '9': 0.0}
+2026-04-16 03:33:00,076 INFO Retrying request to /chat/completions in 0.497582 seconds
+2026-04-16 03:33:00,575 INFO Retrying request to /chat/completions in 0.997989 seconds
+2026-04-16 03:33:01,574 INFO Retrying request to /chat/completions in 1.847967 seconds
+2026-04-16 03:33:06,542 INFO Retrying request to /chat/completions in 0.491119 seconds
+2026-04-16 03:33:07,034 INFO Retrying request to /chat/completions in 0.981717 seconds
+2026-04-16 03:33:08,017 INFO Retrying request to /chat/completions in 1.669213 seconds
+2026-04-16 03:33:12,776 ERROR LLM-A failed on attempt 4: litellm.InternalServerError: InternalServerError: OpenAIException - Connection error.
+2026-04-16 03:33:12,794 INFO Attempt 05 (DPR 1/20) | phase=bootstrap | trials=0 | cluster=1 | visit#=1 | perspective=1
+2026-04-16 03:33:12,794 INFO UCB scores: {'1': 0.0, '10': 0.0, '9': 0.0}
+2026-04-16 03:33:12,965 INFO Retrying request to /chat/completions in 0.443594 seconds
+2026-04-16 03:33:13,410 INFO Retrying request to /chat/completions in 0.995100 seconds
+2026-04-16 03:33:14,417 INFO Retrying request to /chat/completions in 1.564537 seconds
+2026-04-16 03:33:19,482 INFO Retrying request to /chat/completions in 0.409441 seconds
+2026-04-16 03:33:19,892 INFO Retrying request to /chat/completions in 0.827819 seconds
+2026-04-16 03:33:20,721 INFO Retrying request to /chat/completions in 1.634541 seconds
+2026-04-16 03:33:25,395 ERROR LLM-A failed on attempt 5: litellm.InternalServerError: InternalServerError: OpenAIException - Connection error.
+2026-04-16 03:33:25,411 INFO Attempt 06 (DPR 1/20) | phase=bootstrap | trials=0 | cluster=1 | visit#=1 | perspective=1
+2026-04-16 03:33:25,411 INFO UCB scores: {'1': 0.0, '10': 0.0, '9': 0.0}
+2026-04-16 03:33:25,625 INFO Retrying request to /chat/completions in 0.499565 seconds
+2026-04-16 03:33:26,126 INFO Retrying request to /chat/completions in 0.763750 seconds
+2026-04-16 03:33:26,891 INFO Retrying request to /chat/completions in 1.807290 seconds
+2026-04-16 03:33:32,015 INFO Retrying request to /chat/completions in 0.409564 seconds
+2026-04-16 03:33:32,425 INFO Retrying request to /chat/completions in 0.941702 seconds
+2026-04-16 03:33:33,368 INFO Retrying request to /chat/completions in 1.990867 seconds
+2026-04-16 03:33:38,464 ERROR LLM-A failed on attempt 6: litellm.InternalServerError: InternalServerError: OpenAIException - Connection error.
+2026-04-16 03:33:38,483 INFO Attempt 07 (DPR 1/20) | phase=bootstrap | trials=0 | cluster=1 | visit#=1 | perspective=1
+2026-04-16 03:33:38,483 INFO UCB scores: {'1': 0.0, '10': 0.0, '9': 0.0}
+2026-04-16 03:33:38,551 INFO Retrying request to /chat/completions in 0.411042 seconds
+2026-04-16 03:33:38,963 INFO Retrying request to /chat/completions in 0.760099 seconds
+2026-04-16 03:33:39,725 INFO Retrying request to /chat/completions in 1.585516 seconds
+2026-04-16 03:33:44,827 INFO Retrying request to /chat/completions in 0.452599 seconds
+2026-04-16 03:33:45,306 INFO Retrying request to /chat/completions in 0.954412 seconds
+2026-04-16 03:33:46,262 INFO Retrying request to /chat/completions in 1.940223 seconds
+2026-04-16 03:33:51,576 ERROR LLM-A failed on attempt 7: litellm.InternalServerError: InternalServerError: OpenAIException - Connection error.
+2026-04-16 03:33:51,596 INFO Attempt 08 (DPR 1/20) | phase=bootstrap | trials=0 | cluster=1 | visit#=1 | perspective=1
+2026-04-16 03:33:51,596 INFO UCB scores: {'1': 0.0, '10': 0.0, '9': 0.0}
+2026-04-16 03:33:51,815 INFO Retrying request to /chat/completions in 0.443915 seconds
+2026-04-16 03:33:52,260 INFO Retrying request to /chat/completions in 0.959744 seconds
+2026-04-16 03:33:53,221 INFO Retrying request to /chat/completions in 1.508894 seconds
+2026-04-16 03:33:57,909 INFO Retrying request to /chat/completions in 0.483131 seconds
+2026-04-16 03:33:58,393 INFO Retrying request to /chat/completions in 0.980062 seconds
+2026-04-16 03:33:59,375 INFO Retrying request to /chat/completions in 1.944604 seconds
+2026-04-16 03:34:04,358 ERROR LLM-A failed on attempt 8: litellm.InternalServerError: InternalServerError: OpenAIException - Connection error.
+2026-04-16 03:34:04,375 INFO Attempt 09 (DPR 1/20) | phase=bootstrap | trials=0 | cluster=1 | visit#=1 | perspective=1
+2026-04-16 03:34:04,375 INFO UCB scores: {'1': 0.0, '10': 0.0, '9': 0.0}
+2026-04-16 03:34:04,387 INFO Retrying request to /chat/completions in 0.484308 seconds
+2026-04-16 03:34:04,873 INFO Retrying request to /chat/completions in 0.765074 seconds
+2026-04-16 03:34:05,641 INFO Retrying request to /chat/completions in 1.990903 seconds
+2026-04-16 03:34:10,708 INFO Retrying request to /chat/completions in 0.425742 seconds
+2026-04-16 03:34:11,135 INFO Retrying request to /chat/completions in 0.970017 seconds
+2026-04-16 03:34:12,106 INFO Retrying request to /chat/completions in 1.788865 seconds
+2026-04-16 03:34:16,934 ERROR LLM-A failed on attempt 9: litellm.InternalServerError: InternalServerError: OpenAIException - Connection error.
+2026-04-16 03:34:16,962 INFO Attempt 10 (DPR 1/20) | phase=bootstrap | trials=0 | cluster=1 | visit#=1 | perspective=1
+2026-04-16 03:34:16,962 INFO UCB scores: {'1': 0.0, '10': 0.0, '9': 0.0}
+2026-04-16 03:34:17,183 INFO Retrying request to /chat/completions in 0.467493 seconds
+2026-04-16 03:34:17,652 INFO Retrying request to /chat/completions in 0.862905 seconds
+2026-04-16 03:34:18,516 INFO Retrying request to /chat/completions in 1.718488 seconds
+2026-04-16 03:34:23,672 INFO Retrying request to /chat/completions in 0.475734 seconds
+2026-04-16 03:34:24,149 INFO Retrying request to /chat/completions in 0.926264 seconds
+2026-04-16 03:34:25,076 INFO Retrying request to /chat/completions in 1.523551 seconds
+2026-04-16 03:34:29,639 ERROR LLM-A failed on attempt 10: litellm.InternalServerError: InternalServerError: OpenAIException - Connection error.
+2026-04-16 03:34:29,649 INFO Attempt 11 (DPR 1/20) | phase=bootstrap | trials=0 | cluster=1 | visit#=1 | perspective=1
+2026-04-16 03:34:29,650 INFO UCB scores: {'1': 0.0, '10': 0.0, '9': 0.0}
+2026-04-16 03:34:29,689 INFO Retrying request to /chat/completions in 0.398451 seconds
+2026-04-16 03:34:30,088 INFO Retrying request to /chat/completions in 0.933149 seconds
+2026-04-16 03:34:31,023 INFO Retrying request to /chat/completions in 1.778081 seconds
+2026-04-16 03:34:35,863 INFO Retrying request to /chat/completions in 0.435317 seconds
+2026-04-16 03:34:36,300 INFO Retrying request to /chat/completions in 0.777184 seconds
+2026-04-16 03:34:37,078 INFO Retrying request to /chat/completions in 1.985009 seconds
+2026-04-16 03:34:42,253 ERROR LLM-A failed on attempt 11: litellm.InternalServerError: InternalServerError: OpenAIException - Connection error.
+2026-04-16 03:34:42,267 INFO Attempt 12 (DPR 1/20) | phase=bootstrap | trials=0 | cluster=1 | visit#=1 | perspective=1
+2026-04-16 03:34:42,267 INFO UCB scores: {'1': 0.0, '10': 0.0, '9': 0.0}
+2026-04-16 03:34:42,490 INFO Retrying request to /chat/completions in 0.378691 seconds
+2026-04-16 03:34:42,870 INFO Retrying request to /chat/completions in 0.960049 seconds
+2026-04-16 03:34:43,831 INFO Retrying request to /chat/completions in 1.692613 seconds
+2026-04-16 03:34:48,597 INFO Retrying request to /chat/completions in 0.410713 seconds
+2026-04-16 03:34:49,009 INFO Retrying request to /chat/completions in 0.912421 seconds
+2026-04-16 03:34:49,922 INFO Retrying request to /chat/completions in 1.789050 seconds
+2026-04-16 03:34:54,752 ERROR LLM-A failed on attempt 12: litellm.InternalServerError: InternalServerError: OpenAIException - Connection error.
+2026-04-16 03:34:54,794 INFO Attempt 13 (DPR 1/20) | phase=bootstrap | trials=0 | cluster=1 | visit#=1 | perspective=1
+2026-04-16 03:34:54,794 INFO UCB scores: {'1': 0.0, '10': 0.0, '9': 0.0}
+2026-04-16 03:34:54,806 INFO Retrying request to /chat/completions in 0.405800 seconds
+2026-04-16 03:34:55,213 INFO Retrying request to /chat/completions in 0.843567 seconds
+2026-04-16 03:34:56,061 INFO Retrying request to /chat/completions in 1.809670 seconds
+2026-04-16 03:35:01,038 INFO Retrying request to /chat/completions in 0.496186 seconds
+2026-04-16 03:35:01,536 INFO Retrying request to /chat/completions in 0.961624 seconds
+2026-04-16 03:35:02,498 INFO Retrying request to /chat/completions in 1.605849 seconds
+2026-04-16 03:35:07,395 ERROR LLM-A failed on attempt 13: litellm.InternalServerError: InternalServerError: OpenAIException - Connection error.
+2026-04-16 03:35:07,414 INFO Attempt 14 (DPR 1/20) | phase=bootstrap | trials=0 | cluster=1 | visit#=1 | perspective=1
+2026-04-16 03:35:07,414 INFO UCB scores: {'1': 0.0, '10': 0.0, '9': 0.0}
+2026-04-16 03:35:07,576 INFO Retrying request to /chat/completions in 0.455449 seconds
+2026-04-16 03:35:08,032 INFO Retrying request to /chat/completions in 0.913932 seconds
+2026-04-16 03:35:08,948 INFO Retrying request to /chat/completions in 1.576942 seconds
+2026-04-16 03:35:13,609 INFO Retrying request to /chat/completions in 0.386883 seconds
+2026-04-16 03:35:13,997 INFO Retrying request to /chat/completions in 0.794636 seconds
+2026-04-16 03:35:14,793 INFO Retrying request to /chat/completions in 1.902868 seconds
