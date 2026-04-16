@@ -1,12 +1,12 @@
 """
 Online Iterative DPR Generation Pipeline (Option A).
 
-Reads pre-existing query_table_cluster_matches.json (written by
-stage-1/online_query_guided_cluster_retrieval.py) and runs the
-UCB-based iterative DPR generation loop for one user query.
+Reads a user_queries JSON file and runs the UCB-based iterative DPR
+generation loop for each query, writing results to a separate output
+folder per query.
 
 Stops when exactly TARGET_DPRS (default: 20) DPRs are successfully
-collected, or MAX_ATTEMPTS (default: 50) is reached.
+collected per query, or MAX_ATTEMPTS (default: 50) is reached.
 
 Two independent LLMs:
 
@@ -31,7 +31,6 @@ Reused from generate_dprs_for_queries.py (unchanged):
 Repo layout assumed:
   dpr-discovery/
     stage-1/
-      query_table_cluster_matches.json
       tables_clean/
     stage-2/
       src/
@@ -41,12 +40,15 @@ Repo layout assumed:
       data/
         output_qwen_emb_v2/
           clusters.json
+        user_queries_from_50matched_dprs.json
 
 Run:
   cd stage-2
-  python src/online_iterative_pipeline.py --query_id Q1
+  python src/online_iterative_pipeline.py \
+      --queries_file data/user_queries_from_50matched_dprs.json \
+      --num_queries 5
 
-All args have sensible defaults — only --query_id is typically needed.
+All args have sensible defaults — only --queries_file is required.
 """
 
 import os
@@ -96,10 +98,9 @@ load_dotenv()
 # Default paths  (all relative to repo root / stage-2)
 # ---------------------------------------------------------------------------
 
-DEFAULT_QUERY_RESULTS_PATH = REPO_ROOT / "stage-1" / "query_table_cluster_matches.json"
-DEFAULT_TABLES_CLEAN_DIR   = REPO_ROOT / "stage-1" / "tables_clean"
-DEFAULT_CLUSTERS_PATH      = STAGE2_DIR / "data" / "output_qwen_emb_v2" / "clusters.json"
-DEFAULT_OUTPUT_DIR         = STAGE2_DIR / "data" / "output-online-iterative"
+DEFAULT_TABLES_CLEAN_DIR = REPO_ROOT / "stage-1" / "tables_clean"
+DEFAULT_CLUSTERS_PATH    = STAGE2_DIR / "data" / "output_qwen_emb_v2" / "clusters.json"
+DEFAULT_OUTPUT_DIR       = STAGE2_DIR / "data" / "output-online-iterative"
 
 # ---------------------------------------------------------------------------
 # Logging
@@ -205,19 +206,14 @@ def build_cluster_pool(
     """
     Build the pool of clusters available for this query.
 
-    matched_clusters  — from query_table_cluster_matches.json
-                        each entry has cluster_id and all_tables_in_cluster
+    matched_clusters  — synthetic list built from matched_local_table_ids,
+                        each entry has cluster_id, topic_id, all_tables_in_cluster
     offline_clusters  — from clusters.json (topic_id -> list of table dicts)
                         each table dict has table_id, title, columns, description
     table_metadata    — from tables_clean/ keyed by table_id (fallback)
 
     Returns dict: cluster_id (str) -> list of table_id strings.
     Only includes clusters where at least one table exists in table_metadata.
-
-    Note: cluster_id in matched_clusters is an integer sequential ID assigned
-    by online_query_guided_cluster_retrieval.py, while clusters.json is keyed
-    by topic_id (BERTopic topic number). We resolve via topic_id stored in
-    each matched cluster entry.
     """
     pool: Dict[str, List[str]] = {}
 
@@ -539,16 +535,12 @@ def main() -> None:
         description="Online iterative DPR generation with UCB exploration"
     )
     parser.add_argument(
-        "--query_id", type=str, default="Q1",
-        help=(
-            "Query ID to run from query_table_cluster_matches.json "
-            "(default: Q1)"
-        )
+        "--queries_file", type=str, required=True,
+        help="Path to user_queries JSON file"
     )
     parser.add_argument(
-        "--query_results_path", type=str,
-        default=str(DEFAULT_QUERY_RESULTS_PATH),
-        help="Path to query_table_cluster_matches.json (stage-1 output)"
+        "--num_queries", type=int, default=5,
+        help="Number of queries to process from the file (default: 5)"
     )
     parser.add_argument(
         "--tables_clean_dir", type=str,
@@ -563,7 +555,7 @@ def main() -> None:
     parser.add_argument(
         "--output_dir", type=str,
         default=str(DEFAULT_OUTPUT_DIR),
-        help="Directory to write output files"
+        help="Base directory to write per-query output folders"
     )
     parser.add_argument(
         "--model", type=str, default=None,
@@ -597,59 +589,32 @@ def main() -> None:
 
     os.makedirs(args.output_dir, exist_ok=True)
 
-    # ── Load query_table_cluster_matches.json ───────────────────────────────
-    print(f"[INFO] Loading query results: {args.query_results_path}")
-    with open(args.query_results_path, encoding="utf-8") as f:
-        query_data = json.load(f)
+    # ── Load user queries file ──────────────────────────────────────────────
+    print(f"[INFO] Loading queries: {args.queries_file}")
+    with open(args.queries_file, encoding="utf-8") as f:
+        all_queries = json.load(f)
 
-    query_obj = next(
-        (q for q in query_data.get("query_results", [])
-         if q["query_id"] == args.query_id),
-        None,
-    )
-    if query_obj is None:
-        available = [q["query_id"] for q in query_data.get("query_results", [])]
-        raise ValueError(
-            f"Query ID '{args.query_id}' not found. Available: {available}"
-        )
+    selected = all_queries[:args.num_queries]
+    print(f"[INFO] Will process {len(selected)} queries")
 
-    query_text       = query_obj["query_text"]
-    matched_clusters = query_obj.get("matched_clusters", [])
-
-    if not matched_clusters:
-        raise ValueError(f"No matched clusters found for query '{args.query_id}'.")
-
-    print(f"[INFO] Query {args.query_id}: '{query_text}'")
-    print(f"[INFO] Matched clusters: {len(matched_clusters)}")
-
-    # ── Load table metadata — reuses load_table_metadata from existing file ─
+    # ── Load table metadata and clusters once (shared across all queries) ───
     print(f"[INFO] Loading table metadata: {args.tables_clean_dir}")
     table_metadata = load_table_metadata(args.tables_clean_dir)
     print(f"[INFO] Loaded {len(table_metadata)} tables")
 
-    # ── Load offline clusters.json ──────────────────────────────────────────
-    # clusters.json is keyed by BERTopic topic_id (e.g. "0", "1", "-1")
     print(f"[INFO] Loading offline clusters: {args.clusters_path}")
     with open(args.clusters_path, encoding="utf-8") as f:
         raw_clusters = json.load(f)
-
-    # Exclude noise cluster (-1)
     offline_clusters: Dict[str, List[Dict]] = {
         str(k): v for k, v in raw_clusters.items() if str(k) != "-1"
     }
     print(f"[INFO] Loaded {len(offline_clusters)} offline clusters (noise excluded)")
 
-    # ── Build cluster pool for this query ───────────────────────────────────
-    cluster_pool = build_cluster_pool(matched_clusters, offline_clusters, table_metadata)
-    print(f"[INFO] Cluster pool for {args.query_id}: {list(cluster_pool.keys())}")
-
-    if not cluster_pool:
-        raise ValueError(
-            "Cluster pool is empty.\n"
-            f"  clusters_path: {args.clusters_path}\n"
-            f"  matched topic_ids: {[str(mc['topic_id']) for mc in matched_clusters]}\n"
-            "  Check that clusters_path uses the same clustering run as the retrieval step."
-        )
+    # ── Build reverse map: table_id -> topic_id ─────────────────────────────
+    tid_to_topic: Dict[str, str] = {}
+    for topic_id, tables in offline_clusters.items():
+        for t in tables:
+            tid_to_topic[t["table_id"]] = topic_id
 
     # ── Configure LLM — reuses setup_llm from generate_dprs_for_queries.py ─
     model = args.model or os.getenv("LLM_MODEL", "openai/gpt-4o")
@@ -660,64 +625,102 @@ def main() -> None:
     cot_a = dspy.ChainOfThought(GenerateDPRNoQuery, temperature=1.0)  # LLM-A: generator
     cot_b = dspy.ChainOfThought(ScoreRelevance,     temperature=0.0)  # LLM-B: scorer
 
-    # ── Run the UCB loop ────────────────────────────────────────────────────
-    results = run_iterative_generation(
-        query_id=args.query_id,
-        query_text=query_text,
-        cluster_pool=cluster_pool,
-        table_metadata=table_metadata,
-        cot_a=cot_a,
-        cot_b=cot_b,
-        target_dprs=args.target_dprs,
-        max_attempts=args.max_attempts,
-        sleep_between=args.sleep_between,
-        seed=args.seed,
-    )
+    # ── Loop over selected queries ──────────────────────────────────────────
+    for idx, entry in enumerate(selected, start=1):
+        query_id   = entry["dpr_id"]
+        query_text = entry["user_query"]
+        table_ids  = entry["matched_local_table_ids"]
 
-    # ── Save outputs ────────────────────────────────────────────────────────
-    summary     = build_summary(args.query_id, query_text, results, cluster_pool)
-    model_short = model.split("/")[-1] if "/" in model else model
+        print(f"\n[INFO] === Query {idx}/{len(selected)}: {query_id} ===")
+        logging.info("Starting query %d/%d: %s", idx, len(selected), query_id)
 
-    jsonl_path = os.path.join(
-        args.output_dir, f"online_dprs-{model_short}.jsonl"
-    )
-    with open(jsonl_path, "w", encoding="utf-8") as f:
+        # Build matched_clusters from table_ids via reverse map
+        seen_topics: Dict[str, List[Dict]] = {}
+        for tid in table_ids:
+            topic = tid_to_topic.get(tid)
+            if topic and topic not in seen_topics:
+                seen_topics[topic] = offline_clusters[topic]
+
+        matched_clusters = [
+            {
+                "cluster_id":             str(i),
+                "topic_id":               topic_id,
+                "all_tables_in_cluster":  [t["table_id"] for t in tables],
+            }
+            for i, (topic_id, tables) in enumerate(seen_topics.items())
+        ]
+
+        cluster_pool = build_cluster_pool(matched_clusters, offline_clusters, table_metadata)
+        print(f"[INFO] Cluster pool for {query_id}: {list(cluster_pool.keys())}")
+        logging.info("Cluster pool for %s: %s", query_id, list(cluster_pool.keys()))
+
+        if not cluster_pool:
+            print(f"[WARN] No resolvable clusters for {query_id}, skipping.")
+            logging.warning("No resolvable clusters for %s, skipping.", query_id)
+            continue
+
+        # ── Run the UCB loop ────────────────────────────────────────────────
+        results = run_iterative_generation(
+            query_id=query_id,
+            query_text=query_text,
+            cluster_pool=cluster_pool,
+            table_metadata=table_metadata,
+            cot_a=cot_a,
+            cot_b=cot_b,
+            target_dprs=args.target_dprs,
+            max_attempts=args.max_attempts,
+            sleep_between=args.sleep_between,
+            seed=args.seed,
+        )
+
+        # ── Save outputs ────────────────────────────────────────────────────
+        summary     = build_summary(query_id, query_text, results, cluster_pool)
+        model_short = model.split("/")[-1] if "/" in model else model
+        safe_id     = query_id.replace("/", "_").replace(" ", "_")
+        out_dir     = os.path.join(args.output_dir, f"Q{idx}_{safe_id}")
+        os.makedirs(out_dir, exist_ok=True)
+
+        jsonl_path = os.path.join(out_dir, f"online_dprs-{model_short}.jsonl")
+        with open(jsonl_path, "w", encoding="utf-8") as f:
+            for r in results:
+                f.write(json.dumps(r, ensure_ascii=False) + "\n")
+
+        summary_path = os.path.join(out_dir, f"online_dprs-{model_short}-summary.json")
+        with open(summary_path, "w", encoding="utf-8") as f:
+            json.dump(summary, f, indent=2, ensure_ascii=False)
+
+        # ── Print final summary ─────────────────────────────────────────────
+        print(f"\n{'='*65}")
+        print(f"FINAL SUMMARY — {query_id}")
+        print(f"{'='*65}")
+        print(f"Query:              {query_id} — {query_text}")
+        print(f"DPRs collected:     {len(results)}/{args.target_dprs}")
+        print(f"Overall avg score:  {summary['overall_avg_relevance']}")
+        print(f"\nCluster breakdown:")
+        for cid, stats in summary["cluster_stats"].items():
+            print(
+                f"  Cluster {cid:>3}: "
+                f"visits={stats['visits']:>2}  "
+                f"avg_score={stats['avg_score']}  "
+                f"scores={stats['scores']}"
+            )
+        print(f"\nAll {len(results)} DPRs (generation order):")
         for r in results:
-            f.write(json.dumps(r, ensure_ascii=False) + "\n")
+            print(
+                f"  [DPR {r['dpr_number']:02d} | {r['phase']}] "
+                f"cluster={r['cluster_id']} "
+                f"score={r['relevance_score']} | "
+                f"{r['DPR'][:80]}..."
+            )
+        print(f"\nOutputs:")
+        print(f"  JSONL:   {jsonl_path}")
+        print(f"  Summary: {summary_path}")
+        print(f"  Log:     {_log_path}")
 
-    summary_path = os.path.join(
-        args.output_dir, f"online_dprs-{model_short}-summary.json"
-    )
-    with open(summary_path, "w", encoding="utf-8") as f:
-        json.dump(summary, f, indent=2, ensure_ascii=False)
-
-    # ── Print final summary ─────────────────────────────────────────────────
-    print(f"\n{'='*65}")
-    print("FINAL SUMMARY")
-    print(f"{'='*65}")
-    print(f"Query:              {args.query_id} — {query_text}")
-    print(f"DPRs collected:     {len(results)}/{args.target_dprs}")
-    print(f"Overall avg score:  {summary['overall_avg_relevance']}")
-    print(f"\nCluster breakdown:")
-    for cid, stats in summary["cluster_stats"].items():
-        print(
-            f"  Cluster {cid:>3}: "
-            f"visits={stats['visits']:>2}  "
-            f"avg_score={stats['avg_score']}  "
-            f"scores={stats['scores']}"
+        logging.info(
+            "Query %s done: %d DPRs, avg_score=%.4f, saved to %s",
+            query_id, len(results), summary["overall_avg_relevance"], out_dir,
         )
-    print(f"\nAll {len(results)} DPRs (generation order):")
-    for r in results:
-        print(
-            f"  [DPR {r['dpr_number']:02d} | {r['phase']}] "
-            f"cluster={r['cluster_id']} "
-            f"score={r['relevance_score']} | "
-            f"{r['DPR'][:80]}..."
-        )
-    print(f"\nOutputs:")
-    print(f"  JSONL:   {jsonl_path}")
-    print(f"  Summary: {summary_path}")
-    print(f"  Log:     {_log_path}")
 
 
 if __name__ == "__main__":
