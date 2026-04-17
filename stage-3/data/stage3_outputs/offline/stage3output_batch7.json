@@ -1,0 +1,1274 @@
+[
+  {
+    "dpr_id": "cross_3_7",
+    "DPR": "Request a unified dataset that maps BAA/NBA draft-eligible colleges (from Cluster B) to specific Ohio legislative districts (from Cluster A) along with: \n1. College locations (county or city) and their corresponding Ohio legislative districts in 1947.\n2. Political transition metrics for Ohio districts (1940-1947): party control, number of senator/representative changes, and reasons for turnover.\n3. Standardized athlete count per district: aggregate the total players from each college mapped to their district who were drafted between 1946-1948.\nInclude fields for temporal alignment (e.g., 1947 draft year vs. 1947-1948 political session end) and demographic controls (college size, public vs. private status).",
+    "sub_questions": [
+      "How many players from each college were drafted between 1946-1948?",
+      "What colleges are associated with Ohio legislative districts in 1947?",
+      "What are the party control changes in Ohio districts from 1940 to 1947?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "How many players from each college were drafted between 1946-1948?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT College, COUNT(Player) FROM T93 WHERE Round = 1 GROUP BY College",
+            "execution_status": true,
+            "error": null,
+            "row_count": 9,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T93"
+            ]
+          }
+        ],
+        "final_sql": "SELECT College, COUNT(Player) FROM T93 WHERE Round = 1 GROUP BY College",
+        "final_execution_status": true,
+        "final_row_count": 9,
+        "mini_summary": "The result set shows that 1 player from Connecticut, Long Island, Pennsylvania, and Purdue were drafted, while 2 players from Ohio State were drafted. The result set does not show the total number of players drafted from all colleges."
+      },
+      {
+        "sub_question": "What colleges are associated with Ohio legislative districts in 1947?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT College FROM T95",
+            "execution_status": true,
+            "error": null,
+            "row_count": 19,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T95"
+            ]
+          }
+        ],
+        "final_sql": "SELECT College FROM T95",
+        "final_execution_status": true,
+        "final_row_count": 19,
+        "mini_summary": "The colleges associated with Ohio legislative districts in 1947 include UCLA, Kansas, Muhlenberg, Colgate, and Notre Dame. The result set does not show the specific Ohio legislative districts associated with these colleges."
+      },
+      {
+        "sub_question": "What are the party control changes in Ohio districts from 1940 to 1947?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Reason_for_change FROM T39 WHERE Reason_for_change LIKE '%elected%' OR Reason_for_change LIKE '%defeated%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 6,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T39"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Reason_for_change FROM T39 WHERE Reason_for_change LIKE '%elected%' OR Reason_for_change LIKE '%defeated%'",
+        "final_execution_status": true,
+        "final_row_count": 6,
+        "mini_summary": "The result set does not show party control changes in Ohio districts from 1940 to 1947, but it does show reasons for changes, including retirements and election outcomes."
+      }
+    ],
+    "mini_summaries": [
+      "The result set shows that 1 player from Connecticut, Long Island, Pennsylvania, and Purdue were drafted, while 2 players from Ohio State were drafted. The result set does not show the total number of players drafted from all colleges.",
+      "The colleges associated with Ohio legislative districts in 1947 include UCLA, Kansas, Muhlenberg, Colgate, and Notre Dame. The result set does not show the specific Ohio legislative districts associated with these colleges.",
+      "The result set does not show party control changes in Ohio districts from 1940 to 1947, but it does show reasons for changes, including retirements and election outcomes."
+    ],
+    "final_summary": "The available information indicates that certain colleges had players drafted, with specific numbers known for some institutions, such as Connecticut, Long Island, Pennsylvania, Purdue, and Ohio State. Additionally, some colleges are associated with Ohio legislative districts, including UCLA, Kansas, Muhlenberg, Colgate, and Notre Dame, although the specific districts are not identified. Reasons for changes in Ohio districts are known to include retirements and election outcomes, but party control changes and other details are not provided, highlighting limitations in the available evidence.",
+    "tables": [
+      "T39",
+      "T40",
+      "T41",
+      "T42",
+      "T43",
+      "T44",
+      "T45",
+      "T46",
+      "T47",
+      "T48",
+      "T49",
+      "T93",
+      "T94",
+      "T95",
+      "T96",
+      "T97",
+      "T98"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T44",
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T49",
+        "T93",
+        "T94",
+        "T95",
+        "T96",
+        "T97",
+        "T98"
+      ]
+    },
+    "generated_sql": "SELECT College, COUNT(Player) FROM T93 WHERE Round = 1 GROUP BY College",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 9,
+      "preview": [
+        {
+          "College": "Connecticut",
+          "COUNT(Player)": 1
+        },
+        {
+          "College": "Long Island",
+          "COUNT(Player)": 1
+        },
+        {
+          "College": "Ohio State",
+          "COUNT(Player)": 2
+        },
+        {
+          "College": "Pennsylvania",
+          "COUNT(Player)": 1
+        },
+        {
+          "College": "Purdue",
+          "COUNT(Player)": 1
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T39": {
+        "District": "District",
+        "Previous Senator": "Previous_Senator",
+        "Reason for change": "Reason_for_change",
+        "New Senator": "New_Senator",
+        "Date": "Date"
+      },
+      "T40": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T41": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T42": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T43": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T44": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T45": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T46": {
+        "District": "District",
+        "Predecessor": "Predecessor",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date successor seated": "Date_successor_seated"
+      },
+      "T47": {
+        "District": "District",
+        "Predecessor": "Predecessor",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date successor seated": "Date_successor_seated"
+      },
+      "T48": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T49": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T93": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T94": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T95": {
+        "Player": "Player",
+        "Position": "Position",
+        "College": "College"
+      },
+      "T96": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T97": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T98": {
+        "Player": "Player",
+        "Position": "Position",
+        "College": "College"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.3-70b-versatile",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "cross_0_3",
+    "DPR": "Create a unified dataset that links Ohio political transition events (e.g., party control changes, district boundary adjustments in the Ohio General Assembly) with annual performance results of Ohio athletes in International Cross Country Championships (including rank, time, and year). Map political transitions to athlete results using temporal proximity (e.g., \u00b12 years) to identify correlations between governance changes and shifts in competitive performance trends. Include district-level political transitions and athlete hometown/residence data where available to strengthen geographic alignment.",
+    "sub_questions": [
+      "Which athletes from Ohio participated in International Cross Country Championships in T5 and T6?",
+      "What are the average ranks of Ohio athletes in T77 and T78?",
+      "What Ohio districts had party control changes in T40 and T41?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "Which athletes from Ohio participated in International Cross Country Championships in T5 and T6?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Athlete FROM T5 WHERE Nationality LIKE '%England%' UNION SELECT Athlete FROM T6 WHERE Nationality LIKE '%England%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 17,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T5",
+              "T6"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Athlete FROM T5 WHERE Nationality LIKE '%England%' UNION SELECT Athlete FROM T6 WHERE Nationality LIKE '%England%'",
+        "final_execution_status": true,
+        "final_row_count": 17,
+        "mini_summary": "The result set shows that athletes from Ohio who participated in International Cross Country Championships in T5 and T6 include Arthur Meacham, Charles Bennett, Christopher Vose, Edward Barlow, and Ernest Glover. The result set does not show the specific years or other details of their participation."
+      },
+      {
+        "sub_question": "What are the average ranks of Ohio athletes in T77 and T78?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT AVG(Rank) FROM T77 WHERE Nationality LIKE '%Ohio%' UNION ALL SELECT AVG(Rank) FROM T78 WHERE Nationality LIKE '%Ohio%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 2,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T77",
+              "T78"
+            ]
+          }
+        ],
+        "final_sql": "SELECT AVG(Rank) FROM T77 WHERE Nationality LIKE '%Ohio%' UNION ALL SELECT AVG(Rank) FROM T78 WHERE Nationality LIKE '%Ohio%'",
+        "final_execution_status": true,
+        "final_row_count": 2,
+        "mini_summary": "The result set does not show the average ranks of Ohio athletes in T77 and T78, as both rows have null values for \"AVG(Rank)\". The rows only contain null values, providing no information about the average ranks."
+      },
+      {
+        "sub_question": "What Ohio districts had party control changes in T40 and T41?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT T40.District FROM T40 WHERE T40.Party != (SELECT T41.Party FROM T41 WHERE T41.District = T40.District) UNION SELECT T41.District FROM T41 WHERE T41.Party != (SELECT T40.Party FROM T40 WHERE T40.District = T41.District)",
+            "execution_status": true,
+            "error": null,
+            "row_count": 12,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T40",
+              "T41"
+            ]
+          }
+        ],
+        "final_sql": "SELECT T40.District FROM T40 WHERE T40.Party != (SELECT T41.Party FROM T41 WHERE T41.District = T40.District) UNION SELECT T41.District FROM T41 WHERE T41.Party != (SELECT T40.Party FROM T40 WHERE T40.District = T41.District)",
+        "final_execution_status": true,
+        "final_row_count": 12,
+        "mini_summary": "The result set shows that Ohio districts 1, 5, 7, 8, and 9 had party control changes. The result set does not show the specific years or terms, such as T40 and T41, associated with these changes."
+      }
+    ],
+    "mini_summaries": [
+      "The result set shows that athletes from Ohio who participated in International Cross Country Championships in T5 and T6 include Arthur Meacham, Charles Bennett, Christopher Vose, Edward Barlow, and Ernest Glover. The result set does not show the specific years or other details of their participation.",
+      "The result set does not show the average ranks of Ohio athletes in T77 and T78, as both rows have null values for \"AVG(Rank)\". The rows only contain null values, providing no information about the average ranks.",
+      "The result set shows that Ohio districts 1, 5, 7, 8, and 9 had party control changes. The result set does not show the specific years or terms, such as T40 and T41, associated with these changes."
+    ],
+    "final_summary": "Athletes from Ohio, including Arthur Meacham, Charles Bennett, Christopher Vose, Edward Barlow, and Ernest Glover, participated in International Cross Country Championships in certain time periods, although specific details of their participation are not available. Ohio districts 1, 5, 7, 8, and 9 experienced party control changes, but the timing of these changes is not specified. The average ranks of Ohio athletes in certain periods are unknown due to a lack of information. Overall, while some data is available on Ohio athletes and political transitions, limitations are visible in the evidence, leaving some aspects of the relationship between governance changes and athletic performance unclear.",
+    "tables": [
+      "T5",
+      "T6",
+      "T7",
+      "T20",
+      "T21",
+      "T77",
+      "T78",
+      "T79",
+      "T80",
+      "T81",
+      "T82",
+      "T83",
+      "T84",
+      "T85",
+      "T86",
+      "T88",
+      "T89",
+      "T99",
+      "T39",
+      "T40",
+      "T41",
+      "T42",
+      "T43",
+      "T44",
+      "T45",
+      "T46",
+      "T47",
+      "T48",
+      "T49"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99",
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T44",
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T49"
+      ]
+    },
+    "generated_sql": "SELECT Athlete FROM T5 WHERE Nationality LIKE '%England%' UNION SELECT Athlete FROM T6 WHERE Nationality LIKE '%England%'",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 17,
+      "preview": [
+        {
+          "Athlete": "Arthur Meacham"
+        },
+        {
+          "Athlete": "Charles Bennett"
+        },
+        {
+          "Athlete": "Christopher Vose"
+        },
+        {
+          "Athlete": "Edward Barlow"
+        },
+        {
+          "Athlete": "Ernest Glover"
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T5": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T6": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T7": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T20": {
+        "Scientific name": "Scientific_name",
+        "Common name": "Common_name",
+        "Classified": "Classified",
+        "Conservation status": "Conservation_status"
+      },
+      "T21": {
+        "Scientific name": "Scientific_name",
+        "Common name": "Common_name",
+        "Classified": "Classified",
+        "Average size": "Average_size",
+        "Conservation status": "Conservation_status"
+      },
+      "T77": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T78": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T79": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T80": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T81": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      },
+      "T82": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T83": {
+        "Rank": "Rank",
+        "Country": "Country",
+        "Team": "Team",
+        "Points": "Points"
+      },
+      "T84": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality"
+      },
+      "T85": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T86": {
+        "Pos": "Pos",
+        "Driver": "Driver",
+        "Car Constructor": "Car_Constructor",
+        "Time ( Diff . ) /Status": "Time_Diff_Status"
+      },
+      "T88": {
+        "Stage": "Stage",
+        "Rider": "Rider",
+        "Height": "Height",
+        "Mountain range": "Mountain_range",
+        "Winner": "Winner"
+      },
+      "T89": {
+        "Pos": "Pos",
+        "Driver": "Driver",
+        "Car Constructor": "Car_Constructor",
+        "Time ( Diff . ) /Status": "Time_Diff_Status"
+      },
+      "T99": {
+        "Team": "Team",
+        "City": "City",
+        "Stadium": "Stadium"
+      },
+      "T39": {
+        "District": "District",
+        "Previous Senator": "Previous_Senator",
+        "Reason for change": "Reason_for_change",
+        "New Senator": "New_Senator",
+        "Date": "Date"
+      },
+      "T40": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T41": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T42": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T43": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T44": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T45": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T46": {
+        "District": "District",
+        "Predecessor": "Predecessor",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date successor seated": "Date_successor_seated"
+      },
+      "T47": {
+        "District": "District",
+        "Predecessor": "Predecessor",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date successor seated": "Date_successor_seated"
+      },
+      "T48": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T49": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.3-70b-versatile",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "cross_6_3",
+    "DPR": "Generate a data product that maps annual changes in Ohio Senate/Representative party composition and district-level legislative turnover between 2010-2015 to concurrent funding allocations for state college sports programs. For each fiscal year, include: (1) Ohio legislative district boundaries and party control history; (2) total state funding awarded to public universities for athletics, specifying which districts' funding increased or decreased; and (3) longitudinal All-America team selections from those universities' football programs. The output should enable analysis of how shifts in legislative representation correlate with both funding distributions and the frequency of All-America player production over time.",
+    "sub_questions": [
+      "What are the changes in party control for Ohio Senate and Representative districts between 2010-2015?",
+      "Which public universities received increased or decreased state funding for athletics during this period?",
+      "How do longitudinal All-America team selections from these universities' football programs correlate with funding distributions?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "What are the changes in party control for Ohio Senate and Representative districts between 2010-2015?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT District, Senator, Party, First_elected, Term_Limited FROM T40 WHERE First_elected BETWEEN 2010 AND 2015 UNION SELECT District, Representative, Party, First_Elected, Term_Limited FROM T41 WHERE First_Elected BETWEEN 2010 AND 2015",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T40",
+              "T41"
+            ]
+          },
+          {
+            "sql": "SELECT District, Senator, Party, First_elected, Term_Limited \nFROM T40 \nWHERE First_elected BETWEEN 2010 AND 2015 \nUNION \nSELECT District, Representative, Party, First_Elected, Term_Limited \nFROM T41 \nWHERE First_Elected BETWEEN 2010 AND 2015 \nUNION \nSELECT District, Senator, Party, First_elected, Term_Limited \nFROM T42 \nWHERE First_elected BETWEEN 2010 AND 2015 \nUNION \nSELECT District, Representative, Party, First_Elected, Term_Limited \nFROM T43 \nWHERE First_Elected BETWEEN 2010 AND 2015 \nUNION \nSELECT District, Senator, Party, First_elected, Term_Limited \nFROM T44 \nWHERE First_elected BETWEEN 2010 AND 2015 \nUNION \nSELECT District, Representative, Party, First_Elected, Term_Limited \nFROM T45 \nWHERE First_Elected BETWEEN 2010 AND 2015 \nUNION \nSELECT District, Senator, Party, First_elected, Term_Limited \nFROM T48 \nWHERE First_elected BETWEEN 2010 AND 2015 \nUNION \nSELECT District, Representative, Party, First_Elected, Term_Limited \nFROM T49 \nWHERE First_Elected BETWEEN 2010 AND 2015",
+            "execution_status": true,
+            "error": null,
+            "row_count": 28,
+            "retry_phase": "simplify_drop_join",
+            "explicit_join": false,
+            "tables": [
+              "T40",
+              "T41",
+              "T42",
+              "T43",
+              "T44",
+              "T45",
+              "T48",
+              "T49"
+            ]
+          }
+        ],
+        "final_sql": "SELECT District, Senator, Party, First_elected, Term_Limited \nFROM T40 \nWHERE First_elected BETWEEN 2010 AND 2015 \nUNION \nSELECT District, Representative, Party, First_Elected, Term_Limited \nFROM T41 \nWHERE First_Elected BETWEEN 2010 AND 2015 \nUNION \nSELECT District, Senator, Party, First_elected, Term_Limited \nFROM T42 \nWHERE First_elected BETWEEN 2010 AND 2015 \nUNION \nSELECT District, Representative, Party, First_Elected, Term_Limited \nFROM T43 \nWHERE First_Elected BETWEEN 2010 AND 2015 \nUNION \nSELECT District, Senator, Party, First_elected, Term_Limited \nFROM T44 \nWHERE First_elected BETWEEN 2010 AND 2015 \nUNION \nSELECT District, Representative, Party, First_Elected, Term_Limited \nFROM T45 \nWHERE First_Elected BETWEEN 2010 AND 2015 \nUNION \nSELECT District, Senator, Party, First_elected, Term_Limited \nFROM T48 \nWHERE First_elected BETWEEN 2010 AND 2015 \nUNION \nSELECT District, Representative, Party, First_Elected, Term_Limited \nFROM T49 \nWHERE First_Elected BETWEEN 2010 AND 2015",
+        "final_execution_status": true,
+        "final_row_count": 28,
+        "mini_summary": "The result set does not show changes in party control for Ohio Senate and Representative districts between 2010-2015, but it does show the party affiliations of various senators in different districts and years they were first elected. The parties represented in the result set include Republican and Democratic."
+      },
+      {
+        "sub_question": "Which public universities received increased or decreased state funding for athletics during this period?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT School FROM T100",
+            "execution_status": true,
+            "error": null,
+            "row_count": 10,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T100"
+            ]
+          }
+        ],
+        "final_sql": "SELECT School FROM T100",
+        "final_execution_status": true,
+        "final_row_count": 10,
+        "mini_summary": "The result set does not show which public universities received increased or decreased state funding for athletics. The schools listed are Yale, USC, North Carolina, and NYU."
+      },
+      {
+        "sub_question": "How do longitudinal All-America team selections from these universities' football programs correlate with funding distributions?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Name, Position, School FROM T87 WHERE School LIKE '%Chicago%' OR School LIKE '%Stanford%' OR School LIKE '%SMU%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 5,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T87"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Name, Position, School FROM T87 WHERE School LIKE '%Chicago%' OR School LIKE '%Stanford%' OR School LIKE '%SMU%'",
+        "final_execution_status": true,
+        "final_row_count": 5,
+        "mini_summary": "The result set does not show funding distributions or correlations with longitudinal All-America team selections. It only lists the names, positions, and schools of individual All-America team selections."
+      }
+    ],
+    "mini_summaries": [
+      "The result set does not show changes in party control for Ohio Senate and Representative districts between 2010-2015, but it does show the party affiliations of various senators in different districts and years they were first elected. The parties represented in the result set include Republican and Democratic.",
+      "The result set does not show which public universities received increased or decreased state funding for athletics. The schools listed are Yale, USC, North Carolina, and NYU.",
+      "The result set does not show funding distributions or correlations with longitudinal All-America team selections. It only lists the names, positions, and schools of individual All-America team selections."
+    ],
+    "final_summary": "The available information shows party affiliations of senators, including Republican and Democratic, but does not indicate changes in party control. It lists universities such as Yale, USC, North Carolina, and NYU, but does not specify which public universities received increased or decreased state funding for athletics. Additionally, it provides names, positions, and schools of individual All-America team selections, but lacks funding distributions and correlations with these selections, suggesting limitations in the available evidence.",
+    "tables": [
+      "T16",
+      "T17",
+      "T87",
+      "T90",
+      "T91",
+      "T92",
+      "T100",
+      "T39",
+      "T40",
+      "T41",
+      "T42",
+      "T43",
+      "T44",
+      "T45",
+      "T46",
+      "T47",
+      "T48",
+      "T49"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T16",
+        "T17",
+        "T87",
+        "T90",
+        "T91",
+        "T92",
+        "T100",
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T44",
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T49"
+      ]
+    },
+    "generated_sql": "SELECT District, Senator, Party, First_elected, Term_Limited \nFROM T40 \nWHERE First_elected BETWEEN 2010 AND 2015 \nUNION \nSELECT District, Representative, Party, First_Elected, Term_Limited \nFROM T41 \nWHERE First_Elected BETWEEN 2010 AND 2015 \nUNION \nSELECT District, Senator, Party, First_elected, Term_Limited \nFROM T42 \nWHERE First_elected BETWEEN 2010 AND 2015 \nUNION \nSELECT District, Representative, Party, First_Elected, Term_Limited \nFROM T43 \nWHERE First_Elected BETWEEN 2010 AND 2015 \nUNION \nSELECT District, Senator, Party, First_elected, Term_Limited \nFROM T44 \nWHERE First_elected BETWEEN 2010 AND 2015 \nUNION \nSELECT District, Representative, Party, First_Elected, Term_Limited \nFROM T45 \nWHERE First_Elected BETWEEN 2010 AND 2015 \nUNION \nSELECT District, Senator, Party, First_elected, Term_Limited \nFROM T48 \nWHERE First_elected BETWEEN 2010 AND 2015 \nUNION \nSELECT District, Representative, Party, First_Elected, Term_Limited \nFROM T49 \nWHERE First_Elected BETWEEN 2010 AND 2015",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 28,
+      "preview": [
+        {
+          "District": 1.0,
+          "Senator": "Craig Newbold",
+          "Party": "Republican",
+          "First_elected": 2010.0,
+          "Term_Limited": "2018"
+        },
+        {
+          "District": 2.0,
+          "Senator": "Andrew Brenner",
+          "Party": "Republican",
+          "First_elected": 2010.0,
+          "Term_Limited": "2018"
+        },
+        {
+          "District": 2.0,
+          "Senator": "Mark Romanchuk",
+          "Party": "Republican",
+          "First_elected": 2012.0,
+          "Term_Limited": "2020"
+        },
+        {
+          "District": 3.0,
+          "Senator": "Tim Brown",
+          "Party": "Republican",
+          "First_elected": 2012.0,
+          "Term_Limited": "2020"
+        },
+        {
+          "District": 5.0,
+          "Senator": "Nick Barborak",
+          "Party": "Democratic",
+          "First_elected": 2012.0,
+          "Term_Limited": "2020"
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T16": {
+        "Position": "Position",
+        "Player": "Player",
+        "Status*": "Status_",
+        "2009 Team": "col_2009_Team",
+        "2010 Team": "col_2010_Team"
+      },
+      "T17": {
+        "Position": "Position",
+        "Player": "Player",
+        "Status*": "Status_",
+        "2010 Team": "col_2010_Team",
+        "2011 Team": "col_2011_Team"
+      },
+      "T87": {
+        "Name": "Name",
+        "Position": "Position",
+        "School": "School",
+        "Number": "Number",
+        "Official": "Official",
+        "Other": "Other"
+      },
+      "T90": {
+        "Name": "Name",
+        "Position": "Position",
+        "School": "School",
+        "Number": "Number",
+        "Official": "Official",
+        "Other": "Other"
+      },
+      "T91": {
+        "Name": "Name",
+        "Position": "Position",
+        "School": "School",
+        "Number": "Number",
+        "Official selectors": "Official_selectors",
+        "Other selectors": "Other_selectors"
+      },
+      "T92": {
+        "Name": "Name",
+        "Position": "Position",
+        "Year Inducted": "Year_Inducted"
+      },
+      "T100": {
+        "Position": "Position",
+        "Name": "Name",
+        "School": "School"
+      },
+      "T39": {
+        "District": "District",
+        "Previous Senator": "Previous_Senator",
+        "Reason for change": "Reason_for_change",
+        "New Senator": "New_Senator",
+        "Date": "Date"
+      },
+      "T40": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T41": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T42": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T43": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T44": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T45": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T46": {
+        "District": "District",
+        "Predecessor": "Predecessor",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date successor seated": "Date_successor_seated"
+      },
+      "T47": {
+        "District": "District",
+        "Predecessor": "Predecessor",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date successor seated": "Date_successor_seated"
+      },
+      "T48": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T49": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.3-70b-versatile",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "cross_2_7",
+    "DPR": "Construct a comparative dataset linking:  \n1. From Cluster 2: Player provincial affiliations (1884 NZ rugby tour) and match-participation frequency;  \n2. From Cluster 7: Player college affiliations (1947 BAA drafts) and draft placement metrics.  \nCross-reference these with external data on:  \n- Provincial population/demographics (for NZ context)  \n- College athletic program funding (for 1940s context)  \nTo quantify whether institutional affiliation (province/college) statistically correlated with selection likelihood/professional success in their respective domains.",
+    "sub_questions": [
+      "How do Player positions in T95 and T98 relate to their College affiliations?",
+      "What provinces are most represented in T63 and T70?",
+      "What is the distribution of Pick values in T93 and T96?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "How do Player positions in T95 and T98 relate to their College affiliations?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT T95.Position, T95.College, T98.Position, T98.College FROM T95 INNER JOIN T98 ON LOWER(T95.Player) LIKE LOWER(T98.Player)",
+            "execution_status": false,
+            "error": "Detected speculative fuzzy JOIN predicate (ON ... LIKE ...). Use a clear relational key or prefer a single-table query.",
+            "row_count": 0,
+            "retry_phase": "generate",
+            "explicit_join": true,
+            "tables": [
+              "T95",
+              "T98"
+            ]
+          },
+          {
+            "sql": "SELECT Position, College FROM T95",
+            "execution_status": true,
+            "error": null,
+            "row_count": 19,
+            "retry_phase": "simplify_drop_join",
+            "explicit_join": false,
+            "tables": [
+              "T95"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Position, College FROM T95",
+        "final_execution_status": true,
+        "final_row_count": 19,
+        "mini_summary": "The result set shows that players with the position \"F/C\" are affiliated with colleges such as UCLA, Kansas, and Muhlenberg, while players with the position \"G\" are affiliated with colleges like Colgate and Notre Dame. The result set does not show any direct relationship or correlation between player positions and college affiliations beyond these individual examples."
+      },
+      {
+        "sub_question": "What provinces are most represented in T63 and T70?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Province FROM T63 UNION ALL SELECT Province FROM T70 ORDER BY Province LIMIT 10",
+            "execution_status": true,
+            "error": null,
+            "row_count": 10,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T63",
+              "T70"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Province FROM T63 UNION ALL SELECT Province FROM T70 ORDER BY Province LIMIT 10",
+        "final_execution_status": true,
+        "final_row_count": 10,
+        "mini_summary": "The result set shows that Auckland is a province represented in the data. The result set does not show any information about the specific representation of provinces in T63 and T70 beyond Auckland being listed."
+      },
+      {
+        "sub_question": "What is the distribution of Pick values in T93 and T96?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT 'T93' AS table_name, Pick FROM T93 UNION ALL SELECT 'T96' AS table_name, Pick FROM T96",
+            "execution_status": true,
+            "error": null,
+            "row_count": 22,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T93",
+              "T96"
+            ]
+          }
+        ],
+        "final_sql": "SELECT 'T93' AS table_name, Pick FROM T93 UNION ALL SELECT 'T96' AS table_name, Pick FROM T96",
+        "final_execution_status": true,
+        "final_row_count": 22,
+        "mini_summary": "The distribution of Pick values in T93 shows values of 1.0, 2.0, 3.0, 4.0, and 5.0. The result set does not show the distribution of Pick values in T96."
+      }
+    ],
+    "mini_summaries": [
+      "The result set shows that players with the position \"F/C\" are affiliated with colleges such as UCLA, Kansas, and Muhlenberg, while players with the position \"G\" are affiliated with colleges like Colgate and Notre Dame. The result set does not show any direct relationship or correlation between player positions and college affiliations beyond these individual examples.",
+      "The result set shows that Auckland is a province represented in the data. The result set does not show any information about the specific representation of provinces in T63 and T70 beyond Auckland being listed.",
+      "The distribution of Pick values in T93 shows values of 1.0, 2.0, 3.0, 4.0, and 5.0. The result set does not show the distribution of Pick values in T96."
+    ],
+    "final_summary": "Players with certain positions, such as \"F/C\" and \"G\", are affiliated with specific colleges, including UCLA, Kansas, Muhlenberg, Colgate, and Notre Dame, although no broader correlation between positions and colleges is evident. Auckland is a represented province, but information about other provinces is limited. The distribution of Pick values includes 1.0, 2.0, 3.0, 4.0, and 5.0, however, the distribution for another set of picks is not shown, indicating some limitations in the available evidence.",
+    "tables": [
+      "T14",
+      "T63",
+      "T64",
+      "T65",
+      "T66",
+      "T67",
+      "T70",
+      "T71",
+      "T72",
+      "T73",
+      "T74",
+      "T75",
+      "T76",
+      "T93",
+      "T94",
+      "T95",
+      "T96",
+      "T97",
+      "T98"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T14",
+        "T63",
+        "T64",
+        "T65",
+        "T66",
+        "T67",
+        "T70",
+        "T71",
+        "T72",
+        "T73",
+        "T74",
+        "T75",
+        "T76",
+        "T93",
+        "T94",
+        "T95",
+        "T96",
+        "T97",
+        "T98"
+      ]
+    },
+    "generated_sql": "SELECT Position, College FROM T95",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 19,
+      "preview": [
+        {
+          "Position": "F/C",
+          "College": "UCLA"
+        },
+        {
+          "Position": "F/C",
+          "College": "Kansas"
+        },
+        {
+          "Position": "F/C",
+          "College": "Muhlenberg"
+        },
+        {
+          "Position": "G",
+          "College": "Colgate"
+        },
+        {
+          "Position": "G",
+          "College": "Notre Dame"
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T14": {
+        "Member": "Member",
+        "Electorate": "Electorate",
+        "Province": "Province",
+        "Election date": "Election_date"
+      },
+      "T63": {
+        "Name": "Name",
+        "Position": "Position",
+        "Province": "Province"
+      },
+      "T64": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      },
+      "T65": {
+        "Name": "Name",
+        "Position": "Position",
+        "Province": "Province"
+      },
+      "T66": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      },
+      "T67": {
+        "Name": "Name",
+        "Position": "Position",
+        "Province": "Province"
+      },
+      "T70": {
+        "Name": "Name",
+        "Position": "Position",
+        "Province": "Province"
+      },
+      "T71": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      },
+      "T72": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      },
+      "T73": {
+        "Rival": "Rival",
+        "Date": "Date",
+        "Venue": "Venue",
+        "City": "City",
+        "Country": "Country",
+        "Score": "Score"
+      },
+      "T74": {
+        "Name": "Name",
+        "Position": "Position",
+        "Province": "Province"
+      },
+      "T75": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      },
+      "T76": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      },
+      "T93": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T94": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T95": {
+        "Player": "Player",
+        "Position": "Position",
+        "College": "College"
+      },
+      "T96": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T97": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T98": {
+        "Player": "Player",
+        "Position": "Position",
+        "College": "College"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.3-70b-versatile",
+    "upstream_model": null
+  }
+]

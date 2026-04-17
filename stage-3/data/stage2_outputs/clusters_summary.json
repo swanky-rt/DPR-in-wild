@@ -1,0 +1,433 @@
+{
+  "metrics": {
+    "n_tables": 100,
+    "n_topics": 10,
+    "n_noise": 5,
+    "cluster_sizes": {
+      "4": 9,
+      "5": 9,
+      "0": 18,
+      "2": 13,
+      "-1": 5,
+      "6": 7,
+      "9": 3,
+      "1": 14,
+      "8": 5,
+      "3": 11,
+      "7": 6
+    },
+    "silhouette_score": 0.8473
+  },
+  "topic_info": [
+    {
+      "Topic": -1,
+      "Count": 5,
+      "Name": "-1_race_athletes_including year_event",
+      "Representation": [
+        "race",
+        "athletes",
+        "including year",
+        "event",
+        "year",
+        "year event",
+        "table records",
+        "records",
+        "results",
+        "1500"
+      ],
+      "Representative_Docs": [
+        "This table records results from the 100 metres hurdles event, including the year each race occurred, the athletes' times, the athletes' names, and the competition locations.",
+        "This table records 1500 meters race results, including the year of the event, the athlete's time, the competitor's name, and the location where the race took place. It spans 80 entries with data from various years and locations.",
+        "This table records 1500 metres race results, including the year of the event, the recorded time, the athlete's name, and the location where the race took place. It contains 64 entries spanning multiple years with associated performance data."
+      ]
+    },
+    {
+      "Topic": 0,
+      "Count": 18,
+      "Name": "0_country_international_results_athlete",
+      "Representation": [
+        "country",
+        "international",
+        "results",
+        "athlete",
+        "race",
+        "lists",
+        "table lists",
+        "times",
+        "table",
+        "rank"
+      ],
+      "Representative_Docs": [
+        "This table lists the results of the 1921 International Cross Country Championships, including the rank, athlete name, nationality, and race time for participants.",
+        "This table lists results from the 1924 International Cross Country Championships, showing athletes' ranks, names, nationalities, and race times.",
+        "This table lists results from the 1933 International Cross Country Championships, showing athlete rankings, names, nationalities, and race times. It captures competitive sports data with participant details and performance metrics."
+      ]
+    },
+    {
+      "Topic": 1,
+      "Count": 14,
+      "Name": "1_changes_affected_states_successors",
+      "Representation": [
+        "changes",
+        "affected",
+        "states",
+        "successors",
+        "successor",
+        "united",
+        "change",
+        "change successor",
+        "reason",
+        "reason change"
+      ],
+      "Representative_Docs": [
+        "This table records changes in U.S. congressional representation during the 105th Congress, including the district affected, the vacating representative, the reason for the change, their successor, and the installation date.",
+        "This table documents changes in representation during the 18th United States Congress, including the congressional district affected, the vacator, the reason for the change, the successor, and the date of the successor's formal installation.",
+        "This table documents changes in congressional representation during the 102nd United States Congress, including the district affected, the vacator, reason for the change, successor, and installation date."
+      ]
+    },
+    {
+      "Topic": 2,
+      "Count": 13,
+      "Name": "2_new_tour_rugby_opposing",
+      "Representation": [
+        "new",
+        "tour",
+        "rugby",
+        "opposing",
+        "matches",
+        "dates",
+        "lists players",
+        "teams",
+        "match",
+        "numbers"
+      ],
+      "Representative_Docs": [
+        "This table lists matches from the 1920 New Zealand rugby union tour of New South Wales, including match numbers, dates, opposing teams, cities, venues, and scores.",
+        "This table records details of matches from the 1884 New Zealand rugby union tour in New South Wales, including match numbers, dates, opposing teams, cities, venues, and scores.",
+        "This table records details of the 1910 New Zealand rugby union tour matches in Australia, including match numbers, dates, opposing teams, locations, venues, and scores."
+      ]
+    },
+    {
+      "Topic": 3,
+      "Count": 11,
+      "Name": "3_assembly_term_political parties_parties",
+      "Representation": [
+        "assembly",
+        "term",
+        "political parties",
+        "parties",
+        "election",
+        "members",
+        "lists members",
+        "political",
+        "districts",
+        "status"
+      ],
+      "Representative_Docs": [
+        "This table lists members of the 129th Ohio General Assembly, including their senatorial districts, political parties, residences, years first elected, and term limit status.",
+        "This table lists members of the 128th Ohio General Assembly, including their districts, political parties, residences, election years, and term limit status.",
+        "This table lists members of the 130th Ohio General Assembly, including their district numbers, names, political parties, residences, election years, and term limit status."
+      ]
+    },
+    {
+      "Topic": 4,
+      "Count": 9,
+      "Name": "4_roles_year_table lists_lists",
+      "Representation": [
+        "roles",
+        "year",
+        "table lists",
+        "lists",
+        "information",
+        "table",
+        "year table",
+        "includes",
+        "additional",
+        "details"
+      ],
+      "Representative_Docs": [
+        "This table lists information related to \"Weird Al\" Yankovic, including years, titles of works, and associated roles. The sample data references a 1988 film titled 'Tapeheads'.",
+        "This table lists \"Weird Al\" Yankovic's roles in various projects over the years, including the year, title of the project, and additional notes.",
+        "This table lists \"Weird Al\" Yankovic's roles in TV shows and films, including the year, title of the production, his role, and additional notes. It covers his career spanning from the 1970s to the 2000s."
+      ]
+    },
+    {
+      "Topic": 5,
+      "Count": 9,
+      "Name": "5_political_districts_members_lists members",
+      "Representation": [
+        "political",
+        "districts",
+        "members",
+        "lists members",
+        "districts political",
+        "legislature",
+        "parties",
+        "political parties",
+        "affiliations",
+        "assembly"
+      ],
+      "Representative_Docs": [
+        "This table lists members of the 15th Legislative Assembly of Puerto Rico, including their names, political parties, and electoral districts. It provides information on senators' affiliations and geographic representation.",
+        "This table lists members of the 10th Manitoba Legislature, their electoral districts, and their political parties. It provides information on the Legislative Assembly of Manitoba from 1899 to 1914.",
+        "This table lists members of the 17th Manitoba Legislature, their electoral districts, and their political parties. It provides information on the legislators who served during the 1922-1935 period."
+      ]
+    },
+    {
+      "Topic": 6,
+      "Count": 7,
+      "Name": "6_football_college_positions_team",
+      "Representation": [
+        "football",
+        "college",
+        "positions",
+        "team",
+        "players",
+        "including positions",
+        "members",
+        "affiliations",
+        "jersey numbers",
+        "affiliations table"
+      ],
+      "Representative_Docs": [
+        "This table lists the 1935 College Football All-America Team members, including their positions, schools, and additional classifications. It provides historical data on standout college football players recognized that year.",
+        "This table lists the 1939 College Football All-America Team members, including their positions, schools, jersey numbers, official designations, and other categories. It contains 72 players with details on their roles and affiliations.",
+        "This table lists the 1943 College Football All-America Team members, including their positions, schools, jersey numbers, and selectors. It provides a historical record of recognized college football players and their affiliations."
+      ]
+    },
+    {
+      "Topic": 7,
+      "Count": 6,
+      "Name": "7_college_number_players_1948",
+      "Representation": [
+        "college",
+        "number",
+        "players",
+        "1948",
+        "team",
+        "provides historical",
+        "lists 1948",
+        "professional",
+        "historical",
+        "table lists"
+      ],
+      "Representative_Docs": [
+        "This table lists the 1948 BAA draft selections, including the round and pick number for each player, their position, the team that selected them, and their college affiliation.",
+        "This table lists the 1947 BAA draft selections, including the draft round, pick number, player name, position, team, and college attended. It provides historical data on players drafted into professional basketball.",
+        "This table lists the 1948 BAA draft selections, including the draft round, pick number, player name, position, team, and college attended. It provides a historical record of players selected in the draft along with their associated teams and educational backgrounds."
+      ]
+    },
+    {
+      "Topic": 8,
+      "Count": 5,
+      "Name": "8_record_time_metres_1500 metres",
+      "Representation": [
+        "record",
+        "time",
+        "metres",
+        "1500 metres",
+        "location",
+        "world",
+        "1500",
+        "athlete",
+        "tracks",
+        "table tracks"
+      ],
+      "Representative_Docs": [
+        "This table tracks the progression of 1500 metres world records over time, listing the recorded time, athlete name, date of achievement, and location. Each row represents a new record set by an athlete.",
+        "This table tracks the progression of the 1500 metres world record over time, listing the recorded time, athlete name, date of achievement, and location. It documents improvements in the record through historical data entries.",
+        "This table tracks the progression of 1500 metres world records, listing the time achieved, the athlete who set the record, the date it was set, and the location. It provides a historical overview of improvements in this athletic event."
+      ]
+    },
+    {
+      "Topic": 9,
+      "Count": 3,
+      "Name": "9_events_records results_time athlete_year event",
+      "Representation": [
+        "events",
+        "records results",
+        "time athlete",
+        "year event",
+        "table records",
+        "competition",
+        "race time",
+        "records",
+        "race",
+        "including year"
+      ],
+      "Representative_Docs": [
+        "This table records instances of the 10-second barrier in the 100m sprint being broken, including the date it was first broken, the athlete's name, their nationality, and the number of times the record was broken.",
+        "This table records results from 10,000 metres athletic events, including the year of the event, race time, athlete name, and competition location.",
+        "This table records results from 10,000 metres track and field events, including the year of the event, race time, athlete name, and competition location. It contains 80 rows of historical race data with associated metadata."
+      ]
+    }
+  ],
+  "clusters": [
+    {
+      "topic_id": "-1",
+      "num_tables": 5,
+      "table_ids": [
+        "T15",
+        "T19",
+        "T25",
+        "T52",
+        "T53"
+      ]
+    },
+    {
+      "topic_id": "0",
+      "num_tables": 18,
+      "table_ids": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ]
+    },
+    {
+      "topic_id": "1",
+      "num_tables": 14,
+      "table_ids": [
+        "T26",
+        "T27",
+        "T28",
+        "T29",
+        "T32",
+        "T33",
+        "T35",
+        "T36",
+        "T37",
+        "T38",
+        "T51",
+        "T59",
+        "T68",
+        "T69"
+      ]
+    },
+    {
+      "topic_id": "2",
+      "num_tables": 13,
+      "table_ids": [
+        "T14",
+        "T63",
+        "T64",
+        "T65",
+        "T66",
+        "T67",
+        "T70",
+        "T71",
+        "T72",
+        "T73",
+        "T74",
+        "T75",
+        "T76"
+      ]
+    },
+    {
+      "topic_id": "3",
+      "num_tables": 11,
+      "table_ids": [
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T44",
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T49"
+      ]
+    },
+    {
+      "topic_id": "4",
+      "num_tables": 9,
+      "table_ids": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ]
+    },
+    {
+      "topic_id": "5",
+      "num_tables": 9,
+      "table_ids": [
+        "T4",
+        "T18",
+        "T30",
+        "T31",
+        "T50",
+        "T58",
+        "T60",
+        "T61",
+        "T62"
+      ]
+    },
+    {
+      "topic_id": "6",
+      "num_tables": 7,
+      "table_ids": [
+        "T16",
+        "T17",
+        "T87",
+        "T90",
+        "T91",
+        "T92",
+        "T100"
+      ]
+    },
+    {
+      "topic_id": "7",
+      "num_tables": 6,
+      "table_ids": [
+        "T93",
+        "T94",
+        "T95",
+        "T96",
+        "T97",
+        "T98"
+      ]
+    },
+    {
+      "topic_id": "8",
+      "num_tables": 5,
+      "table_ids": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ]
+    },
+    {
+      "topic_id": "9",
+      "num_tables": 3,
+      "table_ids": [
+        "T22",
+        "T23",
+        "T24"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1222 @@
+[
+  {
+    "dpr_id": "2_v3",
+    "DPR": "Compile a historical legislative dataset across British Columbia, Manitoba, and Puerto Rico, spanning 1899\u20131972, to analyze shifting party affiliations and district allocations, enabling strategic decisions regarding political campaign targeting, representation efficacy, and resource allocation based on longitudinal governance patterns.",
+    "sub_questions": [
+      "Which members are affiliated with each party in T30?",
+      "What are the distinct party affiliations in T58?",
+      "What parties are represented in each electoral district in T4?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "Which members are affiliated with each party in T30?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Member, Party FROM T30",
+            "execution_status": true,
+            "error": null,
+            "row_count": 20,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T30"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Member, Party FROM T30",
+        "final_execution_status": true,
+        "final_row_count": 20,
+        "mini_summary": "The members affiliated with the Conservative party in T30 are James Argue and Stanley McInnis. \nThe members affiliated with the Liberal party in T30 are Robert C. Ennis and Charles Mickle. \nThe member affiliated with the Liberal-Conservative party in T30 is Thomas Greenwood."
+      },
+      {
+        "sub_question": "What are the distinct party affiliations in T58?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT DISTINCT Party FROM T58",
+            "execution_status": true,
+            "error": null,
+            "row_count": 2,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T58"
+            ]
+          }
+        ],
+        "final_sql": "SELECT DISTINCT Party FROM T58",
+        "final_execution_status": true,
+        "final_row_count": 2,
+        "mini_summary": "The distinct party affiliations in the result set are PDP and NPP."
+      },
+      {
+        "sub_question": "What parties are represented in each electoral district in T4?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Electoral_district, Party FROM T4",
+            "execution_status": true,
+            "error": null,
+            "row_count": 20,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T4"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Electoral_district, Party FROM T4",
+        "final_execution_status": true,
+        "final_row_count": 20,
+        "mini_summary": "The result set does not show the parties represented in each electoral district in T4, but it does show that the electoral districts Alberni, Atlin, Cariboo, Chilliwack, and Columbia are represented by the Liberal party."
+      }
+    ],
+    "mini_summaries": [
+      "The members affiliated with the Conservative party in T30 are James Argue and Stanley McInnis. \nThe members affiliated with the Liberal party in T30 are Robert C. Ennis and Charles Mickle. \nThe member affiliated with the Liberal-Conservative party in T30 is Thomas Greenwood.",
+      "The distinct party affiliations in the result set are PDP and NPP.",
+      "The result set does not show the parties represented in each electoral district in T4, but it does show that the electoral districts Alberni, Atlin, Cariboo, Chilliwack, and Columbia are represented by the Liberal party."
+    ],
+    "final_summary": "The dataset includes information on party affiliations in certain electoral districts, with the Conservative party represented by James Argue and Stanley McInnis, the Liberal party by Robert C. Ennis and Charles Mickle, and the Liberal-Conservative party by Thomas Greenwood. The distinct party affiliations in the dataset are PDP and NPP. However, the parties represented in each electoral district in T4 are not shown, although Alberni, Atlin, Cariboo, Chilliwack, and Columbia are represented by the Liberal party.",
+    "tables": [
+      "T4",
+      "T18",
+      "T30",
+      "T31",
+      "T50",
+      "T58",
+      "T60",
+      "T61",
+      "T62"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T4",
+        "T18",
+        "T30",
+        "T31",
+        "T50",
+        "T58",
+        "T60",
+        "T61",
+        "T62"
+      ]
+    },
+    "generated_sql": "SELECT Member, Party FROM T30",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 20,
+      "preview": [
+        {
+          "Member": "James Argue",
+          "Party": "Conservative"
+        },
+        {
+          "Member": "Robert C. Ennis",
+          "Party": "Liberal"
+        },
+        {
+          "Member": "Charles Mickle",
+          "Party": "Liberal"
+        },
+        {
+          "Member": "Stanley McInnis",
+          "Party": "Conservative"
+        },
+        {
+          "Member": "Thomas Greenwood",
+          "Party": "Liberal-Conservative"
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T4": {
+        "Member": "Member",
+        "Electoral district": "Electoral_district",
+        "Party": "Party"
+      },
+      "T18": {
+        "Member": "Member",
+        "Electoral district": "Electoral_district",
+        "Party": "Party"
+      },
+      "T30": {
+        "Member": "Member",
+        "Electoral district": "Electoral_district",
+        "Party": "Party"
+      },
+      "T31": {
+        "Electoral district": "Electoral_district",
+        "Member elected": "Member_elected",
+        "Affiliation": "Affiliation",
+        "Election date": "Election_date",
+        "Reason": "Reason"
+      },
+      "T50": {
+        "Member": "Member",
+        "Electoral district": "Electoral_district",
+        "Party": "Party"
+      },
+      "T58": {
+        "Senator": "Senator",
+        "Party": "Party",
+        "District": "District"
+      },
+      "T60": {
+        "Member": "Member",
+        "Electoral district": "Electoral_district",
+        "Party": "Party"
+      },
+      "T61": {
+        "District": "District",
+        "Name": "Name",
+        "Political party": "Political_party"
+      },
+      "T62": {
+        "District": "District",
+        "Name": "Name",
+        "Political party": "Political_party"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "3",
+    "DPR": "Compile longitudinal data from the International Cross Country Championships between 1898 and 1933, comparing athlete performance trends across nationalities, team standings, and race times to identify correlations between geographic regions and competitive success over time.",
+    "sub_questions": [
+      "How do athlete times in T5, T6, and T7 vary by nationality?",
+      "What are the top-ranked countries in T83?",
+      "What nationalities are most represented in T5, T6, and T7?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "How do athlete times in T5, T6, and T7 vary by nationality?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Nationality, Time FROM T5\nUNION ALL\nSELECT Nationality, Time FROM T6\nUNION ALL\nSELECT Nationality, Time FROM T7",
+            "execution_status": true,
+            "error": null,
+            "row_count": 56,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T5",
+              "T6",
+              "T7"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Nationality, Time FROM T5\nUNION ALL\nSELECT Nationality, Time FROM T6\nUNION ALL\nSELECT Nationality, Time FROM T7",
+        "final_execution_status": true,
+        "final_row_count": 56,
+        "mini_summary": "The times for athletes from England range from 56:36 to 57:48.4. \n\nThe result set does not show the times for athletes from nationalities other than England."
+      },
+      {
+        "sub_question": "What are the top-ranked countries in T83?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Country FROM T83 WHERE Rank = 1",
+            "execution_status": true,
+            "error": null,
+            "row_count": 1,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T83"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Country FROM T83 WHERE Rank = 1",
+        "final_execution_status": true,
+        "final_row_count": 1,
+        "mini_summary": "The top-ranked country in T83 is France."
+      },
+      {
+        "sub_question": "What nationalities are most represented in T5, T6, and T7?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Nationality FROM T5 UNION ALL SELECT Nationality FROM T6 UNION ALL SELECT Nationality FROM T7 ORDER BY Nationality LIMIT 3",
+            "execution_status": true,
+            "error": null,
+            "row_count": 3,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T5",
+              "T6",
+              "T7"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Nationality FROM T5 UNION ALL SELECT Nationality FROM T6 UNION ALL SELECT Nationality FROM T7 ORDER BY Nationality LIMIT 3",
+        "final_execution_status": true,
+        "final_row_count": 3,
+        "mini_summary": "The nationality most represented in T5, T6, and T7 is England."
+      }
+    ],
+    "mini_summaries": [
+      "The times for athletes from England range from 56:36 to 57:48.4. \n\nThe result set does not show the times for athletes from nationalities other than England.",
+      "The top-ranked country in T83 is France.",
+      "The nationality most represented in T5, T6, and T7 is England."
+    ],
+    "final_summary": "The available data on athlete performance shows that times for athletes from England range from 56:36 to 57:48.4. However, the data does not provide information on times for athletes from other nationalities. The top-ranked country in T83 is France, and England is the most represented nationality in T5, T6, and T7, indicating some level of competitive success.",
+    "tables": [
+      "T5",
+      "T6",
+      "T7",
+      "T20",
+      "T21",
+      "T77",
+      "T78",
+      "T79",
+      "T80",
+      "T81",
+      "T82",
+      "T83",
+      "T84",
+      "T85",
+      "T86",
+      "T88",
+      "T89",
+      "T99"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ]
+    },
+    "generated_sql": "SELECT Nationality, Time FROM T5\nUNION ALL\nSELECT Nationality, Time FROM T6\nUNION ALL\nSELECT Nationality, Time FROM T7",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 56,
+      "preview": [
+        {
+          "Nationality": "England",
+          "Time": "56:36"
+        },
+        {
+          "Nationality": "England",
+          "Time": "56:36.4"
+        },
+        {
+          "Nationality": "England",
+          "Time": "57:14.8"
+        },
+        {
+          "Nationality": "England",
+          "Time": "57:22.6"
+        },
+        {
+          "Nationality": "England",
+          "Time": "57:48.4"
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T5": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T6": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T7": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T20": {
+        "Scientific name": "Scientific_name",
+        "Common name": "Common_name",
+        "Classified": "Classified",
+        "Conservation status": "Conservation_status"
+      },
+      "T21": {
+        "Scientific name": "Scientific_name",
+        "Common name": "Common_name",
+        "Classified": "Classified",
+        "Average size": "Average_size",
+        "Conservation status": "Conservation_status"
+      },
+      "T77": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T78": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T79": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T80": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T81": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      },
+      "T82": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T83": {
+        "Rank": "Rank",
+        "Country": "Country",
+        "Team": "Team",
+        "Points": "Points"
+      },
+      "T84": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality"
+      },
+      "T85": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T86": {
+        "Pos": "Pos",
+        "Driver": "Driver",
+        "Car Constructor": "Car_Constructor",
+        "Time ( Diff . ) /Status": "Time_Diff_Status"
+      },
+      "T88": {
+        "Stage": "Stage",
+        "Rider": "Rider",
+        "Height": "Height",
+        "Mountain range": "Mountain_range",
+        "Winner": "Winner"
+      },
+      "T89": {
+        "Pos": "Pos",
+        "Driver": "Driver",
+        "Car Constructor": "Car_Constructor",
+        "Time ( Diff . ) /Status": "Time_Diff_Status"
+      },
+      "T99": {
+        "Team": "Team",
+        "City": "City",
+        "Stadium": "Stadium"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "3_v2",
+    "DPR": "Compile cross country championship results from 1898-1933, including athlete rankings, nationalities, and race times, to analyze how performance standards, national competitive dominance, and competitive structures evolved over three decades of international cross country racing.",
+    "sub_questions": [
+      "What are the average race times in T7 by nationality?",
+      "How do athlete rankings in T77 compare across nationalities?",
+      "What are the athlete rankings and nationalities in T5?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "What are the average race times in T7 by nationality?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Nationality, AVG(CAST(REPLACE(Time, ':', '.') AS REAL)) FROM T7 GROUP BY Nationality",
+            "execution_status": true,
+            "error": null,
+            "row_count": 4,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T7"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Nationality, AVG(CAST(REPLACE(Time, ':', '.') AS REAL)) FROM T7 GROUP BY Nationality",
+        "final_execution_status": true,
+        "final_row_count": 4,
+        "mini_summary": "The average race times in T7 by nationality are 56.60125 minutes for England, 57.20333333333334 minutes for France, 57.123333333333335 minutes for Ireland, and 56.663333333333334 minutes for Scotland."
+      },
+      {
+        "sub_question": "How do athlete rankings in T77 compare across nationalities?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Nationality, Rank, Athlete, Time FROM T77 ORDER BY Nationality, Rank",
+            "execution_status": true,
+            "error": null,
+            "row_count": 20,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T77"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Nationality, Rank, Athlete, Time FROM T77 ORDER BY Nationality, Rank",
+        "final_execution_status": true,
+        "final_row_count": 20,
+        "mini_summary": "The athletes from England in T77 have ranks ranging from 4.0 to 14.0. \n\nThe result set does not show the ranks of athletes from nationalities other than England."
+      },
+      {
+        "sub_question": "What are the athlete rankings and nationalities in T5?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Rank, Nationality FROM T5",
+            "execution_status": true,
+            "error": null,
+            "row_count": 16,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T5"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Rank, Nationality FROM T5",
+        "final_execution_status": true,
+        "final_row_count": 16,
+        "mini_summary": "The athlete rankings in T5 are 4.0 and 5.0. \nThe nationalities in T5 are England."
+      }
+    ],
+    "mini_summaries": [
+      "The average race times in T7 by nationality are 56.60125 minutes for England, 57.20333333333334 minutes for France, 57.123333333333335 minutes for Ireland, and 56.663333333333334 minutes for Scotland.",
+      "The athletes from England in T77 have ranks ranging from 4.0 to 14.0. \n\nThe result set does not show the ranks of athletes from nationalities other than England.",
+      "The athlete rankings in T5 are 4.0 and 5.0. \nThe nationalities in T5 are England."
+    ],
+    "final_summary": "The average race times in T7 vary by nationality, with England, France, Ireland, and Scotland having times of 56.60125, 57.20333333333334, 57.123333333333335, and 56.663333333333334 minutes, respectively. However, the available evidence does not provide information on the ranks of athletes from nationalities other than England, limiting our understanding of overall competitive structures.",
+    "tables": [
+      "T5",
+      "T6",
+      "T7",
+      "T20",
+      "T21",
+      "T77",
+      "T78",
+      "T79",
+      "T80",
+      "T81",
+      "T82",
+      "T83",
+      "T84",
+      "T85",
+      "T86",
+      "T88",
+      "T89",
+      "T99"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ]
+    },
+    "generated_sql": "SELECT Nationality, AVG(CAST(REPLACE(Time, ':', '.') AS REAL)) FROM T7 GROUP BY Nationality",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 4,
+      "preview": [
+        {
+          "Nationality": "England",
+          "AVG(CAST(REPLACE(Time, ':', '.') AS REAL))": 56.60125
+        },
+        {
+          "Nationality": "France",
+          "AVG(CAST(REPLACE(Time, ':', '.') AS REAL))": 57.20333333333334
+        },
+        {
+          "Nationality": "Ireland",
+          "AVG(CAST(REPLACE(Time, ':', '.') AS REAL))": 57.123333333333335
+        },
+        {
+          "Nationality": "Scotland",
+          "AVG(CAST(REPLACE(Time, ':', '.') AS REAL))": 56.663333333333334
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T5": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T6": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T7": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T20": {
+        "Scientific name": "Scientific_name",
+        "Common name": "Common_name",
+        "Classified": "Classified",
+        "Conservation status": "Conservation_status"
+      },
+      "T21": {
+        "Scientific name": "Scientific_name",
+        "Common name": "Common_name",
+        "Classified": "Classified",
+        "Average size": "Average_size",
+        "Conservation status": "Conservation_status"
+      },
+      "T77": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T78": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T79": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T80": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T81": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      },
+      "T82": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T83": {
+        "Rank": "Rank",
+        "Country": "Country",
+        "Team": "Team",
+        "Points": "Points"
+      },
+      "T84": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality"
+      },
+      "T85": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T86": {
+        "Pos": "Pos",
+        "Driver": "Driver",
+        "Car Constructor": "Car_Constructor",
+        "Time ( Diff . ) /Status": "Time_Diff_Status"
+      },
+      "T88": {
+        "Stage": "Stage",
+        "Rider": "Rider",
+        "Height": "Height",
+        "Mountain range": "Mountain_range",
+        "Winner": "Winner"
+      },
+      "T89": {
+        "Pos": "Pos",
+        "Driver": "Driver",
+        "Car Constructor": "Car_Constructor",
+        "Time ( Diff . ) /Status": "Time_Diff_Status"
+      },
+      "T99": {
+        "Team": "Team",
+        "City": "City",
+        "Stadium": "Stadium"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "3_v3",
+    "DPR": "Compile historical international cross country championship results and New World monkey conservation data to analyze national athletic performance trends and species preservation priorities, enabling sports teams to optimize training programs and conservationists to allocate resources to at-risk species.",
+    "sub_questions": [
+      "How do Average_size values in T21 relate to Conservation_status?",
+      "What nationalities are most represented in T5 athletic results?",
+      "Which conservation status appears most frequently in T20 species data?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "How do Average_size values in T21 relate to Conservation_status?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Average_size, Conservation_status FROM T21",
+            "execution_status": true,
+            "error": null,
+            "row_count": 20,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T21"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Average_size, Conservation_status FROM T21",
+        "final_execution_status": true,
+        "final_row_count": 20,
+        "mini_summary": "The result set does not show any Average_size values that relate to a Conservation_status of \"least concern\" other than those that are exactly 3,900 g (140 oz) or 2,900-3,400 g (100-120 oz)."
+      },
+      {
+        "sub_question": "What nationalities are most represented in T5 athletic results?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Nationality FROM T5 GROUP BY Nationality ORDER BY COUNT(Nationality) DESC LIMIT 1",
+            "execution_status": true,
+            "error": null,
+            "row_count": 1,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T5"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Nationality FROM T5 GROUP BY Nationality ORDER BY COUNT(Nationality) DESC LIMIT 1",
+        "final_execution_status": true,
+        "final_row_count": 1,
+        "mini_summary": "The nationality most represented in T5 athletic results is France. \n\nThe result set does not show which nationalities are represented in addition to France."
+      },
+      {
+        "sub_question": "Which conservation status appears most frequently in T20 species data?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Conservation_status FROM T20 GROUP BY Conservation_status ORDER BY COUNT(*) DESC LIMIT 1",
+            "execution_status": true,
+            "error": null,
+            "row_count": 1,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T20"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Conservation_status FROM T20 GROUP BY Conservation_status ORDER BY COUNT(*) DESC LIMIT 1",
+        "final_execution_status": true,
+        "final_row_count": 1,
+        "mini_summary": "The conservation status that appears most frequently in T20 species data is least concern."
+      }
+    ],
+    "mini_summaries": [
+      "The result set does not show any Average_size values that relate to a Conservation_status of \"least concern\" other than those that are exactly 3,900 g (140 oz) or 2,900-3,400 g (100-120 oz).",
+      "The nationality most represented in T5 athletic results is France. \n\nThe result set does not show which nationalities are represented in addition to France.",
+      "The conservation status that appears most frequently in T20 species data is least concern."
+    ],
+    "final_summary": "The conservation status of \"least concern\" appears most frequently in species data, with specific sizes of 3,900 g or 2,900-3,400 g being associated with this status. However, the evidence does not provide information on the average size of species with this status. Meanwhile, France is the most represented nationality in athletic results, but the evidence does not specify which nationalities are represented in addition to France.",
+    "tables": [
+      "T5",
+      "T6",
+      "T7",
+      "T20",
+      "T21",
+      "T77",
+      "T78",
+      "T79",
+      "T80",
+      "T81",
+      "T82",
+      "T83",
+      "T84",
+      "T85",
+      "T86",
+      "T88",
+      "T89",
+      "T99"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ]
+    },
+    "generated_sql": "SELECT Average_size, Conservation_status FROM T21",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 20,
+      "preview": [
+        {
+          "Average_size": "3,900 g ( 140 oz )",
+          "Conservation_status": "least concern"
+        },
+        {
+          "Average_size": "3,900 g ( 140 oz )",
+          "Conservation_status": "least concern"
+        },
+        {
+          "Average_size": "2,900-3,400 g ( 100-120 oz )",
+          "Conservation_status": "least concern"
+        },
+        {
+          "Average_size": "2,900-3,400 g ( 100-120 oz )",
+          "Conservation_status": "critically endangered"
+        },
+        {
+          "Average_size": "2,900-3,400 g ( 100-120 oz )",
+          "Conservation_status": ""
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T5": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T6": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T7": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T20": {
+        "Scientific name": "Scientific_name",
+        "Common name": "Common_name",
+        "Classified": "Classified",
+        "Conservation status": "Conservation_status"
+      },
+      "T21": {
+        "Scientific name": "Scientific_name",
+        "Common name": "Common_name",
+        "Classified": "Classified",
+        "Average size": "Average_size",
+        "Conservation status": "Conservation_status"
+      },
+      "T77": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T78": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T79": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T80": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T81": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      },
+      "T82": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T83": {
+        "Rank": "Rank",
+        "Country": "Country",
+        "Team": "Team",
+        "Points": "Points"
+      },
+      "T84": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality"
+      },
+      "T85": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T86": {
+        "Pos": "Pos",
+        "Driver": "Driver",
+        "Car Constructor": "Car_Constructor",
+        "Time ( Diff . ) /Status": "Time_Diff_Status"
+      },
+      "T88": {
+        "Stage": "Stage",
+        "Rider": "Rider",
+        "Height": "Height",
+        "Mountain range": "Mountain_range",
+        "Winner": "Winner"
+      },
+      "T89": {
+        "Pos": "Pos",
+        "Driver": "Driver",
+        "Car Constructor": "Car_Constructor",
+        "Time ( Diff . ) /Status": "Time_Diff_Status"
+      },
+      "T99": {
+        "Team": "Team",
+        "City": "City",
+        "Stadium": "Stadium"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "4",
+    "DPR": "Compile historical data linking New Zealand parliamentary elections in provinces with rugby player and match records from the same regions and time periods, enabling analysis of regional political-sports participation correlations over time.",
+    "sub_questions": [
+      "What are the average scores in T71 for rugby matches held in provinces with recent elections in T14?",
+      "What provinces had elections on the same dates as rugby matches in T64?",
+      "Which rugby players in T63 are from provinces with the most elections in T14?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "What are the average scores in T71 for rugby matches held in provinces with recent elections in T14?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT AVG(CAST(REPLACE(Score, '-', '') AS REAL)) FROM T71 WHERE City IN (SELECT Province FROM T14)",
+            "execution_status": true,
+            "error": null,
+            "row_count": 1,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T14",
+              "T71"
+            ]
+          }
+        ],
+        "final_sql": "SELECT AVG(CAST(REPLACE(Score, '-', '') AS REAL)) FROM T71 WHERE City IN (SELECT Province FROM T14)",
+        "final_execution_status": true,
+        "final_row_count": 1,
+        "mini_summary": "The average score in T71 for rugby matches held in provinces with recent elections in T14 is 514.0."
+      },
+      {
+        "sub_question": "What provinces had elections on the same dates as rugby matches in T64?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT DISTINCT T14.Province \nFROM T14 \nWHERE T14.Election_date IN (SELECT Date FROM T64)",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T14",
+              "T64"
+            ]
+          },
+          {
+            "sql": "SELECT DISTINCT T14.Province \nFROM T14 \nWHERE T14.Election_date IN (SELECT Date FROM T64 WHERE Date LIKE '%' || 'May' || '%' OR Date LIKE '%' || 'Jun' || '%')",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "simplify_drop_join",
+            "explicit_join": false,
+            "tables": [
+              "T14",
+              "T64"
+            ]
+          },
+          {
+            "sql": "SELECT DISTINCT T14.Province \nFROM T14 \nWHERE T14.Election_date IN (SELECT Date FROM T64 WHERE Date LIKE '%' || 'May' || '%' OR Date LIKE '%' || 'Jun' || '%' OR Date LIKE '%' || 'Jul' || '%')",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "alternate_table",
+            "explicit_join": false,
+            "tables": [
+              "T14",
+              "T64"
+            ]
+          }
+        ],
+        "final_sql": null,
+        "final_execution_status": false,
+        "final_row_count": 0,
+        "mini_summary": ""
+      },
+      {
+        "sub_question": "Which rugby players in T63 are from provinces with the most elections in T14?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT T63.Name, T63.Position, T63.Province \nFROM T63 \nWHERE T63.Province IN (\n  SELECT T14.Province \n  FROM T14 \n  GROUP BY T14.Province \n  ORDER BY COUNT(T14.Electorate) DESC \n  LIMIT 1\n)",
+            "execution_status": true,
+            "error": null,
+            "row_count": 5,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T14",
+              "T63"
+            ]
+          }
+        ],
+        "final_sql": "SELECT T63.Name, T63.Position, T63.Province \nFROM T63 \nWHERE T63.Province IN (\n  SELECT T14.Province \n  FROM T14 \n  GROUP BY T14.Province \n  ORDER BY COUNT(T14.Electorate) DESC \n  LIMIT 1\n)",
+        "final_execution_status": true,
+        "final_row_count": 5,
+        "mini_summary": "The result set does not show which provinces have the most elections. All rugby players in the result set are from Auckland."
+      }
+    ],
+    "mini_summaries": [
+      "The average score in T71 for rugby matches held in provinces with recent elections in T14 is 514.0.",
+      "The result set does not show which provinces have the most elections. All rugby players in the result set are from Auckland."
+    ],
+    "final_summary": "The average score in rugby matches held in provinces with recent elections is 514.0. However, the data does not provide information on which provinces have the most elections, and it appears that all rugby players in the dataset are from Auckland, limiting the scope of potential correlations.",
+    "tables": [
+      "T14",
+      "T63",
+      "T64",
+      "T65",
+      "T66",
+      "T67",
+      "T70",
+      "T71",
+      "T72",
+      "T73",
+      "T74",
+      "T75",
+      "T76"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T14",
+        "T63",
+        "T64",
+        "T65",
+        "T66",
+        "T67",
+        "T70",
+        "T71",
+        "T72",
+        "T73",
+        "T74",
+        "T75",
+        "T76"
+      ]
+    },
+    "generated_sql": "SELECT AVG(CAST(REPLACE(Score, '-', '') AS REAL)) FROM T71 WHERE City IN (SELECT Province FROM T14)",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 1,
+      "preview": [
+        {
+          "AVG(CAST(REPLACE(Score, '-', '') AS REAL))": 514.0
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T14": {
+        "Member": "Member",
+        "Electorate": "Electorate",
+        "Province": "Province",
+        "Election date": "Election_date"
+      },
+      "T63": {
+        "Name": "Name",
+        "Position": "Position",
+        "Province": "Province"
+      },
+      "T64": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      },
+      "T65": {
+        "Name": "Name",
+        "Position": "Position",
+        "Province": "Province"
+      },
+      "T66": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      },
+      "T67": {
+        "Name": "Name",
+        "Position": "Position",
+        "Province": "Province"
+      },
+      "T70": {
+        "Name": "Name",
+        "Position": "Position",
+        "Province": "Province"
+      },
+      "T71": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      },
+      "T72": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      },
+      "T73": {
+        "Rival": "Rival",
+        "Date": "Date",
+        "Venue": "Venue",
+        "City": "City",
+        "Country": "Country",
+        "Score": "Score"
+      },
+      "T74": {
+        "Name": "Name",
+        "Position": "Position",
+        "Province": "Province"
+      },
+      "T75": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      },
+      "T76": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  }
+]

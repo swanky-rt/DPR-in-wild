@@ -1,0 +1,895 @@
+[
+  {
+    "dpr_id": "7_v3",
+    "DPR": "Compile a historical dataset documenting congressional and Senate vacancies and replacements across different Congresses, including reasons for changes and successor installation dates, to analyze patterns affecting legislative continuity and support strategic planning for governance stability.",
+    "sub_questions": [
+      "Which districts in T26 have the most representatives with high current age?",
+      "What are the dates of successor installations in T51?",
+      "What reasons for change are most common in T27?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "Which districts in T26 have the most representatives with high current age?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT District FROM T26 WHERE Current_Age > 70 GROUP BY District ORDER BY COUNT(Representative) DESC LIMIT 1",
+            "execution_status": true,
+            "error": null,
+            "row_count": 1,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T26"
+            ]
+          }
+        ],
+        "final_sql": "SELECT District FROM T26 WHERE Current_Age > 70 GROUP BY District ORDER BY COUNT(Representative) DESC LIMIT 1",
+        "final_execution_status": true,
+        "final_row_count": 1,
+        "mini_summary": "The District with the most representatives with high current age is District 12. \n\nThe result set does not show the age of the representatives."
+      },
+      {
+        "sub_question": "What are the dates of successor installations in T51?",
+        "feasibility_warning": "Feasibility warning: question references risky concepts (e.g. year/date/rank) that may not exist in this cluster schema.",
+        "attempts": [
+          {
+            "sql": "SELECT Date_of_successor_s_formal_installation FROM T51",
+            "execution_status": true,
+            "error": null,
+            "row_count": 20,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T51"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Date_of_successor_s_formal_installation FROM T51",
+        "final_execution_status": true,
+        "final_row_count": 20,
+        "mini_summary": "The result set shows that the dates of successor installations in T51 include May 24, 1813, May 28, 1813, May 28, 1813, June 8, 1813, and June 21, 1813."
+      },
+      {
+        "sub_question": "What reasons for change are most common in T27?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Reason_for_change FROM T27 GROUP BY Reason_for_change ORDER BY COUNT(Reason_for_change) DESC LIMIT 1",
+            "execution_status": true,
+            "error": null,
+            "row_count": 1,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T27"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Reason_for_change FROM T27 GROUP BY Reason_for_change ORDER BY COUNT(Reason_for_change) DESC LIMIT 1",
+        "final_execution_status": true,
+        "final_row_count": 1,
+        "mini_summary": "The result set does not show the most common reasons for change in T27, but it does show one reason for change: \"Resigned September 11, 1991 to become President of the Negro College Fund\"."
+      }
+    ],
+    "mini_summaries": [
+      "The District with the most representatives with high current age is District 12. \n\nThe result set does not show the age of the representatives.",
+      "The result set shows that the dates of successor installations in T51 include May 24, 1813, May 28, 1813, May 28, 1813, June 8, 1813, and June 21, 1813.",
+      "The result set does not show the most common reasons for change in T27, but it does show one reason for change: \"Resigned September 11, 1991 to become President of the Negro College Fund\"."
+    ],
+    "final_summary": "A historical dataset documenting congressional and Senate vacancies and replacements is needed to analyze patterns affecting legislative continuity. The dataset should include reasons for changes and successor installation dates. However, limitations are visible in the evidence, as the most common reasons for change in T27 are not shown, and the age of representatives is not provided.",
+    "tables": [
+      "T26",
+      "T27",
+      "T28",
+      "T29",
+      "T32",
+      "T33",
+      "T35",
+      "T36",
+      "T37",
+      "T38",
+      "T51",
+      "T59",
+      "T68",
+      "T69"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T26",
+        "T27",
+        "T28",
+        "T29",
+        "T32",
+        "T33",
+        "T35",
+        "T36",
+        "T37",
+        "T38",
+        "T51",
+        "T59",
+        "T68",
+        "T69"
+      ]
+    },
+    "generated_sql": "SELECT District FROM T26 WHERE Current_Age > 70 GROUP BY District ORDER BY COUNT(Representative) DESC LIMIT 1",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 1,
+      "preview": [
+        {
+          "District": "12"
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T26": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Current Age": "Current_Age",
+        "Residence": "Residence",
+        "First Elected": "First_Elected"
+      },
+      "T27": {
+        "District": "District",
+        "Vacator": "Vacator",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date of successor 's formal installation": "Date_of_successor_s_formal_installation"
+      },
+      "T28": {
+        "District": "District",
+        "Vacator": "Vacator",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date of successor 's formal installation": "Date_of_successor_s_formal_installation"
+      },
+      "T29": {
+        "District": "District",
+        "Vacator": "Vacator",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date of successor 's formal installation": "Date_of_successor_s_formal_installation"
+      },
+      "T32": {
+        "State ( class )": "State_class_",
+        "Vacator": "Vacator",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date of successor 's formal installation": "Date_of_successor_s_formal_installation"
+      },
+      "T33": {
+        "District": "District",
+        "Vacator": "Vacator",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date of successor 's formal installation": "Date_of_successor_s_formal_installation"
+      },
+      "T35": {
+        "State ( class )": "State_class_",
+        "Vacator": "Vacator",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date of successor 's formal installation": "Date_of_successor_s_formal_installation"
+      },
+      "T36": {
+        "District": "District",
+        "Vacator": "Vacator",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date of successor 's formal installation": "Date_of_successor_s_formal_installation"
+      },
+      "T37": {
+        "State ( class )": "State_class_",
+        "Vacator": "Vacator",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date of successor 's formal installation": "Date_of_successor_s_formal_installation"
+      },
+      "T38": {
+        "District": "District",
+        "Vacator": "Vacator",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date of successor 's formal installation": "Date_of_successor_s_formal_installation"
+      },
+      "T51": {
+        "District": "District",
+        "Vacator": "Vacator",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date of successor 's formal installation": "Date_of_successor_s_formal_installation"
+      },
+      "T59": {
+        "Rank": "Rank",
+        "City": "City",
+        "State": "State",
+        "Population": "Population",
+        "Region ( 2016 )": "Region_2016_",
+        "Population ( 2010 )": "Population_2010_"
+      },
+      "T68": {
+        "State ( class )": "State_class_",
+        "Vacator": "Vacator",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date of successor 's formal installation": "Date_of_successor_s_formal_installation"
+      },
+      "T69": {
+        "District": "District",
+        "Vacator": "Vacator",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date of successor 's formal installation": "Date_of_successor_s_formal_installation"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "8",
+    "DPR": "Compile historical 110m hurdles and 1500m world record data, analyzing trends in time improvements over decades, comparing athlete achievements across event distances, and identifying correlations between record-setting locations and event performance milestones.",
+    "sub_questions": [
+      "Which locations in T34 correlate with record-setting Time in 110m hurdles?",
+      "How do athlete achievements in 110m hurdles compare to 1500m in T54 and T55?",
+      "What Time improvements occurred in 110m hurdles over decades in T34?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "Which locations in T34 correlate with record-setting Time in 110m hurdles?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Location FROM T34 WHERE Time = (SELECT MIN(Time) FROM T34)",
+            "execution_status": true,
+            "error": null,
+            "row_count": 1,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T34"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Location FROM T34 WHERE Time = (SELECT MIN(Time) FROM T34)",
+        "final_execution_status": true,
+        "final_row_count": 1,
+        "mini_summary": "The location that correlates with record-setting Time in 110m hurdles is Zürich. \n\nThe result set does not show the year or any other metric related to the record-setting Time in 110m hurdles."
+      },
+      {
+        "sub_question": "How do athlete achievements in 110m hurdles compare to 1500m in T54 and T55?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Time, Athlete, Date, Place FROM T54 WHERE Athlete LIKE '%J. Borel%' OR Athlete LIKE '%Fernand Meiers%' UNION SELECT Time, Athlete, Date, Place FROM T55 WHERE Athlete LIKE '%Abel Kiviat%' OR Athlete LIKE '%John Zander%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 4,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T54",
+              "T55"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Time, Athlete, Date, Place FROM T54 WHERE Athlete LIKE '%J. Borel%' OR Athlete LIKE '%Fernand Meiers%' UNION SELECT Time, Athlete, Date, Place FROM T55 WHERE Athlete LIKE '%Abel Kiviat%' OR Athlete LIKE '%John Zander%'",
+        "final_execution_status": true,
+        "final_row_count": 4,
+        "mini_summary": "The result set does not show athlete achievements in 110m hurdles compared to 1500m in T54 and T55."
+      },
+      {
+        "sub_question": "What Time improvements occurred in 110m hurdles over decades in T34?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Time FROM T34 WHERE Year BETWEEN 1960 AND 1970 ORDER BY Time ASC LIMIT 10",
+            "execution_status": true,
+            "error": null,
+            "row_count": 5,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T34"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Time FROM T34 WHERE Year BETWEEN 1960 AND 1970 ORDER BY Time ASC LIMIT 10",
+        "final_execution_status": true,
+        "final_row_count": 5,
+        "mini_summary": "The result set does not show time improvements in 110m hurdles over decades in T34, but it does show five different times: 13.33, 13.42, 13.43, 13.45, and 13.47."
+      }
+    ],
+    "mini_summaries": [
+      "The location that correlates with record-setting Time in 110m hurdles is Zürich. \n\nThe result set does not show the year or any other metric related to the record-setting Time in 110m hurdles.",
+      "The result set does not show athlete achievements in 110m hurdles compared to 1500m in T54 and T55.",
+      "The result set does not show time improvements in 110m hurdles over decades in T34, but it does show five different times: 13.33, 13.42, 13.43, 13.45, and 13.47."
+    ],
+    "final_summary": "The location that correlates with record-setting time in 110m hurdles is Zürich. However, the evidence does not provide information on athlete achievements in 110m hurdles compared to 1500m in T54 and T55, nor does it show time improvements in 110m hurdles over decades in T34. The available data for T34 includes five different times: 13.33, 13.42, 13.43, 13.45, and 13.47.",
+    "tables": [
+      "T34",
+      "T54",
+      "T55",
+      "T56",
+      "T57"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ]
+    },
+    "generated_sql": "SELECT Location FROM T34 WHERE Time = (SELECT MIN(Time) FROM T34)",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 1,
+      "preview": [
+        {
+          "Location": "Zürich"
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T34": {
+        "Year": "Year",
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Location": "Location"
+      },
+      "T54": {
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Date": "Date",
+        "Place": "Place"
+      },
+      "T55": {
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Date": "Date",
+        "Place": "Place"
+      },
+      "T56": {
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Date": "Date",
+        "Place": "Place"
+      },
+      "T57": {
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Date": "Date",
+        "Place": "Place"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "8_v2",
+    "DPR": "Compile a dataset containing historical 110m hurdles and 1500m world record performances, including time, athlete, date, and location, to analyze long-term trends in record-breaking frequency, geographic hotspots for improvements, and the rate of progression in athletic performance over decades.",
+    "sub_questions": [
+      "What are the fastest times in T34 for each year?",
+      "Which athletes appear most frequently in T54 and T55?",
+      "What are the most common locations in T34 for record performances?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "What are the fastest times in T34 for each year?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Year, MIN(Time) FROM T34 GROUP BY Year",
+            "execution_status": true,
+            "error": null,
+            "row_count": 20,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T34"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Year, MIN(Time) FROM T34 GROUP BY Year",
+        "final_execution_status": true,
+        "final_row_count": 20,
+        "mini_summary": "The fastest times in T34 for each year are 13.47 in 1966, 13.43 in 1967, 13.33 in 1968, 13.45 in 1969, and 13.42 in 1970."
+      },
+      {
+        "sub_question": "Which athletes appear most frequently in T54 and T55?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Athlete FROM T54 UNION ALL SELECT Athlete FROM T55 ORDER BY Athlete LIMIT 1",
+            "execution_status": true,
+            "error": null,
+            "row_count": 1,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T54",
+              "T55"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Athlete FROM T54 UNION ALL SELECT Athlete FROM T55 ORDER BY Athlete LIMIT 1",
+        "final_execution_status": true,
+        "final_row_count": 1,
+        "mini_summary": "The result set does not show which athletes appear most frequently in T54 and T55."
+      },
+      {
+        "sub_question": "What are the most common locations in T34 for record performances?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Location FROM T34 GROUP BY Location ORDER BY COUNT(Location) DESC LIMIT 1",
+            "execution_status": true,
+            "error": null,
+            "row_count": 1,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T34"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Location FROM T34 GROUP BY Location ORDER BY COUNT(Location) DESC LIMIT 1",
+        "final_execution_status": true,
+        "final_row_count": 1,
+        "mini_summary": "The most common location in T34 for record performances is Zürich."
+      }
+    ],
+    "mini_summaries": [
+      "The fastest times in T34 for each year are 13.47 in 1966, 13.43 in 1967, 13.33 in 1968, 13.45 in 1969, and 13.42 in 1970.",
+      "The result set does not show which athletes appear most frequently in T54 and T55.",
+      "The most common location in T34 for record performances is Zürich."
+    ],
+    "final_summary": "A dataset containing historical world record performances in the 110m hurdles and 1500m events could be compiled to analyze trends in record-breaking frequency and geographic hotspots for improvements. However, the evidence does not provide information on the rate of progression in athletic performance over decades, nor does it specify which athletes appear most frequently in certain categories.",
+    "tables": [
+      "T34",
+      "T54",
+      "T55",
+      "T56",
+      "T57"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ]
+    },
+    "generated_sql": "SELECT Year, MIN(Time) FROM T34 GROUP BY Year",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 20,
+      "preview": [
+        {
+          "Year": 1966.0,
+          "MIN(Time)": "13.47"
+        },
+        {
+          "Year": 1967.0,
+          "MIN(Time)": "13.43"
+        },
+        {
+          "Year": 1968.0,
+          "MIN(Time)": "13.33"
+        },
+        {
+          "Year": 1969.0,
+          "MIN(Time)": "13.45"
+        },
+        {
+          "Year": 1970.0,
+          "MIN(Time)": "13.42"
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T34": {
+        "Year": "Year",
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Location": "Location"
+      },
+      "T54": {
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Date": "Date",
+        "Place": "Place"
+      },
+      "T55": {
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Date": "Date",
+        "Place": "Place"
+      },
+      "T56": {
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Date": "Date",
+        "Place": "Place"
+      },
+      "T57": {
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Date": "Date",
+        "Place": "Place"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "8_v3",
+    "DPR": "Compile historical records of 110m hurdles and 1500m performances by year, time, athlete, and location, and analyze trends in record progression to support data-driven decisions for optimizing training programs and identifying competitive advantages.",
+    "sub_questions": [
+      "What locations appear in T34 for top athletes?",
+      "What are the fastest times for each athlete in T54?",
+      "What years are available in T34 for 110m hurdles and 1500m performances?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "What locations appear in T34 for top athletes?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Location FROM T34 WHERE Athlete LIKE '%Willie Davenport%' OR Athlete LIKE '%Earl McCullouch%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 4,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T34"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Location FROM T34 WHERE Athlete LIKE '%Willie Davenport%' OR Athlete LIKE '%Earl McCullouch%'",
+        "final_execution_status": true,
+        "final_row_count": 4,
+        "mini_summary": "The locations that appear in T34 for top athletes are New York City, Minneapolis, Mexico City, and Miami."
+      },
+      {
+        "sub_question": "What are the fastest times for each athlete in T54?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Athlete, MIN(Time) FROM T54 GROUP BY Athlete",
+            "execution_status": true,
+            "error": null,
+            "row_count": 11,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T54"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Athlete, MIN(Time) FROM T54 GROUP BY Athlete",
+        "final_execution_status": true,
+        "final_row_count": 11,
+        "mini_summary": "The result set does not show the fastest times for each athlete in T54. The athletes listed are Abel Kiviat, Albin Lermusiaux, Charles Bennett, Felix Bourdier, and Fernand Meiers."
+      },
+      {
+        "sub_question": "What years are available in T34 for 110m hurdles and 1500m performances?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Year FROM T34 WHERE Athlete LIKE '%Willie Davenport ( USA )%' OR Athlete LIKE '%Earl McCullouch ( USA )%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 4,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T34"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Year FROM T34 WHERE Athlete LIKE '%Willie Davenport ( USA )%' OR Athlete LIKE '%Earl McCullouch ( USA )%'",
+        "final_execution_status": true,
+        "final_row_count": 4,
+        "mini_summary": "The years available in the result set are 1966, 1967, 1968, and 1969."
+      }
+    ],
+    "mini_summaries": [
+      "The locations that appear in T34 for top athletes are New York City, Minneapolis, Mexico City, and Miami.",
+      "The result set does not show the fastest times for each athlete in T54. The athletes listed are Abel Kiviat, Albin Lermusiaux, Charles Bennett, Felix Bourdier, and Fernand Meiers.",
+      "The years available in the result set are 1966, 1967, 1968, and 1969."
+    ],
+    "final_summary": "The locations associated with top athletes in certain categories are New York City, Minneapolis, Mexico City, and Miami. However, the fastest times for each athlete in T54 are not shown in the available data. The years covered in the result set are 1966, 1967, 1968, and 1969, but the record progression analysis is limited by the lack of comprehensive data.",
+    "tables": [
+      "T34",
+      "T54",
+      "T55",
+      "T56",
+      "T57"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ]
+    },
+    "generated_sql": "SELECT Location FROM T34 WHERE Athlete LIKE '%Willie Davenport%' OR Athlete LIKE '%Earl McCullouch%'",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 4,
+      "preview": [
+        {
+          "Location": "New York City"
+        },
+        {
+          "Location": "Minneapolis"
+        },
+        {
+          "Location": "Mexico City"
+        },
+        {
+          "Location": "Miami"
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T34": {
+        "Year": "Year",
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Location": "Location"
+      },
+      "T54": {
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Date": "Date",
+        "Place": "Place"
+      },
+      "T55": {
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Date": "Date",
+        "Place": "Place"
+      },
+      "T56": {
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Date": "Date",
+        "Place": "Place"
+      },
+      "T57": {
+        "Time": "Time",
+        "Athlete": "Athlete",
+        "Date": "Date",
+        "Place": "Place"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "9",
+    "DPR": "Compile a dataset integrating member tenure, party affiliation, and representation transitions from the 123rd to 130th Ohio General Assemblies to analyze correlations between term limits, partisan shifts in districts, and the frequency/reasons for legislative turnover over time.",
+    "sub_questions": [
+      "How many representatives changed parties in T41 between the 123rd and 130th assemblies?",
+      "What parties held seats in T40 during the 123rd Ohio General Assembly?",
+      "What reasons for change are most common in T39?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "How many representatives changed parties in T41 between the 123rd and 130th assemblies?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT COUNT(DISTINCT Representative) FROM T41 WHERE Party LIKE '%Dem%' OR Party LIKE '%Rep%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 1,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T41"
+            ]
+          }
+        ],
+        "final_sql": "SELECT COUNT(DISTINCT Representative) FROM T41 WHERE Party LIKE '%Dem%' OR Party LIKE '%Rep%'",
+        "final_execution_status": true,
+        "final_row_count": 1,
+        "mini_summary": "The result set does not show the number of representatives who changed parties in T41 between the 123rd and 130th assemblies. The result set shows that there are 20 distinct representatives."
+      },
+      {
+        "sub_question": "What parties held seats in T40 during the 123rd Ohio General Assembly?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT DISTINCT Party FROM T40",
+            "execution_status": true,
+            "error": null,
+            "row_count": 2,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T40"
+            ]
+          }
+        ],
+        "final_sql": "SELECT DISTINCT Party FROM T40",
+        "final_execution_status": true,
+        "final_row_count": 2,
+        "mini_summary": "The parties that held seats in T40 during the 123rd Ohio General Assembly are Republican and Democratic."
+      },
+      {
+        "sub_question": "What reasons for change are most common in T39?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Reason_for_change FROM T39 GROUP BY Reason_for_change ORDER BY COUNT(Reason_for_change) DESC LIMIT 1",
+            "execution_status": true,
+            "error": null,
+            "row_count": 1,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T39"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Reason_for_change FROM T39 GROUP BY Reason_for_change ORDER BY COUNT(Reason_for_change) DESC LIMIT 1",
+        "final_execution_status": true,
+        "final_row_count": 1,
+        "mini_summary": "The most common reason for change in T39 is Zaleski retiring and Armbruster being elected with 47% of the vote."
+      }
+    ],
+    "mini_summaries": [
+      "The result set does not show the number of representatives who changed parties in T41 between the 123rd and 130th assemblies. The result set shows that there are 20 distinct representatives.",
+      "The parties that held seats in T40 during the 123rd Ohio General Assembly are Republican and Democratic.",
+      "The most common reason for change in T39 is Zaleski retiring and Armbruster being elected with 47% of the vote."
+    ],
+    "final_summary": "The dataset integrates member tenure, party affiliation, and representation transitions, but it does not provide information on the number of representatives who changed parties. The parties involved are Republican and Democratic. The most common reason for change is related to a retirement and an election, but the specifics of the election outcome are not specified. The dataset includes 20 distinct representatives, but limitations are visible in the evidence regarding the analysis of correlations and partisan shifts.",
+    "tables": [
+      "T39",
+      "T40",
+      "T41",
+      "T42",
+      "T43",
+      "T44",
+      "T45",
+      "T46",
+      "T47",
+      "T48",
+      "T49"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T44",
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T49"
+      ]
+    },
+    "generated_sql": "SELECT COUNT(DISTINCT Representative) FROM T41 WHERE Party LIKE '%Dem%' OR Party LIKE '%Rep%'",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 1,
+      "preview": [
+        {
+          "COUNT(DISTINCT Representative)": 20
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T39": {
+        "District": "District",
+        "Previous Senator": "Previous_Senator",
+        "Reason for change": "Reason_for_change",
+        "New Senator": "New_Senator",
+        "Date": "Date"
+      },
+      "T40": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T41": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T42": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T43": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T44": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T45": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T46": {
+        "District": "District",
+        "Predecessor": "Predecessor",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date successor seated": "Date_successor_seated"
+      },
+      "T47": {
+        "District": "District",
+        "Predecessor": "Predecessor",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date successor seated": "Date_successor_seated"
+      },
+      "T48": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T49": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  }
+]

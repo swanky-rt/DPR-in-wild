@@ -1,0 +1,13 @@
+2026-04-16 22:29:21,021 INFO Starting query 1/5: Q1
+2026-04-16 22:29:21,021 INFO Cluster pool for Q1: ['0']
+2026-04-16 22:29:21,021 INFO Query Q1 | clusters: ['0']
+2026-04-16 22:29:21,021 INFO Attempt 01 (DPR 1/20) | phase=bootstrap | trials=0 | cluster=0 | visit#=1 | perspective=1
+2026-04-16 22:29:21,021 INFO UCB scores: {'0': 0.0}
+2026-04-16 22:29:27,389 ERROR LLM-A failed on attempt 1: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=gpt4o
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-16 22:29:27,389 INFO Attempt 02 (DPR 1/20) | phase=bootstrap | trials=0 | cluster=0 | visit#=1 | perspective=1
+2026-04-16 22:29:27,389 INFO UCB scores: {'0': 0.0}
+2026-04-16 22:29:33,535 ERROR LLM-A failed on attempt 2: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=gpt4o
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-16 22:29:33,536 INFO Attempt 03 (DPR 1/20) | phase=bootstrap | trials=0 | cluster=0 | visit#=1 | perspective=1
+2026-04-16 22:29:33,536 INFO UCB scores: {'0': 0.0}
