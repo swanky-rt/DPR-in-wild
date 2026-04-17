@@ -1,5 +1,5 @@
 """
-run_eval_all_queries.py  —  Online evaluation runner (Stage-4)
+run_eval_all_queries_1.py  —  Online evaluation runner (Stage-4)
 
 Reads multiple stage-3 output JSON files (one per query), runs
 run_eval_v3.run_pipeline() on each, then does a CROSS-QUERY POST-PASS
@@ -43,7 +43,7 @@ Surprisal fix
        Combined scores are then recalculated with the updated metrics.
 
 Usage (from Stage-4/):
-    python run_eval_all_queries.py \
+    python run_eval_all_queries_1.py \
         --input_dir  ../stage-3/data/stage3_outputs/online_with_query \
         --dpr_filename_pattern "Q*--online_stage3_output.json" \
         --output_dir output/online_eval \
@@ -73,7 +73,7 @@ DEFAULT_OUTPUT_DIR = SCRIPT_DIR / "output"
 
 # Import existing offline pipeline
 sys.path.insert(0, str(SCRIPT_DIR))
-from run_eval_v3 import run_pipeline, compute_surprisal, compute_diversity, compute_uniqueness
+from run_eval_v3_1 import run_pipeline, compute_surprisal, compute_diversity, compute_uniqueness
 
 try:
     import requests
@@ -106,7 +106,7 @@ METRIC_KEYS = [
     ("Query-Summary Rel.",  "query_summary_relevance"),
 ]
 
-# Weights must match run_eval_v3.py exactly if run_eval_v3 also recomputes combined_score.
+# Weights must match run_eval_v3_1.py exactly if run_eval_v3 also recomputes combined_score.
 # If run_eval_v3 uses old weights, this file will override combined_score here.
 # _W = 0.25 + 0.15 + 0.15 + 0.15 + 0.10 + 0.10 + 0.10 + 0.10 + 0.10
 #
