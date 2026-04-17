@@ -12,7 +12,7 @@ Metric computations:
 
 Note:
   This file computes an initial 7-metric ranking.
-  Final ranking may later be recomputed in run_eval_all_queries.py
+  Final ranking may later be recomputed in run_eval_all_queries_1.py
   after query-based relevance metrics are added.
 """
 
