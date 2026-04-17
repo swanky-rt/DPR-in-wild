@@ -1,6 +1,6 @@
 [
   {
-    "dpr_id": null,
+    "dpr_id": "q2_1",
     "DPR": "We request a data product that visualizes the top 5 athletes with the fastest average times across the International Cross Country Championships from 1898 to 1933, highlighting any notable trends or correlations between nationality, age, and performance.",
     "sub_questions": [
       "What are the top 5 athletes by fastest average times in T5?",
@@ -275,7 +275,7 @@
     "upstream_model": null
   },
   {
-    "dpr_id": null,
+    "dpr_id": "q2_2",
     "DPR": "We request a data product that compares the top 5 athlete performance metrics across multiple International Cross Country Championships from 1898 to 1929, exploring any significant changes or correlations between nationality, time, and overall ranking.",
     "sub_questions": [
       "Are there correlations between rank, nationality, and time in T5, T6, T7, T77, T78, T79, T80, and T82?",
@@ -590,7 +590,7 @@
     "upstream_model": null
   },
   {
-    "dpr_id": null,
+    "dpr_id": "q2_3",
     "DPR": "We request a data product that identifies key factors contributing to the success of past champions and provides actionable insights on how teams can optimize their training and strategies to win future International Cross Country Championships, based on data from championships from 1898 to 1933.",
     "sub_questions": [
       "What range of Rank values appears in T83 for past International Cross Country Championships?",
@@ -839,7 +839,7 @@
     "upstream_model": null
   },
   {
-    "dpr_id": null,
+    "dpr_id": "q2_4",
     "DPR": "We request a data product that analyzes the top 5 athletes with the fastest average times and the top 5 nations with the most championships wins across the International Cross Country Championships from 1898 to 1933, highlighting any notable trends or correlations between nationality, age, and performance.",
     "sub_questions": [
       "What are the top 5 athletes by fastest average times in tables T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
@@ -1152,7 +1152,7 @@
     "upstream_model": null
   },
   {
-    "dpr_id": null,
+    "dpr_id": "q2_5",
     "DPR": "We request a data product that maps the locations of teams participating in the 1948 Campeonato Profesional to their respective stadiums, highlighting notable urban and geographical features that may have influenced team performance and strategies during the tournament.",
     "sub_questions": [
       "What range of values exists in the City column of T99?",
@@ -1401,7 +1401,7 @@
     "upstream_model": null
   },
   {
-    "dpr_id": null,
+    "dpr_id": "q2_6",
     "DPR": "We request a data product that contrasts the performance metrics of British athletes against their international counterparts in the International Cross Country Championships from 1898 to 1929, highlighting any notable differences or correlations in nationality, time, and overall ranking that may influence competitive strategies.",
     "sub_questions": [
       "What correlations exist between nationality and rank or time in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
@@ -1683,7 +1683,7 @@
     "upstream_model": null
   },
   {
-    "dpr_id": null,
+    "dpr_id": "q2_7",
     "DPR": "We request a data product that compares the top 5 athlete performance metrics, including average times and overall rankings, across multiple International Cross Country Championships from 1898 to 1929, highlighting any significant changes or correlations between nationality, time, and overall ranking that may influence competitive strategies.",
     "sub_questions": [
       "What are the average times for athletes ranked in the top 5 across T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
@@ -2012,7 +2012,7 @@
     "upstream_model": null
   },
   {
-    "dpr_id": null,
+    "dpr_id": "q2_8",
     "DPR": "We request a data product that aggregates data from multiple International Cross Country Championships from 1898 to 1933, highlighting key factors that contributed to the success of top-performing teams, including average time, nationality, and overall ranking, to provide actionable insights for teams looking to optimize their strategies and training to win future championships.",
     "sub_questions": [
       "What were the average times for top-ranked teams in T83?",
@@ -2283,7 +2283,7 @@
     "upstream_model": null
   },
   {
-    "dpr_id": null,
+    "dpr_id": "q2_9",
     "DPR": "We request a data product that identifies the correlation between an athlete's nationality and their overall ranking across the International Cross Country Championships from 1898 to 1933, highlighting the top 3 nationalities with the most championship wins and providing a detailed breakdown of their performance metrics, including average times and overall rankings.",
     "sub_questions": [
       "What is the average time and overall ranking for athletes from each of the top 3 nationalities in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
@@ -2605,7 +2605,7 @@
     "upstream_model": null
   },
   {
-    "dpr_id": null,
+    "dpr_id": "q2_10",
     "DPR": "We request a data product that visualizes the 1937 Campbell Trophy results, including driver positions, names, car constructors, and race times/status, to highlight notable historical racing data and the achievements of competitors like Prince Bira, and provide a detailed breakdown of their performance metrics.",
     "sub_questions": [
       "Which drivers and their time/status details are recorded for the 1937 Campbell Trophy?",
@@ -2870,7 +2870,7 @@
     "upstream_model": null
   },
   {
-    "dpr_id": null,
+    "dpr_id": "q2_11",
     "DPR": "We request a data product that aggregates data from multiple International Cross Country Championships from 1898 to 1933, highlighting key factors that contributed to the success of top-performing teams, including average time, nationality, and overall ranking, to provide actionable insights for teams looking to optimize their strategies and training to win future championships.",
     "sub_questions": [
       "What is the average time for top-ranked teams in T83?",
@@ -3129,7 +3129,7 @@
     "upstream_model": null
   },
   {
-    "dpr_id": null,
+    "dpr_id": "q2_12",
     "DPR": "We request a data product that aggregates data from multiple International Cross Country Championships from 1898 to 1933, highlighting key factors that contributed to the success of top-performing teams in terms of nationality representation and average time improvements, and providing actionable insights for teams looking to optimize their strategies and training to win future championships.",
     "sub_questions": [
       "What was the average Time for athletes grouped by Nationality in T5?",
@@ -3382,7 +3382,7 @@
     "upstream_model": null
   },
   {
-    "dpr_id": null,
+    "dpr_id": "q2_13",
     "DPR": "We request a data product that aggregates data from the 1948 Campeonato Profesional, visualizing the performance of each team across matches played at their respective stadiums, including metrics on their overall record, home and away performance, and notable wins or losses, to provide actionable insights on how teams adapted to different environments and locations during the tournament.",
     "sub_questions": [
       "Which teams and stadiums are listed in T99?",
@@ -3647,7 +3647,7 @@
     "upstream_model": null
   },
   {
-    "dpr_id": null,
+    "dpr_id": "q2_14",
     "DPR": "We request a data product that identifies the countries with the greatest improvement in their athletes' average times across multiple International Cross Country Championships from 1898 to 1933 and contrasts them with countries that have consistently produced top-performing athletes, highlighting any notable trends or correlations in nationality, time, and overall ranking that may influence competitive strategies.",
     "sub_questions": [
       "Which countries consistently produce top-performing athletes based on Rank and Time in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
@@ -3951,7 +3951,7 @@
     "upstream_model": null
   },
   {
-    "dpr_id": null,
+    "dpr_id": "q2_15",
     "DPR": "We request a data product that contrasts the performance metrics of athletes from different geographical locations, including Europe and South America, across multiple International Cross Country Championships from 1898 to 1933, highlighting any notable differences or correlations in nationality, time, and overall ranking that may influence competitive strategies, and provide a detailed breakdown of their performance metrics, including average times and overall rankings.",
     "sub_questions": [
       "What is the average time for athletes grouped by nationality in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
@@ -4275,7 +4275,7 @@
     "upstream_model": null
   },
   {
-    "dpr_id": null,
+    "dpr_id": "q2_16",
     "DPR": "We request a data product that visualizes the performance metrics of athletes from Europe and South America across multiple International Cross Country Championships from 1898 to 1933, highlighting any notable differences or correlations in nationality, time, and overall ranking that may influence competitive strategies, and provide a detailed breakdown of their performance metrics, including average times and overall rankings.",
     "sub_questions": [
       "What are the average times and ranks for athletes grouped by nationality in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
@@ -4569,7 +4569,7 @@
     "upstream_model": null
   },
   {
-    "dpr_id": null,
+    "dpr_id": "q2_17",
     "DPR": "We request a data product that contrasts the performance metrics of the top 3 drivers from the 1937 Campbell Trophy and the top 3 teams from the 1948 Campeonato Profesional, highlighting any notable differences or correlations in their respective competition outcomes, car or stadium characteristics, and notable historical achievements.",
     "sub_questions": [
       "What were the Pos, Driver, Car_Constructor, and Time_Diff_Status values for the top 3 drivers in T86?",
@@ -4867,7 +4867,7 @@
     "upstream_model": null
   },
   {
-    "dpr_id": null,
+    "dpr_id": "q2_18",
     "DPR": "We request a data product that compares the top 3 athlete performance metrics, including average times, overall rankings, and nationality representation, across multiple International Cross Country Championships from 1898 to 1933, and highlights any significant changes or correlations that may influence competitive strategies.",
     "sub_questions": [
       "What are the average times for the top 3 ranked athletes in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
@@ -5230,7 +5230,7 @@
     "upstream_model": null
   },
   {
-    "dpr_id": null,
+    "dpr_id": "q2_19",
     "DPR": "We request a data product that aggregates data from multiple International Cross Country Championships from 1898 to 1933, highlighting key factors that contributed to the success of top-performing teams in terms of nationality representation and average time improvements, and providing actionable insights for teams looking to optimize their strategies and training to win future championships.",
     "sub_questions": [
       "What were the top-performing teams by Rank and Nationality in T83?",
@@ -5509,7 +5509,7 @@
     "upstream_model": null
   },
   {
-    "dpr_id": null,
+    "dpr_id": "q2_20",
     "DPR": "We request a data product that visualizes the evolution of athletes from different geographical locations, including Europe and South America, across multiple International Cross Country Championships from 1898 to 1933, highlighting any notable differences or correlations in nationality, time, and overall ranking that may influence competitive strategies, and providing a detailed breakdown of their performance metrics, including average times and overall rankings.",
     "sub_questions": [
       "What are the nationalities and average times of athletes grouped by Rank in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
