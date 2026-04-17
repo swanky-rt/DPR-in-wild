@@ -1,0 +1,989 @@
+[
+  {
+    "split": "train",
+    "dpr_id": "5--DeepSeek-V3",
+    "DPR": "Compile a dataset that tracks athlete performance across various long-distance running events, including 10,000 metres, 1500 metres, 3000 metres steeplechase, and 5000 metres, along with their participation in European Team Championships Super League events. The data should include details on athlete demographics, event locations, historical context of the locations, and performance metrics such as times, rankings, and points. This dataset should support analysis of performance trends, geographical influences on outcomes, and historical patterns in athletics events.",
+    "matched_dpbench_table_ids": [
+      "11949298-de0c-5674-85a7-2dea7acc66fe",
+      "3b5386da-bf29-53e4-a1c5-06ec81e08782",
+      "cce396bd-db87-53cd-8555-ca8e2a9656ec"
+    ],
+    "matched_local_table_ids": [
+      "T22",
+      "T23",
+      "T53"
+    ],
+    "matched_source_table_ids": [
+      "10,000_metres_0",
+      "10,000_metres_1",
+      "1500_metres_1"
+    ],
+    "user_query": "Can I get a list of athlete performance data for long-distance running events like 10,000 metres, 1500 metres, 3000 metres steeplechase, and 5000 metres, including their participation in European Team Championships Super League events, along with details on demographics, event locations, historical context, and metrics like times, rankings, and points to analyze trends and patterns in athletics?",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 02:53:37"
+  },
+  {
+    "split": "dev",
+    "dpr_id": "11--DeepSeek-V3",
+    "DPR": "Compile a dataset that tracks athlete performances across various international cross-country championships, including their rankings, nationalities, and finishing times. Additionally, integrate data on their Olympic participation, such as the number of times they competed, their best positions, and the events they participated in. This dataset should support analysis of career achievements, national representation, and the relationship between cross-country performance and Olympic success.",
+    "matched_dpbench_table_ids": [
+      "b815dda5-cb05-528d-b690-62392657b609",
+      "c4a8941c-87b9-5ed4-8c56-b69fc1780fa1"
+    ],
+    "matched_local_table_ids": [
+      "T78",
+      "T80"
+    ],
+    "matched_source_table_ids": [
+      "1923_International_Cross_Country_Championships_0",
+      "1926_International_Cross_Country_Championships_0"
+    ],
+    "user_query": "How can I get a list of cross-country athletes with their championship rankings, nationalities, and finishing times, along with their Olympic participation history, including the number of times they competed and their best positions, to analyze their career achievements and Olympic success?",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 02:53:37"
+  },
+  {
+    "split": "train",
+    "dpr_id": "78--mixtral-8x22b",
+    "DPR": "Gather data on films from various years and countries, including their titles, directors, studios, revenues, admissions, and rankings. The data should also include information on the writers, composers, and actors associated with each film. The data product should support analysis of financial performance across films, comparison of films based on various factors such as genre, director, studio, and revenue, and identification of key personnel associated with each film.",
+    "matched_dpbench_table_ids": [
+      "1643c1e5-69d2-54ea-8eb1-aae358cf97c1"
+    ],
+    "matched_local_table_ids": [
+      "T10"
+    ],
+    "matched_source_table_ids": [
+      "1957_in_film_0"
+    ],
+    "user_query": "I need a list of movies from different years and countries, including details like title, director, studio, revenue, and rankings, as well as the people involved like writers, composers, and actors, so I can compare their financial performance and identify key trends and personnel.",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 02:53:37"
+  },
+  {
+    "split": "train",
+    "dpr_id": "27--mixtral-8x22b",
+    "DPR": "Gather data on athletes' performances in various Olympic Games and International Cross Country Championships, and analyze the trends in their achievements, participation, and demographics. The data should also include information on their sports, events, and the medals they won. Additionally, the data should support insights into the athletes' backgrounds, such as their nationalities, birthplaces, and academic affiliations.",
+    "matched_dpbench_table_ids": [
+      "3ab8e1af-4ce5-5a8d-a3c5-021445629e10",
+      "4cf4564e-0a85-54be-b98f-9b73c9e1b568",
+      "dbd46b82-b084-5b0d-9f51-1751927ab6fa"
+    ],
+    "matched_local_table_ids": [
+      "T6",
+      "T77",
+      "T79"
+    ],
+    "matched_source_table_ids": [
+      "1913_International_Cross_Country_Championships_0",
+      "1921_International_Cross_Country_Championships_0",
+      "1924_International_Cross_Country_Championships_0"
+    ],
+    "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 02:53:37"
+  },
+  {
+    "split": "train",
+    "dpr_id": "17--DeepSeek-V3",
+    "DPR": "Compile a dataset that includes detailed information on representatives from various Ohio General Assemblies and the Indiana House of Representatives, encompassing their districts, party affiliations, residences, election histories, and term limits. Additionally, gather data on the historical and geographical contexts of their residences, including population statistics, founding years, and notable landmarks. This dataset should support analysis of demographic trends, election patterns, and the historical significance of regions represented, enabling insights into the political and regional characteristics of these areas.",
+    "matched_dpbench_table_ids": [
+      "375f6085-e087-542c-aeda-58d293a1c069",
+      "51461244-8efa-5fb0-88fe-dca0d59f3729",
+      "a279880b-9c01-5fbc-b7f4-881c93f6877a",
+      "b29a3570-4bcc-559f-8513-c8c8c3a06f14",
+      "e8a3d0b5-254c-5f64-a920-2e95a8a306c0"
+    ],
+    "matched_local_table_ids": [
+      "T41",
+      "T42",
+      "T43",
+      "T45",
+      "T49"
+    ],
+    "matched_source_table_ids": [
+      "127th_Ohio_General_Assembly_1",
+      "128th_Ohio_General_Assembly_0",
+      "128th_Ohio_General_Assembly_1",
+      "129th_Ohio_General_Assembly_1",
+      "130th_Ohio_General_Assembly_1"
+    ],
+    "user_query": "I need a comprehensive dataset of Ohio General Assembly and Indiana House of Representatives members including districts party affiliations residences election histories term limits and demographic information about their areas of representation such as population founding year notable landmarks and historical context to analyze election trends and regional characteristics.",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 02:53:37"
+  },
+  {
+    "split": "test",
+    "dpr_id": "7--llama-3-3-70b",
+    "DPR": "Compile data on player profiles across various sports, including rugby, basketball, Australian football, and American football, to understand demographic trends, recruitment patterns, and positional distributions, and assess how these factors influence team performance and player development.",
+    "matched_dpbench_table_ids": [
+      "51625d14-b851-5ba4-85e1-178048bc5c9f"
+    ],
+    "matched_local_table_ids": [
+      "T74"
+    ],
+    "matched_source_table_ids": [
+      "1914_New_Zealand_rugby_union_tour_of_Australia_0"
+    ],
+    "user_query": "I'm looking for data on player profiles across different sports like rugby, basketball, Australian football, and American football to see how demographics, recruitment, and positions affect team performance and player growth.",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 02:53:37"
+  },
+  {
+    "split": "train",
+    "dpr_id": "43--qwen-2-5-72b",
+    "DPR": "Compile a dataset that provides comprehensive information about the universities attended by athletes and players from various sports drafts, including the 1947 BAA draft, 2013 MLS Supplemental Draft, United States national ice hockey team rosters, Washington Redskins players, and Newport Gulls. The dataset should include details such as the university's founding year, religious affiliation, notable achievements (e.g., Nobel laureates, Pulitzer laureates), campus size and location, academic programs, and unique features (e.g., architectural styles, World Heritage Sites). This data should support queries on the historical, academic, and cultural aspects of these universities, enabling detailed comparisons and insights into the institutions attended by these athletes.",
+    "matched_dpbench_table_ids": [
+      "9dad9c65-0821-5e2d-92dc-94b355b3daaf"
+    ],
+    "matched_local_table_ids": [
+      "T93"
+    ],
+    "matched_source_table_ids": [
+      "1947_BAA_draft_0"
+    ],
+    "user_query": "What universities did athletes from different sports drafts like the 1947 BAA draft and 2013 MLS Supplemental Draft attend and what are some notable facts about these universities such as founding year, notable achievements, and unique features",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 02:53:37"
+  },
+  {
+    "split": "train",
+    "dpr_id": "5--qwen-2-5-72b",
+    "DPR": "Compile a dataset that includes detailed performance records of athletes in various track and field events, such as 10,000 metres, 1500 metres, and 5000 metres, along with their personal information and historical achievements. The dataset should also provide geographical and historical context for the locations where these events took place, including city governance, population, and significant historical events. This data should support analyses of athlete performance trends, comparisons across different events and locations, and the impact of historical and geographical factors on athletic achievements.",
+    "matched_dpbench_table_ids": [
+      "11949298-de0c-5674-85a7-2dea7acc66fe",
+      "3b5386da-bf29-53e4-a1c5-06ec81e08782",
+      "cce396bd-db87-53cd-8555-ca8e2a9656ec"
+    ],
+    "matched_local_table_ids": [
+      "T22",
+      "T23",
+      "T53"
+    ],
+    "matched_source_table_ids": [
+      "10,000_metres_0",
+      "10,000_metres_1",
+      "1500_metres_1"
+    ],
+    "user_query": "Can I get a list of track and field athletes with their performance records in events like 10000 metres 1500 metres and 5000 metres along with info about where they competed including city details and any significant historical events that might have affected their performance",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 02:53:37"
+  },
+  {
+    "split": "train",
+    "dpr_id": "15--qwen-2-5-72b",
+    "DPR": "Compile a dataset that includes detailed information on senatorial changes across multiple U.S. Congress sessions, including the state, vacator, reason for change, successor, and date of successor's formal installation. The dataset should also include biographical details of the senators, such as their party affiliation, date of birth, and professional background. Additionally, the dataset should cover political endorsements in the 2012 Republican Party presidential primaries, including the senator or representative, party, state, and date of endorsement. It should also include information on the burial places of U.S. presidents and vice presidents, and the terms and party affiliations of Oregon Commissioners of Labor. This dataset should support queries on senatorial transitions, political endorsements, and biographical information of political figures.",
+    "matched_dpbench_table_ids": [
+      "a3e1b3e9-2cdd-5847-964d-aa7ccbb13543"
+    ],
+    "matched_local_table_ids": [
+      "T35"
+    ],
+    "matched_source_table_ids": [
+      "111th_United_States_Congress_0"
+    ],
+    "user_query": "I need a comprehensive dataset on US senators and politicians that includes information on senatorial changes, biographies, party affiliations, endorsements, and other relevant details like burial places of presidents and vice presidents, as well as terms of Oregon labor commissioners, so I can analyze transitions, endorsements, and backgrounds of these figures.",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 02:53:37"
+  },
+  {
+    "split": "test",
+    "dpr_id": "155--llama-3-3-70b",
+    "DPR": "Compile a comprehensive dataset on the historical composition of legislative bodies, election results, and candidate information across different regions, including electoral district boundaries, party affiliations, candidate demographics, and voting patterns, to support insights into trends, relationships, and patterns in political representation and election outcomes.",
+    "matched_dpbench_table_ids": [
+      "24e9a222-f2f6-5588-b764-b0c54485ee30"
+    ],
+    "matched_local_table_ids": [
+      "T18"
+    ],
+    "matched_source_table_ids": [
+      "28th_Legislative_Assembly_of_British_Columbia_0"
+    ],
+    "user_query": "What's the historical breakdown of election results, candidate info, and legislative body composition across different regions, including electoral districts and party affiliations, to help understand trends in political representation and voting patterns?",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 02:53:37"
+  },
+  {
+    "split": "train",
+    "dpr_id": "32--qwen-2-5-72b",
+    "DPR": "Compile a comprehensive dataset that includes historical athletic performance data from the 1920 International Cross Country Championships, details of athletes and their achievements from various sports and events, and a list of doping cases in athletics. The dataset should support queries on athlete rankings, times, and nationalities; athlete demographics, event participation, and country-specific details; and doping violations, banned substances, and sanctions. Additionally, the dataset should include information on the UNLV Rebels, such as athlete names, years, sports, events, and countries, to facilitate analysis of their performance and achievements.",
+    "matched_dpbench_table_ids": [
+      "0e576b44-6e24-58d5-a564-6bb1401e5461"
+    ],
+    "matched_local_table_ids": [
+      "T7"
+    ],
+    "matched_source_table_ids": [
+      "1920_International_Cross_Country_Championships_0"
+    ],
+    "user_query": "Can I get a dataset with historical athletic performance data from the 1920 International Cross Country Championships, along with info on athlete demographics, event participation, and country-specific details, as well as doping cases and sanctions, and also include data on the UNLV Rebels athletes, their sports, events, and countries, so I can analyze their performance and achievements?",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 02:53:37"
+  },
+  {
+    "split": "train",
+    "dpr_id": "75--llama-3-3-70b",
+    "DPR": "Compile a comprehensive dataset that encompasses historical and contemporary musical compositions, performances, and the biographies of composers and performers. This dataset should include information on premiere dates, performance venues, composer and performer profiles, and the cultural impact of significant musical works. It should support queries on the evolution of music genres, the influence of composers on each other, the popularity of performances across different regions, and the role of music in reflecting and shaping cultural and historical events.",
+    "matched_dpbench_table_ids": [
+      "8351cb62-8aae-50fb-92dd-bcc9f1dceac9",
+      "bc4b2fb9-fadf-569e-9853-867f0690d536"
+    ],
+    "matched_local_table_ids": [
+      "T11",
+      "T9"
+    ],
+    "matched_source_table_ids": [
+      "1955_in_music_0",
+      "1964_in_music_0"
+    ],
+    "user_query": "I'm looking for a database that has everything about music history, including when and where famous pieces were first performed, who composed and performed them, and how different genres of music have evolved over time, as well as how music has influenced culture and history.",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 02:53:37"
+  },
+  {
+    "split": "train",
+    "dpr_id": "47--DeepSeek-V3",
+    "DPR": "Compile a dataset that tracks the career trajectories of basketball players across various leagues, including draft history, team affiliations, awards, and physical attributes. The data should support analysis of player development, team performance, and the impact of awards on career progression. Additionally, it should enable insights into demographic trends and the influence of college and international experiences on player success.",
+    "matched_dpbench_table_ids": [
+      "df8fa366-95e5-5c06-8af3-d13fbe13dc7d"
+    ],
+    "matched_local_table_ids": [
+      "T96"
+    ],
+    "matched_source_table_ids": [
+      "1948_BAA_draft_0"
+    ],
+    "user_query": "How can I get a comprehensive dataset on basketball players' careers, including their draft history, team movements, awards, and physical attributes, to analyze player development, team performance, and demographic trends?",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 02:53:37"
+  },
+  {
+    "split": "test",
+    "dpr_id": "11--mixtral-8x22b",
+    "DPR": "Compile comprehensive data on college sports players, including their positions, schools, birth dates, and other relevant details, and analyze how factors such as school, position, and birth date correlate with player performance and recognition.",
+    "matched_dpbench_table_ids": [
+      "47a37735-7560-5ec7-a092-10a7b7233e3c"
+    ],
+    "matched_local_table_ids": [
+      "T91"
+    ],
+    "matched_source_table_ids": [
+      "1943_College_Football_All-America_Team_0"
+    ],
+    "user_query": "What factors contribute to a college sports player's success and are there any correlations between their school, position, birth date, and performance or recognition?",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 02:53:37"
+  },
+  {
+    "split": "train",
+    "dpr_id": "19--qwen-2-5-72b",
+    "DPR": "Compile a dataset that includes detailed information on U.S. state and federal politicians, including their districts, party affiliations, residences, and net worth. The dataset should support queries on the following:\n- Demographic and background information of politicians, such as their residences, first election years, and term limits.\n- Wealth and financial status of politicians, including net worth and any significant financial changes over time.\n- Historical and current roles of political parties, including the representation of specific regions and the impact of party affiliation on political success.\n- Specific achievements and milestones of political figures, such as being the first openly gay governor or the youngest governor of Puerto Rico.\n- Relationships between political figures and their constituencies, including population data and historical context of their residences.",
+    "matched_dpbench_table_ids": [
+      "51522eec-d674-52e4-854f-4865dbd978aa"
+    ],
+    "matched_local_table_ids": [
+      "T48"
+    ],
+    "matched_source_table_ids": [
+      "130th_Ohio_General_Assembly_0"
+    ],
+    "user_query": "What information is available on US politicians, including their background, party affiliations, wealth, and notable achievements, and how can I explore their relationships with their constituencies and the impact of their party affiliations on their careers?",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 02:53:37"
+  },
+  {
+    "split": "train",
+    "dpr_id": "30--gpt-oss-120b",
+    "DPR": "Create a unified, query‑ready dataset that consolidates player‑level information for rugby union, Canadian football, and association football athletes, including each player’s name, birth date, nationality, parentage, and playing position; their geographic or institutional origin (province, school, university, or college) and any associated development pathways; a complete chronology of club affiliations, draft selections, transfer dates, fees, and retirement or coaching appointments, together with relevant club details (location, stadium, founding history, bankruptcy events); and any performance‑related metrics such as draft rankings, positional responsibilities (e.g., special‑teams, kicking duties) and awards won in specific years. The dataset should support queries that filter by position, origin, club, draft rank, or honors, and that trace a player’s career movements and achievements across the three sports.",
+    "matched_dpbench_table_ids": [
+      "51625d14-b851-5ba4-85e1-178048bc5c9f"
+    ],
+    "matched_local_table_ids": [
+      "T74"
+    ],
+    "matched_source_table_ids": [
+      "1914_New_Zealand_rugby_union_tour_of_Australia_0"
+    ],
+    "user_query": "I need a comprehensive dataset of rugby union, Canadian football, and association football players including their personal details, playing positions, career history, and performance metrics, so I can search and filter by things like position, team, draft rank, or awards won.",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 02:53:37"
+  },
+  {
+    "split": "test",
+    "dpr_id": "70--qwen-2-5-72b",
+    "DPR": "Compile data on the 1st New Zealand Parliament, Independent Labour Party and Social Democratic Federation election results, and University of St Andrews alumni, to support queries on member details, election outcomes, and notable achievements. Specifically, the data should allow users to identify the oldest member of a specific province, the electorate of a member with a particular background, the current representative of a constituency, the years of service of a notable alumnus, and the age and post-election life span of candidates.",
+    "matched_dpbench_table_ids": [
+      "55334a35-3cef-5717-9890-39dfae873c55"
+    ],
+    "matched_local_table_ids": [
+      "T14"
+    ],
+    "matched_source_table_ids": [
+      "1st_New_Zealand_Parliament_0"
+    ],
+    "user_query": "I need information about the 1st New Zealand Parliament, including election results for the Independent Labour Party and Social Democratic Federation, as well as details about University of St Andrews alumni, so I can look up member backgrounds, election outcomes, and notable achievements, and find things like the oldest member from a certain province, the current representative of a constituency, and the years of service of a notable alumnus.",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 02:53:37"
+  },
+  {
+    "split": "test",
+    "dpr_id": "10--llama-3-3-70b",
+    "DPR": "Compile data on college football players who were part of All-America teams or drafted into the NFL, including their positions, schools, and career statistics, to understand the relationships between player performance, team success, and career longevity.",
+    "matched_dpbench_table_ids": [
+      "5f89e386-3818-5ab5-a17c-269fad6d8598"
+    ],
+    "matched_local_table_ids": [
+      "T87"
+    ],
+    "matched_source_table_ids": [
+      "1935_College_Football_All-America_Team_0"
+    ],
+    "user_query": "What are the career stats and performance trends of college football players who made All-America teams or got drafted into the NFL, and how do their positions and schools impact their success and longevity in the sport",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 02:53:37"
+  },
+  {
+    "split": "train",
+    "dpr_id": "16--llama-3-3-70b",
+    "DPR": "Compile a dataset that integrates demographic, legislative, and biographical information for state senators across Ohio, Arizona, Colorado, Oklahoma, and Michigan, as well as cast members from \"The Real World: Cancun\". This dataset should include details on districts, residences, terms, parties, ages, hometowns, and other relevant characteristics, enabling analyses of representation, demographic trends, geographic patterns, and personal backgrounds. The dataset should support queries on senator and cast member demographics, legislative district characteristics, and the relationship between geographic locations and demographic or legislative outcomes.",
+    "matched_dpbench_table_ids": [
+      "76db3bd7-a80f-5ff9-ae21-8bf12f1dfb1d"
+    ],
+    "matched_local_table_ids": [
+      "T40"
+    ],
+    "matched_source_table_ids": [
+      "127th_Ohio_General_Assembly_0"
+    ],
+    "user_query": "I need a list of all state senators from Ohio, Arizona, Colorado, Oklahoma, and Michigan, including their demographic info, legislative history, and biographical details, and also cast members from The Real World Cancun, so I can compare and analyze their backgrounds, representation, and geographic trends.",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 02:53:37"
+  },
+  {
+    "split": "train",
+    "dpr_id": "6--llama-3-3-70b",
+    "DPR": "Compile a comprehensive dataset that integrates athletic performance records, athlete biographies, geographical data, and historical event information to facilitate analyses of track and field performances, athlete career trajectories, and the impact of geographical and historical contexts on athletic achievements.",
+    "matched_dpbench_table_ids": [
+      "80491b90-da79-5652-9661-9b2476a79157"
+    ],
+    "matched_local_table_ids": [
+      "T52"
+    ],
+    "matched_source_table_ids": [
+      "1500_metres_0"
+    ],
+    "user_query": "How can I get a dataset that combines track and field performance records with athlete backgrounds, event history, and location data to study athletic careers and the factors that influence success in different contexts?",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 02:53:37"
+  },
+  {
+    "split": "test",
+    "dpr_id": "70--llama-3-3-70b",
+    "DPR": "Compile a dataset that integrates historical parliamentary membership, election results, and notable alumni information to explore how personal characteristics, such as age, profession, and educational background, influence election outcomes, political careers, and professional achievements across different constituencies and parties.",
+    "matched_dpbench_table_ids": [
+      "55334a35-3cef-5717-9890-39dfae873c55"
+    ],
+    "matched_local_table_ids": [
+      "T14"
+    ],
+    "matched_source_table_ids": [
+      "1st_New_Zealand_Parliament_0"
+    ],
+    "user_query": "How do factors like age, profession, and education impact election results and political careers for MPs across different parties and constituencies, and are there any notable trends or alumni achievements that stand out?",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 02:53:37"
+  },
+  {
+    "split": "train",
+    "dpr_id": "35--DeepSeek-V3",
+    "DPR": "Compile a dataset that tracks athlete performance across international cross-country championships, 400 metres events, and 200 metres breaststroke world records. The data should include athlete demographics, nationality, event times, and historical context such as birth years, participation in other events, and locations. This dataset should support analysis of performance trends, comparisons between athletes, and insights into the factors influencing athletic success across different disciplines and time periods.",
+    "matched_dpbench_table_ids": [
+      "8dbed9e4-6968-5c58-b806-98bcadd63419",
+      "c1ce564c-3ef2-5641-a68d-3fb439064e6c"
+    ],
+    "matched_local_table_ids": [
+      "T82",
+      "T85"
+    ],
+    "matched_source_table_ids": [
+      "1929_International_Cross_Country_Championships_0",
+      "1933_International_Cross_Country_Championships_0"
+    ],
+    "user_query": "How can I get a list of top athletes in international cross-country championships, 400 meters events, and 200 meters breaststroke world records, including their demographics, event times, and historical performance data to analyze trends and compare athlete success across different events and time periods?",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 02:53:37"
+  },
+  {
+    "split": "train",
+    "dpr_id": "5--gpt-oss-120b",
+    "DPR": "Create a unified, query‑ready dataset that combines detailed results of major track events (e.g., 10 000 m, 1500 m, 3000 m steeplechase, 5 000 m, and related championship performances) with enriched metadata on:  \n\n1. **Athletes** – full name, birth year, nationality, career highlights (Olympic/World medals, championship titles, personal bests), doping sanctions, club affiliation, and any notable biographical notes.  \n2. **Venues** – city and country where each performance occurred, plus geographic and demographic attributes (population, area, coastline length, nearby mountains or rivers, founding year, current governing authority, major infrastructure such as motorways, city slogans, historical events, and cultural landmarks).  \n3. **Countries** – political system, GDP and PPP rankings, UNESCO World Heritage site count, dominant religion, historical empire affiliations, past conquests, economic policy changes, and other relevant historical or cultural facts.  \n\nThe dataset should be structured to support queries that relate athletes’ performance times to their personal backgrounds, to the characteristics of the venues where they competed, and to broader national indicators, thereby enabling comprehensive analysis of performance patterns, historical and geographic influences, and athlete‑country relationships.",
+    "matched_dpbench_table_ids": [
+      "11949298-de0c-5674-85a7-2dea7acc66fe",
+      "3b5386da-bf29-53e4-a1c5-06ec81e08782",
+      "cce396bd-db87-53cd-8555-ca8e2a9656ec"
+    ],
+    "matched_local_table_ids": [
+      "T22",
+      "T23",
+      "T53"
+    ],
+    "matched_source_table_ids": [
+      "10,000_metres_0",
+      "10,000_metres_1",
+      "1500_metres_1"
+    ],
+    "user_query": "I need a dataset that combines track event results with athlete information like birth year and career highlights, venue details like city and country, and country characteristics like political system and GDP, so I can analyze how athlete performance times relate to their personal backgrounds, competition venues, and national indicators.",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 02:53:37"
+  },
+  {
+    "split": "dev",
+    "dpr_id": "13--mixtral-8x22b",
+    "DPR": "Gather data on sports players from various teams and leagues, including their educational backgrounds, positions, and notable achievements. Analyze how the educational backgrounds of these players, such as the schools they attended and their fields of study, contribute to their success in their respective sports.",
+    "matched_dpbench_table_ids": [
+      "47a37735-7560-5ec7-a092-10a7b7233e3c"
+    ],
+    "matched_local_table_ids": [
+      "T91"
+    ],
+    "matched_source_table_ids": [
+      "1943_College_Football_All-America_Team_0"
+    ],
+    "user_query": "How do the educational backgrounds of sports players from different teams and leagues impact their performance and achievements in their respective sports",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 02:53:37"
+  },
+  {
+    "split": "train",
+    "dpr_id": "12--gpt-oss-120b",
+    "DPR": "Create a unified, query‑ready dataset that compiles every individual appearing in the supplied tables—including Canadian federal and provincial legislators, historical speakers, cabinet ministers, senators, viceregal representatives, CHOGM chairpersons, and U.S. presidential/vice‑presidential female candidates—as well as the 2008 Massachusetts congressional election results and the Nova Scotia expense‑scandal records. For each person, include: full name, office(s) held (e.g., MP, MLA, speaker, minister, senator, lieutenant governor, CHOGM chair, election candidate), jurisdiction (province, country, or international body), political party affiliation, electoral district/riding (with creation, abolition, merger, and redistribution dates where relevant), term or service dates (start and end), biographical details (birth and death dates, birthplace, profession, education, notable family or marital links, military service), predecessor and successor relationships, and any associated financial or expense information. Also capture CHOGM chairperson background (country, year, professional/activist profile) and viceregal representative mandate dates. This comprehensive data product should enable retrieval of any specific fact asked in the original questions and support broader analyses of political careers, district histories, party representation, and related financial or demographic patterns.",
+    "matched_dpbench_table_ids": [
+      "24e9a222-f2f6-5588-b764-b0c54485ee30",
+      "efd89399-3191-5677-917f-805f9575e783"
+    ],
+    "matched_local_table_ids": [
+      "T18",
+      "T4"
+    ],
+    "matched_source_table_ids": [
+      "14th_Legislative_Assembly_of_British_Columbia_0",
+      "28th_Legislative_Assembly_of_British_Columbia_0"
+    ],
+    "user_query": "I need a comprehensive database of all politicians including Canadian federal and provincial legislators historical speakers cabinet ministers senators viceregal representatives CHOGM chairpersons and US presidential vice presidential female candidates along with the 2008 Massachusetts congressional election results and Nova Scotia expense scandal records including their full names offices held jurisdictions party affiliations electoral districts terms biographical details predecessor and successor relationships financial information and other relevant details to analyze political careers district histories party representation and related patterns",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 02:53:37"
+  },
+  {
+    "split": "train",
+    "dpr_id": "45--gpt-oss-120b",
+    "DPR": "Collect a comprehensive, relational dataset that links every athlete, draft pick, award recipient, or MVP listed in the provided tables to their alma mater and includes: (1) detailed university‑level academic and institutional attributes such as current and historical conference affiliation, NCAA tournament appearances, championship counts (basketball, football, soccer, etc.), research funding levels, total enrollment, number of degree programs, number of varsity sports, accreditation bodies, founding year, campus acreage, and other demographic metrics; (2) complete team‑level performance metrics for each university’s sports programs, including season win‑loss records, conference titles, tournament scores, championship years, home venue names, capacities, and any venue‑related details; (3) individual career outcomes for each player, covering games played, points, rebounds, assists, professional teams, career length, Hall‑of‑Fame inductions, post‑playing roles (coaching, administration), and any awards or honors received; and (4) historical change data such as university name changes, conference switches, establishment dates of facilities, and other temporal events. The dataset should support longitudinal queries that analyze relationships between university characteristics, team success, and player career trajectories.",
+    "matched_dpbench_table_ids": [
+      "293cabe0-0737-5843-a851-f8fc044058bf"
+    ],
+    "matched_local_table_ids": [
+      "T95"
+    ],
+    "matched_source_table_ids": [
+      "1947_BAA_draft_2"
+    ],
+    "user_query": "I need a dataset that connects athletes to their universities and includes university attributes like conference affiliation, NCAA tournament history, and academic metrics, as well as team performance metrics, individual player career stats, and historical change data to analyze how university characteristics impact team success and player careers.",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 03:12:09"
+  },
+  {
+    "split": "dev",
+    "dpr_id": "12--llama-3-3-70b",
+    "DPR": "Compile a comprehensive dataset on international sports events, including athlete information, event details, and medal wins, to analyze the performance of athletes from different countries and demographics, and to track changes in medal wins and athlete success over time, supporting insights into factors contributing to athlete and team performance.",
+    "matched_dpbench_table_ids": [
+      "8dbed9e4-6968-5c58-b806-98bcadd63419"
+    ],
+    "matched_local_table_ids": [
+      "T82"
+    ],
+    "matched_source_table_ids": [
+      "1929_International_Cross_Country_Championships_0"
+    ],
+    "user_query": "How can I get a list of international sports events with athlete info, event details, and medal wins to compare athlete performance across countries and demographics over time",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 03:12:09"
+  },
+  {
+    "split": "test",
+    "dpr_id": "212--gpt-oss-120b",
+    "DPR": "Collect a comprehensive dataset that links each athlete’s name, birth date, sport, event, competition (e.g., Olympics, Asian Games, European Championships, Giro d’Italia), performance results, medals and competition year, together with each biologist’s name, birth and death dates, month of birth/death, and awards, to support queries about individual participation, performance details, and month‑based counts of births and deaths.",
+    "matched_dpbench_table_ids": [
+      "20b3290f-8235-5db5-8a31-8ac97f32900d"
+    ],
+    "matched_local_table_ids": [
+      "T19"
+    ],
+    "matched_source_table_ids": [
+      "History_of_RNA_biology_0"
+    ],
+    "user_query": "I need a list of athletes with their sports, events, competition results, and medals, along with a list of biologists including their birth and death dates, awards, and a way to see how many athletes and biologists were born or died in each month.",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 03:12:09"
+  },
+  {
+    "split": "test",
+    "dpr_id": "4--qwen-2-5-72b",
+    "DPR": "Compile data on world records, championship results, and athlete performances in various running events, including the 1500 metres, cross country, half marathons, and marathons. The data should include details such as times, athlete names, dates, and locations, and should also provide contextual information about the cities and countries where these events took place, including population, government, and geographical features.",
+    "matched_dpbench_table_ids": [
+      "8dbed9e4-6968-5c58-b806-98bcadd63419",
+      "8e5ceab4-e41b-51c8-8e4d-354b172742bc"
+    ],
+    "matched_local_table_ids": [
+      "T55",
+      "T82"
+    ],
+    "matched_source_table_ids": [
+      "1500_metres_world_record_progression_1",
+      "1929_International_Cross_Country_Championships_0"
+    ],
+    "user_query": "What are the world records and championship results for major running events like the 1500 meters, cross country, half marathons, and marathons, and can I also get some background information on the cities and countries where these events were held, including things like population, government, and geography?",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 03:12:09"
+  },
+  {
+    "split": "dev",
+    "dpr_id": "13--llama-3-3-70b",
+    "DPR": "Compile a dataset that will allow queries on the educational and professional backgrounds of notable individuals in sports, military, and other fields, including their achievements, affiliations, and career paths. The data should include information on the institutions they attended, their fields of study, and their notable accomplishments, as well as the relationships between these factors and their subsequent career success. This should enable insights into the role of education in shaping professional outcomes, the characteristics of high-achieving individuals, and the patterns of career development in different fields.",
+    "matched_dpbench_table_ids": [
+      "47a37735-7560-5ec7-a092-10a7b7233e3c"
+    ],
+    "matched_local_table_ids": [
+      "T91"
+    ],
+    "matched_source_table_ids": [
+      "1943_College_Football_All-America_Team_0"
+    ],
+    "user_query": "How do the educational backgrounds and career paths of successful people in sports, military, and other fields relate to their achievements and affiliations, and what patterns can we identify in their development and outcomes.",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 03:12:09"
+  },
+  {
+    "split": "train",
+    "dpr_id": "78--llama-3-3-70b",
+    "DPR": "Compile a comprehensive dataset on the film industry that includes detailed information on films, directors, studios, genres, box office performance, and release years, allowing for analysis of trends, comparisons of success factors, and insights into the relationships between different elements influencing film performance across various markets and over time.",
+    "matched_dpbench_table_ids": [
+      "1643c1e5-69d2-54ea-8eb1-aae358cf97c1"
+    ],
+    "matched_local_table_ids": [
+      "T10"
+    ],
+    "matched_source_table_ids": [
+      "1957_in_film_0"
+    ],
+    "user_query": "What data is available on the film industry to analyze trends and compare the success factors of different movies, directors, studios, and genres over time and across various markets",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 03:12:09"
+  },
+  {
+    "split": "dev",
+    "dpr_id": "5--llama-3-3-70b",
+    "DPR": "Compile a comprehensive dataset on athlete performance in track and field events, including event times, nationalities, and athlete information, to analyze trends in performance, compare event times across different athletes and nationalities, and identify patterns in athlete success across various events.",
+    "matched_dpbench_table_ids": [
+      "8e5ceab4-e41b-51c8-8e4d-354b172742bc"
+    ],
+    "matched_local_table_ids": [
+      "T55"
+    ],
+    "matched_source_table_ids": [
+      "1500_metres_world_record_progression_1"
+    ],
+    "user_query": "How can I get a list of track and field athlete performances including their event times, nationalities, and other relevant info so I can see how different athletes and countries compare and identify any patterns in their success across various events",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 03:12:09"
+  },
+  {
+    "split": "test",
+    "dpr_id": "7--qwen-2-5-72b",
+    "DPR": "Compile player data from various sports and time periods, including details such as name, position, birth date, recruitment source, and team, to support queries on player demographics, positions, and recruitment patterns.",
+    "matched_dpbench_table_ids": [
+      "51625d14-b851-5ba4-85e1-178048bc5c9f"
+    ],
+    "matched_local_table_ids": [
+      "T74"
+    ],
+    "matched_source_table_ids": [
+      "1914_New_Zealand_rugby_union_tour_of_Australia_0"
+    ],
+    "user_query": "What player data is available across different sports and time periods, including details like name, position, birth date, and team, that can help me understand player demographics and recruitment patterns?",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 03:12:09"
+  },
+  {
+    "split": "train",
+    "dpr_id": "47--gpt-oss-120b",
+    "DPR": "Create a comprehensive basketball player data product that consolidates historic draft information (1948 BAA draft, 1980 NBA expansion draft, 2006 NBA Development League draft), detailed biographical attributes (name, birthdate, birthplace, height, weight, nationality), educational background (college/university attended, degree, class year), complete professional career histories (teams, leagues, seasons, positions, years of experience, championships, coaching roles, franchise relocations), and award records (EuroCup Rising Star, EuroLeague Rising Star, East Coast Conference Player of the Year, Gatorade Player of the Year, etc.) with associated season, team, and physical statistics. This dataset should enable analysis of player career trajectories across leagues, correlations between draft position and later achievements, geographic and physical profile trends, the influence of collegiate affiliation on professional outcomes, and comparative studies of award recipients across seasons and competitions.",
+    "matched_dpbench_table_ids": [
+      "df8fa366-95e5-5c06-8af3-d13fbe13dc7d"
+    ],
+    "matched_local_table_ids": [
+      "T96"
+    ],
+    "matched_source_table_ids": [
+      "1948_BAA_draft_0"
+    ],
+    "user_query": "I need a dataset of basketball players that includes their draft history, biographical information, education, career stats, awards, and more so I can analyze their career paths and trends across different leagues and competitions.",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 03:12:09"
+  },
+  {
+    "split": "dev",
+    "dpr_id": "13--qwen-2-5-72b",
+    "DPR": "Compile a dataset that includes information on notable sports and military figures, their positions, the institutions they attended, and any significant achievements or historical contexts. The data should support queries on the educational background of these individuals, their career highlights, and the institutions' reputations in specific fields such as engineering, IT, and sports. Additionally, the dataset should allow for insights into the historical significance of these figures and their contributions to their respective fields.",
+    "matched_dpbench_table_ids": [
+      "47a37735-7560-5ec7-a092-10a7b7233e3c"
+    ],
+    "matched_local_table_ids": [
+      "T91"
+    ],
+    "matched_source_table_ids": [
+      "1943_College_Football_All-America_Team_0"
+    ],
+    "user_query": "What schools did famous sports and military personalities attend, what are their notable achievements, and how do their alma maters rank in engineering, IT, and sports?",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 03:12:09"
+  },
+  {
+    "split": "train",
+    "dpr_id": "36--llama-3-3-70b",
+    "DPR": "Compile a comprehensive dataset that integrates information on athlete performance, event outcomes, and participant demographics across various international competitions and sports. This dataset should support queries on individual and team performance metrics, including longitudinal analyses of career paths and the impact of nationality on success. It should also facilitate the analysis of trends and patterns within specific events, such as changes in participation, performance benchmarks, and the influence of external factors like geographical location or historical period. Furthermore, the dataset should enable the examination of broader insights into the sports industry, including comparisons of different competitions, the evolution of athlete demographics, and the identification of factors contributing to success in various sporting disciplines.",
+    "matched_dpbench_table_ids": [
+      "b3cdf160-da2c-51a6-81e3-48b24ff4e2de"
+    ],
+    "matched_local_table_ids": [
+      "T83"
+    ],
+    "matched_source_table_ids": [
+      "1929_International_Cross_Country_Championships_1"
+    ],
+    "user_query": "I need a database that combines athlete performance, event results, and participant demographics from various international sports competitions to analyze individual and team performance over time, how nationality affects success, and trends within specific events, as well as broader sports industry insights like competition comparisons and factors leading to success in different sports.",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 03:12:09"
+  },
+  {
+    "split": "train",
+    "dpr_id": "423--mixtral-8x22b",
+    "DPR": "Gather data on award recipients across various fields, including science, literature, and economics, and analyze how their demographics, institutions, and notable works contribute to their achievements. The data should include information on recipients' birth dates, nationalities, institutions, and notable works, as well as the specific awards they received. This should allow for insights into the relationship between recipients' backgrounds, institutions, and their achievements, as well as trends in award-winning research and contributions across different fields.",
+    "matched_dpbench_table_ids": [
+      "20b3290f-8235-5db5-8a31-8ac97f32900d"
+    ],
+    "matched_local_table_ids": [
+      "T19"
+    ],
+    "matched_source_table_ids": [
+      "History_of_RNA_biology_0"
+    ],
+    "user_query": "What are the common characteristics and backgrounds of award winners in science, literature, and economics, and how do their institutions and notable works impact their achievements?",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 03:12:09"
+  },
+  {
+    "split": "train",
+    "dpr_id": "47--mixtral-8x22b",
+    "DPR": "Gather data on basketball players, their draft history, team affiliations, and awards, including details such as player statistics, draft rounds, team locations, and award categories. Analyze this data to understand player performance trends, team dynamics, draft strategies, and award patterns over time.",
+    "matched_dpbench_table_ids": [
+      "df8fa366-95e5-5c06-8af3-d13fbe13dc7d"
+    ],
+    "matched_local_table_ids": [
+      "T96"
+    ],
+    "matched_source_table_ids": [
+      "1948_BAA_draft_0"
+    ],
+    "user_query": "What are the trends and patterns in basketball player performance, draft history, team affiliations, and awards over time, and how do they relate to each other.",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 03:12:09"
+  },
+  {
+    "split": "train",
+    "dpr_id": "6--mixtral-8x22b",
+    "DPR": "Gather data on the world record progression for various track events, including 1500 metres, 3000 metres steeplechase, and women's 10 kilometres walk, and analyze the factors contributing to the improvement in records over time. Additionally, compile data on specific athletes' performances, such as Paavo Nurmi and Loris Paoluzzi, and assess the impact of their achievements on the sport. The data should also include information on the locations where these records were set, such as population, GDP, and historical significance, to understand the context in which these records were achieved.",
+    "matched_dpbench_table_ids": [
+      "2de18f79-e641-5f35-9c6e-15ea50f7ead7",
+      "3952a690-6a0c-5abc-92a3-c1b05d851a80",
+      "8e5ceab4-e41b-51c8-8e4d-354b172742bc",
+      "a29497d9-335d-54aa-a120-aae477ad63ea"
+    ],
+    "matched_local_table_ids": [
+      "T54",
+      "T55",
+      "T56",
+      "T57"
+    ],
+    "matched_source_table_ids": [
+      "1500_metres_world_record_progression_0",
+      "1500_metres_world_record_progression_1",
+      "1500_metres_world_record_progression_2",
+      "1500_metres_world_record_progression_3"
+    ],
+    "user_query": "What's the history of track and field world records in events like the 1500m, 3000m steeplechase, and women's 10km walk, and how have athletes like Paavo Nurmi and Loris Paoluzzi contributed to improvements over time, particularly in terms of the locations where these records were set?",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 03:12:09"
+  },
+  {
+    "split": "train",
+    "dpr_id": "10--DeepSeek-V3",
+    "DPR": "Compile a dataset that tracks the succession patterns, backgrounds, and career trajectories of representatives across various sessions of the United States Congress. The data should include details on districts, vacators, reasons for changes, successors, and dates of formal installations. Additionally, gather information on the educational backgrounds, notable achievements, and political affiliations of representatives to analyze trends in congressional representation and the factors influencing succession and career progression.",
+    "matched_dpbench_table_ids": [
+      "2a499ac6-5f76-5687-95e7-95d0aefffc8d",
+      "869a4f3e-28c3-59b4-9b5c-6e854df8d672",
+      "e24f94e1-2f3b-5267-a600-02c1a6eb6a7e",
+      "f88b00fd-79e5-5162-87e3-2f57be5d4dd3"
+    ],
+    "matched_local_table_ids": [
+      "T29",
+      "T33",
+      "T38",
+      "T69"
+    ],
+    "matched_source_table_ids": [
+      "107th_United_States_Congress_1",
+      "10th_United_States_Congress_1",
+      "11th_United_States_Congress_1",
+      "18th_United_States_Congress_1"
+    ],
+    "user_query": "What are the career paths and succession patterns of US Congress representatives, including their educational backgrounds, achievements, and party affiliations, and how have these factors influenced congressional representation over time?",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 03:12:09"
+  },
+  {
+    "split": "train",
+    "dpr_id": "48--gpt-oss-120b",
+    "DPR": "Create a consolidated dataset that combines the 1948 BAA basketball draft, the 2012 MLS SuperDraft, the Michigan Wolverines football staff/player roster from the Crisler era, and the Naismith Memorial Basketball Hall of Fame team and individual inductees.  For each draft pick include the player’s name, sport, draft round/pick, position, selecting team, and college affiliation, and enrich this with the college’s location, mascot, school colors, number of regular‑season championships, and current head coach.  For every player and team also capture post‑playing career information (e.g., CIA, engineering, coaching), Hall of Fame induction status (year, award type such as John Bunn Award or Dream Team designation), and any notable awards or achievements.  Include team‑level attributes such as home venue (e.g., Staples Center), conference affiliation, and historical performance metrics (e.g., exhibition games played, sprint touchdown yards).  The resulting product should enable queries that link players to their colleges, colleges to team characteristics, and both to Hall of Fame recognitions and post‑career outcomes across basketball, soccer, and football.",
+    "matched_dpbench_table_ids": [
+      "8525499a-d1a0-59b5-b484-eacd22562139"
+    ],
+    "matched_local_table_ids": [
+      "T97"
+    ],
+    "matched_source_table_ids": [
+      "1948_BAA_draft_1"
+    ],
+    "user_query": "I need a database that combines old basketball and soccer drafts with college football team rosters and hall of fame inductees, including player and team info like draft picks, colleges, sports, positions, and post-playing career achievements, as well as team attributes like venues and performance metrics, so I can explore connections between players, colleges, and hall of fame recognition across different sports.",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 03:12:09"
+  },
+  {
+    "split": "train",
+    "dpr_id": "24--qwen-2-5-72b",
+    "DPR": "Compile a dataset that includes the results of the International Cross Country Championships from 1898 to 1972, detailing the rank, athlete, nationality, and time for individual events, and the rank, country, team, and points for team events. The dataset should also include historical, geographical, and demographic information about the home countries of the athletes, such as population, area, form of government, significant historical events, and geographical features. Additionally, include a list of diplomatic missions in Vietnam, specifying the mission type and head of mission, along with relevant country information. This data should support queries on athlete performance, historical and geographical context, and diplomatic relations.",
+    "matched_dpbench_table_ids": [
+      "a2e5cd71-4a5a-5209-97d3-d1b704b9631f",
+      "b815dda5-cb05-528d-b690-62392657b609",
+      "c4a8941c-87b9-5ed4-8c56-b69fc1780fa1"
+    ],
+    "matched_local_table_ids": [
+      "T5",
+      "T78",
+      "T80"
+    ],
+    "matched_source_table_ids": [
+      "1898_International_Cross_Country_Championships_0",
+      "1923_International_Cross_Country_Championships_0",
+      "1926_International_Cross_Country_Championships_0"
+    ],
+    "user_query": "Where can I find a dataset with International Cross Country Championships results from 1898-1972, athlete home country info, and a list of diplomatic missions in Vietnam to analyze performance and diplomatic relations?",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 03:12:09"
+  },
+  {
+    "split": "test",
+    "dpr_id": "1--gpt-oss-120b",
+    "DPR": "Collect comprehensive succession data for the 107th and 26th United States Congresses—including district, vacator, reason for change, successor, and successor’s installation date—to enable analysis of direct and multi‑step successor chains and to reveal personal relationships (e.g., marriages) among the individuals; additionally, compile a dataset of U.S. ambassadors to Russia with their name, home state, appointment, presentation, and termination dates, and link each ambassador to known family members who served in the Continental Congress so that service lengths and historical connections can be examined.",
+    "matched_dpbench_table_ids": [
+      "869a4f3e-28c3-59b4-9b5c-6e854df8d672"
+    ],
+    "matched_local_table_ids": [
+      "T29"
+    ],
+    "matched_source_table_ids": [
+      "107th_United_States_Congress_1"
+    ],
+    "user_query": "I need information on the 107th and 26th US Congresses including district, vacator, reason for change, successor, and installation date, to analyze succession chains and personal relationships, and also a list of US ambassadors to Russia with their name, home state, appointment, presentation, and termination dates, along with any family connections to the Continental Congress.",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 03:12:09"
+  },
+  {
+    "split": "test",
+    "dpr_id": "9--gpt-oss-120b",
+    "DPR": "Gather comprehensive performance data for athletes from the 1931 International Cross Country Championships, the 2006 IAAF World Road Running Championships, and all listed Biathlon World Championships (including rank, time, and event details). Enrich each athlete’s record with detailed geopolitical information about their nationality—such as overseas territories, colonial origins, national width, adjacent administrative regions, and the number of surrounding islands. Incorporate career‑timeline data for these athletes, covering Olympic medal histories, dates of citizenship changes, retirement statements, and eligibility transfers between nations. Provide the combined dataset in a format that supports queries linking athlete achievements to country characteristics and personal career events.",
+    "matched_dpbench_table_ids": [
+      "bca6c29c-d1f0-5609-827c-7e9e0c75bf14"
+    ],
+    "matched_local_table_ids": [
+      "T84"
+    ],
+    "matched_source_table_ids": [
+      "1931_International_Cross_Country_Championships_1"
+    ],
+    "user_query": "Where can I find a comprehensive dataset of athletes from major international championships, including their performance details, nationality, career timelines, and Olympic medals?",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 03:12:09"
+  },
+  {
+    "split": "dev",
+    "dpr_id": "3--qwen-2-5-72b",
+    "DPR": "Compile a dataset that includes information on the 129th Ohio General Assembly, New York State Historic Markers in Warren County, notable individuals from Princeton University who have served in U.S. Congress and Supreme Court, and the religious affiliations of U.S. Senators. The dataset should allow queries on senator residences, historic marker locations and texts, biographical details of Princeton University alumni, and the religious backgrounds of senators. It should support analysis of political demographics, historical significance, and the intersection of education and public service.",
+    "matched_dpbench_table_ids": [
+      "f2fc2716-6754-5f38-9fdf-d2c531f22927"
+    ],
+    "matched_local_table_ids": [
+      "T44"
+    ],
+    "matched_source_table_ids": [
+      "129th_Ohio_General_Assembly_0"
+    ],
+    "user_query": "I need information on the 129th Ohio General Assembly, historic markers in Warren County NY, notable Princeton University alumni in Congress and the Supreme Court, and the religious affiliations of US Senators, to analyze political demographics, historical significance, and the connection between education and public service, including details on senator residences, marker locations, and alumni biographies.",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 03:12:09"
+  },
+  {
+    "split": "train",
+    "dpr_id": "24--llama-3-3-70b",
+    "DPR": "Compile a comprehensive dataset of the International Cross Country Championships, including athlete performance data, team standings, and extensive country profiles, to facilitate analysis of how geographical, historical, and demographic factors influence athletic performance and team success in the championships.",
+    "matched_dpbench_table_ids": [
+      "a2e5cd71-4a5a-5209-97d3-d1b704b9631f",
+      "b815dda5-cb05-528d-b690-62392657b609",
+      "c4a8941c-87b9-5ed4-8c56-b69fc1780fa1"
+    ],
+    "matched_local_table_ids": [
+      "T5",
+      "T78",
+      "T80"
+    ],
+    "matched_source_table_ids": [
+      "1898_International_Cross_Country_Championships_0",
+      "1923_International_Cross_Country_Championships_0",
+      "1926_International_Cross_Country_Championships_0"
+    ],
+    "user_query": "How can I get a dataset with athlete performance, team standings, and country information for the International Cross Country Championships to study how different factors impact team success and athletic performance?",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 03:12:09"
+  },
+  {
+    "split": "train",
+    "dpr_id": "33--gpt-oss-120b",
+    "DPR": "Create a comprehensive Argentine sports data product that (1) lists every football and rugby club in Argentina with attributes such as full name, common acronyms, founding year and origin (e.g., immigrants, railway workers), club colors, nicknames, sports offered, and notable historical notes; (2) provides detailed venue information for each club and match (venue name, city, province, capacity, year opened, construction details, and alternative names); (3) compiles complete records of all domestic and international cup competitions referenced (Copa Ibarguren, Copa Newton, Copa de Honor, Copa de Competencia Jockey Club, Copa de la República, Copa Libertadores, Copa Sudamericana, Copa Sudamericana records, Copa de la URBA, Torneo de la URBA, Torneo Argentino A, Primera B/Nacional/Metropolitana/C Metropolitana, UEFA Cup Winners’ Cup, etc.) including winners, runner‑ups, years, scores, host cities and venues; (4) includes historic rugby tour match data for the 1927 British Lions tour to Argentina, the 1972 South African Gazelles tour, and the 1987 Australia tour (date, rival, city, venue, score); and (5) links clubs to their titles, venues, and geographic attributes (city, province, coordinates, population, distance from Buenos Aires) so that users can query club acronyms, colors, founding stories, venue details, title counts, years won, match locations, and perform comparative analyses across clubs, venues, and competitions.",
+    "matched_dpbench_table_ids": [
+      "2e71ddd4-2ece-5d36-9d8c-b4ac25302fdd"
+    ],
+    "matched_local_table_ids": [
+      "T81"
+    ],
+    "matched_source_table_ids": [
+      "1927_British_Lions_tour_to_Argentina_1"
+    ],
+    "user_query": "What are the football and rugby clubs in Argentina, including their history, venues, competition records, and other details like founding year, club colors, and notable titles won?",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 03:12:09"
+  },
+  {
+    "split": "train",
+    "dpr_id": "23--mixtral-8x22b",
+    "DPR": "Gather data on various sports events, stadiums, and teams across different regions, including rugby union tours, cricket world cups, diamond league meets, grand finals, and association football clubs. The dataset should provide details on the venues, cities, countries, capacities, and matches, as well as the teams, their home grounds, and their performance. It should also include data on sponsored sports venues and their locations. The dataset should support analysis of trends, comparisons, and patterns in sports events and their impact on the cities and countries where they are held.",
+    "matched_dpbench_table_ids": [
+      "95c9f4bc-e866-5a39-a30f-1fac61637137",
+      "e192f1d7-76a7-5fbb-be8f-c9524021c8d2",
+      "eac4dceb-1100-566d-9122-d8cc8c6f3c0c"
+    ],
+    "matched_local_table_ids": [
+      "T64",
+      "T66",
+      "T76"
+    ],
+    "matched_source_table_ids": [
+      "1884_New_Zealand_rugby_union_tour_of_New_South_Wales_1",
+      "1893_New_Zealand_rugby_union_tour_of_Australia_1",
+      "1920_New_Zealand_rugby_union_tour_of_New_South_Wales_0"
+    ],
+    "user_query": "Where can I find a comprehensive dataset on sports events like rugby, cricket, athletics, and football that includes stadium, team, and venue information so I can analyze trends and their impact on host cities and countries?",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 03:12:09"
+  },
+  {
+    "split": "train",
+    "dpr_id": "7--gpt-oss-120b",
+    "DPR": "Create a comprehensive, query‑ready dataset that consolidates athlete‑level biographical data (name, nationality, birthdate, birthplace, education where available) with detailed performance records across track & field, cross‑country, and artistic gymnastics. For each performance include event name, date, venue, mark/time/score, rank/position, and any medals or records achieved. Capture competition participation histories (Olympic Games, World Championships, Commonwealth Games, European Championships, International Cross Country Championships, etc.) with the number of appearances and outcomes. Include a chronological world‑record progression table for each relevant event (e.g., sub‑10‑second 100 m, triple jump) showing the record holder, mark, date, and location. Ensure the data model supports linking athletes across different events and competitions to answer queries about age at milestones, nationality of record setters, Olympic participation counts, team versus individual results, and other cross‑disciplinary relationships.",
+    "matched_dpbench_table_ids": [
+      "0aedd8df-3227-50d6-8e25-6dd3c99de8cb"
+    ],
+    "matched_local_table_ids": [
+      "T24"
+    ],
+    "matched_source_table_ids": [
+      "10-second_barrier_4"
+    ],
+    "user_query": "Where can I find a dataset that combines athlete biographies with their performance records in track and field, cross country, and artistic gymnastics?",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 03:12:09"
+  },
+  {
+    "split": "train",
+    "dpr_id": "15--qwen-2-5-72b",
+    "DPR": "Compile a dataset that includes detailed information on senatorial changes across multiple U.S. Congress sessions, including the state, vacator, reason for change, successor, and date of successor's formal installation. The dataset should also include biographical details of the senators, such as their party affiliation, date of birth, and professional background. Additionally, the dataset should cover political endorsements in the 2012 Republican Party presidential primaries, including the senator or representative, party, state, and date of endorsement. It should also include information on the burial places of U.S. presidents and vice presidents, and the terms and party affiliations of Oregon Commissioners of Labor. This dataset should support queries on senatorial transitions, political endorsements, and biographical information of political figures.",
+    "matched_dpbench_table_ids": [
+      "a3e1b3e9-2cdd-5847-964d-aa7ccbb13543"
+    ],
+    "matched_local_table_ids": [
+      "T35"
+    ],
+    "matched_source_table_ids": [
+      "111th_United_States_Congress_0"
+    ],
+    "user_query": "I need a comprehensive dataset on US senators and politicians that includes information on senatorial changes, biographies, party affiliations, endorsements, and other relevant details like burial places of presidents and vice presidents, as well as terms of Oregon labor commissioners, so I can analyze transitions, endorsements, and backgrounds of these figures.",
+    "user_query_model": "llama-3.3-70b-versatile",
+    "user_query_temperature": 1,
+    "user_query_generated_at": "2026-04-16 02:53:37"
+  }
+]

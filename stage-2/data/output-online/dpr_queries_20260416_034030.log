@@ -1,0 +1,15 @@
+2026-04-16 03:40:30,578 INFO Query Q2 | clusters: ['1', '10', '9']
+2026-04-16 03:40:30,578 INFO Attempt 01 (DPR 1/20) | phase=bootstrap | trials=0 | cluster=1 | visit#=1 | perspective=1
+2026-04-16 03:40:30,578 INFO UCB scores: {'1': 0.0, '10': 0.0, '9': 0.0}
+2026-04-16 03:40:37,366 ERROR LLM-A failed on attempt 1: litellm.NotFoundError: NotFoundError: OpenAIException - The model `Llama-3.1-8B-Instruct` does not exist.
+2026-04-16 03:40:37,366 INFO Attempt 02 (DPR 1/20) | phase=bootstrap | trials=0 | cluster=1 | visit#=1 | perspective=1
+2026-04-16 03:40:37,366 INFO UCB scores: {'1': 0.0, '10': 0.0, '9': 0.0}
+2026-04-16 03:40:43,572 ERROR LLM-A failed on attempt 2: litellm.NotFoundError: NotFoundError: OpenAIException - The model `Llama-3.1-8B-Instruct` does not exist.
+2026-04-16 03:40:43,573 INFO Attempt 03 (DPR 1/20) | phase=bootstrap | trials=0 | cluster=1 | visit#=1 | perspective=1
+2026-04-16 03:40:43,573 INFO UCB scores: {'1': 0.0, '10': 0.0, '9': 0.0}
+2026-04-16 03:40:49,766 ERROR LLM-A failed on attempt 3: litellm.NotFoundError: NotFoundError: OpenAIException - The model `Llama-3.1-8B-Instruct` does not exist.
+2026-04-16 03:40:49,766 INFO Attempt 04 (DPR 1/20) | phase=bootstrap | trials=0 | cluster=1 | visit#=1 | perspective=1
+2026-04-16 03:40:49,766 INFO UCB scores: {'1': 0.0, '10': 0.0, '9': 0.0}
+2026-04-16 03:40:55,960 ERROR LLM-A failed on attempt 4: litellm.NotFoundError: NotFoundError: OpenAIException - The model `Llama-3.1-8B-Instruct` does not exist.
+2026-04-16 03:40:55,960 INFO Attempt 05 (DPR 1/20) | phase=bootstrap | trials=0 | cluster=1 | visit#=1 | perspective=1
+2026-04-16 03:40:55,960 INFO UCB scores: {'1': 0.0, '10': 0.0, '9': 0.0}

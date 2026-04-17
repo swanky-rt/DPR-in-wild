@@ -1,0 +1,945 @@
+[
+  {
+    "dpr_id": "9_v2",
+    "DPR": "Compile data on shifts in Ohio legislative representation across the 123rd through 130th General Assemblies, analyzing trends in party composition, frequency of turnover, term limit impacts, and transition patterns to quantify evolving stability and partisan dynamics in state representation.",
+    "sub_questions": [
+      "What party composition changes occurred in Ohio between the 123rd and 130th General Assemblies?",
+      "How often did turnover occur in each district during this period?",
+      "What was the impact of term limits on representation in T40 and T41?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "What party composition changes occurred in Ohio between the 123rd and 130th General Assemblies?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Reason_for_change FROM T39 WHERE Date LIKE '%January 3 , 1999%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 6,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T39"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Reason_for_change FROM T39 WHERE Date LIKE '%January 3 , 1999%'",
+        "final_execution_status": true,
+        "final_row_count": 6,
+        "mini_summary": "The result set does not show the specific parties involved in the changes. \n\nFour members of the Ohio legislative representation changed between the 123rd and 130th General Assemblies due to retirement and elections."
+      },
+      {
+        "sub_question": "How often did turnover occur in each district during this period?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT District, COUNT(*) AS turnover_count FROM T39 GROUP BY District",
+            "execution_status": true,
+            "error": null,
+            "row_count": 8,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T39"
+            ]
+          }
+        ],
+        "final_sql": "SELECT District, COUNT(*) AS turnover_count FROM T39 GROUP BY District",
+        "final_execution_status": true,
+        "final_row_count": 8,
+        "mini_summary": "Turnover occurred in at least 5 districts during this period. \n\nThe result set does not show the frequency of turnover in each district."
+      },
+      {
+        "sub_question": "What was the impact of term limits on representation in T40 and T41?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT T40.District, T40.Senator, T40.Party, T40.Residence, T40.First_elected, T40.Term_Limited, T41.Representative, T41.Party AS Rep_Party, T41.Residence AS Rep_Residence, T41.First_Elected AS Rep_First_Elected, T41.Term_Limited AS Rep_Term_Limited FROM T40 INNER JOIN T41 ON T40.District = T41.District WHERE T40.Party LIKE '%Republican%' AND T41.Party LIKE '%Dem%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 7,
+            "retry_phase": "generate",
+            "explicit_join": true,
+            "tables": [
+              "T40",
+              "T41"
+            ]
+          }
+        ],
+        "final_sql": "SELECT T40.District, T40.Senator, T40.Party, T40.Residence, T40.First_elected, T40.Term_Limited, T41.Representative, T41.Party AS Rep_Party, T41.Residence AS Rep_Residence, T41.First_Elected AS Rep_First_Elected, T41.Term_Limited AS Rep_Term_Limited FROM T40 INNER JOIN T41 ON T40.District = T41.District WHERE T40.Party LIKE '%Republican%' AND T41.Party LIKE '%Dem%'",
+        "final_execution_status": true,
+        "final_row_count": 7,
+        "mini_summary": "The result set does not show the impact of term limits on representation in T40 and T41."
+      }
+    ],
+    "mini_summaries": [
+      "The result set does not show the specific parties involved in the changes. \n\nFour members of the Ohio legislative representation changed between the 123rd and 130th General Assemblies due to retirement and elections.",
+      "Turnover occurred in at least 5 districts during this period. \n\nThe result set does not show the frequency of turnover in each district.",
+      "The result set does not show the impact of term limits on representation in T40 and T41."
+    ],
+    "final_summary": "The analysis of shifts in Ohio legislative representation reveals that changes occurred due to retirement and elections, affecting at least 4 members and at least 5 districts. However, the specific parties involved in these changes are not shown. The impact of term limits on representation in certain districts is also not evident, and the frequency of turnover in each district is not quantified.",
+    "tables": [
+      "T39",
+      "T40",
+      "T41",
+      "T42",
+      "T43",
+      "T44",
+      "T45",
+      "T46",
+      "T47",
+      "T48",
+      "T49"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T44",
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T49"
+      ]
+    },
+    "generated_sql": "SELECT Reason_for_change FROM T39 WHERE Date LIKE '%January 3 , 1999%'",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 6,
+      "preview": [
+        {
+          "Reason_for_change": "Gaeth retired . Wachtmann elected with 61% of the vote"
+        },
+        {
+          "Reason_for_change": "Howard defeated by Mark Mallory 59% to 41% in 1998 general election"
+        },
+        {
+          "Reason_for_change": "Zaleski retired . Armbruster elected with 47% of the vote"
+        },
+        {
+          "Reason_for_change": "Johnson retired . Prentiss elected with 86% of the vote"
+        },
+        {
+          "Reason_for_change": "Sweeney retired . Brady elected unopposed"
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T39": {
+        "District": "District",
+        "Previous Senator": "Previous_Senator",
+        "Reason for change": "Reason_for_change",
+        "New Senator": "New_Senator",
+        "Date": "Date"
+      },
+      "T40": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T41": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T42": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T43": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T44": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T45": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T46": {
+        "District": "District",
+        "Predecessor": "Predecessor",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date successor seated": "Date_successor_seated"
+      },
+      "T47": {
+        "District": "District",
+        "Predecessor": "Predecessor",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date successor seated": "Date_successor_seated"
+      },
+      "T48": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T49": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "9_v3",
+    "DPR": "Compile historical Ohio General Assembly representative turnover data, including term limits, district transitions, and succession reasons, to enable analysis of geographic and temporal patterns in representational stability and inform stakeholder strategies for legislative outreach or electoral planning.",
+    "sub_questions": [
+      "What districts in T40 have term limits?",
+      "What reasons for change appear in T39?",
+      "What parties are represented in T41?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "What districts in T40 have term limits?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT District FROM T40 WHERE Term_Limited IS NOT NULL AND Term_Limited <> ''",
+            "execution_status": true,
+            "error": null,
+            "row_count": 20,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T40"
+            ]
+          }
+        ],
+        "final_sql": "SELECT District FROM T40 WHERE Term_Limited IS NOT NULL AND Term_Limited <> ''",
+        "final_execution_status": true,
+        "final_row_count": 20,
+        "mini_summary": "The result set does not show which districts in T40 have term limits. \n\nThe districts listed are 1, 2, 3, 4, and 5."
+      },
+      {
+        "sub_question": "What reasons for change appear in T39?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Reason_for_change FROM T39",
+            "execution_status": true,
+            "error": null,
+            "row_count": 8,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T39"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Reason_for_change FROM T39",
+        "final_execution_status": true,
+        "final_row_count": 8,
+        "mini_summary": "The reasons for change in T39 include Gaeth retired and Wachtmann elected, Howard defeated by Mark Mallory, Zaleski retired and Armbruster elected, Johnson retired and Prentiss elected, and Sweeney retired and Brady elected unopposed."
+      },
+      {
+        "sub_question": "What parties are represented in T41?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT DISTINCT Party FROM T41",
+            "execution_status": true,
+            "error": null,
+            "row_count": 2,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T41"
+            ]
+          }
+        ],
+        "final_sql": "SELECT DISTINCT Party FROM T41",
+        "final_execution_status": true,
+        "final_row_count": 2,
+        "mini_summary": "The parties represented in T41 are Democrat and Republican."
+      }
+    ],
+    "mini_summaries": [
+      "The result set does not show which districts in T40 have term limits. \n\nThe districts listed are 1, 2, 3, 4, and 5.",
+      "The reasons for change in T39 include Gaeth retired and Wachtmann elected, Howard defeated by Mark Mallory, Zaleski retired and Armbruster elected, Johnson retired and Prentiss elected, and Sweeney retired and Brady elected unopposed.",
+      "The parties represented in T41 are Democrat and Republican."
+    ],
+    "final_summary": "The available data on Ohio General Assembly representative turnover does not include information on term limits for districts. The districts listed are 1, 2, 3, 4, and 5. The reasons for change in the previous period include retirements and elections, with some individuals being elected unopposed. The parties represented in the current period are Democrat and Republican. Limitations are visible in the evidence, as the data does not specify which districts have term limits.",
+    "tables": [
+      "T39",
+      "T40",
+      "T41",
+      "T42",
+      "T43",
+      "T44",
+      "T45",
+      "T46",
+      "T47",
+      "T48",
+      "T49"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T44",
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T49"
+      ]
+    },
+    "generated_sql": "SELECT District FROM T40 WHERE Term_Limited IS NOT NULL AND Term_Limited <> ''",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 20,
+      "preview": [
+        {
+          "District": 1.0
+        },
+        {
+          "District": 2.0
+        },
+        {
+          "District": 3.0
+        },
+        {
+          "District": 4.0
+        },
+        {
+          "District": 5.0
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T39": {
+        "District": "District",
+        "Previous Senator": "Previous_Senator",
+        "Reason for change": "Reason_for_change",
+        "New Senator": "New_Senator",
+        "Date": "Date"
+      },
+      "T40": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T41": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T42": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T43": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T44": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T45": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T46": {
+        "District": "District",
+        "Predecessor": "Predecessor",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date successor seated": "Date_successor_seated"
+      },
+      "T47": {
+        "District": "District",
+        "Predecessor": "Predecessor",
+        "Reason for change": "Reason_for_change",
+        "Successor": "Successor",
+        "Date successor seated": "Date_successor_seated"
+      },
+      "T48": {
+        "District": "District",
+        "Senator": "Senator",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First elected": "First_elected",
+        "Term Limited": "Term_Limited"
+      },
+      "T49": {
+        "District": "District",
+        "Representative": "Representative",
+        "Party": "Party",
+        "Residence": "Residence",
+        "First Elected": "First_Elected",
+        "Term Limited": "Term_Limited"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "10",
+    "DPR": "Compile data spanning the 1947 and 1948 BAA drafts to analyze correlations between draft round/pick, player position, team selection, and college affiliation while comparing trends in draft prioritization, team strategies, and college representation across the two years.",
+    "sub_questions": [
+      "How do team selections compare across colleges in the 1948 draft?",
+      "What positions were selected in each round of the 1947 draft?",
+      "Which colleges had players drafted in both years?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "How do team selections compare across colleges in the 1948 draft?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Team, College FROM T93 WHERE College LIKE '%Wisconsin%' OR College LIKE '%Texas%' OR College LIKE '%Purdue%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 3,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T93"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Team, College FROM T93 WHERE College LIKE '%Wisconsin%' OR College LIKE '%Texas%' OR College LIKE '%Purdue%'",
+        "final_execution_status": true,
+        "final_row_count": 3,
+        "mini_summary": "The 1948 draft includes teams selected from Texas Wesleyan, Wisconsin, and Purdue colleges."
+      },
+      {
+        "sub_question": "What positions were selected in each round of the 1947 draft?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Round, Position FROM T93",
+            "execution_status": true,
+            "error": null,
+            "row_count": 10,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T93"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Round, Position FROM T93",
+        "final_execution_status": true,
+        "final_row_count": 10,
+        "mini_summary": "The positions selected in the first round of the draft are Forward, Guard/Forward, Guard/Forward, Unknown, and Center. \n\nThe result set does not show the positions selected in rounds other than the first."
+      },
+      {
+        "sub_question": "Which colleges had players drafted in both years?",
+        "feasibility_warning": "Feasibility warning: question references risky concepts (e.g. year/date/rank) that may not exist in this cluster schema.",
+        "attempts": [
+          {
+            "sql": "SELECT College FROM T93 INTERSECT SELECT College FROM T94",
+            "execution_status": true,
+            "error": null,
+            "row_count": 3,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T93",
+              "T94"
+            ]
+          }
+        ],
+        "final_sql": "SELECT College FROM T93 INTERSECT SELECT College FROM T94",
+        "final_execution_status": true,
+        "final_row_count": 3,
+        "mini_summary": "The colleges with players drafted in both years are Long Island, Purdue, and Wisconsin."
+      }
+    ],
+    "mini_summaries": [
+      "The 1948 draft includes teams selected from Texas Wesleyan, Wisconsin, and Purdue colleges.",
+      "The positions selected in the first round of the draft are Forward, Guard/Forward, Guard/Forward, Unknown, and Center. \n\nThe result set does not show the positions selected in rounds other than the first.",
+      "The colleges with players drafted in both years are Long Island, Purdue, and Wisconsin."
+    ],
+    "final_summary": "The 1948 draft included teams from Texas Wesleyan, Wisconsin, and Purdue colleges. Colleges with players drafted in both years are Long Island, Purdue, and Wisconsin. The first round of the 1948 draft selected players at Forward, Guard/Forward, Guard/Forward, Unknown, and Center positions. However, the evidence does not provide information on positions selected in rounds other than the first, or the draft round/pick, player position, team selection, and college affiliation for the 1947 draft, limiting the analysis of correlations and trends.",
+    "tables": [
+      "T93",
+      "T94",
+      "T95",
+      "T96",
+      "T97",
+      "T98"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T93",
+        "T94",
+        "T95",
+        "T96",
+        "T97",
+        "T98"
+      ]
+    },
+    "generated_sql": "SELECT Team, College FROM T93 WHERE College LIKE '%Wisconsin%' OR College LIKE '%Texas%' OR College LIKE '%Purdue%'",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 3,
+      "preview": [
+        {
+          "Team": "Pittsburgh Ironmen",
+          "College": "Texas Wesleyan"
+        },
+        {
+          "Team": "Toronto Huskies",
+          "College": "Wisconsin"
+        },
+        {
+          "Team": "Boston Celtics",
+          "College": "Purdue"
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T93": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T94": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T95": {
+        "Player": "Player",
+        "Position": "Position",
+        "College": "College"
+      },
+      "T96": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T97": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T98": {
+        "Player": "Player",
+        "Position": "Position",
+        "College": "College"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "10_v2",
+    "DPR": "Compile data from the 1947 and 1948 BAA drafts, including round, position, team, and college details, to enable analysis of evolving trends in player selection priorities and team drafting strategies during the early professional basketball era.",
+    "sub_questions": [
+      "What teams drafted players from the same college in different rounds?",
+      "Which colleges had players drafted by multiple teams in 1948?",
+      "What positions were selected in each round of the 1947 draft?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "What teams drafted players from the same college in different rounds?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Team FROM T93 WHERE College IN (SELECT College FROM T94) AND Round != (SELECT Round FROM T94 WHERE T94.College = T93.College) UNION SELECT Team FROM T94 WHERE College IN (SELECT College FROM T93) AND Round != (SELECT Round FROM T93 WHERE T93.College = T94.College)",
+            "execution_status": true,
+            "error": null,
+            "row_count": 4,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T93",
+              "T94"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Team FROM T93 WHERE College IN (SELECT College FROM T94) AND Round != (SELECT Round FROM T94 WHERE T94.College = T93.College) UNION SELECT Team FROM T94 WHERE College IN (SELECT College FROM T93) AND Round != (SELECT Round FROM T93 WHERE T93.College = T94.College)",
+        "final_execution_status": true,
+        "final_row_count": 4,
+        "mini_summary": "The result set does not show which teams drafted players from the same college in different rounds."
+      },
+      {
+        "sub_question": "Which colleges had players drafted by multiple teams in 1948?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT College FROM T93 GROUP BY College HAVING COUNT(DISTINCT Team) > 1",
+            "execution_status": true,
+            "error": null,
+            "row_count": 1,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T93"
+            ]
+          }
+        ],
+        "final_sql": "SELECT College FROM T93 GROUP BY College HAVING COUNT(DISTINCT Team) > 1",
+        "final_execution_status": true,
+        "final_row_count": 1,
+        "mini_summary": "The result set does not show which colleges had players drafted by multiple teams in 1948, but it does show that Ohio State is a college with a player drafted in 1948."
+      },
+      {
+        "sub_question": "What positions were selected in each round of the 1947 draft?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Round, Position FROM T93",
+            "execution_status": true,
+            "error": null,
+            "row_count": 10,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T93"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Round, Position FROM T93",
+        "final_execution_status": true,
+        "final_row_count": 10,
+        "mini_summary": "The result set shows that in the first round of the draft, the selected positions were Forward, Guard/Forward, Guard/Forward, Unknown, and Center."
+      }
+    ],
+    "mini_summaries": [
+      "The result set does not show which teams drafted players from the same college in different rounds.",
+      "The result set does not show which colleges had players drafted by multiple teams in 1948, but it does show that Ohio State is a college with a player drafted in 1948.",
+      "The result set shows that in the first round of the draft, the selected positions were Forward, Guard/Forward, Guard/Forward, Unknown, and Center."
+    ],
+    "final_summary": "The analysis of player selection priorities and team drafting strategies is limited by the lack of information on teams drafting players from the same college in different rounds. Additionally, the data does not provide a comprehensive view of colleges with players drafted by multiple teams, except for Ohio State, which is known to have a player drafted. The available data does show the positions selected in the first round of the draft, which included Forward, Guard/Forward, Guard/Forward, Unknown, and Center.",
+    "tables": [
+      "T93",
+      "T94",
+      "T95",
+      "T96",
+      "T97",
+      "T98"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T93",
+        "T94",
+        "T95",
+        "T96",
+        "T97",
+        "T98"
+      ]
+    },
+    "generated_sql": "SELECT Team FROM T93 WHERE College IN (SELECT College FROM T94) AND Round != (SELECT Round FROM T94 WHERE T94.College = T93.College) UNION SELECT Team FROM T94 WHERE College IN (SELECT College FROM T93) AND Round != (SELECT Round FROM T93 WHERE T93.College = T94.College)",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 4,
+      "preview": [
+        {
+          "Team": "Boston Celtics"
+        },
+        {
+          "Team": "New York Knicks"
+        },
+        {
+          "Team": "Toronto Huskies"
+        },
+        {
+          "Team": "Washington Capitols"
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T93": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T94": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T95": {
+        "Player": "Player",
+        "Position": "Position",
+        "College": "College"
+      },
+      "T96": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T97": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T98": {
+        "Player": "Player",
+        "Position": "Position",
+        "College": "College"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "10_v3",
+    "DPR": "Compile a dataset of 1947-1948 BAA draft selections, including round, pick, player, position, team, and college data, to inform strategies for optimizing draft decisions by analyzing the historical impact of college affiliations and positional roles on player selection and team success.",
+    "sub_questions": [
+      "What colleges are associated with players in T93?",
+      "Which teams drafted players from T96?",
+      "What positions are most common in T94?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "What colleges are associated with players in T93?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT College FROM T93",
+            "execution_status": true,
+            "error": null,
+            "row_count": 10,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T93"
+            ]
+          }
+        ],
+        "final_sql": "SELECT College FROM T93",
+        "final_execution_status": true,
+        "final_row_count": 10,
+        "mini_summary": "The colleges associated with players in T93 are Texas Wesleyan, Wisconsin, Purdue, Connecticut, and Long Island."
+      },
+      {
+        "sub_question": "Which teams drafted players from T96?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Team FROM T96 WHERE Team LIKE '%Boston%' OR Team LIKE '%Providence%' OR Team LIKE '%Indianapolis%'",
+            "execution_status": true,
+            "error": null,
+            "row_count": 3,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T96"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Team FROM T96 WHERE Team LIKE '%Boston%' OR Team LIKE '%Providence%' OR Team LIKE '%Indianapolis%'",
+        "final_execution_status": true,
+        "final_row_count": 3,
+        "mini_summary": "The result set does not show which teams drafted players from T96, but it does show that the Providence Steamrollers, Indianapolis Jets, and Boston Celtics drafted players."
+      },
+      {
+        "sub_question": "What positions are most common in T94?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Position FROM T94 GROUP BY Position ORDER BY COUNT(Position) DESC LIMIT 1",
+            "execution_status": true,
+            "error": null,
+            "row_count": 1,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T94"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Position FROM T94 GROUP BY Position ORDER BY COUNT(Position) DESC LIMIT 1",
+        "final_execution_status": true,
+        "final_row_count": 1,
+        "mini_summary": "The result set does not show the most common positions in T94, but it does show that one position is F/C."
+      }
+    ],
+    "mini_summaries": [
+      "The colleges associated with players in T93 are Texas Wesleyan, Wisconsin, Purdue, Connecticut, and Long Island.",
+      "The result set does not show which teams drafted players from T96, but it does show that the Providence Steamrollers, Indianapolis Jets, and Boston Celtics drafted players.",
+      "The result set does not show the most common positions in T94, but it does show that one position is F/C."
+    ],
+    "final_summary": "A dataset of draft selections could be compiled to inform strategies for optimizing draft decisions, including information on college affiliations and positional roles. However, the colleges associated with players in the dataset are limited to Texas Wesleyan, Wisconsin, Purdue, Connecticut, and Long Island. Additionally, the teams that drafted players from T96 are unknown, but the Providence Steamrollers, Indianapolis Jets, and Boston Celtics are among the teams involved. Furthermore, the most common positions in the dataset are not fully represented, with only F/C being shown.",
+    "tables": [
+      "T93",
+      "T94",
+      "T95",
+      "T96",
+      "T97",
+      "T98"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T93",
+        "T94",
+        "T95",
+        "T96",
+        "T97",
+        "T98"
+      ]
+    },
+    "generated_sql": "SELECT College FROM T93",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 10,
+      "preview": [
+        {
+          "College": "Texas Wesleyan"
+        },
+        {
+          "College": "Wisconsin"
+        },
+        {
+          "College": "Purdue"
+        },
+        {
+          "College": "Connecticut"
+        },
+        {
+          "College": "Long Island"
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T93": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T94": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T95": {
+        "Player": "Player",
+        "Position": "Position",
+        "College": "College"
+      },
+      "T96": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T97": {
+        "Round": "Round",
+        "Pick": "Pick",
+        "Player": "Player",
+        "Position": "Position",
+        "Team": "Team",
+        "College": "College"
+      },
+      "T98": {
+        "Player": "Player",
+        "Position": "Position",
+        "College": "College"
+      }
+    },
+    "llm_model": "llama-3.3-70b-versatile",
+    "llm_model_summaries": "llama-3.1-8b-instant",
+    "upstream_model": null
+  }
+]

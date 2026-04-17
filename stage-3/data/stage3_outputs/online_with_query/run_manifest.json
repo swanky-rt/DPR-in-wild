@@ -1,0 +1,39 @@
+{
+  "group": "online_with_query",
+  "stage2_root": "C:\\Users\\Rishi\\Desktop\\dpr-discovery\\stage-3\\data\\stage2_outputs",
+  "folder_suffix": "--online",
+  "output_dir": "C:\\Users\\Rishi\\Desktop\\dpr-discovery\\stage-3\\data\\stage3_outputs\\online_with_query",
+  "tables_meta": "C:\\Users\\Rishi\\Desktop\\dpr-discovery\\stage-3\\data\\stage1_outputs\\tables_clean",
+  "processed": [
+    {
+      "query_folder": "Q1--online",
+      "input_file": "C:\\Users\\Rishi\\Desktop\\dpr-discovery\\stage-3\\data\\stage2_outputs\\Q1--online\\online_dprs-0e9e39f249a16976918f6564b8830bc894c89659.jsonl",
+      "output_file": "C:\\Users\\Rishi\\Desktop\\dpr-discovery\\stage-3\\data\\stage3_outputs\\online_with_query\\Q1--online_stage3_output.json",
+      "rows_written": 20
+    },
+    {
+      "query_folder": "Q2--online",
+      "input_file": "C:\\Users\\Rishi\\Desktop\\dpr-discovery\\stage-3\\data\\stage2_outputs\\Q2--online\\online_dprs-0e9e39f249a16976918f6564b8830bc894c89659.jsonl",
+      "output_file": "C:\\Users\\Rishi\\Desktop\\dpr-discovery\\stage-3\\data\\stage3_outputs\\online_with_query\\Q2--online_stage3_output.json",
+      "rows_written": 20
+    },
+    {
+      "query_folder": "Q3--online",
+      "input_file": "C:\\Users\\Rishi\\Desktop\\dpr-discovery\\stage-3\\data\\stage2_outputs\\Q3--online\\online_dprs-0e9e39f249a16976918f6564b8830bc894c89659.jsonl",
+      "output_file": "C:\\Users\\Rishi\\Desktop\\dpr-discovery\\stage-3\\data\\stage3_outputs\\online_with_query\\Q3--online_stage3_output.json",
+      "rows_written": 20
+    },
+    {
+      "query_folder": "Q4--online",
+      "input_file": "C:\\Users\\Rishi\\Desktop\\dpr-discovery\\stage-3\\data\\stage2_outputs\\Q4--online\\online_dprs-0e9e39f249a16976918f6564b8830bc894c89659.jsonl",
+      "output_file": "C:\\Users\\Rishi\\Desktop\\dpr-discovery\\stage-3\\data\\stage3_outputs\\online_with_query\\Q4--online_stage3_output.json",
+      "rows_written": 20
+    },
+    {
+      "query_folder": "Q5--online",
+      "input_file": "C:\\Users\\Rishi\\Desktop\\dpr-discovery\\stage-3\\data\\stage2_outputs\\Q5--online\\online_dprs-0e9e39f249a16976918f6564b8830bc894c89659.jsonl",
+      "output_file": "C:\\Users\\Rishi\\Desktop\\dpr-discovery\\stage-3\\data\\stage3_outputs\\online_with_query\\Q5--online_stage3_output.json",
+      "rows_written": 20
+    }
+  ]
+}
