@@ -3,7 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 from pathlib import Path
-from typing import List, Sequence, Tuple
+from typing import List, Tuple
 
 from pipelinenew_query import run_stage3_pipeline
 
@@ -102,6 +102,89 @@ def _run_group(
     print(f"[stage3-batch] {group_name}: manifest -> {manifest_path}", flush=True)
 
 
+def _iter_offline_flat_query_files(stage2_root: Path, name_suffix: str) -> List[Path]:
+    """
+    Discover flat Stage-2 files directly under stage2_root, e.g.:
+      Q1--offline.json, Q2--offline.json, ...
+    """
+    suf = name_suffix.lower()
+    files: List[Path] = []
+    if not stage2_root.is_dir():
+        return files
+    for p in sorted(stage2_root.iterdir(), key=lambda x: x.name.lower()):
+        if not p.is_file():
+            continue
+        if _looks_like_summary_file(p):
+            continue
+        n = p.name.lower()
+        if not (n.endswith(".json") or n.endswith(".jsonl")):
+            continue
+        if n.endswith(suf + ".json") or n.endswith(suf + ".jsonl"):
+            files.append(p)
+    return files
+
+
+def _run_offline_flat_query_group(
+    group_name: str,
+    stage2_root: Path,
+    name_suffix: str,
+    output_dir: Path,
+    tables_meta: Path,
+    require_non_empty: bool,
+) -> None:
+    input_files = _iter_offline_flat_query_files(stage2_root, name_suffix=name_suffix)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    if not input_files:
+        print(
+            f"[stage3-batch] {group_name}: no matching flat files (*{name_suffix}.json/jsonl) in {stage2_root}",
+            flush=True,
+        )
+        return
+
+    print(f"[stage3-batch] {group_name}: found {len(input_files)} flat input file(s)", flush=True)
+    processed: List[dict] = []
+    for idx, input_file in enumerate(input_files, start=1):
+        stem = input_file.stem
+        output_file = output_dir / f"{stem}_stage3_output.json"
+        print(
+            f"[stage3-batch] {group_name} [{idx}/{len(input_files)}] "
+            f"input={input_file.name} -> output={output_file.name}",
+            flush=True,
+        )
+        out = run_stage3_pipeline(
+            input_path=str(input_file),
+            output_path=str(output_file),
+            limit=None,
+            offset=0,
+            tables_meta_path=str(tables_meta),
+            require_non_empty=require_non_empty,
+        )
+        processed.append(
+            {
+                "input_file": str(input_file),
+                "output_file": str(output_file),
+                "rows_written": len(out),
+            }
+        )
+        print(
+            f"[stage3-batch] {group_name}: wrote {len(out)} DPR rows -> {output_file}",
+            flush=True,
+        )
+
+    manifest_path = output_dir / "run_manifest.json"
+    manifest = {
+        "group": group_name,
+        "stage2_root": str(stage2_root),
+        "offline_flat_name_suffix": name_suffix,
+        "output_dir": str(output_dir),
+        "tables_meta": str(tables_meta),
+        "processed": processed,
+    }
+    manifest_path.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+    print(f"[stage3-batch] {group_name}: manifest -> {manifest_path}", flush=True)
+
+
 def _run_query_folder_group(
     group_name: str,
     stage2_root: Path,
@@ -177,6 +260,16 @@ def main() -> None:
         help="Directory containing offline_with_query Stage-2 DPR files (query1/query2...).",
     )
     parser.add_argument(
+        "--offline-query-root",
+        default=str(repo_root / "data" / "stage2_outputs"),
+        help="Stage-2 root where flat files like Q1--offline.json live (direct children).",
+    )
+    parser.add_argument(
+        "--offline-query-file-suffix",
+        default="--offline",
+        help="Filename suffix before extension for offline query files (default: --offline).",
+    )
+    parser.add_argument(
         "--online-input-dir",
         default=str(repo_root / "data" / "stage2_outputs" / "dprs_online_with_query"),
         help="Directory containing online_with_query Stage-2 DPR files (query1/query2...).",
@@ -220,6 +313,7 @@ def main() -> None:
     args = parser.parse_args()
 
     offline_input_dir = Path(args.offline_input_dir).resolve()
+    offline_query_root = Path(args.offline_query_root).resolve()
     online_input_dir = Path(args.online_input_dir).resolve()
     online_query_root = Path(args.online_query_root).resolve()
     offline_output_dir = Path(args.offline_output_dir).resolve()
@@ -227,13 +321,34 @@ def main() -> None:
     tables_meta = Path(args.tables_meta).resolve()
 
     if args.mode in ("all", "offline"):
-        _run_group(
-            group_name="offline_with_query",
-            input_dir=offline_input_dir,
-            output_dir=offline_output_dir,
-            tables_meta=tables_meta,
-            require_non_empty=bool(args.require_non_empty),
+        # Priority 1: flat Q*--offline.json/jsonl directly under stage2_outputs (common layout)
+        # Priority 2: explicit offline input dir with files directly under it
+        flat_offline = _iter_offline_flat_query_files(
+            offline_query_root, name_suffix=args.offline_query_file_suffix
         )
+        if flat_offline:
+            _run_offline_flat_query_group(
+                group_name="offline_with_query",
+                stage2_root=offline_query_root,
+                name_suffix=args.offline_query_file_suffix,
+                output_dir=offline_output_dir,
+                tables_meta=tables_meta,
+                require_non_empty=bool(args.require_non_empty),
+            )
+        elif offline_input_dir.exists() and _iter_input_files(offline_input_dir):
+            _run_group(
+                group_name="offline_with_query",
+                input_dir=offline_input_dir,
+                output_dir=offline_output_dir,
+                tables_meta=tables_meta,
+                require_non_empty=bool(args.require_non_empty),
+            )
+        else:
+            print(
+                f"[stage3-batch] offline_with_query: no flat *{args.offline_query_file_suffix}.json/jsonl "
+                f"in {offline_query_root} and no files in {offline_input_dir}",
+                flush=True,
+            )
     if args.mode in ("all", "online"):
         # Priority 1: explicit online input dir with files directly under it
         # Priority 2: per-query folders under stage2 root (e.g. Q1--online/Q2--online)

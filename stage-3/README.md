@@ -1,158 +1,135 @@
-# Stage 3: SQL grounding and evidence synthesis
+# Stage 3: SQL Grounding and Evidence Synthesis
 
-Stage 3 takes **Stage 2 DPRs** (questions plus which tables belong to each cluster) and turns them into **grounded, executable evidence**. For every DPR it loads those tables into an in-memory SQLite database, asks an LLM to decompose the question into sub-questions, runs a **bounded SQL retry loop** (LangGraph), and writes structured JSON that downstream stages can evaluate.
+Stage 3 converts Stage 2 DPR files into grounded SQL evidence.  
+For each DPR, it loads the relevant tables into in-memory SQLite, decomposes the DPR into sub-questions, runs a bounded LangGraph SQL loop, and writes structured output with execution traces and summaries.
 
-This document is the single place to understand **inputs, configuration, how a run behaves, and what gets written to disk**.
+This README reflects the **current completed setup** with three Stage 2 variants:
+
+- baseline `offline`
+- `offline_with_query`
+- `online_with_query`
+
+The important point: **Stage 3 implementation is the same for all variants**.  
+What changes is only the Stage 2 input organization and output folder paths.
 
 ---
 
-## What Stage 3 does (one sentence)
+## What is shared across all variants
 
-It answers: *“Given this DPR and these cluster tables, what SQL can we run that actually returns rows, and what can we say about the answer using only those rows?”*
+All variants use the same Stage 3 engine (`run_stage3_pipeline` in `pipelinenew_query.py`) with the same behavior:
+
+1. Build cluster SQLite from `ground_truth.table_uids`
+2. Generate 2–3 sub-questions
+3. Run LangGraph SQL loop with bounded retries
+4. Produce mini summaries from result previews
+5. Produce final summary from mini summaries
+6. Write DPR output row + execution summary sidecar
+
+So you can compare variants fairly: only Stage 2 DPR generation strategy differs.
 
 ---
 
-## Repository layout (what matters here)
+## Repository structure (Stage 3 relevant)
 
-```
+```text
 stage-3/
-├── .env                          # LLM credentials (not committed; you create it)
-├── requirements.txt              # Python deps for this stage
-├── README.md                     # This file
+├── .env
+├── requirements.txt
+├── README.md
 ├── data/
-│   ├── stage1_outputs/tables_clean/   # Per-table JSON (T1.json …)
-│   ├── stage2_outputs/                # DPR lists (.json / .jsonl)
-│   └── stage3_outputs/                # Split: offline/ vs online/ runs
-│       ├── offline/                   # Main (pipelinenew.py) outputs + merge_files.py
-│       └── online/                    # pipelinenew_online.py outputs (same code path)
+│   ├── stage1_outputs/tables_clean/
+│   ├── stage2_outputs/
+│   │   ├── dprs-qwen3-32b-merged.jsonl               # baseline offline input
+│   │   ├── Q1--offline.jsonl ... Q5--offline.jsonl   # offline_with_query flat files
+│   │   └── dprs_online_with_query/
+│   │       ├── Q1--online.jsonl ... Q5--online.jsonl # online_with_query files
+│   └── stage3_outputs/
+│       ├── offline/
+│       ├── offline_with_query/
+│       ├── online/
+│       └── online_with_query/
 └── src/sql_grounding/
-    ├── pipelinenew.py            # Main entry (write outputs under stage3_outputs/offline/)
-    └── pipelinenew_online.py     # Same implementation (write outputs under stage3_outputs/online/)
+    ├── pipelinenew.py                 # baseline stage-3 entry
+    ├── pipelinenew_query.py           # query-variant stage-3 engine
+    └── run_stage3_query_sets.py       # batch orchestrator for query variants
 ```
 
-Run commands below assume your **current working directory is the repo root** (`dpr-discovery/`), so paths start with `stage-3/`.
+Commands below assume you run from repo root: `dpr-discovery/`.
 
 ---
 
 ## Dependencies
 
-From the repo root:
-
 ```bash
 pip install -r stage-3/requirements.txt
 ```
 
-You need: **`openai`**, **`python-dotenv`**, **`langgraph`**.  
-You do **not** need the `litellm` Python package for `pipelinenew.py`: the script uses the **OpenAI-compatible** HTTP API (your campus gateway or Groq both speak that shape).
+Required packages:
+
+- `openai`
+- `python-dotenv`
+- `langgraph`
 
 ---
 
-## Inputs
+## Required input schema for Stage 3
 
-### 1. Stage 2 DPR file
+Each DPR row must include:
 
-Formats:
+- `dpr_id` (can be null, but recommended to provide)
+- `DPR`
+- `ground_truth.table_uids`
 
-- **JSON array** (`.json`), or  
-- **JSONL** (`.jsonl`, one JSON object per line)
+Supported formats:
 
-Each row must include at least:
-
-| Field | Role |
-|--------|------|
-| `dpr_id` | Stable id (string or number; treated as string when merging) |
-| `DPR` | Full natural-language question |
-| `ground_truth.table_uids` | List of table ids in this cluster, e.g. `["T2","T7"]` |
-
-Optional fields (e.g. upstream `model`) are preserved for traceability when present.
-
-### 2. Stage 1 table metadata
-
-Pass **`--tables-meta`** pointing to either:
-
-- A directory of per-table JSON files (**recommended**), e.g. `stage-3/data/stage1_outputs/tables_clean`, or  
-- A single aggregated `tables.json` if your project uses that layout.
-
-The pipeline loads **only** the tables referenced by each DPR’s `table_uids`.
+- JSON list (`.json`)
+- JSONL (`.jsonl`)
 
 ---
 
-## LLM configuration (`.env`)
+## LLM configuration (`stage-3/.env`)
 
-Configuration lives in **`stage-3/.env`**. The pipeline loads it automatically (via `Path(__file__).parents[2] / ".env"`).
-
-### LLM API configuration (required)
-
-Stage 3 uses an **OpenAI-compatible** chat endpoint. Provide these in `stage-3/.env`:
+Stage 3 is fully env-driven for model connection. Set:
 
 ```env
 LLM_API_KEY=...
-LLM_API_BASE=https://thekeymaker.umass.edu/v1
-LLM_MODEL=gpt4o
+LLM_API_BASE=https://<your-openai-compatible-endpoint>/v1
+LLM_MODEL=<model-name>
 ```
 
-`LLM_API_BASE` must point to the server’s OpenAI-compatible base URL (commonly it ends with `/v1`, but follow your Unity/LiteLLM docs).
+Examples:
 
-### Single model for all LLM steps
+- Campus gateway (`thekeymaker`)
+- Groq via OpenAI-compatible base URL
+- Unity/local OpenAI-compatible LLM gateway
 
-The pipeline uses **one** chat model for decomposition, SQL, refinement, and summaries. There is no separate “light” model variable anymore; output JSON may still include `llm_model_summaries` for compatibility, set to the same model id as `llm_model`.
-
----
-
-## How a run behaves
-
-### Per DPR (high level)
-
-1. Build **in-memory SQLite** from the DPR’s `table_uids` and Stage 1 metadata.  
-2. **Decompose** the DPR into 2–3 sub-questions (shorter DPRs may use 2).  
-3. For each sub-question, run the **LangGraph SQL loop** with at most **`MAX_SQL_ATTEMPTS`** (default 3).  
-4. On success, write **mini-summaries** from preview rows only (evidence-bound).  
-5. Build a **final summary** from those mini-summaries.  
-6. Append one object to the output list.
-
-### Success at DPR level
-
-A DPR can succeed on some sub-questions and fail on others. **`execution_status`** is `true` only if enough sub-questions succeed: controlled by **`STAGE3_MIN_SUBQ_SUCCESSES`** (default **2** when there are at least two sub-questions).
-
-### Checkpoints and failures
-
-- After **each** DPR finishes, the pipeline **rewrites the main output JSON** and the **`_execution_summary.json`** sidecar. If the process stops midway, you keep all completed DPRs up to that point.  
-- **Hard quota** errors (e.g. tokens-per-day, `insufficient_quota`, `quota exceeded`) **fail fast**: already-completed DPRs are saved, then the process exits with a non-zero code. Resume with **`--offset` / `-n`** on the same input if needed.
-
-### Rate limits (non-fatal)
-
-Transient errors (429, overload, timeouts) are retried with capped backoff. See **`MAX_API_RETRIES`** and **`MAX_RATE_LIMIT_SLEEP_SEC`** in `pipelinenew.py`.
+No code changes are required when switching providers/models if the endpoint is OpenAI-compatible.
 
 ---
 
-## Outputs
+## Outputs written by Stage 3
 
-### Main file (`-o`)
+For each run output file `X.json`, Stage 3 also writes:
 
-A **JSON array**: one object per processed DPR, including:
+- `X_execution_summary.json`
 
-- `sub_questions`, `subquery_results` (with `attempts` traces)  
-- `generated_sql`, `execution_status`, `result`  
-- `mini_summaries`, `final_summary`  
-- `schema_mapping`, `llm_model`, `llm_model_summaries`, etc.
+Main output row includes:
 
-### Sidecar: execution summary
+- `dpr_id`, `DPR`, `tables`, `ground_truth`
+- `sub_questions`, `subquery_results` (with attempt traces)
+- `generated_sql`, `execution_status`, `result`
+- `mini_summaries`, `final_summary`
 
-Next to the main file:
+Checkpoint behavior:
 
-`{output_basename_without_extension}_execution_summary.json`
-
-Aggregated counts (e.g. how many DPRs executed successfully, how many had positive row counts).
+- Output is rewritten after each DPR.
+- On hard quota errors (`insufficient_quota`, etc.) it fails fast but preserves completed rows.
 
 ---
 
-## Running Stage 3
+## Variant 1: Baseline `offline`
 
-Always from **repo root**, unless you adjust paths.
-
-### Full file (all rows in the input)
-
-Omitting `--limit` processes **every** row in the JSONL (not only 30—count lines in your Stage 2 file to know how many).
+Use when input is a single merged Stage 2 DPR file.
 
 ```bash
 python stage-3/src/sql_grounding/pipelinenew.py \
@@ -161,9 +138,7 @@ python stage-3/src/sql_grounding/pipelinenew.py \
   --tables-meta stage-3/data/stage1_outputs/tables_clean
 ```
 
-### Batched runs (same input, different slices)
-
-Use **`--offset`** (0-based index into the Stage 2 list) and **`-n`** (count):
+Optional batched baseline run:
 
 ```bash
 python stage-3/src/sql_grounding/pipelinenew.py \
@@ -173,81 +148,106 @@ python stage-3/src/sql_grounding/pipelinenew.py \
   --tables-meta stage-3/data/stage1_outputs/tables_clean
 ```
 
-Repeat with `--offset 5 -n 5`, then `10`, `15`, … as needed.
+---
 
-### Same pipeline, `online/` output folder
+## Variant 2: `offline_with_query` (Q1..Q5 flat files)
 
-Use the same script or `pipelinenew_online.py`; only the **`-o`** path changes:
+Input layout:
+
+- `stage-3/data/stage2_outputs/Q1--offline.jsonl`
+- ...
+- `stage-3/data/stage2_outputs/Q5--offline.jsonl`
+
+Run all files in one command:
 
 ```bash
-python stage-3/src/sql_grounding/pipelinenew_online.py \
-  -i stage-3/data/stage2_outputs/online-dprs-qwen3-32b.jsonl \
-  -o stage-3/data/stage3_outputs/online/stage3_online_output.json \
-  --tables-meta stage-3/data/stage1_outputs/tables_clean
+python stage-3/src/sql_grounding/run_stage3_query_sets.py --mode offline
 ```
 
-### Stricter grounding (non-empty results)
+Outputs go to:
+
+- `stage-3/data/stage3_outputs/offline_with_query/`
+
+Expected output names:
+
+- `Q1--offline_stage3_output.json`
+- ...
+- `Q5--offline_stage3_output.json`
+- plus per-file execution summary JSONs and `run_manifest.json`
+
+---
+
+## Variant 3: `online_with_query` (Q1..Q5 online files)
+
+Input layout:
+
+- `stage-3/data/stage2_outputs/dprs_online_with_query/Q1--online.jsonl`
+- ...
+- `stage-3/data/stage2_outputs/dprs_online_with_query/Q5--online.jsonl`
+
+Run all files in one command:
 
 ```bash
-python stage-3/src/sql_grounding/pipelinenew.py \
-  -i stage-3/data/stage2_outputs/dprs-qwen3-32b-merged.jsonl \
-  -o stage-3/data/stage3_outputs/offline/stage3_strict.json \
-  --tables-meta stage-3/data/stage1_outputs/tables_clean \
-  --require-non-empty
+python stage-3/src/sql_grounding/run_stage3_query_sets.py --mode online
+```
+
+Outputs go to:
+
+- `stage-3/data/stage3_outputs/online_with_query/`
+
+Expected output names:
+
+- `Q1--online_stage3_output.json`
+- ...
+- `Q5--online_stage3_output.json`
+- plus per-file execution summary JSONs and `run_manifest.json`
+
+---
+
+## Post-processing helper for missing `dpr_id` in online_with_query outputs
+
+If Stage 2 online files were generated without `dpr_id`, Stage 3 outputs can contain null ids.  
+Use this helper to assign deterministic IDs:
+
+- `q1_1 ... q1_20` for Q1 file
+- `q2_1 ... q2_20` for Q2 file
+- etc.
+
+Command:
+
+```bash
+python stage-3/data/stage3_outputs/online_with_query/assign_query_dpr_ids.py
 ```
 
 ---
 
-## Merging batch JSON files into one bundle
+## Merge helper for baseline offline batch files
 
-If you produced **`stage3output_batch1.json`**, **`stage3output_batch2.json`**, … under **`offline/`**, use **`stage-3/data/stage3_outputs/offline/merge_files.py`**:
-
-- Finds all **`stage3output_batch*.json`** in the chosen directory (skips `*_execution_summary.json`).
-- Merges lists into one JSON array and **de-duplicates** by **`dpr_id`** (later batch number wins).
-
-**One-shot** (defaults: source = `offline/`, output = `offline/stage3_offline_output_groq.json`):
+If you ran baseline offline as multiple `stage3output_batch*.json` files:
 
 ```bash
 python stage-3/data/stage3_outputs/offline/merge_files.py
 ```
 
-**Custom paths:**
+Default merged output:
 
-```bash
-python stage-3/data/stage3_outputs/offline/merge_files.py \
-  --source-dir stage-3/data/stage3_outputs/offline \
-  --output stage-3/data/stage3_outputs/offline/stage3_offline_output_groq.json
-```
-
-**Auto-refresh** when new batch files appear:
-
-```bash
-python stage-3/data/stage3_outputs/offline/merge_files.py --watch --interval-sec 5
-```
-
-For **online** runs, keep batch files under **`online/`** and either copy `merge_files.py` there or pass `--source-dir` / `--output` pointing at `online/`.
+- `stage-3/data/stage3_outputs/offline/stage3_offline_output_groq.json`
 
 ---
 
-## Useful environment knobs (optional)
+## Quick run checklist
 
-| Variable | Role |
-|----------|------|
-| `STAGE3_MIN_SUBQ_SUCCESSES` | Minimum successful sub-questions for DPR success (default `2`) |
-| `STAGE3_DPR_DELAY_SEC` | Seconds to sleep between DPRs (default `20`) |
-| `STAGE3_SQL_ACTION_ROUTER` | `1` / `0` — extra lightweight call to route SQL actions |
-
-See comments at the top of `pipelinenew.py` for prompt caps and SQL safety limits.
-
-
+1. Install deps: `pip install -r stage-3/requirements.txt`
+2. Set `.env`: `LLM_API_KEY`, `LLM_API_BASE`, `LLM_MODEL`
+3. Confirm Stage 2 inputs include `DPR` + `ground_truth.table_uids`
+4. Pick variant command:
+   - baseline offline -> `pipelinenew.py`
+   - query variants -> `run_stage3_query_sets.py --mode offline|online`
+5. Verify output + `*_execution_summary.json`
 
 ---
 
-## Quick checklist before you run
+## Final note on comparability
 
-1. `pip install -r stage-3/requirements.txt`  
-2. `stage-3/.env` with **`LLM_API_KEY`**, **`LLM_API_BASE`**, and **`LLM_MODEL`** as above  
-3. Stage 2 file path and **`--tables-meta`** path correct  
-4. For batches: plan **`--offset`** / **`-n`** slices; merge with **`offline/merge_files.py`** when needed  
-
-That is the full Stage 3 path from data to merged outputs.
+For all three variants, Stage 3 algorithm is the same.  
+Differences in downstream performance come from Stage 2 DPR generation differences, not a different Stage 3 implementation.

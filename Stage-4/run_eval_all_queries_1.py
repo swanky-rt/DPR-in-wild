@@ -46,7 +46,7 @@ Usage (from Stage-4/):
     python run_eval_all_queries_1.py \
         --input_dir  ../stage-3/data/stage3_outputs/online_with_query \
         --dpr_filename_pattern "Q*--online_stage3_output.json" \
-        --output_dir output/online_eval \
+        --output_dir output/online_eval_final \
         --llm_api_key  $LLM_API_KEY \
         --llm_api_base $LLM_API_BASE \
         --llm_model    gpt4o

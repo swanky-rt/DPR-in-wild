@@ -1,0 +1,2383 @@
+{
+  "summary": {
+    "total_dprs": 20,
+    "total_ranked": 20,
+    "unique_count": 20,
+    "multi_table_count": 20,
+    "llm_model": "gpt4o",
+    "llm_api_base": "https://thekeymaker.umass.edu/v1",
+    "weights_used": {
+      "coverage": 0.2143,
+      "complexity": 0.1429,
+      "diversity": 0.1429,
+      "surprisal": 0.1429,
+      "uniqueness": 0.1429,
+      "llm_quality": 0.1071,
+      "summary_relevance": 0.1071
+    },
+    "formulas": {
+      "coverage": "|tables_used \u2229 ground_truth| / |ground_truth|",
+      "complexity": "mean(multi_table, join, agg, subquery, multi_entity)",
+      "diversity": "1 - avg_cosine_sim(DPR_i, all other DPRs)",
+      "surprisal": "-log P(tables_used) / log(|all_tables|)",
+      "uniqueness": "1 if no near-duplicate (cosine > 0.85), else 0",
+      "llm_scores": "GPT-4 scores: 0 / 0.5 / 0.75 / 1.0"
+    }
+  },
+  "ranked_dprs": [
+    {
+      "rank": 1,
+      "dpr_id": "Q4_C10_v3",
+      "combined_score": 0.7161,
+      "dpr_text": "Develop a data product that tracks historical 10,000m and 100m sprint records, athlete nationalities, and event locations to identify trends in competitive performance and geographic/national representation, supporting strategies for athletic training and resource allocation.",
+      "tables_used": [
+        "T22",
+        "T23",
+        "T24"
+      ],
+      "ground_truth": [
+        "T22",
+        "T23",
+        "T24"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data highlights variations in recorded times for athletes over a three-year period, though the limited scope of years prevents identifying broader performance trends. The United States stands out as the nationality with the highest frequency of record-breaking performances, while Brussels emerges as the most common event location, followed by several other cities with fewer occurrences. However, the evidence does not provide a comprehensive view of historical trends or geographic representation beyond these specific details.",
+      "metrics": {
+        "coverage": 1.0,
+        "complexity": 0.4,
+        "complexity_breakdown": {
+          "multi_table": 0.6667,
+          "join": 0.0,
+          "agg": 0.6667,
+          "subquery": 0.6667,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8325,
+        "surprisal": 0.3425,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but the scope could be better aligned with the schema, as trends in national representation are not fully supported by the provided tables.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning athlete nationalities and event locations but fails to comprehensively analyze historical trends or provide insights into competitive performance and resource allocation strategies.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by addressing athlete performances and nationalities but focuses narrowly on specific events and excludes broader aspects like medals, sports, and demographic trends over time.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary partially addresses the query by mentioning athlete performances and nationalities but misses key aspects like medals, sports, backgrounds, and comprehensive demographic or historical trend analysis."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the trends in the Time values for athletes across different Years in T22 and T23?",
+          "sql": "SELECT Year, Time, Athlete, Location FROM T22\nUNION ALL\nSELECT Year, Time, Athlete, Location FROM T23\nORDER BY Year;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows Time values for athletes in the years 2000, 2001, and 2002, with times ranging from \"26:49.38\" to \"30:55.80.\" The trends in Time values across these years indicate variations, but the result set does not provide enough data to establish broader trends beyond these specific years.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 40
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "Which Nationalities have the highest No_of_times_broken in T24?",
+          "sql": "SELECT Nationality, MAX(CAST(No_of_times_broken AS REAL)) AS Max_No_of_times_broken\nFROM T24\nGROUP BY Nationality;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The nationality with the highest \"No_of_times_broken\" in the result set is the United States, with a value of 4.0.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 3
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What are the most common Locations for events recorded in T22 and T23?",
+          "sql": "SELECT Location, COUNT(Location) AS Location_count\nFROM (\n  SELECT Location FROM T22\n  UNION ALL\n  SELECT Location FROM T23\n)\nGROUP BY Location\nORDER BY Location_count DESC;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The most common location for events recorded is Brussels, with 8 occurrences. Other locations include Sollentuna, Palo Alto, London, and Eugene, each with 3 occurrences.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 22
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 2,
+      "dpr_id": "Q4_C9_v4",
+      "combined_score": 0.7118,
+      "dpr_text": "Create a unified data product that aggregates historical performance metrics (world record times, athletes, dates, and locations) across multiple events, providing statistical insights on record progression rates, improvement trends, and comparative analysis of athlete achievements over time.",
+      "tables_used": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ],
+      "ground_truth": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data includes Time, Athlete, Date, and Place values for some entries but does not clarify which rows correspond to specific event categories like T54, T55, T56, or T57, leaving gaps in categorization. It highlights performance improvements in T34 from 1966 to 1970, with notable achievements by athletes such as Willie Davenport, Earl McCullouch, and Thomas Hill, though trends beyond this period are not provided. The overall range of years represented spans from 1966 to 1985, but the dataset lacks comprehensive insights into record progression or broader trends across all events.",
+      "metrics": {
+        "coverage": 1.0,
+        "complexity": 0.2,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.3333,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.869,
+        "surprisal": 0.4755,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR demonstrates clear analytical goals and multi-dimensional questions, but the scope is slightly ambiguous due to the lack of clarity on how to unify and differentiate between similar tables in the schema.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning some data points and trends but fails to provide comprehensive insights into record progression, improvement trends, or comparative analysis across all events.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR focuses on performance metrics and trends but misses key aspects like athletes' demographics, nationalities, and backgrounds.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary partially addresses the query by mentioning athlete performances and trends but lacks comprehensive information on sports, medals, nationalities, backgrounds, and broader demographic analysis over time."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the Time, Athlete, Date, and Place values in T54, T55, T56, and T57?",
+          "sql": "SELECT Time, Athlete, Date, Place FROM T54\nUNION ALL\nSELECT Time, Athlete, Date, Place FROM T55\nUNION ALL\nSELECT Time, Athlete, Date, Place FROM T56\nUNION ALL\nSELECT Time, Athlete, Date, Place FROM T57;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set provides Time, Athlete, Date, and Place values for some rows, but it does not specify which rows correspond to T54, T55, T56, or T57. Therefore, the result set does not show the requested information.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 60
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What are the Time and Athlete trends over different Years in T34?",
+          "sql": "SELECT Year, Time, Athlete \nFROM T34 \nORDER BY Year;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that from 1966 to 1970, the Time in T34 generally improved, with notable performances by Willie Davenport (USA) in multiple years and other athletes like Earl McCullouch (USA) and Thomas Hill (USA) achieving record times. The result set does not show trends beyond these years or additional details about T34.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 20
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What range of Year values appears in T34?",
+          "sql": "SELECT MIN(Year) AS Min_Year, MAX(Year) AS Max_Year FROM T34;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The range of Year values that appears is from 1966.0 to 1985.0.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 3,
+      "dpr_id": "Q4_C10_v8",
+      "combined_score": 0.709,
+      "dpr_text": "Develop a data product that identifies anomalies in athletic achievements across long-distance and sprint records by combining historical race times, athlete nationalities, and competition locations to highlight unexpected patterns in performance outliers and geographic disparities.",
+      "tables_used": [
+        "T22",
+        "T23",
+        "T24"
+      ],
+      "ground_truth": [
+        "T22",
+        "T23",
+        "T24"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data highlights long-distance race times achieved by athletes from Ethiopia, Kenya, and the United States, with performances recorded in locations such as Brussels, Ostrava, and Eugene. Notable times include multiple records by Kenenisa Bekele and contributions from Haile Gebrselassie and Micah Kogo, all within a year range spanning from 2000 to 2019. However, the dataset does not provide information on the frequency of record-breaking achievements, limiting insights into trends or anomalies in repeated performance improvements.",
+      "metrics": {
+        "coverage": 1.0,
+        "complexity": 0.3333,
+        "complexity_breakdown": {
+          "multi_table": 0.6667,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.6667,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8493,
+        "surprisal": 0.3425,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but it is somewhat vague in specifying how to operationalize 'unexpected patterns' and 'geographic disparities' using the given schema.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning race times, athlete nationalities, and locations, but it fails to analyze anomalies, unexpected patterns, or geographic disparities as requested.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by analyzing athlete performances and demographics but focuses narrowly on anomalies in race records, missing broader aspects like medals, sports, and trends over time.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary partially addresses the query by mentioning athlete performances and trends but focuses narrowly on long-distance races and lacks comprehensive details on sports, medals, nationalities, and demographics over time."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "Which Athlete and Nationality in T24 have the highest No_of_times_broken?",
+          "sql": "SELECT Athlete, Nationality \nFROM T24 \nORDER BY CAST(No_of_times_broken AS REAL) DESC \nLIMIT 1;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show information about \"No_of_times_broken.\" It only shows that Steve Williams, from the United States, is listed.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What are the Time values and corresponding Athlete and Location in T22 and T23?",
+          "sql": "SELECT Time, Athlete, Location FROM T22\nUNION\nSELECT Time, Athlete, Location FROM T23;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows the following Time values, corresponding Athlete, and Location: \"26:17.53\" (Kenenisa Bekele, ETH, Brussels), \"26:20.31\" (Kenenisa Bekele, ETH, Ostrava), \"26:25.97\" (Kenenisa Bekele, ETH, Eugene), \"26:29.22\" (Haile Gebrselassie, ETH, Brussels), and \"26:35.63\" (Micah Kogo, KEN, Brussels).",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 40
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What range of Year values appears in T22 and T23?",
+          "sql": "SELECT MIN(Year) AS Min_Year, MAX(Year) AS Max_Year\nFROM (\n  SELECT Year FROM T22\n  UNION ALL\n  SELECT Year FROM T23\n);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that the range of Year values is from 2000.0 to 2019.0.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 4,
+      "dpr_id": "Q4_C9_v10",
+      "combined_score": 0.7026,
+      "dpr_text": "Develop a data product that integrates historical performance records, athlete demographics, and event progression metrics to identify trends that optimize resource allocation for training programs and competitive event prioritization in Olympic sports.",
+      "tables_used": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ],
+      "ground_truth": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data highlights recorded athlete performances concentrated in Z\u00fcrich and Westwood, with Z\u00fcrich showing the highest frequency. Individual performance metrics are available for specific athletes, including examples of single and multiple recorded times, but broader trends in performance distribution over time are not fully detailed. The available date range spans from 1892 to mid-2015, though the progression of performances across this period is not comprehensively represented in the evidence.",
+      "metrics": {
+        "coverage": 1.0,
+        "complexity": 0.3333,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 1.0,
+          "subquery": 0.3333,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.859,
+        "surprisal": 0.4755,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR has analytical intent but is vague and poorly scoped, as the schema lacks key dimensions like demographics and event progression metrics needed to fulfill the request.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning athlete performance data and time ranges but fails to integrate demographics, event progression metrics, or trends for optimizing resource allocation.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by addressing historical performance and demographics but shifts focus to resource optimization rather than analyzing achievements and trends over time.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary partially addresses the query by mentioning athlete performances and a date range but lacks details on sports, medals, nationalities, backgrounds, and trends over time."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "Which Locations in T34 have the highest concentration of recorded performances by Year?",
+          "sql": "SELECT Location, COUNT(Year) AS PerformanceCount\nFROM T34\nGROUP BY Location\nORDER BY PerformanceCount DESC;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The locations with the highest concentration of recorded performances are Z\u00fcrich with 4 performances and Westwood with 2 performances. The result set does not show information about performances by year.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 16
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What is the distribution of Athlete performance over Time in T34?",
+          "sql": "SELECT Athlete, Time, COUNT(*) AS Performance_Count\nFROM T34\nGROUP BY Athlete, Time\nORDER BY Athlete, Time;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows individual athlete performances over time, with examples including Alejandro Casa\u00f1as (13.21 seconds, 1 performance), Earl McCullouch (13.43 seconds, 1 performance), and Greg Foster (multiple times: 13.11, 13.15, and 13.22 seconds, with performance counts of 1 and 2). The distribution of athlete performance over time in T34 beyond these specific rows is not shown.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 19
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What range of Date values appears in T54, T55, T56, and T57?",
+          "sql": "SELECT MIN(Date) AS Min_Date, MAX(Date) AS Max_Date\nFROM (\n    SELECT Date FROM T54\n    UNION ALL\n    SELECT Date FROM T55\n    UNION ALL\n    SELECT Date FROM T56\n    UNION ALL\n    SELECT Date FROM T57\n);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The range of Date values that appears is from \"1892\" to \"2015-07-17\".",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 5,
+      "dpr_id": "Q4_C10_v2",
+      "combined_score": 0.6985,
+      "dpr_text": "Develop a time-series data product that aggregates 10,000m and 100m race performance trends, nationality distributions, and record-breaking patterns to analyze athletic progression, demographic shifts, and global competition dynamics over historical Olympic and track-event cycles.",
+      "tables_used": [
+        "T22",
+        "T23",
+        "T24"
+      ],
+      "ground_truth": [
+        "T22",
+        "T23",
+        "T24"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data highlights record-breaking activity, with Steve Williams holding the highest number of record breaks at four, and provides a snapshot of nationality distribution for athletes in a specific category, showing representation from Cuba, Jamaica, and a majority from the United States. Performance times are available for three consecutive years, but the evidence does not extend to broader trends or patterns beyond this limited timeframe.",
+      "metrics": {
+        "coverage": 1.0,
+        "complexity": 0.2667,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 0.6667,
+          "subquery": 0.3333,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.842,
+        "surprisal": 0.3425,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but the scope is slightly mismatched as the schema lacks explicit demographic or competition dynamics data.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning record-breaking activity and nationality distribution but lacks comprehensive analysis of time-series trends, demographic shifts, and global competition dynamics over historical cycles.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR focuses narrowly on track events and excludes broader aspects like other sports, medals, and athlete backgrounds mentioned in the query.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary provides limited information on nationality distribution and performance times but lacks comprehensive details on sports, medals, backgrounds, and broader trends over time."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the trends in Time for athletes across different Years in T22 and T23?",
+          "sql": "SELECT Year, Time, Athlete, Location FROM T22\nUNION ALL\nSELECT Year, Time, Athlete, Location FROM T23\nORDER BY Year;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows times for athletes in the years 2000, 2001, and 2002. It does not provide information for trends across other years or confirm trends beyond these specific data points.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 40
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "Which athletes in T24 have the highest No_of_times_broken for records?",
+          "sql": "SELECT Athlete, MAX(CAST(No_of_times_broken AS REAL)) AS Max_No_of_times_broken\nFROM T24;",
+          "summary_source": "stage3_output",
+          "mini_summary": "Steve Williams has the highest No_of_times_broken for records, with a value of 4.0.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What is the distribution of Nationality for athletes in T24?",
+          "sql": "SELECT Nationality, COUNT(*) AS Count\nFROM T24\nGROUP BY Nationality;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The distribution of Nationality for athletes in T24 includes Cuba with 1 athlete, Jamaica with 1 athlete, and the United States with 7 athletes.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 3
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 6,
+      "dpr_id": "Q4_C10_v4",
+      "combined_score": 0.689,
+      "dpr_text": "Create a performance analytics dashboard for Olympic track and field athletes that tracks key metrics such as year-on-year race time improvements, frequency of record-breaking achievements, and nationality-wise distribution of top performers in 10,000m and 100m events to analyze trends in athletic performance and demographics.",
+      "tables_used": [
+        "T22",
+        "T23",
+        "T24"
+      ],
+      "ground_truth": [
+        "T22",
+        "T23",
+        "T24"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The performance data highlights year-on-year variations in race times for the years 2000 to 2002, though trends beyond these years for athletes in certain categories remain unclear. Record-breaking achievements are noted, with specific athletes achieving between one and four records each. Nationality distribution among athletes in one category shows a majority from the United States, with smaller representation from Cuba and Jamaica. However, broader demographic trends and additional metrics are not fully addressed in the available evidence.",
+      "metrics": {
+        "coverage": 1.0,
+        "complexity": 0.2,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.3333,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8426,
+        "surprisal": 0.3425,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but the scope is slightly mismatched as nationality-wise analysis is not fully supported by the schema.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning year-on-year race time variations, record-breaking achievements, and nationality distribution, but it lacks comprehensive coverage of the specified time range, both 10,000m and 100m events, and broader demographic trends.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR focuses narrowly on track and field athletes and specific events, missing broader aspects like other sports, medals, and comprehensive demographic analysis requested by the user.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary partially addresses the query by mentioning performance data, nationality distribution, and record-breaking achievements, but it misses key aspects like comprehensive trends, medals, sports, and detailed demographic analysis over time."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What is the year-on-year trend in race times for athletes in T22 or T23?",
+          "sql": "SELECT Year, Time, Athlete, Location\nFROM T22\nUNION ALL\nSELECT Year, Time, Athlete, Location\nFROM T23\nORDER BY Year;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows race times for the years 2000, 2001, and 2002, with times varying year-on-year. However, the trend in race times for athletes in T22 or T23 beyond these years is not shown.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 40
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "How many times has each athlete broken a record according to T24?",
+          "sql": "SELECT Athlete, No_of_times_broken FROM T24;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that Jim Hines broke records 2 times, Ronnie Ray Smith broke records 1 time, Charles Greene broke records 1 time, Steve Williams broke records 4 times, and Eddie Hart broke records 1 time.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 9
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What is the distribution of athlete nationalities in T24?",
+          "sql": "SELECT Nationality, COUNT(*) AS count\nFROM T24\nGROUP BY Nationality;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The distribution of athlete nationalities in T24 shows 1 athlete from Cuba, 1 athlete from Jamaica, and 7 athletes from the United States.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 3
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 7,
+      "dpr_id": "Q4_C10_v6",
+      "combined_score": 0.6874,
+      "dpr_text": "Provide a historical trend analysis of track-and-field athletes' performances segmented by nationality and event type (e.g., 10,000m and 100m records), showing how subgroups like top-performing countries or record-breaking cohorts have evolved in terms of frequency, race times, and competitive milestones.",
+      "tables_used": [
+        "T22",
+        "T23",
+        "T24"
+      ],
+      "ground_truth": [
+        "T22",
+        "T23",
+        "T24"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The analysis of track-and-field record-breaking trends reveals that the earliest and latest instances of records being broken occurred between mid-1972 and mid-1975. From 2000 to 2019, performances were recorded across various events, with athletes from Cuba, Jamaica, and the United States contributing to record-breaking achievements. Among these, the United States stands out with 12 records broken, while Cuba and Jamaica each achieved this milestone once. However, the evidence does not provide a detailed breakdown of event types or trends in race times and competitive milestones over time, leaving some aspects of the historical analysis incomplete.",
+      "metrics": {
+        "coverage": 1.0,
+        "complexity": 0.3333,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 1.0,
+          "subquery": 0.3333,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8854,
+        "surprisal": 0.3425,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR shows analytical intent but is poorly scoped, as the schema lacks sufficient detail (e.g., event type, nationality) to fully support the requested segmentation and analysis.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning record-breaking trends and contributions by nationality, but it lacks detailed segmentation by event type, analysis of race times, and evolution of competitive milestones over time.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR focuses narrowly on track-and-field athletes and excludes broader aspects like other sports, medals, and demographic backgrounds requested in the query.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary partially addresses the query by mentioning athletes' performances and nationalities but lacks comprehensive information on sports, medals, backgrounds, and demographic trends over time."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the earliest and latest Date_first_broken values in T24?",
+          "sql": "SELECT MIN(Date_first_broken) AS Earliest_Date, MAX(Date_first_broken) AS Latest_Date\nFROM T24;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The earliest Date_first_broken value is \"1 July 1972,\" and the latest Date_first_broken value is \"5 June 1975.\"",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What is the range of Year values in T22 and T23?",
+          "sql": "SELECT MIN(Year) AS Min_Year, MAX(Year) AS Max_Year\nFROM (\n  SELECT Year FROM T22\n  UNION ALL\n  SELECT Year FROM T23\n);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The range of Year values in T22 and T23 is from 2000.0 to 2019.0.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "Which nationalities appear in T24 and how many times have they broken records?",
+          "sql": "SELECT Nationality, SUM(CAST(No_of_times_broken AS INTEGER)) AS Total_times_broken\nFROM T24\nGROUP BY Nationality;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The nationalities that appear are Cuba, Jamaica, and the United States. Cuba and Jamaica have each broken records 1 time, while the United States has broken records 12 times.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 3
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 8,
+      "dpr_id": "Q4_C10_v10",
+      "combined_score": 0.6871,
+      "dpr_text": "A data product aggregating historical track event performances (e.g., 10,000m and 100m) with athlete demographics and competition metadata to inform resource allocation strategies for athletic development programs.",
+      "tables_used": [
+        "T22",
+        "T23",
+        "T24"
+      ],
+      "ground_truth": [
+        "T22",
+        "T23",
+        "T24"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data product aggregates historical track event performances, focusing on a limited set of athletes exclusively from the United States, including Jim Hines, Ronnie Ray Smith, Charles Greene, Steve Williams, and Eddie Hart. It highlights Brussels as the location associated with the fastest recorded times and includes event data spanning the years 2000 to 2004, with an even distribution across these years. However, the evidence does not provide information on additional athletes, nationalities, or years beyond those specified.",
+      "metrics": {
+        "coverage": 1.0,
+        "complexity": 0.3333,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 0.6667,
+          "subquery": 0.6667,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8831,
+        "surprisal": 0.3425,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR has analytical intent but is poorly scoped as the schema lacks athlete demographics and competition metadata to fully support the request.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by aggregating track event performances but fails to include comprehensive athlete demographics, competition metadata, and a broader scope of data beyond a limited set of athletes, locations, and years.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR focuses narrowly on track events and resource allocation, missing broader aspects like all sports, medals, nationalities, and trends over time.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary partially addresses the query by providing information on specific athletes and performances but misses key aspects such as broader demographics, trends, and data on other sports, nationalities, and time periods."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the unique Athlete names and their Nationality in T24?",
+          "sql": "SELECT DISTINCT Athlete, Nationality FROM T24;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The unique athlete names and their nationalities shown are: Jim Hines (United States), Ronnie Ray Smith (United States), Charles Greene (United States), Steve Williams (United States), and Eddie Hart (United States). The result set does not show any additional athletes or nationalities beyond these.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 9
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "Which Locations are associated with the fastest recorded Times in T22?",
+          "sql": "SELECT Location \nFROM T22 \nWHERE Time = (SELECT MIN(Time) FROM T22);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that Brussels is associated with the fastest recorded Times.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What is the distribution of Year values in T22 and T23?",
+          "sql": "SELECT Year, COUNT(*) AS count\nFROM (\n  SELECT Year FROM T22\n  UNION ALL\n  SELECT Year FROM T23\n)\nGROUP BY Year;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows the distribution of Year values as follows: 2000, 2001, 2002, 2003, and 2004, each with a count of 2. The result set does not show information for other Year values.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 20
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 9,
+      "dpr_id": "Q4_C10_v9",
+      "combined_score": 0.6855,
+      "dpr_text": "Develop a data product that aggregates track and field results with demographic metadata to evaluate athletes' performance benchmarks against historical records, compare nationality-based achievements, and analyze event-specific milestones like record-breaking trends over time.",
+      "tables_used": [
+        "T22",
+        "T23",
+        "T24"
+      ],
+      "ground_truth": [
+        "T22",
+        "T23",
+        "T24"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data highlights Steve Williams as the athlete with the highest frequency of record-breaking achievements, totaling four instances. Performance trends span from 2000 to 2019, though specific dates when records were first broken are not available, as only general start and end periods are provided.",
+      "metrics": {
+        "coverage": 1.0,
+        "complexity": 0.3333,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 1.0,
+          "subquery": 0.3333,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8718,
+        "surprisal": 0.3425,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR shows analytical intent but is vague and poorly scoped, as the schema lacks sufficient demographic metadata and detailed historical records to fully support the specified goals.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning record-breaking achievements but fails to cover demographic metadata, nationality-based comparisons, or broader event-specific milestone analyses.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR focuses solely on track and field results, missing the broader scope of all Olympic sports, medals, and comprehensive demographic analysis requested by the user.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary focuses on a specific athlete's record-breaking achievements and lacks information on Olympic athletes' performances, demographics, and trends over time as requested in the query."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "Which athletes in T24 have the highest No_of_times_broken?",
+          "sql": "SELECT Athlete, MAX(CAST(No_of_times_broken AS REAL)) AS Max_No_of_times_broken\nFROM T24;",
+          "summary_source": "stage3_output",
+          "mini_summary": "Steve Williams has the highest No_of_times_broken with a value of 4.0.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What are the earliest and latest Year values in T22 and T23?",
+          "sql": "SELECT MIN(Year) AS Earliest_Year, MAX(Year) AS Latest_Year\nFROM (\n  SELECT Year FROM T22\n  UNION ALL\n  SELECT Year FROM T23\n);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The earliest Year value is 2000, and the latest Year value is 2019.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What range of Date_first_broken values appears in T24?",
+          "sql": "SELECT MIN(Date_first_broken) AS Start_Date, MAX(Date_first_broken) AS End_Date\nFROM T24;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show any \"Date_first_broken\" values. It only provides \"Start_Date\" and \"End_Date\" information.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 10,
+      "dpr_id": "Q4_C9_v6",
+      "combined_score": 0.6826,
+      "dpr_text": "Develop a unified data product that aggregates historical athletic performance metrics across events, segmented by nationality, gender, and time periods, and include demographic and medal data to enable subgroup analysis of achievements and trends over time.",
+      "tables_used": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ],
+      "ground_truth": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data includes athlete names such as Abel Kiviat from the USA and Albin Lermusiaux from France, along with recorded performance times ranging from 3:55.8 to 4:18 + 2/5. The available years span from 1966 to 1985, and events are associated with locations including New York City, Minneapolis, Mexico City, Miami, and Bakersfield. However, the evidence does not provide information on demographic details, medal data, or segmentation by nationality, gender, or specific time periods, which limits the scope for subgroup analysis and trend identification.",
+      "metrics": {
+        "coverage": 1.0,
+        "complexity": 0.2,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.3333,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8518,
+        "surprisal": 0.4755,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR has analytical intent but is poorly scoped as the schema lacks demographic, nationality, gender, and medal data required for the specified analysis.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary provides some relevant data points but fails to address key analytical goals such as demographic details, medal data, and segmentation by nationality, gender, or time periods, which are essential for subgroup analysis and trend identification.",
+        "query_dpr_relevance": 1.0,
+        "query_dpr_reasoning": "The DPR fully addresses the user's intent by providing a unified data product that includes performance metrics, demographics, medals, and trends segmented by relevant factors over time.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary provides some performance data and event locations but lacks comprehensive information on medals, demographics, and trends over time, which are key aspects of the query."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "Which Athlete names and Time values are available in T34, T54, T55, T56, and T57?",
+          "sql": "SELECT Athlete, Time FROM T34\nUNION\nSELECT Athlete, Time FROM T54\nUNION\nSELECT Athlete, Time FROM T55\nUNION\nSELECT Athlete, Time FROM T56\nUNION\nSELECT Athlete, Time FROM T57;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The available Athlete names are \"Abel Kiviat ( USA )\" and \"Albin Lermusiaux ( FRA )\". The available Time values are \"3:55.8\", \"3:56 + 4 / 5\", \"3:59 + 1 / 5\", \"4:10 + 2 / 5\", and \"4:18 + 2 / 5\".",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 79
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What range of Year values appears in T34?",
+          "sql": "SELECT MIN(Year) AS Min_Year, MAX(Year) AS Max_Year\nFROM T34;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The range of Year values that appears is from 1966.0 to 1985.0.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What distinct Location values exist in T34?",
+          "sql": "SELECT DISTINCT Location FROM T34;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The distinct Location values present in the result set are \"New York City,\" \"Minneapolis,\" \"Mexico City,\" \"Miami,\" and \"Bakersfield.\"",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 16
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 11,
+      "dpr_id": "Q4_C1_v4",
+      "combined_score": 0.6219,
+      "dpr_text": "Create a dataset that aggregates athlete rankings, race times, and nationality distribution across International Cross Country Championships from 1898\u20131933, correlates these performance metrics with team points (where available), and tracks temporal trends in national dominance to infer demographic and competitive shifts over time.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The dataset includes rankings, team compositions, countries, and points for top-performing teams, with France, England, Spain, Belgium, and Scotland ranked first through fifth, respectively, based on their aggregated team points. Specific athlete names and times are provided in some instances, but there are gaps in the data where rankings, athlete details, nationalities, and times are not available for certain entries. The date range spans from \"10 Aug\" to \"7 Aug,\" though no year information is included, and the temporal scope of national dominance or demographic shifts cannot be fully assessed due to these limitations.",
+      "metrics": {
+        "coverage": 0.6111,
+        "complexity": 0.4,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.3333,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8471,
+        "surprisal": 0.2514,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but it is slightly mismatched to the schema as not all required data (e.g., team points and temporal trends) is fully supported.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by including rankings, team points, and some athlete details, but it fails to cover the full temporal range, lacks analysis of national dominance or demographic shifts, and omits critical correlations and trends requested in the DPR.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by analyzing performance metrics and trends over time, but it focuses on a specific championship and excludes broader Olympic data, medals, and athlete backgrounds.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary partially addresses the query by mentioning rankings, countries, and some athlete details, but it lacks comprehensive information on individual performances, medals, backgrounds, and trends over time."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the Rank, Country, Team, and Points values in T83?",
+          "sql": "SELECT Rank, Country, Team, Points FROM T83;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The Rank, Country, Team, and Points values in T83 are as follows: Rank 1, Country France, Team \"Henri Dartigues Robert Courtier Robert Marchal Georges Boue Ren\u00e9 Granier Georges Leclerc,\" Points 31. Rank 2, Country England, Team \"Bill Cotterell Jack Winfield Tommy Kay Ernie Harper Jack Holden Harry Payne,\" Points 74. Rank 3, Country Spain, Team \"Jes\u00fas Oyarbide Arturo Pe\u00f1a Jos\u00e9 Reliegos German Campo Claudio Egana Miguel Moreno,\" Points 117. Rank 4, Country Belgium, Team \"Maurice Mar\u00e9chal Leon Degrande Ren\u00e9 Geeraert L\u00e9on Broers Jean Linsen Oscar van Rumst,\" Points 180. Rank 5, Country Scotland, Team \"John Suttie Smith Frank Stevenson Jimmy Wood Charles Wilson Dunky Wright Tom Whitton,\" Points 189.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 10
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What are the Rank, Athlete, Nationality, and Time values in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT Rank, Athlete, Nationality, Time FROM T5\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time FROM T6\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time FROM T7\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time FROM T77\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time FROM T78\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time FROM T79\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time FROM T80\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time FROM T82\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time FROM T85;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show Rank, Athlete, Nationality, and Time values for T5, T6, T7, T77, T78, T79, T80, T82, and T85. It only provides details for specific athletes and times without table identifiers.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 176
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What range of Date values appears in T81?",
+          "sql": "SELECT MIN(Date) AS Start_Date, MAX(Date) AS End_Date FROM T81;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows a range of Date values from \"10 Aug\" to \"7 Aug.\" The result set does not show any year information.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 12,
+      "dpr_id": "Q4_C1_v10",
+      "combined_score": 0.617,
+      "dpr_text": "Develop a historical performance analytics tool for international cross-country championships that tracks athlete rankings, nationalities, and race times year-over-year to identify demographic trends and optimize resource allocation strategies for athletic development programs.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data highlights athlete rankings, nationalities, and race times, with specific examples including athletes from England ranked 4.0 and 5.0, recording times of 57:22.6 and 57:48.4, alongside other times such as 56:36, 56:36.4, and 57:14.8, though ranks for these are unspecified. The recorded time range spans from 0.0 to 59234.0. Nationalities most frequently represented include England, France, Scotland, Ireland, and Wales, with England appearing most often, but no additional nationalities or further demographic details are provided, limiting broader trend analysis.",
+      "metrics": {
+        "coverage": 0.5,
+        "complexity": 0.5333,
+        "complexity_breakdown": {
+          "multi_table": 1.0,
+          "join": 0.0,
+          "agg": 0.6667,
+          "subquery": 1.0,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8465,
+        "surprisal": 0.2514,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR has clear analytical goals and aligns with the schema, but it lacks precision in defining measurable outputs and specific demographic trends.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning athlete rankings, nationalities, and race times, but it lacks year-over-year analysis, demographic trends, and insights for optimizing resource allocation strategies.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by addressing athlete demographics and performance trends, but it focuses on cross-country championships rather than Olympic athletes and excludes medals, sports, and broader achievements.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary provides some information on athlete performances and nationalities but lacks comprehensive details on sports, medals, backgrounds, and broader demographic trends over time."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the rankings, nationalities, and times of athletes in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT Rank, Nationality, Time FROM T5\nUNION ALL\nSELECT Rank, Nationality, Time FROM T6\nUNION ALL\nSELECT Rank, Nationality, Time FROM T7\nUNION ALL\nSELECT Rank, Nationality, Time FROM T77\nUNION ALL\nSELECT Rank, Nationality, Time FROM T78\nUNION ALL\nSELECT Rank, Nationality, Time FROM T79\nUNION ALL\nSELECT Rank, Nationality, Time FROM T80\nUNION ALL\nSELECT Rank, Nationality, Time FROM T82\nUNION ALL\nSELECT Rank, Nationality, Time FROM T85;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows rankings, nationalities, and times for athletes from England, with ranks 4.0 and 5.0 and times of 57:22.6 and 57:48.4 respectively. Other times listed are 56:36, 56:36.4, and 57:14.8, but their ranks are not provided.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 176
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What is the range of Time values recorded in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT MIN(CAST(REPLACE(REPLACE(Time, ':', ''), '.', '') AS REAL)) AS Min_Time, \n       MAX(CAST(REPLACE(REPLACE(Time, ':', ''), '.', '') AS REAL)) AS Max_Time\nFROM (\n    SELECT Time FROM T5\n    UNION ALL\n    SELECT Time FROM T6\n    UNION ALL\n    SELECT Time FROM T7\n    UNION ALL\n    SELECT Time FROM T77\n    UNION ALL\n    SELECT Time FROM T78\n    UNION ALL\n    SELECT Time FROM T79\n    UNION ALL\n    SELECT Time FROM T80\n    UNION ALL\n    SELECT Time FROM T82\n    UNION ALL\n    SELECT Time FROM T85\n);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The range of Time values recorded is from 0.0 to 59234.0.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "Which nationalities appear most frequently across rankings in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT Nationality, COUNT(*) AS Frequency\nFROM (\n    SELECT Nationality FROM T5\n    UNION ALL\n    SELECT Nationality FROM T6\n    UNION ALL\n    SELECT Nationality FROM T7\n    UNION ALL\n    SELECT Nationality FROM T77\n    UNION ALL\n    SELECT Nationality FROM T78\n    UNION ALL\n    SELECT Nationality FROM T79\n    UNION ALL\n    SELECT Nationality FROM T80\n    UNION ALL\n    SELECT Nationality FROM T82\n    UNION ALL\n    SELECT Nationality FROM T85\n)\nGROUP BY Nationality\nORDER BY Frequency DESC;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The nationalities that appear most frequently across rankings are England (69), France (50), Scotland (27), Ireland (12), and Wales (8). The result set does not show any other nationalities or additional details.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 8
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 13,
+      "dpr_id": "Q4_C1_v3",
+      "combined_score": 0.58,
+      "dpr_text": "A data product aggregating longitudinal performance metrics of international cross-country athletes (rank, time, nationality, and event year) with trend analysis to support actionable insights for sports organizations identifying emerging talent and optimizing training strategies.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data product includes performance metrics such as rank, time, and nationality for a subset of athletes, with examples showing specific times and ranks for individuals from England. While rank and time are present as columns, the evidence does not clarify how these metrics are used for longitudinal analysis or trend identification. Additionally, the date range spans from \"10 Aug\" to \"7 Aug,\" but no year information is provided, and certain identifiers are excluded from the result set. These limitations suggest incomplete coverage for comprehensive trend analysis or actionable insights.",
+      "metrics": {
+        "coverage": 0.5556,
+        "complexity": 0.3333,
+        "complexity_breakdown": {
+          "multi_table": 0.6667,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.6667,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8912,
+        "surprisal": 0.2514,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR demonstrates analytical intent but is poorly scoped, as it does not clearly align with the schema, which lacks sufficient longitudinal or trend-specific data.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning performance metrics but fails to demonstrate longitudinal analysis, trend identification, or actionable insights, which are key analytical goals.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR focuses on cross-country athletes and training strategies, missing key aspects like Olympic athletes across all sports, medals, and demographic analysis over time.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary partially addresses the query by mentioning performance metrics and nationality but lacks details on medals, backgrounds, comprehensive trends, and demographic analysis over time."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the ranks, times, and nationalities of athletes in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT Rank, Athlete, Nationality, Time \nFROM T5 \nUNION ALL \nSELECT Rank, Athlete, Nationality, Time \nFROM T6 \nUNION ALL \nSELECT Rank, Athlete, Nationality, Time \nFROM T7 \nUNION ALL \nSELECT Rank, Athlete, Nationality, Time \nFROM T77 \nUNION ALL \nSELECT Rank, Athlete, Nationality, Time \nFROM T78 \nUNION ALL \nSELECT Rank, Athlete, Nationality, Time \nFROM T79 \nUNION ALL \nSELECT Rank, Athlete, Nationality, Time \nFROM T80 \nUNION ALL \nSELECT Rank, Athlete, Nationality, Time \nFROM T82 \nUNION ALL \nSELECT Rank, Athlete, Nationality, Time \nFROM T85;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows ranks, times, and nationalities for some athletes, including Sidney Robinson (Nationality: England, Time: 56:36, Rank: not listed), Harry Harrison (Nationality: England, Time: 56:36.4, Rank: not listed), Charles Bennett (Nationality: England, Time: 57:14.8, Rank: not listed), Tommy Bartlett (Nationality: England, Time: 57:22.6, Rank: 4.0), and Jack Marsh (Nationality: England, Time: 57:48.4, Rank: 5.0). The result set does not show information specific to T5, T6, T7, T77, T78, T79, T80, T82, or T85.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 176
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "Which tables include Rank and Time columns for longitudinal analysis?",
+          "sql": "SELECT DISTINCT Rank, Time FROM T5\nUNION\nSELECT DISTINCT Rank, Time FROM T6\nUNION\nSELECT DISTINCT Rank, Time FROM T7\nUNION\nSELECT DISTINCT Rank, Time FROM T77\nUNION\nSELECT DISTINCT Rank, Time FROM T78\nUNION\nSELECT DISTINCT Rank, Time FROM T79\nUNION\nSELECT DISTINCT Rank, Time FROM T80\nUNION\nSELECT DISTINCT Rank, Time FROM T82\nUNION\nSELECT DISTINCT Rank, Time FROM T85;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows columns for Rank and Time, but it does not indicate which tables include these columns for longitudinal analysis.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 167
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What is the range of Date values available in T81?",
+          "sql": "SELECT MIN(Date) AS Min_Date, MAX(Date) AS Max_Date FROM T81;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows a range of Date values from \"10 Aug\" to \"7 Aug.\" The result set does not show any year information.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 14,
+      "dpr_id": "Q4_C1_v6",
+      "combined_score": 0.5758,
+      "dpr_text": "Develop a historical performance analysis of international cross country athletes from 1898 to 1933, segmented by nationality, event year ranges (1898\u20131920, 1921\u20131933), and gender (where identifiable) to identify national dominance trends, performance progressions, and demographic representation shifts.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The available data highlights athletes with English nationality achieving ranks of 4.0 and 5.0, though information on other nationalities or ranks is not provided. Recorded performance times range from 0.0 to 59234.0, but no gender-related data is present, limiting the ability to analyze trends by gender or fully assess demographic representation.",
+      "metrics": {
+        "coverage": 0.5556,
+        "complexity": 0.3333,
+        "complexity_breakdown": {
+          "multi_table": 0.6667,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.6667,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8617,
+        "surprisal": 0.2514,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR has analytical intent but is poorly scoped as the schema lacks gender data and event year ranges, making it difficult to fully address the request.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning performance data and nationality but fails to segment by event year ranges, analyze national dominance trends, or include gender-related insights, which are key analytical goals.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by analyzing athlete performance and demographics over time, but it is limited to cross country athletes and excludes broader Olympic sports, medals, and comprehensive trends.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary partially addresses the query by mentioning performance data and nationality but lacks comprehensive information on sports, medals, backgrounds, and trends over time."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What were the ranks and nationalities of athletes in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT Rank, Nationality \nFROM T5 \nUNION ALL \nSELECT Rank, Nationality \nFROM T6 \nUNION ALL \nSELECT Rank, Nationality \nFROM T7 \nUNION ALL \nSELECT Rank, Nationality \nFROM T77 \nUNION ALL \nSELECT Rank, Nationality \nFROM T78 \nUNION ALL \nSELECT Rank, Nationality \nFROM T79 \nUNION ALL \nSELECT Rank, Nationality \nFROM T80 \nUNION ALL \nSELECT Rank, Nationality \nFROM T82 \nUNION ALL \nSELECT Rank, Nationality \nFROM T85;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows athletes with the nationality \"England,\" and ranks of 4.0 and 5.0. Other ranks and nationalities for the specified tables are not shown.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 176
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What range of Time values appears in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT MIN(CAST(REPLACE(REPLACE(Time, ':', ''), '.', '') AS REAL)) AS Min_Time, \n       MAX(CAST(REPLACE(REPLACE(Time, ':', ''), '.', '') AS REAL)) AS Max_Time\nFROM (\n    SELECT Time FROM T5\n    UNION ALL\n    SELECT Time FROM T6\n    UNION ALL\n    SELECT Time FROM T7\n    UNION ALL\n    SELECT Time FROM T77\n    UNION ALL\n    SELECT Time FROM T78\n    UNION ALL\n    SELECT Time FROM T79\n    UNION ALL\n    SELECT Time FROM T80\n    UNION ALL\n    SELECT Time FROM T82\n    UNION ALL\n    SELECT Time FROM T85\n);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The range of Time values appearing in the result set is from 0.0 to 59234.0.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "Which tables include gender-related columns or data?",
+          "sql": "SELECT * FROM T84 WHERE LOWER(Athlete) LIKE '%lilian%' OR LOWER(Athlete) LIKE '%gladys%';",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show any gender-related columns or data.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 2
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 15,
+      "dpr_id": "Q4_C9_v8",
+      "combined_score": 0.5602,
+      "dpr_text": "Identify and analyze anomalies in track and field performance records, such as unexpected improvements in 110m hurdles or 1500m times, records set in geographically or statistically unusual locations, and athletes whose achievements deviate from historical trends, to uncover surprising patterns in athletic progressions.",
+      "tables_used": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ],
+      "ground_truth": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "Anomalies in track and field performance records are evident in the T34 and T54 categories. In T34, the fastest recorded times are clustered among a small set of performances by Greg Foster and Alejandro Casa\u00f1as, with no additional data on other athletes or locations provided. In T54, Abel Kiviat and Albin Lermusiaux show notable variations in performance times across different dates, each with two distinct fluctuations. The available data spans years from 1966 to 1985, but limitations in the evidence restrict a broader analysis of patterns or trends beyond these observations.",
+      "metrics": {
+        "coverage": 0.4,
+        "complexity": 0.2,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 1.0,
+          "subquery": 0.0,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8955,
+        "surprisal": 0.4755,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR shows analytical intent but is vague and poorly scoped, as it does not clearly define how to identify anomalies or leverage the schema's limited columns effectively.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by identifying anomalies in performance records but fails to analyze unexpected improvements, unusual locations, or deviations from historical trends comprehensively.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by analyzing performance trends but misses broader aspects like medals, nationalities, backgrounds, and overall demographic analysis over time.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary focuses on specific anomalies in track and field performance records without addressing the user's broader query about Olympic athletes' performances, demographics, and trends over time."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the fastest recorded times by Athlete and Location in T34?",
+          "sql": "SELECT Athlete, Location, MIN(CAST(Time AS REAL)) AS Fastest_Time\nFROM T34\nGROUP BY Athlete, Location;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The fastest recorded times in the result set for T34 are 13.11 by Greg Foster (USA) in Westwood, 13.21 by Alejandro Casa\u00f1as (CUB) in Sofia, and 13.22 by Greg Foster (USA) in both Eugene and Koblenz. The result set does not show any additional information about other athletes or locations.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 19
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "Which Athletes show significant variations in Time across different Dates in T54?",
+          "sql": "SELECT Athlete, COUNT(DISTINCT Time) AS Time_Variations\nFROM T54\nGROUP BY Athlete\nHAVING COUNT(DISTINCT Time) > 1;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that Abel Kiviat (USA) and Albin Lermusiaux (FRA) exhibit significant variations in Time across different Dates in T54, with each having 2 Time Variations.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 2
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What range of Year values appears in T34?",
+          "sql": "SELECT MIN(Year) AS Min_Year, MAX(Year) AS Max_Year FROM T34;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The range of Year values that appears is from 1966.0 to 1985.0.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 16,
+      "dpr_id": "Q4_C9_v1",
+      "combined_score": 0.5581,
+      "dpr_text": "Construct a unified data product combining historical 110m hurdles and 1500m world record data to compare performance progression trends, athlete participation overlaps, and location-based correlations in record-breaking events over time.",
+      "tables_used": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ],
+      "ground_truth": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data highlights record-breaking events occurring in locations such as New York City, Minneapolis, Mexico City, Miami, and Bakersfield, with unique athletes including Abel Kiviat, Albin Lermusiaux, Alejandro Casa\u00f1as, Charles Bennett, and Earl McCullouch, though their specific classifications (T34, T54, or both) are not clarified. Additionally, the time span for T34 records is identified as ranging from 1966 to 1985. However, the evidence does not provide details on performance progression trends, overlaps in athlete participation, or correlations between locations and record-breaking events over time.",
+      "metrics": {
+        "coverage": 0.4,
+        "complexity": 0.2,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.3333,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8804,
+        "surprisal": 0.4755,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR has analytical intent but is vague in specifying how to unify data across tables with differing schemas and lacks clarity on measurable goals.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary mentions locations and athletes but fails to analyze performance progression trends, athlete participation overlaps, or correlations over time, which are key goals of the DPR.",
+        "query_dpr_relevance": 0.0,
+        "query_dpr_reasoning": "The DPR focuses on specific track events and record trends, which does not address the user's broader interest in Olympic athletes' performances, demographics, and achievements across multiple sports and time periods.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary is completely unrelated to the query, as it does not address Olympic athletes' performances, demographics, or trends over time."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "Which locations in T34 are associated with record-breaking events?",
+          "sql": "SELECT DISTINCT Location \nFROM T34;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The locations associated with record-breaking events are New York City, Minneapolis, Mexico City, Miami, and Bakersfield.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 16
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What are the unique athletes listed in T34 and T54?",
+          "sql": "SELECT DISTINCT Athlete FROM T34\nUNION\nSELECT DISTINCT Athlete FROM T54;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set lists the following unique athletes: Abel Kiviat (USA), Albin Lermusiaux (FRA), Alejandro Casa\u00f1as (CUB), Charles Bennett (GBR), and Earl McCullouch (USA). The result set does not show whether these athletes are from T34, T54, or both.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 21
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What range of Year values appears in T34?",
+          "sql": "SELECT MIN(Year) AS Min_Year, MAX(Year) AS Max_Year FROM T34;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The range of Year values in T34 is from 1966.0 to 1985.0.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 17,
+      "dpr_id": "Q4_C1_v2",
+      "combined_score": 0.5311,
+      "dpr_text": "Build a historical performance tracking system that aggregates cross country championship results by year, nationality, and athlete rankings from 1898\u20131933 to identify trends in competitive performance, demographic participation, and international dominance, enabling comparative analysis of Olympic-level athletic progression and national representation patterns.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data includes performance details for athletes of English nationality, specifically \"Alf Pepper,\" \"Arthur Meacham,\" \"Bobby Mills,\" \"Charles Bennett,\" and \"Charles Clibbon,\" with recorded times ranging from \"1:01:33\" to \"1:03:18.\" Rankings are partially represented with a minimum value of 4.0, but the full range of rankings is not provided, leaving gaps in understanding the broader distribution of performance metrics.",
+      "metrics": {
+        "coverage": 0.1667,
+        "complexity": 0.4667,
+        "complexity_breakdown": {
+          "multi_table": 1.0,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 1.0,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8115,
+        "surprisal": 0.2514,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but the scope is slightly mismatched as it includes demographic participation and trends that may not be fully supported by the schema.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary provides specific athlete data but fails to address broader trends, demographic participation, or international dominance as required by the DPR.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by focusing on athlete performance and demographics but misses key aspects like Olympic-specific data, medals, and broader timeframes.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary focuses on specific English athletes and limited performance details, failing to address the broader query about Olympic athletes' performances, trends, demographics, and achievements over time."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What range of Rank values appears in T5, T6, or T7?",
+          "sql": "SELECT MIN(Rank) AS Min_Rank, MAX(Rank) AS Max_Rank\nFROM (\n    SELECT Rank FROM T5\n    UNION ALL\n    SELECT Rank FROM T6\n    UNION ALL\n    SELECT Rank FROM T7\n);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows a minimum rank value of 4.0 but does not provide a maximum rank value. The range of rank values in T5, T6, or T7 cannot be fully determined from this data.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What Nationalities and Athletes are listed in T5, T6, or T7?",
+          "sql": "SELECT Nationality, Athlete FROM T5\nUNION\nSELECT Nationality, Athlete FROM T6\nUNION\nSELECT Nationality, Athlete FROM T7;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The nationalities listed are \"England,\" and the athletes listed are \"Alf Pepper,\" \"Arthur Meacham,\" \"Bobby Mills,\" \"Charles Bennett,\" and \"Charles Clibbon.\"",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 53
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What Time values are recorded in T5, T6, or T7?",
+          "sql": "SELECT Time FROM T5\nUNION\nSELECT Time FROM T6\nUNION\nSELECT Time FROM T7;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The Time values recorded are \"1:01:33,\" \"1:01:42,\" \"1:02:51,\" \"1:03:10,\" and \"1:03:18.\"",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 55
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 18,
+      "dpr_id": "Q4_C1_v7",
+      "combined_score": 0.5049,
+      "dpr_text": "Develop a historical performance forecasting model using athlete data from pre-Olympic cross-country championships (1898\u20131933) to predict future Olympic medal likelihoods and demographic trends based on nationality, race time improvements, and competitive ranking patterns.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The available data includes rank values ranging from 0.0 to 20.0 and recorded times spanning from 59:08 to 1:01:33. Nationality distributions are provided, with England, France, Ireland, Scotland, and Wales represented in varying counts, though it is unclear how these distributions connect to specific datasets. The evidence does not address patterns in race time improvements, competitive rankings, or their relationship to predicting Olympic medal likelihoods, leaving gaps in the analysis.",
+      "metrics": {
+        "coverage": 0.1667,
+        "complexity": 0.4,
+        "complexity_breakdown": {
+          "multi_table": 0.6667,
+          "join": 0.0,
+          "agg": 0.6667,
+          "subquery": 0.6667,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8822,
+        "surprisal": 0.2514,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR demonstrates analytical intent but is poorly scoped, as it references data from 1898\u20131933 without clear alignment to the schema, which lacks historical or demographic data beyond basic athlete performance metrics.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning data attributes like rank values, recorded times, and nationality distributions, but it fails to analyze or connect these to the key goals of forecasting Olympic medal likelihoods or demographic trends based on the specified patterns.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by focusing on athlete data and trends but diverges from the query's broader scope of analyzing Olympic performances, demographics, and achievements over time.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary is completely unrelated to the query, as it does not provide information on Olympic athletes' performances, sports, medals, nationalities, or backgrounds, nor does it analyze achievements or demographics over time."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What range of Rank and Time values appears in T5, T6, and T7?",
+          "sql": "SELECT \n    MIN(CAST(Rank AS REAL)) AS Min_Rank, \n    MAX(CAST(Rank AS REAL)) AS Max_Rank, \n    MIN(Time) AS Min_Time, \n    MAX(Time) AS Max_Time \nFROM (\n    SELECT Rank, Time FROM T5\n    UNION ALL\n    SELECT Rank, Time FROM T6\n    UNION ALL\n    SELECT Rank, Time FROM T7\n);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The range of Rank values is from 0.0 to 20.0, and the range of Time values is from 59:08 to 1:01:33.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What are the Nationality distributions for athletes in T5, T6, and T7?",
+          "sql": "SELECT Nationality, COUNT(*) AS Count\nFROM (\n    SELECT Nationality FROM T5\n    UNION ALL\n    SELECT Nationality FROM T6\n    UNION ALL\n    SELECT Nationality FROM T7\n)\nGROUP BY Nationality;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows the following nationality distributions: England (25), France (16), Ireland (6), Scotland (8), and Wales (1). The result set does not specify which table (T5, T6, or T7) these distributions belong to.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 5
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "How have Time values changed across different Ranks in T5, T6, and T7?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 0.0,
+            "n_attempts": 1,
+            "rows_returned": 0
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 19,
+      "dpr_id": "Q4_C1_v5",
+      "combined_score": 0.4958,
+      "dpr_text": "A historical narrative data product compiling athlete nationalities, performance metrics, and event participation from early international athletics and motorsport events (1898-1948) to analyze evolving competition dynamics and cultural shifts in sports participation before the modern Olympic era.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data highlights athlete performance metrics, including rank and time ranges, across three tiers of competition (T5, T6, and T7), with ranks spanning from 0.0 to 20.0 and times varying between \"51:52.4\" and \"1:01:33\" depending on the tier. Athlete nationalities represented in the dataset include England, France, Ireland, Scotland, and Wales. While the evidence provides insights into rankings, timings, and national representation, it does not address event participation or broader historical or cultural dynamics.",
+      "metrics": {
+        "coverage": 0.1667,
+        "complexity": 0.3333,
+        "complexity_breakdown": {
+          "multi_table": 0.6667,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.6667,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8855,
+        "surprisal": 0.2514,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR has analytical intent but is poorly scoped, as it requests data spanning multiple decades without clear alignment to the schema's tables or columns.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning athlete nationalities and performance metrics but fails to cover event participation, historical narratives, or cultural dynamics as requested.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by providing historical athlete data and performance metrics, but it focuses on pre-Olympic events and lacks coverage of modern Olympic athletes, medals, and demographic trends over time.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary partially addresses the query by mentioning athlete performance metrics and nationalities but misses key aspects like sports, medals, backgrounds, and trends over time."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the ranges of Rank and Time values in T5, T6, and T7?",
+          "sql": "SELECT \n    'T5' AS Table_Name, \n    MIN(CAST(Rank AS REAL)) AS Min_Rank, \n    MAX(CAST(Rank AS REAL)) AS Max_Rank, \n    MIN(Time) AS Min_Time, \n    MAX(Time) AS Max_Time \nFROM T5\nUNION ALL\nSELECT \n    'T6' AS Table_Name, \n    MIN(CAST(Rank AS REAL)) AS Min_Rank, \n    MAX(CAST(Rank AS REAL)) AS Max_Rank, \n    MIN(Time) AS Min_Time, \n    MAX(Time) AS Max_Time \nFROM T6\nUNION ALL\nSELECT \n    'T7' AS Table_Name, \n    MIN(CAST(Rank AS REAL)) AS Min_Rank, \n    MAX(CAST(Rank AS REAL)) AS Max_Rank, \n    MIN(Time) AS Min_Time, \n    MAX(Time) AS Max_Time \nFROM T7;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The ranges of Rank and Time values are as follows:  \nIn T5, Rank ranges from 0.0 to 16.0, and Time ranges from \"59:08\" to \"1:01:33\".  \nIn T6, Rank ranges from 0.0 to 20.0, and Time ranges from \"51:52.4\" to \"56:21\".  \nIn T7, Rank ranges from 0.0 to 20.0, and Time ranges from \"55:06\" to \"57:49\".",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 3
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What nationalities are associated with athletes in T5, T6, and T7?",
+          "sql": "SELECT DISTINCT Nationality \nFROM T5 \nUNION \nSELECT DISTINCT Nationality \nFROM T6 \nUNION \nSELECT DISTINCT Nationality \nFROM T7;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The nationalities associated with athletes are England, France, Ireland, Scotland, and Wales.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 5
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "Which drivers and car constructors appear in T86 and T89?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 20,
+      "dpr_id": "Q4_C9_v7",
+      "combined_score": 0.4925,
+      "dpr_text": "Develop a predictive analytics data product that integrates historical performance trends (e.g., world record progression in track events like the 110m hurdles and 1500m), athlete demographics inferred from event locations, and temporal patterns to forecast future achievements, emerging dominant athlete nationalities, and potential record-breaking milestones in Olympic competitions.",
+      "tables_used": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ],
+      "ground_truth": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data highlights performance trends for T34 athletes, including Willie Davenport, Earl McCullouch, Thomas Hill, and Leon Coleman, with recorded times spanning from 1966 to 1985 across locations such as New York City, Minneapolis, Mexico City, Miami, and Bakersfield. While the evidence provides specific time records and geographic diversity, it does not include broader athlete demographics, temporal patterns beyond the listed years, or predictive insights into future achievements or emerging dominant nationalities.",
+      "metrics": {
+        "coverage": 0.2,
+        "complexity": 0.0667,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.0,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8549,
+        "surprisal": 0.4755,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR has analytical intent but is poorly scoped, as the schema lacks sufficient detail to support demographic inference or predictive analytics.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by providing historical performance trends and geographic diversity but fails to integrate athlete demographics, temporal patterns, or predictive analytics as requested.",
+        "query_dpr_relevance": 0.75,
+        "query_dpr_reasoning": "The DPR addresses performance trends, demographics, and achievements but focuses on predictive analytics rather than analyzing historical data comprehensively as requested.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary partially addresses the query by mentioning performance trends and specific athletes but lacks comprehensive information on demographics, broader trends, and a wide range of sports and nationalities over time."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the Time trends for each Athlete in T34?",
+          "sql": "SELECT Year, Time, Athlete \nFROM T34 \nORDER BY Year;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows time trends for the following athletes in T34: Willie Davenport (USA) with times of 13.47 in 1966, 13.33 in 1968, and 13.45 in 1969; Earl McCullouch (USA) with a time of 13.43 in 1967; Thomas Hill (USA) with a time of 13.42 in 1970; and Leon Coleman (USA) alongside Willie Davenport in 1969 with a time of 13.45.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 20
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What is the range of Year values in T34?",
+          "sql": "SELECT MIN(Year) AS Min_Year, MAX(Year) AS Max_Year FROM T34;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The range of Year values is from 1966.0 to 1985.0.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What are the unique Location values in T34?",
+          "sql": "SELECT DISTINCT Location FROM T34;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The unique Location values in the result set are New York City, Minneapolis, Mexico City, Miami, and Bakersfield.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 16
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    }
+  ]
+}

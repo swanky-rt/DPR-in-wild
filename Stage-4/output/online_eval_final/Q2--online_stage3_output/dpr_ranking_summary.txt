@@ -1,0 +1,1574 @@
+Rank #1  |  DPR: q2_6  |  Combined Score: 0.6192
+============================================================
+  Original DPR:
+    We request a data product that contrasts the performance metrics of
+    British athletes against their international counterparts in the
+    International Cross Country Championships from 1898 to 1929,
+    highlighting any notable differences or correlations in nationality,
+    time, and overall ranking that may influence competitive strategies.
+
+  Coverage               0.5000
+  Complexity             0.6000
+  Diversity              0.8000
+  Surprisal              0.2467
+  Uniqueness             1.0000
+  LLM Quality            0.7500
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.5000
+
+  LLM Reasoning:          The DPR has clear analytical goals and multi-dimensional questions, but
+                          the scope could be better refined to ensure alignment with the schema
+                          and avoid redundancy across similar tables.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by providing some performance
+                          metrics for British athletes but lacks comprehensive international
+                          comparisons, detailed correlations, and broader analysis required by the
+                          request.
+  Query-DPR Reasoning:    The DPR partially aligns by focusing on performance metrics and
+                          nationality but misses key aspects like Olympic participation history
+                          and broader career achievements.
+  Query-Summary Reasoning: The summary partially addresses the query by providing rankings, times,
+                          and nationalities for a subset of athletes, but it lacks comprehensive
+                          data on Olympic participation history and broader career achievements.
+
+  User Query: How can I get a list of cross-country athletes with their championship rankings, nationalities, and finishing times, along with their Olympic participation history, including the number of times they competed and their best positions, to analyze their career achievements and Olympic success?
+
+  Summary:
+    The data highlights performance metrics for British athletes,
+    specifically from England, in a cross-country context, showing a range
+    of times between 56:36 and 57:48.4. Rankings are partially provided,
+    with two athletes identified at Rank 4 and Rank 5. Correlations between
+    nationality, time, and rank are evident within this subset, but the
+    absence of data for certain entries limits a comprehensive comparison or
+    broader analysis.
+
+  Sub-Queries (2 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Rank, Athlete, Nationality, Time
+        FROM (
+            SELECT Rank, Athlete, Nationality, Time FROM T5
+            UNION ALL
+            SELECT Rank, Athlete, Nationality, Time FROM T6
+            UNION ALL
+            SELECT Rank, Athlete, Nationality, Time FROM T7
+            UNION ALL
+            SELECT Rank, Athlete, Nationality, Time FROM T77
+            UNION ALL
+            SELECT Rank, Athlete, Nationality, Time FROM T78
+            UNION ALL
+            SELECT Rank, Athlete, Nationality, Time FROM T79
+            UNION ALL
+            SELECT Rank, Athlete, Nationality, Time FROM T80
+            UNION ALL
+            SELECT Rank, Athlete, Nationality, Time FROM T82
+            UNION ALL
+            SELECT Rank, Athlete, Nationality, Time FROM T85
+        )
+        WHERE LOWER(Nationality) LIKE LOWER('%england%') OR LOWER(Nationality) LIKE LOWER('%scotland%') OR LOWER(Nationality) LIKE LOWER('%britain%');
+
+  [2] SQL:
+        SELECT Rank, Nationality, Time 
+        FROM T5
+        UNION ALL
+        SELECT Rank, Nationality, Time 
+        FROM T6
+        UNION ALL
+        SELECT Rank, Nationality, Time 
+        FROM T7
+        UNION ALL
+        SELECT Rank, Nationality, Time 
+        FROM T77
+        UNION ALL
+        SELECT Rank, Nationality, Time 
+        FROM T78
+        UNION ALL
+        SELECT Rank, Nationality, Time 
+        FROM T79
+        UNION ALL
+        SELECT Rank, Nationality, Time 
+        FROM T80
+        UNION ALL
+        SELECT Rank, Nationality, Time 
+        FROM T82
+        UNION ALL
+        SELECT Rank, Nationality, Time 
+        FROM T85;
+
+------------------------------------------------------------
+============================================================
+
+Rank #2  |  DPR: q2_7  |  Combined Score: 0.6186
+============================================================
+  Original DPR:
+    We request a data product that compares the top 5 athlete performance
+    metrics, including average times and overall rankings, across multiple
+    International Cross Country Championships from 1898 to 1929,
+    highlighting any significant changes or correlations between
+    nationality, time, and overall ranking that may influence competitive
+    strategies.
+
+  Coverage               0.5556
+  Complexity             0.5333
+  Diversity              0.7792
+  Surprisal              0.2467
+  Uniqueness             1.0000
+  LLM Quality            0.7500
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.5000
+
+  LLM Reasoning:          The DPR is analytical with clear goals and multi-dimensional questions,
+                          but the scope could be better refined to ensure alignment with the
+                          schema and available data.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by identifying data gaps
+                          related to athlete rankings, nationality, and time, but it fails to
+                          provide any analysis or insights on correlations or significant changes
+                          as requested.
+  Query-DPR Reasoning:    The DPR partially aligns by analyzing athlete performance metrics and
+                          correlations but misses key aspects like Olympic participation history
+                          and individual career achievements.
+  Query-Summary Reasoning: The summary partially addresses the query by mentioning athlete data
+                          like names, nationalities, and times, but it lacks information on
+                          championship rankings, Olympic participation history, and career
+                          achievements, which are key aspects of the user's request.
+
+  User Query: How can I get a list of cross-country athletes with their championship rankings, nationalities, and finishing times, along with their Olympic participation history, including the number of times they competed and their best positions, to analyze their career achievements and Olympic success?
+
+  Summary:
+    The available data includes athlete names, nationalities, and times for
+    select individuals but lacks rank values for the top five athletes
+    across multiple events, specifically T5, T6, T7, T77, T78, T79, T80,
+    T82, and T85. While nationality, time, and rank are present in some
+    records, the information is insufficient to identify correlations
+    between these variables. Additionally, the dataset does not provide year
+    values or a date range spanning 1898 to 1929, with only "10 Aug" and "7
+    Aug" appearing as the minimum and maximum dates. These limitations
+    restrict the ability to fully address the requested analysis.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Rank, Athlete, Nationality, Time 
+        FROM (
+            SELECT Rank, Athlete, Nationality, Time FROM T5
+            UNION ALL
+            SELECT Rank, Athlete, Nationality, Time FROM T6
+            UNION ALL
+            SELECT Rank, Athlete, Nationality, Time FROM T7
+            UNION ALL
+            SELECT Rank, Athlete, Nationality, Time FROM T77
+            UNION ALL
+            SELECT Rank, Athlete, Nationality, Time FROM T78
+            UNION ALL
+            SELECT Rank, Athlete, Nationality, Time FROM T79
+            UNION ALL
+            SELECT Rank, Athlete, Nationality, Time FROM T80
+            UNION ALL
+            SELECT Rank, Athlete, Nationality, Time FROM T82
+            UNION ALL
+            SELECT Rank, Athlete, Nationality, Time FROM T85
+        )
+        ORDER BY CAST(Rank AS REAL) ASC
+        LIMIT 5;
+
+  [2] SQL:
+        SELECT Nationality, Rank, Time FROM T5
+        UNION ALL
+        SELECT Nationality, Rank, Time FROM T6
+        UNION ALL
+        SELECT Nationality, Rank, Time FROM T7
+        UNION ALL
+        SELECT Nationality, Rank, Time FROM T77
+        UNION ALL
+        SELECT Nationality, Rank, Time FROM T78
+        UNION ALL
+        SELECT Nationality, Rank, Time FROM T79
+        UNION ALL
+        SELECT Nationality, Rank, Time FROM T80
+        UNION ALL
+        SELECT Nationality, Rank, Time FROM T82
+        UNION ALL
+        SELECT Nationality, Rank, Time FROM T85;
+
+  [3] SQL:
+        SELECT MIN(Date) AS Min_Date, MAX(Date) AS Max_Date
+        FROM T81;
+
+------------------------------------------------------------
+============================================================
+
+Rank #3  |  DPR: q2_14  |  Combined Score: 0.6121
+============================================================
+  Original DPR:
+    We request a data product that identifies the countries with the
+    greatest improvement in their athletes' average times across multiple
+    International Cross Country Championships from 1898 to 1933 and
+    contrasts them with countries that have consistently produced
+    top-performing athletes, highlighting any notable trends or correlations
+    in nationality, time, and overall ranking that may influence competitive
+    strategies.
+
+  Coverage               0.5000
+  Complexity             0.5333
+  Diversity              0.8166
+  Surprisal              0.2467
+  Uniqueness             1.0000
+  LLM Quality            0.7500
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.5000
+
+  LLM Reasoning:          The DPR is analytical with clear goals and multi-dimensional questions,
+                          but the scope could be better aligned with the schema, as some tables
+                          are irrelevant to the request.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by mentioning athlete counts
+                          and times but fails to analyze improvement trends, consistent top
+                          performance, or correlations as requested.
+  Query-DPR Reasoning:    The DPR partially aligns by analyzing athlete performance trends and
+                          rankings but misses key aspects like individual Olympic participation
+                          history and career achievements.
+  Query-Summary Reasoning: The summary partially addresses the query by mentioning athlete
+                          rankings and times but misses key aspects like Olympic participation
+                          history, nationalities, and comprehensive career achievements.
+
+  User Query: How can I get a list of cross-country athletes with their championship rankings, nationalities, and finishing times, along with their Olympic participation history, including the number of times they competed and their best positions, to analyze their career achievements and Olympic success?
+
+  Summary:
+    The data highlights athlete counts for England, France, Scotland,
+    Ireland, and Wales, with England having the highest representation, but
+    it does not provide sufficient information to determine which countries
+    consistently produce top-performing athletes. While times and ranks are
+    available for English athletes, ranging from 56:36 to 57:48.4 with ranks
+    of 4.0 and 5.0, no clear trends or correlations between nationality,
+    time, and rank are evident. The evidence is limited and does not fully
+    address the request to identify countries with the greatest improvement
+    or consistent top performance.
+
+  Sub-Queries (2 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Nationality, COUNT(*) AS Athlete_Count
+        FROM (
+            SELECT Nationality FROM T5
+            UNION ALL
+            SELECT Nationality FROM T6
+            UNION ALL
+            SELECT Nationality FROM T7
+            UNION ALL
+            SELECT Nationality FROM T77
+            UNION ALL
+            SELECT Nationality FROM T78
+            UNION ALL
+            SELECT Nationality FROM T79
+            UNION ALL
+            SELECT Nationality FROM T80
+            UNION ALL
+            SELECT Nationality FROM T82
+            UNION ALL
+            SELECT Nationality FROM T85
+        )
+        GROUP BY Nationality
+        ORDER BY Athlete_Count DESC;
+
+  [2] SQL:
+        SELECT Nationality, Rank, Time FROM T5
+        UNION ALL
+        SELECT Nationality, Rank, Time FROM T6
+        UNION ALL
+        SELECT Nationality, Rank, Time FROM T7
+        UNION ALL
+        SELECT Nationality, Rank, Time FROM T77
+        UNION ALL
+        SELECT Nationality, Rank, Time FROM T78
+        UNION ALL
+        SELECT Nationality, Rank, Time FROM T79
+        UNION ALL
+        SELECT Nationality, Rank, Time FROM T80
+        UNION ALL
+        SELECT Nationality, Rank, Time FROM T82
+        UNION ALL
+        SELECT Nationality, Rank, Time FROM T85;
+
+------------------------------------------------------------
+============================================================
+
+Rank #4  |  DPR: q2_15  |  Combined Score: 0.6069
+============================================================
+  Original DPR:
+    We request a data product that contrasts the performance metrics of
+    athletes from different geographical locations, including Europe and
+    South America, across multiple International Cross Country Championships
+    from 1898 to 1933, highlighting any notable differences or correlations
+    in nationality, time, and overall ranking that may influence competitive
+    strategies, and provide a detailed breakdown of their performance
+    metrics, including average times and overall rankings.
+
+  Coverage               0.5000
+  Complexity             0.5333
+  Diversity              0.7802
+  Surprisal              0.2467
+  Uniqueness             1.0000
+  LLM Quality            0.7500
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.5000
+
+  LLM Reasoning:          The DPR is analytical with clear goals and multi-dimensional questions,
+                          but its scope is slightly broad and could be better aligned with the
+                          schema by explicitly addressing the relevant tables.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by providing performance
+                          metrics for English and Belgian athletes but fails to include data for
+                          other geographical locations, broader trends, or detailed breakdowns as
+                          requested.
+  Query-DPR Reasoning:    The DPR partially aligns by addressing athlete performance metrics and
+                          rankings but misses key aspects like Olympic participation history and
+                          career achievements analysis.
+  Query-Summary Reasoning: The summary provides partial data on rankings, nationalities, and
+                          finishing times for athletes but lacks comprehensive information on
+                          Olympic participation history and broader athlete data needed for career
+                          analysis.
+
+  User Query: How can I get a list of cross-country athletes with their championship rankings, nationalities, and finishing times, along with their Olympic participation history, including the number of times they competed and their best positions, to analyze their career achievements and Olympic success?
+
+  Summary:
+    The data highlights performance metrics for athletes from England and
+    Belgium, with English athletes recording times of 56:36, 56:36.4,
+    57:14.8, 57:22.6, and 57:48.4, and achieving ranks of 4.0 and 5.0, while
+    Belgian athletes are represented at ranks 8.0, 10.0, 13.0, 15.0, and
+    17.0, each occurring once. However, the distribution of ranks,
+    nationalities, and times for other athletes in the referenced categories
+    remains incomplete, limiting a comprehensive analysis of broader
+    geographical performance trends.
+
+  Sub-Queries (2 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Rank, Nationality, Time FROM T5
+        UNION ALL
+        SELECT Rank, Nationality, Time FROM T6
+        UNION ALL
+        SELECT Rank, Nationality, Time FROM T7
+        UNION ALL
+        SELECT Rank, Nationality, Time FROM T77
+        UNION ALL
+        SELECT Rank, Nationality, Time FROM T78
+        UNION ALL
+        SELECT Rank, Nationality, Time FROM T79
+        UNION ALL
+        SELECT Rank, Nationality, Time FROM T80
+        UNION ALL
+        SELECT Rank, Nationality, Time FROM T82
+        UNION ALL
+        SELECT Rank, Nationality, Time FROM T85;
+
+  [2] SQL:
+        SELECT Nationality, Rank, COUNT(*) AS Count
+        FROM (
+            SELECT Nationality, Rank FROM T5
+            UNION ALL
+            SELECT Nationality, Rank FROM T6
+            UNION ALL
+            SELECT Nationality, Rank FROM T7
+            UNION ALL
+            SELECT Nationality, Rank FROM T77
+            UNION ALL
+            SELECT Nationality, Rank FROM T78
+            UNION ALL
+            SELECT Nationality, Rank FROM T79
+            UNION ALL
+            SELECT Nationality, Rank FROM T80
+            UNION ALL
+            SELECT Nationality, Rank FROM T82
+            UNION ALL
+            SELECT Nationality, Rank FROM T85
+        )
+        GROUP BY Nationality, Rank
+        ORDER BY Nationality, Rank;
+
+------------------------------------------------------------
+============================================================
+
+Rank #5  |  DPR: q2_9  |  Combined Score: 0.6025
+============================================================
+  Original DPR:
+    We request a data product that identifies the correlation between an
+    athlete's nationality and their overall ranking across the International
+    Cross Country Championships from 1898 to 1933, highlighting the top 3
+    nationalities with the most championship wins and providing a detailed
+    breakdown of their performance metrics, including average times and
+    overall rankings.
+
+  Coverage               0.5000
+  Complexity             0.5000
+  Diversity              0.7826
+  Surprisal              0.2467
+  Uniqueness             1.0000
+  LLM Quality            0.7500
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.5000
+
+  LLM Reasoning:          The DPR has clear analytical goals and reasonable scope, but it could
+                          be more precise in specifying how to handle data across multiple similar
+                          tables.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by identifying the top three
+                          nationalities with championship wins but fails to provide detailed
+                          performance metrics like average times and overall rankings, which are
+                          key analytical goals of the request.
+  Query-DPR Reasoning:    The DPR partially aligns by addressing rankings and nationalities but
+                          misses key aspects like individual athlete data, Olympic participation
+                          history, and finishing times.
+  Query-Summary Reasoning: The summary partially addresses the query by mentioning nationalities
+                          and championship wins but fails to provide specific athlete data,
+                          rankings, finishing times, or Olympic participation details as
+                          requested.
+
+  User Query: How can I get a list of cross-country athletes with their championship rankings, nationalities, and finishing times, along with their Olympic participation history, including the number of times they competed and their best positions, to analyze their career achievements and Olympic success?
+
+  Summary:
+    The data identifies England, France, and Scotland as the top three
+    nationalities with the highest number of championship wins, totaling 69,
+    50, and 27 wins respectively. However, specific details regarding other
+    nationalities or additional performance metrics, such as average times
+    and overall rankings, are not provided in the available evidence,
+    leaving parts of the request unanswered.
+
+  Sub-Queries (1 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Nationality, COUNT(*) AS Wins
+        FROM (
+            SELECT Nationality FROM T5
+            UNION ALL
+            SELECT Nationality FROM T6
+            UNION ALL
+            SELECT Nationality FROM T7
+            UNION ALL
+            SELECT Nationality FROM T77
+            UNION ALL
+            SELECT Nationality FROM T78
+            UNION ALL
+            SELECT Nationality FROM T79
+            UNION ALL
+            SELECT Nationality FROM T80
+            UNION ALL
+            SELECT Nationality FROM T82
+            UNION ALL
+            SELECT Nationality FROM T85
+        )
+        GROUP BY Nationality
+        ORDER BY Wins DESC
+        LIMIT 3;
+
+------------------------------------------------------------
+============================================================
+
+Rank #6  |  DPR: q2_4  |  Combined Score: 0.5824
+============================================================
+  Original DPR:
+    We request a data product that analyzes the top 5 athletes with the
+    fastest average times and the top 5 nations with the most championships
+    wins across the International Cross Country Championships from 1898 to
+    1933, highlighting any notable trends or correlations between
+    nationality, age, and performance.
+
+  Coverage               0.5556
+  Complexity             0.4667
+  Diversity              0.7798
+  Surprisal              0.2467
+  Uniqueness             1.0000
+  LLM Quality            0.5000
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.0000
+
+  LLM Reasoning:          The DPR has analytical intent but is poorly scoped, as it does not
+                          clearly align with the schema context or specify how trends and
+                          correlations should be derived.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by identifying top nations and
+                          providing athlete performance averages, but it misses key analytical
+                          goals such as identifying the top 5 athletes, exploring trends or
+                          correlations, and addressing age-related factors.
+  Query-DPR Reasoning:    The DPR partially aligns by analyzing athlete performance and
+                          nationality trends but misses key aspects like Olympic participation
+                          history, individual rankings, and finishing times.
+  Query-Summary Reasoning: The summary does not address the user's request for a detailed list of
+                          athletes with rankings, nationalities, finishing times, Olympic
+                          participation history, and career achievements.
+
+  User Query: How can I get a list of cross-country athletes with their championship rankings, nationalities, and finishing times, along with their Olympic participation history, including the number of times they competed and their best positions, to analyze their career achievements and Olympic success?
+
+  Summary:
+    The analysis identifies France, England, Spain, Belgium, and Scotland
+    as the top nations, each securing one championship win in the
+    International Cross Country Championships. Athlete performance averages
+    are provided for Italy, Spain, Ireland, Scotland, and France, with Italy
+    showing the lowest average and France the highest. However, no
+    discernible trends or correlations between nationality and performance
+    are evident beyond these averages, and the data does not address
+    age-related factors or fully explore connections between nationality and
+    athletic outcomes.
+
+  Sub-Queries (2 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Country, COUNT(*) AS Championship_Wins
+        FROM T83
+        GROUP BY Country
+        ORDER BY Championship_Wins DESC, MIN(Rank) ASC
+        LIMIT 5;
+
+  [2] SQL:
+        SELECT Nationality, AVG(CAST(REPLACE(REPLACE(Time, ':', ''), '.', '') AS REAL)) AS Avg_Performance
+        FROM (
+            SELECT Nationality, Time FROM T5
+            UNION ALL
+            SELECT Nationality, Time FROM T6
+            UNION ALL
+            SELECT Nationality, Time FROM T7
+            UNION ALL
+            SELECT Nationality, Time FROM T77
+            UNION ALL
+            SELECT Nationality, Time FROM T78
+            UNION ALL
+            SELECT Nationality, Time FROM T79
+            UNION ALL
+            SELECT Nationality, Time FROM T80
+            UNION ALL
+            SELECT Nationality, Time FROM T82
+            UNION ALL
+            SELECT Nationality, Time FROM T85
+        )
+        GROUP BY Nationality
+        ORDER BY Avg_Performance;
+
+------------------------------------------------------------
+============================================================
+
+Rank #7  |  DPR: q2_2  |  Combined Score: 0.5496
+============================================================
+  Original DPR:
+    We request a data product that compares the top 5 athlete performance
+    metrics across multiple International Cross Country Championships from
+    1898 to 1929, exploring any significant changes or correlations between
+    nationality, time, and overall ranking.
+
+  Coverage               0.2222
+  Complexity             0.5333
+  Diversity              0.7959
+  Surprisal              0.2467
+  Uniqueness             1.0000
+  LLM Quality            0.7500
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.5000
+
+  LLM Reasoning:          The DPR is analytical with clear goals and multi-dimensional questions,
+                          but the scope could be better aligned with the schema, as some tables
+                          lack relevant data for the requested analysis.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by identifying data limitations
+                          but fails to provide analysis on correlations or significant changes as
+                          requested.
+  Query-DPR Reasoning:    The DPR partially aligns by addressing athlete rankings, nationalities,
+                          and times but misses Olympic participation history and broader career
+                          achievements.
+  Query-Summary Reasoning: The summary partially addresses the query by mentioning athlete
+                          rankings, nationalities, and times, but it misses key aspects such as
+                          Olympic participation history and career achievements analysis.
+
+  User Query: How can I get a list of cross-country athletes with their championship rankings, nationalities, and finishing times, along with their Olympic participation history, including the number of times they competed and their best positions, to analyze their career achievements and Olympic success?
+
+  Summary:
+    The available data includes information on athletes ranked 4th and 5th,
+    along with their nationalities and times, but does not provide rankings
+    for all top 5 athletes in certain categories. No correlations between
+    rank, nationality, and time are identified, as rank data is incomplete
+    and no analysis is presented. Additionally, the dataset lacks year
+    values and does not confirm coverage of the requested timeframe, with
+    only partial date details provided. These limitations suggest the
+    evidence does not fully address the original request.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Rank, Athlete, Nationality, Time
+        FROM (
+            SELECT Rank, Athlete, Nationality, Time FROM T5
+            UNION ALL
+            SELECT Rank, Athlete, Nationality, Time FROM T6
+            UNION ALL
+            SELECT Rank, Athlete, Nationality, Time FROM T7
+        )
+        ORDER BY Rank ASC
+        LIMIT 5;
+
+  [2] SQL:
+        SELECT Rank, Athlete, Nationality, Time 
+        FROM T5 
+        UNION ALL 
+        SELECT Rank, Athlete, Nationality, Time 
+        FROM T6 
+        UNION ALL 
+        SELECT Rank, Athlete, Nationality, Time 
+        FROM T7;
+
+  [3] SQL:
+        SELECT MIN(Date) AS Start_Date, MAX(Date) AS End_Date FROM T81;
+
+------------------------------------------------------------
+============================================================
+
+Rank #8  |  DPR: q2_10  |  Combined Score: 0.4925
+============================================================
+  Original DPR:
+    We request a data product that visualizes the 1937 Campbell Trophy
+    results, including driver positions, names, car constructors, and race
+    times/status, to highlight notable historical racing data and the
+    achievements of competitors like Prince Bira, and provide a detailed
+    breakdown of their performance metrics.
+
+  Coverage               0.1111
+  Complexity             0.2000
+  Diversity              0.8964
+  Surprisal              0.2467
+  Uniqueness             1.0000
+  LLM Quality            0.7500
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.0000
+  Query-Summary Rel.     0.0000
+
+  LLM Reasoning:          The DPR has clear analytical goals and reasonable scope, but it lacks
+                          precision in specifying how to integrate or analyze the requested
+                          performance metrics using the schema.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by providing race results and
+                          Prince Bira's performance metrics but lacks the requested visualization
+                          and broader analysis of competitor achievements.
+  Query-DPR Reasoning:    The DPR focuses on historical racing data and metrics for the Campbell
+                          Trophy, which is entirely unrelated to cross-country athletes, their
+                          rankings, nationalities, finishing times, and Olympic participation
+                          history.
+  Query-Summary Reasoning: The summary is completely unrelated to the query, as it discusses car
+                          racing results instead of cross-country athletes and their Olympic
+                          achievements.
+
+  User Query: How can I get a list of cross-country athletes with their championship rankings, nationalities, and finishing times, along with their Olympic participation history, including the number of times they competed and their best positions, to analyze their career achievements and Olympic success?
+
+  Summary:
+    The 1937 Campbell Trophy results include recorded driver performances
+    from Brian Lewis, Tim Rose-Richards, George Eyston, Kaye Don, and
+    T.A.S.O. Mathieson, with respective time/status details of "3:34:52,"
+    "+2:05," "+4:05," "+1 lap," and "+7 laps (crash)." The positions and car
+    constructors listed are 1st place - Alfa Romeo, 2nd place - Bugatti, 3rd
+    place - Alfa Romeo, 4th place - Alfa Romeo, and 5th place - Bugatti.
+    Additionally, Prince Bira's metrics indicate he achieved 1st place
+    driving a Maserati with a time/status of "3:16:52.6." Some aspects of
+    the requested breakdown, such as detailed visualization or broader
+    competitor achievements, are not fully addressed in the available
+    evidence.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Driver, Time_Diff_Status 
+        FROM T86;
+
+  [2] SQL:
+        SELECT Pos, Car_Constructor 
+        FROM T86;
+
+  [3] SQL:
+        SELECT Pos, Driver, Car_Constructor, Time_Diff_Status 
+        FROM T89 
+        WHERE LOWER(Driver) LIKE LOWER('%prince bira%');
+
+------------------------------------------------------------
+============================================================
+
+Rank #9  |  DPR: q2_16  |  Combined Score: 0.4915
+============================================================
+  Original DPR:
+    We request a data product that visualizes the performance metrics of
+    athletes from Europe and South America across multiple International
+    Cross Country Championships from 1898 to 1933, highlighting any notable
+    differences or correlations in nationality, time, and overall ranking
+    that may influence competitive strategies, and provide a detailed
+    breakdown of their performance metrics, including average times and
+    overall rankings.
+
+  Coverage               0.5000
+  Complexity             0.7333
+  Diversity              0.7729
+  Surprisal              0.2467
+  Uniqueness             0.0000
+  LLM Quality            0.7500
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.5000
+
+  LLM Reasoning:          The DPR is analytical with clear goals and multi-dimensional questions,
+                          but it is slightly over-scoped given the schema, as it requests
+                          correlations and detailed breakdowns that may not be fully supported by
+                          the available tables.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by providing some performance
+                          metrics and nationality distribution but lacks comprehensive analysis of
+                          correlations, detailed rankings, and insights into competitive
+                          strategies.
+  Query-DPR Reasoning:    The DPR partially aligns by addressing athlete performance metrics and
+                          rankings but misses key aspects like Olympic participation history and
+                          career achievements analysis.
+  Query-Summary Reasoning: The summary partially addresses the query by mentioning athlete
+                          performance metrics and nationalities but lacks details on championship
+                          rankings, finishing times, Olympic participation history, and career
+                          achievements.
+
+  User Query: How can I get a list of cross-country athletes with their championship rankings, nationalities, and finishing times, along with their Olympic participation history, including the number of times they competed and their best positions, to analyze their career achievements and Olympic success?
+
+  Summary:
+    The data highlights performance metrics of athletes grouped by
+    nationality, showing average times for Belgium, England, France,
+    Ireland, and Italy, with Ireland having the fastest average and Italy
+    showing no recorded times. England's athletes had specific recorded
+    times, with some achieving ranks of 4 and 5, though detailed rankings
+    and times for certain entries are incomplete. Nationality distribution
+    indicates England had the highest representation, followed by France,
+    Scotland, Ireland, and Wales, but information on other nationalities or
+    additional details is not provided, leaving some gaps in the analysis.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Nationality, AVG(CAST(REPLACE(REPLACE(Time, ':', ''), '.', '') AS REAL)) AS Average_Time
+        FROM (
+            SELECT Nationality, Time FROM T5
+            UNION ALL
+            SELECT Nationality, Time FROM T6
+            UNION ALL
+            SELECT Nationality, Time FROM T7
+            UNION ALL
+            SELECT Nationality, Time FROM T77
+            UNION ALL
+            SELECT Nationality, Time FROM T78
+            UNION ALL
+            SELECT Nationality, Time FROM T79
+            UNION ALL
+            SELECT Nationality, Time FROM T80
+            UNION ALL
+            SELECT Nationality, Time FROM T82
+            UNION ALL
+            SELECT Nationality, Time FROM T85
+        )
+        GROUP BY Nationality;
+
+  [2] SQL:
+        SELECT Rank, Nationality, Time 
+        FROM T5
+        UNION ALL
+        SELECT Rank, Nationality, Time 
+        FROM T6
+        UNION ALL
+        SELECT Rank, Nationality, Time 
+        FROM T7
+        UNION ALL
+        SELECT Rank, Nationality, Time 
+        FROM T77
+        UNION ALL
+        SELECT Rank, Nationality, Time 
+        FROM T78
+        UNION ALL
+        SELECT Rank, Nationality, Time 
+        FROM T79
+        UNION ALL
+        SELECT Rank, Nationality, Time 
+        FROM T80
+        UNION ALL
+        SELECT Rank, Nationality, Time 
+        FROM T82
+        UNION ALL
+        SELECT Rank, Nationality, Time 
+        FROM T85;
+
+  [3] SQL:
+        SELECT Nationality, COUNT(*) AS Athlete_Count
+        FROM (
+            SELECT Nationality FROM T5
+            UNION ALL
+            SELECT Nationality FROM T6
+            UNION ALL
+            SELECT Nationality FROM T7
+            UNION ALL
+            SELECT Nationality FROM T77
+            UNION ALL
+            SELECT Nationality FROM T78
+            UNION ALL
+            SELECT Nationality FROM T79
+            UNION ALL
+            SELECT Nationality FROM T80
+            UNION ALL
+            SELECT Nationality FROM T82
+            UNION ALL
+            SELECT Nationality FROM T85
+        )
+        GROUP BY Nationality
+        ORDER BY Athlete_Count DESC;
+
+------------------------------------------------------------
+============================================================
+
+Rank #10  |  DPR: q2_8  |  Combined Score: 0.4861
+============================================================
+  Original DPR:
+    We request a data product that aggregates data from multiple
+    International Cross Country Championships from 1898 to 1933,
+    highlighting key factors that contributed to the success of
+    top-performing teams, including average time, nationality, and overall
+    ranking, to provide actionable insights for teams looking to optimize
+    their strategies and training to win future championships.
+
+  Coverage               0.0556
+  Complexity             0.3333
+  Diversity              0.8013
+  Surprisal              0.2467
+  Uniqueness             1.0000
+  LLM Quality            0.7500
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.0000
+
+  LLM Reasoning:          The DPR is analytical with clear goals and multi-dimensional questions,
+                          but it lacks precision in specifying how to aggregate data across
+                          multiple tables and does not fully align with the schema, as some
+                          relevant columns like 'Points' in T83 are underutilized.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by mentioning nationalities and
+                          ranks but fails to provide insights on average times, key factors
+                          contributing to success, or actionable strategies for future
+                          championships.
+  Query-DPR Reasoning:    The DPR partially aligns by focusing on cross-country championship data
+                          but misses key aspects such as individual athlete details, Olympic
+                          participation history, and career achievements.
+  Query-Summary Reasoning: The summary is completely unrelated to the query, as it discusses team
+                          performance and rankings in a different context without addressing
+                          individual cross-country athletes, their rankings, nationalities,
+                          finishing times, or Olympic participation history.
+
+  User Query: How can I get a list of cross-country athletes with their championship rankings, nationalities, and finishing times, along with their Olympic participation history, including the number of times they competed and their best positions, to analyze their career achievements and Olympic success?
+
+  Summary:
+    The data highlights key aspects of team performance in T83, including
+    the distribution of ranks among the top five teams, with each rank from
+    1 to 5 represented once. The nationalities of these top-ranked teams
+    include France, England, Spain, Belgium, and Scotland. While the dataset
+    provides the "Average_Points" value of 31.0 for top-ranked teams, it
+    does not include their average times or information beyond the top five
+    ranks, indicating some limitations in the available insights.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT AVG(CAST(Points AS REAL)) AS Average_Points
+        FROM T83
+        WHERE Rank = 1;
+
+  [2] SQL:
+        SELECT Rank, COUNT(*) AS Count
+        FROM T83
+        GROUP BY Rank
+        ORDER BY Rank;
+
+  [3] SQL:
+        SELECT DISTINCT Country FROM T83;
+
+------------------------------------------------------------
+============================================================
+
+Rank #11  |  DPR: q2_17  |  Combined Score: 0.4716
+============================================================
+  Original DPR:
+    We request a data product that contrasts the performance metrics of the
+    top 3 drivers from the 1937 Campbell Trophy and the top 3 teams from the
+    1948 Campeonato Profesional, highlighting any notable differences or
+    correlations in their respective competition outcomes, car or stadium
+    characteristics, and notable historical achievements.
+
+  Coverage               0.1667
+  Complexity             0.2000
+  Diversity              0.8537
+  Surprisal              0.2467
+  Uniqueness             1.0000
+  LLM Quality            0.5000
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.0000
+  Query-Summary Rel.     0.0000
+
+  LLM Reasoning:          The DPR has analytical intent but is poorly scoped, as the schema lacks
+                          sufficient historical or contextual data to fully address the requested
+                          comparisons.
+  DPR-Summary Reasoning:  The summary provides some information about drivers, teams, and venues
+                          but fails to directly contrast performance metrics, car or stadium
+                          characteristics, or historical achievements as requested in the DPR.
+  Query-DPR Reasoning:    The DPR is entirely unrelated to the user's query, focusing on
+                          motorsport and team performance rather than cross-country athletes,
+                          their rankings, nationalities, finishing times, and Olympic
+                          participation history.
+  Query-Summary Reasoning: The summary is completely unrelated to the query, as it discusses
+                          drivers, teams, and stadiums instead of cross-country athletes, their
+                          rankings, nationalities, finishing times, or Olympic participation
+                          history.
+
+  User Query: How can I get a list of cross-country athletes with their championship rankings, nationalities, and finishing times, along with their Olympic participation history, including the number of times they competed and their best positions, to analyze their career achievements and Olympic success?
+
+  Summary:
+    The top three drivers in T86 were Brian Lewis, Tim Rose-Richards, and
+    George Eyston, with Lewis and Eyston both driving Alfa Romeo cars and
+    Rose-Richards driving a Bugatti; their time differences reflect
+    competitive gaps of over two minutes between each position. In T83, the
+    top three teams achieved rankings based on points, with the first-ranked
+    team earning 31.0 points, the second 74.0 points, and the third 117.0
+    points. Teams in T99 were associated with cities including Cali,
+    Medellín, and Manizales, competing in stadiums such as Estadio Olímpico
+    Pascual Guerrero, Estadio San Fernando, and Estadio Palogrande. The
+    evidence does not provide direct comparisons of performance metrics, car
+    characteristics, or historical achievements between the drivers and
+    teams.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Pos, Driver, Car_Constructor, Time_Diff_Status 
+        FROM T86 
+        WHERE Pos <= 3 
+        ORDER BY Pos ASC;
+
+  [2] SQL:
+        SELECT Rank, Team, Points 
+        FROM T83 
+        ORDER BY Rank ASC 
+        LIMIT 3;
+
+  [3] SQL:
+        SELECT City, Stadium FROM T99;
+
+------------------------------------------------------------
+============================================================
+
+Rank #12  |  DPR: q2_20  |  Combined Score: 0.4639
+============================================================
+  Original DPR:
+    We request a data product that visualizes the evolution of athletes
+    from different geographical locations, including Europe and South
+    America, across multiple International Cross Country Championships from
+    1898 to 1933, highlighting any notable differences or correlations in
+    nationality, time, and overall ranking that may influence competitive
+    strategies, and providing a detailed breakdown of their performance
+    metrics, including average times and overall rankings.
+
+  Coverage               0.5000
+  Complexity             0.5333
+  Diversity              0.7798
+  Surprisal              0.2467
+  Uniqueness             0.0000
+  LLM Quality            0.7500
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.5000
+
+  LLM Reasoning:          The DPR is analytical with clear goals and multi-dimensional questions,
+                          but its scope could be better aligned with the schema, as some requested
+                          details like correlations may require additional data not explicitly
+                          present in the tables.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by providing some performance
+                          metrics, but it fails to cover athletes from multiple geographical
+                          locations, lacks a detailed breakdown of rankings and times, and does
+                          not analyze correlations or notable differences as requested.
+  Query-DPR Reasoning:    The DPR partially aligns by addressing athlete rankings, nationalities,
+                          and finishing times but misses key aspects like Olympic participation
+                          history and career achievements analysis.
+  Query-Summary Reasoning: The summary provides partial data on rankings and times but lacks
+                          information on nationalities, Olympic participation history, and a
+                          comprehensive dataset for cross-country athletes.
+
+  User Query: How can I get a list of cross-country athletes with their championship rankings, nationalities, and finishing times, along with their Olympic participation history, including the number of times they competed and their best positions, to analyze their career achievements and Olympic success?
+
+  Summary:
+    The data includes performance metrics for athletes from England,
+    detailing ranks of 4.0 and 5.0 with corresponding times of "57:22.6" and
+    "57:48.4," alongside additional times of "56:36," "56:36.4," and
+    "57:14.8" that lack rank information. While the minimum rank observed is
+    4.0, the maximum rank is not specified, and the evidence does not
+    provide a comprehensive view of athletes from other geographical
+    locations or a full breakdown of rankings and times across the dataset.
+
+  Sub-Queries (2 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Rank, Nationality, Time 
+        FROM T5 
+        UNION ALL 
+        SELECT Rank, Nationality, Time 
+        FROM T6 
+        UNION ALL 
+        SELECT Rank, Nationality, Time 
+        FROM T7 
+        UNION ALL 
+        SELECT Rank, Nationality, Time 
+        FROM T77 
+        UNION ALL 
+        SELECT Rank, Nationality, Time 
+        FROM T78 
+        UNION ALL 
+        SELECT Rank, Nationality, Time 
+        FROM T79 
+        UNION ALL 
+        SELECT Rank, Nationality, Time 
+        FROM T80 
+        UNION ALL 
+        SELECT Rank, Nationality, Time 
+        FROM T82 
+        UNION ALL 
+        SELECT Rank, Nationality, Time 
+        FROM T85;
+
+  [2] SQL:
+        SELECT MIN(Rank) AS Min_Rank, MAX(Rank) AS Max_Rank
+        FROM (
+            SELECT Rank FROM T5
+            UNION ALL
+            SELECT Rank FROM T6
+            UNION ALL
+            SELECT Rank FROM T7
+            UNION ALL
+            SELECT Rank FROM T77
+            UNION ALL
+            SELECT Rank FROM T78
+            UNION ALL
+            SELECT Rank FROM T79
+            UNION ALL
+            SELECT Rank FROM T80
+            UNION ALL
+            SELECT Rank FROM T82
+            UNION ALL
+            SELECT Rank FROM T85
+        );
+
+------------------------------------------------------------
+============================================================
+
+Rank #13  |  DPR: q2_3  |  Combined Score: 0.4560
+============================================================
+  Original DPR:
+    We request a data product that identifies key factors contributing to
+    the success of past champions and provides actionable insights on how
+    teams can optimize their training and strategies to win future
+    International Cross Country Championships, based on data from
+    championships from 1898 to 1933.
+
+  Coverage               0.0556
+  Complexity             0.2667
+  Diversity              0.8449
+  Surprisal              0.2467
+  Uniqueness             1.0000
+  LLM Quality            0.5000
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.0000
+
+  LLM Reasoning:          The DPR has analytical intent but is poorly scoped, as the schema lacks
+                          data on training, strategies, or factors beyond basic championship
+                          results.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by mentioning rankings and
+                          countries but fails to provide actionable insights or analyze key
+                          factors contributing to the success of past champions within the
+                          specified historical range.
+  Query-DPR Reasoning:    The DPR partially aligns by focusing on championship success factors
+                          but misses key aspects like individual athlete data, Olympic
+                          participation history, and career achievements.
+  Query-Summary Reasoning: The summary is completely unrelated to the query, as it does not
+                          provide any information about individual cross-country athletes, their
+                          rankings, nationalities, finishing times, or Olympic participation
+                          history.
+
+  User Query: How can I get a list of cross-country athletes with their championship rankings, nationalities, and finishing times, along with their Olympic participation history, including the number of times they competed and their best positions, to analyze their career achievements and Olympic success?
+
+  Summary:
+    The data highlights rankings ranging from 1 to 10 and provides points
+    for three teams, with the lowest points indicating better performance.
+    Teams are associated with countries including France, England, Spain,
+    Belgium, and Scotland. However, the evidence does not include
+    information about championships within the specified historical range,
+    limiting insights into factors contributing to the success of past
+    champions.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT MIN(Rank) AS Min_Rank, MAX(Rank) AS Max_Rank FROM T83;
+
+  [2] SQL:
+        SELECT Team, Points FROM T83 WHERE Rank BETWEEN 1 AND 3;
+
+  [3] SQL:
+        SELECT DISTINCT Country FROM T83;
+
+------------------------------------------------------------
+============================================================
+
+Rank #14  |  DPR: q2_1  |  Combined Score: 0.4546
+============================================================
+  Original DPR:
+    We request a data product that visualizes the top 5 athletes with the
+    fastest average times across the International Cross Country
+    Championships from 1898 to 1933, highlighting any notable trends or
+    correlations between nationality, age, and performance.
+
+  Coverage               0.0556
+  Complexity             0.3333
+  Diversity              0.7683
+  Surprisal              0.2467
+  Uniqueness             1.0000
+  LLM Quality            0.5000
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.5000
+
+  LLM Reasoning:          The DPR shows analytical intent by requesting trends and correlations,
+                          but it is poorly scoped as it does not specify how to handle data across
+                          multiple similar tables or address potential schema limitations like
+                          missing age data.
+  DPR-Summary Reasoning:  The summary identifies the top five athletes but fails to analyze
+                          trends or correlations between nationality, age, and performance as
+                          requested in the DPR.
+  Query-DPR Reasoning:    The DPR partially aligns by focusing on athlete performance and
+                          nationality but misses key aspects like championship rankings, Olympic
+                          participation history, and broader career achievements.
+  Query-Summary Reasoning: The summary partially addresses the query by mentioning rankings and
+                          nationalities but lacks details on finishing times, Olympic
+                          participation history, and broader career achievements.
+
+  User Query: How can I get a list of cross-country athletes with their championship rankings, nationalities, and finishing times, along with their Olympic participation history, including the number of times they competed and their best positions, to analyze their career achievements and Olympic success?
+
+  Summary:
+    The data identifies the top five athletes with the fastest average
+    times, listing Sidney Robinson, Arthur Meacham, J. Crook, Georges
+    Touquet-Daunis, and H. Freeman, though additional details such as
+    nationality, age, or other metrics are largely absent. The nationalities
+    provided for these athletes are limited to England, and while the
+    minimum rank value recorded is 4.0, no maximum rank value is specified.
+    The evidence does not offer further insights into trends or correlations
+    beyond these rankings.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Athlete, AVG(CAST(REPLACE(REPLACE(Time, ':', '.'), '.', '') AS REAL)) AS Avg_Time
+        FROM T5
+        GROUP BY Athlete
+        ORDER BY Avg_Time ASC
+        LIMIT 5;
+
+  [2] SQL:
+        SELECT Nationality 
+        FROM T5 
+        WHERE Rank <= 5;
+
+  [3] SQL:
+        SELECT MIN(Rank) AS Min_Rank, MAX(Rank) AS Max_Rank FROM T5;
+
+------------------------------------------------------------
+============================================================
+
+Rank #15  |  DPR: q2_18  |  Combined Score: 0.4451
+============================================================
+  Original DPR:
+    We request a data product that compares the top 3 athlete performance
+    metrics, including average times, overall rankings, and nationality
+    representation, across multiple International Cross Country
+    Championships from 1898 to 1933, and highlights any significant changes
+    or correlations that may influence competitive strategies.
+
+  Coverage               0.5000
+  Complexity             0.4000
+  Diversity              0.7814
+  Surprisal              0.2467
+  Uniqueness             0.0000
+  LLM Quality            0.7500
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.0000
+
+  LLM Reasoning:          The DPR is analytical with clear goals and multi-dimensional questions,
+                          but the scope is slightly broad and the schema context lacks explicit
+                          support for historical trends or correlations.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by discussing nationality
+                          representation but fails to analyze top athlete performance metrics,
+                          rankings, or significant changes and correlations.
+  Query-DPR Reasoning:    The DPR partially aligns by focusing on athlete performance metrics and
+                          rankings but misses key aspects like Olympic participation history and
+                          individual career achievements.
+  Query-Summary Reasoning: The summary does not address the user's request for detailed athlete
+                          data, including rankings, nationalities, finishing times, and Olympic
+                          participation history.
+
+  User Query: How can I get a list of cross-country athletes with their championship rankings, nationalities, and finishing times, along with their Olympic participation history, including the number of times they competed and their best positions, to analyze their career achievements and Olympic success?
+
+  Summary:
+    The data indicates nationality representation among athletes, with
+    England having the highest participation, followed by France, Scotland,
+    Ireland, and Belgium. However, the evidence does not specify how
+    nationality representation varies among the top three ranked athletes
+    across the listed competitions, leaving gaps in understanding
+    correlations or trends specific to elite performance metrics.
+
+  Sub-Queries (1 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Nationality, COUNT(*) AS Athlete_Count
+        FROM (
+            SELECT Nationality FROM T5 WHERE Time LIKE '56:%' OR Time LIKE '57:%'
+            UNION ALL
+            SELECT Nationality FROM T6 WHERE Time LIKE '51:%' OR Time LIKE '52:%' OR Time LIKE '53:%'
+            UNION ALL
+            SELECT Nationality FROM T7 WHERE Time LIKE '55:%'
+            UNION ALL
+            SELECT Nationality FROM T77 WHERE Time LIKE '56:%' OR Time LIKE '57:%'
+            UNION ALL
+            SELECT Nationality FROM T78 WHERE Time LIKE '58:%'
+            UNION ALL
+            SELECT Nationality FROM T79 WHERE Time LIKE '55:%' OR Time LIKE '56:%'
+            UNION ALL
+            SELECT Nationality FROM T80 WHERE Time LIKE '44:%' OR Time LIKE '45:%'
+            UNION ALL
+            SELECT Nationality FROM T82 WHERE Time LIKE '42:%'
+            UNION ALL
+            SELECT Nationality FROM T85 WHERE Time LIKE '53:%'
+        )
+        GROUP BY Nationality
+        ORDER BY Athlete_Count DESC;
+
+------------------------------------------------------------
+============================================================
+
+Rank #16  |  DPR: q2_12  |  Combined Score: 0.4332
+============================================================
+  Original DPR:
+    We request a data product that aggregates data from multiple
+    International Cross Country Championships from 1898 to 1933,
+    highlighting key factors that contributed to the success of
+    top-performing teams in terms of nationality representation and average
+    time improvements, and providing actionable insights for teams looking
+    to optimize their strategies and training to win future championships.
+
+  Coverage               0.5556
+  Complexity             0.4000
+  Diversity              0.8024
+  Surprisal              0.2467
+  Uniqueness             0.0000
+  LLM Quality            0.5000
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.0000
+
+  LLM Reasoning:          The DPR demonstrates analytical intent but is poorly scoped, as it
+                          requests insights beyond the schema's capabilities, such as 'key
+                          factors' and 'actionable insights,' which are not directly derivable
+                          from the available tables.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by listing top-performing teams
+                          and nationality representation but fails to analyze average time
+                          improvements or provide actionable insights for optimizing strategies.
+  Query-DPR Reasoning:    The DPR partially aligns by focusing on cross-country championships and
+                          nationality representation but misses key aspects like individual
+                          athlete rankings, finishing times, and Olympic participation history.
+  Query-Summary Reasoning: The summary does not address the user's request for detailed
+                          athlete-specific data, including rankings, nationalities, finishing
+                          times, Olympic participation history, and career achievements.
+
+  User Query: How can I get a list of cross-country athletes with their championship rankings, nationalities, and finishing times, along with their Olympic participation history, including the number of times they competed and their best positions, to analyze their career achievements and Olympic success?
+
+  Summary:
+    The data highlights that the top-performing teams in one championship
+    ranking were France, England, Spain, Belgium, and Scotland, in that
+    order. Among these, England had the highest representation of top-ranked
+    athletes, with a notable count of 69. However, the evidence does not
+    provide insights into average time improvements or specific factors
+    contributing to team success, leaving some aspects of the request
+    unaddressed.
+
+  Sub-Queries (2 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Rank, Country, Team, Points FROM T83 ORDER BY Rank ASC;
+
+  [2] SQL:
+        SELECT Nationality, COUNT(*) AS Representation
+        FROM (
+            SELECT Nationality FROM T5
+            UNION ALL
+            SELECT Nationality FROM T6
+            UNION ALL
+            SELECT Nationality FROM T7
+            UNION ALL
+            SELECT Nationality FROM T77
+            UNION ALL
+            SELECT Nationality FROM T78
+            UNION ALL
+            SELECT Nationality FROM T79
+            UNION ALL
+            SELECT Nationality FROM T80
+            UNION ALL
+            SELECT Nationality FROM T82
+            UNION ALL
+            SELECT Nationality FROM T85
+        )
+        GROUP BY Nationality
+        ORDER BY Representation DESC
+        LIMIT 1;
+
+------------------------------------------------------------
+============================================================
+
+Rank #17  |  DPR: q2_13  |  Combined Score: 0.4328
+============================================================
+  Original DPR:
+    We request a data product that aggregates data from the 1948 Campeonato
+    Profesional, visualizing the performance of each team across matches
+    played at their respective stadiums, including metrics on their overall
+    record, home and away performance, and notable wins or losses, to
+    provide actionable insights on how teams adapted to different
+    environments and locations during the tournament.
+
+  Coverage               0.1111
+  Complexity             0.0000
+  Diversity              0.8660
+  Surprisal              0.2467
+  Uniqueness             1.0000
+  LLM Quality            0.5000
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.0000
+  Query-Summary Rel.     0.0000
+
+  LLM Reasoning:          The DPR has analytical intent but is poorly scoped as the schema lacks
+                          sufficient data on team performance, match details, and metrics required
+                          for the requested analysis.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by linking teams to locations
+                          and venues but fails to provide key analytical insights on overall
+                          records, home and away performance, or notable outcomes.
+  Query-DPR Reasoning:    The DPR focuses on team performance in a specific football tournament,
+                          which is entirely unrelated to the user's request for data on
+                          cross-country athletes and their Olympic achievements.
+  Query-Summary Reasoning: The summary is completely unrelated to the query, as it discusses
+                          teams, venues, and cities in a different context rather than
+                          cross-country athletes, their rankings, nationalities, finishing times,
+                          or Olympic participation history.
+
+  User Query: How can I get a list of cross-country athletes with their championship rankings, nationalities, and finishing times, along with their Olympic participation history, including the number of times they competed and their best positions, to analyze their career achievements and Olympic success?
+
+  Summary:
+    The data includes match-related metrics such as final scores and
+    venues, with teams América, Atlético Municipal, Deportes Caldas,
+    Deportivo Cali, and Independiente Medellín associated with specific
+    cities: América and Deportivo Cali with Cali, Atlético Municipal and
+    Independiente Medellín with Medellín, and Deportes Caldas with
+    Manizales. The stadiums identified are Estadio Olímpico Pascual
+    Guerrero, Estadio San Fernando, and Estadio Palogrande. While this
+    information links teams to locations and venues, further details on
+    overall records, home and away performance, or notable outcomes are not
+    provided in the evidence.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Score, Venue FROM T81;
+
+  [2] SQL:
+        SELECT Team, Stadium FROM T99;
+
+  [3] SQL:
+        SELECT Team, City FROM T99;
+
+------------------------------------------------------------
+============================================================
+
+Rank #18  |  DPR: q2_5  |  Combined Score: 0.4235
+============================================================
+  Original DPR:
+    We request a data product that maps the locations of teams
+    participating in the 1948 Campeonato Profesional to their respective
+    stadiums, highlighting notable urban and geographical features that may
+    have influenced team performance and strategies during the tournament.
+
+  Coverage               0.0556
+  Complexity             0.0000
+  Diversity              0.8842
+  Surprisal              0.2467
+  Uniqueness             1.0000
+  LLM Quality            0.5000
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.0000
+  Query-Summary Rel.     0.0000
+
+  LLM Reasoning:          The DPR has some analytical intent but is poorly scoped, as the schema
+                          lacks sufficient geographical or performance-related data to fully
+                          address the request.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by mapping teams to their
+                          stadiums but fails to include any analysis of urban or geographical
+                          features influencing team performance or strategies.
+  Query-DPR Reasoning:    The DPR is entirely unrelated to the user's query, focusing on a
+                          different sport, event, and type of analysis.
+  Query-Summary Reasoning: The summary is completely unrelated to the query, as it discusses team
+                          locations and stadiums during a tournament rather than cross-country
+                          athletes, their rankings, nationalities, finishing times, or Olympic
+                          participation history.
+
+  User Query: How can I get a list of cross-country athletes with their championship rankings, nationalities, and finishing times, along with their Olympic participation history, including the number of times they competed and their best positions, to analyze their career achievements and Olympic success?
+
+  Summary:
+    The data identifies the locations of teams and their corresponding
+    stadiums during the tournament, showing that América and Deportivo Cali
+    were based in Cali and played at Estadio Olímpico Pascual Guerrero,
+    Atlético Municipal and Independiente Medellín were based in Medellín and
+    played at Estadio San Fernando, and Deportes Caldas was based in
+    Manizales and played at Estadio Palogrande. While the evidence provides
+    team-city-stadium associations, it does not include information on urban
+    or geographical features that may have influenced team performance or
+    strategies.
+
+  Sub-Queries (2 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Team, Stadium FROM T99;
+
+  [2] SQL:
+        SELECT Team, City FROM T99;
+
+------------------------------------------------------------
+============================================================
+
+Rank #19  |  DPR: q2_11  |  Combined Score: 0.3337
+============================================================
+  Original DPR:
+    We request a data product that aggregates data from multiple
+    International Cross Country Championships from 1898 to 1933,
+    highlighting key factors that contributed to the success of
+    top-performing teams, including average time, nationality, and overall
+    ranking, to provide actionable insights for teams looking to optimize
+    their strategies and training to win future championships.
+
+  Coverage               0.0556
+  Complexity             0.2667
+  Diversity              0.8013
+  Surprisal              0.2467
+  Uniqueness             0.0000
+  LLM Quality            0.7500
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.0000
+
+  LLM Reasoning:          The DPR has clear analytical goals and multi-dimensional questions, but
+                          it is slightly vague in specifying how to aggregate data across multiple
+                          tables and does not fully align with the schema, as some key factors
+                          like 'overall ranking' and 'team-level insights' are not directly
+                          supported by the provided tables.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by mentioning rankings and
+                          nationality but fails to provide insights into average time or
+                          actionable factors contributing to team success.
+  Query-DPR Reasoning:    The DPR partially aligns by focusing on championship data, nationality,
+                          and rankings but misses key aspects like individual athlete details,
+                          Olympic participation history, and career achievements.
+  Query-Summary Reasoning: The summary is completely unrelated to the query, as it discusses team
+                          rankings and points in a competition rather than individual
+                          cross-country athletes, their championship rankings, nationalities,
+                          finishing times, or Olympic participation history.
+
+  User Query: How can I get a list of cross-country athletes with their championship rankings, nationalities, and finishing times, along with their Olympic participation history, including the number of times they competed and their best positions, to analyze their career achievements and Olympic success?
+
+  Summary:
+    The data highlights that in T83, the top-performing teams are ranked
+    based on points, with the highest-ranking team achieving 31 points and
+    subsequent ranks scoring 74, 117, 180, and 189 points, respectively.
+    While the average points for top-performing teams is noted as 215.7, no
+    information is available regarding their average time. Additionally,
+    France is identified as being associated with top rankings in this
+    competition. However, the evidence does not provide comprehensive
+    insights into all factors contributing to team success.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT AVG(Points) AS average_points FROM T83;
+
+  [2] SQL:
+        SELECT Rank, Team, Points FROM T83;
+
+  [3] SQL:
+        SELECT DISTINCT Country FROM T83 WHERE Rank = 1.0;
+
+------------------------------------------------------------
+============================================================
+
+Rank #20  |  DPR: q2_19  |  Combined Score: 0.3285
+============================================================
+  Original DPR:
+    We request a data product that aggregates data from multiple
+    International Cross Country Championships from 1898 to 1933,
+    highlighting key factors that contributed to the success of
+    top-performing teams in terms of nationality representation and average
+    time improvements, and providing actionable insights for teams looking
+    to optimize their strategies and training to win future championships.
+
+  Coverage               0.1111
+  Complexity             0.3333
+  Diversity              0.8024
+  Surprisal              0.2467
+  Uniqueness             0.0000
+  LLM Quality            0.5000
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.5000
+
+  LLM Reasoning:          The DPR demonstrates analytical intent but is poorly scoped, as it
+                          requests insights beyond the schema's capabilities, such as 'key
+                          factors' and 'actionable insights,' which are not directly derivable
+                          from the available tables.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by providing data on
+                          nationality representation and average performance times but fails to
+                          analyze key factors contributing to success or offer actionable insights
+                          for optimizing strategies and training.
+  Query-DPR Reasoning:    The DPR partially aligns by focusing on cross-country championships and
+                          nationality representation but misses key aspects like individual
+                          athlete rankings, finishing times, and Olympic participation history.
+  Query-Summary Reasoning: The summary partially addresses the query by mentioning rankings and
+                          nationalities but lacks details on individual athletes, finishing times,
+                          Olympic participation history, and career achievements.
+
+  User Query: How can I get a list of cross-country athletes with their championship rankings, nationalities, and finishing times, along with their Olympic participation history, including the number of times they competed and their best positions, to analyze their career achievements and Olympic success?
+
+  Summary:
+    The data highlights that France had the strongest representation among
+    top-ranked athletes, with 8 individuals contributing to their
+    first-place team ranking in T83, followed by England in second place,
+    Spain in third, Belgium in fourth, and Scotland in fifth. Average
+    performance times grouped by nationality show a significant difference,
+    with England averaging 37882.25 and France averaging 9736.375. While
+    these insights point to France's dominance and the potential impact of
+    nationality on team success, further details on factors influencing
+    performance and strategies remain unavailable in the provided evidence.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Nationality, AVG(CAST(REPLACE(REPLACE(Time, ':', '.'), '.', '') AS REAL)) AS Average_Time
+        FROM T5
+        GROUP BY Nationality;
+
+  [2] SQL:
+        SELECT Rank, Country, Team, Points FROM T83 ORDER BY Rank ASC;
+
+  [3] SQL:
+        SELECT Nationality, COUNT(*) AS Representation
+        FROM T5
+        GROUP BY Nationality
+        ORDER BY Representation DESC
+        LIMIT 1;
+
+------------------------------------------------------------
+============================================================
+

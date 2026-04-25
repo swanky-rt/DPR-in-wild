@@ -8,10 +8,12 @@ PASS 1  Per-query eval via run_eval_v3.run_pipeline()
                   Uniqueness, LLM Quality, DPR-Summary Relevance
         Combined score uses these 7 metrics (weights normalised to 1.0).
 
-PASS 2  Cross-query pool recomputation
-        Surprisal, Diversity and Uniqueness are recomputed across ALL 100
-        DPRs so that different queries' table combos contribute real signal.
-        Combined scores are recalculated after this pass.
+# PASS 2  Cross-query pool recomputation
+#         Diversity and Uniqueness are recomputed across ALL DPRs so that
+#         each DPR's score reflects how different it is from the full pool.
+#         Surprisal is NOT recomputed here — it is computed per-DPR in Pass 1
+#         using the beta-distribution method (final_summary as hypothesis).
+#         Combined scores are recalculated after this pass.
 
 PASS 3  Query-relevance enrichment  (display-only, NOT in combined score)
         Adds per-DPR:
@@ -42,7 +44,7 @@ Usage (from Stage-4/):
     python run_eval_all_queries.py \\
         --input_dir  ../stage-3/data/stage3_outputs/online_with_query \\
         --dpr_filename_pattern "Q*--online_stage3_output.json" \\
-        --output_dir output/online_eval \\
+        --output_dir output/online_eval_final \\
         --queries_file data/online_user_queries.json \\
         --llm_api_key  $LLM_API_KEY \\
         --llm_api_base $LLM_API_BASE \\
@@ -63,7 +65,7 @@ SCRIPT_DIR         = Path(__file__).resolve().parent
 DEFAULT_OUTPUT_DIR = SCRIPT_DIR / "output"
 
 sys.path.insert(0, str(SCRIPT_DIR))
-from run_eval_v3 import run_pipeline, compute_surprisal, compute_diversity, compute_uniqueness, _save_and_print
+from run_eval_v3 import run_pipeline, compute_surprisal_frequency, compute_diversity, compute_uniqueness, _save_and_print
 
 try:
     import requests
@@ -249,26 +251,27 @@ def write_stats_table(all_metrics, all_scores, path, title):
 
 def recompute_pool_metrics(all_output_data):
     """
-    Recompute Surprisal, Diversity and Uniqueness across ALL DPRs from ALL
-    queries, then recalculate the 7-metric combined_score and re-rank.
+    Recompute Diversity and Uniqueness across ALL DPRs from ALL queries,
+    then recalculate the 7-metric combined_score and re-rank.
 
-    Online pipeline generates all 20 DPRs from ONE cluster per query, so
-    every DPR in one file shares the same table combo → surprisal = 0.
-    Pooling across 5 queries gives 5 distinct combos → real signal.
+    Surprisal is NO LONGER recomputed here — it is now computed per-DPR
+    in run_pipeline() using the beta-distribution method (AutoDiscovery),
+    which uses each DPR's final_summary as hypothesis. It is independent
+    of pool composition, so cross-query pooling adds no value.
+
+    Diversity and Uniqueness still benefit from cross-query pooling because
+    they measure how different each DPR is from ALL other DPRs in the pool.
     """
-    print("\n[POST] Recomputing pool-wide metrics across ALL queries combined...")
+    print("\n[POST] Recomputing pool-wide metrics (Diversity, Uniqueness) across ALL queries...")
 
     flat = []
     for output, out_dir, stem in all_output_data:
         for r in output["ranked_dprs"]:
-            flat.append({"tables":   r.get("tables_used", []),
-                         "dpr_text": r.get("dpr_text", ""),
+            flat.append({"dpr_text": r.get("dpr_text", ""),
                          "_ref":     r})
 
     n = len(flat)
     print(f"      Pool size: {n} DPRs across {len(all_output_data)} queries")
-
-    new_surprisals = compute_surprisal(flat)
 
     texts = [r["dpr_text"] or "" for r in flat]
     if any(t.strip() for t in texts):
@@ -282,10 +285,9 @@ def recompute_pool_metrics(all_output_data):
 
     for i, rec in enumerate(flat):
         r = rec["_ref"]
-        r["metrics"]["surprisal"]  = round(float(new_surprisals[i]), 4)
         r["metrics"]["diversity"]  = round(float(new_diversity[i]),  4)
         r["metrics"]["uniqueness"] = float(new_uniqueness[i])
-        # Recalculate combined score with 7 metrics only
+        # surprisal already set per-DPR in Pass 1 — do not overwrite
         r["combined_score"] = round(
             sum(WEIGHTS[k] * r["metrics"].get(k, 0.0) for k in WEIGHTS), 4)
 
@@ -297,11 +299,10 @@ def recompute_pool_metrics(all_output_data):
             r["rank"] = rank
         output["ranked_dprs"] = ranked
 
-    surp_vals     = [r["_ref"]["metrics"]["surprisal"] for r in flat]
-    unique_combos = len(set(frozenset(r["tables"]) for r in flat))
-    print(f"      Unique table combos: {unique_combos}")
-    print(f"      Surprisal  min={min(surp_vals):.4f}  "
-          f"max={max(surp_vals):.4f}  mean={sum(surp_vals)/len(surp_vals):.4f}")
+    div_vals    = [rec["_ref"]["metrics"]["diversity"]  for rec in flat]
+    uniq_count  = sum(1 for rec in flat if rec["_ref"]["metrics"]["uniqueness"] == 1.0)
+    print(f"      Diversity  min={min(div_vals):.4f}  max={max(div_vals):.4f}  mean={sum(div_vals)/len(div_vals):.4f}")
+    print(f"      Unique DPRs: {uniq_count}/{n}")
     return all_output_data
 
 

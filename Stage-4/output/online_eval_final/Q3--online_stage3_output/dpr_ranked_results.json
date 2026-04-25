@@ -1,0 +1,2368 @@
+{
+  "summary": {
+    "total_dprs": 20,
+    "total_ranked": 20,
+    "unique_count": 16,
+    "multi_table_count": 20,
+    "llm_model": "gpt4o",
+    "llm_api_base": "https://thekeymaker.umass.edu/v1",
+    "weights_used": {
+      "coverage": 0.2143,
+      "complexity": 0.1429,
+      "diversity": 0.1429,
+      "surprisal": 0.1429,
+      "uniqueness": 0.1429,
+      "llm_quality": 0.1071,
+      "summary_relevance": 0.1071
+    },
+    "formulas": {
+      "coverage": "|tables_used \u2229 ground_truth| / |ground_truth|",
+      "complexity": "mean(multi_table, join, agg, subquery, multi_entity)",
+      "diversity": "1 - avg_cosine_sim(DPR_i, all other DPRs)",
+      "surprisal": "-log P(tables_used) / log(|all_tables|)",
+      "uniqueness": "1 if no near-duplicate (cosine > 0.85), else 0",
+      "llm_scores": "GPT-4 scores: 0 / 0.5 / 0.75 / 1.0"
+    }
+  },
+  "ranked_dprs": [
+    {
+      "rank": 1,
+      "dpr_id": "q3_2",
+      "combined_score": 0.6251,
+      "dpr_text": "Request a data product that reveals the evolution of \\\"Weird Al\\\" Yankovic's roles in the entertainment industry by comparing the title, role, and year distribution across the three tables in his dataset, highlighting notable shifts and correlations between these attributes over time.",
+      "tables_used": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "ground_truth": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data reveals that \"Weird Al\" Yankovic is associated with the title \"The Weird Al Show\" and the role \"Himself / various,\" specifically in 1997. Additionally, his roles are distributed across the years 1983, 1987, 1988, 1989, and 1991, with varying frequencies, but no further titles, roles, or years are identified. The evidence does not indicate notable correlations or shifts between title, role, and year, and information for other years or roles is not provided.",
+      "metrics": {
+        "coverage": 0.3333,
+        "complexity": 0.6667,
+        "complexity_breakdown": {
+          "multi_table": 1.0,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 1.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8379,
+        "surprisal": 0.4334,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR has clear analytical goals and aligns well with the schema, but it could be more precise in defining notable shifts and correlations.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by listing some titles, roles, and years, but it fails to analyze the evolution, notable shifts, or correlations between these attributes over time as requested.",
+        "query_dpr_relevance": 0.0,
+        "query_dpr_reasoning": "The DPR focuses exclusively on \"Weird Al\" Yankovic's roles, which is unrelated to the user's request for a broad dataset of movies from various years and countries to analyze financial performance and trends.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary is completely unrelated to the query, as it focuses on 'Weird Al' Yankovic's roles and years rather than providing a list of movies with detailed financial and personnel information for comparison."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "Are there notable correlations between title, role, and year for 'Weird Al' Yankovic in T1, T2, and T3?",
+          "sql": "SELECT Year, Title, Role \nFROM T1 \nWHERE LOWER(Role) LIKE LOWER('%weird al%') \n   OR LOWER(Title) LIKE LOWER('%weird al%')\nUNION ALL\nSELECT Year, Title, Role \nFROM T2 \nWHERE LOWER(Role) LIKE LOWER('%weird al%') \n   OR LOWER(Title) LIKE LOWER('%weird al%')\nUNION ALL\nSELECT Year, Title, Role \nFROM T3 \nWHERE LOWER(Role) LIKE LOWER('%weird al%') \n   OR LOWER(Title) LIKE LOWER('%weird al%');",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows one instance in 1997 where \"Weird Al\" Yankovic had the title \"The Weird Al Show\" and the role \"Himself / various.\" The result set does not show notable correlations between title, role, and year.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What is the distribution of years for 'Weird Al' Yankovic's roles in T1, T2, and T3?",
+          "sql": "SELECT Year, COUNT(*) AS Role_Count\nFROM (\n    SELECT Year FROM T1\n    UNION ALL\n    SELECT Year FROM T2\n    UNION ALL\n    SELECT Year FROM T3\n)\nGROUP BY Year\nORDER BY Year;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows the distribution of years for 'Weird Al' Yankovic's roles as 1983, 1987, 1988, 1989, and 1991, with role counts of 1, 1, 2, 1, and 1 respectively. The result set does not show information for any other years or roles.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.8,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 35
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What titles and roles are associated with 'Weird Al' Yankovic in T1, T2, and T3?",
+          "sql": "SELECT Title, Role \nFROM T1 \nWHERE LOWER(Title) LIKE LOWER('%weird al%') OR LOWER(Role) LIKE LOWER('%weird al%')\nUNION\nSELECT Title, Role \nFROM T2 \nWHERE LOWER(Title) LIKE LOWER('%weird al%') OR LOWER(Role) LIKE LOWER('%weird al%')\nUNION\nSELECT Title, Role \nFROM T3 \nWHERE LOWER(Title) LIKE LOWER('%weird al%') OR LOWER(Role) LIKE LOWER('%weird al%');",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that \"Weird Al\" Yankovic is associated with the title \"The Weird Al Show\" and the role \"Himself / various.\" The result set does not show any other titles, roles, or year information.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 2,
+            "rows_returned": 1
+          }
+        }
+      ],
+      "user_query": "I need a list of movies from different years and countries, including details like title, director, studio, revenue, and rankings, as well as the people involved like writers, composers, and actors, so I can compare their financial performance and identify key trends and personnel."
+    },
+    {
+      "rank": 2,
+      "dpr_id": "q3_11",
+      "combined_score": 0.5531,
+      "dpr_text": "Generate a data product that contrasts \"Weird Al\" Yankovic's roles in film and music projects across different decades, using the tables on his roles, film releases, and musical compositions to highlight any intriguing disparities and correlations between his creative works and the broader entertainment industry landscape.",
+      "tables_used": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "ground_truth": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The evidence indicates that \"Weird Al\" Yankovic played the role of \"Himself / various\" in \"The Weird Al Show,\" with no additional roles or decades represented in the available data. This limited scope suggests that further information would be needed to fully contrast his contributions to film and music projects across different time periods.",
+      "metrics": {
+        "coverage": 0.3333,
+        "complexity": 0.3333,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.3333,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8548,
+        "surprisal": 0.4334,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR shows analytical intent but is vague and poorly scoped, as it does not clearly define how to use the schema tables to contrast roles or analyze correlations.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning a role in 'The Weird Al Show,' but it fails to analyze or contrast his film and music contributions across decades or explore correlations with the entertainment industry.",
+        "query_dpr_relevance": 0.0,
+        "query_dpr_reasoning": "The DPR focuses exclusively on 'Weird Al' Yankovic's roles and creative works, which is unrelated to the user's request for a broad analysis of movies from different years and countries with financial and personnel details.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary is completely unrelated to the user's query, as it focuses on a specific actor's role in a TV show rather than providing a list of movies with detailed financial and personnel information."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What compositions by 'Weird Al' Yankovic appear in T9 and what are their associated dates?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What revenue and admissions data exist for films featuring 'Weird Al' Yankovic in T8 and T10?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What roles did 'Weird Al' Yankovic play in films across different decades in T1, T2, and T3?",
+          "sql": "SELECT Year, Title, Role \nFROM T1 \nWHERE LOWER(Title) LIKE LOWER('%weird al%') OR LOWER(Role) LIKE LOWER('%weird al%')\nUNION ALL\nSELECT Year, Title, Role \nFROM T2 \nWHERE LOWER(Title) LIKE LOWER('%weird al%') OR LOWER(Role) LIKE LOWER('%weird al%')\nUNION ALL\nSELECT Year, Title, Role \nFROM T3 \nWHERE LOWER(Title) LIKE LOWER('%weird al%') OR LOWER(Role) LIKE LOWER('%weird al%');",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that in 1997, \"Weird Al\" Yankovic played the role of \"Himself / various\" in \"The Weird Al Show.\" The result set does not show any other roles or decades.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 2,
+            "rows_returned": 1
+          }
+        }
+      ],
+      "user_query": "I need a list of movies from different years and countries, including details like title, director, studio, revenue, and rankings, as well as the people involved like writers, composers, and actors, so I can compare their financial performance and identify key trends and personnel."
+    },
+    {
+      "rank": 3,
+      "dpr_id": "q3_13",
+      "combined_score": 0.5516,
+      "dpr_text": "Generate a data product that highlights the intersections between the musical compositions listed in the \"1955 in music\" and \"1964 in music\" tables and \"Weird Al\" Yankovic's film career, exploring any intriguing coincidences or patterns that may exist between his music and film roles and the prominent movies of 1954, 1957, and 1974.",
+      "tables_used": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "ground_truth": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The available data highlights compositions such as \"Mimusique No. 2\" by Luciano Berio and \"Viola Concerto\" by Boris Blacher but does not specify their connection to the years 1955 or 1964. Additionally, it is noted that 'Weird Al' Yankovic portrayed \"Himself / various\" in films, though the specific titles of these films are not provided. As a result, the intersections between these compositions, Yankovic's film roles, and prominent movies from other years remain unclear due to the limitations in the evidence.",
+      "metrics": {
+        "coverage": 0.3333,
+        "complexity": 0.3333,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.3333,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8437,
+        "surprisal": 0.4334,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR shows analytical intent but is poorly scoped, as it combines unrelated datasets and lacks clarity on measurable goals.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning compositions and 'Weird Al' Yankovic's film roles but fails to explore intersections, intriguing coincidences, or patterns as requested.",
+        "query_dpr_relevance": 0.0,
+        "query_dpr_reasoning": "The DPR focuses on intersections between music compositions and Weird Al's career, which is entirely unrelated to the user's request for movie data to analyze financial performance and trends.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary is completely unrelated to the query, as it discusses compositions and film roles without addressing the requested list of movies, financial details, or personnel trends."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What compositions from 1955 and 1964 appear in T9, and who are the composers?",
+          "sql": "SELECT Composition, Composer\nFROM T9\nWHERE Date LIKE '1955%' OR Date LIKE '1964%';",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show which compositions from 1955 and 1964 appear, as no years are provided. It lists compositions such as \"Mimusique No. 2\" by Luciano Berio and \"Viola Concerto\" by Boris Blacher, among others.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 20
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What roles did 'Weird Al' Yankovic play in films listed in T1 or T2?",
+          "sql": "SELECT Role \nFROM T1 \nWHERE Title LIKE '%Weird Al%' \nUNION \nSELECT Role \nFROM T2 \nWHERE Title LIKE '%Weird Al%';",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that 'Weird Al' Yankovic played the role of \"Himself / various\" in films. The result set does not show which specific films these roles are associated with.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "Which films from 1954, 1957, and 1974 are listed in T1 or T2, and what are their titles?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        }
+      ],
+      "user_query": "I need a list of movies from different years and countries, including details like title, director, studio, revenue, and rankings, as well as the people involved like writers, composers, and actors, so I can compare their financial performance and identify key trends and personnel."
+    },
+    {
+      "rank": 4,
+      "dpr_id": "q3_12",
+      "combined_score": 0.5508,
+      "dpr_text": "Generate a data product that reveals the specific attributes and factors that contribute to \"Weird Al\" Yankovic's career success, leveraging the intersections between his roles in the entertainment industry and the financial performance of films listed in the provided tables, excluding previously generated DPRs.",
+      "tables_used": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "ground_truth": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The evidence indicates that 'Weird Al' Yankovic played the role of \"Himself / various\" in \"The Weird Al Show,\" but no additional information is provided regarding other roles he may have undertaken in films. This limits the ability to fully analyze the intersections between his entertainment career and the financial performance of films, as the data does not encompass broader aspects of his contributions or roles beyond this specific show.",
+      "metrics": {
+        "coverage": 0.3333,
+        "complexity": 0.3333,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.3333,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8382,
+        "surprisal": 0.4334,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR shows analytical intent but is vague in defining measurable goals and poorly scoped relative to the schema provided.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning 'Weird Al' Yankovic's role in 'The Weird Al Show,' but it fails to analyze the intersections between his entertainment career and the financial performance of films, which is the core analytical goal of the request.",
+        "query_dpr_relevance": 0.0,
+        "query_dpr_reasoning": "The DPR focuses exclusively on 'Weird Al' Yankovic's career success, which is unrelated to the user's request for a broad analysis of movies from different years and countries to compare financial performance and identify trends and personnel.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary is completely unrelated to the user's query, as it focuses on 'Weird Al' Yankovic's role in a TV show rather than providing a list of movies with the requested details."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What roles has 'Weird Al' Yankovic played in films listed in T1, T2, or T3?",
+          "sql": "SELECT Title, Role \nFROM T1 \nWHERE LOWER(Title) LIKE LOWER('%weird al%') OR LOWER(Role) LIKE LOWER('%weird al%')\nUNION\nSELECT Title, Role \nFROM T2 \nWHERE LOWER(Title) LIKE LOWER('%weird al%') OR LOWER(Role) LIKE LOWER('%weird al%')\nUNION\nSELECT Title, Role \nFROM T3 \nWHERE LOWER(Title) LIKE LOWER('%weird al%') OR LOWER(Role) LIKE LOWER('%weird al%');",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that 'Weird Al' Yankovic played the role of \"Himself / various\" in \"The Weird Al Show.\" The result set does not show information about any other roles he may have played in films.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 2,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "Which studios produced films in T10 or T8 where 'Weird Al' Yankovic contributed to their financial success?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What is the domestic gross of films in T13 where 'Weird Al' Yankovic is credited?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        }
+      ],
+      "user_query": "I need a list of movies from different years and countries, including details like title, director, studio, revenue, and rankings, as well as the people involved like writers, composers, and actors, so I can compare their financial performance and identify key trends and personnel."
+    },
+    {
+      "rank": 5,
+      "dpr_id": "q3_8",
+      "combined_score": 0.546,
+      "dpr_text": "Generate a data product that identifies notable correlations and patterns between \"Weird Al\" Yankovic's roles in the entertainment industry and the financial performance of films listed in the provided tables, highlighting key attributes and factors that contribute to his career success and the film industry's financial landscape evolution.",
+      "tables_used": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "ground_truth": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data indicates that 'Weird Al' Yankovic consistently portrayed the role of \"Himself / various\" across the films analyzed. While this provides insight into the type of roles he undertook, the evidence does not include information on correlations between these roles and the financial performance of the films, nor does it highlight specific attributes or factors contributing to his career success or broader trends in the film industry's financial landscape.",
+      "metrics": {
+        "coverage": 0.3333,
+        "complexity": 0.3333,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.3333,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.805,
+        "surprisal": 0.4334,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR shows analytical intent but is vague and poorly scoped, as it does not clearly define measurable goals or align well with the schema provided.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning 'Weird Al' Yankovic's roles but fails to analyze correlations with financial performance, key attributes of his success, or broader industry trends.",
+        "query_dpr_relevance": 0.0,
+        "query_dpr_reasoning": "The DPR focuses exclusively on 'Weird Al' Yankovic's roles and their correlations with financial performance, which is unrelated to the user's broader request for a comparative analysis of movies from different years and countries with detailed personnel and financial data.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary is completely unrelated to the query, as it focuses on 'Weird Al' Yankovic's roles rather than providing a list of movies with details like title, director, studio, revenue, rankings, and personnel for financial comparison and trend analysis."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What is the revenue and admissions data for films in T8 and T10 where 'Weird Al' Yankovic is credited?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What roles did 'Weird Al' Yankovic play in films listed in T1, T2, or T3?",
+          "sql": "SELECT Role \nFROM T1 \nWHERE LOWER(Title) LIKE LOWER('%weird al%')\nUNION\nSELECT Role \nFROM T2 \nWHERE LOWER(Title) LIKE LOWER('%weird al%')\nUNION\nSELECT Role \nFROM T3 \nWHERE LOWER(Title) LIKE LOWER('%weird al%');",
+          "summary_source": "stage3_output",
+          "mini_summary": "'Weird Al' Yankovic played the role of \"Himself / various\" in the films listed.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "Which studios produced films featuring 'Weird Al' Yankovic and their domestic gross in T13?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        }
+      ],
+      "user_query": "I need a list of movies from different years and countries, including details like title, director, studio, revenue, and rankings, as well as the people involved like writers, composers, and actors, so I can compare their financial performance and identify key trends and personnel."
+    },
+    {
+      "rank": 6,
+      "dpr_id": "q3_6",
+      "combined_score": 0.5385,
+      "dpr_text": "Generate a data product that reveals disparate roles and projects across \"Weird Al\" Yankovic's dataset, contrasting the title, role, and year distribution between the tables, highlighting notable differences and correlations between these attributes that can be leveraged to understand the artist's career trajectory and creative patterns over time.",
+      "tables_used": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "ground_truth": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data highlights year distributions for roles spanning 1988 to 1996 from one source, while another source associates 'Weird Al' Yankovic with the title \"The Weird Al Show,\" the role \"Himself / various,\" and the year 1997. However, no information is provided about roles or year distributions beyond these specific instances, leaving gaps in understanding the broader scope of his career trajectory and creative patterns.",
+      "metrics": {
+        "coverage": 0.2222,
+        "complexity": 0.4,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.3333,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8523,
+        "surprisal": 0.4334,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR demonstrates analytical intent by seeking to contrast roles, titles, and years, but it is vague and poorly scoped given the schema, as it does not clearly specify how to handle the overlapping columns across multiple tables or leverage the additional attributes effectively.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning year distributions and roles but fails to highlight notable differences, correlations, or provide insights into career trajectory and creative patterns.",
+        "query_dpr_relevance": 0.0,
+        "query_dpr_reasoning": "The DPR focuses on 'Weird Al' Yankovic's career and creative patterns, which is entirely unrelated to the user's request for a comparative analysis of movies from different years and countries.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary is completely unrelated to the user's query, as it does not provide any information about movies, their details, or financial performance trends."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "How do the year distributions of 'Weird Al' Yankovic's roles differ between T1 and T2?",
+          "sql": "SELECT \n    Year, \n    COUNT(*) AS Role_Count, \n    'T1' AS Source \nFROM \n    T1 \nGROUP BY \n    Year \nUNION ALL \nSELECT \n    Year, \n    COUNT(*) AS Role_Count, \n    'T2' AS Source \nFROM \n    T2 \nGROUP BY \n    Year;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows year distributions for roles in 1988, 1989, 1991, 1994, and 1996 from one source (T1), but it does not provide any information about roles or year distributions from T2.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.8,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 30
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What titles, roles, and years are associated with 'Weird Al' Yankovic in T1?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What titles, roles, and years are associated with 'Weird Al' Yankovic in T2?",
+          "sql": "SELECT Title, Role, Year \nFROM T2 \nWHERE LOWER(Title) LIKE LOWER('%weird al%') OR LOWER(Notes) LIKE LOWER('%weird al%');",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that 'Weird Al' Yankovic is associated with the title \"The Weird Al Show,\" the role \"Himself / various,\" and the year 1997.0.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 2,
+            "rows_returned": 1
+          }
+        }
+      ],
+      "user_query": "I need a list of movies from different years and countries, including details like title, director, studio, revenue, and rankings, as well as the people involved like writers, composers, and actors, so I can compare their financial performance and identify key trends and personnel."
+    },
+    {
+      "rank": 7,
+      "dpr_id": "q3_9",
+      "combined_score": 0.5366,
+      "dpr_text": "Generate a data product that highlights the most significant revenue and admissions disparities between films released in the 1950s and 1970s, using tables that provide revenue and admissions data to reveal insights into the changing financial landscape of the film industry over time.",
+      "tables_used": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "ground_truth": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data highlights disparities in revenue and admissions across different countries, with notable variations such as France, Italy, and the United Kingdom showing significant admissions figures despite no recorded revenue, while India stands out with substantial revenue alongside high admissions. Countries like Japan report neither revenue nor admissions, and Germany shows high admissions without revenue. However, the evidence does not provide details on the time periods or the range of years associated with these figures, limiting insights into temporal trends.",
+      "metrics": {
+        "coverage": 0.2222,
+        "complexity": 0.2,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 1.0,
+          "subquery": 0.0,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8514,
+        "surprisal": 0.4334,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional intent, but it lacks precision in specifying how to handle disparities and does not fully align with the schema, as relevant tables like T8 and T10 are not explicitly leveraged in the request.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses disparities in revenue and admissions but fails to focus on the 1950s and 1970s or provide insights into the changing financial landscape over time, which are key analytical goals of the DPR.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by addressing financial performance over time but misses key aspects like personnel details, rankings, and broader trends across multiple years and countries.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary does not address the user's request for a detailed list of movies, personnel, and financial performance comparisons across years and countries."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the Revenue and Admissions values for films in T8 grouped by Production_country?",
+          "sql": "SELECT Production_country, \n       CAST(REPLACE(REPLACE(REPLACE(Revenue, '$', ''), ',', ''), ' ', '') AS REAL) AS Revenue, \n       CAST(REPLACE(REPLACE(Admissions, ',', ''), ' ', '') AS REAL) AS Admissions\nFROM T8\nGROUP BY Production_country;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The Revenue and Admissions values grouped by Production_country are as follows: France (Revenue: 0.0, Admissions: 6986788.0), India (Revenue: 6090000.0, Admissions: 0.0), Italy (Revenue: 0.0, Admissions: 13170322.0), Japan (Revenue: 0.0, Admissions: 0.0), and United Kingdom (Revenue: 0.0, Admissions: 12200000.0).",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 6
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What are the Revenue and Admissions values for films in T10 grouped by Country?",
+          "sql": "SELECT Country, \n       CAST(REPLACE(REPLACE(REPLACE(Revenue, '$', ''), ',', ''), ' ', '') AS REAL) AS Revenue, \n       CAST(REPLACE(REPLACE(Admissions, ',', ''), ' ', '') AS REAL) AS Admissions\nFROM T10\nGROUP BY Country;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The Revenue and Admissions values grouped by Country in the result set are as follows: France (Revenue: 0.0, Admissions: 13,481,750.0), Germany (Revenue: 0.0, Admissions: 14,500,000.0), India (Revenue: 16,800,000.0, Admissions: 100,000,000.0), Italy (Revenue: 0.0, Admissions: 16,800,000.0), and Japan (Revenue: 0.0, Admissions: 0.0).",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 8
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What is the range of Year values available in T8?",
+          "sql": "SELECT MIN(CAST(Admissions AS REAL)) AS Min_Admissions, MAX(CAST(Admissions AS REAL)) AS Max_Admissions\nFROM T8\nWHERE Admissions NOT LIKE 'N/A' AND Admissions GLOB '[0-9]*';",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show the range of Year values available in T8. It only provides information about Min_Admissions and Max_Admissions.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 0.5,
+            "n_attempts": 2,
+            "rows_returned": 1
+          }
+        }
+      ],
+      "user_query": "I need a list of movies from different years and countries, including details like title, director, studio, revenue, and rankings, as well as the people involved like writers, composers, and actors, so I can compare their financial performance and identify key trends and personnel."
+    },
+    {
+      "rank": 8,
+      "dpr_id": "q3_5",
+      "combined_score": 0.5297,
+      "dpr_text": "Generate a data product that tells a story of how \"Weird Al\" Yankovic's film career intersects with the major films of 1954, 1957, and 1974, highlighting any intriguing coincidences or patterns that may exist between the artist's roles and the prominent movies of each year.",
+      "tables_used": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "ground_truth": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The available evidence indicates that 'Weird Al' Yankovic played the role of \"Himself / various\" in films, but no details are provided about the specific years or titles of these films. As a result, the connection between his film career and major films from particular years remains unclear due to the limitations of the provided information.",
+      "metrics": {
+        "coverage": 0.2222,
+        "complexity": 0.3333,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.3333,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8573,
+        "surprisal": 0.4334,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR has some analytical intent but is vague and poorly scoped, as it does not clearly define measurable goals or fully align with the schema context provided.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary acknowledges 'Weird Al' Yankovic's film roles but fails to analyze or connect them to the major films of 1954, 1957, and 1974 as requested in the DPR.",
+        "query_dpr_relevance": 0.0,
+        "query_dpr_reasoning": "The DPR focuses on 'Weird Al' Yankovic's film career and specific years, which is unrelated to the user's request for a broad analysis of movies across years and countries with financial and personnel details.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary is completely unrelated to the query, as it focuses on 'Weird Al' Yankovic's roles without addressing the requested list of movies, details, or financial analysis."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "Are there any shared titles or studios between 'Weird Al' Yankovic's films and major films from those years?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 0.6667,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What roles did 'Weird Al' Yankovic play in films listed in T1 or T2?",
+          "sql": "SELECT Role \nFROM T1 \nWHERE Title LIKE '%Weird Al%' \nUNION \nSELECT Role \nFROM T2 \nWHERE Title LIKE '%Weird Al%';",
+          "summary_source": "stage3_output",
+          "mini_summary": "'Weird Al' Yankovic played the role of \"Himself / various\" in films listed in the result set. The result set does not show any information about the years or specific films associated with these roles.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "Which titles from 1954, 1957, and 1974 appear in T1 or T2?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        }
+      ],
+      "user_query": "I need a list of movies from different years and countries, including details like title, director, studio, revenue, and rankings, as well as the people involved like writers, composers, and actors, so I can compare their financial performance and identify key trends and personnel."
+    },
+    {
+      "rank": 9,
+      "dpr_id": "q3_16",
+      "combined_score": 0.5289,
+      "dpr_text": "Generate a data product that reveals the intersections between Weird Al's film and music projects across different decades, highlighting any intriguing disparities and correlations between his creative works and the broader entertainment industry landscape, specifically excluding any previously generated DPRs that focused on his career trajectory or the film industry's financial evolution.",
+      "tables_used": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "ground_truth": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "Weird Al's creative projects, as evidenced by the provided titles and years, span from 1988 to a range ending in 2014-17, encompassing appearances in productions such as \"30 Rock,\" \"@ midnight,\" \"Al's Brain,\" \"Celebrity Name Game,\" and \"Comedy Bang! Bang!\" across various periods. While these works reflect his involvement in both film and television, the evidence does not provide detailed insights into intersections between his music and film projects or broader correlations with the entertainment industry, leaving certain aspects of the analysis incomplete.",
+      "metrics": {
+        "coverage": 0.2222,
+        "complexity": 0.3333,
+        "complexity_breakdown": {
+          "multi_table": 0.6667,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.6667,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8516,
+        "surprisal": 0.4334,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR shows analytical intent by seeking intersections and correlations, but it is vague, overly broad, and poorly scoped given the schema context.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary mentions Weird Al's projects but fails to analyze intersections between his music and film works or their correlations with the broader entertainment industry, which are key goals of the DPR.",
+        "query_dpr_relevance": 0.0,
+        "query_dpr_reasoning": "The DPR focuses on Weird Al's projects and their correlations with the entertainment industry, which is entirely unrelated to the user's request for a broad analysis of movies from different years and countries with detailed financial and personnel data.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary is completely unrelated to the user's query, as it focuses on Weird Al's projects rather than providing a list of movies with detailed financial and personnel information for comparison."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "Which Singles and Artists in T12 are linked to Weird Al?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What range of Year values appears in T1 and T2 for Weird Al's projects?",
+          "sql": "SELECT MIN(Year) AS Min_Year, MAX(Year) AS Max_Year\nFROM (\n    SELECT Year, Role FROM T1\n    UNION ALL\n    SELECT Year, Role FROM T2\n)\nWHERE Role LIKE '%Himself%' OR Role LIKE '%George Newman%';",
+          "summary_source": "stage3_output",
+          "mini_summary": "The range of Year values for Weird Al's projects shown in the result set spans from 1988.0 to \"2014-17\".",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 0.5,
+            "n_attempts": 2,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What Titles in T1 and T2 are associated with Weird Al across different Years?",
+          "sql": "SELECT Title, Year \nFROM T1 \nWHERE LOWER(Role) LIKE '%himself%'\nUNION\nSELECT Title, Year \nFROM T2 \nWHERE LOWER(Role) LIKE '%himself%';",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that Weird Al is associated with the titles \"30 Rock\" (2012), \"@ midnight\" (2014), \"Al's Brain\" (2009), \"Celebrity Name Game\" (2014-17), and \"Comedy Bang! Bang!\" (2012-16) across different years. No other titles or years are provided in the result set.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 2,
+            "rows_returned": 18
+          }
+        }
+      ],
+      "user_query": "I need a list of movies from different years and countries, including details like title, director, studio, revenue, and rankings, as well as the people involved like writers, composers, and actors, so I can compare their financial performance and identify key trends and personnel."
+    },
+    {
+      "rank": 10,
+      "dpr_id": "q3_3",
+      "combined_score": 0.5243,
+      "dpr_text": "Generate a data product that reveals strategic patterns and correlations between successful films and projects listed in the provided tables, highlighting key attributes and factors that contribute to their success.",
+      "tables_used": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "ground_truth": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "Paramount leads in international market revenue, achieving the highest recorded figure among the data. Directors Mehboob Khan, Grigori Roshal, and David Lean are each linked to one high-revenue film, though the evidence does not clarify which director is most frequently associated with such successes overall. Domestically, \"Blazing Saddles\" and \"The Towering Inferno\" rank as the top films by gross revenue, but further strategic patterns or correlations between successful films and projects remain unclear due to limited data.",
+      "metrics": {
+        "coverage": 0.3333,
+        "complexity": 0.1333,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.6667,
+          "subquery": 0.0,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.853,
+        "surprisal": 0.4334,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR has analytical intent but is vague and poorly scoped, as it does not clearly define measurable goals or align well with the schema provided.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary provides some data points about revenue and directors but fails to reveal strategic patterns or correlations between successful films and projects as requested in the DPR.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by focusing on patterns and correlations of successful films but misses key details like specific personnel, financial performance, and comprehensive movie attributes requested by the user.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary partially addresses the query by mentioning revenue and directors but lacks comprehensive details on movies, years, countries, personnel, and trends for comparison."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "Which studios in T8 have the highest Revenue across International_markets?",
+          "sql": "SELECT Studio, MAX(CAST(REPLACE(REPLACE(REPLACE(Revenue, '$', ''), ',', ''), ' ', '') AS REAL)) AS Max_Revenue\nFROM T8\nWHERE Revenue NOT LIKE 'N/A'\nGROUP BY Studio\nORDER BY Max_Revenue DESC\nLIMIT 1;",
+          "summary_source": "stage3_output",
+          "mini_summary": "Paramount has the highest Revenue across International_markets, with a Max_Revenue of 36,764,313.0.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What are the most frequent Directors associated with high Revenue films in T10?",
+          "sql": "SELECT Director, COUNT(*) AS film_count\nFROM T10\nWHERE CAST(REPLACE(REPLACE(REPLACE(Revenue, '$', ''), ',', ''), ' ', '') AS REAL) > 0\nGROUP BY Director\nORDER BY film_count DESC;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that Mehboob Khan, Grigori Roshal, and David Lean are each associated with one high-revenue film. The result set does not show which director is the most frequent overall.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 3
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What are the top-ranked films by Domestic_gross in T13?",
+          "sql": "SELECT Title, Studio, CAST(REPLACE(REPLACE(REPLACE(Domestic_gross, '$', ''), ',', ''), ' ', '') AS REAL) AS Domestic_gross\nFROM T13\nORDER BY Domestic_gross DESC\nLIMIT 10;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The top-ranked films by Domestic_gross in the result set are \"Blazing Saddles\" with $119,500,000 and \"The Towering Inferno\" with $116,000,000.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 10
+          }
+        }
+      ],
+      "user_query": "I need a list of movies from different years and countries, including details like title, director, studio, revenue, and rankings, as well as the people involved like writers, composers, and actors, so I can compare their financial performance and identify key trends and personnel."
+    },
+    {
+      "rank": 11,
+      "dpr_id": "q3_18",
+      "combined_score": 0.5162,
+      "dpr_text": "Generate a data product that reveals the most significant revenue and admissions disparities between films released in the 1950s and 1970s, leveraging the provided tables to highlight key attributes and factors that contribute to the changing financial landscape of the film industry over time, while excluding previously generated DPRs that focused on Weird Al's career trajectory or the film industry's financial evolution.",
+      "tables_used": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "ground_truth": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data highlights revenue and admissions totals grouped by production country, revealing significant disparities. India leads with the highest revenue and admissions, while France, Italy, and the United Kingdom show substantial admissions without corresponding revenue, and Japan records no revenue or admissions. The evidence does not provide year-specific data for comparisons between the 1950s and 1970s, limiting insights into temporal trends or factors influencing financial shifts in the film industry.",
+      "metrics": {
+        "coverage": 0.2222,
+        "complexity": 0.2667,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 0.6667,
+          "subquery": 0.3333,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8296,
+        "surprisal": 0.4334,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR has analytical intent but is poorly scoped, as it does not clearly align with the schema's available columns and tables for the requested analysis.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by discussing revenue and admissions disparities by country but fails to compare the 1950s and 1970s or analyze factors influencing financial shifts over time.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by focusing on financial performance and trends but misses key aspects like including movies from various years and countries, as well as detailed personnel information.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary partially addresses the query by discussing revenue and admissions by country but lacks specific movie details, personnel information, and year-based comparisons requested by the user."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the Revenue and Admissions totals for films in T8 grouped by Production_country?",
+          "sql": "SELECT Production_country, \n       SUM(CAST(REPLACE(REPLACE(REPLACE(Revenue, '$', ''), ',', ''), ' ', '') AS REAL)) AS Total_Revenue, \n       SUM(CAST(REPLACE(REPLACE(Admissions, ',', ''), ' ', '') AS REAL)) AS Total_Admissions\nFROM T8\nGROUP BY Production_country;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows the Revenue and Admissions totals grouped by Production_country as follows: France (Revenue: 0.0, Admissions: 6,986,788.0), India (Revenue: 23,060,000.0, Admissions: 100,000,000.0), Italy (Revenue: 0.0, Admissions: 13,170,322.0), Japan (Revenue: 0.0, Admissions: 0.0), and United Kingdom (Revenue: 0.0, Admissions: 12,200,000.0).",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 6
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "Which films in T8 have the highest Revenue and Admissions disparities between markets?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 0.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What is the range of Year values in T1 and T8?",
+          "sql": "SELECT MIN(Year) AS Min_Year_T1, MAX(Year) AS Max_Year_T1 \nFROM T1\nUNION ALL\nSELECT MIN(Year) AS Min_Year_T8, MAX(Year) AS Max_Year_T8 \nFROM (\n    SELECT CAST(Admissions AS REAL) AS Year FROM T8 WHERE Admissions GLOB '[0-9]*'\n);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that the range of Year values in T1 includes 1988.0 to 2017.0 and 3.0 to 100.0. The result set does not show any Year values for T8.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 0.5,
+            "n_attempts": 2,
+            "rows_returned": 2
+          }
+        }
+      ],
+      "user_query": "I need a list of movies from different years and countries, including details like title, director, studio, revenue, and rankings, as well as the people involved like writers, composers, and actors, so I can compare their financial performance and identify key trends and personnel."
+    },
+    {
+      "rank": 12,
+      "dpr_id": "q3_4",
+      "combined_score": 0.5055,
+      "dpr_text": "Generate a data product that reveals the revenue and admissions distribution across films released in 1954, 1957, and 1974, highlighting key correlations and patterns between these metrics that can be leveraged to understand the evolution of the film industry's financial landscape over time.",
+      "tables_used": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "ground_truth": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The available data includes Revenue and Admissions values for several films, with some entries marked as \"N/A.\" Revenue figures range from \"$ 6,090,000\" to \"$ 27,200,000,\" while Admissions values span from \"6,986,788\" to \"100,000,000.\" However, the dataset does not specify the years associated with these films or provide information about production countries. Additionally, there is no indication of the range of years or broader trends in Admissions metrics, limiting the ability to analyze temporal patterns or correlations between Revenue and Admissions.",
+      "metrics": {
+        "coverage": 0.2222,
+        "complexity": 0.2,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.3333,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8212,
+        "surprisal": 0.4334,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR has analytical intent but is poorly scoped, as it does not align well with the schema context, which lacks comprehensive temporal or evolutionary data across the specified years.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning Revenue and Admissions data but fails to analyze or highlight correlations, patterns, or temporal trends across the specified years, which are key analytical goals of the request.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by focusing on revenue and admissions distribution, but it misses key aspects like personnel details, rankings, and broader trends across multiple years and countries.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary partially addresses the query by mentioning revenue and admissions data but lacks critical details like movie titles, directors, studios, countries, years, rankings, and personnel involved."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the Revenue and Admissions values for films in T8 with Production_country data for 1954, 1957, and 1974?",
+          "sql": "SELECT Revenue, Admissions \nFROM T8 \nWHERE Production_country IN ('France', 'Germany', 'India');",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set provides Revenue and Admissions values for three films, but it does not specify the years 1954, 1957, or 1974, nor does it include Production_country data. The Revenue values are \"N/A,\" \"$ 6,090,000,\" and \"$ 16,970,000,\" while the Admissions values are \"6,986,788,\" \"N/A,\" and \"100,000,000.\"",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 3
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What are the Revenue and Admissions values for films released in 1954, 1957, and 1974 in T10?",
+          "sql": "SELECT Revenue, Admissions\nFROM T10\nWHERE Title IN (\n    \"The Bridge on the River Kwai\", \n    \"Mother India\"\n);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set provides Revenue and Admissions values, but it does not specify the years 1954, 1957, or 1974. The Revenue values include \"$ 16,800,000\" and \"$ 27,200,000,\" while the Admissions values range from \"12,600,000\" to \"100,000,000,\" with some Revenue values marked as \"N/A.\"",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 0.5,
+            "n_attempts": 2,
+            "rows_returned": 5
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What range of Year values appears in T10 and T8 to confirm coverage for 1954, 1957, and 1974?",
+          "sql": "SELECT MIN(CAST(Admissions AS REAL)) AS Min_Admissions, MAX(CAST(Admissions AS REAL)) AS Max_Admissions\nFROM (\n    SELECT Admissions FROM T10\n    UNION ALL\n    SELECT Admissions FROM T8\n) subquery\nWHERE Admissions IS NOT NULL AND Admissions != \"N/A\";",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show any information about the range of Year values in T10 and T8. It only provides data on Min_Admissions and Max_Admissions.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 0.5,
+            "n_attempts": 2,
+            "rows_returned": 1
+          }
+        }
+      ],
+      "user_query": "I need a list of movies from different years and countries, including details like title, director, studio, revenue, and rankings, as well as the people involved like writers, composers, and actors, so I can compare their financial performance and identify key trends and personnel."
+    },
+    {
+      "rank": 13,
+      "dpr_id": "q3_7",
+      "combined_score": 0.4873,
+      "dpr_text": "Generate a data product that highlights the musical connections and influences across \"Weird Al\" Yankovic's film and music projects, utilizing the tables on his roles, film releases, and musical compositions to reveal patterns and correlations between his creative works and the broader entertainment industry landscape.",
+      "tables_used": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "ground_truth": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "'Weird Al' Yankovic's film roles include portrayals of \"Himself\" on two occasions, as well as characters named \"George Newman\" and \"Police Station Thug.\" The available evidence provides insight into specific roles but does not directly address broader connections or influences across his film and music projects.",
+      "metrics": {
+        "coverage": 0.1111,
+        "complexity": 0.2,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8607,
+        "surprisal": 0.4334,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR has analytical intent but is vague and poorly scoped, as it does not clearly define how the provided tables will be used to establish connections and correlations.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary provides details on 'Weird Al' Yankovic's film roles but fails to explore the connections and influences between his film and music projects or their broader industry context, which are key analytical goals of the DPR.",
+        "query_dpr_relevance": 0.0,
+        "query_dpr_reasoning": "The DPR focuses exclusively on 'Weird Al' Yankovic's projects and their musical connections, which is unrelated to the user's request for a broad analysis of movies from different years and countries with financial and personnel details.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary is completely unrelated to the user's query, as it discusses 'Weird Al' Yankovic's film roles instead of providing a list of movies with detailed financial and personnel information."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What studios and revenue figures are associated with films featuring 'Weird Al' Yankovic in T10?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What roles did 'Weird Al' Yankovic play in films listed in T1?",
+          "sql": "SELECT Role \nFROM T1 \nWHERE Title LIKE '%UHF%' OR Title LIKE '%The Naked Gun%' OR Title LIKE '%Tapeheads%';",
+          "summary_source": "stage3_output",
+          "mini_summary": "'Weird Al' Yankovic played the roles of \"Himself\" (twice), \"George Newman,\" and \"Police Station Thug\" in the films listed.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 2,
+            "rows_returned": 4
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "Which compositions in T9 are attributed to 'Weird Al' Yankovic?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        }
+      ],
+      "user_query": "I need a list of movies from different years and countries, including details like title, director, studio, revenue, and rankings, as well as the people involved like writers, composers, and actors, so I can compare their financial performance and identify key trends and personnel."
+    },
+    {
+      "rank": 14,
+      "dpr_id": "q3_1",
+      "combined_score": 0.4862,
+      "dpr_text": "Generate a comparison of the revenue and admissions data for films released in 1954, 1957, and 1974, exploring trends and correlations between these key financial metrics.",
+      "tables_used": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "ground_truth": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The available data does not include information for films released in 1954, 1957, or 1974, making it impossible to analyze trends or correlations between revenue and admissions for those years. Instead, the data is limited to revenue and admissions figures for the films \"Awaara\" and \"Rear Window,\" which do not align with the specified years of interest.",
+      "metrics": {
+        "coverage": 0.1111,
+        "complexity": 0.0,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.0,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8658,
+        "surprisal": 0.4334,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR has clear analytical goals and explores trends and correlations, but it lacks precision in specifying how to handle data across multiple relevant tables.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary acknowledges the lack of data for the specified years but fails to explore alternative trends or correlations, partially addressing the DPR without fulfilling its analytical goals.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by addressing financial performance but misses key aspects like personnel details, rankings, and broader year and country comparisons.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary does not address the user's request for a detailed list of movies with specific information about titles, directors, studios, revenue, rankings, and personnel."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What trends or correlations exist between revenue and admissions for films in T8 across these years?",
+          "sql": "SELECT \n    Film, \n    CAST(REPLACE(REPLACE(REPLACE(Revenue, '$', ''), ',', ''), ' ', '') AS REAL) AS Revenue_numeric, \n    CAST(REPLACE(REPLACE(Admissions, ',', ''), ' ', '') AS REAL) AS Admissions_numeric\nFROM \n    T8\nWHERE \n    Revenue != 'N/A' AND Admissions != 'N/A';",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show data for films released in 1954, 1957, or 1974, so trends or correlations between revenue and admissions across these years cannot be determined. It only provides revenue and admissions data for the films \"Awaara\" and \"Rear Window.\"",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 2
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What are the revenue and admissions values for films released in 1954, 1957, and 1974 in T8?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 0.3333,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        }
+      ],
+      "user_query": "I need a list of movies from different years and countries, including details like title, director, studio, revenue, and rankings, as well as the people involved like writers, composers, and actors, so I can compare their financial performance and identify key trends and personnel."
+    },
+    {
+      "rank": 15,
+      "dpr_id": "q3_19",
+      "combined_score": 0.4859,
+      "dpr_text": "Generate a data product that reveals the correlation between the number of \"Notable films\" (or a similar attribute) in each year and the corresponding revenue and admissions data for films released in 1954, 1957, and 1974, highlighting any notable trends or patterns that may exist between these attributes and the film industry's financial landscape over time.",
+      "tables_used": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "ground_truth": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The available data includes revenue and admissions figures for specific films but lacks information connecting these values to the years 1954, 1957, or 1974, making it impossible to identify trends over time. Admissions values range from 13,481,750 to 100,000,000, while revenue figures include \"$ 16,800,000\" and \"$ 27,200,000,\" with some entries marked as \"N/A.\" The absence of year-specific details limits the ability to analyze correlations or patterns related to the film industry's financial landscape across the specified years.",
+      "metrics": {
+        "coverage": 0.2222,
+        "complexity": 0.0667,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.3333,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8177,
+        "surprisal": 0.4334,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR shows analytical intent but is vague about how 'Notable films' is defined and poorly scoped given the schema's lack of a clear attribute to identify 'Notable films' or directly link it to the requested correlations.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary acknowledges the lack of necessary data to address the DPR but fails to provide any analysis or insights related to the requested correlations or trends.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by addressing financial performance and trends but misses key aspects like comprehensive details on movies, personnel, and a broader range of years and countries requested by the user.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary provides some financial data but lacks comprehensive details on movies, personnel, and trends across different years and countries as requested."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "Are there trends in revenue and admissions data for films in T8 across these years?",
+          "sql": "SELECT Film, Studio, \n       CAST(REPLACE(REPLACE(REPLACE(Revenue, '$', ''), ',', ''), ' ', '') AS REAL) AS Revenue_numeric, \n       CAST(REPLACE(REPLACE(Admissions, ',', ''), ' ', '') AS REAL) AS Admissions_numeric\nFROM T8\nWHERE Revenue IS NOT NULL OR Admissions IS NOT NULL\nORDER BY Film;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show revenue and admissions data across the years 1954, 1957, and 1974, as no year information is provided. It only lists revenue and admissions data for specific films without indicating trends over time.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 0.5,
+            "n_attempts": 2,
+            "rows_returned": 9
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What are the revenue and admissions values for films in T10 released in 1954, 1957, and 1974?",
+          "sql": "SELECT Revenue, Admissions \nFROM T10 \nWHERE Title IN (\n    SELECT Title \n    FROM T10 \n    WHERE Country IN ('France', 'Germany', 'India')\n);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set provides revenue and admissions values but does not specify the years 1954, 1957, or 1974. The admissions values listed are 13,481,750; 14,500,000; 100,000,000; 12,600,000; and 54,400,000, while the revenue values include \"$ 16,800,000\" and \"$ 27,200,000,\" with others marked as \"N/A.\"",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 0.5,
+            "n_attempts": 2,
+            "rows_returned": 5
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "How many films are listed for each year in T1 for 1954, 1957, and 1974?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        }
+      ],
+      "user_query": "I need a list of movies from different years and countries, including details like title, director, studio, revenue, and rankings, as well as the people involved like writers, composers, and actors, so I can compare their financial performance and identify key trends and personnel."
+    },
+    {
+      "rank": 16,
+      "dpr_id": "q3_14",
+      "combined_score": 0.4546,
+      "dpr_text": "Generate a data product that reveals the top 5 revenue-generating films of 1954, 1957, and 1974, leveraging the tables that provide revenue and admissions data to highlight the most significant financial achievements of each year and contrast the dominant trends and patterns in the film industry's financial landscape over time.",
+      "tables_used": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "ground_truth": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The available data highlights that \"Mother India\" achieved admissions of 100,000,000 and revenue of $16,800,000, but it does not provide admissions figures for the top revenue-generating films in 1954, 1957, or 1974. Additionally, there is no information on trends in revenue and admissions across these years, as the evidence is limited to specific films and countries without broader year-specific context.",
+      "metrics": {
+        "coverage": 0.1111,
+        "complexity": 0.0,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.0,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8316,
+        "surprisal": 0.4334,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR has analytical intent but is poorly scoped, as it does not clearly align with the schema tables that contain relevant revenue and admissions data.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning revenue and admissions data for a specific film but fails to identify the top 5 revenue-generating films for the specified years or analyze trends and patterns in the film industry's financial landscape.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by focusing on revenue and trends but misses key aspects like personnel details, rankings, and broader year and country coverage.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary provides limited information about specific films and revenue but lacks comprehensive details on personnel, trends, and comparisons across years and countries as requested."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the admissions figures for the top 5 films by revenue in T10 for 1954, 1957, and 1974?",
+          "sql": "SELECT Admissions, Revenue, Title\nFROM T10\nWHERE Country IN ('France', 'Germany', 'India') \n  AND CAST(REPLACE(REPLACE(REPLACE(Revenue, '$', ''), ',', ''), ' ', '') AS REAL) > 0\nORDER BY CAST(REPLACE(REPLACE(REPLACE(Revenue, '$', ''), ',', ''), ' ', '') AS REAL) DESC\nLIMIT 5;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that \"Mother India\" had admissions of 100,000,000 and revenue of $16,800,000. The result set does not show admissions figures for the top 5 films by revenue in 1954, 1957, or 1974.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 0.5,
+            "n_attempts": 2,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What trends in revenue and admissions emerge across 1954, 1957, and 1974 in T10?",
+          "sql": "SELECT \n    Country, \n    Title, \n    CAST(REPLACE(REPLACE(REPLACE(Revenue, '$', ''), ',', ''), ' ', '') AS REAL) AS Revenue, \n    CAST(REPLACE(Admissions, ',', '') AS REAL) AS Admissions \nFROM \n    T10 \nWHERE \n    CAST(REPLACE(REPLACE(REPLACE(Revenue, '$', ''), ',', ''), ' ', '') AS REAL) IS NOT NULL \n    OR CAST(REPLACE(Admissions, ',', '') AS REAL) IS NOT NULL;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show trends in revenue and admissions across 1954, 1957, and 1974, as no year-specific data is provided. It only includes admissions and revenue figures for specific films in certain countries.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 0.5,
+            "n_attempts": 2,
+            "rows_returned": 8
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What are the top 5 films by revenue for 1954, 1957, and 1974 in T10?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 0.3333,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        }
+      ],
+      "user_query": "I need a list of movies from different years and countries, including details like title, director, studio, revenue, and rankings, as well as the people involved like writers, composers, and actors, so I can compare their financial performance and identify key trends and personnel."
+    },
+    {
+      "rank": 17,
+      "dpr_id": "q3_10",
+      "combined_score": 0.3875,
+      "dpr_text": "Generate a data product that tells a story of how \"Weird Al\" Yankovic's film career intersects with the major films of 1954, 1957, and 1974, highlighting any intriguing coincidences or patterns that may exist between the artist's roles and the prominent movies of each year, while excluding previously generated DPRs.",
+      "tables_used": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "ground_truth": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The evidence indicates that 'Weird Al' Yankovic is credited with playing the role of \"Himself / various\" in films, but no details are provided about the specific years or titles of these films. As a result, connections to major films from particular years cannot be determined based on the available information.",
+      "metrics": {
+        "coverage": 0.2222,
+        "complexity": 0.3333,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.3333,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8625,
+        "surprisal": 0.4334,
+        "uniqueness": 0.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR has analytical intent but is vague and poorly scoped, as it does not clearly define how to connect 'Weird Al' Yankovic's film career with the major films of specific years using the provided schema.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary acknowledges 'Weird Al' Yankovic's film roles but fails to analyze or connect them to the major films of 1954, 1957, and 1974 as requested in the DPR.",
+        "query_dpr_relevance": 0.0,
+        "query_dpr_reasoning": "The DPR focuses on 'Weird Al' Yankovic's film career and specific years, which is entirely unrelated to the user's request for a broad dataset of movies, personnel, and financial trends for comparative analysis.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary is completely unrelated to the user's query, as it focuses on 'Weird Al' Yankovic's roles without addressing the requested list of movies, details, or financial comparisons."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "Are there shared studios between 'Weird Al' Yankovic's films and major films from 1954, 1957, and 1974 in T8 or T10?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What roles did 'Weird Al' Yankovic play in films listed in T1 or T2?",
+          "sql": "SELECT Role \nFROM T1 \nWHERE Title LIKE '%Weird Al%' \nUNION \nSELECT Role \nFROM T2 \nWHERE Title LIKE '%Weird Al%';",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that 'Weird Al' Yankovic played the role of \"Himself / various\" in films listed. The result set does not show any information about the years or specific films from T1 or T2.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "Which titles from 1954, 1957, and 1974 appear in T1 or T2?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        }
+      ],
+      "user_query": "I need a list of movies from different years and countries, including details like title, director, studio, revenue, and rankings, as well as the people involved like writers, composers, and actors, so I can compare their financial performance and identify key trends and personnel."
+    },
+    {
+      "rank": 18,
+      "dpr_id": "q3_17",
+      "combined_score": 0.378,
+      "dpr_text": "Generate a data product that highlights the connections between Weird Al's film career and musical compositions listed in the \"1955 in music\" and \"1964 in music\" tables, leveraging the intersections and disparities between his music and film roles, and the prominent movies of 1954, 1957, and 1974, to reveal intriguing coincidences and patterns that may exist between his creative works and the broader entertainment industry landscape.",
+      "tables_used": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "ground_truth": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The evidence does not establish any direct connection between Weird Al's film career and the musical compositions listed, as no films or roles beyond \"Himself / various\" in \"The Weird Al Show\" are identified, and none of the compositions mentioned are attributed to him. This leaves gaps in exploring intersections between his creative works and the broader entertainment landscape.",
+      "metrics": {
+        "coverage": 0.3333,
+        "complexity": 0.1333,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.3333,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8295,
+        "surprisal": 0.4334,
+        "uniqueness": 0.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR shows analytical intent but is overly vague and poorly scoped, with unclear connections to the provided schema context.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by noting the lack of direct connections but fails to explore intersections, disparities, or patterns as requested.",
+        "query_dpr_relevance": 0.0,
+        "query_dpr_reasoning": "The DPR focuses on Weird Al's career and specific years in music and film, which is entirely unrelated to the user's request for a broad analysis of movies from different years and countries with financial and personnel details.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary is completely unrelated to the query, as it discusses Weird Al's career instead of providing a list of movies with the requested details."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What roles did Weird Al play in films listed in T1 and T2?",
+          "sql": "SELECT Title, Role \nFROM T1 \nWHERE LOWER(Title) LIKE LOWER('%weird al%') OR LOWER(Role) LIKE LOWER('%weird al%')\nUNION\nSELECT Title, Role \nFROM T2 \nWHERE LOWER(Title) LIKE LOWER('%weird al%') OR LOWER(Role) LIKE LOWER('%weird al%');",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show any films listed in T1 or T2, nor does it specify roles Weird Al played in such films. It only mentions that he played \"Himself / various\" in \"The Weird Al Show.\"",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 2,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "Which compositions from 1955 and 1964 in T9 are attributed to Weird Al?",
+          "sql": "SELECT DISTINCT Composition \nFROM T9 \nWHERE (Date LIKE '1955%' OR Date LIKE '1964%');",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show any compositions from 1955 or 1964 attributed to Weird Al. It lists compositions such as \"Mimusique No. 2,\" \"Viola Concerto,\" \"Meditation on a Theme by John Blow (orchestral),\" \"Violin Concerto,\" and \"Le Marteau sans ma\u00eetre.\"",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 2,
+            "rows_returned": 20
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What are the prominent movies from 1954, 1957, and 1974 in T1 and T2?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        }
+      ],
+      "user_query": "I need a list of movies from different years and countries, including details like title, director, studio, revenue, and rankings, as well as the people involved like writers, composers, and actors, so I can compare their financial performance and identify key trends and personnel."
+    },
+    {
+      "rank": 19,
+      "dpr_id": "q3_20",
+      "combined_score": 0.3559,
+      "dpr_text": "Generate a data product that reveals the intersections and disparities between Weird Al's film and music projects across different decades, highlighting any intriguing correlations and patterns that may exist between his creative works and the broader entertainment industry landscape, while excluding previously generated DPRs that focused on his career trajectory or the film industry's financial evolution.",
+      "tables_used": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "ground_truth": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data highlights Weird Al's involvement in a range of entertainment projects, including \"30 Rock,\" \"@ midnight,\" \"Al's Brain,\" \"Celebrity Name Game,\" and \"Comedy Bang! Bang!\" While these titles suggest a diverse engagement across television and other media, the evidence does not provide further details on intersections with his music projects, broader industry patterns, or additional works, leaving some aspects of the analysis incomplete.",
+      "metrics": {
+        "coverage": 0.2222,
+        "complexity": 0.1333,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.3333,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8412,
+        "surprisal": 0.4334,
+        "uniqueness": 0.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR shows analytical intent but is vague and poorly scoped, with unclear connections to the provided schema and overly broad goals.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary mentions Weird Al's involvement in various projects but fails to analyze intersections with his music, disparities across decades, or correlations with the broader entertainment industry, which are key goals of the DPR.",
+        "query_dpr_relevance": 0.0,
+        "query_dpr_reasoning": "The DPR focuses on Weird Al's projects and their correlations, which is entirely unrelated to the user's request for a broad analysis of movies from different years and countries with financial and personnel details.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary is completely unrelated to the query, as it discusses Weird Al's entertainment projects instead of providing a list of movies with detailed information for comparison."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "Which Studios in T8 and T13 produced films linked to Weird Al and their Revenue or Domestic_gross?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What Singles and Artists in T12 are connected to Weird Al's music projects?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What Titles in T1 and T2 are associated with Weird Al across different Years?",
+          "sql": "SELECT Title, Year \nFROM T1 \nWHERE LOWER(Role) LIKE '%himself%'\nUNION\nSELECT Title, Year \nFROM T2 \nWHERE LOWER(Role) LIKE '%himself%';",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that Weird Al is associated with the titles \"30 Rock\" (2012), \"@ midnight\" (2014), \"Al's Brain\" (2009), \"Celebrity Name Game\" (2014-17), and \"Comedy Bang! Bang!\" (2012-16). No other titles or years are provided in the rows.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 2,
+            "rows_returned": 18
+          }
+        }
+      ],
+      "user_query": "I need a list of movies from different years and countries, including details like title, director, studio, revenue, and rankings, as well as the people involved like writers, composers, and actors, so I can compare their financial performance and identify key trends and personnel."
+    },
+    {
+      "rank": 20,
+      "dpr_id": "q3_15",
+      "combined_score": 0.3373,
+      "dpr_text": "Generate a data product that highlights the intriguing intersections and disparities between Weird Al's film and music projects across different decades, using the tables on his roles, film releases, and musical compositions to reveal patterns and correlations between his creative works and the broader entertainment industry landscape.",
+      "tables_used": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "ground_truth": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "Weird Al's creative output includes musical compositions such as \"Cello Concerto\" and \"Symphony No. 2, Mysterious Mountain,\" as well as acting roles in films where he portrayed characters like \"Himself,\" \"George Newman,\" and \"Police Station Thug\" during specific years. However, the available evidence does not provide a comprehensive view of his works across all decades or explore broader patterns and correlations between his music and film projects.",
+      "metrics": {
+        "coverage": 0.2222,
+        "complexity": 0.0,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.0,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.844,
+        "surprisal": 0.4334,
+        "uniqueness": 0.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR shows analytical intent but is vague and poorly scoped, as it does not clearly define how to use the schema tables to address the intersections and disparities between Weird Al's film and music projects.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary mentions some of Weird Al's works but fails to analyze intersections, disparities, or patterns across decades as requested in the DPR.",
+        "query_dpr_relevance": 0.0,
+        "query_dpr_reasoning": "The DPR focuses exclusively on Weird Al's projects and their intersections, which is unrelated to the user's request for a broad analysis of movies from different years and countries with financial and personnel details.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary is completely unrelated to the query, as it focuses on Weird Al's creative output and acting roles rather than providing a list of movies with details like title, director, studio, revenue, rankings, and personnel from different years and countries."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What compositions by Weird Al are listed in T9, and what are their associated dates?",
+          "sql": "SELECT Composition, Date\nFROM T9\nWHERE LOWER(Composer) LIKE '%weird%' OR LOWER(Composer) LIKE '%al%';",
+          "summary_source": "stage3_output",
+          "mini_summary": "The compositions by Weird Al listed are \"Cello Concerto\" with the date \"1955-07-19\" and \"Symphony No. 2, Mysterious Mountain\" with the date \"1955-10-31\".",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 2,
+            "rows_returned": 2
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "Which films featuring Weird Al are in T10, and what are their revenue and admissions figures?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What roles did Weird Al play in films across different decades in T1?",
+          "sql": "SELECT Year, Title, Role \nFROM T1 \nWHERE Role IS NOT NULL;",
+          "summary_source": "stage3_output",
+          "mini_summary": "Weird Al played the roles of \"Himself\" in films released in 1988 and 1994, \"George Newman\" in 1989, and \"Police Station Thug\" in 1991. The result set does not show any roles he played in films outside these years.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 2,
+            "rows_returned": 17
+          }
+        }
+      ],
+      "user_query": "I need a list of movies from different years and countries, including details like title, director, studio, revenue, and rankings, as well as the people involved like writers, composers, and actors, so I can compare their financial performance and identify key trends and personnel."
+    }
+  ]
+}
