@@ -1,0 +1,15 @@
+  Average metrics for Q5--offline_stage3_output (20 DPRs)
+
+  Metric                         Min       Max      Mean  Note
+  ------------------------  --------  --------  --------  --------------------
+  Coverage                    0.0000    1.0000    0.4256  
+  Complexity                  0.0000    0.6667    0.3400  
+  Diversity                   0.8821    0.9267    0.9053  
+  Surprisal                   0.6198    0.6557    0.6306  
+  Uniqueness                  1.0000    1.0000    1.0000  
+  LLM Quality                 0.5000    0.7500    0.5500  
+  DPR-Summary Rel.            0.0000    0.5000    0.4500  
+  Query-DPR Rel.              0.0000    1.0000    0.5250  [display only]
+  Query-Summary Rel.          0.0000    0.5000    0.2750  [display only]
+  ------------------------  --------  --------  --------
+  Combined Score              0.4653    0.8024    0.6093

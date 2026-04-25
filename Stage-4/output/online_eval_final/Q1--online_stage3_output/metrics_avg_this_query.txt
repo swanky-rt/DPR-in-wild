@@ -1,0 +1,15 @@
+  Average metrics for Q1--online_stage3_output (20 DPRs)
+
+  Metric                         Min       Max      Mean  Note
+  ------------------------  --------  --------  --------  --------------------
+  Coverage                    0.3333    1.0000    0.9000  
+  Complexity                  0.0000    0.4667    0.2900  
+  Diversity                   0.7683    0.8765    0.8271  
+  Surprisal                   0.4334    0.4334    0.4334  
+  Uniqueness                  0.0000    1.0000    0.9000  
+  LLM Quality                 0.5000    1.0000    0.6250  
+  DPR-Summary Rel.            0.0000    0.5000    0.4750  
+  Query-DPR Rel.              0.0000    0.5000    0.1250  [display only]
+  Query-Summary Rel.          0.0000    0.5000    0.1250  [display only]
+  ------------------------  --------  --------  --------
+  Combined Score              0.5226    0.7364    0.6609

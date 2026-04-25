@@ -1,0 +1,2395 @@
+{
+  "summary": {
+    "total_dprs": 20,
+    "total_ranked": 20,
+    "unique_count": 20,
+    "multi_table_count": 20,
+    "llm_model": "gpt4o",
+    "llm_api_base": "https://thekeymaker.umass.edu/v1",
+    "weights_used": {
+      "coverage": 0.2143,
+      "complexity": 0.1429,
+      "diversity": 0.1429,
+      "surprisal": 0.1429,
+      "uniqueness": 0.1429,
+      "llm_quality": 0.1071,
+      "summary_relevance": 0.1071
+    },
+    "formulas": {
+      "coverage": "|tables_used \u2229 ground_truth| / |ground_truth|",
+      "complexity": "mean(multi_table, join, agg, subquery, multi_entity)",
+      "diversity": "1 - avg_cosine_sim(DPR_i, all other DPRs)",
+      "surprisal": "-log P(tables_used) / log(|all_tables|)",
+      "uniqueness": "1 if no near-duplicate (cosine > 0.85), else 0",
+      "llm_scores": "GPT-4 scores: 0 / 0.5 / 0.75 / 1.0"
+    }
+  },
+  "ranked_dprs": [
+    {
+      "rank": 1,
+      "dpr_id": "6_v3",
+      "combined_score": 0.7596,
+      "dpr_text": "Compile a dataset enabling analysis of track and field performance trends across 10,000m and 100m events to support strategic decisions on talent development, competition scheduling, and training optimization by correlating top performers' achievements, record-breaking patterns, and geographic/nationality-based success factors.",
+      "tables_used": [
+        "T22",
+        "T23",
+        "T24"
+      ],
+      "ground_truth": [
+        "T22",
+        "T23",
+        "T24"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The dataset provides information on athletes' times but does not specify top performers for particular events, leaving gaps in identifying standout individuals in specific competitions. Record-breaking performances are noted to have occurred in Antalya, Barakaldo, Beijing, Berlin, and Brussels, though further details about these achievements are not included. Additionally, the nationality distribution of record-breaking athletes highlights representation from Cuba, Jamaica, and the United States, with the majority being from the United States. However, the dataset lacks comprehensive details necessary for deeper analysis of performance trends across events.",
+      "metrics": {
+        "coverage": 1.0,
+        "complexity": 0.3333,
+        "complexity_breakdown": {
+          "multi_table": 0.6667,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.6667,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8879,
+        "surprisal": 0.6578,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but it is slightly mismatched to the schema, as it assumes data on record-breaking patterns and nationality-based success factors that are only partially supported by the provided tables.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning record-breaking patterns and nationality distribution but fails to provide comprehensive details on top performers, performance trends, and correlations needed for strategic analysis."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the top-performing athletes and their times in T22 and T23?",
+          "sql": "SELECT Athlete, Time \nFROM T22 \nUNION \nSELECT Athlete, Time \nFROM T23;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show which athletes are the top performers specifically in T22 and T23. It only lists athletes and their times without specifying the table or event they belong to.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 40
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What is the nationality distribution of athletes in T24 who broke records?",
+          "sql": "SELECT Nationality, COUNT(*) AS count\nFROM T24\nGROUP BY Nationality;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The nationality distribution of athletes who broke records includes 1 from Cuba, 1 from Jamaica, and 7 from the United States.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 3
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "Which locations in T22 and T23 have hosted record-breaking performances?",
+          "sql": "SELECT DISTINCT Location \nFROM T22 \nWHERE Time LIKE '%:%'\nUNION\nSELECT DISTINCT Location \nFROM T23 \nWHERE Time LIKE '%:%';",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that record-breaking performances have occurred in Antalya, Barakaldo, Beijing, Berlin, and Brussels. The result set does not show any additional details about these performances.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 22
+          }
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "dpr_id": "2",
+      "combined_score": 0.6774,
+      "dpr_text": "Compile data from multiple legislative assemblies across British Columbia, Manitoba, and Puerto Rico, spanning different time periods, to compare and contrast electoral district distributions, political party representation, and legislative composition trends, enabling analysis of regional and chronological shifts in political alignment and geographic representation.",
+      "tables_used": [
+        "T4",
+        "T18",
+        "T30",
+        "T31",
+        "T50",
+        "T58",
+        "T60",
+        "T61",
+        "T62"
+      ],
+      "ground_truth": [
+        "T4",
+        "T18",
+        "T30",
+        "T31",
+        "T50",
+        "T58",
+        "T60",
+        "T61",
+        "T62"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "Electoral district distributions and political party representation vary across regions and contexts, with districts such as Emerson, Winnipeg South, Beautiful Plains, Morris, and Winnipeg Centre reflecting specific political events or appointments in Manitoba during 1900. Additionally, districts labeled \"At-large,\" \"District 11,\" \"District 15,\" and \"District 16\" are associated with parties like PNP and PPD, though further details on their geographic or chronological trends are not provided. Political parties represented across the data include Conservative, Liberal, Liberal-Conservative, NDP, and Social Credit, but the evidence does not specify their alignment with particular districts or broader legislative composition trends, leaving gaps in understanding regional and temporal shifts.",
+      "metrics": {
+        "coverage": 0.6667,
+        "complexity": 0.4667,
+        "complexity_breakdown": {
+          "multi_table": 0.6667,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.6667,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8317,
+        "surprisal": 0.5056,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but the scope is broad and lacks precise alignment with the schema context.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning electoral districts, political parties, and some regional details, but it lacks comprehensive analysis of trends, regional comparisons, and chronological shifts as requested."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "Which electoral districts appear in T31 along with their election dates and reasons for member changes?",
+          "sql": "SELECT Electoral_district, Election_date, Reason\nFROM T31;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The electoral districts that appear are Emerson (January 30, 1900, D. H. McFadden ran for reelection upon appointment as Provincial Secretary and Minister of Public Works), Winnipeg South (January 30, 1900, HJ Macdonald ran for reelection upon becoming Premier), Beautiful Plains (March 10, 1900, RC Ennis resigned seat), Morris (October 29, 1900, C. H. Campbell ran for reelection upon appointment as Attorney-General), and Winnipeg Centre (November 1, 1900, DH McMillan named lieutenant-governor for Manitoba).",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 11
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What districts and political parties are listed in T61 and T62 for comparison?",
+          "sql": "SELECT District, Political_party \nFROM T61 \nUNION \nSELECT District, Political_party \nFROM T62;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The districts listed in T61 and T62 are \"At-large,\" \"District 11,\" \"District 15,\" and \"District 16.\" The political parties mentioned are \"PNP\" and \"PPD.\"",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 22
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What political parties are represented in T18, T30, and T50 across all electoral districts?",
+          "sql": "SELECT DISTINCT Party FROM T18\nUNION\nSELECT DISTINCT Party FROM T30\nUNION\nSELECT DISTINCT Party FROM T50;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The political parties represented are Conservative, Liberal, Liberal-Conservative, NDP, and Social Credit. The result set does not show which specific electoral districts or tables (T18, T30, T50) these parties are associated with.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 5
+          }
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "dpr_id": "1_v3",
+      "combined_score": 0.6723,
+      "dpr_text": "Compile a dataset enabling analysis of historical revenue, admissions, chart positions, and creative roles (e.g., \"Weird Al\" Yankovic's film/music contributions) to identify trends in audience engagement and financial returns, supporting data-driven decisions for film/music investments, marketing strategies, and talent collaboration opportunities.",
+      "tables_used": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "ground_truth": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The dataset includes revenue and admissions figures for select films, such as \"Awaara\" and \"Mother India,\" both with admissions of 100,000,000 and revenues of $16,970,000 and $16,800,000, respectively, though data for other titles is incomplete. Rankings and domestic gross earnings are provided for top films, including \"Blazing Saddles\" at rank 1 with $119,500,000 and \"Earthquake\" at rank 5 with $79,666,653. Additionally, creative contributions are detailed for roles associated with specific titles, such as appearances as \"Himself\" in multiple films and as \"George Newman\" in \"UHF,\" but broader trends in audience engagement and financial returns may require more comprehensive data.",
+      "metrics": {
+        "coverage": 0.6667,
+        "complexity": 0.4667,
+        "complexity_breakdown": {
+          "multi_table": 0.6667,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.6667,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8845,
+        "surprisal": 0.4166,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but its scope is somewhat vague and not fully aligned with the schema, as some requested data (e.g., chart positions, creative roles) lacks direct representation in the provided tables.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary provides some relevant data points on revenue, admissions, rankings, and creative roles, but it lacks comprehensive coverage and trend analysis required to fully address the DPR's analytical goals."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the Revenue and Admissions values for each Title in T10 and T8?",
+          "sql": "SELECT Title, Revenue, Admissions \nFROM T10 \nUNION \nSELECT Film AS Title, Revenue, Admissions \nFROM T8;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows the Revenue and Admissions for \"Awaara\" as \"$ 16,970,000\" and \"100,000,000,\" and for \"Mother India\" as \"$ 16,800,000\" and \"100,000,000.\" The Revenue and Admissions values for other Titles in T10 and T8 are not fully provided.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 17
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What are the Rank and Domestic_gross values for each Title in T13?",
+          "sql": "SELECT Rank, Domestic_gross, Title \nFROM T13;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The Rank and Domestic_gross values for each Title in the result set are as follows: \"Blazing Saddles\" (Rank: 1.0, Domestic_gross: $119,500,000), \"The Towering Inferno\" (Rank: 2.0, Domestic_gross: $116,000,000), \"The Trial of Billy Jack\" (Rank: 3.0, Domestic_gross: $89,000,000), \"Young Frankenstein\" (Rank: 4.0, Domestic_gross: $86,273,333), and \"Earthquake\" (Rank: 5.0, Domestic_gross: $79,666,653).",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 10
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What Roles and Titles are associated with creative contributions in T1, T2, and T3?",
+          "sql": "SELECT Year, Title, Role \nFROM T1\nUNION ALL\nSELECT Year, Title, Role \nFROM T2\nUNION ALL\nSELECT Year, Title, Role \nFROM T3;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The roles and titles associated with creative contributions in the result set are: \"Himself\" in \"Tapeheads\" (1988), \"Himself\" in \"The Naked Gun: From the Files of Police Squad!\" (1988), \"George Newman\" in \"UHF\" (1989), \"Police Station Thug\" in \"The Naked Gun 2\u00bd: The Smell of Fear\" (1991), and \"Himself\" in \"Naked Gun 33\u2153: The Final Insult\" (1994).",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 57
+          }
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "dpr_id": "3",
+      "combined_score": 0.6526,
+      "dpr_text": "Compile longitudinal data from the International Cross Country Championships between 1898 and 1933, comparing athlete performance trends across nationalities, team standings, and race times to identify correlations between geographic regions and competitive success over time.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The available data highlights team standings for one event, with France achieving first place, followed by England, Spain, Belgium, and Scotland, but does not provide information on how these rankings change over time or include other countries beyond those listed. While the nationalities represented include Belgium, England, France, Ireland, and Italy, there is no further detail on additional nationalities or broader geographic trends. Additionally, race times for athletes are absent, preventing analysis of performance trends based on timing data. These limitations restrict the ability to fully explore correlations between geographic regions and competitive success.",
+      "metrics": {
+        "coverage": 0.6111,
+        "complexity": 0.4667,
+        "complexity_breakdown": {
+          "multi_table": 0.6667,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.6667,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8304,
+        "surprisal": 0.4166,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but the scope could be better aligned with the schema, as some tables lack relevant data for geographic correlations or team standings.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning team standings and nationalities but lacks longitudinal data, race times, and analysis of trends or correlations over time, which are key analytical goals of the request."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What team standings and points are recorded in T83, and how do they vary by country?",
+          "sql": "SELECT Rank, Country, Team, Points FROM T83;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The team standings in T83 show France ranked 1st with 31 points, England 2nd with 74 points, Spain 3rd with 117 points, Belgium 4th with 180 points, and Scotland 5th with 189 points. The result set does not show how these standings vary over time or include additional countries beyond those listed.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 10
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What trends in race times are observed across athletes in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT Athlete, Nationality, Time \nFROM (\n  SELECT Athlete, Nationality, Time FROM T5\n  UNION ALL\n  SELECT Athlete, Nationality, Time FROM T6\n  UNION ALL\n  SELECT Athlete, Nationality, Time FROM T7\n  UNION ALL\n  SELECT Athlete, Nationality, Time FROM T77\n  UNION ALL\n  SELECT Athlete, Nationality, Time FROM T78\n  UNION ALL\n  SELECT Athlete, Nationality, Time FROM T79\n  UNION ALL\n  SELECT Athlete, Nationality, Time FROM T80\n  UNION ALL\n  SELECT Athlete, Nationality, Time FROM T82\n  UNION ALL\n  SELECT Athlete, Nationality, Time FROM T85\n) \nORDER BY CAST(REPLACE(REPLACE(Time, ':', ''), '.', '') AS REAL);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show any race times for the athletes listed, so trends in race times cannot be observed.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 176
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What nationalities appear in T5, T6, T7, T77, T78, T79, T80, T82, T84, and T85?",
+          "sql": "SELECT DISTINCT Nationality \nFROM (\n  SELECT Nationality FROM T5\n  UNION\n  SELECT Nationality FROM T6\n  UNION\n  SELECT Nationality FROM T7\n  UNION\n  SELECT Nationality FROM T77\n  UNION\n  SELECT Nationality FROM T78\n  UNION\n  SELECT Nationality FROM T79\n  UNION\n  SELECT Nationality FROM T80\n  UNION\n  SELECT Nationality FROM T82\n  UNION\n  SELECT Nationality FROM T84\n  UNION\n  SELECT Nationality FROM T85\n);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The nationalities that appear in the result set are Belgium, England, France, Ireland, and Italy. The result set does not show information about other nationalities or specific table IDs.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 8
+          }
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "dpr_id": "cross_3_7",
+      "combined_score": 0.6476,
+      "dpr_text": "Request a unified dataset that maps BAA/NBA draft-eligible colleges (from Cluster B) to specific Ohio legislative districts (from Cluster A) along with: \n1. College locations (county or city) and their corresponding Ohio legislative districts in 1947.\n2. Political transition metrics for Ohio districts (1940-1947): party control, number of senator/representative changes, and reasons for turnover.\n3. Standardized athlete count per district: aggregate the total players from each college mapped to their district who were drafted between 1946-1948.\nInclude fields for temporal alignment (e.g., 1947 draft year vs. 1947-1948 political session end) and demographic controls (college size, public vs. private status).",
+      "tables_used": [
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T44",
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T49",
+        "T93",
+        "T94",
+        "T95",
+        "T96",
+        "T97",
+        "T98"
+      ],
+      "ground_truth": [
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T44",
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T49",
+        "T93",
+        "T94",
+        "T95",
+        "T96",
+        "T97",
+        "T98"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The available evidence identifies five colleges\u2014Akron, Arkansas, Bloomsburg, Bradley, and CCNY\u2014but does not provide their corresponding Ohio legislative districts or detailed political metrics. Between 1946 and 1948, Akron, Arkansas, Bloomsburg, and California each had one player drafted, while CCNY had two players drafted. No additional information is provided regarding college locations, political transitions, standardized athlete counts per district, or demographic controls, leaving key aspects of the request unanswered.",
+      "metrics": {
+        "coverage": 0.3529,
+        "complexity": 0.5333,
+        "complexity_breakdown": {
+          "multi_table": 0.6667,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.6667,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8746,
+        "surprisal": 0.6578,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR demonstrates clear analytical goals and multi-dimensional questions, but its scope is complex and partially misaligned with the schema, which lacks direct temporal or demographic controls.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by listing some colleges and drafted players but fails to provide critical information on Ohio legislative districts, political transitions, standardized athlete counts, and demographic controls."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What reasons for senator or representative changes are recorded in T39-T49 between 1940 and 1947?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "How many players from each college were drafted in T93-T98 between 1946 and 1948?",
+          "sql": "SELECT College, COUNT(Player) AS Player_Count\nFROM (\n    SELECT College, Player FROM T93\n    UNION ALL\n    SELECT College, Player FROM T94\n    UNION ALL\n    SELECT College, Player FROM T96\n    UNION ALL\n    SELECT College, Player FROM T97\n    UNION ALL\n    SELECT College, Player FROM T98\n)\nGROUP BY College;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that between 1946 and 1948, Akron had 1 player drafted, Arkansas had 1 player drafted, Bloomsburg had 1 player drafted, CCNY had 2 players drafted, and California had 1 player drafted. The result set does not show information for other colleges or additional metrics.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.8,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 54
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "Which colleges appear in T93-T98 and what are their corresponding districts in T39-T49?",
+          "sql": "SELECT DISTINCT College\nFROM (\n    SELECT College FROM T93\n    UNION\n    SELECT College FROM T94\n    UNION\n    SELECT College FROM T95\n    UNION\n    SELECT College FROM T96\n    UNION\n    SELECT College FROM T97\n    UNION\n    SELECT College FROM T98\n);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows the colleges \"Akron,\" \"Arkansas,\" \"Bloomsburg,\" \"Bradley,\" and \"CCNY.\" The corresponding districts in T39-T49 are not provided in the result set.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 0.5,
+            "n_attempts": 2,
+            "rows_returned": 64
+          }
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "dpr_id": "3_v3",
+      "combined_score": 0.637,
+      "dpr_text": "Compile historical international cross country championship results and New World monkey conservation data to analyze national athletic performance trends and species preservation priorities, enabling sports teams to optimize training programs and conservationists to allocate resources to at-risk species.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "Luxembourg achieved the highest points in T83, led by the team of Jean Haag, Michel Medinger, C. Olinger, Pierre Scholtes, Theo Backes, and Pierre Beicht, with a score of 432.0. England's athletes Sidney Robinson, Harry Harrison, Charles Bennett, Tommy Bartlett, and Jack Marsh are listed, though ranks are provided only for Bartlett (4.0) and Marsh (5.0). Conservation data highlights five New World monkey species with varying statuses: Roosmalens' dwarf marmoset and Buffy-tufted marmoset are vulnerable, Buffy-headed marmoset is endangered, while White-headed marmoset and Common marmoset are of least concern. The evidence does not fully address trends in athletic performance or species preservation priorities.",
+      "metrics": {
+        "coverage": 0.6667,
+        "complexity": 0.4,
+        "complexity_breakdown": {
+          "multi_table": 0.6667,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 1.0,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.892,
+        "surprisal": 0.4166,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR has analytical intent but is poorly scoped, as it combines unrelated domains without clear alignment to the schema.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary provides some relevant data on international championship results and New World monkey conservation statuses but fails to analyze trends or connect the information to the DPR's goals of optimizing training programs and resource allocation."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "Which countries and teams have the highest points in T83?",
+          "sql": "SELECT Country, Team, Points\nFROM T83\nWHERE Points = (SELECT MAX(Points) FROM T83);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The country with the highest points in T83 is Luxembourg, represented by the team \"Jean Haag Michel Medinger C. Olinger Pierre Scholtes Theo Backes Pierre Beicht,\" with 432.0 points.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What are the ranks, athletes, and nationalities in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT Rank, Athlete, Nationality \nFROM T5 \nUNION ALL \nSELECT Rank, Athlete, Nationality \nFROM T6 \nUNION ALL \nSELECT Rank, Athlete, Nationality \nFROM T7 \nUNION ALL \nSELECT Rank, Athlete, Nationality \nFROM T77 \nUNION ALL \nSELECT Rank, Athlete, Nationality \nFROM T78 \nUNION ALL \nSELECT Rank, Athlete, Nationality \nFROM T79 \nUNION ALL \nSELECT Rank, Athlete, Nationality \nFROM T80 \nUNION ALL \nSELECT Rank, Athlete, Nationality \nFROM T82 \nUNION ALL \nSELECT Rank, Athlete, Nationality \nFROM T85;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows athletes Sidney Robinson, Harry Harrison, Charles Bennett, Tommy Bartlett (Rank 4.0), and Jack Marsh (Rank 5.0), all with the nationality of England. The ranks for Sidney Robinson, Harry Harrison, and Charles Bennett are not provided.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 176
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What are the scientific names, common names, and conservation statuses of species in T20 and T21?",
+          "sql": "SELECT Scientific_name, Common_name, Conservation_status \nFROM T20 \nUNION \nSELECT Scientific_name, Common_name, Conservation_status \nFROM T21;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The scientific names, common names, and conservation statuses of species in the result set are: Callibella humilis (Roosmalens' dwarf marmoset, vulnerable), Callithrix aurita (Buffy-tufted marmoset, vulnerable), Callithrix flaviceps (Buffy-headed marmoset, endangered), Callithrix geoffroyi (White-headed marmoset, least concern), and Callithrix jacchus (Common marmoset, least concern).",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 40
+          }
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "dpr_id": "3_v2",
+      "combined_score": 0.6304,
+      "dpr_text": "Compile cross country championship results from 1898-1933, including athlete rankings, nationalities, and race times, to analyze how performance standards, national competitive dominance, and competitive structures evolved over three decades of international cross country racing.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The available data includes athlete rankings, nationalities, and race times for five individuals from England, with rankings ranging from 1 to 5 and race times spanning 56:36 to 57:48.4. While rankings are provided for these athletes, the minimum rank value is noted as 4, and the maximum rank value cannot be determined. Additionally, information is available for three teams, including rankings, countries, team members, and points, but it is unclear whether this data fully corresponds to cross country championships from 1898-1933. Some gaps in the dataset are evident, as specific entries are not included.",
+      "metrics": {
+        "coverage": 0.5556,
+        "complexity": 0.3333,
+        "complexity_breakdown": {
+          "multi_table": 0.6667,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.6667,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8913,
+        "surprisal": 0.4166,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but it lacks precision in specifying how to handle overlapping or redundant data across multiple similar tables in the schema.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by providing rankings, nationalities, and race times, but it lacks comprehensive data across the requested timeframe and does not analyze performance standards, national dominance, or competitive structures."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What athlete rankings, nationalities, and race times are available in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT Rank, Athlete, Nationality, Time \nFROM T5\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time \nFROM T6\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time \nFROM T7\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time \nFROM T77\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time \nFROM T78\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time \nFROM T79\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time \nFROM T80\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time \nFROM T82\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time \nFROM T85;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows athlete rankings, nationalities, and race times for Sidney Robinson (England, 56:36), Harry Harrison (England, 56:36.4), Charles Bennett (England, 57:14.8), Tommy Bartlett (England, 57:22.6, Rank 4), and Jack Marsh (England, 57:48.4, Rank 5). The result set does not show information for T7, T77, T78, T79, T80, T82, or T85.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 176
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What range of Rank values appears in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT MIN(Rank) AS Min_Rank, MAX(Rank) AS Max_Rank\nFROM (\n  SELECT Rank FROM T5\n  UNION ALL\n  SELECT Rank FROM T6\n  UNION ALL\n  SELECT Rank FROM T7\n  UNION ALL\n  SELECT Rank FROM T77\n  UNION ALL\n  SELECT Rank FROM T78\n  UNION ALL\n  SELECT Rank FROM T79\n  UNION ALL\n  SELECT Rank FROM T80\n  UNION ALL\n  SELECT Rank FROM T82\n  UNION ALL\n  SELECT Rank FROM T85\n);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows a minimum rank value of 4.0 but does not provide a maximum rank value. The range of rank values for the specified tables cannot be fully determined from the information provided.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "Which tables include data relevant to cross country championships from 1898-1933?",
+          "sql": "SELECT * \nFROM T83 \nWHERE LOWER(Country) LIKE LOWER('%england%') OR LOWER(Country) LIKE LOWER('%france%') OR LOWER(Country) LIKE LOWER('%spain%');",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show which tables include data relevant to cross country championships from 1898-1933. It only provides rankings, countries, team members, and points for three teams.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 3
+          }
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "dpr_id": "cross_0_3",
+      "combined_score": 0.6189,
+      "dpr_text": "Create a unified dataset that links Ohio political transition events (e.g., party control changes, district boundary adjustments in the Ohio General Assembly) with annual performance results of Ohio athletes in International Cross Country Championships (including rank, time, and year). Map political transitions to athlete results using temporal proximity (e.g., \u00b12 years) to identify correlations between governance changes and shifts in competitive performance trends. Include district-level political transitions and athlete hometown/residence data where available to strengthen geographic alignment.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99",
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T44",
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T49"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99",
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T44",
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T49"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The available evidence does not provide data linking geographic alignment between Ohio districts and athlete residences, as it only lists these locations without specifying connections. Additionally, no annual performance results for Ohio athletes in International Cross Country Championships are included, with the provided data focusing solely on athletes from England. Political transition events in Ohio districts are limited to changes in senators for specific districts on a single date, with no further transitions or broader patterns documented. These gaps in the evidence constrain the ability to fully address the relationship between political transitions and athlete performance trends.",
+      "metrics": {
+        "coverage": 0.3103,
+        "complexity": 0.6,
+        "complexity_breakdown": {
+          "multi_table": 1.0,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 1.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8581,
+        "surprisal": 0.6578,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR demonstrates analytical intent by seeking correlations between political transitions and athlete performance, but it is poorly scoped as the schema lacks direct data on athlete hometowns/residences and political transitions are only partially represented.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by identifying data gaps and limitations but fails to analyze or map political transitions to athlete performance trends as requested."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "Which districts and athlete residences align geographically in T40, T41, T42, and T43?",
+          "sql": "SELECT District, Residence \nFROM T40 \nWHERE Residence IN (\n  SELECT Residence \n  FROM T41\n  UNION\n  SELECT Residence \n  FROM T42\n  UNION\n  SELECT Residence \n  FROM T43\n);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show any information about districts and athlete residences aligning geographically in T40, T41, T42, and T43. It only lists districts and residences without specifying their alignment.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 18
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What are the annual performance results of Ohio athletes in International Cross Country Championships from T5, T6, and T7?",
+          "sql": "SELECT Rank, Athlete, Nationality, Time \nFROM T5 \nUNION ALL \nSELECT Rank, Athlete, Nationality, Time \nFROM T6 \nUNION ALL \nSELECT Rank, Athlete, Nationality, Time \nFROM T7;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show the annual performance results of Ohio athletes in International Cross Country Championships from T5, T6, and T7. The rows provided only include information about athletes from England.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 56
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What are the political transition events in Ohio districts from T39 and T46?",
+          "sql": "SELECT District, Previous_Senator, Reason_for_change, New_Senator, Date \nFROM T39 \nUNION ALL \nSELECT District, Predecessor AS Previous_Senator, Reason_for_change, Successor AS New_Senator, Date_successor_seated AS Date \nFROM T46;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The political transition events in Ohio districts from the result set include changes in senators for the 1st, 9th, 13th, 21st, and 23rd districts, all occurring on January 3, 1999, due to retirements or election outcomes. The result set does not show any other political transition events for Ohio districts.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 17
+          }
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "dpr_id": "10_v3",
+      "combined_score": 0.6175,
+      "dpr_text": "Compile a dataset of 1947-1948 BAA draft selections, including round, pick, player, position, team, and college data, to inform strategies for optimizing draft decisions by analyzing the historical impact of college affiliations and positional roles on player selection and team success.",
+      "tables_used": [
+        "T93",
+        "T94",
+        "T95",
+        "T96",
+        "T97",
+        "T98"
+      ],
+      "ground_truth": [
+        "T93",
+        "T94",
+        "T95",
+        "T96",
+        "T97",
+        "T98"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The dataset includes information on players selected across rounds ranging from 1 to 9 and picks spanning from 1 to 75. Colleges represented in the data are Akron, Connecticut, DePaul, Denver, and Harvard, though it is unclear if these affiliations are tied to specific teams. Some details necessary for a comprehensive analysis, such as the connection between colleges and teams or additional contextual data, are not evident in the provided information.",
+      "metrics": {
+        "coverage": 0.3333,
+        "complexity": 0.5333,
+        "complexity_breakdown": {
+          "multi_table": 1.0,
+          "join": 0.0,
+          "agg": 0.6667,
+          "subquery": 1.0,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8454,
+        "surprisal": 0.5056,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR has clear analytical goals and reasonable scope, but it could be more precise in defining how to measure the historical impact of college affiliations and positional roles on team success.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary provides some relevant details about rounds, picks, and colleges but lacks critical connections between colleges, teams, and player positions, which are essential for addressing the DPR's analytical goals."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "Which colleges are associated with players in T93 and T94?",
+          "sql": "SELECT DISTINCT College \nFROM T93 \nUNION \nSELECT DISTINCT College \nFROM T94;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The colleges associated with players in the result set are Akron, Connecticut, DePaul, Denver, and Harvard. The result set does not show whether these colleges are specifically from T93 or T94.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 25
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What range of Round values appears in T93 and T94?",
+          "sql": "SELECT MIN(Round) AS Min_Round, MAX(Round) AS Max_Round\nFROM (\n    SELECT Round FROM T93\n    UNION ALL\n    SELECT Round FROM T94\n);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The range of Round values that appears is from 1.0 to 9.0.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What range of Pick values appears in T93 and T94?",
+          "sql": "SELECT MIN(Pick) AS Min_Pick, MAX(Pick) AS Max_Pick\nFROM (\n    SELECT Pick FROM T93\n    UNION ALL\n    SELECT Pick FROM T94\n);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The range of Pick values that appears is from 1.0 to 75.0.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "dpr_id": "2_v2",
+      "combined_score": 0.6129,
+      "dpr_text": "Compile data from legislative assemblies in British Columbia, Manitoba, and Puerto Rico across different historical periods to analyze trends in political party representation, electoral district stability, and shifts in legislative membership over time.",
+      "tables_used": [
+        "T4",
+        "T18",
+        "T30",
+        "T31",
+        "T50",
+        "T58",
+        "T60",
+        "T61",
+        "T62"
+      ],
+      "ground_truth": [
+        "T4",
+        "T18",
+        "T30",
+        "T31",
+        "T50",
+        "T58",
+        "T60",
+        "T61",
+        "T62"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data highlights electoral activity in districts such as Emerson, Winnipeg South, Beautiful Plains, Morris, and Winnipeg Centre, with instances of reelections tied to appointments or resignations, including roles like Provincial Secretary, Premier, Attorney-General, and lieutenant-governor. Political parties represented include Conservative, Liberal, Liberal-Conservative, NDP, and Social Credit, though the specific affiliations of these parties to the districts or events are not detailed. The evidence provides insight into some political and electoral dynamics but does not fully address trends in party representation, district stability, or legislative membership over time.",
+      "metrics": {
+        "coverage": 0.4444,
+        "complexity": 0.3333,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.3333,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.847,
+        "surprisal": 0.5056,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but it lacks precision in specifying historical periods and how to handle differences across regions.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning electoral activity and political parties but fails to analyze trends in party representation, district stability, or legislative membership over time."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "Which electoral districts appear in T31 along with their election dates and reasons?",
+          "sql": "SELECT Electoral_district, Election_date, Reason\nFROM T31;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The electoral districts that appear are Emerson (January 30, 1900, D. H. McFadden ran for reelection upon appointment as Provincial Secretary and Minister of Public Works), Winnipeg South (January 30, 1900, HJ Macdonald ran for reelection upon becoming Premier), Beautiful Plains (March 10, 1900, RC Ennis resigned seat), Morris (October 29, 1900, C. H. Campbell ran for reelection upon appointment as Attorney-General), and Winnipeg Centre (November 1, 1900, DH McMillan named lieutenant-governor for Manitoba).",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 11
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What members are listed in T4, T18, and T60 along with their associated parties?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What political parties are represented in T18, T30, and T50?",
+          "sql": "SELECT DISTINCT Party FROM T18\nUNION\nSELECT DISTINCT Party FROM T30\nUNION\nSELECT DISTINCT Party FROM T50;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The political parties represented are Conservative, Liberal, Liberal-Conservative, NDP, and Social Credit. The result set does not show which specific tables (T18, T30, or T50) these parties are associated with.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 5
+          }
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "dpr_id": "10",
+      "combined_score": 0.6076,
+      "dpr_text": "Compile data spanning the 1947 and 1948 BAA drafts to analyze correlations between draft round/pick, player position, team selection, and college affiliation while comparing trends in draft prioritization, team strategies, and college representation across the two years.",
+      "tables_used": [
+        "T93",
+        "T94",
+        "T95",
+        "T96",
+        "T97",
+        "T98"
+      ],
+      "ground_truth": [
+        "T93",
+        "T94",
+        "T95",
+        "T96",
+        "T97",
+        "T98"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The draft data includes players selected by the Baltimore Bullets and Boston Celtics, with positions listed as \"-\", \"F/C\", \"G/F\", and \"G.\" Draft rounds range from 1 to 9, and picks span from 1 to 75. Colleges represented in the drafts are Akron, Connecticut, DePaul, Denver, and Harvard, though no further information is provided about other colleges or specific years. The evidence does not fully address trends in draft prioritization, team strategies, or college representation across multiple years.",
+      "metrics": {
+        "coverage": 0.3333,
+        "complexity": 0.4667,
+        "complexity_breakdown": {
+          "multi_table": 1.0,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 1.0,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8431,
+        "surprisal": 0.5056,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but the scope could be better aligned with the schema context to ensure precision.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary provides some data on draft rounds, picks, teams, positions, and colleges but fails to analyze correlations, trends, or comparisons across the two years as requested in the DPR."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "Which teams and positions are associated with players drafted in T93 and T94?",
+          "sql": "SELECT Team, Position \nFROM T93 \nUNION \nSELECT Team, Position \nFROM T94;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The teams associated with players drafted are the Baltimore Bullets and Boston Celtics. The positions associated are \"-\", \"F/C\", \"G/F\", and \"G\".",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 25
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What range of Round and Pick values appears in T93 and T94?",
+          "sql": "SELECT \n    MIN(Round) AS Min_Round, \n    MAX(Round) AS Max_Round, \n    MIN(Pick) AS Min_Pick, \n    MAX(Pick) AS Max_Pick\nFROM (\n    SELECT Round, Pick FROM T93\n    UNION ALL\n    SELECT Round, Pick FROM T94\n);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The range of Round values is from 1.0 to 9.0, and the range of Pick values is from 1.0 to 75.0.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What colleges are represented in T93 and T94 drafts?",
+          "sql": "SELECT DISTINCT College FROM T93\nUNION\nSELECT DISTINCT College FROM T94;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The colleges represented in the drafts are Akron, Connecticut, DePaul, Denver, and Harvard. The result set does not show information about other colleges or specific years.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 25
+          }
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "dpr_id": "7",
+      "combined_score": 0.5949,
+      "dpr_text": "Aggregate legislative vacancy records from U.S. Congresses and Wisconsin state data, enabling comparative analysis of patterns in succession causes, timelines, and demographic trends across regions, chambers, and political contexts to identify correlations between vacancy drivers and political dynamics.",
+      "tables_used": [
+        "T26",
+        "T27",
+        "T28",
+        "T29",
+        "T32",
+        "T33",
+        "T35",
+        "T36",
+        "T37",
+        "T38",
+        "T51",
+        "T59",
+        "T68",
+        "T69"
+      ],
+      "ground_truth": [
+        "T26",
+        "T27",
+        "T28",
+        "T29",
+        "T32",
+        "T33",
+        "T35",
+        "T36",
+        "T37",
+        "T38",
+        "T51",
+        "T59",
+        "T68",
+        "T69"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data identifies individual reasons for legislative vacancies, such as resignations to assume other roles and successors elected to complete terms, but it does not determine the most common causes of vacancies in specific contexts. Additionally, while five districts are noted to have a single vacancy each, the analysis does not clarify which districts experience the highest frequency of vacancies, leaving gaps in understanding broader patterns and trends.",
+      "metrics": {
+        "coverage": 0.2857,
+        "complexity": 0.2667,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 0.6667,
+          "subquery": 0.3333,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8734,
+        "surprisal": 0.6578,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but it is somewhat vague in specifying how demographic trends and political dynamics should be measured or compared using the schema.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning reasons for vacancies and some district-level data but fails to provide comparative analysis, patterns, or correlations as requested."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What is the average time between vacancy and successor installation in T27 and T32?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 0.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "Which districts in T26 and T69 have the highest frequency of vacancies?",
+          "sql": "SELECT \n  District, \n  COUNT(*) AS Vacancy_Count\nFROM T69\nGROUP BY District\nORDER BY Vacancy_Count DESC;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show which districts in T26 and T69 have the highest frequency of vacancies. It only lists five districts with a vacancy count of 1 each.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 0.5,
+            "n_attempts": 2,
+            "rows_returned": 10
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What are the most common reasons for legislative vacancies in T27, T32, and T68?",
+          "sql": "SELECT Reason_for_change, COUNT(*) AS occurrence_count\nFROM (\n  SELECT Reason_for_change FROM T27\n  UNION ALL\n  SELECT Reason_for_change FROM T32\n  UNION ALL\n  SELECT Reason_for_change FROM T68\n)\nGROUP BY Reason_for_change\nORDER BY occurrence_count DESC;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows individual reasons for legislative vacancies, such as resignations to take other positions (e.g., Governor or President of the Negro College Fund) and successors elected to finish terms, but does not indicate the most common reasons for vacancies in T27, T32, and T68.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 27
+          }
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "dpr_id": "1_v2",
+      "combined_score": 0.5833,
+      "dpr_text": "Compile historical performance data from film, music, and TV projects spanning 1954-2000s to analyze trends in financial success metrics (revenue, admissions), industry participation patterns by decade, and career progression trajectories of key contributors like 'Weird Al' Yankovic to identify entertainment industry evolution.",
+      "tables_used": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "ground_truth": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The evidence indicates that 'Weird Al' Yankovic is linked to \"The Weird Al Show\" in the capacity of portraying \"Himself / various.\" The available data spans a timeframe from 1983 to 2015-16, but no further details regarding specific years or broader trends in financial success metrics, industry participation, or career trajectories are provided, leaving gaps in the analysis of entertainment industry evolution.",
+      "metrics": {
+        "coverage": 0.3333,
+        "complexity": 0.5333,
+        "complexity_breakdown": {
+          "multi_table": 0.6667,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.6667,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8824,
+        "surprisal": 0.4166,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR shows analytical intent but is vague and poorly scoped, with unclear alignment to the schema and overly broad goals.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning 'Weird Al' Yankovic and a related project but fails to analyze broader trends, financial metrics, or industry evolution as requested."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the Revenue and Admissions trends by decade in T8 and T10?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 0.0,
+            "n_attempts": 1,
+            "rows_returned": 0
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "Which Titles and Roles in T1, T2, and T3 are associated with 'Weird Al' Yankovic?",
+          "sql": "SELECT Title, Role \nFROM T1 \nWHERE LOWER(Title) LIKE LOWER('%weird al%') OR LOWER(Role) LIKE LOWER('%weird al%')\nUNION\nSELECT Title, Role \nFROM T2 \nWHERE LOWER(Title) LIKE LOWER('%weird al%') OR LOWER(Role) LIKE LOWER('%weird al%') OR LOWER(Notes) LIKE LOWER('%weird al%')\nUNION\nSELECT Title, Role \nFROM T3 \nWHERE LOWER(Title) LIKE LOWER('%weird al%') OR LOWER(Role) LIKE LOWER('%weird al%') OR LOWER(Notes) LIKE LOWER('%weird al%');",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that 'Weird Al' Yankovic is associated with the title \"The Weird Al Show\" in the role of \"Himself / various.\"",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 2,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What is the range of Year values in T1, T2, and T3?",
+          "sql": "SELECT MIN(Year) AS Min_Year, MAX(Year) AS Max_Year \nFROM (\n    SELECT Year FROM T1\n    UNION ALL\n    SELECT Year FROM T2\n    UNION ALL\n    SELECT Year FROM T3\n);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The range of Year values shown is from 1983.0 to \"2015-16\". The result set does not show any additional information about Year values in T1, T2, and T3.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.8,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "dpr_id": "1",
+      "combined_score": 0.5783,
+      "dpr_text": "Build a dataset enabling queries to compare revenue and admissions trends of films across decades (1954\u20131974), correlate \"Weird Al\" Yankovic\u2019s evolving roles in entertainment with corresponding production contexts, and contrast the regional/cultural impacts of film and music compositions from the mid-20th century.",
+      "tables_used": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "ground_truth": [
+        "T1",
+        "T2",
+        "T3",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The dataset provides individual revenue and admissions figures for five films but does not include information to analyze trends between 1954 and 1974 or establish connections to broader contexts. It lists roles played by \"Weird Al\" Yankovic in several films, including \"Himself\" in multiple productions and \"George Newman\" in one, though production details are absent. Additionally, it highlights the cultural impact of \"Awaara\" in the Soviet Union and admissions data for \"Royal Affairs in Versailles\" in its international market, but lacks further insights into regional or cultural influences of other films or music compositions.",
+      "metrics": {
+        "coverage": 0.4444,
+        "complexity": 0.3333,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.3333,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8811,
+        "surprisal": 0.4166,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR demonstrates analytical intent but is overly broad, lacks precision, and does not clearly align with the provided schema.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by providing some data on revenue, admissions, and 'Weird Al' Yankovic's roles, but it lacks comprehensive trend analysis, production contexts, and broader regional or cultural insights required by the request."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the revenue and admissions trends of films between 1954 and 1974 in T8 and T10?",
+          "sql": "SELECT \n  Film AS Title, \n  CAST(REPLACE(REPLACE(REPLACE(Revenue, '$', ''), ',', ''), ' ', '') AS REAL) AS Revenue, \n  CAST(REPLACE(REPLACE(Admissions, ',', ''), ' ', '') AS REAL) AS Admissions \nFROM \n  T8 \nWHERE \n  CAST(REPLACE(REPLACE(Admissions, ',', ''), ' ', '') AS REAL) > 0;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows revenue and admissions data for five films, but it does not provide information about trends between 1954 and 1974 or specify connections to T8 and T10. It only lists individual revenue and admissions figures for the films.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 0.5,
+            "n_attempts": 2,
+            "rows_returned": 7
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What roles did 'Weird Al' Yankovic play in T1, T2, and T3, and what are the corresponding production notes?",
+          "sql": "SELECT Year, Title, Role, Notes \nFROM (\n  SELECT Year, Title, Role, NULL AS Notes FROM T1\n  UNION ALL\n  SELECT Year, Title, Role, Notes FROM T2\n  UNION ALL\n  SELECT Year, Title, Role, Notes FROM T3\n)\nWHERE LOWER(Role) LIKE '%himself%' OR LOWER(Role) LIKE '%george newman%' OR LOWER(Role) LIKE '%keyboard player%' OR LOWER(Role) LIKE '%the cabbage man%' OR LOWER(Role) LIKE '%murray the mouth%' OR LOWER(Role) LIKE '%singing minstrel%';",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that \"Weird Al\" Yankovic played the roles of \"Himself\" in \"Tapeheads\" (1988), \"The Naked Gun: From the Files of Police Squad!\" (1988), \"Naked Gun 33\u2153: The Final Insult\" (1994), and \"Spy Hard\" (1996), as well as \"George Newman\" in \"UHF\" (1989). The corresponding production notes are not provided in the result set.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 2,
+            "rows_returned": 30
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What are the regional and cultural impacts of film and music compositions from the mid-20th century in T8, T9, and T11?",
+          "sql": "SELECT International_market, Film, Studio, Revenue, Admissions, Production_country\nFROM T8\nWHERE CAST(REPLACE(REPLACE(REPLACE(Revenue, '$', ''), ',', ''), ' ', '') AS REAL) > 0 OR CAST(REPLACE(REPLACE(Admissions, ',', ''), ' ', '') AS REAL) > 0;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that the film \"Royal Affairs in Versailles\" from France had 6,986,788 admissions in its international market. It also shows that the Indian film \"Awaara\" had significant cultural impact in the Soviet Union with 100,000,000 admissions. Other regional and cultural impacts are not detailed in the provided rows.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 8
+          }
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "dpr_id": "8_v2",
+      "combined_score": 0.5707,
+      "dpr_text": "Compile a dataset containing historical 110m hurdles and 1500m world record performances, including time, athlete, date, and location, to analyze long-term trends in record-breaking frequency, geographic hotspots for improvements, and the rate of progression in athletic performance over decades.",
+      "tables_used": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ],
+      "ground_truth": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The dataset includes information on 1500m world record performances, detailing the time, athlete, date, and location, with all record-breaking events occurring in Z\u00fcrich between 1966 and 1985. However, no data is provided regarding 110m hurdles records, leaving gaps in the analysis of trends across both events.",
+      "metrics": {
+        "coverage": 0.4,
+        "complexity": 0.2,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.6667,
+          "subquery": 0.3333,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8405,
+        "surprisal": 0.4166,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR has clear analytical goals and multi-dimensional questions, but the scope could be better aligned with the schema, as it does not specify how to handle multiple similar tables or potential data inconsistencies.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by providing details on 1500m records but completely omits data on 110m hurdles, which is essential for fulfilling the request's analytical goals."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the Time, Athlete, Date, and Place values for 110m hurdles and 1500m records in T54?",
+          "sql": "SELECT Time, Athlete, Date, Place\nFROM T54;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set provides Time, Athlete, Date, and Place values for 1500m records, but it does not specify any information about 110m hurdles records.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 13
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What range of Year values appears in T34 for historical records?",
+          "sql": "SELECT MIN(Year) AS Min_Year, MAX(Year) AS Max_Year\nFROM T34;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The range of Year values appearing in the result set is from 1966.0 to 1985.0.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "Which locations in T34 are associated with record-breaking performances?",
+          "sql": "SELECT Location \nFROM T34 \nWHERE Time = (SELECT MIN(CAST(Time AS REAL)) FROM T34);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The location associated with record-breaking performances in the result set is Z\u00fcrich.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "dpr_id": "5_v2",
+      "combined_score": 0.5677,
+      "dpr_text": "Compile and analyze historical sports team data from 1935-2011 to identify trends in roster turnover, career continuity patterns, and evolving selection criteria across college and professional levels for All-America recognition over time.",
+      "tables_used": [
+        "T16",
+        "T17",
+        "T87",
+        "T90",
+        "T91",
+        "T92",
+        "T100"
+      ],
+      "ground_truth": [
+        "T16",
+        "T17",
+        "T87",
+        "T90",
+        "T91",
+        "T92",
+        "T100"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The evidence indicates that there is no information connecting players and their positions across consecutive years for one of the teams analyzed, as the data only lists players and their positions without specifying years or teams. The teams identified for one year differ from those listed for another, with some overlap and one team marked as undetermined. Additionally, the range of induction years for a related dataset spans several decades, but no further details are provided about trends or patterns over time. These limitations suggest gaps in the available data for fully addressing roster turnover, career continuity, or selection criteria evolution.",
+      "metrics": {
+        "coverage": 0.4286,
+        "complexity": 0.0667,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.0,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8562,
+        "surprisal": 0.6578,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR demonstrates analytical intent but is poorly scoped and misaligned with the schema, as the tables lack sufficient historical depth and key attributes for the requested analysis.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by identifying data limitations but fails to analyze trends in roster turnover, career continuity, or selection criteria evolution as requested."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What players and their positions appear in T17 across col_2010_Team and col_2011_Team?",
+          "sql": "SELECT Player, Position \nFROM T17 \nWHERE col_2010_Team IS NOT NULL AND col_2011_Team IS NOT NULL;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show any information about players and their positions appearing in both col_2010_Team and col_2011_Team. It only lists players and their positions without specifying years or teams.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 20
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What teams are listed in col_2009_Team and col_2010_Team in T16?",
+          "sql": "SELECT DISTINCT col_2009_Team, col_2010_Team FROM T16;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The teams listed in col_2009_Team are \"Kansas City Chiefs,\" \"Denver Broncos,\" and \"New York Jets.\" The teams listed in col_2010_Team are \"Indianapolis Colts,\" \"Kansas City Chiefs,\" and \"TBD.\"",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 7
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What range of Year_Inducted values exists in T92?",
+          "sql": "SELECT MIN(Year_Inducted) AS Min_Year, MAX(Year_Inducted) AS Max_Year\nFROM T92;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The range of Year_Inducted values in T92 is from 1960.0 to 1995.0.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "dpr_id": "cross_2_7",
+      "combined_score": 0.5248,
+      "dpr_text": "Construct a comparative dataset linking:  \n1. From Cluster 2: Player provincial affiliations (1884 NZ rugby tour) and match-participation frequency;  \n2. From Cluster 7: Player college affiliations (1947 BAA drafts) and draft placement metrics.  \nCross-reference these with external data on:  \n- Provincial population/demographics (for NZ context)  \n- College athletic program funding (for 1940s context)  \nTo quantify whether institutional affiliation (province/college) statistically correlated with selection likelihood/professional success in their respective domains.",
+      "tables_used": [
+        "T14",
+        "T63",
+        "T64",
+        "T65",
+        "T66",
+        "T67",
+        "T70",
+        "T71",
+        "T72",
+        "T73",
+        "T74",
+        "T75",
+        "T76",
+        "T93",
+        "T94",
+        "T95",
+        "T96",
+        "T97",
+        "T98"
+      ],
+      "ground_truth": [
+        "T14",
+        "T63",
+        "T64",
+        "T65",
+        "T66",
+        "T67",
+        "T70",
+        "T71",
+        "T72",
+        "T73",
+        "T74",
+        "T75",
+        "T76",
+        "T93",
+        "T94",
+        "T95",
+        "T96",
+        "T97",
+        "T98"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The dataset includes provincial affiliations of players from Otago, Canterbury, Auckland, and Wellington, alongside match-participation frequency, as well as college affiliations of players from Texas Wesleyan, Wisconsin, Purdue, Connecticut, and Long Island, with draft placement metrics categorized by \"Round\" and \"Pick.\" While the evidence outlines geographic and institutional links for players, it does not provide external data on provincial demographics or college athletic program funding, limiting the ability to fully assess correlations with selection or professional outcomes.",
+      "metrics": {
+        "coverage": 0.1053,
+        "complexity": 0.2,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.9073,
+        "surprisal": 0.6578,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR demonstrates analytical intent but is poorly scoped, as the schema lacks direct linkage between rugby data and draft metrics, and external data requirements are undefined.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by providing data on affiliations and metrics but fails to incorporate external demographic and funding data necessary for correlation analysis."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What provinces are associated with players in T63?",
+          "sql": "SELECT DISTINCT Province FROM T63;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The provinces associated with players in T63 are Otago, Canterbury, Auckland, and Wellington.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 4
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What colleges are associated with players in T93?",
+          "sql": "SELECT DISTINCT College FROM T93;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The colleges associated with players in T93 are Texas Wesleyan, Wisconsin, Purdue, Connecticut, and Long Island.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 9
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What draft placement metrics are available in T93?",
+          "sql": "SELECT Round, Pick, Player, Position, Team, College FROM T93;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The draft placement metrics available in the result set are \"Round\" and \"Pick.\"",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 10
+          }
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "dpr_id": "8",
+      "combined_score": 0.5124,
+      "dpr_text": "Compile historical 110m hurdles and 1500m world record data, analyzing trends in time improvements over decades, comparing athlete achievements across event distances, and identifying correlations between record-setting locations and event performance milestones.",
+      "tables_used": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ],
+      "ground_truth": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "Historical data for 110m hurdles and 1500m records spans from 1966 to 1985, with recorded times in T34 being 13.47 and 13.33, respectively. Athletes associated with record-setting performances include Willie Davenport, Earl McCullouch, Leon Coleman, and Thomas Hill, though the specific connection of these performances to T34 is unclear. The evidence provides limited information on trends, comparisons across distances, and correlations with record-setting locations.",
+      "metrics": {
+        "coverage": 0.2,
+        "complexity": 0.0667,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.0,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8657,
+        "surprisal": 0.4166,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but it lacks precision in specifying how to handle differences across similar tables in the schema.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary provides some historical data and mentions athletes but fails to analyze trends, compare achievements across distances, or identify correlations with record-setting locations as requested in the DPR."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What range of Year values appears in T34 for 110m hurdles and 1500m records?",
+          "sql": "SELECT MIN(Year) AS Min_Year, MAX(Year) AS Max_Year\nFROM T34;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The range of Year values for 110m hurdles and 1500m records is from 1966.0 to 1985.0.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What are the historical Time values for 110m hurdles and 1500m in T34?",
+          "sql": "SELECT Time FROM T34 WHERE Location LIKE '%New York City%' OR Location LIKE '%Mexico City%';",
+          "summary_source": "stage3_output",
+          "mini_summary": "The historical Time values for 110m hurdles and 1500m in T34 are 13.47 and 13.33.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 2,
+            "rows_returned": 2
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "Which Athlete names are associated with record-setting performances in T34?",
+          "sql": "SELECT Athlete FROM T34;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows the following athlete names associated with record-setting performances: Willie Davenport (USA), Earl McCullouch (USA), Leon Coleman (USA), and Thomas Hill (USA). The result set does not specify if these performances are in T34.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 20
+          }
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "dpr_id": "8_v3",
+      "combined_score": 0.4804,
+      "dpr_text": "Compile historical records of 110m hurdles and 1500m performances by year, time, athlete, and location, and analyze trends in record progression to support data-driven decisions for optimizing training programs and identifying competitive advantages.",
+      "tables_used": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ],
+      "ground_truth": [
+        "T34",
+        "T54",
+        "T55",
+        "T56",
+        "T57"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The historical records of 110m hurdles performances from 1966 to 1970 show a general trend of improving times, with the fastest recorded time being 13.33 seconds by Willie Davenport in Mexico City in 1968. Athletes such as Renaldo Nehemiah, Greg Foster, and Roger Kingdom are associated with the fastest times overall, achieved in locations including Z\u00fcrich, Westwood, and Modesto. However, the evidence does not include records for 1500m performances or data beyond 1970, limiting the ability to analyze broader trends or make comparisons across events.",
+      "metrics": {
+        "coverage": 0.2,
+        "complexity": 0.0667,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.0,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8289,
+        "surprisal": 0.4166,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR has analytical intent but is vague in specifying how trends should be analyzed and does not fully align with the schema context, which lacks clarity on historical record compilation.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by providing some historical data on 110m hurdles but omits 1500m performances and lacks comprehensive trend analysis or broader coverage of the requested data."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the historical records of 110m hurdles and 1500m performances by year, time, athlete, and location in T34?",
+          "sql": "SELECT Year, Time, Athlete, Location \nFROM T34;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The historical records of 110m hurdles performances by year, time, athlete, and location in the result set include: in 1966, Willie Davenport (USA) with a time of 13.47 in New York City; in 1967, Earl McCullouch (USA) with a time of 13.43 in Minneapolis; in 1968, Willie Davenport (USA) with a time of 13.33 in Mexico City; in 1969, Willie Davenport (USA) and Leon Coleman (USA) with a time of 13.45 in Miami; and in 1970, Thomas Hill (USA) with a time of 13.42 in Bakersfield. The result set does not show any records for 1500m performances.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 20
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "Which athletes and locations are associated with the fastest times in T34?",
+          "sql": "SELECT Athlete, Location, MIN(CAST(Time AS REAL)) AS Fastest_Time\nFROM T34\nGROUP BY Athlete, Location\nORDER BY Fastest_Time ASC;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The athletes associated with the fastest times in the result set are Renaldo Nehemiah (USA), Greg Foster (USA), and Roger Kingdom (USA). The locations associated with these times are Z\u00fcrich, Westwood, and Modesto.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 19
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What trends in record progression can be observed over the available years in T34?",
+          "sql": "SELECT Year, Time, Athlete, Location\nFROM T34\nORDER BY Year ASC;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows a general trend of improvement in record times from 1966 to 1970, with the fastest time being 13.33 seconds in 1968 by Willie Davenport in Mexico City. The result set does not show information beyond these years or additional trends.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 20
+          }
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "dpr_id": "cross_6_3",
+      "combined_score": 0.4543,
+      "dpr_text": "Generate a data product that maps annual changes in Ohio Senate/Representative party composition and district-level legislative turnover between 2010-2015 to concurrent funding allocations for state college sports programs. For each fiscal year, include: (1) Ohio legislative district boundaries and party control history; (2) total state funding awarded to public universities for athletics, specifying which districts' funding increased or decreased; and (3) longitudinal All-America team selections from those universities' football programs. The output should enable analysis of how shifts in legislative representation correlate with both funding distributions and the frequency of All-America player production over time.",
+      "tables_used": [
+        "T16",
+        "T17",
+        "T87",
+        "T90",
+        "T91",
+        "T92",
+        "T100",
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T44",
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T49"
+      ],
+      "ground_truth": [
+        "T16",
+        "T17",
+        "T87",
+        "T90",
+        "T91",
+        "T92",
+        "T100",
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T44",
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T49"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The evidence indicates that Chicago and Stanford produced All-America football players, but it does not provide annual data or specify whether this occurred during the 2010-2015 timeframe. This leaves gaps in addressing the relationship between Ohio legislative district changes, state funding allocations for college athletics, and longitudinal All-America team selections.",
+      "metrics": {
+        "coverage": 0.0556,
+        "complexity": 0.2,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8635,
+        "surprisal": 0.6578,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR demonstrates analytical intent but is poorly scoped, as it combines disparate data elements (legislative turnover, funding, and football performance) without clear alignment to the schema or feasibility of integration.",
+        "summary_relevance": 0.0,
+        "summary_relevance_reasoning": "The summary is unrelated to the DPR as it discusses All-America football players from Chicago and Stanford, which are irrelevant to Ohio's legislative districts, funding allocations, or universities."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What were the party compositions and district turnovers in Ohio Senate and House from 2010 to 2015?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "Which districts saw changes in state funding allocations for public university athletics between 2010 and 2015?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "Which universities produced All-America football players annually from 2010 to 2015?",
+          "sql": "SELECT School \nFROM T87 \nWHERE Number LIKE '9/9';",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that Chicago and Stanford produced All-America football players. The result set does not show annual data or specify years from 2010 to 2015.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 2
+          }
+        }
+      ]
+    }
+  ]
+}

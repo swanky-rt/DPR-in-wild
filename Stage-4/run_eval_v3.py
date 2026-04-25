@@ -77,6 +77,8 @@ def compute_coverage(subquery_results: list, ground_truth_tables: list) -> float
 def compute_complexity_single(sql: str, dpr_text: str = "") -> tuple:
     sql_up = (sql or "").upper()
     tables = extract_tables_from_sql(sql)
+
+    # ── Structural binary dimensions (unchanged) ──────────────────────────
     breakdown = {
         "multi_table":  float(len(tables) > 1),
         "join":         float("JOIN" in sql_up),
@@ -85,7 +87,41 @@ def compute_complexity_single(sql: str, dpr_text: str = "") -> tuple:
         "subquery":     float(sql_up.count("SELECT") > 1),
         "multi_entity": float(len(set(re.findall(r'\b[A-Z][a-z]+\b', dpr_text))) > 3),
     }
-    score = round(float(np.mean(list(breakdown.values()))), 4)
+
+    # ── Halstead complexity (Halstead 1977) ───────────────────────────────
+    # Operators: SQL keywords that perform operations
+    SQL_OPERATORS = {
+        "SELECT", "FROM", "WHERE", "JOIN", "LEFT", "RIGHT", "INNER",
+        "OUTER", "ON", "AND", "OR", "NOT", "IN", "LIKE", "BETWEEN",
+        "GROUP", "BY", "ORDER", "HAVING", "UNION", "EXCEPT", "INTERSECT",
+        "LIMIT", "OFFSET", "CASE", "WHEN", "THEN", "ELSE", "END",
+        "COUNT", "SUM", "AVG", "MAX", "MIN", "DISTINCT", "AS",
+        "INSERT", "UPDATE", "DELETE", "SET", "INTO", "VALUES",
+        "=", "<", ">", "<=", ">=", "<>", "!=", "+", "-", "*", "/",
+    }
+    tokens = re.findall(r'\b\w+\b|[=<>!+\-*/]+', sql_up)
+    operators = [t for t in tokens if t in SQL_OPERATORS]
+    operands  = [t for t in tokens if t not in SQL_OPERATORS]
+
+    eta1 = len(set(operators))   # unique operators
+    eta2 = len(set(operands))    # unique operands
+    N1   = len(operators)        # total operator usages
+    N2   = len(operands)         # total operand usages
+
+    vocab = eta1 + eta2
+    length = N1 + N2
+    halstead_volume = (length * math.log2(vocab + 1e-9)) if vocab > 0 else 0.0
+
+    # Normalise to [0, 1] — cap at 200 bits (typical complex SQL ceiling)
+    halstead_norm = round(min(halstead_volume / 200.0, 1.0), 4)
+    breakdown["halstead_volume_raw"] = round(halstead_volume, 2)
+    breakdown["halstead_norm"] = halstead_norm
+
+    # Combined score: mean of 5 binary dims + normalised Halstead
+    all_vals = list(breakdown.values())
+    # exclude halstead_volume_raw from mean (it's diagnostic only)
+    mean_vals = [v for k, v in breakdown.items() if k != "halstead_volume_raw"]
+    score = round(float(np.mean(mean_vals)), 4)
     return score, breakdown
 
 
@@ -120,10 +156,106 @@ def compute_diversity(embeddings: np.ndarray) -> np.ndarray:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-#  METRIC 4: SURPRISAL
+#  METRIC 4: SURPRISAL  (AutoDiscovery beta-distribution method)
 # ─────────────────────────────────────────────────────────────────────────────
 
-def compute_surprisal(all_records: list) -> list:
+SURPRISAL_PROMPT = """You are evaluating whether a data insight is surprising or expected.
+
+Given the following hypothesis (a data insight or finding), assess how likely
+it is to be true WITHOUT any additional evidence.
+
+Hypothesis:
+"{hypothesis}"
+
+Choose exactly ONE of these labels:
+  definitely_false  — You are confident this is false
+  maybe_false       — You think this is probably false
+  uncertain         — You have no strong belief either way
+  maybe_true        — You think this is probably true
+  definitely_true   — You are confident this is true
+
+Respond ONLY with valid JSON, no extra text:
+{{"belief": "<label>"}}
+"""
+
+BELIEF_TO_VALUE = {
+    "definitely_false": 0.0,
+    "maybe_false":      0.25,
+    "uncertain":        0.5,
+    "maybe_true":       0.75,
+    "definitely_true":  1.0,
+}
+
+
+def _llm_belief(hypothesis: str, api_key: str, api_base: str, model: str) -> float:
+    """
+    Query LLM once for belief about hypothesis.
+    Returns mapped float value 0.0–1.0. Falls back to 0.5 on error.
+    """
+    try:
+        resp = requests.post(
+            f"{api_base}/chat/completions",
+            headers={"Authorization": f"Bearer {api_key}",
+                     "Content-Type": "application/json"},
+            json={"model": model,
+                  "messages": [{"role": "user",
+                                "content": SURPRISAL_PROMPT.format(
+                                    hypothesis=hypothesis)}],
+                  "max_tokens": 50,
+                  "temperature": 1.0},   # temperature > 0 for k independent samples
+            timeout=30,
+        )
+        resp.raise_for_status()
+        content = re.sub(r"```json|```", "",
+                         resp.json()["choices"][0]["message"]["content"].strip()).strip()
+        label = json.loads(content).get("belief", "uncertain").strip().lower()
+        return BELIEF_TO_VALUE.get(label, 0.5)
+    except Exception:
+        return 0.5   # fallback: uncertain
+
+
+def compute_surprisal_beta(
+    summary: str,
+    api_key: str,
+    api_base: str,
+    model: str,
+    k: int = 5,
+) -> float:
+    """
+    AutoDiscovery-style surprisal via beta distribution.
+
+    Steps:
+      1. Use `summary` as hypothesis h.
+      2. Ask LLM k times: "How likely is h to be true?" → belief ∈ {0, 0.25, 0.5, 0.75, 1}
+      3. α  = sum of belief values  (weighted vote for true)
+         β  = k - α                (weighted vote for false)
+      4. Beta(α, β) represents LLM's prior belief about h.
+         μ_prior = α / (α + β) = α / k
+      5. μ_posterior = 1.0  (we have the SQL output grounding it)
+      6. surprisal = |μ_posterior - μ_prior| = |1 - μ_prior|
+
+    High surprisal → LLM didn't expect this finding → it's genuinely novel.
+    Low surprisal  → LLM already believed this → it's obvious/expected.
+
+    Falls back to old frequency-based method if no API key.
+    """
+    if not api_key or not _HAS_REQUESTS or not summary:
+        return 0.5   # neutral fallback when LLM unavailable
+
+    beliefs = [_llm_belief(summary, api_key, api_base, model) for _ in range(k)]
+    alpha       = sum(beliefs)           # α
+    beta_param  = k - alpha             # β
+    mu_prior    = alpha / k             # mean of Beta(α, β) = α/(α+β)
+    mu_posterior = 1.0                  # grounded by SQL execution
+    surprisal    = abs(mu_posterior - mu_prior)
+    return round(surprisal, 4)
+
+
+def compute_surprisal_frequency(all_records: list) -> list:
+    """
+    Original frequency-based surprisal — kept as fallback / for offline pipeline
+    where no LLM key is available.
+    """
     n = len(all_records)
     if n == 0:
         return []
@@ -404,7 +536,16 @@ def run_pipeline(raw_data, output_dir, llm_api_key, llm_api_base, llm_model, top
     emb  = vect.transform(texts).toarray()
 
     diversity_arr  = compute_diversity(emb)
-    surprisal_list = compute_surprisal(records)
+    # per-DPR beta surprisal using final_summary as hypothesis
+    if llm_api_key:
+        surprisal_list = [
+            compute_surprisal_beta(
+                r["final_summary"], llm_api_key, llm_api_base, llm_model, k=5
+            )
+            for r in records
+        ]
+    else:
+        surprisal_list = compute_surprisal_frequency(records)
     uniqueness_arr = compute_uniqueness(emb, threshold=0.85)
 
     for i, r in enumerate(records):
@@ -452,7 +593,7 @@ def run_pipeline(raw_data, output_dir, llm_api_key, llm_api_base, llm_model, top
                 "coverage":   "|tables_used ∩ ground_truth| / |ground_truth|",
                 "complexity": "mean(multi_table, join, agg, subquery, multi_entity)",
                 "diversity":  "1 - avg_cosine_sim(DPR_i, all other DPRs)",
-                "surprisal":  "-log P(tables_used) / log(|all_tables|)",
+                "surprisal": "|1 - mu_prior|  where mu_prior = alpha/k, alpha = sum of LLM beliefs, k=5 samples",
                 "uniqueness": "1 if no near-duplicate (cosine > 0.85), else 0",
                 "llm_scores": "GPT-4 scores: 0 / 0.5 / 0.75 / 1.0",
             }

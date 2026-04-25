@@ -1,0 +1,1497 @@
+Rank #1  |  DPR: Q4_C10_v3  |  Combined Score: 0.7161
+============================================================
+  Original DPR:
+    Develop a data product that tracks historical 10,000m and 100m sprint
+    records, athlete nationalities, and event locations to identify trends
+    in competitive performance and geographic/national representation,
+    supporting strategies for athletic training and resource allocation.
+
+  Coverage               1.0000
+  Complexity             0.4000
+  Diversity              0.8325
+  Surprisal              0.3425
+  Uniqueness             1.0000
+  LLM Quality            0.7500
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.5000
+
+  LLM Reasoning:          The DPR has clear analytical goals and multi-dimensional questions, but
+                          the scope could be better aligned with the schema, as trends in national
+                          representation are not fully supported by the provided tables.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by mentioning athlete
+                          nationalities and event locations but fails to comprehensively analyze
+                          historical trends or provide insights into competitive performance and
+                          resource allocation strategies.
+  Query-DPR Reasoning:    The DPR partially aligns by addressing athlete performances and
+                          nationalities but focuses narrowly on specific events and excludes
+                          broader aspects like medals, sports, and demographic trends over time.
+  Query-Summary Reasoning: The summary partially addresses the query by mentioning athlete
+                          performances and nationalities but misses key aspects like medals,
+                          sports, backgrounds, and comprehensive demographic or historical trend
+                          analysis.
+
+  User Query: How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?
+
+  Summary:
+    The data highlights variations in recorded times for athletes over a
+    three-year period, though the limited scope of years prevents
+    identifying broader performance trends. The United States stands out as
+    the nationality with the highest frequency of record-breaking
+    performances, while Brussels emerges as the most common event location,
+    followed by several other cities with fewer occurrences. However, the
+    evidence does not provide a comprehensive view of historical trends or
+    geographic representation beyond these specific details.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Year, Time, Athlete, Location FROM T22
+        UNION ALL
+        SELECT Year, Time, Athlete, Location FROM T23
+        ORDER BY Year;
+
+  [2] SQL:
+        SELECT Nationality, MAX(CAST(No_of_times_broken AS REAL)) AS Max_No_of_times_broken
+        FROM T24
+        GROUP BY Nationality;
+
+  [3] SQL:
+        SELECT Location, COUNT(Location) AS Location_count
+        FROM (
+          SELECT Location FROM T22
+          UNION ALL
+          SELECT Location FROM T23
+        )
+        GROUP BY Location
+        ORDER BY Location_count DESC;
+
+------------------------------------------------------------
+============================================================
+
+Rank #2  |  DPR: Q4_C9_v4  |  Combined Score: 0.7118
+============================================================
+  Original DPR:
+    Create a unified data product that aggregates historical performance
+    metrics (world record times, athletes, dates, and locations) across
+    multiple events, providing statistical insights on record progression
+    rates, improvement trends, and comparative analysis of athlete
+    achievements over time.
+
+  Coverage               1.0000
+  Complexity             0.2000
+  Diversity              0.8690
+  Surprisal              0.4755
+  Uniqueness             1.0000
+  LLM Quality            0.7500
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.5000
+
+  LLM Reasoning:          The DPR demonstrates clear analytical goals and multi-dimensional
+                          questions, but the scope is slightly ambiguous due to the lack of
+                          clarity on how to unify and differentiate between similar tables in the
+                          schema.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by mentioning some data points
+                          and trends but fails to provide comprehensive insights into record
+                          progression, improvement trends, or comparative analysis across all
+                          events.
+  Query-DPR Reasoning:    The DPR focuses on performance metrics and trends but misses key
+                          aspects like athletes' demographics, nationalities, and backgrounds.
+  Query-Summary Reasoning: The summary partially addresses the query by mentioning athlete
+                          performances and trends but lacks comprehensive information on sports,
+                          medals, nationalities, backgrounds, and broader demographic analysis
+                          over time.
+
+  User Query: How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?
+
+  Summary:
+    The data includes Time, Athlete, Date, and Place values for some
+    entries but does not clarify which rows correspond to specific event
+    categories like T54, T55, T56, or T57, leaving gaps in categorization.
+    It highlights performance improvements in T34 from 1966 to 1970, with
+    notable achievements by athletes such as Willie Davenport, Earl
+    McCullouch, and Thomas Hill, though trends beyond this period are not
+    provided. The overall range of years represented spans from 1966 to
+    1985, but the dataset lacks comprehensive insights into record
+    progression or broader trends across all events.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Time, Athlete, Date, Place FROM T54
+        UNION ALL
+        SELECT Time, Athlete, Date, Place FROM T55
+        UNION ALL
+        SELECT Time, Athlete, Date, Place FROM T56
+        UNION ALL
+        SELECT Time, Athlete, Date, Place FROM T57;
+
+  [2] SQL:
+        SELECT Year, Time, Athlete 
+        FROM T34 
+        ORDER BY Year;
+
+  [3] SQL:
+        SELECT MIN(Year) AS Min_Year, MAX(Year) AS Max_Year FROM T34;
+
+------------------------------------------------------------
+============================================================
+
+Rank #3  |  DPR: Q4_C10_v8  |  Combined Score: 0.7090
+============================================================
+  Original DPR:
+    Develop a data product that identifies anomalies in athletic
+    achievements across long-distance and sprint records by combining
+    historical race times, athlete nationalities, and competition locations
+    to highlight unexpected patterns in performance outliers and geographic
+    disparities.
+
+  Coverage               1.0000
+  Complexity             0.3333
+  Diversity              0.8493
+  Surprisal              0.3425
+  Uniqueness             1.0000
+  LLM Quality            0.7500
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.5000
+
+  LLM Reasoning:          The DPR has clear analytical goals and multi-dimensional questions, but
+                          it is somewhat vague in specifying how to operationalize 'unexpected
+                          patterns' and 'geographic disparities' using the given schema.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by mentioning race times,
+                          athlete nationalities, and locations, but it fails to analyze anomalies,
+                          unexpected patterns, or geographic disparities as requested.
+  Query-DPR Reasoning:    The DPR partially aligns by analyzing athlete performances and
+                          demographics but focuses narrowly on anomalies in race records, missing
+                          broader aspects like medals, sports, and trends over time.
+  Query-Summary Reasoning: The summary partially addresses the query by mentioning athlete
+                          performances and trends but focuses narrowly on long-distance races and
+                          lacks comprehensive details on sports, medals, nationalities, and
+                          demographics over time.
+
+  User Query: How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?
+
+  Summary:
+    The data highlights long-distance race times achieved by athletes from
+    Ethiopia, Kenya, and the United States, with performances recorded in
+    locations such as Brussels, Ostrava, and Eugene. Notable times include
+    multiple records by Kenenisa Bekele and contributions from Haile
+    Gebrselassie and Micah Kogo, all within a year range spanning from 2000
+    to 2019. However, the dataset does not provide information on the
+    frequency of record-breaking achievements, limiting insights into trends
+    or anomalies in repeated performance improvements.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Athlete, Nationality 
+        FROM T24 
+        ORDER BY CAST(No_of_times_broken AS REAL) DESC 
+        LIMIT 1;
+
+  [2] SQL:
+        SELECT Time, Athlete, Location FROM T22
+        UNION
+        SELECT Time, Athlete, Location FROM T23;
+
+  [3] SQL:
+        SELECT MIN(Year) AS Min_Year, MAX(Year) AS Max_Year
+        FROM (
+          SELECT Year FROM T22
+          UNION ALL
+          SELECT Year FROM T23
+        );
+
+------------------------------------------------------------
+============================================================
+
+Rank #4  |  DPR: Q4_C9_v10  |  Combined Score: 0.7026
+============================================================
+  Original DPR:
+    Develop a data product that integrates historical performance records,
+    athlete demographics, and event progression metrics to identify trends
+    that optimize resource allocation for training programs and competitive
+    event prioritization in Olympic sports.
+
+  Coverage               1.0000
+  Complexity             0.3333
+  Diversity              0.8590
+  Surprisal              0.4755
+  Uniqueness             1.0000
+  LLM Quality            0.5000
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.5000
+
+  LLM Reasoning:          The DPR has analytical intent but is vague and poorly scoped, as the
+                          schema lacks key dimensions like demographics and event progression
+                          metrics needed to fulfill the request.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by mentioning athlete
+                          performance data and time ranges but fails to integrate demographics,
+                          event progression metrics, or trends for optimizing resource allocation.
+  Query-DPR Reasoning:    The DPR partially aligns by addressing historical performance and
+                          demographics but shifts focus to resource optimization rather than
+                          analyzing achievements and trends over time.
+  Query-Summary Reasoning: The summary partially addresses the query by mentioning athlete
+                          performances and a date range but lacks details on sports, medals,
+                          nationalities, backgrounds, and trends over time.
+
+  User Query: How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?
+
+  Summary:
+    The data highlights recorded athlete performances concentrated in
+    Zürich and Westwood, with Zürich showing the highest frequency.
+    Individual performance metrics are available for specific athletes,
+    including examples of single and multiple recorded times, but broader
+    trends in performance distribution over time are not fully detailed. The
+    available date range spans from 1892 to mid-2015, though the progression
+    of performances across this period is not comprehensively represented in
+    the evidence.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Location, COUNT(Year) AS PerformanceCount
+        FROM T34
+        GROUP BY Location
+        ORDER BY PerformanceCount DESC;
+
+  [2] SQL:
+        SELECT Athlete, Time, COUNT(*) AS Performance_Count
+        FROM T34
+        GROUP BY Athlete, Time
+        ORDER BY Athlete, Time;
+
+  [3] SQL:
+        SELECT MIN(Date) AS Min_Date, MAX(Date) AS Max_Date
+        FROM (
+            SELECT Date FROM T54
+            UNION ALL
+            SELECT Date FROM T55
+            UNION ALL
+            SELECT Date FROM T56
+            UNION ALL
+            SELECT Date FROM T57
+        );
+
+------------------------------------------------------------
+============================================================
+
+Rank #5  |  DPR: Q4_C10_v2  |  Combined Score: 0.6985
+============================================================
+  Original DPR:
+    Develop a time-series data product that aggregates 10,000m and 100m
+    race performance trends, nationality distributions, and record-breaking
+    patterns to analyze athletic progression, demographic shifts, and global
+    competition dynamics over historical Olympic and track-event cycles.
+
+  Coverage               1.0000
+  Complexity             0.2667
+  Diversity              0.8420
+  Surprisal              0.3425
+  Uniqueness             1.0000
+  LLM Quality            0.7500
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.5000
+
+  LLM Reasoning:          The DPR has clear analytical goals and multi-dimensional questions, but
+                          the scope is slightly mismatched as the schema lacks explicit
+                          demographic or competition dynamics data.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by mentioning record-breaking
+                          activity and nationality distribution but lacks comprehensive analysis
+                          of time-series trends, demographic shifts, and global competition
+                          dynamics over historical cycles.
+  Query-DPR Reasoning:    The DPR focuses narrowly on track events and excludes broader aspects
+                          like other sports, medals, and athlete backgrounds mentioned in the
+                          query.
+  Query-Summary Reasoning: The summary provides limited information on nationality distribution
+                          and performance times but lacks comprehensive details on sports, medals,
+                          backgrounds, and broader trends over time.
+
+  User Query: How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?
+
+  Summary:
+    The data highlights record-breaking activity, with Steve Williams
+    holding the highest number of record breaks at four, and provides a
+    snapshot of nationality distribution for athletes in a specific
+    category, showing representation from Cuba, Jamaica, and a majority from
+    the United States. Performance times are available for three consecutive
+    years, but the evidence does not extend to broader trends or patterns
+    beyond this limited timeframe.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Year, Time, Athlete, Location FROM T22
+        UNION ALL
+        SELECT Year, Time, Athlete, Location FROM T23
+        ORDER BY Year;
+
+  [2] SQL:
+        SELECT Athlete, MAX(CAST(No_of_times_broken AS REAL)) AS Max_No_of_times_broken
+        FROM T24;
+
+  [3] SQL:
+        SELECT Nationality, COUNT(*) AS Count
+        FROM T24
+        GROUP BY Nationality;
+
+------------------------------------------------------------
+============================================================
+
+Rank #6  |  DPR: Q4_C10_v4  |  Combined Score: 0.6890
+============================================================
+  Original DPR:
+    Create a performance analytics dashboard for Olympic track and field
+    athletes that tracks key metrics such as year-on-year race time
+    improvements, frequency of record-breaking achievements, and
+    nationality-wise distribution of top performers in 10,000m and 100m
+    events to analyze trends in athletic performance and demographics.
+
+  Coverage               1.0000
+  Complexity             0.2000
+  Diversity              0.8426
+  Surprisal              0.3425
+  Uniqueness             1.0000
+  LLM Quality            0.7500
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.5000
+
+  LLM Reasoning:          The DPR has clear analytical goals and multi-dimensional questions, but
+                          the scope is slightly mismatched as nationality-wise analysis is not
+                          fully supported by the schema.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by mentioning year-on-year race
+                          time variations, record-breaking achievements, and nationality
+                          distribution, but it lacks comprehensive coverage of the specified time
+                          range, both 10,000m and 100m events, and broader demographic trends.
+  Query-DPR Reasoning:    The DPR focuses narrowly on track and field athletes and specific
+                          events, missing broader aspects like other sports, medals, and
+                          comprehensive demographic analysis requested by the user.
+  Query-Summary Reasoning: The summary partially addresses the query by mentioning performance
+                          data, nationality distribution, and record-breaking achievements, but it
+                          misses key aspects like comprehensive trends, medals, sports, and
+                          detailed demographic analysis over time.
+
+  User Query: How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?
+
+  Summary:
+    The performance data highlights year-on-year variations in race times
+    for the years 2000 to 2002, though trends beyond these years for
+    athletes in certain categories remain unclear. Record-breaking
+    achievements are noted, with specific athletes achieving between one and
+    four records each. Nationality distribution among athletes in one
+    category shows a majority from the United States, with smaller
+    representation from Cuba and Jamaica. However, broader demographic
+    trends and additional metrics are not fully addressed in the available
+    evidence.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Year, Time, Athlete, Location
+        FROM T22
+        UNION ALL
+        SELECT Year, Time, Athlete, Location
+        FROM T23
+        ORDER BY Year;
+
+  [2] SQL:
+        SELECT Athlete, No_of_times_broken FROM T24;
+
+  [3] SQL:
+        SELECT Nationality, COUNT(*) AS count
+        FROM T24
+        GROUP BY Nationality;
+
+------------------------------------------------------------
+============================================================
+
+Rank #7  |  DPR: Q4_C10_v6  |  Combined Score: 0.6874
+============================================================
+  Original DPR:
+    Provide a historical trend analysis of track-and-field athletes'
+    performances segmented by nationality and event type (e.g., 10,000m and
+    100m records), showing how subgroups like top-performing countries or
+    record-breaking cohorts have evolved in terms of frequency, race times,
+    and competitive milestones.
+
+  Coverage               1.0000
+  Complexity             0.3333
+  Diversity              0.8854
+  Surprisal              0.3425
+  Uniqueness             1.0000
+  LLM Quality            0.5000
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.5000
+
+  LLM Reasoning:          The DPR shows analytical intent but is poorly scoped, as the schema
+                          lacks sufficient detail (e.g., event type, nationality) to fully support
+                          the requested segmentation and analysis.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by mentioning record-breaking
+                          trends and contributions by nationality, but it lacks detailed
+                          segmentation by event type, analysis of race times, and evolution of
+                          competitive milestones over time.
+  Query-DPR Reasoning:    The DPR focuses narrowly on track-and-field athletes and excludes
+                          broader aspects like other sports, medals, and demographic backgrounds
+                          requested in the query.
+  Query-Summary Reasoning: The summary partially addresses the query by mentioning athletes'
+                          performances and nationalities but lacks comprehensive information on
+                          sports, medals, backgrounds, and demographic trends over time.
+
+  User Query: How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?
+
+  Summary:
+    The analysis of track-and-field record-breaking trends reveals that the
+    earliest and latest instances of records being broken occurred between
+    mid-1972 and mid-1975. From 2000 to 2019, performances were recorded
+    across various events, with athletes from Cuba, Jamaica, and the United
+    States contributing to record-breaking achievements. Among these, the
+    United States stands out with 12 records broken, while Cuba and Jamaica
+    each achieved this milestone once. However, the evidence does not
+    provide a detailed breakdown of event types or trends in race times and
+    competitive milestones over time, leaving some aspects of the historical
+    analysis incomplete.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT MIN(Date_first_broken) AS Earliest_Date, MAX(Date_first_broken) AS Latest_Date
+        FROM T24;
+
+  [2] SQL:
+        SELECT MIN(Year) AS Min_Year, MAX(Year) AS Max_Year
+        FROM (
+          SELECT Year FROM T22
+          UNION ALL
+          SELECT Year FROM T23
+        );
+
+  [3] SQL:
+        SELECT Nationality, SUM(CAST(No_of_times_broken AS INTEGER)) AS Total_times_broken
+        FROM T24
+        GROUP BY Nationality;
+
+------------------------------------------------------------
+============================================================
+
+Rank #8  |  DPR: Q4_C10_v10  |  Combined Score: 0.6871
+============================================================
+  Original DPR:
+    A data product aggregating historical track event performances (e.g.,
+    10,000m and 100m) with athlete demographics and competition metadata to
+    inform resource allocation strategies for athletic development programs.
+
+  Coverage               1.0000
+  Complexity             0.3333
+  Diversity              0.8831
+  Surprisal              0.3425
+  Uniqueness             1.0000
+  LLM Quality            0.5000
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.5000
+
+  LLM Reasoning:          The DPR has analytical intent but is poorly scoped as the schema lacks
+                          athlete demographics and competition metadata to fully support the
+                          request.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by aggregating track event
+                          performances but fails to include comprehensive athlete demographics,
+                          competition metadata, and a broader scope of data beyond a limited set
+                          of athletes, locations, and years.
+  Query-DPR Reasoning:    The DPR focuses narrowly on track events and resource allocation,
+                          missing broader aspects like all sports, medals, nationalities, and
+                          trends over time.
+  Query-Summary Reasoning: The summary partially addresses the query by providing information on
+                          specific athletes and performances but misses key aspects such as
+                          broader demographics, trends, and data on other sports, nationalities,
+                          and time periods.
+
+  User Query: How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?
+
+  Summary:
+    The data product aggregates historical track event performances,
+    focusing on a limited set of athletes exclusively from the United
+    States, including Jim Hines, Ronnie Ray Smith, Charles Greene, Steve
+    Williams, and Eddie Hart. It highlights Brussels as the location
+    associated with the fastest recorded times and includes event data
+    spanning the years 2000 to 2004, with an even distribution across these
+    years. However, the evidence does not provide information on additional
+    athletes, nationalities, or years beyond those specified.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT DISTINCT Athlete, Nationality FROM T24;
+
+  [2] SQL:
+        SELECT Location 
+        FROM T22 
+        WHERE Time = (SELECT MIN(Time) FROM T22);
+
+  [3] SQL:
+        SELECT Year, COUNT(*) AS count
+        FROM (
+          SELECT Year FROM T22
+          UNION ALL
+          SELECT Year FROM T23
+        )
+        GROUP BY Year;
+
+------------------------------------------------------------
+============================================================
+
+Rank #9  |  DPR: Q4_C10_v9  |  Combined Score: 0.6855
+============================================================
+  Original DPR:
+    Develop a data product that aggregates track and field results with
+    demographic metadata to evaluate athletes' performance benchmarks
+    against historical records, compare nationality-based achievements, and
+    analyze event-specific milestones like record-breaking trends over time.
+
+  Coverage               1.0000
+  Complexity             0.3333
+  Diversity              0.8718
+  Surprisal              0.3425
+  Uniqueness             1.0000
+  LLM Quality            0.5000
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.0000
+
+  LLM Reasoning:          The DPR shows analytical intent but is vague and poorly scoped, as the
+                          schema lacks sufficient demographic metadata and detailed historical
+                          records to fully support the specified goals.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by mentioning record-breaking
+                          achievements but fails to cover demographic metadata, nationality-based
+                          comparisons, or broader event-specific milestone analyses.
+  Query-DPR Reasoning:    The DPR focuses solely on track and field results, missing the broader
+                          scope of all Olympic sports, medals, and comprehensive demographic
+                          analysis requested by the user.
+  Query-Summary Reasoning: The summary focuses on a specific athlete's record-breaking
+                          achievements and lacks information on Olympic athletes' performances,
+                          demographics, and trends over time as requested in the query.
+
+  User Query: How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?
+
+  Summary:
+    The data highlights Steve Williams as the athlete with the highest
+    frequency of record-breaking achievements, totaling four instances.
+    Performance trends span from 2000 to 2019, though specific dates when
+    records were first broken are not available, as only general start and
+    end periods are provided.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Athlete, MAX(CAST(No_of_times_broken AS REAL)) AS Max_No_of_times_broken
+        FROM T24;
+
+  [2] SQL:
+        SELECT MIN(Year) AS Earliest_Year, MAX(Year) AS Latest_Year
+        FROM (
+          SELECT Year FROM T22
+          UNION ALL
+          SELECT Year FROM T23
+        );
+
+  [3] SQL:
+        SELECT MIN(Date_first_broken) AS Start_Date, MAX(Date_first_broken) AS End_Date
+        FROM T24;
+
+------------------------------------------------------------
+============================================================
+
+Rank #10  |  DPR: Q4_C9_v6  |  Combined Score: 0.6826
+============================================================
+  Original DPR:
+    Develop a unified data product that aggregates historical athletic
+    performance metrics across events, segmented by nationality, gender, and
+    time periods, and include demographic and medal data to enable subgroup
+    analysis of achievements and trends over time.
+
+  Coverage               1.0000
+  Complexity             0.2000
+  Diversity              0.8518
+  Surprisal              0.4755
+  Uniqueness             1.0000
+  LLM Quality            0.5000
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         1.0000
+  Query-Summary Rel.     0.5000
+
+  LLM Reasoning:          The DPR has analytical intent but is poorly scoped as the schema lacks
+                          demographic, nationality, gender, and medal data required for the
+                          specified analysis.
+  DPR-Summary Reasoning:  The summary provides some relevant data points but fails to address key
+                          analytical goals such as demographic details, medal data, and
+                          segmentation by nationality, gender, or time periods, which are
+                          essential for subgroup analysis and trend identification.
+  Query-DPR Reasoning:    The DPR fully addresses the user's intent by providing a unified data
+                          product that includes performance metrics, demographics, medals, and
+                          trends segmented by relevant factors over time.
+  Query-Summary Reasoning: The summary provides some performance data and event locations but
+                          lacks comprehensive information on medals, demographics, and trends over
+                          time, which are key aspects of the query.
+
+  User Query: How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?
+
+  Summary:
+    The data includes athlete names such as Abel Kiviat from the USA and
+    Albin Lermusiaux from France, along with recorded performance times
+    ranging from 3:55.8 to 4:18 + 2/5. The available years span from 1966 to
+    1985, and events are associated with locations including New York City,
+    Minneapolis, Mexico City, Miami, and Bakersfield. However, the evidence
+    does not provide information on demographic details, medal data, or
+    segmentation by nationality, gender, or specific time periods, which
+    limits the scope for subgroup analysis and trend identification.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Athlete, Time FROM T34
+        UNION
+        SELECT Athlete, Time FROM T54
+        UNION
+        SELECT Athlete, Time FROM T55
+        UNION
+        SELECT Athlete, Time FROM T56
+        UNION
+        SELECT Athlete, Time FROM T57;
+
+  [2] SQL:
+        SELECT MIN(Year) AS Min_Year, MAX(Year) AS Max_Year
+        FROM T34;
+
+  [3] SQL:
+        SELECT DISTINCT Location FROM T34;
+
+------------------------------------------------------------
+============================================================
+
+Rank #11  |  DPR: Q4_C1_v4  |  Combined Score: 0.6219
+============================================================
+  Original DPR:
+    Create a dataset that aggregates athlete rankings, race times, and
+    nationality distribution across International Cross Country
+    Championships from 1898–1933, correlates these performance metrics with
+    team points (where available), and tracks temporal trends in national
+    dominance to infer demographic and competitive shifts over time.
+
+  Coverage               0.6111
+  Complexity             0.4000
+  Diversity              0.8471
+  Surprisal              0.2514
+  Uniqueness             1.0000
+  LLM Quality            0.7500
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.5000
+
+  LLM Reasoning:          The DPR is analytical with clear goals and multi-dimensional questions,
+                          but it is slightly mismatched to the schema as not all required data
+                          (e.g., team points and temporal trends) is fully supported.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by including rankings, team
+                          points, and some athlete details, but it fails to cover the full
+                          temporal range, lacks analysis of national dominance or demographic
+                          shifts, and omits critical correlations and trends requested in the DPR.
+  Query-DPR Reasoning:    The DPR partially aligns by analyzing performance metrics and trends
+                          over time, but it focuses on a specific championship and excludes
+                          broader Olympic data, medals, and athlete backgrounds.
+  Query-Summary Reasoning: The summary partially addresses the query by mentioning rankings,
+                          countries, and some athlete details, but it lacks comprehensive
+                          information on individual performances, medals, backgrounds, and trends
+                          over time.
+
+  User Query: How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?
+
+  Summary:
+    The dataset includes rankings, team compositions, countries, and points
+    for top-performing teams, with France, England, Spain, Belgium, and
+    Scotland ranked first through fifth, respectively, based on their
+    aggregated team points. Specific athlete names and times are provided in
+    some instances, but there are gaps in the data where rankings, athlete
+    details, nationalities, and times are not available for certain entries.
+    The date range spans from "10 Aug" to "7 Aug," though no year
+    information is included, and the temporal scope of national dominance or
+    demographic shifts cannot be fully assessed due to these limitations.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Rank, Country, Team, Points FROM T83;
+
+  [2] SQL:
+        SELECT Rank, Athlete, Nationality, Time FROM T5
+        UNION ALL
+        SELECT Rank, Athlete, Nationality, Time FROM T6
+        UNION ALL
+        SELECT Rank, Athlete, Nationality, Time FROM T7
+        UNION ALL
+        SELECT Rank, Athlete, Nationality, Time FROM T77
+        UNION ALL
+        SELECT Rank, Athlete, Nationality, Time FROM T78
+        UNION ALL
+        SELECT Rank, Athlete, Nationality, Time FROM T79
+        UNION ALL
+        SELECT Rank, Athlete, Nationality, Time FROM T80
+        UNION ALL
+        SELECT Rank, Athlete, Nationality, Time FROM T82
+        UNION ALL
+        SELECT Rank, Athlete, Nationality, Time FROM T85;
+
+  [3] SQL:
+        SELECT MIN(Date) AS Start_Date, MAX(Date) AS End_Date FROM T81;
+
+------------------------------------------------------------
+============================================================
+
+Rank #12  |  DPR: Q4_C1_v10  |  Combined Score: 0.6170
+============================================================
+  Original DPR:
+    Develop a historical performance analytics tool for international
+    cross-country championships that tracks athlete rankings, nationalities,
+    and race times year-over-year to identify demographic trends and
+    optimize resource allocation strategies for athletic development
+    programs.
+
+  Coverage               0.5000
+  Complexity             0.5333
+  Diversity              0.8465
+  Surprisal              0.2514
+  Uniqueness             1.0000
+  LLM Quality            0.7500
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.5000
+
+  LLM Reasoning:          The DPR has clear analytical goals and aligns with the schema, but it
+                          lacks precision in defining measurable outputs and specific demographic
+                          trends.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by mentioning athlete rankings,
+                          nationalities, and race times, but it lacks year-over-year analysis,
+                          demographic trends, and insights for optimizing resource allocation
+                          strategies.
+  Query-DPR Reasoning:    The DPR partially aligns by addressing athlete demographics and
+                          performance trends, but it focuses on cross-country championships rather
+                          than Olympic athletes and excludes medals, sports, and broader
+                          achievements.
+  Query-Summary Reasoning: The summary provides some information on athlete performances and
+                          nationalities but lacks comprehensive details on sports, medals,
+                          backgrounds, and broader demographic trends over time.
+
+  User Query: How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?
+
+  Summary:
+    The data highlights athlete rankings, nationalities, and race times,
+    with specific examples including athletes from England ranked 4.0 and
+    5.0, recording times of 57:22.6 and 57:48.4, alongside other times such
+    as 56:36, 56:36.4, and 57:14.8, though ranks for these are unspecified.
+    The recorded time range spans from 0.0 to 59234.0. Nationalities most
+    frequently represented include England, France, Scotland, Ireland, and
+    Wales, with England appearing most often, but no additional
+    nationalities or further demographic details are provided, limiting
+    broader trend analysis.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Rank, Nationality, Time FROM T5
+        UNION ALL
+        SELECT Rank, Nationality, Time FROM T6
+        UNION ALL
+        SELECT Rank, Nationality, Time FROM T7
+        UNION ALL
+        SELECT Rank, Nationality, Time FROM T77
+        UNION ALL
+        SELECT Rank, Nationality, Time FROM T78
+        UNION ALL
+        SELECT Rank, Nationality, Time FROM T79
+        UNION ALL
+        SELECT Rank, Nationality, Time FROM T80
+        UNION ALL
+        SELECT Rank, Nationality, Time FROM T82
+        UNION ALL
+        SELECT Rank, Nationality, Time FROM T85;
+
+  [2] SQL:
+        SELECT MIN(CAST(REPLACE(REPLACE(Time, ':', ''), '.', '') AS REAL)) AS Min_Time, 
+               MAX(CAST(REPLACE(REPLACE(Time, ':', ''), '.', '') AS REAL)) AS Max_Time
+        FROM (
+            SELECT Time FROM T5
+            UNION ALL
+            SELECT Time FROM T6
+            UNION ALL
+            SELECT Time FROM T7
+            UNION ALL
+            SELECT Time FROM T77
+            UNION ALL
+            SELECT Time FROM T78
+            UNION ALL
+            SELECT Time FROM T79
+            UNION ALL
+            SELECT Time FROM T80
+            UNION ALL
+            SELECT Time FROM T82
+            UNION ALL
+            SELECT Time FROM T85
+        );
+
+  [3] SQL:
+        SELECT Nationality, COUNT(*) AS Frequency
+        FROM (
+            SELECT Nationality FROM T5
+            UNION ALL
+            SELECT Nationality FROM T6
+            UNION ALL
+            SELECT Nationality FROM T7
+            UNION ALL
+            SELECT Nationality FROM T77
+            UNION ALL
+            SELECT Nationality FROM T78
+            UNION ALL
+            SELECT Nationality FROM T79
+            UNION ALL
+            SELECT Nationality FROM T80
+            UNION ALL
+            SELECT Nationality FROM T82
+            UNION ALL
+            SELECT Nationality FROM T85
+        )
+        GROUP BY Nationality
+        ORDER BY Frequency DESC;
+
+------------------------------------------------------------
+============================================================
+
+Rank #13  |  DPR: Q4_C1_v3  |  Combined Score: 0.5800
+============================================================
+  Original DPR:
+    A data product aggregating longitudinal performance metrics of
+    international cross-country athletes (rank, time, nationality, and event
+    year) with trend analysis to support actionable insights for sports
+    organizations identifying emerging talent and optimizing training
+    strategies.
+
+  Coverage               0.5556
+  Complexity             0.3333
+  Diversity              0.8912
+  Surprisal              0.2514
+  Uniqueness             1.0000
+  LLM Quality            0.5000
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.5000
+
+  LLM Reasoning:          The DPR demonstrates analytical intent but is poorly scoped, as it does
+                          not clearly align with the schema, which lacks sufficient longitudinal
+                          or trend-specific data.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by mentioning performance
+                          metrics but fails to demonstrate longitudinal analysis, trend
+                          identification, or actionable insights, which are key analytical goals.
+  Query-DPR Reasoning:    The DPR focuses on cross-country athletes and training strategies,
+                          missing key aspects like Olympic athletes across all sports, medals, and
+                          demographic analysis over time.
+  Query-Summary Reasoning: The summary partially addresses the query by mentioning performance
+                          metrics and nationality but lacks details on medals, backgrounds,
+                          comprehensive trends, and demographic analysis over time.
+
+  User Query: How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?
+
+  Summary:
+    The data product includes performance metrics such as rank, time, and
+    nationality for a subset of athletes, with examples showing specific
+    times and ranks for individuals from England. While rank and time are
+    present as columns, the evidence does not clarify how these metrics are
+    used for longitudinal analysis or trend identification. Additionally,
+    the date range spans from "10 Aug" to "7 Aug," but no year information
+    is provided, and certain identifiers are excluded from the result set.
+    These limitations suggest incomplete coverage for comprehensive trend
+    analysis or actionable insights.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Rank, Athlete, Nationality, Time 
+        FROM T5 
+        UNION ALL 
+        SELECT Rank, Athlete, Nationality, Time 
+        FROM T6 
+        UNION ALL 
+        SELECT Rank, Athlete, Nationality, Time 
+        FROM T7 
+        UNION ALL 
+        SELECT Rank, Athlete, Nationality, Time 
+        FROM T77 
+        UNION ALL 
+        SELECT Rank, Athlete, Nationality, Time 
+        FROM T78 
+        UNION ALL 
+        SELECT Rank, Athlete, Nationality, Time 
+        FROM T79 
+        UNION ALL 
+        SELECT Rank, Athlete, Nationality, Time 
+        FROM T80 
+        UNION ALL 
+        SELECT Rank, Athlete, Nationality, Time 
+        FROM T82 
+        UNION ALL 
+        SELECT Rank, Athlete, Nationality, Time 
+        FROM T85;
+
+  [2] SQL:
+        SELECT DISTINCT Rank, Time FROM T5
+        UNION
+        SELECT DISTINCT Rank, Time FROM T6
+        UNION
+        SELECT DISTINCT Rank, Time FROM T7
+        UNION
+        SELECT DISTINCT Rank, Time FROM T77
+        UNION
+        SELECT DISTINCT Rank, Time FROM T78
+        UNION
+        SELECT DISTINCT Rank, Time FROM T79
+        UNION
+        SELECT DISTINCT Rank, Time FROM T80
+        UNION
+        SELECT DISTINCT Rank, Time FROM T82
+        UNION
+        SELECT DISTINCT Rank, Time FROM T85;
+
+  [3] SQL:
+        SELECT MIN(Date) AS Min_Date, MAX(Date) AS Max_Date FROM T81;
+
+------------------------------------------------------------
+============================================================
+
+Rank #14  |  DPR: Q4_C1_v6  |  Combined Score: 0.5758
+============================================================
+  Original DPR:
+    Develop a historical performance analysis of international cross
+    country athletes from 1898 to 1933, segmented by nationality, event year
+    ranges (1898–1920, 1921–1933), and gender (where identifiable) to
+    identify national dominance trends, performance progressions, and
+    demographic representation shifts.
+
+  Coverage               0.5556
+  Complexity             0.3333
+  Diversity              0.8617
+  Surprisal              0.2514
+  Uniqueness             1.0000
+  LLM Quality            0.5000
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.5000
+
+  LLM Reasoning:          The DPR has analytical intent but is poorly scoped as the schema lacks
+                          gender data and event year ranges, making it difficult to fully address
+                          the request.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by mentioning performance data
+                          and nationality but fails to segment by event year ranges, analyze
+                          national dominance trends, or include gender-related insights, which are
+                          key analytical goals.
+  Query-DPR Reasoning:    The DPR partially aligns by analyzing athlete performance and
+                          demographics over time, but it is limited to cross country athletes and
+                          excludes broader Olympic sports, medals, and comprehensive trends.
+  Query-Summary Reasoning: The summary partially addresses the query by mentioning performance
+                          data and nationality but lacks comprehensive information on sports,
+                          medals, backgrounds, and trends over time.
+
+  User Query: How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?
+
+  Summary:
+    The available data highlights athletes with English nationality
+    achieving ranks of 4.0 and 5.0, though information on other
+    nationalities or ranks is not provided. Recorded performance times range
+    from 0.0 to 59234.0, but no gender-related data is present, limiting the
+    ability to analyze trends by gender or fully assess demographic
+    representation.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Rank, Nationality 
+        FROM T5 
+        UNION ALL 
+        SELECT Rank, Nationality 
+        FROM T6 
+        UNION ALL 
+        SELECT Rank, Nationality 
+        FROM T7 
+        UNION ALL 
+        SELECT Rank, Nationality 
+        FROM T77 
+        UNION ALL 
+        SELECT Rank, Nationality 
+        FROM T78 
+        UNION ALL 
+        SELECT Rank, Nationality 
+        FROM T79 
+        UNION ALL 
+        SELECT Rank, Nationality 
+        FROM T80 
+        UNION ALL 
+        SELECT Rank, Nationality 
+        FROM T82 
+        UNION ALL 
+        SELECT Rank, Nationality 
+        FROM T85;
+
+  [2] SQL:
+        SELECT MIN(CAST(REPLACE(REPLACE(Time, ':', ''), '.', '') AS REAL)) AS Min_Time, 
+               MAX(CAST(REPLACE(REPLACE(Time, ':', ''), '.', '') AS REAL)) AS Max_Time
+        FROM (
+            SELECT Time FROM T5
+            UNION ALL
+            SELECT Time FROM T6
+            UNION ALL
+            SELECT Time FROM T7
+            UNION ALL
+            SELECT Time FROM T77
+            UNION ALL
+            SELECT Time FROM T78
+            UNION ALL
+            SELECT Time FROM T79
+            UNION ALL
+            SELECT Time FROM T80
+            UNION ALL
+            SELECT Time FROM T82
+            UNION ALL
+            SELECT Time FROM T85
+        );
+
+  [3] SQL:
+        SELECT * FROM T84 WHERE LOWER(Athlete) LIKE '%lilian%' OR LOWER(Athlete) LIKE '%gladys%';
+
+------------------------------------------------------------
+============================================================
+
+Rank #15  |  DPR: Q4_C9_v8  |  Combined Score: 0.5602
+============================================================
+  Original DPR:
+    Identify and analyze anomalies in track and field performance records,
+    such as unexpected improvements in 110m hurdles or 1500m times, records
+    set in geographically or statistically unusual locations, and athletes
+    whose achievements deviate from historical trends, to uncover surprising
+    patterns in athletic progressions.
+
+  Coverage               0.4000
+  Complexity             0.2000
+  Diversity              0.8955
+  Surprisal              0.4755
+  Uniqueness             1.0000
+  LLM Quality            0.5000
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.0000
+
+  LLM Reasoning:          The DPR shows analytical intent but is vague and poorly scoped, as it
+                          does not clearly define how to identify anomalies or leverage the
+                          schema's limited columns effectively.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by identifying anomalies in
+                          performance records but fails to analyze unexpected improvements,
+                          unusual locations, or deviations from historical trends comprehensively.
+  Query-DPR Reasoning:    The DPR partially aligns by analyzing performance trends but misses
+                          broader aspects like medals, nationalities, backgrounds, and overall
+                          demographic analysis over time.
+  Query-Summary Reasoning: The summary focuses on specific anomalies in track and field
+                          performance records without addressing the user's broader query about
+                          Olympic athletes' performances, demographics, and trends over time.
+
+  User Query: How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?
+
+  Summary:
+    Anomalies in track and field performance records are evident in the T34
+    and T54 categories. In T34, the fastest recorded times are clustered
+    among a small set of performances by Greg Foster and Alejandro Casañas,
+    with no additional data on other athletes or locations provided. In T54,
+    Abel Kiviat and Albin Lermusiaux show notable variations in performance
+    times across different dates, each with two distinct fluctuations. The
+    available data spans years from 1966 to 1985, but limitations in the
+    evidence restrict a broader analysis of patterns or trends beyond these
+    observations.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Athlete, Location, MIN(CAST(Time AS REAL)) AS Fastest_Time
+        FROM T34
+        GROUP BY Athlete, Location;
+
+  [2] SQL:
+        SELECT Athlete, COUNT(DISTINCT Time) AS Time_Variations
+        FROM T54
+        GROUP BY Athlete
+        HAVING COUNT(DISTINCT Time) > 1;
+
+  [3] SQL:
+        SELECT MIN(Year) AS Min_Year, MAX(Year) AS Max_Year FROM T34;
+
+------------------------------------------------------------
+============================================================
+
+Rank #16  |  DPR: Q4_C9_v1  |  Combined Score: 0.5581
+============================================================
+  Original DPR:
+    Construct a unified data product combining historical 110m hurdles and
+    1500m world record data to compare performance progression trends,
+    athlete participation overlaps, and location-based correlations in
+    record-breaking events over time.
+
+  Coverage               0.4000
+  Complexity             0.2000
+  Diversity              0.8804
+  Surprisal              0.4755
+  Uniqueness             1.0000
+  LLM Quality            0.5000
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.0000
+  Query-Summary Rel.     0.0000
+
+  LLM Reasoning:          The DPR has analytical intent but is vague in specifying how to unify
+                          data across tables with differing schemas and lacks clarity on
+                          measurable goals.
+  DPR-Summary Reasoning:  The summary mentions locations and athletes but fails to analyze
+                          performance progression trends, athlete participation overlaps, or
+                          correlations over time, which are key goals of the DPR.
+  Query-DPR Reasoning:    The DPR focuses on specific track events and record trends, which does
+                          not address the user's broader interest in Olympic athletes'
+                          performances, demographics, and achievements across multiple sports and
+                          time periods.
+  Query-Summary Reasoning: The summary is completely unrelated to the query, as it does not
+                          address Olympic athletes' performances, demographics, or trends over
+                          time.
+
+  User Query: How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?
+
+  Summary:
+    The data highlights record-breaking events occurring in locations such
+    as New York City, Minneapolis, Mexico City, Miami, and Bakersfield, with
+    unique athletes including Abel Kiviat, Albin Lermusiaux, Alejandro
+    Casañas, Charles Bennett, and Earl McCullouch, though their specific
+    classifications (T34, T54, or both) are not clarified. Additionally, the
+    time span for T34 records is identified as ranging from 1966 to 1985.
+    However, the evidence does not provide details on performance
+    progression trends, overlaps in athlete participation, or correlations
+    between locations and record-breaking events over time.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT DISTINCT Location 
+        FROM T34;
+
+  [2] SQL:
+        SELECT DISTINCT Athlete FROM T34
+        UNION
+        SELECT DISTINCT Athlete FROM T54;
+
+  [3] SQL:
+        SELECT MIN(Year) AS Min_Year, MAX(Year) AS Max_Year FROM T34;
+
+------------------------------------------------------------
+============================================================
+
+Rank #17  |  DPR: Q4_C1_v2  |  Combined Score: 0.5311
+============================================================
+  Original DPR:
+    Build a historical performance tracking system that aggregates cross
+    country championship results by year, nationality, and athlete rankings
+    from 1898–1933 to identify trends in competitive performance,
+    demographic participation, and international dominance, enabling
+    comparative analysis of Olympic-level athletic progression and national
+    representation patterns.
+
+  Coverage               0.1667
+  Complexity             0.4667
+  Diversity              0.8115
+  Surprisal              0.2514
+  Uniqueness             1.0000
+  LLM Quality            0.7500
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.0000
+
+  LLM Reasoning:          The DPR is analytical with clear goals and multi-dimensional questions,
+                          but the scope is slightly mismatched as it includes demographic
+                          participation and trends that may not be fully supported by the schema.
+  DPR-Summary Reasoning:  The summary provides specific athlete data but fails to address broader
+                          trends, demographic participation, or international dominance as
+                          required by the DPR.
+  Query-DPR Reasoning:    The DPR partially aligns by focusing on athlete performance and
+                          demographics but misses key aspects like Olympic-specific data, medals,
+                          and broader timeframes.
+  Query-Summary Reasoning: The summary focuses on specific English athletes and limited
+                          performance details, failing to address the broader query about Olympic
+                          athletes' performances, trends, demographics, and achievements over
+                          time.
+
+  User Query: How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?
+
+  Summary:
+    The data includes performance details for athletes of English
+    nationality, specifically "Alf Pepper," "Arthur Meacham," "Bobby Mills,"
+    "Charles Bennett," and "Charles Clibbon," with recorded times ranging
+    from "1:01:33" to "1:03:18." Rankings are partially represented with a
+    minimum value of 4.0, but the full range of rankings is not provided,
+    leaving gaps in understanding the broader distribution of performance
+    metrics.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT MIN(Rank) AS Min_Rank, MAX(Rank) AS Max_Rank
+        FROM (
+            SELECT Rank FROM T5
+            UNION ALL
+            SELECT Rank FROM T6
+            UNION ALL
+            SELECT Rank FROM T7
+        );
+
+  [2] SQL:
+        SELECT Nationality, Athlete FROM T5
+        UNION
+        SELECT Nationality, Athlete FROM T6
+        UNION
+        SELECT Nationality, Athlete FROM T7;
+
+  [3] SQL:
+        SELECT Time FROM T5
+        UNION
+        SELECT Time FROM T6
+        UNION
+        SELECT Time FROM T7;
+
+------------------------------------------------------------
+============================================================
+
+Rank #18  |  DPR: Q4_C1_v7  |  Combined Score: 0.5049
+============================================================
+  Original DPR:
+    Develop a historical performance forecasting model using athlete data
+    from pre-Olympic cross-country championships (1898–1933) to predict
+    future Olympic medal likelihoods and demographic trends based on
+    nationality, race time improvements, and competitive ranking patterns.
+
+  Coverage               0.1667
+  Complexity             0.4000
+  Diversity              0.8822
+  Surprisal              0.2514
+  Uniqueness             1.0000
+  LLM Quality            0.5000
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.0000
+
+  LLM Reasoning:          The DPR demonstrates analytical intent but is poorly scoped, as it
+                          references data from 1898–1933 without clear alignment to the schema,
+                          which lacks historical or demographic data beyond basic athlete
+                          performance metrics.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by mentioning data attributes
+                          like rank values, recorded times, and nationality distributions, but it
+                          fails to analyze or connect these to the key goals of forecasting
+                          Olympic medal likelihoods or demographic trends based on the specified
+                          patterns.
+  Query-DPR Reasoning:    The DPR partially aligns by focusing on athlete data and trends but
+                          diverges from the query's broader scope of analyzing Olympic
+                          performances, demographics, and achievements over time.
+  Query-Summary Reasoning: The summary is completely unrelated to the query, as it does not
+                          provide information on Olympic athletes' performances, sports, medals,
+                          nationalities, or backgrounds, nor does it analyze achievements or
+                          demographics over time.
+
+  User Query: How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?
+
+  Summary:
+    The available data includes rank values ranging from 0.0 to 20.0 and
+    recorded times spanning from 59:08 to 1:01:33. Nationality distributions
+    are provided, with England, France, Ireland, Scotland, and Wales
+    represented in varying counts, though it is unclear how these
+    distributions connect to specific datasets. The evidence does not
+    address patterns in race time improvements, competitive rankings, or
+    their relationship to predicting Olympic medal likelihoods, leaving gaps
+    in the analysis.
+
+  Sub-Queries (2 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT 
+            MIN(CAST(Rank AS REAL)) AS Min_Rank, 
+            MAX(CAST(Rank AS REAL)) AS Max_Rank, 
+            MIN(Time) AS Min_Time, 
+            MAX(Time) AS Max_Time 
+        FROM (
+            SELECT Rank, Time FROM T5
+            UNION ALL
+            SELECT Rank, Time FROM T6
+            UNION ALL
+            SELECT Rank, Time FROM T7
+        );
+
+  [2] SQL:
+        SELECT Nationality, COUNT(*) AS Count
+        FROM (
+            SELECT Nationality FROM T5
+            UNION ALL
+            SELECT Nationality FROM T6
+            UNION ALL
+            SELECT Nationality FROM T7
+        )
+        GROUP BY Nationality;
+
+------------------------------------------------------------
+============================================================
+
+Rank #19  |  DPR: Q4_C1_v5  |  Combined Score: 0.4958
+============================================================
+  Original DPR:
+    A historical narrative data product compiling athlete nationalities,
+    performance metrics, and event participation from early international
+    athletics and motorsport events (1898-1948) to analyze evolving
+    competition dynamics and cultural shifts in sports participation before
+    the modern Olympic era.
+
+  Coverage               0.1667
+  Complexity             0.3333
+  Diversity              0.8855
+  Surprisal              0.2514
+  Uniqueness             1.0000
+  LLM Quality            0.5000
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.5000
+  Query-Summary Rel.     0.5000
+
+  LLM Reasoning:          The DPR has analytical intent but is poorly scoped, as it requests data
+                          spanning multiple decades without clear alignment to the schema's tables
+                          or columns.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by mentioning athlete
+                          nationalities and performance metrics but fails to cover event
+                          participation, historical narratives, or cultural dynamics as requested.
+  Query-DPR Reasoning:    The DPR partially aligns by providing historical athlete data and
+                          performance metrics, but it focuses on pre-Olympic events and lacks
+                          coverage of modern Olympic athletes, medals, and demographic trends over
+                          time.
+  Query-Summary Reasoning: The summary partially addresses the query by mentioning athlete
+                          performance metrics and nationalities but misses key aspects like
+                          sports, medals, backgrounds, and trends over time.
+
+  User Query: How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?
+
+  Summary:
+    The data highlights athlete performance metrics, including rank and
+    time ranges, across three tiers of competition (T5, T6, and T7), with
+    ranks spanning from 0.0 to 20.0 and times varying between "51:52.4" and
+    "1:01:33" depending on the tier. Athlete nationalities represented in
+    the dataset include England, France, Ireland, Scotland, and Wales. While
+    the evidence provides insights into rankings, timings, and national
+    representation, it does not address event participation or broader
+    historical or cultural dynamics.
+
+  Sub-Queries (2 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT 
+            'T5' AS Table_Name, 
+            MIN(CAST(Rank AS REAL)) AS Min_Rank, 
+            MAX(CAST(Rank AS REAL)) AS Max_Rank, 
+            MIN(Time) AS Min_Time, 
+            MAX(Time) AS Max_Time 
+        FROM T5
+        UNION ALL
+        SELECT 
+            'T6' AS Table_Name, 
+            MIN(CAST(Rank AS REAL)) AS Min_Rank, 
+            MAX(CAST(Rank AS REAL)) AS Max_Rank, 
+            MIN(Time) AS Min_Time, 
+            MAX(Time) AS Max_Time 
+        FROM T6
+        UNION ALL
+        SELECT 
+            'T7' AS Table_Name, 
+            MIN(CAST(Rank AS REAL)) AS Min_Rank, 
+            MAX(CAST(Rank AS REAL)) AS Max_Rank, 
+            MIN(Time) AS Min_Time, 
+            MAX(Time) AS Max_Time 
+        FROM T7;
+
+  [2] SQL:
+        SELECT DISTINCT Nationality 
+        FROM T5 
+        UNION 
+        SELECT DISTINCT Nationality 
+        FROM T6 
+        UNION 
+        SELECT DISTINCT Nationality 
+        FROM T7;
+
+------------------------------------------------------------
+============================================================
+
+Rank #20  |  DPR: Q4_C9_v7  |  Combined Score: 0.4925
+============================================================
+  Original DPR:
+    Develop a predictive analytics data product that integrates historical
+    performance trends (e.g., world record progression in track events like
+    the 110m hurdles and 1500m), athlete demographics inferred from event
+    locations, and temporal patterns to forecast future achievements,
+    emerging dominant athlete nationalities, and potential record-breaking
+    milestones in Olympic competitions.
+
+  Coverage               0.2000
+  Complexity             0.0667
+  Diversity              0.8549
+  Surprisal              0.4755
+  Uniqueness             1.0000
+  LLM Quality            0.5000
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.7500
+  Query-Summary Rel.     0.5000
+
+  LLM Reasoning:          The DPR has analytical intent but is poorly scoped, as the schema lacks
+                          sufficient detail to support demographic inference or predictive
+                          analytics.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by providing historical
+                          performance trends and geographic diversity but fails to integrate
+                          athlete demographics, temporal patterns, or predictive analytics as
+                          requested.
+  Query-DPR Reasoning:    The DPR addresses performance trends, demographics, and achievements
+                          but focuses on predictive analytics rather than analyzing historical
+                          data comprehensively as requested.
+  Query-Summary Reasoning: The summary partially addresses the query by mentioning performance
+                          trends and specific athletes but lacks comprehensive information on
+                          demographics, broader trends, and a wide range of sports and
+                          nationalities over time.
+
+  User Query: How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?
+
+  Summary:
+    The data highlights performance trends for T34 athletes, including
+    Willie Davenport, Earl McCullouch, Thomas Hill, and Leon Coleman, with
+    recorded times spanning from 1966 to 1985 across locations such as New
+    York City, Minneapolis, Mexico City, Miami, and Bakersfield. While the
+    evidence provides specific time records and geographic diversity, it
+    does not include broader athlete demographics, temporal patterns beyond
+    the listed years, or predictive insights into future achievements or
+    emerging dominant nationalities.
+
+  Sub-Queries (3 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Year, Time, Athlete 
+        FROM T34 
+        ORDER BY Year;
+
+  [2] SQL:
+        SELECT MIN(Year) AS Min_Year, MAX(Year) AS Max_Year FROM T34;
+
+  [3] SQL:
+        SELECT DISTINCT Location FROM T34;
+
+------------------------------------------------------------
+============================================================
+

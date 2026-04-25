@@ -10,10 +10,9 @@ collected per query, or MAX_ATTEMPTS (default: 50) is reached.
 
 Two independent LLMs:
 
-  LLM-A  GenerateDPRNoQuery  (defined here)
-    - Sees: selected cluster's table info + history + perspective
-    - Does NOT see: user query
-    - Generates: one DPR per attempt
+    LLM-A  GenerateDPRWithQuery  (defined here)
+    - Sees: selected cluster's table info + user query + history + perspective
+    - Generates: one DPR per attempt, oriented toward user query
 
   LLM-B  ScoreRelevance  (defined here)
     - Sees: user query + current DPR only
@@ -127,7 +126,7 @@ MAX_ATTEMPTS = 50   # safety cap — prevents infinite loop on persistent failur
 # DSPy Signatures  (new — not in any existing file)
 # ---------------------------------------------------------------------------
 
-class GenerateDPRNoQuery(dspy.Signature):
+class GenerateDPRWithQuery(dspy.Signature):
     """
     You are a Data Product Request Generator.
 
@@ -136,16 +135,16 @@ class GenerateDPRNoQuery(dspy.Signature):
 
     You are given:
     - cluster_info: tables in the selected cluster (title, columns, description).
-    - history: past successful rounds with DPRs and their relevance scores,
-      so you can understand which directions were rewarding.
+    - user_query: the analytical question the user wants answered. Use this
+      to orient the DPR toward the user's intent.
+    - history: past successful rounds with DPRs and their relevance scores.
     - perspective: the analytical angle to frame this DPR.
-    - previous_dprs_this_cluster: DPRs already generated from this same
-      cluster — do not repeat them.
+    - previous_dprs_this_cluster: DPRs already generated from this cluster.
 
     Rules:
     - Write exactly ONE sentence. No bullet points, lists, or line breaks.
-    - Base your DPR solely on the cluster's table information.
-    - Do NOT reference any user query — you do not have access to it.
+    - Ground your DPR in the cluster's table information.
+    - Align the DPR with the user_query intent.
     - Use a clear, professional tone suitable for real-world data requests.
     - Make this DPR meaningfully different from all previous DPRs shown.
     """
@@ -153,21 +152,21 @@ class GenerateDPRNoQuery(dspy.Signature):
     cluster_info: list[dict] = dspy.InputField(
         desc="Tables in the selected cluster: list of {title, columns, description}."
     )
+    user_query: str = dspy.InputField(
+        desc="The user's analytical question. Orient the DPR toward this intent."
+    )
     perspective: str = dspy.InputField(
         desc="Analytical angle — use it to frame a DPR different from previous ones."
     )
     history: list[dict] = dspy.InputField(
-        desc=(
-            "Past successful rounds: [{round, cluster_id, dpr, relevance_score}]. "
-            "Use scores to understand which directions were rewarding."
-        )
+        desc="Past successful rounds: [{round, cluster_id, dpr, relevance_score}]."
     )
     previous_dprs_this_cluster: list[str] = dspy.InputField(
         desc="DPRs already generated from this cluster. Do not repeat these."
     )
 
     data_product_request: str = dspy.OutputField(
-        desc="A single-sentence DPR based only on the cluster's table info."
+        desc="A single-sentence DPR grounded in cluster tables and aligned with the user query."
     )
 
 
@@ -246,16 +245,17 @@ def build_cluster_pool(
 def call_generator(
     cot_a: dspy.ChainOfThought,
     cluster_info: List[Dict],
+    user_query: str,          # NEW
     perspective: str,
     history: List[Dict],
     previous_dprs_this_cluster: List[str],
     max_retries: int = 5,
 ) -> str:
-    """Call LLM-A with rate-limit retry. Returns DPR text."""
     for attempt in range(1, max_retries + 1):
         try:
             out = cot_a(
                 cluster_info=cluster_info,
+                user_query=user_query,            # NEW
                 perspective=perspective,
                 history=history,
                 previous_dprs_this_cluster=previous_dprs_this_cluster,
@@ -401,6 +401,7 @@ def run_iterative_generation(
             dpr_text = call_generator(
                 cot_a,
                 cluster_info=cluster_info,
+                user_query=query_text,
                 perspective=perspective,
                 history=history,
                 previous_dprs_this_cluster=prev_dprs,
@@ -622,7 +623,7 @@ def main() -> None:
     print(f"[INFO] Model: {model}")
 
     # Two independent CoT instances — same model, no shared state
-    cot_a = dspy.ChainOfThought(GenerateDPRNoQuery, temperature=1.0)  # LLM-A: generator
+    cot_a = dspy.ChainOfThought(GenerateDPRWithQuery, temperature=1.0)  # LLM-A: generator
     cot_b = dspy.ChainOfThought(ScoreRelevance,     temperature=0.0)  # LLM-B: scorer
 
     # ── Loop over selected queries ──────────────────────────────────────────

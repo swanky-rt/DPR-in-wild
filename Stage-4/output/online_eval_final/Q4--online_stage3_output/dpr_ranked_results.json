@@ -1,0 +1,2707 @@
+{
+  "summary": {
+    "total_dprs": 20,
+    "total_ranked": 20,
+    "unique_count": 20,
+    "multi_table_count": 20,
+    "llm_model": "gpt4o",
+    "llm_api_base": "https://thekeymaker.umass.edu/v1",
+    "weights_used": {
+      "coverage": 0.2143,
+      "complexity": 0.1429,
+      "diversity": 0.1429,
+      "surprisal": 0.1429,
+      "uniqueness": 0.1429,
+      "llm_quality": 0.1071,
+      "summary_relevance": 0.1071
+    },
+    "formulas": {
+      "coverage": "|tables_used \u2229 ground_truth| / |ground_truth|",
+      "complexity": "mean(multi_table, join, agg, subquery, multi_entity)",
+      "diversity": "1 - avg_cosine_sim(DPR_i, all other DPRs)",
+      "surprisal": "-log P(tables_used) / log(|all_tables|)",
+      "uniqueness": "1 if no near-duplicate (cosine > 0.85), else 0",
+      "llm_scores": "GPT-4 scores: 0 / 0.5 / 0.75 / 1.0"
+    }
+  },
+  "ranked_dprs": [
+    {
+      "rank": 1,
+      "dpr_id": "q4_10",
+      "combined_score": 0.6409,
+      "dpr_text": "We request a data product that highlights the contrasting performance of athletes from different nationalities across various International Cross Country Championships, leveraging insights from the 1898 to 1929 era and the 1931 to 1933 era to identify notable trends or correlations that can inform strategic decision-making in the sport.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data highlights that athletes from England consistently achieved ranks of 4th and 5th during the 1898 to 1929 era, with no additional rankings or nationalities identified for this period. In the 1931 to 1933 era, England continued to have athletes ranked 4th and 5th, but no other rankings or nationalities were provided for comparison. Across both eras, England had higher counts of 4th and 5th place finishes compared to France, which also had athletes in these ranks but with fewer occurrences. The evidence does not reveal broader trends or correlations beyond these specific rankings and nationalities.",
+      "metrics": {
+        "coverage": 0.5556,
+        "complexity": 0.6667,
+        "complexity_breakdown": {
+          "multi_table": 1.0,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 1.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8012,
+        "surprisal": 0.2467,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but its scope could be better aligned with the schema, as it spans multiple eras and trends without specifying how to handle potential data gaps or inconsistencies.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by providing some data on rankings and nationalities but fails to highlight contrasting performance, broader trends, or correlations across the specified eras, which are key analytical goals of the request.",
+        "query_dpr_relevance": 0.0,
+        "query_dpr_reasoning": "The DPR focuses on International Cross Country Championships and specific eras, which is unrelated to the user's query about Olympic athletes' performances, demographics, and achievements over time.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary partially addresses the query by mentioning rankings and nationalities but fails to provide comprehensive information on sports, medals, backgrounds, or broader trends over time."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the ranks and nationalities of athletes in T5, T6, T7, T77, T78, T79, T80, T82, T85 during the 1898 to 1929 era?",
+          "sql": "SELECT Rank, Nationality \nFROM T5 \nUNION ALL \nSELECT Rank, Nationality \nFROM T6 \nUNION ALL \nSELECT Rank, Nationality \nFROM T7 \nUNION ALL \nSELECT Rank, Nationality \nFROM T77 \nUNION ALL \nSELECT Rank, Nationality \nFROM T78 \nUNION ALL \nSELECT Rank, Nationality \nFROM T79 \nUNION ALL \nSELECT Rank, Nationality \nFROM T80 \nUNION ALL \nSELECT Rank, Nationality \nFROM T82 \nUNION ALL \nSELECT Rank, Nationality \nFROM T85;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows athletes with the nationality \"England\" and ranks of 4.0 and 5.0 during the 1898 to 1929 era. No additional ranks or nationalities are provided for the specified tables in this era.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 176
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What are the ranks and nationalities of athletes in T5, T6, T7, T77, T78, T79, T80, T82, T85 during the 1931 to 1933 era?",
+          "sql": "SELECT Rank, Nationality \nFROM T5 \nUNION ALL \nSELECT Rank, Nationality \nFROM T6 \nUNION ALL \nSELECT Rank, Nationality \nFROM T7 \nUNION ALL \nSELECT Rank, Nationality \nFROM T77 \nUNION ALL \nSELECT Rank, Nationality \nFROM T78 \nUNION ALL \nSELECT Rank, Nationality \nFROM T79 \nUNION ALL \nSELECT Rank, Nationality \nFROM T80 \nUNION ALL \nSELECT Rank, Nationality \nFROM T82 \nUNION ALL \nSELECT Rank, Nationality \nFROM T85;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows athletes with ranks 4.0 and 5.0 from England, but does not provide ranks or nationalities for T5, T6, T7, T77, T78, T79, T80, T82, or T85 during the 1931 to 1933 era.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 176
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What trends or correlations exist between ranks and nationalities across these eras in the specified tables?",
+          "sql": "SELECT Rank, Nationality, COUNT(*) AS Count\nFROM (\n    SELECT Rank, Nationality FROM T5\n    UNION ALL\n    SELECT Rank, Nationality FROM T6\n    UNION ALL\n    SELECT Rank, Nationality FROM T7\n    UNION ALL\n    SELECT Rank, Nationality FROM T77\n    UNION ALL\n    SELECT Rank, Nationality FROM T78\n    UNION ALL\n    SELECT Rank, Nationality FROM T79\n    UNION ALL\n    SELECT Rank, Nationality FROM T80\n    UNION ALL\n    SELECT Rank, Nationality FROM T82\n    UNION ALL\n    SELECT Rank, Nationality FROM T84\n    UNION ALL\n    SELECT Rank, Nationality FROM T85\n)\nGROUP BY Rank, Nationality\nORDER BY Rank, Nationality;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that England and France had multiple instances of athletes ranked 4th and 5th, with England having higher counts (7 for 4th rank and 4 for 5th rank) compared to France (3 for both ranks). The result set does not show trends or correlations beyond these specific rankings and nationalities.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.8,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 77
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 2,
+      "dpr_id": "q4_13",
+      "combined_score": 0.636,
+      "dpr_text": "We request a data product that identifies key variables and their correlations that have driven top-performing athlete success across multiple International Cross Country Championships, leveraging insights from nationalities, times, and overall rankings to inform strategic decision-making in the sport.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data highlights the distribution of times for top-ranked athletes, with specific instances of repeated times such as 58:44, 57:47, 57:37, and 57:35, though a notable portion of times remains unspecified. Correlations between rankings, nationalities, and times are observed for athletes from England, where ranks 4 and 5 correspond to times of 57:22.6 and 57:48.4, respectively. However, rankings for certain categories, including T77, T78, T79, T80, T82, and T85, are not represented in the available information, indicating gaps in the dataset.",
+      "metrics": {
+        "coverage": 0.5,
+        "complexity": 0.7,
+        "complexity_breakdown": {
+          "multi_table": 1.0,
+          "join": 0.0,
+          "agg": 0.5,
+          "subquery": 1.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8173,
+        "surprisal": 0.2467,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but it lacks precision in defining 'key variables' and does not fully align with the schema, which includes unrelated tables and limited contextual data for deeper insights.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning correlations and times but lacks comprehensive analysis of key variables driving athlete success and does not fully leverage insights from nationalities, rankings, and times as requested.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by focusing on athlete performance and demographics but diverges by emphasizing International Cross Country Championships instead of Olympic athletes and their broader achievements.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary does not address the user's query about Olympic athletes' performances, demographics, and trends, instead focusing on specific times and rankings unrelated to the broader analysis requested."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What is the distribution of times for top-ranked athletes across T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT Time, COUNT(*) AS Count\nFROM (\n    SELECT Time FROM T5\n    UNION ALL\n    SELECT Time FROM T6\n    UNION ALL\n    SELECT Time FROM T7\n    UNION ALL\n    SELECT Time FROM T77\n    UNION ALL\n    SELECT Time FROM T78\n    UNION ALL\n    SELECT Time FROM T79\n    UNION ALL\n    SELECT Time FROM T80\n    UNION ALL\n    SELECT Time FROM T82\n    UNION ALL\n    SELECT Time FROM T85\n)\nGROUP BY Time\nORDER BY COUNT(*) DESC;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows the distribution of times for top-ranked athletes, including \"58:44\" (2 counts), \"57:47\" (2 counts), \"57:37\" (2 counts), and \"57:35\" (2 counts). Additionally, there are 19 instances where the time is unspecified.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.8,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 147
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "How do rankings correlate with nationalities and times across T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT Rank, Athlete, Nationality, Time FROM T5\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time FROM T6\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time FROM T7\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time FROM T77\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time FROM T78\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time FROM T79\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time FROM T80\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time FROM T82\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time FROM T85;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows correlations between rankings, nationalities, and times for athletes from England, with ranks 4 and 5 corresponding to times of 57:22.6 and 57:48.4, respectively. The result set does not show information for rankings across T77, T78, T79, T80, T82, and T85.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 176
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 3,
+      "dpr_id": "q4_14",
+      "combined_score": 0.6291,
+      "dpr_text": "We request a data product that calculates and visualizes the average annual improvement in top-performing athletes' times across the International Cross Country Championships from 1898 to 1933, comparing the improvement rates among different nationalities and highlighting any notable trends or correlations that can inform strategic decision-making in the sport.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data highlights time values for top-performing athletes, including \"1:01:33,\" \"1:01:42,\" \"1:02:51,\" \"1:03:10,\" and \"1:03:18,\" though specific details for certain identifiers are absent. Nationality distributions among top-ranked athletes are provided, with England, France, Scotland, Ireland, and Wales represented in descending order of frequency, while information for other identifiers is not included. Date values indicate a start on \"10 Aug\" and an end on \"7 Aug,\" but no year or additional temporal context is available. The evidence does not fully address trends, comparisons, or correlations over time, leaving gaps in the analysis.",
+      "metrics": {
+        "coverage": 0.5556,
+        "complexity": 0.6,
+        "complexity_breakdown": {
+          "multi_table": 0.6667,
+          "join": 0.0,
+          "agg": 0.6667,
+          "subquery": 0.6667,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.7855,
+        "surprisal": 0.2467,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but the scope could be better aligned with the schema, as some tables lack relevant data for trends or correlations.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by providing some data on athlete times and nationalities but fails to analyze trends, improvement rates, or correlations over time, which are key analytical goals.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by analyzing athlete performance trends and nationalities, but it is limited to a specific event and timeframe, missing broader aspects like medals, sports, and demographic analysis over time.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary provides some information on athlete performances and nationalities but lacks comprehensive details on sports, medals, backgrounds, and trends over time, which are key aspects of the query."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the Time values for top-ranked athletes in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT Time \nFROM T5 \nWHERE Rank LIKE '%1%'\nUNION ALL\nSELECT Time \nFROM T6 \nWHERE Rank LIKE '%1%'\nUNION ALL\nSELECT Time \nFROM T7 \nWHERE Rank LIKE '%1%'\nUNION ALL\nSELECT Time \nFROM T77 \nWHERE Rank LIKE '%1%'\nUNION ALL\nSELECT Time \nFROM T78 \nWHERE Rank LIKE '%1%'\nUNION ALL\nSELECT Time \nFROM T79 \nWHERE Rank LIKE '%1%'\nUNION ALL\nSELECT Time \nFROM T80 \nWHERE Rank LIKE '%1%'\nUNION ALL\nSELECT Time \nFROM T82 \nWHERE Rank LIKE '%1%'\nUNION ALL\nSELECT Time \nFROM T85 \nWHERE Rank LIKE '%1%';",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows the following Time values: \"1:01:33\", \"1:01:42\", \"1:02:51\", \"1:03:10\", and \"1:03:18\". The result set does not show Time values specifically for T5, T6, T7, T77, T78, T79, T80, T82, or T85.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 2,
+            "rows_returned": 87
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What are the Nationality distributions for top-ranked athletes in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT Nationality, COUNT(*) AS Count\nFROM (\n    SELECT Nationality FROM T5\n    UNION ALL\n    SELECT Nationality FROM T6\n    UNION ALL\n    SELECT Nationality FROM T7\n    UNION ALL\n    SELECT Nationality FROM T77\n    UNION ALL\n    SELECT Nationality FROM T78\n    UNION ALL\n    SELECT Nationality FROM T79\n    UNION ALL\n    SELECT Nationality FROM T80\n    UNION ALL\n    SELECT Nationality FROM T82\n    UNION ALL\n    SELECT Nationality FROM T85\n)\nGROUP BY Nationality\nORDER BY Count DESC;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows the nationality distributions for top-ranked athletes as follows: England (69), France (50), Scotland (27), Ireland (12), and Wales (8). The result set does not show information specific to T5, T6, T7, T77, T78, T79, T80, T82, or T85.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.8,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 8
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What range of Date values appears in T81?",
+          "sql": "SELECT MIN(Date) AS Start_Date, MAX(Date) AS End_Date\nFROM T81;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows the Date values \"10 Aug\" for Start_Date and \"7 Aug\" for End_Date. The result set does not show any year or additional date information.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 4,
+      "dpr_id": "q4_15",
+      "combined_score": 0.6289,
+      "dpr_text": "We request a data product that visualizes the top-performing athletes from different nationalities across the International Cross Country Championships from 1898 to 1933, highlighting their progression and contrasting performances to showcase the sport's evolution over time and inform strategic decision-making.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data highlights rankings, athletes, nationalities, and times for select entries, with examples including Sidney Robinson, Harry Harrison, Charles Bennett, Tommy Bartlett, and Jack Marsh from England, though specific details for certain entries are absent. Recorded times for top-ranked Belgian athletes range from 43:37 to 58:20, but no comparative data is provided for other nationalities. England, France, Scotland, Ireland, and Wales are the most frequently represented nationalities among top-ranked athletes, though the evidence does not fully address broader nationality comparisons or trends.",
+      "metrics": {
+        "coverage": 0.5,
+        "complexity": 0.6667,
+        "complexity_breakdown": {
+          "multi_table": 1.0,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 1.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8006,
+        "surprisal": 0.2467,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR has clear analytical goals and reasonable scope, leveraging relevant tables with athlete performance data, but lacks precision in defining measurable criteria for showcasing evolution and strategic insights.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning rankings, athletes, and nationalities, but it lacks comprehensive analysis of progression, contrasting performances, and the sport's evolution over time.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by focusing on athlete performances and trends but diverges from the query's focus on Olympic athletes, broader demographics, and achievements over time.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary partially addresses the query by mentioning athletes, nationalities, and times, but it lacks comprehensive information on medals, sports, backgrounds, and broader trends over time."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the ranks, athletes, nationalities, and times recorded in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT Rank, Athlete, Nationality, Time \nFROM T5\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time \nFROM T6\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time \nFROM T7\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time \nFROM T77\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time \nFROM T78\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time \nFROM T79\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time \nFROM T80\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time \nFROM T82\nUNION ALL\nSELECT Rank, Athlete, Nationality, Time \nFROM T85;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set provides ranks, athletes, nationalities, and times for some entries, including Sidney Robinson (England, 56:36), Harry Harrison (England, 56:36.4), Charles Bennett (England, 57:14.8), Tommy Bartlett (England, Rank 4, 57:22.6), and Jack Marsh (England, Rank 5, 57:48.4). The result set does not show information for T6, T7, T77, T78, T79, T80, T82, or T85 specifically.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 176
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "How do the recorded times of top-ranked athletes vary across nationalities in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT Nationality, Athlete, Time \nFROM (\n    SELECT Nationality, Athlete, Time FROM T5\n    UNION ALL\n    SELECT Nationality, Athlete, Time FROM T6\n    UNION ALL\n    SELECT Nationality, Athlete, Time FROM T7\n    UNION ALL\n    SELECT Nationality, Athlete, Time FROM T77\n    UNION ALL\n    SELECT Nationality, Athlete, Time FROM T78\n    UNION ALL\n    SELECT Nationality, Athlete, Time FROM T79\n    UNION ALL\n    SELECT Nationality, Athlete, Time FROM T80\n    UNION ALL\n    SELECT Nationality, Athlete, Time FROM T82\n    UNION ALL\n    SELECT Nationality, Athlete, Time FROM T85\n)\nORDER BY Nationality, CAST(REPLACE(REPLACE(Time, ':', ''), '.', '') AS REAL);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The recorded times of top-ranked athletes from Belgium vary between 43:37 and 58:20. The result set does not show information about other nationalities or comparisons across them.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 176
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "Which nationalities appear most frequently among top-ranked athletes in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT Nationality, COUNT(*) AS Frequency\nFROM (\n    SELECT Nationality FROM T5\n    UNION ALL\n    SELECT Nationality FROM T6\n    UNION ALL\n    SELECT Nationality FROM T7\n    UNION ALL\n    SELECT Nationality FROM T77\n    UNION ALL\n    SELECT Nationality FROM T78\n    UNION ALL\n    SELECT Nationality FROM T79\n    UNION ALL\n    SELECT Nationality FROM T80\n    UNION ALL\n    SELECT Nationality FROM T82\n    UNION ALL\n    SELECT Nationality FROM T85\n)\nGROUP BY Nationality\nORDER BY Frequency DESC;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The nationalities that appear most frequently among top-ranked athletes are England (69), France (50), Scotland (27), Ireland (12), and Wales (8).",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.8,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 8
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 5,
+      "dpr_id": "q4_6",
+      "combined_score": 0.6191,
+      "dpr_text": "We request a data product that compares the times and rankings of athletes in the 1898, 1913, and 1924 International Cross Country Championships to the 1931 and 1933 events, highlighting any notable changes or correlations in performance between these contrasting periods in the history of cross-country running.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The available data includes time and rank values for a limited number of athletes but does not provide comprehensive information across the specified periods or events. No patterns or correlations between rank and time are evident, as the dataset lacks details on years, events, and complete rankings for all athletes. Additionally, the data only lists athletes, their nationalities, and times without associating them with specific historical contexts, leaving the request for comparisons across contrasting periods partially unanswered.",
+      "metrics": {
+        "coverage": 0.5,
+        "complexity": 0.6,
+        "complexity_breakdown": {
+          "multi_table": 1.0,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 1.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.7991,
+        "surprisal": 0.2467,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR is analytical with clear goals to compare times and rankings across specific events, but it lacks precision in defining 'notable changes or correlations' and could better align with the schema by specifying how to handle missing or inconsistent data across tables.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary acknowledges the lack of comprehensive data and partially addresses the DPR by identifying missing elements, but it fails to analyze or highlight notable changes or correlations as requested.",
+        "query_dpr_relevance": 0.0,
+        "query_dpr_reasoning": "The DPR focuses exclusively on cross-country running events and specific years, which does not address the user's broader interest in Olympic athletes' performances, demographics, and trends across multiple sports and time periods.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary partially addresses the query by mentioning athlete data like nationalities and times but misses key aspects such as medals, sports, backgrounds, and trends over time."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What Rank and Time values are available for athletes in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT Rank, Time FROM T5\nUNION ALL\nSELECT Rank, Time FROM T6\nUNION ALL\nSELECT Rank, Time FROM T7\nUNION ALL\nSELECT Rank, Time FROM T77\nUNION ALL\nSELECT Rank, Time FROM T78\nUNION ALL\nSELECT Rank, Time FROM T79\nUNION ALL\nSELECT Rank, Time FROM T80\nUNION ALL\nSELECT Rank, Time FROM T82\nUNION ALL\nSELECT Rank, Time FROM T85;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows Time values of \"56:36\", \"56:36.4\", \"57:14.8\", \"57:22.6\", and \"57:48.4\", and Rank values of 4.0 and 5.0. The result set does not show Rank or Time values for all the specified IDs.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 176
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "Are there patterns or correlations in Rank and Time across these tables for different periods?",
+          "sql": "SELECT Rank, Athlete, Nationality, Time FROM T5 UNION ALL SELECT Rank, Athlete, Nationality, Time FROM T6 UNION ALL SELECT Rank, Athlete, Nationality, Time FROM T7 UNION ALL SELECT Rank, Athlete, Nationality, Time FROM T77 UNION ALL SELECT Rank, Athlete, Nationality, Time FROM T78 UNION ALL SELECT Rank, Athlete, Nationality, Time FROM T79 UNION ALL SELECT Rank, Athlete, Nationality, Time FROM T80 UNION ALL SELECT Rank, Athlete, Nationality, Time FROM T82 UNION ALL SELECT Rank, Athlete, Nationality, Time FROM T85;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show patterns or correlations in Rank and Time across different periods, as it only provides data for a few athletes without specifying the years or periods associated with their performances.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 176
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "Which years or events correspond to the data in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT DISTINCT Nationality, Athlete, Time\nFROM T5\nUNION\nSELECT DISTINCT Nationality, Athlete, Time\nFROM T6\nUNION\nSELECT DISTINCT Nationality, Athlete, Time\nFROM T7\nUNION\nSELECT DISTINCT Nationality, Athlete, Time\nFROM T77\nUNION\nSELECT DISTINCT Nationality, Athlete, Time\nFROM T78\nUNION\nSELECT DISTINCT Nationality, Athlete, Time\nFROM T79\nUNION\nSELECT DISTINCT Nationality, Athlete, Time\nFROM T80\nUNION\nSELECT DISTINCT Nationality, Athlete, Time\nFROM T82\nUNION\nSELECT DISTINCT Nationality, Athlete, Time\nFROM T85;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show any years or events corresponding to the data in T5, T6, T7, T77, T78, T79, T80, T82, and T85. It only lists athletes, their nationalities, and times.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 176
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 6,
+      "dpr_id": "q4_11",
+      "combined_score": 0.6155,
+      "dpr_text": "We request a data product that compares the times and rankings of top-performing athletes across the International Cross Country Championships from 1898 to 1933, visualizing their progression and contrasting performance among different nationalities to highlight any significant changes or correlations that can inform strategic decision-making in the sport.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data includes Rank and Time values for some athletes, with examples such as a Rank of 4.0 paired with a Time of \"57:22.6\" and a Rank of 5.0 with a Time of \"57:48.4,\" while other Times like \"56:36,\" \"56:36.4,\" and \"57:14.8\" are listed without corresponding Ranks. Specific data for Belgium shows ranks of 8.0, 10.0, 13.0, 15.0, and 17.0 with associated times of 59:19.4, 54:49, 43:37, 57:37, and 46:00, but details for other nationalities\u2014England, France, Ireland, and Italy\u2014are not provided. The evidence does not fully address comparative performance trends or correlations across nationalities, leaving gaps in the analysis.",
+      "metrics": {
+        "coverage": 0.5,
+        "complexity": 0.6,
+        "complexity_breakdown": {
+          "multi_table": 1.0,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 1.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.7741,
+        "surprisal": 0.2467,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but the scope could be better refined to ensure alignment with the schema and avoid redundancy across similar tables.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary provides some data on ranks and times but fails to analyze progression, compare performance trends, or explore correlations across nationalities as requested in the DPR.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by analyzing athlete performance and nationalities, but it focuses on a specific event and timeframe, missing broader aspects like Olympic sports, medals, and demographic trends over time.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary provides some data on athletes' ranks and times but lacks comprehensive information on sports, medals, nationalities, backgrounds, and trends over time as requested in the query."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the Rank and Time values for athletes in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT Rank, Time FROM T5\nUNION ALL\nSELECT Rank, Time FROM T6\nUNION ALL\nSELECT Rank, Time FROM T7\nUNION ALL\nSELECT Rank, Time FROM T77\nUNION ALL\nSELECT Rank, Time FROM T78\nUNION ALL\nSELECT Rank, Time FROM T79\nUNION ALL\nSELECT Rank, Time FROM T80\nUNION ALL\nSELECT Rank, Time FROM T82\nUNION ALL\nSELECT Rank, Time FROM T85;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set provides Rank and Time values for some athletes, including a Rank of 4.0 with a Time of \"57:22.6\" and a Rank of 5.0 with a Time of \"57:48.4\". For other rows, the Rank is missing, but Times such as \"56:36\", \"56:36.4\", and \"57:14.8\" are shown.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 176
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What is the distribution of Rank and Time by Nationality in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT Nationality, Rank, Time\nFROM (\n    SELECT Nationality, Rank, Time FROM T5\n    UNION ALL\n    SELECT Nationality, Rank, Time FROM T6\n    UNION ALL\n    SELECT Nationality, Rank, Time FROM T7\n    UNION ALL\n    SELECT Nationality, Rank, Time FROM T77\n    UNION ALL\n    SELECT Nationality, Rank, Time FROM T78\n    UNION ALL\n    SELECT Nationality, Rank, Time FROM T79\n    UNION ALL\n    SELECT Nationality, Rank, Time FROM T80\n    UNION ALL\n    SELECT Nationality, Rank, Time FROM T82\n    UNION ALL\n    SELECT Nationality, Rank, Time FROM T85\n)\nORDER BY Nationality, Rank, Time;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows data for Belgium, with ranks of 8.0, 10.0, 13.0, 15.0, and 17.0, and corresponding times of 59:19.4, 54:49, 43:37, 57:37, and 46:00. The distribution of Rank and Time by other nationalities or additional details is not shown in the provided rows.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 176
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "Which Nationalities appear in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT DISTINCT Nationality \nFROM (\n    SELECT Nationality FROM T5\n    UNION\n    SELECT Nationality FROM T6\n    UNION\n    SELECT Nationality FROM T7\n    UNION\n    SELECT Nationality FROM T77\n    UNION\n    SELECT Nationality FROM T78\n    UNION\n    SELECT Nationality FROM T79\n    UNION\n    SELECT Nationality FROM T80\n    UNION\n    SELECT Nationality FROM T82\n    UNION\n    SELECT Nationality FROM T85\n);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows the nationalities Belgium, England, France, Ireland, and Italy. The result set does not show information about which specific tables these nationalities appear in.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 8
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 7,
+      "dpr_id": "q4_16",
+      "combined_score": 0.614,
+      "dpr_text": "We request a data product that calculates and visualizes the average annual improvement in top-performing athletes' times across the International Cross Country Championships from 1898 to 1933, comparing the improvement rates among different nationalities and highlighting any notable trends or correlations that can inform strategic decision-making in the sport, while distinguishing itself from previous requests by not simply focusing on athlete performance metrics but rather on the rate of improvement over time.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The available data does not confirm whether the requested time window from 1898 to 1933 is supported, as it only includes start and end dates without year values. Among the listed nationalities, England has the lowest average rank, followed by France, Belgium, Ireland, and Italy, but no additional trends or correlations beyond average rank and athlete counts are evident.",
+      "metrics": {
+        "coverage": 0.5556,
+        "complexity": 0.4667,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 0.6667,
+          "subquery": 0.3333,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8134,
+        "surprisal": 0.2467,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but its scope could be better aligned with the schema, as it does not fully leverage the available tables beyond athlete performance data.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning nationalities and ranks but fails to analyze improvement rates, trends, or correlations over time, which are the core analytical goals of the request.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by analyzing trends and nationalities but focuses narrowly on improvement rates in a specific championship, missing broader aspects like medals, sports, and demographic analysis over time.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary does not address the user's query about Olympic athletes' performances, trends, sports, medals, nationalities, and backgrounds over time."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What is the average time for top-performing athletes by Rank and Nationality in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 0.0,
+            "n_attempts": 1,
+            "rows_returned": 0
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What range of Date values appears in T81 to determine if the requested time window is supported?",
+          "sql": "SELECT MIN(Date) AS Start_Date, MAX(Date) AS End_Date FROM T81;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show any year values or a range of Date values that can determine if the requested time window from 1898 to 1933 is supported. It only shows \"Start_Date\" as \"10 Aug\" and \"End_Date\" as \"7 Aug.\"",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What trends or correlations exist between Nationality and Rank across T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT Nationality, AVG(Rank) AS Avg_Rank, COUNT(*) AS Count_Athletes\nFROM (\n    SELECT Nationality, Rank FROM T5\n    UNION ALL\n    SELECT Nationality, Rank FROM T6\n    UNION ALL\n    SELECT Nationality, Rank FROM T7\n    UNION ALL\n    SELECT Nationality, Rank FROM T77\n    UNION ALL\n    SELECT Nationality, Rank FROM T78\n    UNION ALL\n    SELECT Nationality, Rank FROM T79\n    UNION ALL\n    SELECT Nationality, Rank FROM T80\n    UNION ALL\n    SELECT Nationality, Rank FROM T82\n    UNION ALL\n    SELECT Nationality, Rank FROM T85\n)\nGROUP BY Nationality\nORDER BY Avg_Rank;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that England has the lowest average rank (8.52) among the listed nationalities, followed by France (9.56), Belgium (10.5), Ireland (11.33), and Italy (12.0). The result set does not show any additional trends or correlations beyond the average rank and count of athletes for these nationalities.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.8,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 8
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 8,
+      "dpr_id": "q4_19",
+      "combined_score": 0.5947,
+      "dpr_text": "We request a data product that calculates and visualizes the average annual improvement in top-performing athletes' times across the International Cross Country Championships from 1898 to 1933, specifically focusing on the correlation between improvement rates and environmental factors such as temperature, humidity, and terrain difficulty to inform strategic decision-making in the sport.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The available data includes a limited set of time values\u2014\"56:36,\" \"56:36.4,\" \"51:52.4,\" \"55:06,\" and \"56:53\"\u2014but does not cover all requested identifiers, leaving gaps in the dataset. Additionally, the provided dates are \"10 Aug\" for the start and \"7 Aug\" for the end, with no year or further date details included. These limitations indicate that the evidence is incomplete for fully addressing the original request.",
+      "metrics": {
+        "coverage": 0.5556,
+        "complexity": 0.5,
+        "complexity_breakdown": {
+          "multi_table": 0.5,
+          "join": 0.0,
+          "agg": 0.5,
+          "subquery": 0.5,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8325,
+        "surprisal": 0.2467,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR has analytical intent but is poorly scoped as the schema lacks environmental factors like temperature, humidity, and terrain difficulty.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary identifies data limitations but does not address the analytical goals of calculating improvement rates, visualizing trends, or correlating them with environmental factors.",
+        "query_dpr_relevance": 0.0,
+        "query_dpr_reasoning": "The DPR focuses on environmental factors and performance trends in a specific championship, which is unrelated to the user's broader interest in Olympic athletes' achievements and demographics over time.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary is completely unrelated to the query, as it discusses time values and dates that do not pertain to Olympic athletes' performances, demographics, or achievements."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the Time values for top-ranked athletes in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT Time \nFROM T5 \nWHERE Time LIKE '%56:36%'\nUNION ALL\nSELECT Time \nFROM T6 \nWHERE Time LIKE '%51:52.4%'\nUNION ALL\nSELECT Time \nFROM T7 \nWHERE Time LIKE '%55:06%'\nUNION ALL\nSELECT Time \nFROM T77 \nWHERE Time LIKE '%56:53%'\nUNION ALL\nSELECT Time \nFROM T78 \nWHERE Time LIKE '%58:11.8%'\nUNION ALL\nSELECT Time \nFROM T79 \nWHERE Time LIKE '%55:35.4%'\nUNION ALL\nSELECT Time \nFROM T80 \nWHERE Time LIKE '%44:17.4%'\nUNION ALL\nSELECT Time \nFROM T82 \nWHERE Time LIKE '%42:46.2%'\nUNION ALL\nSELECT Time \nFROM T85 \nWHERE Time LIKE '%53:40.8%';",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows the following Time values: \"56:36\", \"56:36.4\", \"51:52.4\", \"55:06\", and \"56:53\". The result set does not show Time values for all the requested identifiers (T5, T6, T7, T77, T78, T79, T80, T82, and T85).",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 2,
+            "rows_returned": 10
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What range of Date values appears in T81?",
+          "sql": "SELECT MIN(Date) AS Start_Date, MAX(Date) AS End_Date\nFROM T81;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows the Date values \"10 Aug\" for Start_Date and \"7 Aug\" for End_Date. The result set does not show any year or additional date information.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 9,
+      "dpr_id": "q4_8",
+      "combined_score": 0.589,
+      "dpr_text": "We request a data product that analyzes the progression of top-performing athletes' average times across multiple International Cross Country Championships from 1898 to 1929 and the List of New World monkey species in relation to their taxonomic classification, conservation status, and geographic distribution, highlighting any significant changes or correlations that can inform strategic decision-making and conservation efforts.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data indicates an average time of 12133.897727272728 for top-performing athletes, but it does not provide details on rankings or additional contextual information. The available date range spans from \"10 Aug\" to \"7 Aug,\" though no year values are included, leaving uncertainty about alignment with the requested time frame. Key details regarding the progression of times, specific championships, or broader trends remain unaddressed in the evidence provided.",
+      "metrics": {
+        "coverage": 0.5556,
+        "complexity": 0.4667,
+        "complexity_breakdown": {
+          "multi_table": 0.3333,
+          "join": 0.0,
+          "agg": 0.6667,
+          "subquery": 0.3333,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8257,
+        "surprisal": 0.2467,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR combines two unrelated analyses with vague scope and partial alignment to the schema, making it poorly structured and overly broad.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning average times for athletes but fails to analyze progression, championships, or trends, and does not address New World monkey species or their conservation and geographic data.",
+        "query_dpr_relevance": 0.0,
+        "query_dpr_reasoning": "The DPR is completely unrelated to the user's query, focusing on cross-country championships and monkey species rather than Olympic athletes' performances, demographics, and trends.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary does not address the user's query about Olympic athletes' performances, demographics, or trends, focusing instead on unrelated data about average times and date ranges."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the average times of top-performing athletes by Rank across tables T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT AVG(CAST(REPLACE(REPLACE(Time, ':', ''), '.', '') AS REAL)) AS Average_Time\nFROM (\n    SELECT Time FROM T5\n    UNION ALL\n    SELECT Time FROM T6\n    UNION ALL\n    SELECT Time FROM T7\n    UNION ALL\n    SELECT Time FROM T77\n    UNION ALL\n    SELECT Time FROM T78\n    UNION ALL\n    SELECT Time FROM T79\n    UNION ALL\n    SELECT Time FROM T80\n    UNION ALL\n    SELECT Time FROM T82\n    UNION ALL\n    SELECT Time FROM T85\n) AS CombinedTimes;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows an average time of 12133.897727272728 for top-performing athletes. The result set does not show information about rank or specific tables T5, T6, T7, T77, T78, T79, T80, T82, and T85.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.8,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What range of Date values exists in T81 to verify compatibility with the requested time window?",
+          "sql": "SELECT MIN(Date) AS Min_Date, MAX(Date) AS Max_Date FROM T81;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows a Min_Date of \"10 Aug\" and a Max_Date of \"7 Aug.\" The result set does not show any year values or confirm compatibility with the requested time window.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "Which Scientific_name and Conservation_status values appear in T20 and T21 for New World monkey species?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 10,
+      "dpr_id": "q4_3",
+      "combined_score": 0.5824,
+      "dpr_text": "We request a data product that identifies key factors contributing to top-performing athlete success across multiple International Cross Country Championships from 1898 to 1933, leveraging insights from nationalities, times, and overall rankings to inform strategic decision-making.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data provides partial insights into factors related to top-performing athletes, including a distribution of recorded times for several top-ranked individuals and the fastest times associated with nationalities such as England, France, Scotland, Ireland, and Wales. However, the evidence lacks comprehensive information on rankings and times for certain athletes and does not establish explicit connections to the requested timeframe or specific datasets, leaving gaps in fully addressing the request.",
+      "metrics": {
+        "coverage": 0.2222,
+        "complexity": 0.7333,
+        "complexity_breakdown": {
+          "multi_table": 1.0,
+          "join": 0.0,
+          "agg": 0.6667,
+          "subquery": 1.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8253,
+        "surprisal": 0.2467,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but the scope could be better refined to ensure alignment with the schema and avoid ambiguity in historical data coverage.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning times and nationalities but fails to comprehensively analyze rankings, fully cover the requested timeframe, or provide actionable insights for strategic decision-making.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by analyzing athlete performance and demographics but focuses on a specific championship and timeframe, missing the broader scope of Olympic athletes and trends over time.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary partially addresses the query by mentioning athlete performance and nationalities but lacks comprehensive coverage of medals, sports, backgrounds, and trends over time."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What is the distribution of times for top-ranked athletes in T5, T6, T7, and T77?",
+          "sql": "SELECT Time, COUNT(*) AS Count\nFROM (\n    SELECT Time FROM T5\n    UNION ALL\n    SELECT Time FROM T6\n    UNION ALL\n    SELECT Time FROM T7\n    UNION ALL\n    SELECT Time FROM T77\n)\nGROUP BY Time\nORDER BY COUNT(*) DESC;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows the distribution of times for top-ranked athletes as follows: \"58:44\" appears 2 times, \"57:18\" appears 2 times, \"59:40\" appears 1 time, \"59:08\" appears 1 time, and \"59:03\" appears 1 time. The result set does not show any other information about T5, T6, T7, or T77.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.8,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 74
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What were the top rankings of athletes in T5, T6, T7, and T77 from 1898 to 1933?",
+          "sql": "SELECT Rank, Athlete, Nationality, Time \nFROM T5 \nUNION ALL \nSELECT Rank, Athlete, Nationality, Time \nFROM T6 \nUNION ALL \nSELECT Rank, Athlete, Nationality, Time \nFROM T7 \nUNION ALL \nSELECT Rank, Athlete, Nationality, Time \nFROM T77;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show the top rankings of athletes in T5, T6, T7, and T77 from 1898 to 1933. It only provides partial data with ranks and times for some athletes, but no explicit connection to those specific tables or the requested time frame.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 76
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "Which nationalities are associated with the fastest times in T5, T6, T7, and T77?",
+          "sql": "SELECT Nationality, MIN(CAST(REPLACE(REPLACE(Time, ':', ''), '.', '') AS REAL)) AS Fastest_Time\nFROM (\n    SELECT Nationality, Time FROM T5\n    UNION ALL\n    SELECT Nationality, Time FROM T6\n    UNION ALL\n    SELECT Nationality, Time FROM T7\n    UNION ALL\n    SELECT Nationality, Time FROM T77\n)\nGROUP BY Nationality\nORDER BY Fastest_Time;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows the fastest times associated with the nationalities England (5233.0), France (5310.0), Scotland (5410.0), Ireland (5627.0), and Wales (5840.0). It does not specify which times correspond to T5, T6, T7, or T77.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.8,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 5
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 11,
+      "dpr_id": "q4_7",
+      "combined_score": 0.5654,
+      "dpr_text": "We request a data product that analyzes the progression of top-performing athletes' average times across multiple International Cross Country Championships, comparing the 1898 to 1929 era with the 1931 to 1933 era, and highlighting any significant changes or correlations in nationality, time, and overall ranking.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data indicates an average time of 19418.23214285714 for top-ranked athletes, though it is unclear whether this figure applies specifically to the 1898\u20131929 era or the 1931\u20131933 era, and no details are provided regarding rankings or events for T5, T6, and T7 during these periods. Additionally, times for athletes from England range between 56:36 and 57:48.4, but there is no information on how nationality correlates with rankings or times across the eras or within the specified events. The evidence does not fully address the progression or comparative analysis requested.",
+      "metrics": {
+        "coverage": 0.1667,
+        "complexity": 0.7333,
+        "complexity_breakdown": {
+          "multi_table": 1.0,
+          "join": 0.0,
+          "agg": 0.6667,
+          "subquery": 1.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.7896,
+        "surprisal": 0.2467,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but the scope could be better refined to ensure alignment with the schema and avoid potential ambiguity in era comparisons.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by providing some data on average times and nationality but fails to analyze progression, compare eras, or explore correlations as requested.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by analyzing athlete performance and nationality but focuses narrowly on a specific championship and time period, missing broader trends, sports, medals, and demographic analysis.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary is completely unrelated to the user's query, as it does not provide any information on Olympic athletes' performances, trends, sports, medals, nationalities, or backgrounds."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What were the average times of top-ranked athletes in T5, T6, and T7 during 1898 to 1929?",
+          "sql": "SELECT AVG(CAST(REPLACE(REPLACE(Time, ':', ''), '.', '') AS REAL)) AS Average_Time\nFROM (\n    SELECT Time FROM T5\n    UNION ALL\n    SELECT Time FROM T6\n    UNION ALL\n    SELECT Time FROM T7\n);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that the average time of top-ranked athletes is 19418.23214285714. The specific years, events, or rankings for T5, T6, and T7 during 1898 to 1929 are not provided.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.8,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What were the average times of top-ranked athletes in T5, T6, and T7 during 1931 to 1933?",
+          "sql": "SELECT AVG(CAST(REPLACE(REPLACE(Time, ':', ''), '.', '') AS REAL)) AS Average_Time\nFROM (\n    SELECT Time FROM T5\n    UNION ALL\n    SELECT Time FROM T6\n    UNION ALL\n    SELECT Time FROM T7\n);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows an average time of 19418.23214285714 but does not specify if this is for top-ranked athletes in T5, T6, and T7 during 1931 to 1933.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.8,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "How did the nationalities of top-ranked athletes correlate with their times and rankings in T5, T6, and T7 across both eras?",
+          "sql": "SELECT Nationality, Athlete, Rank, Time \nFROM T5 \nUNION ALL \nSELECT Nationality, Athlete, Rank, Time \nFROM T6 \nUNION ALL \nSELECT Nationality, Athlete, Rank, Time \nFROM T7;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows athletes from England with times ranging from 56:36 to 57:48.4, but it does not provide information on how nationalities correlate with rankings or times across both eras or in T5, T6, and T7 specifically.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 56
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 12,
+      "dpr_id": "q4_20",
+      "combined_score": 0.5468,
+      "dpr_text": "We request a data product that tells a story of perseverance and determination by visualizing the 1936 Tour de France stages with the corresponding mountain ranges and winners, highlighting the grueling terrain and exceptional athletes who conquered it, while also analyzing the progression of top-performing athletes' average times across multiple International Cross Country Championships from 1898 to 1933, comparing the improvement rates among different nationalities and highlighting any significant changes or correlations that can inform strategic decision-making in the sport.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data highlights key aspects of the 1936 Tour de France, including Stage 4 in the Vosges won by Federico Ezquerra, and Stages 6 through 9 in the Alps, with victories by Federico Ezquerra (Stages 6 and 7), Juli\u00e1n Berrendero (Stage 8), and Sylv\u00e8re Maes (Stage 9). Additionally, the average time of top-performing athletes across International Cross Country Championships is provided, though specific times for certain categories are missing, and the evidence does not include improvement rates or detailed comparisons among nationalities.",
+      "metrics": {
+        "coverage": 0.2778,
+        "complexity": 0.6,
+        "complexity_breakdown": {
+          "multi_table": 0.6667,
+          "join": 0.0,
+          "agg": 0.6667,
+          "subquery": 0.6667,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8136,
+        "surprisal": 0.2467,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR demonstrates analytical intent but is poorly scoped, as it combines unrelated analyses and partially mismatches the schema, particularly with limited relevant data for the 1936 Tour de France and International Cross Country Championships.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning the 1936 Tour de France stages and winners but fails to analyze the progression of athletes' average times, improvement rates, or correlations among nationalities as requested.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by analyzing athlete performance and demographics over time, but it focuses on specific events unrelated to the Olympics and misses key aspects like medals, sports, and broader trends.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary is completely unrelated to the query, as it discusses cycling events and cross-country championships instead of Olympic athletes' performances and demographics."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What were the average times of top-performing athletes across International Cross Country Championships in T5, T6, T7, and T77?",
+          "sql": "SELECT AVG(CAST(REPLACE(REPLACE(Time, ':', ''), '.', '') AS REAL)) AS Average_Time\nFROM (\n    SELECT Time FROM T5\n    UNION ALL\n    SELECT Time FROM T6\n    UNION ALL\n    SELECT Time FROM T7\n    UNION ALL\n    SELECT Time FROM T77\n);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that the average time of top-performing athletes across International Cross Country Championships is 16110.671052631578. The result set does not show specific times for T5, T6, T7, or T77.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.8,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What were the mountain ranges and winners for each stage of the 1936 Tour de France in T88?",
+          "sql": "SELECT Stage, Mountain_range, Winner FROM T88;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that for the 1936 Tour de France, Stage 4's mountain range was the Vosges, and the winner was Federico Ezquerra. Stages 6, 7, 8, and 9 were in the Alps, with winners Federico Ezquerra (Stages 6 and 7), Juli\u00e1n Berrendero (Stage 8), and Sylv\u00e8re Maes (Stage 9).",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 16
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "How did improvement rates vary among different nationalities in T5, T6, T7, and T77?",
+          "sql": "SELECT Nationality, \n       AVG(CAST(REPLACE(REPLACE(Time, ':', ''), '.', '') AS REAL)) AS Avg_Time\nFROM (\n    SELECT Nationality, Time FROM T5\n    UNION ALL\n    SELECT Nationality, Time FROM T6\n    UNION ALL\n    SELECT Nationality, Time FROM T7\n    UNION ALL\n    SELECT Nationality, Time FROM T77\n)\nGROUP BY Nationality\nORDER BY Avg_Time;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows the average times for Ireland, Scotland, France, Wales, and England, but it does not provide information on improvement rates or their variation among different nationalities in T5, T6, T7, and T77.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.8,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 5
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 13,
+      "dpr_id": "q4_9",
+      "combined_score": 0.5006,
+      "dpr_text": "We request a data product that visualizes the correlation between the nationality of top-performing athletes and their average times across the International Cross Country Championships from 1898 to 1929, highlighting any notable trends or outliers in performance among different nationalities.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data reveals that athletes from England and France have significantly different average times, with England averaging 37882.25 and France averaging 9736.375. Notable outliers in performance are associated with France, suggesting variability in their results. While the minimum rank for top-performing athletes is identified as 4.0, the maximum rank is not provided, leaving some gaps in understanding the full range of rankings.",
+      "metrics": {
+        "coverage": 0.0556,
+        "complexity": 0.4667,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 1.0,
+          "subquery": 0.3333,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.7698,
+        "surprisal": 0.2467,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but it could be more precise in specifying how trends and outliers should be identified or visualized.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning average times and outliers for specific nationalities but fails to visualize correlations, highlight trends, or comprehensively analyze performance across all nationalities.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by analyzing athlete performance and nationality but focuses on a specific event and timeframe, missing broader aspects like medals, sports, backgrounds, and trends across all Olympic athletes over time.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary does not address the user's query about Olympic athletes' performances, demographics, and trends over time."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the average times for athletes grouped by nationality in T5?",
+          "sql": "SELECT Nationality, AVG(CAST(REPLACE(REPLACE(Time, ':', ''), '.', '') AS REAL)) AS Average_Time\nFROM T5\nGROUP BY Nationality;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The average time for athletes from England is 37882.25, and the average time for athletes from France is 9736.375.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 2
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What range of Rank values appears in T5 for top-performing athletes?",
+          "sql": "SELECT MIN(Rank) AS Min_Rank, MAX(Rank) AS Max_Rank\nFROM T5;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows a minimum Rank value of 4.0 for top-performing athletes, but the maximum Rank value is not provided.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "Which nationalities are associated with notable outliers in Time in T5?",
+          "sql": "SELECT DISTINCT Nationality \nFROM T5 \nWHERE Time IN (\n    SELECT Time \n    FROM T5 \n    WHERE Time = (SELECT MIN(Time) FROM T5) \n       OR Time = (SELECT MAX(Time) FROM T5)\n);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set indicates that France is associated with notable outliers in Time.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 14,
+      "dpr_id": "q4_5",
+      "combined_score": 0.4902,
+      "dpr_text": "We request a data product that tells a story of perseverance and determination by visualizing the 1936 Tour de France stages with the corresponding mountain ranges and winners, highlighting the grueling terrain and exceptional athletes who conquered it.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data highlights the connection between specific stages of a cycling event and the mountain ranges they traversed, focusing on Stages 4 through 9. These stages included the Vosges for Stage 4 and the Alps for Stages 6 through 9. Winners are identified for these stages, with Federico Ezquerra achieving victories in Stages 4, 6, and 7, Juli\u00e1n Berrendero winning Stage 8, and Sylv\u00e8re Maes taking Stage 9. However, information about winners or mountain ranges for other stages within the broader range of Stages 4 to 16 is not provided, leaving parts of the narrative incomplete.",
+      "metrics": {
+        "coverage": 0.0556,
+        "complexity": 0.0667,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.0,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.9091,
+        "surprisal": 0.2467,
+        "uniqueness": 1.0,
+        "llm_quality": 1.0,
+        "llm_reasoning": "The DPR is precise, multi-dimensional, and well-matched to Table T88, which contains relevant columns for stages, mountain ranges, and winners.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by linking stages to mountain ranges and winners but fails to cover the full scope of the 1936 Tour de France, omitting key stages and the overarching narrative of perseverance and determination.",
+        "query_dpr_relevance": 0.0,
+        "query_dpr_reasoning": "The DPR focuses on the 1936 Tour de France, which is unrelated to the user's query about Olympic athletes' performances and demographics over time.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary is completely unrelated to the user's query about Olympic athletes' performances and demographics, focusing instead on cycling event stages and winners."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What were the Stage numbers and corresponding Mountain_range values in T88?",
+          "sql": "SELECT Stage, Mountain_range FROM T88;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The Stage numbers and corresponding Mountain_range values in T88 are: Stage 4.0 - Vosges, Stage 6.0 - Alps, Stage 7.0 - Alps, Stage 8.0 - Alps, and Stage 9.0 - Alps.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 16
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "Who were the Winners for each Stage in T88?",
+          "sql": "SELECT Stage, Winner FROM T88;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that the winners for the stages in T88 are as follows: Federico Ezquerra won Stages 4, 6, and 7; Juli\u00e1n Berrendero won Stage 8; and Sylv\u00e8re Maes won Stage 9. The result set does not show winners for any other stages.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 16
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What range of Stage values appears in T88?",
+          "sql": "SELECT MIN(Stage) AS Min_Stage, MAX(Stage) AS Max_Stage FROM T88;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The range of Stage values in T88 is from 4.0 to 16.0.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 15,
+      "dpr_id": "q4_2",
+      "combined_score": 0.4853,
+      "dpr_text": "We request a data product that compares the top 5 athlete performance metrics across multiple International Cross Country Championships from 1898 to 1929, exploring any significant changes or correlations between nationality, time, and overall ranking.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The available data includes information on five athletes, their nationalities, and times, but does not provide rankings or performance details for specific events such as T5, T6, T7, T77, T78, T79, T80, T82, and T85. While the dataset includes rank, nationality, and time, no direct correlations between these metrics are evident. Additionally, the rank data shows a minimum value of 4.0, but no maximum rank or broader range is specified, leaving some aspects of the request unaddressed.",
+      "metrics": {
+        "coverage": 0.5,
+        "complexity": 0.6667,
+        "complexity_breakdown": {
+          "multi_table": 1.0,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 1.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.7959,
+        "surprisal": 0.2467,
+        "uniqueness": 0.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but the scope could be better aligned with the schema, as some tables lack relevant data for the requested analysis.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by mentioning the inclusion of rank, nationality, and time, but fails to analyze performance metrics, correlations, or significant changes across championships as requested.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by analyzing athlete performance and nationality over time, but it focuses on a specific championship and excludes broader Olympic data, sports, medals, and demographic trends.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary partially addresses the query by mentioning athlete data like nationality and rank but misses key aspects such as medals, sports, backgrounds, and trends over time."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the top 5 ranked athletes by nationality and time in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT Nationality, Athlete, Time, Rank\nFROM (\n    SELECT Nationality, Athlete, Time, Rank FROM T5\n    UNION ALL\n    SELECT Nationality, Athlete, Time, Rank FROM T6\n    UNION ALL\n    SELECT Nationality, Athlete, Time, Rank FROM T7\n    UNION ALL\n    SELECT Nationality, Athlete, Time, Rank FROM T77\n    UNION ALL\n    SELECT Nationality, Athlete, Time, Rank FROM T78\n    UNION ALL\n    SELECT Nationality, Athlete, Time, Rank FROM T79\n    UNION ALL\n    SELECT Nationality, Athlete, Time, Rank FROM T80\n    UNION ALL\n    SELECT Nationality, Athlete, Time, Rank FROM T82\n    UNION ALL\n    SELECT Nationality, Athlete, Time, Rank FROM T85\n)\nORDER BY CAST(Rank AS REAL) ASC, Nationality, CAST(REPLACE(REPLACE(Time, ':', ''), '.', '') AS REAL) ASC\nLIMIT 5;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set does not show rankings for the athletes or specify their performance in T5, T6, T7, T77, T78, T79, T80, T82, and T85. It only lists five athletes, their nationalities, and times.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 5
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "Are there correlations between Rank, Nationality, and Time in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT Rank, Athlete, Nationality, Time \nFROM T5 \nUNION ALL \nSELECT Rank, Athlete, Nationality, Time \nFROM T6 \nUNION ALL \nSELECT Rank, Athlete, Nationality, Time \nFROM T7 \nUNION ALL \nSELECT Rank, Athlete, Nationality, Time \nFROM T77 \nUNION ALL \nSELECT Rank, Athlete, Nationality, Time \nFROM T78 \nUNION ALL \nSELECT Rank, Athlete, Nationality, Time \nFROM T79 \nUNION ALL \nSELECT Rank, Athlete, Nationality, Time \nFROM T80 \nUNION ALL \nSELECT Rank, Athlete, Nationality, Time \nFROM T82 \nUNION ALL \nSELECT Rank, Athlete, Nationality, Time \nFROM T85;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows data for Rank, Nationality, and Time, but no correlations between these metrics are directly evident from the provided rows.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 176
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What range of Rank values appears in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT MIN(Rank) AS Min_Rank, MAX(Rank) AS Max_Rank\nFROM (\n    SELECT Rank FROM T5\n    UNION ALL\n    SELECT Rank FROM T6\n    UNION ALL\n    SELECT Rank FROM T7\n    UNION ALL\n    SELECT Rank FROM T77\n    UNION ALL\n    SELECT Rank FROM T78\n    UNION ALL\n    SELECT Rank FROM T79\n    UNION ALL\n    SELECT Rank FROM T80\n    UNION ALL\n    SELECT Rank FROM T82\n    UNION ALL\n    SELECT Rank FROM T85\n) AS CombinedRanks;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows a minimum rank value of 4.0 but does not provide a maximum rank value or any other rank range information.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.8,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 16,
+      "dpr_id": "q4_12",
+      "combined_score": 0.4681,
+      "dpr_text": "We request a data product that highlights the progressive development of athlete performance across different International Cross Country Championships, comparing the era from 1898 to 1929 with the 1931 to 1933 era, and showcasing any notable trends or correlations in nationality, time, and overall ranking that have influenced the sport's evolution over time.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The available data highlights performance details for athletes from England during the 1931 to 1933 era, including recorded times and ranks. Times of 57:22.6 and 57:48.4 are associated with ranks 4 and 5, while other times\u201456:36, 56:36.4, and 57:14.8\u2014lack rank information. Although the dataset provides some information on nationality, time, and rank, it does not offer sufficient evidence to identify broader trends or correlations across the specified eras.",
+      "metrics": {
+        "coverage": 0.0556,
+        "complexity": 0.2,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.0,
+          "subquery": 0.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8089,
+        "surprisal": 0.2467,
+        "uniqueness": 1.0,
+        "llm_quality": 0.75,
+        "llm_reasoning": "The DPR is analytical with clear goals and multi-dimensional questions, but the scope could be better refined to ensure alignment with the schema tables.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by providing data on nationality, time, and rank for a specific era, but it fails to compare the two requested eras or analyze trends and correlations influencing the sport's evolution.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by analyzing athlete performance and trends over time, but it focuses on a specific championship and era, missing broader aspects like Olympic sports, medals, and demographic analysis.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary provides limited information on athlete performances and nationalities but fails to address broader trends, demographics, and achievements over time as requested in the query."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What trends or correlations exist between nationality, time, and rank in T5 across these eras?",
+          "sql": "SELECT Rank, Athlete, Nationality, Time FROM T5 ORDER BY Nationality, CAST(REPLACE(REPLACE(Time, ':', ''), '.', '') AS REAL), Rank;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows athletes from England with recorded times and ranks, but it does not provide sufficient information to identify trends or correlations between nationality, time, and rank across the specified eras.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 16
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What were the ranks, nationalities, and times of athletes in T5 during the 1898 to 1929 era?",
+          "sql": "SELECT Rank, Nationality, Time \nFROM T5 \nWHERE Nationality LIKE '%England%' OR Nationality LIKE '%France%' OR Nationality LIKE '%Scotland%' OR Nationality LIKE '%Ireland%';",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows athletes from England with times of 56:36, 56:36.4, 57:14.8, 57:22.6 (Rank 4), and 57:48.4 (Rank 5). The ranks for some athletes are not provided.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 16
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What were the ranks, nationalities, and times of athletes in T5 during the 1931 to 1933 era?",
+          "sql": "SELECT Rank, Nationality, Time \nFROM T5;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows ranks, nationalities, and times of athletes from England during the 1931 to 1933 era, with ranks 4.0 and 5.0 having times of 57:22.6 and 57:48.4 respectively. Other times listed (56:36, 56:36.4, and 57:14.8) do not have associated ranks.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 16
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 17,
+      "dpr_id": "q4_4",
+      "combined_score": 0.467,
+      "dpr_text": "We request a data product that explores the average size of New World monkey species in relation to their taxonomic classification, conservation status, and geographic distribution, using the \"List of New World monkey species\" table to provide actionable insights for conservation efforts and scientific research.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data highlights average size variations among New World monkey species based on taxonomic classifications, conservation statuses, and specific species groups. Species classified under \"1758 Linnaeus,\" \"1774 Schreber,\" and \"1812 Humboldt\" have an average size of 2.0, while those under \"1809 Goldfuss\" and \"1815 Illiger\" show an average size of 0.0. Conservation statuses include \"least concern\" and \"critically endangered,\" with average sizes ranging from 2,900\u20133,400 g to 3,900 g, though one conservation status is unspecified. Available classifications with size data include Colombian, Panamanian, Humboldt's, Ecuadorian, and Mara\u00f1\u00f3n white-fronted capuchins. However, further details on taxonomic classifications and geographic distribution are absent, limiting comprehensive insights.",
+      "metrics": {
+        "coverage": 0.0556,
+        "complexity": 0.2667,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.9221,
+        "surprisal": 0.2467,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR has analytical intent but is poorly scoped as it references a 'List of New World monkey species' table that does not exist in the schema, making it mismatched to the available data.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by discussing average sizes and conservation statuses but lacks comprehensive analysis of taxonomic classifications and geographic distribution, which are key analytical goals.",
+        "query_dpr_relevance": 0.0,
+        "query_dpr_reasoning": "The DPR is entirely unrelated to the user's query, focusing on New World monkeys instead of Olympic athletes' performances and demographics.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary is completely unrelated to the user's query about Olympic athletes' performances and demographics, as it discusses New World monkey species instead."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What is the average size of New World monkey species by taxonomic classification?",
+          "sql": "SELECT Classified, AVG(CAST(REPLACE(REPLACE(REPLACE(Average_size, 'g', ''), '(', ''), ')', '') AS REAL)) AS Average_Size\nFROM T21\nGROUP BY Classified;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows the average size of New World monkey species classified under \"1758 Linnaeus,\" \"1774 Schreber,\" and \"1812 Humboldt\" as 2.0, while those classified under \"1809 Goldfuss\" and \"1815 Illiger\" have an average size of 0.0. The result set does not show further details about taxonomic classifications or other classifications not listed.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 16
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What conservation statuses are associated with New World monkey species and their average sizes?",
+          "sql": "SELECT Conservation_status, Average_size \nFROM T21;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that New World monkey species have conservation statuses of \"least concern\" and \"critically endangered,\" with associated average sizes ranging from 2,900\u20133,400 g (100\u2013120 oz) to 3,900 g (140 oz). The conservation status for one row is blank.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 20
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "Which classifications of New World monkey species have average size data available?",
+          "sql": "SELECT Scientific_name, Common_name, Classified, Average_size, Conservation_status\nFROM T21\nWHERE Average_size IS NOT NULL;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The classifications of New World monkey species with average size data available are \"Colombian white-faced capuchin,\" \"Panamanian white-faced capuchin,\" \"Humboldt's white-fronted capuchin,\" \"Ecuadorian white-fronted capuchin,\" and \"Mara\u00f1\u00f3n white-fronted capuchin.\"",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 20
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 18,
+      "dpr_id": "q4_17",
+      "combined_score": 0.4499,
+      "dpr_text": "We request a data product that visualizes the average annual improvement in top-performing athletes' times across the International Cross Country Championships from 1898 to 1933, highlighting any notable trends or correlations that can inform strategic decision-making in the sport, and specifically focusing on the rate of improvement over time to distinguish itself from previous requests.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The evidence indicates that the data includes Start_Date and End_Date values of \"10 Aug\" and \"7 Aug,\" respectively, but lacks information on years or additional date details. This limitation suggests that the requested analysis of annual improvement trends cannot be fully addressed with the provided data.",
+      "metrics": {
+        "coverage": 0.0556,
+        "complexity": 0.2667,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.8024,
+        "surprisal": 0.2467,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR has analytical intent but is poorly scoped, as it does not clearly align with the schema or specify how to handle the fragmented data across multiple similar tables.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary partially addresses the DPR by identifying a data limitation, but it fails to explore or propose solutions for analyzing trends or correlations as requested.",
+        "query_dpr_relevance": 0.0,
+        "query_dpr_reasoning": "The DPR focuses on performance trends in a specific championship and timeframe, which is unrelated to the user's broader query about Olympic athletes' achievements, demographics, and trends over time.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary is completely unrelated to the user's query about Olympic athletes' performances and demographics over time."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What is the average Time for top-ranked athletes in T5, T6, T7, and T77?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 0.0,
+            "n_attempts": 3,
+            "rows_returned": 0
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "How does Time change across Rank values in T5, T6, T7, and T77?",
+          "sql": "",
+          "summary_source": "stage3_output",
+          "mini_summary": "",
+          "metrics": {
+            "execution_status": 0.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 0.0,
+            "n_attempts": 1,
+            "rows_returned": 0
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What range of Date values appears in T81?",
+          "sql": "SELECT MIN(Date) AS Start_Date, MAX(Date) AS End_Date FROM T81;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows the Date values \"10 Aug\" for Start_Date and \"7 Aug\" for End_Date. The result set does not show any year or additional date information.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 19,
+      "dpr_id": "q4_1",
+      "combined_score": 0.445,
+      "dpr_text": "We request a data product that visualizes the top 5 athletes with the fastest average times across the International Cross Country Championships from 1898 to 1933, highlighting any notable trends or correlations between nationality, age, and performance.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data identifies the top five athletes with the fastest average times as Austin Price, Eddy Kenrick, Emile Chapuis, Ernest Bedel, and Giuseppe Lippi, all achieving an average time of 0.0. Recorded time values include \"42:46.2,\" \"42:48,\" \"42:51,\" \"44:17.4,\" and \"44:59,\" though rankings and specific event details are not provided. All five athletes are associated with England, but the evidence does not include information on trends or correlations involving nationality, age, or performance.",
+      "metrics": {
+        "coverage": 0.5,
+        "complexity": 0.6,
+        "complexity_breakdown": {
+          "multi_table": 0.6667,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 1.0,
+          "multi_entity": 1.0
+        },
+        "diversity": 0.7683,
+        "surprisal": 0.2467,
+        "uniqueness": 0.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR shows analytical intent by requesting trends and correlations, but it is poorly scoped as it does not specify how to handle the multiple similar tables or clarify the exact analysis methodology.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary identifies the top five athletes and their times but fails to analyze trends or correlations between nationality, age, and performance as requested in the DPR.",
+        "query_dpr_relevance": 0.5,
+        "query_dpr_reasoning": "The DPR partially aligns by analyzing athlete performance and demographics but focuses on a specific event and timeframe, missing broader Olympic data and trends.",
+        "query_summary_relevance": 0.5,
+        "query_summary_reasoning": "The summary provides limited information on athletes' performances and nationalities but lacks details on sports, medals, backgrounds, trends, and demographic analysis over time."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "What are the top 5 athletes with the fastest average times in T5, T6, T7, T77, T78, T79, T80, T82, and T85?",
+          "sql": "SELECT Athlete, AVG(CAST(REPLACE(REPLACE(Time, ':', '.'), '.', '') AS REAL)) AS AvgTime\nFROM (\n    SELECT Athlete, Time FROM T5\n    UNION ALL\n    SELECT Athlete, Time FROM T6\n    UNION ALL\n    SELECT Athlete, Time FROM T7\n    UNION ALL\n    SELECT Athlete, Time FROM T77\n    UNION ALL\n    SELECT Athlete, Time FROM T78\n    UNION ALL\n    SELECT Athlete, Time FROM T79\n    UNION ALL\n    SELECT Athlete, Time FROM T80\n    UNION ALL\n    SELECT Athlete, Time FROM T82\n    UNION ALL\n    SELECT Athlete, Time FROM T85\n) CombinedTimes\nGROUP BY Athlete\nORDER BY AvgTime ASC\nLIMIT 5;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that the top 5 athletes with the fastest average times are Austin Price, Eddy Kenrick, Emile Chapuis, Ernest Bedel, and Giuseppe Lippi, all with an average time of 0.0. The result set does not show any additional information about the specific events, years, or metrics beyond the average times.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.8,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 0.5,
+            "n_attempts": 2,
+            "rows_returned": 5
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "Which rank and time values appear in the relevant tables for these athletes?",
+          "sql": "SELECT Rank, Time \nFROM T5 \nWHERE Athlete IN ('Sidney Robinson', 'Harry Harrison', 'Charles Bennett') \nUNION \nSELECT Rank, Time \nFROM T6 \nWHERE Athlete IN ('Jean Bouin', 'Ernest Glover', 'Jacques Keyser') \nUNION \nSELECT Rank, Time \nFROM T7 \nWHERE Athlete IN ('Jim Wilson', 'Christopher Vose', 'Wally Freeman') \nUNION \nSELECT Rank, Time \nFROM T77 \nWHERE Athlete IN ('Wally Freeman', 'Bobby Mills', 'Bevy Bingham') \nUNION \nSELECT Rank, Time \nFROM T78 \nWHERE Athlete IN ('Joe Blewitt', 'James G. McIntyre', 'Georges Vandenbroele') \nUNION \nSELECT Rank, Time \nFROM T79 \nWHERE Athlete IN ('Bill Cotterell', 'Ernie Harper', 'Eddie Webster') \nUNION \nSELECT Rank, Time \nFROM T80 \nWHERE Athlete IN ('Ernie Harper', 'Joseph Guillemot', 'Robert Marchal') \nUNION \nSELECT Rank, Time \nFROM T82 \nWHERE Athlete IN ('Bill Cotterell', 'Henri Dartigues', 'Robert Courtier') \nUNION \nSELECT Rank, Time \nFROM T85 \nWHERE Athlete IN ('Jack Holden', 'Robbie Sutherland', 'John Suttie Smith');",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows time values of \"42:46.2,\" \"42:48,\" \"42:51,\" \"44:17.4,\" and \"44:59,\" but no rank values are provided.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.6,
+            "complexity_breakdown": {
+              "multi_table": 1.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 27
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What nationalities are associated with these top 5 athletes across the relevant tables?",
+          "sql": "SELECT DISTINCT Nationality \nFROM T5 \nWHERE Athlete IN (\n    SELECT Athlete \n    FROM T5 \n    ORDER BY Rank ASC \n    LIMIT 5\n);",
+          "summary_source": "stage3_output",
+          "mini_summary": "The result set shows that the nationality associated with the top 5 athletes is England.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.4,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 1.0,
+              "multi_entity": 1.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    },
+    {
+      "rank": 20,
+      "dpr_id": "q4_18",
+      "combined_score": 0.4291,
+      "dpr_text": "We request a data product that compares the performance metrics of teams in the 1948 Campeonato Profesional, considering their locations, stadium characteristics, and environmental factors to identify any notable trends or correlations that can inform strategic decision-making for football teams and clubs.",
+      "tables_used": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "ground_truth": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ],
+      "summary_source": "stage3_output",
+      "final_summary": "The data includes teams such as Am\u00e9rica, Atl\u00e9tico Municipal, Deportes Caldas, Deportivo Cali, and Independiente Medell\u00edn, along with cities like Cali, Medell\u00edn, and Manizales, and stadiums including Estadio Ol\u00edmpico Pascual Guerrero, Estadio San Fernando, and Estadio Palogrande. While the range of city names extends from Barranquilla to Medell\u00edn, the evidence does not provide specific performance metrics, environmental factors, or detailed correlations, leaving gaps in addressing trends or strategic insights for football teams and clubs.",
+      "metrics": {
+        "coverage": 0.0556,
+        "complexity": 0.0667,
+        "complexity_breakdown": {
+          "multi_table": 0.0,
+          "join": 0.0,
+          "agg": 0.3333,
+          "subquery": 0.0,
+          "multi_entity": 0.0
+        },
+        "diversity": 0.8568,
+        "surprisal": 0.2467,
+        "uniqueness": 1.0,
+        "llm_quality": 0.5,
+        "llm_reasoning": "The DPR demonstrates analytical intent but is poorly scoped and mismatched to the schema, which lacks sufficient data on performance metrics, environmental factors, and stadium characteristics.",
+        "summary_relevance": 0.5,
+        "summary_relevance_reasoning": "The summary mentions teams, cities, and stadiums but fails to provide performance metrics, environmental factors, or correlations, which are key analytical goals of the DPR.",
+        "query_dpr_relevance": 0.0,
+        "query_dpr_reasoning": "The DPR focuses on football teams and environmental factors, which is completely unrelated to the user's query about Olympic athletes' performances and demographics.",
+        "query_summary_relevance": 0.0,
+        "query_summary_reasoning": "The summary is completely unrelated to the query, focusing on football teams, cities, and stadiums instead of Olympic athletes' performances, demographics, and trends."
+      },
+      "sub_queries": [
+        {
+          "sub_query_index": 1,
+          "sub_question": "Which teams, cities, and stadiums are listed in T99?",
+          "sql": "SELECT Team, City, Stadium FROM T99;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The teams listed are Am\u00e9rica, Atl\u00e9tico Municipal, Deportes Caldas, Deportivo Cali, and Independiente Medell\u00edn. The cities listed are Cali, Medell\u00edn, and Manizales, and the stadiums listed are Estadio Ol\u00edmpico Pascual Guerrero, Estadio San Fernando, and Estadio Palogrande.",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 10
+          }
+        },
+        {
+          "sub_query_index": 2,
+          "sub_question": "What range of values exists for the City column in T99?",
+          "sql": "SELECT MIN(City) AS Min_City, MAX(City) AS Max_City FROM T99;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The range of values for the City column in T99 spans from \"Barranquilla\" to \"Medell\u00edn\".",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.2,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 1.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 1
+          }
+        },
+        {
+          "sub_query_index": 3,
+          "sub_question": "What sample data exists for the Stadium column in T99?",
+          "sql": "SELECT Stadium FROM T99;",
+          "summary_source": "stage3_output",
+          "mini_summary": "The sample data for the Stadium column includes \"Estadio Ol\u00edmpico Pascual Guerrero,\" \"Estadio San Fernando,\" and \"Estadio Palogrande.\"",
+          "metrics": {
+            "execution_status": 1.0,
+            "complexity": 0.0,
+            "complexity_breakdown": {
+              "multi_table": 0.0,
+              "join": 0.0,
+              "agg": 0.0,
+              "subquery": 0.0,
+              "multi_entity": 0.0
+            },
+            "attempt_success_rate": 1.0,
+            "n_attempts": 1,
+            "rows_returned": 10
+          }
+        }
+      ],
+      "user_query": "How can I get information on Olympic athletes' performances and trends, including their sports, medals, nationalities, and backgrounds, to analyze their achievements and demographics over time?"
+    }
+  ]
+}

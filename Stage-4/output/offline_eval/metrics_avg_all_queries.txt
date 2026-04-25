@@ -1,0 +1,15 @@
+  Aggregate across 5 file(s) (100 total DPRs)
+
+  Metric                         Min       Max      Mean  Note
+  ------------------------  --------  --------  --------  --------------------
+  Coverage                    0.0000    1.0000    0.5568  
+  Complexity                  0.0000    0.8000    0.3293  
+  Diversity                   0.8115    0.9267    0.8774  
+  Surprisal                   0.2514    0.6557    0.4058  
+  Uniqueness                  0.0000    1.0000    0.9900  
+  LLM Quality                 0.5000    0.7500    0.6025  
+  DPR-Summary Rel.            0.0000    0.5000    0.4800  
+  Query-DPR Rel.              0.0000    1.0000    0.4750  [display only]
+  Query-Summary Rel.          0.0000    0.5000    0.3250  [display only]
+  ------------------------  --------  --------  --------
+  Combined Score              0.4193    0.8024    0.6072
