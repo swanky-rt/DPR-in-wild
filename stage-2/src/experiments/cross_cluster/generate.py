@@ -29,6 +29,7 @@ import os
 import time
 import re
 import itertools
+import threading
 import numpy as np
 from dotenv import load_dotenv
 import dspy
@@ -174,9 +175,11 @@ def rank_pairs_by_distance(cluster_ids, centroids):
 
 
 def setup_llm(model=None, api_base=None, api_key=None):
-    model = model or os.getenv("LLM_MODEL", "openai/gpt-4o")
+    model = model or os.getenv("LLM_MODEL")
+    if not model:
+        raise ValueError("LLM model not specified. Set LLM_MODEL env var or pass --model.")
     api_base = api_base or os.getenv("LLM_API_BASE")
-    api_key = api_key or os.getenv("OPENAI_API_KEY") or os.getenv("GROQ_API_KEY", "")
+    api_key = api_key or os.getenv("LLM_API_KEY") or os.getenv("OPENAI_API_KEY", "")
 
     kwargs = {"model": model, "max_tokens": 3000, "cache": True}
     if api_base:
@@ -186,6 +189,27 @@ def setup_llm(model=None, api_base=None, api_key=None):
 
     dspy.configure(lm=dspy.LM(**kwargs))
     return model
+
+
+def start_heartbeat(label, counter, total, interval=30):
+    """Print progress every `interval` seconds. Returns a stop event."""
+    stop = threading.Event()
+    start_time = time.time()
+
+    def _beat():
+        while not stop.wait(interval):
+            elapsed = int(time.time() - start_time)
+            done = counter[0]
+            pct = 100 * done / total if total else 0
+            print(
+                f"  [heartbeat] {label} — {done}/{total} pairs ({pct:.1f}%) "
+                f"elapsed {elapsed//60}m{elapsed%60:02d}s",
+                flush=True,
+            )
+
+    t = threading.Thread(target=_beat, daemon=True)
+    t.start()
+    return stop
 
 
 def call_with_retry(fn, *args, max_retries=5, sleep_between=60, **kwargs):
@@ -259,6 +283,9 @@ def main(args):
     check_fn = dspy.ChainOfThought(CrossClusterCheck)
     dpr_fn = dspy.ChainOfThought(CrossClusterDPR)
 
+    counter = [len(done_pairs)]  # start from already-done pairs
+    stop_hb = start_heartbeat("Stage 2b cross-cluster", counter, len(pairs))
+
     # Load checkpoint if it exists (resume after network failures)
     pairs_path = os.path.join(args.output_dir, "pair_decisions.json")
     dprs_path = os.path.join(args.output_dir, "cross_cluster_dprs.jsonl")
@@ -280,6 +307,7 @@ def main(args):
     for i, (id_a, id_b) in enumerate(pairs):
         if (id_a, id_b) in done_pairs:
             print(f"[{i+1}/{len(pairs)}] Cluster {id_a} x Cluster {id_b} ... skipped (done)")
+            counter[0] += 1
             continue
         tables_a = clusters[id_a]
         tables_b = clusters[id_b]
@@ -315,6 +343,8 @@ def main(args):
             "reasoning": reasoning,
             "cross_domain_question": question,
         })
+
+        counter[0] += 1
 
         # Save checkpoint after every pair
         with open(pairs_path, "w") as f:
@@ -359,6 +389,8 @@ def main(args):
             with open(dprs_path, "w") as f:
                 for dpr in cross_cluster_dprs:
                     f.write(json.dumps(dpr) + "\n")
+
+    stop_hb.set()
 
     # Summary
     strong_pairs = [r for r in pair_results if r.get("relation_score", 0) >= 3]

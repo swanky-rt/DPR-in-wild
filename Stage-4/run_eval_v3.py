@@ -859,8 +859,8 @@ if __name__ == "__main__":
                         help="Randomly sample N DPRs before eval (fixed seed=42). "
                              "Use to match online pool size for fair comparison.")
     parser.add_argument("--llm_api_key",  default="")
-    parser.add_argument("--llm_api_base", default="https://api.openai.com/v1")
-    parser.add_argument("--llm_model",    default="gpt-4")
+    parser.add_argument("--llm_api_base", default="https://thekeymaker.umass.edu/v1")
+    parser.add_argument("--llm_model",    default="qwen.qwen3-235b-a22b-2507-v1:0")
     args = parser.parse_args()
 
     print(f"[Config]")

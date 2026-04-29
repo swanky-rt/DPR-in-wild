@@ -30,7 +30,9 @@ from litellm import completion
 # Config
 # ----------------------------
 
-MODEL_NAME = "groq/qwen/qwen3-32b"
+MODEL_NAME = os.environ.get("LLM_MODEL")
+if not MODEL_NAME:
+    raise ValueError("LLM_MODEL env var not set. Example: export LLM_MODEL='qwen.qwen3-235b-a22b-2507-v1:0'")
 
 TABLES_RAW_DIR = "tables_raw"
 TABLES_CLEAN_DIR = "tables_clean"
@@ -148,10 +150,12 @@ def call_llm(api_key: str, messages: List[Dict[str, str]]) -> Dict[str, Any]:
 
     for attempt in range(MAX_RETRIES + 1):
         try:
+            api_base = os.environ.get("LLM_API_BASE", "https://thekeymaker.umass.edu/v1")
             resp = completion(
                 model=MODEL_NAME,
                 messages=messages,
                 api_key=api_key,
+                api_base=api_base,
                 temperature=0.2,
                 response_format={"type": "json_object"}
             )
@@ -203,14 +207,12 @@ def main() -> None:
     - Save per-table clean JSON
     - Save one combined schema_descriptions.json
     """
-    api_key = os.environ.get("GROQ_API_KEY")
+    api_key = os.environ.get("LLM_API_KEY") or os.environ.get("THEKEYMAKER_API_KEY")
     if not api_key:
         raise ValueError(
-            "Missing GROQ_API_KEY environment variable.\n"
-            "Set it like:\n"
-            "  export GROQ_API_KEY='YOUR_KEY'\n"
-            "Or PowerShell:\n"
-            "  $env:GROQ_API_KEY='YOUR_KEY'"
+            "Missing API key. Set one of:\n"
+            "  export LLM_API_KEY='YOUR_KEY'\n"
+            "  export THEKEYMAKER_API_KEY='YOUR_KEY'"
         )
 
     os.makedirs(TABLES_CLEAN_DIR, exist_ok=True)
