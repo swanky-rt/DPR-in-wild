@@ -22,6 +22,8 @@ Output file:
 
 import os
 import json
+import argparse
+from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
 import numpy as np
@@ -30,31 +32,24 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 
 # --------------------------------------------------
-# Configuration
+# Defaults (overridden by CLI args)
 # --------------------------------------------------
 
-# Sentence-transformer model used to embed each user query
 EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"
 
-# Input paths
-TABLE_EMBEDDINGS_PATH = "table_embeddings.json"
-TABLES_CLEAN_DIR = "tables_clean"
-CLUSTERS_SUMMARY_PATH = "../stage-2/data/output_qwen_emb_v2/clusters_summary.json"
+_SCRIPT_DIR = Path(__file__).resolve().parent
+_REPO_ROOT = _SCRIPT_DIR.parent
 
-# Output path
-OUTPUT_PATH = "query_table_cluster_matches.json"
+DEFAULT_TABLE_EMBEDDINGS_PATH = str(_SCRIPT_DIR / "table_embeddings.json")
+DEFAULT_TABLES_CLEAN_DIR = str(_SCRIPT_DIR / "tables_clean")
+DEFAULT_CLUSTERS_SUMMARY_PATH = str(_REPO_ROOT / "stage-2" / "data" / "output_qwen_emb_v2" / "clusters_summary.json")
+DEFAULT_OUTPUT_PATH = str(_SCRIPT_DIR / "query_table_cluster_matches.json")
+DEFAULT_TOP_K_TABLES = 15
+DEFAULT_SIMILARITY_THRESHOLD = 0.4
+DEFAULT_INCLUDE_NOISE_CLUSTER = False
 
-# Retrieval settings
-TOP_K_TABLES = 15
-
-# Minimum cosine similarity score required for a table to be kept as relevant
-SIMILARITY_THRESHOLD = 0.4
-
-# Keep this False unless the noise cluster (-1) should also be included
-INCLUDE_NOISE_CLUSTER = False
-
-# User queries used for the online retrieval step
-USER_QUERIES = [
+# Fallback queries used when no --queries_file is provided
+_DEFAULT_QUERIES = [
     {
         "query_id": "Q1",
         "query_text": "Who won the 1913 International Cross-Country Championships?"
@@ -68,6 +63,24 @@ USER_QUERIES = [
         "query_text": "Compare how success is measured in the sports tables and the movie tables, using rankings and times for athletes and revenue, admissions, or gross for films."
     }
 ]
+
+
+def _load_queries(queries_file: str) -> List[Dict[str, str]]:
+    """
+    Load user queries from a JSON file.
+    Supports two formats:
+      - [{"query_id": "Q1", "query_text": "..."}, ...]
+      - [{"dpr_id": "Q1", "user_query": "..."}, ...]  (stage-2 user_queries format)
+    """
+    with open(queries_file, encoding="utf-8") as f:
+        raw = json.load(f)
+    queries = []
+    for i, entry in enumerate(raw):
+        query_id = entry.get("query_id") or entry.get("dpr_id") or f"Q{i+1}"
+        query_text = entry.get("query_text") or entry.get("user_query") or ""
+        if query_text:
+            queries.append({"query_id": query_id, "query_text": query_text})
+    return queries
 
 
 # --------------------------------------------------
@@ -86,14 +99,14 @@ def save_json(path: str, obj: Any) -> None:
         json.dump(obj, f, indent=2, ensure_ascii=False)
 
 
-def load_table_metadata(table_id: str) -> Dict[str, Any]:
+def load_table_metadata(table_id: str, tables_clean_dir: str) -> Dict[str, Any]:
     """
     Load metadata for one table from tables_clean/T?.json.
 
     If the file is missing, return empty placeholder values so the script
     can continue running.
     """
-    path = os.path.join(TABLES_CLEAN_DIR, f"{table_id}.json")
+    path = os.path.join(tables_clean_dir, f"{table_id}.json")
 
     if not os.path.exists(path):
         return {
@@ -110,7 +123,7 @@ def load_table_metadata(table_id: str) -> Dict[str, Any]:
     }
 
 
-def load_table_embeddings() -> Tuple[List[Dict[str, Any]], np.ndarray]:
+def load_table_embeddings(embeddings_path: str, tables_clean_dir: str) -> Tuple[List[Dict[str, Any]], np.ndarray]:
     """
     Load precomputed table embeddings and attach basic metadata.
 
@@ -119,14 +132,14 @@ def load_table_embeddings() -> Tuple[List[Dict[str, Any]], np.ndarray]:
       columns, and description
     - table_embeddings: numpy array of shape [num_tables, embedding_dim]
     """
-    raw = load_json(TABLE_EMBEDDINGS_PATH)
+    raw = load_json(embeddings_path)
 
     table_records: List[Dict[str, Any]] = []
     embeddings: List[List[float]] = []
 
     for item in raw:
         table_id = item["table_id"]
-        meta = load_table_metadata(table_id)
+        meta = load_table_metadata(table_id, tables_clean_dir)
 
         table_records.append({
             "table_id": table_id,
@@ -201,17 +214,40 @@ def build_table_to_cluster_map(clusters: List[Dict[str, Any]]) -> Dict[str, List
 # --------------------------------------------------
 
 def main() -> None:
+    parser = argparse.ArgumentParser(
+        description="Match user queries to offline BERTopic clusters via embedding similarity."
+    )
+    parser.add_argument("--embeddings_path", default=DEFAULT_TABLE_EMBEDDINGS_PATH,
+                        help="Path to table_embeddings.json")
+    parser.add_argument("--tables_clean_dir", default=DEFAULT_TABLES_CLEAN_DIR,
+                        help="Path to tables_clean/ directory")
+    parser.add_argument("--clusters_summary_path", default=DEFAULT_CLUSTERS_SUMMARY_PATH,
+                        help="Path to clusters_summary.json from stage-2 clustering")
+    parser.add_argument("--queries_file", default=None,
+                        help="JSON file of user queries. If omitted, uses built-in default queries.")
+    parser.add_argument("--output_path", default=DEFAULT_OUTPUT_PATH,
+                        help="Where to write query_cluster_matches.json")
+    parser.add_argument("--top_k", type=int, default=DEFAULT_TOP_K_TABLES,
+                        help="Max tables to retrieve per query (default: 15)")
+    parser.add_argument("--threshold", type=float, default=DEFAULT_SIMILARITY_THRESHOLD,
+                        help="Min cosine similarity to keep a table (default: 0.4)")
+    parser.add_argument("--include_noise", action="store_true",
+                        help="Include the noise cluster (-1) in matches")
+    args = parser.parse_args()
+
+    user_queries = _load_queries(args.queries_file) if args.queries_file else _DEFAULT_QUERIES
+
     print(f"[INFO] Loading embedding model: {EMBEDDING_MODEL_NAME}")
     model = SentenceTransformer(EMBEDDING_MODEL_NAME)
 
     print("[INFO] Loading table embeddings...")
-    table_records, table_embeddings = load_table_embeddings()
+    table_records, table_embeddings = load_table_embeddings(args.embeddings_path, args.tables_clean_dir)
     print(f"[INFO] Loaded {len(table_records)} tables with shape {table_embeddings.shape}")
 
-    print(f"[INFO] Loading offline cluster summary from: {CLUSTERS_SUMMARY_PATH}")
+    print(f"[INFO] Loading offline cluster summary from: {args.clusters_summary_path}")
     offline_clusters = load_offline_clusters_from_summary(
-        CLUSTERS_SUMMARY_PATH,
-        include_noise=INCLUDE_NOISE_CLUSTER
+        args.clusters_summary_path,
+        include_noise=args.include_noise
     )
     print(f"[INFO] Loaded {len(offline_clusters)} usable clusters")
 
@@ -219,12 +255,12 @@ def main() -> None:
     table_to_clusters = build_table_to_cluster_map(offline_clusters)
 
     print("[INFO] Embedding user queries...")
-    query_texts = [q["query_text"] for q in USER_QUERIES]
+    query_texts = [q["query_text"] for q in user_queries]
     query_embeddings = model.encode(query_texts, convert_to_numpy=True)
 
     all_results = []
 
-    for i, query_obj in enumerate(USER_QUERIES):
+    for i, query_obj in enumerate(user_queries):
         query_id = query_obj["query_id"]
         query_text = query_obj["query_text"]
         query_embedding = query_embeddings[i].reshape(1, -1)
@@ -238,7 +274,7 @@ def main() -> None:
         # the configured threshold.
         candidate_indices = [
             idx for idx, sim in enumerate(sims)
-            if sim >= SIMILARITY_THRESHOLD
+            if sim >= args.threshold
         ]
 
         # Sort the remaining candidate tables by cosine similarity,
@@ -250,7 +286,7 @@ def main() -> None:
         )
 
         # Keep only the top-k highest-scoring tables.
-        top_indices = candidate_indices[:TOP_K_TABLES]
+        top_indices = candidate_indices[:args.top_k]
 
         matched_tables = []
         matched_table_ids = []
@@ -307,17 +343,18 @@ def main() -> None:
     output = {
         "config": {
             "embedding_model": EMBEDDING_MODEL_NAME,
-            "top_k_tables": TOP_K_TABLES,
-            "similarity_threshold": SIMILARITY_THRESHOLD,
-            "clusters_summary_path": CLUSTERS_SUMMARY_PATH,
-            "include_noise_cluster": INCLUDE_NOISE_CLUSTER
+            "top_k_tables": args.top_k,
+            "similarity_threshold": args.threshold,
+            "clusters_summary_path": args.clusters_summary_path,
+            "include_noise_cluster": args.include_noise,
         },
         "query_results": all_results
     }
 
-    save_json(OUTPUT_PATH, output)
+    os.makedirs(os.path.dirname(os.path.abspath(args.output_path)), exist_ok=True)
+    save_json(args.output_path, output)
 
-    print(f"\n[OK] Wrote output to: {OUTPUT_PATH}")
+    print(f"\n[OK] Wrote output to: {args.output_path}")
     print("\n================ RESULTS ================\n")
 
     for item in all_results:

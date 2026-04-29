@@ -320,7 +320,15 @@ def main(args):
 
     # Save results as JSONL
     model_short = model.split("/")[-1] if "/" in model else model
-    output_path = os.path.join(args.output_dir, f"query_dprs-{model_short}.jsonl")
+    if args.output_name:
+        stem = args.output_name if not args.output_name.endswith(".jsonl") else args.output_name[:-6]
+        jsonl_name = f"{stem}.jsonl"
+        structured_name = f"{stem}-structured.json"
+    else:
+        jsonl_name = f"query_dprs-{model_short}.jsonl"
+        structured_name = f"query_dprs-{model_short}-structured.json"
+
+    output_path = os.path.join(args.output_dir, jsonl_name)
     with open(output_path, "w", encoding="utf-8") as f:
         for result in all_results:
             f.write(json.dumps(result, ensure_ascii=False) + "\n")
@@ -335,11 +343,11 @@ def main(args):
         if qid not in by_query:
             by_query[qid] = []
         by_query[qid].append(result)
-    
-    structured_path = os.path.join(args.output_dir, f"query_dprs-{model_short}-structured.json")
+
+    structured_path = os.path.join(args.output_dir, structured_name)
     with open(structured_path, "w", encoding="utf-8") as f:
         json.dump(by_query, f, indent=2, ensure_ascii=False)
-    
+
     print(f"Structured output: {structured_path}")
 
 
@@ -383,6 +391,11 @@ if __name__ == "__main__":
         "--max_workers", type=int, default=2,
         help="Max parallel LLM calls"
     )
-    
+    parser.add_argument(
+        "--output_name", type=str, default=None,
+        help="Stem (or full .jsonl name) for output files. "
+             "Defaults to query_dprs-{model}.jsonl"
+    )
+
     args = parser.parse_args()
     main(args)
