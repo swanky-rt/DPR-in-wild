@@ -67,11 +67,20 @@ _DEFAULT_QUERIES = [
 
 def _load_queries(queries_file: str) -> List[Dict[str, str]]:
     """
-    Load user queries from a JSON file.
-    Supports two formats:
-      - [{"query_id": "Q1", "query_text": "..."}, ...]
-      - [{"dpr_id": "Q1", "user_query": "..."}, ...]  (stage-2 user_queries format)
+    Load user queries from a file. Supports three formats:
+      - Plain text (.txt): one query per line → query_id = Q1, Q2, ...
+      - JSON list: [{"query_id": "Q1", "query_text": "..."}, ...]
+      - JSON list: [{"dpr_id": "Q1", "user_query": "..."}, ...]  (stage-2 format)
     """
+    if queries_file.endswith(".txt"):
+        queries = []
+        with open(queries_file, encoding="utf-8") as f:
+            for i, line in enumerate(f):
+                line = line.strip()
+                if line:
+                    queries.append({"query_id": f"Q{i+1}", "query_text": line})
+        return queries
+
     with open(queries_file, encoding="utf-8") as f:
         raw = json.load(f)
     queries = []
