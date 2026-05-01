@@ -1,0 +1,25 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Large data files
+*.npy
+*.zip
+
+# Pipeline outputs
+data/runs/
+stage-2/data/output-random/
+
+# Logs
+*.log
