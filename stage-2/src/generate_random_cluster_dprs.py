@@ -91,10 +91,14 @@ class DPRGeneration(dspy.Signature):
     across all given tables (data product cluster).
 
     Instructions:
-    - The request should incorporate the tables' information in the cluster.
+    - The request MUST be grounded in the actual tables provided — always generate a DPR based on what the tables contain.
+    - Use the user query only as inspiration for framing and tone, not as a constraint.
+    - Even if the tables do not perfectly match the user query, generate a meaningful DPR based on the tables.
     - Write exactly ONE sentence. Do not use bullet points, numbered lists, or line breaks.
-    - Use a clear, professional tone suitable for real-world user requests.
-    - Frame the request in the context of the user query provided.
+    - Do NOT say the tables are unrelated or insufficient — always produce a DPR.
+    - Write in the voice of a data analyst making a request — natural, direct, action-oriented.
+    - Start with an action verb like "Analyze", "Build", "Create", "Compare", "Identify", "Track", or similar.
+    - Do NOT start with "A data product is needed" or passive constructions.
 
     Output format:
     Return only the final data product request as a single sentence of plain text.
