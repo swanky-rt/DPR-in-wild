@@ -106,6 +106,7 @@ CROSS_CLUSTER_SLEEP="${CROSS_CLUSTER_SLEEP:-20}"
 # ── Random DPR params ────────────────────────────────────────────────────────
 N_QUERIES="${N_QUERIES:-100}"
 N_SAMPLES_PER_QUERY="${N_SAMPLES_PER_QUERY:-50}"
+MAX_WORKERS="${MAX_WORKERS:-10}"
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 HEARTBEAT_PID=""
@@ -298,6 +299,7 @@ if should_run "2c"; then
             --append \
             --n_queries "$N_QUERIES" \
             --n_samples_per_query "$N_SAMPLES_PER_QUERY" \
+            --max_workers "$MAX_WORKERS" \
             --model "$LLM_MODEL" \
             --api_base "$LLM_API_BASE" \
             --api_key "$LLM_API_KEY"
