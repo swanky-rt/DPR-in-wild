@@ -85,7 +85,7 @@ DPR_JSONL="${STAGE2_DPR_DIR}/${DPR_STEM}.jsonl"
 STAGE3_OUTPUT="${STAGE3_OUT}/${DPR_STEM}_stage3_output.json"
 
 # ── LLM config ────────────────────────────────────────────────────────────────
-LLM_MODEL="${LLM_MODEL:-qwen.qwen3-235b-a22b-2507-v1:0}"
+LLM_MODEL="${LLM_MODEL:-openai/qwen.qwen3-235b-a22b-2507-v1:0}"
 LLM_API_BASE="${LLM_API_BASE:-https://thekeymaker.umass.edu/v1}"
 LLM_API_KEY="${LLM_API_KEY:-${THEKEYMAKER_API_KEY:-}}"
 

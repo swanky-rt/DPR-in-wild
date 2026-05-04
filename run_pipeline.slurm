@@ -14,7 +14,7 @@ cd "$REPO"
 
 export LLM_API_KEY="sk-Gl8J7OJ_GYHbWSTW1ZVVcA"
 export LLM_API_BASE="https://thekeymaker.umass.edu/v1"
-export LLM_MODEL="qwen.qwen3-235b-a22b-2507-v1:0"
+export LLM_MODEL="openai/qwen.qwen3-235b-a22b-2507-v1:0"
 export EMBEDDINGS="$REPO/hybridqa_table_Qwen_embeddings.json"
 
 mkdir -p logs
