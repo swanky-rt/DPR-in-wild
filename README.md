@@ -159,13 +159,15 @@ git checkout 1-no-query
 
 ### 2. Get the embeddings file (first time only)
 
-The embeddings file is too large for git — scp it from your local machine:
+The embeddings file (`hybridqa_table_Qwen_embeddings.json`, ~1.3 GB) is stored in Git LFS and cannot be pulled normally on Unity. Download it from GitHub via browser and scp it:
 
 ```bash
 # On your LOCAL machine:
 scp /path/to/hybridqa_table_Qwen_embeddings.json \
     <netid>@unity.rc.umass.edu:/project/pi_dagarwal_umass_edu/project_18/<netid>/dpr-discovery/
 ```
+
+> **Do not use `git lfs pull`** — Unity does not have LFS access configured and will silently download a pointer file instead of the actual data.
 
 ### 3. Create the virtual environment (first time only)
 
@@ -181,28 +183,35 @@ pip install -r stage-3/requirements.txt
 pip install -r Stage-4/requirements.txt
 ```
 
-### 4. Run as a batch job (recommended)
+### 4. Run clustering (stage 2a)
 
-Batch jobs keep running even when you close your laptop. No GPU needed — the LLM is a remote API.
-
-**Step 1 — Run clustering (stage 2a):**
+Clustering runs in ~10 min on a CPU login node. Run it directly:
 
 ```bash
+cd /project/pi_dagarwal_umass_edu/project_18/<netid>/dpr-discovery
 source venv/bin/activate
-export EMBEDDINGS="/project/pi_dagarwal_umass_edu/project_18/<netid>/dpr-discovery/hybridqa_table_Qwen_embeddings.json"
+
 export LLM_API_KEY="your-thekeymaker-api-key"
 export LLM_API_BASE="https://thekeymaker.umass.edu/v1"
-export LLM_MODEL="qwen.qwen3-235b-a22b-2507-v1:0"
+export LLM_MODEL="openai/qwen.qwen3-235b-a22b-2507-v1:0"
+export EMBEDDINGS="/project/pi_dagarwal_umass_edu/project_18/<netid>/dpr-discovery/hybridqa_table_Qwen_embeddings.json"
 
 bash run_pipeline.sh
 ```
 
-Note the `Run tag` printed at the top (e.g. `2026-05-04_13-54-29`). Takes ~10 min.
+Note the `Run tag` printed at the top (e.g. `2026-05-04_13-54-29`). You will need it for the next step.
 
-**Step 2 — Submit DPR generation as a batch job (stage 2c):**
+### 5. Submit DPR generation as a batch job (stage 2c)
+
+Batch jobs keep running after you close your laptop. Create the slurm file using `nano` (not heredoc — leading spaces break the EOF marker):
 
 ```bash
-cat > run_2c.slurm << 'EOF'
+nano run_2c.slurm
+```
+
+Paste this content, replacing `<netid>` and `<RUN_TAG>`:
+
+```bash
 #!/bin/bash
 #SBATCH --job-name=dpr-2c
 #SBATCH --partition=cpu
@@ -217,27 +226,90 @@ cd /project/pi_dagarwal_umass_edu/project_18/<netid>/dpr-discovery
 
 export LLM_API_KEY="your-thekeymaker-api-key"
 export LLM_API_BASE="https://thekeymaker.umass.edu/v1"
-export LLM_MODEL="qwen.qwen3-235b-a22b-2507-v1:0"
+export LLM_MODEL="openai/qwen.qwen3-235b-a22b-2507-v1:0"
 
 RUN_TAG=<RUN_TAG> bash run_pipeline.sh --only 2c
-EOF
+```
 
+Save (`Ctrl+O`, `Enter`) and exit (`Ctrl+X`), then submit:
+
+```bash
 sbatch run_2c.slurm
 ```
 
-Replace `<RUN_TAG>` with the timestamp from step 1. Close your laptop — it runs independently.
-
 Check job status:
 ```bash
-squeue -u <netid>
+squeue -u <netid>_umass_edu
 ```
 
-Check progress in the log:
+Watch the log once the job is running (`ST = R`):
 ```bash
 tail -f data/runs/<RUN_TAG>/dpr_gen_<jobid>.log
 ```
 
-### 5. Pipeline commands reference
+Check how many DPRs have been written:
+```bash
+wc -l data/runs/<RUN_TAG>/stage2/dprs/dprs_<RUN_TAG>.jsonl
+```
+
+Preview the generated DPRs:
+```bash
+tail -5 data/runs/<RUN_TAG>/stage2/dprs/dprs_<RUN_TAG>.jsonl | \
+    python3 -c "import sys,json; [print(json.loads(l)['DPR']) for l in sys.stdin]"
+```
+
+---
+
+## Common mistakes — read before running
+
+### 1. Wrong model name format
+The LLM model **must** be prefixed with `openai/`. Without it, LiteLLM routes to AWS Bedrock, which fails silently and writes 0 DPRs to disk.
+
+```bash
+# WRONG — routes to Bedrock, all calls fail
+export LLM_MODEL="qwen.qwen3-235b-a22b-2507-v1:0"
+
+# CORRECT
+export LLM_MODEL="openai/qwen.qwen3-235b-a22b-2507-v1:0"
+```
+
+### 2. API key not exported
+Passing the key inline without `export` does not make it visible inside the script. Always use `export`:
+
+```bash
+# WRONG — key not inherited by run_pipeline.sh
+LLM_API_KEY="sk-..." bash run_pipeline.sh --only 2c
+
+# CORRECT
+export LLM_API_KEY="sk-..."
+bash run_pipeline.sh --only 2c
+```
+
+In slurm files, always use `export LLM_API_KEY=...` explicitly — batch jobs do not inherit your shell environment.
+
+### 3. Embeddings file is a Git LFS pointer
+If `git lfs pull` gives errors or the embeddings file is only a few hundred bytes, it's a pointer file — not the real data. Clustering will fail immediately. The fix is to scp the actual file (see step 2 above).
+
+### 4. Running heavy jobs on the login node
+The login node will kill long-running processes. Use `sbatch` for anything that runs more than a few minutes. Clustering (~10 min) is borderline — safe to run on login, but DPR generation (5k DPRs, ~2 hours) must be submitted as a batch job.
+
+### 5. Testing before the full run
+Always test with a small run before submitting 5k DPRs:
+
+```bash
+export LLM_API_KEY="your-key"
+RUN_TAG=<existing-tag> N_QUERIES=5 N_SAMPLES_PER_QUERY=5 bash run_pipeline.sh --only 2c
+```
+
+Check the output file has data before scaling up:
+```bash
+wc -l data/runs/<RUN_TAG>/stage2/dprs/dprs_<RUN_TAG>.jsonl
+# should show 25, not 0
+```
+
+---
+
+## Pipeline commands reference
 
 ```bash
 # Clustering only (stage 2a) — always run this first
@@ -260,19 +332,23 @@ RUN_TAG=2026-05-04_13-54-29 bash run_pipeline.sh --only 4
 
 > `RUN_TAG` is the timestamp printed at the start of each run. All output file paths are derived from it, so any step can be re-run in isolation without rerunning earlier steps.
 
-### 6. Tunable parameters
+---
+
+## Tunable parameters
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `EMBEDDINGS` | `stage-1/table_embeddings.json` | Path to embeddings file |
-| `LLM_MODEL` | `qwen.qwen3-235b-a22b-2507-v1:0` | LLM model for all stages |
+| `EMBEDDINGS` | `hybridqa_table_Qwen_embeddings.json` | Path to embeddings file |
+| `LLM_MODEL` | `openai/qwen.qwen3-235b-a22b-2507-v1:0` | LLM model for all stages |
 | `LLM_API_BASE` | `https://thekeymaker.umass.edu/v1` | API endpoint |
 | `N_QUERIES` | `100` | Number of user queries for stage 2c |
 | `N_SAMPLES_PER_QUERY` | `50` | Random clusters per query (50×100 = 5,000 DPRs) |
 | `MAX_WORKERS` | `10` | Parallel LLM calls in stage 2c |
 | `CROSS_CLUSTER_TOP_K` | `20` | Top-K dissimilar pairs for stage 2b |
 
-### 7. Output locations
+---
+
+## Output locations
 
 All outputs land in `data/runs/<RUN_TAG>/`:
 
@@ -286,7 +362,9 @@ All outputs land in `data/runs/<RUN_TAG>/`:
 | `stage3/dprs_$TS_stage3_output.json` | stage 3 SQL-grounded DPRs |
 | `stage4/eval_results_$TS.json` | stage 4 evaluation results |
 
-### 8. Progress monitoring
+---
+
+## Progress monitoring
 
 Stage 2c shows a live progress bar and heartbeat:
 
