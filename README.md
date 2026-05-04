@@ -170,8 +170,8 @@ export LLM_API_KEY="your-thekeymaker-api-key"
 export LLM_API_BASE="https://thekeymaker.umass.edu/v1"
 export LLM_MODEL="qwen.qwen3-235b-a22b-2507-v1:0"
 
-# Point to pre-computed embeddings
-export EMBEDDINGS="/path/to/updated_dataset/table_embeddings.npy"
+# Qwen3-Embedding-8B embeddings (4096-dim, 10,993 tables) — scp from stage-1 branch
+export EMBEDDINGS="/project/pi_dagarwal_umass_edu/project_18/athulyaanil/dpr-discovery/hybridqa_table_Qwen_embeddings.json"
 ```
 
 > No GPU needed — embeddings are pre-computed and the LLM runs as a remote API.
