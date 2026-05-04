@@ -15,7 +15,7 @@ IBM Research collaboration — branch `1-no-query`.
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  PRE-COMPUTED                                                                ║
 ║                                                                              ║
-║  10,993 HybridQA tables  ──►  all-MiniLM-L6-v2  ──►  table_embeddings.npy  ║
+║  10,993 HybridQA tables  ──►  Qwen3-Embedding-8B  ──►  hybridqa_table_Qwen_embeddings.json  ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
                                                               │
                                                               ▼
@@ -36,7 +36,7 @@ IBM Research collaboration — branch `1-no-query`.
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │  STAGE 2a  ·  stage-2/src/run_pipeline.py → cluster.py + filter.py          │
 │                                                                              │
-│  table_embeddings.npy                                                        │
+│  hybridqa_table_Qwen_embeddings.json                                         │
 │       │                                                                      │
 │       ▼                                                                      │
 │  UMAP (dim reduction)  ──►  HDBSCAN  ──►  BERTopic                          │
@@ -252,7 +252,7 @@ cd /work/<your-netid>/dpr-discovery
 export LLM_API_KEY="your-thekeymaker-api-key"
 export LLM_API_BASE="https://thekeymaker.umass.edu/v1"
 export LLM_MODEL="qwen.qwen3-235b-a22b-2507-v1:0"
-export EMBEDDINGS="/path/to/table_embeddings.npy"
+export EMBEDDINGS="/project/pi_dagarwal_umass_edu/project_18/athulyaanil/dpr-discovery/hybridqa_table_Qwen_embeddings.json"
 
 bash run_pipeline.sh --full
 ```
