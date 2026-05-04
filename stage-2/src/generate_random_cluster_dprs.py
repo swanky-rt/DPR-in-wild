@@ -309,6 +309,15 @@ def main(args):
             )
             future_to_task[future] = (query["query_id"], cluster["dpr_id"], idx)
 
+        # Open output file early so each DPR is written immediately (crash-safe)
+        stem = args.output_name or "random_cluster_dprs"
+        if stem.endswith(".jsonl"):
+            stem = stem[:-6]
+        os.makedirs(args.output_dir, exist_ok=True)
+        jsonl_path = os.path.join(args.output_dir, f"{stem}.jsonl")
+        mode = "a" if args.append else "w"
+        f_out = open(jsonl_path, mode, encoding="utf-8")
+
         for future in tqdm(
             as_completed(future_to_task),
             total=len(future_to_task),
@@ -320,12 +329,17 @@ def main(args):
             try:
                 result = future.result()
                 if result is not None:
+                    result["source"] = "random_cluster"
+                    f_out.write(json.dumps(result, ensure_ascii=False) + "\n")
+                    f_out.flush()
                     all_results.append(result)
             except Exception as e:
                 logging.error("Error on %s C%s s%d: %s", query_id, cluster_id, idx, e)
                 print(f"Error on {query_id} C{cluster_id} s{idx}: {e}")
             finally:
                 counter[0] += 1
+
+        f_out.close()
 
     stop_hb.set()
     elapsed = time.time() - start_time
@@ -343,17 +357,7 @@ def main(args):
     print(f"Time:         {elapsed:.1f}s")
     print(f"Model:        {model}")
 
-    # Save JSONL (append mode if --append, otherwise overwrite)
-    stem = args.output_name or f"random_cluster_dprs"
-    if stem.endswith(".jsonl"):
-        stem = stem[:-6]
-
-    jsonl_path = os.path.join(args.output_dir, f"{stem}.jsonl")
-    mode = "a" if args.append else "w"
-    with open(jsonl_path, mode, encoding="utf-8") as f:
-        for r in all_results:
-            r["source"] = "random_cluster"
-            f.write(json.dumps(r, ensure_ascii=False) + "\n")
+    # JSONL already written incrementally above
     action = "Appended" if args.append else "Saved"
     print(f"\n{action} {n_generated} DPRs → {jsonl_path}")
 
