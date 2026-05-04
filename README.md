@@ -180,7 +180,7 @@ source venv/bin/activate
 
 pip install -r stage-2/requirements.txt
 pip install -r stage-3/requirements.txt
-pip install -r Stage-4/requirements.txt
+pip install -r stage-4/requirements.txt
 ```
 
 ### 4. Run clustering (stage 2a)

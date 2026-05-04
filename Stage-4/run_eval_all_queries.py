@@ -1,5 +1,5 @@
 """
-run_eval_all_queries.py  —  Online evaluation runner (Stage-4)
+run_eval_all_queries.py  —  Online evaluation runner (stage-4)
 
 Architecture
 ────────────
@@ -40,7 +40,7 @@ Metric weights (combined score — identical to run_eval_v3.py)
   LLM Quality       0.1071
   DPR-Summary Rel.  0.1071
 
-Usage (from Stage-4/):
+Usage (from stage-4/):
     python run_eval_all_queries.py \\
         --input_dir  ../stage-3/data/stage3_outputs/online_with_query \\
         --dpr_filename_pattern "Q*--online_stage3_output.json" \\
