@@ -1,53 +1,23 @@
 """
-Online Iterative DPR Generation Pipeline (Option A).
+Online Iterative DPR Generation Pipeline.
 
-Reads a user_queries JSON file and runs the UCB-based iterative DPR
-generation loop for each query, writing results to a separate output
-folder per query.
+Purpose
+-------
+This file should NOT define a separate DPR-generation prompt/signature.
+It reuses generate_dprs_for_queries.py as the single source of truth for
+query-based DPR generation, and only adds:
 
-Stops when exactly TARGET_DPRS (default: 20) DPRs are successfully
-collected per query, or MAX_ATTEMPTS (default: 50) is reached.
+1. UCB cluster selection
+2. LLM-B relevance feedback
+3. Per-query iterative online loop
+4. Consistent output schema for Stage 3 and Stage 4
 
-Two independent LLMs:
-
-    LLM-A  GenerateDPRWithQuery  (defined here)
-    - Sees: selected cluster's table info + user query + history + perspective
-    - Generates: one DPR per attempt, oriented toward user query
-
-  LLM-B  ScoreRelevance  (defined here)
-    - Sees: user query + current DPR only
-    - Does NOT see: cluster info or history
-    - Returns: relevance score 1-5
-
-Cluster selection: UCB algorithm from ucb.py (article-exact).
-
-Reused from generate_dprs_for_queries.py (unchanged):
-  - setup_llm
-  - load_table_metadata
-  - build_cluster_info_from_tables
-  - VARIANT_PERSPECTIVES
-
-Repo layout assumed:
-  dpr-discovery/
-    stage-1_1/
-      tables_clean/
-    stage-2_2/
-      src/
-        generate_dprs_for_queries.py   <- imported
-        ucb.py                         <- imported
-        online_iterative_pipeline.py   <- this file
-      data/
-        output_qwen_emb_v2/
-          clusters.json
-        user_queries_from_50matched_dprs.json
-
-Run:
-  cd stage-2_2
-  python src/online_iterative_pipeline.py \
-      --queries_file data/user_queries_from_50matched_dprs.json \
-      --num_queries 5
-
-All args have sensible defaults — only --queries_file is required.
+Architecture
+------------
+- UCB cluster selection is query-blind.
+- DPR generation sees the selected cluster plus the user query.
+- DPR generation is delegated to generate_dprs_for_queries.generate_dpr_for_query_cluster().
+- LLM-B relevance scoring sees only user_query + generated DPR.
 """
 
 import os
@@ -60,7 +30,7 @@ import re
 import argparse
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
 import dspy
 from dotenv import load_dotenv
@@ -69,44 +39,77 @@ from dotenv import load_dotenv
 # Path resolution
 # ---------------------------------------------------------------------------
 
-# stage-2_2/src/
-SCRIPT_DIR = Path(__file__).resolve().parent
-# stage-2_2/
-STAGE2_DIR = SCRIPT_DIR.parent
-# dpr-discovery/  (repo root — stage-1_1 and stage-2_2 are siblings here)
-REPO_ROOT = STAGE2_DIR.parent
+SCRIPT_DIR = Path(__file__).resolve().parent          # stage-2/src
+STAGE2_DIR = SCRIPT_DIR.parent                        # stage-2
+REPO_ROOT = STAGE2_DIR.parent                         # repo root
 
-# Add src/ to path so we can import sibling modules
 sys.path.insert(0, str(SCRIPT_DIR))
 
 # ---------------------------------------------------------------------------
-# Imports from existing files — nothing duplicated
+# Single source of truth for query-based DPR generation
 # ---------------------------------------------------------------------------
 
-from generate_dprs_for_queries import (   # noqa: E402
-    setup_llm,                      # configures DSPy + LiteLLM
-    load_table_metadata,            # loads tables_clean/*.json -> dict
-    build_cluster_info_from_tables, # builds [{title, columns, description}]
-    VARIANT_PERSPECTIVES,           # 5 rotating analytical angles
+from generate_dprs_for_queries import (  # noqa: E402
+    setup_llm,
+    load_table_metadata,
+    build_cluster_info_from_tables,
+    generate_dpr_for_query_cluster,
+    VARIANT_PERSPECTIVES,
 )
-from ucb import select_cluster, compute_ucb   # noqa: E402
+
+# ---------------------------------------------------------------------------
+# UCB import with local fallback
+# ---------------------------------------------------------------------------
+
+try:
+    from ucb import select_cluster, compute_ucb  # noqa: E402
+except Exception as _ucb_import_error:
+    import math
+
+    def compute_ucb(cluster_id, total_trials, visit_counts, score_sums):
+        n = visit_counts.get(cluster_id, 0)
+        if n == 0:
+            return float("inf")
+        avg = score_sums.get(cluster_id, 0.0) / n
+        bonus = math.sqrt(2 * math.log(total_trials + 1) / n)
+        return avg + bonus
+
+    def select_cluster(cluster_ids, total_trials, visit_counts, score_sums, rng):
+        if not cluster_ids:
+            raise ValueError("cluster_ids is empty; cannot run UCB selection")
+
+        # Bootstrap: visit each cluster once, query-blind.
+        unvisited = [cid for cid in cluster_ids if visit_counts.get(cid, 0) == 0]
+        if unvisited:
+            return unvisited[0]
+
+        scores = {
+            cid: compute_ucb(cid, total_trials, visit_counts, score_sums)
+            for cid in cluster_ids
+        }
+        max_score = max(scores.values())
+        best = [cid for cid, score in scores.items() if score == max_score]
+        return rng.choice(best)
+
+    logging.warning(
+        "Could not import ucb.py (%s); using local UCB fallback.",
+        _ucb_import_error,
+    )
 
 load_dotenv()
 
 # ---------------------------------------------------------------------------
-# Default paths  (all relative to repo root / stage-2_2)
+# Defaults
 # ---------------------------------------------------------------------------
 
-DEFAULT_TABLES_CLEAN_DIR = REPO_ROOT / "stage-1_1" / "tables_clean"
-DEFAULT_CLUSTERS_PATH    = STAGE2_DIR / "data" / "output_qwen_emb_v2" / "clusters.json"
-DEFAULT_OUTPUT_DIR       = STAGE2_DIR / "data" / "output-online-iterative"
-
-# ---------------------------------------------------------------------------
-# Logging
-# ---------------------------------------------------------------------------
+DEFAULT_TABLES_CLEAN_DIR = REPO_ROOT / "stage-1" / "tables_clean"
+DEFAULT_CLUSTERS_PATH = REPO_ROOT / "ward" / "filtered_clusters.json"
+DEFAULT_QUERIES_FILE = REPO_ROOT / "ward" / "user_queries_top100.txt"
+DEFAULT_USER_REPORT_PATH = REPO_ROOT / "ward" / "user_queries_report.json"
+DEFAULT_OUTPUT_DIR = STAGE2_DIR / "data" / "output-online-iterative"
 
 DEFAULT_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-_ts       = datetime.now().strftime("%Y%m%d_%H%M%S")
+_ts = datetime.now().strftime("%Y%m%d_%H%M%S")
 _log_path = DEFAULT_OUTPUT_DIR / f"online_iterative_{_ts}.log"
 
 logging.basicConfig(
@@ -115,67 +118,19 @@ logging.basicConfig(
     format="%(asctime)s %(levelname)s %(message)s",
 )
 
-# ---------------------------------------------------------------------------
-# Constants
-# ---------------------------------------------------------------------------
-
-TARGET_DPRS  = 20   # stop once this many DPRs are successfully collected
-MAX_ATTEMPTS = 50   # safety cap — prevents infinite loop on persistent failures
+TARGET_DPRS = 20
+MAX_ATTEMPTS = 50
 
 # ---------------------------------------------------------------------------
-# DSPy Signatures  (new — not in any existing file)
+# LLM-B relevance scorer
 # ---------------------------------------------------------------------------
-
-class GenerateDPRWithQuery(dspy.Signature):
-    """
-    You are a Data Product Request Generator.
-
-    A Data Product is a self-contained, reusable, and consumable data asset
-    designed to deliver specific value to its users for data-driven use cases.
-
-    You are given:
-    - cluster_info: tables in the selected cluster (title, columns, description).
-    - user_query: the analytical question the user wants answered. Use this
-      to orient the DPR toward the user's intent.
-    - history: past successful rounds with DPRs and their relevance scores.
-    - perspective: the analytical angle to frame this DPR.
-    - previous_dprs_this_cluster: DPRs already generated from this cluster.
-
-    Rules:
-    - Write exactly ONE sentence. No bullet points, lists, or line breaks.
-    - Ground your DPR in the cluster's table information.
-    - Align the DPR with the user_query intent.
-    - Use a clear, professional tone suitable for real-world data requests.
-    - Make this DPR meaningfully different from all previous DPRs shown.
-    """
-
-    cluster_info: list[dict] = dspy.InputField(
-        desc="Tables in the selected cluster: list of {title, columns, description}."
-    )
-    user_query: str = dspy.InputField(
-        desc="The user's analytical question. Orient the DPR toward this intent."
-    )
-    perspective: str = dspy.InputField(
-        desc="Analytical angle — use it to frame a DPR different from previous ones."
-    )
-    history: list[dict] = dspy.InputField(
-        desc="Past successful rounds: [{round, cluster_id, dpr, relevance_score}]."
-    )
-    previous_dprs_this_cluster: list[str] = dspy.InputField(
-        desc="DPRs already generated from this cluster. Do not repeat these."
-    )
-
-    data_product_request: str = dspy.OutputField(
-        desc="A single-sentence DPR grounded in cluster tables and aligned with the user query."
-    )
-
 
 class ScoreRelevance(dspy.Signature):
     """
     You are a relevance judge for data product requests.
 
-    Given a user query and a generated Data Product Request (DPR), score
-    how relevant the DPR is to the user's analytical intent.
+    Given a user query and a generated Data Product Request, score how relevant
+    the DPR is to the user's analytical intent.
 
     Scoring rubric:
       1 - Completely unrelated to the query
@@ -184,95 +139,12 @@ class ScoreRelevance(dspy.Signature):
       4 - Mostly relevant, addresses the main intent with minor gaps
       5 - Highly relevant, directly addresses the query intent
 
-    Return only the integer score. No explanation needed.
+    Return only the integer score.
     """
 
-    user_query: str           = dspy.InputField(desc="The user's original query.")
+    user_query: str = dspy.InputField(desc="The user's original query.")
     data_product_request: str = dspy.InputField(desc="The generated DPR to evaluate.")
-
-    relevance_score: int = dspy.OutputField(desc="Integer relevance score 1-5.")
-
-
-# ---------------------------------------------------------------------------
-# Cluster pool builder
-# ---------------------------------------------------------------------------
-
-def build_cluster_pool(
-    matched_clusters: List[Dict],
-    offline_clusters: Dict[str, List[Dict]],
-    table_metadata: Dict[str, Dict],
-) -> Dict[str, List[str]]:
-    """
-    Build the pool of clusters available for this query.
-
-    matched_clusters  — synthetic list built from matched_local_table_ids,
-                        each entry has cluster_id, topic_id, all_tables_in_cluster
-    offline_clusters  — from clusters.json (topic_id -> list of table dicts)
-                        each table dict has table_id, title, columns, description
-    table_metadata    — from tables_clean/ keyed by table_id (fallback)
-
-    Returns dict: cluster_id (str) -> list of table_id strings.
-    Only includes clusters where at least one table exists in table_metadata.
-    """
-    pool: Dict[str, List[str]] = {}
-
-    for mc in matched_clusters:
-        cid      = str(mc["cluster_id"])
-        topic_id = str(mc["topic_id"])
-
-        # clusters.json is keyed by topic_id (BERTopic topic number)
-        if topic_id in offline_clusters:
-            table_ids = [
-                t["table_id"] for t in offline_clusters[topic_id]
-                if "table_id" in t
-            ]
-        else:
-            # Fall back to all_tables_in_cluster from the retrieval output
-            table_ids = mc.get("all_tables_in_cluster", [])
-
-        # Only keep clusters where at least one table has metadata
-        resolvable = [tid for tid in table_ids if tid in table_metadata]
-        if resolvable:
-            pool[cid] = table_ids
-
-    return pool
-
-
-# ---------------------------------------------------------------------------
-# LLM call helpers  (same retry pattern as generate_dprs_for_queries.py)
-# ---------------------------------------------------------------------------
-
-def call_generator(
-    cot_a: dspy.ChainOfThought,
-    cluster_info: List[Dict],
-    user_query: str,          # NEW
-    perspective: str,
-    history: List[Dict],
-    previous_dprs_this_cluster: List[str],
-    max_retries: int = 5,
-) -> str:
-    for attempt in range(1, max_retries + 1):
-        try:
-            out = cot_a(
-                cluster_info=cluster_info,
-                user_query=user_query,            # NEW
-                perspective=perspective,
-                history=history,
-                previous_dprs_this_cluster=previous_dprs_this_cluster,
-            )
-            return out.data_product_request.strip()
-        except Exception as e:
-            err = str(e)
-            if "rate_limit_exceeded" in err or "RateLimitError" in err:
-                match = re.search(r"try again in ([\d.]+)s", err)
-                wait  = float(match.group(1)) + 1.0 if match else 15.0
-                logging.warning("LLM-A rate limit (attempt %d/%d). Waiting %.1fs.",
-                                attempt, max_retries, wait)
-                if attempt < max_retries:
-                    time.sleep(wait)
-                    continue
-            raise
-    raise RuntimeError("LLM-A failed after max retries.")
+    relevance_score: int = dspy.OutputField(desc="Integer relevance score from 1 to 5.")
 
 
 def call_scorer(
@@ -281,201 +153,408 @@ def call_scorer(
     dpr_text: str,
     max_retries: int = 5,
 ) -> int:
-    """Call LLM-B with rate-limit retry. Returns int score 1-5."""
     for attempt in range(1, max_retries + 1):
         try:
-            out   = cot_b(user_query=user_query, data_product_request=dpr_text)
-            raw   = str(out.relevance_score).strip()
+            out = cot_b(user_query=user_query, data_product_request=dpr_text)
+            raw = str(out.relevance_score).strip()
             match = re.search(r"[1-5]", raw)
             return int(match.group()) if match else 3
         except Exception as e:
             err = str(e)
             if "rate_limit_exceeded" in err or "RateLimitError" in err:
                 match = re.search(r"try again in ([\d.]+)s", err)
-                wait  = float(match.group(1)) + 1.0 if match else 15.0
-                logging.warning("LLM-B rate limit (attempt %d/%d). Waiting %.1fs.",
-                                attempt, max_retries, wait)
+                wait = float(match.group(1)) + 1.0 if match else 15.0
+                logging.warning(
+                    "LLM-B rate limit on attempt %d/%d. Waiting %.1fs.",
+                    attempt,
+                    max_retries,
+                    wait,
+                )
                 if attempt < max_retries:
                     time.sleep(wait)
                     continue
             raise
+
     raise RuntimeError("LLM-B failed after max retries.")
 
 
 # ---------------------------------------------------------------------------
-# Core iterative UCB loop
+# Input loaders
+# ---------------------------------------------------------------------------
+
+def load_user_queries(path: str, num_queries: Optional[int] = None) -> List[Dict[str, str]]:
+    """
+    Supports:
+    1. JSON list:
+       [{"query_id": "Q1", "query_text": "..."}]
+    2. JSON dict:
+       {"query_results": [{"query_id": "Q1", "query_text": "..."}]}
+    3. TXT:
+       one query per line, query_id generated as Q1, Q2, ...
+    """
+    p = Path(path)
+    if not p.exists():
+        raise FileNotFoundError(f"queries_file not found: {path}")
+
+    text = p.read_text(encoding="utf-8").strip()
+    queries: List[Dict[str, str]] = []
+
+    if p.suffix.lower() == ".json":
+        data = json.loads(text)
+        if isinstance(data, dict) and "query_results" in data:
+            data = data["query_results"]
+        if isinstance(data, dict):
+            # Accept {"Q1": "...", "Q2": "..."}.
+            data = [
+                {"query_id": str(k), "query_text": str(v)}
+                for k, v in data.items()
+            ]
+        if not isinstance(data, list):
+            raise ValueError("JSON queries_file must be a list, dict, or contain query_results list.")
+
+        for idx, item in enumerate(data, start=1):
+            if isinstance(item, str):
+                qid = f"Q{idx}"
+                qtext = item
+            else:
+                qid = str(item.get("query_id") or item.get("dpr_id") or f"Q{idx}")
+                qtext = str(item.get("query_text") or item.get("user_query") or item.get("query") or "")
+            if qtext.strip():
+                queries.append({"query_id": qid, "query_text": qtext.strip()})
+    else:
+        for idx, line in enumerate(text.splitlines(), start=1):
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+
+            # Accept "Q1<TAB>query", "Q1|query", or plain line.
+            qid = f"Q{len(queries) + 1}"
+            qtext = line
+            if "\t" in line:
+                left, right = line.split("\t", 1)
+                if right.strip():
+                    qid, qtext = left.strip(), right.strip()
+            elif "|" in line and line.split("|", 1)[0].strip().upper().startswith("Q"):
+                left, right = line.split("|", 1)
+                if right.strip():
+                    qid, qtext = left.strip(), right.strip()
+
+            queries.append({"query_id": qid, "query_text": qtext})
+
+    if num_queries is not None and num_queries > 0:
+        queries = queries[:num_queries]
+
+    if not queries:
+        raise ValueError(f"No valid queries found in {path}")
+
+    return queries
+
+
+def load_user_report(path: Optional[str]) -> Dict[str, Any]:
+    """
+    Loads ward/user_queries_report.json when available.
+
+    Returns a lookup dictionary keyed by query_id where possible.
+    Also preserves raw content under _raw if the structure is not query-id keyed.
+    """
+    if not path:
+        return {}
+
+    p = Path(path)
+    if not p.exists():
+        logging.warning("user_report_path does not exist: %s", path)
+        return {}
+
+    with p.open(encoding="utf-8") as f:
+        data = json.load(f)
+
+    lookup: Dict[str, Any] = {}
+
+    if isinstance(data, dict):
+        # Already keyed by Q1/Q2/etc.
+        for k, v in data.items():
+            lookup[str(k)] = v
+
+        # Common list inside dict.
+        for list_key in ("query_results", "queries", "results", "reports"):
+            if isinstance(data.get(list_key), list):
+                for idx, item in enumerate(data[list_key], start=1):
+                    if isinstance(item, dict):
+                        qid = str(item.get("query_id") or item.get("dpr_id") or f"Q{idx}")
+                        lookup[qid] = item
+                break
+
+        lookup.setdefault("_raw", data)
+
+    elif isinstance(data, list):
+        for idx, item in enumerate(data, start=1):
+            if isinstance(item, dict):
+                qid = str(item.get("query_id") or item.get("dpr_id") or f"Q{idx}")
+                lookup[qid] = item
+        lookup["_raw"] = data
+
+    return lookup
+
+
+def load_clusters(path: str) -> Any:
+    p = Path(path)
+    if not p.exists():
+        raise FileNotFoundError(f"clusters_path not found: {path}")
+    with p.open(encoding="utf-8") as f:
+        return json.load(f)
+
+
+def normalize_cluster_pool(
+    clusters_data: Any,
+    table_metadata: Dict[str, Dict[str, Any]],
+) -> Dict[str, List[str]]:
+    """
+    Accepts common filtered_clusters shapes and converts them to:
+      cluster_id -> [table_id, ...]
+
+    Supported shapes:
+    1. [{"dpr_id": "1", "tables": [{"table_id": "..."}]}]
+    2. [{"cluster_id": "1", "all_tables_in_cluster": ["T1", "T2"]}]
+    3. {"1": [{"table_id": "T1"}, {"table_id": "T2"}]}
+    4. {"1": ["T1", "T2"]}
+    """
+    pool: Dict[str, List[str]] = {}
+
+    if isinstance(clusters_data, list):
+        for idx, cluster in enumerate(clusters_data, start=1):
+            if not isinstance(cluster, dict):
+                continue
+
+            cid = str(
+                cluster.get("cluster_id")
+                or cluster.get("dpr_id")
+                or cluster.get("topic_id")
+                or idx
+            )
+
+            table_ids: List[str] = []
+
+            if isinstance(cluster.get("all_tables_in_cluster"), list):
+                table_ids = [str(t) for t in cluster["all_tables_in_cluster"]]
+
+            elif isinstance(cluster.get("table_ids"), list):
+                table_ids = [str(t) for t in cluster["table_ids"]]
+
+            elif isinstance(cluster.get("tables"), list):
+                for t in cluster["tables"]:
+                    if isinstance(t, dict):
+                        tid = t.get("table_id") or t.get("id") or t.get("uid")
+                        if tid:
+                            table_ids.append(str(tid))
+                    else:
+                        table_ids.append(str(t))
+
+            table_ids = [tid for tid in table_ids if tid in table_metadata]
+            if table_ids:
+                pool[cid] = table_ids
+
+    elif isinstance(clusters_data, dict):
+        for cid_raw, value in clusters_data.items():
+            cid = str(cid_raw)
+            table_ids: List[str] = []
+
+            if isinstance(value, list):
+                for t in value:
+                    if isinstance(t, dict):
+                        tid = t.get("table_id") or t.get("id") or t.get("uid")
+                        if tid:
+                            table_ids.append(str(tid))
+                    else:
+                        table_ids.append(str(t))
+
+            elif isinstance(value, dict):
+                if isinstance(value.get("all_tables_in_cluster"), list):
+                    table_ids = [str(t) for t in value["all_tables_in_cluster"]]
+                elif isinstance(value.get("table_ids"), list):
+                    table_ids = [str(t) for t in value["table_ids"]]
+                elif isinstance(value.get("tables"), list):
+                    for t in value["tables"]:
+                        if isinstance(t, dict):
+                            tid = t.get("table_id") or t.get("id") or t.get("uid")
+                            if tid:
+                                table_ids.append(str(tid))
+                        else:
+                            table_ids.append(str(t))
+
+            table_ids = [tid for tid in table_ids if tid in table_metadata]
+            if table_ids:
+                pool[cid] = table_ids
+
+    if not pool:
+        raise ValueError(
+            "No resolvable clusters found. Check filtered_clusters.json table IDs "
+            "and stage-1/tables_clean metadata."
+        )
+
+    return pool
+
+
+# ---------------------------------------------------------------------------
+# Online loop
 # ---------------------------------------------------------------------------
 
 def run_iterative_generation(
     query_id: str,
     query_text: str,
     cluster_pool: Dict[str, List[str]],
-    table_metadata: Dict[str, Dict],
-    cot_a: dspy.ChainOfThought,
+    table_metadata: Dict[str, Dict[str, Any]],
     cot_b: dspy.ChainOfThought,
+    user_report_for_query: Optional[Any] = None,
     target_dprs: int = TARGET_DPRS,
     max_attempts: int = MAX_ATTEMPTS,
     sleep_between: float = 20.0,
     seed: int = 42,
-) -> List[Dict]:
+    temperature: float = 0.0,
+) -> List[Dict[str, Any]]:
     """
-    UCB-based iterative DPR generation loop for one query.
+    UCB-based online loop for one query.
 
-    Runs until target_dprs DPRs are collected or max_attempts is reached.
-
-    Each attempt:
-      1. UCB selects cluster
-         - Bootstrap: visit each cluster once in order first
-         - UCB phase: pick highest UCB score after bootstrap
-      2. LLM-A generates DPR
-         - Sees: cluster info + history + perspective
-         - Does NOT see: user query
-      3. LLM-B scores relevance
-         - Sees: user query + DPR only
-         - Does NOT see: cluster info or history
-      4. Both succeeded → append to results, update UCB state + history
-         Either failed → skip attempt, UCB state unchanged
-
-    Returns list of result records in generation order.
+    Important:
+    - UCB selection is query-blind.
+    - DPR generation is query-aware and delegated to generate_dprs_for_queries.py.
+    - UCB state updates only after DPR generation and relevance scoring both succeed.
     """
-    rng         = random.Random(seed)
+    rng = random.Random(seed)
     cluster_ids = list(cluster_pool.keys())
 
-    # UCB state — mirrors article's class attributes exactly
-    visit_counts: Dict[str, int]   = {cid: 0   for cid in cluster_ids}
-    score_sums:   Dict[str, float] = {cid: 0.0 for cid in cluster_ids}
-    total_trials: int = 0
+    visit_counts: Dict[str, int] = {cid: 0 for cid in cluster_ids}
+    score_sums: Dict[str, float] = {cid: 0.0 for cid in cluster_ids}
+    total_trials = 0
 
-    # Per-cluster DPR list for diversity enforcement (passed to LLM-A)
-    dprs_per_cluster: Dict[str, List[str]] = {cid: [] for cid in cluster_ids}
+    results: List[Dict[str, Any]] = []
+    attempts = 0
 
-    # History passed to LLM-A — only successful rounds appended
-    history:  List[Dict] = []
-    results:  List[Dict] = []
-    attempts: int        = 0
+    logging.info("Query %s | clusters=%s", query_id, cluster_ids)
 
-    logging.info("Query %s | clusters: %s", query_id, cluster_ids)
-
-    print(f"\n{'='*65}")
+    print(f"\n{'=' * 72}")
     print(f"Query {query_id}: {query_text}")
-    print(f"Clusters in pool ({len(cluster_ids)}): {cluster_ids}")
-    print(f"Target: {target_dprs} DPRs | Safety cap: {max_attempts} attempts")
-    print(f"{'='*65}\n")
+    print(f"Clusters in pool: {len(cluster_ids)}")
+    print(f"Target DPRs: {target_dprs} | Max attempts: {max_attempts}")
+    print(f"{'=' * 72}")
 
     while len(results) < target_dprs and attempts < max_attempts:
         attempts += 1
-        dpr_num   = len(results) + 1
+        dpr_num = len(results) + 1
 
-        # ── Step 1: UCB cluster selection ───────────────────────────────────
         selected_cid = select_cluster(
-            cluster_ids, total_trials, visit_counts, score_sums, rng
+            cluster_ids,
+            total_trials,
+            visit_counts,
+            score_sums,
+            rng,
         )
 
-        phase      = "bootstrap" if total_trials < len(cluster_ids) else "ucb"
-        visit_idx  = visit_counts[selected_cid]          # before increment
-        perspective = VARIANT_PERSPECTIVES[visit_idx % len(VARIANT_PERSPECTIVES)]
+        phase = "bootstrap" if total_trials < len(cluster_ids) else "ucb"
+        variant = visit_counts[selected_cid] + 1
+        table_ids_for_cluster = cluster_pool[selected_cid]
 
-        # UCB snapshot before update — for logging and output record
         ucb_snapshot = {
             cid: round(compute_ucb(cid, total_trials, visit_counts, score_sums), 4)
             for cid in cluster_ids
         }
 
-        # Build cluster_info using existing helper from generate_dprs_for_queries.py
-        table_ids_for_cluster = cluster_pool[selected_cid]
-        cluster_info = build_cluster_info_from_tables(table_metadata, table_ids_for_cluster)
-
-        prev_dprs = dprs_per_cluster[selected_cid].copy()
-
         logging.info(
-            "Attempt %02d (DPR %d/%d) | phase=%s | trials=%d | "
-            "cluster=%s | visit#=%d | perspective=%d",
-            attempts, dpr_num, target_dprs, phase, total_trials,
-            selected_cid, visit_idx + 1,
-            (visit_idx % len(VARIANT_PERSPECTIVES)) + 1,
+            "Attempt %d | query=%s | phase=%s | selected_cluster=%s | variant=%d",
+            attempts,
+            query_id,
+            phase,
+            selected_cid,
+            variant,
         )
-        logging.info("UCB scores: %s", ucb_snapshot)
+        logging.info("UCB snapshot before generation: %s", ucb_snapshot)
 
-        # ── Step 2: LLM-A generates DPR (no query) ──────────────────────────
+        # -------------------------------------------------------------------
+        # DPR generation: same function and prompt as generate_dprs_for_queries.py
+        # -------------------------------------------------------------------
         try:
-            dpr_text = call_generator(
-                cot_a,
-                cluster_info=cluster_info,
-                user_query=query_text,
-                perspective=perspective,
-                history=history,
-                previous_dprs_this_cluster=prev_dprs,
+            generated = generate_dpr_for_query_cluster(
+                query_id=query_id,
+                query_text=query_text,
+                cluster_id=selected_cid,
+                cluster_tables=table_ids_for_cluster,
+                tables_metadata=table_metadata,
+                variant=variant,
+                temperature=temperature,
             )
-            time.sleep(sleep_between)
-            logging.info("LLM-A DPR: %s", dpr_text)
-        except Exception as e:
-            logging.error("LLM-A failed on attempt %d: %s", attempts, e)
-            print(f"  [attempt {attempts}] LLM-A failed, skipping: {e}")
-            continue   # UCB state unchanged
+            if not generated:
+                logging.warning("DPR generation returned None for query=%s cluster=%s", query_id, selected_cid)
+                continue
 
-        # ── Step 3: LLM-B scores relevance (query + DPR only) ───────────────
+            dpr_text = generated["DPR"]
+            dpr_id = generated["dpr_id"]
+
+            if sleep_between > 0:
+                time.sleep(sleep_between)
+
+        except Exception as e:
+            logging.error("DPR generation failed on attempt %d: %s", attempts, e)
+            print(f"[attempt {attempts}] DPR generation failed, skipping: {e}")
+            continue
+
+        # -------------------------------------------------------------------
+        # Relevance scoring: LLM-B sees only user query + DPR
+        # -------------------------------------------------------------------
         try:
             score = call_scorer(cot_b, user_query=query_text, dpr_text=dpr_text)
-            time.sleep(sleep_between)
-            logging.info("LLM-B score: %d", score)
+            if sleep_between > 0:
+                time.sleep(sleep_between)
         except Exception as e:
-            logging.error("LLM-B failed on attempt %d: %s", attempts, e)
-            print(f"  [attempt {attempts}] LLM-B failed, skipping: {e}")
-            continue   # UCB state unchanged
+            logging.error("LLM-B scoring failed on attempt %d: %s", attempts, e)
+            print(f"[attempt {attempts}] LLM-B failed, skipping: {e}")
+            continue
 
-        # ── Step 4: Update UCB state — only on full success ──────────────────
+        # -------------------------------------------------------------------
+        # UCB update only after successful DPR + score
+        # -------------------------------------------------------------------
         visit_counts[selected_cid] += 1
-        score_sums[selected_cid]   += score
-        total_trials               += 1
-        dprs_per_cluster[selected_cid].append(dpr_text)
+        score_sums[selected_cid] += score
+        total_trials += 1
 
         avg_this_cluster = score_sums[selected_cid] / visit_counts[selected_cid]
 
-        # ── Step 5: Append to history for LLM-A next round ──────────────────
-        history.append({
-            "round":           dpr_num,
-            "cluster_id":      selected_cid,
-            "dpr":             dpr_text,
-            "relevance_score": score,
-        })
-
-        # ── Build output record ──────────────────────────────────────────────
+        # Keep Stage 3 and Stage 4 handoff fields stable.
         record = {
-            "query_id":                 query_id,
-            "query_text":               query_text,
-            "dpr_number":               dpr_num,
-            "attempt":                  attempts,
-            "phase":                    phase,
-            "cluster_id":               selected_cid,
-            "visit_number":             visit_counts[selected_cid],
-            "total_trials":             total_trials,
-            "perspective":              perspective,
-            "DPR":                      dpr_text,
-            "relevance_score":          score,
+            **generated,
+            "dpr_number": dpr_num,
+            "attempt": attempts,
+            "phase": phase,
+            "visit_number": visit_counts[selected_cid],
+            "total_trials": total_trials,
+            "relevance_score": score,
             "avg_cluster_score_so_far": round(avg_this_cluster, 4),
-            "ucb_scores_before":        ucb_snapshot,
-            "all_visit_counts":         dict(visit_counts),
+            "ucb_scores_before": ucb_snapshot,
+            "all_visit_counts": dict(visit_counts),
+            "tables": table_ids_for_cluster,
             "ground_truth": {
                 "table_uids": table_ids_for_cluster,
             },
+            "user_report": user_report_for_query,
         }
+
+        # Defensive normalization in case imported generator changes.
+        record["query_id"] = query_id
+        record["query_text"] = query_text
+        record["cluster_id"] = selected_cid
+        record["dpr_id"] = dpr_id
+        record["DPR"] = dpr_text
+
         results.append(record)
 
         print(
             f"[DPR {dpr_num:02d}/{target_dprs} | attempt {attempts} | {phase}] "
-            f"cluster={selected_cid} visit#{visit_counts[selected_cid]} "
-            f"score={score} | {dpr_text[:75]}..."
+            f"query={query_id} cluster={selected_cid} visit={visit_counts[selected_cid]} "
+            f"score={score} dpr_id={dpr_id}"
         )
 
-    # Safety cap warning
     if len(results) < target_dprs:
-        logging.warning(
-            "Safety cap hit: collected %d/%d DPRs after %d attempts.",
-            len(results), target_dprs, attempts,
-        )
         print(
-            f"\n[WARN] Safety cap ({max_attempts} attempts) reached. "
-            f"Collected {len(results)}/{target_dprs} DPRs."
+            f"\n[WARN] Safety cap reached. Collected {len(results)}/{target_dprs} DPRs "
+            f"after {attempts} attempts."
         )
     else:
         print(f"\n[OK] Collected {len(results)} DPRs in {attempts} attempts.")
@@ -483,48 +562,59 @@ def run_iterative_generation(
     return results
 
 
-# ---------------------------------------------------------------------------
-# Summary builder
-# ---------------------------------------------------------------------------
-
 def build_summary(
     query_id: str,
     query_text: str,
-    results: List[Dict],
+    results: List[Dict[str, Any]],
     cluster_pool: Dict[str, List[str]],
-) -> Dict:
-    """Build structured summary for one query's run."""
+) -> Dict[str, Any]:
     cluster_ids = list(cluster_pool.keys())
-
     score_lists: Dict[str, List[int]] = {cid: [] for cid in cluster_ids}
+
     for r in results:
-        score_lists[r["cluster_id"]].append(r["relevance_score"])
+        score_lists[str(r["cluster_id"])].append(int(r["relevance_score"]))
 
     cluster_stats = {
         cid: {
-            "visits":    len(score_lists[cid]),
+            "visits": len(score_lists[cid]),
             "avg_score": (
                 round(sum(score_lists[cid]) / len(score_lists[cid]), 4)
-                if score_lists[cid] else None
+                if score_lists[cid]
+                else None
             ),
             "scores": score_lists[cid],
+            "table_ids": cluster_pool[cid],
         }
         for cid in cluster_ids
     }
 
     overall_avg = (
-        round(sum(r["relevance_score"] for r in results) / len(results), 4)
-        if results else 0.0
+        round(sum(int(r["relevance_score"]) for r in results) / len(results), 4)
+        if results
+        else 0.0
     )
 
     return {
-        "query_id":              query_id,
-        "query_text":            query_text,
-        "total_dprs_collected":  len(results),
+        "query_id": query_id,
+        "query_text": query_text,
+        "total_dprs_collected": len(results),
         "overall_avg_relevance": overall_avg,
-        "cluster_stats":         cluster_stats,
-        "dprs":                  results,
+        "cluster_stats": cluster_stats,
+        "dprs": results,
     }
+
+
+def write_jsonl(path: Path, records: List[Dict[str, Any]]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8") as f:
+        for r in records:
+            f.write(json.dumps(r, ensure_ascii=False) + "\n")
+
+
+def write_json(path: Path, data: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
 
 
 # ---------------------------------------------------------------------------
@@ -533,195 +623,219 @@ def build_summary(
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Online iterative DPR generation with UCB exploration"
+        description="Online iterative DPR generation with query-aware DPR generation and query-blind UCB."
     )
     parser.add_argument(
-        "--queries_file", type=str, required=True,
-        help="Path to user_queries JSON file"
+        "--queries_file",
+        type=str,
+        default=str(DEFAULT_QUERIES_FILE),
+        help="Path to ward/user_queries_top100.txt or JSON query file.",
     )
     parser.add_argument(
-        "--num_queries", type=int, default=5,
-        help="Number of queries to process from the file (default: 5)"
+        "--num_queries",
+        type=int,
+        default=5,
+        help="Number of queries to process. Use 0 or negative to process all.",
     )
     parser.add_argument(
-        "--tables_clean_dir", type=str,
+        "--tables_clean_dir",
+        type=str,
         default=str(DEFAULT_TABLES_CLEAN_DIR),
-        help="Path to tables_clean/ directory (stage-1_1 output)"
+        help="Path to stage-1/tables_clean.",
     )
     parser.add_argument(
-        "--clusters_path", type=str,
+        "--clusters_path",
+        type=str,
         default=str(DEFAULT_CLUSTERS_PATH),
-        help="Path to clusters.json from stage-2_2 offline clustering"
+        help="Path to ward/filtered_clusters.json.",
     )
     parser.add_argument(
-        "--output_dir", type=str,
+        "--user_report_path",
+        type=str,
+        default=str(DEFAULT_USER_REPORT_PATH),
+        help="Path to ward/user_queries_report.json.",
+    )
+    parser.add_argument(
+        "--output_dir",
+        type=str,
         default=str(DEFAULT_OUTPUT_DIR),
-        help="Base directory to write per-query output folders"
+        help="Output directory.",
     )
-    parser.add_argument(
-        "--model", type=str, default=None,
-        help="LiteLLM model string (or set LLM_MODEL env var)"
-    )
-    parser.add_argument(
-        "--api_base", type=str, default=None,
-        help="API base URL (or set LLM_API_BASE env var)"
-    )
-    parser.add_argument(
-        "--api_key", type=str, default=None,
-        help="API key (or set OPENAI_API_KEY / GROQ_API_KEY env var)"
-    )
-    parser.add_argument(
-        "--target_dprs", type=int, default=TARGET_DPRS,
-        help="Number of DPRs to collect before stopping (default: 20)"
-    )
-    parser.add_argument(
-        "--max_attempts", type=int, default=MAX_ATTEMPTS,
-        help="Safety cap on total attempts (default: 50)"
-    )
-    parser.add_argument(
-        "--sleep_between", type=float, default=20.0,
-        help="Seconds to sleep between LLM calls (default: 20)"
-    )
-    parser.add_argument(
-        "--seed", type=int, default=42,
-        help="Random seed for UCB tie-breaking (default: 42)"
-    )
+    parser.add_argument("--llm_model", type=str, default=None)
+    parser.add_argument("--llm_api_base", type=str, default=None)
+    parser.add_argument("--llm_api_key", type=str, default=None)
+    # Backward-compatible aliases
+    parser.add_argument("--model", type=str, default=None)
+    parser.add_argument("--api_base", type=str, default=None)
+    parser.add_argument("--api_key", type=str, default=None)
+
+    parser.add_argument("--target_dprs", type=int, default=TARGET_DPRS)
+    parser.add_argument("--max_attempts", type=int, default=MAX_ATTEMPTS)
+    parser.add_argument("--sleep_between", type=float, default=20.0)
+    parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--temperature", type=float, default=0.0)
+
     args = parser.parse_args()
 
-    os.makedirs(args.output_dir, exist_ok=True)
+    output_dir = Path(args.output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
 
-    # ── Load user queries file ──────────────────────────────────────────────
-    print(f"[INFO] Loading queries: {args.queries_file}")
-    with open(args.queries_file, encoding="utf-8") as f:
-        all_queries = json.load(f)
+    num_queries = args.num_queries if args.num_queries and args.num_queries > 0 else None
 
-    selected = all_queries[:args.num_queries]
-    print(f"[INFO] Will process {len(selected)} queries")
+    print(f"[INFO] Loading queries from: {args.queries_file}")
+    queries = load_user_queries(args.queries_file, num_queries=num_queries)
+    print(f"[INFO] Loaded {len(queries)} query/query-set record(s).")
 
-    # ── Load table metadata and clusters once (shared across all queries) ───
-    print(f"[INFO] Loading table metadata: {args.tables_clean_dir}")
+    print(f"[INFO] Loading user report from: {args.user_report_path}")
+    user_report_lookup = load_user_report(args.user_report_path)
+
+    print(f"[INFO] Loading table metadata from: {args.tables_clean_dir}")
     table_metadata = load_table_metadata(args.tables_clean_dir)
-    print(f"[INFO] Loaded {len(table_metadata)} tables")
+    print(f"[INFO] Loaded metadata for {len(table_metadata)} table(s).")
 
-    print(f"[INFO] Loading offline clusters: {args.clusters_path}")
-    with open(args.clusters_path, encoding="utf-8") as f:
-        raw_clusters = json.load(f)
-    offline_clusters: Dict[str, List[Dict]] = {
-        str(k): v for k, v in raw_clusters.items() if str(k) != "-1"
-    }
-    print(f"[INFO] Loaded {len(offline_clusters)} offline clusters (noise excluded)")
+    print(f"[INFO] Loading clusters from: {args.clusters_path}")
+    clusters_data = load_clusters(args.clusters_path)
+    cluster_pool = normalize_cluster_pool(clusters_data, table_metadata)
+    print(f"[INFO] Resolved {len(cluster_pool)} cluster(s).")
 
-    # ── Build reverse map: table_id -> topic_id ─────────────────────────────
-    tid_to_topic: Dict[str, str] = {}
-    for topic_id, tables in offline_clusters.items():
-        for t in tables:
-            tid_to_topic[t["table_id"]] = topic_id
+    # ------------------------------------------------------------------
+    # LLM config
+    # ------------------------------------------------------------------
+    # Canonical style now matches Stage-3:
+    #   LLM_API_KEY, LLM_API_BASE, LLM_MODEL
+    #
+    # Stage-3 direct OpenAI-compatible client usually wants:
+    #   LLM_MODEL=gpt4o
+    #
+    # Stage-2 uses DSPy/LiteLLM, which needs provider prefix:
+    #   openai/gpt4o
+    #
+    # So if LLM_MODEL=gpt4o, Stage-2 automatically converts it to:
+    #   openai/gpt4o
+    # ------------------------------------------------------------------
 
-    # ── Configure LLM — reuses setup_llm from generate_dprs_for_queries.py ─
-    model = args.model or os.getenv("LLM_MODEL", "openai/gpt-4o")
-    setup_llm(model, api_base=args.api_base, api_key=args.api_key)
-    print(f"[INFO] Model: {model}")
+    llm_api_key = (
+            args.llm_api_key
+            or args.api_key
+            or os.getenv("LLM_API_KEY")
+            or os.getenv("OPENAI_API_KEY")
+            or os.getenv("GROQ_API_KEY")
+            or ""
+    )
 
-    # Two independent CoT instances — same model, no shared state
-    cot_a = dspy.ChainOfThought(GenerateDPRWithQuery, temperature=1.0)  # LLM-A: generator
-    cot_b = dspy.ChainOfThought(ScoreRelevance,     temperature=0.0)  # LLM-B: scorer
+    llm_api_base = (
+            args.llm_api_base
+            or args.api_base
+            or os.getenv("LLM_API_BASE")
+            or os.getenv("OPENAI_API_BASE")
+            or os.getenv("OPENAI_BASE_URL")
+            or ""
+    )
 
-    # ── Loop over selected queries ──────────────────────────────────────────
-    for idx, entry in enumerate(selected, start=1):
-        query_id   = entry["dpr_id"]
-        query_text = entry["user_query"]
-        table_ids  = entry["matched_local_table_ids"]
+    llm_model_raw = (
+            args.llm_model
+            or args.model
+            or os.getenv("LLM_MODEL")
+            or os.getenv("OPENAI_MODEL")
+            or "gpt4o"
+    )
 
-        print(f"\n[INFO] === Query {idx}/{len(selected)}: {query_id} ===")
-        logging.info("Starting query %d/%d: %s", idx, len(selected), query_id)
+    # Keep env vars populated for imported helpers, DSPy, and LiteLLM.
+    if llm_api_key:
+        os.environ["LLM_API_KEY"] = llm_api_key
+        os.environ["OPENAI_API_KEY"] = llm_api_key
 
-        # Build matched_clusters from table_ids via reverse map
-        seen_topics: Dict[str, List[Dict]] = {}
-        for tid in table_ids:
-            topic = tid_to_topic.get(tid)
-            if topic and topic not in seen_topics:
-                seen_topics[topic] = offline_clusters[topic]
+    if llm_api_base:
+        os.environ["LLM_API_BASE"] = llm_api_base
+        os.environ["OPENAI_API_BASE"] = llm_api_base
+        os.environ["OPENAI_BASE_URL"] = llm_api_base
 
-        matched_clusters = [
-            {
-                "cluster_id":             str(i),
-                "topic_id":               topic_id,
-                "all_tables_in_cluster":  [t["table_id"] for t in tables],
-            }
-            for i, (topic_id, tables) in enumerate(seen_topics.items())
-        ]
+    os.environ["LLM_MODEL"] = llm_model_raw
 
-        cluster_pool = build_cluster_pool(matched_clusters, offline_clusters, table_metadata)
-        print(f"[INFO] Cluster pool for {query_id}: {list(cluster_pool.keys())}")
-        logging.info("Cluster pool for %s: %s", query_id, list(cluster_pool.keys()))
+    # LiteLLM requires provider prefix.
+    # If user gives "gpt4o", convert to "openai/gpt4o".
+    # If user already gives "openai/gpt4o", keep it.
+    if "/" in llm_model_raw:
+        stage2_model = llm_model_raw
+    else:
+        stage2_model = f"openai/{llm_model_raw}"
 
-        if not cluster_pool:
-            print(f"[WARN] No resolvable clusters for {query_id}, skipping.")
-            logging.warning("No resolvable clusters for %s, skipping.", query_id)
-            continue
+    setup_llm(stage2_model, api_base=llm_api_base, api_key=llm_api_key)
 
-        # ── Run the UCB loop ────────────────────────────────────────────────
+    print(f"[INFO] Using Stage-2 LiteLLM model: {stage2_model}")
+    print(f"[INFO] LLM_API_BASE: {llm_api_base}")
+
+    cot_b = dspy.ChainOfThought(ScoreRelevance)
+
+    all_records: List[Dict[str, Any]] = []
+    all_summaries: Dict[str, Any] = {}
+
+    for q in queries:
+        query_id = str(q["query_id"])
+        query_text = str(q["query_text"])
+        user_report_for_query = user_report_lookup.get(query_id)
+
         results = run_iterative_generation(
             query_id=query_id,
             query_text=query_text,
             cluster_pool=cluster_pool,
             table_metadata=table_metadata,
-            cot_a=cot_a,
             cot_b=cot_b,
+            user_report_for_query=user_report_for_query,
             target_dprs=args.target_dprs,
             max_attempts=args.max_attempts,
             sleep_between=args.sleep_between,
             seed=args.seed,
+            temperature=args.temperature,
         )
 
-        # ── Save outputs ────────────────────────────────────────────────────
-        summary     = build_summary(query_id, query_text, results, cluster_pool)
-        model_short = model.split("/")[-1] if "/" in model else model
-        safe_id     = query_id.replace("/", "_").replace(" ", "_")
-        out_dir     = os.path.join(args.output_dir, f"Q{idx}_{safe_id}")
-        os.makedirs(out_dir, exist_ok=True)
-
-        jsonl_path = os.path.join(out_dir, f"online_dprs-{model_short}.jsonl")
-        with open(jsonl_path, "w", encoding="utf-8") as f:
-            for r in results:
-                f.write(json.dumps(r, ensure_ascii=False) + "\n")
-
-        summary_path = os.path.join(out_dir, f"online_dprs-{model_short}-summary.json")
-        with open(summary_path, "w", encoding="utf-8") as f:
-            json.dump(summary, f, indent=2, ensure_ascii=False)
-
-        # ── Print final summary ─────────────────────────────────────────────
-        print(f"\n{'='*65}")
-        print(f"FINAL SUMMARY — {query_id}")
-        print(f"{'='*65}")
-        print(f"Query:              {query_id} — {query_text}")
-        print(f"DPRs collected:     {len(results)}/{args.target_dprs}")
-        print(f"Overall avg score:  {summary['overall_avg_relevance']}")
-        print(f"\nCluster breakdown:")
-        for cid, stats in summary["cluster_stats"].items():
-            print(
-                f"  Cluster {cid:>3}: "
-                f"visits={stats['visits']:>2}  "
-                f"avg_score={stats['avg_score']}  "
-                f"scores={stats['scores']}"
-            )
-        print(f"\nAll {len(results)} DPRs (generation order):")
-        for r in results:
-            print(
-                f"  [DPR {r['dpr_number']:02d} | {r['phase']}] "
-                f"cluster={r['cluster_id']} "
-                f"score={r['relevance_score']} | "
-                f"{r['DPR'][:80]}..."
-            )
-        print(f"\nOutputs:")
-        print(f"  JSONL:   {jsonl_path}")
-        print(f"  Summary: {summary_path}")
-        print(f"  Log:     {_log_path}")
-
-        logging.info(
-            "Query %s done: %d DPRs, avg_score=%.4f, saved to %s",
-            query_id, len(results), summary["overall_avg_relevance"], out_dir,
+        all_records.extend(results)
+        all_summaries[query_id] = build_summary(
+            query_id=query_id,
+            query_text=query_text,
+            results=results,
+            cluster_pool=cluster_pool,
         )
+
+        safe_qid = re.sub(r"[^A-Za-z0-9_.-]+", "_", query_id)
+        per_query_jsonl = output_dir / f"{safe_qid}--online_dprs.jsonl"
+        per_query_summary = output_dir / f"{safe_qid}--online_summary.json"
+
+        write_jsonl(per_query_jsonl, results)
+        write_json(per_query_summary, all_summaries[query_id])
+
+        print(f"[INFO] Saved per-query DPRs: {per_query_jsonl}")
+        print(f"[INFO] Saved per-query summary: {per_query_summary}")
+
+    combined_jsonl = output_dir / "online_dprs_all.jsonl"
+    combined_json = output_dir / "online_dprs_all.json"
+    summary_json = output_dir / "online_generation_summary.json"
+
+    write_jsonl(combined_jsonl, all_records)
+    write_json(combined_json, all_records)
+    write_json(
+        summary_json,
+        {
+            "num_queries": len(queries),
+            "total_dprs": len(all_records),
+            "queries": all_summaries,
+            "inputs": {
+                "queries_file": args.queries_file,
+                "clusters_path": args.clusters_path,
+                "tables_clean_dir": args.tables_clean_dir,
+                "user_report_path": args.user_report_path,
+            },
+            "outputs": {
+                "combined_jsonl": str(combined_jsonl),
+                "combined_json": str(combined_json),
+                "summary_json": str(summary_json),
+            },
+        },
+    )
+
+    print(f"\n[OK] Saved combined DPR JSONL: {combined_jsonl}")
+    print(f"[OK] Saved combined DPR JSON:  {combined_json}")
+    print(f"[OK] Saved summary:            {summary_json}")
 
 
 if __name__ == "__main__":
