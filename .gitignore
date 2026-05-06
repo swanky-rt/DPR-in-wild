@@ -19,7 +19,9 @@ __pycache__/
 
 # Pipeline outputs
 data/runs/
-stage-2/data/output-random/
+stage-2_2/data/output-random/
 
 # Logs
 *.log
+stage-1/tables_clean/
+stage-1/table_embeddings.json
