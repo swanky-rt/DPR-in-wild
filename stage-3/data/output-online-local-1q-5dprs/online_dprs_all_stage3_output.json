@@ -1,0 +1,1598 @@
+[
+  {
+    "dpr_id": "Q1_C1_v1",
+    "DPR": "Create a data product that compares and contrasts the career trajectories of actors across the provided tables, analyzing trends in role types, frequency of appearances, and contributions to different media formats over time.",
+    "sub_questions": [
+      "How does the frequency of appearances by Role vary over time in T1, T1397, and T289?",
+      "What are the distinct media formats represented by the Network or Channel columns in T1397 and T289?",
+      "What are the counts of roles by Year and Title across all tables?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "How does the frequency of appearances by Role vary over time in T1, T1397, and T289?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Year, Role, COUNT(*) AS Frequency\nFROM T1\nGROUP BY Year, Role\nUNION ALL\nSELECT Year, Role, COUNT(*) AS Frequency\nFROM T1397\nGROUP BY Year, Role\nUNION ALL\nSELECT Year, Role, COUNT(*) AS Frequency\nFROM T289\nGROUP BY Year, Role;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 15,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T1",
+              "T1397",
+              "T289"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Year, Role, COUNT(*) AS Frequency\nFROM T1\nGROUP BY Year, Role\nUNION ALL\nSELECT Year, Role, COUNT(*) AS Frequency\nFROM T1397\nGROUP BY Year, Role\nUNION ALL\nSELECT Year, Role, COUNT(*) AS Frequency\nFROM T289\nGROUP BY Year, Role;",
+        "final_execution_status": true,
+        "final_row_count": 15,
+        "mini_summary": "The result set shows that the frequency of appearances for the role \"Himself\" varies over time, with 2 appearances in 1988, 1 appearance in 1994, and 1 appearance in 1996. Other roles, such as \"George Newman\" and \"Police Station Thug,\" each have a frequency of 1 in 1989 and 1991, respectively."
+      },
+      {
+        "sub_question": "What are the distinct media formats represented by the Network or Channel columns in T1397 and T289?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT DISTINCT Network AS Media_Format FROM T1397\nUNION\nSELECT DISTINCT Channel AS Media_Format FROM T289;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T1397",
+              "T289"
+            ]
+          },
+          {
+            "sql": "SELECT DISTINCT Network AS Media_Format FROM T1397 WHERE Network IS NOT NULL\nUNION\nSELECT DISTINCT Channel AS Media_Format FROM T289 WHERE Channel IS NOT NULL;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "simplify_drop_join",
+            "explicit_join": false,
+            "tables": [
+              "T1397",
+              "T289"
+            ]
+          },
+          {
+            "sql": "SELECT DISTINCT Network AS Media_Format FROM T1397\nUNION\nSELECT DISTINCT Channel AS Media_Format FROM T289;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "alternate_table",
+            "explicit_join": false,
+            "tables": [
+              "T1397",
+              "T289"
+            ]
+          }
+        ],
+        "final_sql": null,
+        "final_execution_status": false,
+        "final_row_count": 0,
+        "mini_summary": ""
+      },
+      {
+        "sub_question": "What are the counts of roles by Year and Title across all tables?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Year, Title, Role, COUNT(Role) AS Role_Count\nFROM T1\nGROUP BY Year, Title, Role\nUNION ALL\nSELECT Year, Title, Role, COUNT(Role) AS Role_Count\nFROM T308\nGROUP BY Year, Title, Role\nUNION ALL\nSELECT Year, Title, Role, COUNT(Role) AS Role_Count\nFROM T311\nGROUP BY Year, Title, Role\nUNION ALL\nSELECT Year, Title, Role, COUNT(Role) AS Role_Count\nFROM T321\nGROUP BY Year, Title, Role\nUNION ALL\nSELECT Year, Title, Role, COUNT(Role) AS Role_Count\nFROM T322\nGROUP BY Year, Title, Role\nUNION ALL\nSELECT Year, Title, Role, COUNT(Role) AS Role_Count\nFROM T339\nGROUP BY Year, Title, Role\nUNION ALL\nSELECT Year, Title, Role, COUNT(Role) AS Role_Count\nFROM T342\nGROUP BY Year, Title, Role\nUNION ALL\nSELECT Year, Title, Role, COUNT(Role) AS Role_Count\nFROM T3733\nGROUP BY Year, Title, Role\nUNION ALL\nSELECT Year, Title, Role, COUNT(Role) AS Role_Count\nFROM T3748\nGROUP BY Year, Title, Role\nUNION ALL\nSELECT Year, Title, Role, COUNT(Role) AS Role_Count\nFROM T3749\nGROUP BY Year, Title, Role\nUNION ALL\nSELECT Year, Title, Role, COUNT(Role) AS Role_Count\nFROM T3891\nGROUP BY Year, Title, Role\nUNION ALL\nSELECT Year, Title, Role, COUNT(Role) AS Role_Count\nFROM T4298\nGROUP BY Year, Title, Role\nUNION ALL\nSELECT Year, Title, Role, COUNT(Role) AS Role_Count\nFROM T4299",
+            "execution_status": true,
+            "error": null,
+            "row_count": 18,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T1",
+              "T308",
+              "T311",
+              "T321",
+              "T322",
+              "T339",
+              "T342",
+              "T3733",
+              "T3748",
+              "T3749",
+              "T3891",
+              "T4298",
+              "T4299"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Year, Title, Role, COUNT(Role) AS Role_Count\nFROM T1\nGROUP BY Year, Title, Role\nUNION ALL\nSELECT Year, Title, Role, COUNT(Role) AS Role_Count\nFROM T308\nGROUP BY Year, Title, Role\nUNION ALL\nSELECT Year, Title, Role, COUNT(Role) AS Role_Count\nFROM T311\nGROUP BY Year, Title, Role\nUNION ALL\nSELECT Year, Title, Role, COUNT(Role) AS Role_Count\nFROM T321\nGROUP BY Year, Title, Role\nUNION ALL\nSELECT Year, Title, Role, COUNT(Role) AS Role_Count\nFROM T322\nGROUP BY Year, Title, Role\nUNION ALL\nSELECT Year, Title, Role, COUNT(Role) AS Role_Count\nFROM T339\nGROUP BY Year, Title, Role\nUNION ALL\nSELECT Year, Title, Role, COUNT(Role) AS Role_Count\nFROM T342\nGROUP BY Year, Title, Role\nUNION ALL\nSELECT Year, Title, Role, COUNT(Role) AS Role_Count\nFROM T3733\nGROUP BY Year, Title, Role\nUNION ALL\nSELECT Year, Title, Role, COUNT(Role) AS Role_Count\nFROM T3748\nGROUP BY Year, Title, Role\nUNION ALL\nSELECT Year, Title, Role, COUNT(Role) AS Role_Count\nFROM T3749\nGROUP BY Year, Title, Role\nUNION ALL\nSELECT Year, Title, Role, COUNT(Role) AS Role_Count\nFROM T3891\nGROUP BY Year, Title, Role\nUNION ALL\nSELECT Year, Title, Role, COUNT(Role) AS Role_Count\nFROM T4298\nGROUP BY Year, Title, Role\nUNION ALL\nSELECT Year, Title, Role, COUNT(Role) AS Role_Count\nFROM T4299",
+        "final_execution_status": true,
+        "final_row_count": 18,
+        "mini_summary": "The result set shows role counts by Year and Title for the following: in 1988, \"Tapeheads\" and \"The Naked Gun: From the Files of Police Squad!\" each had 1 role; in 1989, \"UHF\" had 1 role; in 1991, \"The Naked Gun 2\u00bd: The Smell of Fear\" had 1 role; and in 1994, \"Naked Gun 33\u2153: The Final Insult\" had 1 role. The result set does not show information for other years or titles."
+      }
+    ],
+    "mini_summaries": [
+      "The result set shows that the frequency of appearances for the role \"Himself\" varies over time, with 2 appearances in 1988, 1 appearance in 1994, and 1 appearance in 1996. Other roles, such as \"George Newman\" and \"Police Station Thug,\" each have a frequency of 1 in 1989 and 1991, respectively.",
+      "The result set shows role counts by Year and Title for the following: in 1988, \"Tapeheads\" and \"The Naked Gun: From the Files of Police Squad!\" each had 1 role; in 1989, \"UHF\" had 1 role; in 1991, \"The Naked Gun 2\u00bd: The Smell of Fear\" had 1 role; and in 1994, \"Naked Gun 33\u2153: The Final Insult\" had 1 role. The result set does not show information for other years or titles."
+    ],
+    "final_summary": "The data highlights variations in role frequency and media contributions over time, with the role \"Himself\" appearing multiple times across specific years, while other roles such as \"George Newman\" and \"Police Station Thug\" are limited to single appearances. Roles are associated with specific titles, including \"Tapeheads,\" \"The Naked Gun: From the Files of Police Squad!,\" \"UHF,\" and sequels in \"The Naked Gun\" series, but the evidence does not provide comprehensive coverage of all years or titles, leaving gaps in the analysis of broader career trends.",
+    "tables": [
+      "T1",
+      "T289",
+      "T308",
+      "T311",
+      "T321",
+      "T322",
+      "T339",
+      "T342",
+      "T631",
+      "T1397",
+      "T3733",
+      "T3739",
+      "T3748",
+      "T3749",
+      "T3891",
+      "T4298",
+      "T4299",
+      "T4723",
+      "T4830",
+      "T4837",
+      "T5002",
+      "T6409",
+      "T6622",
+      "T6630",
+      "T6805",
+      "T8821"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T1",
+        "T289",
+        "T308",
+        "T311",
+        "T321",
+        "T322",
+        "T339",
+        "T342",
+        "T631",
+        "T1397",
+        "T3733",
+        "T3739",
+        "T3748",
+        "T3749",
+        "T3891",
+        "T4298",
+        "T4299",
+        "T4723",
+        "T4830",
+        "T4837",
+        "T5002",
+        "T6409",
+        "T6622",
+        "T6630",
+        "T6805",
+        "T8821"
+      ]
+    },
+    "generated_sql": "SELECT Year, Role, COUNT(*) AS Frequency\nFROM T1\nGROUP BY Year, Role\nUNION ALL\nSELECT Year, Role, COUNT(*) AS Frequency\nFROM T1397\nGROUP BY Year, Role\nUNION ALL\nSELECT Year, Role, COUNT(*) AS Frequency\nFROM T289\nGROUP BY Year, Role;",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 15,
+      "preview": [
+        {
+          "Year": 1988.0,
+          "Role": "Himself",
+          "Frequency": 2
+        },
+        {
+          "Year": 1989.0,
+          "Role": "George Newman",
+          "Frequency": 1
+        },
+        {
+          "Year": 1991.0,
+          "Role": "Police Station Thug",
+          "Frequency": 1
+        },
+        {
+          "Year": 1994.0,
+          "Role": "Himself",
+          "Frequency": 1
+        },
+        {
+          "Year": 1996.0,
+          "Role": "Himself",
+          "Frequency": 1
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T1": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role"
+      },
+      "T289": {
+        "Year": "Year",
+        "Serial": "Serial",
+        "Role": "Role",
+        "Co-Star": "Co_Star",
+        "Channel": "Channel"
+      },
+      "T308": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T311": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T321": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T322": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T339": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T342": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T631": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T1397": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Network": "Network",
+        "Notes": "Notes"
+      },
+      "T3733": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T3739": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Appearance": "Appearance"
+      },
+      "T3748": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T3749": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T3891": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T4298": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T4299": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T4723": {
+        "Year ( s )": "Year_s_",
+        "Title": "Title",
+        "Role": "Role",
+        "Network": "Network",
+        "Notes": "Notes"
+      },
+      "T4830": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T4837": {
+        "Year": "Year",
+        "Title": "Title",
+        "Artist": "Artist",
+        "Role": "Role"
+      },
+      "T5002": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T6409": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role"
+      },
+      "T6622": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T6630": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T6805": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T8821": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      }
+    },
+    "query_id": "Q1",
+    "query_text": "What are the historical trends, records, and performance comparisons of athletes, teams, and venues across major international sports events like the Olympics, World Championships, and other tournaments?",
+    "cluster_id": "1",
+    "cluster_key": null,
+    "sample_idx": null,
+    "source": null,
+    "user_report": null,
+    "llm_model": "gpt4o",
+    "llm_model_summaries": "gpt4o",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "Q1_C2_v1",
+    "DPR": "Create a comparative analysis of acting career trajectories across the individuals listed, highlighting trends in role types, frequency of appearances, notable achievements, and any correlations between career milestones and industry patterns.",
+    "sub_questions": [
+      "Are there correlations between Year and Role types across T331 and T336?",
+      "What are the trends in Role types and frequency of appearances by Year in T318?",
+      "What notable achievements or patterns are described in the Notes column of T2570?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "Are there correlations between Year and Role types across T331 and T336?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Year, Role, COUNT(*) AS Role_Count\nFROM T331\nGROUP BY Year, Role\nUNION ALL\nSELECT Year, Role, COUNT(*) AS Role_Count\nFROM T336\nGROUP BY Year, Role;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T331",
+              "T336"
+            ]
+          },
+          {
+            "sql": "SELECT Year, Role, COUNT(*) AS Role_Count\nFROM T331\nWHERE Year IS NOT NULL AND Role IS NOT NULL\nGROUP BY Year, Role\nUNION ALL\nSELECT Year, Role, COUNT(*) AS Role_Count\nFROM T336\nWHERE Year IS NOT NULL AND Role IS NOT NULL\nGROUP BY Year, Role;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "simplify_drop_join",
+            "explicit_join": false,
+            "tables": [
+              "T331",
+              "T336"
+            ]
+          },
+          {
+            "sql": "SELECT Year, Role, COUNT(*) AS Role_Count\nFROM T331\nGROUP BY Year, Role\nUNION ALL\nSELECT Year, Role, COUNT(*) AS Role_Count\nFROM T336\nGROUP BY Year, Role;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "alternate_table",
+            "explicit_join": false,
+            "tables": [
+              "T331",
+              "T336"
+            ]
+          }
+        ],
+        "final_sql": null,
+        "final_execution_status": false,
+        "final_row_count": 0,
+        "mini_summary": ""
+      },
+      {
+        "sub_question": "What are the trends in Role types and frequency of appearances by Year in T318?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Year, Role, COUNT(*) AS Frequency\nFROM T318\nGROUP BY Year, Role\nORDER BY Year, Frequency DESC;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T318"
+            ]
+          },
+          {
+            "sql": "SELECT Year, Role, COUNT(*) AS Frequency\nFROM T318\nWHERE Year IS NOT NULL AND Role IS NOT NULL\nGROUP BY Year, Role\nORDER BY Year ASC, Frequency DESC;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "simplify_drop_join",
+            "explicit_join": false,
+            "tables": [
+              "T318"
+            ]
+          },
+          {
+            "sql": "SELECT Year, Role, COUNT(*) AS Frequency\nFROM T318\nGROUP BY Year, Role\nORDER BY Year, Frequency DESC;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "alternate_table",
+            "explicit_join": false,
+            "tables": [
+              "T318"
+            ]
+          }
+        ],
+        "final_sql": null,
+        "final_execution_status": false,
+        "final_row_count": 0,
+        "mini_summary": ""
+      },
+      {
+        "sub_question": "What notable achievements or patterns are described in the Notes column of T2570?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Notes FROM T2570;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T2570"
+            ]
+          },
+          {
+            "sql": "SELECT DISTINCT Notes FROM T2570 WHERE Notes IS NOT NULL AND Notes != '';",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "simplify_drop_join",
+            "explicit_join": false,
+            "tables": [
+              "T2570"
+            ]
+          },
+          {
+            "sql": "SELECT Notes FROM T2570;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "alternate_table",
+            "explicit_join": false,
+            "tables": [
+              "T2570"
+            ]
+          }
+        ],
+        "final_sql": null,
+        "final_execution_status": false,
+        "final_row_count": 0,
+        "mini_summary": ""
+      }
+    ],
+    "mini_summaries": [],
+    "final_summary": "",
+    "tables": [
+      "T318",
+      "T331",
+      "T332",
+      "T336",
+      "T2570",
+      "T2572",
+      "T2577",
+      "T2578",
+      "T2584",
+      "T2587",
+      "T2591",
+      "T2624",
+      "T2626",
+      "T3732",
+      "T3737",
+      "T3747",
+      "T3887",
+      "T4297",
+      "T5514",
+      "T6381",
+      "T6461",
+      "T6624",
+      "T6629",
+      "T6642",
+      "T7024",
+      "T8331",
+      "T9040",
+      "T9270",
+      "T9895"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T318",
+        "T331",
+        "T332",
+        "T336",
+        "T2570",
+        "T2572",
+        "T2577",
+        "T2578",
+        "T2584",
+        "T2587",
+        "T2591",
+        "T2624",
+        "T2626",
+        "T3732",
+        "T3737",
+        "T3747",
+        "T3887",
+        "T4297",
+        "T5514",
+        "T6381",
+        "T6461",
+        "T6624",
+        "T6629",
+        "T6642",
+        "T7024",
+        "T8331",
+        "T9040",
+        "T9270",
+        "T9895"
+      ]
+    },
+    "generated_sql": null,
+    "execution_status": false,
+    "result": {
+      "validation": "Failed",
+      "error": "Insufficient successful sub-questions: 0/3 (required=2). Last error: n/a"
+    },
+    "schema_mapping": {
+      "T318": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T331": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T332": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T336": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T2570": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T2572": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T2577": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T2578": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T2584": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T2587": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T2591": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T2624": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T2626": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T3732": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T3737": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T3747": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T3887": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T4297": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T5514": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T6381": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T6461": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role"
+      },
+      "T6624": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T6629": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T6642": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T7024": {
+        "Year": "Year",
+        "Film": "Film",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T8331": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T9040": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role"
+      },
+      "T9270": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      },
+      "T9895": {
+        "Year": "Year",
+        "Title": "Title",
+        "Role": "Role",
+        "Notes": "Notes"
+      }
+    },
+    "query_id": "Q1",
+    "query_text": "What are the historical trends, records, and performance comparisons of athletes, teams, and venues across major international sports events like the Olympics, World Championships, and other tournaments?",
+    "cluster_id": "2",
+    "cluster_key": null,
+    "sample_idx": null,
+    "source": null,
+    "user_report": null,
+    "llm_model": "gpt4o",
+    "llm_model_summaries": "gpt4o",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "Q1_C3_v1",
+    "DPR": "Create a data product that compares and contrasts the political compositions, party affiliations, and representation trends across the listed legislatures in British Columbia, Manitoba, Saskatchewan, and Nova Scotia, including insights into expense patterns where applicable.",
+    "sub_questions": [
+      "What are the counts of Members by Party and Electoral_district in T4, T18, T30, T104, T114, T116, T120, and T3962?",
+      "What is the total and average Expenses_July_2006_June_2009_ by Party in T215?",
+      "Which Members appear in multiple Electoral_districts across T4, T18, T30, T104, T114, T116, T120, and T3962?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "What are the counts of Members by Party and Electoral_district in T4, T18, T30, T104, T114, T116, T120, and T3962?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Electoral_district, Party, COUNT(Member) AS Member_count\nFROM (\n    SELECT Electoral_district, Party, Member FROM T4\n    UNION ALL\n    SELECT Electoral_district, Party, Member FROM T18\n    UNION ALL\n    SELECT Electoral_district, Party, Member FROM T30\n    UNION ALL\n    SELECT Electoral_district, Party, Member FROM T104\n    UNION ALL\n    SELECT Electoral_district, Party, Member FROM T114\n    UNION ALL\n    SELECT Electoral_district, Party, Member FROM T116\n    UNION ALL\n    SELECT Electoral_district, Party, Member FROM T120\n    UNION ALL\n    SELECT Electoral_district, Party, Member FROM T3962\n)\nGROUP BY Electoral_district, Party;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 60,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T104",
+              "T114",
+              "T116",
+              "T120",
+              "T18",
+              "T30",
+              "T3962",
+              "T4"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Electoral_district, Party, COUNT(Member) AS Member_count\nFROM (\n    SELECT Electoral_district, Party, Member FROM T4\n    UNION ALL\n    SELECT Electoral_district, Party, Member FROM T18\n    UNION ALL\n    SELECT Electoral_district, Party, Member FROM T30\n    UNION ALL\n    SELECT Electoral_district, Party, Member FROM T104\n    UNION ALL\n    SELECT Electoral_district, Party, Member FROM T114\n    UNION ALL\n    SELECT Electoral_district, Party, Member FROM T116\n    UNION ALL\n    SELECT Electoral_district, Party, Member FROM T120\n    UNION ALL\n    SELECT Electoral_district, Party, Member FROM T3962\n)\nGROUP BY Electoral_district, Party;",
+        "final_execution_status": true,
+        "final_row_count": 60,
+        "mini_summary": "The result set shows Member counts by Party and Electoral district for Alberni (Liberal: 1, Social Credit: 1), Atlin (Liberal: 1, NDP: 1), and Avondale (Conservative: 1). The result set does not show complete information for T4, T18, T30, T104, T114, T116, T120, and T3962."
+      },
+      {
+        "sub_question": "What is the total and average Expenses_July_2006_June_2009_ by Party in T215?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Party, \n       SUM(Expenses_July_2006_June_2009_) AS Total_Expenses, \n       AVG(Expenses_July_2006_June_2009_) AS Average_Expenses\nFROM T215\nGROUP BY Party;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T215"
+            ]
+          },
+          {
+            "sql": "SELECT Party, \n       SUM(Expenses_July_2006_June_2009_) AS Total_Expenses, \n       AVG(Expenses_July_2006_June_2009_) AS Average_Expenses\nFROM T215\nWHERE Expenses_July_2006_June_2009_ IS NOT NULL\nGROUP BY Party;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "simplify_drop_join",
+            "explicit_join": false,
+            "tables": [
+              "T215"
+            ]
+          },
+          {
+            "sql": "SELECT Party, \n       SUM(Expenses_July_2006_June_2009_) AS Total_Expenses, \n       AVG(Expenses_July_2006_June_2009_) AS Average_Expenses\nFROM T215\nGROUP BY Party;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "alternate_table",
+            "explicit_join": false,
+            "tables": [
+              "T215"
+            ]
+          }
+        ],
+        "final_sql": null,
+        "final_execution_status": false,
+        "final_row_count": 0,
+        "mini_summary": ""
+      },
+      {
+        "sub_question": "Which Members appear in multiple Electoral_districts across T4, T18, T30, T104, T114, T116, T120, and T3962?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "WITH Combined AS (\n    SELECT Member, Electoral_district FROM T4\n    UNION ALL\n    SELECT Member, Electoral_district FROM T18\n    UNION ALL\n    SELECT Member, Electoral_district FROM T30\n    UNION ALL\n    SELECT Member, Electoral_district FROM T104\n    UNION ALL\n    SELECT Member, Electoral_district FROM T114\n    UNION ALL\n    SELECT Member, Electoral_district FROM T116\n    UNION ALL\n    SELECT Member, Electoral_district FROM T120\n    UNION ALL\n    SELECT Member, Electoral_district FROM T3962\n)\nSELECT Member\nFROM Combined\nGROUP BY Member\nHAVING COUNT(DISTINCT Electoral_district) > 1;",
+            "execution_status": false,
+            "error": "Schema validation: unknown table 'Combined' (not in cluster schema).",
+            "row_count": 0,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "Combined",
+              "T104",
+              "T114",
+              "T116",
+              "T120",
+              "T18",
+              "T30",
+              "T3962",
+              "T4"
+            ]
+          },
+          {
+            "sql": "WITH Combined AS (\n    SELECT Member, Electoral_district FROM T4\n    UNION ALL\n    SELECT Member, Electoral_district FROM T18\n    UNION ALL\n    SELECT Member, Electoral_district FROM T30\n    UNION ALL\n    SELECT Member, Electoral_district FROM T104\n    UNION ALL\n    SELECT Member, Electoral_district FROM T114\n    UNION ALL\n    SELECT Member, Electoral_district FROM T116\n    UNION ALL\n    SELECT Member, Electoral_district FROM T120\n    UNION ALL\n    SELECT Member, Electoral_district FROM T3962\n)\nSELECT Member\nFROM Combined\nGROUP BY Member\nHAVING COUNT(DISTINCT Electoral_district) > 1;",
+            "execution_status": false,
+            "error": "Schema validation: unknown table 'Combined' (not in cluster schema).",
+            "row_count": 0,
+            "retry_phase": "simplify_drop_join",
+            "explicit_join": false,
+            "tables": [
+              "Combined",
+              "T104",
+              "T114",
+              "T116",
+              "T120",
+              "T18",
+              "T30",
+              "T3962",
+              "T4"
+            ]
+          },
+          {
+            "sql": "WITH Combined AS (\n    SELECT Member, Electoral_district FROM T4\n    UNION ALL\n    SELECT Member, Electoral_district FROM T18\n    UNION ALL\n    SELECT Member, Electoral_district FROM T30\n    UNION ALL\n    SELECT Member, Electoral_district FROM T104\n    UNION ALL\n    SELECT Member, Electoral_district FROM T114\n    UNION ALL\n    SELECT Member, Electoral_district FROM T116\n    UNION ALL\n    SELECT Member, Electoral_district FROM T120\n    UNION ALL\n    SELECT Member, Electoral_district FROM T3962\n)\nSELECT Member\nFROM (\n    SELECT Member, Electoral_district, COUNT(*) OVER (PARTITION BY Member) AS district_count\n    FROM Combined\n)\nWHERE district_count > 1\nGROUP BY Member;",
+            "execution_status": false,
+            "error": "Schema validation: unknown table 'Combined' (not in cluster schema).",
+            "row_count": 0,
+            "retry_phase": "alternate_table",
+            "explicit_join": false,
+            "tables": [
+              "Combined",
+              "T104",
+              "T114",
+              "T116",
+              "T120",
+              "T18",
+              "T30",
+              "T3962",
+              "T4"
+            ]
+          }
+        ],
+        "final_sql": null,
+        "final_execution_status": false,
+        "final_row_count": 0,
+        "mini_summary": ""
+      }
+    ],
+    "mini_summaries": [
+      "The result set shows Member counts by Party and Electoral district for Alberni (Liberal: 1, Social Credit: 1), Atlin (Liberal: 1, NDP: 1), and Avondale (Conservative: 1). The result set does not show complete information for T4, T18, T30, T104, T114, T116, T120, and T3962."
+    ],
+    "final_summary": "The data highlights the distribution of members by party and electoral district for Alberni, Atlin, and Avondale, showing representation from the Liberal, Social Credit, NDP, and Conservative parties. However, information is incomplete for several other districts, leaving gaps in the analysis of broader political compositions and trends.",
+    "tables": [
+      "T4",
+      "T18",
+      "T30",
+      "T104",
+      "T114",
+      "T116",
+      "T120",
+      "T215",
+      "T3962"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T4",
+        "T18",
+        "T30",
+        "T104",
+        "T114",
+        "T116",
+        "T120",
+        "T215",
+        "T3962"
+      ]
+    },
+    "generated_sql": "SELECT Electoral_district, Party, COUNT(Member) AS Member_count\nFROM (\n    SELECT Electoral_district, Party, Member FROM T4\n    UNION ALL\n    SELECT Electoral_district, Party, Member FROM T18\n    UNION ALL\n    SELECT Electoral_district, Party, Member FROM T30\n    UNION ALL\n    SELECT Electoral_district, Party, Member FROM T104\n    UNION ALL\n    SELECT Electoral_district, Party, Member FROM T114\n    UNION ALL\n    SELECT Electoral_district, Party, Member FROM T116\n    UNION ALL\n    SELECT Electoral_district, Party, Member FROM T120\n    UNION ALL\n    SELECT Electoral_district, Party, Member FROM T3962\n)\nGROUP BY Electoral_district, Party;",
+    "execution_status": false,
+    "result": {
+      "validation": "Failed",
+      "error": "Insufficient successful sub-questions: 1/3 (required=2). Last error: Schema validation: unknown table 'Combined' (not in cluster schema)."
+    },
+    "schema_mapping": {
+      "T4": {
+        "Member": "Member",
+        "Electoral district": "Electoral_district",
+        "Party": "Party"
+      },
+      "T18": {
+        "Member": "Member",
+        "Electoral district": "Electoral_district",
+        "Party": "Party"
+      },
+      "T30": {
+        "Member": "Member",
+        "Electoral district": "Electoral_district",
+        "Party": "Party"
+      },
+      "T104": {
+        "Member": "Member",
+        "Electoral district": "Electoral_district",
+        "Party": "Party"
+      },
+      "T114": {
+        "Electoral district": "Electoral_district",
+        "Member": "Member",
+        "Party": "Party"
+      },
+      "T116": {
+        "Member": "Member",
+        "Electoral district": "Electoral_district",
+        "Party": "Party"
+      },
+      "T120": {
+        "Member": "Member",
+        "Electoral district": "Electoral_district",
+        "Party": "Party"
+      },
+      "T215": {
+        "Name": "Name",
+        "Party": "Party",
+        "Riding": "Riding",
+        "Expenses ( July 2006- June 2009 )": "Expenses_July_2006_June_2009_",
+        "Notes": "Notes"
+      },
+      "T3962": {
+        "Electoral district": "Electoral_district",
+        "Member": "Member",
+        "Party": "Party"
+      }
+    },
+    "query_id": "Q1",
+    "query_text": "What are the historical trends, records, and performance comparisons of athletes, teams, and venues across major international sports events like the Olympics, World Championships, and other tournaments?",
+    "cluster_id": "3",
+    "cluster_key": null,
+    "sample_idx": null,
+    "source": null,
+    "user_report": null,
+    "llm_model": "gpt4o",
+    "llm_model_summaries": "gpt4o",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "Q1_C4_v1",
+    "DPR": "Create a data product that enables comparative analysis of athlete performance, rankings, and national representation across historical international sports events, highlighting trends, correlations, and contrasts between competitions and time periods.",
+    "sub_questions": [
+      "What are the Rank and Nationality distributions for athletes in T6 over time?",
+      "How does the Time performance of athletes vary by Nationality in T1125?",
+      "What trends in Rank and Nationality are observable across T1401 and T8308?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "What are the Rank and Nationality distributions for athletes in T6 over time?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Rank, Nationality, Time \nFROM T6 \nORDER BY Time;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 20,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T6"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Rank, Nationality, Time \nFROM T6 \nORDER BY Time;",
+        "final_execution_status": true,
+        "final_row_count": 20,
+        "mini_summary": "The result set shows Rank values for two athletes (4.0 and 5.0) and Nationalities including France and England. The result set does not show information about Rank and Nationality distributions over time."
+      },
+      {
+        "sub_question": "How does the Time performance of athletes vary by Nationality in T1125?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Nationality, Time FROM T1125;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T1125"
+            ]
+          },
+          {
+            "sql": "SELECT Nationality, MIN(CAST(Time AS REAL)) AS Min_Time, MAX(CAST(Time AS REAL)) AS Max_Time, AVG(CAST(Time AS REAL)) AS Avg_Time\nFROM T1125\nWHERE Time IS NOT NULL\nGROUP BY Nationality;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "simplify_drop_join",
+            "explicit_join": false,
+            "tables": [
+              "T1125"
+            ]
+          },
+          {
+            "sql": "SELECT Nationality, Time FROM T1125;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "alternate_table",
+            "explicit_join": false,
+            "tables": [
+              "T1125"
+            ]
+          }
+        ],
+        "final_sql": null,
+        "final_execution_status": false,
+        "final_row_count": 0,
+        "mini_summary": ""
+      },
+      {
+        "sub_question": "What trends in Rank and Nationality are observable across T1401 and T8308?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Rank, Nationality FROM T1401\nUNION ALL\nSELECT Rank, Nationality FROM T8308;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T1401",
+              "T8308"
+            ]
+          },
+          {
+            "sql": "SELECT Rank, Nationality FROM T1401 WHERE Nationality IS NOT NULL\nUNION ALL\nSELECT Rank, Nationality FROM T8308 WHERE Nationality IS NOT NULL;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "simplify_drop_join",
+            "explicit_join": false,
+            "tables": [
+              "T1401",
+              "T8308"
+            ]
+          },
+          {
+            "sql": "SELECT Rank, Nationality FROM T1401\nUNION ALL\nSELECT Rank, Nationality FROM T8308;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 0,
+            "retry_phase": "alternate_table",
+            "explicit_join": false,
+            "tables": [
+              "T1401",
+              "T8308"
+            ]
+          }
+        ],
+        "final_sql": null,
+        "final_execution_status": false,
+        "final_row_count": 0,
+        "mini_summary": ""
+      }
+    ],
+    "mini_summaries": [
+      "The result set shows Rank values for two athletes (4.0 and 5.0) and Nationalities including France and England. The result set does not show information about Rank and Nationality distributions over time."
+    ],
+    "final_summary": "The data provides rank values for two athletes and their associated nationalities, France and England, allowing for a limited comparison of individual performance and representation. However, it does not include information on how rankings or nationalities are distributed over time, restricting broader analysis of trends or changes across historical events.",
+    "tables": [
+      "T6",
+      "T77",
+      "T78",
+      "T82",
+      "T84",
+      "T85",
+      "T268",
+      "T408",
+      "T491",
+      "T564",
+      "T1125",
+      "T1399",
+      "T1401",
+      "T1567",
+      "T1678",
+      "T8308",
+      "T10444"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T6",
+        "T77",
+        "T78",
+        "T82",
+        "T84",
+        "T85",
+        "T268",
+        "T408",
+        "T491",
+        "T564",
+        "T1125",
+        "T1399",
+        "T1401",
+        "T1567",
+        "T1678",
+        "T8308",
+        "T10444"
+      ]
+    },
+    "generated_sql": "SELECT Rank, Nationality, Time \nFROM T6 \nORDER BY Time;",
+    "execution_status": false,
+    "result": {
+      "validation": "Failed",
+      "error": "Insufficient successful sub-questions: 1/3 (required=2). Last error: n/a"
+    },
+    "schema_mapping": {
+      "T6": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T77": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T78": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T82": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T84": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality"
+      },
+      "T85": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T268": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T408": {
+        "Name": "Name",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T491": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T564": {
+        "Name": "Name",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T1125": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T1399": {
+        "Rank": "Rank",
+        "Name": "Name",
+        "Nationality": "Nationality",
+        "Time": "Time",
+        "Notes": "Notes"
+      },
+      "T1401": {
+        "Rank": "Rank",
+        "Name": "Name",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T1567": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T1678": {
+        "Athlete": "Athlete",
+        "Country": "Country",
+        "Event ( s )": "Event_s_"
+      },
+      "T8308": {
+        "Rank": "Rank",
+        "Name": "Name",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T10444": {
+        "Name": "Name",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      }
+    },
+    "query_id": "Q1",
+    "query_text": "What are the historical trends, records, and performance comparisons of athletes, teams, and venues across major international sports events like the Olympics, World Championships, and other tournaments?",
+    "cluster_id": "4",
+    "cluster_key": null,
+    "sample_idx": null,
+    "source": null,
+    "user_report": null,
+    "llm_model": "gpt4o",
+    "llm_model_summaries": "gpt4o",
+    "upstream_model": null
+  },
+  {
+    "dpr_id": "Q1_C5_v1",
+    "DPR": "Create a data product that enables the analysis of historical trends, performance comparisons, and correlations across athletes, teams, and venues in major international sports events, using rankings, nationalities, and recorded times from the provided datasets.",
+    "sub_questions": [
+      "What are the trends in Rank and Time for athletes across available tables?",
+      "How do athletes' Nationalities correlate with their Rank and Time in the datasets?",
+      "Which tables contain the most complete data for comparing athletes' performance over time?"
+    ],
+    "subquery_results": [
+      {
+        "sub_question": "What are the trends in Rank and Time for athletes across available tables?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Rank, Athlete, Nationality, Time FROM T7;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 20,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T7"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Rank, Athlete, Nationality, Time FROM T7;",
+        "final_execution_status": true,
+        "final_row_count": 20,
+        "mini_summary": "The result set shows times for athletes ranging from 55:06 to 56:27, with ranks provided for some athletes (e.g., Rank 4 for Charles Clibbon and Rank 5 for Larry Cummins). The result set does not show broader trends or comparisons beyond these specific rows."
+      },
+      {
+        "sub_question": "How do athletes' Nationalities correlate with their Rank and Time in the datasets?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Nationality, Rank, Time \nFROM T7 \nWHERE Nationality IS NOT NULL AND Rank IS NOT NULL AND Time IS NOT NULL;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 20,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T7"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Nationality, Rank, Time \nFROM T7 \nWHERE Nationality IS NOT NULL AND Rank IS NOT NULL AND Time IS NOT NULL;",
+        "final_execution_status": true,
+        "final_row_count": 20,
+        "mini_summary": "The result set shows that athletes from Scotland, England, and Ireland are represented, with recorded times ranging from 55:06 to 56:27. However, the correlation between Nationality, Rank, and Time cannot be fully determined as some Rank values are missing."
+      },
+      {
+        "sub_question": "Which tables contain the most complete data for comparing athletes' performance over time?",
+        "feasibility_warning": "",
+        "attempts": [
+          {
+            "sql": "SELECT Athlete, Nationality, Time, Rank \nFROM T7 \nWHERE Athlete IS NOT NULL AND Nationality IS NOT NULL AND Time IS NOT NULL;",
+            "execution_status": true,
+            "error": null,
+            "row_count": 20,
+            "retry_phase": "generate",
+            "explicit_join": false,
+            "tables": [
+              "T7"
+            ]
+          }
+        ],
+        "final_sql": "SELECT Athlete, Nationality, Time, Rank \nFROM T7 \nWHERE Athlete IS NOT NULL AND Nationality IS NOT NULL AND Time IS NOT NULL;",
+        "final_execution_status": true,
+        "final_row_count": 20,
+        "mini_summary": "The result set shows data for athletes' names, nationalities, recorded times, and ranks, but it does not indicate which tables contain the most complete data for comparing athletes' performance over time."
+      }
+    ],
+    "mini_summaries": [
+      "The result set shows times for athletes ranging from 55:06 to 56:27, with ranks provided for some athletes (e.g., Rank 4 for Charles Clibbon and Rank 5 for Larry Cummins). The result set does not show broader trends or comparisons beyond these specific rows.",
+      "The result set shows that athletes from Scotland, England, and Ireland are represented, with recorded times ranging from 55:06 to 56:27. However, the correlation between Nationality, Rank, and Time cannot be fully determined as some Rank values are missing.",
+      "The result set shows data for athletes' names, nationalities, recorded times, and ranks, but it does not indicate which tables contain the most complete data for comparing athletes' performance over time."
+    ],
+    "final_summary": "The data includes athletes' names, nationalities, recorded times, and ranks, with times ranging from 55:06 to 56:27 and representation from Scotland, England, and Ireland. Some ranks are provided, such as Rank 4 and Rank 5 for specific athletes, but others are missing, limiting the ability to fully analyze correlations between nationality, rank, and time. While the dataset offers individual performance details, it does not provide sufficient information to identify broader trends, performance comparisons, or historical patterns across athletes.",
+    "tables": [
+      "T7",
+      "T221",
+      "T222",
+      "T223",
+      "T226",
+      "T232",
+      "T237",
+      "T269",
+      "T561",
+      "T562",
+      "T621",
+      "T881",
+      "T882",
+      "T946",
+      "T947",
+      "T948",
+      "T1124",
+      "T1133",
+      "T1235",
+      "T2083"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T7",
+        "T221",
+        "T222",
+        "T223",
+        "T226",
+        "T232",
+        "T237",
+        "T269",
+        "T561",
+        "T562",
+        "T621",
+        "T881",
+        "T882",
+        "T946",
+        "T947",
+        "T948",
+        "T1124",
+        "T1133",
+        "T1235",
+        "T2083"
+      ]
+    },
+    "generated_sql": "SELECT Rank, Athlete, Nationality, Time FROM T7;",
+    "execution_status": true,
+    "result": {
+      "validation": "Success",
+      "row_count": 20,
+      "preview": [
+        {
+          "Rank": "",
+          "Athlete": "Jim Wilson",
+          "Nationality": "Scotland",
+          "Time": "55:06"
+        },
+        {
+          "Rank": "",
+          "Athlete": "Christopher Vose",
+          "Nationality": "England",
+          "Time": "55:33"
+        },
+        {
+          "Rank": "",
+          "Athlete": "Wally Freeman",
+          "Nationality": "England",
+          "Time": "55:52"
+        },
+        {
+          "Rank": 4.0,
+          "Athlete": "Charles Clibbon",
+          "Nationality": "England",
+          "Time": "56:26"
+        },
+        {
+          "Rank": 5.0,
+          "Athlete": "Larry Cummins",
+          "Nationality": "Ireland",
+          "Time": "56:27"
+        }
+      ]
+    },
+    "schema_mapping": {
+      "T7": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T221": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T222": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T223": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T226": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T232": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T237": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T269": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T561": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T562": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T621": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T881": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T882": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T946": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T947": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T948": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T1124": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T1133": {
+        "Rank": "Rank",
+        "Name": "Name",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T1235": {
+        "Place": "Place",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T2083": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      }
+    },
+    "query_id": "Q1",
+    "query_text": "What are the historical trends, records, and performance comparisons of athletes, teams, and venues across major international sports events like the Olympics, World Championships, and other tournaments?",
+    "cluster_id": "5",
+    "cluster_key": null,
+    "sample_idx": null,
+    "source": null,
+    "user_report": null,
+    "llm_model": "gpt4o",
+    "llm_model_summaries": "gpt4o",
+    "upstream_model": null
+  }
+]

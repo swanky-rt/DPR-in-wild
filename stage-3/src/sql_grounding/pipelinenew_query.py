@@ -2198,7 +2198,7 @@ def run_stage3_pipeline(
     tables_meta_path: Optional[str] = None,
     require_non_empty: bool = False,
 ) -> List[Dict[str, Any]]:
-    """Runs stage-3 on stage-2 artifacts."""
+    """Runs stage-3 on stage-2_2 artifacts."""
 
     payload = _load_stage2_payload(input_path)
 
@@ -2451,6 +2451,13 @@ def run_stage3_pipeline(
                         else {"validation": "Failed", "error": err}
                     ),
                     "schema_mapping": name_mapping,
+                    "query_id": d.get("query_id"),
+                    "query_text": d.get("query_text"),
+                    "cluster_id": d.get("cluster_id"),
+                    "cluster_key": d.get("cluster_key"),
+                    "sample_idx": d.get("sample_idx"),
+                    "source": d.get("source"),
+                    "user_report": d.get("user_report", {}),
                     "llm_model": model,
                     "llm_model_summaries": model,
                     "upstream_model": d.get("model"),

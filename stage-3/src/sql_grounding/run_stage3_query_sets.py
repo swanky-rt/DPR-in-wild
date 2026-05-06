@@ -246,6 +246,42 @@ def _run_query_folder_group(
     print(f"[stage3-batch] {group_name}: manifest -> {manifest_path}", flush=True)
 
 
+
+def _run_single_input_file(
+    group_name: str,
+    input_file: Path,
+    output_dir: Path,
+    tables_meta: Path,
+    require_non_empty: bool,
+) -> Path:
+    """Run Stage-3 on one exact Stage-2 DPR file. This avoids accidentally reading structured sidecars."""
+    output_dir.mkdir(parents=True, exist_ok=True)
+    output_file = _build_output_path(output_dir, input_file)
+    print(
+        f"[stage3-batch] {group_name}: input={input_file} -> output={output_file}",
+        flush=True,
+    )
+    out = run_stage3_pipeline(
+        input_path=str(input_file),
+        output_path=str(output_file),
+        limit=None,
+        offset=0,
+        tables_meta_path=str(tables_meta),
+        require_non_empty=require_non_empty,
+    )
+    manifest_path = output_dir / "run_manifest.json"
+    manifest = {
+        "group": group_name,
+        "input_file": str(input_file),
+        "output_file": str(output_file),
+        "rows_written": len(out),
+        "tables_meta": str(tables_meta),
+    }
+    manifest_path.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+    print(f"[stage3-batch] {group_name}: wrote {len(out)} DPR rows -> {output_file}", flush=True)
+    print(f"[stage3-batch] {group_name}: manifest -> {manifest_path}", flush=True)
+    return output_file
+
 def main() -> None:
     repo_root = Path(__file__).resolve().parents[2]
     parser = argparse.ArgumentParser(
@@ -300,6 +336,11 @@ def main() -> None:
         help="Path to Stage-1 tables metadata (tables_clean dir or tables.json).",
     )
     parser.add_argument(
+        "--input-file",
+        default=None,
+        help="Exact Stage-2 DPR JSONL/JSON file to process. When set, directory discovery is skipped.",
+    )
+    parser.add_argument(
         "--mode",
         choices=("all", "offline", "online"),
         default="all",
@@ -319,6 +360,16 @@ def main() -> None:
     offline_output_dir = Path(args.offline_output_dir).resolve()
     online_output_dir = Path(args.online_output_dir).resolve()
     tables_meta = Path(args.tables_meta).resolve()
+
+    if args.input_file:
+        _run_single_input_file(
+            group_name=args.mode if args.mode != "all" else "single",
+            input_file=Path(args.input_file).resolve(),
+            output_dir=online_output_dir if args.mode == "online" else offline_output_dir,
+            tables_meta=tables_meta,
+            require_non_empty=bool(args.require_non_empty),
+        )
+        return
 
     if args.mode in ("all", "offline"):
         # Priority 1: flat Q*--offline.json/jsonl directly under stage2_outputs (common layout)
