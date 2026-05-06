@@ -1,0 +1,293 @@
+{
+  "table_id": "T10236",
+  "uid": "eb366ecf-a7e7-561e-af36-7676f6e53d4c",
+  "source": "HybridQA",
+  "source_table_id": "eb366ecf-a7e7-561e-af36-7676f6e53d4c",
+  "domain": "HybridQA",
+  "title": "1997 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Gina Gogean ( ROU )",
+        [
+          "/wiki/Gina_Gogean"
+        ]
+      ],
+      [
+        9.8,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Svetlana Khorkina ( RUS )",
+        [
+          "/wiki/Svetlana_Khorkina"
+        ]
+      ],
+      [
+        9.8,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Yelena Produnova ( RUS )",
+        [
+          "/wiki/Yelena_Produnova"
+        ]
+      ],
+      [
+        9.775,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Meng Fei ( CHN )",
+        [
+          "/wiki/Meng_Fei_(gymnast)"
+        ]
+      ],
+      [
+        9.675,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Vasiliki Tsavdaridou ( GRE )",
+        [
+          "/wiki/Vasiliki_Tsavdaridou"
+        ]
+      ],
+      [
+        9.65,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Claudia Presăcan ( ROU )",
+        [
+          "/wiki/Claudia_Presăcan"
+        ]
+      ],
+      [
+        9.6,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Liubov Sheremeta ( UKR )",
+        [
+          "/wiki/Liubov_Sheremeta"
+        ]
+      ],
+      [
+        8.937,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Zhou Duan ( CHN )",
+        [
+          "/wiki/Zhou_Duan"
+        ]
+      ],
+      [
+        8.787,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "eb366ecf-a7e7-561e-af36-7676f6e53d4c",
+    "table_id": "1997_World_Artistic_Gymnastics_Championships_11",
+    "title": "1997 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Gina Gogean ( ROU )",
+          [
+            "/wiki/Gina_Gogean"
+          ]
+        ],
+        [
+          9.8,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Svetlana Khorkina ( RUS )",
+          [
+            "/wiki/Svetlana_Khorkina"
+          ]
+        ],
+        [
+          9.8,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Yelena Produnova ( RUS )",
+          [
+            "/wiki/Yelena_Produnova"
+          ]
+        ],
+        [
+          9.775,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Meng Fei ( CHN )",
+          [
+            "/wiki/Meng_Fei_(gymnast)"
+          ]
+        ],
+        [
+          9.675,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Vasiliki Tsavdaridou ( GRE )",
+          [
+            "/wiki/Vasiliki_Tsavdaridou"
+          ]
+        ],
+        [
+          9.65,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Claudia Presăcan ( ROU )",
+          [
+            "/wiki/Claudia_Presăcan"
+          ]
+        ],
+        [
+          9.6,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Liubov Sheremeta ( UKR )",
+          [
+            "/wiki/Liubov_Sheremeta"
+          ]
+        ],
+        [
+          8.937,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Zhou Duan ( CHN )",
+          [
+            "/wiki/Zhou_Duan"
+          ]
+        ],
+        [
+          8.787,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the rankings and scores of gymnasts who participated in the 1997 World Artistic Gymnastics Championships. It includes details about their rank, names, and total scores, offering a summary of their performance in the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "table_id": "T10525",
+  "uid": "c3736e3b-5d28-5a03-bd20-5960b2d994a3",
+  "source": "HybridQA",
+  "source_table_id": "c3736e3b-5d28-5a03-bd20-5960b2d994a3",
+  "domain": "HybridQA",
+  "title": "Copa de Honor Cousenier",
+  "columns": [
+    "Club",
+    "Titles",
+    "Years won"
+  ],
+  "rows": [
+    [
+      [
+        "Nacional",
+        [
+          "/wiki/Club_Nacional_de_Football"
+        ]
+      ],
+      [
+        4,
+        []
+      ],
+      [
+        "1905 , 1915 , 1916 , 1917",
+        []
+      ]
+    ],
+    [
+      [
+        "CURCC / Peñarol",
+        [
+          "/wiki/Central_Uruguay_Railway_Cricket_Club",
+          "/wiki/Peñarol"
+        ]
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        "1909 , 1911 , 1918",
+        []
+      ]
+    ],
+    [
+      [
+        "Alumni",
+        [
+          "/wiki/Alumni_Athletic_Club"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1906,
+        []
+      ]
+    ],
+    [
+      [
+        "Belgrano AC",
+        [
+          "/wiki/Belgrano_Athletic_Club"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1907,
+        []
+      ]
+    ],
+    [
+      [
+        "Wanderers",
+        [
+          "/wiki/Montevideo_Wanderers"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1908,
+        []
+      ]
+    ],
+    [
+      [
+        "River Plate ( M )",
+        [
+          "/wiki/River_Plate_F.C."
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1912,
+        []
+      ]
+    ],
+    [
+      [
+        "Racing",
+        [
+          "/wiki/Racing_Club_de_Avellaneda"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1913,
+        []
+      ]
+    ],
+    [
+      [
+        "Boca Juniors",
+        [
+          "/wiki/Boca_Juniors"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1920,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "c3736e3b-5d28-5a03-bd20-5960b2d994a3",
+    "table_id": "Copa_de_Honor_Cousenier_1",
+    "title": "Copa de Honor Cousenier",
+    "header": [
+      "Club",
+      "Titles",
+      "Years won"
+    ],
+    "value": [
+      [
+        [
+          "Nacional",
+          [
+            "/wiki/Club_Nacional_de_Football"
+          ]
+        ],
+        [
+          4,
+          []
+        ],
+        [
+          "1905 , 1915 , 1916 , 1917",
+          []
+        ]
+      ],
+      [
+        [
+          "CURCC / Peñarol",
+          [
+            "/wiki/Central_Uruguay_Railway_Cricket_Club",
+            "/wiki/Peñarol"
+          ]
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          "1909 , 1911 , 1918",
+          []
+        ]
+      ],
+      [
+        [
+          "Alumni",
+          [
+            "/wiki/Alumni_Athletic_Club"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1906,
+          []
+        ]
+      ],
+      [
+        [
+          "Belgrano AC",
+          [
+            "/wiki/Belgrano_Athletic_Club"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1907,
+          []
+        ]
+      ],
+      [
+        [
+          "Wanderers",
+          [
+            "/wiki/Montevideo_Wanderers"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1908,
+          []
+        ]
+      ],
+      [
+        [
+          "River Plate ( M )",
+          [
+            "/wiki/River_Plate_F.C."
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1912,
+          []
+        ]
+      ],
+      [
+        [
+          "Racing",
+          [
+            "/wiki/Racing_Club_de_Avellaneda"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1913,
+          []
+        ]
+      ],
+      [
+        [
+          "Boca Juniors",
+          [
+            "/wiki/Boca_Juniors"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1920,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about the Copa de Honor Cousenier, a historical football competition. It lists the clubs that participated, the number of titles they won, and the years in which they achieved those victories. This table serves to summarize the achievements of various clubs in this tournament.",
+  "numeric_columns": [
+    "Titles"
+  ],
+  "categorical_columns": [
+    "Years won"
+  ],
+  "entities": [
+    "Club"
+  ]
+}

@@ -1,0 +1,566 @@
+{
+  "table_id": "T8714",
+  "uid": "c94c62f1-069c-5db7-a9a8-79fad16155c8",
+  "source": "HybridQA",
+  "source_table_id": "c94c62f1-069c-5db7-a9a8-79fad16155c8",
+  "domain": "HybridQA",
+  "title": "List of best-selling books",
+  "columns": [
+    "Book",
+    "Author ( s )",
+    "Original language",
+    "First published",
+    "Approximate sales",
+    "Genre"
+  ],
+  "rows": [
+    [
+      [
+        "The Lord of the Rings",
+        [
+          "/wiki/The_Lord_of_the_Rings"
+        ]
+      ],
+      [
+        "J. R. R. Tolkien",
+        [
+          "/wiki/J._R._R._Tolkien"
+        ]
+      ],
+      [
+        "English",
+        []
+      ],
+      [
+        1954,
+        []
+      ],
+      [
+        "150 million",
+        []
+      ],
+      [
+        "fantasy",
+        [
+          "/wiki/Fantasy"
+        ]
+      ]
+    ],
+    [
+      [
+        "The Little Prince ( Le Petit Prince )",
+        [
+          "/wiki/The_Little_Prince"
+        ]
+      ],
+      [
+        "Antoine de Saint-Exupéry",
+        [
+          "/wiki/Antoine_de_Saint-Exupéry"
+        ]
+      ],
+      [
+        "French",
+        []
+      ],
+      [
+        1943,
+        []
+      ],
+      [
+        "140 million",
+        []
+      ],
+      [
+        "fantasy ( picture book )",
+        [
+          "/wiki/Fantasy"
+        ]
+      ]
+    ],
+    [
+      [
+        "Harry Potter and the Philosopher 's Stone",
+        [
+          "/wiki/Harry_Potter_and_the_Philosopher's_Stone"
+        ]
+      ],
+      [
+        "J. K. Rowling",
+        [
+          "/wiki/J._K._Rowling"
+        ]
+      ],
+      [
+        "English",
+        []
+      ],
+      [
+        1997,
+        []
+      ],
+      [
+        "120 million",
+        []
+      ],
+      [
+        "fantasy",
+        [
+          "/wiki/Fantasy"
+        ]
+      ]
+    ],
+    [
+      [
+        "The Master and Margarita ( Мастер и Маргарита )",
+        [
+          "/wiki/The_Master_and_Margarita"
+        ]
+      ],
+      [
+        "Mikhail Bulgakov",
+        [
+          "/wiki/Mikhail_Bulgakov"
+        ]
+      ],
+      [
+        "Russian",
+        []
+      ],
+      [
+        1967,
+        []
+      ],
+      [
+        "100 million",
+        []
+      ],
+      [
+        "fantasy , farce , supernatural , romance , satirical novel",
+        [
+          "/wiki/Fantasy",
+          "/wiki/Farce",
+          "/wiki/Supernatural_fiction",
+          "/wiki/Romance_novel",
+          "/wiki/Satirical_novel"
+        ]
+      ]
+    ],
+    [
+      [
+        "Alice 's Adventures in Wonderland",
+        [
+          "/wiki/Alice's_Adventures_in_Wonderland"
+        ]
+      ],
+      [
+        "Lewis Carroll",
+        [
+          "/wiki/Lewis_Carroll"
+        ]
+      ],
+      [
+        "English",
+        []
+      ],
+      [
+        1865,
+        []
+      ],
+      [
+        "100 million",
+        []
+      ],
+      [
+        "fantasy novel",
+        [
+          "/wiki/Fantasy_novel"
+        ]
+      ]
+    ],
+    [
+      [
+        "The Hobbit",
+        [
+          "/wiki/The_Hobbit"
+        ]
+      ],
+      [
+        "J. R. R. Tolkien",
+        [
+          "/wiki/J._R._R._Tolkien"
+        ]
+      ],
+      [
+        "English",
+        []
+      ],
+      [
+        1937,
+        []
+      ],
+      [
+        "100 million",
+        []
+      ],
+      [
+        "fantasy",
+        [
+          "/wiki/Fantasy"
+        ]
+      ]
+    ],
+    [
+      [
+        "And Then There Were None",
+        [
+          "/wiki/And_Then_There_Were_None"
+        ]
+      ],
+      [
+        "Agatha Christie",
+        [
+          "/wiki/Agatha_Christie"
+        ]
+      ],
+      [
+        "English",
+        []
+      ],
+      [
+        1939,
+        []
+      ],
+      [
+        "100 million",
+        []
+      ],
+      [
+        "mystery",
+        [
+          "/wiki/Mystery_fiction"
+        ]
+      ]
+    ],
+    [
+      [
+        "Dream of the Red Chamber ( 红楼梦 )",
+        [
+          "/wiki/Dream_of_the_Red_Chamber"
+        ]
+      ],
+      [
+        "Cao Xueqin",
+        [
+          "/wiki/Cao_Xueqin"
+        ]
+      ],
+      [
+        "Chinese",
+        []
+      ],
+      [
+        1791,
+        []
+      ],
+      [
+        "100 million",
+        []
+      ],
+      [
+        "family saga",
+        [
+          "/wiki/Family_saga"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "c94c62f1-069c-5db7-a9a8-79fad16155c8",
+    "table_id": "List_of_best-selling_books_0",
+    "title": "List of best-selling books",
+    "header": [
+      "Book",
+      "Author ( s )",
+      "Original language",
+      "First published",
+      "Approximate sales",
+      "Genre"
+    ],
+    "value": [
+      [
+        [
+          "The Lord of the Rings",
+          [
+            "/wiki/The_Lord_of_the_Rings"
+          ]
+        ],
+        [
+          "J. R. R. Tolkien",
+          [
+            "/wiki/J._R._R._Tolkien"
+          ]
+        ],
+        [
+          "English",
+          []
+        ],
+        [
+          1954,
+          []
+        ],
+        [
+          "150 million",
+          []
+        ],
+        [
+          "fantasy",
+          [
+            "/wiki/Fantasy"
+          ]
+        ]
+      ],
+      [
+        [
+          "The Little Prince ( Le Petit Prince )",
+          [
+            "/wiki/The_Little_Prince"
+          ]
+        ],
+        [
+          "Antoine de Saint-Exupéry",
+          [
+            "/wiki/Antoine_de_Saint-Exupéry"
+          ]
+        ],
+        [
+          "French",
+          []
+        ],
+        [
+          1943,
+          []
+        ],
+        [
+          "140 million",
+          []
+        ],
+        [
+          "fantasy ( picture book )",
+          [
+            "/wiki/Fantasy"
+          ]
+        ]
+      ],
+      [
+        [
+          "Harry Potter and the Philosopher 's Stone",
+          [
+            "/wiki/Harry_Potter_and_the_Philosopher's_Stone"
+          ]
+        ],
+        [
+          "J. K. Rowling",
+          [
+            "/wiki/J._K._Rowling"
+          ]
+        ],
+        [
+          "English",
+          []
+        ],
+        [
+          1997,
+          []
+        ],
+        [
+          "120 million",
+          []
+        ],
+        [
+          "fantasy",
+          [
+            "/wiki/Fantasy"
+          ]
+        ]
+      ],
+      [
+        [
+          "The Master and Margarita ( Мастер и Маргарита )",
+          [
+            "/wiki/The_Master_and_Margarita"
+          ]
+        ],
+        [
+          "Mikhail Bulgakov",
+          [
+            "/wiki/Mikhail_Bulgakov"
+          ]
+        ],
+        [
+          "Russian",
+          []
+        ],
+        [
+          1967,
+          []
+        ],
+        [
+          "100 million",
+          []
+        ],
+        [
+          "fantasy , farce , supernatural , romance , satirical novel",
+          [
+            "/wiki/Fantasy",
+            "/wiki/Farce",
+            "/wiki/Supernatural_fiction",
+            "/wiki/Romance_novel",
+            "/wiki/Satirical_novel"
+          ]
+        ]
+      ],
+      [
+        [
+          "Alice 's Adventures in Wonderland",
+          [
+            "/wiki/Alice's_Adventures_in_Wonderland"
+          ]
+        ],
+        [
+          "Lewis Carroll",
+          [
+            "/wiki/Lewis_Carroll"
+          ]
+        ],
+        [
+          "English",
+          []
+        ],
+        [
+          1865,
+          []
+        ],
+        [
+          "100 million",
+          []
+        ],
+        [
+          "fantasy novel",
+          [
+            "/wiki/Fantasy_novel"
+          ]
+        ]
+      ],
+      [
+        [
+          "The Hobbit",
+          [
+            "/wiki/The_Hobbit"
+          ]
+        ],
+        [
+          "J. R. R. Tolkien",
+          [
+            "/wiki/J._R._R._Tolkien"
+          ]
+        ],
+        [
+          "English",
+          []
+        ],
+        [
+          1937,
+          []
+        ],
+        [
+          "100 million",
+          []
+        ],
+        [
+          "fantasy",
+          [
+            "/wiki/Fantasy"
+          ]
+        ]
+      ],
+      [
+        [
+          "And Then There Were None",
+          [
+            "/wiki/And_Then_There_Were_None"
+          ]
+        ],
+        [
+          "Agatha Christie",
+          [
+            "/wiki/Agatha_Christie"
+          ]
+        ],
+        [
+          "English",
+          []
+        ],
+        [
+          1939,
+          []
+        ],
+        [
+          "100 million",
+          []
+        ],
+        [
+          "mystery",
+          [
+            "/wiki/Mystery_fiction"
+          ]
+        ]
+      ],
+      [
+        [
+          "Dream of the Red Chamber ( 红楼梦 )",
+          [
+            "/wiki/Dream_of_the_Red_Chamber"
+          ]
+        ],
+        [
+          "Cao Xueqin",
+          [
+            "/wiki/Cao_Xueqin"
+          ]
+        ],
+        [
+          "Chinese",
+          []
+        ],
+        [
+          1791,
+          []
+        ],
+        [
+          "100 million",
+          []
+        ],
+        [
+          "family saga",
+          [
+            "/wiki/Family_saga"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about best-selling books, including their authors, original language, publication year, approximate sales figures, and genres. It serves as a reference for identifying popular literary works and their key attributes. The data combines numeric and categorical details along with entities related to books and authors.",
+  "numeric_columns": [
+    "First published",
+    "Approximate sales"
+  ],
+  "categorical_columns": [
+    "Original language",
+    "Genre"
+  ],
+  "entities": [
+    "Book",
+    "Author ( s )"
+  ]
+}

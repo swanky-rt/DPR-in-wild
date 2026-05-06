@@ -1,0 +1,512 @@
+{
+  "table_id": "T10763",
+  "uid": "0efd8cd8-4760-580b-a1b7-621f567be672",
+  "source": "HybridQA",
+  "source_table_id": "0efd8cd8-4760-580b-a1b7-621f567be672",
+  "domain": "HybridQA",
+  "title": "Seychelles First Division",
+  "columns": [
+    "Team",
+    "City",
+    "Stadium"
+  ],
+  "rows": [
+    [
+      [
+        "Anse Réunion FC",
+        [
+          "/wiki/Anse_Réunion_FC"
+        ]
+      ],
+      [
+        "Anse Réunion , La Digue",
+        [
+          "/wiki/La_Digue"
+        ]
+      ],
+      [
+        "La Digue Playing Fields",
+        []
+      ]
+    ],
+    [
+      [
+        "Côte d'Or FC",
+        [
+          "/wiki/Côte_d'Or_FC"
+        ]
+      ],
+      [
+        "Grand'Anse Praslin , Praslin",
+        [
+          "/wiki/Grand'Anse_Praslin",
+          "/wiki/Praslin"
+        ]
+      ],
+      [
+        "Stade dAmitié",
+        [
+          "/wiki/Stade_d’Amitié"
+        ]
+      ]
+    ],
+    [
+      [
+        "Foresters",
+        [
+          "/wiki/Foresters_(Mont_Fleuri)"
+        ]
+      ],
+      [
+        "Mont Fleuri , Mahé",
+        [
+          "/wiki/Mont_Fleuri",
+          "/wiki/Mahé,_Seychelles"
+        ]
+      ],
+      [
+        "Mont Fleuri",
+        []
+      ]
+    ],
+    [
+      [
+        "La Passe FC",
+        [
+          "/wiki/La_Passe_FC"
+        ]
+      ],
+      [
+        "La Digue",
+        [
+          "/wiki/La_Digue"
+        ]
+      ],
+      [
+        "La Passe Ground",
+        []
+      ]
+    ],
+    [
+      [
+        "Light Stars FC",
+        [
+          "/wiki/Light_Stars_FC"
+        ]
+      ],
+      [
+        "Grand'Anse Praslin , Praslin",
+        [
+          "/wiki/Grand'Anse_Praslin",
+          "/wiki/Praslin"
+        ]
+      ],
+      [
+        "Stade dAmitié",
+        [
+          "/wiki/Stade_d’Amitié"
+        ]
+      ]
+    ],
+    [
+      [
+        "The Lions FC",
+        [
+          "/wiki/The_Lions_FC"
+        ]
+      ],
+      [
+        "Cascade , Mahé",
+        [
+          "/wiki/Cascade,_Seychelles",
+          "/wiki/Mahé,_Seychelles"
+        ]
+      ],
+      [
+        "Stade Linité",
+        [
+          "/wiki/Stade_Linité"
+        ]
+      ]
+    ],
+    [
+      [
+        "Northern Dynamo FC",
+        [
+          "/wiki/Northern_Dynamo_FC"
+        ]
+      ],
+      [
+        "Glacis , Mahé",
+        [
+          "/wiki/Glacis,_Seychelles",
+          "/wiki/Mahé,_Seychelles"
+        ]
+      ],
+      [
+        "Glacis",
+        []
+      ]
+    ],
+    [
+      [
+        "Revengers FC",
+        [
+          "/wiki/Revengers_FC"
+        ]
+      ],
+      [
+        "Grand'Anse Praslin , Praslin",
+        [
+          "/wiki/Grand'Anse_Praslin",
+          "/wiki/Praslin"
+        ]
+      ],
+      [
+        "Stade dAmitié",
+        [
+          "/wiki/Stade_d’Amitié"
+        ]
+      ]
+    ],
+    [
+      [
+        "Red Star Defence Forces",
+        [
+          "/wiki/Military_of_Seychelles"
+        ]
+      ],
+      [
+        "Victoria , Mahé",
+        [
+          "/wiki/Victoria,_Seychelles",
+          "/wiki/Mahé,_Seychelles"
+        ]
+      ],
+      [
+        "Military Filed",
+        []
+      ]
+    ],
+    [
+      [
+        "Saint John Bosco",
+        [
+          "/wiki/St_Roch_United"
+        ]
+      ],
+      [
+        "Pointe La Rue , Mahé",
+        [
+          "/wiki/Pointe_La_Rue",
+          "/wiki/Mahé,_Seychelles"
+        ]
+      ],
+      [
+        "Ground",
+        []
+      ]
+    ],
+    [
+      [
+        "St Louis Suns United",
+        [
+          "/wiki/Saint_Louis_Suns_United"
+        ]
+      ],
+      [
+        "Victoria , Mahé ,",
+        [
+          "/wiki/Victoria,_Seychelles",
+          "/wiki/Mahé,_Seychelles"
+        ]
+      ],
+      [
+        "Stade Linité",
+        [
+          "/wiki/Stade_Linité"
+        ]
+      ]
+    ],
+    [
+      [
+        "St Michel United FC",
+        [
+          "/wiki/St_Michel_United_FC"
+        ]
+      ],
+      [
+        "Anse-aux-Pins , Mahé",
+        [
+          "/wiki/Anse-aux-Pins",
+          "/wiki/Mahé,_Seychelles"
+        ]
+      ],
+      [
+        "Roche Caiman",
+        [
+          "/wiki/Roche_Caiman"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "0efd8cd8-4760-580b-a1b7-621f567be672",
+    "table_id": "Seychelles_First_Division_0",
+    "title": "Seychelles First Division",
+    "header": [
+      "Team",
+      "City",
+      "Stadium"
+    ],
+    "value": [
+      [
+        [
+          "Anse Réunion FC",
+          [
+            "/wiki/Anse_Réunion_FC"
+          ]
+        ],
+        [
+          "Anse Réunion , La Digue",
+          [
+            "/wiki/La_Digue"
+          ]
+        ],
+        [
+          "La Digue Playing Fields",
+          []
+        ]
+      ],
+      [
+        [
+          "Côte d'Or FC",
+          [
+            "/wiki/Côte_d'Or_FC"
+          ]
+        ],
+        [
+          "Grand'Anse Praslin , Praslin",
+          [
+            "/wiki/Grand'Anse_Praslin",
+            "/wiki/Praslin"
+          ]
+        ],
+        [
+          "Stade dAmitié",
+          [
+            "/wiki/Stade_d’Amitié"
+          ]
+        ]
+      ],
+      [
+        [
+          "Foresters",
+          [
+            "/wiki/Foresters_(Mont_Fleuri)"
+          ]
+        ],
+        [
+          "Mont Fleuri , Mahé",
+          [
+            "/wiki/Mont_Fleuri",
+            "/wiki/Mahé,_Seychelles"
+          ]
+        ],
+        [
+          "Mont Fleuri",
+          []
+        ]
+      ],
+      [
+        [
+          "La Passe FC",
+          [
+            "/wiki/La_Passe_FC"
+          ]
+        ],
+        [
+          "La Digue",
+          [
+            "/wiki/La_Digue"
+          ]
+        ],
+        [
+          "La Passe Ground",
+          []
+        ]
+      ],
+      [
+        [
+          "Light Stars FC",
+          [
+            "/wiki/Light_Stars_FC"
+          ]
+        ],
+        [
+          "Grand'Anse Praslin , Praslin",
+          [
+            "/wiki/Grand'Anse_Praslin",
+            "/wiki/Praslin"
+          ]
+        ],
+        [
+          "Stade dAmitié",
+          [
+            "/wiki/Stade_d’Amitié"
+          ]
+        ]
+      ],
+      [
+        [
+          "The Lions FC",
+          [
+            "/wiki/The_Lions_FC"
+          ]
+        ],
+        [
+          "Cascade , Mahé",
+          [
+            "/wiki/Cascade,_Seychelles",
+            "/wiki/Mahé,_Seychelles"
+          ]
+        ],
+        [
+          "Stade Linité",
+          [
+            "/wiki/Stade_Linité"
+          ]
+        ]
+      ],
+      [
+        [
+          "Northern Dynamo FC",
+          [
+            "/wiki/Northern_Dynamo_FC"
+          ]
+        ],
+        [
+          "Glacis , Mahé",
+          [
+            "/wiki/Glacis,_Seychelles",
+            "/wiki/Mahé,_Seychelles"
+          ]
+        ],
+        [
+          "Glacis",
+          []
+        ]
+      ],
+      [
+        [
+          "Revengers FC",
+          [
+            "/wiki/Revengers_FC"
+          ]
+        ],
+        [
+          "Grand'Anse Praslin , Praslin",
+          [
+            "/wiki/Grand'Anse_Praslin",
+            "/wiki/Praslin"
+          ]
+        ],
+        [
+          "Stade dAmitié",
+          [
+            "/wiki/Stade_d’Amitié"
+          ]
+        ]
+      ],
+      [
+        [
+          "Red Star Defence Forces",
+          [
+            "/wiki/Military_of_Seychelles"
+          ]
+        ],
+        [
+          "Victoria , Mahé",
+          [
+            "/wiki/Victoria,_Seychelles",
+            "/wiki/Mahé,_Seychelles"
+          ]
+        ],
+        [
+          "Military Filed",
+          []
+        ]
+      ],
+      [
+        [
+          "Saint John Bosco",
+          [
+            "/wiki/St_Roch_United"
+          ]
+        ],
+        [
+          "Pointe La Rue , Mahé",
+          [
+            "/wiki/Pointe_La_Rue",
+            "/wiki/Mahé,_Seychelles"
+          ]
+        ],
+        [
+          "Ground",
+          []
+        ]
+      ],
+      [
+        [
+          "St Louis Suns United",
+          [
+            "/wiki/Saint_Louis_Suns_United"
+          ]
+        ],
+        [
+          "Victoria , Mahé ,",
+          [
+            "/wiki/Victoria,_Seychelles",
+            "/wiki/Mahé,_Seychelles"
+          ]
+        ],
+        [
+          "Stade Linité",
+          [
+            "/wiki/Stade_Linité"
+          ]
+        ]
+      ],
+      [
+        [
+          "St Michel United FC",
+          [
+            "/wiki/St_Michel_United_FC"
+          ]
+        ],
+        [
+          "Anse-aux-Pins , Mahé",
+          [
+            "/wiki/Anse-aux-Pins",
+            "/wiki/Mahé,_Seychelles"
+          ]
+        ],
+        [
+          "Roche Caiman",
+          [
+            "/wiki/Roche_Caiman"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about teams in the Seychelles First Division, including their associated cities and stadiums. It serves as a reference for understanding the geographical and infrastructural aspects of football teams in this league.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "City"
+  ],
+  "entities": [
+    "Team",
+    "Stadium"
+  ]
+}

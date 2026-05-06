@@ -1,0 +1,615 @@
+{
+  "table_id": "T2151",
+  "uid": "37cef8e9-1336-5be1-91d1-41f4af867d3c",
+  "source": "HybridQA",
+  "source_table_id": "37cef8e9-1336-5be1-91d1-41f4af867d3c",
+  "domain": "HybridQA",
+  "title": "2005 AFL draft",
+  "columns": [
+    "Player Name",
+    "Original club",
+    "New club",
+    "Traded for"
+  ],
+  "rows": [
+    [
+      [
+        "Fergus Watts",
+        [
+          "/wiki/Fergus_Watts"
+        ]
+      ],
+      [
+        "Adelaide",
+        [
+          "/wiki/Adelaide_Football_Club"
+        ]
+      ],
+      [
+        "St Kilda",
+        [
+          "/wiki/St_Kilda_Football_Club"
+        ]
+      ],
+      [
+        "draft pick # 17",
+        []
+      ]
+    ],
+    [
+      [
+        "Richard Cole",
+        [
+          "/wiki/Richard_Cole_(footballer)"
+        ]
+      ],
+      [
+        "Collingwood",
+        [
+          "/wiki/Collingwood_Football_Club"
+        ]
+      ],
+      [
+        "Essendon",
+        [
+          "/wiki/Essendon_Football_Club"
+        ]
+      ],
+      [
+        "draft pick # 23",
+        []
+      ]
+    ],
+    [
+      [
+        "Ted Richards",
+        [
+          "/wiki/Ted_Richards"
+        ]
+      ],
+      [
+        "Essendon",
+        [
+          "/wiki/Essendon_Football_Club"
+        ]
+      ],
+      [
+        "Sydney Swans",
+        [
+          "/wiki/Sydney_Swans"
+        ]
+      ],
+      [
+        "draft picks # 19 & # 50",
+        []
+      ]
+    ],
+    [
+      [
+        "Jonathan Hay",
+        [
+          "/wiki/Jonathan_Hay_(footballer)"
+        ]
+      ],
+      [
+        "Hawthorn",
+        [
+          "/wiki/Hawthorn_Football_Club"
+        ]
+      ],
+      [
+        "Kangaroos",
+        [
+          "/wiki/Kangaroos_Football_Club"
+        ]
+      ],
+      [
+        "draft pick # 18",
+        []
+      ]
+    ],
+    [
+      [
+        "Nathan Lonie",
+        [
+          "/wiki/Nathan_Lonie"
+        ]
+      ],
+      [
+        "Hawthorn",
+        [
+          "/wiki/Hawthorn_Football_Club"
+        ]
+      ],
+      [
+        "Port Adelaide",
+        [
+          "/wiki/Port_Adelaide_Football_Club"
+        ]
+      ],
+      [
+        "draft pick # 14",
+        []
+      ]
+    ],
+    [
+      [
+        "Daniel Motlop",
+        [
+          "/wiki/Daniel_Motlop"
+        ]
+      ],
+      [
+        "Kangaroos",
+        [
+          "/wiki/Kangaroos_Football_Club"
+        ]
+      ],
+      [
+        "Port Adelaide",
+        [
+          "/wiki/Port_Adelaide_Football_Club"
+        ]
+      ],
+      [
+        "draft picks # 28 & # 46",
+        []
+      ]
+    ],
+    [
+      [
+        "Byron Pickett and picks # 54 & # 62",
+        [
+          "/wiki/Byron_Pickett"
+        ]
+      ],
+      [
+        "Port Adelaide",
+        [
+          "/wiki/Port_Adelaide_Football_Club"
+        ]
+      ],
+      [
+        "Melbourne",
+        [
+          "/wiki/Melbourne_Football_Club"
+        ]
+      ],
+      [
+        "draft picks # 28 , # 44 & # 60",
+        []
+      ]
+    ],
+    [
+      [
+        "Jason Saddington",
+        [
+          "/wiki/Jason_Saddington"
+        ]
+      ],
+      [
+        "Sydney Swans",
+        [
+          "/wiki/Sydney_Swans"
+        ]
+      ],
+      [
+        "Carlton",
+        [
+          "/wiki/Carlton_Football_Club"
+        ]
+      ],
+      [
+        "draft pick # 52",
+        []
+      ]
+    ],
+    [
+      [
+        "Mark Powell",
+        [
+          "/wiki/Mark_Powell_(footballer)"
+        ]
+      ],
+      [
+        "Sydney Swans",
+        [
+          "/wiki/Sydney_Swans"
+        ]
+      ],
+      [
+        "Kangaroos",
+        [
+          "/wiki/Kangaroos_Football_Club"
+        ]
+      ],
+      [
+        "draft pick # 61",
+        []
+      ]
+    ],
+    [
+      [
+        "Daniel McConnell and pick # 18",
+        [
+          "/wiki/Daniel_McConnell_(footballer)"
+        ]
+      ],
+      [
+        "West Coast Eagles",
+        [
+          "/wiki/West_Coast_Eagles"
+        ]
+      ],
+      [
+        "Kangaroos",
+        [
+          "/wiki/Kangaroos_Football_Club"
+        ]
+      ],
+      [
+        "draft picks # 13 & # 29",
+        []
+      ]
+    ],
+    [
+      [
+        "Jade Rawlings and pick # 43",
+        [
+          "/wiki/Jade_Rawlings"
+        ]
+      ],
+      [
+        "Western Bulldogs",
+        [
+          "/wiki/Western_Bulldogs"
+        ]
+      ],
+      [
+        "Kangaroos",
+        [
+          "/wiki/Kangaroos_Football_Club"
+        ]
+      ],
+      [
+        "draft picks # 46",
+        []
+      ]
+    ],
+    [
+      [
+        "Patrick Bowden",
+        [
+          "/wiki/Patrick_Bowden"
+        ]
+      ],
+      [
+        "Western Bulldogs",
+        [
+          "/wiki/Western_Bulldogs"
+        ]
+      ],
+      [
+        "Richmond",
+        [
+          "/wiki/Richmond_Football_Club"
+        ]
+      ],
+      [
+        "draft pick # 56",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "37cef8e9-1336-5be1-91d1-41f4af867d3c",
+    "table_id": "2005_AFL_Draft_0",
+    "title": "2005 AFL draft",
+    "header": [
+      "Player Name",
+      "Original club",
+      "New club",
+      "Traded for"
+    ],
+    "value": [
+      [
+        [
+          "Fergus Watts",
+          [
+            "/wiki/Fergus_Watts"
+          ]
+        ],
+        [
+          "Adelaide",
+          [
+            "/wiki/Adelaide_Football_Club"
+          ]
+        ],
+        [
+          "St Kilda",
+          [
+            "/wiki/St_Kilda_Football_Club"
+          ]
+        ],
+        [
+          "draft pick # 17",
+          []
+        ]
+      ],
+      [
+        [
+          "Richard Cole",
+          [
+            "/wiki/Richard_Cole_(footballer)"
+          ]
+        ],
+        [
+          "Collingwood",
+          [
+            "/wiki/Collingwood_Football_Club"
+          ]
+        ],
+        [
+          "Essendon",
+          [
+            "/wiki/Essendon_Football_Club"
+          ]
+        ],
+        [
+          "draft pick # 23",
+          []
+        ]
+      ],
+      [
+        [
+          "Ted Richards",
+          [
+            "/wiki/Ted_Richards"
+          ]
+        ],
+        [
+          "Essendon",
+          [
+            "/wiki/Essendon_Football_Club"
+          ]
+        ],
+        [
+          "Sydney Swans",
+          [
+            "/wiki/Sydney_Swans"
+          ]
+        ],
+        [
+          "draft picks # 19 & # 50",
+          []
+        ]
+      ],
+      [
+        [
+          "Jonathan Hay",
+          [
+            "/wiki/Jonathan_Hay_(footballer)"
+          ]
+        ],
+        [
+          "Hawthorn",
+          [
+            "/wiki/Hawthorn_Football_Club"
+          ]
+        ],
+        [
+          "Kangaroos",
+          [
+            "/wiki/Kangaroos_Football_Club"
+          ]
+        ],
+        [
+          "draft pick # 18",
+          []
+        ]
+      ],
+      [
+        [
+          "Nathan Lonie",
+          [
+            "/wiki/Nathan_Lonie"
+          ]
+        ],
+        [
+          "Hawthorn",
+          [
+            "/wiki/Hawthorn_Football_Club"
+          ]
+        ],
+        [
+          "Port Adelaide",
+          [
+            "/wiki/Port_Adelaide_Football_Club"
+          ]
+        ],
+        [
+          "draft pick # 14",
+          []
+        ]
+      ],
+      [
+        [
+          "Daniel Motlop",
+          [
+            "/wiki/Daniel_Motlop"
+          ]
+        ],
+        [
+          "Kangaroos",
+          [
+            "/wiki/Kangaroos_Football_Club"
+          ]
+        ],
+        [
+          "Port Adelaide",
+          [
+            "/wiki/Port_Adelaide_Football_Club"
+          ]
+        ],
+        [
+          "draft picks # 28 & # 46",
+          []
+        ]
+      ],
+      [
+        [
+          "Byron Pickett and picks # 54 & # 62",
+          [
+            "/wiki/Byron_Pickett"
+          ]
+        ],
+        [
+          "Port Adelaide",
+          [
+            "/wiki/Port_Adelaide_Football_Club"
+          ]
+        ],
+        [
+          "Melbourne",
+          [
+            "/wiki/Melbourne_Football_Club"
+          ]
+        ],
+        [
+          "draft picks # 28 , # 44 & # 60",
+          []
+        ]
+      ],
+      [
+        [
+          "Jason Saddington",
+          [
+            "/wiki/Jason_Saddington"
+          ]
+        ],
+        [
+          "Sydney Swans",
+          [
+            "/wiki/Sydney_Swans"
+          ]
+        ],
+        [
+          "Carlton",
+          [
+            "/wiki/Carlton_Football_Club"
+          ]
+        ],
+        [
+          "draft pick # 52",
+          []
+        ]
+      ],
+      [
+        [
+          "Mark Powell",
+          [
+            "/wiki/Mark_Powell_(footballer)"
+          ]
+        ],
+        [
+          "Sydney Swans",
+          [
+            "/wiki/Sydney_Swans"
+          ]
+        ],
+        [
+          "Kangaroos",
+          [
+            "/wiki/Kangaroos_Football_Club"
+          ]
+        ],
+        [
+          "draft pick # 61",
+          []
+        ]
+      ],
+      [
+        [
+          "Daniel McConnell and pick # 18",
+          [
+            "/wiki/Daniel_McConnell_(footballer)"
+          ]
+        ],
+        [
+          "West Coast Eagles",
+          [
+            "/wiki/West_Coast_Eagles"
+          ]
+        ],
+        [
+          "Kangaroos",
+          [
+            "/wiki/Kangaroos_Football_Club"
+          ]
+        ],
+        [
+          "draft picks # 13 & # 29",
+          []
+        ]
+      ],
+      [
+        [
+          "Jade Rawlings and pick # 43",
+          [
+            "/wiki/Jade_Rawlings"
+          ]
+        ],
+        [
+          "Western Bulldogs",
+          [
+            "/wiki/Western_Bulldogs"
+          ]
+        ],
+        [
+          "Kangaroos",
+          [
+            "/wiki/Kangaroos_Football_Club"
+          ]
+        ],
+        [
+          "draft picks # 46",
+          []
+        ]
+      ],
+      [
+        [
+          "Patrick Bowden",
+          [
+            "/wiki/Patrick_Bowden"
+          ]
+        ],
+        [
+          "Western Bulldogs",
+          [
+            "/wiki/Western_Bulldogs"
+          ]
+        ],
+        [
+          "Richmond",
+          [
+            "/wiki/Richmond_Football_Club"
+          ]
+        ],
+        [
+          "draft pick # 56",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table represents the 2005 AFL draft, detailing player transfers between clubs. It includes information about the players, their original and new clubs, and the trade details, such as draft picks exchanged. The table is useful for understanding player movements and trade agreements during the draft period.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Original club",
+    "New club",
+    "Traded for"
+  ],
+  "entities": [
+    "Player Name"
+  ]
+}

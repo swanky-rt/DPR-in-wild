@@ -1,0 +1,380 @@
+{
+  "table_id": "T8154",
+  "uid": "87d2a34a-f862-563c-9946-0d884052c994",
+  "source": "HybridQA",
+  "source_table_id": "87d2a34a-f862-563c-9946-0d884052c994",
+  "domain": "HybridQA",
+  "title": "SI derived unit",
+  "columns": [
+    "Name",
+    "Symbol",
+    "Quantity",
+    "Expression in terms of SI base units"
+  ],
+  "rows": [
+    [
+      [
+        "metre per second",
+        [
+          "/wiki/Metre_per_second"
+        ]
+      ],
+      [
+        "m/s",
+        []
+      ],
+      [
+        "speed , velocity",
+        [
+          "/wiki/Speed",
+          "/wiki/Velocity"
+        ]
+      ],
+      [
+        "m⋅s",
+        []
+      ]
+    ],
+    [
+      [
+        "metre per second squared",
+        [
+          "/wiki/Metre_per_second_squared"
+        ]
+      ],
+      [
+        "m/s",
+        []
+      ],
+      [
+        "acceleration",
+        [
+          "/wiki/Acceleration"
+        ]
+      ],
+      [
+        "m⋅s",
+        []
+      ]
+    ],
+    [
+      [
+        "metre per second cubed",
+        []
+      ],
+      [
+        "m/s",
+        []
+      ],
+      [
+        "jerk , jolt",
+        [
+          "/wiki/Jerk_(physics)"
+        ]
+      ],
+      [
+        "m⋅s",
+        []
+      ]
+    ],
+    [
+      [
+        "metre per second to the fourth",
+        []
+      ],
+      [
+        "m/s",
+        []
+      ],
+      [
+        "snap , jounce",
+        [
+          "/wiki/Jounce"
+        ]
+      ],
+      [
+        "m⋅s",
+        []
+      ]
+    ],
+    [
+      [
+        "radian per second",
+        [
+          "/wiki/Radian_per_second"
+        ]
+      ],
+      [
+        "rad/s",
+        []
+      ],
+      [
+        "angular velocity",
+        [
+          "/wiki/Angular_velocity"
+        ]
+      ],
+      [
+        "s",
+        []
+      ]
+    ],
+    [
+      [
+        "radian per second squared",
+        [
+          "/wiki/Radian_per_second_squared"
+        ]
+      ],
+      [
+        "rad/s",
+        []
+      ],
+      [
+        "angular acceleration",
+        [
+          "/wiki/Angular_acceleration"
+        ]
+      ],
+      [
+        "s",
+        []
+      ]
+    ],
+    [
+      [
+        "hertz per second",
+        []
+      ],
+      [
+        "Hz/s",
+        []
+      ],
+      [
+        "frequency drift",
+        [
+          "/wiki/Frequency_drift"
+        ]
+      ],
+      [
+        "s",
+        []
+      ]
+    ],
+    [
+      [
+        "cubic metre per second",
+        [
+          "/wiki/Cubic_metre_per_second"
+        ]
+      ],
+      [
+        "m /s",
+        []
+      ],
+      [
+        "volumetric flow",
+        [
+          "/wiki/Volumetric_flow"
+        ]
+      ],
+      [
+        "m ⋅s",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "87d2a34a-f862-563c-9946-0d884052c994",
+    "table_id": "SI_derived_unit_1",
+    "title": "SI derived unit",
+    "header": [
+      "Name",
+      "Symbol",
+      "Quantity",
+      "Expression in terms of SI base units"
+    ],
+    "value": [
+      [
+        [
+          "metre per second",
+          [
+            "/wiki/Metre_per_second"
+          ]
+        ],
+        [
+          "m/s",
+          []
+        ],
+        [
+          "speed , velocity",
+          [
+            "/wiki/Speed",
+            "/wiki/Velocity"
+          ]
+        ],
+        [
+          "m⋅s",
+          []
+        ]
+      ],
+      [
+        [
+          "metre per second squared",
+          [
+            "/wiki/Metre_per_second_squared"
+          ]
+        ],
+        [
+          "m/s",
+          []
+        ],
+        [
+          "acceleration",
+          [
+            "/wiki/Acceleration"
+          ]
+        ],
+        [
+          "m⋅s",
+          []
+        ]
+      ],
+      [
+        [
+          "metre per second cubed",
+          []
+        ],
+        [
+          "m/s",
+          []
+        ],
+        [
+          "jerk , jolt",
+          [
+            "/wiki/Jerk_(physics)"
+          ]
+        ],
+        [
+          "m⋅s",
+          []
+        ]
+      ],
+      [
+        [
+          "metre per second to the fourth",
+          []
+        ],
+        [
+          "m/s",
+          []
+        ],
+        [
+          "snap , jounce",
+          [
+            "/wiki/Jounce"
+          ]
+        ],
+        [
+          "m⋅s",
+          []
+        ]
+      ],
+      [
+        [
+          "radian per second",
+          [
+            "/wiki/Radian_per_second"
+          ]
+        ],
+        [
+          "rad/s",
+          []
+        ],
+        [
+          "angular velocity",
+          [
+            "/wiki/Angular_velocity"
+          ]
+        ],
+        [
+          "s",
+          []
+        ]
+      ],
+      [
+        [
+          "radian per second squared",
+          [
+            "/wiki/Radian_per_second_squared"
+          ]
+        ],
+        [
+          "rad/s",
+          []
+        ],
+        [
+          "angular acceleration",
+          [
+            "/wiki/Angular_acceleration"
+          ]
+        ],
+        [
+          "s",
+          []
+        ]
+      ],
+      [
+        [
+          "hertz per second",
+          []
+        ],
+        [
+          "Hz/s",
+          []
+        ],
+        [
+          "frequency drift",
+          [
+            "/wiki/Frequency_drift"
+          ]
+        ],
+        [
+          "s",
+          []
+        ]
+      ],
+      [
+        [
+          "cubic metre per second",
+          [
+            "/wiki/Cubic_metre_per_second"
+          ]
+        ],
+        [
+          "m /s",
+          []
+        ],
+        [
+          "volumetric flow",
+          [
+            "/wiki/Volumetric_flow"
+          ]
+        ],
+        [
+          "m ⋅s",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about SI derived units, including their names, symbols, associated physical quantities, and expressions in terms of SI base units. It is designed to serve as a reference for understanding the relationships and representations of derived units in the International System of Units (SI). The table is relevant for scientific, educational, and technical contexts where precise unit definitions are required.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Name",
+    "Symbol",
+    "Quantity",
+    "Expression in terms of SI base units"
+  ],
+  "entities": []
+}

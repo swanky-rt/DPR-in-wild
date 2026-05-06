@@ -1,0 +1,293 @@
+{
+  "table_id": "T9716",
+  "uid": "55fb1752-2ec4-53dc-9218-14f8e0659f7c",
+  "source": "HybridQA",
+  "source_table_id": "55fb1752-2ec4-53dc-9218-14f8e0659f7c",
+  "domain": "HybridQA",
+  "title": "Daniela Romo",
+  "columns": [
+    "Year",
+    "Title",
+    "Role"
+  ],
+  "rows": [
+    [
+      [
+        1978,
+        []
+      ],
+      [
+        "La casa del pelícano",
+        [
+          "/wiki/La_casa_del_pelícano"
+        ]
+      ],
+      [
+        "Engracia",
+        []
+      ]
+    ],
+    [
+      [
+        1979,
+        []
+      ],
+      [
+        "Te quiero",
+        [
+          "/wiki/Te_quiero_(film)"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        1979,
+        []
+      ],
+      [
+        "Tres mujeres en la hoguera",
+        [
+          "/wiki/Tres_mujeres_en_la_hoguera"
+        ]
+      ],
+      [
+        "Peggy",
+        []
+      ]
+    ],
+    [
+      [
+        1979,
+        []
+      ],
+      [
+        "Puerto maldito",
+        [
+          "/wiki/Puerto_maldito"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        1979,
+        []
+      ],
+      [
+        "El año de la peste",
+        [
+          "/wiki/El_año_de_la_peste"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        1980,
+        []
+      ],
+      [
+        "Frontera",
+        [
+          "/wiki/Frontera_(1980_film)"
+        ]
+      ],
+      [
+        "Rosy",
+        []
+      ]
+    ],
+    [
+      [
+        1981,
+        []
+      ],
+      [
+        "Novia , esposa y amante",
+        [
+          "/wiki/Novia,_esposa_y_amante"
+        ]
+      ],
+      [
+        "Laura Mendoza",
+        []
+      ]
+    ],
+    [
+      [
+        1999,
+        []
+      ],
+      [
+        "One Man 's Hero",
+        [
+          "/wiki/One_Man's_Hero"
+        ]
+      ],
+      [
+        "Marta",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "55fb1752-2ec4-53dc-9218-14f8e0659f7c",
+    "table_id": "Daniela_Romo_0",
+    "title": "Daniela Romo",
+    "header": [
+      "Year",
+      "Title",
+      "Role"
+    ],
+    "value": [
+      [
+        [
+          1978,
+          []
+        ],
+        [
+          "La casa del pelícano",
+          [
+            "/wiki/La_casa_del_pelícano"
+          ]
+        ],
+        [
+          "Engracia",
+          []
+        ]
+      ],
+      [
+        [
+          1979,
+          []
+        ],
+        [
+          "Te quiero",
+          [
+            "/wiki/Te_quiero_(film)"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          1979,
+          []
+        ],
+        [
+          "Tres mujeres en la hoguera",
+          [
+            "/wiki/Tres_mujeres_en_la_hoguera"
+          ]
+        ],
+        [
+          "Peggy",
+          []
+        ]
+      ],
+      [
+        [
+          1979,
+          []
+        ],
+        [
+          "Puerto maldito",
+          [
+            "/wiki/Puerto_maldito"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          1979,
+          []
+        ],
+        [
+          "El año de la peste",
+          [
+            "/wiki/El_año_de_la_peste"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          1980,
+          []
+        ],
+        [
+          "Frontera",
+          [
+            "/wiki/Frontera_(1980_film)"
+          ]
+        ],
+        [
+          "Rosy",
+          []
+        ]
+      ],
+      [
+        [
+          1981,
+          []
+        ],
+        [
+          "Novia , esposa y amante",
+          [
+            "/wiki/Novia,_esposa_y_amante"
+          ]
+        ],
+        [
+          "Laura Mendoza",
+          []
+        ]
+      ],
+      [
+        [
+          1999,
+          []
+        ],
+        [
+          "One Man 's Hero",
+          [
+            "/wiki/One_Man's_Hero"
+          ]
+        ],
+        [
+          "Marta",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of works associated with Daniela Romo, including the year of release, the title of the work, and the role played. It is designed to catalog and summarize her contributions in various productions, likely in the entertainment industry.",
+  "numeric_columns": [
+    "Year"
+  ],
+  "categorical_columns": [
+    "Role"
+  ],
+  "entities": [
+    "Title"
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "table_id": "T9697",
+  "uid": "521ccb79-b197-5385-915c-088975486f6f",
+  "source": "HybridQA",
+  "source_table_id": "521ccb79-b197-5385-915c-088975486f6f",
+  "domain": "HybridQA",
+  "title": "KF Tirana",
+  "columns": [
+    "",
+    "Player",
+    "Goals"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Indrit Fortuzi",
+        [
+          "/wiki/Indrit_Fortuzi"
+        ]
+      ],
+      [
+        152,
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Arben Minga",
+        [
+          "/wiki/Arben_Minga"
+        ]
+      ],
+      [
+        136,
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Agustin Kola",
+        [
+          "/wiki/Agustin_Kola"
+        ]
+      ],
+      [
+        133,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Shkëlqim Muça",
+        [
+          "/wiki/Shkëlqim_Muça"
+        ]
+      ],
+      [
+        88,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Petrit Dibra",
+        [
+          "/wiki/Petrit_Dibra"
+        ]
+      ],
+      [
+        70,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Devi Muka",
+        [
+          "/wiki/Devi_Muka"
+        ]
+      ],
+      [
+        62,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Skënder Hyka",
+        [
+          "/wiki/Skënder_Hyka"
+        ]
+      ],
+      [
+        60,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Mahir Halili",
+        [
+          "/wiki/Mahir_Halili"
+        ]
+      ],
+      [
+        46,
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Hamdi Salihi",
+        [
+          "/wiki/Hamdi_Salihi"
+        ]
+      ],
+      [
+        42,
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Eldorado Merkoçi",
+        [
+          "/wiki/Eldorado_Merkoçi"
+        ]
+      ],
+      [
+        40,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "521ccb79-b197-5385-915c-088975486f6f",
+    "table_id": "KF_Tirana_Presidents_1",
+    "title": "KF Tirana",
+    "header": [
+      "",
+      "Player",
+      "Goals"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Indrit Fortuzi",
+          [
+            "/wiki/Indrit_Fortuzi"
+          ]
+        ],
+        [
+          152,
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Arben Minga",
+          [
+            "/wiki/Arben_Minga"
+          ]
+        ],
+        [
+          136,
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Agustin Kola",
+          [
+            "/wiki/Agustin_Kola"
+          ]
+        ],
+        [
+          133,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Shkëlqim Muça",
+          [
+            "/wiki/Shkëlqim_Muça"
+          ]
+        ],
+        [
+          88,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Petrit Dibra",
+          [
+            "/wiki/Petrit_Dibra"
+          ]
+        ],
+        [
+          70,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Devi Muka",
+          [
+            "/wiki/Devi_Muka"
+          ]
+        ],
+        [
+          62,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Skënder Hyka",
+          [
+            "/wiki/Skënder_Hyka"
+          ]
+        ],
+        [
+          60,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Mahir Halili",
+          [
+            "/wiki/Mahir_Halili"
+          ]
+        ],
+        [
+          46,
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Hamdi Salihi",
+          [
+            "/wiki/Hamdi_Salihi"
+          ]
+        ],
+        [
+          42,
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Eldorado Merkoçi",
+          [
+            "/wiki/Eldorado_Merkoçi"
+          ]
+        ],
+        [
+          40,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about players associated with KF Tirana, focusing on their goal-scoring records. It is likely intended to highlight key contributors to the team's success by listing players and their respective goal tallies.",
+  "numeric_columns": [
+    "Goals"
+  ],
+  "categorical_columns": [],
+  "entities": [
+    "Player"
+  ]
+}

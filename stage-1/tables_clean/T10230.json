@@ -1,0 +1,293 @@
+{
+  "table_id": "T10230",
+  "uid": "7225e650-5d58-5dda-bbba-5962765cad6d",
+  "source": "HybridQA",
+  "source_table_id": "7225e650-5d58-5dda-bbba-5962765cad6d",
+  "domain": "HybridQA",
+  "title": "1995 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Simona Amânar ( ROU )",
+        [
+          "/wiki/Simona_Amânar"
+        ]
+      ],
+      [
+        9.781,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Lilia Podkopayeva ( UKR )",
+        [
+          "/wiki/Lilia_Podkopayeva"
+        ]
+      ],
+      [
+        9.781,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Gina Gogean ( ROU )",
+        [
+          "/wiki/Gina_Gogean"
+        ]
+      ],
+      [
+        9.706,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Mo Huilan ( CHN )",
+        [
+          "/wiki/Mo_Huilan"
+        ]
+      ],
+      [
+        9.643,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Svetlana Khorkina ( RUS )",
+        [
+          "/wiki/Svetlana_Khorkina"
+        ]
+      ],
+      [
+        9.618,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Oksana Chusovitina ( UZB )",
+        [
+          "/wiki/Oksana_Chusovitina"
+        ]
+      ],
+      [
+        9.612,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Elena Grosheva ( RUS )",
+        [
+          "/wiki/Elena_Grosheva"
+        ]
+      ],
+      [
+        9.293,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Meng Fei ( CHN )",
+        [
+          "/wiki/Meng_Fei_(gymnast)"
+        ]
+      ],
+      [
+        4.831,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "7225e650-5d58-5dda-bbba-5962765cad6d",
+    "table_id": "1995_World_Artistic_Gymnastics_Championships_6",
+    "title": "1995 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Simona Amânar ( ROU )",
+          [
+            "/wiki/Simona_Amânar"
+          ]
+        ],
+        [
+          9.781,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Lilia Podkopayeva ( UKR )",
+          [
+            "/wiki/Lilia_Podkopayeva"
+          ]
+        ],
+        [
+          9.781,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Gina Gogean ( ROU )",
+          [
+            "/wiki/Gina_Gogean"
+          ]
+        ],
+        [
+          9.706,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Mo Huilan ( CHN )",
+          [
+            "/wiki/Mo_Huilan"
+          ]
+        ],
+        [
+          9.643,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Svetlana Khorkina ( RUS )",
+          [
+            "/wiki/Svetlana_Khorkina"
+          ]
+        ],
+        [
+          9.618,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Oksana Chusovitina ( UZB )",
+          [
+            "/wiki/Oksana_Chusovitina"
+          ]
+        ],
+        [
+          9.612,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Elena Grosheva ( RUS )",
+          [
+            "/wiki/Elena_Grosheva"
+          ]
+        ],
+        [
+          9.293,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Meng Fei ( CHN )",
+          [
+            "/wiki/Meng_Fei_(gymnast)"
+          ]
+        ],
+        [
+          4.831,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the rankings and scores of gymnasts at the 1995 World Artistic Gymnastics Championships. It includes details on the rank, the names of the gymnasts, and their total scores. The table is likely used to summarize performance outcomes in the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

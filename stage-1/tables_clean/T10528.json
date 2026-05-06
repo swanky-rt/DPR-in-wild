@@ -1,0 +1,373 @@
+{
+  "table_id": "T10528",
+  "uid": "11e0be18-9885-5d9b-9ed9-2bd02647903f",
+  "source": "HybridQA",
+  "source_table_id": "11e0be18-9885-5d9b-9ed9-2bd02647903f",
+  "domain": "HybridQA",
+  "title": "Laxative",
+  "columns": [
+    "Preparation ( s )",
+    "Type",
+    "Site of action",
+    "Onset of"
+  ],
+  "rows": [
+    [
+      [
+        "Cascara ( casanthranol )",
+        [
+          "/wiki/Rhamnus_purshiana"
+        ]
+      ],
+      [
+        "Anthraquinone",
+        [
+          "/wiki/Anthraquinone"
+        ]
+      ],
+      [
+        "colon",
+        [
+          "/wiki/Colon_(anatomy)"
+        ]
+      ],
+      [
+        "3 6-8 hours",
+        []
+      ]
+    ],
+    [
+      [
+        "Buckthorn",
+        [
+          "/wiki/Buckthorn"
+        ]
+      ],
+      [
+        "Anthraquinone",
+        []
+      ],
+      [
+        "colon",
+        []
+      ],
+      [
+        "3 6-8 hours",
+        []
+      ]
+    ],
+    [
+      [
+        "Senna extract ( senna glycoside )",
+        [
+          "/wiki/Senna_(herb)",
+          "/wiki/Senna_glycoside"
+        ]
+      ],
+      [
+        "Anthraquinone",
+        []
+      ],
+      [
+        "colon",
+        []
+      ],
+      [
+        "3 6-8 hours",
+        []
+      ]
+    ],
+    [
+      [
+        "Aloe vera ( aloin )",
+        [
+          "/wiki/Aloe_vera",
+          "/wiki/Aloin"
+        ]
+      ],
+      [
+        "Anthraquinone",
+        []
+      ],
+      [
+        "colon",
+        []
+      ],
+      [
+        "5 8-10 hours",
+        []
+      ]
+    ],
+    [
+      [
+        "Phenolphthalein",
+        [
+          "/wiki/Phenolphthalein"
+        ]
+      ],
+      [
+        "Triphenylmethane",
+        [
+          "/wiki/Triphenylmethane"
+        ]
+      ],
+      [
+        "colon",
+        []
+      ],
+      [
+        "4 8 hours",
+        []
+      ]
+    ],
+    [
+      [
+        "bisacodyl ( oral )",
+        [
+          "/wiki/Bisacodyl",
+          "/wiki/Oral_administration"
+        ]
+      ],
+      [
+        "Triphenylmethane",
+        []
+      ],
+      [
+        "colon",
+        []
+      ],
+      [
+        "6 6-12 hours",
+        []
+      ]
+    ],
+    [
+      [
+        "bisacodyl ( suppository )",
+        []
+      ],
+      [
+        "Triphenylmethane",
+        []
+      ],
+      [
+        "colon",
+        []
+      ],
+      [
+        "1 60 minutes",
+        []
+      ]
+    ],
+    [
+      [
+        "Castor oil",
+        []
+      ],
+      [
+        "ricinoleic acid",
+        [
+          "/wiki/Ricinoleic_acid"
+        ]
+      ],
+      [
+        "small intestine",
+        []
+      ],
+      [
+        "2 2-6 hours",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "11e0be18-9885-5d9b-9ed9-2bd02647903f",
+    "table_id": "Laxative_0",
+    "title": "Laxative",
+    "header": [
+      "Preparation ( s )",
+      "Type",
+      "Site of action",
+      "Onset of"
+    ],
+    "value": [
+      [
+        [
+          "Cascara ( casanthranol )",
+          [
+            "/wiki/Rhamnus_purshiana"
+          ]
+        ],
+        [
+          "Anthraquinone",
+          [
+            "/wiki/Anthraquinone"
+          ]
+        ],
+        [
+          "colon",
+          [
+            "/wiki/Colon_(anatomy)"
+          ]
+        ],
+        [
+          "3 6-8 hours",
+          []
+        ]
+      ],
+      [
+        [
+          "Buckthorn",
+          [
+            "/wiki/Buckthorn"
+          ]
+        ],
+        [
+          "Anthraquinone",
+          []
+        ],
+        [
+          "colon",
+          []
+        ],
+        [
+          "3 6-8 hours",
+          []
+        ]
+      ],
+      [
+        [
+          "Senna extract ( senna glycoside )",
+          [
+            "/wiki/Senna_(herb)",
+            "/wiki/Senna_glycoside"
+          ]
+        ],
+        [
+          "Anthraquinone",
+          []
+        ],
+        [
+          "colon",
+          []
+        ],
+        [
+          "3 6-8 hours",
+          []
+        ]
+      ],
+      [
+        [
+          "Aloe vera ( aloin )",
+          [
+            "/wiki/Aloe_vera",
+            "/wiki/Aloin"
+          ]
+        ],
+        [
+          "Anthraquinone",
+          []
+        ],
+        [
+          "colon",
+          []
+        ],
+        [
+          "5 8-10 hours",
+          []
+        ]
+      ],
+      [
+        [
+          "Phenolphthalein",
+          [
+            "/wiki/Phenolphthalein"
+          ]
+        ],
+        [
+          "Triphenylmethane",
+          [
+            "/wiki/Triphenylmethane"
+          ]
+        ],
+        [
+          "colon",
+          []
+        ],
+        [
+          "4 8 hours",
+          []
+        ]
+      ],
+      [
+        [
+          "bisacodyl ( oral )",
+          [
+            "/wiki/Bisacodyl",
+            "/wiki/Oral_administration"
+          ]
+        ],
+        [
+          "Triphenylmethane",
+          []
+        ],
+        [
+          "colon",
+          []
+        ],
+        [
+          "6 6-12 hours",
+          []
+        ]
+      ],
+      [
+        [
+          "bisacodyl ( suppository )",
+          []
+        ],
+        [
+          "Triphenylmethane",
+          []
+        ],
+        [
+          "colon",
+          []
+        ],
+        [
+          "1 60 minutes",
+          []
+        ]
+      ],
+      [
+        [
+          "Castor oil",
+          []
+        ],
+        [
+          "ricinoleic acid",
+          [
+            "/wiki/Ricinoleic_acid"
+          ]
+        ],
+        [
+          "small intestine",
+          []
+        ],
+        [
+          "2 2-6 hours",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about various laxative preparations, their types, sites of action, and the time it takes for them to take effect. It is intended to categorize and describe different laxatives based on their characteristics and functionality.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Type",
+    "Site of action",
+    "Onset of"
+  ],
+  "entities": [
+    "Preparation ( s )"
+  ]
+}

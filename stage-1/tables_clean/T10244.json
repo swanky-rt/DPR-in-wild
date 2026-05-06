@@ -1,0 +1,293 @@
+{
+  "table_id": "T10244",
+  "uid": "c4d6eb34-c9cb-570e-8957-65b75afa2c93",
+  "source": "HybridQA",
+  "source_table_id": "c4d6eb34-c9cb-570e-8957-65b75afa2c93",
+  "domain": "HybridQA",
+  "title": "2002 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Elena Gómez ( ESP )",
+        [
+          "/wiki/Elena_Gómez"
+        ]
+      ],
+      [
+        9.487,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Verona van de Leur ( NED )",
+        [
+          "/wiki/Verona_van_de_Leur"
+        ]
+      ],
+      [
+        9.35,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Samantha Sheehan ( USA )",
+        [
+          "/wiki/Samantha_Sheehan"
+        ]
+      ],
+      [
+        9.325,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Oana Ban ( ROU )",
+        [
+          "/wiki/Oana_Ban"
+        ]
+      ],
+      [
+        9.275,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Daniele Hypólito ( BRA )",
+        [
+          "/wiki/Daniele_Hypólito"
+        ]
+      ],
+      [
+        9.237,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Oksana Chusovitina ( UZB )",
+        [
+          "/wiki/Oksana_Chusovitina"
+        ]
+      ],
+      [
+        9.137,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Natalia Ziganshina ( RUS )",
+        [
+          "/wiki/Natalia_Ziganshina"
+        ]
+      ],
+      [
+        8.862,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Brenda Magana ( MEX )",
+        [
+          "/wiki/Brenda_Magana"
+        ]
+      ],
+      [
+        8.462,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "c4d6eb34-c9cb-570e-8957-65b75afa2c93",
+    "table_id": "2002_World_Artistic_Gymnastics_Championships_9",
+    "title": "2002 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Elena Gómez ( ESP )",
+          [
+            "/wiki/Elena_Gómez"
+          ]
+        ],
+        [
+          9.487,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Verona van de Leur ( NED )",
+          [
+            "/wiki/Verona_van_de_Leur"
+          ]
+        ],
+        [
+          9.35,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Samantha Sheehan ( USA )",
+          [
+            "/wiki/Samantha_Sheehan"
+          ]
+        ],
+        [
+          9.325,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Oana Ban ( ROU )",
+          [
+            "/wiki/Oana_Ban"
+          ]
+        ],
+        [
+          9.275,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Daniele Hypólito ( BRA )",
+          [
+            "/wiki/Daniele_Hypólito"
+          ]
+        ],
+        [
+          9.237,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Oksana Chusovitina ( UZB )",
+          [
+            "/wiki/Oksana_Chusovitina"
+          ]
+        ],
+        [
+          9.137,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Natalia Ziganshina ( RUS )",
+          [
+            "/wiki/Natalia_Ziganshina"
+          ]
+        ],
+        [
+          8.862,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Brenda Magana ( MEX )",
+          [
+            "/wiki/Brenda_Magana"
+          ]
+        ],
+        [
+          8.462,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the rankings and scores of gymnasts at the 2002 World Artistic Gymnastics Championships. It includes details such as the rank of each gymnast, their name, and their total score. The table is likely used to summarize performance outcomes in the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

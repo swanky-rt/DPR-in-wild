@@ -1,0 +1,536 @@
+{
+  "table_id": "T5211",
+  "uid": "6faa7cc8-990c-5d3d-80ce-95f1eae71223",
+  "source": "HybridQA",
+  "source_table_id": "6faa7cc8-990c-5d3d-80ce-95f1eae71223",
+  "domain": "HybridQA",
+  "title": "Superliga de Voleibol Masculina",
+  "columns": [
+    "Team",
+    "Stadium",
+    "Capacity",
+    "City/Area"
+  ],
+  "rows": [
+    [
+      [
+        "CV Teruel",
+        [
+          "/wiki/CV_Teruel"
+        ]
+      ],
+      [
+        "Los Planos",
+        []
+      ],
+      [
+        "3,500",
+        []
+      ],
+      [
+        "Teruel",
+        [
+          "/wiki/Teruel"
+        ]
+      ]
+    ],
+    [
+      [
+        "Unicaja Almería",
+        [
+          "/wiki/CV_Almería"
+        ]
+      ],
+      [
+        "Moisés Ruiz",
+        []
+      ],
+      [
+        "1,750",
+        []
+      ],
+      [
+        "Almería",
+        [
+          "/wiki/Almería"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ushuaïa Ibiza Voley",
+        []
+      ],
+      [
+        "Es Viver",
+        []
+      ],
+      [
+        "1,000",
+        []
+      ],
+      [
+        "Ibiza",
+        [
+          "/wiki/Ibiza_(town)"
+        ]
+      ]
+    ],
+    [
+      [
+        "Urbia Voley Palma",
+        []
+      ],
+      [
+        "Son Moix",
+        [
+          "/wiki/Palau_Municipal_d'Esports_Son_Moix"
+        ]
+      ],
+      [
+        "5,076",
+        []
+      ],
+      [
+        "Palma",
+        [
+          "/wiki/Palma,_Majorca"
+        ]
+      ]
+    ],
+    [
+      [
+        "UBE L'Illa-Grau",
+        []
+      ],
+      [
+        "Ciutat Esportiva",
+        []
+      ],
+      [
+        700,
+        []
+      ],
+      [
+        "Castellón de la Plana",
+        [
+          "/wiki/Castellón_de_la_Plana"
+        ]
+      ]
+    ],
+    [
+      [
+        "Textil Santanderina",
+        []
+      ],
+      [
+        "Matilde de la Torre",
+        []
+      ],
+      [
+        "1,000",
+        []
+      ],
+      [
+        "Cabezón de la Sal",
+        [
+          "/wiki/Cabezón_de_la_Sal"
+        ]
+      ]
+    ],
+    [
+      [
+        "Vecindario ACE Gran Canaria",
+        []
+      ],
+      [
+        "Pabellón Municipal",
+        []
+      ],
+      [
+        "3,000",
+        []
+      ],
+      [
+        "Vecindario , Santa Lucía de Tirajana",
+        [
+          "/wiki/Santa_Lucía_de_Tirajana"
+        ]
+      ]
+    ],
+    [
+      [
+        "Conectabalear CV Manacor",
+        []
+      ],
+      [
+        "Na Capellera",
+        []
+      ],
+      [
+        500,
+        []
+      ],
+      [
+        "Manacor",
+        [
+          "/wiki/Manacor"
+        ]
+      ]
+    ],
+    [
+      [
+        "Río Duero-Soria",
+        []
+      ],
+      [
+        "Los Pajaritos",
+        []
+      ],
+      [
+        "2,000",
+        []
+      ],
+      [
+        "Soria",
+        [
+          "/wiki/Soria"
+        ]
+      ]
+    ],
+    [
+      [
+        "Melilla",
+        []
+      ],
+      [
+        "Javier Imbroda Ortiz",
+        []
+      ],
+      [
+        "3,800",
+        []
+      ],
+      [
+        "Melilla",
+        [
+          "/wiki/Melilla"
+        ]
+      ]
+    ],
+    [
+      [
+        "FC Barcelona",
+        [
+          "/wiki/FC_Barcelona_Voleibol"
+        ]
+      ],
+      [
+        "Parc Esportiu Llobregat",
+        []
+      ],
+      [
+        "2,500",
+        []
+      ],
+      [
+        "Barcelona",
+        [
+          "/wiki/Barcelona"
+        ]
+      ]
+    ],
+    [
+      [
+        "Intasa San Sadurniño",
+        []
+      ],
+      [
+        "Pavillón Municipal",
+        []
+      ],
+      [
+        300,
+        []
+      ],
+      [
+        "San Sadurniño",
+        [
+          "/wiki/San_Sadurniño"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "6faa7cc8-990c-5d3d-80ce-95f1eae71223",
+    "table_id": "Superliga_de_Voleibol_Masculina_0",
+    "title": "Superliga de Voleibol Masculina",
+    "header": [
+      "Team",
+      "Stadium",
+      "Capacity",
+      "City/Area"
+    ],
+    "value": [
+      [
+        [
+          "CV Teruel",
+          [
+            "/wiki/CV_Teruel"
+          ]
+        ],
+        [
+          "Los Planos",
+          []
+        ],
+        [
+          "3,500",
+          []
+        ],
+        [
+          "Teruel",
+          [
+            "/wiki/Teruel"
+          ]
+        ]
+      ],
+      [
+        [
+          "Unicaja Almería",
+          [
+            "/wiki/CV_Almería"
+          ]
+        ],
+        [
+          "Moisés Ruiz",
+          []
+        ],
+        [
+          "1,750",
+          []
+        ],
+        [
+          "Almería",
+          [
+            "/wiki/Almería"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ushuaïa Ibiza Voley",
+          []
+        ],
+        [
+          "Es Viver",
+          []
+        ],
+        [
+          "1,000",
+          []
+        ],
+        [
+          "Ibiza",
+          [
+            "/wiki/Ibiza_(town)"
+          ]
+        ]
+      ],
+      [
+        [
+          "Urbia Voley Palma",
+          []
+        ],
+        [
+          "Son Moix",
+          [
+            "/wiki/Palau_Municipal_d'Esports_Son_Moix"
+          ]
+        ],
+        [
+          "5,076",
+          []
+        ],
+        [
+          "Palma",
+          [
+            "/wiki/Palma,_Majorca"
+          ]
+        ]
+      ],
+      [
+        [
+          "UBE L'Illa-Grau",
+          []
+        ],
+        [
+          "Ciutat Esportiva",
+          []
+        ],
+        [
+          700,
+          []
+        ],
+        [
+          "Castellón de la Plana",
+          [
+            "/wiki/Castellón_de_la_Plana"
+          ]
+        ]
+      ],
+      [
+        [
+          "Textil Santanderina",
+          []
+        ],
+        [
+          "Matilde de la Torre",
+          []
+        ],
+        [
+          "1,000",
+          []
+        ],
+        [
+          "Cabezón de la Sal",
+          [
+            "/wiki/Cabezón_de_la_Sal"
+          ]
+        ]
+      ],
+      [
+        [
+          "Vecindario ACE Gran Canaria",
+          []
+        ],
+        [
+          "Pabellón Municipal",
+          []
+        ],
+        [
+          "3,000",
+          []
+        ],
+        [
+          "Vecindario , Santa Lucía de Tirajana",
+          [
+            "/wiki/Santa_Lucía_de_Tirajana"
+          ]
+        ]
+      ],
+      [
+        [
+          "Conectabalear CV Manacor",
+          []
+        ],
+        [
+          "Na Capellera",
+          []
+        ],
+        [
+          500,
+          []
+        ],
+        [
+          "Manacor",
+          [
+            "/wiki/Manacor"
+          ]
+        ]
+      ],
+      [
+        [
+          "Río Duero-Soria",
+          []
+        ],
+        [
+          "Los Pajaritos",
+          []
+        ],
+        [
+          "2,000",
+          []
+        ],
+        [
+          "Soria",
+          [
+            "/wiki/Soria"
+          ]
+        ]
+      ],
+      [
+        [
+          "Melilla",
+          []
+        ],
+        [
+          "Javier Imbroda Ortiz",
+          []
+        ],
+        [
+          "3,800",
+          []
+        ],
+        [
+          "Melilla",
+          [
+            "/wiki/Melilla"
+          ]
+        ]
+      ],
+      [
+        [
+          "FC Barcelona",
+          [
+            "/wiki/FC_Barcelona_Voleibol"
+          ]
+        ],
+        [
+          "Parc Esportiu Llobregat",
+          []
+        ],
+        [
+          "2,500",
+          []
+        ],
+        [
+          "Barcelona",
+          [
+            "/wiki/Barcelona"
+          ]
+        ]
+      ],
+      [
+        [
+          "Intasa San Sadurniño",
+          []
+        ],
+        [
+          "Pavillón Municipal",
+          []
+        ],
+        [
+          300,
+          []
+        ],
+        [
+          "San Sadurniño",
+          [
+            "/wiki/San_Sadurniño"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about teams in the Superliga de Voleibol Masculina, including their associated stadiums, seating capacities, and locations. It is intended to give an overview of the venues and geographic distribution of the teams in the league.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "Stadium"
+  ],
+  "entities": [
+    "Team",
+    "City/Area"
+  ]
+}

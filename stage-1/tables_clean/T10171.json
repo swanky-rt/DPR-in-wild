@@ -1,0 +1,435 @@
+{
+  "table_id": "T10171",
+  "uid": "4538a41c-8e11-527c-bd77-8285c930a516",
+  "source": "HybridQA",
+  "source_table_id": "4538a41c-8e11-527c-bd77-8285c930a516",
+  "domain": "HybridQA",
+  "title": "List of Major League Baseball hit records",
+  "columns": [
+    "Player",
+    "Seasons",
+    "Seasons & Teams"
+  ],
+  "rows": [
+    [
+      [
+        "Paul Waner",
+        [
+          "/wiki/Paul_Waner"
+        ]
+      ],
+      [
+        7,
+        []
+      ],
+      [
+        "1927-1928 , 1930 , 1932 , 1934 , 1936-1937 Pittsburgh",
+        [
+          "/wiki/Pittsburgh_Pirates"
+        ]
+      ]
+    ],
+    [
+      [
+        "Rogers Hornsby",
+        [
+          "/wiki/Rogers_Hornsby"
+        ]
+      ],
+      [
+        5,
+        []
+      ],
+      [
+        "1920-1922 , 1924 St. Louis-NL ; 1929 Chicago-NL",
+        [
+          "/wiki/St._Louis_Cardinals",
+          "/wiki/Chicago_Cubs"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ichiro Suzuki",
+        [
+          "/wiki/Ichiro_Suzuki"
+        ]
+      ],
+      [
+        5,
+        []
+      ],
+      [
+        "2001 , 2004 , 2006-2007 , 2009 Seattle",
+        [
+          "/wiki/Seattle_Mariners"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ty Cobb",
+        [
+          "/wiki/Ty_Cobb"
+        ]
+      ],
+      [
+        4,
+        []
+      ],
+      [
+        "1909 , 1911-1912 , 1917 Detroit",
+        [
+          "/wiki/Detroit_Tigers"
+        ]
+      ]
+    ],
+    [
+      [
+        "George Sisler",
+        [
+          "/wiki/George_Sisler"
+        ]
+      ],
+      [
+        4,
+        []
+      ],
+      [
+        "1920-1922 , 1925 St. Louis-AL",
+        [
+          "/wiki/St._Louis_Browns"
+        ]
+      ]
+    ],
+    [
+      [
+        "Sam Rice",
+        [
+          "/wiki/Sam_Rice"
+        ]
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        "1924-1926 Washington-AL",
+        [
+          "/wiki/Washington_Senators_(1901–60)"
+        ]
+      ]
+    ],
+    [
+      [
+        "Joe Medwick",
+        [
+          "/wiki/Joe_Medwick"
+        ]
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        "1935-1937 St. Louis-NL",
+        [
+          "/wiki/St._Louis_Cardinals"
+        ]
+      ]
+    ],
+    [
+      [
+        "Stan Musial",
+        [
+          "/wiki/Stan_Musial"
+        ]
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        "1943 , 1946 , 1948 St. Louis-NL",
+        [
+          "/wiki/St._Louis_Cardinals"
+        ]
+      ]
+    ],
+    [
+      [
+        "Pete Rose",
+        [
+          "/wiki/Pete_Rose"
+        ]
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        "1969 , 1973 , 1976 Cincinnati",
+        [
+          "/wiki/Cincinnati_Reds"
+        ]
+      ]
+    ],
+    [
+      [
+        "Kirby Puckett",
+        [
+          "/wiki/Kirby_Puckett"
+        ]
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        "1986 , 1988-1989 Minnesota",
+        [
+          "/wiki/Minnesota_Twins"
+        ]
+      ]
+    ],
+    [
+      [
+        "Michael Young",
+        [
+          "/wiki/Michael_Young_(baseball)"
+        ]
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        "2004-2006 Texas",
+        [
+          "/wiki/Texas_Rangers_(baseball)"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "4538a41c-8e11-527c-bd77-8285c930a516",
+    "table_id": "List_of_Major_League_Baseball_hit_records_2",
+    "title": "List of Major League Baseball hit records",
+    "header": [
+      "Player",
+      "Seasons",
+      "Seasons & Teams"
+    ],
+    "value": [
+      [
+        [
+          "Paul Waner",
+          [
+            "/wiki/Paul_Waner"
+          ]
+        ],
+        [
+          7,
+          []
+        ],
+        [
+          "1927-1928 , 1930 , 1932 , 1934 , 1936-1937 Pittsburgh",
+          [
+            "/wiki/Pittsburgh_Pirates"
+          ]
+        ]
+      ],
+      [
+        [
+          "Rogers Hornsby",
+          [
+            "/wiki/Rogers_Hornsby"
+          ]
+        ],
+        [
+          5,
+          []
+        ],
+        [
+          "1920-1922 , 1924 St. Louis-NL ; 1929 Chicago-NL",
+          [
+            "/wiki/St._Louis_Cardinals",
+            "/wiki/Chicago_Cubs"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ichiro Suzuki",
+          [
+            "/wiki/Ichiro_Suzuki"
+          ]
+        ],
+        [
+          5,
+          []
+        ],
+        [
+          "2001 , 2004 , 2006-2007 , 2009 Seattle",
+          [
+            "/wiki/Seattle_Mariners"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ty Cobb",
+          [
+            "/wiki/Ty_Cobb"
+          ]
+        ],
+        [
+          4,
+          []
+        ],
+        [
+          "1909 , 1911-1912 , 1917 Detroit",
+          [
+            "/wiki/Detroit_Tigers"
+          ]
+        ]
+      ],
+      [
+        [
+          "George Sisler",
+          [
+            "/wiki/George_Sisler"
+          ]
+        ],
+        [
+          4,
+          []
+        ],
+        [
+          "1920-1922 , 1925 St. Louis-AL",
+          [
+            "/wiki/St._Louis_Browns"
+          ]
+        ]
+      ],
+      [
+        [
+          "Sam Rice",
+          [
+            "/wiki/Sam_Rice"
+          ]
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          "1924-1926 Washington-AL",
+          [
+            "/wiki/Washington_Senators_(1901–60)"
+          ]
+        ]
+      ],
+      [
+        [
+          "Joe Medwick",
+          [
+            "/wiki/Joe_Medwick"
+          ]
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          "1935-1937 St. Louis-NL",
+          [
+            "/wiki/St._Louis_Cardinals"
+          ]
+        ]
+      ],
+      [
+        [
+          "Stan Musial",
+          [
+            "/wiki/Stan_Musial"
+          ]
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          "1943 , 1946 , 1948 St. Louis-NL",
+          [
+            "/wiki/St._Louis_Cardinals"
+          ]
+        ]
+      ],
+      [
+        [
+          "Pete Rose",
+          [
+            "/wiki/Pete_Rose"
+          ]
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          "1969 , 1973 , 1976 Cincinnati",
+          [
+            "/wiki/Cincinnati_Reds"
+          ]
+        ]
+      ],
+      [
+        [
+          "Kirby Puckett",
+          [
+            "/wiki/Kirby_Puckett"
+          ]
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          "1986 , 1988-1989 Minnesota",
+          [
+            "/wiki/Minnesota_Twins"
+          ]
+        ]
+      ],
+      [
+        [
+          "Michael Young",
+          [
+            "/wiki/Michael_Young_(baseball)"
+          ]
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          "2004-2006 Texas",
+          [
+            "/wiki/Texas_Rangers_(baseball)"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about Major League Baseball players who hold hit records, detailing their active seasons and the teams they played for during those seasons. It serves as a historical reference for notable achievements in baseball. The columns include player names, the number of seasons they achieved hit records, and a breakdown of the seasons and teams associated with their records.",
+  "numeric_columns": [
+    "Seasons"
+  ],
+  "categorical_columns": [
+    "Seasons & Teams"
+  ],
+  "entities": [
+    "Player"
+  ]
+}

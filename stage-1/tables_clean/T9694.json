@@ -1,0 +1,423 @@
+{
+  "table_id": "T9694",
+  "uid": "f49c4019-6273-5c66-a186-d6e1d8c72d4a",
+  "source": "HybridQA",
+  "source_table_id": "f49c4019-6273-5c66-a186-d6e1d8c72d4a",
+  "domain": "HybridQA",
+  "title": "2012 FA WSL",
+  "columns": [
+    "Team",
+    "Location",
+    "Ground",
+    "2011 season"
+  ],
+  "rows": [
+    [
+      [
+        "Arsenal",
+        [
+          "/wiki/Arsenal_L.F.C."
+        ]
+      ],
+      [
+        "Borehamwood",
+        [
+          "/wiki/Borehamwood"
+        ]
+      ],
+      [
+        "Meadow Park",
+        [
+          "/wiki/Meadow_Park_(Borehamwood)"
+        ]
+      ],
+      [
+        "FA WSL , 1st",
+        [
+          "/wiki/2011_FA_WSL"
+        ]
+      ]
+    ],
+    [
+      [
+        "Birmingham City",
+        [
+          "/wiki/Birmingham_City_L.F.C."
+        ]
+      ],
+      [
+        "Stratford-upon-Avon",
+        [
+          "/wiki/Stratford-upon-Avon"
+        ]
+      ],
+      [
+        "The DCS Stadium",
+        [
+          "/wiki/Stratford_Town_F.C."
+        ]
+      ],
+      [
+        "FA WSL , 2nd",
+        []
+      ]
+    ],
+    [
+      [
+        "Bristol Academy",
+        [
+          "/wiki/Bristol_Academy_W.F.C."
+        ]
+      ],
+      [
+        "Filton",
+        [
+          "/wiki/Filton"
+        ]
+      ],
+      [
+        "Stoke Gifford Stadium",
+        []
+      ],
+      [
+        "FA WSL , 5th",
+        []
+      ]
+    ],
+    [
+      [
+        "Chelsea",
+        [
+          "/wiki/Chelsea_L.F.C."
+        ]
+      ],
+      [
+        "Staines",
+        [
+          "/wiki/Staines"
+        ]
+      ],
+      [
+        "Wheatsheaf Park",
+        [
+          "/wiki/Staines_Town_F.C."
+        ]
+      ],
+      [
+        "FA WSL , 6th",
+        []
+      ]
+    ],
+    [
+      [
+        "Doncaster Rovers Belles",
+        [
+          "/wiki/Doncaster_Rovers_Belles_L.F.C."
+        ]
+      ],
+      [
+        "Doncaster",
+        [
+          "/wiki/Doncaster"
+        ]
+      ],
+      [
+        "Keepmoat Stadium",
+        [
+          "/wiki/Keepmoat_Stadium"
+        ]
+      ],
+      [
+        "FA WSL , 7th",
+        []
+      ]
+    ],
+    [
+      [
+        "Everton",
+        [
+          "/wiki/Everton_L.F.C."
+        ]
+      ],
+      [
+        "Crosby",
+        [
+          "/wiki/Crosby,_Merseyside"
+        ]
+      ],
+      [
+        "The Arriva Park",
+        [
+          "/wiki/Marine_F.C."
+        ]
+      ],
+      [
+        "FA WSL , 3rd",
+        []
+      ]
+    ],
+    [
+      [
+        "Lincoln Ladies",
+        [
+          "/wiki/Lincoln_Ladies_F.C."
+        ]
+      ],
+      [
+        "Lincoln",
+        [
+          "/wiki/Lincoln,_England"
+        ]
+      ],
+      [
+        "Ashby Avenue",
+        [
+          "/wiki/Ashby_Avenue_(stadium)"
+        ]
+      ],
+      [
+        "FA WSL , 4th",
+        []
+      ]
+    ],
+    [
+      [
+        "Liverpool",
+        [
+          "/wiki/Liverpool_L.F.C."
+        ]
+      ],
+      [
+        "Skelmersdale",
+        [
+          "/wiki/Skelmersdale"
+        ]
+      ],
+      [
+        "Skelmersdale & Ormskirk College Stadium",
+        [
+          "/wiki/Skelmersdale_&_Ormskirk_College"
+        ]
+      ],
+      [
+        "FA WSL , 8th",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "f49c4019-6273-5c66-a186-d6e1d8c72d4a",
+    "table_id": "2012_FA_WSL_0",
+    "title": "2012 FA WSL",
+    "header": [
+      "Team",
+      "Location",
+      "Ground",
+      "2011 season"
+    ],
+    "value": [
+      [
+        [
+          "Arsenal",
+          [
+            "/wiki/Arsenal_L.F.C."
+          ]
+        ],
+        [
+          "Borehamwood",
+          [
+            "/wiki/Borehamwood"
+          ]
+        ],
+        [
+          "Meadow Park",
+          [
+            "/wiki/Meadow_Park_(Borehamwood)"
+          ]
+        ],
+        [
+          "FA WSL , 1st",
+          [
+            "/wiki/2011_FA_WSL"
+          ]
+        ]
+      ],
+      [
+        [
+          "Birmingham City",
+          [
+            "/wiki/Birmingham_City_L.F.C."
+          ]
+        ],
+        [
+          "Stratford-upon-Avon",
+          [
+            "/wiki/Stratford-upon-Avon"
+          ]
+        ],
+        [
+          "The DCS Stadium",
+          [
+            "/wiki/Stratford_Town_F.C."
+          ]
+        ],
+        [
+          "FA WSL , 2nd",
+          []
+        ]
+      ],
+      [
+        [
+          "Bristol Academy",
+          [
+            "/wiki/Bristol_Academy_W.F.C."
+          ]
+        ],
+        [
+          "Filton",
+          [
+            "/wiki/Filton"
+          ]
+        ],
+        [
+          "Stoke Gifford Stadium",
+          []
+        ],
+        [
+          "FA WSL , 5th",
+          []
+        ]
+      ],
+      [
+        [
+          "Chelsea",
+          [
+            "/wiki/Chelsea_L.F.C."
+          ]
+        ],
+        [
+          "Staines",
+          [
+            "/wiki/Staines"
+          ]
+        ],
+        [
+          "Wheatsheaf Park",
+          [
+            "/wiki/Staines_Town_F.C."
+          ]
+        ],
+        [
+          "FA WSL , 6th",
+          []
+        ]
+      ],
+      [
+        [
+          "Doncaster Rovers Belles",
+          [
+            "/wiki/Doncaster_Rovers_Belles_L.F.C."
+          ]
+        ],
+        [
+          "Doncaster",
+          [
+            "/wiki/Doncaster"
+          ]
+        ],
+        [
+          "Keepmoat Stadium",
+          [
+            "/wiki/Keepmoat_Stadium"
+          ]
+        ],
+        [
+          "FA WSL , 7th",
+          []
+        ]
+      ],
+      [
+        [
+          "Everton",
+          [
+            "/wiki/Everton_L.F.C."
+          ]
+        ],
+        [
+          "Crosby",
+          [
+            "/wiki/Crosby,_Merseyside"
+          ]
+        ],
+        [
+          "The Arriva Park",
+          [
+            "/wiki/Marine_F.C."
+          ]
+        ],
+        [
+          "FA WSL , 3rd",
+          []
+        ]
+      ],
+      [
+        [
+          "Lincoln Ladies",
+          [
+            "/wiki/Lincoln_Ladies_F.C."
+          ]
+        ],
+        [
+          "Lincoln",
+          [
+            "/wiki/Lincoln,_England"
+          ]
+        ],
+        [
+          "Ashby Avenue",
+          [
+            "/wiki/Ashby_Avenue_(stadium)"
+          ]
+        ],
+        [
+          "FA WSL , 4th",
+          []
+        ]
+      ],
+      [
+        [
+          "Liverpool",
+          [
+            "/wiki/Liverpool_L.F.C."
+          ]
+        ],
+        [
+          "Skelmersdale",
+          [
+            "/wiki/Skelmersdale"
+          ]
+        ],
+        [
+          "Skelmersdale & Ormskirk College Stadium",
+          [
+            "/wiki/Skelmersdale_&_Ormskirk_College"
+          ]
+        ],
+        [
+          "FA WSL , 8th",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about teams in the 2012 FA Women's Super League (FA WSL), including their locations, home grounds, and performance in the 2011 season. It serves as a summary of key details about the participating teams in this football league.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "2011 season"
+  ],
+  "entities": [
+    "Team",
+    "Location",
+    "Ground"
+  ]
+}

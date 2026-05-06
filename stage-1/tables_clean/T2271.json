@@ -1,0 +1,392 @@
+{
+  "table_id": "T2271",
+  "uid": "46615f9e-7f72-560a-971d-faaaa3e19a6a",
+  "source": "HybridQA",
+  "source_table_id": "46615f9e-7f72-560a-971d-faaaa3e19a6a",
+  "domain": "HybridQA",
+  "title": "National Collegiate Hockey Conference",
+  "columns": [
+    "School",
+    "Hockey arena",
+    "Year built",
+    "Capacity"
+  ],
+  "rows": [
+    [
+      [
+        "Colorado College",
+        [
+          "/wiki/Colorado_College_Tigers_men's_ice_hockey"
+        ]
+      ],
+      [
+        "Broadmoor World Arena",
+        [
+          "/wiki/Broadmoor_World_Arena_(1998)"
+        ]
+      ],
+      [
+        1998,
+        []
+      ],
+      [
+        "7,750",
+        []
+      ]
+    ],
+    [
+      [
+        "Denver",
+        [
+          "/wiki/Denver_Pioneers_men's_ice_hockey"
+        ]
+      ],
+      [
+        "Magness Arena",
+        [
+          "/wiki/Magness_Arena"
+        ]
+      ],
+      [
+        1999,
+        []
+      ],
+      [
+        "6,026",
+        []
+      ]
+    ],
+    [
+      [
+        "Miami University",
+        [
+          "/wiki/Miami_RedHawks_men's_ice_hockey"
+        ]
+      ],
+      [
+        "Goggin Ice Center",
+        [
+          "/wiki/Goggin_Ice_Center"
+        ]
+      ],
+      [
+        2006,
+        []
+      ],
+      [
+        "3,200",
+        []
+      ]
+    ],
+    [
+      [
+        "Minnesota Duluth",
+        [
+          "/wiki/Minnesota–Duluth_Bulldogs_men's_ice_hockey"
+        ]
+      ],
+      [
+        "AMSOIL Arena",
+        [
+          "/wiki/AMSOIL_Arena"
+        ]
+      ],
+      [
+        2010,
+        []
+      ],
+      [
+        "6,732",
+        []
+      ]
+    ],
+    [
+      [
+        "North Dakota",
+        [
+          "/wiki/North_Dakota_Fighting_Hawks_men's_ice_hockey"
+        ]
+      ],
+      [
+        "Ralph Engelstad Arena",
+        [
+          "/wiki/Ralph_Engelstad_Arena"
+        ]
+      ],
+      [
+        2001,
+        []
+      ],
+      [
+        "11,640",
+        []
+      ]
+    ],
+    [
+      [
+        "Omaha",
+        [
+          "/wiki/Omaha_Mavericks_men's_ice_hockey"
+        ]
+      ],
+      [
+        "Baxter Arena",
+        [
+          "/wiki/Baxter_Arena"
+        ]
+      ],
+      [
+        2015,
+        []
+      ],
+      [
+        "7,898",
+        []
+      ]
+    ],
+    [
+      [
+        "St . Cloud State",
+        [
+          "/wiki/St._Cloud_State_Huskies_men's_ice_hockey"
+        ]
+      ],
+      [
+        "Herb Brooks National Hockey Center",
+        [
+          "/wiki/Herb_Brooks_National_Hockey_Center"
+        ]
+      ],
+      [
+        1989,
+        []
+      ],
+      [
+        "5,763",
+        []
+      ]
+    ],
+    [
+      [
+        "Western Michigan",
+        [
+          "/wiki/Western_Michigan_Broncos_men's_ice_hockey"
+        ]
+      ],
+      [
+        "Lawson Arena",
+        [
+          "/wiki/Lawson_Arena"
+        ]
+      ],
+      [
+        1974,
+        []
+      ],
+      [
+        "3,667",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "46615f9e-7f72-560a-971d-faaaa3e19a6a",
+    "table_id": "National_Collegiate_Hockey_Conference_1",
+    "title": "National Collegiate Hockey Conference",
+    "header": [
+      "School",
+      "Hockey arena",
+      "Year built",
+      "Capacity"
+    ],
+    "value": [
+      [
+        [
+          "Colorado College",
+          [
+            "/wiki/Colorado_College_Tigers_men's_ice_hockey"
+          ]
+        ],
+        [
+          "Broadmoor World Arena",
+          [
+            "/wiki/Broadmoor_World_Arena_(1998)"
+          ]
+        ],
+        [
+          1998,
+          []
+        ],
+        [
+          "7,750",
+          []
+        ]
+      ],
+      [
+        [
+          "Denver",
+          [
+            "/wiki/Denver_Pioneers_men's_ice_hockey"
+          ]
+        ],
+        [
+          "Magness Arena",
+          [
+            "/wiki/Magness_Arena"
+          ]
+        ],
+        [
+          1999,
+          []
+        ],
+        [
+          "6,026",
+          []
+        ]
+      ],
+      [
+        [
+          "Miami University",
+          [
+            "/wiki/Miami_RedHawks_men's_ice_hockey"
+          ]
+        ],
+        [
+          "Goggin Ice Center",
+          [
+            "/wiki/Goggin_Ice_Center"
+          ]
+        ],
+        [
+          2006,
+          []
+        ],
+        [
+          "3,200",
+          []
+        ]
+      ],
+      [
+        [
+          "Minnesota Duluth",
+          [
+            "/wiki/Minnesota–Duluth_Bulldogs_men's_ice_hockey"
+          ]
+        ],
+        [
+          "AMSOIL Arena",
+          [
+            "/wiki/AMSOIL_Arena"
+          ]
+        ],
+        [
+          2010,
+          []
+        ],
+        [
+          "6,732",
+          []
+        ]
+      ],
+      [
+        [
+          "North Dakota",
+          [
+            "/wiki/North_Dakota_Fighting_Hawks_men's_ice_hockey"
+          ]
+        ],
+        [
+          "Ralph Engelstad Arena",
+          [
+            "/wiki/Ralph_Engelstad_Arena"
+          ]
+        ],
+        [
+          2001,
+          []
+        ],
+        [
+          "11,640",
+          []
+        ]
+      ],
+      [
+        [
+          "Omaha",
+          [
+            "/wiki/Omaha_Mavericks_men's_ice_hockey"
+          ]
+        ],
+        [
+          "Baxter Arena",
+          [
+            "/wiki/Baxter_Arena"
+          ]
+        ],
+        [
+          2015,
+          []
+        ],
+        [
+          "7,898",
+          []
+        ]
+      ],
+      [
+        [
+          "St . Cloud State",
+          [
+            "/wiki/St._Cloud_State_Huskies_men's_ice_hockey"
+          ]
+        ],
+        [
+          "Herb Brooks National Hockey Center",
+          [
+            "/wiki/Herb_Brooks_National_Hockey_Center"
+          ]
+        ],
+        [
+          1989,
+          []
+        ],
+        [
+          "5,763",
+          []
+        ]
+      ],
+      [
+        [
+          "Western Michigan",
+          [
+            "/wiki/Western_Michigan_Broncos_men's_ice_hockey"
+          ]
+        ],
+        [
+          "Lawson Arena",
+          [
+            "/wiki/Lawson_Arena"
+          ]
+        ],
+        [
+          1974,
+          []
+        ],
+        [
+          "3,667",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about schools in the National Collegiate Hockey Conference, focusing on their hockey arenas. It includes details such as the name of the school, the hockey arena associated with it, the year the arena was built, and its seating capacity. The table is useful for understanding the infrastructure and facilities of collegiate hockey teams in this conference.",
+  "numeric_columns": [
+    "Year built",
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "Hockey arena"
+  ],
+  "entities": [
+    "School"
+  ]
+}

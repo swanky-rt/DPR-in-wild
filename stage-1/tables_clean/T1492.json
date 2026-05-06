@@ -1,0 +1,325 @@
+{
+  "table_id": "T1492",
+  "uid": "6ddc22b8-40da-52a7-88b7-a138dc1ec0e9",
+  "source": "HybridQA",
+  "source_table_id": "6ddc22b8-40da-52a7-88b7-a138dc1ec0e9",
+  "domain": "HybridQA",
+  "title": "1992 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Vitaly Scherbo ( CIS )",
+        [
+          "/wiki/Vitaly_Scherbo"
+        ]
+      ],
+      [
+        9.9,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Szilveszter Csollány ( HUN )",
+        [
+          "/wiki/Szilveszter_Csollány"
+        ]
+      ],
+      [
+        9.85,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Grigory Misutin ( CIS )",
+        [
+          "/wiki/Grigory_Misutin"
+        ]
+      ],
+      [
+        9.837,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Paul O'Neill ( USA )",
+        [
+          "/wiki/Paul_O'Neill_(gymnast)"
+        ]
+      ],
+      [
+        9.762,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Li Jing ( CHN )",
+        [
+          "/wiki/Li_Jing_(gymnast)"
+        ]
+      ],
+      [
+        9.737,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Sin Myong-Su ( PRK )",
+        [
+          "/wiki/Sin_Myong-Su"
+        ]
+      ],
+      [
+        9.725,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Zoltán Supola ( HUN )",
+        [
+          "/wiki/Zoltán_Supola_(gymnast)"
+        ]
+      ],
+      [
+        9.675,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Li Xiaoshuang ( CHN )",
+        [
+          "/wiki/Li_Xiaoshuang"
+        ]
+      ],
+      [
+        9.65,
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Alfonso Rodriguez ( ESP )",
+        [
+          "/wiki/Alfonso_Rodriguez_(gymnast)"
+        ]
+      ],
+      [
+        9.625,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "6ddc22b8-40da-52a7-88b7-a138dc1ec0e9",
+    "table_id": "1992_World_Artistic_Gymnastics_Championships_2",
+    "title": "1992 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Vitaly Scherbo ( CIS )",
+          [
+            "/wiki/Vitaly_Scherbo"
+          ]
+        ],
+        [
+          9.9,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Szilveszter Csollány ( HUN )",
+          [
+            "/wiki/Szilveszter_Csollány"
+          ]
+        ],
+        [
+          9.85,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Grigory Misutin ( CIS )",
+          [
+            "/wiki/Grigory_Misutin"
+          ]
+        ],
+        [
+          9.837,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Paul O'Neill ( USA )",
+          [
+            "/wiki/Paul_O'Neill_(gymnast)"
+          ]
+        ],
+        [
+          9.762,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Li Jing ( CHN )",
+          [
+            "/wiki/Li_Jing_(gymnast)"
+          ]
+        ],
+        [
+          9.737,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Sin Myong-Su ( PRK )",
+          [
+            "/wiki/Sin_Myong-Su"
+          ]
+        ],
+        [
+          9.725,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Zoltán Supola ( HUN )",
+          [
+            "/wiki/Zoltán_Supola_(gymnast)"
+          ]
+        ],
+        [
+          9.675,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Li Xiaoshuang ( CHN )",
+          [
+            "/wiki/Li_Xiaoshuang"
+          ]
+        ],
+        [
+          9.65,
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Alfonso Rodriguez ( ESP )",
+          [
+            "/wiki/Alfonso_Rodriguez_(gymnast)"
+          ]
+        ],
+        [
+          9.625,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table represents rankings from the 1992 World Artistic Gymnastics Championships, listing gymnasts and their total scores. It provides information about the performance of individual athletes in the competition, including their rank and score.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

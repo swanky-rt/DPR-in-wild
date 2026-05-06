@@ -1,0 +1,468 @@
+{
+  "table_id": "T415",
+  "uid": "318eff25-82ce-502d-91a4-178dd6b79661",
+  "source": "HybridQA",
+  "source_table_id": "318eff25-82ce-502d-91a4-178dd6b79661",
+  "domain": "HybridQA",
+  "title": "2013 Campeonato Mineiro",
+  "columns": [
+    "Clubs",
+    "Home City",
+    "2012 result"
+  ],
+  "rows": [
+    [
+      [
+        "América Mineiro",
+        [
+          "/wiki/América_Futebol_Clube_(MG)"
+        ]
+      ],
+      [
+        "Belo Horizonte",
+        [
+          "/wiki/Belo_Horizonte"
+        ]
+      ],
+      [
+        "2nd",
+        []
+      ]
+    ],
+    [
+      [
+        "América-TO",
+        [
+          "/wiki/América_Futebol_Clube_(Teófilo_Otoni)"
+        ]
+      ],
+      [
+        "Teófilo Otoni",
+        [
+          "/wiki/Teófilo_Otoni"
+        ]
+      ],
+      [
+        "9th",
+        []
+      ]
+    ],
+    [
+      [
+        "Araxá",
+        [
+          "/wiki/Araxá_Esporte_Clube"
+        ]
+      ],
+      [
+        "Araxá",
+        [
+          "/wiki/Araxá"
+        ]
+      ],
+      [
+        "1st ( Módulo II )",
+        []
+      ]
+    ],
+    [
+      [
+        "Atlético Mineiro",
+        [
+          "/wiki/Clube_Atlético_Mineiro"
+        ]
+      ],
+      [
+        "Belo Horizonte",
+        [
+          "/wiki/Belo_Horizonte"
+        ]
+      ],
+      [
+        "1st",
+        []
+      ]
+    ],
+    [
+      [
+        "Boa Esporte",
+        [
+          "/wiki/Boa_Esporte_Clube"
+        ]
+      ],
+      [
+        "Varginha",
+        [
+          "/wiki/Varginha"
+        ]
+      ],
+      [
+        "8th",
+        []
+      ]
+    ],
+    [
+      [
+        "Caldense",
+        [
+          "/wiki/Associação_Atlética_Caldense"
+        ]
+      ],
+      [
+        "Poços de Caldas",
+        [
+          "/wiki/Poços_de_Caldas"
+        ]
+      ],
+      [
+        "7th",
+        []
+      ]
+    ],
+    [
+      [
+        "Cruzeiro",
+        [
+          "/wiki/Cruzeiro_Esporte_Clube"
+        ]
+      ],
+      [
+        "Belo Horizonte",
+        [
+          "/wiki/Belo_Horizonte"
+        ]
+      ],
+      [
+        "4th",
+        []
+      ]
+    ],
+    [
+      [
+        "Guarani",
+        [
+          "/wiki/Guarani_Esporte_Clube_(Divinópolis)"
+        ]
+      ],
+      [
+        "Divinópolis",
+        [
+          "/wiki/Divinópolis"
+        ]
+      ],
+      [
+        "6th",
+        []
+      ]
+    ],
+    [
+      [
+        "Nacional",
+        [
+          "/wiki/Nacional_Esporte_Clube_(MG)"
+        ]
+      ],
+      [
+        "Patos de Minas",
+        [
+          "/wiki/Patos_de_Minas"
+        ]
+      ],
+      [
+        "5th",
+        []
+      ]
+    ],
+    [
+      [
+        "Tombense",
+        [
+          "/wiki/Tombense_Futebol_Clube"
+        ]
+      ],
+      [
+        "Tombos",
+        [
+          "/wiki/Tombos"
+        ]
+      ],
+      [
+        "2nd ( Módulo II )",
+        []
+      ]
+    ],
+    [
+      [
+        "Tupi",
+        [
+          "/wiki/Tupi_Football_Club"
+        ]
+      ],
+      [
+        "Juiz de Fora",
+        [
+          "/wiki/Juiz_de_Fora"
+        ]
+      ],
+      [
+        "3rd",
+        []
+      ]
+    ],
+    [
+      [
+        "Villa Nova",
+        [
+          "/wiki/Villa_Nova_Atlético_Clube"
+        ]
+      ],
+      [
+        "Nova Lima",
+        [
+          "/wiki/Nova_Lima"
+        ]
+      ],
+      [
+        "10th",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "318eff25-82ce-502d-91a4-178dd6b79661",
+    "table_id": "2013_Campeonato_Mineiro_0",
+    "title": "2013 Campeonato Mineiro",
+    "header": [
+      "Clubs",
+      "Home City",
+      "2012 result"
+    ],
+    "value": [
+      [
+        [
+          "América Mineiro",
+          [
+            "/wiki/América_Futebol_Clube_(MG)"
+          ]
+        ],
+        [
+          "Belo Horizonte",
+          [
+            "/wiki/Belo_Horizonte"
+          ]
+        ],
+        [
+          "2nd",
+          []
+        ]
+      ],
+      [
+        [
+          "América-TO",
+          [
+            "/wiki/América_Futebol_Clube_(Teófilo_Otoni)"
+          ]
+        ],
+        [
+          "Teófilo Otoni",
+          [
+            "/wiki/Teófilo_Otoni"
+          ]
+        ],
+        [
+          "9th",
+          []
+        ]
+      ],
+      [
+        [
+          "Araxá",
+          [
+            "/wiki/Araxá_Esporte_Clube"
+          ]
+        ],
+        [
+          "Araxá",
+          [
+            "/wiki/Araxá"
+          ]
+        ],
+        [
+          "1st ( Módulo II )",
+          []
+        ]
+      ],
+      [
+        [
+          "Atlético Mineiro",
+          [
+            "/wiki/Clube_Atlético_Mineiro"
+          ]
+        ],
+        [
+          "Belo Horizonte",
+          [
+            "/wiki/Belo_Horizonte"
+          ]
+        ],
+        [
+          "1st",
+          []
+        ]
+      ],
+      [
+        [
+          "Boa Esporte",
+          [
+            "/wiki/Boa_Esporte_Clube"
+          ]
+        ],
+        [
+          "Varginha",
+          [
+            "/wiki/Varginha"
+          ]
+        ],
+        [
+          "8th",
+          []
+        ]
+      ],
+      [
+        [
+          "Caldense",
+          [
+            "/wiki/Associação_Atlética_Caldense"
+          ]
+        ],
+        [
+          "Poços de Caldas",
+          [
+            "/wiki/Poços_de_Caldas"
+          ]
+        ],
+        [
+          "7th",
+          []
+        ]
+      ],
+      [
+        [
+          "Cruzeiro",
+          [
+            "/wiki/Cruzeiro_Esporte_Clube"
+          ]
+        ],
+        [
+          "Belo Horizonte",
+          [
+            "/wiki/Belo_Horizonte"
+          ]
+        ],
+        [
+          "4th",
+          []
+        ]
+      ],
+      [
+        [
+          "Guarani",
+          [
+            "/wiki/Guarani_Esporte_Clube_(Divinópolis)"
+          ]
+        ],
+        [
+          "Divinópolis",
+          [
+            "/wiki/Divinópolis"
+          ]
+        ],
+        [
+          "6th",
+          []
+        ]
+      ],
+      [
+        [
+          "Nacional",
+          [
+            "/wiki/Nacional_Esporte_Clube_(MG)"
+          ]
+        ],
+        [
+          "Patos de Minas",
+          [
+            "/wiki/Patos_de_Minas"
+          ]
+        ],
+        [
+          "5th",
+          []
+        ]
+      ],
+      [
+        [
+          "Tombense",
+          [
+            "/wiki/Tombense_Futebol_Clube"
+          ]
+        ],
+        [
+          "Tombos",
+          [
+            "/wiki/Tombos"
+          ]
+        ],
+        [
+          "2nd ( Módulo II )",
+          []
+        ]
+      ],
+      [
+        [
+          "Tupi",
+          [
+            "/wiki/Tupi_Football_Club"
+          ]
+        ],
+        [
+          "Juiz de Fora",
+          [
+            "/wiki/Juiz_de_Fora"
+          ]
+        ],
+        [
+          "3rd",
+          []
+        ]
+      ],
+      [
+        [
+          "Villa Nova",
+          [
+            "/wiki/Villa_Nova_Atlético_Clube"
+          ]
+        ],
+        [
+          "Nova Lima",
+          [
+            "/wiki/Nova_Lima"
+          ]
+        ],
+        [
+          "10th",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the clubs that participated in the 2013 Campeonato Mineiro, a football competition in Brazil. It includes details about each club's home city and their performance in the previous year's tournament. The table is useful for understanding the geographic and competitive landscape of the event.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "2012 result"
+  ],
+  "entities": [
+    "Clubs",
+    "Home City"
+  ]
+}

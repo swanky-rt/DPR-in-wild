@@ -1,0 +1,583 @@
+{
+  "table_id": "T3751",
+  "uid": "33e66bf7-d047-56b0-8adb-e7faf19d8e78",
+  "source": "HybridQA",
+  "source_table_id": "33e66bf7-d047-56b0-8adb-e7faf19d8e78",
+  "domain": "HybridQA",
+  "title": "Charlotte, North Carolina",
+  "columns": [
+    "Club",
+    "Sport",
+    "Founded",
+    "League",
+    "Venue"
+  ],
+  "rows": [
+    [
+      [
+        "Carolina Panthers",
+        [
+          "/wiki/Carolina_Panthers"
+        ]
+      ],
+      [
+        "Football",
+        [
+          "/wiki/American_Football"
+        ]
+      ],
+      [
+        1995,
+        []
+      ],
+      [
+        "National Football League",
+        [
+          "/wiki/National_Football_League"
+        ]
+      ],
+      [
+        "Bank of America Stadium",
+        [
+          "/wiki/Bank_of_America_Stadium"
+        ]
+      ]
+    ],
+    [
+      [
+        "Charlotte Hornets",
+        [
+          "/wiki/Charlotte_Hornets"
+        ]
+      ],
+      [
+        "Basketball",
+        [
+          "/wiki/Basketball"
+        ]
+      ],
+      [
+        1988,
+        []
+      ],
+      [
+        "National Basketball Association",
+        [
+          "/wiki/National_Basketball_Association"
+        ]
+      ],
+      [
+        "Spectrum Center",
+        [
+          "/wiki/Spectrum_Center_(arena)"
+        ]
+      ]
+    ],
+    [
+      [
+        "Charlotte MLS team",
+        [
+          "/wiki/Charlotte_MLS_team"
+        ]
+      ],
+      [
+        "Soccer",
+        [
+          "/wiki/Soccer"
+        ]
+      ],
+      [
+        2019,
+        []
+      ],
+      [
+        "Major League Soccer",
+        [
+          "/wiki/Major_League_Soccer"
+        ]
+      ],
+      [
+        "Bank of America Stadium",
+        [
+          "/wiki/Bank_of_America_Stadium"
+        ]
+      ]
+    ],
+    [
+      [
+        "Charlotte Hounds",
+        [
+          "/wiki/Charlotte_Hounds"
+        ]
+      ],
+      [
+        "Lacrosse",
+        [
+          "/wiki/Lacrosse"
+        ]
+      ],
+      [
+        2011,
+        []
+      ],
+      [
+        "Major League Lacrosse",
+        [
+          "/wiki/Major_League_Lacrosse"
+        ]
+      ],
+      [
+        "American Legion Memorial Stadium",
+        [
+          "/wiki/American_Legion_Memorial_Stadium"
+        ]
+      ]
+    ],
+    [
+      [
+        "Charlotte Checkers",
+        [
+          "/wiki/Charlotte_Checkers"
+        ]
+      ],
+      [
+        "Ice hockey",
+        [
+          "/wiki/Ice_hockey"
+        ]
+      ],
+      [
+        1993,
+        []
+      ],
+      [
+        "American Hockey League",
+        [
+          "/wiki/American_Hockey_League"
+        ]
+      ],
+      [
+        "Bojangles ' Coliseum",
+        [
+          "/wiki/Bojangles'_Coliseum"
+        ]
+      ]
+    ],
+    [
+      [
+        "Charlotte Knights",
+        [
+          "/wiki/Charlotte_Knights"
+        ]
+      ],
+      [
+        "Baseball",
+        [
+          "/wiki/Baseball"
+        ]
+      ],
+      [
+        1976,
+        []
+      ],
+      [
+        "International League",
+        [
+          "/wiki/International_League"
+        ]
+      ],
+      [
+        "BB & T Ballpark",
+        [
+          "/wiki/BB&T_Ballpark_(Charlotte)"
+        ]
+      ]
+    ],
+    [
+      [
+        "Charlotte Independence",
+        [
+          "/wiki/Charlotte_Independence"
+        ]
+      ],
+      [
+        "Soccer",
+        [
+          "/wiki/Football_(soccer)"
+        ]
+      ],
+      [
+        2015,
+        []
+      ],
+      [
+        "USL Championship",
+        [
+          "/wiki/USL_Championship"
+        ]
+      ],
+      [
+        "Sportsplex at Matthews",
+        [
+          "/wiki/Sportsplex_at_Matthews"
+        ]
+      ]
+    ],
+    [
+      [
+        "Charlotte Eagles",
+        [
+          "/wiki/Charlotte_Eagles"
+        ]
+      ],
+      [
+        "Soccer",
+        [
+          "/wiki/Football_(soccer)"
+        ]
+      ],
+      [
+        1993,
+        []
+      ],
+      [
+        "Premier Development League",
+        [
+          "/wiki/Premier_Development_League"
+        ]
+      ],
+      [
+        "Queens Sports Complex",
+        [
+          "/wiki/Queens_University_of_Charlotte"
+        ]
+      ]
+    ],
+    [
+      [
+        "Charlotte Lady Eagles",
+        [
+          "/wiki/Charlotte_Lady_Eagles"
+        ]
+      ],
+      [
+        "Soccer",
+        [
+          "/wiki/Football_(soccer)"
+        ]
+      ],
+      [
+        1993,
+        []
+      ],
+      [
+        "W-League",
+        [
+          "/wiki/USL_W-League"
+        ]
+      ],
+      [
+        "Queens Sports Complex",
+        [
+          "/wiki/Queens_University_of_Charlotte"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "33e66bf7-d047-56b0-8adb-e7faf19d8e78",
+    "table_id": "Charlotte,_North_Carolina_1",
+    "title": "Charlotte, North Carolina",
+    "header": [
+      "Club",
+      "Sport",
+      "Founded",
+      "League",
+      "Venue"
+    ],
+    "value": [
+      [
+        [
+          "Carolina Panthers",
+          [
+            "/wiki/Carolina_Panthers"
+          ]
+        ],
+        [
+          "Football",
+          [
+            "/wiki/American_Football"
+          ]
+        ],
+        [
+          1995,
+          []
+        ],
+        [
+          "National Football League",
+          [
+            "/wiki/National_Football_League"
+          ]
+        ],
+        [
+          "Bank of America Stadium",
+          [
+            "/wiki/Bank_of_America_Stadium"
+          ]
+        ]
+      ],
+      [
+        [
+          "Charlotte Hornets",
+          [
+            "/wiki/Charlotte_Hornets"
+          ]
+        ],
+        [
+          "Basketball",
+          [
+            "/wiki/Basketball"
+          ]
+        ],
+        [
+          1988,
+          []
+        ],
+        [
+          "National Basketball Association",
+          [
+            "/wiki/National_Basketball_Association"
+          ]
+        ],
+        [
+          "Spectrum Center",
+          [
+            "/wiki/Spectrum_Center_(arena)"
+          ]
+        ]
+      ],
+      [
+        [
+          "Charlotte MLS team",
+          [
+            "/wiki/Charlotte_MLS_team"
+          ]
+        ],
+        [
+          "Soccer",
+          [
+            "/wiki/Soccer"
+          ]
+        ],
+        [
+          2019,
+          []
+        ],
+        [
+          "Major League Soccer",
+          [
+            "/wiki/Major_League_Soccer"
+          ]
+        ],
+        [
+          "Bank of America Stadium",
+          [
+            "/wiki/Bank_of_America_Stadium"
+          ]
+        ]
+      ],
+      [
+        [
+          "Charlotte Hounds",
+          [
+            "/wiki/Charlotte_Hounds"
+          ]
+        ],
+        [
+          "Lacrosse",
+          [
+            "/wiki/Lacrosse"
+          ]
+        ],
+        [
+          2011,
+          []
+        ],
+        [
+          "Major League Lacrosse",
+          [
+            "/wiki/Major_League_Lacrosse"
+          ]
+        ],
+        [
+          "American Legion Memorial Stadium",
+          [
+            "/wiki/American_Legion_Memorial_Stadium"
+          ]
+        ]
+      ],
+      [
+        [
+          "Charlotte Checkers",
+          [
+            "/wiki/Charlotte_Checkers"
+          ]
+        ],
+        [
+          "Ice hockey",
+          [
+            "/wiki/Ice_hockey"
+          ]
+        ],
+        [
+          1993,
+          []
+        ],
+        [
+          "American Hockey League",
+          [
+            "/wiki/American_Hockey_League"
+          ]
+        ],
+        [
+          "Bojangles ' Coliseum",
+          [
+            "/wiki/Bojangles'_Coliseum"
+          ]
+        ]
+      ],
+      [
+        [
+          "Charlotte Knights",
+          [
+            "/wiki/Charlotte_Knights"
+          ]
+        ],
+        [
+          "Baseball",
+          [
+            "/wiki/Baseball"
+          ]
+        ],
+        [
+          1976,
+          []
+        ],
+        [
+          "International League",
+          [
+            "/wiki/International_League"
+          ]
+        ],
+        [
+          "BB & T Ballpark",
+          [
+            "/wiki/BB&T_Ballpark_(Charlotte)"
+          ]
+        ]
+      ],
+      [
+        [
+          "Charlotte Independence",
+          [
+            "/wiki/Charlotte_Independence"
+          ]
+        ],
+        [
+          "Soccer",
+          [
+            "/wiki/Football_(soccer)"
+          ]
+        ],
+        [
+          2015,
+          []
+        ],
+        [
+          "USL Championship",
+          [
+            "/wiki/USL_Championship"
+          ]
+        ],
+        [
+          "Sportsplex at Matthews",
+          [
+            "/wiki/Sportsplex_at_Matthews"
+          ]
+        ]
+      ],
+      [
+        [
+          "Charlotte Eagles",
+          [
+            "/wiki/Charlotte_Eagles"
+          ]
+        ],
+        [
+          "Soccer",
+          [
+            "/wiki/Football_(soccer)"
+          ]
+        ],
+        [
+          1993,
+          []
+        ],
+        [
+          "Premier Development League",
+          [
+            "/wiki/Premier_Development_League"
+          ]
+        ],
+        [
+          "Queens Sports Complex",
+          [
+            "/wiki/Queens_University_of_Charlotte"
+          ]
+        ]
+      ],
+      [
+        [
+          "Charlotte Lady Eagles",
+          [
+            "/wiki/Charlotte_Lady_Eagles"
+          ]
+        ],
+        [
+          "Soccer",
+          [
+            "/wiki/Football_(soccer)"
+          ]
+        ],
+        [
+          1993,
+          []
+        ],
+        [
+          "W-League",
+          [
+            "/wiki/USL_W-League"
+          ]
+        ],
+        [
+          "Queens Sports Complex",
+          [
+            "/wiki/Queens_University_of_Charlotte"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about sports clubs in Charlotte, North Carolina, including their associated sports, founding years, leagues, and venues. It serves as a summary of key details about these organizations and their affiliations. The table is useful for understanding the sports landscape in the city.",
+  "numeric_columns": [
+    "Founded"
+  ],
+  "categorical_columns": [
+    "Sport",
+    "League"
+  ],
+  "entities": [
+    "Club",
+    "Venue"
+  ]
+}

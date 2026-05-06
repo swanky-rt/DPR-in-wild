@@ -1,0 +1,324 @@
+{
+  "table_id": "T2785",
+  "uid": "3afe0680-33aa-5eca-a878-1b2850452323",
+  "source": "HybridQA",
+  "source_table_id": "3afe0680-33aa-5eca-a878-1b2850452323",
+  "domain": "HybridQA",
+  "title": "List of association football clubs in the Republic of Ireland",
+  "columns": [
+    "Team",
+    "Home town/suburb",
+    "Ground"
+  ],
+  "rows": [
+    [
+      [
+        "Ballydehob",
+        []
+      ],
+      [
+        "Ballydehob",
+        [
+          "/wiki/Ballydehob"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Bay Rovers",
+        []
+      ],
+      [
+        "Kealkill",
+        [
+          "/wiki/Kealkill"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Bunratty United",
+        []
+      ],
+      [
+        "Schull",
+        [
+          "/wiki/Schull"
+        ]
+      ],
+      [
+        "Town Park",
+        []
+      ]
+    ],
+    [
+      [
+        "Clonakilty AFC",
+        []
+      ],
+      [
+        "Clonakilty",
+        [
+          "/wiki/Clonakilty"
+        ]
+      ],
+      [
+        "Inchadoney",
+        []
+      ]
+    ],
+    [
+      [
+        "Drinagh Rangers",
+        []
+      ],
+      [
+        "Drinagh",
+        [
+          "/wiki/Drinagh"
+        ]
+      ],
+      [
+        "Canon Crowley Park",
+        []
+      ]
+    ],
+    [
+      [
+        "Dunmanway Town",
+        []
+      ],
+      [
+        "Dunmanway",
+        [
+          "/wiki/Dunmanway"
+        ]
+      ],
+      [
+        "Mohona",
+        []
+      ]
+    ],
+    [
+      [
+        "Leeside AFC",
+        []
+      ],
+      [
+        "Inchigeelagh",
+        [
+          "/wiki/Inchigeelagh"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Riverside Athletic",
+        []
+      ],
+      [
+        "Ballineen",
+        [
+          "/wiki/Ballineen_and_Enniskean"
+        ]
+      ],
+      [
+        "Autograss",
+        []
+      ]
+    ],
+    [
+      [
+        "Togher Celtic",
+        []
+      ],
+      [
+        "Dunmanway",
+        [
+          "/wiki/Dunmanway"
+        ]
+      ],
+      [
+        "Race Field",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "3afe0680-33aa-5eca-a878-1b2850452323",
+    "table_id": "List_of_association_football_clubs_in_the_Republic_of_Ireland_19",
+    "title": "List of association football clubs in the Republic of Ireland",
+    "header": [
+      "Team",
+      "Home town/suburb",
+      "Ground"
+    ],
+    "value": [
+      [
+        [
+          "Ballydehob",
+          []
+        ],
+        [
+          "Ballydehob",
+          [
+            "/wiki/Ballydehob"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Bay Rovers",
+          []
+        ],
+        [
+          "Kealkill",
+          [
+            "/wiki/Kealkill"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Bunratty United",
+          []
+        ],
+        [
+          "Schull",
+          [
+            "/wiki/Schull"
+          ]
+        ],
+        [
+          "Town Park",
+          []
+        ]
+      ],
+      [
+        [
+          "Clonakilty AFC",
+          []
+        ],
+        [
+          "Clonakilty",
+          [
+            "/wiki/Clonakilty"
+          ]
+        ],
+        [
+          "Inchadoney",
+          []
+        ]
+      ],
+      [
+        [
+          "Drinagh Rangers",
+          []
+        ],
+        [
+          "Drinagh",
+          [
+            "/wiki/Drinagh"
+          ]
+        ],
+        [
+          "Canon Crowley Park",
+          []
+        ]
+      ],
+      [
+        [
+          "Dunmanway Town",
+          []
+        ],
+        [
+          "Dunmanway",
+          [
+            "/wiki/Dunmanway"
+          ]
+        ],
+        [
+          "Mohona",
+          []
+        ]
+      ],
+      [
+        [
+          "Leeside AFC",
+          []
+        ],
+        [
+          "Inchigeelagh",
+          [
+            "/wiki/Inchigeelagh"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Riverside Athletic",
+          []
+        ],
+        [
+          "Ballineen",
+          [
+            "/wiki/Ballineen_and_Enniskean"
+          ]
+        ],
+        [
+          "Autograss",
+          []
+        ]
+      ],
+      [
+        [
+          "Togher Celtic",
+          []
+        ],
+        [
+          "Dunmanway",
+          [
+            "/wiki/Dunmanway"
+          ]
+        ],
+        [
+          "Race Field",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a list of association football clubs in the Republic of Ireland, detailing their home towns or suburbs and the grounds where they play. It serves as a reference for understanding the geographical and infrastructural aspects of these clubs. The table is likely aimed at sports enthusiasts or researchers interested in Irish football clubs.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Home town/suburb",
+    "Ground"
+  ],
+  "entities": [
+    "Team"
+  ]
+}

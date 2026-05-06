@@ -1,0 +1,293 @@
+{
+  "table_id": "T1690",
+  "uid": "d4f62c91-33a6-5142-a8c7-80da8c3c4565",
+  "source": "HybridQA",
+  "source_table_id": "d4f62c91-33a6-5142-a8c7-80da8c3c4565",
+  "domain": "HybridQA",
+  "title": "1997 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Svetlana Khorkina ( RUS )",
+        [
+          "/wiki/Svetlana_Khorkina"
+        ]
+      ],
+      [
+        9.875,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Meng Fei ( CHN )",
+        [
+          "/wiki/Meng_Fei_(gymnast)"
+        ]
+      ],
+      [
+        9.8,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Bi Wenjing ( CHN )",
+        [
+          "/wiki/Bi_Wenjing"
+        ]
+      ],
+      [
+        9.787,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Liubov Sheremeta ( UKR )",
+        [
+          "/wiki/Liubov_Sheremeta"
+        ]
+      ],
+      [
+        9.75,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Claudia Presăcan ( ROU )",
+        [
+          "/wiki/Claudia_Presăcan"
+        ]
+      ],
+      [
+        9.725,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Alexandra Marinescu ( ROU )",
+        [
+          "/wiki/Alexandra_Marinescu"
+        ]
+      ],
+      [
+        9.712,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Olga Teslenko ( UKR )",
+        [
+          "/wiki/Olga_Teslenko"
+        ]
+      ],
+      [
+        9.675,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Yevgeniya Kuznetsova ( RUS )",
+        [
+          "/wiki/Evgeniya_Kuznetsova"
+        ]
+      ],
+      [
+        9.412,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "d4f62c91-33a6-5142-a8c7-80da8c3c4565",
+    "table_id": "1997_World_Artistic_Gymnastics_Championships_9",
+    "title": "1997 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Svetlana Khorkina ( RUS )",
+          [
+            "/wiki/Svetlana_Khorkina"
+          ]
+        ],
+        [
+          9.875,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Meng Fei ( CHN )",
+          [
+            "/wiki/Meng_Fei_(gymnast)"
+          ]
+        ],
+        [
+          9.8,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Bi Wenjing ( CHN )",
+          [
+            "/wiki/Bi_Wenjing"
+          ]
+        ],
+        [
+          9.787,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Liubov Sheremeta ( UKR )",
+          [
+            "/wiki/Liubov_Sheremeta"
+          ]
+        ],
+        [
+          9.75,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Claudia Presăcan ( ROU )",
+          [
+            "/wiki/Claudia_Presăcan"
+          ]
+        ],
+        [
+          9.725,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Alexandra Marinescu ( ROU )",
+          [
+            "/wiki/Alexandra_Marinescu"
+          ]
+        ],
+        [
+          9.712,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Olga Teslenko ( UKR )",
+          [
+            "/wiki/Olga_Teslenko"
+          ]
+        ],
+        [
+          9.675,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Yevgeniya Kuznetsova ( RUS )",
+          [
+            "/wiki/Evgeniya_Kuznetsova"
+          ]
+        ],
+        [
+          9.412,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a ranking of gymnasts based on their performance at the 1997 World Artistic Gymnastics Championships. It includes information about the rank, the names of the gymnasts, and their total scores. The table is likely used to summarize and compare the results of the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

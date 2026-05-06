@@ -1,0 +1,356 @@
+{
+  "table_id": "T2107",
+  "uid": "8a85b650-7413-55b4-9803-d5571a245c11",
+  "source": "HybridQA",
+  "source_table_id": "8a85b650-7413-55b4-9803-d5571a245c11",
+  "domain": "HybridQA",
+  "title": "Ireland cricket team",
+  "columns": [
+    "Player",
+    "Runs",
+    "Average"
+  ],
+  "rows": [
+    [
+      [
+        "Paul Stirling",
+        [
+          "/wiki/Paul_Stirling"
+        ]
+      ],
+      [
+        "2,052",
+        []
+      ],
+      [
+        30.17,
+        []
+      ]
+    ],
+    [
+      [
+        "Kevin O'Brien",
+        [
+          "/wiki/Kevin_O'Brien_(cricketer)"
+        ]
+      ],
+      [
+        "1,592",
+        []
+      ],
+      [
+        20.94,
+        []
+      ]
+    ],
+    [
+      [
+        "Gary Wilson",
+        [
+          "/wiki/Gary_Wilson_(cricketer)"
+        ]
+      ],
+      [
+        "1,268",
+        []
+      ],
+      [
+        21.13,
+        []
+      ]
+    ],
+    [
+      [
+        "William Porterfield",
+        [
+          "/wiki/William_Porterfield"
+        ]
+      ],
+      [
+        "1,079",
+        []
+      ],
+      [
+        20.35,
+        []
+      ]
+    ],
+    [
+      [
+        "Andrew Balbirnie",
+        [
+          "/wiki/Andrew_Balbirnie"
+        ]
+      ],
+      [
+        861,
+        []
+      ],
+      [
+        25.32,
+        []
+      ]
+    ],
+    [
+      [
+        "Niall O'Brien",
+        [
+          "/wiki/Niall_O'Brien_(cricketer)"
+        ]
+      ],
+      [
+        466,
+        []
+      ],
+      [
+        17.92,
+        []
+      ]
+    ],
+    [
+      [
+        "Ed Joyce",
+        [
+          "/wiki/Ed_Joyce"
+        ]
+      ],
+      [
+        404,
+        []
+      ],
+      [
+        36.72,
+        []
+      ]
+    ],
+    [
+      [
+        "Gareth Delany",
+        [
+          "/wiki/Gareth_Delany"
+        ]
+      ],
+      [
+        383,
+        []
+      ],
+      [
+        25.53,
+        []
+      ]
+    ],
+    [
+      [
+        "Stuart Thompson",
+        [
+          "/wiki/Stuart_Thompson"
+        ]
+      ],
+      [
+        328,
+        []
+      ],
+      [
+        14.9,
+        []
+      ]
+    ],
+    [
+      [
+        "Harry Tector",
+        [
+          "/wiki/Harry_Tector"
+        ]
+      ],
+      [
+        267,
+        []
+      ],
+      [
+        22.25,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "8a85b650-7413-55b4-9803-d5571a245c11",
+    "table_id": "Ireland_cricket_team_4",
+    "title": "Ireland cricket team",
+    "header": [
+      "Player",
+      "Runs",
+      "Average"
+    ],
+    "value": [
+      [
+        [
+          "Paul Stirling",
+          [
+            "/wiki/Paul_Stirling"
+          ]
+        ],
+        [
+          "2,052",
+          []
+        ],
+        [
+          30.17,
+          []
+        ]
+      ],
+      [
+        [
+          "Kevin O'Brien",
+          [
+            "/wiki/Kevin_O'Brien_(cricketer)"
+          ]
+        ],
+        [
+          "1,592",
+          []
+        ],
+        [
+          20.94,
+          []
+        ]
+      ],
+      [
+        [
+          "Gary Wilson",
+          [
+            "/wiki/Gary_Wilson_(cricketer)"
+          ]
+        ],
+        [
+          "1,268",
+          []
+        ],
+        [
+          21.13,
+          []
+        ]
+      ],
+      [
+        [
+          "William Porterfield",
+          [
+            "/wiki/William_Porterfield"
+          ]
+        ],
+        [
+          "1,079",
+          []
+        ],
+        [
+          20.35,
+          []
+        ]
+      ],
+      [
+        [
+          "Andrew Balbirnie",
+          [
+            "/wiki/Andrew_Balbirnie"
+          ]
+        ],
+        [
+          861,
+          []
+        ],
+        [
+          25.32,
+          []
+        ]
+      ],
+      [
+        [
+          "Niall O'Brien",
+          [
+            "/wiki/Niall_O'Brien_(cricketer)"
+          ]
+        ],
+        [
+          466,
+          []
+        ],
+        [
+          17.92,
+          []
+        ]
+      ],
+      [
+        [
+          "Ed Joyce",
+          [
+            "/wiki/Ed_Joyce"
+          ]
+        ],
+        [
+          404,
+          []
+        ],
+        [
+          36.72,
+          []
+        ]
+      ],
+      [
+        [
+          "Gareth Delany",
+          [
+            "/wiki/Gareth_Delany"
+          ]
+        ],
+        [
+          383,
+          []
+        ],
+        [
+          25.53,
+          []
+        ]
+      ],
+      [
+        [
+          "Stuart Thompson",
+          [
+            "/wiki/Stuart_Thompson"
+          ]
+        ],
+        [
+          328,
+          []
+        ],
+        [
+          14.9,
+          []
+        ]
+      ],
+      [
+        [
+          "Harry Tector",
+          [
+            "/wiki/Harry_Tector"
+          ]
+        ],
+        [
+          267,
+          []
+        ],
+        [
+          22.25,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides statistical information about players on the Ireland cricket team. It includes details such as the player's name, the number of runs they have scored, and their batting average. The table is likely intended for analyzing player performance or comparing contributions within the team.",
+  "numeric_columns": [
+    "Runs",
+    "Average"
+  ],
+  "categorical_columns": [],
+  "entities": [
+    "Player"
+  ]
+}

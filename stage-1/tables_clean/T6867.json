@@ -1,0 +1,601 @@
+{
+  "table_id": "T6867",
+  "uid": "01425e9f-f0ee-5605-a1dd-460e0cf2189b",
+  "source": "HybridQA",
+  "source_table_id": "01425e9f-f0ee-5605-a1dd-460e0cf2189b",
+  "domain": "HybridQA",
+  "title": "Dancing with the Stars (American season 3)",
+  "columns": [
+    "Dance",
+    "Highest scored dancer ( s )",
+    "Highest score",
+    "Lowest scored dancer ( s )",
+    "Lowest score"
+  ],
+  "rows": [
+    [
+      [
+        "Cha-cha-cha",
+        [
+          "/wiki/Cha-cha-cha_(dance)"
+        ]
+      ],
+      [
+        "Emmitt Smith",
+        [
+          "/wiki/Emmitt_Smith"
+        ]
+      ],
+      [
+        30,
+        []
+      ],
+      [
+        "Tucker Carlson",
+        [
+          "/wiki/Tucker_Carlson"
+        ]
+      ],
+      [
+        12,
+        []
+      ]
+    ],
+    [
+      [
+        "Foxtrot",
+        [
+          "/wiki/Foxtrot"
+        ]
+      ],
+      [
+        "Mario Lopez Joey Lawrence",
+        [
+          "/wiki/Mario_Lopez",
+          "/wiki/Joey_Lawrence"
+        ]
+      ],
+      [
+        29,
+        []
+      ],
+      [
+        "Sara Evans",
+        [
+          "/wiki/Sara_Evans"
+        ]
+      ],
+      [
+        15,
+        []
+      ]
+    ],
+    [
+      [
+        "Mambo",
+        [
+          "/wiki/Mambo_(dance)"
+        ]
+      ],
+      [
+        "Emmitt Smith",
+        []
+      ],
+      [
+        30,
+        []
+      ],
+      [
+        "Sara Evans",
+        []
+      ],
+      [
+        21,
+        []
+      ]
+    ],
+    [
+      [
+        "Quickstep",
+        [
+          "/wiki/Quickstep"
+        ]
+      ],
+      [
+        "Joey Lawrence",
+        []
+      ],
+      [
+        29,
+        []
+      ],
+      [
+        "Jerry Springer",
+        [
+          "/wiki/Jerry_Springer"
+        ]
+      ],
+      [
+        19,
+        []
+      ]
+    ],
+    [
+      [
+        "Jive",
+        [
+          "/wiki/Jive_(dance)"
+        ]
+      ],
+      [
+        "Monique Coleman Mario Lopez",
+        [
+          "/wiki/Monique_Coleman"
+        ]
+      ],
+      [
+        27,
+        []
+      ],
+      [
+        "Joey Lawrence Willa Ford",
+        [
+          "/wiki/Willa_Ford"
+        ]
+      ],
+      [
+        22,
+        []
+      ]
+    ],
+    [
+      [
+        "Tango",
+        [
+          "/wiki/Ballroom_tango"
+        ]
+      ],
+      [
+        "Mario Lopez",
+        []
+      ],
+      [
+        30,
+        []
+      ],
+      [
+        "Emmitt Smith",
+        []
+      ],
+      [
+        19,
+        []
+      ]
+    ],
+    [
+      [
+        "Waltz",
+        [
+          "/wiki/Waltz"
+        ]
+      ],
+      [
+        "Emmitt Smith",
+        []
+      ],
+      [
+        29,
+        []
+      ],
+      [
+        "Jerry Springer",
+        []
+      ],
+      [
+        22,
+        []
+      ]
+    ],
+    [
+      [
+        "Rumba",
+        [
+          "/wiki/Rhumba"
+        ]
+      ],
+      [
+        "Joey Lawrence",
+        []
+      ],
+      [
+        30,
+        []
+      ],
+      [
+        "Joey Lawrence",
+        []
+      ],
+      [
+        24,
+        []
+      ]
+    ],
+    [
+      [
+        "Paso doble",
+        [
+          "/wiki/Paso_doble"
+        ]
+      ],
+      [
+        "Mario Lopez",
+        []
+      ],
+      [
+        30,
+        []
+      ],
+      [
+        "Jerry Springer",
+        []
+      ],
+      [
+        18,
+        []
+      ]
+    ],
+    [
+      [
+        "Samba",
+        [
+          "/wiki/Samba_(ballroom_dance)"
+        ]
+      ],
+      [
+        "Emmitt Smith",
+        []
+      ],
+      [
+        30,
+        []
+      ],
+      [
+        "Monique Coleman",
+        []
+      ],
+      [
+        23,
+        []
+      ]
+    ],
+    [
+      [
+        "Freestyle",
+        [
+          "/wiki/Street_dance"
+        ]
+      ],
+      [
+        "Mario Lopez",
+        []
+      ],
+      [
+        30,
+        []
+      ],
+      [
+        "Emmitt Smith",
+        []
+      ],
+      [
+        29,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "01425e9f-f0ee-5605-a1dd-460e0cf2189b",
+    "table_id": "Dancing_with_the_Stars_(U.S._season_3)_3",
+    "title": "Dancing with the Stars (American season 3)",
+    "header": [
+      "Dance",
+      "Highest scored dancer ( s )",
+      "Highest score",
+      "Lowest scored dancer ( s )",
+      "Lowest score"
+    ],
+    "value": [
+      [
+        [
+          "Cha-cha-cha",
+          [
+            "/wiki/Cha-cha-cha_(dance)"
+          ]
+        ],
+        [
+          "Emmitt Smith",
+          [
+            "/wiki/Emmitt_Smith"
+          ]
+        ],
+        [
+          30,
+          []
+        ],
+        [
+          "Tucker Carlson",
+          [
+            "/wiki/Tucker_Carlson"
+          ]
+        ],
+        [
+          12,
+          []
+        ]
+      ],
+      [
+        [
+          "Foxtrot",
+          [
+            "/wiki/Foxtrot"
+          ]
+        ],
+        [
+          "Mario Lopez Joey Lawrence",
+          [
+            "/wiki/Mario_Lopez",
+            "/wiki/Joey_Lawrence"
+          ]
+        ],
+        [
+          29,
+          []
+        ],
+        [
+          "Sara Evans",
+          [
+            "/wiki/Sara_Evans"
+          ]
+        ],
+        [
+          15,
+          []
+        ]
+      ],
+      [
+        [
+          "Mambo",
+          [
+            "/wiki/Mambo_(dance)"
+          ]
+        ],
+        [
+          "Emmitt Smith",
+          []
+        ],
+        [
+          30,
+          []
+        ],
+        [
+          "Sara Evans",
+          []
+        ],
+        [
+          21,
+          []
+        ]
+      ],
+      [
+        [
+          "Quickstep",
+          [
+            "/wiki/Quickstep"
+          ]
+        ],
+        [
+          "Joey Lawrence",
+          []
+        ],
+        [
+          29,
+          []
+        ],
+        [
+          "Jerry Springer",
+          [
+            "/wiki/Jerry_Springer"
+          ]
+        ],
+        [
+          19,
+          []
+        ]
+      ],
+      [
+        [
+          "Jive",
+          [
+            "/wiki/Jive_(dance)"
+          ]
+        ],
+        [
+          "Monique Coleman Mario Lopez",
+          [
+            "/wiki/Monique_Coleman"
+          ]
+        ],
+        [
+          27,
+          []
+        ],
+        [
+          "Joey Lawrence Willa Ford",
+          [
+            "/wiki/Willa_Ford"
+          ]
+        ],
+        [
+          22,
+          []
+        ]
+      ],
+      [
+        [
+          "Tango",
+          [
+            "/wiki/Ballroom_tango"
+          ]
+        ],
+        [
+          "Mario Lopez",
+          []
+        ],
+        [
+          30,
+          []
+        ],
+        [
+          "Emmitt Smith",
+          []
+        ],
+        [
+          19,
+          []
+        ]
+      ],
+      [
+        [
+          "Waltz",
+          [
+            "/wiki/Waltz"
+          ]
+        ],
+        [
+          "Emmitt Smith",
+          []
+        ],
+        [
+          29,
+          []
+        ],
+        [
+          "Jerry Springer",
+          []
+        ],
+        [
+          22,
+          []
+        ]
+      ],
+      [
+        [
+          "Rumba",
+          [
+            "/wiki/Rhumba"
+          ]
+        ],
+        [
+          "Joey Lawrence",
+          []
+        ],
+        [
+          30,
+          []
+        ],
+        [
+          "Joey Lawrence",
+          []
+        ],
+        [
+          24,
+          []
+        ]
+      ],
+      [
+        [
+          "Paso doble",
+          [
+            "/wiki/Paso_doble"
+          ]
+        ],
+        [
+          "Mario Lopez",
+          []
+        ],
+        [
+          30,
+          []
+        ],
+        [
+          "Jerry Springer",
+          []
+        ],
+        [
+          18,
+          []
+        ]
+      ],
+      [
+        [
+          "Samba",
+          [
+            "/wiki/Samba_(ballroom_dance)"
+          ]
+        ],
+        [
+          "Emmitt Smith",
+          []
+        ],
+        [
+          30,
+          []
+        ],
+        [
+          "Monique Coleman",
+          []
+        ],
+        [
+          23,
+          []
+        ]
+      ],
+      [
+        [
+          "Freestyle",
+          [
+            "/wiki/Street_dance"
+          ]
+        ],
+        [
+          "Mario Lopez",
+          []
+        ],
+        [
+          30,
+          []
+        ],
+        [
+          "Emmitt Smith",
+          []
+        ],
+        [
+          29,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of performances from the third season of the American TV show 'Dancing with the Stars.' It includes information about different dance styles, the highest and lowest scoring participants for each dance, and their respective scores. The table highlights the competitive aspects of the show by comparing scores and participants across various dances.",
+  "numeric_columns": [
+    "Highest score",
+    "Lowest score"
+  ],
+  "categorical_columns": [
+    "Dance"
+  ],
+  "entities": [
+    "Highest scored dancer ( s )",
+    "Lowest scored dancer ( s )"
+  ]
+}

@@ -1,0 +1,592 @@
+{
+  "table_id": "T9263",
+  "uid": "c8bc1089-27fc-5cb2-834e-dc75b2683e19",
+  "source": "HybridQA",
+  "source_table_id": "c8bc1089-27fc-5cb2-834e-dc75b2683e19",
+  "domain": "HybridQA",
+  "title": "1994 Turkish local elections",
+  "columns": [
+    "Metropolitan municipality",
+    "Mayor",
+    "Party"
+  ],
+  "rows": [
+    [
+      [
+        "Adana",
+        [
+          "/wiki/Adana"
+        ]
+      ],
+      [
+        "Aytaç Durak",
+        [
+          "/wiki/Aytaç_Durak"
+        ]
+      ],
+      [
+        "Motherland Party ( ANAP )",
+        [
+          "/wiki/Motherland_Party_(Turkey)"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ankara",
+        [
+          "/wiki/Ankara"
+        ]
+      ],
+      [
+        "Melih Gökçek",
+        [
+          "/wiki/Melih_Gökçek"
+        ]
+      ],
+      [
+        "Welfare Party ( RP )",
+        [
+          "/wiki/Welfare_Party"
+        ]
+      ]
+    ],
+    [
+      [
+        "Antalya",
+        [
+          "/wiki/Antalya"
+        ]
+      ],
+      [
+        "Hasan Subaşı",
+        []
+      ],
+      [
+        "True Path Party ( DYP )",
+        [
+          "/wiki/True_Path_Party"
+        ]
+      ]
+    ],
+    [
+      [
+        "Bursa",
+        [
+          "/wiki/Bursa"
+        ]
+      ],
+      [
+        "Erdem Saker",
+        []
+      ],
+      [
+        "Motherland Party ( ANAP )",
+        [
+          "/wiki/Motherland_Party_(Turkey)"
+        ]
+      ]
+    ],
+    [
+      [
+        "Diyarbakır",
+        [
+          "/wiki/Diyarbakır"
+        ]
+      ],
+      [
+        "Ahmet Bilgin",
+        []
+      ],
+      [
+        "Welfare Party ( RP )",
+        [
+          "/wiki/Welfare_Party"
+        ]
+      ]
+    ],
+    [
+      [
+        "Erzurum",
+        [
+          "/wiki/Erzurum"
+        ]
+      ],
+      [
+        "Ersan Gemalmaz",
+        []
+      ],
+      [
+        "Welfare Party ( RP )",
+        [
+          "/wiki/Welfare_Party"
+        ]
+      ]
+    ],
+    [
+      [
+        "Eskişehir",
+        [
+          "/wiki/Eskişehir"
+        ]
+      ],
+      [
+        "Aydın Arat",
+        []
+      ],
+      [
+        "True Path Party ( DYP )",
+        [
+          "/wiki/True_Path_Party"
+        ]
+      ]
+    ],
+    [
+      [
+        "Gaziantep",
+        [
+          "/wiki/Gaziantep"
+        ]
+      ],
+      [
+        "Celal Doğan",
+        []
+      ],
+      [
+        "Social Democratic Populist Party ( SHP )",
+        [
+          "/wiki/Social_Democratic_Populist_Party_(Turkey)"
+        ]
+      ]
+    ],
+    [
+      [
+        "İstanbul",
+        [
+          "/wiki/İstanbul"
+        ]
+      ],
+      [
+        "Recep Tayyip Erdoğan",
+        [
+          "/wiki/Recep_Tayyip_Erdoğan"
+        ]
+      ],
+      [
+        "Welfare Party ( RP )",
+        [
+          "/wiki/Welfare_Party"
+        ]
+      ]
+    ],
+    [
+      [
+        "İzmir",
+        [
+          "/wiki/İzmir"
+        ]
+      ],
+      [
+        "Burhan Özfatura",
+        []
+      ],
+      [
+        "True Path Party ( DYP )",
+        [
+          "/wiki/True_Path_Party"
+        ]
+      ]
+    ],
+    [
+      [
+        "Kayseri",
+        [
+          "/wiki/Kayseri"
+        ]
+      ],
+      [
+        "Şükrü Karatepe",
+        []
+      ],
+      [
+        "Welfare Party ( RP )",
+        [
+          "/wiki/Welfare_Party"
+        ]
+      ]
+    ],
+    [
+      [
+        "Kocaeli",
+        [
+          "/wiki/İzmit"
+        ]
+      ],
+      [
+        "Sefa Sirmen",
+        []
+      ],
+      [
+        "Social Democratic Populist Party ( SHP )",
+        [
+          "/wiki/Social_Democratic_Populist_Party_(Turkey)"
+        ]
+      ]
+    ],
+    [
+      [
+        "Konya",
+        [
+          "/wiki/Konya"
+        ]
+      ],
+      [
+        "Halil Ürün",
+        [
+          "/wiki/Halil_Ürün"
+        ]
+      ],
+      [
+        "Welfare Party ( RP )",
+        [
+          "/wiki/Welfare_Party"
+        ]
+      ]
+    ],
+    [
+      [
+        "Mersin",
+        [
+          "/wiki/Mersin"
+        ]
+      ],
+      [
+        "Okan Merzeci",
+        []
+      ],
+      [
+        "Motherland Party ( ANAP )",
+        [
+          "/wiki/Motherland_Party_(Turkey)"
+        ]
+      ]
+    ],
+    [
+      [
+        "Samsun",
+        [
+          "/wiki/Samsun"
+        ]
+      ],
+      [
+        "Muzaffer Önder",
+        []
+      ],
+      [
+        "Republican People 's Party ( CHP )",
+        [
+          "/wiki/Republican_People's_Party_(Turkey)"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "c8bc1089-27fc-5cb2-834e-dc75b2683e19",
+    "table_id": "Turkish_local_elections,_1994_1",
+    "title": "1994 Turkish local elections",
+    "header": [
+      "Metropolitan municipality",
+      "Mayor",
+      "Party"
+    ],
+    "value": [
+      [
+        [
+          "Adana",
+          [
+            "/wiki/Adana"
+          ]
+        ],
+        [
+          "Aytaç Durak",
+          [
+            "/wiki/Aytaç_Durak"
+          ]
+        ],
+        [
+          "Motherland Party ( ANAP )",
+          [
+            "/wiki/Motherland_Party_(Turkey)"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ankara",
+          [
+            "/wiki/Ankara"
+          ]
+        ],
+        [
+          "Melih Gökçek",
+          [
+            "/wiki/Melih_Gökçek"
+          ]
+        ],
+        [
+          "Welfare Party ( RP )",
+          [
+            "/wiki/Welfare_Party"
+          ]
+        ]
+      ],
+      [
+        [
+          "Antalya",
+          [
+            "/wiki/Antalya"
+          ]
+        ],
+        [
+          "Hasan Subaşı",
+          []
+        ],
+        [
+          "True Path Party ( DYP )",
+          [
+            "/wiki/True_Path_Party"
+          ]
+        ]
+      ],
+      [
+        [
+          "Bursa",
+          [
+            "/wiki/Bursa"
+          ]
+        ],
+        [
+          "Erdem Saker",
+          []
+        ],
+        [
+          "Motherland Party ( ANAP )",
+          [
+            "/wiki/Motherland_Party_(Turkey)"
+          ]
+        ]
+      ],
+      [
+        [
+          "Diyarbakır",
+          [
+            "/wiki/Diyarbakır"
+          ]
+        ],
+        [
+          "Ahmet Bilgin",
+          []
+        ],
+        [
+          "Welfare Party ( RP )",
+          [
+            "/wiki/Welfare_Party"
+          ]
+        ]
+      ],
+      [
+        [
+          "Erzurum",
+          [
+            "/wiki/Erzurum"
+          ]
+        ],
+        [
+          "Ersan Gemalmaz",
+          []
+        ],
+        [
+          "Welfare Party ( RP )",
+          [
+            "/wiki/Welfare_Party"
+          ]
+        ]
+      ],
+      [
+        [
+          "Eskişehir",
+          [
+            "/wiki/Eskişehir"
+          ]
+        ],
+        [
+          "Aydın Arat",
+          []
+        ],
+        [
+          "True Path Party ( DYP )",
+          [
+            "/wiki/True_Path_Party"
+          ]
+        ]
+      ],
+      [
+        [
+          "Gaziantep",
+          [
+            "/wiki/Gaziantep"
+          ]
+        ],
+        [
+          "Celal Doğan",
+          []
+        ],
+        [
+          "Social Democratic Populist Party ( SHP )",
+          [
+            "/wiki/Social_Democratic_Populist_Party_(Turkey)"
+          ]
+        ]
+      ],
+      [
+        [
+          "İstanbul",
+          [
+            "/wiki/İstanbul"
+          ]
+        ],
+        [
+          "Recep Tayyip Erdoğan",
+          [
+            "/wiki/Recep_Tayyip_Erdoğan"
+          ]
+        ],
+        [
+          "Welfare Party ( RP )",
+          [
+            "/wiki/Welfare_Party"
+          ]
+        ]
+      ],
+      [
+        [
+          "İzmir",
+          [
+            "/wiki/İzmir"
+          ]
+        ],
+        [
+          "Burhan Özfatura",
+          []
+        ],
+        [
+          "True Path Party ( DYP )",
+          [
+            "/wiki/True_Path_Party"
+          ]
+        ]
+      ],
+      [
+        [
+          "Kayseri",
+          [
+            "/wiki/Kayseri"
+          ]
+        ],
+        [
+          "Şükrü Karatepe",
+          []
+        ],
+        [
+          "Welfare Party ( RP )",
+          [
+            "/wiki/Welfare_Party"
+          ]
+        ]
+      ],
+      [
+        [
+          "Kocaeli",
+          [
+            "/wiki/İzmit"
+          ]
+        ],
+        [
+          "Sefa Sirmen",
+          []
+        ],
+        [
+          "Social Democratic Populist Party ( SHP )",
+          [
+            "/wiki/Social_Democratic_Populist_Party_(Turkey)"
+          ]
+        ]
+      ],
+      [
+        [
+          "Konya",
+          [
+            "/wiki/Konya"
+          ]
+        ],
+        [
+          "Halil Ürün",
+          [
+            "/wiki/Halil_Ürün"
+          ]
+        ],
+        [
+          "Welfare Party ( RP )",
+          [
+            "/wiki/Welfare_Party"
+          ]
+        ]
+      ],
+      [
+        [
+          "Mersin",
+          [
+            "/wiki/Mersin"
+          ]
+        ],
+        [
+          "Okan Merzeci",
+          []
+        ],
+        [
+          "Motherland Party ( ANAP )",
+          [
+            "/wiki/Motherland_Party_(Turkey)"
+          ]
+        ]
+      ],
+      [
+        [
+          "Samsun",
+          [
+            "/wiki/Samsun"
+          ]
+        ],
+        [
+          "Muzaffer Önder",
+          []
+        ],
+        [
+          "Republican People 's Party ( CHP )",
+          [
+            "/wiki/Republican_People's_Party_(Turkey)"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the 1994 Turkish local elections, specifically focusing on metropolitan municipalities. It lists the municipalities, the mayors elected, and their associated political parties. The table is intended to summarize the election outcomes for major urban areas in Turkey.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Party"
+  ],
+  "entities": [
+    "Metropolitan municipality",
+    "Mayor"
+  ]
+}

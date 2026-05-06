@@ -1,0 +1,396 @@
+{
+  "table_id": "T684",
+  "uid": "55be7014-9b8f-5862-b25e-5149f617ac43",
+  "source": "HybridQA",
+  "source_table_id": "55be7014-9b8f-5862-b25e-5149f617ac43",
+  "domain": "HybridQA",
+  "title": "A1 Team USA",
+  "columns": [
+    "Name",
+    "Seasons",
+    "Races ( Starts )",
+    "Points"
+  ],
+  "rows": [
+    [
+      [
+        "Marco Andretti",
+        [
+          "/wiki/Marco_Andretti"
+        ]
+      ],
+      [
+        "2008-09",
+        [
+          "/wiki/2008-09_A1_Grand_Prix_season"
+        ]
+      ],
+      [
+        "2 ( 4 )",
+        []
+      ],
+      [
+        13,
+        []
+      ]
+    ],
+    [
+      [
+        "Phil Giebler",
+        [
+          "/wiki/Phil_Giebler"
+        ]
+      ],
+      [
+        "2005-06 , 2006-07",
+        [
+          "/wiki/2005-06_A1_Grand_Prix_season",
+          "/wiki/2006-07_A1_Grand_Prix_season"
+        ]
+      ],
+      [
+        "10 ( 20 )",
+        []
+      ],
+      [
+        27,
+        []
+      ]
+    ],
+    [
+      [
+        "Bryan Herta",
+        [
+          "/wiki/Bryan_Herta"
+        ]
+      ],
+      [
+        "2005-06",
+        [
+          "/wiki/2005-06_A1_Grand_Prix_season"
+        ]
+      ],
+      [
+        "3 ( 6 )",
+        []
+      ],
+      [
+        13,
+        []
+      ]
+    ],
+    [
+      [
+        "Ryan Hunter-Reay",
+        [
+          "/wiki/Ryan_Hunter-Reay"
+        ]
+      ],
+      [
+        "2006-07",
+        [
+          "/wiki/2006-07_A1_Grand_Prix_season"
+        ]
+      ],
+      [
+        "1 ( 2 )",
+        []
+      ],
+      [
+        1,
+        []
+      ]
+    ],
+    [
+      [
+        "Charlie Kimball",
+        [
+          "/wiki/Charlie_Kimball"
+        ]
+      ],
+      [
+        "2008-09",
+        [
+          "/wiki/2008-09_A1_Grand_Prix_season"
+        ]
+      ],
+      [
+        "1 ( 2 )",
+        []
+      ],
+      [
+        3,
+        []
+      ]
+    ],
+    [
+      [
+        "Buddy Rice",
+        [
+          "/wiki/Buddy_Rice"
+        ]
+      ],
+      [
+        "2007-08",
+        [
+          "/wiki/2007-08_A1_Grand_Prix_season"
+        ]
+      ],
+      [
+        "2 ( 4 )",
+        []
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        "Scott Speed",
+        [
+          "/wiki/Scott_Speed"
+        ]
+      ],
+      [
+        "2005-06",
+        [
+          "/wiki/2005-06_A1_Grand_Prix_season"
+        ]
+      ],
+      [
+        "3 ( 6 )",
+        []
+      ],
+      [
+        7,
+        []
+      ]
+    ],
+    [
+      [
+        "Jonathan Summerton",
+        [
+          "/wiki/Jonathan_Summerton"
+        ]
+      ],
+      [
+        "2006-07 , 2007-08",
+        [
+          "/wiki/2006-07_A1_Grand_Prix_season",
+          "/wiki/2007-08_A1_Grand_Prix_season"
+        ]
+      ],
+      [
+        "12 ( 24 )",
+        []
+      ],
+      [
+        74,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "55be7014-9b8f-5862-b25e-5149f617ac43",
+    "table_id": "A1_Team_USA_0",
+    "title": "A1 Team USA",
+    "header": [
+      "Name",
+      "Seasons",
+      "Races ( Starts )",
+      "Points"
+    ],
+    "value": [
+      [
+        [
+          "Marco Andretti",
+          [
+            "/wiki/Marco_Andretti"
+          ]
+        ],
+        [
+          "2008-09",
+          [
+            "/wiki/2008-09_A1_Grand_Prix_season"
+          ]
+        ],
+        [
+          "2 ( 4 )",
+          []
+        ],
+        [
+          13,
+          []
+        ]
+      ],
+      [
+        [
+          "Phil Giebler",
+          [
+            "/wiki/Phil_Giebler"
+          ]
+        ],
+        [
+          "2005-06 , 2006-07",
+          [
+            "/wiki/2005-06_A1_Grand_Prix_season",
+            "/wiki/2006-07_A1_Grand_Prix_season"
+          ]
+        ],
+        [
+          "10 ( 20 )",
+          []
+        ],
+        [
+          27,
+          []
+        ]
+      ],
+      [
+        [
+          "Bryan Herta",
+          [
+            "/wiki/Bryan_Herta"
+          ]
+        ],
+        [
+          "2005-06",
+          [
+            "/wiki/2005-06_A1_Grand_Prix_season"
+          ]
+        ],
+        [
+          "3 ( 6 )",
+          []
+        ],
+        [
+          13,
+          []
+        ]
+      ],
+      [
+        [
+          "Ryan Hunter-Reay",
+          [
+            "/wiki/Ryan_Hunter-Reay"
+          ]
+        ],
+        [
+          "2006-07",
+          [
+            "/wiki/2006-07_A1_Grand_Prix_season"
+          ]
+        ],
+        [
+          "1 ( 2 )",
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        [
+          "Charlie Kimball",
+          [
+            "/wiki/Charlie_Kimball"
+          ]
+        ],
+        [
+          "2008-09",
+          [
+            "/wiki/2008-09_A1_Grand_Prix_season"
+          ]
+        ],
+        [
+          "1 ( 2 )",
+          []
+        ],
+        [
+          3,
+          []
+        ]
+      ],
+      [
+        [
+          "Buddy Rice",
+          [
+            "/wiki/Buddy_Rice"
+          ]
+        ],
+        [
+          "2007-08",
+          [
+            "/wiki/2007-08_A1_Grand_Prix_season"
+          ]
+        ],
+        [
+          "2 ( 4 )",
+          []
+        ],
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        [
+          "Scott Speed",
+          [
+            "/wiki/Scott_Speed"
+          ]
+        ],
+        [
+          "2005-06",
+          [
+            "/wiki/2005-06_A1_Grand_Prix_season"
+          ]
+        ],
+        [
+          "3 ( 6 )",
+          []
+        ],
+        [
+          7,
+          []
+        ]
+      ],
+      [
+        [
+          "Jonathan Summerton",
+          [
+            "/wiki/Jonathan_Summerton"
+          ]
+        ],
+        [
+          "2006-07 , 2007-08",
+          [
+            "/wiki/2006-07_A1_Grand_Prix_season",
+            "/wiki/2007-08_A1_Grand_Prix_season"
+          ]
+        ],
+        [
+          "12 ( 24 )",
+          []
+        ],
+        [
+          74,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about drivers who represented A1 Team USA in the A1 Grand Prix series. It includes details about their participation across seasons, the number of races they started, and the points they scored. The table serves to summarize the performance and involvement of these drivers in the racing series.",
+  "numeric_columns": [
+    "Points"
+  ],
+  "categorical_columns": [
+    "Seasons",
+    "Races ( Starts )"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

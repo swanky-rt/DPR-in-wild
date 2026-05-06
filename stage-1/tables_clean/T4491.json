@@ -1,0 +1,609 @@
+{
+  "table_id": "T4491",
+  "uid": "b6c8dd75-36c7-5a8a-a869-6026b56978f9",
+  "source": "HybridQA",
+  "source_table_id": "b6c8dd75-36c7-5a8a-a869-6026b56978f9",
+  "domain": "HybridQA",
+  "title": "European Conservatives and Reformists Party",
+  "columns": [
+    "Country",
+    "Political party",
+    "Party Leader",
+    "National Lower Houses",
+    "Government"
+  ],
+  "rows": [
+    [
+      [
+        "Australia",
+        [
+          "/wiki/Australia"
+        ]
+      ],
+      [
+        "Liberal Party ( LP )",
+        [
+          "/wiki/Liberal_Party_of_Australia"
+        ]
+      ],
+      [
+        "Scott Morrison",
+        [
+          "/wiki/Scott_Morrison"
+        ]
+      ],
+      [
+        "61 / 151",
+        []
+      ],
+      [
+        "Senior party in coalition",
+        []
+      ]
+    ],
+    [
+      [
+        "Canada",
+        [
+          "/wiki/Canada"
+        ]
+      ],
+      [
+        "Conservative Party Parti conservateur du Canada ( CPC )",
+        [
+          "/wiki/Conservative_Party_of_Canada"
+        ]
+      ],
+      [
+        "Andrew Scheer",
+        [
+          "/wiki/Andrew_Scheer"
+        ]
+      ],
+      [
+        "121 / 338",
+        []
+      ],
+      [
+        "Opposition",
+        []
+      ]
+    ],
+    [
+      [
+        "Colombia",
+        [
+          "/wiki/Colombia"
+        ]
+      ],
+      [
+        "Democratic Centre Centro Democrático ( CD )",
+        [
+          "/wiki/Democratic_Center_(Colombia)"
+        ]
+      ],
+      [
+        "Álvaro Uribe",
+        [
+          "/wiki/Álvaro_Uribe"
+        ]
+      ],
+      [
+        "32 / 172",
+        []
+      ],
+      [
+        "Government",
+        []
+      ]
+    ],
+    [
+      [
+        "Israel",
+        [
+          "/wiki/Israel"
+        ]
+      ],
+      [
+        "Likud הליכוד",
+        [
+          "/wiki/Likud"
+        ]
+      ],
+      [
+        "Benjamin Netanyahu",
+        [
+          "/wiki/Benjamin_Netanyahu"
+        ]
+      ],
+      [
+        "32 / 120",
+        []
+      ],
+      [
+        "Government",
+        []
+      ]
+    ],
+    [
+      [
+        "Kenya",
+        [
+          "/wiki/Kenya"
+        ]
+      ],
+      [
+        "Jubilee Party",
+        [
+          "/wiki/Jubilee_Party"
+        ]
+      ],
+      [
+        "Uhuru Kenyatta",
+        [
+          "/wiki/Uhuru_Kenyatta"
+        ]
+      ],
+      [
+        "171 / 349",
+        []
+      ],
+      [
+        "Government",
+        []
+      ]
+    ],
+    [
+      [
+        "Maldives",
+        [
+          "/wiki/Maldives"
+        ]
+      ],
+      [
+        "Progressive Party of Maldives ޕްރޮގްރެސިވް ޕާރޓީ އޮފް މޯލްޑިވްސް ( PPM )",
+        [
+          "/wiki/Progressive_Party_of_Maldives"
+        ]
+      ],
+      [
+        "Abdulla Yameen",
+        [
+          "/wiki/Abdulla_Yameen"
+        ]
+      ],
+      [
+        "5 / 87",
+        []
+      ],
+      [
+        "Opposition",
+        []
+      ]
+    ],
+    [
+      [
+        "New Zealand",
+        [
+          "/wiki/New_Zealand"
+        ]
+      ],
+      [
+        "National Party Rōpū Nāhinara ( National )",
+        [
+          "/wiki/New_Zealand_National_Party"
+        ]
+      ],
+      [
+        "Simon Bridges",
+        [
+          "/wiki/Simon_Bridges"
+        ]
+      ],
+      [
+        "55 / 120",
+        []
+      ],
+      [
+        "Opposition",
+        []
+      ]
+    ],
+    [
+      [
+        "Tanzania",
+        [
+          "/wiki/Tanzania"
+        ]
+      ],
+      [
+        "Chadema - Party for Democracy and Progress Chama cha Demokrasia na Maendeleo ( CHADEMA )",
+        [
+          "/wiki/Chadema"
+        ]
+      ],
+      [
+        "Freeman Mbowe",
+        [
+          "/wiki/Freeman_Mbowe"
+        ]
+      ],
+      [
+        "63 / 293",
+        []
+      ],
+      [
+        "Opposition",
+        []
+      ]
+    ],
+    [
+      [
+        "Tunisia",
+        [
+          "/wiki/Tunisia"
+        ]
+      ],
+      [
+        "Afek Tounes آفاق تونس",
+        [
+          "/wiki/Afek_Tounes"
+        ]
+      ],
+      [
+        "Yassine Brahim",
+        [
+          "/wiki/Yassine_Brahim"
+        ]
+      ],
+      [
+        "2 / 217",
+        []
+      ],
+      [
+        "Opposition",
+        []
+      ]
+    ],
+    [
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Republican Party ( GOP )",
+        [
+          "/wiki/Republican_Party_(United_States)"
+        ]
+      ],
+      [
+        "Donald Trump",
+        [
+          "/wiki/Donald_Trump"
+        ]
+      ],
+      [
+        "197 / 435",
+        []
+      ],
+      [
+        "Majority in Senate , holds Presidency , minority in House of Representatives",
+        [
+          "/wiki/United_States_Senate",
+          "/wiki/United_States_House_of_Representatives"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "b6c8dd75-36c7-5a8a-a869-6026b56978f9",
+    "table_id": "Alliance_of_European_Conservatives_and_Reformists_1",
+    "title": "European Conservatives and Reformists Party",
+    "header": [
+      "Country",
+      "Political party",
+      "Party Leader",
+      "National Lower Houses",
+      "Government"
+    ],
+    "value": [
+      [
+        [
+          "Australia",
+          [
+            "/wiki/Australia"
+          ]
+        ],
+        [
+          "Liberal Party ( LP )",
+          [
+            "/wiki/Liberal_Party_of_Australia"
+          ]
+        ],
+        [
+          "Scott Morrison",
+          [
+            "/wiki/Scott_Morrison"
+          ]
+        ],
+        [
+          "61 / 151",
+          []
+        ],
+        [
+          "Senior party in coalition",
+          []
+        ]
+      ],
+      [
+        [
+          "Canada",
+          [
+            "/wiki/Canada"
+          ]
+        ],
+        [
+          "Conservative Party Parti conservateur du Canada ( CPC )",
+          [
+            "/wiki/Conservative_Party_of_Canada"
+          ]
+        ],
+        [
+          "Andrew Scheer",
+          [
+            "/wiki/Andrew_Scheer"
+          ]
+        ],
+        [
+          "121 / 338",
+          []
+        ],
+        [
+          "Opposition",
+          []
+        ]
+      ],
+      [
+        [
+          "Colombia",
+          [
+            "/wiki/Colombia"
+          ]
+        ],
+        [
+          "Democratic Centre Centro Democrático ( CD )",
+          [
+            "/wiki/Democratic_Center_(Colombia)"
+          ]
+        ],
+        [
+          "Álvaro Uribe",
+          [
+            "/wiki/Álvaro_Uribe"
+          ]
+        ],
+        [
+          "32 / 172",
+          []
+        ],
+        [
+          "Government",
+          []
+        ]
+      ],
+      [
+        [
+          "Israel",
+          [
+            "/wiki/Israel"
+          ]
+        ],
+        [
+          "Likud הליכוד",
+          [
+            "/wiki/Likud"
+          ]
+        ],
+        [
+          "Benjamin Netanyahu",
+          [
+            "/wiki/Benjamin_Netanyahu"
+          ]
+        ],
+        [
+          "32 / 120",
+          []
+        ],
+        [
+          "Government",
+          []
+        ]
+      ],
+      [
+        [
+          "Kenya",
+          [
+            "/wiki/Kenya"
+          ]
+        ],
+        [
+          "Jubilee Party",
+          [
+            "/wiki/Jubilee_Party"
+          ]
+        ],
+        [
+          "Uhuru Kenyatta",
+          [
+            "/wiki/Uhuru_Kenyatta"
+          ]
+        ],
+        [
+          "171 / 349",
+          []
+        ],
+        [
+          "Government",
+          []
+        ]
+      ],
+      [
+        [
+          "Maldives",
+          [
+            "/wiki/Maldives"
+          ]
+        ],
+        [
+          "Progressive Party of Maldives ޕްރޮގްރެސިވް ޕާރޓީ އޮފް މޯލްޑިވްސް ( PPM )",
+          [
+            "/wiki/Progressive_Party_of_Maldives"
+          ]
+        ],
+        [
+          "Abdulla Yameen",
+          [
+            "/wiki/Abdulla_Yameen"
+          ]
+        ],
+        [
+          "5 / 87",
+          []
+        ],
+        [
+          "Opposition",
+          []
+        ]
+      ],
+      [
+        [
+          "New Zealand",
+          [
+            "/wiki/New_Zealand"
+          ]
+        ],
+        [
+          "National Party Rōpū Nāhinara ( National )",
+          [
+            "/wiki/New_Zealand_National_Party"
+          ]
+        ],
+        [
+          "Simon Bridges",
+          [
+            "/wiki/Simon_Bridges"
+          ]
+        ],
+        [
+          "55 / 120",
+          []
+        ],
+        [
+          "Opposition",
+          []
+        ]
+      ],
+      [
+        [
+          "Tanzania",
+          [
+            "/wiki/Tanzania"
+          ]
+        ],
+        [
+          "Chadema - Party for Democracy and Progress Chama cha Demokrasia na Maendeleo ( CHADEMA )",
+          [
+            "/wiki/Chadema"
+          ]
+        ],
+        [
+          "Freeman Mbowe",
+          [
+            "/wiki/Freeman_Mbowe"
+          ]
+        ],
+        [
+          "63 / 293",
+          []
+        ],
+        [
+          "Opposition",
+          []
+        ]
+      ],
+      [
+        [
+          "Tunisia",
+          [
+            "/wiki/Tunisia"
+          ]
+        ],
+        [
+          "Afek Tounes آفاق تونس",
+          [
+            "/wiki/Afek_Tounes"
+          ]
+        ],
+        [
+          "Yassine Brahim",
+          [
+            "/wiki/Yassine_Brahim"
+          ]
+        ],
+        [
+          "2 / 217",
+          []
+        ],
+        [
+          "Opposition",
+          []
+        ]
+      ],
+      [
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Republican Party ( GOP )",
+          [
+            "/wiki/Republican_Party_(United_States)"
+          ]
+        ],
+        [
+          "Donald Trump",
+          [
+            "/wiki/Donald_Trump"
+          ]
+        ],
+        [
+          "197 / 435",
+          []
+        ],
+        [
+          "Majority in Senate , holds Presidency , minority in House of Representatives",
+          [
+            "/wiki/United_States_Senate",
+            "/wiki/United_States_House_of_Representatives"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about political parties affiliated with the European Conservatives and Reformists Party across different countries. It includes details such as the country, the political party's name, its leader, representation in national lower houses, and its role in government. The table serves to summarize the political landscape and affiliations of these parties.",
+  "numeric_columns": [
+    "National Lower Houses"
+  ],
+  "categorical_columns": [
+    "Government"
+  ],
+  "entities": [
+    "Country",
+    "Political party",
+    "Party Leader"
+  ]
+}

@@ -1,0 +1,541 @@
+{
+  "table_id": "T5805",
+  "uid": "f9245306-c435-51dc-aa80-45e457f0091a",
+  "source": "HybridQA",
+  "source_table_id": "f9245306-c435-51dc-aa80-45e457f0091a",
+  "domain": "HybridQA",
+  "title": "S. E. Hinton bibliography",
+  "columns": [
+    "Name",
+    "Genre",
+    "Publisher",
+    "Year",
+    "# of awards won"
+  ],
+  "rows": [
+    [
+      [
+        "The Outsiders",
+        [
+          "/wiki/The_Outsiders_(novel)"
+        ]
+      ],
+      [
+        "Novel",
+        [
+          "/wiki/Novel"
+        ]
+      ],
+      [
+        "Puffin Books",
+        [
+          "/wiki/Penguin_Books"
+        ]
+      ],
+      [
+        1967,
+        []
+      ],
+      [
+        2,
+        []
+      ]
+    ],
+    [
+      [
+        "That Was Then , This Is Now",
+        [
+          "/wiki/That_Was_Then,_This_Is_Now"
+        ]
+      ],
+      [
+        "Novel",
+        [
+          "/wiki/Novel"
+        ]
+      ],
+      [
+        "Puffin Books",
+        [
+          "/wiki/Penguin_Books"
+        ]
+      ],
+      [
+        1971,
+        []
+      ],
+      [
+        3,
+        []
+      ]
+    ],
+    [
+      [
+        "Rumble Fish",
+        [
+          "/wiki/Rumble_Fish_(novel)"
+        ]
+      ],
+      [
+        "Novel",
+        [
+          "/wiki/Novel"
+        ]
+      ],
+      [
+        "Delacorte Press",
+        [
+          "/wiki/Dell_Publishing"
+        ]
+      ],
+      [
+        1975,
+        []
+      ],
+      [
+        3,
+        []
+      ]
+    ],
+    [
+      [
+        "Tex",
+        [
+          "/wiki/Tex_(novel)"
+        ]
+      ],
+      [
+        "Novel",
+        [
+          "/wiki/Novel"
+        ]
+      ],
+      [
+        "Dell Publishing",
+        [
+          "/wiki/Dell_Publishing"
+        ]
+      ],
+      [
+        1979,
+        []
+      ],
+      [
+        5,
+        []
+      ]
+    ],
+    [
+      [
+        "Taming The Star Runner",
+        [
+          "/wiki/Taming_The_Star_Runner"
+        ]
+      ],
+      [
+        "Novel",
+        [
+          "/wiki/Novel"
+        ]
+      ],
+      [
+        "Dell Publishing",
+        [
+          "/wiki/Dell_Publishing"
+        ]
+      ],
+      [
+        1988,
+        []
+      ],
+      [
+        5,
+        []
+      ]
+    ],
+    [
+      [
+        "Big David , Little David",
+        []
+      ],
+      [
+        "Children 's book",
+        [
+          "/wiki/Children's_literature"
+        ]
+      ],
+      [
+        "Doubleday Dell",
+        [
+          "/wiki/Dell_Publishing"
+        ]
+      ],
+      [
+        1995,
+        []
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        "The Puppy Sister",
+        [
+          "/wiki/The_Puppy_Sister"
+        ]
+      ],
+      [
+        "Fantasy",
+        [
+          "/wiki/Fantasy"
+        ]
+      ],
+      [
+        "Doubleday Dell",
+        [
+          "/wiki/Dell_Publishing"
+        ]
+      ],
+      [
+        1995,
+        []
+      ],
+      [
+        1,
+        []
+      ]
+    ],
+    [
+      [
+        "Hawkes Harbor",
+        [
+          "/wiki/Hawkes_Harbor"
+        ]
+      ],
+      [
+        "Horror , Fantasy",
+        [
+          "/wiki/Horror_fiction",
+          "/wiki/Fantasy"
+        ]
+      ],
+      [
+        "Tor Books",
+        [
+          "/wiki/Tor_Books"
+        ]
+      ],
+      [
+        2004,
+        []
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        "Some of Tim 's Stories",
+        []
+      ],
+      [
+        "Short stories",
+        [
+          "/wiki/Short_story"
+        ]
+      ],
+      [
+        "University of Oklahoma Press",
+        [
+          "/wiki/University_of_Oklahoma_Press"
+        ]
+      ],
+      [
+        2007,
+        []
+      ],
+      [
+        0,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "f9245306-c435-51dc-aa80-45e457f0091a",
+    "table_id": "S._E._Hinton_bibliography_0",
+    "title": "S. E. Hinton bibliography",
+    "header": [
+      "Name",
+      "Genre",
+      "Publisher",
+      "Year",
+      "# of awards won"
+    ],
+    "value": [
+      [
+        [
+          "The Outsiders",
+          [
+            "/wiki/The_Outsiders_(novel)"
+          ]
+        ],
+        [
+          "Novel",
+          [
+            "/wiki/Novel"
+          ]
+        ],
+        [
+          "Puffin Books",
+          [
+            "/wiki/Penguin_Books"
+          ]
+        ],
+        [
+          1967,
+          []
+        ],
+        [
+          2,
+          []
+        ]
+      ],
+      [
+        [
+          "That Was Then , This Is Now",
+          [
+            "/wiki/That_Was_Then,_This_Is_Now"
+          ]
+        ],
+        [
+          "Novel",
+          [
+            "/wiki/Novel"
+          ]
+        ],
+        [
+          "Puffin Books",
+          [
+            "/wiki/Penguin_Books"
+          ]
+        ],
+        [
+          1971,
+          []
+        ],
+        [
+          3,
+          []
+        ]
+      ],
+      [
+        [
+          "Rumble Fish",
+          [
+            "/wiki/Rumble_Fish_(novel)"
+          ]
+        ],
+        [
+          "Novel",
+          [
+            "/wiki/Novel"
+          ]
+        ],
+        [
+          "Delacorte Press",
+          [
+            "/wiki/Dell_Publishing"
+          ]
+        ],
+        [
+          1975,
+          []
+        ],
+        [
+          3,
+          []
+        ]
+      ],
+      [
+        [
+          "Tex",
+          [
+            "/wiki/Tex_(novel)"
+          ]
+        ],
+        [
+          "Novel",
+          [
+            "/wiki/Novel"
+          ]
+        ],
+        [
+          "Dell Publishing",
+          [
+            "/wiki/Dell_Publishing"
+          ]
+        ],
+        [
+          1979,
+          []
+        ],
+        [
+          5,
+          []
+        ]
+      ],
+      [
+        [
+          "Taming The Star Runner",
+          [
+            "/wiki/Taming_The_Star_Runner"
+          ]
+        ],
+        [
+          "Novel",
+          [
+            "/wiki/Novel"
+          ]
+        ],
+        [
+          "Dell Publishing",
+          [
+            "/wiki/Dell_Publishing"
+          ]
+        ],
+        [
+          1988,
+          []
+        ],
+        [
+          5,
+          []
+        ]
+      ],
+      [
+        [
+          "Big David , Little David",
+          []
+        ],
+        [
+          "Children 's book",
+          [
+            "/wiki/Children's_literature"
+          ]
+        ],
+        [
+          "Doubleday Dell",
+          [
+            "/wiki/Dell_Publishing"
+          ]
+        ],
+        [
+          1995,
+          []
+        ],
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        [
+          "The Puppy Sister",
+          [
+            "/wiki/The_Puppy_Sister"
+          ]
+        ],
+        [
+          "Fantasy",
+          [
+            "/wiki/Fantasy"
+          ]
+        ],
+        [
+          "Doubleday Dell",
+          [
+            "/wiki/Dell_Publishing"
+          ]
+        ],
+        [
+          1995,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        [
+          "Hawkes Harbor",
+          [
+            "/wiki/Hawkes_Harbor"
+          ]
+        ],
+        [
+          "Horror , Fantasy",
+          [
+            "/wiki/Horror_fiction",
+            "/wiki/Fantasy"
+          ]
+        ],
+        [
+          "Tor Books",
+          [
+            "/wiki/Tor_Books"
+          ]
+        ],
+        [
+          2004,
+          []
+        ],
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        [
+          "Some of Tim 's Stories",
+          []
+        ],
+        [
+          "Short stories",
+          [
+            "/wiki/Short_story"
+          ]
+        ],
+        [
+          "University of Oklahoma Press",
+          [
+            "/wiki/University_of_Oklahoma_Press"
+          ]
+        ],
+        [
+          2007,
+          []
+        ],
+        [
+          0,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a bibliography of works by S. E. Hinton, detailing information about her publications. It includes the titles of her works, their genres, publishers, publication years, and the number of awards won. The table serves as a reference for understanding the literary contributions and recognition of S. E. Hinton.",
+  "numeric_columns": [
+    "Year",
+    "# of awards won"
+  ],
+  "categorical_columns": [
+    "Genre",
+    "Publisher"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

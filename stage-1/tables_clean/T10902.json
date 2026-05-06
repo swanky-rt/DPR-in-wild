@@ -1,0 +1,491 @@
+{
+  "table_id": "T10902",
+  "uid": "422faa74-7065-5fb1-8340-ed67485fa261",
+  "source": "HybridQA",
+  "source_table_id": "422faa74-7065-5fb1-8340-ed67485fa261",
+  "domain": "HybridQA",
+  "title": "SciLands",
+  "columns": [
+    "Name",
+    "Category",
+    "Sponsoring Organization",
+    "Description"
+  ],
+  "rows": [
+    [
+      [
+        "NPR 's Science Friday",
+        [
+          "/wiki/Science_Friday"
+        ]
+      ],
+      [
+        "General",
+        []
+      ],
+      [
+        "NPR 's Science Friday",
+        [
+          "/wiki/Science_Friday"
+        ]
+      ],
+      [
+        "A weekly talk show on NPR covering a variety of science related topics",
+        []
+      ]
+    ],
+    [
+      [
+        "Victoria crater",
+        [
+          "/wiki/Victoria_crater"
+        ]
+      ],
+      [
+        "Space",
+        []
+      ],
+      [
+        "NASA",
+        [
+          "/wiki/NASA"
+        ]
+      ],
+      [
+        "A one third scale model of Victoria crater found on the surface of Mars",
+        [
+          "/wiki/Mars"
+        ]
+      ]
+    ],
+    [
+      [
+        "Real-time US weather map",
+        []
+      ],
+      [
+        "Earth Science",
+        []
+      ],
+      [
+        "NOAA",
+        [
+          "/wiki/NOAA"
+        ]
+      ],
+      [
+        "Observe the current weather above the continental U.S",
+        []
+      ]
+    ],
+    [
+      [
+        "Hurricane Ride",
+        []
+      ],
+      [
+        "Earth Science",
+        []
+      ],
+      [
+        "NOAA",
+        [
+          "/wiki/NOAA"
+        ]
+      ],
+      [
+        "Fly through a virtual hurricane aboard a P-3 Orion Hurricane Hunter",
+        []
+      ]
+    ],
+    [
+      [
+        "Tsunami Demonstration",
+        []
+      ],
+      [
+        "Earth Science",
+        []
+      ],
+      [
+        "NOAA",
+        [
+          "/wiki/NOAA"
+        ]
+      ],
+      [
+        "See the deadly effects of a tsunami wave and learn how they are formed",
+        []
+      ]
+    ],
+    [
+      [
+        "Weather Balloon Ride",
+        []
+      ],
+      [
+        "Earth Science",
+        []
+      ],
+      [
+        "NOAA",
+        [
+          "/wiki/NOAA"
+        ]
+      ],
+      [
+        "Hold on to a balloon and learn about the instrumentation that NOAA uses to collect atmospheric data",
+        []
+      ]
+    ],
+    [
+      [
+        "Submarine Ride",
+        []
+      ],
+      [
+        "Earth Science",
+        []
+      ],
+      [
+        "NOAA",
+        [
+          "/wiki/NOAA"
+        ]
+      ],
+      [
+        "Visit a variety of coral sanctuaries worldwide on board a virtual submersible",
+        []
+      ]
+    ],
+    [
+      [
+        "Oil Spill Cleanup Demonstration",
+        []
+      ],
+      [
+        "Earth Science",
+        []
+      ],
+      [
+        "NOAA",
+        [
+          "/wiki/NOAA"
+        ]
+      ],
+      [
+        "Assist in the cleanup of an oil spill",
+        []
+      ]
+    ],
+    [
+      [
+        "Red Tide Demonstration",
+        []
+      ],
+      [
+        "Earth Science",
+        []
+      ],
+      [
+        "NOAA",
+        [
+          "/wiki/NOAA"
+        ]
+      ],
+      [
+        "Understand the effects of a harmful algae bloom commonly known as red tide",
+        []
+      ]
+    ],
+    [
+      [
+        "Sea Charting Demonstration",
+        []
+      ],
+      [
+        "Earth Science",
+        []
+      ],
+      [
+        "NOAA",
+        [
+          "/wiki/NOAA"
+        ]
+      ],
+      [
+        "Map the sea floor aboard a NOAA ship",
+        []
+      ]
+    ],
+    [
+      [
+        "Science On A Sphere ( TM )",
+        []
+      ],
+      [
+        "Earth Science",
+        []
+      ],
+      [
+        "NOAA",
+        [
+          "/wiki/NOAA"
+        ]
+      ],
+      [
+        "Visualize Earth data sets on a spherical projection screen",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "422faa74-7065-5fb1-8340-ed67485fa261",
+    "table_id": "SciLands_0",
+    "title": "SciLands",
+    "header": [
+      "Name",
+      "Category",
+      "Sponsoring Organization",
+      "Description"
+    ],
+    "value": [
+      [
+        [
+          "NPR 's Science Friday",
+          [
+            "/wiki/Science_Friday"
+          ]
+        ],
+        [
+          "General",
+          []
+        ],
+        [
+          "NPR 's Science Friday",
+          [
+            "/wiki/Science_Friday"
+          ]
+        ],
+        [
+          "A weekly talk show on NPR covering a variety of science related topics",
+          []
+        ]
+      ],
+      [
+        [
+          "Victoria crater",
+          [
+            "/wiki/Victoria_crater"
+          ]
+        ],
+        [
+          "Space",
+          []
+        ],
+        [
+          "NASA",
+          [
+            "/wiki/NASA"
+          ]
+        ],
+        [
+          "A one third scale model of Victoria crater found on the surface of Mars",
+          [
+            "/wiki/Mars"
+          ]
+        ]
+      ],
+      [
+        [
+          "Real-time US weather map",
+          []
+        ],
+        [
+          "Earth Science",
+          []
+        ],
+        [
+          "NOAA",
+          [
+            "/wiki/NOAA"
+          ]
+        ],
+        [
+          "Observe the current weather above the continental U.S",
+          []
+        ]
+      ],
+      [
+        [
+          "Hurricane Ride",
+          []
+        ],
+        [
+          "Earth Science",
+          []
+        ],
+        [
+          "NOAA",
+          [
+            "/wiki/NOAA"
+          ]
+        ],
+        [
+          "Fly through a virtual hurricane aboard a P-3 Orion Hurricane Hunter",
+          []
+        ]
+      ],
+      [
+        [
+          "Tsunami Demonstration",
+          []
+        ],
+        [
+          "Earth Science",
+          []
+        ],
+        [
+          "NOAA",
+          [
+            "/wiki/NOAA"
+          ]
+        ],
+        [
+          "See the deadly effects of a tsunami wave and learn how they are formed",
+          []
+        ]
+      ],
+      [
+        [
+          "Weather Balloon Ride",
+          []
+        ],
+        [
+          "Earth Science",
+          []
+        ],
+        [
+          "NOAA",
+          [
+            "/wiki/NOAA"
+          ]
+        ],
+        [
+          "Hold on to a balloon and learn about the instrumentation that NOAA uses to collect atmospheric data",
+          []
+        ]
+      ],
+      [
+        [
+          "Submarine Ride",
+          []
+        ],
+        [
+          "Earth Science",
+          []
+        ],
+        [
+          "NOAA",
+          [
+            "/wiki/NOAA"
+          ]
+        ],
+        [
+          "Visit a variety of coral sanctuaries worldwide on board a virtual submersible",
+          []
+        ]
+      ],
+      [
+        [
+          "Oil Spill Cleanup Demonstration",
+          []
+        ],
+        [
+          "Earth Science",
+          []
+        ],
+        [
+          "NOAA",
+          [
+            "/wiki/NOAA"
+          ]
+        ],
+        [
+          "Assist in the cleanup of an oil spill",
+          []
+        ]
+      ],
+      [
+        [
+          "Red Tide Demonstration",
+          []
+        ],
+        [
+          "Earth Science",
+          []
+        ],
+        [
+          "NOAA",
+          [
+            "/wiki/NOAA"
+          ]
+        ],
+        [
+          "Understand the effects of a harmful algae bloom commonly known as red tide",
+          []
+        ]
+      ],
+      [
+        [
+          "Sea Charting Demonstration",
+          []
+        ],
+        [
+          "Earth Science",
+          []
+        ],
+        [
+          "NOAA",
+          [
+            "/wiki/NOAA"
+          ]
+        ],
+        [
+          "Map the sea floor aboard a NOAA ship",
+          []
+        ]
+      ],
+      [
+        [
+          "Science On A Sphere ( TM )",
+          []
+        ],
+        [
+          "Earth Science",
+          []
+        ],
+        [
+          "NOAA",
+          [
+            "/wiki/NOAA"
+          ]
+        ],
+        [
+          "Visualize Earth data sets on a spherical projection screen",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about various entities associated with science and technology, including their names, categories, sponsoring organizations, and descriptions. It appears to catalog notable projects, locations, or initiatives in the scientific domain, likely for reference or educational purposes.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Category"
+  ],
+  "entities": [
+    "Name",
+    "Sponsoring Organization",
+    "Description"
+  ]
+}

@@ -1,0 +1,586 @@
+{
+  "table_id": "T8557",
+  "uid": "d7e130cb-e847-57cb-959f-22941deb2d0a",
+  "source": "HybridQA",
+  "source_table_id": "d7e130cb-e847-57cb-959f-22941deb2d0a",
+  "domain": "HybridQA",
+  "title": "D. H. Morgan Manufacturing",
+  "columns": [
+    "Name",
+    "Model",
+    "Park",
+    "Country",
+    "Opened",
+    "Status"
+  ],
+  "rows": [
+    [
+      [
+        "Phantom 's Revenge Formerly Steel Phantom",
+        [
+          "/wiki/Phantom's_Revenge"
+        ]
+      ],
+      [
+        "Hyper Coaster",
+        []
+      ],
+      [
+        "Kennywood",
+        [
+          "/wiki/Kennywood"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        2001,
+        []
+      ],
+      [
+        "Operating",
+        []
+      ]
+    ],
+    [
+      [
+        "Wild Thing",
+        [
+          "/wiki/Wild_Thing_(Valleyfair)"
+        ]
+      ],
+      [
+        "Hyper Coaster",
+        []
+      ],
+      [
+        "Valleyfair",
+        [
+          "/wiki/Valleyfair"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        1996,
+        []
+      ],
+      [
+        "Operating",
+        []
+      ]
+    ],
+    [
+      [
+        "Santa Monica West Coaster",
+        [
+          "/wiki/Santa_Monica_West_Coaster"
+        ]
+      ],
+      [
+        "Junior Coaster",
+        []
+      ],
+      [
+        "Pacific Park",
+        [
+          "/wiki/Pacific_Park"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        1996,
+        []
+      ],
+      [
+        "Operating",
+        []
+      ]
+    ],
+    [
+      [
+        "Steel Force",
+        [
+          "/wiki/Steel_Force"
+        ]
+      ],
+      [
+        "Hyper Coaster",
+        []
+      ],
+      [
+        "Dorney Park",
+        [
+          "/wiki/Dorney_Park_&_Wildwater_Kingdom"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        1997,
+        []
+      ],
+      [
+        "Operating",
+        []
+      ]
+    ],
+    [
+      [
+        "Mamba",
+        [
+          "/wiki/Mamba_(roller_coaster)"
+        ]
+      ],
+      [
+        "Hyper Coaster",
+        []
+      ],
+      [
+        "Worlds of Fun",
+        [
+          "/wiki/Worlds_of_Fun"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        1998,
+        []
+      ],
+      [
+        "Operating",
+        []
+      ]
+    ],
+    [
+      [
+        "Steel Eel",
+        [
+          "/wiki/Steel_Eel"
+        ]
+      ],
+      [
+        "Hyper Coaster",
+        []
+      ],
+      [
+        "SeaWorld San Antonio",
+        [
+          "/wiki/SeaWorld_San_Antonio"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        1999,
+        []
+      ],
+      [
+        "Operating",
+        []
+      ]
+    ],
+    [
+      [
+        "Steel Dragon 2000",
+        [
+          "/wiki/Steel_Dragon_2000"
+        ]
+      ],
+      [
+        "Hyper Coaster",
+        []
+      ],
+      [
+        "Nagashima Spa Land",
+        [
+          "/wiki/Nagashima_Spa_Land"
+        ]
+      ],
+      [
+        "Japan",
+        []
+      ],
+      [
+        2000,
+        []
+      ],
+      [
+        "Operating",
+        []
+      ]
+    ],
+    [
+      [
+        "Quicksilver Express",
+        [
+          "/wiki/Quicksilver_Express"
+        ]
+      ],
+      [
+        "Mine Train Coaster",
+        []
+      ],
+      [
+        "Gilroy Gardens",
+        [
+          "/wiki/Gilroy_Gardens"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        2001,
+        []
+      ],
+      [
+        "Operating",
+        []
+      ]
+    ],
+    [
+      [
+        "Superman el Último Escape",
+        [
+          "/wiki/Superman_el_Último_Escape"
+        ]
+      ],
+      [
+        "Hyper Coaster",
+        []
+      ],
+      [
+        "Six Flags Mexico",
+        [
+          "/wiki/Six_Flags_México"
+        ]
+      ],
+      [
+        "Mexico",
+        []
+      ],
+      [
+        2004,
+        []
+      ],
+      [
+        "Operating",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "d7e130cb-e847-57cb-959f-22941deb2d0a",
+    "table_id": "D._H._Morgan_Manufacturing_0",
+    "title": "D. H. Morgan Manufacturing",
+    "header": [
+      "Name",
+      "Model",
+      "Park",
+      "Country",
+      "Opened",
+      "Status"
+    ],
+    "value": [
+      [
+        [
+          "Phantom 's Revenge Formerly Steel Phantom",
+          [
+            "/wiki/Phantom's_Revenge"
+          ]
+        ],
+        [
+          "Hyper Coaster",
+          []
+        ],
+        [
+          "Kennywood",
+          [
+            "/wiki/Kennywood"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          2001,
+          []
+        ],
+        [
+          "Operating",
+          []
+        ]
+      ],
+      [
+        [
+          "Wild Thing",
+          [
+            "/wiki/Wild_Thing_(Valleyfair)"
+          ]
+        ],
+        [
+          "Hyper Coaster",
+          []
+        ],
+        [
+          "Valleyfair",
+          [
+            "/wiki/Valleyfair"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          1996,
+          []
+        ],
+        [
+          "Operating",
+          []
+        ]
+      ],
+      [
+        [
+          "Santa Monica West Coaster",
+          [
+            "/wiki/Santa_Monica_West_Coaster"
+          ]
+        ],
+        [
+          "Junior Coaster",
+          []
+        ],
+        [
+          "Pacific Park",
+          [
+            "/wiki/Pacific_Park"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          1996,
+          []
+        ],
+        [
+          "Operating",
+          []
+        ]
+      ],
+      [
+        [
+          "Steel Force",
+          [
+            "/wiki/Steel_Force"
+          ]
+        ],
+        [
+          "Hyper Coaster",
+          []
+        ],
+        [
+          "Dorney Park",
+          [
+            "/wiki/Dorney_Park_&_Wildwater_Kingdom"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          1997,
+          []
+        ],
+        [
+          "Operating",
+          []
+        ]
+      ],
+      [
+        [
+          "Mamba",
+          [
+            "/wiki/Mamba_(roller_coaster)"
+          ]
+        ],
+        [
+          "Hyper Coaster",
+          []
+        ],
+        [
+          "Worlds of Fun",
+          [
+            "/wiki/Worlds_of_Fun"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          1998,
+          []
+        ],
+        [
+          "Operating",
+          []
+        ]
+      ],
+      [
+        [
+          "Steel Eel",
+          [
+            "/wiki/Steel_Eel"
+          ]
+        ],
+        [
+          "Hyper Coaster",
+          []
+        ],
+        [
+          "SeaWorld San Antonio",
+          [
+            "/wiki/SeaWorld_San_Antonio"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          1999,
+          []
+        ],
+        [
+          "Operating",
+          []
+        ]
+      ],
+      [
+        [
+          "Steel Dragon 2000",
+          [
+            "/wiki/Steel_Dragon_2000"
+          ]
+        ],
+        [
+          "Hyper Coaster",
+          []
+        ],
+        [
+          "Nagashima Spa Land",
+          [
+            "/wiki/Nagashima_Spa_Land"
+          ]
+        ],
+        [
+          "Japan",
+          []
+        ],
+        [
+          2000,
+          []
+        ],
+        [
+          "Operating",
+          []
+        ]
+      ],
+      [
+        [
+          "Quicksilver Express",
+          [
+            "/wiki/Quicksilver_Express"
+          ]
+        ],
+        [
+          "Mine Train Coaster",
+          []
+        ],
+        [
+          "Gilroy Gardens",
+          [
+            "/wiki/Gilroy_Gardens"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          2001,
+          []
+        ],
+        [
+          "Operating",
+          []
+        ]
+      ],
+      [
+        [
+          "Superman el Último Escape",
+          [
+            "/wiki/Superman_el_Último_Escape"
+          ]
+        ],
+        [
+          "Hyper Coaster",
+          []
+        ],
+        [
+          "Six Flags Mexico",
+          [
+            "/wiki/Six_Flags_México"
+          ]
+        ],
+        [
+          "Mexico",
+          []
+        ],
+        [
+          2004,
+          []
+        ],
+        [
+          "Operating",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about roller coasters manufactured by D. H. Morgan Manufacturing, including their names, models, locations, and operational statuses. It is designed to offer a concise overview of these attractions, including their opening years and current status. The table is relevant for understanding the distribution and characteristics of roller coasters across various parks and countries.",
+  "numeric_columns": [
+    "Opened"
+  ],
+  "categorical_columns": [
+    "Model",
+    "Status"
+  ],
+  "entities": [
+    "Name",
+    "Park",
+    "Country"
+  ]
+}

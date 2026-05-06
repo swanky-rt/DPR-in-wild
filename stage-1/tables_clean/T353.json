@@ -1,0 +1,389 @@
+{
+  "table_id": "T353",
+  "uid": "434cac11-cd4d-5448-95f8-bcdcb040e0f7",
+  "source": "HybridQA",
+  "source_table_id": "434cac11-cd4d-5448-95f8-bcdcb040e0f7",
+  "domain": "HybridQA",
+  "title": "Copa de Competencia Jockey Club",
+  "columns": [
+    "Team",
+    "Titles",
+    "Years won"
+  ],
+  "rows": [
+    [
+      [
+        "Alumni",
+        [
+          "/wiki/Alumni_Athletic_Club"
+        ]
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        "1907 , 1908 , 1909",
+        []
+      ]
+    ],
+    [
+      [
+        "San Isidro",
+        [
+          "/wiki/Club_Atlético_San_Isidro"
+        ]
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        "1911 , 1912 , 1913",
+        []
+      ]
+    ],
+    [
+      [
+        "Porteño",
+        [
+          "/wiki/Club_Atlético_Porteño"
+        ]
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "1915 , 1918",
+        []
+      ]
+    ],
+    [
+      [
+        "Boca Juniors",
+        [
+          "/wiki/Boca_Juniors"
+        ]
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "1919 , 1925",
+        []
+      ]
+    ],
+    [
+      [
+        "Estudiantes ( BA )",
+        [
+          "/wiki/Club_Atlético_Estudiantes"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1910,
+        []
+      ]
+    ],
+    [
+      [
+        "River Plate",
+        [
+          "/wiki/Club_Atlético_River_Plate"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1914,
+        []
+      ]
+    ],
+    [
+      [
+        "Rosario Central",
+        [
+          "/wiki/Rosario_Central"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1916,
+        []
+      ]
+    ],
+    [
+      [
+        "Independiente",
+        [
+          "/wiki/Club_Atlético_Independiente"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1917,
+        []
+      ]
+    ],
+    [
+      [
+        "Sportivo Barracas",
+        [
+          "/wiki/Sportivo_Barracas"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1921,
+        []
+      ]
+    ],
+    [
+      [
+        "Sportivo Balcarce",
+        [
+          "/wiki/Sportivo_Balcarce"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1932,
+        []
+      ]
+    ],
+    [
+      [
+        "Nueva Chicago",
+        [
+          "/wiki/Club_Atlético_Nueva_Chicago"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1933,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "434cac11-cd4d-5448-95f8-bcdcb040e0f7",
+    "table_id": "Copa_de_Competencia_Jockey_Club_1",
+    "title": "Copa de Competencia Jockey Club",
+    "header": [
+      "Team",
+      "Titles",
+      "Years won"
+    ],
+    "value": [
+      [
+        [
+          "Alumni",
+          [
+            "/wiki/Alumni_Athletic_Club"
+          ]
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          "1907 , 1908 , 1909",
+          []
+        ]
+      ],
+      [
+        [
+          "San Isidro",
+          [
+            "/wiki/Club_Atlético_San_Isidro"
+          ]
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          "1911 , 1912 , 1913",
+          []
+        ]
+      ],
+      [
+        [
+          "Porteño",
+          [
+            "/wiki/Club_Atlético_Porteño"
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "1915 , 1918",
+          []
+        ]
+      ],
+      [
+        [
+          "Boca Juniors",
+          [
+            "/wiki/Boca_Juniors"
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "1919 , 1925",
+          []
+        ]
+      ],
+      [
+        [
+          "Estudiantes ( BA )",
+          [
+            "/wiki/Club_Atlético_Estudiantes"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1910,
+          []
+        ]
+      ],
+      [
+        [
+          "River Plate",
+          [
+            "/wiki/Club_Atlético_River_Plate"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1914,
+          []
+        ]
+      ],
+      [
+        [
+          "Rosario Central",
+          [
+            "/wiki/Rosario_Central"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1916,
+          []
+        ]
+      ],
+      [
+        [
+          "Independiente",
+          [
+            "/wiki/Club_Atlético_Independiente"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1917,
+          []
+        ]
+      ],
+      [
+        [
+          "Sportivo Barracas",
+          [
+            "/wiki/Sportivo_Barracas"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1921,
+          []
+        ]
+      ],
+      [
+        [
+          "Sportivo Balcarce",
+          [
+            "/wiki/Sportivo_Balcarce"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1932,
+          []
+        ]
+      ],
+      [
+        [
+          "Nueva Chicago",
+          [
+            "/wiki/Club_Atlético_Nueva_Chicago"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1933,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about teams that have won the Copa de Competencia Jockey Club, including the number of titles they have won and the years in which they achieved these victories. It serves as a historical record of the competition's champions.",
+  "numeric_columns": [
+    "Titles"
+  ],
+  "categorical_columns": [
+    "Years won"
+  ],
+  "entities": [
+    "Team"
+  ]
+}

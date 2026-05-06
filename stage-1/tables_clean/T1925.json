@@ -1,0 +1,606 @@
+{
+  "table_id": "T1925",
+  "uid": "e9c2c95a-b923-5cf5-9548-cd34843c56c3",
+  "source": "HybridQA",
+  "source_table_id": "e9c2c95a-b923-5cf5-9548-cd34843c56c3",
+  "domain": "HybridQA",
+  "title": "WHA General Player Draft",
+  "columns": [
+    "Player",
+    "Position",
+    "Nationality",
+    "Team",
+    "League"
+  ],
+  "rows": [
+    [
+      [
+        "Ron Boehm",
+        [
+          "/wiki/Ron_Boehm"
+        ]
+      ],
+      [
+        "LW",
+        []
+      ],
+      [
+        "Canada",
+        [
+          "/wiki/Canada"
+        ]
+      ],
+      [
+        "Boston Braves",
+        [
+          "/wiki/Boston_Braves_(AHL)"
+        ]
+      ],
+      [
+        "AHL",
+        [
+          "/wiki/American_Hockey_League"
+        ]
+      ]
+    ],
+    [
+      [
+        "Anatoli Firsov",
+        [
+          "/wiki/Anatoli_Firsov"
+        ]
+      ],
+      [
+        "F",
+        []
+      ],
+      [
+        "Soviet Union",
+        [
+          "/wiki/Soviet_Union"
+        ]
+      ],
+      [
+        "HC CSKA Moscow",
+        [
+          "/wiki/HC_CSKA_Moscow"
+        ]
+      ],
+      [
+        "USSR",
+        [
+          "/wiki/Soviet_Hockey_League"
+        ]
+      ]
+    ],
+    [
+      [
+        "Jozef Golonka",
+        [
+          "/wiki/Jozef_Golonka"
+        ]
+      ],
+      [
+        "F",
+        []
+      ],
+      [
+        "Czechoslovakia",
+        [
+          "/wiki/Czechoslovakia"
+        ]
+      ],
+      [
+        "SC Riessersee",
+        [
+          "/wiki/SC_Riessersee"
+        ]
+      ],
+      [
+        "Bundesliga",
+        [
+          "/wiki/Deutsche_Eishockey_Liga"
+        ]
+      ]
+    ],
+    [
+      [
+        "Lorne Henning",
+        [
+          "/wiki/Lorne_Henning"
+        ]
+      ],
+      [
+        "C",
+        []
+      ],
+      [
+        "Canada",
+        [
+          "/wiki/Canada"
+        ]
+      ],
+      [
+        "New Westminster Bruins",
+        [
+          "/wiki/New_Westminster_Bruins"
+        ]
+      ],
+      [
+        "WCHL",
+        []
+      ]
+    ],
+    [
+      [
+        "Skip Krake",
+        [
+          "/wiki/Skip_Krake"
+        ]
+      ],
+      [
+        "C",
+        []
+      ],
+      [
+        "Canada",
+        [
+          "/wiki/Canada"
+        ]
+      ],
+      [
+        "Salt Lake Golden Eagles",
+        [
+          "/wiki/Salt_Lake_Golden_Eagles"
+        ]
+      ],
+      [
+        "WHL",
+        []
+      ]
+    ],
+    [
+      [
+        "Bernie Lukowich",
+        [
+          "/wiki/Bernie_Lukowich"
+        ]
+      ],
+      [
+        "F",
+        []
+      ],
+      [
+        "Canada",
+        [
+          "/wiki/Canada"
+        ]
+      ],
+      [
+        "New Westminster Bruins",
+        []
+      ],
+      [
+        "WCHL",
+        []
+      ]
+    ],
+    [
+      [
+        "Ray Martyniuk",
+        [
+          "/wiki/Ray_Martyniuk"
+        ]
+      ],
+      [
+        "G",
+        []
+      ],
+      [
+        "Canada",
+        [
+          "/wiki/Canada"
+        ]
+      ],
+      [
+        "Columbus Golden Seals",
+        [
+          "/wiki/Columbus_Golden_Seals"
+        ]
+      ],
+      [
+        "IHL",
+        []
+      ]
+    ],
+    [
+      [
+        "Randy Rota",
+        [
+          "/wiki/Randy_Rota"
+        ]
+      ],
+      [
+        "LW",
+        []
+      ],
+      [
+        "Canada",
+        [
+          "/wiki/Canada"
+        ]
+      ],
+      [
+        "Nova Scotia Voyageurs",
+        [
+          "/wiki/Nova_Scotia_Voyageurs"
+        ]
+      ],
+      [
+        "AHL",
+        []
+      ]
+    ],
+    [
+      [
+        "Dallas Smith",
+        [
+          "/wiki/Dallas_Smith_(ice_hockey)"
+        ]
+      ],
+      [
+        "D",
+        []
+      ],
+      [
+        "Canada",
+        [
+          "/wiki/Canada"
+        ]
+      ],
+      [
+        "Boston Bruins",
+        []
+      ],
+      [
+        "NHL",
+        []
+      ]
+    ],
+    [
+      [
+        "Stan Weir",
+        [
+          "/wiki/Stan_Weir"
+        ]
+      ],
+      [
+        "C",
+        []
+      ],
+      [
+        "Canada",
+        [
+          "/wiki/Canada"
+        ]
+      ],
+      [
+        "Medicine Hat Tigers",
+        [
+          "/wiki/Medicine_Hat_Tigers"
+        ]
+      ],
+      [
+        "WCHL",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "e9c2c95a-b923-5cf5-9548-cd34843c56c3",
+    "table_id": "WHA_General_Player_Draft_13",
+    "title": "WHA General Player Draft",
+    "header": [
+      "Player",
+      "Position",
+      "Nationality",
+      "Team",
+      "League"
+    ],
+    "value": [
+      [
+        [
+          "Ron Boehm",
+          [
+            "/wiki/Ron_Boehm"
+          ]
+        ],
+        [
+          "LW",
+          []
+        ],
+        [
+          "Canada",
+          [
+            "/wiki/Canada"
+          ]
+        ],
+        [
+          "Boston Braves",
+          [
+            "/wiki/Boston_Braves_(AHL)"
+          ]
+        ],
+        [
+          "AHL",
+          [
+            "/wiki/American_Hockey_League"
+          ]
+        ]
+      ],
+      [
+        [
+          "Anatoli Firsov",
+          [
+            "/wiki/Anatoli_Firsov"
+          ]
+        ],
+        [
+          "F",
+          []
+        ],
+        [
+          "Soviet Union",
+          [
+            "/wiki/Soviet_Union"
+          ]
+        ],
+        [
+          "HC CSKA Moscow",
+          [
+            "/wiki/HC_CSKA_Moscow"
+          ]
+        ],
+        [
+          "USSR",
+          [
+            "/wiki/Soviet_Hockey_League"
+          ]
+        ]
+      ],
+      [
+        [
+          "Jozef Golonka",
+          [
+            "/wiki/Jozef_Golonka"
+          ]
+        ],
+        [
+          "F",
+          []
+        ],
+        [
+          "Czechoslovakia",
+          [
+            "/wiki/Czechoslovakia"
+          ]
+        ],
+        [
+          "SC Riessersee",
+          [
+            "/wiki/SC_Riessersee"
+          ]
+        ],
+        [
+          "Bundesliga",
+          [
+            "/wiki/Deutsche_Eishockey_Liga"
+          ]
+        ]
+      ],
+      [
+        [
+          "Lorne Henning",
+          [
+            "/wiki/Lorne_Henning"
+          ]
+        ],
+        [
+          "C",
+          []
+        ],
+        [
+          "Canada",
+          [
+            "/wiki/Canada"
+          ]
+        ],
+        [
+          "New Westminster Bruins",
+          [
+            "/wiki/New_Westminster_Bruins"
+          ]
+        ],
+        [
+          "WCHL",
+          []
+        ]
+      ],
+      [
+        [
+          "Skip Krake",
+          [
+            "/wiki/Skip_Krake"
+          ]
+        ],
+        [
+          "C",
+          []
+        ],
+        [
+          "Canada",
+          [
+            "/wiki/Canada"
+          ]
+        ],
+        [
+          "Salt Lake Golden Eagles",
+          [
+            "/wiki/Salt_Lake_Golden_Eagles"
+          ]
+        ],
+        [
+          "WHL",
+          []
+        ]
+      ],
+      [
+        [
+          "Bernie Lukowich",
+          [
+            "/wiki/Bernie_Lukowich"
+          ]
+        ],
+        [
+          "F",
+          []
+        ],
+        [
+          "Canada",
+          [
+            "/wiki/Canada"
+          ]
+        ],
+        [
+          "New Westminster Bruins",
+          []
+        ],
+        [
+          "WCHL",
+          []
+        ]
+      ],
+      [
+        [
+          "Ray Martyniuk",
+          [
+            "/wiki/Ray_Martyniuk"
+          ]
+        ],
+        [
+          "G",
+          []
+        ],
+        [
+          "Canada",
+          [
+            "/wiki/Canada"
+          ]
+        ],
+        [
+          "Columbus Golden Seals",
+          [
+            "/wiki/Columbus_Golden_Seals"
+          ]
+        ],
+        [
+          "IHL",
+          []
+        ]
+      ],
+      [
+        [
+          "Randy Rota",
+          [
+            "/wiki/Randy_Rota"
+          ]
+        ],
+        [
+          "LW",
+          []
+        ],
+        [
+          "Canada",
+          [
+            "/wiki/Canada"
+          ]
+        ],
+        [
+          "Nova Scotia Voyageurs",
+          [
+            "/wiki/Nova_Scotia_Voyageurs"
+          ]
+        ],
+        [
+          "AHL",
+          []
+        ]
+      ],
+      [
+        [
+          "Dallas Smith",
+          [
+            "/wiki/Dallas_Smith_(ice_hockey)"
+          ]
+        ],
+        [
+          "D",
+          []
+        ],
+        [
+          "Canada",
+          [
+            "/wiki/Canada"
+          ]
+        ],
+        [
+          "Boston Bruins",
+          []
+        ],
+        [
+          "NHL",
+          []
+        ]
+      ],
+      [
+        [
+          "Stan Weir",
+          [
+            "/wiki/Stan_Weir"
+          ]
+        ],
+        [
+          "C",
+          []
+        ],
+        [
+          "Canada",
+          [
+            "/wiki/Canada"
+          ]
+        ],
+        [
+          "Medicine Hat Tigers",
+          [
+            "/wiki/Medicine_Hat_Tigers"
+          ]
+        ],
+        [
+          "WCHL",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table represents a draft of players for the World Hockey Association (WHA), detailing information about individual players, their positions, nationalities, teams, and the leagues they are associated with. It serves as a record of player assignments and affiliations within professional hockey organizations. The table is structured to provide insights into player demographics and team compositions within the context of the draft.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Position",
+    "Nationality",
+    "League"
+  ],
+  "entities": [
+    "Player",
+    "Team"
+  ]
+}

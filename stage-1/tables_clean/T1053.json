@@ -1,0 +1,540 @@
+{
+  "table_id": "T1053",
+  "uid": "f2e67c15-065b-506d-a67c-fbefeebe2c83",
+  "source": "HybridQA",
+  "source_table_id": "f2e67c15-065b-506d-a67c-fbefeebe2c83",
+  "domain": "HybridQA",
+  "title": "1979 Cricket World Cup statistics",
+  "columns": [
+    "Team",
+    "Total",
+    "Opponent",
+    "Ground"
+  ],
+  "rows": [
+    [
+      [
+        "West Indies",
+        [
+          "/wiki/West_Indies_cricket_team"
+        ]
+      ],
+      [
+        "293/6",
+        []
+      ],
+      [
+        "Pakistan",
+        [
+          "/wiki/Pakistan_national_cricket_team"
+        ]
+      ],
+      [
+        "The Oval , London",
+        [
+          "/wiki/The_Oval",
+          "/wiki/London"
+        ]
+      ]
+    ],
+    [
+      [
+        "Pakistan",
+        [
+          "/wiki/Pakistan_national_cricket_team"
+        ]
+      ],
+      [
+        "286/7",
+        []
+      ],
+      [
+        "Australia",
+        [
+          "/wiki/Australia_national_cricket_team"
+        ]
+      ],
+      [
+        "Trent Bridge , Nottingham",
+        [
+          "/wiki/Trent_Bridge",
+          "/wiki/Nottingham"
+        ]
+      ]
+    ],
+    [
+      [
+        "West Indies",
+        [
+          "/wiki/West_Indies_cricket_team"
+        ]
+      ],
+      [
+        "286/9",
+        []
+      ],
+      [
+        "England",
+        [
+          "/wiki/England_cricket_team"
+        ]
+      ],
+      [
+        "Lord 's , London",
+        [
+          "/wiki/Lord's",
+          "/wiki/London"
+        ]
+      ]
+    ],
+    [
+      [
+        "Pakistan",
+        [
+          "/wiki/Pakistan_national_cricket_team"
+        ]
+      ],
+      [
+        250,
+        []
+      ],
+      [
+        "West Indies ]",
+        [
+          "/wiki/West_Indies_cricket_team"
+        ]
+      ],
+      [
+        "The Oval , London",
+        [
+          "/wiki/The_Oval",
+          "/wiki/London"
+        ]
+      ]
+    ],
+    [
+      [
+        "West Indies",
+        [
+          "/wiki/West_Indies_cricket_team"
+        ]
+      ],
+      [
+        "244/7",
+        []
+      ],
+      [
+        "New Zealand",
+        [
+          "/wiki/New_Zealand_national_cricket_team"
+        ]
+      ],
+      [
+        "Trent Bridge , Nottingham",
+        [
+          "/wiki/Trent_Bridge",
+          "/wiki/Nottingham"
+        ]
+      ]
+    ],
+    [
+      [
+        "Sri Lanka",
+        [
+          "/wiki/Sri_Lanka_national_cricket_team"
+        ]
+      ],
+      [
+        "238/5",
+        []
+      ],
+      [
+        "India",
+        [
+          "/wiki/India_national_cricket_team"
+        ]
+      ],
+      [
+        "Old Trafford Cricket Ground , Manchester",
+        [
+          "/wiki/Old_Trafford_Cricket_Ground",
+          "/wiki/Manchester"
+        ]
+      ]
+    ],
+    [
+      [
+        "England",
+        [
+          "/wiki/England_cricket_team"
+        ]
+      ],
+      [
+        "221/8",
+        []
+      ],
+      [
+        "New Zealand",
+        [
+          "/wiki/New_Zealand_national_cricket_team"
+        ]
+      ],
+      [
+        "Old Trafford Cricket Ground , Manchester",
+        [
+          "/wiki/Old_Trafford_Cricket_Ground",
+          "/wiki/Manchester"
+        ]
+      ]
+    ],
+    [
+      [
+        "New Zealand",
+        [
+          "/wiki/New_Zealand_national_cricket_team"
+        ]
+      ],
+      [
+        "212/9",
+        []
+      ],
+      [
+        "West Indies",
+        [
+          "/wiki/West_Indies_cricket_team"
+        ]
+      ],
+      [
+        "Trent Bridge , Nottingham",
+        [
+          "/wiki/Trent_Bridge",
+          "/wiki/Nottingham"
+        ]
+      ]
+    ],
+    [
+      [
+        "New Zealand",
+        [
+          "/wiki/New_Zealand_national_cricket_team"
+        ]
+      ],
+      [
+        "212/9",
+        []
+      ],
+      [
+        "England",
+        [
+          "/wiki/England_cricket_team"
+        ]
+      ],
+      [
+        "Old Trafford Cricket Ground , Manchester",
+        [
+          "/wiki/Old_Trafford_Cricket_Ground",
+          "/wiki/Manchester"
+        ]
+      ]
+    ],
+    [
+      [
+        "Australia",
+        [
+          "/wiki/Australia_national_cricket_team"
+        ]
+      ],
+      [
+        197,
+        []
+      ],
+      [
+        "Pakistan",
+        [
+          "/wiki/Pakistan_national_cricket_team"
+        ]
+      ],
+      [
+        "Trent Bridge , Nottingham",
+        [
+          "/wiki/Trent_Bridge",
+          "/wiki/Nottingham"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "f2e67c15-065b-506d-a67c-fbefeebe2c83",
+    "table_id": "1979_Cricket_World_Cup_statistics_0",
+    "title": "1979 Cricket World Cup statistics",
+    "header": [
+      "Team",
+      "Total",
+      "Opponent",
+      "Ground"
+    ],
+    "value": [
+      [
+        [
+          "West Indies",
+          [
+            "/wiki/West_Indies_cricket_team"
+          ]
+        ],
+        [
+          "293/6",
+          []
+        ],
+        [
+          "Pakistan",
+          [
+            "/wiki/Pakistan_national_cricket_team"
+          ]
+        ],
+        [
+          "The Oval , London",
+          [
+            "/wiki/The_Oval",
+            "/wiki/London"
+          ]
+        ]
+      ],
+      [
+        [
+          "Pakistan",
+          [
+            "/wiki/Pakistan_national_cricket_team"
+          ]
+        ],
+        [
+          "286/7",
+          []
+        ],
+        [
+          "Australia",
+          [
+            "/wiki/Australia_national_cricket_team"
+          ]
+        ],
+        [
+          "Trent Bridge , Nottingham",
+          [
+            "/wiki/Trent_Bridge",
+            "/wiki/Nottingham"
+          ]
+        ]
+      ],
+      [
+        [
+          "West Indies",
+          [
+            "/wiki/West_Indies_cricket_team"
+          ]
+        ],
+        [
+          "286/9",
+          []
+        ],
+        [
+          "England",
+          [
+            "/wiki/England_cricket_team"
+          ]
+        ],
+        [
+          "Lord 's , London",
+          [
+            "/wiki/Lord's",
+            "/wiki/London"
+          ]
+        ]
+      ],
+      [
+        [
+          "Pakistan",
+          [
+            "/wiki/Pakistan_national_cricket_team"
+          ]
+        ],
+        [
+          250,
+          []
+        ],
+        [
+          "West Indies ]",
+          [
+            "/wiki/West_Indies_cricket_team"
+          ]
+        ],
+        [
+          "The Oval , London",
+          [
+            "/wiki/The_Oval",
+            "/wiki/London"
+          ]
+        ]
+      ],
+      [
+        [
+          "West Indies",
+          [
+            "/wiki/West_Indies_cricket_team"
+          ]
+        ],
+        [
+          "244/7",
+          []
+        ],
+        [
+          "New Zealand",
+          [
+            "/wiki/New_Zealand_national_cricket_team"
+          ]
+        ],
+        [
+          "Trent Bridge , Nottingham",
+          [
+            "/wiki/Trent_Bridge",
+            "/wiki/Nottingham"
+          ]
+        ]
+      ],
+      [
+        [
+          "Sri Lanka",
+          [
+            "/wiki/Sri_Lanka_national_cricket_team"
+          ]
+        ],
+        [
+          "238/5",
+          []
+        ],
+        [
+          "India",
+          [
+            "/wiki/India_national_cricket_team"
+          ]
+        ],
+        [
+          "Old Trafford Cricket Ground , Manchester",
+          [
+            "/wiki/Old_Trafford_Cricket_Ground",
+            "/wiki/Manchester"
+          ]
+        ]
+      ],
+      [
+        [
+          "England",
+          [
+            "/wiki/England_cricket_team"
+          ]
+        ],
+        [
+          "221/8",
+          []
+        ],
+        [
+          "New Zealand",
+          [
+            "/wiki/New_Zealand_national_cricket_team"
+          ]
+        ],
+        [
+          "Old Trafford Cricket Ground , Manchester",
+          [
+            "/wiki/Old_Trafford_Cricket_Ground",
+            "/wiki/Manchester"
+          ]
+        ]
+      ],
+      [
+        [
+          "New Zealand",
+          [
+            "/wiki/New_Zealand_national_cricket_team"
+          ]
+        ],
+        [
+          "212/9",
+          []
+        ],
+        [
+          "West Indies",
+          [
+            "/wiki/West_Indies_cricket_team"
+          ]
+        ],
+        [
+          "Trent Bridge , Nottingham",
+          [
+            "/wiki/Trent_Bridge",
+            "/wiki/Nottingham"
+          ]
+        ]
+      ],
+      [
+        [
+          "New Zealand",
+          [
+            "/wiki/New_Zealand_national_cricket_team"
+          ]
+        ],
+        [
+          "212/9",
+          []
+        ],
+        [
+          "England",
+          [
+            "/wiki/England_cricket_team"
+          ]
+        ],
+        [
+          "Old Trafford Cricket Ground , Manchester",
+          [
+            "/wiki/Old_Trafford_Cricket_Ground",
+            "/wiki/Manchester"
+          ]
+        ]
+      ],
+      [
+        [
+          "Australia",
+          [
+            "/wiki/Australia_national_cricket_team"
+          ]
+        ],
+        [
+          197,
+          []
+        ],
+        [
+          "Pakistan",
+          [
+            "/wiki/Pakistan_national_cricket_team"
+          ]
+        ],
+        [
+          "Trent Bridge , Nottingham",
+          [
+            "/wiki/Trent_Bridge",
+            "/wiki/Nottingham"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides statistics from the 1979 Cricket World Cup, detailing match results and venues. It includes information about the teams involved, their scores, their opponents, and the grounds where the matches were played. The table is useful for analyzing team performances and match locations during the tournament.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Team",
+    "Opponent"
+  ],
+  "entities": [
+    "Ground"
+  ]
+}

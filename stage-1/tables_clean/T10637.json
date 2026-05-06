@@ -1,0 +1,473 @@
+{
+  "table_id": "T10637",
+  "uid": "63a972f1-5ffc-5771-9cd5-c7eb0049195d",
+  "source": "HybridQA",
+  "source_table_id": "63a972f1-5ffc-5771-9cd5-c7eb0049195d",
+  "domain": "HybridQA",
+  "title": "2011 UCI Oceania Tour",
+  "columns": [
+    "Rank",
+    "Name",
+    "Team",
+    "Points"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Richard Lang ( AUS )",
+        [
+          "/wiki/Richard_Lang_(cyclist)"
+        ]
+      ],
+      [
+        "Team Jayco-AIS",
+        [
+          "/wiki/Team_Jayco-AIS"
+        ]
+      ],
+      [
+        100,
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Nathan Haas ( AUS )",
+        [
+          "/wiki/Nathan_Haas"
+        ]
+      ],
+      [
+        "Genesys Wealth Advisers",
+        [
+          "/wiki/Bennelong_SwissWellness_Cycling_Team_p/b_Cervelo"
+        ]
+      ],
+      [
+        74,
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "George Bennett ( NZL )",
+        [
+          "/wiki/George_Bennett_(cyclist)"
+        ]
+      ],
+      [
+        "Trek Livestrong U23",
+        [
+          "/wiki/Trek_Livestrong_U23"
+        ]
+      ],
+      [
+        53,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Damien Howson ( AUS )",
+        [
+          "/wiki/Damien_Howson"
+        ]
+      ],
+      [
+        "Team Jayco-AIS",
+        [
+          "/wiki/Team_Jayco-AIS"
+        ]
+      ],
+      [
+        46,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Nathan Earle ( AUS )",
+        [
+          "/wiki/Nathan_Earle"
+        ]
+      ],
+      [
+        "Genesys Wealth Advisers",
+        [
+          "/wiki/Bennelong_SwissWellness_Cycling_Team_p/b_Cervelo"
+        ]
+      ],
+      [
+        41,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Stuart Smith ( AUS )",
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        40,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "James Williamson ( NZL )",
+        [
+          "/wiki/James_Williamson_(New_Zealand_cyclist)"
+        ]
+      ],
+      [
+        "PureBlack Racing",
+        [
+          "/wiki/PureBlack_Racing"
+        ]
+      ],
+      [
+        36,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Patrick Lane ( AUS )",
+        [
+          "/wiki/Patrick_Lane_(cyclist)"
+        ]
+      ],
+      [
+        "Team Jayco-AIS",
+        [
+          "/wiki/Team_Jayco-AIS"
+        ]
+      ],
+      [
+        30,
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Luke Davison ( AUS )",
+        [
+          "/wiki/Luke_Davison"
+        ]
+      ],
+      [
+        "Team Budget Forklifts",
+        [
+          "/wiki/Team_Budget_Forklifts"
+        ]
+      ],
+      [
+        25,
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Bernard Sulzberger ( AUS )",
+        [
+          "/wiki/Bernard_Sulzberger"
+        ]
+      ],
+      [
+        "V Australia",
+        [
+          "/wiki/V_Australia"
+        ]
+      ],
+      [
+        24,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "63a972f1-5ffc-5771-9cd5-c7eb0049195d",
+    "table_id": "2011_UCI_Oceania_Tour_1",
+    "title": "2011 UCI Oceania Tour",
+    "header": [
+      "Rank",
+      "Name",
+      "Team",
+      "Points"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Richard Lang ( AUS )",
+          [
+            "/wiki/Richard_Lang_(cyclist)"
+          ]
+        ],
+        [
+          "Team Jayco-AIS",
+          [
+            "/wiki/Team_Jayco-AIS"
+          ]
+        ],
+        [
+          100,
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Nathan Haas ( AUS )",
+          [
+            "/wiki/Nathan_Haas"
+          ]
+        ],
+        [
+          "Genesys Wealth Advisers",
+          [
+            "/wiki/Bennelong_SwissWellness_Cycling_Team_p/b_Cervelo"
+          ]
+        ],
+        [
+          74,
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "George Bennett ( NZL )",
+          [
+            "/wiki/George_Bennett_(cyclist)"
+          ]
+        ],
+        [
+          "Trek Livestrong U23",
+          [
+            "/wiki/Trek_Livestrong_U23"
+          ]
+        ],
+        [
+          53,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Damien Howson ( AUS )",
+          [
+            "/wiki/Damien_Howson"
+          ]
+        ],
+        [
+          "Team Jayco-AIS",
+          [
+            "/wiki/Team_Jayco-AIS"
+          ]
+        ],
+        [
+          46,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Nathan Earle ( AUS )",
+          [
+            "/wiki/Nathan_Earle"
+          ]
+        ],
+        [
+          "Genesys Wealth Advisers",
+          [
+            "/wiki/Bennelong_SwissWellness_Cycling_Team_p/b_Cervelo"
+          ]
+        ],
+        [
+          41,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Stuart Smith ( AUS )",
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          40,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "James Williamson ( NZL )",
+          [
+            "/wiki/James_Williamson_(New_Zealand_cyclist)"
+          ]
+        ],
+        [
+          "PureBlack Racing",
+          [
+            "/wiki/PureBlack_Racing"
+          ]
+        ],
+        [
+          36,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Patrick Lane ( AUS )",
+          [
+            "/wiki/Patrick_Lane_(cyclist)"
+          ]
+        ],
+        [
+          "Team Jayco-AIS",
+          [
+            "/wiki/Team_Jayco-AIS"
+          ]
+        ],
+        [
+          30,
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Luke Davison ( AUS )",
+          [
+            "/wiki/Luke_Davison"
+          ]
+        ],
+        [
+          "Team Budget Forklifts",
+          [
+            "/wiki/Team_Budget_Forklifts"
+          ]
+        ],
+        [
+          25,
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Bernard Sulzberger ( AUS )",
+          [
+            "/wiki/Bernard_Sulzberger"
+          ]
+        ],
+        [
+          "V Australia",
+          [
+            "/wiki/V_Australia"
+          ]
+        ],
+        [
+          24,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides a ranking of cyclists in the 2011 UCI Oceania Tour, including their rank, names, associated teams, and points scored. It is intended to summarize performance and standings in this cycling competition. The data highlights individual athletes and their affiliations within the context of the tour.",
+  "numeric_columns": [
+    "Rank",
+    "Points"
+  ],
+  "categorical_columns": [
+    "Team"
+  ],
+  "entities": [
+    "Name",
+    "Team"
+  ]
+}

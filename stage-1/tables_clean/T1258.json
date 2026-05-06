@@ -1,0 +1,369 @@
+{
+  "table_id": "T1258",
+  "uid": "9cb78db6-19bc-53c1-b771-633049054013",
+  "source": "HybridQA",
+  "source_table_id": "9cb78db6-19bc-53c1-b771-633049054013",
+  "domain": "HybridQA",
+  "title": "1980 World Championships in Athletics",
+  "columns": [
+    "Rank",
+    "Name",
+    "Nationality",
+    "Time"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Rosa Colorado",
+        []
+      ],
+      [
+        "Spain",
+        [
+          "/wiki/Spain"
+        ]
+      ],
+      [
+        57.51,
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Helle Sichlau",
+        []
+      ],
+      [
+        "Denmark",
+        [
+          "/wiki/Denmark"
+        ]
+      ],
+      [
+        58.03,
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Montserrat Pujol",
+        [
+          "/wiki/Montserrat_Pujol_(Spanish_athlete)"
+        ]
+      ],
+      [
+        "Spain",
+        [
+          "/wiki/Spain"
+        ]
+      ],
+      [
+        58.38,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Simone Büngener",
+        []
+      ],
+      [
+        "West Germany",
+        [
+          "/wiki/West_Germany"
+        ]
+      ],
+      [
+        58.77,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Susan Dalgoutté",
+        []
+      ],
+      [
+        "Great Britain",
+        [
+          "/wiki/United_Kingdom"
+        ]
+      ],
+      [
+        59.31,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Esther Kaufmann",
+        []
+      ],
+      [
+        "Switzerland",
+        [
+          "/wiki/Switzerland"
+        ]
+      ],
+      [
+        59.41,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Francine Gendron",
+        []
+      ],
+      [
+        "Canada",
+        [
+          "/wiki/Canada"
+        ]
+      ],
+      [
+        59.61,
+        []
+      ]
+    ],
+    [
+      [
+        "N/A",
+        []
+      ],
+      [
+        "Olga Commandeur",
+        [
+          "/wiki/Olga_Commandeur"
+        ]
+      ],
+      [
+        "Netherlands",
+        [
+          "/wiki/Netherlands"
+        ]
+      ],
+      [
+        0,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "9cb78db6-19bc-53c1-b771-633049054013",
+    "table_id": "1980_World_Championships_in_Athletics_3",
+    "title": "1980 World Championships in Athletics",
+    "header": [
+      "Rank",
+      "Name",
+      "Nationality",
+      "Time"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Rosa Colorado",
+          []
+        ],
+        [
+          "Spain",
+          [
+            "/wiki/Spain"
+          ]
+        ],
+        [
+          57.51,
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Helle Sichlau",
+          []
+        ],
+        [
+          "Denmark",
+          [
+            "/wiki/Denmark"
+          ]
+        ],
+        [
+          58.03,
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Montserrat Pujol",
+          [
+            "/wiki/Montserrat_Pujol_(Spanish_athlete)"
+          ]
+        ],
+        [
+          "Spain",
+          [
+            "/wiki/Spain"
+          ]
+        ],
+        [
+          58.38,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Simone Büngener",
+          []
+        ],
+        [
+          "West Germany",
+          [
+            "/wiki/West_Germany"
+          ]
+        ],
+        [
+          58.77,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Susan Dalgoutté",
+          []
+        ],
+        [
+          "Great Britain",
+          [
+            "/wiki/United_Kingdom"
+          ]
+        ],
+        [
+          59.31,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Esther Kaufmann",
+          []
+        ],
+        [
+          "Switzerland",
+          [
+            "/wiki/Switzerland"
+          ]
+        ],
+        [
+          59.41,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Francine Gendron",
+          []
+        ],
+        [
+          "Canada",
+          [
+            "/wiki/Canada"
+          ]
+        ],
+        [
+          59.61,
+          []
+        ]
+      ],
+      [
+        [
+          "N/A",
+          []
+        ],
+        [
+          "Olga Commandeur",
+          [
+            "/wiki/Olga_Commandeur"
+          ]
+        ],
+        [
+          "Netherlands",
+          [
+            "/wiki/Netherlands"
+          ]
+        ],
+        [
+          0,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the results of the 1980 World Championships in Athletics, specifically focusing on rankings, participants, their nationalities, and their recorded times. It is designed to summarize the performance of athletes in a specific event or competition.",
+  "numeric_columns": [
+    "Rank",
+    "Time"
+  ],
+  "categorical_columns": [
+    "Nationality"
+  ],
+  "entities": [
+    "Name",
+    "Nationality"
+  ]
+}

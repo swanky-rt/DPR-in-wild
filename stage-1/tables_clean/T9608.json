@@ -1,0 +1,476 @@
+{
+  "table_id": "T9608",
+  "uid": "a070bc87-7b0e-5aa4-9e03-c78dbb9be182",
+  "source": "HybridQA",
+  "source_table_id": "a070bc87-7b0e-5aa4-9e03-c78dbb9be182",
+  "domain": "HybridQA",
+  "title": "2012 French Road Cycling Cup",
+  "columns": [
+    "#",
+    "Rider",
+    "Team",
+    "Points"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Samuel Dumoulin ( FRA )",
+        [
+          "/wiki/Samuel_Dumoulin"
+        ]
+      ],
+      [
+        "Cofidis",
+        [
+          "/wiki/Cofidis_(cycling_team)"
+        ]
+      ],
+      [
+        232,
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Julien Simon ( FRA )",
+        [
+          "/wiki/Julien_Simon"
+        ]
+      ],
+      [
+        "Saur-Sojasun",
+        [
+          "/wiki/Sojasun_(cycling_team)"
+        ]
+      ],
+      [
+        159,
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Laurent Pichon ( FRA )",
+        [
+          "/wiki/Laurent_Pichon"
+        ]
+      ],
+      [
+        "Bretagne-Schuller",
+        [
+          "/wiki/Arkéa–Samsic"
+        ]
+      ],
+      [
+        94,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Arnaud Démare ( FRA )",
+        [
+          "/wiki/Arnaud_Démare"
+        ]
+      ],
+      [
+        "FDJ-BigMat",
+        [
+          "/wiki/Groupama–FDJ"
+        ]
+      ],
+      [
+        88,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Romain Feillu ( FRA )",
+        [
+          "/wiki/Romain_Feillu"
+        ]
+      ],
+      [
+        "Vacansoleil-DCM",
+        [
+          "/wiki/Vacansoleil–DCM"
+        ]
+      ],
+      [
+        84,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Sébastien Hinault ( FRA )",
+        [
+          "/wiki/Sébastien_Hinault"
+        ]
+      ],
+      [
+        "Ag2r-La Mondiale",
+        [
+          "/wiki/AG2R_La_Mondiale_(cycling_team)"
+        ]
+      ],
+      [
+        75,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Benoit Jarrier ( FRA )",
+        [
+          "/wiki/Benoit_Jarrier"
+        ]
+      ],
+      [
+        "Veranda Rideau - Super U",
+        []
+      ],
+      [
+        65,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Jérémie Galland ( FRA )",
+        [
+          "/wiki/Jérémie_Galland"
+        ]
+      ],
+      [
+        "Saur-Sojasun",
+        [
+          "/wiki/Sojasun_(cycling_team)"
+        ]
+      ],
+      [
+        62,
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Tony Hurel ( FRA )",
+        [
+          "/wiki/Tony_Hurel"
+        ]
+      ],
+      [
+        "Team Europcar",
+        [
+          "/wiki/Total_Direct_Énergie_(cycling_team)"
+        ]
+      ],
+      [
+        61,
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Pierrick Fédrigo ( FRA )",
+        [
+          "/wiki/Pierrick_Fédrigo"
+        ]
+      ],
+      [
+        "FDJ-BigMat",
+        [
+          "/wiki/Groupama–FDJ"
+        ]
+      ],
+      [
+        58,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "a070bc87-7b0e-5aa4-9e03-c78dbb9be182",
+    "table_id": "2012_French_Road_Cycling_Cup_1",
+    "title": "2012 French Road Cycling Cup",
+    "header": [
+      "#",
+      "Rider",
+      "Team",
+      "Points"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Samuel Dumoulin ( FRA )",
+          [
+            "/wiki/Samuel_Dumoulin"
+          ]
+        ],
+        [
+          "Cofidis",
+          [
+            "/wiki/Cofidis_(cycling_team)"
+          ]
+        ],
+        [
+          232,
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Julien Simon ( FRA )",
+          [
+            "/wiki/Julien_Simon"
+          ]
+        ],
+        [
+          "Saur-Sojasun",
+          [
+            "/wiki/Sojasun_(cycling_team)"
+          ]
+        ],
+        [
+          159,
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Laurent Pichon ( FRA )",
+          [
+            "/wiki/Laurent_Pichon"
+          ]
+        ],
+        [
+          "Bretagne-Schuller",
+          [
+            "/wiki/Arkéa–Samsic"
+          ]
+        ],
+        [
+          94,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Arnaud Démare ( FRA )",
+          [
+            "/wiki/Arnaud_Démare"
+          ]
+        ],
+        [
+          "FDJ-BigMat",
+          [
+            "/wiki/Groupama–FDJ"
+          ]
+        ],
+        [
+          88,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Romain Feillu ( FRA )",
+          [
+            "/wiki/Romain_Feillu"
+          ]
+        ],
+        [
+          "Vacansoleil-DCM",
+          [
+            "/wiki/Vacansoleil–DCM"
+          ]
+        ],
+        [
+          84,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Sébastien Hinault ( FRA )",
+          [
+            "/wiki/Sébastien_Hinault"
+          ]
+        ],
+        [
+          "Ag2r-La Mondiale",
+          [
+            "/wiki/AG2R_La_Mondiale_(cycling_team)"
+          ]
+        ],
+        [
+          75,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Benoit Jarrier ( FRA )",
+          [
+            "/wiki/Benoit_Jarrier"
+          ]
+        ],
+        [
+          "Veranda Rideau - Super U",
+          []
+        ],
+        [
+          65,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Jérémie Galland ( FRA )",
+          [
+            "/wiki/Jérémie_Galland"
+          ]
+        ],
+        [
+          "Saur-Sojasun",
+          [
+            "/wiki/Sojasun_(cycling_team)"
+          ]
+        ],
+        [
+          62,
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Tony Hurel ( FRA )",
+          [
+            "/wiki/Tony_Hurel"
+          ]
+        ],
+        [
+          "Team Europcar",
+          [
+            "/wiki/Total_Direct_Énergie_(cycling_team)"
+          ]
+        ],
+        [
+          61,
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Pierrick Fédrigo ( FRA )",
+          [
+            "/wiki/Pierrick_Fédrigo"
+          ]
+        ],
+        [
+          "FDJ-BigMat",
+          [
+            "/wiki/Groupama–FDJ"
+          ]
+        ],
+        [
+          58,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table represents the standings of the 2012 French Road Cycling Cup, showcasing individual riders, their teams, and the points they accumulated during the competition. It provides a summary of performance rankings within the event. The table is structured to highlight key participants and their affiliations in the cycling sport domain.",
+  "numeric_columns": [
+    "Points"
+  ],
+  "categorical_columns": [
+    "Team"
+  ],
+  "entities": [
+    "#",
+    "Rider"
+  ]
+}

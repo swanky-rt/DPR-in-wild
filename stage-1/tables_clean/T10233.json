@@ -1,0 +1,293 @@
+{
+  "table_id": "T10233",
+  "uid": "312f98ac-bc36-5cc2-bcee-28e1f0d3f308",
+  "source": "HybridQA",
+  "source_table_id": "312f98ac-bc36-5cc2-bcee-28e1f0d3f308",
+  "domain": "HybridQA",
+  "title": "1996 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Jesús Carballo ( ESP )",
+        [
+          "/wiki/Jesús_Carballo"
+        ]
+      ],
+      [
+        9.8,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Krasimir Dunev ( BUL )",
+        [
+          "/wiki/Krasimir_Dunev"
+        ]
+      ],
+      [
+        9.775,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Vitaly Scherbo ( BLR )",
+        [
+          "/wiki/Vitaly_Scherbo"
+        ]
+      ],
+      [
+        9.762,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Aljaz Pegan ( SLO )",
+        [
+          "/wiki/Aljaz_Pegan"
+        ]
+      ],
+      [
+        9.75,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Chainey Umphrey ( USA )",
+        [
+          "/wiki/Chainey_Umphrey"
+        ]
+      ],
+      [
+        9.712,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Sergei Fedorchenko ( KAZ )",
+        [
+          "/wiki/Sergei_Fedorchenko"
+        ]
+      ],
+      [
+        9.475,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Zoltán Supola ( HUN )",
+        [
+          "/wiki/Zoltán_Supola_(gymnast)"
+        ]
+      ],
+      [
+        9.375,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Richard Ikeda ( CAN )",
+        [
+          "/wiki/Richard_Ikeda"
+        ]
+      ],
+      [
+        8.075,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "312f98ac-bc36-5cc2-bcee-28e1f0d3f308",
+    "table_id": "1996_World_Artistic_Gymnastics_Championships_5",
+    "title": "1996 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Jesús Carballo ( ESP )",
+          [
+            "/wiki/Jesús_Carballo"
+          ]
+        ],
+        [
+          9.8,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Krasimir Dunev ( BUL )",
+          [
+            "/wiki/Krasimir_Dunev"
+          ]
+        ],
+        [
+          9.775,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Vitaly Scherbo ( BLR )",
+          [
+            "/wiki/Vitaly_Scherbo"
+          ]
+        ],
+        [
+          9.762,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Aljaz Pegan ( SLO )",
+          [
+            "/wiki/Aljaz_Pegan"
+          ]
+        ],
+        [
+          9.75,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Chainey Umphrey ( USA )",
+          [
+            "/wiki/Chainey_Umphrey"
+          ]
+        ],
+        [
+          9.712,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Sergei Fedorchenko ( KAZ )",
+          [
+            "/wiki/Sergei_Fedorchenko"
+          ]
+        ],
+        [
+          9.475,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Zoltán Supola ( HUN )",
+          [
+            "/wiki/Zoltán_Supola_(gymnast)"
+          ]
+        ],
+        [
+          9.375,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Richard Ikeda ( CAN )",
+          [
+            "/wiki/Richard_Ikeda"
+          ]
+        ],
+        [
+          8.075,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the rankings and scores of gymnasts who participated in the 1996 World Artistic Gymnastics Championships. It includes details about the rank, the names of the gymnasts, and their total scores. The table is intended to summarize performance outcomes in the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

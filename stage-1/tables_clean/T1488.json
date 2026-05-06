@@ -1,0 +1,293 @@
+{
+  "table_id": "T1488",
+  "uid": "ad3ba2d4-240c-5eca-905f-e0a55765beb5",
+  "source": "HybridQA",
+  "source_table_id": "ad3ba2d4-240c-5eca-905f-e0a55765beb5",
+  "domain": "HybridQA",
+  "title": "1991 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Grigory Misutin ( URS )",
+        [
+          "/wiki/Grigory_Misutin"
+        ]
+      ],
+      [
+        9.875,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Andreas Wecker ( GER )",
+        [
+          "/wiki/Andreas_Wecker"
+        ]
+      ],
+      [
+        9.862,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Yuri Chechi ( ITA )",
+        [
+          "/wiki/Yuri_Chechi"
+        ]
+      ],
+      [
+        9.837,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Li Xiaoshuang ( CHN )",
+        [
+          "/wiki/Li_Xiaoshuang"
+        ]
+      ],
+      [
+        9.812,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Valeri Liukin ( URS )",
+        [
+          "/wiki/Valeri_Liukin"
+        ]
+      ],
+      [
+        9.8,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Scott Keswick ( USA )",
+        [
+          "/wiki/Scott_Keswick"
+        ]
+      ],
+      [
+        9.775,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Yukio Iketani ( JPN )",
+        [
+          "/wiki/Yukio_Iketani"
+        ]
+      ],
+      [
+        9.775,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Li Jing ( CHN )",
+        [
+          "/wiki/Li_Jing_(gymnast)"
+        ]
+      ],
+      [
+        9.362,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "ad3ba2d4-240c-5eca-905f-e0a55765beb5",
+    "table_id": "1991_World_Artistic_Gymnastics_Championships_3",
+    "title": "1991 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Grigory Misutin ( URS )",
+          [
+            "/wiki/Grigory_Misutin"
+          ]
+        ],
+        [
+          9.875,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Andreas Wecker ( GER )",
+          [
+            "/wiki/Andreas_Wecker"
+          ]
+        ],
+        [
+          9.862,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Yuri Chechi ( ITA )",
+          [
+            "/wiki/Yuri_Chechi"
+          ]
+        ],
+        [
+          9.837,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Li Xiaoshuang ( CHN )",
+          [
+            "/wiki/Li_Xiaoshuang"
+          ]
+        ],
+        [
+          9.812,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Valeri Liukin ( URS )",
+          [
+            "/wiki/Valeri_Liukin"
+          ]
+        ],
+        [
+          9.8,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Scott Keswick ( USA )",
+          [
+            "/wiki/Scott_Keswick"
+          ]
+        ],
+        [
+          9.775,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Yukio Iketani ( JPN )",
+          [
+            "/wiki/Yukio_Iketani"
+          ]
+        ],
+        [
+          9.775,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Li Jing ( CHN )",
+          [
+            "/wiki/Li_Jing_(gymnast)"
+          ]
+        ],
+        [
+          9.362,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides rankings and scores for gymnasts who participated in the 1991 World Artistic Gymnastics Championships. It includes information about their rank, names, and total scores, serving as a summary of performance outcomes from the event.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

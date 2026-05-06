@@ -1,0 +1,533 @@
+{
+  "table_id": "T5073",
+  "uid": "f30055f5-fd62-5cb1-8c13-468bd200b866",
+  "source": "HybridQA",
+  "source_table_id": "f30055f5-fd62-5cb1-8c13-468bd200b866",
+  "domain": "HybridQA",
+  "title": "List of county routes in Sullivan County, New York",
+  "columns": [
+    "Route",
+    "Length ( mi )",
+    "Length ( km )",
+    "From",
+    "Via",
+    "To"
+  ],
+  "rows": [
+    [
+      [
+        "CR 101",
+        []
+      ],
+      [
+        2.69,
+        []
+      ],
+      [
+        4.33,
+        []
+      ],
+      [
+        "CR 48 / CR 49",
+        []
+      ],
+      [
+        "Cold Spring Road in Forestburgh",
+        [
+          "/wiki/Forestburgh,_New_York"
+        ]
+      ],
+      [
+        "CR 102 / CR 108",
+        []
+      ]
+    ],
+    [
+      [
+        "CR 102",
+        []
+      ],
+      [
+        5.66,
+        []
+      ],
+      [
+        9.11,
+        []
+      ],
+      [
+        "CR 101 / CR 108 in Forestburgh",
+        [
+          "/wiki/Forestburgh,_New_York"
+        ]
+      ],
+      [
+        "Cold Spring Road",
+        []
+      ],
+      [
+        "Monticello village line in Thompson",
+        [
+          "/wiki/Monticello,_New_York",
+          "/wiki/Thompson,_New_York"
+        ]
+      ]
+    ],
+    [
+      [
+        "CR 103",
+        []
+      ],
+      [
+        4.16,
+        []
+      ],
+      [
+        6.69,
+        []
+      ],
+      [
+        "NY 42",
+        [
+          "/wiki/NY_42"
+        ]
+      ],
+      [
+        "Anawana Lake Road in Thompson",
+        [
+          "/wiki/Thompson,_New_York"
+        ]
+      ],
+      [
+        "CR 104 / CR 107",
+        []
+      ]
+    ],
+    [
+      [
+        "CR 104",
+        []
+      ],
+      [
+        3.62,
+        []
+      ],
+      [
+        5.83,
+        []
+      ],
+      [
+        "CR 103 / CR 107 in Fallsburg",
+        [
+          "/wiki/Fallsburg,_New_York"
+        ]
+      ],
+      [
+        "Main Street and Loch Sheldrake Road",
+        []
+      ],
+      [
+        "NY 52 in Thompson",
+        [
+          "/wiki/NY_52",
+          "/wiki/Thompson,_New_York"
+        ]
+      ]
+    ],
+    [
+      [
+        "CR 105",
+        []
+      ],
+      [
+        5.49,
+        []
+      ],
+      [
+        8.84,
+        []
+      ],
+      [
+        "NY 52 in Neversink",
+        [
+          "/wiki/NY_52",
+          "/wiki/Neversink,_New_York"
+        ]
+      ],
+      [
+        "Divine Corners Road",
+        []
+      ],
+      [
+        "NY 55 in Neversink",
+        [
+          "/wiki/NY_55"
+        ]
+      ]
+    ],
+    [
+      [
+        "CR 107",
+        []
+      ],
+      [
+        4.8,
+        []
+      ],
+      [
+        7.72,
+        []
+      ],
+      [
+        "Monticello village line",
+        [
+          "/wiki/Monticello,_New_York"
+        ]
+      ],
+      [
+        "Old Liberty Road in Thompson",
+        [
+          "/wiki/Thompson,_New_York"
+        ]
+      ],
+      [
+        "CR 103 / CR 104",
+        []
+      ]
+    ],
+    [
+      [
+        "CR 108",
+        []
+      ],
+      [
+        3.73,
+        []
+      ],
+      [
+        6.0,
+        []
+      ],
+      [
+        "NY 42",
+        [
+          "/wiki/NY_42"
+        ]
+      ],
+      [
+        "Saint Josephs Road in Forestburgh",
+        [
+          "/wiki/Forestburgh,_New_York"
+        ]
+      ],
+      [
+        "CR 101 / CR 102",
+        []
+      ]
+    ],
+    [
+      [
+        "CR 109",
+        []
+      ],
+      [
+        1.42,
+        []
+      ],
+      [
+        2.29,
+        []
+      ],
+      [
+        "NY 42 in Thompson",
+        [
+          "/wiki/NY_42",
+          "/wiki/Thompson,_New_York"
+        ]
+      ],
+      [
+        "Kiamesha Lake Road",
+        []
+      ],
+      [
+        "CR 161 in Fallsburg",
+        [
+          "/wiki/Fallsburg,_New_York"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "f30055f5-fd62-5cb1-8c13-468bd200b866",
+    "table_id": "List_of_county_routes_in_Sullivan_County,_New_York_9",
+    "title": "List of county routes in Sullivan County, New York",
+    "header": [
+      "Route",
+      "Length ( mi )",
+      "Length ( km )",
+      "From",
+      "Via",
+      "To"
+    ],
+    "value": [
+      [
+        [
+          "CR 101",
+          []
+        ],
+        [
+          2.69,
+          []
+        ],
+        [
+          4.33,
+          []
+        ],
+        [
+          "CR 48 / CR 49",
+          []
+        ],
+        [
+          "Cold Spring Road in Forestburgh",
+          [
+            "/wiki/Forestburgh,_New_York"
+          ]
+        ],
+        [
+          "CR 102 / CR 108",
+          []
+        ]
+      ],
+      [
+        [
+          "CR 102",
+          []
+        ],
+        [
+          5.66,
+          []
+        ],
+        [
+          9.11,
+          []
+        ],
+        [
+          "CR 101 / CR 108 in Forestburgh",
+          [
+            "/wiki/Forestburgh,_New_York"
+          ]
+        ],
+        [
+          "Cold Spring Road",
+          []
+        ],
+        [
+          "Monticello village line in Thompson",
+          [
+            "/wiki/Monticello,_New_York",
+            "/wiki/Thompson,_New_York"
+          ]
+        ]
+      ],
+      [
+        [
+          "CR 103",
+          []
+        ],
+        [
+          4.16,
+          []
+        ],
+        [
+          6.69,
+          []
+        ],
+        [
+          "NY 42",
+          [
+            "/wiki/NY_42"
+          ]
+        ],
+        [
+          "Anawana Lake Road in Thompson",
+          [
+            "/wiki/Thompson,_New_York"
+          ]
+        ],
+        [
+          "CR 104 / CR 107",
+          []
+        ]
+      ],
+      [
+        [
+          "CR 104",
+          []
+        ],
+        [
+          3.62,
+          []
+        ],
+        [
+          5.83,
+          []
+        ],
+        [
+          "CR 103 / CR 107 in Fallsburg",
+          [
+            "/wiki/Fallsburg,_New_York"
+          ]
+        ],
+        [
+          "Main Street and Loch Sheldrake Road",
+          []
+        ],
+        [
+          "NY 52 in Thompson",
+          [
+            "/wiki/NY_52",
+            "/wiki/Thompson,_New_York"
+          ]
+        ]
+      ],
+      [
+        [
+          "CR 105",
+          []
+        ],
+        [
+          5.49,
+          []
+        ],
+        [
+          8.84,
+          []
+        ],
+        [
+          "NY 52 in Neversink",
+          [
+            "/wiki/NY_52",
+            "/wiki/Neversink,_New_York"
+          ]
+        ],
+        [
+          "Divine Corners Road",
+          []
+        ],
+        [
+          "NY 55 in Neversink",
+          [
+            "/wiki/NY_55"
+          ]
+        ]
+      ],
+      [
+        [
+          "CR 107",
+          []
+        ],
+        [
+          4.8,
+          []
+        ],
+        [
+          7.72,
+          []
+        ],
+        [
+          "Monticello village line",
+          [
+            "/wiki/Monticello,_New_York"
+          ]
+        ],
+        [
+          "Old Liberty Road in Thompson",
+          [
+            "/wiki/Thompson,_New_York"
+          ]
+        ],
+        [
+          "CR 103 / CR 104",
+          []
+        ]
+      ],
+      [
+        [
+          "CR 108",
+          []
+        ],
+        [
+          3.73,
+          []
+        ],
+        [
+          6.0,
+          []
+        ],
+        [
+          "NY 42",
+          [
+            "/wiki/NY_42"
+          ]
+        ],
+        [
+          "Saint Josephs Road in Forestburgh",
+          [
+            "/wiki/Forestburgh,_New_York"
+          ]
+        ],
+        [
+          "CR 101 / CR 102",
+          []
+        ]
+      ],
+      [
+        [
+          "CR 109",
+          []
+        ],
+        [
+          1.42,
+          []
+        ],
+        [
+          2.29,
+          []
+        ],
+        [
+          "NY 42 in Thompson",
+          [
+            "/wiki/NY_42",
+            "/wiki/Thompson,_New_York"
+          ]
+        ],
+        [
+          "Kiamesha Lake Road",
+          []
+        ],
+        [
+          "CR 161 in Fallsburg",
+          [
+            "/wiki/Fallsburg,_New_York"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of county routes in Sullivan County, New York, detailing their lengths, starting and ending points, and the roads they traverse. It is intended to document and organize information about these routes for reference or planning purposes.",
+  "numeric_columns": [
+    "Length ( mi )",
+    "Length ( km )"
+  ],
+  "categorical_columns": [
+    "Route",
+    "From",
+    "Via",
+    "To"
+  ],
+  "entities": [
+    "Route",
+    "From",
+    "To"
+  ]
+}

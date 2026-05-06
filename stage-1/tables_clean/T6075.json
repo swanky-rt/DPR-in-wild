@@ -1,0 +1,440 @@
+{
+  "table_id": "T6075",
+  "uid": "325e9c5d-9587-536e-82d2-63d002b09e9f",
+  "source": "HybridQA",
+  "source_table_id": "325e9c5d-9587-536e-82d2-63d002b09e9f",
+  "domain": "HybridQA",
+  "title": "Tree line",
+  "columns": [
+    "Location",
+    "Approx . longitude",
+    "Approx . latitude of tree line",
+    "Notes"
+  ],
+  "rows": [
+    [
+      [
+        "Norway",
+        []
+      ],
+      [
+        "24°E",
+        []
+      ],
+      [
+        "70°N",
+        []
+      ],
+      [
+        "The North Atlantic current makes Arctic climates in this region warmer than other coastal locations at comparable latitude . In particular the mildness of winters prevents permafrost",
+        [
+          "/wiki/North_Atlantic_current",
+          "/wiki/Permafrost"
+        ]
+      ]
+    ],
+    [
+      [
+        "West Siberian Plain",
+        [
+          "/wiki/West_Siberian_Plain"
+        ]
+      ],
+      [
+        "75°E",
+        []
+      ],
+      [
+        "66°N",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Central Siberian Plateau",
+        [
+          "/wiki/Central_Siberian_Plateau"
+        ]
+      ],
+      [
+        "102°E",
+        []
+      ],
+      [
+        "72°N",
+        []
+      ],
+      [
+        "Extreme continental climate means the summer is warm enough to allow tree growth at higher latitudes , extending to northernmost forests of the world at 72°28 ' N at Ary-Mas ( 102° 15 ' E ) in the Novaya River valley , a tributary of the Khatanga River and the more northern Lukunsky grove at 72°31 ' N , 105° 03 ' E east from Khatanga River",
+        [
+          "/wiki/Continental_climate",
+          "/wiki/Ary-Mas",
+          "/wiki/Novaya_River",
+          "/wiki/Khatanga_River",
+          "/wiki/Lukunsky_grove"
+        ]
+      ]
+    ],
+    [
+      [
+        "Russian Far East ( Kamchatka and Chukotka )",
+        [
+          "/wiki/Russian_Far_East",
+          "/wiki/Kamchatka_Peninsula",
+          "/wiki/Chukchi_Peninsula"
+        ]
+      ],
+      [
+        "160°E",
+        []
+      ],
+      [
+        "60°N",
+        []
+      ],
+      [
+        "The Oyashio Current and strong winds affect summer temperatures to prevent tree growth . The Aleutian Islands are almost completely treeless",
+        [
+          "/wiki/Oyashio_Current",
+          "/wiki/Aleutian_Islands"
+        ]
+      ]
+    ],
+    [
+      [
+        "Alaska",
+        [
+          "/wiki/Alaska"
+        ]
+      ],
+      [
+        "152°W",
+        []
+      ],
+      [
+        "68°N",
+        []
+      ],
+      [
+        "Trees grow north to the south-facing slopes of the Brooks Range . The mountains block cold air coming off of the Arctic Ocean",
+        []
+      ]
+    ],
+    [
+      [
+        "Northwest Territories , Canada",
+        [
+          "/wiki/Northwest_Territories"
+        ]
+      ],
+      [
+        "132°W",
+        []
+      ],
+      [
+        "69°N",
+        []
+      ],
+      [
+        "Reaches north of the Arctic Circle because of the continental nature of the climate and warmer summer temperatures",
+        []
+      ]
+    ],
+    [
+      [
+        "Nunavut",
+        [
+          "/wiki/Nunavut"
+        ]
+      ],
+      [
+        "95°W",
+        []
+      ],
+      [
+        "61°N",
+        []
+      ],
+      [
+        "Influence of the very cold Hudson Bay moves the treeline southwards",
+        [
+          "/wiki/Hudson_Bay"
+        ]
+      ]
+    ],
+    [
+      [
+        "Labrador Peninsula",
+        [
+          "/wiki/Labrador_Peninsula"
+        ]
+      ],
+      [
+        "72°W",
+        []
+      ],
+      [
+        "56°N",
+        []
+      ],
+      [
+        "Very strong influence of the Labrador Current on summer temperatures as well as altitude effects ( much of Labrador is a plateau ) . In parts of Labrador , the treeline extends as far south as 53°N . Along the coast the northernmost trees are at 58°N in Napartok Bay",
+        [
+          "/wiki/Labrador",
+          "/wiki/Napartok_Bay"
+        ]
+      ]
+    ],
+    [
+      [
+        "Greenland",
+        [
+          "/wiki/Greenland"
+        ]
+      ],
+      [
+        "50°W",
+        []
+      ],
+      [
+        "64°N",
+        []
+      ],
+      [
+        "Determined by experimental tree planting in the absence of native trees because of isolation from natural seed sources ; a very few trees are surviving , but growing slowly , at Søndre Strømfjord , 67°N . There is one natural forest in the Qinngua Valley",
+        [
+          "/wiki/Kangerlussuaq_Fjord",
+          "/wiki/Qinngua_Valley"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "325e9c5d-9587-536e-82d2-63d002b09e9f",
+    "table_id": "Tree_line_0",
+    "title": "Tree line",
+    "header": [
+      "Location",
+      "Approx . longitude",
+      "Approx . latitude of tree line",
+      "Notes"
+    ],
+    "value": [
+      [
+        [
+          "Norway",
+          []
+        ],
+        [
+          "24°E",
+          []
+        ],
+        [
+          "70°N",
+          []
+        ],
+        [
+          "The North Atlantic current makes Arctic climates in this region warmer than other coastal locations at comparable latitude . In particular the mildness of winters prevents permafrost",
+          [
+            "/wiki/North_Atlantic_current",
+            "/wiki/Permafrost"
+          ]
+        ]
+      ],
+      [
+        [
+          "West Siberian Plain",
+          [
+            "/wiki/West_Siberian_Plain"
+          ]
+        ],
+        [
+          "75°E",
+          []
+        ],
+        [
+          "66°N",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Central Siberian Plateau",
+          [
+            "/wiki/Central_Siberian_Plateau"
+          ]
+        ],
+        [
+          "102°E",
+          []
+        ],
+        [
+          "72°N",
+          []
+        ],
+        [
+          "Extreme continental climate means the summer is warm enough to allow tree growth at higher latitudes , extending to northernmost forests of the world at 72°28 ' N at Ary-Mas ( 102° 15 ' E ) in the Novaya River valley , a tributary of the Khatanga River and the more northern Lukunsky grove at 72°31 ' N , 105° 03 ' E east from Khatanga River",
+          [
+            "/wiki/Continental_climate",
+            "/wiki/Ary-Mas",
+            "/wiki/Novaya_River",
+            "/wiki/Khatanga_River",
+            "/wiki/Lukunsky_grove"
+          ]
+        ]
+      ],
+      [
+        [
+          "Russian Far East ( Kamchatka and Chukotka )",
+          [
+            "/wiki/Russian_Far_East",
+            "/wiki/Kamchatka_Peninsula",
+            "/wiki/Chukchi_Peninsula"
+          ]
+        ],
+        [
+          "160°E",
+          []
+        ],
+        [
+          "60°N",
+          []
+        ],
+        [
+          "The Oyashio Current and strong winds affect summer temperatures to prevent tree growth . The Aleutian Islands are almost completely treeless",
+          [
+            "/wiki/Oyashio_Current",
+            "/wiki/Aleutian_Islands"
+          ]
+        ]
+      ],
+      [
+        [
+          "Alaska",
+          [
+            "/wiki/Alaska"
+          ]
+        ],
+        [
+          "152°W",
+          []
+        ],
+        [
+          "68°N",
+          []
+        ],
+        [
+          "Trees grow north to the south-facing slopes of the Brooks Range . The mountains block cold air coming off of the Arctic Ocean",
+          []
+        ]
+      ],
+      [
+        [
+          "Northwest Territories , Canada",
+          [
+            "/wiki/Northwest_Territories"
+          ]
+        ],
+        [
+          "132°W",
+          []
+        ],
+        [
+          "69°N",
+          []
+        ],
+        [
+          "Reaches north of the Arctic Circle because of the continental nature of the climate and warmer summer temperatures",
+          []
+        ]
+      ],
+      [
+        [
+          "Nunavut",
+          [
+            "/wiki/Nunavut"
+          ]
+        ],
+        [
+          "95°W",
+          []
+        ],
+        [
+          "61°N",
+          []
+        ],
+        [
+          "Influence of the very cold Hudson Bay moves the treeline southwards",
+          [
+            "/wiki/Hudson_Bay"
+          ]
+        ]
+      ],
+      [
+        [
+          "Labrador Peninsula",
+          [
+            "/wiki/Labrador_Peninsula"
+          ]
+        ],
+        [
+          "72°W",
+          []
+        ],
+        [
+          "56°N",
+          []
+        ],
+        [
+          "Very strong influence of the Labrador Current on summer temperatures as well as altitude effects ( much of Labrador is a plateau ) . In parts of Labrador , the treeline extends as far south as 53°N . Along the coast the northernmost trees are at 58°N in Napartok Bay",
+          [
+            "/wiki/Labrador",
+            "/wiki/Napartok_Bay"
+          ]
+        ]
+      ],
+      [
+        [
+          "Greenland",
+          [
+            "/wiki/Greenland"
+          ]
+        ],
+        [
+          "50°W",
+          []
+        ],
+        [
+          "64°N",
+          []
+        ],
+        [
+          "Determined by experimental tree planting in the absence of native trees because of isolation from natural seed sources ; a very few trees are surviving , but growing slowly , at Søndre Strømfjord , 67°N . There is one natural forest in the Qinngua Valley",
+          [
+            "/wiki/Kangerlussuaq_Fjord",
+            "/wiki/Qinngua_Valley"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the approximate geographic coordinates and characteristics of tree lines in various locations. It includes details on longitude, latitude, and additional notes about environmental factors influencing these regions. The table is useful for understanding the relationship between geography and tree line distribution.",
+  "numeric_columns": [
+    "Approx . longitude",
+    "Approx . latitude of tree line"
+  ],
+  "categorical_columns": [
+    "Notes"
+  ],
+  "entities": [
+    "Location"
+  ]
+}

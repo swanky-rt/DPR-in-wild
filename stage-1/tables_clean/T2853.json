@@ -1,0 +1,582 @@
+{
+  "table_id": "T2853",
+  "uid": "b2cba6a1-ef5f-50b3-b19a-8dd64f971c74",
+  "source": "HybridQA",
+  "source_table_id": "b2cba6a1-ef5f-50b3-b19a-8dd64f971c74",
+  "domain": "HybridQA",
+  "title": "2013 Esiliiga",
+  "columns": [
+    "Team",
+    "Manager",
+    "Captain",
+    "Kit manufacturer",
+    "Shirt sponsor"
+  ],
+  "rows": [
+    [
+      [
+        "Flora II",
+        [
+          "/wiki/FC_Flora_II_Tallinn"
+        ]
+      ],
+      [
+        "Jürgen Henn",
+        []
+      ],
+      [
+        "Erkki Kubber",
+        []
+      ],
+      [
+        "Nike",
+        [
+          "/wiki/Nike,_Inc."
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Kiviõli Irbis",
+        [
+          "/wiki/FC_Kiviõli_Irbis"
+        ]
+      ],
+      [
+        "Erik Šteinberg",
+        []
+      ],
+      [
+        "Tõnis Starkopf",
+        []
+      ],
+      [
+        "Adidas",
+        [
+          "/wiki/Adidas"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Levadia II",
+        [
+          "/wiki/FC_Levadia_II_Tallinn"
+        ]
+      ],
+      [
+        "Argo Arbeiter",
+        [
+          "/wiki/Argo_Arbeiter"
+        ]
+      ],
+      [
+        "Kristjan Tamme",
+        []
+      ],
+      [
+        "Adidas",
+        [
+          "/wiki/Adidas"
+        ]
+      ],
+      [
+        "Viimsi Keevitus",
+        []
+      ]
+    ],
+    [
+      [
+        "Jõhvi Lokomotiv",
+        [
+          "/wiki/Jõhvi_FC_Lokomotiv"
+        ]
+      ],
+      [
+        "Viktors Ņesterenko",
+        [
+          "/wiki/Viktors_Ņesterenko"
+        ]
+      ],
+      [
+        "Boriss Gritsjuk",
+        []
+      ],
+      [
+        "Uhlsport",
+        [
+          "/wiki/Uhlsport"
+        ]
+      ],
+      [
+        "Spacecom",
+        []
+      ]
+    ],
+    [
+      [
+        "Puuma",
+        [
+          "/wiki/FC_Puuma_Tallinn"
+        ]
+      ],
+      [
+        "Dmitri Krasilnikov",
+        []
+      ],
+      [
+        "Aleksandr Boldõrev",
+        []
+      ],
+      [
+        "Adidas",
+        [
+          "/wiki/Adidas"
+        ]
+      ],
+      [
+        "Kruze Disain",
+        []
+      ]
+    ],
+    [
+      [
+        "Tartu SK 10",
+        [
+          "/wiki/Tartu_SK_10"
+        ]
+      ],
+      [
+        "Andrei Borissov",
+        [
+          "/wiki/Andrei_Borissov"
+        ]
+      ],
+      [
+        "Aleksandr Pruttšenko",
+        []
+      ],
+      [
+        "Adidas",
+        [
+          "/wiki/Adidas"
+        ]
+      ],
+      [
+        "Ha Serv",
+        []
+      ]
+    ],
+    [
+      [
+        "Tammeka II",
+        [
+          "/wiki/JK_Tammeka_II_Tartu"
+        ]
+      ],
+      [
+        "Indrek Koser",
+        []
+      ],
+      [
+        "Ander Paabut",
+        []
+      ],
+      [
+        "Nike",
+        [
+          "/wiki/Nike,_Inc."
+        ]
+      ],
+      [
+        "Metec",
+        []
+      ]
+    ],
+    [
+      [
+        "Rakvere Tarvas",
+        [
+          "/wiki/Rakvere_JK_Tarvas"
+        ]
+      ],
+      [
+        "Reijo Kuusik",
+        []
+      ],
+      [
+        "Alari Tovstik",
+        []
+      ],
+      [
+        "Joma",
+        [
+          "/wiki/Joma"
+        ]
+      ],
+      [
+        "Aqva",
+        []
+      ]
+    ],
+    [
+      [
+        "Viljandi Tulevik",
+        [
+          "/wiki/Viljandi_Tulevik"
+        ]
+      ],
+      [
+        "Aivar Lillevere",
+        [
+          "/wiki/Aivar_Lillevere"
+        ]
+      ],
+      [
+        "Raiko Mutle",
+        []
+      ],
+      [
+        "Hummel",
+        [
+          "/wiki/Hummel_International"
+        ]
+      ],
+      [
+        "kalameister.ee",
+        []
+      ]
+    ],
+    [
+      [
+        "Vändra Vaprus",
+        [
+          "/wiki/JK_Vändra_Vaprus"
+        ]
+      ],
+      [
+        "Ranet Lepik",
+        []
+      ],
+      [
+        "Karel Otto",
+        []
+      ],
+      [
+        "Macron",
+        [
+          "/wiki/Macron_(sportswear)"
+        ]
+      ],
+      [
+        "4teams",
+        [
+          "/wiki/Macron_(sportswear)"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "b2cba6a1-ef5f-50b3-b19a-8dd64f971c74",
+    "table_id": "2013_Esiliiga_1",
+    "title": "2013 Esiliiga",
+    "header": [
+      "Team",
+      "Manager",
+      "Captain",
+      "Kit manufacturer",
+      "Shirt sponsor"
+    ],
+    "value": [
+      [
+        [
+          "Flora II",
+          [
+            "/wiki/FC_Flora_II_Tallinn"
+          ]
+        ],
+        [
+          "Jürgen Henn",
+          []
+        ],
+        [
+          "Erkki Kubber",
+          []
+        ],
+        [
+          "Nike",
+          [
+            "/wiki/Nike,_Inc."
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Kiviõli Irbis",
+          [
+            "/wiki/FC_Kiviõli_Irbis"
+          ]
+        ],
+        [
+          "Erik Šteinberg",
+          []
+        ],
+        [
+          "Tõnis Starkopf",
+          []
+        ],
+        [
+          "Adidas",
+          [
+            "/wiki/Adidas"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Levadia II",
+          [
+            "/wiki/FC_Levadia_II_Tallinn"
+          ]
+        ],
+        [
+          "Argo Arbeiter",
+          [
+            "/wiki/Argo_Arbeiter"
+          ]
+        ],
+        [
+          "Kristjan Tamme",
+          []
+        ],
+        [
+          "Adidas",
+          [
+            "/wiki/Adidas"
+          ]
+        ],
+        [
+          "Viimsi Keevitus",
+          []
+        ]
+      ],
+      [
+        [
+          "Jõhvi Lokomotiv",
+          [
+            "/wiki/Jõhvi_FC_Lokomotiv"
+          ]
+        ],
+        [
+          "Viktors Ņesterenko",
+          [
+            "/wiki/Viktors_Ņesterenko"
+          ]
+        ],
+        [
+          "Boriss Gritsjuk",
+          []
+        ],
+        [
+          "Uhlsport",
+          [
+            "/wiki/Uhlsport"
+          ]
+        ],
+        [
+          "Spacecom",
+          []
+        ]
+      ],
+      [
+        [
+          "Puuma",
+          [
+            "/wiki/FC_Puuma_Tallinn"
+          ]
+        ],
+        [
+          "Dmitri Krasilnikov",
+          []
+        ],
+        [
+          "Aleksandr Boldõrev",
+          []
+        ],
+        [
+          "Adidas",
+          [
+            "/wiki/Adidas"
+          ]
+        ],
+        [
+          "Kruze Disain",
+          []
+        ]
+      ],
+      [
+        [
+          "Tartu SK 10",
+          [
+            "/wiki/Tartu_SK_10"
+          ]
+        ],
+        [
+          "Andrei Borissov",
+          [
+            "/wiki/Andrei_Borissov"
+          ]
+        ],
+        [
+          "Aleksandr Pruttšenko",
+          []
+        ],
+        [
+          "Adidas",
+          [
+            "/wiki/Adidas"
+          ]
+        ],
+        [
+          "Ha Serv",
+          []
+        ]
+      ],
+      [
+        [
+          "Tammeka II",
+          [
+            "/wiki/JK_Tammeka_II_Tartu"
+          ]
+        ],
+        [
+          "Indrek Koser",
+          []
+        ],
+        [
+          "Ander Paabut",
+          []
+        ],
+        [
+          "Nike",
+          [
+            "/wiki/Nike,_Inc."
+          ]
+        ],
+        [
+          "Metec",
+          []
+        ]
+      ],
+      [
+        [
+          "Rakvere Tarvas",
+          [
+            "/wiki/Rakvere_JK_Tarvas"
+          ]
+        ],
+        [
+          "Reijo Kuusik",
+          []
+        ],
+        [
+          "Alari Tovstik",
+          []
+        ],
+        [
+          "Joma",
+          [
+            "/wiki/Joma"
+          ]
+        ],
+        [
+          "Aqva",
+          []
+        ]
+      ],
+      [
+        [
+          "Viljandi Tulevik",
+          [
+            "/wiki/Viljandi_Tulevik"
+          ]
+        ],
+        [
+          "Aivar Lillevere",
+          [
+            "/wiki/Aivar_Lillevere"
+          ]
+        ],
+        [
+          "Raiko Mutle",
+          []
+        ],
+        [
+          "Hummel",
+          [
+            "/wiki/Hummel_International"
+          ]
+        ],
+        [
+          "kalameister.ee",
+          []
+        ]
+      ],
+      [
+        [
+          "Vändra Vaprus",
+          [
+            "/wiki/JK_Vändra_Vaprus"
+          ]
+        ],
+        [
+          "Ranet Lepik",
+          []
+        ],
+        [
+          "Karel Otto",
+          []
+        ],
+        [
+          "Macron",
+          [
+            "/wiki/Macron_(sportswear)"
+          ]
+        ],
+        [
+          "4teams",
+          [
+            "/wiki/Macron_(sportswear)"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about teams participating in the 2013 Esiliiga, a football league. It includes details about each team's manager, captain, kit manufacturer, and shirt sponsor. The table is likely intended to summarize organizational and sponsorship details for the league's teams.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Kit manufacturer",
+    "Shirt sponsor"
+  ],
+  "entities": [
+    "Team",
+    "Manager",
+    "Captain"
+  ]
+}

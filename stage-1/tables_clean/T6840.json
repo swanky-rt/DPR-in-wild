@@ -1,0 +1,476 @@
+{
+  "table_id": "T6840",
+  "uid": "12cb8c55-4129-57c9-b944-895d48db0a87",
+  "source": "HybridQA",
+  "source_table_id": "12cb8c55-4129-57c9-b944-895d48db0a87",
+  "domain": "HybridQA",
+  "title": "Mooloolaba Triathlon",
+  "columns": [
+    "Year",
+    "Winner",
+    "Country",
+    "Time"
+  ],
+  "rows": [
+    [
+      [
+        2016,
+        []
+      ],
+      [
+        "Jodie Stimpson",
+        [
+          "/wiki/Jodie_Stimpson"
+        ]
+      ],
+      [
+        "Great Britain",
+        [
+          "/wiki/Great_Britain"
+        ]
+      ],
+      [
+        "58:31",
+        []
+      ]
+    ],
+    [
+      [
+        2015,
+        []
+      ],
+      [
+        "Tamara Gómez Garrido",
+        [
+          "/wiki/Tamara_Gómez_Garrido"
+        ]
+      ],
+      [
+        "Spain",
+        [
+          "/wiki/Spain"
+        ]
+      ],
+      [
+        "1:01:42",
+        []
+      ]
+    ],
+    [
+      [
+        2014,
+        []
+      ],
+      [
+        "Gwen Jorgensen",
+        [
+          "/wiki/Gwen_Jorgensen"
+        ]
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "59:55",
+        []
+      ]
+    ],
+    [
+      [
+        2013,
+        []
+      ],
+      [
+        "Anne Haug",
+        [
+          "/wiki/Anne_Haug"
+        ]
+      ],
+      [
+        "Germany",
+        [
+          "/wiki/Germany"
+        ]
+      ],
+      [
+        "2:04:31",
+        []
+      ]
+    ],
+    [
+      [
+        2012,
+        []
+      ],
+      [
+        "Sarah Deuble",
+        []
+      ],
+      [
+        "Australia",
+        [
+          "/wiki/Australia"
+        ]
+      ],
+      [
+        "2:02:52",
+        []
+      ]
+    ],
+    [
+      [
+        2011,
+        []
+      ],
+      [
+        "Ashleigh Gentle",
+        [
+          "/wiki/Ashleigh_Gentle"
+        ]
+      ],
+      [
+        "Australia",
+        [
+          "/wiki/Australia"
+        ]
+      ],
+      [
+        "2:03:25",
+        []
+      ]
+    ],
+    [
+      [
+        2010,
+        []
+      ],
+      [
+        "Vendula Frintová",
+        [
+          "/wiki/Vendula_Frintová"
+        ]
+      ],
+      [
+        "Czech Republic",
+        [
+          "/wiki/Czech_Republic"
+        ]
+      ],
+      [
+        "2:03:15",
+        []
+      ]
+    ],
+    [
+      [
+        2009,
+        []
+      ],
+      [
+        "Kirsten Sweetland",
+        [
+          "/wiki/Kirsten_Sweetland"
+        ]
+      ],
+      [
+        "Canada",
+        [
+          "/wiki/Canada"
+        ]
+      ],
+      [
+        "2:01:59",
+        []
+      ]
+    ],
+    [
+      [
+        2008,
+        []
+      ],
+      [
+        "Emma Snowsill",
+        [
+          "/wiki/Emma_Snowsill"
+        ]
+      ],
+      [
+        "Australia",
+        [
+          "/wiki/Australia"
+        ]
+      ],
+      [
+        "2:00:44",
+        []
+      ]
+    ],
+    [
+      [
+        2007,
+        []
+      ],
+      [
+        "Emma Snowsill",
+        [
+          "/wiki/Emma_Snowsill"
+        ]
+      ],
+      [
+        "Australia",
+        [
+          "/wiki/Australia"
+        ]
+      ],
+      [
+        "1:59:20",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "12cb8c55-4129-57c9-b944-895d48db0a87",
+    "table_id": "Mooloolaba_Triathlon_1",
+    "title": "Mooloolaba Triathlon",
+    "header": [
+      "Year",
+      "Winner",
+      "Country",
+      "Time"
+    ],
+    "value": [
+      [
+        [
+          2016,
+          []
+        ],
+        [
+          "Jodie Stimpson",
+          [
+            "/wiki/Jodie_Stimpson"
+          ]
+        ],
+        [
+          "Great Britain",
+          [
+            "/wiki/Great_Britain"
+          ]
+        ],
+        [
+          "58:31",
+          []
+        ]
+      ],
+      [
+        [
+          2015,
+          []
+        ],
+        [
+          "Tamara Gómez Garrido",
+          [
+            "/wiki/Tamara_Gómez_Garrido"
+          ]
+        ],
+        [
+          "Spain",
+          [
+            "/wiki/Spain"
+          ]
+        ],
+        [
+          "1:01:42",
+          []
+        ]
+      ],
+      [
+        [
+          2014,
+          []
+        ],
+        [
+          "Gwen Jorgensen",
+          [
+            "/wiki/Gwen_Jorgensen"
+          ]
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "59:55",
+          []
+        ]
+      ],
+      [
+        [
+          2013,
+          []
+        ],
+        [
+          "Anne Haug",
+          [
+            "/wiki/Anne_Haug"
+          ]
+        ],
+        [
+          "Germany",
+          [
+            "/wiki/Germany"
+          ]
+        ],
+        [
+          "2:04:31",
+          []
+        ]
+      ],
+      [
+        [
+          2012,
+          []
+        ],
+        [
+          "Sarah Deuble",
+          []
+        ],
+        [
+          "Australia",
+          [
+            "/wiki/Australia"
+          ]
+        ],
+        [
+          "2:02:52",
+          []
+        ]
+      ],
+      [
+        [
+          2011,
+          []
+        ],
+        [
+          "Ashleigh Gentle",
+          [
+            "/wiki/Ashleigh_Gentle"
+          ]
+        ],
+        [
+          "Australia",
+          [
+            "/wiki/Australia"
+          ]
+        ],
+        [
+          "2:03:25",
+          []
+        ]
+      ],
+      [
+        [
+          2010,
+          []
+        ],
+        [
+          "Vendula Frintová",
+          [
+            "/wiki/Vendula_Frintová"
+          ]
+        ],
+        [
+          "Czech Republic",
+          [
+            "/wiki/Czech_Republic"
+          ]
+        ],
+        [
+          "2:03:15",
+          []
+        ]
+      ],
+      [
+        [
+          2009,
+          []
+        ],
+        [
+          "Kirsten Sweetland",
+          [
+            "/wiki/Kirsten_Sweetland"
+          ]
+        ],
+        [
+          "Canada",
+          [
+            "/wiki/Canada"
+          ]
+        ],
+        [
+          "2:01:59",
+          []
+        ]
+      ],
+      [
+        [
+          2008,
+          []
+        ],
+        [
+          "Emma Snowsill",
+          [
+            "/wiki/Emma_Snowsill"
+          ]
+        ],
+        [
+          "Australia",
+          [
+            "/wiki/Australia"
+          ]
+        ],
+        [
+          "2:00:44",
+          []
+        ]
+      ],
+      [
+        [
+          2007,
+          []
+        ],
+        [
+          "Emma Snowsill",
+          [
+            "/wiki/Emma_Snowsill"
+          ]
+        ],
+        [
+          "Australia",
+          [
+            "/wiki/Australia"
+          ]
+        ],
+        [
+          "1:59:20",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the winners of the Mooloolaba Triathlon across different years. It includes details such as the year of the event, the name of the winner, their country of origin, and their finishing time. The table is useful for tracking historical performance and identifying trends in the competition.",
+  "numeric_columns": [
+    "Year",
+    "Time"
+  ],
+  "categorical_columns": [
+    "Country"
+  ],
+  "entities": [
+    "Winner"
+  ]
+}

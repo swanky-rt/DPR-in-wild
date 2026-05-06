@@ -1,0 +1,357 @@
+{
+  "table_id": "T10536",
+  "uid": "b0d1009e-415a-533d-87d5-2b50e425feab",
+  "source": "HybridQA",
+  "source_table_id": "b0d1009e-415a-533d-87d5-2b50e425feab",
+  "domain": "HybridQA",
+  "title": "Mineral",
+  "columns": [
+    "Mohs hardness",
+    "Mineral",
+    "Chemical formula"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Talc",
+        [
+          "/wiki/Talc"
+        ]
+      ],
+      [
+        "Mg 3 Si 4 O 10 ( OH ) 2",
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Gypsum",
+        [
+          "/wiki/Gypsum"
+        ]
+      ],
+      [
+        "CaSO 4 ·2H 2 O",
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Calcite",
+        [
+          "/wiki/Calcite"
+        ]
+      ],
+      [
+        "CaCO 3",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Fluorite",
+        [
+          "/wiki/Fluorite"
+        ]
+      ],
+      [
+        "CaF 2",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Apatite",
+        [
+          "/wiki/Apatite"
+        ]
+      ],
+      [
+        "Ca 5 ( PO 4 ) 3 ( OH , Cl , F )",
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Orthoclase",
+        [
+          "/wiki/Orthoclase"
+        ]
+      ],
+      [
+        "KAlSi 3 O 8",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Quartz",
+        [
+          "/wiki/Quartz"
+        ]
+      ],
+      [
+        "SiO 2",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Topaz",
+        [
+          "/wiki/Topaz"
+        ]
+      ],
+      [
+        "Al 2 SiO 4 ( OH , F ) 2",
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Corundum",
+        [
+          "/wiki/Corundum"
+        ]
+      ],
+      [
+        "Al 2 O 3",
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Diamond",
+        [
+          "/wiki/Diamond"
+        ]
+      ],
+      [
+        "C",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "b0d1009e-415a-533d-87d5-2b50e425feab",
+    "table_id": "Mineral_0",
+    "title": "Mineral",
+    "header": [
+      "Mohs hardness",
+      "Mineral",
+      "Chemical formula"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Talc",
+          [
+            "/wiki/Talc"
+          ]
+        ],
+        [
+          "Mg 3 Si 4 O 10 ( OH ) 2",
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Gypsum",
+          [
+            "/wiki/Gypsum"
+          ]
+        ],
+        [
+          "CaSO 4 ·2H 2 O",
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Calcite",
+          [
+            "/wiki/Calcite"
+          ]
+        ],
+        [
+          "CaCO 3",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Fluorite",
+          [
+            "/wiki/Fluorite"
+          ]
+        ],
+        [
+          "CaF 2",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Apatite",
+          [
+            "/wiki/Apatite"
+          ]
+        ],
+        [
+          "Ca 5 ( PO 4 ) 3 ( OH , Cl , F )",
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Orthoclase",
+          [
+            "/wiki/Orthoclase"
+          ]
+        ],
+        [
+          "KAlSi 3 O 8",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Quartz",
+          [
+            "/wiki/Quartz"
+          ]
+        ],
+        [
+          "SiO 2",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Topaz",
+          [
+            "/wiki/Topaz"
+          ]
+        ],
+        [
+          "Al 2 SiO 4 ( OH , F ) 2",
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Corundum",
+          [
+            "/wiki/Corundum"
+          ]
+        ],
+        [
+          "Al 2 O 3",
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Diamond",
+          [
+            "/wiki/Diamond"
+          ]
+        ],
+        [
+          "C",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about minerals, including their Mohs hardness, names, and chemical formulas. It is likely intended for educational or reference purposes, particularly in the context of mineralogy or material science.",
+  "numeric_columns": [
+    "Mohs hardness"
+  ],
+  "categorical_columns": [
+    "Chemical formula"
+  ],
+  "entities": [
+    "Mineral"
+  ]
+}

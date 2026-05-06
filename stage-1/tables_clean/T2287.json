@@ -1,0 +1,595 @@
+{
+  "table_id": "T2287",
+  "uid": "249729e6-cd82-56ec-938a-4865ca36ccb4",
+  "source": "HybridQA",
+  "source_table_id": "249729e6-cd82-56ec-938a-4865ca36ccb4",
+  "domain": "HybridQA",
+  "title": "2013 Damallsvenskan",
+  "columns": [
+    "Team",
+    "Location",
+    "Stadium",
+    "Stadium capacity"
+  ],
+  "rows": [
+    [
+      [
+        "Jitex BK",
+        [
+          "/wiki/Jitex_BK"
+        ]
+      ],
+      [
+        "Mölndal",
+        [
+          "/wiki/Mölndal"
+        ]
+      ],
+      [
+        "Åbyvallen",
+        []
+      ],
+      [
+        "1,500",
+        []
+      ]
+    ],
+    [
+      [
+        "KIF Örebro DFF",
+        [
+          "/wiki/KIF_Örebro_DFF"
+        ]
+      ],
+      [
+        "Örebro",
+        [
+          "/wiki/Örebro"
+        ]
+      ],
+      [
+        "Behrn Arena",
+        [
+          "/wiki/Behrn_Arena"
+        ]
+      ],
+      [
+        "13,500",
+        []
+      ]
+    ],
+    [
+      [
+        "Kopparbergs/Göteborg FC",
+        [
+          "/wiki/Kopparbergs/Göteborg_FC"
+        ]
+      ],
+      [
+        "Gothenburg",
+        [
+          "/wiki/Gothenburg"
+        ]
+      ],
+      [
+        "Valhalla IP",
+        [
+          "/wiki/Valhalla_IP"
+        ]
+      ],
+      [
+        "3,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Kristianstads DFF",
+        [
+          "/wiki/Kristianstads_DFF"
+        ]
+      ],
+      [
+        "Kristianstad",
+        [
+          "/wiki/Kristianstad"
+        ]
+      ],
+      [
+        "Vilans IP",
+        []
+      ],
+      [
+        "5,000",
+        []
+      ]
+    ],
+    [
+      [
+        "LdB FC Malmö",
+        [
+          "/wiki/FC_Rosengård"
+        ]
+      ],
+      [
+        "Malmö",
+        [
+          "/wiki/Malmö"
+        ]
+      ],
+      [
+        "Malmö IP",
+        [
+          "/wiki/Malmö_IP"
+        ]
+      ],
+      [
+        "6,800",
+        []
+      ]
+    ],
+    [
+      [
+        "Linköpings FC",
+        [
+          "/wiki/Linköpings_FC"
+        ]
+      ],
+      [
+        "Linköping",
+        [
+          "/wiki/Linköping"
+        ]
+      ],
+      [
+        "Arena Linköping",
+        [
+          "/wiki/Arena_Linköping"
+        ]
+      ],
+      [
+        "8,500",
+        []
+      ]
+    ],
+    [
+      [
+        "Mallbackens IF",
+        [
+          "/wiki/Mallbackens_IF"
+        ]
+      ],
+      [
+        "Lysvik",
+        [
+          "/wiki/Lysvik"
+        ]
+      ],
+      [
+        "Strandvallen",
+        []
+      ],
+      [
+        "4,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Piteå IF",
+        [
+          "/wiki/Piteå_IF_ladies_team"
+        ]
+      ],
+      [
+        "Piteå",
+        [
+          "/wiki/Piteå"
+        ]
+      ],
+      [
+        "LF Arena",
+        []
+      ],
+      [
+        "3,950",
+        []
+      ]
+    ],
+    [
+      [
+        "Sunnanå SK",
+        [
+          "/wiki/Sunnanå_SK"
+        ]
+      ],
+      [
+        "Skellefteå",
+        [
+          "/wiki/Skellefteå"
+        ]
+      ],
+      [
+        "Norrvalla IP",
+        []
+      ],
+      [
+        "3,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Tyresö FF",
+        [
+          "/wiki/Tyresö_FF"
+        ]
+      ],
+      [
+        "Tyresö",
+        [
+          "/wiki/Tyresö_Municipality"
+        ]
+      ],
+      [
+        "Tyresövallen",
+        [
+          "/wiki/Tyresövallen"
+        ]
+      ],
+      [
+        "3,500",
+        []
+      ]
+    ],
+    [
+      [
+        "Umeå IK",
+        [
+          "/wiki/Umeå_IK"
+        ]
+      ],
+      [
+        "Umeå",
+        [
+          "/wiki/Umeå"
+        ]
+      ],
+      [
+        "T3 Arena",
+        [
+          "/wiki/T3_Arena"
+        ]
+      ],
+      [
+        "9,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Vittsjö GIK",
+        [
+          "/wiki/Vittsjö_GIK"
+        ]
+      ],
+      [
+        "Vittsjö",
+        [
+          "/wiki/Vittsjö"
+        ]
+      ],
+      [
+        "Vittsjö IP",
+        []
+      ],
+      [
+        "3,000",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "249729e6-cd82-56ec-938a-4865ca36ccb4",
+    "table_id": "2013_Damallsvenskan_0",
+    "title": "2013 Damallsvenskan",
+    "header": [
+      "Team",
+      "Location",
+      "Stadium",
+      "Stadium capacity"
+    ],
+    "value": [
+      [
+        [
+          "Jitex BK",
+          [
+            "/wiki/Jitex_BK"
+          ]
+        ],
+        [
+          "Mölndal",
+          [
+            "/wiki/Mölndal"
+          ]
+        ],
+        [
+          "Åbyvallen",
+          []
+        ],
+        [
+          "1,500",
+          []
+        ]
+      ],
+      [
+        [
+          "KIF Örebro DFF",
+          [
+            "/wiki/KIF_Örebro_DFF"
+          ]
+        ],
+        [
+          "Örebro",
+          [
+            "/wiki/Örebro"
+          ]
+        ],
+        [
+          "Behrn Arena",
+          [
+            "/wiki/Behrn_Arena"
+          ]
+        ],
+        [
+          "13,500",
+          []
+        ]
+      ],
+      [
+        [
+          "Kopparbergs/Göteborg FC",
+          [
+            "/wiki/Kopparbergs/Göteborg_FC"
+          ]
+        ],
+        [
+          "Gothenburg",
+          [
+            "/wiki/Gothenburg"
+          ]
+        ],
+        [
+          "Valhalla IP",
+          [
+            "/wiki/Valhalla_IP"
+          ]
+        ],
+        [
+          "3,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Kristianstads DFF",
+          [
+            "/wiki/Kristianstads_DFF"
+          ]
+        ],
+        [
+          "Kristianstad",
+          [
+            "/wiki/Kristianstad"
+          ]
+        ],
+        [
+          "Vilans IP",
+          []
+        ],
+        [
+          "5,000",
+          []
+        ]
+      ],
+      [
+        [
+          "LdB FC Malmö",
+          [
+            "/wiki/FC_Rosengård"
+          ]
+        ],
+        [
+          "Malmö",
+          [
+            "/wiki/Malmö"
+          ]
+        ],
+        [
+          "Malmö IP",
+          [
+            "/wiki/Malmö_IP"
+          ]
+        ],
+        [
+          "6,800",
+          []
+        ]
+      ],
+      [
+        [
+          "Linköpings FC",
+          [
+            "/wiki/Linköpings_FC"
+          ]
+        ],
+        [
+          "Linköping",
+          [
+            "/wiki/Linköping"
+          ]
+        ],
+        [
+          "Arena Linköping",
+          [
+            "/wiki/Arena_Linköping"
+          ]
+        ],
+        [
+          "8,500",
+          []
+        ]
+      ],
+      [
+        [
+          "Mallbackens IF",
+          [
+            "/wiki/Mallbackens_IF"
+          ]
+        ],
+        [
+          "Lysvik",
+          [
+            "/wiki/Lysvik"
+          ]
+        ],
+        [
+          "Strandvallen",
+          []
+        ],
+        [
+          "4,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Piteå IF",
+          [
+            "/wiki/Piteå_IF_ladies_team"
+          ]
+        ],
+        [
+          "Piteå",
+          [
+            "/wiki/Piteå"
+          ]
+        ],
+        [
+          "LF Arena",
+          []
+        ],
+        [
+          "3,950",
+          []
+        ]
+      ],
+      [
+        [
+          "Sunnanå SK",
+          [
+            "/wiki/Sunnanå_SK"
+          ]
+        ],
+        [
+          "Skellefteå",
+          [
+            "/wiki/Skellefteå"
+          ]
+        ],
+        [
+          "Norrvalla IP",
+          []
+        ],
+        [
+          "3,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Tyresö FF",
+          [
+            "/wiki/Tyresö_FF"
+          ]
+        ],
+        [
+          "Tyresö",
+          [
+            "/wiki/Tyresö_Municipality"
+          ]
+        ],
+        [
+          "Tyresövallen",
+          [
+            "/wiki/Tyresövallen"
+          ]
+        ],
+        [
+          "3,500",
+          []
+        ]
+      ],
+      [
+        [
+          "Umeå IK",
+          [
+            "/wiki/Umeå_IK"
+          ]
+        ],
+        [
+          "Umeå",
+          [
+            "/wiki/Umeå"
+          ]
+        ],
+        [
+          "T3 Arena",
+          [
+            "/wiki/T3_Arena"
+          ]
+        ],
+        [
+          "9,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Vittsjö GIK",
+          [
+            "/wiki/Vittsjö_GIK"
+          ]
+        ],
+        [
+          "Vittsjö",
+          [
+            "/wiki/Vittsjö"
+          ]
+        ],
+        [
+          "Vittsjö IP",
+          []
+        ],
+        [
+          "3,000",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about teams in the 2013 Damallsvenskan, a Swedish women's football league. It includes details about each team's location, home stadium, and the stadium's capacity. The purpose is to summarize key attributes of the teams and their facilities during the season.",
+  "numeric_columns": [
+    "Stadium capacity"
+  ],
+  "categorical_columns": [
+    "Team",
+    "Location",
+    "Stadium"
+  ],
+  "entities": [
+    "Team",
+    "Location",
+    "Stadium"
+  ]
+}

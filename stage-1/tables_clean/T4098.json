@@ -1,0 +1,420 @@
+{
+  "table_id": "T4098",
+  "uid": "bb3d14d0-14b8-5fda-82b6-25ef5366680b",
+  "source": "HybridQA",
+  "source_table_id": "bb3d14d0-14b8-5fda-82b6-25ef5366680b",
+  "domain": "HybridQA",
+  "title": "BBC Sports Personality of the Year",
+  "columns": [
+    "Award",
+    "Created",
+    "Description",
+    "Current holder ( 2019 )"
+  ],
+  "rows": [
+    [
+      [
+        "BBC Sports Personality of the Year Award",
+        [
+          "/wiki/BBC_Sports_Personality_of_the_Year_Award"
+        ]
+      ],
+      [
+        1954,
+        []
+      ],
+      [
+        "Awarded to the sportsperson whose actions have most captured the public 's imagination",
+        []
+      ],
+      [
+        "Ben Stokes",
+        [
+          "/wiki/Ben_Stokes"
+        ]
+      ]
+    ],
+    [
+      [
+        "BBC Overseas Sports Personality of the Year",
+        [
+          "/wiki/BBC_Overseas_Sports_Personality_of_the_Year"
+        ]
+      ],
+      [
+        1960,
+        []
+      ],
+      [
+        "Awarded to the sportsperson who has made the greatest impression in the world of sport",
+        []
+      ],
+      [
+        "Eliud Kipchoge",
+        [
+          "/wiki/Eliud_Kipchoge"
+        ]
+      ]
+    ],
+    [
+      [
+        "BBC Sports Personality Team of the Year Award",
+        [
+          "/wiki/BBC_Sports_Personality_Team_of_the_Year_Award"
+        ]
+      ],
+      [
+        1960,
+        []
+      ],
+      [
+        "Awarded to the team with the most notable achievement in British sport",
+        []
+      ],
+      [
+        "England Cricket Team",
+        [
+          "/wiki/England_cricket_team"
+        ]
+      ]
+    ],
+    [
+      [
+        "BBC Sports Personality of the Year Lifetime Achievement Award",
+        [
+          "/wiki/BBC_Sports_Personality_of_the_Year_Lifetime_Achievement_Award"
+        ]
+      ],
+      [
+        1996,
+        []
+      ],
+      [
+        "Awarded to a sportsperson who has made a major impact on the world of sport during their lifetime",
+        []
+      ],
+      [
+        "Tanni Grey-Thompson",
+        [
+          "/wiki/Tanni_Grey-Thompson"
+        ]
+      ]
+    ],
+    [
+      [
+        "BBC Sports Personality of the Year Coach Award",
+        [
+          "/wiki/BBC_Sports_Personality_of_the_Year_Coach_Award"
+        ]
+      ],
+      [
+        1999,
+        []
+      ],
+      [
+        "Awarded to the coach who is adjudged to have made the most impact on British sport",
+        []
+      ],
+      [
+        "John Blackie",
+        []
+      ]
+    ],
+    [
+      [
+        "BBC Sports Personality of the Year Helen Rollason Award",
+        [
+          "/wiki/BBC_Sports_Personality_of_the_Year_Helen_Rollason_Award"
+        ]
+      ],
+      [
+        1999,
+        []
+      ],
+      [
+        "Awarded to someone who has shown outstanding achievement in the face of adversity",
+        []
+      ],
+      [
+        "Doddie Weir",
+        [
+          "/wiki/Doddie_Weir"
+        ]
+      ]
+    ],
+    [
+      [
+        "BBC Young Sports Personality of the Year",
+        [
+          "/wiki/BBC_Young_Sports_Personality_of_the_Year"
+        ]
+      ],
+      [
+        1999,
+        []
+      ],
+      [
+        "Awarded to a young sportsperson who has made an outstanding contribution to British sport",
+        []
+      ],
+      [
+        "Caroline Dubois",
+        []
+      ]
+    ],
+    [
+      [
+        "BBC Sports Unsung Hero Award",
+        [
+          "/wiki/BBC_Sports_Unsung_Hero_Award"
+        ]
+      ],
+      [
+        2003,
+        []
+      ],
+      [
+        "Awarded to someone who has given their time and talents for free to enable others to participate in sport",
+        []
+      ],
+      [
+        "Kieren Thompson",
+        []
+      ]
+    ],
+    [
+      [
+        "BBC Sports Personality Greatest Sporting Moment of the Year",
+        []
+      ],
+      [
+        2018,
+        []
+      ],
+      [
+        "Awarded to the sporting moment that has most captured the UK public 's imagination",
+        []
+      ],
+      [
+        "2019 England Win at the Cricket World Cup Final",
+        [
+          "/wiki/2019_Cricket_World_Cup_Final"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "bb3d14d0-14b8-5fda-82b6-25ef5366680b",
+    "table_id": "BBC_Sports_Personality_of_the_Year_0",
+    "title": "BBC Sports Personality of the Year",
+    "header": [
+      "Award",
+      "Created",
+      "Description",
+      "Current holder ( 2019 )"
+    ],
+    "value": [
+      [
+        [
+          "BBC Sports Personality of the Year Award",
+          [
+            "/wiki/BBC_Sports_Personality_of_the_Year_Award"
+          ]
+        ],
+        [
+          1954,
+          []
+        ],
+        [
+          "Awarded to the sportsperson whose actions have most captured the public 's imagination",
+          []
+        ],
+        [
+          "Ben Stokes",
+          [
+            "/wiki/Ben_Stokes"
+          ]
+        ]
+      ],
+      [
+        [
+          "BBC Overseas Sports Personality of the Year",
+          [
+            "/wiki/BBC_Overseas_Sports_Personality_of_the_Year"
+          ]
+        ],
+        [
+          1960,
+          []
+        ],
+        [
+          "Awarded to the sportsperson who has made the greatest impression in the world of sport",
+          []
+        ],
+        [
+          "Eliud Kipchoge",
+          [
+            "/wiki/Eliud_Kipchoge"
+          ]
+        ]
+      ],
+      [
+        [
+          "BBC Sports Personality Team of the Year Award",
+          [
+            "/wiki/BBC_Sports_Personality_Team_of_the_Year_Award"
+          ]
+        ],
+        [
+          1960,
+          []
+        ],
+        [
+          "Awarded to the team with the most notable achievement in British sport",
+          []
+        ],
+        [
+          "England Cricket Team",
+          [
+            "/wiki/England_cricket_team"
+          ]
+        ]
+      ],
+      [
+        [
+          "BBC Sports Personality of the Year Lifetime Achievement Award",
+          [
+            "/wiki/BBC_Sports_Personality_of_the_Year_Lifetime_Achievement_Award"
+          ]
+        ],
+        [
+          1996,
+          []
+        ],
+        [
+          "Awarded to a sportsperson who has made a major impact on the world of sport during their lifetime",
+          []
+        ],
+        [
+          "Tanni Grey-Thompson",
+          [
+            "/wiki/Tanni_Grey-Thompson"
+          ]
+        ]
+      ],
+      [
+        [
+          "BBC Sports Personality of the Year Coach Award",
+          [
+            "/wiki/BBC_Sports_Personality_of_the_Year_Coach_Award"
+          ]
+        ],
+        [
+          1999,
+          []
+        ],
+        [
+          "Awarded to the coach who is adjudged to have made the most impact on British sport",
+          []
+        ],
+        [
+          "John Blackie",
+          []
+        ]
+      ],
+      [
+        [
+          "BBC Sports Personality of the Year Helen Rollason Award",
+          [
+            "/wiki/BBC_Sports_Personality_of_the_Year_Helen_Rollason_Award"
+          ]
+        ],
+        [
+          1999,
+          []
+        ],
+        [
+          "Awarded to someone who has shown outstanding achievement in the face of adversity",
+          []
+        ],
+        [
+          "Doddie Weir",
+          [
+            "/wiki/Doddie_Weir"
+          ]
+        ]
+      ],
+      [
+        [
+          "BBC Young Sports Personality of the Year",
+          [
+            "/wiki/BBC_Young_Sports_Personality_of_the_Year"
+          ]
+        ],
+        [
+          1999,
+          []
+        ],
+        [
+          "Awarded to a young sportsperson who has made an outstanding contribution to British sport",
+          []
+        ],
+        [
+          "Caroline Dubois",
+          []
+        ]
+      ],
+      [
+        [
+          "BBC Sports Unsung Hero Award",
+          [
+            "/wiki/BBC_Sports_Unsung_Hero_Award"
+          ]
+        ],
+        [
+          2003,
+          []
+        ],
+        [
+          "Awarded to someone who has given their time and talents for free to enable others to participate in sport",
+          []
+        ],
+        [
+          "Kieren Thompson",
+          []
+        ]
+      ],
+      [
+        [
+          "BBC Sports Personality Greatest Sporting Moment of the Year",
+          []
+        ],
+        [
+          2018,
+          []
+        ],
+        [
+          "Awarded to the sporting moment that has most captured the UK public 's imagination",
+          []
+        ],
+        [
+          "2019 England Win at the Cricket World Cup Final",
+          [
+            "/wiki/2019_Cricket_World_Cup_Final"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about various BBC Sports Personality of the Year awards, including their creation year, purpose, and current holders as of 2019. It highlights notable awards given to individuals in the sports domain for their achievements or impact. The table categorizes awards and identifies associated details such as descriptions and recipients.",
+  "numeric_columns": [
+    "Created"
+  ],
+  "categorical_columns": [
+    "Award",
+    "Description"
+  ],
+  "entities": [
+    "Current holder ( 2019 )"
+  ]
+}

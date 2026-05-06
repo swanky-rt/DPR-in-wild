@@ -1,0 +1,605 @@
+{
+  "table_id": "T8159",
+  "uid": "5ef39912-3fcd-5e92-8a7a-e70dce0cc0ec",
+  "source": "HybridQA",
+  "source_table_id": "5ef39912-3fcd-5e92-8a7a-e70dce0cc0ec",
+  "domain": "HybridQA",
+  "title": "Strictly Come Dancing (series 1)",
+  "columns": [
+    "Dance",
+    "Best dancer ( s )",
+    "Best score",
+    "Worst dancer ( s )",
+    "Worst score"
+  ],
+  "rows": [
+    [
+      [
+        "Cha-Cha-Cha",
+        [
+          "/wiki/Cha-cha-cha_(dance)"
+        ]
+      ],
+      [
+        "Natasha Kaplinsky Verona Joseph",
+        [
+          "/wiki/Natasha_Kaplinsky",
+          "/wiki/Verona_Joseph"
+        ]
+      ],
+      [
+        27,
+        []
+      ],
+      [
+        "David Dickinson",
+        [
+          "/wiki/David_Dickinson"
+        ]
+      ],
+      [
+        16,
+        []
+      ]
+    ],
+    [
+      [
+        "Foxtrot",
+        [
+          "/wiki/Foxtrot"
+        ]
+      ],
+      [
+        "Natasha Kaplinsky",
+        [
+          "/wiki/Natasha_Kaplinsky"
+        ]
+      ],
+      [
+        35,
+        []
+      ],
+      [
+        "Martin Offiah",
+        [
+          "/wiki/Martin_Offiah"
+        ]
+      ],
+      [
+        24,
+        []
+      ]
+    ],
+    [
+      [
+        "Jive",
+        [
+          "/wiki/Jive_(dance)"
+        ]
+      ],
+      [
+        "Lesley Garrett",
+        [
+          "/wiki/Lesley_Garrett"
+        ]
+      ],
+      [
+        29,
+        []
+      ],
+      [
+        "Christopher Parker",
+        [
+          "/wiki/Christopher_Parker"
+        ]
+      ],
+      [
+        17,
+        []
+      ]
+    ],
+    [
+      [
+        "Paso Doble",
+        [
+          "/wiki/Paso_Doble"
+        ]
+      ],
+      [
+        "Natasha Kaplinsky",
+        [
+          "/wiki/Natasha_Kaplinsky"
+        ]
+      ],
+      [
+        35,
+        []
+      ],
+      [
+        "Christopher Parker",
+        [
+          "/wiki/Christopher_Parker"
+        ]
+      ],
+      [
+        15,
+        []
+      ]
+    ],
+    [
+      [
+        "Quickstep",
+        [
+          "/wiki/Quickstep"
+        ]
+      ],
+      [
+        "Natasha Kaplinsky",
+        [
+          "/wiki/Natasha_Kaplinsky"
+        ]
+      ],
+      [
+        36,
+        []
+      ],
+      [
+        "David Dickinson",
+        [
+          "/wiki/David_Dickinson"
+        ]
+      ],
+      [
+        21,
+        []
+      ]
+    ],
+    [
+      [
+        "Rumba",
+        [
+          "/wiki/Rhumba"
+        ]
+      ],
+      [
+        "Natasha Kaplinsky",
+        [
+          "/wiki/Natasha_Kaplinsky"
+        ]
+      ],
+      [
+        36,
+        []
+      ],
+      [
+        "Christopher Parker",
+        [
+          "/wiki/Christopher_Parker"
+        ]
+      ],
+      [
+        16,
+        []
+      ]
+    ],
+    [
+      [
+        "Samba",
+        [
+          "/wiki/Samba_(ballroom)"
+        ]
+      ],
+      [
+        "Natasha Kaplinsky",
+        [
+          "/wiki/Natasha_Kaplinsky"
+        ]
+      ],
+      [
+        37,
+        []
+      ],
+      [
+        "Christopher Parker",
+        [
+          "/wiki/Christopher_Parker"
+        ]
+      ],
+      [
+        15,
+        []
+      ]
+    ],
+    [
+      [
+        "Showdance",
+        [
+          "/wiki/Showdance"
+        ]
+      ],
+      [
+        "Natasha Kaplinsky",
+        [
+          "/wiki/Natasha_Kaplinsky"
+        ]
+      ],
+      [
+        35,
+        []
+      ],
+      [
+        "Christopher Parker",
+        [
+          "/wiki/Christopher_Parker"
+        ]
+      ],
+      [
+        22,
+        []
+      ]
+    ],
+    [
+      [
+        "Tango",
+        [
+          "/wiki/Tango_(dance)"
+        ]
+      ],
+      [
+        "Claire Sweeney",
+        [
+          "/wiki/Claire_Sweeney"
+        ]
+      ],
+      [
+        34,
+        []
+      ],
+      [
+        "David Dickinson",
+        [
+          "/wiki/David_Dickinson"
+        ]
+      ],
+      [
+        20,
+        []
+      ]
+    ],
+    [
+      [
+        "Waltz",
+        [
+          "/wiki/Waltz"
+        ]
+      ],
+      [
+        "Natasha Kaplinsky",
+        [
+          "/wiki/Natasha_Kaplinsky"
+        ]
+      ],
+      [
+        36,
+        []
+      ],
+      [
+        "Jason Wood",
+        [
+          "/wiki/Jason_Wood_(comedian)"
+        ]
+      ],
+      [
+        21,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "5ef39912-3fcd-5e92-8a7a-e70dce0cc0ec",
+    "table_id": "Strictly_Come_Dancing_(series_1)_2",
+    "title": "Strictly Come Dancing (series 1)",
+    "header": [
+      "Dance",
+      "Best dancer ( s )",
+      "Best score",
+      "Worst dancer ( s )",
+      "Worst score"
+    ],
+    "value": [
+      [
+        [
+          "Cha-Cha-Cha",
+          [
+            "/wiki/Cha-cha-cha_(dance)"
+          ]
+        ],
+        [
+          "Natasha Kaplinsky Verona Joseph",
+          [
+            "/wiki/Natasha_Kaplinsky",
+            "/wiki/Verona_Joseph"
+          ]
+        ],
+        [
+          27,
+          []
+        ],
+        [
+          "David Dickinson",
+          [
+            "/wiki/David_Dickinson"
+          ]
+        ],
+        [
+          16,
+          []
+        ]
+      ],
+      [
+        [
+          "Foxtrot",
+          [
+            "/wiki/Foxtrot"
+          ]
+        ],
+        [
+          "Natasha Kaplinsky",
+          [
+            "/wiki/Natasha_Kaplinsky"
+          ]
+        ],
+        [
+          35,
+          []
+        ],
+        [
+          "Martin Offiah",
+          [
+            "/wiki/Martin_Offiah"
+          ]
+        ],
+        [
+          24,
+          []
+        ]
+      ],
+      [
+        [
+          "Jive",
+          [
+            "/wiki/Jive_(dance)"
+          ]
+        ],
+        [
+          "Lesley Garrett",
+          [
+            "/wiki/Lesley_Garrett"
+          ]
+        ],
+        [
+          29,
+          []
+        ],
+        [
+          "Christopher Parker",
+          [
+            "/wiki/Christopher_Parker"
+          ]
+        ],
+        [
+          17,
+          []
+        ]
+      ],
+      [
+        [
+          "Paso Doble",
+          [
+            "/wiki/Paso_Doble"
+          ]
+        ],
+        [
+          "Natasha Kaplinsky",
+          [
+            "/wiki/Natasha_Kaplinsky"
+          ]
+        ],
+        [
+          35,
+          []
+        ],
+        [
+          "Christopher Parker",
+          [
+            "/wiki/Christopher_Parker"
+          ]
+        ],
+        [
+          15,
+          []
+        ]
+      ],
+      [
+        [
+          "Quickstep",
+          [
+            "/wiki/Quickstep"
+          ]
+        ],
+        [
+          "Natasha Kaplinsky",
+          [
+            "/wiki/Natasha_Kaplinsky"
+          ]
+        ],
+        [
+          36,
+          []
+        ],
+        [
+          "David Dickinson",
+          [
+            "/wiki/David_Dickinson"
+          ]
+        ],
+        [
+          21,
+          []
+        ]
+      ],
+      [
+        [
+          "Rumba",
+          [
+            "/wiki/Rhumba"
+          ]
+        ],
+        [
+          "Natasha Kaplinsky",
+          [
+            "/wiki/Natasha_Kaplinsky"
+          ]
+        ],
+        [
+          36,
+          []
+        ],
+        [
+          "Christopher Parker",
+          [
+            "/wiki/Christopher_Parker"
+          ]
+        ],
+        [
+          16,
+          []
+        ]
+      ],
+      [
+        [
+          "Samba",
+          [
+            "/wiki/Samba_(ballroom)"
+          ]
+        ],
+        [
+          "Natasha Kaplinsky",
+          [
+            "/wiki/Natasha_Kaplinsky"
+          ]
+        ],
+        [
+          37,
+          []
+        ],
+        [
+          "Christopher Parker",
+          [
+            "/wiki/Christopher_Parker"
+          ]
+        ],
+        [
+          15,
+          []
+        ]
+      ],
+      [
+        [
+          "Showdance",
+          [
+            "/wiki/Showdance"
+          ]
+        ],
+        [
+          "Natasha Kaplinsky",
+          [
+            "/wiki/Natasha_Kaplinsky"
+          ]
+        ],
+        [
+          35,
+          []
+        ],
+        [
+          "Christopher Parker",
+          [
+            "/wiki/Christopher_Parker"
+          ]
+        ],
+        [
+          22,
+          []
+        ]
+      ],
+      [
+        [
+          "Tango",
+          [
+            "/wiki/Tango_(dance)"
+          ]
+        ],
+        [
+          "Claire Sweeney",
+          [
+            "/wiki/Claire_Sweeney"
+          ]
+        ],
+        [
+          34,
+          []
+        ],
+        [
+          "David Dickinson",
+          [
+            "/wiki/David_Dickinson"
+          ]
+        ],
+        [
+          20,
+          []
+        ]
+      ],
+      [
+        [
+          "Waltz",
+          [
+            "/wiki/Waltz"
+          ]
+        ],
+        [
+          "Natasha Kaplinsky",
+          [
+            "/wiki/Natasha_Kaplinsky"
+          ]
+        ],
+        [
+          36,
+          []
+        ],
+        [
+          "Jason Wood",
+          [
+            "/wiki/Jason_Wood_(comedian)"
+          ]
+        ],
+        [
+          21,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the dances performed in the first series of 'Strictly Come Dancing,' including the best and worst dancers for each dance, along with their respective scores. It serves as a summary of performance outcomes for different dance styles in the competition.",
+  "numeric_columns": [
+    "Best score",
+    "Worst score"
+  ],
+  "categorical_columns": [
+    "Dance"
+  ],
+  "entities": [
+    "Best dancer ( s )",
+    "Worst dancer ( s )"
+  ]
+}

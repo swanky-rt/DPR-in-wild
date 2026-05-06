@@ -1,0 +1,468 @@
+{
+  "table_id": "T420",
+  "uid": "356ab6ee-ab6c-58b5-b954-d0c95526b19e",
+  "source": "HybridQA",
+  "source_table_id": "356ab6ee-ab6c-58b5-b954-d0c95526b19e",
+  "domain": "HybridQA",
+  "title": "Campeonato Paulista",
+  "columns": [
+    "Season",
+    "Winner",
+    "Runner-up"
+  ],
+  "rows": [
+    [
+      [
+        2007,
+        []
+      ],
+      [
+        "Guaratinguetá",
+        [
+          "/wiki/Guaratinguetá_Futebol"
+        ]
+      ],
+      [
+        "Noroeste",
+        [
+          "/wiki/Esporte_Clube_Noroeste"
+        ]
+      ]
+    ],
+    [
+      [
+        2008,
+        []
+      ],
+      [
+        "Grêmio Barueri",
+        [
+          "/wiki/Grêmio_Barueri_Futebol"
+        ]
+      ],
+      [
+        "Noroeste",
+        [
+          "/wiki/Esporte_Clube_Noroeste"
+        ]
+      ]
+    ],
+    [
+      [
+        2009,
+        []
+      ],
+      [
+        "Ponte Preta",
+        [
+          "/wiki/Associação_Atlética_Ponte_Preta"
+        ]
+      ],
+      [
+        "Grêmio Barueri",
+        [
+          "/wiki/Grêmio_Barueri_Futebol"
+        ]
+      ]
+    ],
+    [
+      [
+        2010,
+        []
+      ],
+      [
+        "Botafogo ( SP )",
+        [
+          "/wiki/Botafogo_Futebol_Clube_(SP)"
+        ]
+      ],
+      [
+        "São Caetano",
+        [
+          "/wiki/Associação_Desportiva_São_Caetano"
+        ]
+      ]
+    ],
+    [
+      [
+        2011,
+        []
+      ],
+      [
+        "Oeste",
+        [
+          "/wiki/Oeste_Futebol_Clube"
+        ]
+      ],
+      [
+        "Ponte Preta",
+        [
+          "/wiki/Associação_Atlética_Ponte_Preta"
+        ]
+      ]
+    ],
+    [
+      [
+        2012,
+        []
+      ],
+      [
+        "Mogi Mirim",
+        [
+          "/wiki/Mogi_Mirim_Esporte_Clube"
+        ]
+      ],
+      [
+        "Bragantino",
+        [
+          "/wiki/Clube_Atlético_Bragantino"
+        ]
+      ]
+    ],
+    [
+      [
+        2013,
+        []
+      ],
+      [
+        "Ponte Preta",
+        [
+          "/wiki/Associação_Atlética_Ponte_Preta"
+        ]
+      ],
+      [
+        "Penapolense",
+        [
+          "/wiki/Clube_Atlético_Penapolense"
+        ]
+      ]
+    ],
+    [
+      [
+        2014,
+        []
+      ],
+      [
+        "Penapolense",
+        [
+          "/wiki/Clube_Atlético_Penapolense"
+        ]
+      ],
+      [
+        "Botafogo ( SP )",
+        [
+          "/wiki/Botafogo_Futebol_Clube_(SP)"
+        ]
+      ]
+    ],
+    [
+      [
+        2015,
+        []
+      ],
+      [
+        "Ponte Preta",
+        [
+          "/wiki/Associação_Atlética_Ponte_Preta"
+        ]
+      ],
+      [
+        "Red Bull Brasil",
+        [
+          "/wiki/Red_Bull_Brasil"
+        ]
+      ]
+    ],
+    [
+      [
+        2016,
+        []
+      ],
+      [
+        "São Bento",
+        [
+          "/wiki/Esporte_Clube_São_Bento"
+        ]
+      ],
+      [
+        "São Bernardo",
+        [
+          "/wiki/São_Bernardo_Futebol_Clube"
+        ]
+      ]
+    ],
+    [
+      [
+        2017,
+        []
+      ],
+      [
+        "Ituano",
+        [
+          "/wiki/Ituano_Futebol_Clube"
+        ]
+      ],
+      [
+        "Santo André",
+        [
+          "/wiki/Esporte_Clube_Santo_André"
+        ]
+      ]
+    ],
+    [
+      [
+        2018,
+        []
+      ],
+      [
+        "Ponte Preta",
+        [
+          "/wiki/Associação_Atlética_Ponte_Preta"
+        ]
+      ],
+      [
+        "Mirassol",
+        [
+          "/wiki/Mirassol_Futebol_Clube"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "356ab6ee-ab6c-58b5-b954-d0c95526b19e",
+    "table_id": "Campeonato_Paulista_2",
+    "title": "Campeonato Paulista",
+    "header": [
+      "Season",
+      "Winner",
+      "Runner-up"
+    ],
+    "value": [
+      [
+        [
+          2007,
+          []
+        ],
+        [
+          "Guaratinguetá",
+          [
+            "/wiki/Guaratinguetá_Futebol"
+          ]
+        ],
+        [
+          "Noroeste",
+          [
+            "/wiki/Esporte_Clube_Noroeste"
+          ]
+        ]
+      ],
+      [
+        [
+          2008,
+          []
+        ],
+        [
+          "Grêmio Barueri",
+          [
+            "/wiki/Grêmio_Barueri_Futebol"
+          ]
+        ],
+        [
+          "Noroeste",
+          [
+            "/wiki/Esporte_Clube_Noroeste"
+          ]
+        ]
+      ],
+      [
+        [
+          2009,
+          []
+        ],
+        [
+          "Ponte Preta",
+          [
+            "/wiki/Associação_Atlética_Ponte_Preta"
+          ]
+        ],
+        [
+          "Grêmio Barueri",
+          [
+            "/wiki/Grêmio_Barueri_Futebol"
+          ]
+        ]
+      ],
+      [
+        [
+          2010,
+          []
+        ],
+        [
+          "Botafogo ( SP )",
+          [
+            "/wiki/Botafogo_Futebol_Clube_(SP)"
+          ]
+        ],
+        [
+          "São Caetano",
+          [
+            "/wiki/Associação_Desportiva_São_Caetano"
+          ]
+        ]
+      ],
+      [
+        [
+          2011,
+          []
+        ],
+        [
+          "Oeste",
+          [
+            "/wiki/Oeste_Futebol_Clube"
+          ]
+        ],
+        [
+          "Ponte Preta",
+          [
+            "/wiki/Associação_Atlética_Ponte_Preta"
+          ]
+        ]
+      ],
+      [
+        [
+          2012,
+          []
+        ],
+        [
+          "Mogi Mirim",
+          [
+            "/wiki/Mogi_Mirim_Esporte_Clube"
+          ]
+        ],
+        [
+          "Bragantino",
+          [
+            "/wiki/Clube_Atlético_Bragantino"
+          ]
+        ]
+      ],
+      [
+        [
+          2013,
+          []
+        ],
+        [
+          "Ponte Preta",
+          [
+            "/wiki/Associação_Atlética_Ponte_Preta"
+          ]
+        ],
+        [
+          "Penapolense",
+          [
+            "/wiki/Clube_Atlético_Penapolense"
+          ]
+        ]
+      ],
+      [
+        [
+          2014,
+          []
+        ],
+        [
+          "Penapolense",
+          [
+            "/wiki/Clube_Atlético_Penapolense"
+          ]
+        ],
+        [
+          "Botafogo ( SP )",
+          [
+            "/wiki/Botafogo_Futebol_Clube_(SP)"
+          ]
+        ]
+      ],
+      [
+        [
+          2015,
+          []
+        ],
+        [
+          "Ponte Preta",
+          [
+            "/wiki/Associação_Atlética_Ponte_Preta"
+          ]
+        ],
+        [
+          "Red Bull Brasil",
+          [
+            "/wiki/Red_Bull_Brasil"
+          ]
+        ]
+      ],
+      [
+        [
+          2016,
+          []
+        ],
+        [
+          "São Bento",
+          [
+            "/wiki/Esporte_Clube_São_Bento"
+          ]
+        ],
+        [
+          "São Bernardo",
+          [
+            "/wiki/São_Bernardo_Futebol_Clube"
+          ]
+        ]
+      ],
+      [
+        [
+          2017,
+          []
+        ],
+        [
+          "Ituano",
+          [
+            "/wiki/Ituano_Futebol_Clube"
+          ]
+        ],
+        [
+          "Santo André",
+          [
+            "/wiki/Esporte_Clube_Santo_André"
+          ]
+        ]
+      ],
+      [
+        [
+          2018,
+          []
+        ],
+        [
+          "Ponte Preta",
+          [
+            "/wiki/Associação_Atlética_Ponte_Preta"
+          ]
+        ],
+        [
+          "Mirassol",
+          [
+            "/wiki/Mirassol_Futebol_Clube"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides an overview of the Campeonato Paulista, a football competition, listing the seasons, the winning teams, and the runner-up teams. It is designed to summarize the outcomes of the tournament over multiple years.",
+  "numeric_columns": [
+    "Season"
+  ],
+  "categorical_columns": [],
+  "entities": [
+    "Winner",
+    "Runner-up"
+  ]
+}

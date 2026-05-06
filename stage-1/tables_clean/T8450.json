@@ -1,0 +1,469 @@
+{
+  "table_id": "T8450",
+  "uid": "0567add2-4abb-57fb-bfe9-7c0931ab1259",
+  "source": "HybridQA",
+  "source_table_id": "0567add2-4abb-57fb-bfe9-7c0931ab1259",
+  "domain": "HybridQA",
+  "title": "Cricket",
+  "columns": [
+    "Nation",
+    "Governing body",
+    "Member since"
+  ],
+  "rows": [
+    [
+      [
+        "Afghanistan",
+        [
+          "/wiki/Afghanistan_national_cricket_team"
+        ]
+      ],
+      [
+        "Afghanistan Cricket Board",
+        [
+          "/wiki/Afghanistan_Cricket_Board"
+        ]
+      ],
+      [
+        "22 June 2017",
+        []
+      ]
+    ],
+    [
+      [
+        "Australia",
+        [
+          "/wiki/Australia_national_cricket_team"
+        ]
+      ],
+      [
+        "Cricket Australia",
+        [
+          "/wiki/Cricket_Australia"
+        ]
+      ],
+      [
+        "15 July 1909",
+        []
+      ]
+    ],
+    [
+      [
+        "Bangladesh",
+        [
+          "/wiki/Bangladesh_national_cricket_team"
+        ]
+      ],
+      [
+        "Bangladesh Cricket Board",
+        [
+          "/wiki/Bangladesh_Cricket_Board"
+        ]
+      ],
+      [
+        "26 June 2000",
+        []
+      ]
+    ],
+    [
+      [
+        "England",
+        [
+          "/wiki/England_cricket_team"
+        ]
+      ],
+      [
+        "England and Wales Cricket Board",
+        [
+          "/wiki/England_and_Wales_Cricket_Board"
+        ]
+      ],
+      [
+        "15 July 1909",
+        []
+      ]
+    ],
+    [
+      [
+        "India",
+        [
+          "/wiki/India_national_cricket_team"
+        ]
+      ],
+      [
+        "Board of Control for Cricket in India",
+        [
+          "/wiki/Board_of_Control_for_Cricket_in_India"
+        ]
+      ],
+      [
+        "31 May 1926",
+        []
+      ]
+    ],
+    [
+      [
+        "Ireland",
+        [
+          "/wiki/Ireland_cricket_team"
+        ]
+      ],
+      [
+        "Cricket Ireland",
+        [
+          "/wiki/Cricket_Ireland"
+        ]
+      ],
+      [
+        "22 June 2017",
+        []
+      ]
+    ],
+    [
+      [
+        "New Zealand",
+        [
+          "/wiki/New_Zealand_national_cricket_team"
+        ]
+      ],
+      [
+        "New Zealand Cricket",
+        [
+          "/wiki/New_Zealand_Cricket"
+        ]
+      ],
+      [
+        "31 May 1926",
+        []
+      ]
+    ],
+    [
+      [
+        "Pakistan",
+        [
+          "/wiki/Pakistan_national_cricket_team"
+        ]
+      ],
+      [
+        "Pakistan Cricket Board",
+        [
+          "/wiki/Pakistan_Cricket_Board"
+        ]
+      ],
+      [
+        "28 July 1953",
+        []
+      ]
+    ],
+    [
+      [
+        "South Africa",
+        [
+          "/wiki/South_Africa_national_cricket_team"
+        ]
+      ],
+      [
+        "Cricket South Africa",
+        [
+          "/wiki/Cricket_South_Africa"
+        ]
+      ],
+      [
+        "15 July 1909",
+        []
+      ]
+    ],
+    [
+      [
+        "Sri Lanka",
+        [
+          "/wiki/Sri_Lanka_national_cricket_team"
+        ]
+      ],
+      [
+        "Sri Lanka Cricket",
+        [
+          "/wiki/Sri_Lanka_Cricket"
+        ]
+      ],
+      [
+        "21 July 1981",
+        []
+      ]
+    ],
+    [
+      [
+        "West Indies",
+        [
+          "/wiki/West_Indies_cricket_team"
+        ]
+      ],
+      [
+        "Cricket West Indies",
+        [
+          "/wiki/Cricket_West_Indies"
+        ]
+      ],
+      [
+        "31 May 1926",
+        []
+      ]
+    ],
+    [
+      [
+        "Zimbabwe",
+        [
+          "/wiki/Zimbabwe_national_cricket_team"
+        ]
+      ],
+      [
+        "Zimbabwe Cricket",
+        [
+          "/wiki/Zimbabwe_Cricket"
+        ]
+      ],
+      [
+        "6 July 1992",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "0567add2-4abb-57fb-bfe9-7c0931ab1259",
+    "table_id": "Cricket_0",
+    "title": "Cricket",
+    "header": [
+      "Nation",
+      "Governing body",
+      "Member since"
+    ],
+    "value": [
+      [
+        [
+          "Afghanistan",
+          [
+            "/wiki/Afghanistan_national_cricket_team"
+          ]
+        ],
+        [
+          "Afghanistan Cricket Board",
+          [
+            "/wiki/Afghanistan_Cricket_Board"
+          ]
+        ],
+        [
+          "22 June 2017",
+          []
+        ]
+      ],
+      [
+        [
+          "Australia",
+          [
+            "/wiki/Australia_national_cricket_team"
+          ]
+        ],
+        [
+          "Cricket Australia",
+          [
+            "/wiki/Cricket_Australia"
+          ]
+        ],
+        [
+          "15 July 1909",
+          []
+        ]
+      ],
+      [
+        [
+          "Bangladesh",
+          [
+            "/wiki/Bangladesh_national_cricket_team"
+          ]
+        ],
+        [
+          "Bangladesh Cricket Board",
+          [
+            "/wiki/Bangladesh_Cricket_Board"
+          ]
+        ],
+        [
+          "26 June 2000",
+          []
+        ]
+      ],
+      [
+        [
+          "England",
+          [
+            "/wiki/England_cricket_team"
+          ]
+        ],
+        [
+          "England and Wales Cricket Board",
+          [
+            "/wiki/England_and_Wales_Cricket_Board"
+          ]
+        ],
+        [
+          "15 July 1909",
+          []
+        ]
+      ],
+      [
+        [
+          "India",
+          [
+            "/wiki/India_national_cricket_team"
+          ]
+        ],
+        [
+          "Board of Control for Cricket in India",
+          [
+            "/wiki/Board_of_Control_for_Cricket_in_India"
+          ]
+        ],
+        [
+          "31 May 1926",
+          []
+        ]
+      ],
+      [
+        [
+          "Ireland",
+          [
+            "/wiki/Ireland_cricket_team"
+          ]
+        ],
+        [
+          "Cricket Ireland",
+          [
+            "/wiki/Cricket_Ireland"
+          ]
+        ],
+        [
+          "22 June 2017",
+          []
+        ]
+      ],
+      [
+        [
+          "New Zealand",
+          [
+            "/wiki/New_Zealand_national_cricket_team"
+          ]
+        ],
+        [
+          "New Zealand Cricket",
+          [
+            "/wiki/New_Zealand_Cricket"
+          ]
+        ],
+        [
+          "31 May 1926",
+          []
+        ]
+      ],
+      [
+        [
+          "Pakistan",
+          [
+            "/wiki/Pakistan_national_cricket_team"
+          ]
+        ],
+        [
+          "Pakistan Cricket Board",
+          [
+            "/wiki/Pakistan_Cricket_Board"
+          ]
+        ],
+        [
+          "28 July 1953",
+          []
+        ]
+      ],
+      [
+        [
+          "South Africa",
+          [
+            "/wiki/South_Africa_national_cricket_team"
+          ]
+        ],
+        [
+          "Cricket South Africa",
+          [
+            "/wiki/Cricket_South_Africa"
+          ]
+        ],
+        [
+          "15 July 1909",
+          []
+        ]
+      ],
+      [
+        [
+          "Sri Lanka",
+          [
+            "/wiki/Sri_Lanka_national_cricket_team"
+          ]
+        ],
+        [
+          "Sri Lanka Cricket",
+          [
+            "/wiki/Sri_Lanka_Cricket"
+          ]
+        ],
+        [
+          "21 July 1981",
+          []
+        ]
+      ],
+      [
+        [
+          "West Indies",
+          [
+            "/wiki/West_Indies_cricket_team"
+          ]
+        ],
+        [
+          "Cricket West Indies",
+          [
+            "/wiki/Cricket_West_Indies"
+          ]
+        ],
+        [
+          "31 May 1926",
+          []
+        ]
+      ],
+      [
+        [
+          "Zimbabwe",
+          [
+            "/wiki/Zimbabwe_national_cricket_team"
+          ]
+        ],
+        [
+          "Zimbabwe Cricket",
+          [
+            "/wiki/Zimbabwe_Cricket"
+          ]
+        ],
+        [
+          "6 July 1992",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about cricket nations, their governing bodies, and the year they became members of an organization. It serves to outline the administrative structure and historical membership details of cricket teams globally.",
+  "numeric_columns": [
+    "Member since"
+  ],
+  "categorical_columns": [
+    "Governing body"
+  ],
+  "entities": [
+    "Nation"
+  ]
+}

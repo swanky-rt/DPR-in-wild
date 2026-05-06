@@ -1,0 +1,273 @@
+{
+  "table_id": "T6524",
+  "uid": "cf9afb4a-f62a-5e21-b2c5-514bcf1571af",
+  "source": "HybridQA",
+  "source_table_id": "cf9afb4a-f62a-5e21-b2c5-514bcf1571af",
+  "domain": "HybridQA",
+  "title": "List of statues of Queen Victoria",
+  "columns": [
+    "Location",
+    "Date",
+    "Sculptor"
+  ],
+  "rows": [
+    [
+      [
+        "Bradford Morley Street / Little Horton Lane",
+        [
+          "/wiki/Bradford"
+        ]
+      ],
+      [
+        1904,
+        []
+      ],
+      [
+        "Alfred Drury",
+        [
+          "/wiki/Alfred_Drury"
+        ]
+      ]
+    ],
+    [
+      [
+        "Harrogate Victoria Gardens , Station Square",
+        [
+          "/wiki/Harrogate"
+        ]
+      ],
+      [
+        1887,
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Kingston upon Hull Queen Victoria Square",
+        [
+          "/wiki/Kingston_upon_Hull"
+        ]
+      ],
+      [
+        1903,
+        []
+      ],
+      [
+        "J.S . Gibson",
+        []
+      ]
+    ],
+    [
+      [
+        "Leeds Woodhouse Moor Park ( Originally outside Town Hall )",
+        [
+          "/wiki/Leeds",
+          "/wiki/Woodhouse_Moor"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "Sir George Frampton",
+        [
+          "/wiki/George_Frampton"
+        ]
+      ]
+    ],
+    [
+      [
+        "Sheffield Endcliffe Park ( Originally outside Town Hall )",
+        [
+          "/wiki/Sheffield",
+          "/wiki/Endcliffe_Park"
+        ]
+      ],
+      [
+        1904,
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Wakefield Castrop Rauxel Square ( Originally placed in Bull Ring , moved to Clarence Park in 1950 , returned to city centre in 1985 )",
+        [
+          "/wiki/Wakefield"
+        ]
+      ],
+      [
+        1905,
+        []
+      ],
+      [
+        "Francis John Williamson",
+        []
+      ]
+    ],
+    [
+      [
+        "York West Bank Park , York ( Originally Guildhall )",
+        [
+          "/wiki/York"
+        ]
+      ],
+      [
+        1905,
+        []
+      ],
+      [
+        "George Walker Milburn , 1844-1941",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "cf9afb4a-f62a-5e21-b2c5-514bcf1571af",
+    "table_id": "List_of_statues_of_Queen_Victoria_3",
+    "title": "List of statues of Queen Victoria",
+    "header": [
+      "Location",
+      "Date",
+      "Sculptor"
+    ],
+    "value": [
+      [
+        [
+          "Bradford Morley Street / Little Horton Lane",
+          [
+            "/wiki/Bradford"
+          ]
+        ],
+        [
+          1904,
+          []
+        ],
+        [
+          "Alfred Drury",
+          [
+            "/wiki/Alfred_Drury"
+          ]
+        ]
+      ],
+      [
+        [
+          "Harrogate Victoria Gardens , Station Square",
+          [
+            "/wiki/Harrogate"
+          ]
+        ],
+        [
+          1887,
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Kingston upon Hull Queen Victoria Square",
+          [
+            "/wiki/Kingston_upon_Hull"
+          ]
+        ],
+        [
+          1903,
+          []
+        ],
+        [
+          "J.S . Gibson",
+          []
+        ]
+      ],
+      [
+        [
+          "Leeds Woodhouse Moor Park ( Originally outside Town Hall )",
+          [
+            "/wiki/Leeds",
+            "/wiki/Woodhouse_Moor"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "Sir George Frampton",
+          [
+            "/wiki/George_Frampton"
+          ]
+        ]
+      ],
+      [
+        [
+          "Sheffield Endcliffe Park ( Originally outside Town Hall )",
+          [
+            "/wiki/Sheffield",
+            "/wiki/Endcliffe_Park"
+          ]
+        ],
+        [
+          1904,
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Wakefield Castrop Rauxel Square ( Originally placed in Bull Ring , moved to Clarence Park in 1950 , returned to city centre in 1985 )",
+          [
+            "/wiki/Wakefield"
+          ]
+        ],
+        [
+          1905,
+          []
+        ],
+        [
+          "Francis John Williamson",
+          []
+        ]
+      ],
+      [
+        [
+          "York West Bank Park , York ( Originally Guildhall )",
+          [
+            "/wiki/York"
+          ]
+        ],
+        [
+          1905,
+          []
+        ],
+        [
+          "George Walker Milburn , 1844-1941",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about statues of Queen Victoria, including their locations, the dates they were created, and the sculptors who designed them. It serves as a reference for historical and artistic details related to these monuments.",
+  "numeric_columns": [
+    "Date"
+  ],
+  "categorical_columns": [
+    "Sculptor"
+  ],
+  "entities": [
+    "Location"
+  ]
+}

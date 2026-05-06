@@ -1,0 +1,504 @@
+{
+  "table_id": "T2774",
+  "uid": "f1eb3f15-8e99-5e99-b849-a43fca27eca3",
+  "source": "HybridQA",
+  "source_table_id": "f1eb3f15-8e99-5e99-b849-a43fca27eca3",
+  "domain": "HybridQA",
+  "title": "2013 Esiliiga",
+  "columns": [
+    "Team",
+    "Location",
+    "Stadium",
+    "Capacity"
+  ],
+  "rows": [
+    [
+      [
+        "Flora II",
+        [
+          "/wiki/FC_Flora_II_Tallinn"
+        ]
+      ],
+      [
+        "Tallinn",
+        [
+          "/wiki/Tallinn"
+        ]
+      ],
+      [
+        "Sportland Arena",
+        [
+          "/wiki/Sportland_Arena"
+        ]
+      ],
+      [
+        600,
+        []
+      ]
+    ],
+    [
+      [
+        "Kiviõli Irbis",
+        [
+          "/wiki/FC_Kiviõli_Irbis"
+        ]
+      ],
+      [
+        "Kiviõli",
+        [
+          "/wiki/Kiviõli"
+        ]
+      ],
+      [
+        "Kiviõli Stadium",
+        []
+      ],
+      [
+        255,
+        []
+      ]
+    ],
+    [
+      [
+        "Levadia II",
+        [
+          "/wiki/FC_Levadia_II_Tallinn"
+        ]
+      ],
+      [
+        "Tallinn",
+        [
+          "/wiki/Tallinn"
+        ]
+      ],
+      [
+        "Maarjamäe Stadium",
+        []
+      ],
+      [
+        "1,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Jõhvi Lokomotiv",
+        [
+          "/wiki/Jõhvi_FC_Lokomotiv"
+        ]
+      ],
+      [
+        "Jõhvi",
+        [
+          "/wiki/Jõhvi"
+        ]
+      ],
+      [
+        "Jõhvi Stadium",
+        [
+          "/wiki/Jõhvi_linnastaadion"
+        ]
+      ],
+      [
+        500,
+        []
+      ]
+    ],
+    [
+      [
+        "Puuma",
+        [
+          "/wiki/FC_Puuma_Tallinn"
+        ]
+      ],
+      [
+        "Tallinn",
+        [
+          "/wiki/Tallinn"
+        ]
+      ],
+      [
+        "Lasnamäe SPK Stadium",
+        []
+      ],
+      [
+        666,
+        []
+      ]
+    ],
+    [
+      [
+        "Tartu SK 10",
+        [
+          "/wiki/Tartu_SK_10"
+        ]
+      ],
+      [
+        "Tartu",
+        [
+          "/wiki/Tartu"
+        ]
+      ],
+      [
+        "Tamme Stadium",
+        [
+          "/wiki/Tamme_Stadium"
+        ]
+      ],
+      [
+        "1,500",
+        []
+      ]
+    ],
+    [
+      [
+        "Tammeka II",
+        [
+          "/wiki/JK_Tammeka_II_Tartu"
+        ]
+      ],
+      [
+        "Tartu",
+        [
+          "/wiki/Tartu"
+        ]
+      ],
+      [
+        "Tamme Stadium",
+        [
+          "/wiki/Tamme_Stadium"
+        ]
+      ],
+      [
+        "1,500",
+        []
+      ]
+    ],
+    [
+      [
+        "Rakvere Tarvas",
+        [
+          "/wiki/Rakvere_JK_Tarvas"
+        ]
+      ],
+      [
+        "Rakvere",
+        [
+          "/wiki/Rakvere"
+        ]
+      ],
+      [
+        "Rakvere Stadium",
+        [
+          "/wiki/Rakvere_linnastaadion"
+        ]
+      ],
+      [
+        "2,500",
+        []
+      ]
+    ],
+    [
+      [
+        "Viljandi Tulevik",
+        [
+          "/wiki/Viljandi_JK_Tulevik"
+        ]
+      ],
+      [
+        "Viljandi",
+        [
+          "/wiki/Viljandi"
+        ]
+      ],
+      [
+        "Viljandi Stadium",
+        [
+          "/wiki/Viljandi_linnastaadion"
+        ]
+      ],
+      [
+        "2,506",
+        []
+      ]
+    ],
+    [
+      [
+        "Vändra Vaprus",
+        [
+          "/wiki/JK_Vändra_Vaprus"
+        ]
+      ],
+      [
+        "Vändra",
+        [
+          "/wiki/Vändra"
+        ]
+      ],
+      [
+        "Vändra Stadium",
+        []
+      ],
+      [
+        277,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "f1eb3f15-8e99-5e99-b849-a43fca27eca3",
+    "table_id": "2013_Esiliiga_0",
+    "title": "2013 Esiliiga",
+    "header": [
+      "Team",
+      "Location",
+      "Stadium",
+      "Capacity"
+    ],
+    "value": [
+      [
+        [
+          "Flora II",
+          [
+            "/wiki/FC_Flora_II_Tallinn"
+          ]
+        ],
+        [
+          "Tallinn",
+          [
+            "/wiki/Tallinn"
+          ]
+        ],
+        [
+          "Sportland Arena",
+          [
+            "/wiki/Sportland_Arena"
+          ]
+        ],
+        [
+          600,
+          []
+        ]
+      ],
+      [
+        [
+          "Kiviõli Irbis",
+          [
+            "/wiki/FC_Kiviõli_Irbis"
+          ]
+        ],
+        [
+          "Kiviõli",
+          [
+            "/wiki/Kiviõli"
+          ]
+        ],
+        [
+          "Kiviõli Stadium",
+          []
+        ],
+        [
+          255,
+          []
+        ]
+      ],
+      [
+        [
+          "Levadia II",
+          [
+            "/wiki/FC_Levadia_II_Tallinn"
+          ]
+        ],
+        [
+          "Tallinn",
+          [
+            "/wiki/Tallinn"
+          ]
+        ],
+        [
+          "Maarjamäe Stadium",
+          []
+        ],
+        [
+          "1,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Jõhvi Lokomotiv",
+          [
+            "/wiki/Jõhvi_FC_Lokomotiv"
+          ]
+        ],
+        [
+          "Jõhvi",
+          [
+            "/wiki/Jõhvi"
+          ]
+        ],
+        [
+          "Jõhvi Stadium",
+          [
+            "/wiki/Jõhvi_linnastaadion"
+          ]
+        ],
+        [
+          500,
+          []
+        ]
+      ],
+      [
+        [
+          "Puuma",
+          [
+            "/wiki/FC_Puuma_Tallinn"
+          ]
+        ],
+        [
+          "Tallinn",
+          [
+            "/wiki/Tallinn"
+          ]
+        ],
+        [
+          "Lasnamäe SPK Stadium",
+          []
+        ],
+        [
+          666,
+          []
+        ]
+      ],
+      [
+        [
+          "Tartu SK 10",
+          [
+            "/wiki/Tartu_SK_10"
+          ]
+        ],
+        [
+          "Tartu",
+          [
+            "/wiki/Tartu"
+          ]
+        ],
+        [
+          "Tamme Stadium",
+          [
+            "/wiki/Tamme_Stadium"
+          ]
+        ],
+        [
+          "1,500",
+          []
+        ]
+      ],
+      [
+        [
+          "Tammeka II",
+          [
+            "/wiki/JK_Tammeka_II_Tartu"
+          ]
+        ],
+        [
+          "Tartu",
+          [
+            "/wiki/Tartu"
+          ]
+        ],
+        [
+          "Tamme Stadium",
+          [
+            "/wiki/Tamme_Stadium"
+          ]
+        ],
+        [
+          "1,500",
+          []
+        ]
+      ],
+      [
+        [
+          "Rakvere Tarvas",
+          [
+            "/wiki/Rakvere_JK_Tarvas"
+          ]
+        ],
+        [
+          "Rakvere",
+          [
+            "/wiki/Rakvere"
+          ]
+        ],
+        [
+          "Rakvere Stadium",
+          [
+            "/wiki/Rakvere_linnastaadion"
+          ]
+        ],
+        [
+          "2,500",
+          []
+        ]
+      ],
+      [
+        [
+          "Viljandi Tulevik",
+          [
+            "/wiki/Viljandi_JK_Tulevik"
+          ]
+        ],
+        [
+          "Viljandi",
+          [
+            "/wiki/Viljandi"
+          ]
+        ],
+        [
+          "Viljandi Stadium",
+          [
+            "/wiki/Viljandi_linnastaadion"
+          ]
+        ],
+        [
+          "2,506",
+          []
+        ]
+      ],
+      [
+        [
+          "Vändra Vaprus",
+          [
+            "/wiki/JK_Vändra_Vaprus"
+          ]
+        ],
+        [
+          "Vändra",
+          [
+            "/wiki/Vändra"
+          ]
+        ],
+        [
+          "Vändra Stadium",
+          []
+        ],
+        [
+          277,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about teams participating in the 2013 Esiliiga, including their locations, stadiums, and seating capacities. It serves as a reference for understanding the geographical and infrastructural aspects of the league's teams. The data combines numeric and categorical details to give a comprehensive overview of the league's organization.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "Location",
+    "Stadium"
+  ],
+  "entities": [
+    "Team"
+  ]
+}

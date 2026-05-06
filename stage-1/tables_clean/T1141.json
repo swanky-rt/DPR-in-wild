@@ -1,0 +1,420 @@
+{
+  "table_id": "T1141",
+  "uid": "f8aac14e-d55f-54f0-b047-5ce916ee5cac",
+  "source": "HybridQA",
+  "source_table_id": "f8aac14e-d55f-54f0-b047-5ce916ee5cac",
+  "domain": "HybridQA",
+  "title": "1989 VFL draft",
+  "columns": [
+    "Player",
+    "Traded to",
+    "Traded from",
+    "Games for new club"
+  ],
+  "rows": [
+    [
+      [
+        "Peter Wilson",
+        [
+          "/wiki/Peter_Wilson_(Australian_rules_footballer)"
+        ]
+      ],
+      [
+        "West Coast",
+        [
+          "/wiki/West_Coast_Eagles"
+        ]
+      ],
+      [
+        "Richmond",
+        [
+          "/wiki/Richmond_Football_Club"
+        ]
+      ],
+      [
+        117,
+        []
+      ]
+    ],
+    [
+      [
+        "Gavin Keane",
+        [
+          "/wiki/Gavin_Keane"
+        ]
+      ],
+      [
+        "Brisbane Bears",
+        [
+          "/wiki/Brisbane_Bears"
+        ]
+      ],
+      [
+        "Essendon",
+        [
+          "/wiki/Essendon_Football_Club"
+        ]
+      ],
+      [
+        7,
+        []
+      ]
+    ],
+    [
+      [
+        "Trevor Poole",
+        [
+          "/wiki/Trevor_Poole"
+        ]
+      ],
+      [
+        "Geelong",
+        [
+          "/wiki/Geelong_Football_Club"
+        ]
+      ],
+      [
+        "Richmond",
+        [
+          "/wiki/Richmond_Football_Club"
+        ]
+      ],
+      [
+        54,
+        []
+      ]
+    ],
+    [
+      [
+        "Gary Keane",
+        [
+          "/wiki/Gary_Keane"
+        ]
+      ],
+      [
+        "Geelong",
+        [
+          "/wiki/Geelong_Football_Club"
+        ]
+      ],
+      [
+        "Fitzroy",
+        [
+          "/wiki/Fitzroy_Football_Club"
+        ]
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        "Steven Clark",
+        [
+          "/wiki/Steven_Clark_(Australian_footballer)"
+        ]
+      ],
+      [
+        "Melbourne",
+        [
+          "/wiki/Melbourne_Football_Club"
+        ]
+      ],
+      [
+        "Essendon",
+        [
+          "/wiki/Essendon_Football_Club"
+        ]
+      ],
+      [
+        21,
+        []
+      ]
+    ],
+    [
+      [
+        "Michael Scott",
+        []
+      ],
+      [
+        "Melbourne",
+        [
+          "/wiki/Melbourne_Football_Club"
+        ]
+      ],
+      [
+        "Geelong",
+        [
+          "/wiki/Geelong_Football_Club"
+        ]
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        "Trevor Spencer",
+        [
+          "/wiki/Trevor_Spencer_(footballer)"
+        ]
+      ],
+      [
+        "Melbourne",
+        [
+          "/wiki/Melbourne_Football_Club"
+        ]
+      ],
+      [
+        "Essendon",
+        [
+          "/wiki/Essendon_Football_Club"
+        ]
+      ],
+      [
+        3,
+        []
+      ]
+    ],
+    [
+      [
+        "Matthew Ryan",
+        [
+          "/wiki/Matthew_Ryan_(Australian_rules_footballer)"
+        ]
+      ],
+      [
+        "Sydney",
+        [
+          "/wiki/Sydney_Swans"
+        ]
+      ],
+      [
+        "Collingwood",
+        [
+          "/wiki/Collingwood_Football_Club"
+        ]
+      ],
+      [
+        10,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "f8aac14e-d55f-54f0-b047-5ce916ee5cac",
+    "table_id": "1989_VFL_Draft_1",
+    "title": "1989 VFL draft",
+    "header": [
+      "Player",
+      "Traded to",
+      "Traded from",
+      "Games for new club"
+    ],
+    "value": [
+      [
+        [
+          "Peter Wilson",
+          [
+            "/wiki/Peter_Wilson_(Australian_rules_footballer)"
+          ]
+        ],
+        [
+          "West Coast",
+          [
+            "/wiki/West_Coast_Eagles"
+          ]
+        ],
+        [
+          "Richmond",
+          [
+            "/wiki/Richmond_Football_Club"
+          ]
+        ],
+        [
+          117,
+          []
+        ]
+      ],
+      [
+        [
+          "Gavin Keane",
+          [
+            "/wiki/Gavin_Keane"
+          ]
+        ],
+        [
+          "Brisbane Bears",
+          [
+            "/wiki/Brisbane_Bears"
+          ]
+        ],
+        [
+          "Essendon",
+          [
+            "/wiki/Essendon_Football_Club"
+          ]
+        ],
+        [
+          7,
+          []
+        ]
+      ],
+      [
+        [
+          "Trevor Poole",
+          [
+            "/wiki/Trevor_Poole"
+          ]
+        ],
+        [
+          "Geelong",
+          [
+            "/wiki/Geelong_Football_Club"
+          ]
+        ],
+        [
+          "Richmond",
+          [
+            "/wiki/Richmond_Football_Club"
+          ]
+        ],
+        [
+          54,
+          []
+        ]
+      ],
+      [
+        [
+          "Gary Keane",
+          [
+            "/wiki/Gary_Keane"
+          ]
+        ],
+        [
+          "Geelong",
+          [
+            "/wiki/Geelong_Football_Club"
+          ]
+        ],
+        [
+          "Fitzroy",
+          [
+            "/wiki/Fitzroy_Football_Club"
+          ]
+        ],
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        [
+          "Steven Clark",
+          [
+            "/wiki/Steven_Clark_(Australian_footballer)"
+          ]
+        ],
+        [
+          "Melbourne",
+          [
+            "/wiki/Melbourne_Football_Club"
+          ]
+        ],
+        [
+          "Essendon",
+          [
+            "/wiki/Essendon_Football_Club"
+          ]
+        ],
+        [
+          21,
+          []
+        ]
+      ],
+      [
+        [
+          "Michael Scott",
+          []
+        ],
+        [
+          "Melbourne",
+          [
+            "/wiki/Melbourne_Football_Club"
+          ]
+        ],
+        [
+          "Geelong",
+          [
+            "/wiki/Geelong_Football_Club"
+          ]
+        ],
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        [
+          "Trevor Spencer",
+          [
+            "/wiki/Trevor_Spencer_(footballer)"
+          ]
+        ],
+        [
+          "Melbourne",
+          [
+            "/wiki/Melbourne_Football_Club"
+          ]
+        ],
+        [
+          "Essendon",
+          [
+            "/wiki/Essendon_Football_Club"
+          ]
+        ],
+        [
+          3,
+          []
+        ]
+      ],
+      [
+        [
+          "Matthew Ryan",
+          [
+            "/wiki/Matthew_Ryan_(Australian_rules_footballer)"
+          ]
+        ],
+        [
+          "Sydney",
+          [
+            "/wiki/Sydney_Swans"
+          ]
+        ],
+        [
+          "Collingwood",
+          [
+            "/wiki/Collingwood_Football_Club"
+          ]
+        ],
+        [
+          10,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about player trades during the 1989 VFL draft, detailing the movement of players between clubs and their subsequent performance. It includes the player's name, the club they were traded to, the club they were traded from, and the number of games played for their new club. The table serves as a record of player transitions and their impact on team rosters.",
+  "numeric_columns": [
+    "Games for new club"
+  ],
+  "categorical_columns": [
+    "Traded to",
+    "Traded from"
+  ],
+  "entities": [
+    "Player"
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "table_id": "T10673",
+  "uid": "b8363586-50c4-505a-9259-1df253e029a4",
+  "source": "HybridQA",
+  "source_table_id": "b8363586-50c4-505a-9259-1df253e029a4",
+  "domain": "HybridQA",
+  "title": "Liga EBA",
+  "columns": [
+    "Team",
+    "City",
+    "Autonomous community",
+    "Arena"
+  ],
+  "rows": [
+    [
+      [
+        "CB Puerto Sagunto",
+        []
+      ],
+      [
+        "Sagunto",
+        [
+          "/wiki/Sagunto"
+        ]
+      ],
+      [
+        "Valencian Community",
+        [
+          "/wiki/Valencian_Community"
+        ]
+      ],
+      [
+        "José Veral",
+        []
+      ]
+    ],
+    [
+      [
+        "CB Tabernes Blanques",
+        []
+      ],
+      [
+        "Tavernes Blanques",
+        [
+          "/wiki/Tavernes_Blanques"
+        ]
+      ],
+      [
+        "Valencian Community",
+        [
+          "/wiki/Valencian_Community"
+        ]
+      ],
+      [
+        "Municipal",
+        []
+      ]
+    ],
+    [
+      [
+        "Picken Claret",
+        []
+      ],
+      [
+        "Valencia",
+        [
+          "/wiki/Valencia"
+        ]
+      ],
+      [
+        "Valencian Community",
+        [
+          "/wiki/Valencian_Community"
+        ]
+      ],
+      [
+        "Benimaclet",
+        []
+      ]
+    ],
+    [
+      [
+        "Power Electronics Paterna",
+        []
+      ],
+      [
+        "Paterna",
+        [
+          "/wiki/Paterna"
+        ]
+      ],
+      [
+        "Valencian Community",
+        [
+          "/wiki/Valencian_Community"
+        ]
+      ],
+      [
+        "Municipal",
+        []
+      ]
+    ],
+    [
+      [
+        "Refitel Bàsquet Llíria",
+        [
+          "/wiki/CEB_Llíria"
+        ]
+      ],
+      [
+        "Llíria",
+        [
+          "/wiki/Llíria"
+        ]
+      ],
+      [
+        "Valencian Community",
+        [
+          "/wiki/Valencian_Community"
+        ]
+      ],
+      [
+        "Pla del Arc",
+        []
+      ]
+    ],
+    [
+      [
+        "Sonia Bath Godella",
+        []
+      ],
+      [
+        "Godella",
+        [
+          "/wiki/Godella"
+        ]
+      ],
+      [
+        "Valencian Community",
+        [
+          "/wiki/Valencian_Community"
+        ]
+      ],
+      [
+        "Municipal",
+        []
+      ]
+    ],
+    [
+      [
+        "TAU Castelló B",
+        [
+          "/wiki/AB_Castelló"
+        ]
+      ],
+      [
+        "Castellón de la Plana",
+        [
+          "/wiki/Castellón_de_la_Plana"
+        ]
+      ],
+      [
+        "Valencian Community",
+        [
+          "/wiki/Valencian_Community"
+        ]
+      ],
+      [
+        "Ciutat de Castelló",
+        []
+      ]
+    ],
+    [
+      [
+        "Valencia BC B",
+        [
+          "/wiki/Valencia_Basket"
+        ]
+      ],
+      [
+        "Valencia",
+        [
+          "/wiki/Valencia"
+        ]
+      ],
+      [
+        "Valencian Community",
+        [
+          "/wiki/Valencian_Community"
+        ]
+      ],
+      [
+        "L'Alquería",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "b8363586-50c4-505a-9259-1df253e029a4",
+    "table_id": "Liga_EBA_7",
+    "title": "Liga EBA",
+    "header": [
+      "Team",
+      "City",
+      "Autonomous community",
+      "Arena"
+    ],
+    "value": [
+      [
+        [
+          "CB Puerto Sagunto",
+          []
+        ],
+        [
+          "Sagunto",
+          [
+            "/wiki/Sagunto"
+          ]
+        ],
+        [
+          "Valencian Community",
+          [
+            "/wiki/Valencian_Community"
+          ]
+        ],
+        [
+          "José Veral",
+          []
+        ]
+      ],
+      [
+        [
+          "CB Tabernes Blanques",
+          []
+        ],
+        [
+          "Tavernes Blanques",
+          [
+            "/wiki/Tavernes_Blanques"
+          ]
+        ],
+        [
+          "Valencian Community",
+          [
+            "/wiki/Valencian_Community"
+          ]
+        ],
+        [
+          "Municipal",
+          []
+        ]
+      ],
+      [
+        [
+          "Picken Claret",
+          []
+        ],
+        [
+          "Valencia",
+          [
+            "/wiki/Valencia"
+          ]
+        ],
+        [
+          "Valencian Community",
+          [
+            "/wiki/Valencian_Community"
+          ]
+        ],
+        [
+          "Benimaclet",
+          []
+        ]
+      ],
+      [
+        [
+          "Power Electronics Paterna",
+          []
+        ],
+        [
+          "Paterna",
+          [
+            "/wiki/Paterna"
+          ]
+        ],
+        [
+          "Valencian Community",
+          [
+            "/wiki/Valencian_Community"
+          ]
+        ],
+        [
+          "Municipal",
+          []
+        ]
+      ],
+      [
+        [
+          "Refitel Bàsquet Llíria",
+          [
+            "/wiki/CEB_Llíria"
+          ]
+        ],
+        [
+          "Llíria",
+          [
+            "/wiki/Llíria"
+          ]
+        ],
+        [
+          "Valencian Community",
+          [
+            "/wiki/Valencian_Community"
+          ]
+        ],
+        [
+          "Pla del Arc",
+          []
+        ]
+      ],
+      [
+        [
+          "Sonia Bath Godella",
+          []
+        ],
+        [
+          "Godella",
+          [
+            "/wiki/Godella"
+          ]
+        ],
+        [
+          "Valencian Community",
+          [
+            "/wiki/Valencian_Community"
+          ]
+        ],
+        [
+          "Municipal",
+          []
+        ]
+      ],
+      [
+        [
+          "TAU Castelló B",
+          [
+            "/wiki/AB_Castelló"
+          ]
+        ],
+        [
+          "Castellón de la Plana",
+          [
+            "/wiki/Castellón_de_la_Plana"
+          ]
+        ],
+        [
+          "Valencian Community",
+          [
+            "/wiki/Valencian_Community"
+          ]
+        ],
+        [
+          "Ciutat de Castelló",
+          []
+        ]
+      ],
+      [
+        [
+          "Valencia BC B",
+          [
+            "/wiki/Valencia_Basket"
+          ]
+        ],
+        [
+          "Valencia",
+          [
+            "/wiki/Valencia"
+          ]
+        ],
+        [
+          "Valencian Community",
+          [
+            "/wiki/Valencian_Community"
+          ]
+        ],
+        [
+          "L'Alquería",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about basketball teams in the Liga EBA, including their associated cities, autonomous communities, and arenas. It is likely used to give an overview of the teams and their geographical and venue details within the league.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Team",
+    "City",
+    "Autonomous community",
+    "Arena"
+  ],
+  "entities": [
+    "Team",
+    "City",
+    "Autonomous community",
+    "Arena"
+  ]
+}

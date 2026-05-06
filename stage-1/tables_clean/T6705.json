@@ -1,0 +1,469 @@
+{
+  "table_id": "T6705",
+  "uid": "67cdc92e-17a5-52b3-80a3-85aea9554c2d",
+  "source": "HybridQA",
+  "source_table_id": "67cdc92e-17a5-52b3-80a3-85aea9554c2d",
+  "domain": "HybridQA",
+  "title": "Slovak Super Liga",
+  "columns": [
+    "Team",
+    "Stadium",
+    "Capacity or seats"
+  ],
+  "rows": [
+    [
+      [
+        "FC DAC 1904 Dunajská Streda",
+        [
+          "/wiki/FC_DAC_1904_Dunajská_Streda"
+        ]
+      ],
+      [
+        "MOL Aréna",
+        [
+          "/wiki/MOL_Aréna"
+        ]
+      ],
+      [
+        "12,700",
+        []
+      ]
+    ],
+    [
+      [
+        "FC Spartak Trnava",
+        [
+          "/wiki/FC_Spartak_Trnava"
+        ]
+      ],
+      [
+        "Anton Malatinský Stadium",
+        [
+          "/wiki/Anton_Malatinský_Stadium"
+        ]
+      ],
+      [
+        "19,200",
+        []
+      ]
+    ],
+    [
+      [
+        "FC ViOn Zlaté Moravce",
+        [
+          "/wiki/FC_ViOn_Zlaté_Moravce"
+        ]
+      ],
+      [
+        "Štadión FC ViOn",
+        [
+          "/wiki/Štadión_FC_ViOn"
+        ]
+      ],
+      [
+        "3,787",
+        []
+      ]
+    ],
+    [
+      [
+        "AS Trenčín",
+        [
+          "/wiki/AS_Trenčín"
+        ]
+      ],
+      [
+        "Štadión na Sihoti",
+        [
+          "/wiki/Štadión_na_Sihoti"
+        ]
+      ],
+      [
+        "3,500",
+        []
+      ]
+    ],
+    [
+      [
+        "FK Senica",
+        [
+          "/wiki/FK_Senica"
+        ]
+      ],
+      [
+        "OMS ARENA Senica",
+        [
+          "/wiki/OMS_ARENA_Senica"
+        ]
+      ],
+      [
+        "4,500",
+        []
+      ]
+    ],
+    [
+      [
+        "MFK Ružomberok",
+        [
+          "/wiki/MFK_Ružomberok"
+        ]
+      ],
+      [
+        "Štadión pod Čebraťom",
+        [
+          "/wiki/Štadión_pod_Čebraťom"
+        ]
+      ],
+      [
+        "4,817",
+        []
+      ]
+    ],
+    [
+      [
+        "ŠKF Sereď",
+        [
+          "/wiki/ŠKF_Sereď"
+        ]
+      ],
+      [
+        "Štadión pod Zoborom",
+        [
+          "/wiki/Štadión_pod_Zoborom"
+        ]
+      ],
+      [
+        "7,480",
+        []
+      ]
+    ],
+    [
+      [
+        "MFK Zemplín Michalovce",
+        [
+          "/wiki/MFK_Zemplín_Michalovce"
+        ]
+      ],
+      [
+        "Mestský futbalový štadión",
+        [
+          "/wiki/Mestský_futbalový_štadión"
+        ]
+      ],
+      [
+        "4,440",
+        []
+      ]
+    ],
+    [
+      [
+        "MŠK Žilina",
+        [
+          "/wiki/MŠK_Žilina"
+        ]
+      ],
+      [
+        "Štadión pod Dubňom",
+        [
+          "/wiki/Štadión_pod_Dubňom"
+        ]
+      ],
+      [
+        "11,258",
+        []
+      ]
+    ],
+    [
+      [
+        "ŠK Slovan Bratislava",
+        [
+          "/wiki/ŠK_Slovan_Bratislava"
+        ]
+      ],
+      [
+        "Tehelné pole",
+        [
+          "/wiki/Tehelné_pole"
+        ]
+      ],
+      [
+        "22,500",
+        []
+      ]
+    ],
+    [
+      [
+        "FK Pohronie",
+        [
+          "/wiki/FK_Pohronie"
+        ]
+      ],
+      [
+        "Mestský štadión",
+        [
+          "/wiki/Mestský_štadión_Žiar_nad_Hronom"
+        ]
+      ],
+      [
+        "2,309",
+        []
+      ]
+    ],
+    [
+      [
+        "FC Nitra",
+        [
+          "/wiki/FC_Nitra"
+        ]
+      ],
+      [
+        "Štadión pod Zoborom",
+        [
+          "/wiki/Štadión_pod_Zoborom"
+        ]
+      ],
+      [
+        "7,480",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "67cdc92e-17a5-52b3-80a3-85aea9554c2d",
+    "table_id": "Slovak_Super_Liga_0",
+    "title": "Slovak Super Liga",
+    "header": [
+      "Team",
+      "Stadium",
+      "Capacity or seats"
+    ],
+    "value": [
+      [
+        [
+          "FC DAC 1904 Dunajská Streda",
+          [
+            "/wiki/FC_DAC_1904_Dunajská_Streda"
+          ]
+        ],
+        [
+          "MOL Aréna",
+          [
+            "/wiki/MOL_Aréna"
+          ]
+        ],
+        [
+          "12,700",
+          []
+        ]
+      ],
+      [
+        [
+          "FC Spartak Trnava",
+          [
+            "/wiki/FC_Spartak_Trnava"
+          ]
+        ],
+        [
+          "Anton Malatinský Stadium",
+          [
+            "/wiki/Anton_Malatinský_Stadium"
+          ]
+        ],
+        [
+          "19,200",
+          []
+        ]
+      ],
+      [
+        [
+          "FC ViOn Zlaté Moravce",
+          [
+            "/wiki/FC_ViOn_Zlaté_Moravce"
+          ]
+        ],
+        [
+          "Štadión FC ViOn",
+          [
+            "/wiki/Štadión_FC_ViOn"
+          ]
+        ],
+        [
+          "3,787",
+          []
+        ]
+      ],
+      [
+        [
+          "AS Trenčín",
+          [
+            "/wiki/AS_Trenčín"
+          ]
+        ],
+        [
+          "Štadión na Sihoti",
+          [
+            "/wiki/Štadión_na_Sihoti"
+          ]
+        ],
+        [
+          "3,500",
+          []
+        ]
+      ],
+      [
+        [
+          "FK Senica",
+          [
+            "/wiki/FK_Senica"
+          ]
+        ],
+        [
+          "OMS ARENA Senica",
+          [
+            "/wiki/OMS_ARENA_Senica"
+          ]
+        ],
+        [
+          "4,500",
+          []
+        ]
+      ],
+      [
+        [
+          "MFK Ružomberok",
+          [
+            "/wiki/MFK_Ružomberok"
+          ]
+        ],
+        [
+          "Štadión pod Čebraťom",
+          [
+            "/wiki/Štadión_pod_Čebraťom"
+          ]
+        ],
+        [
+          "4,817",
+          []
+        ]
+      ],
+      [
+        [
+          "ŠKF Sereď",
+          [
+            "/wiki/ŠKF_Sereď"
+          ]
+        ],
+        [
+          "Štadión pod Zoborom",
+          [
+            "/wiki/Štadión_pod_Zoborom"
+          ]
+        ],
+        [
+          "7,480",
+          []
+        ]
+      ],
+      [
+        [
+          "MFK Zemplín Michalovce",
+          [
+            "/wiki/MFK_Zemplín_Michalovce"
+          ]
+        ],
+        [
+          "Mestský futbalový štadión",
+          [
+            "/wiki/Mestský_futbalový_štadión"
+          ]
+        ],
+        [
+          "4,440",
+          []
+        ]
+      ],
+      [
+        [
+          "MŠK Žilina",
+          [
+            "/wiki/MŠK_Žilina"
+          ]
+        ],
+        [
+          "Štadión pod Dubňom",
+          [
+            "/wiki/Štadión_pod_Dubňom"
+          ]
+        ],
+        [
+          "11,258",
+          []
+        ]
+      ],
+      [
+        [
+          "ŠK Slovan Bratislava",
+          [
+            "/wiki/ŠK_Slovan_Bratislava"
+          ]
+        ],
+        [
+          "Tehelné pole",
+          [
+            "/wiki/Tehelné_pole"
+          ]
+        ],
+        [
+          "22,500",
+          []
+        ]
+      ],
+      [
+        [
+          "FK Pohronie",
+          [
+            "/wiki/FK_Pohronie"
+          ]
+        ],
+        [
+          "Mestský štadión",
+          [
+            "/wiki/Mestský_štadión_Žiar_nad_Hronom"
+          ]
+        ],
+        [
+          "2,309",
+          []
+        ]
+      ],
+      [
+        [
+          "FC Nitra",
+          [
+            "/wiki/FC_Nitra"
+          ]
+        ],
+        [
+          "Štadión pod Zoborom",
+          [
+            "/wiki/Štadión_pod_Zoborom"
+          ]
+        ],
+        [
+          "7,480",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about teams in the Slovak Super Liga, including their associated stadiums and seating capacities. It is likely intended to offer an overview of the league's infrastructure and team venues.",
+  "numeric_columns": [
+    "Capacity or seats"
+  ],
+  "categorical_columns": [
+    "Stadium"
+  ],
+  "entities": [
+    "Team"
+  ]
+}

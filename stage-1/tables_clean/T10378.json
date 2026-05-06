@@ -1,0 +1,472 @@
+{
+  "table_id": "T10378",
+  "uid": "5747ec4e-97ba-5f66-9002-20eb38185a82",
+  "source": "HybridQA",
+  "source_table_id": "5747ec4e-97ba-5f66-9002-20eb38185a82",
+  "domain": "HybridQA",
+  "title": "Royal Canadian Legion",
+  "columns": [
+    "Name",
+    "Town/City/Region",
+    "Province",
+    "Type",
+    "Summary"
+  ],
+  "rows": [
+    [
+      [
+        "Herman J . Good V.C Branch No.18 Royal Canadian Legion War Museum",
+        []
+      ],
+      [
+        "Bathurst Gloucester",
+        [
+          "/wiki/Bathurst,_New_Brunswick",
+          "/wiki/Gloucester_County,_New_Brunswick"
+        ]
+      ],
+      [
+        "New Brunswick",
+        [
+          "/wiki/New_Brunswick"
+        ]
+      ],
+      [
+        "Military",
+        []
+      ],
+      [
+        "information , information",
+        []
+      ]
+    ],
+    [
+      [
+        "Royal Canadian Legion Military Museum",
+        []
+      ],
+      [
+        "Grand Falls-Windsor",
+        [
+          "/wiki/Grand_Falls-Windsor,_Newfoundland_and_Labrador"
+        ]
+      ],
+      [
+        "Newfoundland and Labrador",
+        [
+          "/wiki/Newfoundland_and_Labrador"
+        ]
+      ],
+      [
+        "Military",
+        []
+      ],
+      [
+        "information , information , operated by the Royal Canadian Legion Branch 12",
+        []
+      ]
+    ],
+    [
+      [
+        "Royal Canadian Legion Military Museum",
+        []
+      ],
+      [
+        "Dartmouth Halifax Regional Municipality Metro Halifax",
+        [
+          "/wiki/Dartmouth,_Nova_Scotia",
+          "/wiki/Halifax_Regional_Municipality",
+          "/wiki/Metropolitan_Halifax"
+        ]
+      ],
+      [
+        "Nova Scotia",
+        [
+          "/wiki/Nova_Scotia"
+        ]
+      ],
+      [
+        "Military",
+        []
+      ],
+      [
+        "information",
+        []
+      ]
+    ],
+    [
+      [
+        "Hall of Remembrance Military Museum",
+        []
+      ],
+      [
+        "Perth Eastern",
+        [
+          "/wiki/Perth,_Ontario",
+          "/wiki/Eastern_Ontario"
+        ]
+      ],
+      [
+        "Ontario",
+        [
+          "/wiki/Ontario"
+        ]
+      ],
+      [
+        "Military",
+        []
+      ],
+      [
+        "website",
+        []
+      ]
+    ],
+    [
+      [
+        "Royal Canadian Legion Branch 72 Museum",
+        []
+      ],
+      [
+        "Pembroke Eastern",
+        [
+          "/wiki/Pembroke,_Ontario",
+          "/wiki/Eastern_Ontario"
+        ]
+      ],
+      [
+        "Ontario",
+        [
+          "/wiki/Ontario"
+        ]
+      ],
+      [
+        "Military",
+        []
+      ],
+      [
+        "website , information , open by request and for special events , local branch of the Royal Canadian Legion",
+        []
+      ]
+    ],
+    [
+      [
+        "Kensington Veterans Memorial Museum",
+        []
+      ],
+      [
+        "Kensington Prince",
+        [
+          "/wiki/Kensington,_Prince_Edward_Island",
+          "/wiki/Prince_County,_Prince_Edward_Island"
+        ]
+      ],
+      [
+        "Prince Edward Island",
+        [
+          "/wiki/Prince_Edward_Island"
+        ]
+      ],
+      [
+        "Military",
+        []
+      ],
+      [
+        "website , adjacent to the Royal Canadian Legion , includes uniforms , medals , hand weapons , flags , photographs and maps",
+        []
+      ]
+    ],
+    [
+      [
+        "Royal Canadian Legion Museum",
+        []
+      ],
+      [
+        "Saskatoon West Central",
+        [
+          "/wiki/Saskatoon"
+        ]
+      ],
+      [
+        "Saskatchewan",
+        [
+          "/wiki/Saskatchewan"
+        ]
+      ],
+      [
+        "Military",
+        []
+      ],
+      [
+        "website , uniforms , medals and memorabilia of the Royal Canadian Legion",
+        []
+      ]
+    ],
+    [
+      [
+        "Royal Canadian Legion Branch 80 Museum ( Ken Snider Memorial Museum )",
+        []
+      ],
+      [
+        "Midland Central",
+        [
+          "/wiki/Midland,_Ontario",
+          "/wiki/Central_Ontario"
+        ]
+      ],
+      [
+        "Ontario",
+        [
+          "/wiki/Ontario"
+        ]
+      ],
+      [
+        "Military",
+        []
+      ],
+      [
+        "website , information , open by request and for special events , local branch of the Royal Canadian Legion",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "5747ec4e-97ba-5f66-9002-20eb38185a82",
+    "table_id": "Royal_Canadian_Legion_0",
+    "title": "Royal Canadian Legion",
+    "header": [
+      "Name",
+      "Town/City/Region",
+      "Province",
+      "Type",
+      "Summary"
+    ],
+    "value": [
+      [
+        [
+          "Herman J . Good V.C Branch No.18 Royal Canadian Legion War Museum",
+          []
+        ],
+        [
+          "Bathurst Gloucester",
+          [
+            "/wiki/Bathurst,_New_Brunswick",
+            "/wiki/Gloucester_County,_New_Brunswick"
+          ]
+        ],
+        [
+          "New Brunswick",
+          [
+            "/wiki/New_Brunswick"
+          ]
+        ],
+        [
+          "Military",
+          []
+        ],
+        [
+          "information , information",
+          []
+        ]
+      ],
+      [
+        [
+          "Royal Canadian Legion Military Museum",
+          []
+        ],
+        [
+          "Grand Falls-Windsor",
+          [
+            "/wiki/Grand_Falls-Windsor,_Newfoundland_and_Labrador"
+          ]
+        ],
+        [
+          "Newfoundland and Labrador",
+          [
+            "/wiki/Newfoundland_and_Labrador"
+          ]
+        ],
+        [
+          "Military",
+          []
+        ],
+        [
+          "information , information , operated by the Royal Canadian Legion Branch 12",
+          []
+        ]
+      ],
+      [
+        [
+          "Royal Canadian Legion Military Museum",
+          []
+        ],
+        [
+          "Dartmouth Halifax Regional Municipality Metro Halifax",
+          [
+            "/wiki/Dartmouth,_Nova_Scotia",
+            "/wiki/Halifax_Regional_Municipality",
+            "/wiki/Metropolitan_Halifax"
+          ]
+        ],
+        [
+          "Nova Scotia",
+          [
+            "/wiki/Nova_Scotia"
+          ]
+        ],
+        [
+          "Military",
+          []
+        ],
+        [
+          "information",
+          []
+        ]
+      ],
+      [
+        [
+          "Hall of Remembrance Military Museum",
+          []
+        ],
+        [
+          "Perth Eastern",
+          [
+            "/wiki/Perth,_Ontario",
+            "/wiki/Eastern_Ontario"
+          ]
+        ],
+        [
+          "Ontario",
+          [
+            "/wiki/Ontario"
+          ]
+        ],
+        [
+          "Military",
+          []
+        ],
+        [
+          "website",
+          []
+        ]
+      ],
+      [
+        [
+          "Royal Canadian Legion Branch 72 Museum",
+          []
+        ],
+        [
+          "Pembroke Eastern",
+          [
+            "/wiki/Pembroke,_Ontario",
+            "/wiki/Eastern_Ontario"
+          ]
+        ],
+        [
+          "Ontario",
+          [
+            "/wiki/Ontario"
+          ]
+        ],
+        [
+          "Military",
+          []
+        ],
+        [
+          "website , information , open by request and for special events , local branch of the Royal Canadian Legion",
+          []
+        ]
+      ],
+      [
+        [
+          "Kensington Veterans Memorial Museum",
+          []
+        ],
+        [
+          "Kensington Prince",
+          [
+            "/wiki/Kensington,_Prince_Edward_Island",
+            "/wiki/Prince_County,_Prince_Edward_Island"
+          ]
+        ],
+        [
+          "Prince Edward Island",
+          [
+            "/wiki/Prince_Edward_Island"
+          ]
+        ],
+        [
+          "Military",
+          []
+        ],
+        [
+          "website , adjacent to the Royal Canadian Legion , includes uniforms , medals , hand weapons , flags , photographs and maps",
+          []
+        ]
+      ],
+      [
+        [
+          "Royal Canadian Legion Museum",
+          []
+        ],
+        [
+          "Saskatoon West Central",
+          [
+            "/wiki/Saskatoon"
+          ]
+        ],
+        [
+          "Saskatchewan",
+          [
+            "/wiki/Saskatchewan"
+          ]
+        ],
+        [
+          "Military",
+          []
+        ],
+        [
+          "website , uniforms , medals and memorabilia of the Royal Canadian Legion",
+          []
+        ]
+      ],
+      [
+        [
+          "Royal Canadian Legion Branch 80 Museum ( Ken Snider Memorial Museum )",
+          []
+        ],
+        [
+          "Midland Central",
+          [
+            "/wiki/Midland,_Ontario",
+            "/wiki/Central_Ontario"
+          ]
+        ],
+        [
+          "Ontario",
+          [
+            "/wiki/Ontario"
+          ]
+        ],
+        [
+          "Military",
+          []
+        ],
+        [
+          "website , information , open by request and for special events , local branch of the Royal Canadian Legion",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about various branches and museums associated with the Royal Canadian Legion, including their names, locations, provinces, types, and summaries. It serves as a reference for understanding the geographical and operational details of these entities within Canada.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Type",
+    "Summary"
+  ],
+  "entities": [
+    "Name",
+    "Town/City/Region",
+    "Province"
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "table_id": "T609",
+  "uid": "47f5e50a-87a2-58f4-bb2a-3115b70f0080",
+  "source": "HybridQA",
+  "source_table_id": "47f5e50a-87a2-58f4-bb2a-3115b70f0080",
+  "domain": "HybridQA",
+  "title": "1950 College Baseball All-America Team",
+  "columns": [
+    "Position",
+    "Name",
+    "School"
+  ],
+  "rows": [
+    [
+      [
+        "Pitcher",
+        [
+          "/wiki/Pitcher"
+        ]
+      ],
+      [
+        "Murray Wall ( 2 )",
+        [
+          "/wiki/Murray_Wall_(baseball)"
+        ]
+      ],
+      [
+        "Texas",
+        [
+          "/wiki/Texas_Longhorns_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Pitcher",
+        [
+          "/wiki/Pitcher"
+        ]
+      ],
+      [
+        "Tom Casey",
+        []
+      ],
+      [
+        "NYU",
+        [
+          "/wiki/NYU_Violets"
+        ]
+      ]
+    ],
+    [
+      [
+        "Catcher",
+        [
+          "/wiki/Catcher"
+        ]
+      ],
+      [
+        "Robert Murray",
+        []
+      ],
+      [
+        "Arizona",
+        [
+          "/wiki/Arizona_Wildcats_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "First baseman",
+        [
+          "/wiki/First_baseman"
+        ]
+      ],
+      [
+        "Fred Taylor",
+        [
+          "/wiki/Fred_Taylor_(basketball,_born_1924)"
+        ]
+      ],
+      [
+        "Ohio State",
+        [
+          "/wiki/Ohio_State_Buckeyes_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Second baseman",
+        [
+          "/wiki/Second_baseman"
+        ]
+      ],
+      [
+        "Charles Teague ( 3 ) ♦",
+        [
+          "/wiki/Charles_Teague_(baseball)"
+        ]
+      ],
+      [
+        "Wake Forest",
+        [
+          "/wiki/Wake_Forest_Demon_Deacons_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Third baseman",
+        [
+          "/wiki/Third_baseman"
+        ]
+      ],
+      [
+        "William Killinger",
+        []
+      ],
+      [
+        "Lafayette",
+        [
+          "/wiki/Lafayette_Leopards"
+        ]
+      ]
+    ],
+    [
+      [
+        "Shortstop",
+        [
+          "/wiki/Shortstop"
+        ]
+      ],
+      [
+        "John Hrasch",
+        []
+      ],
+      [
+        "Ohio",
+        [
+          "/wiki/Ohio_Bobcats"
+        ]
+      ]
+    ],
+    [
+      [
+        "Outfielder",
+        [
+          "/wiki/Outfielder"
+        ]
+      ],
+      [
+        "Jay Roundy",
+        []
+      ],
+      [
+        "USC",
+        [
+          "/wiki/USC_Trojans"
+        ]
+      ]
+    ],
+    [
+      [
+        "Outfielder",
+        [
+          "/wiki/Outfielder"
+        ]
+      ],
+      [
+        "Ray Van Cleef",
+        [
+          "/wiki/Ray_Van_Cleef"
+        ]
+      ],
+      [
+        "Rutgers",
+        [
+          "/wiki/Rutgers_Scarlet_Knights"
+        ]
+      ]
+    ],
+    [
+      [
+        "Outfielder",
+        [
+          "/wiki/Outfielder"
+        ]
+      ],
+      [
+        "Robert Cerv",
+        [
+          "/wiki/Robert_Cerv"
+        ]
+      ],
+      [
+        "Nebraska",
+        [
+          "/wiki/Nebraska_Cornhuskers_baseball"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "47f5e50a-87a2-58f4-bb2a-3115b70f0080",
+    "table_id": "1950_College_Baseball_All-America_Team_0",
+    "title": "1950 College Baseball All-America Team",
+    "header": [
+      "Position",
+      "Name",
+      "School"
+    ],
+    "value": [
+      [
+        [
+          "Pitcher",
+          [
+            "/wiki/Pitcher"
+          ]
+        ],
+        [
+          "Murray Wall ( 2 )",
+          [
+            "/wiki/Murray_Wall_(baseball)"
+          ]
+        ],
+        [
+          "Texas",
+          [
+            "/wiki/Texas_Longhorns_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Pitcher",
+          [
+            "/wiki/Pitcher"
+          ]
+        ],
+        [
+          "Tom Casey",
+          []
+        ],
+        [
+          "NYU",
+          [
+            "/wiki/NYU_Violets"
+          ]
+        ]
+      ],
+      [
+        [
+          "Catcher",
+          [
+            "/wiki/Catcher"
+          ]
+        ],
+        [
+          "Robert Murray",
+          []
+        ],
+        [
+          "Arizona",
+          [
+            "/wiki/Arizona_Wildcats_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "First baseman",
+          [
+            "/wiki/First_baseman"
+          ]
+        ],
+        [
+          "Fred Taylor",
+          [
+            "/wiki/Fred_Taylor_(basketball,_born_1924)"
+          ]
+        ],
+        [
+          "Ohio State",
+          [
+            "/wiki/Ohio_State_Buckeyes_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Second baseman",
+          [
+            "/wiki/Second_baseman"
+          ]
+        ],
+        [
+          "Charles Teague ( 3 ) ♦",
+          [
+            "/wiki/Charles_Teague_(baseball)"
+          ]
+        ],
+        [
+          "Wake Forest",
+          [
+            "/wiki/Wake_Forest_Demon_Deacons_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Third baseman",
+          [
+            "/wiki/Third_baseman"
+          ]
+        ],
+        [
+          "William Killinger",
+          []
+        ],
+        [
+          "Lafayette",
+          [
+            "/wiki/Lafayette_Leopards"
+          ]
+        ]
+      ],
+      [
+        [
+          "Shortstop",
+          [
+            "/wiki/Shortstop"
+          ]
+        ],
+        [
+          "John Hrasch",
+          []
+        ],
+        [
+          "Ohio",
+          [
+            "/wiki/Ohio_Bobcats"
+          ]
+        ]
+      ],
+      [
+        [
+          "Outfielder",
+          [
+            "/wiki/Outfielder"
+          ]
+        ],
+        [
+          "Jay Roundy",
+          []
+        ],
+        [
+          "USC",
+          [
+            "/wiki/USC_Trojans"
+          ]
+        ]
+      ],
+      [
+        [
+          "Outfielder",
+          [
+            "/wiki/Outfielder"
+          ]
+        ],
+        [
+          "Ray Van Cleef",
+          [
+            "/wiki/Ray_Van_Cleef"
+          ]
+        ],
+        [
+          "Rutgers",
+          [
+            "/wiki/Rutgers_Scarlet_Knights"
+          ]
+        ]
+      ],
+      [
+        [
+          "Outfielder",
+          [
+            "/wiki/Outfielder"
+          ]
+        ],
+        [
+          "Robert Cerv",
+          [
+            "/wiki/Robert_Cerv"
+          ]
+        ],
+        [
+          "Nebraska",
+          [
+            "/wiki/Nebraska_Cornhuskers_baseball"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table lists the members of the 1950 College Baseball All-America Team, highlighting their positions, names, and associated schools. It serves as a record of notable college baseball players from that year. The table provides information about player roles and affiliations within the context of college baseball history.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Position"
+  ],
+  "entities": [
+    "Name",
+    "School"
+  ]
+}

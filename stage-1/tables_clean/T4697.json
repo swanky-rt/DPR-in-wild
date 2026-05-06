@@ -1,0 +1,416 @@
+{
+  "table_id": "T4697",
+  "uid": "152286f7-c077-5fe4-899c-f5c81ffedc54",
+  "source": "HybridQA",
+  "source_table_id": "152286f7-c077-5fe4-899c-f5c81ffedc54",
+  "domain": "HybridQA",
+  "title": "Public transport in the London Borough of Havering",
+  "columns": [
+    "Station",
+    "Manager",
+    "Category",
+    "Fare zone"
+  ],
+  "rows": [
+    [
+      [
+        "Elm Park",
+        [
+          "/wiki/Elm_Park_tube_station"
+        ]
+      ],
+      [
+        "London Underground",
+        [
+          "/wiki/London_Underground"
+        ]
+      ],
+      [
+        "n/a",
+        []
+      ],
+      [
+        6,
+        []
+      ]
+    ],
+    [
+      [
+        "Emerson Park",
+        [
+          "/wiki/Emerson_Park_railway_station"
+        ]
+      ],
+      [
+        "London Overground",
+        [
+          "/wiki/London_Overground"
+        ]
+      ],
+      [
+        "F",
+        []
+      ],
+      [
+        6,
+        []
+      ]
+    ],
+    [
+      [
+        "Gidea Park",
+        [
+          "/wiki/Gidea_Park_railway_station"
+        ]
+      ],
+      [
+        "TfL Rail",
+        [
+          "/wiki/TfL_Rail"
+        ]
+      ],
+      [
+        "C",
+        []
+      ],
+      [
+        6,
+        []
+      ]
+    ],
+    [
+      [
+        "Harold Wood",
+        [
+          "/wiki/Harold_Wood_railway_station"
+        ]
+      ],
+      [
+        "TfL Rail",
+        []
+      ],
+      [
+        "C",
+        []
+      ],
+      [
+        6,
+        []
+      ]
+    ],
+    [
+      [
+        "Hornchurch",
+        [
+          "/wiki/Hornchurch_tube_station"
+        ]
+      ],
+      [
+        "London Underground",
+        []
+      ],
+      [
+        "n/a",
+        []
+      ],
+      [
+        6,
+        []
+      ]
+    ],
+    [
+      [
+        "Rainham",
+        [
+          "/wiki/Rainham_railway_station_(London)"
+        ]
+      ],
+      [
+        "c2c",
+        [
+          "/wiki/C2c"
+        ]
+      ],
+      [
+        "C",
+        []
+      ],
+      [
+        6,
+        []
+      ]
+    ],
+    [
+      [
+        "Romford",
+        [
+          "/wiki/Romford_railway_station"
+        ]
+      ],
+      [
+        "TfL Rail",
+        []
+      ],
+      [
+        "C",
+        []
+      ],
+      [
+        6,
+        []
+      ]
+    ],
+    [
+      [
+        "Upminster",
+        [
+          "/wiki/Upminster_station"
+        ]
+      ],
+      [
+        "c2c",
+        []
+      ],
+      [
+        "C",
+        []
+      ],
+      [
+        6,
+        []
+      ]
+    ],
+    [
+      [
+        "Upminster Bridge",
+        [
+          "/wiki/Upminster_Bridge_tube_station"
+        ]
+      ],
+      [
+        "London Underground",
+        []
+      ],
+      [
+        "n/a",
+        []
+      ],
+      [
+        6,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "152286f7-c077-5fe4-899c-f5c81ffedc54",
+    "table_id": "Public_transport_in_Havering_0",
+    "title": "Public transport in the London Borough of Havering",
+    "header": [
+      "Station",
+      "Manager",
+      "Category",
+      "Fare zone"
+    ],
+    "value": [
+      [
+        [
+          "Elm Park",
+          [
+            "/wiki/Elm_Park_tube_station"
+          ]
+        ],
+        [
+          "London Underground",
+          [
+            "/wiki/London_Underground"
+          ]
+        ],
+        [
+          "n/a",
+          []
+        ],
+        [
+          6,
+          []
+        ]
+      ],
+      [
+        [
+          "Emerson Park",
+          [
+            "/wiki/Emerson_Park_railway_station"
+          ]
+        ],
+        [
+          "London Overground",
+          [
+            "/wiki/London_Overground"
+          ]
+        ],
+        [
+          "F",
+          []
+        ],
+        [
+          6,
+          []
+        ]
+      ],
+      [
+        [
+          "Gidea Park",
+          [
+            "/wiki/Gidea_Park_railway_station"
+          ]
+        ],
+        [
+          "TfL Rail",
+          [
+            "/wiki/TfL_Rail"
+          ]
+        ],
+        [
+          "C",
+          []
+        ],
+        [
+          6,
+          []
+        ]
+      ],
+      [
+        [
+          "Harold Wood",
+          [
+            "/wiki/Harold_Wood_railway_station"
+          ]
+        ],
+        [
+          "TfL Rail",
+          []
+        ],
+        [
+          "C",
+          []
+        ],
+        [
+          6,
+          []
+        ]
+      ],
+      [
+        [
+          "Hornchurch",
+          [
+            "/wiki/Hornchurch_tube_station"
+          ]
+        ],
+        [
+          "London Underground",
+          []
+        ],
+        [
+          "n/a",
+          []
+        ],
+        [
+          6,
+          []
+        ]
+      ],
+      [
+        [
+          "Rainham",
+          [
+            "/wiki/Rainham_railway_station_(London)"
+          ]
+        ],
+        [
+          "c2c",
+          [
+            "/wiki/C2c"
+          ]
+        ],
+        [
+          "C",
+          []
+        ],
+        [
+          6,
+          []
+        ]
+      ],
+      [
+        [
+          "Romford",
+          [
+            "/wiki/Romford_railway_station"
+          ]
+        ],
+        [
+          "TfL Rail",
+          []
+        ],
+        [
+          "C",
+          []
+        ],
+        [
+          6,
+          []
+        ]
+      ],
+      [
+        [
+          "Upminster",
+          [
+            "/wiki/Upminster_station"
+          ]
+        ],
+        [
+          "c2c",
+          []
+        ],
+        [
+          "C",
+          []
+        ],
+        [
+          6,
+          []
+        ]
+      ],
+      [
+        [
+          "Upminster Bridge",
+          [
+            "/wiki/Upminster_Bridge_tube_station"
+          ]
+        ],
+        [
+          "London Underground",
+          []
+        ],
+        [
+          "n/a",
+          []
+        ],
+        [
+          6,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about public transport stations in the London Borough of Havering, including details about their management, categorization, and fare zones. It is intended to give an overview of the transport infrastructure in this area, highlighting key attributes of each station.",
+  "numeric_columns": [
+    "Fare zone"
+  ],
+  "categorical_columns": [
+    "Manager",
+    "Category"
+  ],
+  "entities": [
+    "Station"
+  ]
+}

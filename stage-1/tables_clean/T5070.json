@@ -1,0 +1,531 @@
+{
+  "table_id": "T5070",
+  "uid": "d5503eb9-5071-5eb5-9fb1-1295378451c0",
+  "source": "HybridQA",
+  "source_table_id": "d5503eb9-5071-5eb5-9fb1-1295378451c0",
+  "domain": "HybridQA",
+  "title": "List of county routes in Sullivan County, New York",
+  "columns": [
+    "Route",
+    "Length ( mi )",
+    "Length ( km )",
+    "From",
+    "Via",
+    "To"
+  ],
+  "rows": [
+    [
+      [
+        "CR 141",
+        []
+      ],
+      [
+        6.83,
+        []
+      ],
+      [
+        10.99,
+        []
+      ],
+      [
+        "NY 55 / CR 14 in Bethel",
+        [
+          "/wiki/NY_55",
+          "/wiki/Bethel,_New_York"
+        ]
+      ],
+      [
+        "Horseshoe Lake and White Lake roads",
+        []
+      ],
+      [
+        "CR 142 / CR 143 in Liberty",
+        [
+          "/wiki/Liberty_(town),_New_York"
+        ]
+      ]
+    ],
+    [
+      [
+        "CR 142",
+        []
+      ],
+      [
+        2.15,
+        []
+      ],
+      [
+        3.46,
+        []
+      ],
+      [
+        "CR 141 / CR 143",
+        []
+      ],
+      [
+        "Swan Lake Road in Liberty",
+        [
+          "/wiki/Liberty_(town),_New_York"
+        ]
+      ],
+      [
+        "NY 55 / CR 15",
+        [
+          "/wiki/NY_55"
+        ]
+      ]
+    ],
+    [
+      [
+        "CR 143",
+        []
+      ],
+      [
+        4.96,
+        []
+      ],
+      [
+        7.98,
+        []
+      ],
+      [
+        "CR 141 / CR 142",
+        []
+      ],
+      [
+        "Briscoe and White Sulphur roads in Liberty",
+        [
+          "/wiki/Liberty_(town),_New_York"
+        ]
+      ],
+      [
+        "NY 52",
+        [
+          "/wiki/NY_52"
+        ]
+      ]
+    ],
+    [
+      [
+        "CR 143A",
+        []
+      ],
+      [
+        0.05,
+        []
+      ],
+      [
+        0.08,
+        []
+      ],
+      [
+        "CR 141",
+        []
+      ],
+      [
+        "Briscoe Road in Liberty",
+        [
+          "/wiki/Liberty_(town),_New_York"
+        ]
+      ],
+      [
+        "CR 143",
+        []
+      ]
+    ],
+    [
+      [
+        "CR 144",
+        []
+      ],
+      [
+        3.76,
+        []
+      ],
+      [
+        6.05,
+        []
+      ],
+      [
+        "NY 52 in Callicoon",
+        [
+          "/wiki/NY_52",
+          "/wiki/Callicoon_(town),_New_York"
+        ]
+      ],
+      [
+        "Briscoe Road",
+        []
+      ],
+      [
+        "CR 143 in Liberty",
+        [
+          "/wiki/Liberty_(town),_New_York"
+        ]
+      ]
+    ],
+    [
+      [
+        "CR 145",
+        []
+      ],
+      [
+        2.14,
+        []
+      ],
+      [
+        3.44,
+        []
+      ],
+      [
+        "NY 52",
+        [
+          "/wiki/NY_52"
+        ]
+      ],
+      [
+        "Dahlia Road in Liberty",
+        [
+          "/wiki/Liberty_(town),_New_York"
+        ]
+      ],
+      [
+        "CR 146",
+        []
+      ]
+    ],
+    [
+      [
+        "CR 146",
+        []
+      ],
+      [
+        4.01,
+        []
+      ],
+      [
+        6.45,
+        []
+      ],
+      [
+        "CR 145 in Liberty",
+        [
+          "/wiki/Liberty_(town),_New_York"
+        ]
+      ],
+      [
+        "Dalhia Road",
+        []
+      ],
+      [
+        "CR 178 in Rockland",
+        [
+          "/wiki/Rockland,_New_York"
+        ]
+      ]
+    ],
+    [
+      [
+        "CR 149",
+        [
+          "/wiki/County_Route_149_(Sullivan_County,_New_York)"
+        ]
+      ],
+      [
+        8.69,
+        []
+      ],
+      [
+        13.99,
+        []
+      ],
+      [
+        "NY 52 in Callicoon",
+        [
+          "/wiki/NY_52",
+          "/wiki/Callicoon_(town),_New_York"
+        ]
+      ],
+      [
+        "Shandelee Road and Main Street",
+        []
+      ],
+      [
+        "CR 178 in Rockland",
+        [
+          "/wiki/Rockland,_New_York"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "d5503eb9-5071-5eb5-9fb1-1295378451c0",
+    "table_id": "List_of_county_routes_in_Sullivan_County,_New_York_13",
+    "title": "List of county routes in Sullivan County, New York",
+    "header": [
+      "Route",
+      "Length ( mi )",
+      "Length ( km )",
+      "From",
+      "Via",
+      "To"
+    ],
+    "value": [
+      [
+        [
+          "CR 141",
+          []
+        ],
+        [
+          6.83,
+          []
+        ],
+        [
+          10.99,
+          []
+        ],
+        [
+          "NY 55 / CR 14 in Bethel",
+          [
+            "/wiki/NY_55",
+            "/wiki/Bethel,_New_York"
+          ]
+        ],
+        [
+          "Horseshoe Lake and White Lake roads",
+          []
+        ],
+        [
+          "CR 142 / CR 143 in Liberty",
+          [
+            "/wiki/Liberty_(town),_New_York"
+          ]
+        ]
+      ],
+      [
+        [
+          "CR 142",
+          []
+        ],
+        [
+          2.15,
+          []
+        ],
+        [
+          3.46,
+          []
+        ],
+        [
+          "CR 141 / CR 143",
+          []
+        ],
+        [
+          "Swan Lake Road in Liberty",
+          [
+            "/wiki/Liberty_(town),_New_York"
+          ]
+        ],
+        [
+          "NY 55 / CR 15",
+          [
+            "/wiki/NY_55"
+          ]
+        ]
+      ],
+      [
+        [
+          "CR 143",
+          []
+        ],
+        [
+          4.96,
+          []
+        ],
+        [
+          7.98,
+          []
+        ],
+        [
+          "CR 141 / CR 142",
+          []
+        ],
+        [
+          "Briscoe and White Sulphur roads in Liberty",
+          [
+            "/wiki/Liberty_(town),_New_York"
+          ]
+        ],
+        [
+          "NY 52",
+          [
+            "/wiki/NY_52"
+          ]
+        ]
+      ],
+      [
+        [
+          "CR 143A",
+          []
+        ],
+        [
+          0.05,
+          []
+        ],
+        [
+          0.08,
+          []
+        ],
+        [
+          "CR 141",
+          []
+        ],
+        [
+          "Briscoe Road in Liberty",
+          [
+            "/wiki/Liberty_(town),_New_York"
+          ]
+        ],
+        [
+          "CR 143",
+          []
+        ]
+      ],
+      [
+        [
+          "CR 144",
+          []
+        ],
+        [
+          3.76,
+          []
+        ],
+        [
+          6.05,
+          []
+        ],
+        [
+          "NY 52 in Callicoon",
+          [
+            "/wiki/NY_52",
+            "/wiki/Callicoon_(town),_New_York"
+          ]
+        ],
+        [
+          "Briscoe Road",
+          []
+        ],
+        [
+          "CR 143 in Liberty",
+          [
+            "/wiki/Liberty_(town),_New_York"
+          ]
+        ]
+      ],
+      [
+        [
+          "CR 145",
+          []
+        ],
+        [
+          2.14,
+          []
+        ],
+        [
+          3.44,
+          []
+        ],
+        [
+          "NY 52",
+          [
+            "/wiki/NY_52"
+          ]
+        ],
+        [
+          "Dahlia Road in Liberty",
+          [
+            "/wiki/Liberty_(town),_New_York"
+          ]
+        ],
+        [
+          "CR 146",
+          []
+        ]
+      ],
+      [
+        [
+          "CR 146",
+          []
+        ],
+        [
+          4.01,
+          []
+        ],
+        [
+          6.45,
+          []
+        ],
+        [
+          "CR 145 in Liberty",
+          [
+            "/wiki/Liberty_(town),_New_York"
+          ]
+        ],
+        [
+          "Dalhia Road",
+          []
+        ],
+        [
+          "CR 178 in Rockland",
+          [
+            "/wiki/Rockland,_New_York"
+          ]
+        ]
+      ],
+      [
+        [
+          "CR 149",
+          [
+            "/wiki/County_Route_149_(Sullivan_County,_New_York)"
+          ]
+        ],
+        [
+          8.69,
+          []
+        ],
+        [
+          13.99,
+          []
+        ],
+        [
+          "NY 52 in Callicoon",
+          [
+            "/wiki/NY_52",
+            "/wiki/Callicoon_(town),_New_York"
+          ]
+        ],
+        [
+          "Shandelee Road and Main Street",
+          []
+        ],
+        [
+          "CR 178 in Rockland",
+          [
+            "/wiki/Rockland,_New_York"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a list of county routes in Sullivan County, New York, detailing their lengths, starting and ending points, and the roads they traverse. It serves as a reference for understanding the geographic and infrastructural layout of the county's road network. The table includes both numeric measurements and descriptive route information.",
+  "numeric_columns": [
+    "Length ( mi )",
+    "Length ( km )"
+  ],
+  "categorical_columns": [
+    "Route",
+    "From",
+    "Via",
+    "To"
+  ],
+  "entities": []
+}

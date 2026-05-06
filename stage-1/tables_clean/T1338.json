@@ -1,0 +1,535 @@
+{
+  "table_id": "T1338",
+  "uid": "8597eacc-90b2-5df8-a405-6f8f7cb32121",
+  "source": "HybridQA",
+  "source_table_id": "8597eacc-90b2-5df8-a405-6f8f7cb32121",
+  "domain": "HybridQA",
+  "title": "OK Liga",
+  "columns": [
+    "Team",
+    "Arena",
+    "City/Area"
+  ],
+  "rows": [
+    [
+      [
+        "Barcelona",
+        [
+          "/wiki/FC_Barcelona_Hoquei"
+        ]
+      ],
+      [
+        "Palau Blaugrana",
+        [
+          "/wiki/Palau_Blaugrana"
+        ]
+      ],
+      [
+        "Barcelona",
+        [
+          "/wiki/Barcelona"
+        ]
+      ]
+    ],
+    [
+      [
+        "Calafell Tot l'Any",
+        []
+      ],
+      [
+        "Joan Ortoll",
+        []
+      ],
+      [
+        "Calafell",
+        [
+          "/wiki/Calafell"
+        ]
+      ]
+    ],
+    [
+      [
+        "Caldes Recam Làser",
+        [
+          "/wiki/CH_Caldes"
+        ]
+      ],
+      [
+        "Torre Roja",
+        []
+      ],
+      [
+        "Caldes de Montbui",
+        [
+          "/wiki/Caldes_de_Montbui"
+        ]
+      ]
+    ],
+    [
+      [
+        "Corredor Mató Palafrugell",
+        []
+      ],
+      [
+        "Pavelló Municipal",
+        []
+      ],
+      [
+        "Palafrugell",
+        [
+          "/wiki/Palafrugell"
+        ]
+      ]
+    ],
+    [
+      [
+        "Deportivo Liceo",
+        [
+          "/wiki/HC_Liceo"
+        ]
+      ],
+      [
+        "Riazor",
+        [
+          "/wiki/Pazo_dos_Deportes_de_Riazor"
+        ]
+      ],
+      [
+        "A Coruña",
+        [
+          "/wiki/A_Coruña"
+        ]
+      ]
+    ],
+    [
+      [
+        "Garatge Plana Girona",
+        [
+          "/wiki/Girona_CH"
+        ]
+      ],
+      [
+        "Palau II",
+        []
+      ],
+      [
+        "Girona",
+        [
+          "/wiki/Girona"
+        ]
+      ]
+    ],
+    [
+      [
+        "Igualada Rigat",
+        [
+          "/wiki/Igualada_HC"
+        ]
+      ],
+      [
+        "Les Comes",
+        []
+      ],
+      [
+        "Igualada",
+        [
+          "/wiki/Igualada"
+        ]
+      ]
+    ],
+    [
+      [
+        "Lleida Llista Blava",
+        [
+          "/wiki/CE_Lleida_Llista_Blava"
+        ]
+      ],
+      [
+        "Onze de Setembre",
+        []
+      ],
+      [
+        "Lleida",
+        [
+          "/wiki/Lleida"
+        ]
+      ]
+    ],
+    [
+      [
+        "Lloret Vila Esportiva",
+        []
+      ],
+      [
+        "Pavelló Municipal",
+        []
+      ],
+      [
+        "Lloret de Mar",
+        [
+          "/wiki/Lloret_de_Mar"
+        ]
+      ]
+    ],
+    [
+      [
+        "Noia Freixenet",
+        [
+          "/wiki/CE_Noia"
+        ]
+      ],
+      [
+        "Pavelló Olímpic",
+        []
+      ],
+      [
+        "Sant Sadurní d'Anoia",
+        [
+          "/wiki/Sant_Sadurní_d'Anoia"
+        ]
+      ]
+    ],
+    [
+      [
+        "Reus Deportiu Miró",
+        [
+          "/wiki/Reus_Deportiu"
+        ]
+      ],
+      [
+        "Pavelló del Reus Deportiu",
+        []
+      ],
+      [
+        "Reus",
+        [
+          "/wiki/Reus"
+        ]
+      ]
+    ],
+    [
+      [
+        "Stern Motor Voltregà",
+        [
+          "/wiki/CP_Voltregà"
+        ]
+      ],
+      [
+        "Victorià Oliveras de la Riva",
+        []
+      ],
+      [
+        "Sant Hipòlit de Voltregà",
+        [
+          "/wiki/Sant_Hipòlit_de_Voltregà"
+        ]
+      ]
+    ],
+    [
+      [
+        "Taradell",
+        []
+      ],
+      [
+        "El Pujoló",
+        []
+      ],
+      [
+        "Taradell",
+        [
+          "/wiki/Taradell"
+        ]
+      ]
+    ],
+    [
+      [
+        "Vic",
+        [
+          "/wiki/CP_Vic"
+        ]
+      ],
+      [
+        "Pavelló Olímpic",
+        []
+      ],
+      [
+        "Vic",
+        [
+          "/wiki/Vic"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "8597eacc-90b2-5df8-a405-6f8f7cb32121",
+    "table_id": "OK_Liga_0",
+    "title": "OK Liga",
+    "header": [
+      "Team",
+      "Arena",
+      "City/Area"
+    ],
+    "value": [
+      [
+        [
+          "Barcelona",
+          [
+            "/wiki/FC_Barcelona_Hoquei"
+          ]
+        ],
+        [
+          "Palau Blaugrana",
+          [
+            "/wiki/Palau_Blaugrana"
+          ]
+        ],
+        [
+          "Barcelona",
+          [
+            "/wiki/Barcelona"
+          ]
+        ]
+      ],
+      [
+        [
+          "Calafell Tot l'Any",
+          []
+        ],
+        [
+          "Joan Ortoll",
+          []
+        ],
+        [
+          "Calafell",
+          [
+            "/wiki/Calafell"
+          ]
+        ]
+      ],
+      [
+        [
+          "Caldes Recam Làser",
+          [
+            "/wiki/CH_Caldes"
+          ]
+        ],
+        [
+          "Torre Roja",
+          []
+        ],
+        [
+          "Caldes de Montbui",
+          [
+            "/wiki/Caldes_de_Montbui"
+          ]
+        ]
+      ],
+      [
+        [
+          "Corredor Mató Palafrugell",
+          []
+        ],
+        [
+          "Pavelló Municipal",
+          []
+        ],
+        [
+          "Palafrugell",
+          [
+            "/wiki/Palafrugell"
+          ]
+        ]
+      ],
+      [
+        [
+          "Deportivo Liceo",
+          [
+            "/wiki/HC_Liceo"
+          ]
+        ],
+        [
+          "Riazor",
+          [
+            "/wiki/Pazo_dos_Deportes_de_Riazor"
+          ]
+        ],
+        [
+          "A Coruña",
+          [
+            "/wiki/A_Coruña"
+          ]
+        ]
+      ],
+      [
+        [
+          "Garatge Plana Girona",
+          [
+            "/wiki/Girona_CH"
+          ]
+        ],
+        [
+          "Palau II",
+          []
+        ],
+        [
+          "Girona",
+          [
+            "/wiki/Girona"
+          ]
+        ]
+      ],
+      [
+        [
+          "Igualada Rigat",
+          [
+            "/wiki/Igualada_HC"
+          ]
+        ],
+        [
+          "Les Comes",
+          []
+        ],
+        [
+          "Igualada",
+          [
+            "/wiki/Igualada"
+          ]
+        ]
+      ],
+      [
+        [
+          "Lleida Llista Blava",
+          [
+            "/wiki/CE_Lleida_Llista_Blava"
+          ]
+        ],
+        [
+          "Onze de Setembre",
+          []
+        ],
+        [
+          "Lleida",
+          [
+            "/wiki/Lleida"
+          ]
+        ]
+      ],
+      [
+        [
+          "Lloret Vila Esportiva",
+          []
+        ],
+        [
+          "Pavelló Municipal",
+          []
+        ],
+        [
+          "Lloret de Mar",
+          [
+            "/wiki/Lloret_de_Mar"
+          ]
+        ]
+      ],
+      [
+        [
+          "Noia Freixenet",
+          [
+            "/wiki/CE_Noia"
+          ]
+        ],
+        [
+          "Pavelló Olímpic",
+          []
+        ],
+        [
+          "Sant Sadurní d'Anoia",
+          [
+            "/wiki/Sant_Sadurní_d'Anoia"
+          ]
+        ]
+      ],
+      [
+        [
+          "Reus Deportiu Miró",
+          [
+            "/wiki/Reus_Deportiu"
+          ]
+        ],
+        [
+          "Pavelló del Reus Deportiu",
+          []
+        ],
+        [
+          "Reus",
+          [
+            "/wiki/Reus"
+          ]
+        ]
+      ],
+      [
+        [
+          "Stern Motor Voltregà",
+          [
+            "/wiki/CP_Voltregà"
+          ]
+        ],
+        [
+          "Victorià Oliveras de la Riva",
+          []
+        ],
+        [
+          "Sant Hipòlit de Voltregà",
+          [
+            "/wiki/Sant_Hipòlit_de_Voltregà"
+          ]
+        ]
+      ],
+      [
+        [
+          "Taradell",
+          []
+        ],
+        [
+          "El Pujoló",
+          []
+        ],
+        [
+          "Taradell",
+          [
+            "/wiki/Taradell"
+          ]
+        ]
+      ],
+      [
+        [
+          "Vic",
+          [
+            "/wiki/CP_Vic"
+          ]
+        ],
+        [
+          "Pavelló Olímpic",
+          []
+        ],
+        [
+          "Vic",
+          [
+            "/wiki/Vic"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about teams in the OK Liga, including their associated arenas and cities or areas. It is likely intended to give an overview of the teams' home locations and facilities within the league. The data connects teams to their geographic and venue contexts.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Team",
+    "Arena",
+    "City/Area"
+  ],
+  "entities": [
+    "Team",
+    "Arena",
+    "City/Area"
+  ]
+}

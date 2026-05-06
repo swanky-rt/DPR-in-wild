@@ -1,0 +1,502 @@
+{
+  "table_id": "T5426",
+  "uid": "a9c8e561-e2ab-58d1-9d61-8ddd9025c2a5",
+  "source": "HybridQA",
+  "source_table_id": "a9c8e561-e2ab-58d1-9d61-8ddd9025c2a5",
+  "domain": "HybridQA",
+  "title": "Bergen Airport, Flesland",
+  "columns": [
+    "Rank",
+    "City",
+    "Passengers",
+    "Airline"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "London-Gatwick and London-Heathrow , United Kingdom",
+        [
+          "/wiki/Gatwick_Airport",
+          "/wiki/Heathrow_Airport"
+        ]
+      ],
+      [
+        "604,211",
+        []
+      ],
+      [
+        "British Airways , Norwegian Air Shuttle , Scandinavian Airlines",
+        [
+          "/wiki/British_Airways",
+          "/wiki/Norwegian_Air_Shuttle",
+          "/wiki/Scandinavian_Airlines"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Copenhagen , Denmark",
+        [
+          "/wiki/Copenhagen_Airport"
+        ]
+      ],
+      [
+        "328,579",
+        []
+      ],
+      [
+        "Norwegian Air Shuttle , Scandinavian Airlines",
+        [
+          "/wiki/Norwegian_Air_Shuttle",
+          "/wiki/Scandinavian_Airlines"
+        ]
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Amsterdam , Netherlands",
+        [
+          "/wiki/Schiphol_Airport"
+        ]
+      ],
+      [
+        "258,859",
+        []
+      ],
+      [
+        "KLM",
+        [
+          "/wiki/KLM"
+        ]
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Frankfurt am Main , Germany",
+        [
+          "/wiki/Frankfurt_Airport"
+        ]
+      ],
+      [
+        "213,300",
+        []
+      ],
+      [
+        "Cityjet , Lufthansa",
+        [
+          "/wiki/Cityjet",
+          "/wiki/Lufthansa"
+        ]
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Stockholm-Arlanda , Sweden",
+        [
+          "/wiki/Stockholm-Arlanda_Airport"
+        ]
+      ],
+      [
+        "115,830",
+        []
+      ],
+      [
+        "Norwegian Air Shuttle , Scandinavian Airlines",
+        [
+          "/wiki/Norwegian_Air_Shuttle",
+          "/wiki/Scandinavian_Airlines"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Paris-Orly , France",
+        [
+          "/wiki/Orly_Airport"
+        ]
+      ],
+      [
+        "73,921",
+        []
+      ],
+      [
+        "Norwegian Air Shuttle",
+        [
+          "/wiki/Norwegian_Air_Shuttle"
+        ]
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Barcelona , Spain",
+        [
+          "/wiki/Barcelona_Airport"
+        ]
+      ],
+      [
+        "69,534",
+        []
+      ],
+      [
+        "Norwegian Air Shuttle , Scandinavian Airlines , Vueling",
+        [
+          "/wiki/Norwegian_Air_Shuttle",
+          "/wiki/Scandinavian_Airlines",
+          "/wiki/Vueling"
+        ]
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Berlin-Schönefeld and Berlin-Tegel , Germany",
+        [
+          "/wiki/Schönefeld_Airport",
+          "/wiki/Berlin_Tegel_Airport"
+        ]
+      ],
+      [
+        "54,827",
+        []
+      ],
+      [
+        "Air Berlin , Lufthansa , Norwegian Air Shuttle",
+        [
+          "/wiki/Air_Berlin",
+          "/wiki/Lufthansa",
+          "/wiki/Norwegian_Air_Shuttle"
+        ]
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Aberdeen , United Kingdom",
+        [
+          "/wiki/Aberdeen_Airport"
+        ]
+      ],
+      [
+        "51,484",
+        []
+      ],
+      [
+        "Widerøe",
+        [
+          "/wiki/Widerøe"
+        ]
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Reykjavik-Keflavík , Iceland",
+        [
+          "/wiki/Keflavík_International_Airport"
+        ]
+      ],
+      [
+        "40,721",
+        []
+      ],
+      [
+        "Icelandair",
+        [
+          "/wiki/Icelandair"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "a9c8e561-e2ab-58d1-9d61-8ddd9025c2a5",
+    "table_id": "Bergen_Airport,_Flesland_1",
+    "title": "Bergen Airport, Flesland",
+    "header": [
+      "Rank",
+      "City",
+      "Passengers",
+      "Airline"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "London-Gatwick and London-Heathrow , United Kingdom",
+          [
+            "/wiki/Gatwick_Airport",
+            "/wiki/Heathrow_Airport"
+          ]
+        ],
+        [
+          "604,211",
+          []
+        ],
+        [
+          "British Airways , Norwegian Air Shuttle , Scandinavian Airlines",
+          [
+            "/wiki/British_Airways",
+            "/wiki/Norwegian_Air_Shuttle",
+            "/wiki/Scandinavian_Airlines"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Copenhagen , Denmark",
+          [
+            "/wiki/Copenhagen_Airport"
+          ]
+        ],
+        [
+          "328,579",
+          []
+        ],
+        [
+          "Norwegian Air Shuttle , Scandinavian Airlines",
+          [
+            "/wiki/Norwegian_Air_Shuttle",
+            "/wiki/Scandinavian_Airlines"
+          ]
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Amsterdam , Netherlands",
+          [
+            "/wiki/Schiphol_Airport"
+          ]
+        ],
+        [
+          "258,859",
+          []
+        ],
+        [
+          "KLM",
+          [
+            "/wiki/KLM"
+          ]
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Frankfurt am Main , Germany",
+          [
+            "/wiki/Frankfurt_Airport"
+          ]
+        ],
+        [
+          "213,300",
+          []
+        ],
+        [
+          "Cityjet , Lufthansa",
+          [
+            "/wiki/Cityjet",
+            "/wiki/Lufthansa"
+          ]
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Stockholm-Arlanda , Sweden",
+          [
+            "/wiki/Stockholm-Arlanda_Airport"
+          ]
+        ],
+        [
+          "115,830",
+          []
+        ],
+        [
+          "Norwegian Air Shuttle , Scandinavian Airlines",
+          [
+            "/wiki/Norwegian_Air_Shuttle",
+            "/wiki/Scandinavian_Airlines"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Paris-Orly , France",
+          [
+            "/wiki/Orly_Airport"
+          ]
+        ],
+        [
+          "73,921",
+          []
+        ],
+        [
+          "Norwegian Air Shuttle",
+          [
+            "/wiki/Norwegian_Air_Shuttle"
+          ]
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Barcelona , Spain",
+          [
+            "/wiki/Barcelona_Airport"
+          ]
+        ],
+        [
+          "69,534",
+          []
+        ],
+        [
+          "Norwegian Air Shuttle , Scandinavian Airlines , Vueling",
+          [
+            "/wiki/Norwegian_Air_Shuttle",
+            "/wiki/Scandinavian_Airlines",
+            "/wiki/Vueling"
+          ]
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Berlin-Schönefeld and Berlin-Tegel , Germany",
+          [
+            "/wiki/Schönefeld_Airport",
+            "/wiki/Berlin_Tegel_Airport"
+          ]
+        ],
+        [
+          "54,827",
+          []
+        ],
+        [
+          "Air Berlin , Lufthansa , Norwegian Air Shuttle",
+          [
+            "/wiki/Air_Berlin",
+            "/wiki/Lufthansa",
+            "/wiki/Norwegian_Air_Shuttle"
+          ]
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Aberdeen , United Kingdom",
+          [
+            "/wiki/Aberdeen_Airport"
+          ]
+        ],
+        [
+          "51,484",
+          []
+        ],
+        [
+          "Widerøe",
+          [
+            "/wiki/Widerøe"
+          ]
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Reykjavik-Keflavík , Iceland",
+          [
+            "/wiki/Keflavík_International_Airport"
+          ]
+        ],
+        [
+          "40,721",
+          []
+        ],
+        [
+          "Icelandair",
+          [
+            "/wiki/Icelandair"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about passenger traffic at Bergen Airport, Flesland, categorized by destination cities and associated airlines. It includes rankings, passenger numbers, and airline details for various cities. The table is likely used to analyze travel patterns and airline operations at the airport.",
+  "numeric_columns": [
+    "Passengers"
+  ],
+  "categorical_columns": [
+    "Rank",
+    "Airline"
+  ],
+  "entities": [
+    "City"
+  ]
+}

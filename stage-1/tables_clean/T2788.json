@@ -1,0 +1,308 @@
+{
+  "table_id": "T2788",
+  "uid": "c97b3100-1d7e-5144-a0a8-1e317608672c",
+  "source": "HybridQA",
+  "source_table_id": "c97b3100-1d7e-5144-a0a8-1e317608672c",
+  "domain": "HybridQA",
+  "title": "List of association football clubs in the Republic of Ireland",
+  "columns": [
+    "Team",
+    "Home town/suburb",
+    "Ground"
+  ],
+  "rows": [
+    [
+      [
+        "Albion Rovers",
+        []
+      ],
+      [
+        "Monasterboice",
+        [
+          "/wiki/Monasterboice"
+        ]
+      ],
+      [
+        "Muireachs Park",
+        []
+      ]
+    ],
+    [
+      [
+        "Cabinteely",
+        [
+          "/wiki/Cabinteely_F.C."
+        ]
+      ],
+      [
+        "Cabinteely",
+        [
+          "/wiki/Cabinteely"
+        ]
+      ],
+      [
+        "Kilbogget Park",
+        []
+      ]
+    ],
+    [
+      [
+        "Drimnagh Celtic",
+        []
+      ],
+      [
+        "Drimnagh",
+        [
+          "/wiki/Drimnagh"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Eureka Kells",
+        []
+      ],
+      [
+        "Kells , County Meath",
+        [
+          "/wiki/Kells,_County_Meath"
+        ]
+      ],
+      [
+        "Dublin Road",
+        []
+      ]
+    ],
+    [
+      [
+        "Lakelands",
+        []
+      ],
+      [
+        "Stillorgan",
+        [
+          "/wiki/Stillorgan"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Leixlip United",
+        [
+          "/wiki/Leixlip_United_F.C."
+        ]
+      ],
+      [
+        "Leixlip",
+        [
+          "/wiki/Leixlip"
+        ]
+      ],
+      [
+        "Leixlip Amenities Centre",
+        []
+      ]
+    ],
+    [
+      [
+        "Peamount United C",
+        [
+          "/wiki/Peamount_United_F.C."
+        ]
+      ],
+      [
+        "Newcastle , South Dublin",
+        [
+          "/wiki/Newcastle,_South_Dublin"
+        ]
+      ],
+      [
+        "Greenogue",
+        [
+          "/wiki/Greenogue"
+        ]
+      ]
+    ],
+    [
+      [
+        "Templeogue",
+        []
+      ],
+      [
+        "Templeogue",
+        [
+          "/wiki/Templeogue"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "c97b3100-1d7e-5144-a0a8-1e317608672c",
+    "table_id": "List_of_association_football_clubs_in_the_Republic_of_Ireland_23",
+    "title": "List of association football clubs in the Republic of Ireland",
+    "header": [
+      "Team",
+      "Home town/suburb",
+      "Ground"
+    ],
+    "value": [
+      [
+        [
+          "Albion Rovers",
+          []
+        ],
+        [
+          "Monasterboice",
+          [
+            "/wiki/Monasterboice"
+          ]
+        ],
+        [
+          "Muireachs Park",
+          []
+        ]
+      ],
+      [
+        [
+          "Cabinteely",
+          [
+            "/wiki/Cabinteely_F.C."
+          ]
+        ],
+        [
+          "Cabinteely",
+          [
+            "/wiki/Cabinteely"
+          ]
+        ],
+        [
+          "Kilbogget Park",
+          []
+        ]
+      ],
+      [
+        [
+          "Drimnagh Celtic",
+          []
+        ],
+        [
+          "Drimnagh",
+          [
+            "/wiki/Drimnagh"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Eureka Kells",
+          []
+        ],
+        [
+          "Kells , County Meath",
+          [
+            "/wiki/Kells,_County_Meath"
+          ]
+        ],
+        [
+          "Dublin Road",
+          []
+        ]
+      ],
+      [
+        [
+          "Lakelands",
+          []
+        ],
+        [
+          "Stillorgan",
+          [
+            "/wiki/Stillorgan"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Leixlip United",
+          [
+            "/wiki/Leixlip_United_F.C."
+          ]
+        ],
+        [
+          "Leixlip",
+          [
+            "/wiki/Leixlip"
+          ]
+        ],
+        [
+          "Leixlip Amenities Centre",
+          []
+        ]
+      ],
+      [
+        [
+          "Peamount United C",
+          [
+            "/wiki/Peamount_United_F.C."
+          ]
+        ],
+        [
+          "Newcastle , South Dublin",
+          [
+            "/wiki/Newcastle,_South_Dublin"
+          ]
+        ],
+        [
+          "Greenogue",
+          [
+            "/wiki/Greenogue"
+          ]
+        ]
+      ],
+      [
+        [
+          "Templeogue",
+          []
+        ],
+        [
+          "Templeogue",
+          [
+            "/wiki/Templeogue"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table lists association football clubs in the Republic of Ireland, providing information about their home town or suburb and the ground where they play. It serves as a reference for understanding the geographical and infrastructural aspects of football clubs in the region.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Home town/suburb",
+    "Ground"
+  ],
+  "entities": [
+    "Team"
+  ]
+}

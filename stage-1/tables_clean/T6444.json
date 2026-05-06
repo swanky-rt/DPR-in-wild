@@ -1,0 +1,428 @@
+{
+  "table_id": "T6444",
+  "uid": "98298351-ea47-57ba-af43-f2b08f3c55f8",
+  "source": "HybridQA",
+  "source_table_id": "98298351-ea47-57ba-af43-f2b08f3c55f8",
+  "domain": "HybridQA",
+  "title": "List of power stations in Pakistan",
+  "columns": [
+    "Station",
+    "Location",
+    "Capacity ( MW )",
+    "Status"
+  ],
+  "rows": [
+    [
+      [
+        "Master power pvt Limited",
+        []
+      ],
+      [
+        "Raiwand , punjab",
+        [
+          "/wiki/Raiwand",
+          "/wiki/Punjab"
+        ]
+      ],
+      [
+        20,
+        []
+      ],
+      [
+        "Operational",
+        []
+      ]
+    ],
+    [
+      [
+        "Sitara Chemical Industries Ltd",
+        []
+      ],
+      [
+        "Faisalabad , Punjab",
+        [
+          "/wiki/Faisalabad",
+          "/wiki/Punjab"
+        ]
+      ],
+      [
+        40,
+        []
+      ],
+      [
+        "Operational since 2016",
+        []
+      ]
+    ],
+    [
+      [
+        "Fauji Fertilizer Power Plant",
+        []
+      ],
+      [
+        "Karachi , Sindh",
+        [
+          "/wiki/Karachi",
+          "/wiki/Sindh"
+        ]
+      ],
+      [
+        118,
+        []
+      ],
+      [
+        "Operational since 2017",
+        []
+      ]
+    ],
+    [
+      [
+        "Sahiwal Coal Power Project",
+        [
+          "/wiki/Sahiwal_Coal_Power_Project"
+        ]
+      ],
+      [
+        "Sahiwal , Punjab",
+        [
+          "/wiki/Sahiwal",
+          "/wiki/Punjab,_Pakistan"
+        ]
+      ],
+      [
+        1320,
+        []
+      ],
+      [
+        "Operational since 2017",
+        []
+      ]
+    ],
+    [
+      [
+        "Maple Leaf Power Ltd",
+        []
+      ],
+      [
+        "Mianwali , Punjab",
+        [
+          "/wiki/Mianwali",
+          "/wiki/Punjab"
+        ]
+      ],
+      [
+        40,
+        []
+      ],
+      [
+        "Operational since 2017",
+        []
+      ]
+    ],
+    [
+      [
+        "Port Qasim Coal Power Project",
+        [
+          "/wiki/Port_Qasim_Coal_Power_Project"
+        ]
+      ],
+      [
+        "Karachi , Sindh",
+        [
+          "/wiki/Karachi",
+          "/wiki/Sindh"
+        ]
+      ],
+      [
+        1320,
+        []
+      ],
+      [
+        "Operational since 2017",
+        []
+      ]
+    ],
+    [
+      [
+        "DG Cement Coal Power Project",
+        []
+      ],
+      [
+        "DG Khan , Punjab",
+        [
+          "/wiki/DG_Khan",
+          "/wiki/Punjab"
+        ]
+      ],
+      [
+        30,
+        []
+      ],
+      [
+        "Operational since 2017",
+        []
+      ]
+    ],
+    [
+      [
+        "Hub Coal Power Project",
+        []
+      ],
+      [
+        "Hub , Balochistan",
+        [
+          "/wiki/Hub,_Balochistan"
+        ]
+      ],
+      [
+        1320,
+        []
+      ],
+      [
+        "Operational since 2018",
+        []
+      ]
+    ],
+    [
+      [
+        "Engro Powergen Thar",
+        [
+          "/wiki/Engro_Energy_Limited"
+        ]
+      ],
+      [
+        "Tharparkar , Sindh",
+        [
+          "/wiki/Tharparkar",
+          "/wiki/Sindh"
+        ]
+      ],
+      [
+        660,
+        []
+      ],
+      [
+        "Operational since 2019",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "98298351-ea47-57ba-af43-f2b08f3c55f8",
+    "table_id": "List_of_power_stations_in_Pakistan_3",
+    "title": "List of power stations in Pakistan",
+    "header": [
+      "Station",
+      "Location",
+      "Capacity ( MW )",
+      "Status"
+    ],
+    "value": [
+      [
+        [
+          "Master power pvt Limited",
+          []
+        ],
+        [
+          "Raiwand , punjab",
+          [
+            "/wiki/Raiwand",
+            "/wiki/Punjab"
+          ]
+        ],
+        [
+          20,
+          []
+        ],
+        [
+          "Operational",
+          []
+        ]
+      ],
+      [
+        [
+          "Sitara Chemical Industries Ltd",
+          []
+        ],
+        [
+          "Faisalabad , Punjab",
+          [
+            "/wiki/Faisalabad",
+            "/wiki/Punjab"
+          ]
+        ],
+        [
+          40,
+          []
+        ],
+        [
+          "Operational since 2016",
+          []
+        ]
+      ],
+      [
+        [
+          "Fauji Fertilizer Power Plant",
+          []
+        ],
+        [
+          "Karachi , Sindh",
+          [
+            "/wiki/Karachi",
+            "/wiki/Sindh"
+          ]
+        ],
+        [
+          118,
+          []
+        ],
+        [
+          "Operational since 2017",
+          []
+        ]
+      ],
+      [
+        [
+          "Sahiwal Coal Power Project",
+          [
+            "/wiki/Sahiwal_Coal_Power_Project"
+          ]
+        ],
+        [
+          "Sahiwal , Punjab",
+          [
+            "/wiki/Sahiwal",
+            "/wiki/Punjab,_Pakistan"
+          ]
+        ],
+        [
+          1320,
+          []
+        ],
+        [
+          "Operational since 2017",
+          []
+        ]
+      ],
+      [
+        [
+          "Maple Leaf Power Ltd",
+          []
+        ],
+        [
+          "Mianwali , Punjab",
+          [
+            "/wiki/Mianwali",
+            "/wiki/Punjab"
+          ]
+        ],
+        [
+          40,
+          []
+        ],
+        [
+          "Operational since 2017",
+          []
+        ]
+      ],
+      [
+        [
+          "Port Qasim Coal Power Project",
+          [
+            "/wiki/Port_Qasim_Coal_Power_Project"
+          ]
+        ],
+        [
+          "Karachi , Sindh",
+          [
+            "/wiki/Karachi",
+            "/wiki/Sindh"
+          ]
+        ],
+        [
+          1320,
+          []
+        ],
+        [
+          "Operational since 2017",
+          []
+        ]
+      ],
+      [
+        [
+          "DG Cement Coal Power Project",
+          []
+        ],
+        [
+          "DG Khan , Punjab",
+          [
+            "/wiki/DG_Khan",
+            "/wiki/Punjab"
+          ]
+        ],
+        [
+          30,
+          []
+        ],
+        [
+          "Operational since 2017",
+          []
+        ]
+      ],
+      [
+        [
+          "Hub Coal Power Project",
+          []
+        ],
+        [
+          "Hub , Balochistan",
+          [
+            "/wiki/Hub,_Balochistan"
+          ]
+        ],
+        [
+          1320,
+          []
+        ],
+        [
+          "Operational since 2018",
+          []
+        ]
+      ],
+      [
+        [
+          "Engro Powergen Thar",
+          [
+            "/wiki/Engro_Energy_Limited"
+          ]
+        ],
+        [
+          "Tharparkar , Sindh",
+          [
+            "/wiki/Tharparkar",
+            "/wiki/Sindh"
+          ]
+        ],
+        [
+          660,
+          []
+        ],
+        [
+          "Operational since 2019",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of power stations in Pakistan, detailing their names, locations, capacities, and operational statuses. It is intended to summarize key information about energy infrastructure in the country, including operational and capacity details for each station.",
+  "numeric_columns": [
+    "Capacity ( MW )"
+  ],
+  "categorical_columns": [
+    "Status"
+  ],
+  "entities": [
+    "Station",
+    "Location"
+  ]
+}

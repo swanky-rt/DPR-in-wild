@@ -1,0 +1,520 @@
+{
+  "table_id": "T2152",
+  "uid": "d443019f-cb61-5bcc-a842-56ab6f3dbe8c",
+  "source": "HybridQA",
+  "source_table_id": "d443019f-cb61-5bcc-a842-56ab6f3dbe8c",
+  "domain": "HybridQA",
+  "title": "2005 AFL draft",
+  "columns": [
+    "Pick",
+    "Player",
+    "Recruited from",
+    "Club"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Dylan McLaren",
+        [
+          "/wiki/Dylan_McLaren"
+        ]
+      ],
+      [
+        "Brisbane Lions",
+        [
+          "/wiki/Brisbane_Lions"
+        ]
+      ],
+      [
+        "Carlton",
+        [
+          "/wiki/Carlton_Football_Club"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Sam Iles",
+        [
+          "/wiki/Sam_Iles"
+        ]
+      ],
+      [
+        "Tassie Mariners",
+        [
+          "/wiki/Tassie_Mariners"
+        ]
+      ],
+      [
+        "Collingwood",
+        [
+          "/wiki/Collingwood_Football_Club"
+        ]
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Brent Guerra",
+        [
+          "/wiki/Brent_Guerra"
+        ]
+      ],
+      [
+        "St Kilda",
+        [
+          "/wiki/St_Kilda_Football_Club"
+        ]
+      ],
+      [
+        "Hawthorn",
+        [
+          "/wiki/Hawthorn_Football_Club"
+        ]
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Scott Camporeale",
+        [
+          "/wiki/Scott_Camporeale"
+        ]
+      ],
+      [
+        "Carlton",
+        [
+          "/wiki/Carlton_Football_Club"
+        ]
+      ],
+      [
+        "Essendon",
+        [
+          "/wiki/Essendon_Football_Club"
+        ]
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Matthew White",
+        [
+          "/wiki/Matthew_White_(footballer)"
+        ]
+      ],
+      [
+        "Calder Cannons",
+        [
+          "/wiki/Calder_Cannons"
+        ]
+      ],
+      [
+        "Richmond",
+        [
+          "/wiki/Richmond_Football_Club"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Ben Fixter",
+        [
+          "/wiki/Ben_Fixter"
+        ]
+      ],
+      [
+        "Sydney Swans",
+        [
+          "/wiki/Sydney_Swans"
+        ]
+      ],
+      [
+        "Brisbane Lions",
+        [
+          "/wiki/Brisbane_Lions"
+        ]
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Cameron Thurley",
+        [
+          "/wiki/Cameron_Thurley"
+        ]
+      ],
+      [
+        "Geelong",
+        [
+          "/wiki/Geelong_Football_Club"
+        ]
+      ],
+      [
+        "Kangaroos",
+        [
+          "/wiki/Kangaroos_Football_Club"
+        ]
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Matt Thomas",
+        [
+          "/wiki/Matt_Thomas_(Australian_rules_footballer)"
+        ]
+      ],
+      [
+        "Sandringham Dragons",
+        [
+          "/wiki/Sandringham_Dragons"
+        ]
+      ],
+      [
+        "Port Adelaide",
+        [
+          "/wiki/Port_Adelaide_Football_Club"
+        ]
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Jason Porplyzia",
+        [
+          "/wiki/Jason_Porplyzia"
+        ]
+      ],
+      [
+        "West Adelaide",
+        [
+          "/wiki/West_Adelaide_Football_Club"
+        ]
+      ],
+      [
+        "Adelaide",
+        [
+          "/wiki/Adelaide_Football_Club"
+        ]
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Chris Heffernan",
+        [
+          "/wiki/Chris_Heffernan"
+        ]
+      ],
+      [
+        "Melbourne",
+        [
+          "/wiki/Melbourne_Football_Club"
+        ]
+      ],
+      [
+        "Essendon",
+        [
+          "/wiki/Essendon_Football_Club"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "d443019f-cb61-5bcc-a842-56ab6f3dbe8c",
+    "table_id": "2005_AFL_Draft_2",
+    "title": "2005 AFL draft",
+    "header": [
+      "Pick",
+      "Player",
+      "Recruited from",
+      "Club"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Dylan McLaren",
+          [
+            "/wiki/Dylan_McLaren"
+          ]
+        ],
+        [
+          "Brisbane Lions",
+          [
+            "/wiki/Brisbane_Lions"
+          ]
+        ],
+        [
+          "Carlton",
+          [
+            "/wiki/Carlton_Football_Club"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Sam Iles",
+          [
+            "/wiki/Sam_Iles"
+          ]
+        ],
+        [
+          "Tassie Mariners",
+          [
+            "/wiki/Tassie_Mariners"
+          ]
+        ],
+        [
+          "Collingwood",
+          [
+            "/wiki/Collingwood_Football_Club"
+          ]
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Brent Guerra",
+          [
+            "/wiki/Brent_Guerra"
+          ]
+        ],
+        [
+          "St Kilda",
+          [
+            "/wiki/St_Kilda_Football_Club"
+          ]
+        ],
+        [
+          "Hawthorn",
+          [
+            "/wiki/Hawthorn_Football_Club"
+          ]
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Scott Camporeale",
+          [
+            "/wiki/Scott_Camporeale"
+          ]
+        ],
+        [
+          "Carlton",
+          [
+            "/wiki/Carlton_Football_Club"
+          ]
+        ],
+        [
+          "Essendon",
+          [
+            "/wiki/Essendon_Football_Club"
+          ]
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Matthew White",
+          [
+            "/wiki/Matthew_White_(footballer)"
+          ]
+        ],
+        [
+          "Calder Cannons",
+          [
+            "/wiki/Calder_Cannons"
+          ]
+        ],
+        [
+          "Richmond",
+          [
+            "/wiki/Richmond_Football_Club"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Ben Fixter",
+          [
+            "/wiki/Ben_Fixter"
+          ]
+        ],
+        [
+          "Sydney Swans",
+          [
+            "/wiki/Sydney_Swans"
+          ]
+        ],
+        [
+          "Brisbane Lions",
+          [
+            "/wiki/Brisbane_Lions"
+          ]
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Cameron Thurley",
+          [
+            "/wiki/Cameron_Thurley"
+          ]
+        ],
+        [
+          "Geelong",
+          [
+            "/wiki/Geelong_Football_Club"
+          ]
+        ],
+        [
+          "Kangaroos",
+          [
+            "/wiki/Kangaroos_Football_Club"
+          ]
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Matt Thomas",
+          [
+            "/wiki/Matt_Thomas_(Australian_rules_footballer)"
+          ]
+        ],
+        [
+          "Sandringham Dragons",
+          [
+            "/wiki/Sandringham_Dragons"
+          ]
+        ],
+        [
+          "Port Adelaide",
+          [
+            "/wiki/Port_Adelaide_Football_Club"
+          ]
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Jason Porplyzia",
+          [
+            "/wiki/Jason_Porplyzia"
+          ]
+        ],
+        [
+          "West Adelaide",
+          [
+            "/wiki/West_Adelaide_Football_Club"
+          ]
+        ],
+        [
+          "Adelaide",
+          [
+            "/wiki/Adelaide_Football_Club"
+          ]
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Chris Heffernan",
+          [
+            "/wiki/Chris_Heffernan"
+          ]
+        ],
+        [
+          "Melbourne",
+          [
+            "/wiki/Melbourne_Football_Club"
+          ]
+        ],
+        [
+          "Essendon",
+          [
+            "/wiki/Essendon_Football_Club"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table represents the 2005 AFL draft, detailing the selection process of players by various clubs. It includes information about the draft pick number, the player selected, their previous team or location, and the club they were recruited to. The table serves as a record of player recruitment during this specific draft year in Australian football.",
+  "numeric_columns": [
+    "Pick"
+  ],
+  "categorical_columns": [
+    "Recruited from",
+    "Club"
+  ],
+  "entities": [
+    "Player"
+  ]
+}

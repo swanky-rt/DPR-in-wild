@@ -1,0 +1,452 @@
+{
+  "table_id": "T8386",
+  "uid": "3a99a34a-a029-5d42-9496-712eda05aff0",
+  "source": "HybridQA",
+  "source_table_id": "3a99a34a-a029-5d42-9496-712eda05aff0",
+  "domain": "HybridQA",
+  "title": "National colours",
+  "columns": [
+    "Country",
+    "Primary colours",
+    "Secondary colours"
+  ],
+  "rows": [
+    [
+      [
+        "Argentina",
+        [
+          "/wiki/Argentina"
+        ]
+      ],
+      [
+        "Light blue and white",
+        []
+      ],
+      [
+        "Blue and black ( used in sports )",
+        []
+      ]
+    ],
+    [
+      [
+        "Bolivia",
+        [
+          "/wiki/Bolivia"
+        ]
+      ],
+      [
+        "Red , yellow and green",
+        []
+      ],
+      [
+        "White ( used in sports )",
+        []
+      ]
+    ],
+    [
+      [
+        "Brazil",
+        [
+          "/wiki/Brazil"
+        ]
+      ],
+      [
+        "Green and yellow",
+        []
+      ],
+      [
+        "Blue and white",
+        []
+      ]
+    ],
+    [
+      [
+        "Chile",
+        [
+          "/wiki/Chile"
+        ]
+      ],
+      [
+        "Red , white and blue",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Colombia",
+        [
+          "/wiki/Colombia"
+        ]
+      ],
+      [
+        "Yellow , blue and red",
+        []
+      ],
+      [
+        "Dark blue and white ( used in sports )",
+        []
+      ]
+    ],
+    [
+      [
+        "Ecuador",
+        [
+          "/wiki/Ecuador"
+        ]
+      ],
+      [
+        "Yellow , blue and red",
+        []
+      ],
+      [
+        "Sky blue ( used in sports )",
+        []
+      ]
+    ],
+    [
+      [
+        "French Guiana",
+        [
+          "/wiki/French_Guiana"
+        ]
+      ],
+      [
+        "Yellow and green",
+        []
+      ],
+      [
+        "Blue ( used in sports )",
+        []
+      ]
+    ],
+    [
+      [
+        "Guyana",
+        [
+          "/wiki/Guyana"
+        ]
+      ],
+      [
+        "Yellow and green",
+        []
+      ],
+      [
+        "Red and black",
+        []
+      ]
+    ],
+    [
+      [
+        "Paraguay",
+        [
+          "/wiki/Paraguay"
+        ]
+      ],
+      [
+        "Red , white and blue",
+        []
+      ],
+      [
+        "Bluegray ( used in sports )",
+        []
+      ]
+    ],
+    [
+      [
+        "Peru",
+        [
+          "/wiki/Peru"
+        ]
+      ],
+      [
+        "Red and white",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Suriname",
+        [
+          "/wiki/Suriname"
+        ]
+      ],
+      [
+        "White and green",
+        []
+      ],
+      [
+        "Red and gold",
+        []
+      ]
+    ],
+    [
+      [
+        "Uruguay",
+        [
+          "/wiki/Uruguay"
+        ]
+      ],
+      [
+        "Blue and white",
+        []
+      ],
+      [
+        "Red ; light blue and black are used in sports",
+        []
+      ]
+    ],
+    [
+      [
+        "Venezuela",
+        [
+          "/wiki/Venezuela"
+        ]
+      ],
+      [
+        "Yellow , blue and red",
+        []
+      ],
+      [
+        "Burgundy and khaki ( used in sports )",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "3a99a34a-a029-5d42-9496-712eda05aff0",
+    "table_id": "National_colours_2",
+    "title": "National colours",
+    "header": [
+      "Country",
+      "Primary colours",
+      "Secondary colours"
+    ],
+    "value": [
+      [
+        [
+          "Argentina",
+          [
+            "/wiki/Argentina"
+          ]
+        ],
+        [
+          "Light blue and white",
+          []
+        ],
+        [
+          "Blue and black ( used in sports )",
+          []
+        ]
+      ],
+      [
+        [
+          "Bolivia",
+          [
+            "/wiki/Bolivia"
+          ]
+        ],
+        [
+          "Red , yellow and green",
+          []
+        ],
+        [
+          "White ( used in sports )",
+          []
+        ]
+      ],
+      [
+        [
+          "Brazil",
+          [
+            "/wiki/Brazil"
+          ]
+        ],
+        [
+          "Green and yellow",
+          []
+        ],
+        [
+          "Blue and white",
+          []
+        ]
+      ],
+      [
+        [
+          "Chile",
+          [
+            "/wiki/Chile"
+          ]
+        ],
+        [
+          "Red , white and blue",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Colombia",
+          [
+            "/wiki/Colombia"
+          ]
+        ],
+        [
+          "Yellow , blue and red",
+          []
+        ],
+        [
+          "Dark blue and white ( used in sports )",
+          []
+        ]
+      ],
+      [
+        [
+          "Ecuador",
+          [
+            "/wiki/Ecuador"
+          ]
+        ],
+        [
+          "Yellow , blue and red",
+          []
+        ],
+        [
+          "Sky blue ( used in sports )",
+          []
+        ]
+      ],
+      [
+        [
+          "French Guiana",
+          [
+            "/wiki/French_Guiana"
+          ]
+        ],
+        [
+          "Yellow and green",
+          []
+        ],
+        [
+          "Blue ( used in sports )",
+          []
+        ]
+      ],
+      [
+        [
+          "Guyana",
+          [
+            "/wiki/Guyana"
+          ]
+        ],
+        [
+          "Yellow and green",
+          []
+        ],
+        [
+          "Red and black",
+          []
+        ]
+      ],
+      [
+        [
+          "Paraguay",
+          [
+            "/wiki/Paraguay"
+          ]
+        ],
+        [
+          "Red , white and blue",
+          []
+        ],
+        [
+          "Bluegray ( used in sports )",
+          []
+        ]
+      ],
+      [
+        [
+          "Peru",
+          [
+            "/wiki/Peru"
+          ]
+        ],
+        [
+          "Red and white",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Suriname",
+          [
+            "/wiki/Suriname"
+          ]
+        ],
+        [
+          "White and green",
+          []
+        ],
+        [
+          "Red and gold",
+          []
+        ]
+      ],
+      [
+        [
+          "Uruguay",
+          [
+            "/wiki/Uruguay"
+          ]
+        ],
+        [
+          "Blue and white",
+          []
+        ],
+        [
+          "Red ; light blue and black are used in sports",
+          []
+        ]
+      ],
+      [
+        [
+          "Venezuela",
+          [
+            "/wiki/Venezuela"
+          ]
+        ],
+        [
+          "Yellow , blue and red",
+          []
+        ],
+        [
+          "Burgundy and khaki ( used in sports )",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about national colors associated with different countries, including their primary and secondary color schemes. It appears to focus on the symbolic or representative colors used by nations, potentially in contexts like flags or sports.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Primary colours",
+    "Secondary colours"
+  ],
+  "entities": [
+    "Country"
+  ]
+}

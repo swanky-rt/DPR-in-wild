@@ -1,0 +1,658 @@
+{
+  "table_id": "T4456",
+  "uid": "121cce87-89d6-5b80-a0ea-2d04b5353d43",
+  "source": "HybridQA",
+  "source_table_id": "121cce87-89d6-5b80-a0ea-2d04b5353d43",
+  "domain": "HybridQA",
+  "title": "Valuair",
+  "columns": [
+    "City",
+    "Country",
+    "Airport",
+    "Begin",
+    "End"
+  ],
+  "rows": [
+    [
+      [
+        "Singapore",
+        [
+          "/wiki/Singapore"
+        ]
+      ],
+      [
+        "Singapore",
+        [
+          "/wiki/Singapore"
+        ]
+      ],
+      [
+        "Changi Airport ( base )",
+        [
+          "/wiki/Changi_Airport"
+        ]
+      ],
+      [
+        "5 May 2004",
+        []
+      ],
+      [
+        "26 October 2014",
+        []
+      ]
+    ],
+    [
+      [
+        "Denpasar",
+        [
+          "/wiki/Denpasar"
+        ]
+      ],
+      [
+        "Indonesia",
+        [
+          "/wiki/Indonesia"
+        ]
+      ],
+      [
+        "Ngurah Rai Airport",
+        [
+          "/wiki/Ngurah_Rai_Airport"
+        ]
+      ],
+      [
+        "27 January 2006",
+        []
+      ],
+      [
+        "26 October 2014",
+        []
+      ]
+    ],
+    [
+      [
+        "Jakarta",
+        [
+          "/wiki/Jakarta"
+        ]
+      ],
+      [
+        "Indonesia",
+        [
+          "/wiki/Indonesia"
+        ]
+      ],
+      [
+        "Soekarno-Hatta International Airport",
+        [
+          "/wiki/Soekarno-Hatta_International_Airport"
+        ]
+      ],
+      [
+        "23 October 2005",
+        []
+      ],
+      [
+        "26 October 2014",
+        []
+      ]
+    ],
+    [
+      [
+        "Medan",
+        [
+          "/wiki/Medan"
+        ]
+      ],
+      [
+        "Indonesia",
+        [
+          "/wiki/Indonesia"
+        ]
+      ],
+      [
+        "Kuala Namu International Airport",
+        [
+          "/wiki/Kuala_Namu_International_Airport"
+        ]
+      ],
+      [
+        "25 July 2013",
+        []
+      ],
+      [
+        "26 October 2014",
+        []
+      ]
+    ],
+    [
+      [
+        "Surabaya",
+        [
+          "/wiki/Surabaya"
+        ]
+      ],
+      [
+        "Indonesia",
+        [
+          "/wiki/Indonesia"
+        ]
+      ],
+      [
+        "Juanda International Airport",
+        [
+          "/wiki/Juanda_International_Airport"
+        ]
+      ],
+      [
+        "23 October 2005",
+        []
+      ],
+      [
+        "26 October 2014",
+        []
+      ]
+    ],
+    [
+      [
+        "Medan",
+        [
+          "/wiki/Medan"
+        ]
+      ],
+      [
+        "Indonesia",
+        [
+          "/wiki/Indonesia"
+        ]
+      ],
+      [
+        "Polonia International Airport",
+        [
+          "/wiki/Polonia_International_Airport"
+        ]
+      ],
+      [
+        "30 March 2008",
+        []
+      ],
+      [
+        2013,
+        []
+      ]
+    ],
+    [
+      [
+        "Bangkok",
+        [
+          "/wiki/Bangkok"
+        ]
+      ],
+      [
+        "Thailand",
+        [
+          "/wiki/Thailand"
+        ]
+      ],
+      [
+        "Bangkok International Airport",
+        [
+          "/wiki/Don_Mueang_International_Airport"
+        ]
+      ],
+      [
+        "5 May 2004",
+        []
+      ],
+      [
+        "November 2005",
+        []
+      ]
+    ],
+    [
+      [
+        "Chengdu",
+        [
+          "/wiki/Chengdu"
+        ]
+      ],
+      [
+        "China",
+        [
+          "/wiki/China"
+        ]
+      ],
+      [
+        "Chengdu Shuangliu International Airport",
+        [
+          "/wiki/Chengdu_Shuangliu_International_Airport"
+        ]
+      ],
+      [
+        "20 April 2005",
+        []
+      ],
+      [
+        "30 October 2005",
+        []
+      ]
+    ],
+    [
+      [
+        "Hong Kong",
+        [
+          "/wiki/Hong_Kong"
+        ]
+      ],
+      [
+        "Hong Kong",
+        [
+          "/wiki/Hong_Kong"
+        ]
+      ],
+      [
+        "Hong Kong International Airport",
+        [
+          "/wiki/Hong_Kong_International_Airport"
+        ]
+      ],
+      [
+        "7 May 2004",
+        []
+      ],
+      [
+        "23 October 2005",
+        []
+      ]
+    ],
+    [
+      [
+        "Perth",
+        [
+          "/wiki/Perth"
+        ]
+      ],
+      [
+        "Australia",
+        [
+          "/wiki/Australia"
+        ]
+      ],
+      [
+        "Perth Airport",
+        [
+          "/wiki/Perth_Airport"
+        ]
+      ],
+      [
+        "1 December 2004",
+        []
+      ],
+      [
+        "9 October 2005",
+        []
+      ]
+    ],
+    [
+      [
+        "Xiamen",
+        [
+          "/wiki/Xiamen"
+        ]
+      ],
+      [
+        "China",
+        [
+          "/wiki/China"
+        ]
+      ],
+      [
+        "Xiamen Gaoqi International Airport",
+        [
+          "/wiki/Xiamen_Gaoqi_International_Airport"
+        ]
+      ],
+      [
+        "25 April 2005",
+        []
+      ],
+      [
+        "30 October 2005",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "121cce87-89d6-5b80-a0ea-2d04b5353d43",
+    "table_id": "Valuair_0",
+    "title": "Valuair",
+    "header": [
+      "City",
+      "Country",
+      "Airport",
+      "Begin",
+      "End"
+    ],
+    "value": [
+      [
+        [
+          "Singapore",
+          [
+            "/wiki/Singapore"
+          ]
+        ],
+        [
+          "Singapore",
+          [
+            "/wiki/Singapore"
+          ]
+        ],
+        [
+          "Changi Airport ( base )",
+          [
+            "/wiki/Changi_Airport"
+          ]
+        ],
+        [
+          "5 May 2004",
+          []
+        ],
+        [
+          "26 October 2014",
+          []
+        ]
+      ],
+      [
+        [
+          "Denpasar",
+          [
+            "/wiki/Denpasar"
+          ]
+        ],
+        [
+          "Indonesia",
+          [
+            "/wiki/Indonesia"
+          ]
+        ],
+        [
+          "Ngurah Rai Airport",
+          [
+            "/wiki/Ngurah_Rai_Airport"
+          ]
+        ],
+        [
+          "27 January 2006",
+          []
+        ],
+        [
+          "26 October 2014",
+          []
+        ]
+      ],
+      [
+        [
+          "Jakarta",
+          [
+            "/wiki/Jakarta"
+          ]
+        ],
+        [
+          "Indonesia",
+          [
+            "/wiki/Indonesia"
+          ]
+        ],
+        [
+          "Soekarno-Hatta International Airport",
+          [
+            "/wiki/Soekarno-Hatta_International_Airport"
+          ]
+        ],
+        [
+          "23 October 2005",
+          []
+        ],
+        [
+          "26 October 2014",
+          []
+        ]
+      ],
+      [
+        [
+          "Medan",
+          [
+            "/wiki/Medan"
+          ]
+        ],
+        [
+          "Indonesia",
+          [
+            "/wiki/Indonesia"
+          ]
+        ],
+        [
+          "Kuala Namu International Airport",
+          [
+            "/wiki/Kuala_Namu_International_Airport"
+          ]
+        ],
+        [
+          "25 July 2013",
+          []
+        ],
+        [
+          "26 October 2014",
+          []
+        ]
+      ],
+      [
+        [
+          "Surabaya",
+          [
+            "/wiki/Surabaya"
+          ]
+        ],
+        [
+          "Indonesia",
+          [
+            "/wiki/Indonesia"
+          ]
+        ],
+        [
+          "Juanda International Airport",
+          [
+            "/wiki/Juanda_International_Airport"
+          ]
+        ],
+        [
+          "23 October 2005",
+          []
+        ],
+        [
+          "26 October 2014",
+          []
+        ]
+      ],
+      [
+        [
+          "Medan",
+          [
+            "/wiki/Medan"
+          ]
+        ],
+        [
+          "Indonesia",
+          [
+            "/wiki/Indonesia"
+          ]
+        ],
+        [
+          "Polonia International Airport",
+          [
+            "/wiki/Polonia_International_Airport"
+          ]
+        ],
+        [
+          "30 March 2008",
+          []
+        ],
+        [
+          2013,
+          []
+        ]
+      ],
+      [
+        [
+          "Bangkok",
+          [
+            "/wiki/Bangkok"
+          ]
+        ],
+        [
+          "Thailand",
+          [
+            "/wiki/Thailand"
+          ]
+        ],
+        [
+          "Bangkok International Airport",
+          [
+            "/wiki/Don_Mueang_International_Airport"
+          ]
+        ],
+        [
+          "5 May 2004",
+          []
+        ],
+        [
+          "November 2005",
+          []
+        ]
+      ],
+      [
+        [
+          "Chengdu",
+          [
+            "/wiki/Chengdu"
+          ]
+        ],
+        [
+          "China",
+          [
+            "/wiki/China"
+          ]
+        ],
+        [
+          "Chengdu Shuangliu International Airport",
+          [
+            "/wiki/Chengdu_Shuangliu_International_Airport"
+          ]
+        ],
+        [
+          "20 April 2005",
+          []
+        ],
+        [
+          "30 October 2005",
+          []
+        ]
+      ],
+      [
+        [
+          "Hong Kong",
+          [
+            "/wiki/Hong_Kong"
+          ]
+        ],
+        [
+          "Hong Kong",
+          [
+            "/wiki/Hong_Kong"
+          ]
+        ],
+        [
+          "Hong Kong International Airport",
+          [
+            "/wiki/Hong_Kong_International_Airport"
+          ]
+        ],
+        [
+          "7 May 2004",
+          []
+        ],
+        [
+          "23 October 2005",
+          []
+        ]
+      ],
+      [
+        [
+          "Perth",
+          [
+            "/wiki/Perth"
+          ]
+        ],
+        [
+          "Australia",
+          [
+            "/wiki/Australia"
+          ]
+        ],
+        [
+          "Perth Airport",
+          [
+            "/wiki/Perth_Airport"
+          ]
+        ],
+        [
+          "1 December 2004",
+          []
+        ],
+        [
+          "9 October 2005",
+          []
+        ]
+      ],
+      [
+        [
+          "Xiamen",
+          [
+            "/wiki/Xiamen"
+          ]
+        ],
+        [
+          "China",
+          [
+            "/wiki/China"
+          ]
+        ],
+        [
+          "Xiamen Gaoqi International Airport",
+          [
+            "/wiki/Xiamen_Gaoqi_International_Airport"
+          ]
+        ],
+        [
+          "25 April 2005",
+          []
+        ],
+        [
+          "30 October 2005",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the operations of Valuair, including the cities and countries it served, the airports it operated from, and the time periods during which these operations took place. It is designed to document the geographical and temporal scope of the airline's activities. The table is relevant for understanding the airline's network and history.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Begin",
+    "End"
+  ],
+  "entities": [
+    "City",
+    "Country",
+    "Airport"
+  ]
+}

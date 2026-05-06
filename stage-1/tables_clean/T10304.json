@@ -1,0 +1,324 @@
+{
+  "table_id": "T10304",
+  "uid": "8f67a79b-e249-5d94-a528-11c47006ce80",
+  "source": "HybridQA",
+  "source_table_id": "8f67a79b-e249-5d94-a528-11c47006ce80",
+  "domain": "HybridQA",
+  "title": "List of sponsored sports venues",
+  "columns": [
+    "Name",
+    "Location",
+    "Type"
+  ],
+  "rows": [
+    [
+      [
+        "AKA Arena",
+        [
+          "/wiki/AKA_Arena"
+        ]
+      ],
+      [
+        "Hønefoss",
+        [
+          "/wiki/Hønefoss"
+        ]
+      ],
+      [
+        "Football stadium",
+        []
+      ]
+    ],
+    [
+      [
+        "Aker Stadion",
+        [
+          "/wiki/Aker_Stadion"
+        ]
+      ],
+      [
+        "Molde",
+        [
+          "/wiki/Molde"
+        ]
+      ],
+      [
+        "Football stadium",
+        []
+      ]
+    ],
+    [
+      [
+        "Color Line Stadion",
+        [
+          "/wiki/Color_Line_Stadion"
+        ]
+      ],
+      [
+        "Ålesund",
+        [
+          "/wiki/Ålesund"
+        ]
+      ],
+      [
+        "Football stadium",
+        []
+      ]
+    ],
+    [
+      [
+        "Intility Arena",
+        [
+          "/wiki/Intility_Arena"
+        ]
+      ],
+      [
+        "Vålerenga",
+        [
+          "/wiki/Vålerenga"
+        ]
+      ],
+      [
+        "Football stadium",
+        []
+      ]
+    ],
+    [
+      [
+        "Komplett.no Arena",
+        [
+          "/wiki/Komplett.no_Arena"
+        ]
+      ],
+      [
+        "Sandefjord",
+        [
+          "/wiki/Sandefjord"
+        ]
+      ],
+      [
+        "Football stadium",
+        []
+      ]
+    ],
+    [
+      [
+        "Skagerak Arena",
+        [
+          "/wiki/Skagerak_Arena"
+        ]
+      ],
+      [
+        "Skien",
+        [
+          "/wiki/Skien"
+        ]
+      ],
+      [
+        "Football stadium",
+        []
+      ]
+    ],
+    [
+      [
+        "Sør Arena",
+        [
+          "/wiki/Sør_Arena"
+        ]
+      ],
+      [
+        "Kristiansand",
+        [
+          "/wiki/Kristiansand"
+        ]
+      ],
+      [
+        "Football stadium",
+        []
+      ]
+    ],
+    [
+      [
+        "Telenor Arena",
+        [
+          "/wiki/Telenor_Arena"
+        ]
+      ],
+      [
+        "Bærum",
+        [
+          "/wiki/Bærum"
+        ]
+      ],
+      [
+        "Domed football stadium",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "8f67a79b-e249-5d94-a528-11c47006ce80",
+    "table_id": "List_of_sports_venues_with_sole_naming_rights_24",
+    "title": "List of sponsored sports venues",
+    "header": [
+      "Name",
+      "Location",
+      "Type"
+    ],
+    "value": [
+      [
+        [
+          "AKA Arena",
+          [
+            "/wiki/AKA_Arena"
+          ]
+        ],
+        [
+          "Hønefoss",
+          [
+            "/wiki/Hønefoss"
+          ]
+        ],
+        [
+          "Football stadium",
+          []
+        ]
+      ],
+      [
+        [
+          "Aker Stadion",
+          [
+            "/wiki/Aker_Stadion"
+          ]
+        ],
+        [
+          "Molde",
+          [
+            "/wiki/Molde"
+          ]
+        ],
+        [
+          "Football stadium",
+          []
+        ]
+      ],
+      [
+        [
+          "Color Line Stadion",
+          [
+            "/wiki/Color_Line_Stadion"
+          ]
+        ],
+        [
+          "Ålesund",
+          [
+            "/wiki/Ålesund"
+          ]
+        ],
+        [
+          "Football stadium",
+          []
+        ]
+      ],
+      [
+        [
+          "Intility Arena",
+          [
+            "/wiki/Intility_Arena"
+          ]
+        ],
+        [
+          "Vålerenga",
+          [
+            "/wiki/Vålerenga"
+          ]
+        ],
+        [
+          "Football stadium",
+          []
+        ]
+      ],
+      [
+        [
+          "Komplett.no Arena",
+          [
+            "/wiki/Komplett.no_Arena"
+          ]
+        ],
+        [
+          "Sandefjord",
+          [
+            "/wiki/Sandefjord"
+          ]
+        ],
+        [
+          "Football stadium",
+          []
+        ]
+      ],
+      [
+        [
+          "Skagerak Arena",
+          [
+            "/wiki/Skagerak_Arena"
+          ]
+        ],
+        [
+          "Skien",
+          [
+            "/wiki/Skien"
+          ]
+        ],
+        [
+          "Football stadium",
+          []
+        ]
+      ],
+      [
+        [
+          "Sør Arena",
+          [
+            "/wiki/Sør_Arena"
+          ]
+        ],
+        [
+          "Kristiansand",
+          [
+            "/wiki/Kristiansand"
+          ]
+        ],
+        [
+          "Football stadium",
+          []
+        ]
+      ],
+      [
+        [
+          "Telenor Arena",
+          [
+            "/wiki/Telenor_Arena"
+          ]
+        ],
+        [
+          "Bærum",
+          [
+            "/wiki/Bærum"
+          ]
+        ],
+        [
+          "Domed football stadium",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table lists sports venues that are sponsored, providing information about their names, locations, and types. It is intended to catalog these venues and highlight their sponsorship status in the context of sports infrastructure.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Type"
+  ],
+  "entities": [
+    "Name",
+    "Location"
+  ]
+}

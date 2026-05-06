@@ -1,0 +1,293 @@
+{
+  "table_id": "T9760",
+  "uid": "126670fa-f77c-594c-bea8-7395e7005919",
+  "source": "HybridQA",
+  "source_table_id": "126670fa-f77c-594c-bea8-7395e7005919",
+  "domain": "HybridQA",
+  "title": "Double (association football)",
+  "columns": [
+    "Club",
+    "Number",
+    "Seasons"
+  ],
+  "rows": [
+    [
+      [
+        "Sahel",
+        [
+          "/wiki/Sahel_SC"
+        ]
+      ],
+      [
+        6,
+        []
+      ],
+      [
+        "1974 , 1986 , 1987 , 1992 , 1996 , 2004",
+        []
+      ]
+    ],
+    [
+      [
+        "Niamey",
+        [
+          "/wiki/AS_Niamey"
+        ]
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "1980 , 1981",
+        []
+      ]
+    ],
+    [
+      [
+        "Olympic de Niamey",
+        [
+          "/wiki/Olympic_FC_de_Niamey"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1977,
+        []
+      ]
+    ],
+    [
+      [
+        "Jangorzo",
+        [
+          "/wiki/Jangorzo_FC"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1983,
+        []
+      ]
+    ],
+    [
+      [
+        "Espoir",
+        [
+          "/wiki/Espoir_FC_(Niger)"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1984,
+        []
+      ]
+    ],
+    [
+      [
+        "JS du Ténéré",
+        [
+          "/wiki/JS_du_Ténéré"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        2000,
+        []
+      ]
+    ],
+    [
+      [
+        "AS Police",
+        [
+          "/wiki/AS_Police_(Niamey)"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        2008,
+        []
+      ]
+    ],
+    [
+      [
+        "AS FAN",
+        [
+          "/wiki/AS_FAN_Niamey"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        2010,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "126670fa-f77c-594c-bea8-7395e7005919",
+    "table_id": "Double_(association_football)_74",
+    "title": "Double (association football)",
+    "header": [
+      "Club",
+      "Number",
+      "Seasons"
+    ],
+    "value": [
+      [
+        [
+          "Sahel",
+          [
+            "/wiki/Sahel_SC"
+          ]
+        ],
+        [
+          6,
+          []
+        ],
+        [
+          "1974 , 1986 , 1987 , 1992 , 1996 , 2004",
+          []
+        ]
+      ],
+      [
+        [
+          "Niamey",
+          [
+            "/wiki/AS_Niamey"
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "1980 , 1981",
+          []
+        ]
+      ],
+      [
+        [
+          "Olympic de Niamey",
+          [
+            "/wiki/Olympic_FC_de_Niamey"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1977,
+          []
+        ]
+      ],
+      [
+        [
+          "Jangorzo",
+          [
+            "/wiki/Jangorzo_FC"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1983,
+          []
+        ]
+      ],
+      [
+        [
+          "Espoir",
+          [
+            "/wiki/Espoir_FC_(Niger)"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1984,
+          []
+        ]
+      ],
+      [
+        [
+          "JS du Ténéré",
+          [
+            "/wiki/JS_du_Ténéré"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          2000,
+          []
+        ]
+      ],
+      [
+        [
+          "AS Police",
+          [
+            "/wiki/AS_Police_(Niamey)"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          2008,
+          []
+        ]
+      ],
+      [
+        [
+          "AS FAN",
+          [
+            "/wiki/AS_FAN_Niamey"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          2010,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about football clubs and their achievements in terms of the number of doubles (winning both the league and cup in a single season) they have achieved, along with the seasons in which these doubles occurred. It is designed to highlight the performance history of various clubs in association football.",
+  "numeric_columns": [
+    "Number"
+  ],
+  "categorical_columns": [
+    "Seasons"
+  ],
+  "entities": [
+    "Club"
+  ]
+}

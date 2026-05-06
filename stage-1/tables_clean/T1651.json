@@ -1,0 +1,485 @@
+{
+  "table_id": "T1651",
+  "uid": "c3f7aa7e-110c-5d07-9b94-9262546df3cd",
+  "source": "HybridQA",
+  "source_table_id": "c3f7aa7e-110c-5d07-9b94-9262546df3cd",
+  "domain": "HybridQA",
+  "title": "List of highest-grossing openings for films",
+  "columns": [
+    "Year",
+    "Title",
+    "Opening ( USD in millions )"
+  ],
+  "rows": [
+    [
+      [
+        2002,
+        []
+      ],
+      [
+        "Spider-Man",
+        [
+          "/wiki/Spider-Man_(2002_film)"
+        ]
+      ],
+      [
+        "$ 125.9",
+        []
+      ]
+    ],
+    [
+      [
+        2002,
+        []
+      ],
+      [
+        "Star Wars : Episode II - Attack of the Clones",
+        [
+          "/wiki/Star_Wars:_Episode_II_–_Attack_of_the_Clones"
+        ]
+      ],
+      [
+        "$ 179.3",
+        []
+      ]
+    ],
+    [
+      [
+        2002,
+        []
+      ],
+      [
+        "The Lord of the Rings : The Two Towers",
+        [
+          "/wiki/The_Lord_of_the_Rings:_The_Two_Towers"
+        ]
+      ],
+      [
+        "$ 189.9",
+        []
+      ]
+    ],
+    [
+      [
+        2003,
+        []
+      ],
+      [
+        "The Matrix Revolutions",
+        [
+          "/wiki/The_Matrix_Revolutions"
+        ]
+      ],
+      [
+        "$ 201.4",
+        []
+      ]
+    ],
+    [
+      [
+        2003,
+        []
+      ],
+      [
+        "The Lord of the Rings : The Return of the King",
+        [
+          "/wiki/The_Lord_of_the_Rings:_The_Return_of_the_King"
+        ]
+      ],
+      [
+        "$ 250.0",
+        []
+      ]
+    ],
+    [
+      [
+        2005,
+        []
+      ],
+      [
+        "Star Wars : Episode III - Revenge of the Sith",
+        [
+          "/wiki/Star_Wars:_Episode_III_–_Revenge_of_the_Sith"
+        ]
+      ],
+      [
+        "$ 303.9",
+        []
+      ]
+    ],
+    [
+      [
+        2007,
+        []
+      ],
+      [
+        "Spider-Man 3",
+        [
+          "/wiki/Spider-Man_3"
+        ]
+      ],
+      [
+        "$ 381.7",
+        []
+      ]
+    ],
+    [
+      [
+        2009,
+        []
+      ],
+      [
+        "Harry Potter and the Half-Blood Prince",
+        [
+          "/wiki/Harry_Potter_and_the_Half-Blood_Prince_(film)"
+        ]
+      ],
+      [
+        "$ 394.0",
+        []
+      ]
+    ],
+    [
+      [
+        2011,
+        []
+      ],
+      [
+        "Harry Potter and the Deathly Hallows - Part 2",
+        [
+          "/wiki/Harry_Potter_and_the_Deathly_Hallows_–_Part_2"
+        ]
+      ],
+      [
+        "$ 483.2",
+        []
+      ]
+    ],
+    [
+      [
+        2015,
+        []
+      ],
+      [
+        "Jurassic World",
+        [
+          "/wiki/Jurassic_World"
+        ]
+      ],
+      [
+        "$ 525.5",
+        []
+      ]
+    ],
+    [
+      [
+        2015,
+        []
+      ],
+      [
+        "Star Wars : The Force Awakens",
+        [
+          "/wiki/Star_Wars:_The_Force_Awakens"
+        ]
+      ],
+      [
+        "$ 529.0",
+        []
+      ]
+    ],
+    [
+      [
+        2017,
+        []
+      ],
+      [
+        "The Fate of the Furious",
+        [
+          "/wiki/The_Fate_of_the_Furious"
+        ]
+      ],
+      [
+        "$ 541.9",
+        []
+      ]
+    ],
+    [
+      [
+        2018,
+        []
+      ],
+      [
+        "Avengers : Infinity War",
+        [
+          "/wiki/Avengers:_Infinity_War"
+        ]
+      ],
+      [
+        "$ 640.5",
+        []
+      ]
+    ],
+    [
+      [
+        2019,
+        []
+      ],
+      [
+        "Avengers : Endgame",
+        [
+          "/wiki/Avengers:_Endgame"
+        ]
+      ],
+      [
+        "$ 1,223.6",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "c3f7aa7e-110c-5d07-9b94-9262546df3cd",
+    "table_id": "List_of_highest-grossing_openings_for_films_1",
+    "title": "List of highest-grossing openings for films",
+    "header": [
+      "Year",
+      "Title",
+      "Opening ( USD in millions )"
+    ],
+    "value": [
+      [
+        [
+          2002,
+          []
+        ],
+        [
+          "Spider-Man",
+          [
+            "/wiki/Spider-Man_(2002_film)"
+          ]
+        ],
+        [
+          "$ 125.9",
+          []
+        ]
+      ],
+      [
+        [
+          2002,
+          []
+        ],
+        [
+          "Star Wars : Episode II - Attack of the Clones",
+          [
+            "/wiki/Star_Wars:_Episode_II_–_Attack_of_the_Clones"
+          ]
+        ],
+        [
+          "$ 179.3",
+          []
+        ]
+      ],
+      [
+        [
+          2002,
+          []
+        ],
+        [
+          "The Lord of the Rings : The Two Towers",
+          [
+            "/wiki/The_Lord_of_the_Rings:_The_Two_Towers"
+          ]
+        ],
+        [
+          "$ 189.9",
+          []
+        ]
+      ],
+      [
+        [
+          2003,
+          []
+        ],
+        [
+          "The Matrix Revolutions",
+          [
+            "/wiki/The_Matrix_Revolutions"
+          ]
+        ],
+        [
+          "$ 201.4",
+          []
+        ]
+      ],
+      [
+        [
+          2003,
+          []
+        ],
+        [
+          "The Lord of the Rings : The Return of the King",
+          [
+            "/wiki/The_Lord_of_the_Rings:_The_Return_of_the_King"
+          ]
+        ],
+        [
+          "$ 250.0",
+          []
+        ]
+      ],
+      [
+        [
+          2005,
+          []
+        ],
+        [
+          "Star Wars : Episode III - Revenge of the Sith",
+          [
+            "/wiki/Star_Wars:_Episode_III_–_Revenge_of_the_Sith"
+          ]
+        ],
+        [
+          "$ 303.9",
+          []
+        ]
+      ],
+      [
+        [
+          2007,
+          []
+        ],
+        [
+          "Spider-Man 3",
+          [
+            "/wiki/Spider-Man_3"
+          ]
+        ],
+        [
+          "$ 381.7",
+          []
+        ]
+      ],
+      [
+        [
+          2009,
+          []
+        ],
+        [
+          "Harry Potter and the Half-Blood Prince",
+          [
+            "/wiki/Harry_Potter_and_the_Half-Blood_Prince_(film)"
+          ]
+        ],
+        [
+          "$ 394.0",
+          []
+        ]
+      ],
+      [
+        [
+          2011,
+          []
+        ],
+        [
+          "Harry Potter and the Deathly Hallows - Part 2",
+          [
+            "/wiki/Harry_Potter_and_the_Deathly_Hallows_–_Part_2"
+          ]
+        ],
+        [
+          "$ 483.2",
+          []
+        ]
+      ],
+      [
+        [
+          2015,
+          []
+        ],
+        [
+          "Jurassic World",
+          [
+            "/wiki/Jurassic_World"
+          ]
+        ],
+        [
+          "$ 525.5",
+          []
+        ]
+      ],
+      [
+        [
+          2015,
+          []
+        ],
+        [
+          "Star Wars : The Force Awakens",
+          [
+            "/wiki/Star_Wars:_The_Force_Awakens"
+          ]
+        ],
+        [
+          "$ 529.0",
+          []
+        ]
+      ],
+      [
+        [
+          2017,
+          []
+        ],
+        [
+          "The Fate of the Furious",
+          [
+            "/wiki/The_Fate_of_the_Furious"
+          ]
+        ],
+        [
+          "$ 541.9",
+          []
+        ]
+      ],
+      [
+        [
+          2018,
+          []
+        ],
+        [
+          "Avengers : Infinity War",
+          [
+            "/wiki/Avengers:_Infinity_War"
+          ]
+        ],
+        [
+          "$ 640.5",
+          []
+        ]
+      ],
+      [
+        [
+          2019,
+          []
+        ],
+        [
+          "Avengers : Endgame",
+          [
+            "/wiki/Avengers:_Endgame"
+          ]
+        ],
+        [
+          "$ 1,223.6",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about films with the highest-grossing opening weekends, including the year of release, the film title, and the opening revenue in millions of USD. It is designed to highlight significant box office achievements in the film industry.",
+  "numeric_columns": [
+    "Opening ( USD in millions )"
+  ],
+  "categorical_columns": [
+    "Year"
+  ],
+  "entities": [
+    "Title"
+  ]
+}

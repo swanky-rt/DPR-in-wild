@@ -1,0 +1,613 @@
+{
+  "table_id": "T7767",
+  "uid": "0a946ec1-9fb8-5984-99c1-12c24ffd8486",
+  "source": "HybridQA",
+  "source_table_id": "0a946ec1-9fb8-5984-99c1-12c24ffd8486",
+  "domain": "HybridQA",
+  "title": "List of solar thermal power stations",
+  "columns": [
+    "Name",
+    "Country",
+    "Location",
+    "Electrical capacity ( MW )",
+    "Technology"
+  ],
+  "rows": [
+    [
+      [
+        "Mohammed bin Rashid Al Maktoum Solar Park Phase IV",
+        [
+          "/wiki/Mohammed_bin_Rashid_Al_Maktoum_Solar_Park"
+        ]
+      ],
+      [
+        "United Arab Emirates",
+        [
+          "/wiki/United_Arab_Emirates"
+        ]
+      ],
+      [
+        "Dubai",
+        []
+      ],
+      [
+        700,
+        []
+      ],
+      [
+        "Parabolic trough solar tower",
+        []
+      ]
+    ],
+    [
+      [
+        "Golmud CSP",
+        []
+      ],
+      [
+        "China",
+        [
+          "/wiki/China"
+        ]
+      ],
+      [
+        "Golmud , Qinghai province",
+        [
+          "/wiki/Golmud"
+        ]
+      ],
+      [
+        200,
+        []
+      ],
+      [
+        "Power tower",
+        []
+      ]
+    ],
+    [
+      [
+        "Cerro Dominador Solar Thermal Plant ( Atacama 1 )",
+        [
+          "/wiki/Cerro_Dominador_Solar_Thermal_Plant"
+        ]
+      ],
+      [
+        "Chile",
+        [
+          "/wiki/Chile"
+        ]
+      ],
+      [
+        "María Elena , Antofagasta",
+        [
+          "/wiki/María_Elena",
+          "/wiki/Antofagasta"
+        ]
+      ],
+      [
+        110,
+        []
+      ],
+      [
+        "Solar power tower",
+        []
+      ]
+    ],
+    [
+      [
+        "Urat Middle Banner CSP",
+        []
+      ],
+      [
+        "China",
+        [
+          "/wiki/China"
+        ]
+      ],
+      [
+        "Urat Middle Banner , Inner Mongolia",
+        [
+          "/wiki/Urat_Middle_Banner"
+        ]
+      ],
+      [
+        100,
+        []
+      ],
+      [
+        "Parabolic trough",
+        []
+      ]
+    ],
+    [
+      [
+        "Erdos Solar Power Plant",
+        []
+      ],
+      [
+        "China",
+        [
+          "/wiki/China"
+        ]
+      ],
+      [
+        "Hanggin Banner",
+        [
+          "/wiki/Hanggin_Banner"
+        ]
+      ],
+      [
+        50,
+        []
+      ],
+      [
+        "Parabolic trough",
+        []
+      ]
+    ],
+    [
+      [
+        "Dacheng Dunhuang CSP",
+        []
+      ],
+      [
+        "China",
+        [
+          "/wiki/China"
+        ]
+      ],
+      [
+        "Dunhuang , Gansu Province",
+        [
+          "/wiki/Dunhuang"
+        ]
+      ],
+      [
+        50,
+        []
+      ],
+      [
+        "Fresnel reflector",
+        []
+      ]
+    ],
+    [
+      [
+        "Gansu Akesai CSP",
+        []
+      ],
+      [
+        "China",
+        [
+          "/wiki/China"
+        ]
+      ],
+      [
+        "Akesai , Gansu Province",
+        []
+      ],
+      [
+        50,
+        []
+      ],
+      [
+        "Parabolic trough",
+        []
+      ]
+    ],
+    [
+      [
+        "Hami CSP",
+        []
+      ],
+      [
+        "China",
+        [
+          "/wiki/China"
+        ]
+      ],
+      [
+        "Hami , Xinjiang Autonomous Region",
+        [
+          "/wiki/Hami"
+        ]
+      ],
+      [
+        50,
+        []
+      ],
+      [
+        "Power tower",
+        []
+      ]
+    ],
+    [
+      [
+        "Luneng Haixi CSP",
+        []
+      ],
+      [
+        "China",
+        [
+          "/wiki/China"
+        ]
+      ],
+      [
+        "Haixi Zhou , Qinghai Sheng",
+        []
+      ],
+      [
+        50,
+        []
+      ],
+      [
+        "Power tower",
+        []
+      ]
+    ],
+    [
+      [
+        "Rayspower Yumen CSP",
+        []
+      ],
+      [
+        "China",
+        [
+          "/wiki/China"
+        ]
+      ],
+      [
+        "Yumen , Gansu Province",
+        [
+          "/wiki/Yumen_City"
+        ]
+      ],
+      [
+        50,
+        []
+      ],
+      [
+        "Parabolic trough",
+        []
+      ]
+    ],
+    [
+      [
+        "Yumen CSP",
+        []
+      ],
+      [
+        "China",
+        [
+          "/wiki/China"
+        ]
+      ],
+      [
+        "Yumen , Gansu Province",
+        [
+          "/wiki/Yumen_City"
+        ]
+      ],
+      [
+        50,
+        []
+      ],
+      [
+        "Beam down tower",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "0a946ec1-9fb8-5984-99c1-12c24ffd8486",
+    "table_id": "List_of_solar_thermal_power_stations_1",
+    "title": "List of solar thermal power stations",
+    "header": [
+      "Name",
+      "Country",
+      "Location",
+      "Electrical capacity ( MW )",
+      "Technology"
+    ],
+    "value": [
+      [
+        [
+          "Mohammed bin Rashid Al Maktoum Solar Park Phase IV",
+          [
+            "/wiki/Mohammed_bin_Rashid_Al_Maktoum_Solar_Park"
+          ]
+        ],
+        [
+          "United Arab Emirates",
+          [
+            "/wiki/United_Arab_Emirates"
+          ]
+        ],
+        [
+          "Dubai",
+          []
+        ],
+        [
+          700,
+          []
+        ],
+        [
+          "Parabolic trough solar tower",
+          []
+        ]
+      ],
+      [
+        [
+          "Golmud CSP",
+          []
+        ],
+        [
+          "China",
+          [
+            "/wiki/China"
+          ]
+        ],
+        [
+          "Golmud , Qinghai province",
+          [
+            "/wiki/Golmud"
+          ]
+        ],
+        [
+          200,
+          []
+        ],
+        [
+          "Power tower",
+          []
+        ]
+      ],
+      [
+        [
+          "Cerro Dominador Solar Thermal Plant ( Atacama 1 )",
+          [
+            "/wiki/Cerro_Dominador_Solar_Thermal_Plant"
+          ]
+        ],
+        [
+          "Chile",
+          [
+            "/wiki/Chile"
+          ]
+        ],
+        [
+          "María Elena , Antofagasta",
+          [
+            "/wiki/María_Elena",
+            "/wiki/Antofagasta"
+          ]
+        ],
+        [
+          110,
+          []
+        ],
+        [
+          "Solar power tower",
+          []
+        ]
+      ],
+      [
+        [
+          "Urat Middle Banner CSP",
+          []
+        ],
+        [
+          "China",
+          [
+            "/wiki/China"
+          ]
+        ],
+        [
+          "Urat Middle Banner , Inner Mongolia",
+          [
+            "/wiki/Urat_Middle_Banner"
+          ]
+        ],
+        [
+          100,
+          []
+        ],
+        [
+          "Parabolic trough",
+          []
+        ]
+      ],
+      [
+        [
+          "Erdos Solar Power Plant",
+          []
+        ],
+        [
+          "China",
+          [
+            "/wiki/China"
+          ]
+        ],
+        [
+          "Hanggin Banner",
+          [
+            "/wiki/Hanggin_Banner"
+          ]
+        ],
+        [
+          50,
+          []
+        ],
+        [
+          "Parabolic trough",
+          []
+        ]
+      ],
+      [
+        [
+          "Dacheng Dunhuang CSP",
+          []
+        ],
+        [
+          "China",
+          [
+            "/wiki/China"
+          ]
+        ],
+        [
+          "Dunhuang , Gansu Province",
+          [
+            "/wiki/Dunhuang"
+          ]
+        ],
+        [
+          50,
+          []
+        ],
+        [
+          "Fresnel reflector",
+          []
+        ]
+      ],
+      [
+        [
+          "Gansu Akesai CSP",
+          []
+        ],
+        [
+          "China",
+          [
+            "/wiki/China"
+          ]
+        ],
+        [
+          "Akesai , Gansu Province",
+          []
+        ],
+        [
+          50,
+          []
+        ],
+        [
+          "Parabolic trough",
+          []
+        ]
+      ],
+      [
+        [
+          "Hami CSP",
+          []
+        ],
+        [
+          "China",
+          [
+            "/wiki/China"
+          ]
+        ],
+        [
+          "Hami , Xinjiang Autonomous Region",
+          [
+            "/wiki/Hami"
+          ]
+        ],
+        [
+          50,
+          []
+        ],
+        [
+          "Power tower",
+          []
+        ]
+      ],
+      [
+        [
+          "Luneng Haixi CSP",
+          []
+        ],
+        [
+          "China",
+          [
+            "/wiki/China"
+          ]
+        ],
+        [
+          "Haixi Zhou , Qinghai Sheng",
+          []
+        ],
+        [
+          50,
+          []
+        ],
+        [
+          "Power tower",
+          []
+        ]
+      ],
+      [
+        [
+          "Rayspower Yumen CSP",
+          []
+        ],
+        [
+          "China",
+          [
+            "/wiki/China"
+          ]
+        ],
+        [
+          "Yumen , Gansu Province",
+          [
+            "/wiki/Yumen_City"
+          ]
+        ],
+        [
+          50,
+          []
+        ],
+        [
+          "Parabolic trough",
+          []
+        ]
+      ],
+      [
+        [
+          "Yumen CSP",
+          []
+        ],
+        [
+          "China",
+          [
+            "/wiki/China"
+          ]
+        ],
+        [
+          "Yumen , Gansu Province",
+          [
+            "/wiki/Yumen_City"
+          ]
+        ],
+        [
+          50,
+          []
+        ],
+        [
+          "Beam down tower",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a list of solar thermal power stations, detailing their names, locations, capacities, and technologies used. It is intended to offer an overview of solar thermal energy projects around the world, highlighting their geographical distribution and technical specifications.",
+  "numeric_columns": [
+    "Electrical capacity ( MW )"
+  ],
+  "categorical_columns": [
+    "Technology"
+  ],
+  "entities": [
+    "Name",
+    "Country",
+    "Location"
+  ]
+}

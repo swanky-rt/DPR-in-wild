@@ -1,0 +1,487 @@
+{
+  "table_id": "T1239",
+  "uid": "db384b53-5baf-5358-83d1-a8ba17625ef6",
+  "source": "HybridQA",
+  "source_table_id": "db384b53-5baf-5358-83d1-a8ba17625ef6",
+  "domain": "HybridQA",
+  "title": "2012 Campeonato Capixaba",
+  "columns": [
+    "Club",
+    "Home city",
+    "2011 result",
+    "Home Ground"
+  ],
+  "rows": [
+    [
+      [
+        "Aracruz",
+        [
+          "/wiki/Esporte_Clube_Aracruz"
+        ]
+      ],
+      [
+        "Aracruz",
+        [
+          "/wiki/Aracruz,_Espírito_Santo"
+        ]
+      ],
+      [
+        "5th",
+        []
+      ],
+      [
+        "Bambu",
+        []
+      ]
+    ],
+    [
+      [
+        "Colatina",
+        [
+          "/wiki/Colatina_Sociedade_Esportiva"
+        ]
+      ],
+      [
+        "Colatina",
+        [
+          "/wiki/Colatina"
+        ]
+      ],
+      [
+        "6th",
+        []
+      ],
+      [
+        "Justiniano de Melo e Silva",
+        []
+      ]
+    ],
+    [
+      [
+        "Conilon",
+        [
+          "/wiki/Conilon_Futebol_Clube_de_Jaguaré"
+        ]
+      ],
+      [
+        "Jaguaré",
+        [
+          "/wiki/Jaguaré"
+        ]
+      ],
+      [
+        "1st ( 2nd division )",
+        []
+      ],
+      [
+        "Estádio Conilon",
+        []
+      ]
+    ],
+    [
+      [
+        "Espírito Santo",
+        [
+          "/wiki/Espírito_Santo_Futebol_Clube"
+        ]
+      ],
+      [
+        "Anchieta",
+        [
+          "/wiki/Anchieta,_Espírito_Santo"
+        ]
+      ],
+      [
+        "7th",
+        []
+      ],
+      [
+        "Estádio Joaquim Viana Ramalheti",
+        []
+      ]
+    ],
+    [
+      [
+        "Linhares",
+        [
+          "/wiki/Linhares_Futebol_Clube"
+        ]
+      ],
+      [
+        "Linhares",
+        [
+          "/wiki/Linhares"
+        ]
+      ],
+      [
+        "3rd",
+        []
+      ],
+      [
+        "Estádio Joaquim Calmon",
+        [
+          "/wiki/Estádio_Joaquim_Calmon"
+        ]
+      ]
+    ],
+    [
+      [
+        "Real Noroeste",
+        [
+          "/wiki/Real_Noroeste_Capixaba_Futebol_Clube"
+        ]
+      ],
+      [
+        "Águia Branca",
+        [
+          "/wiki/Águia_Branca"
+        ]
+      ],
+      [
+        "2nd ( 2nd division )",
+        []
+      ],
+      [
+        "Estádio José Olímpio da Rocha",
+        []
+      ]
+    ],
+    [
+      [
+        "Rio Branco",
+        [
+          "/wiki/Rio_Branco_Atlético_Clube"
+        ]
+      ],
+      [
+        "Vitória",
+        [
+          "/wiki/Vitória,_Espírito_Santo"
+        ]
+      ],
+      [
+        "1st",
+        []
+      ],
+      [
+        "Estádio Engenheiro Alencar Araripe",
+        [
+          "/wiki/Estádio_Engenheiro_Alencar_Araripe"
+        ]
+      ]
+    ],
+    [
+      [
+        "Serra",
+        [
+          "/wiki/Sociedade_Desportiva_Serra_Futebol_Clube"
+        ]
+      ],
+      [
+        "Serra",
+        [
+          "/wiki/Serra,_Espírito_Santo"
+        ]
+      ],
+      [
+        "8th",
+        []
+      ],
+      [
+        "Estádio do Sernamby",
+        []
+      ]
+    ],
+    [
+      [
+        "São Mateus",
+        [
+          "/wiki/Centro_Educativo_Recreativo_Associação_Atlética_São_Mateus"
+        ]
+      ],
+      [
+        "São Mateus",
+        [
+          "/wiki/São_Mateus,_Espírito_Santo"
+        ]
+      ],
+      [
+        "4th",
+        []
+      ],
+      [
+        "Robertão",
+        []
+      ]
+    ],
+    [
+      [
+        "Vitória-ES",
+        [
+          "/wiki/Vitória_Futebol_Clube_(ES)"
+        ]
+      ],
+      [
+        "Vitória",
+        [
+          "/wiki/Vitória,_Espírito_Santo"
+        ]
+      ],
+      [
+        "2nd",
+        []
+      ],
+      [
+        "Salvador Costa",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "db384b53-5baf-5358-83d1-a8ba17625ef6",
+    "table_id": "2012_Campeonato_Capixaba_0",
+    "title": "2012 Campeonato Capixaba",
+    "header": [
+      "Club",
+      "Home city",
+      "2011 result",
+      "Home Ground"
+    ],
+    "value": [
+      [
+        [
+          "Aracruz",
+          [
+            "/wiki/Esporte_Clube_Aracruz"
+          ]
+        ],
+        [
+          "Aracruz",
+          [
+            "/wiki/Aracruz,_Espírito_Santo"
+          ]
+        ],
+        [
+          "5th",
+          []
+        ],
+        [
+          "Bambu",
+          []
+        ]
+      ],
+      [
+        [
+          "Colatina",
+          [
+            "/wiki/Colatina_Sociedade_Esportiva"
+          ]
+        ],
+        [
+          "Colatina",
+          [
+            "/wiki/Colatina"
+          ]
+        ],
+        [
+          "6th",
+          []
+        ],
+        [
+          "Justiniano de Melo e Silva",
+          []
+        ]
+      ],
+      [
+        [
+          "Conilon",
+          [
+            "/wiki/Conilon_Futebol_Clube_de_Jaguaré"
+          ]
+        ],
+        [
+          "Jaguaré",
+          [
+            "/wiki/Jaguaré"
+          ]
+        ],
+        [
+          "1st ( 2nd division )",
+          []
+        ],
+        [
+          "Estádio Conilon",
+          []
+        ]
+      ],
+      [
+        [
+          "Espírito Santo",
+          [
+            "/wiki/Espírito_Santo_Futebol_Clube"
+          ]
+        ],
+        [
+          "Anchieta",
+          [
+            "/wiki/Anchieta,_Espírito_Santo"
+          ]
+        ],
+        [
+          "7th",
+          []
+        ],
+        [
+          "Estádio Joaquim Viana Ramalheti",
+          []
+        ]
+      ],
+      [
+        [
+          "Linhares",
+          [
+            "/wiki/Linhares_Futebol_Clube"
+          ]
+        ],
+        [
+          "Linhares",
+          [
+            "/wiki/Linhares"
+          ]
+        ],
+        [
+          "3rd",
+          []
+        ],
+        [
+          "Estádio Joaquim Calmon",
+          [
+            "/wiki/Estádio_Joaquim_Calmon"
+          ]
+        ]
+      ],
+      [
+        [
+          "Real Noroeste",
+          [
+            "/wiki/Real_Noroeste_Capixaba_Futebol_Clube"
+          ]
+        ],
+        [
+          "Águia Branca",
+          [
+            "/wiki/Águia_Branca"
+          ]
+        ],
+        [
+          "2nd ( 2nd division )",
+          []
+        ],
+        [
+          "Estádio José Olímpio da Rocha",
+          []
+        ]
+      ],
+      [
+        [
+          "Rio Branco",
+          [
+            "/wiki/Rio_Branco_Atlético_Clube"
+          ]
+        ],
+        [
+          "Vitória",
+          [
+            "/wiki/Vitória,_Espírito_Santo"
+          ]
+        ],
+        [
+          "1st",
+          []
+        ],
+        [
+          "Estádio Engenheiro Alencar Araripe",
+          [
+            "/wiki/Estádio_Engenheiro_Alencar_Araripe"
+          ]
+        ]
+      ],
+      [
+        [
+          "Serra",
+          [
+            "/wiki/Sociedade_Desportiva_Serra_Futebol_Clube"
+          ]
+        ],
+        [
+          "Serra",
+          [
+            "/wiki/Serra,_Espírito_Santo"
+          ]
+        ],
+        [
+          "8th",
+          []
+        ],
+        [
+          "Estádio do Sernamby",
+          []
+        ]
+      ],
+      [
+        [
+          "São Mateus",
+          [
+            "/wiki/Centro_Educativo_Recreativo_Associação_Atlética_São_Mateus"
+          ]
+        ],
+        [
+          "São Mateus",
+          [
+            "/wiki/São_Mateus,_Espírito_Santo"
+          ]
+        ],
+        [
+          "4th",
+          []
+        ],
+        [
+          "Robertão",
+          []
+        ]
+      ],
+      [
+        [
+          "Vitória-ES",
+          [
+            "/wiki/Vitória_Futebol_Clube_(ES)"
+          ]
+        ],
+        [
+          "Vitória",
+          [
+            "/wiki/Vitória,_Espírito_Santo"
+          ]
+        ],
+        [
+          "2nd",
+          []
+        ],
+        [
+          "Salvador Costa",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about clubs participating in the 2012 Campeonato Capixaba, a football competition in Espírito Santo, Brazil. It includes details about each club's home city, their performance in the previous year's competition, and their home ground. The table is designed to give an overview of the participating teams and their associated locations and facilities.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "2011 result"
+  ],
+  "entities": [
+    "Club",
+    "Home city",
+    "Home Ground"
+  ]
+}

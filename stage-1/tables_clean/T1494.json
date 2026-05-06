@@ -1,0 +1,293 @@
+{
+  "table_id": "T1494",
+  "uid": "379e432c-25d9-56d3-b6bb-98a531fa2451",
+  "source": "HybridQA",
+  "source_table_id": "379e432c-25d9-56d3-b6bb-98a531fa2451",
+  "domain": "HybridQA",
+  "title": "1996 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Gina Gogean ( ROU )",
+        [
+          "/wiki/Gina_Gogean"
+        ]
+      ],
+      [
+        9.85,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Kui Yuanyuan ( CHN )",
+        [
+          "/wiki/Kui_Yuanyuan"
+        ]
+      ],
+      [
+        9.85,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Lavinia Miloșovici ( ROU )",
+        [
+          "/wiki/Lavinia_Miloșovici"
+        ]
+      ],
+      [
+        9.8,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Liubov Sheremeta ( UKR )",
+        [
+          "/wiki/Liubov_Sheremeta"
+        ]
+      ],
+      [
+        9.8,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Gemma Paz ( ESP )",
+        [
+          "/wiki/Gemma_Paz"
+        ]
+      ],
+      [
+        9.775,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Vasiliki Tsavdaridou ( GRE )",
+        [
+          "/wiki/Vasiliki_Tsavdaridou"
+        ]
+      ],
+      [
+        9.775,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Ludivine Furnon ( FRA )",
+        [
+          "/wiki/Ludivine_Furnon"
+        ]
+      ],
+      [
+        9.712,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Roza Galieva ( RUS )",
+        [
+          "/wiki/Roza_Galieva"
+        ]
+      ],
+      [
+        9.637,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "379e432c-25d9-56d3-b6bb-98a531fa2451",
+    "table_id": "1996_World_Artistic_Gymnastics_Championships_9",
+    "title": "1996 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Gina Gogean ( ROU )",
+          [
+            "/wiki/Gina_Gogean"
+          ]
+        ],
+        [
+          9.85,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Kui Yuanyuan ( CHN )",
+          [
+            "/wiki/Kui_Yuanyuan"
+          ]
+        ],
+        [
+          9.85,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Lavinia Miloșovici ( ROU )",
+          [
+            "/wiki/Lavinia_Miloșovici"
+          ]
+        ],
+        [
+          9.8,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Liubov Sheremeta ( UKR )",
+          [
+            "/wiki/Liubov_Sheremeta"
+          ]
+        ],
+        [
+          9.8,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Gemma Paz ( ESP )",
+          [
+            "/wiki/Gemma_Paz"
+          ]
+        ],
+        [
+          9.775,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Vasiliki Tsavdaridou ( GRE )",
+          [
+            "/wiki/Vasiliki_Tsavdaridou"
+          ]
+        ],
+        [
+          9.775,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Ludivine Furnon ( FRA )",
+          [
+            "/wiki/Ludivine_Furnon"
+          ]
+        ],
+        [
+          9.712,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Roza Galieva ( RUS )",
+          [
+            "/wiki/Roza_Galieva"
+          ]
+        ],
+        [
+          9.637,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the rankings and scores of gymnasts at the 1996 World Artistic Gymnastics Championships. It includes details about the rank, the names of the gymnasts, and their total scores. The table is likely used to summarize performance outcomes in the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

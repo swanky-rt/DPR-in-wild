@@ -1,0 +1,428 @@
+{
+  "table_id": "T1235",
+  "uid": "b04b2826-895e-5935-a6d6-89624b1b3363",
+  "source": "HybridQA",
+  "source_table_id": "b04b2826-895e-5935-a6d6-89624b1b3363",
+  "domain": "HybridQA",
+  "title": "2011 Chicago Marathon",
+  "columns": [
+    "Place",
+    "Athlete",
+    "Nationality",
+    "Time"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Ejegayehu Dibaba",
+        [
+          "/wiki/Ejegayehu_Dibaba"
+        ]
+      ],
+      [
+        "Ethiopia",
+        [
+          "/wiki/Ethiopia"
+        ]
+      ],
+      [
+        "2:22:09",
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Kayoko Fukushi",
+        [
+          "/wiki/Kayoko_Fukushi"
+        ]
+      ],
+      [
+        "Japan",
+        [
+          "/wiki/Japan"
+        ]
+      ],
+      [
+        "2:24:38",
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Belaynesh Zemedkun",
+        []
+      ],
+      [
+        "Ethiopia",
+        [
+          "/wiki/Ethiopia"
+        ]
+      ],
+      [
+        "2:26:17",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Christelle Daunay",
+        [
+          "/wiki/Christelle_Daunay"
+        ]
+      ],
+      [
+        "France",
+        [
+          "/wiki/France"
+        ]
+      ],
+      [
+        "2:26:41",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Claire Hallissey",
+        [
+          "/wiki/Claire_Hallissey"
+        ]
+      ],
+      [
+        "United Kingdom",
+        [
+          "/wiki/United_Kingdom"
+        ]
+      ],
+      [
+        "2:29:27",
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Yue Chao",
+        [
+          "/wiki/Yue_Chao"
+        ]
+      ],
+      [
+        "China",
+        [
+          "/wiki/China"
+        ]
+      ],
+      [
+        "2:32:57",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Askale Tafa",
+        [
+          "/wiki/Askale_Tafa"
+        ]
+      ],
+      [
+        "Ethiopia",
+        [
+          "/wiki/Ethiopia"
+        ]
+      ],
+      [
+        "2:33:35",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Cruz Nonata da Silva",
+        []
+      ],
+      [
+        "Brazil",
+        [
+          "/wiki/Brazil"
+        ]
+      ],
+      [
+        "2:35:35",
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Jeannette Faber",
+        [
+          "/wiki/Jeannette_Faber"
+        ]
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "2:36:58",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "b04b2826-895e-5935-a6d6-89624b1b3363",
+    "table_id": "2011_Chicago_Marathon_1",
+    "title": "2011 Chicago Marathon",
+    "header": [
+      "Place",
+      "Athlete",
+      "Nationality",
+      "Time"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Ejegayehu Dibaba",
+          [
+            "/wiki/Ejegayehu_Dibaba"
+          ]
+        ],
+        [
+          "Ethiopia",
+          [
+            "/wiki/Ethiopia"
+          ]
+        ],
+        [
+          "2:22:09",
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Kayoko Fukushi",
+          [
+            "/wiki/Kayoko_Fukushi"
+          ]
+        ],
+        [
+          "Japan",
+          [
+            "/wiki/Japan"
+          ]
+        ],
+        [
+          "2:24:38",
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Belaynesh Zemedkun",
+          []
+        ],
+        [
+          "Ethiopia",
+          [
+            "/wiki/Ethiopia"
+          ]
+        ],
+        [
+          "2:26:17",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Christelle Daunay",
+          [
+            "/wiki/Christelle_Daunay"
+          ]
+        ],
+        [
+          "France",
+          [
+            "/wiki/France"
+          ]
+        ],
+        [
+          "2:26:41",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Claire Hallissey",
+          [
+            "/wiki/Claire_Hallissey"
+          ]
+        ],
+        [
+          "United Kingdom",
+          [
+            "/wiki/United_Kingdom"
+          ]
+        ],
+        [
+          "2:29:27",
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Yue Chao",
+          [
+            "/wiki/Yue_Chao"
+          ]
+        ],
+        [
+          "China",
+          [
+            "/wiki/China"
+          ]
+        ],
+        [
+          "2:32:57",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Askale Tafa",
+          [
+            "/wiki/Askale_Tafa"
+          ]
+        ],
+        [
+          "Ethiopia",
+          [
+            "/wiki/Ethiopia"
+          ]
+        ],
+        [
+          "2:33:35",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Cruz Nonata da Silva",
+          []
+        ],
+        [
+          "Brazil",
+          [
+            "/wiki/Brazil"
+          ]
+        ],
+        [
+          "2:35:35",
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Jeannette Faber",
+          [
+            "/wiki/Jeannette_Faber"
+          ]
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "2:36:58",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the results of the 2011 Chicago Marathon, listing the placement of athletes, their nationalities, and their finishing times. It is intended to document and summarize the performance of participants in the event. The table highlights key details such as the ranking, identity, and performance metrics of the athletes.",
+  "numeric_columns": [
+    "Place"
+  ],
+  "categorical_columns": [
+    "Nationality",
+    "Time"
+  ],
+  "entities": [
+    "Athlete"
+  ]
+}

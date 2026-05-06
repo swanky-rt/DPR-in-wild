@@ -1,0 +1,510 @@
+{
+  "table_id": "T4232",
+  "uid": "2629932d-57b1-565a-a314-67a49004b48c",
+  "source": "HybridQA",
+  "source_table_id": "2629932d-57b1-565a-a314-67a49004b48c",
+  "domain": "HybridQA",
+  "title": "List of airports in French Guiana",
+  "columns": [
+    "City served / Location",
+    "ICAO",
+    "IATA",
+    "Airport name",
+    "Usage"
+  ],
+  "rows": [
+    [
+      [
+        "Cayenne",
+        [
+          "/wiki/Cayenne"
+        ]
+      ],
+      [
+        "SOCA",
+        []
+      ],
+      [
+        "CAY",
+        []
+      ],
+      [
+        "Cayenne - Félix Eboué Airport",
+        [
+          "/wiki/Cayenne_–_Félix_Eboué_Airport"
+        ]
+      ],
+      [
+        "Public",
+        []
+      ]
+    ],
+    [
+      [
+        "Camopi",
+        [
+          "/wiki/Camopi"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "Vila Brasil Airport",
+        [
+          "/wiki/Vila_Brasil_Airport"
+        ]
+      ],
+      [
+        "Public/Military",
+        []
+      ]
+    ],
+    [
+      [
+        "Grand Santi",
+        [
+          "/wiki/Grand-Santi"
+        ]
+      ],
+      [
+        "SOGS",
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "Grand-Santi Airport",
+        [
+          "/wiki/Grand-Santi_Airport"
+        ]
+      ],
+      [
+        "Restricted",
+        []
+      ]
+    ],
+    [
+      [
+        "Maripasoula",
+        [
+          "/wiki/Maripasoula"
+        ]
+      ],
+      [
+        "SOOA",
+        []
+      ],
+      [
+        "MPY",
+        []
+      ],
+      [
+        "Maripasoula Airport",
+        [
+          "/wiki/Maripasoula_Airport"
+        ]
+      ],
+      [
+        "Restricted",
+        []
+      ]
+    ],
+    [
+      [
+        "Régina",
+        [
+          "/wiki/Régina"
+        ]
+      ],
+      [
+        "SOOR",
+        []
+      ],
+      [
+        "REI",
+        []
+      ],
+      [
+        "Régina Airport",
+        [
+          "/wiki/Régina_Airport"
+        ]
+      ],
+      [
+        "Restricted",
+        []
+      ]
+    ],
+    [
+      [
+        "Saint-Georges -de-l'Oyapock",
+        [
+          "/wiki/Saint-Georges_de_l'Oyapock"
+        ]
+      ],
+      [
+        "SOOG",
+        []
+      ],
+      [
+        "OYP",
+        []
+      ],
+      [
+        "Saint-Georges-de-l'Oyapock Airport",
+        [
+          "/wiki/Saint-Georges-de-l'Oyapock_Airport"
+        ]
+      ],
+      [
+        "Restricted",
+        []
+      ]
+    ],
+    [
+      [
+        "Saint-Laurent -du-Maroni",
+        [
+          "/wiki/Saint-Laurent-du-Maroni"
+        ]
+      ],
+      [
+        "SOOM",
+        []
+      ],
+      [
+        "LDX",
+        []
+      ],
+      [
+        "Saint-Laurent-du-Maroni Airport",
+        [
+          "/wiki/Saint-Laurent-du-Maroni_Airport"
+        ]
+      ],
+      [
+        "Public",
+        []
+      ]
+    ],
+    [
+      [
+        "Saül",
+        [
+          "/wiki/Saül"
+        ]
+      ],
+      [
+        "SOOS",
+        []
+      ],
+      [
+        "XAU",
+        []
+      ],
+      [
+        "Saül Airport",
+        [
+          "/wiki/Saül_Airport"
+        ]
+      ],
+      [
+        "Restricted",
+        []
+      ]
+    ],
+    [
+      [
+        "Sinnamary",
+        [
+          "/wiki/Sinnamary"
+        ]
+      ],
+      [
+        "SOOY",
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "Sinnamary Airport",
+        [
+          "/wiki/Sinnamary_Airport"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "2629932d-57b1-565a-a314-67a49004b48c",
+    "table_id": "List_of_airports_in_French_Guiana_0",
+    "title": "List of airports in French Guiana",
+    "header": [
+      "City served / Location",
+      "ICAO",
+      "IATA",
+      "Airport name",
+      "Usage"
+    ],
+    "value": [
+      [
+        [
+          "Cayenne",
+          [
+            "/wiki/Cayenne"
+          ]
+        ],
+        [
+          "SOCA",
+          []
+        ],
+        [
+          "CAY",
+          []
+        ],
+        [
+          "Cayenne - Félix Eboué Airport",
+          [
+            "/wiki/Cayenne_–_Félix_Eboué_Airport"
+          ]
+        ],
+        [
+          "Public",
+          []
+        ]
+      ],
+      [
+        [
+          "Camopi",
+          [
+            "/wiki/Camopi"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "Vila Brasil Airport",
+          [
+            "/wiki/Vila_Brasil_Airport"
+          ]
+        ],
+        [
+          "Public/Military",
+          []
+        ]
+      ],
+      [
+        [
+          "Grand Santi",
+          [
+            "/wiki/Grand-Santi"
+          ]
+        ],
+        [
+          "SOGS",
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "Grand-Santi Airport",
+          [
+            "/wiki/Grand-Santi_Airport"
+          ]
+        ],
+        [
+          "Restricted",
+          []
+        ]
+      ],
+      [
+        [
+          "Maripasoula",
+          [
+            "/wiki/Maripasoula"
+          ]
+        ],
+        [
+          "SOOA",
+          []
+        ],
+        [
+          "MPY",
+          []
+        ],
+        [
+          "Maripasoula Airport",
+          [
+            "/wiki/Maripasoula_Airport"
+          ]
+        ],
+        [
+          "Restricted",
+          []
+        ]
+      ],
+      [
+        [
+          "Régina",
+          [
+            "/wiki/Régina"
+          ]
+        ],
+        [
+          "SOOR",
+          []
+        ],
+        [
+          "REI",
+          []
+        ],
+        [
+          "Régina Airport",
+          [
+            "/wiki/Régina_Airport"
+          ]
+        ],
+        [
+          "Restricted",
+          []
+        ]
+      ],
+      [
+        [
+          "Saint-Georges -de-l'Oyapock",
+          [
+            "/wiki/Saint-Georges_de_l'Oyapock"
+          ]
+        ],
+        [
+          "SOOG",
+          []
+        ],
+        [
+          "OYP",
+          []
+        ],
+        [
+          "Saint-Georges-de-l'Oyapock Airport",
+          [
+            "/wiki/Saint-Georges-de-l'Oyapock_Airport"
+          ]
+        ],
+        [
+          "Restricted",
+          []
+        ]
+      ],
+      [
+        [
+          "Saint-Laurent -du-Maroni",
+          [
+            "/wiki/Saint-Laurent-du-Maroni"
+          ]
+        ],
+        [
+          "SOOM",
+          []
+        ],
+        [
+          "LDX",
+          []
+        ],
+        [
+          "Saint-Laurent-du-Maroni Airport",
+          [
+            "/wiki/Saint-Laurent-du-Maroni_Airport"
+          ]
+        ],
+        [
+          "Public",
+          []
+        ]
+      ],
+      [
+        [
+          "Saül",
+          [
+            "/wiki/Saül"
+          ]
+        ],
+        [
+          "SOOS",
+          []
+        ],
+        [
+          "XAU",
+          []
+        ],
+        [
+          "Saül Airport",
+          [
+            "/wiki/Saül_Airport"
+          ]
+        ],
+        [
+          "Restricted",
+          []
+        ]
+      ],
+      [
+        [
+          "Sinnamary",
+          [
+            "/wiki/Sinnamary"
+          ]
+        ],
+        [
+          "SOOY",
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "Sinnamary Airport",
+          [
+            "/wiki/Sinnamary_Airport"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about airports in French Guiana, including their locations, codes, names, and usage types. It serves as a reference for identifying and categorizing airports in the region based on their operational characteristics and geographic context.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Usage"
+  ],
+  "entities": [
+    "City served / Location",
+    "ICAO",
+    "IATA",
+    "Airport name"
+  ]
+}

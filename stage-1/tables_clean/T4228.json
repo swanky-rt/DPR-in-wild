@@ -1,0 +1,586 @@
+{
+  "table_id": "T4228",
+  "uid": "eff5b617-c079-57ef-a24c-5658e646cadb",
+  "source": "HybridQA",
+  "source_table_id": "eff5b617-c079-57ef-a24c-5658e646cadb",
+  "domain": "HybridQA",
+  "title": "List of South African airports by passenger movements",
+  "columns": [
+    "Rank",
+    "Airport",
+    "Location",
+    "Code ( IATA/ICAO )",
+    "Total passengers",
+    "% Change"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "OR Tambo International Airport",
+        [
+          "/wiki/OR_Tambo_International_Airport"
+        ]
+      ],
+      [
+        "Johannesburg , Gauteng",
+        [
+          "/wiki/Johannesburg"
+        ]
+      ],
+      [
+        "JNB/FAOR",
+        []
+      ],
+      [
+        "18,621,259",
+        []
+      ],
+      [
+        "2.01%",
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Cape Town International Airport",
+        [
+          "/wiki/Cape_Town_International_Airport"
+        ]
+      ],
+      [
+        "Cape Town , Western Cape",
+        [
+          "/wiki/Cape_Town"
+        ]
+      ],
+      [
+        "CPT/FACT",
+        []
+      ],
+      [
+        "8,434,799",
+        []
+      ],
+      [
+        "1.65%",
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "King Shaka International Airport",
+        [
+          "/wiki/King_Shaka_International_Airport"
+        ]
+      ],
+      [
+        "Durban , KwaZulu-Natal",
+        [
+          "/wiki/Durban"
+        ]
+      ],
+      [
+        "DUR/FALE",
+        []
+      ],
+      [
+        "4,668,467",
+        []
+      ],
+      [
+        "7.37%",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Port Elizabeth Airport",
+        [
+          "/wiki/Port_Elizabeth_Airport"
+        ]
+      ],
+      [
+        "Port Elizabeth , Eastern Cape",
+        [
+          "/wiki/Port_Elizabeth"
+        ]
+      ],
+      [
+        "PLZ/FAPE",
+        []
+      ],
+      [
+        "1,311,553",
+        []
+      ],
+      [
+        "3.91%",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "East London Airport",
+        [
+          "/wiki/East_London_Airport"
+        ]
+      ],
+      [
+        "East London , Eastern Cape",
+        [
+          "/wiki/East_London,_South_Africa"
+        ]
+      ],
+      [
+        "ELS/FAEL",
+        []
+      ],
+      [
+        "644,520",
+        []
+      ],
+      [
+        "5.43%",
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "George Airport",
+        [
+          "/wiki/George_Airport"
+        ]
+      ],
+      [
+        "George , Western Cape",
+        [
+          "/wiki/George,_Western_Cape"
+        ]
+      ],
+      [
+        "GRJ/FAGG",
+        []
+      ],
+      [
+        "544,306",
+        []
+      ],
+      [
+        "5.47%",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Bloemfontein Airport",
+        [
+          "/wiki/Bloemfontein_Airport"
+        ]
+      ],
+      [
+        "Bloemfontein , Free State",
+        [
+          "/wiki/Bloemfontein"
+        ]
+      ],
+      [
+        "BFN/FABL",
+        []
+      ],
+      [
+        "411,655",
+        []
+      ],
+      [
+        "6.86%",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Kimberley Airport",
+        [
+          "/wiki/Kimberley_Airport"
+        ]
+      ],
+      [
+        "Kimberley , Northern Cape",
+        [
+          "/wiki/Kimberley,_Northern_Cape"
+        ]
+      ],
+      [
+        "KIM/FAKM",
+        []
+      ],
+      [
+        "151,405",
+        []
+      ],
+      [
+        "7.95%",
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Upington Airport",
+        [
+          "/wiki/Upington_Airport"
+        ]
+      ],
+      [
+        "Upington , Northern Cape",
+        [
+          "/wiki/Upington,_Northern_Cape"
+        ]
+      ],
+      [
+        "UTN/FAUP",
+        []
+      ],
+      [
+        "55,726",
+        []
+      ],
+      [
+        "6.7%",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "eff5b617-c079-57ef-a24c-5658e646cadb",
+    "table_id": "List_of_South_African_airports_by_passenger_movements_0",
+    "title": "List of South African airports by passenger movements",
+    "header": [
+      "Rank",
+      "Airport",
+      "Location",
+      "Code ( IATA/ICAO )",
+      "Total passengers",
+      "% Change"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "OR Tambo International Airport",
+          [
+            "/wiki/OR_Tambo_International_Airport"
+          ]
+        ],
+        [
+          "Johannesburg , Gauteng",
+          [
+            "/wiki/Johannesburg"
+          ]
+        ],
+        [
+          "JNB/FAOR",
+          []
+        ],
+        [
+          "18,621,259",
+          []
+        ],
+        [
+          "2.01%",
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Cape Town International Airport",
+          [
+            "/wiki/Cape_Town_International_Airport"
+          ]
+        ],
+        [
+          "Cape Town , Western Cape",
+          [
+            "/wiki/Cape_Town"
+          ]
+        ],
+        [
+          "CPT/FACT",
+          []
+        ],
+        [
+          "8,434,799",
+          []
+        ],
+        [
+          "1.65%",
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "King Shaka International Airport",
+          [
+            "/wiki/King_Shaka_International_Airport"
+          ]
+        ],
+        [
+          "Durban , KwaZulu-Natal",
+          [
+            "/wiki/Durban"
+          ]
+        ],
+        [
+          "DUR/FALE",
+          []
+        ],
+        [
+          "4,668,467",
+          []
+        ],
+        [
+          "7.37%",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Port Elizabeth Airport",
+          [
+            "/wiki/Port_Elizabeth_Airport"
+          ]
+        ],
+        [
+          "Port Elizabeth , Eastern Cape",
+          [
+            "/wiki/Port_Elizabeth"
+          ]
+        ],
+        [
+          "PLZ/FAPE",
+          []
+        ],
+        [
+          "1,311,553",
+          []
+        ],
+        [
+          "3.91%",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "East London Airport",
+          [
+            "/wiki/East_London_Airport"
+          ]
+        ],
+        [
+          "East London , Eastern Cape",
+          [
+            "/wiki/East_London,_South_Africa"
+          ]
+        ],
+        [
+          "ELS/FAEL",
+          []
+        ],
+        [
+          "644,520",
+          []
+        ],
+        [
+          "5.43%",
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "George Airport",
+          [
+            "/wiki/George_Airport"
+          ]
+        ],
+        [
+          "George , Western Cape",
+          [
+            "/wiki/George,_Western_Cape"
+          ]
+        ],
+        [
+          "GRJ/FAGG",
+          []
+        ],
+        [
+          "544,306",
+          []
+        ],
+        [
+          "5.47%",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Bloemfontein Airport",
+          [
+            "/wiki/Bloemfontein_Airport"
+          ]
+        ],
+        [
+          "Bloemfontein , Free State",
+          [
+            "/wiki/Bloemfontein"
+          ]
+        ],
+        [
+          "BFN/FABL",
+          []
+        ],
+        [
+          "411,655",
+          []
+        ],
+        [
+          "6.86%",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Kimberley Airport",
+          [
+            "/wiki/Kimberley_Airport"
+          ]
+        ],
+        [
+          "Kimberley , Northern Cape",
+          [
+            "/wiki/Kimberley,_Northern_Cape"
+          ]
+        ],
+        [
+          "KIM/FAKM",
+          []
+        ],
+        [
+          "151,405",
+          []
+        ],
+        [
+          "7.95%",
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Upington Airport",
+          [
+            "/wiki/Upington_Airport"
+          ]
+        ],
+        [
+          "Upington , Northern Cape",
+          [
+            "/wiki/Upington,_Northern_Cape"
+          ]
+        ],
+        [
+          "UTN/FAUP",
+          []
+        ],
+        [
+          "55,726",
+          []
+        ],
+        [
+          "6.7%",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a ranking of South African airports based on passenger movements, including details such as airport names, locations, codes, total passenger numbers, and percentage changes. It is intended to offer insights into airport traffic and trends in South Africa.",
+  "numeric_columns": [
+    "Rank",
+    "Total passengers",
+    "% Change"
+  ],
+  "categorical_columns": [
+    "Code ( IATA/ICAO )"
+  ],
+  "entities": [
+    "Airport",
+    "Location"
+  ]
+}

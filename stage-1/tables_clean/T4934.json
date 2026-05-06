@@ -1,0 +1,499 @@
+{
+  "table_id": "T4934",
+  "uid": "1f350a55-c07e-514c-8341-6a2e0b3e15b7",
+  "source": "HybridQA",
+  "source_table_id": "1f350a55-c07e-514c-8341-6a2e0b3e15b7",
+  "domain": "HybridQA",
+  "title": "Sutton Coldfield transmitting station",
+  "columns": [
+    "Frequency",
+    "UHF",
+    "kW",
+    "Operator",
+    "System"
+  ],
+  "rows": [
+    [
+      [
+        "570.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        33,
+        []
+      ],
+      [
+        89.2,
+        []
+      ],
+      [
+        "Arqiva C",
+        [
+          "/wiki/Arqiva"
+        ]
+      ],
+      [
+        "DVB-T2",
+        [
+          "/wiki/DVB-T2"
+        ]
+      ]
+    ],
+    [
+      [
+        "586.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        35,
+        []
+      ],
+      [
+        86,
+        []
+      ],
+      [
+        "Arqiva D",
+        []
+      ],
+      [
+        "DVB-T2",
+        []
+      ]
+    ],
+    [
+      [
+        "618.166 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "39+",
+        []
+      ],
+      [
+        200,
+        []
+      ],
+      [
+        "Arqiva B",
+        []
+      ],
+      [
+        "DVB-T",
+        [
+          "/wiki/DVB-T"
+        ]
+      ]
+    ],
+    [
+      [
+        "626.166 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "40+",
+        []
+      ],
+      [
+        200,
+        []
+      ],
+      [
+        "BBC B",
+        [
+          "/wiki/BBC"
+        ]
+      ],
+      [
+        "DVB-T2",
+        []
+      ]
+    ],
+    [
+      [
+        "642.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        42,
+        []
+      ],
+      [
+        200,
+        []
+      ],
+      [
+        "SDN",
+        [
+          "/wiki/S4C_Digital_Networks"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "650.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        43,
+        []
+      ],
+      [
+        200,
+        []
+      ],
+      [
+        "BBC A",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "666.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        45,
+        []
+      ],
+      [
+        200,
+        []
+      ],
+      [
+        "Arqiva A",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "674.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        46,
+        []
+      ],
+      [
+        200,
+        []
+      ],
+      [
+        "Digital 3 & 4",
+        [
+          "/wiki/Digital_3&4"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "714.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        51,
+        []
+      ],
+      [
+        10,
+        []
+      ],
+      [
+        "Comux",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "1f350a55-c07e-514c-8341-6a2e0b3e15b7",
+    "table_id": "Sutton_Coldfield_transmitting_station_2",
+    "title": "Sutton Coldfield transmitting station",
+    "header": [
+      "Frequency",
+      "UHF",
+      "kW",
+      "Operator",
+      "System"
+    ],
+    "value": [
+      [
+        [
+          "570.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          33,
+          []
+        ],
+        [
+          89.2,
+          []
+        ],
+        [
+          "Arqiva C",
+          [
+            "/wiki/Arqiva"
+          ]
+        ],
+        [
+          "DVB-T2",
+          [
+            "/wiki/DVB-T2"
+          ]
+        ]
+      ],
+      [
+        [
+          "586.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          35,
+          []
+        ],
+        [
+          86,
+          []
+        ],
+        [
+          "Arqiva D",
+          []
+        ],
+        [
+          "DVB-T2",
+          []
+        ]
+      ],
+      [
+        [
+          "618.166 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "39+",
+          []
+        ],
+        [
+          200,
+          []
+        ],
+        [
+          "Arqiva B",
+          []
+        ],
+        [
+          "DVB-T",
+          [
+            "/wiki/DVB-T"
+          ]
+        ]
+      ],
+      [
+        [
+          "626.166 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "40+",
+          []
+        ],
+        [
+          200,
+          []
+        ],
+        [
+          "BBC B",
+          [
+            "/wiki/BBC"
+          ]
+        ],
+        [
+          "DVB-T2",
+          []
+        ]
+      ],
+      [
+        [
+          "642.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          42,
+          []
+        ],
+        [
+          200,
+          []
+        ],
+        [
+          "SDN",
+          [
+            "/wiki/S4C_Digital_Networks"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "650.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          43,
+          []
+        ],
+        [
+          200,
+          []
+        ],
+        [
+          "BBC A",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "666.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          45,
+          []
+        ],
+        [
+          200,
+          []
+        ],
+        [
+          "Arqiva A",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "674.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          46,
+          []
+        ],
+        [
+          200,
+          []
+        ],
+        [
+          "Digital 3 & 4",
+          [
+            "/wiki/Digital_3&4"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "714.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          51,
+          []
+        ],
+        [
+          10,
+          []
+        ],
+        [
+          "Comux",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides technical details about the Sutton Coldfield transmitting station, focusing on frequency, transmission power, operator, and system type for various UHF channels. It appears to be designed for understanding broadcasting specifications and operational parameters of the station. The data is relevant for telecommunications and broadcasting professionals or researchers.",
+  "numeric_columns": [
+    "UHF",
+    "kW"
+  ],
+  "categorical_columns": [
+    "System"
+  ],
+  "entities": [
+    "Frequency",
+    "Operator"
+  ]
+}

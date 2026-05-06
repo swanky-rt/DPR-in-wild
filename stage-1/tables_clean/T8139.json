@@ -1,0 +1,510 @@
+{
+  "table_id": "T8139",
+  "uid": "51cbf785-504a-5ee2-bd47-d598136bce4c",
+  "source": "HybridQA",
+  "source_table_id": "51cbf785-504a-5ee2-bd47-d598136bce4c",
+  "domain": "HybridQA",
+  "title": "Major League Baseball attendance records",
+  "columns": [
+    "Team name",
+    "Season",
+    "Home attendance",
+    "Per game",
+    "Ballpark"
+  ],
+  "rows": [
+    [
+      [
+        "Colorado Rockies",
+        [
+          "/wiki/Colorado_Rockies"
+        ]
+      ],
+      [
+        1993,
+        []
+      ],
+      [
+        "4,483,350",
+        []
+      ],
+      [
+        "55,350",
+        []
+      ],
+      [
+        "Mile High Stadium",
+        [
+          "/wiki/Mile_High_Stadium"
+        ]
+      ]
+    ],
+    [
+      [
+        "New York Yankees",
+        [
+          "/wiki/New_York_Yankees"
+        ]
+      ],
+      [
+        2008,
+        []
+      ],
+      [
+        "4,298,655",
+        []
+      ],
+      [
+        "53,070",
+        []
+      ],
+      [
+        "Yankee Stadium",
+        [
+          "/wiki/Yankee_Stadium_(1923)"
+        ]
+      ]
+    ],
+    [
+      [
+        "New York Yankees",
+        [
+          "/wiki/New_York_Yankees"
+        ]
+      ],
+      [
+        2007,
+        []
+      ],
+      [
+        "4,271,867",
+        []
+      ],
+      [
+        "52,739",
+        []
+      ],
+      [
+        "Yankee Stadium",
+        [
+          "/wiki/Yankee_Stadium_(1923)"
+        ]
+      ]
+    ],
+    [
+      [
+        "New York Yankees",
+        [
+          "/wiki/New_York_Yankees"
+        ]
+      ],
+      [
+        2006,
+        []
+      ],
+      [
+        "4,248,067",
+        []
+      ],
+      [
+        "52,445",
+        []
+      ],
+      [
+        "Yankee Stadium",
+        [
+          "/wiki/Yankee_Stadium_(1923)"
+        ]
+      ]
+    ],
+    [
+      [
+        "New York Yankees",
+        [
+          "/wiki/New_York_Yankees"
+        ]
+      ],
+      [
+        2005,
+        []
+      ],
+      [
+        "4,090,696",
+        []
+      ],
+      [
+        "50,502",
+        []
+      ],
+      [
+        "Yankee Stadium",
+        [
+          "/wiki/Yankee_Stadium_(1923)"
+        ]
+      ]
+    ],
+    [
+      [
+        "Toronto Blue Jays",
+        [
+          "/wiki/Toronto_Blue_Jays"
+        ]
+      ],
+      [
+        1993,
+        []
+      ],
+      [
+        "4,057,947",
+        []
+      ],
+      [
+        "50,098",
+        []
+      ],
+      [
+        "SkyDome",
+        [
+          "/wiki/SkyDome"
+        ]
+      ]
+    ],
+    [
+      [
+        "New York Mets",
+        [
+          "/wiki/New_York_Mets"
+        ]
+      ],
+      [
+        2008,
+        []
+      ],
+      [
+        "4,042,045",
+        []
+      ],
+      [
+        "49,902",
+        []
+      ],
+      [
+        "Shea Stadium",
+        [
+          "/wiki/Shea_Stadium"
+        ]
+      ]
+    ],
+    [
+      [
+        "Toronto Blue Jays",
+        [
+          "/wiki/Toronto_Blue_Jays"
+        ]
+      ],
+      [
+        1992,
+        []
+      ],
+      [
+        "4,028,318",
+        []
+      ],
+      [
+        "49,732",
+        []
+      ],
+      [
+        "SkyDome",
+        [
+          "/wiki/SkyDome"
+        ]
+      ]
+    ],
+    [
+      [
+        "Toronto Blue Jays",
+        [
+          "/wiki/Toronto_Blue_Jays"
+        ]
+      ],
+      [
+        1991,
+        []
+      ],
+      [
+        "4,001,527",
+        []
+      ],
+      [
+        "49,402",
+        []
+      ],
+      [
+        "SkyDome",
+        [
+          "/wiki/SkyDome"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "51cbf785-504a-5ee2-bd47-d598136bce4c",
+    "table_id": "Major_League_Baseball_attendance_records_1",
+    "title": "Major League Baseball attendance records",
+    "header": [
+      "Team name",
+      "Season",
+      "Home attendance",
+      "Per game",
+      "Ballpark"
+    ],
+    "value": [
+      [
+        [
+          "Colorado Rockies",
+          [
+            "/wiki/Colorado_Rockies"
+          ]
+        ],
+        [
+          1993,
+          []
+        ],
+        [
+          "4,483,350",
+          []
+        ],
+        [
+          "55,350",
+          []
+        ],
+        [
+          "Mile High Stadium",
+          [
+            "/wiki/Mile_High_Stadium"
+          ]
+        ]
+      ],
+      [
+        [
+          "New York Yankees",
+          [
+            "/wiki/New_York_Yankees"
+          ]
+        ],
+        [
+          2008,
+          []
+        ],
+        [
+          "4,298,655",
+          []
+        ],
+        [
+          "53,070",
+          []
+        ],
+        [
+          "Yankee Stadium",
+          [
+            "/wiki/Yankee_Stadium_(1923)"
+          ]
+        ]
+      ],
+      [
+        [
+          "New York Yankees",
+          [
+            "/wiki/New_York_Yankees"
+          ]
+        ],
+        [
+          2007,
+          []
+        ],
+        [
+          "4,271,867",
+          []
+        ],
+        [
+          "52,739",
+          []
+        ],
+        [
+          "Yankee Stadium",
+          [
+            "/wiki/Yankee_Stadium_(1923)"
+          ]
+        ]
+      ],
+      [
+        [
+          "New York Yankees",
+          [
+            "/wiki/New_York_Yankees"
+          ]
+        ],
+        [
+          2006,
+          []
+        ],
+        [
+          "4,248,067",
+          []
+        ],
+        [
+          "52,445",
+          []
+        ],
+        [
+          "Yankee Stadium",
+          [
+            "/wiki/Yankee_Stadium_(1923)"
+          ]
+        ]
+      ],
+      [
+        [
+          "New York Yankees",
+          [
+            "/wiki/New_York_Yankees"
+          ]
+        ],
+        [
+          2005,
+          []
+        ],
+        [
+          "4,090,696",
+          []
+        ],
+        [
+          "50,502",
+          []
+        ],
+        [
+          "Yankee Stadium",
+          [
+            "/wiki/Yankee_Stadium_(1923)"
+          ]
+        ]
+      ],
+      [
+        [
+          "Toronto Blue Jays",
+          [
+            "/wiki/Toronto_Blue_Jays"
+          ]
+        ],
+        [
+          1993,
+          []
+        ],
+        [
+          "4,057,947",
+          []
+        ],
+        [
+          "50,098",
+          []
+        ],
+        [
+          "SkyDome",
+          [
+            "/wiki/SkyDome"
+          ]
+        ]
+      ],
+      [
+        [
+          "New York Mets",
+          [
+            "/wiki/New_York_Mets"
+          ]
+        ],
+        [
+          2008,
+          []
+        ],
+        [
+          "4,042,045",
+          []
+        ],
+        [
+          "49,902",
+          []
+        ],
+        [
+          "Shea Stadium",
+          [
+            "/wiki/Shea_Stadium"
+          ]
+        ]
+      ],
+      [
+        [
+          "Toronto Blue Jays",
+          [
+            "/wiki/Toronto_Blue_Jays"
+          ]
+        ],
+        [
+          1992,
+          []
+        ],
+        [
+          "4,028,318",
+          []
+        ],
+        [
+          "49,732",
+          []
+        ],
+        [
+          "SkyDome",
+          [
+            "/wiki/SkyDome"
+          ]
+        ]
+      ],
+      [
+        [
+          "Toronto Blue Jays",
+          [
+            "/wiki/Toronto_Blue_Jays"
+          ]
+        ],
+        [
+          1991,
+          []
+        ],
+        [
+          "4,001,527",
+          []
+        ],
+        [
+          "49,402",
+          []
+        ],
+        [
+          "SkyDome",
+          [
+            "/wiki/SkyDome"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides attendance records for Major League Baseball teams, detailing their home attendance figures for specific seasons. It includes information about the team, the season, the total and per-game attendance, and the ballpark where the games were played. The table is useful for analyzing trends in baseball attendance and understanding the popularity of teams and venues.",
+  "numeric_columns": [
+    "Season",
+    "Home attendance",
+    "Per game"
+  ],
+  "categorical_columns": [],
+  "entities": [
+    "Team name",
+    "Ballpark"
+  ]
+}

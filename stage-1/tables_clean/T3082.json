@@ -1,0 +1,384 @@
+{
+  "table_id": "T3082",
+  "uid": "0c047564-372e-5fef-856c-230ea63fd04d",
+  "source": "HybridQA",
+  "source_table_id": "0c047564-372e-5fef-856c-230ea63fd04d",
+  "domain": "HybridQA",
+  "title": "Cypriot First Division (women)",
+  "columns": [
+    "Team",
+    "Home city",
+    "Home ground"
+  ],
+  "rows": [
+    [
+      [
+        "Anorthosis Famagusta FC",
+        [
+          "/wiki/Anorthosis_Famagusta_FC"
+        ]
+      ],
+      [
+        "Ayia Napa",
+        [
+          "/wiki/Ayia_Napa"
+        ]
+      ],
+      [
+        "Dimotiko Stadio Ayia Napa",
+        []
+      ]
+    ],
+    [
+      [
+        "Apollon Ladies F.C",
+        [
+          "/wiki/Apollon_Ladies_F.C."
+        ]
+      ],
+      [
+        "Limassol",
+        [
+          "/wiki/Limassol"
+        ]
+      ],
+      [
+        "SEK Agiou Athanasiou",
+        [
+          "/wiki/SEK_Agiou_Athanasiou"
+        ]
+      ]
+    ],
+    [
+      [
+        "Apollon Lympion",
+        [
+          "/wiki/Apollon_Lympion"
+        ]
+      ],
+      [
+        "Lympia",
+        [
+          "/wiki/Lympia"
+        ]
+      ],
+      [
+        "Stadium Apollon Lympion",
+        []
+      ]
+    ],
+    [
+      [
+        "Barcelona FA",
+        [
+          "/wiki/Barcelona_FA"
+        ]
+      ],
+      [
+        "Germasogeia",
+        [
+          "/wiki/Germasogeia"
+        ]
+      ],
+      [
+        "Koinotiko Gipedo Germasogeia",
+        []
+      ]
+    ],
+    [
+      [
+        "Football Academy of Ypsona Limassol Champions",
+        []
+      ],
+      [
+        "Kolossi",
+        [
+          "/wiki/Kolossi"
+        ]
+      ],
+      [
+        "Koinotiko Gipedo Kolossi",
+        []
+      ]
+    ],
+    [
+      [
+        "Amok Chrysomilia",
+        []
+      ],
+      [
+        "Limassol",
+        [
+          "/wiki/Limassol"
+        ]
+      ],
+      [
+        "Dimotiko Stadio Kato polemidion Den xechno",
+        []
+      ]
+    ],
+    [
+      [
+        "Enosis Neon THOI Lakatamia",
+        [
+          "/wiki/Enosis_Neon_THOI_Lakatamia"
+        ]
+      ],
+      [
+        "Lakatamia",
+        [
+          "/wiki/Lakatamia"
+        ]
+      ],
+      [
+        "THOI Lakatamia Stadium",
+        []
+      ]
+    ],
+    [
+      [
+        "Lefkothea Nicosia",
+        []
+      ],
+      [
+        "Latsia",
+        [
+          "/wiki/Latsia"
+        ]
+      ],
+      [
+        "Dimotiko Stadio Latsia",
+        []
+      ]
+    ],
+    [
+      [
+        "Omonia Nicosia",
+        [
+          "/wiki/Omonia_Nicosia"
+        ]
+      ],
+      [
+        "Nicosia",
+        [
+          "/wiki/Nicosia"
+        ]
+      ],
+      [
+        "THOI Lakatamia Stadium",
+        []
+      ]
+    ],
+    [
+      [
+        "Pafia",
+        []
+      ],
+      [
+        "Paphos",
+        [
+          "/wiki/Paphos"
+        ]
+      ],
+      [
+        "Voithitiko AE Pafou",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "0c047564-372e-5fef-856c-230ea63fd04d",
+    "table_id": "Cypriot_First_Division_(women)_0",
+    "title": "Cypriot First Division (women)",
+    "header": [
+      "Team",
+      "Home city",
+      "Home ground"
+    ],
+    "value": [
+      [
+        [
+          "Anorthosis Famagusta FC",
+          [
+            "/wiki/Anorthosis_Famagusta_FC"
+          ]
+        ],
+        [
+          "Ayia Napa",
+          [
+            "/wiki/Ayia_Napa"
+          ]
+        ],
+        [
+          "Dimotiko Stadio Ayia Napa",
+          []
+        ]
+      ],
+      [
+        [
+          "Apollon Ladies F.C",
+          [
+            "/wiki/Apollon_Ladies_F.C."
+          ]
+        ],
+        [
+          "Limassol",
+          [
+            "/wiki/Limassol"
+          ]
+        ],
+        [
+          "SEK Agiou Athanasiou",
+          [
+            "/wiki/SEK_Agiou_Athanasiou"
+          ]
+        ]
+      ],
+      [
+        [
+          "Apollon Lympion",
+          [
+            "/wiki/Apollon_Lympion"
+          ]
+        ],
+        [
+          "Lympia",
+          [
+            "/wiki/Lympia"
+          ]
+        ],
+        [
+          "Stadium Apollon Lympion",
+          []
+        ]
+      ],
+      [
+        [
+          "Barcelona FA",
+          [
+            "/wiki/Barcelona_FA"
+          ]
+        ],
+        [
+          "Germasogeia",
+          [
+            "/wiki/Germasogeia"
+          ]
+        ],
+        [
+          "Koinotiko Gipedo Germasogeia",
+          []
+        ]
+      ],
+      [
+        [
+          "Football Academy of Ypsona Limassol Champions",
+          []
+        ],
+        [
+          "Kolossi",
+          [
+            "/wiki/Kolossi"
+          ]
+        ],
+        [
+          "Koinotiko Gipedo Kolossi",
+          []
+        ]
+      ],
+      [
+        [
+          "Amok Chrysomilia",
+          []
+        ],
+        [
+          "Limassol",
+          [
+            "/wiki/Limassol"
+          ]
+        ],
+        [
+          "Dimotiko Stadio Kato polemidion Den xechno",
+          []
+        ]
+      ],
+      [
+        [
+          "Enosis Neon THOI Lakatamia",
+          [
+            "/wiki/Enosis_Neon_THOI_Lakatamia"
+          ]
+        ],
+        [
+          "Lakatamia",
+          [
+            "/wiki/Lakatamia"
+          ]
+        ],
+        [
+          "THOI Lakatamia Stadium",
+          []
+        ]
+      ],
+      [
+        [
+          "Lefkothea Nicosia",
+          []
+        ],
+        [
+          "Latsia",
+          [
+            "/wiki/Latsia"
+          ]
+        ],
+        [
+          "Dimotiko Stadio Latsia",
+          []
+        ]
+      ],
+      [
+        [
+          "Omonia Nicosia",
+          [
+            "/wiki/Omonia_Nicosia"
+          ]
+        ],
+        [
+          "Nicosia",
+          [
+            "/wiki/Nicosia"
+          ]
+        ],
+        [
+          "THOI Lakatamia Stadium",
+          []
+        ]
+      ],
+      [
+        [
+          "Pafia",
+          []
+        ],
+        [
+          "Paphos",
+          [
+            "/wiki/Paphos"
+          ]
+        ],
+        [
+          "Voithitiko AE Pafou",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about teams in the Cypriot First Division for women's football, including their associated home cities and home grounds. It serves as a reference for understanding the geographical and infrastructural aspects of the league. The table highlights the connection between teams, their locations, and stadiums.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Home city"
+  ],
+  "entities": [
+    "Team",
+    "Home ground"
+  ]
+}

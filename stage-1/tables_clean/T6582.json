@@ -1,0 +1,527 @@
+{
+  "table_id": "T6582",
+  "uid": "64249211-ed1d-592a-9a78-fd7c7c4a0748",
+  "source": "HybridQA",
+  "source_table_id": "64249211-ed1d-592a-9a78-fd7c7c4a0748",
+  "domain": "HybridQA",
+  "title": "Dancing with the Stars (American season 3)",
+  "columns": [
+    "Celebrity",
+    "Notability ( known for )",
+    "Professional partner",
+    "Status"
+  ],
+  "rows": [
+    [
+      [
+        "Tucker Carlson",
+        [
+          "/wiki/Tucker_Carlson"
+        ]
+      ],
+      [
+        "News anchor & commentator",
+        []
+      ],
+      [
+        "Elena Grinenko",
+        [
+          "/wiki/Elena_Grinenko"
+        ]
+      ],
+      [
+        "Eliminated 1st on September 13 , 2006",
+        []
+      ]
+    ],
+    [
+      [
+        "Shanna Moakler",
+        [
+          "/wiki/Shanna_Moakler"
+        ]
+      ],
+      [
+        "Model , actress , & reality television star",
+        []
+      ],
+      [
+        "Jesse DeSoto",
+        []
+      ],
+      [
+        "Eliminated 2nd on September 20 , 2006",
+        []
+      ]
+    ],
+    [
+      [
+        "Harry Hamlin",
+        [
+          "/wiki/Harry_Hamlin"
+        ]
+      ],
+      [
+        "Film & television actor",
+        []
+      ],
+      [
+        "Ashly DelGrosso",
+        [
+          "/wiki/Ashly_DelGrosso"
+        ]
+      ],
+      [
+        "Eliminated 3rd on September 27 , 2006",
+        []
+      ]
+    ],
+    [
+      [
+        "Vivica A . Fox",
+        [
+          "/wiki/Vivica_A._Fox"
+        ]
+      ],
+      [
+        "Movie actress & producer",
+        []
+      ],
+      [
+        "Nick Kosovich",
+        [
+          "/wiki/Nick_Kosovich"
+        ]
+      ],
+      [
+        "Eliminated 4th on October 4 , 2006",
+        []
+      ]
+    ],
+    [
+      [
+        "Willa Ford",
+        [
+          "/wiki/Willa_Ford"
+        ]
+      ],
+      [
+        "Pop singer & actress",
+        []
+      ],
+      [
+        "Maksim Chmerkovskiy",
+        [
+          "/wiki/Maksim_Chmerkovskiy"
+        ]
+      ],
+      [
+        "Eliminated 5th on October 11 , 2006",
+        []
+      ]
+    ],
+    [
+      [
+        "Sara Evans",
+        [
+          "/wiki/Sara_Evans"
+        ]
+      ],
+      [
+        "Country music singer",
+        []
+      ],
+      [
+        "Tony Dovolani",
+        [
+          "/wiki/Tony_Dovolani"
+        ]
+      ],
+      [
+        "Withdrew on October 13 , 2006",
+        []
+      ]
+    ],
+    [
+      [
+        "Jerry Springer",
+        [
+          "/wiki/Jerry_Springer"
+        ]
+      ],
+      [
+        "Talk show host",
+        []
+      ],
+      [
+        "Kym Johnson",
+        [
+          "/wiki/Kym_Johnson"
+        ]
+      ],
+      [
+        "Eliminated 6th on October 25 , 2006",
+        []
+      ]
+    ],
+    [
+      [
+        "Monique Coleman",
+        [
+          "/wiki/Monique_Coleman"
+        ]
+      ],
+      [
+        "High School Musical actress",
+        [
+          "/wiki/High_School_Musical"
+        ]
+      ],
+      [
+        "Louis Van Amstel",
+        [
+          "/wiki/Louis_Van_Amstel"
+        ]
+      ],
+      [
+        "Eliminated 7th on November 1 , 2006",
+        []
+      ]
+    ],
+    [
+      [
+        "Joey Lawrence",
+        [
+          "/wiki/Joey_Lawrence"
+        ]
+      ],
+      [
+        "Television actor",
+        []
+      ],
+      [
+        "Edyta Śliwińska",
+        [
+          "/wiki/Edyta_Śliwińska"
+        ]
+      ],
+      [
+        "Third place on November 8 , 2006",
+        []
+      ]
+    ],
+    [
+      [
+        "Mario Lopez",
+        [
+          "/wiki/Mario_Lopez"
+        ]
+      ],
+      [
+        "Actor & television host",
+        []
+      ],
+      [
+        "Karina Smirnoff",
+        [
+          "/wiki/Karina_Smirnoff"
+        ]
+      ],
+      [
+        "Runner-up on November 15 , 2006",
+        []
+      ]
+    ],
+    [
+      [
+        "Emmitt Smith",
+        [
+          "/wiki/Emmitt_Smith"
+        ]
+      ],
+      [
+        "Former NFL running back",
+        [
+          "/wiki/National_Football_League"
+        ]
+      ],
+      [
+        "Cheryl Burke",
+        [
+          "/wiki/Cheryl_Burke"
+        ]
+      ],
+      [
+        "Winner on November 15 , 2006",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "64249211-ed1d-592a-9a78-fd7c7c4a0748",
+    "table_id": "Dancing_with_the_Stars_(U.S._season_3)_0",
+    "title": "Dancing with the Stars (American season 3)",
+    "header": [
+      "Celebrity",
+      "Notability ( known for )",
+      "Professional partner",
+      "Status"
+    ],
+    "value": [
+      [
+        [
+          "Tucker Carlson",
+          [
+            "/wiki/Tucker_Carlson"
+          ]
+        ],
+        [
+          "News anchor & commentator",
+          []
+        ],
+        [
+          "Elena Grinenko",
+          [
+            "/wiki/Elena_Grinenko"
+          ]
+        ],
+        [
+          "Eliminated 1st on September 13 , 2006",
+          []
+        ]
+      ],
+      [
+        [
+          "Shanna Moakler",
+          [
+            "/wiki/Shanna_Moakler"
+          ]
+        ],
+        [
+          "Model , actress , & reality television star",
+          []
+        ],
+        [
+          "Jesse DeSoto",
+          []
+        ],
+        [
+          "Eliminated 2nd on September 20 , 2006",
+          []
+        ]
+      ],
+      [
+        [
+          "Harry Hamlin",
+          [
+            "/wiki/Harry_Hamlin"
+          ]
+        ],
+        [
+          "Film & television actor",
+          []
+        ],
+        [
+          "Ashly DelGrosso",
+          [
+            "/wiki/Ashly_DelGrosso"
+          ]
+        ],
+        [
+          "Eliminated 3rd on September 27 , 2006",
+          []
+        ]
+      ],
+      [
+        [
+          "Vivica A . Fox",
+          [
+            "/wiki/Vivica_A._Fox"
+          ]
+        ],
+        [
+          "Movie actress & producer",
+          []
+        ],
+        [
+          "Nick Kosovich",
+          [
+            "/wiki/Nick_Kosovich"
+          ]
+        ],
+        [
+          "Eliminated 4th on October 4 , 2006",
+          []
+        ]
+      ],
+      [
+        [
+          "Willa Ford",
+          [
+            "/wiki/Willa_Ford"
+          ]
+        ],
+        [
+          "Pop singer & actress",
+          []
+        ],
+        [
+          "Maksim Chmerkovskiy",
+          [
+            "/wiki/Maksim_Chmerkovskiy"
+          ]
+        ],
+        [
+          "Eliminated 5th on October 11 , 2006",
+          []
+        ]
+      ],
+      [
+        [
+          "Sara Evans",
+          [
+            "/wiki/Sara_Evans"
+          ]
+        ],
+        [
+          "Country music singer",
+          []
+        ],
+        [
+          "Tony Dovolani",
+          [
+            "/wiki/Tony_Dovolani"
+          ]
+        ],
+        [
+          "Withdrew on October 13 , 2006",
+          []
+        ]
+      ],
+      [
+        [
+          "Jerry Springer",
+          [
+            "/wiki/Jerry_Springer"
+          ]
+        ],
+        [
+          "Talk show host",
+          []
+        ],
+        [
+          "Kym Johnson",
+          [
+            "/wiki/Kym_Johnson"
+          ]
+        ],
+        [
+          "Eliminated 6th on October 25 , 2006",
+          []
+        ]
+      ],
+      [
+        [
+          "Monique Coleman",
+          [
+            "/wiki/Monique_Coleman"
+          ]
+        ],
+        [
+          "High School Musical actress",
+          [
+            "/wiki/High_School_Musical"
+          ]
+        ],
+        [
+          "Louis Van Amstel",
+          [
+            "/wiki/Louis_Van_Amstel"
+          ]
+        ],
+        [
+          "Eliminated 7th on November 1 , 2006",
+          []
+        ]
+      ],
+      [
+        [
+          "Joey Lawrence",
+          [
+            "/wiki/Joey_Lawrence"
+          ]
+        ],
+        [
+          "Television actor",
+          []
+        ],
+        [
+          "Edyta Śliwińska",
+          [
+            "/wiki/Edyta_Śliwińska"
+          ]
+        ],
+        [
+          "Third place on November 8 , 2006",
+          []
+        ]
+      ],
+      [
+        [
+          "Mario Lopez",
+          [
+            "/wiki/Mario_Lopez"
+          ]
+        ],
+        [
+          "Actor & television host",
+          []
+        ],
+        [
+          "Karina Smirnoff",
+          [
+            "/wiki/Karina_Smirnoff"
+          ]
+        ],
+        [
+          "Runner-up on November 15 , 2006",
+          []
+        ]
+      ],
+      [
+        [
+          "Emmitt Smith",
+          [
+            "/wiki/Emmitt_Smith"
+          ]
+        ],
+        [
+          "Former NFL running back",
+          [
+            "/wiki/National_Football_League"
+          ]
+        ],
+        [
+          "Cheryl Burke",
+          [
+            "/wiki/Cheryl_Burke"
+          ]
+        ],
+        [
+          "Winner on November 15 , 2006",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the participants of the American season 3 of 'Dancing with the Stars,' including their notability, professional dance partners, and competition status. It serves as a summary of the celebrities, their backgrounds, and their progress in the show.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Notability ( known for )",
+    "Status"
+  ],
+  "entities": [
+    "Celebrity",
+    "Professional partner"
+  ]
+}

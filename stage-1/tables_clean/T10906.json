@@ -1,0 +1,228 @@
+{
+  "table_id": "T10906",
+  "uid": "5b210e2a-37ea-500c-873b-8aa63da03469",
+  "source": "HybridQA",
+  "source_table_id": "5b210e2a-37ea-500c-873b-8aa63da03469",
+  "domain": "HybridQA",
+  "title": "Burmese chronicles",
+  "columns": [
+    "Name",
+    "Date ( s )",
+    "Author ( s )"
+  ],
+  "rows": [
+    [
+      [
+        "Rakhine Razawin",
+        [
+          "/wiki/Rakhine_Razawin"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "Do We",
+        []
+      ]
+    ],
+    [
+      [
+        "Min Razagri Aredaw Sadan Also called Razawin Haung ( Old Chronicle )",
+        [
+          "/wiki/Rakhine_Razawin_Haung"
+        ]
+      ],
+      [
+        "c. 1775",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Dhanyawaddy Ayedawbon",
+        [
+          "/wiki/Dhanyawaddy_Ayedawbon"
+        ]
+      ],
+      [
+        1788,
+        []
+      ],
+      [
+        "Rakhine Sayadaw",
+        []
+      ]
+    ],
+    [
+      [
+        "Mizzimadetha Ayedawbon",
+        [
+          "/wiki/Mizzimadetha_Ayedawbon"
+        ]
+      ],
+      [
+        1823,
+        []
+      ],
+      [
+        "Ne Myo Zeya Kyawhtin",
+        []
+      ]
+    ],
+    [
+      [
+        "Maha Razawin ( Saya Me )",
+        [
+          "/wiki/Maha_Razawin_(Saya_Me)"
+        ]
+      ],
+      [
+        "c. 1840",
+        []
+      ],
+      [
+        "Saya Me",
+        []
+      ]
+    ],
+    [
+      [
+        "Rakhine Razawin Thit",
+        [
+          "/wiki/Rakhine_Razawin_Thit"
+        ]
+      ],
+      [
+        1931,
+        []
+      ],
+      [
+        "Shin Sandamala Linkara",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "5b210e2a-37ea-500c-873b-8aa63da03469",
+    "table_id": "Burmese_chronicles_4",
+    "title": "Burmese chronicles",
+    "header": [
+      "Name",
+      "Date ( s )",
+      "Author ( s )"
+    ],
+    "value": [
+      [
+        [
+          "Rakhine Razawin",
+          [
+            "/wiki/Rakhine_Razawin"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "Do We",
+          []
+        ]
+      ],
+      [
+        [
+          "Min Razagri Aredaw Sadan Also called Razawin Haung ( Old Chronicle )",
+          [
+            "/wiki/Rakhine_Razawin_Haung"
+          ]
+        ],
+        [
+          "c. 1775",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Dhanyawaddy Ayedawbon",
+          [
+            "/wiki/Dhanyawaddy_Ayedawbon"
+          ]
+        ],
+        [
+          1788,
+          []
+        ],
+        [
+          "Rakhine Sayadaw",
+          []
+        ]
+      ],
+      [
+        [
+          "Mizzimadetha Ayedawbon",
+          [
+            "/wiki/Mizzimadetha_Ayedawbon"
+          ]
+        ],
+        [
+          1823,
+          []
+        ],
+        [
+          "Ne Myo Zeya Kyawhtin",
+          []
+        ]
+      ],
+      [
+        [
+          "Maha Razawin ( Saya Me )",
+          [
+            "/wiki/Maha_Razawin_(Saya_Me)"
+          ]
+        ],
+        [
+          "c. 1840",
+          []
+        ],
+        [
+          "Saya Me",
+          []
+        ]
+      ],
+      [
+        [
+          "Rakhine Razawin Thit",
+          [
+            "/wiki/Rakhine_Razawin_Thit"
+          ]
+        ],
+        [
+          1931,
+          []
+        ],
+        [
+          "Shin Sandamala Linkara",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about Burmese chronicles, including their names, associated dates, and authors. It is likely intended to catalog historical or literary works from Burma for reference or study purposes.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Date ( s )",
+    "Author ( s )"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

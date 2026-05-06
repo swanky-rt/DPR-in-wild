@@ -1,0 +1,549 @@
+{
+  "table_id": "T10442",
+  "uid": "4c52cfe6-9785-53d5-92d4-989d9c894591",
+  "source": "HybridQA",
+  "source_table_id": "4c52cfe6-9785-53d5-92d4-989d9c894591",
+  "domain": "HybridQA",
+  "title": "Ranked lists of Chilean regions",
+  "columns": [
+    "Region",
+    "Main economic activity",
+    "% of regional GDP"
+  ],
+  "rows": [
+    [
+      [
+        "Arica and Parinacota",
+        [
+          "/wiki/Arica_and_Parinacota_Region"
+        ]
+      ],
+      [
+        "Personal services",
+        []
+      ],
+      [
+        19.9,
+        []
+      ]
+    ],
+    [
+      [
+        "Tarapacá",
+        [
+          "/wiki/Tarapacá_Region"
+        ]
+      ],
+      [
+        "Mining",
+        []
+      ],
+      [
+        44.84,
+        []
+      ]
+    ],
+    [
+      [
+        "Antofagasta",
+        [
+          "/wiki/Antofagasta_Region"
+        ]
+      ],
+      [
+        "Mining",
+        []
+      ],
+      [
+        56.3,
+        []
+      ]
+    ],
+    [
+      [
+        "Atacama",
+        [
+          "/wiki/Atacama_Region"
+        ]
+      ],
+      [
+        "Mining",
+        []
+      ],
+      [
+        44.33,
+        []
+      ]
+    ],
+    [
+      [
+        "Coquimbo",
+        [
+          "/wiki/Coquimbo_Region"
+        ]
+      ],
+      [
+        "Mining",
+        []
+      ],
+      [
+        35.0,
+        []
+      ]
+    ],
+    [
+      [
+        "Valparaíso",
+        [
+          "/wiki/Valparaíso_Region"
+        ]
+      ],
+      [
+        "Manufacturing industry",
+        []
+      ],
+      [
+        18.31,
+        []
+      ]
+    ],
+    [
+      [
+        "Santiago",
+        [
+          "/wiki/Santiago_Metropolitan_Region"
+        ]
+      ],
+      [
+        "Business and financial services",
+        []
+      ],
+      [
+        35.32,
+        []
+      ]
+    ],
+    [
+      [
+        "O'Higgins",
+        [
+          "/wiki/O'Higgins_Region"
+        ]
+      ],
+      [
+        "Mining",
+        []
+      ],
+      [
+        23.68,
+        []
+      ]
+    ],
+    [
+      [
+        "Maule",
+        [
+          "/wiki/Maule_Region"
+        ]
+      ],
+      [
+        "Manufacturing industry",
+        []
+      ],
+      [
+        15.9,
+        []
+      ]
+    ],
+    [
+      [
+        "Biobío",
+        [
+          "/wiki/Biobío_Region"
+        ]
+      ],
+      [
+        "Manufacturing industry",
+        []
+      ],
+      [
+        23.83,
+        []
+      ]
+    ],
+    [
+      [
+        "Araucanía",
+        [
+          "/wiki/Araucanía_Region"
+        ]
+      ],
+      [
+        "Personal services",
+        []
+      ],
+      [
+        22.14,
+        []
+      ]
+    ],
+    [
+      [
+        "Los Ríos",
+        [
+          "/wiki/Los_Ríos_Region"
+        ]
+      ],
+      [
+        "Manufacturing industry",
+        []
+      ],
+      [
+        24.03,
+        []
+      ]
+    ],
+    [
+      [
+        "Los Lagos",
+        [
+          "/wiki/Los_Lagos_Region"
+        ]
+      ],
+      [
+        "Manufacturing industry",
+        []
+      ],
+      [
+        20.27,
+        []
+      ]
+    ],
+    [
+      [
+        "Aisén",
+        [
+          "/wiki/Aisén_Region"
+        ]
+      ],
+      [
+        "Public administration",
+        []
+      ],
+      [
+        19.66,
+        []
+      ]
+    ],
+    [
+      [
+        "Magallanes",
+        [
+          "/wiki/Magallanes_Region"
+        ]
+      ],
+      [
+        "Public administration",
+        []
+      ],
+      [
+        16.71,
+        []
+      ]
+    ],
+    [
+      [
+        "Chile",
+        [
+          "/wiki/Chile"
+        ]
+      ],
+      [
+        "Business and financial services",
+        []
+      ],
+      [
+        18.41,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "4c52cfe6-9785-53d5-92d4-989d9c894591",
+    "table_id": "Ranked_lists_of_Chilean_regions_9",
+    "title": "Ranked lists of Chilean regions",
+    "header": [
+      "Region",
+      "Main economic activity",
+      "% of regional GDP"
+    ],
+    "value": [
+      [
+        [
+          "Arica and Parinacota",
+          [
+            "/wiki/Arica_and_Parinacota_Region"
+          ]
+        ],
+        [
+          "Personal services",
+          []
+        ],
+        [
+          19.9,
+          []
+        ]
+      ],
+      [
+        [
+          "Tarapacá",
+          [
+            "/wiki/Tarapacá_Region"
+          ]
+        ],
+        [
+          "Mining",
+          []
+        ],
+        [
+          44.84,
+          []
+        ]
+      ],
+      [
+        [
+          "Antofagasta",
+          [
+            "/wiki/Antofagasta_Region"
+          ]
+        ],
+        [
+          "Mining",
+          []
+        ],
+        [
+          56.3,
+          []
+        ]
+      ],
+      [
+        [
+          "Atacama",
+          [
+            "/wiki/Atacama_Region"
+          ]
+        ],
+        [
+          "Mining",
+          []
+        ],
+        [
+          44.33,
+          []
+        ]
+      ],
+      [
+        [
+          "Coquimbo",
+          [
+            "/wiki/Coquimbo_Region"
+          ]
+        ],
+        [
+          "Mining",
+          []
+        ],
+        [
+          35.0,
+          []
+        ]
+      ],
+      [
+        [
+          "Valparaíso",
+          [
+            "/wiki/Valparaíso_Region"
+          ]
+        ],
+        [
+          "Manufacturing industry",
+          []
+        ],
+        [
+          18.31,
+          []
+        ]
+      ],
+      [
+        [
+          "Santiago",
+          [
+            "/wiki/Santiago_Metropolitan_Region"
+          ]
+        ],
+        [
+          "Business and financial services",
+          []
+        ],
+        [
+          35.32,
+          []
+        ]
+      ],
+      [
+        [
+          "O'Higgins",
+          [
+            "/wiki/O'Higgins_Region"
+          ]
+        ],
+        [
+          "Mining",
+          []
+        ],
+        [
+          23.68,
+          []
+        ]
+      ],
+      [
+        [
+          "Maule",
+          [
+            "/wiki/Maule_Region"
+          ]
+        ],
+        [
+          "Manufacturing industry",
+          []
+        ],
+        [
+          15.9,
+          []
+        ]
+      ],
+      [
+        [
+          "Biobío",
+          [
+            "/wiki/Biobío_Region"
+          ]
+        ],
+        [
+          "Manufacturing industry",
+          []
+        ],
+        [
+          23.83,
+          []
+        ]
+      ],
+      [
+        [
+          "Araucanía",
+          [
+            "/wiki/Araucanía_Region"
+          ]
+        ],
+        [
+          "Personal services",
+          []
+        ],
+        [
+          22.14,
+          []
+        ]
+      ],
+      [
+        [
+          "Los Ríos",
+          [
+            "/wiki/Los_Ríos_Region"
+          ]
+        ],
+        [
+          "Manufacturing industry",
+          []
+        ],
+        [
+          24.03,
+          []
+        ]
+      ],
+      [
+        [
+          "Los Lagos",
+          [
+            "/wiki/Los_Lagos_Region"
+          ]
+        ],
+        [
+          "Manufacturing industry",
+          []
+        ],
+        [
+          20.27,
+          []
+        ]
+      ],
+      [
+        [
+          "Aisén",
+          [
+            "/wiki/Aisén_Region"
+          ]
+        ],
+        [
+          "Public administration",
+          []
+        ],
+        [
+          19.66,
+          []
+        ]
+      ],
+      [
+        [
+          "Magallanes",
+          [
+            "/wiki/Magallanes_Region"
+          ]
+        ],
+        [
+          "Public administration",
+          []
+        ],
+        [
+          16.71,
+          []
+        ]
+      ],
+      [
+        [
+          "Chile",
+          [
+            "/wiki/Chile"
+          ]
+        ],
+        [
+          "Business and financial services",
+          []
+        ],
+        [
+          18.41,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a ranked overview of Chilean regions, focusing on their main economic activities and the percentage contribution of these activities to the regional GDP. It is intended to highlight the economic landscape and regional specialization within Chile. The table combines categorical and numerical data to offer insights into regional economies.",
+  "numeric_columns": [
+    "% of regional GDP"
+  ],
+  "categorical_columns": [
+    "Main economic activity"
+  ],
+  "entities": [
+    "Region"
+  ]
+}

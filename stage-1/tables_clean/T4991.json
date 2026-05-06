@@ -1,0 +1,555 @@
+{
+  "table_id": "T4991",
+  "uid": "3f933d23-afc9-5b10-910e-0ec6ebf1b9f2",
+  "source": "HybridQA",
+  "source_table_id": "3f933d23-afc9-5b10-910e-0ec6ebf1b9f2",
+  "domain": "HybridQA",
+  "title": "Kilvey Hill transmitting station",
+  "columns": [
+    "Frequency",
+    "UHF",
+    "kW",
+    "Operator",
+    "System"
+  ],
+  "rows": [
+    [
+      [
+        "474.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        21,
+        []
+      ],
+      [
+        0.1,
+        []
+      ],
+      [
+        "Arqiva ( Mux C )",
+        [
+          "/wiki/Arqiva"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "481.833 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "22-",
+        []
+      ],
+      [
+        0.6000000000000001,
+        []
+      ],
+      [
+        "Digital 3 & 4 ( Mux 2 )",
+        [
+          "/wiki/Digital_3&4"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "490.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        23,
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "BBC A",
+        [
+          "/wiki/BBC"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "511.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        26,
+        []
+      ],
+      [
+        10,
+        []
+      ],
+      [
+        "ITV Wales",
+        [
+          "/wiki/ITV_Wales_&_West"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "529.833 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "28-",
+        []
+      ],
+      [
+        0.30000000000000004,
+        []
+      ],
+      [
+        "SDN ( Mux A )",
+        [
+          "/wiki/S4C_Digital_Networks"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "535.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        29,
+        []
+      ],
+      [
+        10,
+        []
+      ],
+      [
+        "S4C",
+        [
+          "/wiki/S4C"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "553.833 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "31-",
+        []
+      ],
+      [
+        0.1,
+        []
+      ],
+      [
+        "Arqiva ( Mux D )",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "561.833 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "32-",
+        []
+      ],
+      [
+        0.6000000000000001,
+        []
+      ],
+      [
+        "BBC ( Mux B )",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "567.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        33,
+        []
+      ],
+      [
+        10,
+        []
+      ],
+      [
+        "BBC One Wales",
+        [
+          "/wiki/BBC_One_Wales"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "583.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        35,
+        []
+      ],
+      [
+        10,
+        []
+      ],
+      [
+        "Channel 5",
+        [
+          "/wiki/Channel_5_(UK)"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "3f933d23-afc9-5b10-910e-0ec6ebf1b9f2",
+    "table_id": "Kilvey_Hill_transmitting_station_7",
+    "title": "Kilvey Hill transmitting station",
+    "header": [
+      "Frequency",
+      "UHF",
+      "kW",
+      "Operator",
+      "System"
+    ],
+    "value": [
+      [
+        [
+          "474.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          21,
+          []
+        ],
+        [
+          0.1,
+          []
+        ],
+        [
+          "Arqiva ( Mux C )",
+          [
+            "/wiki/Arqiva"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "481.833 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "22-",
+          []
+        ],
+        [
+          0.6000000000000001,
+          []
+        ],
+        [
+          "Digital 3 & 4 ( Mux 2 )",
+          [
+            "/wiki/Digital_3&4"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "490.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          23,
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "BBC A",
+          [
+            "/wiki/BBC"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "511.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          26,
+          []
+        ],
+        [
+          10,
+          []
+        ],
+        [
+          "ITV Wales",
+          [
+            "/wiki/ITV_Wales_&_West"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "529.833 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "28-",
+          []
+        ],
+        [
+          0.30000000000000004,
+          []
+        ],
+        [
+          "SDN ( Mux A )",
+          [
+            "/wiki/S4C_Digital_Networks"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "535.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          29,
+          []
+        ],
+        [
+          10,
+          []
+        ],
+        [
+          "S4C",
+          [
+            "/wiki/S4C"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "553.833 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "31-",
+          []
+        ],
+        [
+          0.1,
+          []
+        ],
+        [
+          "Arqiva ( Mux D )",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "561.833 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "32-",
+          []
+        ],
+        [
+          0.6000000000000001,
+          []
+        ],
+        [
+          "BBC ( Mux B )",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "567.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          33,
+          []
+        ],
+        [
+          10,
+          []
+        ],
+        [
+          "BBC One Wales",
+          [
+            "/wiki/BBC_One_Wales"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "583.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          35,
+          []
+        ],
+        [
+          10,
+          []
+        ],
+        [
+          "Channel 5",
+          [
+            "/wiki/Channel_5_(UK)"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about the Kilvey Hill transmitting station, detailing its broadcasting frequencies, power levels, operators, and systems used. It appears to document technical specifications and operational details for various transmission channels.",
+  "numeric_columns": [
+    "UHF",
+    "kW"
+  ],
+  "categorical_columns": [
+    "Frequency",
+    "System"
+  ],
+  "entities": [
+    "Operator"
+  ]
+}

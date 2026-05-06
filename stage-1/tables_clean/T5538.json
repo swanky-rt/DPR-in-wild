@@ -1,0 +1,480 @@
+{
+  "table_id": "T5538",
+  "uid": "fb1adc20-4d9b-594e-8b3a-45788643c18e",
+  "source": "HybridQA",
+  "source_table_id": "fb1adc20-4d9b-594e-8b3a-45788643c18e",
+  "domain": "HybridQA",
+  "title": "Economy of Pittsburgh",
+  "columns": [
+    "Rank",
+    "Employer",
+    "Number of Pittsburgh employees",
+    "Product ( s )"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "University of Pittsburgh Medical Center",
+        [
+          "/wiki/University_of_Pittsburgh_Medical_Center"
+        ]
+      ],
+      [
+        "40,600",
+        []
+      ],
+      [
+        "Health care",
+        [
+          "/wiki/Health_care"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "University of Pittsburgh",
+        [
+          "/wiki/University_of_Pittsburgh"
+        ]
+      ],
+      [
+        "12,600",
+        []
+      ],
+      [
+        "Higher education",
+        [
+          "/wiki/Higher_education"
+        ]
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "PNC Financial Services",
+        [
+          "/wiki/PNC_Financial_Services"
+        ]
+      ],
+      [
+        "9,200",
+        []
+      ],
+      [
+        "Financial services",
+        [
+          "/wiki/Financial_services"
+        ]
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Allegheny Health Network",
+        [
+          "/wiki/Allegheny_Health_Network"
+        ]
+      ],
+      [
+        "8,900",
+        []
+      ],
+      [
+        "Health care",
+        [
+          "/wiki/Health_care"
+        ]
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Giant Eagle",
+        [
+          "/wiki/Giant_Eagle"
+        ]
+      ],
+      [
+        "8,000",
+        []
+      ],
+      [
+        "Supermarkets",
+        [
+          "/wiki/Supermarkets"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Bank of New York Mellon",
+        [
+          "/wiki/Bank_of_New_York_Mellon"
+        ]
+      ],
+      [
+        "7,610",
+        []
+      ],
+      [
+        "Financial services",
+        [
+          "/wiki/Financial_services"
+        ]
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Highmark",
+        [
+          "/wiki/Highmark"
+        ]
+      ],
+      [
+        "5,270",
+        []
+      ],
+      [
+        "Health insurance",
+        [
+          "/wiki/Health_insurance"
+        ]
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "U.S. Steel",
+        [
+          "/wiki/U.S._Steel"
+        ]
+      ],
+      [
+        "4,700",
+        []
+      ],
+      [
+        "Steel manufacturing",
+        [
+          "/wiki/Steel_manufacturing"
+        ]
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Carnegie Mellon University",
+        [
+          "/wiki/Carnegie_Mellon_University"
+        ]
+      ],
+      [
+        "4,600",
+        []
+      ],
+      [
+        "Higher education",
+        [
+          "/wiki/Higher_education"
+        ]
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Verizon Communications",
+        [
+          "/wiki/Verizon_Communications"
+        ]
+      ],
+      [
+        "3,750",
+        []
+      ],
+      [
+        "Telecommunications",
+        [
+          "/wiki/Telecommunications"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "fb1adc20-4d9b-594e-8b3a-45788643c18e",
+    "table_id": "Economy_of_Pittsburgh_0",
+    "title": "Economy of Pittsburgh",
+    "header": [
+      "Rank",
+      "Employer",
+      "Number of Pittsburgh employees",
+      "Product ( s )"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "University of Pittsburgh Medical Center",
+          [
+            "/wiki/University_of_Pittsburgh_Medical_Center"
+          ]
+        ],
+        [
+          "40,600",
+          []
+        ],
+        [
+          "Health care",
+          [
+            "/wiki/Health_care"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "University of Pittsburgh",
+          [
+            "/wiki/University_of_Pittsburgh"
+          ]
+        ],
+        [
+          "12,600",
+          []
+        ],
+        [
+          "Higher education",
+          [
+            "/wiki/Higher_education"
+          ]
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "PNC Financial Services",
+          [
+            "/wiki/PNC_Financial_Services"
+          ]
+        ],
+        [
+          "9,200",
+          []
+        ],
+        [
+          "Financial services",
+          [
+            "/wiki/Financial_services"
+          ]
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Allegheny Health Network",
+          [
+            "/wiki/Allegheny_Health_Network"
+          ]
+        ],
+        [
+          "8,900",
+          []
+        ],
+        [
+          "Health care",
+          [
+            "/wiki/Health_care"
+          ]
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Giant Eagle",
+          [
+            "/wiki/Giant_Eagle"
+          ]
+        ],
+        [
+          "8,000",
+          []
+        ],
+        [
+          "Supermarkets",
+          [
+            "/wiki/Supermarkets"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Bank of New York Mellon",
+          [
+            "/wiki/Bank_of_New_York_Mellon"
+          ]
+        ],
+        [
+          "7,610",
+          []
+        ],
+        [
+          "Financial services",
+          [
+            "/wiki/Financial_services"
+          ]
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Highmark",
+          [
+            "/wiki/Highmark"
+          ]
+        ],
+        [
+          "5,270",
+          []
+        ],
+        [
+          "Health insurance",
+          [
+            "/wiki/Health_insurance"
+          ]
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "U.S. Steel",
+          [
+            "/wiki/U.S._Steel"
+          ]
+        ],
+        [
+          "4,700",
+          []
+        ],
+        [
+          "Steel manufacturing",
+          [
+            "/wiki/Steel_manufacturing"
+          ]
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Carnegie Mellon University",
+          [
+            "/wiki/Carnegie_Mellon_University"
+          ]
+        ],
+        [
+          "4,600",
+          []
+        ],
+        [
+          "Higher education",
+          [
+            "/wiki/Higher_education"
+          ]
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Verizon Communications",
+          [
+            "/wiki/Verizon_Communications"
+          ]
+        ],
+        [
+          "3,750",
+          []
+        ],
+        [
+          "Telecommunications",
+          [
+            "/wiki/Telecommunications"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides an overview of major employers in Pittsburgh, ranking them by the number of employees they have in the city and describing their primary products or services. It is intended to highlight the economic landscape of Pittsburgh by showcasing key organizations and their contributions to employment and industry sectors.",
+  "numeric_columns": [
+    "Number of Pittsburgh employees"
+  ],
+  "categorical_columns": [
+    "Rank",
+    "Product ( s )"
+  ],
+  "entities": [
+    "Employer"
+  ]
+}

@@ -1,0 +1,448 @@
+{
+  "table_id": "T2329",
+  "uid": "6426b312-b51a-5185-b40c-89321f996624",
+  "source": "HybridQA",
+  "source_table_id": "6426b312-b51a-5185-b40c-89321f996624",
+  "domain": "HybridQA",
+  "title": "Croatian Footballer of the Year",
+  "columns": [
+    "Wins",
+    "Player",
+    "Winning years",
+    "Clubs"
+  ],
+  "rows": [
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Luka Modrić",
+        [
+          "/wiki/Luka_Modrić"
+        ]
+      ],
+      [
+        "2007 , 2008 , 2011 , 2014 , 2016 , 2017 , 2018",
+        []
+      ],
+      [
+        "Dinamo Zagreb , Tottenham Hotspur , Real Madrid",
+        [
+          "/wiki/GNK_Dinamo_Zagreb",
+          "/wiki/Tottenham_Hotspur_F.C.",
+          "/wiki/Real_Madrid_C.F."
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Davor Šuker",
+        [
+          "/wiki/Davor_Šuker"
+        ]
+      ],
+      [
+        "1992 , 1994 , 1995 , 1996 , 1997 , 1998",
+        []
+      ],
+      [
+        "Sevilla , Real Madrid",
+        [
+          "/wiki/Sevilla_FC",
+          "/wiki/Real_Madrid_C.F."
+        ]
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Dado Pršo",
+        [
+          "/wiki/Dado_Pršo"
+        ]
+      ],
+      [
+        "2003 , 2004 , 2005",
+        []
+      ],
+      [
+        "AS Monaco , Rangers",
+        [
+          "/wiki/AS_Monaco_FC",
+          "/wiki/Rangers_F.C."
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Velimir Zajec",
+        [
+          "/wiki/Velimir_Zajec"
+        ]
+      ],
+      [
+        "1979* , 1984*",
+        []
+      ],
+      [
+        "Dinamo Zagreb , Panathinaikos",
+        [
+          "/wiki/GNK_Dinamo_Zagreb",
+          "/wiki/Panathinaikos_F.C."
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Dragan Stojković",
+        [
+          "/wiki/Dragan_Stojković"
+        ]
+      ],
+      [
+        "1988* , 1989*",
+        []
+      ],
+      [
+        "Red Star",
+        [
+          "/wiki/Red_Star_Belgrade"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Robert Prosinečki",
+        [
+          "/wiki/Robert_Prosinečki"
+        ]
+      ],
+      [
+        "1990* , 1997",
+        []
+      ],
+      [
+        "Red Star , Dinamo Zagreb",
+        [
+          "/wiki/Red_Star_Belgrade",
+          "/wiki/GNK_Dinamo_Zagreb"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Zvonimir Boban",
+        [
+          "/wiki/Zvonimir_Boban"
+        ]
+      ],
+      [
+        "1991 , 1999",
+        []
+      ],
+      [
+        "Milan",
+        [
+          "/wiki/A.C._Milan"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Ivica Olić",
+        [
+          "/wiki/Ivica_Olić"
+        ]
+      ],
+      [
+        "2009 , 2010",
+        []
+      ],
+      [
+        "Bayern Munich",
+        [
+          "/wiki/FC_Bayern_Munich"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Mario Mandžukić",
+        [
+          "/wiki/Mario_Mandžukić"
+        ]
+      ],
+      [
+        "2012 , 2013",
+        []
+      ],
+      [
+        "Bayern Munich",
+        [
+          "/wiki/FC_Bayern_Munich"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "6426b312-b51a-5185-b40c-89321f996624",
+    "table_id": "Croatian_Footballer_of_the_Year_0",
+    "title": "Croatian Footballer of the Year",
+    "header": [
+      "Wins",
+      "Player",
+      "Winning years",
+      "Clubs"
+    ],
+    "value": [
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Luka Modrić",
+          [
+            "/wiki/Luka_Modrić"
+          ]
+        ],
+        [
+          "2007 , 2008 , 2011 , 2014 , 2016 , 2017 , 2018",
+          []
+        ],
+        [
+          "Dinamo Zagreb , Tottenham Hotspur , Real Madrid",
+          [
+            "/wiki/GNK_Dinamo_Zagreb",
+            "/wiki/Tottenham_Hotspur_F.C.",
+            "/wiki/Real_Madrid_C.F."
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Davor Šuker",
+          [
+            "/wiki/Davor_Šuker"
+          ]
+        ],
+        [
+          "1992 , 1994 , 1995 , 1996 , 1997 , 1998",
+          []
+        ],
+        [
+          "Sevilla , Real Madrid",
+          [
+            "/wiki/Sevilla_FC",
+            "/wiki/Real_Madrid_C.F."
+          ]
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Dado Pršo",
+          [
+            "/wiki/Dado_Pršo"
+          ]
+        ],
+        [
+          "2003 , 2004 , 2005",
+          []
+        ],
+        [
+          "AS Monaco , Rangers",
+          [
+            "/wiki/AS_Monaco_FC",
+            "/wiki/Rangers_F.C."
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Velimir Zajec",
+          [
+            "/wiki/Velimir_Zajec"
+          ]
+        ],
+        [
+          "1979* , 1984*",
+          []
+        ],
+        [
+          "Dinamo Zagreb , Panathinaikos",
+          [
+            "/wiki/GNK_Dinamo_Zagreb",
+            "/wiki/Panathinaikos_F.C."
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Dragan Stojković",
+          [
+            "/wiki/Dragan_Stojković"
+          ]
+        ],
+        [
+          "1988* , 1989*",
+          []
+        ],
+        [
+          "Red Star",
+          [
+            "/wiki/Red_Star_Belgrade"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Robert Prosinečki",
+          [
+            "/wiki/Robert_Prosinečki"
+          ]
+        ],
+        [
+          "1990* , 1997",
+          []
+        ],
+        [
+          "Red Star , Dinamo Zagreb",
+          [
+            "/wiki/Red_Star_Belgrade",
+            "/wiki/GNK_Dinamo_Zagreb"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Zvonimir Boban",
+          [
+            "/wiki/Zvonimir_Boban"
+          ]
+        ],
+        [
+          "1991 , 1999",
+          []
+        ],
+        [
+          "Milan",
+          [
+            "/wiki/A.C._Milan"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Ivica Olić",
+          [
+            "/wiki/Ivica_Olić"
+          ]
+        ],
+        [
+          "2009 , 2010",
+          []
+        ],
+        [
+          "Bayern Munich",
+          [
+            "/wiki/FC_Bayern_Munich"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Mario Mandžukić",
+          [
+            "/wiki/Mario_Mandžukić"
+          ]
+        ],
+        [
+          "2012 , 2013",
+          []
+        ],
+        [
+          "Bayern Munich",
+          [
+            "/wiki/FC_Bayern_Munich"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table represents the Croatian Footballer of the Year award, showcasing players who have won the title, the years they won, and the clubs they were associated with during their winning periods. It serves to highlight notable achievements in Croatian football history.",
+  "numeric_columns": [
+    "Wins"
+  ],
+  "categorical_columns": [
+    "Winning years",
+    "Clubs"
+  ],
+  "entities": [
+    "Player"
+  ]
+}

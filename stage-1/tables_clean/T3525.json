@@ -1,0 +1,419 @@
+{
+  "table_id": "T3525",
+  "uid": "de478659-4c08-58aa-a8f0-0a277ca5a270",
+  "source": "HybridQA",
+  "source_table_id": "de478659-4c08-58aa-a8f0-0a277ca5a270",
+  "domain": "HybridQA",
+  "title": "2013 Ivy League men's soccer season",
+  "columns": [
+    "Team",
+    "Location",
+    "Stadium",
+    "Capacity"
+  ],
+  "rows": [
+    [
+      [
+        "Brown Bears",
+        [
+          "/wiki/Brown_Bears_men's_soccer"
+        ]
+      ],
+      [
+        "Providence , Rhode Island",
+        [
+          "/wiki/Providence,_Rhode_Island"
+        ]
+      ],
+      [
+        "Stevenson Field",
+        [
+          "/wiki/Stevenson_Field"
+        ]
+      ],
+      [
+        "3,500",
+        []
+      ]
+    ],
+    [
+      [
+        "Columbia Lions",
+        [
+          "/wiki/Columbia_Lions_men's_soccer"
+        ]
+      ],
+      [
+        "New York City , New York",
+        [
+          "/wiki/New_York_City"
+        ]
+      ],
+      [
+        "Columbia Soccer Stadium",
+        [
+          "/wiki/Columbia_Soccer_Stadium"
+        ]
+      ],
+      [
+        "3,500",
+        []
+      ]
+    ],
+    [
+      [
+        "Cornell Big Red",
+        [
+          "/wiki/Cornell_Big_Red_men's_soccer"
+        ]
+      ],
+      [
+        "Ithaca , New York",
+        [
+          "/wiki/Ithaca,_New_York"
+        ]
+      ],
+      [
+        "Berman Field",
+        [
+          "/wiki/Charles_F._Berman_Field"
+        ]
+      ],
+      [
+        "1,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Dartmouth Big Green",
+        [
+          "/wiki/Dartmouth_Big_Green_men's_soccer"
+        ]
+      ],
+      [
+        "Hanover , New Hampshire",
+        [
+          "/wiki/Hanover,_New_Hampshire"
+        ]
+      ],
+      [
+        "Burnham Field",
+        [
+          "/wiki/Burnham_Field"
+        ]
+      ],
+      [
+        "1,600",
+        []
+      ]
+    ],
+    [
+      [
+        "Harvard Crimson",
+        [
+          "/wiki/Harvard_Crimson_men's_soccer"
+        ]
+      ],
+      [
+        "Cambridge , Massachusetts",
+        [
+          "/wiki/Cambridge,_Massachusetts"
+        ]
+      ],
+      [
+        "Soldiers Field Soccer Stadium",
+        [
+          "/wiki/Soldiers_Field_Soccer_Stadium"
+        ]
+      ],
+      [
+        "2,500",
+        []
+      ]
+    ],
+    [
+      [
+        "Penn Quakers",
+        [
+          "/wiki/Penn_Quakers_men's_soccer"
+        ]
+      ],
+      [
+        "Philadelphia , Pennsylvania",
+        [
+          "/wiki/Philadelphia"
+        ]
+      ],
+      [
+        "Rhodes Field",
+        []
+      ],
+      [
+        "2,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Princeton Tigers",
+        [
+          "/wiki/Princeton_Tigers_men's_soccer"
+        ]
+      ],
+      [
+        "Princeton , New Jersey",
+        [
+          "/wiki/Princeton,_New_Jersey"
+        ]
+      ],
+      [
+        "Roberts Stadium",
+        []
+      ],
+      [
+        "1,750",
+        []
+      ]
+    ],
+    [
+      [
+        "Yale Bulldogs",
+        [
+          "/wiki/Yale_Bulldogs_men's_soccer"
+        ]
+      ],
+      [
+        "New Haven , Connecticut",
+        [
+          "/wiki/New_Haven,_Connecticut"
+        ]
+      ],
+      [
+        "Reese Stadium",
+        [
+          "/wiki/Reese_Stadium"
+        ]
+      ],
+      [
+        "3,000",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "de478659-4c08-58aa-a8f0-0a277ca5a270",
+    "table_id": "2013_Ivy_League_men's_soccer_season_0",
+    "title": "2013 Ivy League men's soccer season",
+    "header": [
+      "Team",
+      "Location",
+      "Stadium",
+      "Capacity"
+    ],
+    "value": [
+      [
+        [
+          "Brown Bears",
+          [
+            "/wiki/Brown_Bears_men's_soccer"
+          ]
+        ],
+        [
+          "Providence , Rhode Island",
+          [
+            "/wiki/Providence,_Rhode_Island"
+          ]
+        ],
+        [
+          "Stevenson Field",
+          [
+            "/wiki/Stevenson_Field"
+          ]
+        ],
+        [
+          "3,500",
+          []
+        ]
+      ],
+      [
+        [
+          "Columbia Lions",
+          [
+            "/wiki/Columbia_Lions_men's_soccer"
+          ]
+        ],
+        [
+          "New York City , New York",
+          [
+            "/wiki/New_York_City"
+          ]
+        ],
+        [
+          "Columbia Soccer Stadium",
+          [
+            "/wiki/Columbia_Soccer_Stadium"
+          ]
+        ],
+        [
+          "3,500",
+          []
+        ]
+      ],
+      [
+        [
+          "Cornell Big Red",
+          [
+            "/wiki/Cornell_Big_Red_men's_soccer"
+          ]
+        ],
+        [
+          "Ithaca , New York",
+          [
+            "/wiki/Ithaca,_New_York"
+          ]
+        ],
+        [
+          "Berman Field",
+          [
+            "/wiki/Charles_F._Berman_Field"
+          ]
+        ],
+        [
+          "1,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Dartmouth Big Green",
+          [
+            "/wiki/Dartmouth_Big_Green_men's_soccer"
+          ]
+        ],
+        [
+          "Hanover , New Hampshire",
+          [
+            "/wiki/Hanover,_New_Hampshire"
+          ]
+        ],
+        [
+          "Burnham Field",
+          [
+            "/wiki/Burnham_Field"
+          ]
+        ],
+        [
+          "1,600",
+          []
+        ]
+      ],
+      [
+        [
+          "Harvard Crimson",
+          [
+            "/wiki/Harvard_Crimson_men's_soccer"
+          ]
+        ],
+        [
+          "Cambridge , Massachusetts",
+          [
+            "/wiki/Cambridge,_Massachusetts"
+          ]
+        ],
+        [
+          "Soldiers Field Soccer Stadium",
+          [
+            "/wiki/Soldiers_Field_Soccer_Stadium"
+          ]
+        ],
+        [
+          "2,500",
+          []
+        ]
+      ],
+      [
+        [
+          "Penn Quakers",
+          [
+            "/wiki/Penn_Quakers_men's_soccer"
+          ]
+        ],
+        [
+          "Philadelphia , Pennsylvania",
+          [
+            "/wiki/Philadelphia"
+          ]
+        ],
+        [
+          "Rhodes Field",
+          []
+        ],
+        [
+          "2,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Princeton Tigers",
+          [
+            "/wiki/Princeton_Tigers_men's_soccer"
+          ]
+        ],
+        [
+          "Princeton , New Jersey",
+          [
+            "/wiki/Princeton,_New_Jersey"
+          ]
+        ],
+        [
+          "Roberts Stadium",
+          []
+        ],
+        [
+          "1,750",
+          []
+        ]
+      ],
+      [
+        [
+          "Yale Bulldogs",
+          [
+            "/wiki/Yale_Bulldogs_men's_soccer"
+          ]
+        ],
+        [
+          "New Haven , Connecticut",
+          [
+            "/wiki/New_Haven,_Connecticut"
+          ]
+        ],
+        [
+          "Reese Stadium",
+          [
+            "/wiki/Reese_Stadium"
+          ]
+        ],
+        [
+          "3,000",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the 2013 Ivy League men's soccer teams, including their names, locations, stadiums, and seating capacities. It serves as a reference for understanding the facilities and geographical distribution of the teams within the league.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "Team",
+    "Location",
+    "Stadium"
+  ],
+  "entities": [
+    "Team",
+    "Location",
+    "Stadium"
+  ]
+}

@@ -1,0 +1,573 @@
+{
+  "table_id": "T4146",
+  "uid": "dfaef49f-98e0-5233-be0c-b3fdefac3408",
+  "source": "HybridQA",
+  "source_table_id": "dfaef49f-98e0-5233-be0c-b3fdefac3408",
+  "domain": "HybridQA",
+  "title": "Taniec z Gwiazdami (season 2)",
+  "columns": [
+    "Dance",
+    "Best dancer",
+    "Best score",
+    "Worst dancer",
+    "Worst score"
+  ],
+  "rows": [
+    [
+      [
+        "Cha Cha Cha",
+        [
+          "/wiki/Cha-cha-cha_(dance)"
+        ]
+      ],
+      [
+        "Katarzyna Cichopek",
+        [
+          "/wiki/Katarzyna_Cichopek"
+        ]
+      ],
+      [
+        35,
+        []
+      ],
+      [
+        "Paweł Deląg Jakub Wesołowski",
+        [
+          "/wiki/Paweł_Deląg"
+        ]
+      ],
+      [
+        27,
+        []
+      ]
+    ],
+    [
+      [
+        "Waltz",
+        [
+          "/wiki/Waltz"
+        ]
+      ],
+      [
+        "Katarzyna Cichopek Małgorzata Foremniak",
+        [
+          "/wiki/Katarzyna_Cichopek",
+          "/wiki/Małgorzata_Foremniak"
+        ]
+      ],
+      [
+        40,
+        []
+      ],
+      [
+        "Jakub Wesołowski",
+        []
+      ],
+      [
+        24,
+        []
+      ]
+    ],
+    [
+      [
+        "Quickstep",
+        [
+          "/wiki/Quickstep"
+        ]
+      ],
+      [
+        "Małgorzata Foremniak",
+        [
+          "/wiki/Małgorzata_Foremniak"
+        ]
+      ],
+      [
+        36,
+        []
+      ],
+      [
+        "Jakub Wesołowski",
+        []
+      ],
+      [
+        26,
+        []
+      ]
+    ],
+    [
+      [
+        "Rumba",
+        [
+          "/wiki/Rhumba"
+        ]
+      ],
+      [
+        "Katarzyna Cichopek",
+        [
+          "/wiki/Katarzyna_Cichopek"
+        ]
+      ],
+      [
+        40,
+        []
+      ],
+      [
+        "Jakub Wesołowski Piotr Adamski",
+        []
+      ],
+      [
+        26,
+        []
+      ]
+    ],
+    [
+      [
+        "Jive",
+        [
+          "/wiki/Jive_(dance)"
+        ]
+      ],
+      [
+        "Małgorzata Foremniak",
+        [
+          "/wiki/Małgorzata_Foremniak"
+        ]
+      ],
+      [
+        39,
+        []
+      ],
+      [
+        "Piotr Gąsowski Hanna Śleszyńska",
+        [
+          "/wiki/Piotr_Gąsowski",
+          "/wiki/Hanna_Śleszyńska"
+        ]
+      ],
+      [
+        29,
+        []
+      ]
+    ],
+    [
+      [
+        "Tango",
+        [
+          "/wiki/Tango_(dance)"
+        ]
+      ],
+      [
+        "Małgorzata Foremniak",
+        [
+          "/wiki/Małgorzata_Foremniak"
+        ]
+      ],
+      [
+        40,
+        []
+      ],
+      [
+        "Jakub Wesołowski",
+        []
+      ],
+      [
+        23,
+        []
+      ]
+    ],
+    [
+      [
+        "Foxtrot",
+        [
+          "/wiki/Foxtrot"
+        ]
+      ],
+      [
+        "Małgorzata Foremniak",
+        [
+          "/wiki/Małgorzata_Foremniak"
+        ]
+      ],
+      [
+        36,
+        []
+      ],
+      [
+        "Jakub Wesołowski",
+        []
+      ],
+      [
+        28,
+        []
+      ]
+    ],
+    [
+      [
+        "Paso Doble",
+        [
+          "/wiki/Paso_Doble"
+        ]
+      ],
+      [
+        "Małgorzata Foremniak",
+        [
+          "/wiki/Małgorzata_Foremniak"
+        ]
+      ],
+      [
+        37,
+        []
+      ],
+      [
+        "Jakub Wesołowski",
+        []
+      ],
+      [
+        28,
+        []
+      ]
+    ],
+    [
+      [
+        "Samba",
+        [
+          "/wiki/Samba_(ballroom_dance)"
+        ]
+      ],
+      [
+        "Katarzyna Cichopek",
+        [
+          "/wiki/Katarzyna_Cichopek"
+        ]
+      ],
+      [
+        39,
+        []
+      ],
+      [
+        "Conrado Moreno",
+        []
+      ],
+      [
+        23,
+        []
+      ]
+    ],
+    [
+      [
+        "Freestyle",
+        []
+      ],
+      [
+        "Katarzyna Cichopek Małgorzata Foremniak",
+        [
+          "/wiki/Katarzyna_Cichopek",
+          "/wiki/Małgorzata_Foremniak"
+        ]
+      ],
+      [
+        40,
+        []
+      ],
+      [
+        0,
+        []
+      ],
+      [
+        0,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "dfaef49f-98e0-5233-be0c-b3fdefac3408",
+    "table_id": "Taniec_z_Gwiazdami_(season_2)_1",
+    "title": "Taniec z Gwiazdami (season 2)",
+    "header": [
+      "Dance",
+      "Best dancer",
+      "Best score",
+      "Worst dancer",
+      "Worst score"
+    ],
+    "value": [
+      [
+        [
+          "Cha Cha Cha",
+          [
+            "/wiki/Cha-cha-cha_(dance)"
+          ]
+        ],
+        [
+          "Katarzyna Cichopek",
+          [
+            "/wiki/Katarzyna_Cichopek"
+          ]
+        ],
+        [
+          35,
+          []
+        ],
+        [
+          "Paweł Deląg Jakub Wesołowski",
+          [
+            "/wiki/Paweł_Deląg"
+          ]
+        ],
+        [
+          27,
+          []
+        ]
+      ],
+      [
+        [
+          "Waltz",
+          [
+            "/wiki/Waltz"
+          ]
+        ],
+        [
+          "Katarzyna Cichopek Małgorzata Foremniak",
+          [
+            "/wiki/Katarzyna_Cichopek",
+            "/wiki/Małgorzata_Foremniak"
+          ]
+        ],
+        [
+          40,
+          []
+        ],
+        [
+          "Jakub Wesołowski",
+          []
+        ],
+        [
+          24,
+          []
+        ]
+      ],
+      [
+        [
+          "Quickstep",
+          [
+            "/wiki/Quickstep"
+          ]
+        ],
+        [
+          "Małgorzata Foremniak",
+          [
+            "/wiki/Małgorzata_Foremniak"
+          ]
+        ],
+        [
+          36,
+          []
+        ],
+        [
+          "Jakub Wesołowski",
+          []
+        ],
+        [
+          26,
+          []
+        ]
+      ],
+      [
+        [
+          "Rumba",
+          [
+            "/wiki/Rhumba"
+          ]
+        ],
+        [
+          "Katarzyna Cichopek",
+          [
+            "/wiki/Katarzyna_Cichopek"
+          ]
+        ],
+        [
+          40,
+          []
+        ],
+        [
+          "Jakub Wesołowski Piotr Adamski",
+          []
+        ],
+        [
+          26,
+          []
+        ]
+      ],
+      [
+        [
+          "Jive",
+          [
+            "/wiki/Jive_(dance)"
+          ]
+        ],
+        [
+          "Małgorzata Foremniak",
+          [
+            "/wiki/Małgorzata_Foremniak"
+          ]
+        ],
+        [
+          39,
+          []
+        ],
+        [
+          "Piotr Gąsowski Hanna Śleszyńska",
+          [
+            "/wiki/Piotr_Gąsowski",
+            "/wiki/Hanna_Śleszyńska"
+          ]
+        ],
+        [
+          29,
+          []
+        ]
+      ],
+      [
+        [
+          "Tango",
+          [
+            "/wiki/Tango_(dance)"
+          ]
+        ],
+        [
+          "Małgorzata Foremniak",
+          [
+            "/wiki/Małgorzata_Foremniak"
+          ]
+        ],
+        [
+          40,
+          []
+        ],
+        [
+          "Jakub Wesołowski",
+          []
+        ],
+        [
+          23,
+          []
+        ]
+      ],
+      [
+        [
+          "Foxtrot",
+          [
+            "/wiki/Foxtrot"
+          ]
+        ],
+        [
+          "Małgorzata Foremniak",
+          [
+            "/wiki/Małgorzata_Foremniak"
+          ]
+        ],
+        [
+          36,
+          []
+        ],
+        [
+          "Jakub Wesołowski",
+          []
+        ],
+        [
+          28,
+          []
+        ]
+      ],
+      [
+        [
+          "Paso Doble",
+          [
+            "/wiki/Paso_Doble"
+          ]
+        ],
+        [
+          "Małgorzata Foremniak",
+          [
+            "/wiki/Małgorzata_Foremniak"
+          ]
+        ],
+        [
+          37,
+          []
+        ],
+        [
+          "Jakub Wesołowski",
+          []
+        ],
+        [
+          28,
+          []
+        ]
+      ],
+      [
+        [
+          "Samba",
+          [
+            "/wiki/Samba_(ballroom_dance)"
+          ]
+        ],
+        [
+          "Katarzyna Cichopek",
+          [
+            "/wiki/Katarzyna_Cichopek"
+          ]
+        ],
+        [
+          39,
+          []
+        ],
+        [
+          "Conrado Moreno",
+          []
+        ],
+        [
+          23,
+          []
+        ]
+      ],
+      [
+        [
+          "Freestyle",
+          []
+        ],
+        [
+          "Katarzyna Cichopek Małgorzata Foremniak",
+          [
+            "/wiki/Katarzyna_Cichopek",
+            "/wiki/Małgorzata_Foremniak"
+          ]
+        ],
+        [
+          40,
+          []
+        ],
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the second season of 'Taniec z Gwiazdami,' focusing on dances performed, the best and worst dancers for each dance, and their respective scores. It highlights the performance outcomes for different participants and dances. The table is likely used to summarize or analyze the results of the competition.",
+  "numeric_columns": [
+    "Best score",
+    "Worst score"
+  ],
+  "categorical_columns": [
+    "Dance"
+  ],
+  "entities": [
+    "Best dancer",
+    "Worst dancer"
+  ]
+}

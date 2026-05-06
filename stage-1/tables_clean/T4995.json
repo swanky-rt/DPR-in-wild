@@ -1,0 +1,455 @@
+{
+  "table_id": "T4995",
+  "uid": "c98bb4e6-2674-553b-a5dd-5959ea06ad58",
+  "source": "HybridQA",
+  "source_table_id": "c98bb4e6-2674-553b-a5dd-5959ea06ad58",
+  "domain": "HybridQA",
+  "title": "The Wrekin transmitting station",
+  "columns": [
+    "Frequency",
+    "UHF",
+    "kW",
+    "Operator"
+  ],
+  "rows": [
+    [
+      [
+        "474.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        21,
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "BBC ( Mux 1 )",
+        [
+          "/wiki/BBC"
+        ]
+      ]
+    ],
+    [
+      [
+        "498.166 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "24+",
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "SDN ( Mux A )",
+        [
+          "/wiki/S4C_Digital_Networks"
+        ]
+      ]
+    ],
+    [
+      [
+        "522.166 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "27+",
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "BBC ( Mux B )",
+        []
+      ]
+    ],
+    [
+      [
+        "554.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        31,
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "Digital 3 & 4 ( Mux 2 )",
+        [
+          "/wiki/Digital_3&4"
+        ]
+      ]
+    ],
+    [
+      [
+        "618.166 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "39+†",
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "BBC ( Mux 1 )",
+        []
+      ]
+    ],
+    [
+      [
+        "642.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "42†",
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "SDN ( Mux A )",
+        []
+      ]
+    ],
+    [
+      [
+        "666.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "45†",
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "BBC ( Mux B )",
+        []
+      ]
+    ],
+    [
+      [
+        "698.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "49†",
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "Digital 3 & 4 ( Mux 2 )",
+        []
+      ]
+    ],
+    [
+      [
+        "730.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        53,
+        []
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "Arqiva ( Mux C )",
+        [
+          "/wiki/Arqiva"
+        ]
+      ]
+    ],
+    [
+      [
+        "762.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        57,
+        []
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "Arqiva ( Mux D )",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "c98bb4e6-2674-553b-a5dd-5959ea06ad58",
+    "table_id": "The_Wrekin_transmitting_station_1",
+    "title": "The Wrekin transmitting station",
+    "header": [
+      "Frequency",
+      "UHF",
+      "kW",
+      "Operator"
+    ],
+    "value": [
+      [
+        [
+          "474.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          21,
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "BBC ( Mux 1 )",
+          [
+            "/wiki/BBC"
+          ]
+        ]
+      ],
+      [
+        [
+          "498.166 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "24+",
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "SDN ( Mux A )",
+          [
+            "/wiki/S4C_Digital_Networks"
+          ]
+        ]
+      ],
+      [
+        [
+          "522.166 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "27+",
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "BBC ( Mux B )",
+          []
+        ]
+      ],
+      [
+        [
+          "554.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          31,
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "Digital 3 & 4 ( Mux 2 )",
+          [
+            "/wiki/Digital_3&4"
+          ]
+        ]
+      ],
+      [
+        [
+          "618.166 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "39+†",
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "BBC ( Mux 1 )",
+          []
+        ]
+      ],
+      [
+        [
+          "642.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "42†",
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "SDN ( Mux A )",
+          []
+        ]
+      ],
+      [
+        [
+          "666.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "45†",
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "BBC ( Mux B )",
+          []
+        ]
+      ],
+      [
+        [
+          "698.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "49†",
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "Digital 3 & 4 ( Mux 2 )",
+          []
+        ]
+      ],
+      [
+        [
+          "730.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          53,
+          []
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "Arqiva ( Mux C )",
+          [
+            "/wiki/Arqiva"
+          ]
+        ]
+      ],
+      [
+        [
+          "762.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          57,
+          []
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "Arqiva ( Mux D )",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the broadcasting details of a transmitting station, including the frequency, channel, power output, and operator. It is likely intended to document technical specifications and operational details for broadcasting purposes.",
+  "numeric_columns": [
+    "UHF",
+    "kW"
+  ],
+  "categorical_columns": [
+    "Frequency",
+    "Operator"
+  ],
+  "entities": []
+}

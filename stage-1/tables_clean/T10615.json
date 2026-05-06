@@ -1,0 +1,585 @@
+{
+  "table_id": "T10615",
+  "uid": "266597cb-6a7d-5587-9c07-e18330c04b94",
+  "source": "HybridQA",
+  "source_table_id": "266597cb-6a7d-5587-9c07-e18330c04b94",
+  "domain": "HybridQA",
+  "title": "Durham Public Schools",
+  "columns": [
+    "Name",
+    "Principal",
+    "Mascot",
+    "Colors",
+    "Enrollment ( 2016-2017 )"
+  ],
+  "rows": [
+    [
+      [
+        "Brogden",
+        []
+      ],
+      [
+        "Dr. Sheldon Lanier",
+        []
+      ],
+      [
+        "Dragon",
+        [
+          "/wiki/Dragon"
+        ]
+      ],
+      [
+        "Green , White",
+        [
+          "/wiki/Green",
+          "/wiki/White"
+        ]
+      ],
+      [
+        542,
+        []
+      ]
+    ],
+    [
+      [
+        "Carrington",
+        []
+      ],
+      [
+        "Holly Emmanuel",
+        []
+      ],
+      [
+        "Cougar",
+        [
+          "/wiki/Cougar"
+        ]
+      ],
+      [
+        "Orange , Black",
+        [
+          "/wiki/Orange_(color)",
+          "/wiki/Black"
+        ]
+      ],
+      [
+        931,
+        []
+      ]
+    ],
+    [
+      [
+        "School for Creative Studies ( formerly Chewning )",
+        []
+      ],
+      [
+        "Renee Price",
+        []
+      ],
+      [
+        "Gryphon",
+        [
+          "/wiki/Griffin"
+        ]
+      ],
+      [
+        "Blue , Green , White",
+        [
+          "/wiki/Blue",
+          "/wiki/Green",
+          "/wiki/White"
+        ]
+      ],
+      [
+        610,
+        []
+      ]
+    ],
+    [
+      [
+        "Githens",
+        []
+      ],
+      [
+        "Crystal Isom-Adu",
+        []
+      ],
+      [
+        "Raider",
+        [
+          "/wiki/Raid_(military)"
+        ]
+      ],
+      [
+        "Blue , Black , White",
+        [
+          "/wiki/Blue",
+          "/wiki/Black",
+          "/wiki/White"
+        ]
+      ],
+      [
+        923,
+        []
+      ]
+    ],
+    [
+      [
+        "Lowe 's Grove",
+        []
+      ],
+      [
+        "Mister Wiz",
+        []
+      ],
+      [
+        "Viking",
+        [
+          "/wiki/Viking"
+        ]
+      ],
+      [
+        "Maroon , Gold",
+        [
+          "/wiki/Maroon_(color)",
+          "/wiki/Gold_(color)"
+        ]
+      ],
+      [
+        601,
+        []
+      ]
+    ],
+    [
+      [
+        "Lucas",
+        []
+      ],
+      [
+        "Michael Somers",
+        []
+      ],
+      [
+        "Leopard",
+        [
+          "/wiki/Leopard"
+        ]
+      ],
+      [
+        "Maroon , Black",
+        []
+      ],
+      [
+        531,
+        []
+      ]
+    ],
+    [
+      [
+        "Neal",
+        []
+      ],
+      [
+        "Michael Fuga",
+        []
+      ],
+      [
+        "Eagle",
+        [
+          "/wiki/Eagle"
+        ]
+      ],
+      [
+        "Green , Gold , White",
+        [
+          "/wiki/Green",
+          "/wiki/Gold_(color)",
+          "/wiki/White"
+        ]
+      ],
+      [
+        759,
+        []
+      ]
+    ],
+    [
+      [
+        "Rogers-Herr",
+        []
+      ],
+      [
+        "Kecia Rogers",
+        []
+      ],
+      [
+        "Ram",
+        [
+          "/wiki/Sheep"
+        ]
+      ],
+      [
+        "Blue , White",
+        [
+          "/wiki/Blue",
+          "/wiki/White"
+        ]
+      ],
+      [
+        633,
+        []
+      ]
+    ],
+    [
+      [
+        "James E Shepard IB Middle",
+        []
+      ],
+      [
+        "Micah Copeland",
+        []
+      ],
+      [
+        "Panther",
+        [
+          "/wiki/Black_panther"
+        ]
+      ],
+      [
+        "Red , Black , White",
+        [
+          "/wiki/Red",
+          "/wiki/Black",
+          "/wiki/White"
+        ]
+      ],
+      [
+        452,
+        []
+      ]
+    ],
+    [
+      [
+        "Lakewood Montessori Middle School",
+        []
+      ],
+      [
+        "Dr. Warnele Carmon",
+        []
+      ],
+      [
+        "Lynx",
+        [
+          "/wiki/Lynx"
+        ]
+      ],
+      [
+        "Green , White",
+        [
+          "/wiki/Green",
+          "/wiki/White"
+        ]
+      ],
+      [
+        295,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "266597cb-6a7d-5587-9c07-e18330c04b94",
+    "table_id": "Durham_Public_Schools_0",
+    "title": "Durham Public Schools",
+    "header": [
+      "Name",
+      "Principal",
+      "Mascot",
+      "Colors",
+      "Enrollment ( 2016-2017 )"
+    ],
+    "value": [
+      [
+        [
+          "Brogden",
+          []
+        ],
+        [
+          "Dr. Sheldon Lanier",
+          []
+        ],
+        [
+          "Dragon",
+          [
+            "/wiki/Dragon"
+          ]
+        ],
+        [
+          "Green , White",
+          [
+            "/wiki/Green",
+            "/wiki/White"
+          ]
+        ],
+        [
+          542,
+          []
+        ]
+      ],
+      [
+        [
+          "Carrington",
+          []
+        ],
+        [
+          "Holly Emmanuel",
+          []
+        ],
+        [
+          "Cougar",
+          [
+            "/wiki/Cougar"
+          ]
+        ],
+        [
+          "Orange , Black",
+          [
+            "/wiki/Orange_(color)",
+            "/wiki/Black"
+          ]
+        ],
+        [
+          931,
+          []
+        ]
+      ],
+      [
+        [
+          "School for Creative Studies ( formerly Chewning )",
+          []
+        ],
+        [
+          "Renee Price",
+          []
+        ],
+        [
+          "Gryphon",
+          [
+            "/wiki/Griffin"
+          ]
+        ],
+        [
+          "Blue , Green , White",
+          [
+            "/wiki/Blue",
+            "/wiki/Green",
+            "/wiki/White"
+          ]
+        ],
+        [
+          610,
+          []
+        ]
+      ],
+      [
+        [
+          "Githens",
+          []
+        ],
+        [
+          "Crystal Isom-Adu",
+          []
+        ],
+        [
+          "Raider",
+          [
+            "/wiki/Raid_(military)"
+          ]
+        ],
+        [
+          "Blue , Black , White",
+          [
+            "/wiki/Blue",
+            "/wiki/Black",
+            "/wiki/White"
+          ]
+        ],
+        [
+          923,
+          []
+        ]
+      ],
+      [
+        [
+          "Lowe 's Grove",
+          []
+        ],
+        [
+          "Mister Wiz",
+          []
+        ],
+        [
+          "Viking",
+          [
+            "/wiki/Viking"
+          ]
+        ],
+        [
+          "Maroon , Gold",
+          [
+            "/wiki/Maroon_(color)",
+            "/wiki/Gold_(color)"
+          ]
+        ],
+        [
+          601,
+          []
+        ]
+      ],
+      [
+        [
+          "Lucas",
+          []
+        ],
+        [
+          "Michael Somers",
+          []
+        ],
+        [
+          "Leopard",
+          [
+            "/wiki/Leopard"
+          ]
+        ],
+        [
+          "Maroon , Black",
+          []
+        ],
+        [
+          531,
+          []
+        ]
+      ],
+      [
+        [
+          "Neal",
+          []
+        ],
+        [
+          "Michael Fuga",
+          []
+        ],
+        [
+          "Eagle",
+          [
+            "/wiki/Eagle"
+          ]
+        ],
+        [
+          "Green , Gold , White",
+          [
+            "/wiki/Green",
+            "/wiki/Gold_(color)",
+            "/wiki/White"
+          ]
+        ],
+        [
+          759,
+          []
+        ]
+      ],
+      [
+        [
+          "Rogers-Herr",
+          []
+        ],
+        [
+          "Kecia Rogers",
+          []
+        ],
+        [
+          "Ram",
+          [
+            "/wiki/Sheep"
+          ]
+        ],
+        [
+          "Blue , White",
+          [
+            "/wiki/Blue",
+            "/wiki/White"
+          ]
+        ],
+        [
+          633,
+          []
+        ]
+      ],
+      [
+        [
+          "James E Shepard IB Middle",
+          []
+        ],
+        [
+          "Micah Copeland",
+          []
+        ],
+        [
+          "Panther",
+          [
+            "/wiki/Black_panther"
+          ]
+        ],
+        [
+          "Red , Black , White",
+          [
+            "/wiki/Red",
+            "/wiki/Black",
+            "/wiki/White"
+          ]
+        ],
+        [
+          452,
+          []
+        ]
+      ],
+      [
+        [
+          "Lakewood Montessori Middle School",
+          []
+        ],
+        [
+          "Dr. Warnele Carmon",
+          []
+        ],
+        [
+          "Lynx",
+          [
+            "/wiki/Lynx"
+          ]
+        ],
+        [
+          "Green , White",
+          [
+            "/wiki/Green",
+            "/wiki/White"
+          ]
+        ],
+        [
+          295,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about schools in the Durham Public Schools district, including details about their principals, mascots, school colors, and student enrollment numbers for the 2016-2017 academic year. It is intended to give an overview of key attributes and statistics for each school in the district.",
+  "numeric_columns": [
+    "Enrollment ( 2016-2017 )"
+  ],
+  "categorical_columns": [
+    "Mascot",
+    "Colors"
+  ],
+  "entities": [
+    "Name",
+    "Principal"
+  ]
+}

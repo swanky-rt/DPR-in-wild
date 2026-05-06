@@ -1,0 +1,410 @@
+{
+  "table_id": "T6455",
+  "uid": "7c5f1a78-12ee-5aec-95cb-d85494fd6daf",
+  "source": "HybridQA",
+  "source_table_id": "7c5f1a78-12ee-5aec-95cb-d85494fd6daf",
+  "domain": "HybridQA",
+  "title": "Wind power in the United States",
+  "columns": [
+    "Wind farm",
+    "Installed capacity ( MW )",
+    "Turbine manufacturer",
+    "County"
+  ],
+  "rows": [
+    [
+      [
+        "Buffalo Gap Wind Farm",
+        [
+          "/wiki/Buffalo_Gap_Wind_Farm"
+        ]
+      ],
+      [
+        523,
+        []
+      ],
+      [
+        "Vestas",
+        [
+          "/wiki/Vestas"
+        ]
+      ],
+      [
+        "Taylor / Nolan",
+        []
+      ]
+    ],
+    [
+      [
+        "Capricorn Ridge Wind Farm",
+        [
+          "/wiki/Capricorn_Ridge_Wind_Farm"
+        ]
+      ],
+      [
+        662,
+        []
+      ],
+      [
+        "GE Energy / Siemens",
+        [
+          "/wiki/GE_Energy",
+          "/wiki/Siemens"
+        ]
+      ],
+      [
+        "Sterling / Coke",
+        []
+      ]
+    ],
+    [
+      [
+        "Horse Hollow Wind Energy Center",
+        [
+          "/wiki/Horse_Hollow_Wind_Energy_Center"
+        ]
+      ],
+      [
+        735,
+        []
+      ],
+      [
+        "GE Energy / Siemens",
+        []
+      ],
+      [
+        "Taylor / Nolan",
+        []
+      ]
+    ],
+    [
+      [
+        "Lone Star Wind Farm",
+        [
+          "/wiki/Lone_Star_Wind_Farm"
+        ]
+      ],
+      [
+        400,
+        []
+      ],
+      [
+        "Gamesa",
+        []
+      ],
+      [
+        "Shackelford / Callahan",
+        []
+      ]
+    ],
+    [
+      [
+        "Panther Creek Wind Farm",
+        [
+          "/wiki/Panther_Creek_Wind_Farm"
+        ]
+      ],
+      [
+        458,
+        []
+      ],
+      [
+        "GE Energy",
+        []
+      ],
+      [
+        "Howard / …",
+        []
+      ]
+    ],
+    [
+      [
+        "Papalote Creek Wind Farm",
+        [
+          "/wiki/Papalote_Creek_Wind_Farm"
+        ]
+      ],
+      [
+        380,
+        []
+      ],
+      [
+        "Siemens",
+        []
+      ],
+      [
+        "San Patricio",
+        []
+      ]
+    ],
+    [
+      [
+        "Peñascal Wind Farm",
+        [
+          "/wiki/Peñascal_Wind_Farm"
+        ]
+      ],
+      [
+        404,
+        []
+      ],
+      [
+        "Mitsubishi",
+        []
+      ],
+      [
+        "Kenedy",
+        []
+      ]
+    ],
+    [
+      [
+        "Roscoe Wind Farm",
+        [
+          "/wiki/Roscoe_Wind_Farm"
+        ]
+      ],
+      [
+        781,
+        []
+      ],
+      [
+        "Mitsubishi",
+        []
+      ],
+      [
+        "Nolan",
+        []
+      ]
+    ],
+    [
+      [
+        "Sweetwater Wind Farm",
+        [
+          "/wiki/Sweetwater_Wind_Farm"
+        ]
+      ],
+      [
+        585,
+        []
+      ],
+      [
+        "GE Energy / Siemens / Mitsubishi",
+        []
+      ],
+      [
+        "Nolan",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "7c5f1a78-12ee-5aec-95cb-d85494fd6daf",
+    "table_id": "Wind_power_in_the_United_States_1",
+    "title": "Wind power in the United States",
+    "header": [
+      "Wind farm",
+      "Installed capacity ( MW )",
+      "Turbine manufacturer",
+      "County"
+    ],
+    "value": [
+      [
+        [
+          "Buffalo Gap Wind Farm",
+          [
+            "/wiki/Buffalo_Gap_Wind_Farm"
+          ]
+        ],
+        [
+          523,
+          []
+        ],
+        [
+          "Vestas",
+          [
+            "/wiki/Vestas"
+          ]
+        ],
+        [
+          "Taylor / Nolan",
+          []
+        ]
+      ],
+      [
+        [
+          "Capricorn Ridge Wind Farm",
+          [
+            "/wiki/Capricorn_Ridge_Wind_Farm"
+          ]
+        ],
+        [
+          662,
+          []
+        ],
+        [
+          "GE Energy / Siemens",
+          [
+            "/wiki/GE_Energy",
+            "/wiki/Siemens"
+          ]
+        ],
+        [
+          "Sterling / Coke",
+          []
+        ]
+      ],
+      [
+        [
+          "Horse Hollow Wind Energy Center",
+          [
+            "/wiki/Horse_Hollow_Wind_Energy_Center"
+          ]
+        ],
+        [
+          735,
+          []
+        ],
+        [
+          "GE Energy / Siemens",
+          []
+        ],
+        [
+          "Taylor / Nolan",
+          []
+        ]
+      ],
+      [
+        [
+          "Lone Star Wind Farm",
+          [
+            "/wiki/Lone_Star_Wind_Farm"
+          ]
+        ],
+        [
+          400,
+          []
+        ],
+        [
+          "Gamesa",
+          []
+        ],
+        [
+          "Shackelford / Callahan",
+          []
+        ]
+      ],
+      [
+        [
+          "Panther Creek Wind Farm",
+          [
+            "/wiki/Panther_Creek_Wind_Farm"
+          ]
+        ],
+        [
+          458,
+          []
+        ],
+        [
+          "GE Energy",
+          []
+        ],
+        [
+          "Howard / …",
+          []
+        ]
+      ],
+      [
+        [
+          "Papalote Creek Wind Farm",
+          [
+            "/wiki/Papalote_Creek_Wind_Farm"
+          ]
+        ],
+        [
+          380,
+          []
+        ],
+        [
+          "Siemens",
+          []
+        ],
+        [
+          "San Patricio",
+          []
+        ]
+      ],
+      [
+        [
+          "Peñascal Wind Farm",
+          [
+            "/wiki/Peñascal_Wind_Farm"
+          ]
+        ],
+        [
+          404,
+          []
+        ],
+        [
+          "Mitsubishi",
+          []
+        ],
+        [
+          "Kenedy",
+          []
+        ]
+      ],
+      [
+        [
+          "Roscoe Wind Farm",
+          [
+            "/wiki/Roscoe_Wind_Farm"
+          ]
+        ],
+        [
+          781,
+          []
+        ],
+        [
+          "Mitsubishi",
+          []
+        ],
+        [
+          "Nolan",
+          []
+        ]
+      ],
+      [
+        [
+          "Sweetwater Wind Farm",
+          [
+            "/wiki/Sweetwater_Wind_Farm"
+          ]
+        ],
+        [
+          585,
+          []
+        ],
+        [
+          "GE Energy / Siemens / Mitsubishi",
+          []
+        ],
+        [
+          "Nolan",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about wind farms in the United States, including their installed capacity, turbine manufacturers, and the counties where they are located. It is intended to give an overview of wind power infrastructure and its distribution across different regions.",
+  "numeric_columns": [
+    "Installed capacity ( MW )"
+  ],
+  "categorical_columns": [
+    "Turbine manufacturer",
+    "County"
+  ],
+  "entities": [
+    "Wind farm"
+  ]
+}

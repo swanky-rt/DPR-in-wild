@@ -1,0 +1,464 @@
+{
+  "table_id": "T7829",
+  "uid": "282f92ce-5c47-5374-85be-d07bc795be07",
+  "source": "HybridQA",
+  "source_table_id": "282f92ce-5c47-5374-85be-d07bc795be07",
+  "domain": "HybridQA",
+  "title": "List of MLS club post-season droughts",
+  "columns": [
+    "Club",
+    "Previous MLS Cup appearance",
+    "Next MLS Cup appearance",
+    "MLS Cup final drought"
+  ],
+  "rows": [
+    [
+      [
+        "Chicago Fire",
+        [
+          "/wiki/Chicago_Fire_Soccer_Club"
+        ]
+      ],
+      [
+        2003,
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "16 seasons",
+        []
+      ]
+    ],
+    [
+      [
+        "D.C. United",
+        [
+          "/wiki/D.C._United"
+        ]
+      ],
+      [
+        2004,
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "15 seasons",
+        []
+      ]
+    ],
+    [
+      [
+        "Dallas Burn/FC Dallas",
+        [
+          "/wiki/FC_Dallas"
+        ]
+      ],
+      [
+        "never ( club entered MLS in 1996 )",
+        [
+          "/wiki/1996_Major_League_Soccer_season"
+        ]
+      ],
+      [
+        2010,
+        []
+      ],
+      [
+        "14 seasons",
+        []
+      ]
+    ],
+    [
+      [
+        "San Jose Earthquakes",
+        [
+          "/wiki/San_Jose_Earthquakes"
+        ]
+      ],
+      [
+        2003,
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "14 seasons",
+        []
+      ]
+    ],
+    [
+      [
+        "Columbus Crew SC",
+        [
+          "/wiki/Columbus_Crew_SC"
+        ]
+      ],
+      [
+        "never ( club entered MLS in 1996 )",
+        [
+          "/wiki/1996_Major_League_Soccer_season"
+        ]
+      ],
+      [
+        2008,
+        []
+      ],
+      [
+        "12 seasons",
+        []
+      ]
+    ],
+    [
+      [
+        "MetroStars/New York Red Bulls",
+        [
+          "/wiki/New_York_Red_Bulls"
+        ]
+      ],
+      [
+        "never ( club entered MLS in 1996 )",
+        [
+          "/wiki/1996_Major_League_Soccer_season"
+        ]
+      ],
+      [
+        2008,
+        []
+      ],
+      [
+        "12 seasons",
+        []
+      ]
+    ],
+    [
+      [
+        "Colorado Rapids",
+        [
+          "/wiki/Colorado_Rapids"
+        ]
+      ],
+      [
+        1997,
+        []
+      ],
+      [
+        2010,
+        []
+      ],
+      [
+        "12 seasons",
+        []
+      ]
+    ],
+    [
+      [
+        "New York Red Bulls",
+        [
+          "/wiki/New_York_Red_Bulls"
+        ]
+      ],
+      [
+        2008,
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "11 seasons",
+        []
+      ]
+    ],
+    [
+      [
+        "Chivas USA",
+        [
+          "/wiki/C.D._Chivas_USA"
+        ]
+      ],
+      [
+        "never ( club entered MLS in 2005 )",
+        [
+          "/wiki/2005_Major_League_Soccer_season"
+        ]
+      ],
+      [
+        "never ( club folded after 2014 )",
+        [
+          "/wiki/2014_Major_League_Soccer_season"
+        ]
+      ],
+      [
+        "10 seasons",
+        []
+      ]
+    ],
+    [
+      [
+        "Philadelphia Union",
+        [
+          "/wiki/Philadelphia_Union"
+        ]
+      ],
+      [
+        "never ( club entered MLS in 2010 )",
+        [
+          "/wiki/2010_Major_League_Soccer_season"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "10 seasons",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "282f92ce-5c47-5374-85be-d07bc795be07",
+    "table_id": "List_of_MLS_club_post-season_droughts_10",
+    "title": "List of MLS club post-season droughts",
+    "header": [
+      "Club",
+      "Previous MLS Cup appearance",
+      "Next MLS Cup appearance",
+      "MLS Cup final drought"
+    ],
+    "value": [
+      [
+        [
+          "Chicago Fire",
+          [
+            "/wiki/Chicago_Fire_Soccer_Club"
+          ]
+        ],
+        [
+          2003,
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "16 seasons",
+          []
+        ]
+      ],
+      [
+        [
+          "D.C. United",
+          [
+            "/wiki/D.C._United"
+          ]
+        ],
+        [
+          2004,
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "15 seasons",
+          []
+        ]
+      ],
+      [
+        [
+          "Dallas Burn/FC Dallas",
+          [
+            "/wiki/FC_Dallas"
+          ]
+        ],
+        [
+          "never ( club entered MLS in 1996 )",
+          [
+            "/wiki/1996_Major_League_Soccer_season"
+          ]
+        ],
+        [
+          2010,
+          []
+        ],
+        [
+          "14 seasons",
+          []
+        ]
+      ],
+      [
+        [
+          "San Jose Earthquakes",
+          [
+            "/wiki/San_Jose_Earthquakes"
+          ]
+        ],
+        [
+          2003,
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "14 seasons",
+          []
+        ]
+      ],
+      [
+        [
+          "Columbus Crew SC",
+          [
+            "/wiki/Columbus_Crew_SC"
+          ]
+        ],
+        [
+          "never ( club entered MLS in 1996 )",
+          [
+            "/wiki/1996_Major_League_Soccer_season"
+          ]
+        ],
+        [
+          2008,
+          []
+        ],
+        [
+          "12 seasons",
+          []
+        ]
+      ],
+      [
+        [
+          "MetroStars/New York Red Bulls",
+          [
+            "/wiki/New_York_Red_Bulls"
+          ]
+        ],
+        [
+          "never ( club entered MLS in 1996 )",
+          [
+            "/wiki/1996_Major_League_Soccer_season"
+          ]
+        ],
+        [
+          2008,
+          []
+        ],
+        [
+          "12 seasons",
+          []
+        ]
+      ],
+      [
+        [
+          "Colorado Rapids",
+          [
+            "/wiki/Colorado_Rapids"
+          ]
+        ],
+        [
+          1997,
+          []
+        ],
+        [
+          2010,
+          []
+        ],
+        [
+          "12 seasons",
+          []
+        ]
+      ],
+      [
+        [
+          "New York Red Bulls",
+          [
+            "/wiki/New_York_Red_Bulls"
+          ]
+        ],
+        [
+          2008,
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "11 seasons",
+          []
+        ]
+      ],
+      [
+        [
+          "Chivas USA",
+          [
+            "/wiki/C.D._Chivas_USA"
+          ]
+        ],
+        [
+          "never ( club entered MLS in 2005 )",
+          [
+            "/wiki/2005_Major_League_Soccer_season"
+          ]
+        ],
+        [
+          "never ( club folded after 2014 )",
+          [
+            "/wiki/2014_Major_League_Soccer_season"
+          ]
+        ],
+        [
+          "10 seasons",
+          []
+        ]
+      ],
+      [
+        [
+          "Philadelphia Union",
+          [
+            "/wiki/Philadelphia_Union"
+          ]
+        ],
+        [
+          "never ( club entered MLS in 2010 )",
+          [
+            "/wiki/2010_Major_League_Soccer_season"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "10 seasons",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about Major League Soccer (MLS) clubs and their post-season droughts, focusing on their appearances in the MLS Cup finals. It includes details about the clubs, their most recent and next MLS Cup appearances, and the duration of their droughts in seasons. The table is useful for analyzing trends and historical performance of MLS teams in post-season play.",
+  "numeric_columns": [
+    "MLS Cup final drought"
+  ],
+  "categorical_columns": [
+    "Previous MLS Cup appearance",
+    "Next MLS Cup appearance"
+  ],
+  "entities": [
+    "Club"
+  ]
+}

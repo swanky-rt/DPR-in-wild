@@ -1,0 +1,521 @@
+{
+  "table_id": "T6981",
+  "uid": "69a1d234-c458-58b0-a05d-6410424ff53d",
+  "source": "HybridQA",
+  "source_table_id": "69a1d234-c458-58b0-a05d-6410424ff53d",
+  "domain": "HybridQA",
+  "title": "List of tunnels in Germany",
+  "columns": [
+    "Tunnel",
+    "Line",
+    "Length in m"
+  ],
+  "rows": [
+    [
+      [
+        "Amtshainersdorf Tunnel 1",
+        []
+      ],
+      [
+        "Sebnitz Valley Railway",
+        [
+          "/wiki/Sebnitz_Valley_Railway"
+        ]
+      ],
+      [
+        89,
+        []
+      ]
+    ],
+    [
+      [
+        "Amtshainersdorf Tunnel 2",
+        []
+      ],
+      [
+        "Sebnitz Valley Railway",
+        [
+          "/wiki/Sebnitz_Valley_Railway"
+        ]
+      ],
+      [
+        91,
+        []
+      ]
+    ],
+    [
+      [
+        "Dresden Airport Tunnel",
+        []
+      ],
+      [
+        "Dresden Airport S-Bahn",
+        [
+          "/wiki/Dresden_S-Bahn"
+        ]
+      ],
+      [
+        570,
+        []
+      ]
+    ],
+    [
+      [
+        "Geising Tunnel",
+        []
+      ],
+      [
+        "Müglitz Valley Railway",
+        [
+          "/wiki/Müglitz_Valley_Railway"
+        ]
+      ],
+      [
+        235,
+        []
+      ]
+    ],
+    [
+      [
+        "Gleisberg Tunnel",
+        []
+      ],
+      [
+        "Müglitz Valley Railway",
+        [
+          "/wiki/Müglitz_Valley_Railway"
+        ]
+      ],
+      [
+        593,
+        []
+      ]
+    ],
+    [
+      [
+        "Köttewitz Tunnel",
+        []
+      ],
+      [
+        "Müglitz Valley Railway",
+        [
+          "/wiki/Müglitz_Valley_Railway"
+        ]
+      ],
+      [
+        198,
+        []
+      ]
+    ],
+    [
+      [
+        "Oberau Tunnel",
+        [
+          "/wiki/Oberau_Tunnel"
+        ]
+      ],
+      [
+        "Leipzig-Dresden",
+        [
+          "/wiki/Leipzig–Dresden_railway"
+        ]
+      ],
+      [
+        513,
+        []
+      ]
+    ],
+    [
+      [
+        "Pilz Tunnel",
+        []
+      ],
+      [
+        "Müglitz Valley Railway",
+        [
+          "/wiki/Müglitz_Valley_Railway"
+        ]
+      ],
+      [
+        292,
+        []
+      ]
+    ],
+    [
+      [
+        "Rathmannsdorf Tunnel",
+        []
+      ],
+      [
+        "Sebnitz Valley Railway",
+        [
+          "/wiki/Sebnitz_Valley_Railway"
+        ]
+      ],
+      [
+        377,
+        []
+      ]
+    ],
+    [
+      [
+        "Sebnitz Tunnel",
+        []
+      ],
+      [
+        "Sebnitz Valley Railway",
+        [
+          "/wiki/Sebnitz_Valley_Railway"
+        ]
+      ],
+      [
+        148,
+        []
+      ]
+    ],
+    [
+      [
+        "Edle Krone Tunnel",
+        []
+      ],
+      [
+        "Dresden-Werdau",
+        [
+          "/wiki/Dresden–Werdau_railway"
+        ]
+      ],
+      [
+        122,
+        []
+      ]
+    ],
+    [
+      [
+        "Ulbersdorf Tunnel 1",
+        []
+      ],
+      [
+        "Sebnitz Valley Railway",
+        [
+          "/wiki/Sebnitz_Valley_Railway"
+        ]
+      ],
+      [
+        108,
+        []
+      ]
+    ],
+    [
+      [
+        "Ulbersdorf Tunnel 2",
+        []
+      ],
+      [
+        "Sebnitz Valley Railway",
+        [
+          "/wiki/Sebnitz_Valley_Railway"
+        ]
+      ],
+      [
+        91,
+        []
+      ]
+    ],
+    [
+      [
+        "Ulbersdorf Tunnel 1",
+        []
+      ],
+      [
+        "Sebnitz Valley Railway",
+        [
+          "/wiki/Sebnitz_Valley_Railway"
+        ]
+      ],
+      [
+        77,
+        []
+      ]
+    ],
+    [
+      [
+        "Weesenstein Tunnel",
+        []
+      ],
+      [
+        "Müglitz Valley Railway",
+        [
+          "/wiki/Müglitz_Valley_Railway"
+        ]
+      ],
+      [
+        240,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "69a1d234-c458-58b0-a05d-6410424ff53d",
+    "table_id": "List_of_tunnels_in_Germany_0",
+    "title": "List of tunnels in Germany",
+    "header": [
+      "Tunnel",
+      "Line",
+      "Length in m"
+    ],
+    "value": [
+      [
+        [
+          "Amtshainersdorf Tunnel 1",
+          []
+        ],
+        [
+          "Sebnitz Valley Railway",
+          [
+            "/wiki/Sebnitz_Valley_Railway"
+          ]
+        ],
+        [
+          89,
+          []
+        ]
+      ],
+      [
+        [
+          "Amtshainersdorf Tunnel 2",
+          []
+        ],
+        [
+          "Sebnitz Valley Railway",
+          [
+            "/wiki/Sebnitz_Valley_Railway"
+          ]
+        ],
+        [
+          91,
+          []
+        ]
+      ],
+      [
+        [
+          "Dresden Airport Tunnel",
+          []
+        ],
+        [
+          "Dresden Airport S-Bahn",
+          [
+            "/wiki/Dresden_S-Bahn"
+          ]
+        ],
+        [
+          570,
+          []
+        ]
+      ],
+      [
+        [
+          "Geising Tunnel",
+          []
+        ],
+        [
+          "Müglitz Valley Railway",
+          [
+            "/wiki/Müglitz_Valley_Railway"
+          ]
+        ],
+        [
+          235,
+          []
+        ]
+      ],
+      [
+        [
+          "Gleisberg Tunnel",
+          []
+        ],
+        [
+          "Müglitz Valley Railway",
+          [
+            "/wiki/Müglitz_Valley_Railway"
+          ]
+        ],
+        [
+          593,
+          []
+        ]
+      ],
+      [
+        [
+          "Köttewitz Tunnel",
+          []
+        ],
+        [
+          "Müglitz Valley Railway",
+          [
+            "/wiki/Müglitz_Valley_Railway"
+          ]
+        ],
+        [
+          198,
+          []
+        ]
+      ],
+      [
+        [
+          "Oberau Tunnel",
+          [
+            "/wiki/Oberau_Tunnel"
+          ]
+        ],
+        [
+          "Leipzig-Dresden",
+          [
+            "/wiki/Leipzig–Dresden_railway"
+          ]
+        ],
+        [
+          513,
+          []
+        ]
+      ],
+      [
+        [
+          "Pilz Tunnel",
+          []
+        ],
+        [
+          "Müglitz Valley Railway",
+          [
+            "/wiki/Müglitz_Valley_Railway"
+          ]
+        ],
+        [
+          292,
+          []
+        ]
+      ],
+      [
+        [
+          "Rathmannsdorf Tunnel",
+          []
+        ],
+        [
+          "Sebnitz Valley Railway",
+          [
+            "/wiki/Sebnitz_Valley_Railway"
+          ]
+        ],
+        [
+          377,
+          []
+        ]
+      ],
+      [
+        [
+          "Sebnitz Tunnel",
+          []
+        ],
+        [
+          "Sebnitz Valley Railway",
+          [
+            "/wiki/Sebnitz_Valley_Railway"
+          ]
+        ],
+        [
+          148,
+          []
+        ]
+      ],
+      [
+        [
+          "Edle Krone Tunnel",
+          []
+        ],
+        [
+          "Dresden-Werdau",
+          [
+            "/wiki/Dresden–Werdau_railway"
+          ]
+        ],
+        [
+          122,
+          []
+        ]
+      ],
+      [
+        [
+          "Ulbersdorf Tunnel 1",
+          []
+        ],
+        [
+          "Sebnitz Valley Railway",
+          [
+            "/wiki/Sebnitz_Valley_Railway"
+          ]
+        ],
+        [
+          108,
+          []
+        ]
+      ],
+      [
+        [
+          "Ulbersdorf Tunnel 2",
+          []
+        ],
+        [
+          "Sebnitz Valley Railway",
+          [
+            "/wiki/Sebnitz_Valley_Railway"
+          ]
+        ],
+        [
+          91,
+          []
+        ]
+      ],
+      [
+        [
+          "Ulbersdorf Tunnel 1",
+          []
+        ],
+        [
+          "Sebnitz Valley Railway",
+          [
+            "/wiki/Sebnitz_Valley_Railway"
+          ]
+        ],
+        [
+          77,
+          []
+        ]
+      ],
+      [
+        [
+          "Weesenstein Tunnel",
+          []
+        ],
+        [
+          "Müglitz Valley Railway",
+          [
+            "/wiki/Müglitz_Valley_Railway"
+          ]
+        ],
+        [
+          240,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about tunnels in Germany, including their names, associated railway lines, and lengths. It is intended to catalog these structures and their characteristics for reference or analysis. The table combines categorical and numeric data to describe each tunnel's attributes.",
+  "numeric_columns": [
+    "Length in m"
+  ],
+  "categorical_columns": [
+    "Line"
+  ],
+  "entities": [
+    "Tunnel"
+  ]
+}

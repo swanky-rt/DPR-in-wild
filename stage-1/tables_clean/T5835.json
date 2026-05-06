@@ -1,0 +1,680 @@
+{
+  "table_id": "T5835",
+  "uid": "51390a57-d121-5158-a1b4-c8e23b6d21a0",
+  "source": "HybridQA",
+  "source_table_id": "51390a57-d121-5158-a1b4-c8e23b6d21a0",
+  "domain": "HybridQA",
+  "title": "The World's Billionaires",
+  "columns": [
+    "No",
+    "Name",
+    "Net worth ( USD )",
+    "Age",
+    "Nationality",
+    "Source ( s ) of wealth"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Bill Gates",
+        [
+          "/wiki/Bill_Gates"
+        ]
+      ],
+      [
+        "$ 76.0 billion",
+        []
+      ],
+      [
+        58,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Microsoft",
+        [
+          "/wiki/Microsoft"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Carlos Slim & family",
+        [
+          "/wiki/Carlos_Slim"
+        ]
+      ],
+      [
+        "$ 72.0 billion",
+        []
+      ],
+      [
+        74,
+        []
+      ],
+      [
+        "Mexico",
+        [
+          "/wiki/Mexico"
+        ]
+      ],
+      [
+        "América Móvil , Grupo Carso",
+        [
+          "/wiki/América_Móvil",
+          "/wiki/Grupo_Carso"
+        ]
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Amancio Ortega",
+        [
+          "/wiki/Amancio_Ortega"
+        ]
+      ],
+      [
+        "$ 64.0 billion",
+        []
+      ],
+      [
+        77,
+        []
+      ],
+      [
+        "Spain",
+        [
+          "/wiki/Spain"
+        ]
+      ],
+      [
+        "Inditex",
+        [
+          "/wiki/Inditex"
+        ]
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Warren Buffett",
+        [
+          "/wiki/Warren_Buffett"
+        ]
+      ],
+      [
+        "$ 58.2 billion",
+        []
+      ],
+      [
+        83,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Berkshire Hathaway",
+        [
+          "/wiki/Berkshire_Hathaway"
+        ]
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Larry Ellison",
+        [
+          "/wiki/Larry_Ellison"
+        ]
+      ],
+      [
+        "$ 48.0 billion",
+        []
+      ],
+      [
+        70,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Oracle Corporation",
+        [
+          "/wiki/Oracle_Corporation"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Charles Koch",
+        [
+          "/wiki/Charles_Koch"
+        ]
+      ],
+      [
+        "$ 40.0 billion",
+        []
+      ],
+      [
+        78,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Koch Industries",
+        [
+          "/wiki/Koch_Industries"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "David Koch",
+        [
+          "/wiki/David_Koch"
+        ]
+      ],
+      [
+        "$ 40.0 billion",
+        []
+      ],
+      [
+        73,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Koch Industries",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Sheldon Adelson",
+        [
+          "/wiki/Sheldon_Adelson"
+        ]
+      ],
+      [
+        "$ 38.0 billion",
+        []
+      ],
+      [
+        80,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Las Vegas Sands",
+        [
+          "/wiki/Las_Vegas_Sands"
+        ]
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Christy Walton & family",
+        [
+          "/wiki/Christy_Walton"
+        ]
+      ],
+      [
+        "$ 36.7 billion",
+        []
+      ],
+      [
+        65,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Walmart",
+        [
+          "/wiki/Walmart"
+        ]
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Jim Walton",
+        [
+          "/wiki/Jim_Walton"
+        ]
+      ],
+      [
+        "$ 34.7 billion",
+        []
+      ],
+      [
+        65,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Walmart",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "51390a57-d121-5158-a1b4-c8e23b6d21a0",
+    "table_id": "List_of_wealthiest_non-inflated_historical_figures_5",
+    "title": "The World's Billionaires",
+    "header": [
+      "No",
+      "Name",
+      "Net worth ( USD )",
+      "Age",
+      "Nationality",
+      "Source ( s ) of wealth"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Bill Gates",
+          [
+            "/wiki/Bill_Gates"
+          ]
+        ],
+        [
+          "$ 76.0 billion",
+          []
+        ],
+        [
+          58,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Microsoft",
+          [
+            "/wiki/Microsoft"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Carlos Slim & family",
+          [
+            "/wiki/Carlos_Slim"
+          ]
+        ],
+        [
+          "$ 72.0 billion",
+          []
+        ],
+        [
+          74,
+          []
+        ],
+        [
+          "Mexico",
+          [
+            "/wiki/Mexico"
+          ]
+        ],
+        [
+          "América Móvil , Grupo Carso",
+          [
+            "/wiki/América_Móvil",
+            "/wiki/Grupo_Carso"
+          ]
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Amancio Ortega",
+          [
+            "/wiki/Amancio_Ortega"
+          ]
+        ],
+        [
+          "$ 64.0 billion",
+          []
+        ],
+        [
+          77,
+          []
+        ],
+        [
+          "Spain",
+          [
+            "/wiki/Spain"
+          ]
+        ],
+        [
+          "Inditex",
+          [
+            "/wiki/Inditex"
+          ]
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Warren Buffett",
+          [
+            "/wiki/Warren_Buffett"
+          ]
+        ],
+        [
+          "$ 58.2 billion",
+          []
+        ],
+        [
+          83,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Berkshire Hathaway",
+          [
+            "/wiki/Berkshire_Hathaway"
+          ]
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Larry Ellison",
+          [
+            "/wiki/Larry_Ellison"
+          ]
+        ],
+        [
+          "$ 48.0 billion",
+          []
+        ],
+        [
+          70,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Oracle Corporation",
+          [
+            "/wiki/Oracle_Corporation"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Charles Koch",
+          [
+            "/wiki/Charles_Koch"
+          ]
+        ],
+        [
+          "$ 40.0 billion",
+          []
+        ],
+        [
+          78,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Koch Industries",
+          [
+            "/wiki/Koch_Industries"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "David Koch",
+          [
+            "/wiki/David_Koch"
+          ]
+        ],
+        [
+          "$ 40.0 billion",
+          []
+        ],
+        [
+          73,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Koch Industries",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Sheldon Adelson",
+          [
+            "/wiki/Sheldon_Adelson"
+          ]
+        ],
+        [
+          "$ 38.0 billion",
+          []
+        ],
+        [
+          80,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Las Vegas Sands",
+          [
+            "/wiki/Las_Vegas_Sands"
+          ]
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Christy Walton & family",
+          [
+            "/wiki/Christy_Walton"
+          ]
+        ],
+        [
+          "$ 36.7 billion",
+          []
+        ],
+        [
+          65,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Walmart",
+          [
+            "/wiki/Walmart"
+          ]
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Jim Walton",
+          [
+            "/wiki/Jim_Walton"
+          ]
+        ],
+        [
+          "$ 34.7 billion",
+          []
+        ],
+        [
+          65,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Walmart",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the world's billionaires, detailing their rankings, personal details, financial status, and sources of wealth. It is designed to summarize key attributes of individuals with significant net worth globally. The table is structured to highlight their age, nationality, and the industries or companies contributing to their wealth.",
+  "numeric_columns": [
+    "No",
+    "Net worth ( USD )",
+    "Age"
+  ],
+  "categorical_columns": [
+    "Nationality",
+    "Source ( s ) of wealth"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

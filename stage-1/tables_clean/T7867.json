@@ -1,0 +1,357 @@
+{
+  "table_id": "T7867",
+  "uid": "1cc5600c-ec12-52e7-998b-796e4e19f878",
+  "source": "HybridQA",
+  "source_table_id": "1cc5600c-ec12-52e7-998b-796e4e19f878",
+  "domain": "HybridQA",
+  "title": "UCLA Bruins men's basketball",
+  "columns": [
+    "Player",
+    "Year",
+    "Assists"
+  ],
+  "rows": [
+    [
+      [
+        "Pooh Richardson",
+        [
+          "/wiki/Pooh_Richardson"
+        ]
+      ],
+      [
+        "1985-1989",
+        []
+      ],
+      [
+        833,
+        []
+      ]
+    ],
+    [
+      [
+        "Tyus Edney",
+        [
+          "/wiki/Tyus_Edney"
+        ]
+      ],
+      [
+        "1991-1995",
+        []
+      ],
+      [
+        652,
+        []
+      ]
+    ],
+    [
+      [
+        "Darrick Martin",
+        [
+          "/wiki/Darrick_Martin"
+        ]
+      ],
+      [
+        "1988-1992",
+        []
+      ],
+      [
+        636,
+        []
+      ]
+    ],
+    [
+      [
+        "Earl Watson",
+        [
+          "/wiki/Earl_Watson"
+        ]
+      ],
+      [
+        "1997-2001",
+        []
+      ],
+      [
+        607,
+        []
+      ]
+    ],
+    [
+      [
+        "Darren Collison",
+        [
+          "/wiki/Darren_Collison"
+        ]
+      ],
+      [
+        "2005-2009",
+        []
+      ],
+      [
+        577,
+        []
+      ]
+    ],
+    [
+      [
+        "Ralph Jackson",
+        [
+          "/wiki/Ralph_Jackson"
+        ]
+      ],
+      [
+        "1980-1984",
+        []
+      ],
+      [
+        523,
+        []
+      ]
+    ],
+    [
+      [
+        "Roy Hamilton",
+        [
+          "/wiki/Roy_Hamilton_(basketball)"
+        ]
+      ],
+      [
+        "1975-1979",
+        []
+      ],
+      [
+        512,
+        []
+      ]
+    ],
+    [
+      [
+        "Toby Bailey",
+        [
+          "/wiki/Toby_Bailey"
+        ]
+      ],
+      [
+        "1994-1998",
+        []
+      ],
+      [
+        458,
+        []
+      ]
+    ],
+    [
+      [
+        "Cameron Dollar",
+        [
+          "/wiki/Cameron_Dollar"
+        ]
+      ],
+      [
+        "1993-1997",
+        []
+      ],
+      [
+        451,
+        []
+      ]
+    ],
+    [
+      [
+        "Gerald Madkins",
+        [
+          "/wiki/Gerald_Madkins"
+        ]
+      ],
+      [
+        "1987-1992",
+        []
+      ],
+      [
+        404,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "1cc5600c-ec12-52e7-998b-796e4e19f878",
+    "table_id": "UCLA_Bruins_men's_basketball_4",
+    "title": "UCLA Bruins men's basketball",
+    "header": [
+      "Player",
+      "Year",
+      "Assists"
+    ],
+    "value": [
+      [
+        [
+          "Pooh Richardson",
+          [
+            "/wiki/Pooh_Richardson"
+          ]
+        ],
+        [
+          "1985-1989",
+          []
+        ],
+        [
+          833,
+          []
+        ]
+      ],
+      [
+        [
+          "Tyus Edney",
+          [
+            "/wiki/Tyus_Edney"
+          ]
+        ],
+        [
+          "1991-1995",
+          []
+        ],
+        [
+          652,
+          []
+        ]
+      ],
+      [
+        [
+          "Darrick Martin",
+          [
+            "/wiki/Darrick_Martin"
+          ]
+        ],
+        [
+          "1988-1992",
+          []
+        ],
+        [
+          636,
+          []
+        ]
+      ],
+      [
+        [
+          "Earl Watson",
+          [
+            "/wiki/Earl_Watson"
+          ]
+        ],
+        [
+          "1997-2001",
+          []
+        ],
+        [
+          607,
+          []
+        ]
+      ],
+      [
+        [
+          "Darren Collison",
+          [
+            "/wiki/Darren_Collison"
+          ]
+        ],
+        [
+          "2005-2009",
+          []
+        ],
+        [
+          577,
+          []
+        ]
+      ],
+      [
+        [
+          "Ralph Jackson",
+          [
+            "/wiki/Ralph_Jackson"
+          ]
+        ],
+        [
+          "1980-1984",
+          []
+        ],
+        [
+          523,
+          []
+        ]
+      ],
+      [
+        [
+          "Roy Hamilton",
+          [
+            "/wiki/Roy_Hamilton_(basketball)"
+          ]
+        ],
+        [
+          "1975-1979",
+          []
+        ],
+        [
+          512,
+          []
+        ]
+      ],
+      [
+        [
+          "Toby Bailey",
+          [
+            "/wiki/Toby_Bailey"
+          ]
+        ],
+        [
+          "1994-1998",
+          []
+        ],
+        [
+          458,
+          []
+        ]
+      ],
+      [
+        [
+          "Cameron Dollar",
+          [
+            "/wiki/Cameron_Dollar"
+          ]
+        ],
+        [
+          "1993-1997",
+          []
+        ],
+        [
+          451,
+          []
+        ]
+      ],
+      [
+        [
+          "Gerald Madkins",
+          [
+            "/wiki/Gerald_Madkins"
+          ]
+        ],
+        [
+          "1987-1992",
+          []
+        ],
+        [
+          404,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about UCLA Bruins men's basketball players, including their playing years and total assists. It serves to highlight individual player contributions and performance statistics over specific periods.",
+  "numeric_columns": [
+    "Assists"
+  ],
+  "categorical_columns": [
+    "Year"
+  ],
+  "entities": [
+    "Player"
+  ]
+}

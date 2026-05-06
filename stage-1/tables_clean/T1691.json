@@ -1,0 +1,293 @@
+{
+  "table_id": "T1691",
+  "uid": "3d834ea0-6595-5d1f-b226-c9496101efb2",
+  "source": "HybridQA",
+  "source_table_id": "3d834ea0-6595-5d1f-b226-c9496101efb2",
+  "domain": "HybridQA",
+  "title": "2002 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Marius Urzică ( ROU )",
+        [
+          "/wiki/Marius_Urzică"
+        ]
+      ],
+      [
+        9.787,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Xiao Qin ( CHN )",
+        [
+          "/wiki/Xiao_Qin"
+        ]
+      ],
+      [
+        9.75,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Takehiro Kashima ( JPN )",
+        [
+          "/wiki/Takehiro_Kashima"
+        ]
+      ],
+      [
+        9.687,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Teng Haibin ( CHN )",
+        [
+          "/wiki/Teng_Haibin"
+        ]
+      ],
+      [
+        9.662,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Eric Casimir ( FRA )",
+        [
+          "/wiki/Eric_Casimir"
+        ]
+      ],
+      [
+        9.65,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Nikolai Kryukov ( RUS )",
+        [
+          "/wiki/Nikolai_Kryukov_(gymnast)"
+        ]
+      ],
+      [
+        9.625,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Ioan Suciu ( ROU )",
+        [
+          "/wiki/Ioan_Silviu_Suciu"
+        ]
+      ],
+      [
+        9.625,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Paul Hamm ( USA )",
+        [
+          "/wiki/Paul_Hamm"
+        ]
+      ],
+      [
+        9.05,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "3d834ea0-6595-5d1f-b226-c9496101efb2",
+    "table_id": "2002_World_Artistic_Gymnastics_Championships_1",
+    "title": "2002 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Marius Urzică ( ROU )",
+          [
+            "/wiki/Marius_Urzică"
+          ]
+        ],
+        [
+          9.787,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Xiao Qin ( CHN )",
+          [
+            "/wiki/Xiao_Qin"
+          ]
+        ],
+        [
+          9.75,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Takehiro Kashima ( JPN )",
+          [
+            "/wiki/Takehiro_Kashima"
+          ]
+        ],
+        [
+          9.687,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Teng Haibin ( CHN )",
+          [
+            "/wiki/Teng_Haibin"
+          ]
+        ],
+        [
+          9.662,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Eric Casimir ( FRA )",
+          [
+            "/wiki/Eric_Casimir"
+          ]
+        ],
+        [
+          9.65,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Nikolai Kryukov ( RUS )",
+          [
+            "/wiki/Nikolai_Kryukov_(gymnast)"
+          ]
+        ],
+        [
+          9.625,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Ioan Suciu ( ROU )",
+          [
+            "/wiki/Ioan_Silviu_Suciu"
+          ]
+        ],
+        [
+          9.625,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Paul Hamm ( USA )",
+          [
+            "/wiki/Paul_Hamm"
+          ]
+        ],
+        [
+          9.05,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides rankings and scores from the 2002 World Artistic Gymnastics Championships, focusing on individual gymnasts and their total scores. It is intended to summarize performance outcomes in a specific event or category of the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

@@ -1,0 +1,598 @@
+{
+  "table_id": "T1476",
+  "uid": "595d4156-9431-5a09-8e2b-5996279d7210",
+  "source": "HybridQA",
+  "source_table_id": "595d4156-9431-5a09-8e2b-5996279d7210",
+  "domain": "HybridQA",
+  "title": "List of football stadiums in Paraguay",
+  "columns": [
+    "#",
+    "Stadium",
+    "Capacity",
+    "City",
+    "Home team"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Estadio General Pablo Rojas",
+        [
+          "/wiki/Estadio_General_Pablo_Rojas"
+        ]
+      ],
+      [
+        "45,000",
+        []
+      ],
+      [
+        "Asunción",
+        [
+          "/wiki/Asunción"
+        ]
+      ],
+      [
+        "Cerro Porteño",
+        [
+          "/wiki/Cerro_Porteño"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Estadio Defensores del Chaco",
+        [
+          "/wiki/Estadio_Defensores_del_Chaco"
+        ]
+      ],
+      [
+        "42,354",
+        []
+      ],
+      [
+        "Asunción",
+        [
+          "/wiki/Asunción"
+        ]
+      ],
+      [
+        "Paraguay",
+        [
+          "/wiki/Paraguay_national_football_team"
+        ]
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Estadio Feliciano Cáceres",
+        [
+          "/wiki/Estadio_Feliciano_Cáceres"
+        ]
+      ],
+      [
+        "24,000",
+        []
+      ],
+      [
+        "Luque",
+        [
+          "/wiki/Luque"
+        ]
+      ],
+      [
+        "Club Sportivo Luqueño",
+        [
+          "/wiki/Club_Sportivo_Luqueño"
+        ]
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Estadio Antonio Oddone Sarubbi",
+        [
+          "/wiki/Estadio_Antonio_Oddone_Sarubbi"
+        ]
+      ],
+      [
+        "23,500",
+        []
+      ],
+      [
+        "Ciudad del Este",
+        [
+          "/wiki/Ciudad_del_Este"
+        ]
+      ],
+      [
+        "Club Atletico 3 de Febrero",
+        [
+          "/wiki/Club_Atletico_3_de_Febrero"
+        ]
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Estadio Manuel Ferreira",
+        [
+          "/wiki/Estadio_Manuel_Ferreira"
+        ]
+      ],
+      [
+        "22,000",
+        []
+      ],
+      [
+        "Asunción",
+        [
+          "/wiki/Asunción"
+        ]
+      ],
+      [
+        "Olimpia Asunción",
+        [
+          "/wiki/Olimpia_Asunción"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Monumental Río Parapití",
+        [
+          "/wiki/Monumental_Río_Parapití"
+        ]
+      ],
+      [
+        "18,000",
+        []
+      ],
+      [
+        "Pedro Juan Caballero",
+        [
+          "/wiki/Pedro_Juan_Caballero,_Paraguay"
+        ]
+      ],
+      [
+        "Club 2 de Mayo",
+        [
+          "/wiki/Club_2_de_Mayo"
+        ]
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Estadio Agustín Báez",
+        []
+      ],
+      [
+        "15,000",
+        []
+      ],
+      [
+        "Atyrá",
+        [
+          "/wiki/Atyrá"
+        ]
+      ],
+      [
+        "Club 4 de Octubre",
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Estadio Roberto Bettega",
+        [
+          "/wiki/Estadio_Roberto_Bettega"
+        ]
+      ],
+      [
+        "15,000",
+        []
+      ],
+      [
+        "Asunción",
+        [
+          "/wiki/Asunción"
+        ]
+      ],
+      [
+        "Tacuary",
+        [
+          "/wiki/Tacuary"
+        ]
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Estadio Dr. Nicolás Leoz",
+        [
+          "/wiki/Estadio_Dr._Nicolás_Leoz"
+        ]
+      ],
+      [
+        "10,100",
+        []
+      ],
+      [
+        "Asunción",
+        [
+          "/wiki/Asunción"
+        ]
+      ],
+      [
+        "Club Libertad",
+        [
+          "/wiki/Club_Libertad"
+        ]
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Estadio Juan Canuto Pettengill",
+        [
+          "/wiki/Estadio_Juan_Canuto_Pettengill"
+        ]
+      ],
+      [
+        "10,000",
+        []
+      ],
+      [
+        "Itauguá",
+        [
+          "/wiki/Itauguá"
+        ]
+      ],
+      [
+        "Club 12 de Octubre",
+        [
+          "/wiki/Club_12_de_Octubre"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "595d4156-9431-5a09-8e2b-5996279d7210",
+    "table_id": "List_of_football_stadiums_in_Paraguay_0",
+    "title": "List of football stadiums in Paraguay",
+    "header": [
+      "#",
+      "Stadium",
+      "Capacity",
+      "City",
+      "Home team"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Estadio General Pablo Rojas",
+          [
+            "/wiki/Estadio_General_Pablo_Rojas"
+          ]
+        ],
+        [
+          "45,000",
+          []
+        ],
+        [
+          "Asunción",
+          [
+            "/wiki/Asunción"
+          ]
+        ],
+        [
+          "Cerro Porteño",
+          [
+            "/wiki/Cerro_Porteño"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Estadio Defensores del Chaco",
+          [
+            "/wiki/Estadio_Defensores_del_Chaco"
+          ]
+        ],
+        [
+          "42,354",
+          []
+        ],
+        [
+          "Asunción",
+          [
+            "/wiki/Asunción"
+          ]
+        ],
+        [
+          "Paraguay",
+          [
+            "/wiki/Paraguay_national_football_team"
+          ]
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Estadio Feliciano Cáceres",
+          [
+            "/wiki/Estadio_Feliciano_Cáceres"
+          ]
+        ],
+        [
+          "24,000",
+          []
+        ],
+        [
+          "Luque",
+          [
+            "/wiki/Luque"
+          ]
+        ],
+        [
+          "Club Sportivo Luqueño",
+          [
+            "/wiki/Club_Sportivo_Luqueño"
+          ]
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Estadio Antonio Oddone Sarubbi",
+          [
+            "/wiki/Estadio_Antonio_Oddone_Sarubbi"
+          ]
+        ],
+        [
+          "23,500",
+          []
+        ],
+        [
+          "Ciudad del Este",
+          [
+            "/wiki/Ciudad_del_Este"
+          ]
+        ],
+        [
+          "Club Atletico 3 de Febrero",
+          [
+            "/wiki/Club_Atletico_3_de_Febrero"
+          ]
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Estadio Manuel Ferreira",
+          [
+            "/wiki/Estadio_Manuel_Ferreira"
+          ]
+        ],
+        [
+          "22,000",
+          []
+        ],
+        [
+          "Asunción",
+          [
+            "/wiki/Asunción"
+          ]
+        ],
+        [
+          "Olimpia Asunción",
+          [
+            "/wiki/Olimpia_Asunción"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Monumental Río Parapití",
+          [
+            "/wiki/Monumental_Río_Parapití"
+          ]
+        ],
+        [
+          "18,000",
+          []
+        ],
+        [
+          "Pedro Juan Caballero",
+          [
+            "/wiki/Pedro_Juan_Caballero,_Paraguay"
+          ]
+        ],
+        [
+          "Club 2 de Mayo",
+          [
+            "/wiki/Club_2_de_Mayo"
+          ]
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Estadio Agustín Báez",
+          []
+        ],
+        [
+          "15,000",
+          []
+        ],
+        [
+          "Atyrá",
+          [
+            "/wiki/Atyrá"
+          ]
+        ],
+        [
+          "Club 4 de Octubre",
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Estadio Roberto Bettega",
+          [
+            "/wiki/Estadio_Roberto_Bettega"
+          ]
+        ],
+        [
+          "15,000",
+          []
+        ],
+        [
+          "Asunción",
+          [
+            "/wiki/Asunción"
+          ]
+        ],
+        [
+          "Tacuary",
+          [
+            "/wiki/Tacuary"
+          ]
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Estadio Dr. Nicolás Leoz",
+          [
+            "/wiki/Estadio_Dr._Nicolás_Leoz"
+          ]
+        ],
+        [
+          "10,100",
+          []
+        ],
+        [
+          "Asunción",
+          [
+            "/wiki/Asunción"
+          ]
+        ],
+        [
+          "Club Libertad",
+          [
+            "/wiki/Club_Libertad"
+          ]
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Estadio Juan Canuto Pettengill",
+          [
+            "/wiki/Estadio_Juan_Canuto_Pettengill"
+          ]
+        ],
+        [
+          "10,000",
+          []
+        ],
+        [
+          "Itauguá",
+          [
+            "/wiki/Itauguá"
+          ]
+        ],
+        [
+          "Club 12 de Octubre",
+          [
+            "/wiki/Club_12_de_Octubre"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a list of football stadiums in Paraguay, including details about their capacity, location, and associated home teams. It is intended to offer an overview of major stadiums used for football matches in the country.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "#",
+    "Stadium",
+    "City",
+    "Home team"
+  ],
+  "entities": [
+    "Stadium",
+    "City",
+    "Home team"
+  ]
+}

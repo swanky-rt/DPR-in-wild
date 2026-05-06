@@ -1,0 +1,498 @@
+{
+  "table_id": "T10490",
+  "uid": "60578526-5bdb-5b94-ad1a-402307192c82",
+  "source": "HybridQA",
+  "source_table_id": "60578526-5bdb-5b94-ad1a-402307192c82",
+  "domain": "HybridQA",
+  "title": "Bergen Airport, Flesland",
+  "columns": [
+    "Rank",
+    "City",
+    "Passengers",
+    "Airline"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Oslo-Gardermoen , Akershus",
+        [
+          "/wiki/Oslo_Airport"
+        ]
+      ],
+      [
+        "1,513,336",
+        []
+      ],
+      [
+        "Norwegian Air Shuttle , Scandinavian Airlines",
+        [
+          "/wiki/Norwegian_Air_Shuttle",
+          "/wiki/Scandinavian_Airlines"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Stavanger-Sola , Rogaland",
+        [
+          "/wiki/Stavanger_Airport,_Sola"
+        ]
+      ],
+      [
+        "711,692",
+        []
+      ],
+      [
+        "Norwegian Air Shuttle , Scandinavian Airlines , Widerøe",
+        [
+          "/wiki/Norwegian_Air_Shuttle",
+          "/wiki/Scandinavian_Airlines",
+          "/wiki/Widerøe"
+        ]
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Trondheim-Værnes , Trøndelag",
+        [
+          "/wiki/Værnes_Airport"
+        ]
+      ],
+      [
+        "402,889",
+        []
+      ],
+      [
+        "Norwegian Air Shuttle , Scandinavian Airlines",
+        [
+          "/wiki/Norwegian_Air_Shuttle",
+          "/wiki/Scandinavian_Airlines"
+        ]
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Ålesund-Vigra , Møre og Romsdal",
+        [
+          "/wiki/Vigra_Airport"
+        ]
+      ],
+      [
+        "140,127",
+        []
+      ],
+      [
+        "Norwegian Air Shuttle , Scandinavian Airlines",
+        [
+          "/wiki/Norwegian_Air_Shuttle",
+          "/wiki/Scandinavian_Airlines"
+        ]
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Oslo-Torp , Vestfold",
+        [
+          "/wiki/Torp_Airport"
+        ]
+      ],
+      [
+        "130,691",
+        []
+      ],
+      [
+        "Norwegian Air Shuttle , Widerøe",
+        [
+          "/wiki/Norwegian_Air_Shuttle",
+          "/wiki/Widerøe"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Kristiansand-Kjevik , Vest-Agder",
+        [
+          "/wiki/Kristiansand_Airport"
+        ]
+      ],
+      [
+        "129,617",
+        []
+      ],
+      [
+        "Norwegian Air Shuttle , Scandinavian Airlines , Widerøe",
+        [
+          "/wiki/Norwegian_Air_Shuttle",
+          "/wiki/Scandinavian_Airlines",
+          "/wiki/Widerøe"
+        ]
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Oslo-Rygge , Østfold",
+        [
+          "/wiki/Rygge_Airport"
+        ]
+      ],
+      [
+        "94,417",
+        []
+      ],
+      [
+        "Danish Air Transport",
+        [
+          "/wiki/Danish_Air_Transport"
+        ]
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Kristiansund-Kvernberget , Møre og Romsdal",
+        [
+          "/wiki/Kristiansund_Airport"
+        ]
+      ],
+      [
+        "72,144",
+        []
+      ],
+      [
+        "Widerøe",
+        [
+          "/wiki/Widerøe"
+        ]
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Florø , Sogn og Fjordane",
+        [
+          "/wiki/Florø_Airport"
+        ]
+      ],
+      [
+        "60,427",
+        []
+      ],
+      [
+        "Widerøe",
+        [
+          "/wiki/Widerøe"
+        ]
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Molde-Åro , Møre og Romsdal",
+        [
+          "/wiki/Molde_Airport"
+        ]
+      ],
+      [
+        "55,584",
+        []
+      ],
+      [
+        "Widerøe",
+        [
+          "/wiki/Widerøe"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "60578526-5bdb-5b94-ad1a-402307192c82",
+    "table_id": "Bergen_Airport,_Flesland_2",
+    "title": "Bergen Airport, Flesland",
+    "header": [
+      "Rank",
+      "City",
+      "Passengers",
+      "Airline"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Oslo-Gardermoen , Akershus",
+          [
+            "/wiki/Oslo_Airport"
+          ]
+        ],
+        [
+          "1,513,336",
+          []
+        ],
+        [
+          "Norwegian Air Shuttle , Scandinavian Airlines",
+          [
+            "/wiki/Norwegian_Air_Shuttle",
+            "/wiki/Scandinavian_Airlines"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Stavanger-Sola , Rogaland",
+          [
+            "/wiki/Stavanger_Airport,_Sola"
+          ]
+        ],
+        [
+          "711,692",
+          []
+        ],
+        [
+          "Norwegian Air Shuttle , Scandinavian Airlines , Widerøe",
+          [
+            "/wiki/Norwegian_Air_Shuttle",
+            "/wiki/Scandinavian_Airlines",
+            "/wiki/Widerøe"
+          ]
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Trondheim-Værnes , Trøndelag",
+          [
+            "/wiki/Værnes_Airport"
+          ]
+        ],
+        [
+          "402,889",
+          []
+        ],
+        [
+          "Norwegian Air Shuttle , Scandinavian Airlines",
+          [
+            "/wiki/Norwegian_Air_Shuttle",
+            "/wiki/Scandinavian_Airlines"
+          ]
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Ålesund-Vigra , Møre og Romsdal",
+          [
+            "/wiki/Vigra_Airport"
+          ]
+        ],
+        [
+          "140,127",
+          []
+        ],
+        [
+          "Norwegian Air Shuttle , Scandinavian Airlines",
+          [
+            "/wiki/Norwegian_Air_Shuttle",
+            "/wiki/Scandinavian_Airlines"
+          ]
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Oslo-Torp , Vestfold",
+          [
+            "/wiki/Torp_Airport"
+          ]
+        ],
+        [
+          "130,691",
+          []
+        ],
+        [
+          "Norwegian Air Shuttle , Widerøe",
+          [
+            "/wiki/Norwegian_Air_Shuttle",
+            "/wiki/Widerøe"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Kristiansand-Kjevik , Vest-Agder",
+          [
+            "/wiki/Kristiansand_Airport"
+          ]
+        ],
+        [
+          "129,617",
+          []
+        ],
+        [
+          "Norwegian Air Shuttle , Scandinavian Airlines , Widerøe",
+          [
+            "/wiki/Norwegian_Air_Shuttle",
+            "/wiki/Scandinavian_Airlines",
+            "/wiki/Widerøe"
+          ]
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Oslo-Rygge , Østfold",
+          [
+            "/wiki/Rygge_Airport"
+          ]
+        ],
+        [
+          "94,417",
+          []
+        ],
+        [
+          "Danish Air Transport",
+          [
+            "/wiki/Danish_Air_Transport"
+          ]
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Kristiansund-Kvernberget , Møre og Romsdal",
+          [
+            "/wiki/Kristiansund_Airport"
+          ]
+        ],
+        [
+          "72,144",
+          []
+        ],
+        [
+          "Widerøe",
+          [
+            "/wiki/Widerøe"
+          ]
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Florø , Sogn og Fjordane",
+          [
+            "/wiki/Florø_Airport"
+          ]
+        ],
+        [
+          "60,427",
+          []
+        ],
+        [
+          "Widerøe",
+          [
+            "/wiki/Widerøe"
+          ]
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Molde-Åro , Møre og Romsdal",
+          [
+            "/wiki/Molde_Airport"
+          ]
+        ],
+        [
+          "55,584",
+          []
+        ],
+        [
+          "Widerøe",
+          [
+            "/wiki/Widerøe"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of passenger traffic and airline operations at Bergen Airport, Flesland. It lists rankings of cities based on passenger numbers, along with the airlines serving these routes. The table is useful for analyzing air travel patterns and airline presence at the airport.",
+  "numeric_columns": [
+    "Passengers"
+  ],
+  "categorical_columns": [
+    "Rank",
+    "City",
+    "Airline"
+  ],
+  "entities": [
+    "City",
+    "Airline"
+  ]
+}

@@ -1,0 +1,607 @@
+{
+  "table_id": "T3752",
+  "uid": "cc39aa78-65fd-5acc-a524-abb22c77ddb9",
+  "source": "HybridQA",
+  "source_table_id": "cc39aa78-65fd-5acc-a524-abb22c77ddb9",
+  "domain": "HybridQA",
+  "title": "Damallsvenskan",
+  "columns": [
+    "Team",
+    "Location",
+    "Stadium",
+    "Stadium capacity"
+  ],
+  "rows": [
+    [
+      [
+        "Djurgårdens IF",
+        [
+          "/wiki/Djurgårdens_IF_Fotboll_(women)"
+        ]
+      ],
+      [
+        "Stockholm",
+        [
+          "/wiki/Stockholm"
+        ]
+      ],
+      [
+        "Stockholm Olympic Stadium",
+        [
+          "/wiki/Stockholm_Olympic_Stadium"
+        ]
+      ],
+      [
+        "14,417",
+        []
+      ]
+    ],
+    [
+      [
+        "Eskilstuna United DFF",
+        [
+          "/wiki/Eskilstuna_United_DFF"
+        ]
+      ],
+      [
+        "Eskilstuna",
+        [
+          "/wiki/Eskilstuna"
+        ]
+      ],
+      [
+        "Tunavallen",
+        [
+          "/wiki/Tunavallen"
+        ]
+      ],
+      [
+        "7,600",
+        []
+      ]
+    ],
+    [
+      [
+        "FC Rosengård",
+        [
+          "/wiki/FC_Rosengård"
+        ]
+      ],
+      [
+        "Malmö",
+        [
+          "/wiki/Malmö"
+        ]
+      ],
+      [
+        "Malmö IP",
+        [
+          "/wiki/Malmö_IP"
+        ]
+      ],
+      [
+        "5,700",
+        []
+      ]
+    ],
+    [
+      [
+        "IF Limhamn Bunkeflo",
+        [
+          "/wiki/IF_Limhamn_Bunkeflo_(women)"
+        ]
+      ],
+      [
+        "Malmö",
+        [
+          "/wiki/Malmö"
+        ]
+      ],
+      [
+        "Limhamns IP",
+        [
+          "/wiki/Limhamns_IP"
+        ]
+      ],
+      [
+        "2,800",
+        []
+      ]
+    ],
+    [
+      [
+        "Kopparbergs/Göteborg FC",
+        [
+          "/wiki/Kopparbergs/Göteborg_FC"
+        ]
+      ],
+      [
+        "Gothenburg",
+        [
+          "/wiki/Gothenburg"
+        ]
+      ],
+      [
+        "Valhalla IP",
+        [
+          "/wiki/Valhalla_IP"
+        ]
+      ],
+      [
+        "4,000",
+        []
+      ]
+    ],
+    [
+      [
+        "KIF Örebro DFF",
+        [
+          "/wiki/KIF_Örebro_DFF"
+        ]
+      ],
+      [
+        "Örebro",
+        [
+          "/wiki/Örebro"
+        ]
+      ],
+      [
+        "Behrn Arena",
+        [
+          "/wiki/Behrn_Arena"
+        ]
+      ],
+      [
+        "14,500",
+        []
+      ]
+    ],
+    [
+      [
+        "Kristianstads DFF",
+        [
+          "/wiki/Kristianstads_DFF"
+        ]
+      ],
+      [
+        "Kristianstad",
+        [
+          "/wiki/Kristianstad"
+        ]
+      ],
+      [
+        "Vilans IP",
+        []
+      ],
+      [
+        "5,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Kungsbacka DFF",
+        [
+          "/wiki/Kungsbacka_DFF"
+        ]
+      ],
+      [
+        "Kungsbacka",
+        [
+          "/wiki/Kungsbacka"
+        ]
+      ],
+      [
+        "Tingbergsvallen",
+        []
+      ],
+      [
+        760,
+        []
+      ]
+    ],
+    [
+      [
+        "Linköpings FC",
+        [
+          "/wiki/Linköpings_FC"
+        ]
+      ],
+      [
+        "Linköping",
+        [
+          "/wiki/Linköping"
+        ]
+      ],
+      [
+        "Arena Linköping",
+        [
+          "/wiki/Arena_Linköping"
+        ]
+      ],
+      [
+        "8,500",
+        []
+      ]
+    ],
+    [
+      [
+        "Piteå IF",
+        [
+          "/wiki/Piteå_IF_ladies_team"
+        ]
+      ],
+      [
+        "Piteå",
+        [
+          "/wiki/Piteå"
+        ]
+      ],
+      [
+        "LF Arena",
+        [
+          "/wiki/LF_Arena"
+        ]
+      ],
+      [
+        "3,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Vittsjö GIK",
+        [
+          "/wiki/Vittsjö_GIK"
+        ]
+      ],
+      [
+        "Vittsjö",
+        [
+          "/wiki/Vittsjö"
+        ]
+      ],
+      [
+        "Vittsjö IP",
+        []
+      ],
+      [
+        "3,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Växjö DFF",
+        [
+          "/wiki/Växjö_DFF"
+        ]
+      ],
+      [
+        "Växjö",
+        [
+          "/wiki/Växjö"
+        ]
+      ],
+      [
+        "Myresjöhus Arena",
+        [
+          "/wiki/Myresjöhus_Arena"
+        ]
+      ],
+      [
+        "12,173",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "cc39aa78-65fd-5acc-a524-abb22c77ddb9",
+    "table_id": "Damallsvenskan_0",
+    "title": "Damallsvenskan",
+    "header": [
+      "Team",
+      "Location",
+      "Stadium",
+      "Stadium capacity"
+    ],
+    "value": [
+      [
+        [
+          "Djurgårdens IF",
+          [
+            "/wiki/Djurgårdens_IF_Fotboll_(women)"
+          ]
+        ],
+        [
+          "Stockholm",
+          [
+            "/wiki/Stockholm"
+          ]
+        ],
+        [
+          "Stockholm Olympic Stadium",
+          [
+            "/wiki/Stockholm_Olympic_Stadium"
+          ]
+        ],
+        [
+          "14,417",
+          []
+        ]
+      ],
+      [
+        [
+          "Eskilstuna United DFF",
+          [
+            "/wiki/Eskilstuna_United_DFF"
+          ]
+        ],
+        [
+          "Eskilstuna",
+          [
+            "/wiki/Eskilstuna"
+          ]
+        ],
+        [
+          "Tunavallen",
+          [
+            "/wiki/Tunavallen"
+          ]
+        ],
+        [
+          "7,600",
+          []
+        ]
+      ],
+      [
+        [
+          "FC Rosengård",
+          [
+            "/wiki/FC_Rosengård"
+          ]
+        ],
+        [
+          "Malmö",
+          [
+            "/wiki/Malmö"
+          ]
+        ],
+        [
+          "Malmö IP",
+          [
+            "/wiki/Malmö_IP"
+          ]
+        ],
+        [
+          "5,700",
+          []
+        ]
+      ],
+      [
+        [
+          "IF Limhamn Bunkeflo",
+          [
+            "/wiki/IF_Limhamn_Bunkeflo_(women)"
+          ]
+        ],
+        [
+          "Malmö",
+          [
+            "/wiki/Malmö"
+          ]
+        ],
+        [
+          "Limhamns IP",
+          [
+            "/wiki/Limhamns_IP"
+          ]
+        ],
+        [
+          "2,800",
+          []
+        ]
+      ],
+      [
+        [
+          "Kopparbergs/Göteborg FC",
+          [
+            "/wiki/Kopparbergs/Göteborg_FC"
+          ]
+        ],
+        [
+          "Gothenburg",
+          [
+            "/wiki/Gothenburg"
+          ]
+        ],
+        [
+          "Valhalla IP",
+          [
+            "/wiki/Valhalla_IP"
+          ]
+        ],
+        [
+          "4,000",
+          []
+        ]
+      ],
+      [
+        [
+          "KIF Örebro DFF",
+          [
+            "/wiki/KIF_Örebro_DFF"
+          ]
+        ],
+        [
+          "Örebro",
+          [
+            "/wiki/Örebro"
+          ]
+        ],
+        [
+          "Behrn Arena",
+          [
+            "/wiki/Behrn_Arena"
+          ]
+        ],
+        [
+          "14,500",
+          []
+        ]
+      ],
+      [
+        [
+          "Kristianstads DFF",
+          [
+            "/wiki/Kristianstads_DFF"
+          ]
+        ],
+        [
+          "Kristianstad",
+          [
+            "/wiki/Kristianstad"
+          ]
+        ],
+        [
+          "Vilans IP",
+          []
+        ],
+        [
+          "5,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Kungsbacka DFF",
+          [
+            "/wiki/Kungsbacka_DFF"
+          ]
+        ],
+        [
+          "Kungsbacka",
+          [
+            "/wiki/Kungsbacka"
+          ]
+        ],
+        [
+          "Tingbergsvallen",
+          []
+        ],
+        [
+          760,
+          []
+        ]
+      ],
+      [
+        [
+          "Linköpings FC",
+          [
+            "/wiki/Linköpings_FC"
+          ]
+        ],
+        [
+          "Linköping",
+          [
+            "/wiki/Linköping"
+          ]
+        ],
+        [
+          "Arena Linköping",
+          [
+            "/wiki/Arena_Linköping"
+          ]
+        ],
+        [
+          "8,500",
+          []
+        ]
+      ],
+      [
+        [
+          "Piteå IF",
+          [
+            "/wiki/Piteå_IF_ladies_team"
+          ]
+        ],
+        [
+          "Piteå",
+          [
+            "/wiki/Piteå"
+          ]
+        ],
+        [
+          "LF Arena",
+          [
+            "/wiki/LF_Arena"
+          ]
+        ],
+        [
+          "3,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Vittsjö GIK",
+          [
+            "/wiki/Vittsjö_GIK"
+          ]
+        ],
+        [
+          "Vittsjö",
+          [
+            "/wiki/Vittsjö"
+          ]
+        ],
+        [
+          "Vittsjö IP",
+          []
+        ],
+        [
+          "3,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Växjö DFF",
+          [
+            "/wiki/Växjö_DFF"
+          ]
+        ],
+        [
+          "Växjö",
+          [
+            "/wiki/Växjö"
+          ]
+        ],
+        [
+          "Myresjöhus Arena",
+          [
+            "/wiki/Myresjöhus_Arena"
+          ]
+        ],
+        [
+          "12,173",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about teams in the Damallsvenskan, a women's football league, including their locations, home stadiums, and stadium capacities. It is designed to give an overview of the teams and their associated venues.",
+  "numeric_columns": [
+    "Stadium capacity"
+  ],
+  "categorical_columns": [
+    "Team",
+    "Location",
+    "Stadium"
+  ],
+  "entities": [
+    "Team",
+    "Location",
+    "Stadium"
+  ]
+}

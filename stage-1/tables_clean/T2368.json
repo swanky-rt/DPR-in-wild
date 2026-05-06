@@ -1,0 +1,376 @@
+{
+  "table_id": "T2368",
+  "uid": "8ad79065-f51a-5a39-996c-10565041d1c9",
+  "source": "HybridQA",
+  "source_table_id": "8ad79065-f51a-5a39-996c-10565041d1c9",
+  "domain": "HybridQA",
+  "title": "Television in Japan",
+  "columns": [
+    "Channel Number",
+    "Channel Name",
+    "Description"
+  ],
+  "rows": [
+    [
+      [
+        "4K-BS101",
+        []
+      ],
+      [
+        "NHK BS4K",
+        [
+          "/wiki/NHK"
+        ]
+      ],
+      [
+        "NHK Programming ( 4K )",
+        [
+          "/wiki/NHK"
+        ]
+      ]
+    ],
+    [
+      [
+        "8K-BS102",
+        []
+      ],
+      [
+        "NHK BS8K",
+        [
+          "/wiki/NHK"
+        ]
+      ],
+      [
+        "NHK Programming ( 8K )",
+        [
+          "/wiki/NHK"
+        ]
+      ]
+    ],
+    [
+      [
+        "4K-BS141",
+        []
+      ],
+      [
+        "BS Nittere 4K",
+        [
+          "/wiki/Nippon_Television"
+        ]
+      ],
+      [
+        "Nippon TV /NNN Programming ( 4K )",
+        [
+          "/wiki/Nippon_Television"
+        ]
+      ]
+    ],
+    [
+      [
+        "4K-BS151",
+        []
+      ],
+      [
+        "BS Asahi 4K",
+        [
+          "/wiki/TV_Asahi"
+        ]
+      ],
+      [
+        "TV Asahi /ANN Programming ( 4K )",
+        [
+          "/wiki/TV_Asahi"
+        ]
+      ]
+    ],
+    [
+      [
+        "4K-BS161",
+        []
+      ],
+      [
+        "BS-TBS 4K",
+        [
+          "/wiki/BS-TBS"
+        ]
+      ],
+      [
+        "TBS /JNN Programming ( 4K )",
+        [
+          "/wiki/Tokyo_Broadcasting_System"
+        ]
+      ]
+    ],
+    [
+      [
+        "4K-BS171",
+        []
+      ],
+      [
+        "BS TV Tokyo 4K",
+        [
+          "/wiki/TV_Tokyo"
+        ]
+      ],
+      [
+        "TV Tokyo /TXN Programming ( 4K )",
+        [
+          "/wiki/TV_Tokyo"
+        ]
+      ]
+    ],
+    [
+      [
+        "4K-BS181",
+        []
+      ],
+      [
+        "BS Fuji 4K",
+        [
+          "/wiki/Fuji_Television"
+        ]
+      ],
+      [
+        "Fuji Television /FNN Programming ( 4K )",
+        [
+          "/wiki/Fuji_Television"
+        ]
+      ]
+    ],
+    [
+      [
+        "4K-BS203",
+        []
+      ],
+      [
+        "The Cinema 4K",
+        []
+      ],
+      [
+        "Movies ( 4K )",
+        []
+      ]
+    ],
+    [
+      [
+        "4K-BS211",
+        []
+      ],
+      [
+        "Shop Channel 4K",
+        []
+      ],
+      [
+        "Shopping ( 4K )",
+        []
+      ]
+    ],
+    [
+      [
+        "4K-BS221",
+        []
+      ],
+      [
+        "4K QVC",
+        [
+          "/wiki/QVC"
+        ]
+      ],
+      [
+        "Shopping ( 4K )",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "8ad79065-f51a-5a39-996c-10565041d1c9",
+    "table_id": "Television_in_Japan_1",
+    "title": "Television in Japan",
+    "header": [
+      "Channel Number",
+      "Channel Name",
+      "Description"
+    ],
+    "value": [
+      [
+        [
+          "4K-BS101",
+          []
+        ],
+        [
+          "NHK BS4K",
+          [
+            "/wiki/NHK"
+          ]
+        ],
+        [
+          "NHK Programming ( 4K )",
+          [
+            "/wiki/NHK"
+          ]
+        ]
+      ],
+      [
+        [
+          "8K-BS102",
+          []
+        ],
+        [
+          "NHK BS8K",
+          [
+            "/wiki/NHK"
+          ]
+        ],
+        [
+          "NHK Programming ( 8K )",
+          [
+            "/wiki/NHK"
+          ]
+        ]
+      ],
+      [
+        [
+          "4K-BS141",
+          []
+        ],
+        [
+          "BS Nittere 4K",
+          [
+            "/wiki/Nippon_Television"
+          ]
+        ],
+        [
+          "Nippon TV /NNN Programming ( 4K )",
+          [
+            "/wiki/Nippon_Television"
+          ]
+        ]
+      ],
+      [
+        [
+          "4K-BS151",
+          []
+        ],
+        [
+          "BS Asahi 4K",
+          [
+            "/wiki/TV_Asahi"
+          ]
+        ],
+        [
+          "TV Asahi /ANN Programming ( 4K )",
+          [
+            "/wiki/TV_Asahi"
+          ]
+        ]
+      ],
+      [
+        [
+          "4K-BS161",
+          []
+        ],
+        [
+          "BS-TBS 4K",
+          [
+            "/wiki/BS-TBS"
+          ]
+        ],
+        [
+          "TBS /JNN Programming ( 4K )",
+          [
+            "/wiki/Tokyo_Broadcasting_System"
+          ]
+        ]
+      ],
+      [
+        [
+          "4K-BS171",
+          []
+        ],
+        [
+          "BS TV Tokyo 4K",
+          [
+            "/wiki/TV_Tokyo"
+          ]
+        ],
+        [
+          "TV Tokyo /TXN Programming ( 4K )",
+          [
+            "/wiki/TV_Tokyo"
+          ]
+        ]
+      ],
+      [
+        [
+          "4K-BS181",
+          []
+        ],
+        [
+          "BS Fuji 4K",
+          [
+            "/wiki/Fuji_Television"
+          ]
+        ],
+        [
+          "Fuji Television /FNN Programming ( 4K )",
+          [
+            "/wiki/Fuji_Television"
+          ]
+        ]
+      ],
+      [
+        [
+          "4K-BS203",
+          []
+        ],
+        [
+          "The Cinema 4K",
+          []
+        ],
+        [
+          "Movies ( 4K )",
+          []
+        ]
+      ],
+      [
+        [
+          "4K-BS211",
+          []
+        ],
+        [
+          "Shop Channel 4K",
+          []
+        ],
+        [
+          "Shopping ( 4K )",
+          []
+        ]
+      ],
+      [
+        [
+          "4K-BS221",
+          []
+        ],
+        [
+          "4K QVC",
+          [
+            "/wiki/QVC"
+          ]
+        ],
+        [
+          "Shopping ( 4K )",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about television channels in Japan, including their channel numbers, names, and descriptions of their programming. It serves as a reference for understanding the offerings of various channels in the Japanese television landscape.",
+  "numeric_columns": [
+    "Channel Number"
+  ],
+  "categorical_columns": [
+    "Channel Name",
+    "Description"
+  ],
+  "entities": []
+}

@@ -1,0 +1,327 @@
+{
+  "table_id": "T7863",
+  "uid": "12615d39-6d15-5a9e-9ccd-9f458a2640b5",
+  "source": "HybridQA",
+  "source_table_id": "12615d39-6d15-5a9e-9ccd-9f458a2640b5",
+  "domain": "HybridQA",
+  "title": "Venues of the 1964 Winter Olympics",
+  "columns": [
+    "Venue",
+    "Sports",
+    "Capacity"
+  ],
+  "rows": [
+    [
+      [
+        "Axamer Lizum",
+        [
+          "/wiki/Axamer_Lizum"
+        ]
+      ],
+      [
+        "Alpine skiing ( all but men 's downhill )",
+        [
+          "/wiki/Alpine_skiing_at_the_1964_Winter_Olympics"
+        ]
+      ],
+      [
+        "Not listed",
+        []
+      ]
+    ],
+    [
+      [
+        "Bergiselschanze",
+        [
+          "/wiki/Bergiselschanze"
+        ]
+      ],
+      [
+        "Ski jumping ( large hill )",
+        [
+          "/wiki/Ski_jumping_at_the_1964_Winter_Olympics"
+        ]
+      ],
+      [
+        "26,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Bob und Rodelbahn Igls",
+        [
+          "/wiki/Olympic_Sliding_Centre_Innsbruck"
+        ]
+      ],
+      [
+        "Bobsleigh , Luge",
+        [
+          "/wiki/Bobsleigh_at_the_1964_Winter_Olympics",
+          "/wiki/Luge_at_the_1964_Winter_Olympics"
+        ]
+      ],
+      [
+        "Not listed",
+        []
+      ]
+    ],
+    [
+      [
+        "Eisschnellaufbahn",
+        [
+          "/wiki/Eisschnellaufbahn"
+        ]
+      ],
+      [
+        "Speed skating",
+        [
+          "/wiki/Speed_skating_at_the_1964_Winter_Olympics"
+        ]
+      ],
+      [
+        "7,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Messehalle",
+        [
+          "/wiki/Messehalle_(Innsbruck)"
+        ]
+      ],
+      [
+        "Ice hockey",
+        [
+          "/wiki/Ice_hockey_at_the_1964_Winter_Olympics"
+        ]
+      ],
+      [
+        "5,544",
+        []
+      ]
+    ],
+    [
+      [
+        "Olympiahalle",
+        [
+          "/wiki/Olympiahalle_(Innsbruck)"
+        ]
+      ],
+      [
+        "Figure skating , Ice hockey",
+        [
+          "/wiki/Figure_skating_at_the_1964_Winter_Olympics"
+        ]
+      ],
+      [
+        "10,836",
+        []
+      ]
+    ],
+    [
+      [
+        "Patscherkofel",
+        [
+          "/wiki/Patscherkofel"
+        ]
+      ],
+      [
+        "Alpine skiing ( men 's downhill )",
+        []
+      ],
+      [
+        "Not listed",
+        []
+      ]
+    ],
+    [
+      [
+        "Seefeld",
+        [
+          "/wiki/Seefeld,_Tirol"
+        ]
+      ],
+      [
+        "Biathlon , Cross-country skiing , Nordic combined , Ski jumping ( normal hill )",
+        [
+          "/wiki/Biathlon_at_the_1964_Winter_Olympics",
+          "/wiki/Cross-country_skiing_at_the_1964_Winter_Olympics",
+          "/wiki/Nordic_combined_at_the_1964_Winter_Olympics"
+        ]
+      ],
+      [
+        "Not listed",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "12615d39-6d15-5a9e-9ccd-9f458a2640b5",
+    "table_id": "Venues_of_the_1964_Winter_Olympics_0",
+    "title": "Venues of the 1964 Winter Olympics",
+    "header": [
+      "Venue",
+      "Sports",
+      "Capacity"
+    ],
+    "value": [
+      [
+        [
+          "Axamer Lizum",
+          [
+            "/wiki/Axamer_Lizum"
+          ]
+        ],
+        [
+          "Alpine skiing ( all but men 's downhill )",
+          [
+            "/wiki/Alpine_skiing_at_the_1964_Winter_Olympics"
+          ]
+        ],
+        [
+          "Not listed",
+          []
+        ]
+      ],
+      [
+        [
+          "Bergiselschanze",
+          [
+            "/wiki/Bergiselschanze"
+          ]
+        ],
+        [
+          "Ski jumping ( large hill )",
+          [
+            "/wiki/Ski_jumping_at_the_1964_Winter_Olympics"
+          ]
+        ],
+        [
+          "26,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Bob und Rodelbahn Igls",
+          [
+            "/wiki/Olympic_Sliding_Centre_Innsbruck"
+          ]
+        ],
+        [
+          "Bobsleigh , Luge",
+          [
+            "/wiki/Bobsleigh_at_the_1964_Winter_Olympics",
+            "/wiki/Luge_at_the_1964_Winter_Olympics"
+          ]
+        ],
+        [
+          "Not listed",
+          []
+        ]
+      ],
+      [
+        [
+          "Eisschnellaufbahn",
+          [
+            "/wiki/Eisschnellaufbahn"
+          ]
+        ],
+        [
+          "Speed skating",
+          [
+            "/wiki/Speed_skating_at_the_1964_Winter_Olympics"
+          ]
+        ],
+        [
+          "7,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Messehalle",
+          [
+            "/wiki/Messehalle_(Innsbruck)"
+          ]
+        ],
+        [
+          "Ice hockey",
+          [
+            "/wiki/Ice_hockey_at_the_1964_Winter_Olympics"
+          ]
+        ],
+        [
+          "5,544",
+          []
+        ]
+      ],
+      [
+        [
+          "Olympiahalle",
+          [
+            "/wiki/Olympiahalle_(Innsbruck)"
+          ]
+        ],
+        [
+          "Figure skating , Ice hockey",
+          [
+            "/wiki/Figure_skating_at_the_1964_Winter_Olympics"
+          ]
+        ],
+        [
+          "10,836",
+          []
+        ]
+      ],
+      [
+        [
+          "Patscherkofel",
+          [
+            "/wiki/Patscherkofel"
+          ]
+        ],
+        [
+          "Alpine skiing ( men 's downhill )",
+          []
+        ],
+        [
+          "Not listed",
+          []
+        ]
+      ],
+      [
+        [
+          "Seefeld",
+          [
+            "/wiki/Seefeld,_Tirol"
+          ]
+        ],
+        [
+          "Biathlon , Cross-country skiing , Nordic combined , Ski jumping ( normal hill )",
+          [
+            "/wiki/Biathlon_at_the_1964_Winter_Olympics",
+            "/wiki/Cross-country_skiing_at_the_1964_Winter_Olympics",
+            "/wiki/Nordic_combined_at_the_1964_Winter_Olympics"
+          ]
+        ],
+        [
+          "Not listed",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the venues used during the 1964 Winter Olympics, detailing the sports hosted at each location and the seating capacity of the venues. It serves as a reference for understanding the distribution of events and the infrastructure of the games.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "Sports"
+  ],
+  "entities": [
+    "Venue"
+  ]
+}

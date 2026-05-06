@@ -1,0 +1,555 @@
+{
+  "table_id": "T10957",
+  "uid": "a4757470-53d3-5f86-bb78-1040444751f6",
+  "source": "HybridQA",
+  "source_table_id": "a4757470-53d3-5f86-bb78-1040444751f6",
+  "domain": "HybridQA",
+  "title": "List of public corporations by market capitalization",
+  "columns": [
+    "Rank",
+    "Name",
+    "Headquarters",
+    "Primary industry",
+    "Market value ( USD million )"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "General Electric",
+        [
+          "/wiki/General_Electric"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        "Conglomerate",
+        [
+          "/wiki/Conglomerate_(company)"
+        ]
+      ],
+      [
+        "222,748",
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Royal Dutch Shell",
+        [
+          "/wiki/Royal_Dutch_Shell"
+        ]
+      ],
+      [
+        "The Netherlands",
+        []
+      ],
+      [
+        "Oil and gas",
+        [
+          "/wiki/Petroleum_industry"
+        ]
+      ],
+      [
+        "191,002",
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Microsoft",
+        [
+          "/wiki/Microsoft"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        "Software industry",
+        [
+          "/wiki/Software_industry"
+        ]
+      ],
+      [
+        "159,660",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Exxon Mobil",
+        [
+          "/wiki/Exxon_Mobil"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        "Oil and gas",
+        []
+      ],
+      [
+        "157,970",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "The Coca-Cola Company",
+        [
+          "/wiki/The_Coca-Cola_Company"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        "Beverage",
+        [
+          "/wiki/Beverage"
+        ]
+      ],
+      [
+        "151,288",
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Intel Corporation",
+        [
+          "/wiki/Intel_Corporation"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        "Computer hardware",
+        [
+          "/wiki/Computer_hardware"
+        ]
+      ],
+      [
+        "150,838",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Nippon Telegraph and Telephone",
+        [
+          "/wiki/Nippon_Telegraph_and_Telephone"
+        ]
+      ],
+      [
+        "Japan",
+        []
+      ],
+      [
+        "Telecommunications",
+        [
+          "/wiki/Telecommunications"
+        ]
+      ],
+      [
+        "146,139",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Merck",
+        [
+          "/wiki/Merck_&_Co."
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        "Health care",
+        [
+          "/wiki/Health_care"
+        ]
+      ],
+      [
+        "120,757",
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Toyota Motor Corporation",
+        [
+          "/wiki/Toyota_Motor_Corporation"
+        ]
+      ],
+      [
+        "Japan",
+        []
+      ],
+      [
+        "Automotive",
+        [
+          "/wiki/Automotive"
+        ]
+      ],
+      [
+        "116,585",
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Novartis",
+        [
+          "/wiki/Novartis"
+        ]
+      ],
+      [
+        "Switzerland",
+        []
+      ],
+      [
+        "Health care",
+        []
+      ],
+      [
+        "104,468",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "a4757470-53d3-5f86-bb78-1040444751f6",
+    "table_id": "List_of_corporations_by_market_capitalization_8",
+    "title": "List of public corporations by market capitalization",
+    "header": [
+      "Rank",
+      "Name",
+      "Headquarters",
+      "Primary industry",
+      "Market value ( USD million )"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "General Electric",
+          [
+            "/wiki/General_Electric"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          "Conglomerate",
+          [
+            "/wiki/Conglomerate_(company)"
+          ]
+        ],
+        [
+          "222,748",
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Royal Dutch Shell",
+          [
+            "/wiki/Royal_Dutch_Shell"
+          ]
+        ],
+        [
+          "The Netherlands",
+          []
+        ],
+        [
+          "Oil and gas",
+          [
+            "/wiki/Petroleum_industry"
+          ]
+        ],
+        [
+          "191,002",
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Microsoft",
+          [
+            "/wiki/Microsoft"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          "Software industry",
+          [
+            "/wiki/Software_industry"
+          ]
+        ],
+        [
+          "159,660",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Exxon Mobil",
+          [
+            "/wiki/Exxon_Mobil"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          "Oil and gas",
+          []
+        ],
+        [
+          "157,970",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "The Coca-Cola Company",
+          [
+            "/wiki/The_Coca-Cola_Company"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          "Beverage",
+          [
+            "/wiki/Beverage"
+          ]
+        ],
+        [
+          "151,288",
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Intel Corporation",
+          [
+            "/wiki/Intel_Corporation"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          "Computer hardware",
+          [
+            "/wiki/Computer_hardware"
+          ]
+        ],
+        [
+          "150,838",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Nippon Telegraph and Telephone",
+          [
+            "/wiki/Nippon_Telegraph_and_Telephone"
+          ]
+        ],
+        [
+          "Japan",
+          []
+        ],
+        [
+          "Telecommunications",
+          [
+            "/wiki/Telecommunications"
+          ]
+        ],
+        [
+          "146,139",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Merck",
+          [
+            "/wiki/Merck_&_Co."
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          "Health care",
+          [
+            "/wiki/Health_care"
+          ]
+        ],
+        [
+          "120,757",
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Toyota Motor Corporation",
+          [
+            "/wiki/Toyota_Motor_Corporation"
+          ]
+        ],
+        [
+          "Japan",
+          []
+        ],
+        [
+          "Automotive",
+          [
+            "/wiki/Automotive"
+          ]
+        ],
+        [
+          "116,585",
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Novartis",
+          [
+            "/wiki/Novartis"
+          ]
+        ],
+        [
+          "Switzerland",
+          []
+        ],
+        [
+          "Health care",
+          []
+        ],
+        [
+          "104,468",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table lists public corporations ranked by their market capitalization, providing insights into their financial scale and industry presence. It includes information about the corporation's rank, name, headquarters location, primary industry, and market value in USD million. The table is useful for analyzing the economic impact and global distribution of major corporations across various industries.",
+  "numeric_columns": [
+    "Market value ( USD million )"
+  ],
+  "categorical_columns": [
+    "Rank",
+    "Primary industry"
+  ],
+  "entities": [
+    "Name",
+    "Headquarters"
+  ]
+}

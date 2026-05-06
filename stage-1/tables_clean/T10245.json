@@ -1,0 +1,293 @@
+{
+  "table_id": "T10245",
+  "uid": "aefea344-5cc9-5130-b898-41511f75ba02",
+  "source": "HybridQA",
+  "source_table_id": "aefea344-5cc9-5130-b898-41511f75ba02",
+  "domain": "HybridQA",
+  "title": "2003 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Paul Hamm ( USA )",
+        [
+          "/wiki/Paul_Hamm"
+        ]
+      ],
+      [
+        9.762,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Yordan Yovchev ( BUL )",
+        [
+          "/wiki/Yordan_Yovchev"
+        ]
+      ],
+      [
+        9.762,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Kyle Shewfelt ( CAN )",
+        [
+          "/wiki/Kyle_Shewfelt"
+        ]
+      ],
+      [
+        9.737,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Diego Hypólito ( BRA )",
+        [
+          "/wiki/Diego_Hypólito"
+        ]
+      ],
+      [
+        9.662,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Marian Drăgulescu ( ROU )",
+        [
+          "/wiki/Marian_Drăgulescu"
+        ]
+      ],
+      [
+        9.662,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Igors Vihrovs ( LAT )",
+        [
+          "/wiki/Igors_Vihrovs"
+        ]
+      ],
+      [
+        9.612,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Róbert Gál ( HUN )",
+        [
+          "/wiki/Róbert_Gál"
+        ]
+      ],
+      [
+        9.487,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Ng Shu Wai ( MAS )",
+        [
+          "/wiki/Ng_Shu_Wai"
+        ]
+      ],
+      [
+        9.475,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "aefea344-5cc9-5130-b898-41511f75ba02",
+    "table_id": "2003_World_Artistic_Gymnastics_Championships_1",
+    "title": "2003 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Paul Hamm ( USA )",
+          [
+            "/wiki/Paul_Hamm"
+          ]
+        ],
+        [
+          9.762,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Yordan Yovchev ( BUL )",
+          [
+            "/wiki/Yordan_Yovchev"
+          ]
+        ],
+        [
+          9.762,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Kyle Shewfelt ( CAN )",
+          [
+            "/wiki/Kyle_Shewfelt"
+          ]
+        ],
+        [
+          9.737,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Diego Hypólito ( BRA )",
+          [
+            "/wiki/Diego_Hypólito"
+          ]
+        ],
+        [
+          9.662,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Marian Drăgulescu ( ROU )",
+          [
+            "/wiki/Marian_Drăgulescu"
+          ]
+        ],
+        [
+          9.662,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Igors Vihrovs ( LAT )",
+          [
+            "/wiki/Igors_Vihrovs"
+          ]
+        ],
+        [
+          9.612,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Róbert Gál ( HUN )",
+          [
+            "/wiki/Róbert_Gál"
+          ]
+        ],
+        [
+          9.487,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Ng Shu Wai ( MAS )",
+          [
+            "/wiki/Ng_Shu_Wai"
+          ]
+        ],
+        [
+          9.475,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the rankings and scores of gymnasts at the 2003 World Artistic Gymnastics Championships. It includes details about their rank, name, and total score, highlighting their performance in the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

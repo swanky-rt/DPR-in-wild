@@ -1,0 +1,293 @@
+{
+  "table_id": "T10215",
+  "uid": "30272fca-ba61-5897-bed0-e61b32072bc5",
+  "source": "HybridQA",
+  "source_table_id": "30272fca-ba61-5897-bed0-e61b32072bc5",
+  "domain": "HybridQA",
+  "title": "1999 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Alexei Nemov ( RUS )",
+        [
+          "/wiki/Alexei_Nemov"
+        ]
+      ],
+      [
+        9.787,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Gervasio Deferr ( ESP )",
+        [
+          "/wiki/Gervasio_Deferr"
+        ]
+      ],
+      [
+        9.75,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Xing Aowei ( CHN )",
+        [
+          "/wiki/Xing_Aowei"
+        ]
+      ],
+      [
+        9.737,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Vitaly Rudnitski ( BLR )",
+        [
+          "/wiki/Vitaly_Rudnitski"
+        ]
+      ],
+      [
+        9.637,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Ioannis Melissanidis ( GRE )",
+        [
+          "/wiki/Ioannis_Melissanidis"
+        ]
+      ],
+      [
+        9.637,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Yang Wei ( CHN )",
+        [
+          "/wiki/Yang_Wei_(gymnast)"
+        ]
+      ],
+      [
+        9.637,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Dmitri Karbonenko ( FRA )",
+        [
+          "/wiki/Dmitri_Karbonenko"
+        ]
+      ],
+      [
+        9.6,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Alexei Bondarenko ( RUS )",
+        [
+          "/wiki/Alexei_Bondarenko"
+        ]
+      ],
+      [
+        8.637,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "30272fca-ba61-5897-bed0-e61b32072bc5",
+    "table_id": "1999_World_Artistic_Gymnastics_Championships_1",
+    "title": "1999 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Alexei Nemov ( RUS )",
+          [
+            "/wiki/Alexei_Nemov"
+          ]
+        ],
+        [
+          9.787,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Gervasio Deferr ( ESP )",
+          [
+            "/wiki/Gervasio_Deferr"
+          ]
+        ],
+        [
+          9.75,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Xing Aowei ( CHN )",
+          [
+            "/wiki/Xing_Aowei"
+          ]
+        ],
+        [
+          9.737,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Vitaly Rudnitski ( BLR )",
+          [
+            "/wiki/Vitaly_Rudnitski"
+          ]
+        ],
+        [
+          9.637,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Ioannis Melissanidis ( GRE )",
+          [
+            "/wiki/Ioannis_Melissanidis"
+          ]
+        ],
+        [
+          9.637,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Yang Wei ( CHN )",
+          [
+            "/wiki/Yang_Wei_(gymnast)"
+          ]
+        ],
+        [
+          9.637,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Dmitri Karbonenko ( FRA )",
+          [
+            "/wiki/Dmitri_Karbonenko"
+          ]
+        ],
+        [
+          9.6,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Alexei Bondarenko ( RUS )",
+          [
+            "/wiki/Alexei_Bondarenko"
+          ]
+        ],
+        [
+          8.637,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides rankings and scores for gymnasts who participated in the 1999 World Artistic Gymnastics Championships. It includes information about their rank, names, and total scores, serving as a summary of performance outcomes in the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

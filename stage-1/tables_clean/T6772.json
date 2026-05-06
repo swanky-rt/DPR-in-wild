@@ -1,0 +1,401 @@
+{
+  "table_id": "T6772",
+  "uid": "f9400ceb-fd91-5a9f-9693-0fd9e4b2501b",
+  "source": "HybridQA",
+  "source_table_id": "f9400ceb-fd91-5a9f-9693-0fd9e4b2501b",
+  "domain": "HybridQA",
+  "title": "FIBA Europe Men's Player of the Year Award",
+  "columns": [
+    "Year",
+    "Men 's Players of the Year",
+    "Club ( s )"
+  ],
+  "rows": [
+    [
+      [
+        2005,
+        []
+      ],
+      [
+        "Dirk Nowitzki",
+        [
+          "/wiki/Dirk_Nowitzki"
+        ]
+      ],
+      [
+        "Dallas Mavericks",
+        [
+          "/wiki/Dallas_Mavericks"
+        ]
+      ]
+    ],
+    [
+      [
+        2006,
+        []
+      ],
+      [
+        "Theo Papaloukas",
+        [
+          "/wiki/Theo_Papaloukas"
+        ]
+      ],
+      [
+        "CSKA Moscow",
+        [
+          "/wiki/PBC_CSKA_Moscow"
+        ]
+      ]
+    ],
+    [
+      [
+        2007,
+        []
+      ],
+      [
+        "Andrei Kirilenko",
+        [
+          "/wiki/Andrei_Kirilenko_(basketball)"
+        ]
+      ],
+      [
+        "Utah Jazz",
+        [
+          "/wiki/Utah_Jazz"
+        ]
+      ]
+    ],
+    [
+      [
+        2008,
+        []
+      ],
+      [
+        "Pau Gasol",
+        [
+          "/wiki/Pau_Gasol"
+        ]
+      ],
+      [
+        "Memphis Grizzlies & Los Angeles Lakers",
+        [
+          "/wiki/Memphis_Grizzlies",
+          "/wiki/Los_Angeles_Lakers"
+        ]
+      ]
+    ],
+    [
+      [
+        2009,
+        []
+      ],
+      [
+        "Pau Gasol ( 2x )",
+        [
+          "/wiki/Pau_Gasol"
+        ]
+      ],
+      [
+        "Los Angeles Lakers",
+        [
+          "/wiki/Los_Angeles_Lakers"
+        ]
+      ]
+    ],
+    [
+      [
+        2010,
+        []
+      ],
+      [
+        "Miloš Teodosić",
+        [
+          "/wiki/Miloš_Teodosić"
+        ]
+      ],
+      [
+        "Olympiacos",
+        [
+          "/wiki/Olympiacos_B.C."
+        ]
+      ]
+    ],
+    [
+      [
+        2011,
+        []
+      ],
+      [
+        "Dirk Nowitzki ( 2x )",
+        [
+          "/wiki/Dirk_Nowitzki"
+        ]
+      ],
+      [
+        "Dallas Mavericks",
+        [
+          "/wiki/Dallas_Mavericks"
+        ]
+      ]
+    ],
+    [
+      [
+        2012,
+        []
+      ],
+      [
+        "Andrei Kirilenko ( 2x )",
+        [
+          "/wiki/Andrei_Kirilenko_(basketball)"
+        ]
+      ],
+      [
+        "CSKA Moscow & Minnesota Timberwolves",
+        [
+          "/wiki/PBC_CSKA_Moscow",
+          "/wiki/Minnesota_Timberwolves"
+        ]
+      ]
+    ],
+    [
+      [
+        2013,
+        []
+      ],
+      [
+        "Tony Parker",
+        [
+          "/wiki/Tony_Parker"
+        ]
+      ],
+      [
+        "San Antonio Spurs",
+        [
+          "/wiki/San_Antonio_Spurs"
+        ]
+      ]
+    ],
+    [
+      [
+        2014,
+        []
+      ],
+      [
+        "Tony Parker ( 2x )",
+        [
+          "/wiki/Tony_Parker"
+        ]
+      ],
+      [
+        "San Antonio Spurs",
+        [
+          "/wiki/San_Antonio_Spurs"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "f9400ceb-fd91-5a9f-9693-0fd9e4b2501b",
+    "table_id": "FIBA_Europe_Player_of_the_Year_Award_0",
+    "title": "FIBA Europe Men's Player of the Year Award",
+    "header": [
+      "Year",
+      "Men 's Players of the Year",
+      "Club ( s )"
+    ],
+    "value": [
+      [
+        [
+          2005,
+          []
+        ],
+        [
+          "Dirk Nowitzki",
+          [
+            "/wiki/Dirk_Nowitzki"
+          ]
+        ],
+        [
+          "Dallas Mavericks",
+          [
+            "/wiki/Dallas_Mavericks"
+          ]
+        ]
+      ],
+      [
+        [
+          2006,
+          []
+        ],
+        [
+          "Theo Papaloukas",
+          [
+            "/wiki/Theo_Papaloukas"
+          ]
+        ],
+        [
+          "CSKA Moscow",
+          [
+            "/wiki/PBC_CSKA_Moscow"
+          ]
+        ]
+      ],
+      [
+        [
+          2007,
+          []
+        ],
+        [
+          "Andrei Kirilenko",
+          [
+            "/wiki/Andrei_Kirilenko_(basketball)"
+          ]
+        ],
+        [
+          "Utah Jazz",
+          [
+            "/wiki/Utah_Jazz"
+          ]
+        ]
+      ],
+      [
+        [
+          2008,
+          []
+        ],
+        [
+          "Pau Gasol",
+          [
+            "/wiki/Pau_Gasol"
+          ]
+        ],
+        [
+          "Memphis Grizzlies & Los Angeles Lakers",
+          [
+            "/wiki/Memphis_Grizzlies",
+            "/wiki/Los_Angeles_Lakers"
+          ]
+        ]
+      ],
+      [
+        [
+          2009,
+          []
+        ],
+        [
+          "Pau Gasol ( 2x )",
+          [
+            "/wiki/Pau_Gasol"
+          ]
+        ],
+        [
+          "Los Angeles Lakers",
+          [
+            "/wiki/Los_Angeles_Lakers"
+          ]
+        ]
+      ],
+      [
+        [
+          2010,
+          []
+        ],
+        [
+          "Miloš Teodosić",
+          [
+            "/wiki/Miloš_Teodosić"
+          ]
+        ],
+        [
+          "Olympiacos",
+          [
+            "/wiki/Olympiacos_B.C."
+          ]
+        ]
+      ],
+      [
+        [
+          2011,
+          []
+        ],
+        [
+          "Dirk Nowitzki ( 2x )",
+          [
+            "/wiki/Dirk_Nowitzki"
+          ]
+        ],
+        [
+          "Dallas Mavericks",
+          [
+            "/wiki/Dallas_Mavericks"
+          ]
+        ]
+      ],
+      [
+        [
+          2012,
+          []
+        ],
+        [
+          "Andrei Kirilenko ( 2x )",
+          [
+            "/wiki/Andrei_Kirilenko_(basketball)"
+          ]
+        ],
+        [
+          "CSKA Moscow & Minnesota Timberwolves",
+          [
+            "/wiki/PBC_CSKA_Moscow",
+            "/wiki/Minnesota_Timberwolves"
+          ]
+        ]
+      ],
+      [
+        [
+          2013,
+          []
+        ],
+        [
+          "Tony Parker",
+          [
+            "/wiki/Tony_Parker"
+          ]
+        ],
+        [
+          "San Antonio Spurs",
+          [
+            "/wiki/San_Antonio_Spurs"
+          ]
+        ]
+      ],
+      [
+        [
+          2014,
+          []
+        ],
+        [
+          "Tony Parker ( 2x )",
+          [
+            "/wiki/Tony_Parker"
+          ]
+        ],
+        [
+          "San Antonio Spurs",
+          [
+            "/wiki/San_Antonio_Spurs"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the FIBA Europe Men's Player of the Year Award, listing the winners by year along with the clubs they were associated with. It serves as a record of notable players and their affiliations during the years they received the award.",
+  "numeric_columns": [
+    "Year"
+  ],
+  "categorical_columns": [
+    "Club ( s )"
+  ],
+  "entities": [
+    "Men 's Players of the Year"
+  ]
+}

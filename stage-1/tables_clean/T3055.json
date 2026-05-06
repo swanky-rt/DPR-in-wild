@@ -1,0 +1,535 @@
+{
+  "table_id": "T3055",
+  "uid": "b5610de9-c5d1-5688-af44-5ebeac24f85e",
+  "source": "HybridQA",
+  "source_table_id": "b5610de9-c5d1-5688-af44-5ebeac24f85e",
+  "domain": "HybridQA",
+  "title": "Macedonian First League (basketball)",
+  "columns": [
+    "Team",
+    "Home City",
+    "Arena",
+    "Coach"
+  ],
+  "rows": [
+    [
+      [
+        "Akademija FMP",
+        [
+          "/wiki/KK_Akademija_FMP"
+        ]
+      ],
+      [
+        "Skopje",
+        [
+          "/wiki/Skopje"
+        ]
+      ],
+      [
+        "Nezavisna Makedonija",
+        []
+      ],
+      [
+        "Igor Gacov",
+        []
+      ]
+    ],
+    [
+      [
+        "EuroNickel 2005",
+        [
+          "/wiki/KK_EuroNickel_2005"
+        ]
+      ],
+      [
+        "Kavadarci",
+        [
+          "/wiki/Kavadarci"
+        ]
+      ],
+      [
+        "Jasmin",
+        [
+          "/wiki/Jasmin_Sports_Hall"
+        ]
+      ],
+      [
+        "Goran Samardziev",
+        [
+          "/wiki/Goran_Samardziev"
+        ]
+      ]
+    ],
+    [
+      [
+        "Gostivar 2015",
+        [
+          "/wiki/KK_Gostivar"
+        ]
+      ],
+      [
+        "Gostivar",
+        [
+          "/wiki/Gostivar"
+        ]
+      ],
+      [
+        "Mladost Gostivar",
+        []
+      ],
+      [
+        "Marjan Srbinovski",
+        [
+          "/wiki/Marjan_Srbinovski"
+        ]
+      ]
+    ],
+    [
+      [
+        "Kožuv",
+        [
+          "/wiki/KK_Kozuv"
+        ]
+      ],
+      [
+        "Gevgelija",
+        [
+          "/wiki/Gevgelija"
+        ]
+      ],
+      [
+        "26-ti April",
+        []
+      ],
+      [
+        "Aleksandar Jončevski",
+        [
+          "/wiki/Aleksandar_Jončevski"
+        ]
+      ]
+    ],
+    [
+      [
+        "Kumanovo 2009",
+        [
+          "/wiki/KK_Kumanovo"
+        ]
+      ],
+      [
+        "Kumanovo",
+        [
+          "/wiki/Kumanovo"
+        ]
+      ],
+      [
+        "Sports Hall Kumanovo",
+        [
+          "/wiki/Sports_Hall_Kumanovo"
+        ]
+      ],
+      [
+        "Aleksandar Petrović",
+        [
+          "/wiki/Aleksandar_Petrović_(basketball_coach)"
+        ]
+      ]
+    ],
+    [
+      [
+        "MZT Skopje",
+        [
+          "/wiki/KK_MZT_Skopje"
+        ]
+      ],
+      [
+        "Skopje",
+        [
+          "/wiki/Skopje"
+        ]
+      ],
+      [
+        "Jane Sandanski Arena",
+        [
+          "/wiki/Jane_Sandanski_Arena"
+        ]
+      ],
+      [
+        "Gjorgji Kočov",
+        [
+          "/wiki/Gjorgji_Kočov"
+        ]
+      ]
+    ],
+    [
+      [
+        "MZT Skopje UNI Banka",
+        [
+          "/wiki/KK_MZT_Skopje_2"
+        ]
+      ],
+      [
+        "Skopje",
+        [
+          "/wiki/Skopje"
+        ]
+      ],
+      [
+        "Jane Sandanski Arena",
+        [
+          "/wiki/Jane_Sandanski_Arena"
+        ]
+      ],
+      [
+        "Goran Krstevski",
+        []
+      ]
+    ],
+    [
+      [
+        "Pelister",
+        [
+          "/wiki/KK_Pelister"
+        ]
+      ],
+      [
+        "Bitola",
+        [
+          "/wiki/Bitola"
+        ]
+      ],
+      [
+        "Sports Hall Mladost",
+        [
+          "/wiki/Sports_Hall_Mladost"
+        ]
+      ],
+      [
+        "Zoran Todorović",
+        [
+          "/wiki/Zoran_Todorović"
+        ]
+      ]
+    ],
+    [
+      [
+        "Rabotnički",
+        [
+          "/wiki/KK_Rabotnički"
+        ]
+      ],
+      [
+        "Skopje",
+        [
+          "/wiki/Skopje"
+        ]
+      ],
+      [
+        "Gradski Park",
+        []
+      ],
+      [
+        "Dimitar Mirakovski",
+        [
+          "/wiki/Dimitar_Mirakovski"
+        ]
+      ]
+    ],
+    [
+      [
+        "Vardar",
+        [
+          "/wiki/KK_Vardar"
+        ]
+      ],
+      [
+        "Skopje",
+        [
+          "/wiki/Skopje"
+        ]
+      ],
+      [
+        "Kale",
+        []
+      ],
+      [
+        "Darko Radulović",
+        [
+          "/wiki/Darko_Radulović"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "b5610de9-c5d1-5688-af44-5ebeac24f85e",
+    "table_id": "Macedonian_First_League_(basketball)_0",
+    "title": "Macedonian First League (basketball)",
+    "header": [
+      "Team",
+      "Home City",
+      "Arena",
+      "Coach"
+    ],
+    "value": [
+      [
+        [
+          "Akademija FMP",
+          [
+            "/wiki/KK_Akademija_FMP"
+          ]
+        ],
+        [
+          "Skopje",
+          [
+            "/wiki/Skopje"
+          ]
+        ],
+        [
+          "Nezavisna Makedonija",
+          []
+        ],
+        [
+          "Igor Gacov",
+          []
+        ]
+      ],
+      [
+        [
+          "EuroNickel 2005",
+          [
+            "/wiki/KK_EuroNickel_2005"
+          ]
+        ],
+        [
+          "Kavadarci",
+          [
+            "/wiki/Kavadarci"
+          ]
+        ],
+        [
+          "Jasmin",
+          [
+            "/wiki/Jasmin_Sports_Hall"
+          ]
+        ],
+        [
+          "Goran Samardziev",
+          [
+            "/wiki/Goran_Samardziev"
+          ]
+        ]
+      ],
+      [
+        [
+          "Gostivar 2015",
+          [
+            "/wiki/KK_Gostivar"
+          ]
+        ],
+        [
+          "Gostivar",
+          [
+            "/wiki/Gostivar"
+          ]
+        ],
+        [
+          "Mladost Gostivar",
+          []
+        ],
+        [
+          "Marjan Srbinovski",
+          [
+            "/wiki/Marjan_Srbinovski"
+          ]
+        ]
+      ],
+      [
+        [
+          "Kožuv",
+          [
+            "/wiki/KK_Kozuv"
+          ]
+        ],
+        [
+          "Gevgelija",
+          [
+            "/wiki/Gevgelija"
+          ]
+        ],
+        [
+          "26-ti April",
+          []
+        ],
+        [
+          "Aleksandar Jončevski",
+          [
+            "/wiki/Aleksandar_Jončevski"
+          ]
+        ]
+      ],
+      [
+        [
+          "Kumanovo 2009",
+          [
+            "/wiki/KK_Kumanovo"
+          ]
+        ],
+        [
+          "Kumanovo",
+          [
+            "/wiki/Kumanovo"
+          ]
+        ],
+        [
+          "Sports Hall Kumanovo",
+          [
+            "/wiki/Sports_Hall_Kumanovo"
+          ]
+        ],
+        [
+          "Aleksandar Petrović",
+          [
+            "/wiki/Aleksandar_Petrović_(basketball_coach)"
+          ]
+        ]
+      ],
+      [
+        [
+          "MZT Skopje",
+          [
+            "/wiki/KK_MZT_Skopje"
+          ]
+        ],
+        [
+          "Skopje",
+          [
+            "/wiki/Skopje"
+          ]
+        ],
+        [
+          "Jane Sandanski Arena",
+          [
+            "/wiki/Jane_Sandanski_Arena"
+          ]
+        ],
+        [
+          "Gjorgji Kočov",
+          [
+            "/wiki/Gjorgji_Kočov"
+          ]
+        ]
+      ],
+      [
+        [
+          "MZT Skopje UNI Banka",
+          [
+            "/wiki/KK_MZT_Skopje_2"
+          ]
+        ],
+        [
+          "Skopje",
+          [
+            "/wiki/Skopje"
+          ]
+        ],
+        [
+          "Jane Sandanski Arena",
+          [
+            "/wiki/Jane_Sandanski_Arena"
+          ]
+        ],
+        [
+          "Goran Krstevski",
+          []
+        ]
+      ],
+      [
+        [
+          "Pelister",
+          [
+            "/wiki/KK_Pelister"
+          ]
+        ],
+        [
+          "Bitola",
+          [
+            "/wiki/Bitola"
+          ]
+        ],
+        [
+          "Sports Hall Mladost",
+          [
+            "/wiki/Sports_Hall_Mladost"
+          ]
+        ],
+        [
+          "Zoran Todorović",
+          [
+            "/wiki/Zoran_Todorović"
+          ]
+        ]
+      ],
+      [
+        [
+          "Rabotnički",
+          [
+            "/wiki/KK_Rabotnički"
+          ]
+        ],
+        [
+          "Skopje",
+          [
+            "/wiki/Skopje"
+          ]
+        ],
+        [
+          "Gradski Park",
+          []
+        ],
+        [
+          "Dimitar Mirakovski",
+          [
+            "/wiki/Dimitar_Mirakovski"
+          ]
+        ]
+      ],
+      [
+        [
+          "Vardar",
+          [
+            "/wiki/KK_Vardar"
+          ]
+        ],
+        [
+          "Skopje",
+          [
+            "/wiki/Skopje"
+          ]
+        ],
+        [
+          "Kale",
+          []
+        ],
+        [
+          "Darko Radulović",
+          [
+            "/wiki/Darko_Radulović"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about teams in the Macedonian First League of basketball, including their home cities, arenas, and coaches. It is designed to give an overview of key organizational and geographical details related to the league's teams.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Team",
+    "Home City",
+    "Arena",
+    "Coach"
+  ],
+  "entities": [
+    "Team",
+    "Home City",
+    "Arena",
+    "Coach"
+  ]
+}

@@ -1,0 +1,579 @@
+{
+  "table_id": "T1021",
+  "uid": "ea8ed467-32f9-584d-9537-a08255a21716",
+  "source": "HybridQA",
+  "source_table_id": "ea8ed467-32f9-584d-9537-a08255a21716",
+  "domain": "HybridQA",
+  "title": "Gold Coast Sports Precinct",
+  "columns": [
+    "Team",
+    "Sport",
+    "Used",
+    "Competition",
+    "Years"
+  ],
+  "rows": [
+    [
+      [
+        "Brisbane Bears",
+        [
+          "/wiki/Brisbane_Bears"
+        ]
+      ],
+      [
+        "Australian rules football",
+        [
+          "/wiki/Australian_rules_football"
+        ]
+      ],
+      [
+        "Carrara Stadium",
+        [
+          "/wiki/Carrara_Stadium"
+        ]
+      ],
+      [
+        "Australian Football League",
+        [
+          "/wiki/Australian_Football_League"
+        ]
+      ],
+      [
+        "1987-92",
+        []
+      ]
+    ],
+    [
+      [
+        "Gold Coast Clippers",
+        [
+          "/wiki/Gold_Coast_Clippers"
+        ]
+      ],
+      [
+        "Baseball",
+        [
+          "/wiki/Baseball"
+        ]
+      ],
+      [
+        "Carrara Stadium",
+        []
+      ],
+      [
+        "Australian Baseball League",
+        [
+          "/wiki/Australian_Baseball_League_(1989-1999)"
+        ]
+      ],
+      [
+        "1989-90",
+        []
+      ]
+    ],
+    [
+      [
+        "Gold Coast Rollers",
+        [
+          "/wiki/Gold_Coast_Rollers_(NBL)"
+        ]
+      ],
+      [
+        "Basketball",
+        [
+          "/wiki/Basketball"
+        ]
+      ],
+      [
+        "Carrara Indoor Stadium",
+        [
+          "/wiki/Carrara_Indoor_Stadium"
+        ]
+      ],
+      [
+        "National Basketball League",
+        [
+          "/wiki/National_Basketball_League_(Australia)"
+        ]
+      ],
+      [
+        "1990-96",
+        []
+      ]
+    ],
+    [
+      [
+        "Daikyo Dolphins",
+        [
+          "/wiki/Daikyo_Dolphins"
+        ]
+      ],
+      [
+        "Baseball",
+        []
+      ],
+      [
+        "Carrara Stadium",
+        []
+      ],
+      [
+        "Australian Baseball League",
+        []
+      ],
+      [
+        "1992-93",
+        []
+      ]
+    ],
+    [
+      [
+        "Gold Coast Cougars",
+        [
+          "/wiki/Gold_Coast_Cougars"
+        ]
+      ],
+      [
+        "Baseball",
+        []
+      ],
+      [
+        "Carrara Stadium",
+        []
+      ],
+      [
+        "Australian Baseball League",
+        []
+      ],
+      [
+        "1993-99",
+        []
+      ]
+    ],
+    [
+      [
+        "Gold Coast Chargers",
+        [
+          "/wiki/Gold_Coast_Chargers"
+        ]
+      ],
+      [
+        "Rugby league",
+        [
+          "/wiki/Rugby_league"
+        ]
+      ],
+      [
+        "Carrara Stadium",
+        []
+      ],
+      [
+        "National Rugby League",
+        [
+          "/wiki/National_Rugby_League"
+        ]
+      ],
+      [
+        "1996-98",
+        []
+      ]
+    ],
+    [
+      [
+        "Gold Coast Titans",
+        [
+          "/wiki/Gold_Coast_Titans"
+        ]
+      ],
+      [
+        "Rugby league",
+        []
+      ],
+      [
+        "Carrara Stadium",
+        []
+      ],
+      [
+        "National Rugby League",
+        []
+      ],
+      [
+        2007,
+        []
+      ]
+    ],
+    [
+      [
+        "East Coast Aces",
+        [
+          "/wiki/East_Coast_Aces"
+        ]
+      ],
+      [
+        "Rugby union",
+        [
+          "/wiki/Rugby_union"
+        ]
+      ],
+      [
+        "Carrara Stadium",
+        []
+      ],
+      [
+        "Australian Rugby Championship",
+        [
+          "/wiki/Australian_Rugby_Championship"
+        ]
+      ],
+      [
+        2007,
+        []
+      ]
+    ],
+    [
+      [
+        "Gold Coast Blaze",
+        [
+          "/wiki/Gold_Coast_Blaze"
+        ]
+      ],
+      [
+        "Basketball",
+        []
+      ],
+      [
+        "Carrara Indoor Stadium ( training )",
+        []
+      ],
+      [
+        "National Basketball League",
+        []
+      ],
+      [
+        "2007-12",
+        []
+      ]
+    ],
+    [
+      [
+        "Gold Coast United",
+        [
+          "/wiki/Gold_Coast_United"
+        ]
+      ],
+      [
+        "Soccer",
+        [
+          "/wiki/Soccer"
+        ]
+      ],
+      [
+        "Western Fields ( training )",
+        []
+      ],
+      [
+        "A-League",
+        [
+          "/wiki/A-League"
+        ]
+      ],
+      [
+        "2011-12",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "ea8ed467-32f9-584d-9537-a08255a21716",
+    "table_id": "Gold_Coast_Sports_and_Entertainment_Precinct_0",
+    "title": "Gold Coast Sports Precinct",
+    "header": [
+      "Team",
+      "Sport",
+      "Used",
+      "Competition",
+      "Years"
+    ],
+    "value": [
+      [
+        [
+          "Brisbane Bears",
+          [
+            "/wiki/Brisbane_Bears"
+          ]
+        ],
+        [
+          "Australian rules football",
+          [
+            "/wiki/Australian_rules_football"
+          ]
+        ],
+        [
+          "Carrara Stadium",
+          [
+            "/wiki/Carrara_Stadium"
+          ]
+        ],
+        [
+          "Australian Football League",
+          [
+            "/wiki/Australian_Football_League"
+          ]
+        ],
+        [
+          "1987-92",
+          []
+        ]
+      ],
+      [
+        [
+          "Gold Coast Clippers",
+          [
+            "/wiki/Gold_Coast_Clippers"
+          ]
+        ],
+        [
+          "Baseball",
+          [
+            "/wiki/Baseball"
+          ]
+        ],
+        [
+          "Carrara Stadium",
+          []
+        ],
+        [
+          "Australian Baseball League",
+          [
+            "/wiki/Australian_Baseball_League_(1989-1999)"
+          ]
+        ],
+        [
+          "1989-90",
+          []
+        ]
+      ],
+      [
+        [
+          "Gold Coast Rollers",
+          [
+            "/wiki/Gold_Coast_Rollers_(NBL)"
+          ]
+        ],
+        [
+          "Basketball",
+          [
+            "/wiki/Basketball"
+          ]
+        ],
+        [
+          "Carrara Indoor Stadium",
+          [
+            "/wiki/Carrara_Indoor_Stadium"
+          ]
+        ],
+        [
+          "National Basketball League",
+          [
+            "/wiki/National_Basketball_League_(Australia)"
+          ]
+        ],
+        [
+          "1990-96",
+          []
+        ]
+      ],
+      [
+        [
+          "Daikyo Dolphins",
+          [
+            "/wiki/Daikyo_Dolphins"
+          ]
+        ],
+        [
+          "Baseball",
+          []
+        ],
+        [
+          "Carrara Stadium",
+          []
+        ],
+        [
+          "Australian Baseball League",
+          []
+        ],
+        [
+          "1992-93",
+          []
+        ]
+      ],
+      [
+        [
+          "Gold Coast Cougars",
+          [
+            "/wiki/Gold_Coast_Cougars"
+          ]
+        ],
+        [
+          "Baseball",
+          []
+        ],
+        [
+          "Carrara Stadium",
+          []
+        ],
+        [
+          "Australian Baseball League",
+          []
+        ],
+        [
+          "1993-99",
+          []
+        ]
+      ],
+      [
+        [
+          "Gold Coast Chargers",
+          [
+            "/wiki/Gold_Coast_Chargers"
+          ]
+        ],
+        [
+          "Rugby league",
+          [
+            "/wiki/Rugby_league"
+          ]
+        ],
+        [
+          "Carrara Stadium",
+          []
+        ],
+        [
+          "National Rugby League",
+          [
+            "/wiki/National_Rugby_League"
+          ]
+        ],
+        [
+          "1996-98",
+          []
+        ]
+      ],
+      [
+        [
+          "Gold Coast Titans",
+          [
+            "/wiki/Gold_Coast_Titans"
+          ]
+        ],
+        [
+          "Rugby league",
+          []
+        ],
+        [
+          "Carrara Stadium",
+          []
+        ],
+        [
+          "National Rugby League",
+          []
+        ],
+        [
+          2007,
+          []
+        ]
+      ],
+      [
+        [
+          "East Coast Aces",
+          [
+            "/wiki/East_Coast_Aces"
+          ]
+        ],
+        [
+          "Rugby union",
+          [
+            "/wiki/Rugby_union"
+          ]
+        ],
+        [
+          "Carrara Stadium",
+          []
+        ],
+        [
+          "Australian Rugby Championship",
+          [
+            "/wiki/Australian_Rugby_Championship"
+          ]
+        ],
+        [
+          2007,
+          []
+        ]
+      ],
+      [
+        [
+          "Gold Coast Blaze",
+          [
+            "/wiki/Gold_Coast_Blaze"
+          ]
+        ],
+        [
+          "Basketball",
+          []
+        ],
+        [
+          "Carrara Indoor Stadium ( training )",
+          []
+        ],
+        [
+          "National Basketball League",
+          []
+        ],
+        [
+          "2007-12",
+          []
+        ]
+      ],
+      [
+        [
+          "Gold Coast United",
+          [
+            "/wiki/Gold_Coast_United"
+          ]
+        ],
+        [
+          "Soccer",
+          [
+            "/wiki/Soccer"
+          ]
+        ],
+        [
+          "Western Fields ( training )",
+          []
+        ],
+        [
+          "A-League",
+          [
+            "/wiki/A-League"
+          ]
+        ],
+        [
+          "2011-12",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of teams, sports, venues, competitions, and time periods associated with the Gold Coast Sports Precinct. It serves as a record of historical and organizational information related to sports activities and events in the region.",
+  "numeric_columns": [
+    "Years"
+  ],
+  "categorical_columns": [
+    "Sport",
+    "Competition"
+  ],
+  "entities": [
+    "Team",
+    "Used"
+  ]
+}

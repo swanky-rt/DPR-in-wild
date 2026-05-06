@@ -1,0 +1,543 @@
+{
+  "table_id": "T2250",
+  "uid": "6e6933de-e25d-5aa0-b24b-3d7f2c9d7b0e",
+  "source": "HybridQA",
+  "source_table_id": "6e6933de-e25d-5aa0-b24b-3d7f2c9d7b0e",
+  "domain": "HybridQA",
+  "title": "Belarusian Men's Handball Championship",
+  "columns": [
+    "Team",
+    "City",
+    "Arena",
+    "Address"
+  ],
+  "rows": [
+    [
+      [
+        "Meshkov Brest",
+        [
+          "/wiki/HC_Meshkov_Brest"
+        ]
+      ],
+      [
+        "Brest",
+        [
+          "/wiki/Brest,_Belarus"
+        ]
+      ],
+      [
+        "Universal Sports Complex Victoria",
+        []
+      ],
+      [
+        "Brest , Leningradskaya str. , 4",
+        []
+      ]
+    ],
+    [
+      [
+        "SKA Minsk",
+        [
+          "/wiki/SKA_Minsk"
+        ]
+      ],
+      [
+        "Minsk",
+        [
+          "/wiki/Minsk"
+        ]
+      ],
+      [
+        "Sports Palace Uruchje",
+        []
+      ],
+      [
+        "Minsk , Independence av. , 196",
+        []
+      ]
+    ],
+    [
+      [
+        "GK Gomel",
+        [
+          "/wiki/HC_Gomel"
+        ]
+      ],
+      [
+        "Gomel",
+        [
+          "/wiki/Gomel"
+        ]
+      ],
+      [
+        "GRCOR for game 's types of sports",
+        []
+      ],
+      [
+        "Gomel , Irininskaya st. , 16-2",
+        []
+      ]
+    ],
+    [
+      [
+        "Kronon Grodno",
+        []
+      ],
+      [
+        "Grodno",
+        [
+          "/wiki/Grodno"
+        ]
+      ],
+      [
+        "Sports Complex Victoria",
+        []
+      ],
+      [
+        "Grodno , Gagarina str. , 18/1",
+        []
+      ]
+    ],
+    [
+      [
+        "Masheka Mogilev",
+        []
+      ],
+      [
+        "Mogilev",
+        [
+          "/wiki/Mogilev"
+        ]
+      ],
+      [
+        "SC Olympian",
+        []
+      ],
+      [
+        "Mogilev , 30 years of Victory str. , 1a",
+        []
+      ]
+    ],
+    [
+      [
+        "BSUFC-SKA",
+        []
+      ],
+      [
+        "Minsk",
+        [
+          "/wiki/Minsk"
+        ]
+      ],
+      [
+        "RCOR",
+        []
+      ],
+      [
+        "Minsk , Filimonova str. , 55/2",
+        []
+      ]
+    ],
+    [
+      [
+        "Meshkov Brest 2",
+        [
+          "/wiki/HC_Meshkov_Brest"
+        ]
+      ],
+      [
+        "Brest",
+        [
+          "/wiki/Brest,_Belarus"
+        ]
+      ],
+      [
+        "Universal Sports Complex Victoria",
+        []
+      ],
+      [
+        "Brest , Leningradskaya str. , 4",
+        []
+      ]
+    ],
+    [
+      [
+        "RCOR",
+        [
+          "/wiki/RCOR"
+        ]
+      ],
+      [
+        "Minsk",
+        [
+          "/wiki/Minsk"
+        ]
+      ],
+      [
+        "RCOR",
+        []
+      ],
+      [
+        "Minsk , Filimonova str. , 55/2",
+        []
+      ]
+    ],
+    [
+      [
+        "Belarus-2002",
+        []
+      ],
+      [
+        "Minsk",
+        [
+          "/wiki/Minsk"
+        ]
+      ],
+      [
+        "Sports Palace Uruchje",
+        []
+      ],
+      [
+        "Minsk , Independence av. , 196",
+        []
+      ]
+    ],
+    [
+      [
+        "Kronon Grodno 2",
+        []
+      ],
+      [
+        "Grodno",
+        [
+          "/wiki/Grodno"
+        ]
+      ],
+      [
+        "Sports Complex Victoria",
+        []
+      ],
+      [
+        "Grodno , Gagarina str. , 18/1",
+        []
+      ]
+    ],
+    [
+      [
+        "Masheka Mogilev 2",
+        []
+      ],
+      [
+        "Mogilev",
+        [
+          "/wiki/Mogilev"
+        ]
+      ],
+      [
+        "SC Olympian",
+        []
+      ],
+      [
+        "Mogilev , 30 years of Victory str. , 1a",
+        []
+      ]
+    ],
+    [
+      [
+        "Vityaz Minsk",
+        []
+      ],
+      [
+        "Minsk",
+        [
+          "/wiki/Minsk"
+        ]
+      ],
+      [
+        "RCOR",
+        []
+      ],
+      [
+        "Minsk , Filimonova str. , 55/2",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "6e6933de-e25d-5aa0-b24b-3d7f2c9d7b0e",
+    "table_id": "Belarusian_Men's_Handball_Championship_0",
+    "title": "Belarusian Men's Handball Championship",
+    "header": [
+      "Team",
+      "City",
+      "Arena",
+      "Address"
+    ],
+    "value": [
+      [
+        [
+          "Meshkov Brest",
+          [
+            "/wiki/HC_Meshkov_Brest"
+          ]
+        ],
+        [
+          "Brest",
+          [
+            "/wiki/Brest,_Belarus"
+          ]
+        ],
+        [
+          "Universal Sports Complex Victoria",
+          []
+        ],
+        [
+          "Brest , Leningradskaya str. , 4",
+          []
+        ]
+      ],
+      [
+        [
+          "SKA Minsk",
+          [
+            "/wiki/SKA_Minsk"
+          ]
+        ],
+        [
+          "Minsk",
+          [
+            "/wiki/Minsk"
+          ]
+        ],
+        [
+          "Sports Palace Uruchje",
+          []
+        ],
+        [
+          "Minsk , Independence av. , 196",
+          []
+        ]
+      ],
+      [
+        [
+          "GK Gomel",
+          [
+            "/wiki/HC_Gomel"
+          ]
+        ],
+        [
+          "Gomel",
+          [
+            "/wiki/Gomel"
+          ]
+        ],
+        [
+          "GRCOR for game 's types of sports",
+          []
+        ],
+        [
+          "Gomel , Irininskaya st. , 16-2",
+          []
+        ]
+      ],
+      [
+        [
+          "Kronon Grodno",
+          []
+        ],
+        [
+          "Grodno",
+          [
+            "/wiki/Grodno"
+          ]
+        ],
+        [
+          "Sports Complex Victoria",
+          []
+        ],
+        [
+          "Grodno , Gagarina str. , 18/1",
+          []
+        ]
+      ],
+      [
+        [
+          "Masheka Mogilev",
+          []
+        ],
+        [
+          "Mogilev",
+          [
+            "/wiki/Mogilev"
+          ]
+        ],
+        [
+          "SC Olympian",
+          []
+        ],
+        [
+          "Mogilev , 30 years of Victory str. , 1a",
+          []
+        ]
+      ],
+      [
+        [
+          "BSUFC-SKA",
+          []
+        ],
+        [
+          "Minsk",
+          [
+            "/wiki/Minsk"
+          ]
+        ],
+        [
+          "RCOR",
+          []
+        ],
+        [
+          "Minsk , Filimonova str. , 55/2",
+          []
+        ]
+      ],
+      [
+        [
+          "Meshkov Brest 2",
+          [
+            "/wiki/HC_Meshkov_Brest"
+          ]
+        ],
+        [
+          "Brest",
+          [
+            "/wiki/Brest,_Belarus"
+          ]
+        ],
+        [
+          "Universal Sports Complex Victoria",
+          []
+        ],
+        [
+          "Brest , Leningradskaya str. , 4",
+          []
+        ]
+      ],
+      [
+        [
+          "RCOR",
+          [
+            "/wiki/RCOR"
+          ]
+        ],
+        [
+          "Minsk",
+          [
+            "/wiki/Minsk"
+          ]
+        ],
+        [
+          "RCOR",
+          []
+        ],
+        [
+          "Minsk , Filimonova str. , 55/2",
+          []
+        ]
+      ],
+      [
+        [
+          "Belarus-2002",
+          []
+        ],
+        [
+          "Minsk",
+          [
+            "/wiki/Minsk"
+          ]
+        ],
+        [
+          "Sports Palace Uruchje",
+          []
+        ],
+        [
+          "Minsk , Independence av. , 196",
+          []
+        ]
+      ],
+      [
+        [
+          "Kronon Grodno 2",
+          []
+        ],
+        [
+          "Grodno",
+          [
+            "/wiki/Grodno"
+          ]
+        ],
+        [
+          "Sports Complex Victoria",
+          []
+        ],
+        [
+          "Grodno , Gagarina str. , 18/1",
+          []
+        ]
+      ],
+      [
+        [
+          "Masheka Mogilev 2",
+          []
+        ],
+        [
+          "Mogilev",
+          [
+            "/wiki/Mogilev"
+          ]
+        ],
+        [
+          "SC Olympian",
+          []
+        ],
+        [
+          "Mogilev , 30 years of Victory str. , 1a",
+          []
+        ]
+      ],
+      [
+        [
+          "Vityaz Minsk",
+          []
+        ],
+        [
+          "Minsk",
+          [
+            "/wiki/Minsk"
+          ]
+        ],
+        [
+          "RCOR",
+          []
+        ],
+        [
+          "Minsk , Filimonova str. , 55/2",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about teams participating in the Belarusian Men's Handball Championship, including their associated cities, arenas, and addresses. It is designed to give an overview of the organizational and geographical details of the teams in the championship.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Team",
+    "City",
+    "Arena",
+    "Address"
+  ],
+  "entities": [
+    "Team",
+    "City",
+    "Arena",
+    "Address"
+  ]
+}

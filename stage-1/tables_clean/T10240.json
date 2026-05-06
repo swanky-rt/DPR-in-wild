@@ -1,0 +1,293 @@
+{
+  "table_id": "T10240",
+  "uid": "3bd98257-95dc-5e73-b2c6-b29cb4719970",
+  "source": "HybridQA",
+  "source_table_id": "3bd98257-95dc-5e73-b2c6-b29cb4719970",
+  "domain": "HybridQA",
+  "title": "1999 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Li Xiaopeng ( CHN )",
+        [
+          "/wiki/Li_Xiaopeng_(gymnast)"
+        ]
+      ],
+      [
+        9.668,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Jevgēņijs Saproņenko ( LAT )",
+        [
+          "/wiki/Jevgēņijs_Saproņenko"
+        ]
+      ],
+      [
+        9.656,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Dieter Rehm ( SUI )",
+        [
+          "/wiki/Dieter_Rehm"
+        ]
+      ],
+      [
+        9.486,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Marian Dragulescu ( ROU )",
+        [
+          "/wiki/Marian_Dragulescu"
+        ]
+      ],
+      [
+        9.174,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Sergei Fedorchenko ( KAZ )",
+        [
+          "/wiki/Sergei_Fedorchenko"
+        ]
+      ],
+      [
+        9.043,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Rene Tschernitschek ( GER )",
+        [
+          "/wiki/Rene_Tschernitschek"
+        ]
+      ],
+      [
+        8.925,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Ioannis Melissanidis ( GRE )",
+        [
+          "/wiki/Ioannis_Melissanidis"
+        ]
+      ],
+      [
+        8.606,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Yang Wei ( CHN )",
+        [
+          "/wiki/Yang_Wei_(gymnast)"
+        ]
+      ],
+      [
+        8.281,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "3bd98257-95dc-5e73-b2c6-b29cb4719970",
+    "table_id": "1999_World_Artistic_Gymnastics_Championships_4",
+    "title": "1999 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Li Xiaopeng ( CHN )",
+          [
+            "/wiki/Li_Xiaopeng_(gymnast)"
+          ]
+        ],
+        [
+          9.668,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Jevgēņijs Saproņenko ( LAT )",
+          [
+            "/wiki/Jevgēņijs_Saproņenko"
+          ]
+        ],
+        [
+          9.656,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Dieter Rehm ( SUI )",
+          [
+            "/wiki/Dieter_Rehm"
+          ]
+        ],
+        [
+          9.486,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Marian Dragulescu ( ROU )",
+          [
+            "/wiki/Marian_Dragulescu"
+          ]
+        ],
+        [
+          9.174,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Sergei Fedorchenko ( KAZ )",
+          [
+            "/wiki/Sergei_Fedorchenko"
+          ]
+        ],
+        [
+          9.043,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Rene Tschernitschek ( GER )",
+          [
+            "/wiki/Rene_Tschernitschek"
+          ]
+        ],
+        [
+          8.925,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Ioannis Melissanidis ( GRE )",
+          [
+            "/wiki/Ioannis_Melissanidis"
+          ]
+        ],
+        [
+          8.606,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Yang Wei ( CHN )",
+          [
+            "/wiki/Yang_Wei_(gymnast)"
+          ]
+        ],
+        [
+          8.281,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the rankings and scores of gymnasts at the 1999 World Artistic Gymnastics Championships. It includes details about the rank, the names of the gymnasts, and their total scores. The purpose is to present the performance outcomes of the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

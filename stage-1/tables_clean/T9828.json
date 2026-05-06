@@ -1,0 +1,399 @@
+{
+  "table_id": "T9828",
+  "uid": "b8259afb-45e4-5d69-8cf3-dc183115523a",
+  "source": "HybridQA",
+  "source_table_id": "b8259afb-45e4-5d69-8cf3-dc183115523a",
+  "domain": "HybridQA",
+  "title": "List of Spanish dishes",
+  "columns": [
+    "Name",
+    "Region",
+    "Type",
+    "Description"
+  ],
+  "rows": [
+    [
+      [
+        "Pincho pintxo",
+        [
+          "/wiki/Pincho"
+        ]
+      ],
+      [
+        "Basque Country and Navarre",
+        [
+          "/wiki/Basque_cuisine"
+        ]
+      ],
+      [
+        "appetizer",
+        []
+      ],
+      [
+        "a small slice of bread upon which an ingredient or mixture of ingredients is put and held there using a stick . The common ingredients are fish such as hake , cod , anchovy , and baby eels ; tortilla de patatas ; stuffed peppers ; and croquettes",
+        []
+      ]
+    ],
+    [
+      [
+        "Pa amb tomàquet",
+        [
+          "/wiki/Pa_amb_tomàquet"
+        ]
+      ],
+      [
+        "Catalonia",
+        [
+          "/wiki/Catalan_cuisine"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "bread with tomato",
+        []
+      ]
+    ],
+    [
+      [
+        "Coca",
+        [
+          "/wiki/Coca_(pastry)"
+        ]
+      ],
+      [
+        "Mediterranean cuisine",
+        [
+          "/wiki/Mediterranean_cuisine"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "a savory or sweet pastry with toppings . Savory coca could be considered a twin sister to the Italian pizza",
+        []
+      ]
+    ],
+    [
+      [
+        "Empanada",
+        [
+          "/wiki/Empanada"
+        ]
+      ],
+      [
+        "Galicia",
+        [
+          "/wiki/Galician_cuisine"
+        ]
+      ],
+      [
+        "bread or pastry",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Hornazo",
+        [
+          "/wiki/Hornazo"
+        ]
+      ],
+      [
+        "Castile and León",
+        [
+          "/wiki/Castilian-Leonese_cuisine"
+        ]
+      ],
+      [
+        "pie or bread",
+        []
+      ],
+      [
+        "a meat pie or bread made with flour and yeast and stuffed with pork loin , spicy chorizo sausage and hard-boiled eggs . In Salamanca , it is traditionally eaten in the field during the Monday of the Waters ( Lunes de Aguas ) festival",
+        []
+      ]
+    ],
+    [
+      [
+        "Mollete",
+        [
+          "/wiki/Mollete"
+        ]
+      ],
+      [
+        "Andalusia",
+        [
+          "/wiki/Andalusian_cuisine"
+        ]
+      ],
+      [
+        "bread",
+        []
+      ],
+      [
+        "a kind of bread",
+        []
+      ]
+    ],
+    [
+      [
+        "Polvorón",
+        [
+          "/wiki/Polvorón"
+        ]
+      ],
+      [
+        "Andalusia , Valladolid ( Castilla y León )",
+        [
+          "/wiki/Andalusian_cuisine",
+          "/wiki/Cuisine_of_the_province_of_Valladolid",
+          "/wiki/Castilian-Leonese_cuisine"
+        ]
+      ],
+      [
+        "bread",
+        []
+      ],
+      [
+        "a type of Andalusian shortbread of Levantine origin that is made of flour , sugar , pig fat , almonds and cinnamon",
+        [
+          "/wiki/Shortbread"
+        ]
+      ]
+    ],
+    [
+      [
+        "Talau",
+        [
+          "/wiki/Talau"
+        ]
+      ],
+      [
+        "Basque",
+        [
+          "/wiki/Basque_cuisine"
+        ]
+      ],
+      [
+        "bread",
+        []
+      ],
+      [
+        "a Basque fried bread from the Pyrenees . It is made with regular wheat flour , water , oil or fat , salt and yeast . They are traditionally served with a fried egg",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "b8259afb-45e4-5d69-8cf3-dc183115523a",
+    "table_id": "List_of_Spanish_dishes_1",
+    "title": "List of Spanish dishes",
+    "header": [
+      "Name",
+      "Region",
+      "Type",
+      "Description"
+    ],
+    "value": [
+      [
+        [
+          "Pincho pintxo",
+          [
+            "/wiki/Pincho"
+          ]
+        ],
+        [
+          "Basque Country and Navarre",
+          [
+            "/wiki/Basque_cuisine"
+          ]
+        ],
+        [
+          "appetizer",
+          []
+        ],
+        [
+          "a small slice of bread upon which an ingredient or mixture of ingredients is put and held there using a stick . The common ingredients are fish such as hake , cod , anchovy , and baby eels ; tortilla de patatas ; stuffed peppers ; and croquettes",
+          []
+        ]
+      ],
+      [
+        [
+          "Pa amb tomàquet",
+          [
+            "/wiki/Pa_amb_tomàquet"
+          ]
+        ],
+        [
+          "Catalonia",
+          [
+            "/wiki/Catalan_cuisine"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "bread with tomato",
+          []
+        ]
+      ],
+      [
+        [
+          "Coca",
+          [
+            "/wiki/Coca_(pastry)"
+          ]
+        ],
+        [
+          "Mediterranean cuisine",
+          [
+            "/wiki/Mediterranean_cuisine"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "a savory or sweet pastry with toppings . Savory coca could be considered a twin sister to the Italian pizza",
+          []
+        ]
+      ],
+      [
+        [
+          "Empanada",
+          [
+            "/wiki/Empanada"
+          ]
+        ],
+        [
+          "Galicia",
+          [
+            "/wiki/Galician_cuisine"
+          ]
+        ],
+        [
+          "bread or pastry",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Hornazo",
+          [
+            "/wiki/Hornazo"
+          ]
+        ],
+        [
+          "Castile and León",
+          [
+            "/wiki/Castilian-Leonese_cuisine"
+          ]
+        ],
+        [
+          "pie or bread",
+          []
+        ],
+        [
+          "a meat pie or bread made with flour and yeast and stuffed with pork loin , spicy chorizo sausage and hard-boiled eggs . In Salamanca , it is traditionally eaten in the field during the Monday of the Waters ( Lunes de Aguas ) festival",
+          []
+        ]
+      ],
+      [
+        [
+          "Mollete",
+          [
+            "/wiki/Mollete"
+          ]
+        ],
+        [
+          "Andalusia",
+          [
+            "/wiki/Andalusian_cuisine"
+          ]
+        ],
+        [
+          "bread",
+          []
+        ],
+        [
+          "a kind of bread",
+          []
+        ]
+      ],
+      [
+        [
+          "Polvorón",
+          [
+            "/wiki/Polvorón"
+          ]
+        ],
+        [
+          "Andalusia , Valladolid ( Castilla y León )",
+          [
+            "/wiki/Andalusian_cuisine",
+            "/wiki/Cuisine_of_the_province_of_Valladolid",
+            "/wiki/Castilian-Leonese_cuisine"
+          ]
+        ],
+        [
+          "bread",
+          []
+        ],
+        [
+          "a type of Andalusian shortbread of Levantine origin that is made of flour , sugar , pig fat , almonds and cinnamon",
+          [
+            "/wiki/Shortbread"
+          ]
+        ]
+      ],
+      [
+        [
+          "Talau",
+          [
+            "/wiki/Talau"
+          ]
+        ],
+        [
+          "Basque",
+          [
+            "/wiki/Basque_cuisine"
+          ]
+        ],
+        [
+          "bread",
+          []
+        ],
+        [
+          "a Basque fried bread from the Pyrenees . It is made with regular wheat flour , water , oil or fat , salt and yeast . They are traditionally served with a fried egg",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a list of Spanish dishes, detailing their names, regions of origin, types, and descriptions. It serves as a reference for understanding the diversity of Spanish cuisine and its regional specialties.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Region",
+    "Type"
+  ],
+  "entities": [
+    "Name",
+    "Description"
+  ]
+}

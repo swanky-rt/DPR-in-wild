@@ -1,0 +1,499 @@
+{
+  "table_id": "T3510",
+  "uid": "5ffc7020-9816-5147-a4cd-328f9a005bc8",
+  "source": "HybridQA",
+  "source_table_id": "5ffc7020-9816-5147-a4cd-328f9a005bc8",
+  "domain": "HybridQA",
+  "title": "Valleyfair",
+  "columns": [
+    "Coaster",
+    "Year Opened",
+    "Manufacturer",
+    "Description",
+    "Thrill Rating"
+  ],
+  "rows": [
+    [
+      [
+        "Corkscrew",
+        [
+          "/wiki/Corkscrew_(Valleyfair)"
+        ]
+      ],
+      [
+        1980,
+        []
+      ],
+      [
+        "Arrow Dynamics",
+        [
+          "/wiki/Arrow_Dynamics"
+        ]
+      ],
+      [
+        "A steel Looping roller coaster",
+        [
+          "/wiki/Steel_roller_coaster"
+        ]
+      ],
+      [
+        5,
+        []
+      ]
+    ],
+    [
+      [
+        "Cosmic Coaster",
+        [
+          "/wiki/Cosmic_Coaster_(Valleyfair)"
+        ]
+      ],
+      [
+        2011,
+        []
+      ],
+      [
+        "Zamperla",
+        [
+          "/wiki/Zamperla"
+        ]
+      ],
+      [
+        "A kiddie roller coaster . Previously located at Dorney Park & Wildwater Kingdom as Dragon Coaster",
+        [
+          "/wiki/Dorney_Park_&_Wildwater_Kingdom"
+        ]
+      ],
+      [
+        3,
+        []
+      ]
+    ],
+    [
+      [
+        "Excalibur",
+        [
+          "/wiki/Excalibur_(roller_coaster)"
+        ]
+      ],
+      [
+        1989,
+        []
+      ],
+      [
+        "Arrow Dynamics",
+        [
+          "/wiki/Arrow_Dynamics"
+        ]
+      ],
+      [
+        "A steel roller coaster with a wooden structure",
+        [
+          "/wiki/Steel_roller_coaster",
+          "/wiki/Wooden_roller_coaster"
+        ]
+      ],
+      [
+        4,
+        []
+      ]
+    ],
+    [
+      [
+        "High Roller",
+        [
+          "/wiki/High_Roller_(Valleyfair)"
+        ]
+      ],
+      [
+        1976,
+        []
+      ],
+      [
+        "Rauerhorst Corporation",
+        [
+          "/wiki/Rauerhorst_Corporation"
+        ]
+      ],
+      [
+        "A wooden roller coaster . It is currently the oldest coaster at Valleyfair",
+        [
+          "/wiki/Wooden_roller_coaster"
+        ]
+      ],
+      [
+        4,
+        []
+      ]
+    ],
+    [
+      [
+        "Mad Mouse",
+        [
+          "/wiki/Mad_Mouse_(Valleyfair)"
+        ]
+      ],
+      [
+        1999,
+        []
+      ],
+      [
+        "Arrow Dynamics",
+        [
+          "/wiki/Arrow_Dynamics"
+        ]
+      ],
+      [
+        "A steel wild mouse roller coaster",
+        [
+          "/wiki/Steel_roller_coaster",
+          "/wiki/Wild_mouse_roller_coaster"
+        ]
+      ],
+      [
+        4,
+        []
+      ]
+    ],
+    [
+      [
+        "Renegade",
+        [
+          "/wiki/Renegade_(Valleyfair)"
+        ]
+      ],
+      [
+        2007,
+        []
+      ],
+      [
+        "Great Coasters International",
+        [
+          "/wiki/Great_Coasters_International"
+        ]
+      ],
+      [
+        "A Wooden roller coaster",
+        [
+          "/wiki/Wooden_roller_coaster"
+        ]
+      ],
+      [
+        4,
+        []
+      ]
+    ],
+    [
+      [
+        "Steel Venom",
+        [
+          "/wiki/Steel_Venom_(Valleyfair)"
+        ]
+      ],
+      [
+        2003,
+        []
+      ],
+      [
+        "Intamin",
+        [
+          "/wiki/Intamin"
+        ]
+      ],
+      [
+        "A steel Inverted Impulse roller coaster",
+        [
+          "/wiki/Steel_roller_coaster",
+          "/wiki/Inverted_Impulse_roller_coaster"
+        ]
+      ],
+      [
+        5,
+        []
+      ]
+    ],
+    [
+      [
+        "Wild Thing",
+        [
+          "/wiki/Wild_Thing_(roller_coaster)"
+        ]
+      ],
+      [
+        1996,
+        []
+      ],
+      [
+        "D. H. Morgan Manufacturing",
+        [
+          "/wiki/D._H._Morgan_Manufacturing"
+        ]
+      ],
+      [
+        "A steel hyper coaster . It is currently the tallest roller coaster at Valleyfair",
+        [
+          "/wiki/Steel_roller_coaster",
+          "/wiki/Hyper_coaster"
+        ]
+      ],
+      [
+        5,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "5ffc7020-9816-5147-a4cd-328f9a005bc8",
+    "table_id": "Valleyfair_0",
+    "title": "Valleyfair",
+    "header": [
+      "Coaster",
+      "Year Opened",
+      "Manufacturer",
+      "Description",
+      "Thrill Rating"
+    ],
+    "value": [
+      [
+        [
+          "Corkscrew",
+          [
+            "/wiki/Corkscrew_(Valleyfair)"
+          ]
+        ],
+        [
+          1980,
+          []
+        ],
+        [
+          "Arrow Dynamics",
+          [
+            "/wiki/Arrow_Dynamics"
+          ]
+        ],
+        [
+          "A steel Looping roller coaster",
+          [
+            "/wiki/Steel_roller_coaster"
+          ]
+        ],
+        [
+          5,
+          []
+        ]
+      ],
+      [
+        [
+          "Cosmic Coaster",
+          [
+            "/wiki/Cosmic_Coaster_(Valleyfair)"
+          ]
+        ],
+        [
+          2011,
+          []
+        ],
+        [
+          "Zamperla",
+          [
+            "/wiki/Zamperla"
+          ]
+        ],
+        [
+          "A kiddie roller coaster . Previously located at Dorney Park & Wildwater Kingdom as Dragon Coaster",
+          [
+            "/wiki/Dorney_Park_&_Wildwater_Kingdom"
+          ]
+        ],
+        [
+          3,
+          []
+        ]
+      ],
+      [
+        [
+          "Excalibur",
+          [
+            "/wiki/Excalibur_(roller_coaster)"
+          ]
+        ],
+        [
+          1989,
+          []
+        ],
+        [
+          "Arrow Dynamics",
+          [
+            "/wiki/Arrow_Dynamics"
+          ]
+        ],
+        [
+          "A steel roller coaster with a wooden structure",
+          [
+            "/wiki/Steel_roller_coaster",
+            "/wiki/Wooden_roller_coaster"
+          ]
+        ],
+        [
+          4,
+          []
+        ]
+      ],
+      [
+        [
+          "High Roller",
+          [
+            "/wiki/High_Roller_(Valleyfair)"
+          ]
+        ],
+        [
+          1976,
+          []
+        ],
+        [
+          "Rauerhorst Corporation",
+          [
+            "/wiki/Rauerhorst_Corporation"
+          ]
+        ],
+        [
+          "A wooden roller coaster . It is currently the oldest coaster at Valleyfair",
+          [
+            "/wiki/Wooden_roller_coaster"
+          ]
+        ],
+        [
+          4,
+          []
+        ]
+      ],
+      [
+        [
+          "Mad Mouse",
+          [
+            "/wiki/Mad_Mouse_(Valleyfair)"
+          ]
+        ],
+        [
+          1999,
+          []
+        ],
+        [
+          "Arrow Dynamics",
+          [
+            "/wiki/Arrow_Dynamics"
+          ]
+        ],
+        [
+          "A steel wild mouse roller coaster",
+          [
+            "/wiki/Steel_roller_coaster",
+            "/wiki/Wild_mouse_roller_coaster"
+          ]
+        ],
+        [
+          4,
+          []
+        ]
+      ],
+      [
+        [
+          "Renegade",
+          [
+            "/wiki/Renegade_(Valleyfair)"
+          ]
+        ],
+        [
+          2007,
+          []
+        ],
+        [
+          "Great Coasters International",
+          [
+            "/wiki/Great_Coasters_International"
+          ]
+        ],
+        [
+          "A Wooden roller coaster",
+          [
+            "/wiki/Wooden_roller_coaster"
+          ]
+        ],
+        [
+          4,
+          []
+        ]
+      ],
+      [
+        [
+          "Steel Venom",
+          [
+            "/wiki/Steel_Venom_(Valleyfair)"
+          ]
+        ],
+        [
+          2003,
+          []
+        ],
+        [
+          "Intamin",
+          [
+            "/wiki/Intamin"
+          ]
+        ],
+        [
+          "A steel Inverted Impulse roller coaster",
+          [
+            "/wiki/Steel_roller_coaster",
+            "/wiki/Inverted_Impulse_roller_coaster"
+          ]
+        ],
+        [
+          5,
+          []
+        ]
+      ],
+      [
+        [
+          "Wild Thing",
+          [
+            "/wiki/Wild_Thing_(roller_coaster)"
+          ]
+        ],
+        [
+          1996,
+          []
+        ],
+        [
+          "D. H. Morgan Manufacturing",
+          [
+            "/wiki/D._H._Morgan_Manufacturing"
+          ]
+        ],
+        [
+          "A steel hyper coaster . It is currently the tallest roller coaster at Valleyfair",
+          [
+            "/wiki/Steel_roller_coaster",
+            "/wiki/Hyper_coaster"
+          ]
+        ],
+        [
+          5,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about roller coasters at Valleyfair, including their names, opening years, manufacturers, descriptions, and thrill ratings. It serves as a reference for understanding the features and characteristics of various roller coasters in the park.",
+  "numeric_columns": [
+    "Year Opened",
+    "Thrill Rating"
+  ],
+  "categorical_columns": [
+    "Description"
+  ],
+  "entities": [
+    "Coaster",
+    "Manufacturer"
+  ]
+}

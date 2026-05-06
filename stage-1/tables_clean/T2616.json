@@ -1,0 +1,432 @@
+{
+  "table_id": "T2616",
+  "uid": "3285dd18-9f6f-5aac-a8b7-045c3729d0d2",
+  "source": "HybridQA",
+  "source_table_id": "3285dd18-9f6f-5aac-a8b7-045c3729d0d2",
+  "domain": "HybridQA",
+  "title": "2013 J.League Division 1",
+  "columns": [
+    "Position",
+    "Player",
+    "Club"
+  ],
+  "rows": [
+    [
+      [
+        "GK",
+        []
+      ],
+      [
+        "Shusaku Nishikawa",
+        [
+          "/wiki/Shusaku_Nishikawa"
+        ]
+      ],
+      [
+        "Sanfrecce Hiroshima",
+        [
+          "/wiki/Sanfrecce_Hiroshima"
+        ]
+      ]
+    ],
+    [
+      [
+        "DF",
+        []
+      ],
+      [
+        "Daisuke Nasu",
+        [
+          "/wiki/Daisuke_Nasu"
+        ]
+      ],
+      [
+        "Urawa Red Diamonds",
+        [
+          "/wiki/Urawa_Red_Diamonds"
+        ]
+      ]
+    ],
+    [
+      [
+        "DF",
+        []
+      ],
+      [
+        "Masato Morishige",
+        [
+          "/wiki/Masato_Morishige"
+        ]
+      ],
+      [
+        "FC Tokyo",
+        [
+          "/wiki/FC_Tokyo"
+        ]
+      ]
+    ],
+    [
+      [
+        "DF",
+        []
+      ],
+      [
+        "Yuji Nakazawa",
+        [
+          "/wiki/Yuji_Nakazawa"
+        ]
+      ],
+      [
+        "Yokohama F. Marinos",
+        [
+          "/wiki/Yokohama_F._Marinos"
+        ]
+      ]
+    ],
+    [
+      [
+        "MF",
+        []
+      ],
+      [
+        "Hotaru Yamaguchi",
+        [
+          "/wiki/Hotaru_Yamaguchi"
+        ]
+      ],
+      [
+        "Cerezo Osaka",
+        [
+          "/wiki/Cerezo_Osaka"
+        ]
+      ]
+    ],
+    [
+      [
+        "MF",
+        []
+      ],
+      [
+        "Toshihiro Aoyama",
+        [
+          "/wiki/Toshihiro_Aoyama"
+        ]
+      ],
+      [
+        "Sanfrecce Hiroshima",
+        [
+          "/wiki/Sanfrecce_Hiroshima"
+        ]
+      ]
+    ],
+    [
+      [
+        "MF",
+        []
+      ],
+      [
+        "Shunsuke Nakamura",
+        [
+          "/wiki/Shunsuke_Nakamura"
+        ]
+      ],
+      [
+        "Yokohama F. Marinos",
+        [
+          "/wiki/Yokohama_F._Marinos"
+        ]
+      ]
+    ],
+    [
+      [
+        "MF",
+        []
+      ],
+      [
+        "Yoichiro Kakitani",
+        [
+          "/wiki/Yoichiro_Kakitani"
+        ]
+      ],
+      [
+        "Cerezo Osaka",
+        [
+          "/wiki/Cerezo_Osaka"
+        ]
+      ]
+    ],
+    [
+      [
+        "FW",
+        []
+      ],
+      [
+        "Yuya Osako",
+        [
+          "/wiki/Yuya_Osako"
+        ]
+      ],
+      [
+        "Kashima Antlers",
+        [
+          "/wiki/Kashima_Antlers"
+        ]
+      ]
+    ],
+    [
+      [
+        "FW",
+        []
+      ],
+      [
+        "Yoshito Ōkubo",
+        [
+          "/wiki/Yoshito_Ōkubo"
+        ]
+      ],
+      [
+        "Kawasaki Frontale",
+        [
+          "/wiki/Kawasaki_Frontale"
+        ]
+      ]
+    ],
+    [
+      [
+        "FW",
+        []
+      ],
+      [
+        "Kengo Kawamata",
+        [
+          "/wiki/Kengo_Kawamata"
+        ]
+      ],
+      [
+        "Albirex Niigata",
+        [
+          "/wiki/Albirex_Niigata"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "3285dd18-9f6f-5aac-a8b7-045c3729d0d2",
+    "table_id": "2013_J._League_Division_1_1",
+    "title": "2013 J.League Division 1",
+    "header": [
+      "Position",
+      "Player",
+      "Club"
+    ],
+    "value": [
+      [
+        [
+          "GK",
+          []
+        ],
+        [
+          "Shusaku Nishikawa",
+          [
+            "/wiki/Shusaku_Nishikawa"
+          ]
+        ],
+        [
+          "Sanfrecce Hiroshima",
+          [
+            "/wiki/Sanfrecce_Hiroshima"
+          ]
+        ]
+      ],
+      [
+        [
+          "DF",
+          []
+        ],
+        [
+          "Daisuke Nasu",
+          [
+            "/wiki/Daisuke_Nasu"
+          ]
+        ],
+        [
+          "Urawa Red Diamonds",
+          [
+            "/wiki/Urawa_Red_Diamonds"
+          ]
+        ]
+      ],
+      [
+        [
+          "DF",
+          []
+        ],
+        [
+          "Masato Morishige",
+          [
+            "/wiki/Masato_Morishige"
+          ]
+        ],
+        [
+          "FC Tokyo",
+          [
+            "/wiki/FC_Tokyo"
+          ]
+        ]
+      ],
+      [
+        [
+          "DF",
+          []
+        ],
+        [
+          "Yuji Nakazawa",
+          [
+            "/wiki/Yuji_Nakazawa"
+          ]
+        ],
+        [
+          "Yokohama F. Marinos",
+          [
+            "/wiki/Yokohama_F._Marinos"
+          ]
+        ]
+      ],
+      [
+        [
+          "MF",
+          []
+        ],
+        [
+          "Hotaru Yamaguchi",
+          [
+            "/wiki/Hotaru_Yamaguchi"
+          ]
+        ],
+        [
+          "Cerezo Osaka",
+          [
+            "/wiki/Cerezo_Osaka"
+          ]
+        ]
+      ],
+      [
+        [
+          "MF",
+          []
+        ],
+        [
+          "Toshihiro Aoyama",
+          [
+            "/wiki/Toshihiro_Aoyama"
+          ]
+        ],
+        [
+          "Sanfrecce Hiroshima",
+          [
+            "/wiki/Sanfrecce_Hiroshima"
+          ]
+        ]
+      ],
+      [
+        [
+          "MF",
+          []
+        ],
+        [
+          "Shunsuke Nakamura",
+          [
+            "/wiki/Shunsuke_Nakamura"
+          ]
+        ],
+        [
+          "Yokohama F. Marinos",
+          [
+            "/wiki/Yokohama_F._Marinos"
+          ]
+        ]
+      ],
+      [
+        [
+          "MF",
+          []
+        ],
+        [
+          "Yoichiro Kakitani",
+          [
+            "/wiki/Yoichiro_Kakitani"
+          ]
+        ],
+        [
+          "Cerezo Osaka",
+          [
+            "/wiki/Cerezo_Osaka"
+          ]
+        ]
+      ],
+      [
+        [
+          "FW",
+          []
+        ],
+        [
+          "Yuya Osako",
+          [
+            "/wiki/Yuya_Osako"
+          ]
+        ],
+        [
+          "Kashima Antlers",
+          [
+            "/wiki/Kashima_Antlers"
+          ]
+        ]
+      ],
+      [
+        [
+          "FW",
+          []
+        ],
+        [
+          "Yoshito Ōkubo",
+          [
+            "/wiki/Yoshito_Ōkubo"
+          ]
+        ],
+        [
+          "Kawasaki Frontale",
+          [
+            "/wiki/Kawasaki_Frontale"
+          ]
+        ]
+      ],
+      [
+        [
+          "FW",
+          []
+        ],
+        [
+          "Kengo Kawamata",
+          [
+            "/wiki/Kengo_Kawamata"
+          ]
+        ],
+        [
+          "Albirex Niigata",
+          [
+            "/wiki/Albirex_Niigata"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about players in the 2013 J.League Division 1, including their positions, names, and associated clubs. It serves to highlight key participants and their affiliations within the league during that season.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Position",
+    "Club"
+  ],
+  "entities": [
+    "Player"
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "table_id": "T5843",
+  "uid": "b55fb6cd-cd0c-5ca8-a728-ca01009d0247",
+  "source": "HybridQA",
+  "source_table_id": "b55fb6cd-cd0c-5ca8-a728-ca01009d0247",
+  "domain": "HybridQA",
+  "title": "Crystal Palace transmitting station",
+  "columns": [
+    "Frequency",
+    "kW",
+    "Service"
+  ],
+  "rows": [
+    [
+      [
+        "88.8 MHz",
+        []
+      ],
+      [
+        "4†",
+        []
+      ],
+      [
+        "BBC Radio 2",
+        [
+          "/wiki/BBC_Radio_2"
+        ]
+      ]
+    ],
+    [
+      [
+        "91.0 MHz",
+        []
+      ],
+      [
+        "4†",
+        []
+      ],
+      [
+        "BBC Radio 3",
+        [
+          "/wiki/BBC_Radio_3"
+        ]
+      ]
+    ],
+    [
+      [
+        "93.2 MHz",
+        []
+      ],
+      [
+        "4†",
+        []
+      ],
+      [
+        "BBC Radio 4",
+        [
+          "/wiki/BBC_Radio_4"
+        ]
+      ]
+    ],
+    [
+      [
+        "94.9 MHz",
+        []
+      ],
+      [
+        4,
+        []
+      ],
+      [
+        "BBC Radio London",
+        [
+          "/wiki/BBC_Radio_London"
+        ]
+      ]
+    ],
+    [
+      [
+        "96.9 MHz",
+        []
+      ],
+      [
+        0.03,
+        []
+      ],
+      [
+        "Capital Xtra",
+        [
+          "/wiki/Capital_Xtra"
+        ]
+      ]
+    ],
+    [
+      [
+        "98.5 MHz",
+        []
+      ],
+      [
+        "4†",
+        []
+      ],
+      [
+        "BBC Radio 1",
+        [
+          "/wiki/BBC_Radio_1"
+        ]
+      ]
+    ],
+    [
+      [
+        "100.6 MHz",
+        []
+      ],
+      [
+        "2 ( V ) †",
+        []
+      ],
+      [
+        "Classic FM",
+        [
+          "/wiki/Classic_FM_(UK)"
+        ]
+      ]
+    ],
+    [
+      [
+        "104.9 MHz",
+        []
+      ],
+      [
+        2.9,
+        []
+      ],
+      [
+        "Radio X",
+        [
+          "/wiki/Radio_X_(United_Kingdom)"
+        ]
+      ]
+    ],
+    [
+      [
+        "105.8 MHz",
+        []
+      ],
+      [
+        3.73,
+        []
+      ],
+      [
+        "Absolute Radio",
+        [
+          "/wiki/Absolute_Radio"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "b55fb6cd-cd0c-5ca8-a728-ca01009d0247",
+    "table_id": "Crystal_Palace_transmitting_station_1",
+    "title": "Crystal Palace transmitting station",
+    "header": [
+      "Frequency",
+      "kW",
+      "Service"
+    ],
+    "value": [
+      [
+        [
+          "88.8 MHz",
+          []
+        ],
+        [
+          "4†",
+          []
+        ],
+        [
+          "BBC Radio 2",
+          [
+            "/wiki/BBC_Radio_2"
+          ]
+        ]
+      ],
+      [
+        [
+          "91.0 MHz",
+          []
+        ],
+        [
+          "4†",
+          []
+        ],
+        [
+          "BBC Radio 3",
+          [
+            "/wiki/BBC_Radio_3"
+          ]
+        ]
+      ],
+      [
+        [
+          "93.2 MHz",
+          []
+        ],
+        [
+          "4†",
+          []
+        ],
+        [
+          "BBC Radio 4",
+          [
+            "/wiki/BBC_Radio_4"
+          ]
+        ]
+      ],
+      [
+        [
+          "94.9 MHz",
+          []
+        ],
+        [
+          4,
+          []
+        ],
+        [
+          "BBC Radio London",
+          [
+            "/wiki/BBC_Radio_London"
+          ]
+        ]
+      ],
+      [
+        [
+          "96.9 MHz",
+          []
+        ],
+        [
+          0.03,
+          []
+        ],
+        [
+          "Capital Xtra",
+          [
+            "/wiki/Capital_Xtra"
+          ]
+        ]
+      ],
+      [
+        [
+          "98.5 MHz",
+          []
+        ],
+        [
+          "4†",
+          []
+        ],
+        [
+          "BBC Radio 1",
+          [
+            "/wiki/BBC_Radio_1"
+          ]
+        ]
+      ],
+      [
+        [
+          "100.6 MHz",
+          []
+        ],
+        [
+          "2 ( V ) †",
+          []
+        ],
+        [
+          "Classic FM",
+          [
+            "/wiki/Classic_FM_(UK)"
+          ]
+        ]
+      ],
+      [
+        [
+          "104.9 MHz",
+          []
+        ],
+        [
+          2.9,
+          []
+        ],
+        [
+          "Radio X",
+          [
+            "/wiki/Radio_X_(United_Kingdom)"
+          ]
+        ]
+      ],
+      [
+        [
+          "105.8 MHz",
+          []
+        ],
+        [
+          3.73,
+          []
+        ],
+        [
+          "Absolute Radio",
+          [
+            "/wiki/Absolute_Radio"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about the broadcasting details of services from the Crystal Palace transmitting station. It includes the frequency, power output, and the specific service being broadcast, likely for radio or television purposes.",
+  "numeric_columns": [
+    "kW"
+  ],
+  "categorical_columns": [
+    "Frequency",
+    "Service"
+  ],
+  "entities": [
+    "Service"
+  ]
+}

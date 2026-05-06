@@ -1,0 +1,356 @@
+{
+  "table_id": "T8600",
+  "uid": "c71ad5ac-e041-5a86-8378-3b8bd2845bf1",
+  "source": "HybridQA",
+  "source_table_id": "c71ad5ac-e041-5a86-8378-3b8bd2845bf1",
+  "domain": "HybridQA",
+  "title": "Ireland cricket team",
+  "columns": [
+    "Player",
+    "Wickets",
+    "Average"
+  ],
+  "rows": [
+    [
+      [
+        "Kevin O'Brien",
+        [
+          "/wiki/Kevin_O'Brien_(cricketer)"
+        ]
+      ],
+      [
+        113,
+        []
+      ],
+      [
+        32.49,
+        []
+      ]
+    ],
+    [
+      [
+        "Boyd Rankin",
+        [
+          "/wiki/Boyd_Rankin"
+        ]
+      ],
+      [
+        96,
+        []
+      ],
+      [
+        28.27,
+        []
+      ]
+    ],
+    [
+      [
+        "George Dockrell",
+        [
+          "/wiki/George_Dockrell"
+        ]
+      ],
+      [
+        89,
+        []
+      ],
+      [
+        37.38,
+        []
+      ]
+    ],
+    [
+      [
+        "Trent Johnston",
+        [
+          "/wiki/Trent_Johnston"
+        ]
+      ],
+      [
+        66,
+        []
+      ],
+      [
+        32.04,
+        []
+      ]
+    ],
+    [
+      [
+        "Tim Murtagh",
+        [
+          "/wiki/Tim_Murtagh"
+        ]
+      ],
+      [
+        74,
+        []
+      ],
+      [
+        30.94,
+        []
+      ]
+    ],
+    [
+      [
+        "Alex Cusack",
+        [
+          "/wiki/Alex_Cusack"
+        ]
+      ],
+      [
+        63,
+        []
+      ],
+      [
+        23.96,
+        []
+      ]
+    ],
+    [
+      [
+        "Barry McCarthy",
+        [
+          "/wiki/Barry_McCarthy"
+        ]
+      ],
+      [
+        55,
+        []
+      ],
+      [
+        26.96,
+        []
+      ]
+    ],
+    [
+      [
+        "John Mooney",
+        [
+          "/wiki/John_Mooney_(cricketer)"
+        ]
+      ],
+      [
+        48,
+        []
+      ],
+      [
+        34.06,
+        []
+      ]
+    ],
+    [
+      [
+        "Andy McBrine",
+        [
+          "/wiki/Andy_McBrine"
+        ]
+      ],
+      [
+        47,
+        []
+      ],
+      [
+        34.38,
+        []
+      ]
+    ],
+    [
+      [
+        "Paul Stirling",
+        [
+          "/wiki/Paul_Stirling"
+        ]
+      ],
+      [
+        43,
+        []
+      ],
+      [
+        44.23,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "c71ad5ac-e041-5a86-8378-3b8bd2845bf1",
+    "table_id": "Ireland_cricket_team_3",
+    "title": "Ireland cricket team",
+    "header": [
+      "Player",
+      "Wickets",
+      "Average"
+    ],
+    "value": [
+      [
+        [
+          "Kevin O'Brien",
+          [
+            "/wiki/Kevin_O'Brien_(cricketer)"
+          ]
+        ],
+        [
+          113,
+          []
+        ],
+        [
+          32.49,
+          []
+        ]
+      ],
+      [
+        [
+          "Boyd Rankin",
+          [
+            "/wiki/Boyd_Rankin"
+          ]
+        ],
+        [
+          96,
+          []
+        ],
+        [
+          28.27,
+          []
+        ]
+      ],
+      [
+        [
+          "George Dockrell",
+          [
+            "/wiki/George_Dockrell"
+          ]
+        ],
+        [
+          89,
+          []
+        ],
+        [
+          37.38,
+          []
+        ]
+      ],
+      [
+        [
+          "Trent Johnston",
+          [
+            "/wiki/Trent_Johnston"
+          ]
+        ],
+        [
+          66,
+          []
+        ],
+        [
+          32.04,
+          []
+        ]
+      ],
+      [
+        [
+          "Tim Murtagh",
+          [
+            "/wiki/Tim_Murtagh"
+          ]
+        ],
+        [
+          74,
+          []
+        ],
+        [
+          30.94,
+          []
+        ]
+      ],
+      [
+        [
+          "Alex Cusack",
+          [
+            "/wiki/Alex_Cusack"
+          ]
+        ],
+        [
+          63,
+          []
+        ],
+        [
+          23.96,
+          []
+        ]
+      ],
+      [
+        [
+          "Barry McCarthy",
+          [
+            "/wiki/Barry_McCarthy"
+          ]
+        ],
+        [
+          55,
+          []
+        ],
+        [
+          26.96,
+          []
+        ]
+      ],
+      [
+        [
+          "John Mooney",
+          [
+            "/wiki/John_Mooney_(cricketer)"
+          ]
+        ],
+        [
+          48,
+          []
+        ],
+        [
+          34.06,
+          []
+        ]
+      ],
+      [
+        [
+          "Andy McBrine",
+          [
+            "/wiki/Andy_McBrine"
+          ]
+        ],
+        [
+          47,
+          []
+        ],
+        [
+          34.38,
+          []
+        ]
+      ],
+      [
+        [
+          "Paul Stirling",
+          [
+            "/wiki/Paul_Stirling"
+          ]
+        ],
+        [
+          43,
+          []
+        ],
+        [
+          44.23,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides statistical information about players from the Ireland cricket team. It includes data on individual players, their total wickets taken, and their bowling averages, likely for performance analysis or record-keeping purposes.",
+  "numeric_columns": [
+    "Wickets",
+    "Average"
+  ],
+  "categorical_columns": [],
+  "entities": [
+    "Player"
+  ]
+}

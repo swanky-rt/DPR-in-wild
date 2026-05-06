@@ -1,0 +1,496 @@
+{
+  "table_id": "T6703",
+  "uid": "fb5bbc29-9454-50a0-bd0c-37f4d2ce951e",
+  "source": "HybridQA",
+  "source_table_id": "fb5bbc29-9454-50a0-bd0c-37f4d2ce951e",
+  "domain": "HybridQA",
+  "title": "Slovak 1. Liga",
+  "columns": [
+    "Team Name",
+    "City",
+    "Venue",
+    "Capacity"
+  ],
+  "rows": [
+    [
+      [
+        "Bratislava Capitals",
+        [
+          "/wiki/Bratislava_Capitals"
+        ]
+      ],
+      [
+        "Bratislava",
+        [
+          "/wiki/Bratislava"
+        ]
+      ],
+      [
+        "Vladimír Dzurilla Arena",
+        []
+      ],
+      [
+        "3,500",
+        []
+      ]
+    ],
+    [
+      [
+        "HC Topoľčany",
+        [
+          "/wiki/HC_Topoľčany"
+        ]
+      ],
+      [
+        "Topoľčany",
+        [
+          "/wiki/Topoľčany"
+        ]
+      ],
+      [
+        "Topvar Aréna",
+        []
+      ],
+      [
+        "3,400",
+        []
+      ]
+    ],
+    [
+      [
+        "HK Martin",
+        [
+          "/wiki/HK_Martin"
+        ]
+      ],
+      [
+        "Martin",
+        [
+          "/wiki/Martin,_Slovakia"
+        ]
+      ],
+      [
+        "Martin Ice Stadium",
+        [
+          "/wiki/Martin_Ice_Stadium"
+        ]
+      ],
+      [
+        "4,200",
+        []
+      ]
+    ],
+    [
+      [
+        "HK Skalica",
+        [
+          "/wiki/HK_36_Skalica"
+        ]
+      ],
+      [
+        "Skalica",
+        [
+          "/wiki/Skalica"
+        ]
+      ],
+      [
+        "Skalica Ice Stadium",
+        [
+          "/wiki/Skalica_Ice_Stadium"
+        ]
+      ],
+      [
+        "4,100",
+        []
+      ]
+    ],
+    [
+      [
+        "MsHK Žilina",
+        [
+          "/wiki/MsHK_Žilina"
+        ]
+      ],
+      [
+        "Žilina",
+        [
+          "/wiki/Žilina"
+        ]
+      ],
+      [
+        "Garmin Arena",
+        [
+          "/wiki/Garmin_Arena"
+        ]
+      ],
+      [
+        "6,200",
+        []
+      ]
+    ],
+    [
+      [
+        "HK 95 Panthers Považská Bystrica",
+        [
+          "/wiki/HK_95_Panthers_Považská_Bystrica"
+        ]
+      ],
+      [
+        "Považská Bystrica",
+        [
+          "/wiki/Považská_Bystrica"
+        ]
+      ],
+      [
+        "Považská Bystrica Ice Stadium",
+        []
+      ],
+      [
+        "2,400",
+        []
+      ]
+    ],
+    [
+      [
+        "HK Spišská Nová Ves",
+        [
+          "/wiki/HK_Spišská_Nová_Ves"
+        ]
+      ],
+      [
+        "Spišská Nová Ves",
+        [
+          "/wiki/Spišská_Nová_Ves"
+        ]
+      ],
+      [
+        "Spiš Aréna",
+        [
+          "/wiki/Spiš_Aréna"
+        ]
+      ],
+      [
+        "5,458",
+        []
+      ]
+    ],
+    [
+      [
+        "HK Dubnica",
+        [
+          "/wiki/HK_Dubnica"
+        ]
+      ],
+      [
+        "Dubnica nad Váhom",
+        [
+          "/wiki/Dubnica_nad_Váhom"
+        ]
+      ],
+      [
+        "Dubnica Ice Stadium",
+        []
+      ],
+      [
+        "3,000",
+        []
+      ]
+    ],
+    [
+      [
+        "HK Trnava",
+        [
+          "/wiki/HK_Trnava"
+        ]
+      ],
+      [
+        "Trnava",
+        [
+          "/wiki/Trnava"
+        ]
+      ],
+      [
+        "Trnava Ice Stadium",
+        []
+      ],
+      [
+        "3,800",
+        []
+      ]
+    ],
+    [
+      [
+        "HK Levice",
+        [
+          "/wiki/HK_Levice"
+        ]
+      ],
+      [
+        "Levice",
+        [
+          "/wiki/Levice"
+        ]
+      ],
+      [
+        "Levice Ice Stadium",
+        []
+      ],
+      [
+        "2,400",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "fb5bbc29-9454-50a0-bd0c-37f4d2ce951e",
+    "table_id": "Slovak_1.Liga_0",
+    "title": "Slovak 1. Liga",
+    "header": [
+      "Team Name",
+      "City",
+      "Venue",
+      "Capacity"
+    ],
+    "value": [
+      [
+        [
+          "Bratislava Capitals",
+          [
+            "/wiki/Bratislava_Capitals"
+          ]
+        ],
+        [
+          "Bratislava",
+          [
+            "/wiki/Bratislava"
+          ]
+        ],
+        [
+          "Vladimír Dzurilla Arena",
+          []
+        ],
+        [
+          "3,500",
+          []
+        ]
+      ],
+      [
+        [
+          "HC Topoľčany",
+          [
+            "/wiki/HC_Topoľčany"
+          ]
+        ],
+        [
+          "Topoľčany",
+          [
+            "/wiki/Topoľčany"
+          ]
+        ],
+        [
+          "Topvar Aréna",
+          []
+        ],
+        [
+          "3,400",
+          []
+        ]
+      ],
+      [
+        [
+          "HK Martin",
+          [
+            "/wiki/HK_Martin"
+          ]
+        ],
+        [
+          "Martin",
+          [
+            "/wiki/Martin,_Slovakia"
+          ]
+        ],
+        [
+          "Martin Ice Stadium",
+          [
+            "/wiki/Martin_Ice_Stadium"
+          ]
+        ],
+        [
+          "4,200",
+          []
+        ]
+      ],
+      [
+        [
+          "HK Skalica",
+          [
+            "/wiki/HK_36_Skalica"
+          ]
+        ],
+        [
+          "Skalica",
+          [
+            "/wiki/Skalica"
+          ]
+        ],
+        [
+          "Skalica Ice Stadium",
+          [
+            "/wiki/Skalica_Ice_Stadium"
+          ]
+        ],
+        [
+          "4,100",
+          []
+        ]
+      ],
+      [
+        [
+          "MsHK Žilina",
+          [
+            "/wiki/MsHK_Žilina"
+          ]
+        ],
+        [
+          "Žilina",
+          [
+            "/wiki/Žilina"
+          ]
+        ],
+        [
+          "Garmin Arena",
+          [
+            "/wiki/Garmin_Arena"
+          ]
+        ],
+        [
+          "6,200",
+          []
+        ]
+      ],
+      [
+        [
+          "HK 95 Panthers Považská Bystrica",
+          [
+            "/wiki/HK_95_Panthers_Považská_Bystrica"
+          ]
+        ],
+        [
+          "Považská Bystrica",
+          [
+            "/wiki/Považská_Bystrica"
+          ]
+        ],
+        [
+          "Považská Bystrica Ice Stadium",
+          []
+        ],
+        [
+          "2,400",
+          []
+        ]
+      ],
+      [
+        [
+          "HK Spišská Nová Ves",
+          [
+            "/wiki/HK_Spišská_Nová_Ves"
+          ]
+        ],
+        [
+          "Spišská Nová Ves",
+          [
+            "/wiki/Spišská_Nová_Ves"
+          ]
+        ],
+        [
+          "Spiš Aréna",
+          [
+            "/wiki/Spiš_Aréna"
+          ]
+        ],
+        [
+          "5,458",
+          []
+        ]
+      ],
+      [
+        [
+          "HK Dubnica",
+          [
+            "/wiki/HK_Dubnica"
+          ]
+        ],
+        [
+          "Dubnica nad Váhom",
+          [
+            "/wiki/Dubnica_nad_Váhom"
+          ]
+        ],
+        [
+          "Dubnica Ice Stadium",
+          []
+        ],
+        [
+          "3,000",
+          []
+        ]
+      ],
+      [
+        [
+          "HK Trnava",
+          [
+            "/wiki/HK_Trnava"
+          ]
+        ],
+        [
+          "Trnava",
+          [
+            "/wiki/Trnava"
+          ]
+        ],
+        [
+          "Trnava Ice Stadium",
+          []
+        ],
+        [
+          "3,800",
+          []
+        ]
+      ],
+      [
+        [
+          "HK Levice",
+          [
+            "/wiki/HK_Levice"
+          ]
+        ],
+        [
+          "Levice",
+          [
+            "/wiki/Levice"
+          ]
+        ],
+        [
+          "Levice Ice Stadium",
+          []
+        ],
+        [
+          "2,400",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about teams in the Slovak 1. Liga, a sports league in Slovakia. It includes details about the teams, their associated cities, the venues they use, and the seating capacities of those venues. The table is likely intended for reference or analysis of league infrastructure and team locations.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "Venue"
+  ],
+  "entities": [
+    "Team Name",
+    "City"
+  ]
+}

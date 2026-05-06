@@ -1,0 +1,499 @@
+{
+  "table_id": "T4985",
+  "uid": "ff2f3b1c-e613-51c8-8a3e-af5091292f74",
+  "source": "HybridQA",
+  "source_table_id": "ff2f3b1c-e613-51c8-8a3e-af5091292f74",
+  "domain": "HybridQA",
+  "title": "Crystal Palace transmitting station",
+  "columns": [
+    "Frequency",
+    "UHF",
+    "kW",
+    "Operator",
+    "System"
+  ],
+  "rows": [
+    [
+      [
+        "482.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        22,
+        []
+      ],
+      [
+        200,
+        []
+      ],
+      [
+        "COM5 ( ARQ A )",
+        [
+          "/wiki/Arqiva"
+        ]
+      ],
+      [
+        "DVB-T",
+        [
+          "/wiki/DVB-T"
+        ]
+      ]
+    ],
+    [
+      [
+        "490.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        23,
+        []
+      ],
+      [
+        200,
+        []
+      ],
+      [
+        "PSB1 ( BBC A )",
+        [
+          "/wiki/BBC"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "506.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        25,
+        []
+      ],
+      [
+        200,
+        []
+      ],
+      [
+        "COM4 ( SDN )",
+        [
+          "/wiki/S4C_Digital_Networks"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "514.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        26,
+        []
+      ],
+      [
+        200,
+        []
+      ],
+      [
+        "PSB2 ( D3 & 4 )",
+        [
+          "/wiki/Digital_3&4"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "529.833 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "28−",
+        []
+      ],
+      [
+        200,
+        []
+      ],
+      [
+        "COM6 ( ARQ B )",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "545.833 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "30−",
+        []
+      ],
+      [
+        200,
+        []
+      ],
+      [
+        "PSB3 ( BBC B )",
+        []
+      ],
+      [
+        "DVB-T2",
+        [
+          "/wiki/DVB-T2"
+        ]
+      ]
+    ],
+    [
+      [
+        "586.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        35,
+        []
+      ],
+      [
+        30,
+        []
+      ],
+      [
+        "LTVmux",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "746.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        55,
+        []
+      ],
+      [
+        43.1,
+        []
+      ],
+      [
+        "COM7 ( ARQ C )",
+        []
+      ],
+      [
+        "DVB-T2",
+        []
+      ]
+    ],
+    [
+      [
+        "754.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        56,
+        []
+      ],
+      [
+        39.8,
+        []
+      ],
+      [
+        "COM8 ( ARQ D )",
+        []
+      ],
+      [
+        "DVB-T2",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "ff2f3b1c-e613-51c8-8a3e-af5091292f74",
+    "table_id": "Crystal_Palace_transmitting_station_3",
+    "title": "Crystal Palace transmitting station",
+    "header": [
+      "Frequency",
+      "UHF",
+      "kW",
+      "Operator",
+      "System"
+    ],
+    "value": [
+      [
+        [
+          "482.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          22,
+          []
+        ],
+        [
+          200,
+          []
+        ],
+        [
+          "COM5 ( ARQ A )",
+          [
+            "/wiki/Arqiva"
+          ]
+        ],
+        [
+          "DVB-T",
+          [
+            "/wiki/DVB-T"
+          ]
+        ]
+      ],
+      [
+        [
+          "490.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          23,
+          []
+        ],
+        [
+          200,
+          []
+        ],
+        [
+          "PSB1 ( BBC A )",
+          [
+            "/wiki/BBC"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "506.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          25,
+          []
+        ],
+        [
+          200,
+          []
+        ],
+        [
+          "COM4 ( SDN )",
+          [
+            "/wiki/S4C_Digital_Networks"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "514.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          26,
+          []
+        ],
+        [
+          200,
+          []
+        ],
+        [
+          "PSB2 ( D3 & 4 )",
+          [
+            "/wiki/Digital_3&4"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "529.833 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "28−",
+          []
+        ],
+        [
+          200,
+          []
+        ],
+        [
+          "COM6 ( ARQ B )",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "545.833 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "30−",
+          []
+        ],
+        [
+          200,
+          []
+        ],
+        [
+          "PSB3 ( BBC B )",
+          []
+        ],
+        [
+          "DVB-T2",
+          [
+            "/wiki/DVB-T2"
+          ]
+        ]
+      ],
+      [
+        [
+          "586.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          35,
+          []
+        ],
+        [
+          30,
+          []
+        ],
+        [
+          "LTVmux",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "746.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          55,
+          []
+        ],
+        [
+          43.1,
+          []
+        ],
+        [
+          "COM7 ( ARQ C )",
+          []
+        ],
+        [
+          "DVB-T2",
+          []
+        ]
+      ],
+      [
+        [
+          "754.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          56,
+          []
+        ],
+        [
+          39.8,
+          []
+        ],
+        [
+          "COM8 ( ARQ D )",
+          []
+        ],
+        [
+          "DVB-T2",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides technical details about the Crystal Palace transmitting station, focusing on its broadcasting frequencies, power levels, operators, and transmission systems. It is likely intended to document the station's capabilities and configurations for broadcasting purposes. The data includes numeric values for frequency and power, as well as categorical and entity information about operators and systems used.",
+  "numeric_columns": [
+    "UHF",
+    "kW"
+  ],
+  "categorical_columns": [
+    "System"
+  ],
+  "entities": [
+    "Frequency",
+    "Operator"
+  ]
+}

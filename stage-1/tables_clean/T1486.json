@@ -1,0 +1,293 @@
+{
+  "table_id": "T1486",
+  "uid": "7ad2b8e0-f92e-59bd-a19e-7ed70a15fba5",
+  "source": "HybridQA",
+  "source_table_id": "7ad2b8e0-f92e-59bd-a19e-7ed70a15fba5",
+  "domain": "HybridQA",
+  "title": "1991 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Svetlana Boginskaya ( URS )",
+        [
+          "/wiki/Svetlana_Boginskaya"
+        ]
+      ],
+      [
+        9.962,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Tatiana Gutsu ( URS )",
+        [
+          "/wiki/Tatiana_Gutsu"
+        ]
+      ],
+      [
+        9.95,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Lavinia Miloșovici ( ROU )",
+        [
+          "/wiki/Lavinia_Miloșovici"
+        ]
+      ],
+      [
+        9.9,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Betty Okino ( USA )",
+        [
+          "/wiki/Betty_Okino"
+        ]
+      ],
+      [
+        9.9,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Yang Bo ( CHN )",
+        [
+          "/wiki/Yang_Bo_(gymnast)"
+        ]
+      ],
+      [
+        9.887,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Shannon Miller ( USA )",
+        [
+          "/wiki/Shannon_Miller"
+        ]
+      ],
+      [
+        9.862,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Henrietta Ónodi ( HUN )",
+        [
+          "/wiki/Henrietta_Ónodi"
+        ]
+      ],
+      [
+        9.6,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Cristina Bontaș ( ROU )",
+        [
+          "/wiki/Cristina_Bontaș"
+        ]
+      ],
+      [
+        9.412,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "7ad2b8e0-f92e-59bd-a19e-7ed70a15fba5",
+    "table_id": "1991_World_Artistic_Gymnastics_Championships_10",
+    "title": "1991 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Svetlana Boginskaya ( URS )",
+          [
+            "/wiki/Svetlana_Boginskaya"
+          ]
+        ],
+        [
+          9.962,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Tatiana Gutsu ( URS )",
+          [
+            "/wiki/Tatiana_Gutsu"
+          ]
+        ],
+        [
+          9.95,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Lavinia Miloșovici ( ROU )",
+          [
+            "/wiki/Lavinia_Miloșovici"
+          ]
+        ],
+        [
+          9.9,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Betty Okino ( USA )",
+          [
+            "/wiki/Betty_Okino"
+          ]
+        ],
+        [
+          9.9,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Yang Bo ( CHN )",
+          [
+            "/wiki/Yang_Bo_(gymnast)"
+          ]
+        ],
+        [
+          9.887,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Shannon Miller ( USA )",
+          [
+            "/wiki/Shannon_Miller"
+          ]
+        ],
+        [
+          9.862,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Henrietta Ónodi ( HUN )",
+          [
+            "/wiki/Henrietta_Ónodi"
+          ]
+        ],
+        [
+          9.6,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Cristina Bontaș ( ROU )",
+          [
+            "/wiki/Cristina_Bontaș"
+          ]
+        ],
+        [
+          9.412,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the rankings and scores of gymnasts at the 1991 World Artistic Gymnastics Championships. It includes details about the rank, the names of the gymnasts, and their total scores. The table is designed to summarize performance outcomes in the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

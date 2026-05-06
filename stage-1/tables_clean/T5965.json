@@ -1,0 +1,393 @@
+{
+  "table_id": "T5965",
+  "uid": "4510315e-20fc-5452-ba4c-2255e8d4bba5",
+  "source": "HybridQA",
+  "source_table_id": "4510315e-20fc-5452-ba4c-2255e8d4bba5",
+  "domain": "HybridQA",
+  "title": "Provinces of the Netherlands",
+  "columns": [
+    "English name",
+    "Dutch name",
+    "Capital",
+    "Territory contained"
+  ],
+  "rows": [
+    [
+      [
+        "Department of the Ems",
+        [
+          "/wiki/Ems_(river)"
+        ]
+      ],
+      [
+        "Departement van de Eems",
+        []
+      ],
+      [
+        "Leeuwarden",
+        [
+          "/wiki/Leeuwarden"
+        ]
+      ],
+      [
+        "Northern Friesland , Groningen",
+        []
+      ]
+    ],
+    [
+      [
+        "Department of the Old IJssel",
+        [
+          "/wiki/IJssel"
+        ]
+      ],
+      [
+        "Departement van de Oude IJssel",
+        []
+      ],
+      [
+        "Zwolle",
+        [
+          "/wiki/Zwolle"
+        ]
+      ],
+      [
+        "Southern Friesland , Drenthe , Overijssel , Northern Gelderland",
+        []
+      ]
+    ],
+    [
+      [
+        "Department of the Rhine",
+        [
+          "/wiki/Rhine"
+        ]
+      ],
+      [
+        "Departement van de Rijn",
+        []
+      ],
+      [
+        "Arnhem",
+        [
+          "/wiki/Arnhem"
+        ]
+      ],
+      [
+        "Central Gelderland , Eastern Utrecht",
+        []
+      ]
+    ],
+    [
+      [
+        "Department of the Amstel",
+        [
+          "/wiki/Amstel"
+        ]
+      ],
+      [
+        "Departement van de Amstel",
+        []
+      ],
+      [
+        "Amsterdam",
+        [
+          "/wiki/Amsterdam"
+        ]
+      ],
+      [
+        "Area around Amsterdam",
+        []
+      ]
+    ],
+    [
+      [
+        "Department of Texel",
+        [
+          "/wiki/Texel"
+        ]
+      ],
+      [
+        "Departement van Texel",
+        []
+      ],
+      [
+        "Alkmaar",
+        [
+          "/wiki/Alkmaar"
+        ]
+      ],
+      [
+        "Northern Holland minus Amsterdam , Northwestern Utrecht",
+        []
+      ]
+    ],
+    [
+      [
+        "Department of the Delft",
+        [
+          "/wiki/Delft"
+        ]
+      ],
+      [
+        "Departement van de Delft",
+        []
+      ],
+      [
+        "Delft",
+        [
+          "/wiki/Delft"
+        ]
+      ],
+      [
+        "Southern Holland up to the Meuse , Southwestern Utrecht",
+        []
+      ]
+    ],
+    [
+      [
+        "Department of the Dommel",
+        [
+          "/wiki/Dommel"
+        ]
+      ],
+      [
+        "Departement van de Dommel",
+        []
+      ],
+      [
+        "'s-Hertogenbosch",
+        [
+          "/wiki/'s-Hertogenbosch"
+        ]
+      ],
+      [
+        "Eastern Batavian Brabant , Southern Gelderland",
+        []
+      ]
+    ],
+    [
+      [
+        "Department of the Scheldt and Meuse",
+        [
+          "/wiki/Scheldt",
+          "/wiki/Meuse_River"
+        ]
+      ],
+      [
+        "Departement van de Schelde en Maas",
+        []
+      ],
+      [
+        "Middelburg",
+        [
+          "/wiki/Middelburg"
+        ]
+      ],
+      [
+        "Zeeland , Southern Holland under the Meuse and Western Batavian Brabant",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "4510315e-20fc-5452-ba4c-2255e8d4bba5",
+    "table_id": "Provinces_of_the_Netherlands_1",
+    "title": "Provinces of the Netherlands",
+    "header": [
+      "English name",
+      "Dutch name",
+      "Capital",
+      "Territory contained"
+    ],
+    "value": [
+      [
+        [
+          "Department of the Ems",
+          [
+            "/wiki/Ems_(river)"
+          ]
+        ],
+        [
+          "Departement van de Eems",
+          []
+        ],
+        [
+          "Leeuwarden",
+          [
+            "/wiki/Leeuwarden"
+          ]
+        ],
+        [
+          "Northern Friesland , Groningen",
+          []
+        ]
+      ],
+      [
+        [
+          "Department of the Old IJssel",
+          [
+            "/wiki/IJssel"
+          ]
+        ],
+        [
+          "Departement van de Oude IJssel",
+          []
+        ],
+        [
+          "Zwolle",
+          [
+            "/wiki/Zwolle"
+          ]
+        ],
+        [
+          "Southern Friesland , Drenthe , Overijssel , Northern Gelderland",
+          []
+        ]
+      ],
+      [
+        [
+          "Department of the Rhine",
+          [
+            "/wiki/Rhine"
+          ]
+        ],
+        [
+          "Departement van de Rijn",
+          []
+        ],
+        [
+          "Arnhem",
+          [
+            "/wiki/Arnhem"
+          ]
+        ],
+        [
+          "Central Gelderland , Eastern Utrecht",
+          []
+        ]
+      ],
+      [
+        [
+          "Department of the Amstel",
+          [
+            "/wiki/Amstel"
+          ]
+        ],
+        [
+          "Departement van de Amstel",
+          []
+        ],
+        [
+          "Amsterdam",
+          [
+            "/wiki/Amsterdam"
+          ]
+        ],
+        [
+          "Area around Amsterdam",
+          []
+        ]
+      ],
+      [
+        [
+          "Department of Texel",
+          [
+            "/wiki/Texel"
+          ]
+        ],
+        [
+          "Departement van Texel",
+          []
+        ],
+        [
+          "Alkmaar",
+          [
+            "/wiki/Alkmaar"
+          ]
+        ],
+        [
+          "Northern Holland minus Amsterdam , Northwestern Utrecht",
+          []
+        ]
+      ],
+      [
+        [
+          "Department of the Delft",
+          [
+            "/wiki/Delft"
+          ]
+        ],
+        [
+          "Departement van de Delft",
+          []
+        ],
+        [
+          "Delft",
+          [
+            "/wiki/Delft"
+          ]
+        ],
+        [
+          "Southern Holland up to the Meuse , Southwestern Utrecht",
+          []
+        ]
+      ],
+      [
+        [
+          "Department of the Dommel",
+          [
+            "/wiki/Dommel"
+          ]
+        ],
+        [
+          "Departement van de Dommel",
+          []
+        ],
+        [
+          "'s-Hertogenbosch",
+          [
+            "/wiki/'s-Hertogenbosch"
+          ]
+        ],
+        [
+          "Eastern Batavian Brabant , Southern Gelderland",
+          []
+        ]
+      ],
+      [
+        [
+          "Department of the Scheldt and Meuse",
+          [
+            "/wiki/Scheldt",
+            "/wiki/Meuse_River"
+          ]
+        ],
+        [
+          "Departement van de Schelde en Maas",
+          []
+        ],
+        [
+          "Middelburg",
+          [
+            "/wiki/Middelburg"
+          ]
+        ],
+        [
+          "Zeeland , Southern Holland under the Meuse and Western Batavian Brabant",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about historical provinces or administrative divisions in the Netherlands, including their English and Dutch names, capitals, and the territories they encompassed. It is designed to offer a comparative view of these regions and their geographical or administrative characteristics.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "English name",
+    "Dutch name",
+    "Territory contained"
+  ],
+  "entities": [
+    "Capital"
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "table_id": "T5404",
+  "uid": "fece8775-3601-5daa-82d4-fb31a3296e3c",
+  "source": "HybridQA",
+  "source_table_id": "fece8775-3601-5daa-82d4-fb31a3296e3c",
+  "domain": "HybridQA",
+  "title": "Naiste Meistriliiga",
+  "columns": [
+    "Team",
+    "Location",
+    "Ground",
+    "Capacity",
+    "2018 season"
+  ],
+  "rows": [
+    [
+      [
+        "Ajax",
+        []
+      ],
+      [
+        "Tallinn",
+        [
+          "/wiki/Tallinn"
+        ]
+      ],
+      [
+        "Ajax Stadium",
+        []
+      ],
+      [
+        500,
+        []
+      ],
+      [
+        "8th",
+        []
+      ]
+    ],
+    [
+      [
+        "Flora",
+        [
+          "/wiki/FC_Flora_(women)"
+        ]
+      ],
+      [
+        "Tallinn",
+        []
+      ],
+      [
+        "Lilleküla harjutusväljak I",
+        []
+      ],
+      [
+        200,
+        []
+      ],
+      [
+        "1st",
+        []
+      ]
+    ],
+    [
+      [
+        "Levadia",
+        [
+          "/wiki/FC_Levadia_Tallinn_(women)"
+        ]
+      ],
+      [
+        "Tallinn",
+        []
+      ],
+      [
+        "Maarjamäe Stadium",
+        []
+      ],
+      [
+        30,
+        []
+      ],
+      [
+        "3rd",
+        []
+      ]
+    ],
+    [
+      [
+        "Lootos",
+        [
+          "/wiki/FC_Lootos_Põlva_(women)"
+        ]
+      ],
+      [
+        "Põlva",
+        [
+          "/wiki/Põlva"
+        ]
+      ],
+      [
+        "Tilsi Stadium",
+        []
+      ],
+      [
+        500,
+        []
+      ],
+      [
+        "6th",
+        []
+      ]
+    ],
+    [
+      [
+        "Pärnu",
+        [
+          "/wiki/Pärnu_JK"
+        ]
+      ],
+      [
+        "Pärnu",
+        [
+          "/wiki/Pärnu"
+        ]
+      ],
+      [
+        "Pärnu Rannastaadion",
+        [
+          "/wiki/Pärnu_Rannastaadion"
+        ]
+      ],
+      [
+        "1,501",
+        []
+      ],
+      [
+        "2nd",
+        []
+      ]
+    ],
+    [
+      [
+        "SK 10 Premium",
+        []
+      ],
+      [
+        "Tartu",
+        [
+          "/wiki/Tartu"
+        ]
+      ],
+      [
+        "Kambja Stadium",
+        []
+      ],
+      [
+        30,
+        []
+      ],
+      [
+        "5th",
+        []
+      ]
+    ],
+    [
+      [
+        "Tallinna Kalev",
+        [
+          "/wiki/JK_Tallinna_Kalev_(women)"
+        ]
+      ],
+      [
+        "Tallinn",
+        [
+          "/wiki/Tallinn"
+        ]
+      ],
+      [
+        "Kalev Keskstaadion artificial turf",
+        [
+          "/wiki/Kalevi_Keskstaadion"
+        ]
+      ],
+      [
+        570,
+        []
+      ],
+      [
+        "4th",
+        []
+      ]
+    ],
+    [
+      [
+        "Tammeka",
+        [
+          "/wiki/Tartu_JK_Tammeka_(women)"
+        ]
+      ],
+      [
+        "Tartu",
+        []
+      ],
+      [
+        "Sepa Football Centre artificial turf",
+        []
+      ],
+      [
+        508,
+        []
+      ],
+      [
+        "7th",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "fece8775-3601-5daa-82d4-fb31a3296e3c",
+    "table_id": "Naiste_Meistriliiga_0",
+    "title": "Naiste Meistriliiga",
+    "header": [
+      "Team",
+      "Location",
+      "Ground",
+      "Capacity",
+      "2018 season"
+    ],
+    "value": [
+      [
+        [
+          "Ajax",
+          []
+        ],
+        [
+          "Tallinn",
+          [
+            "/wiki/Tallinn"
+          ]
+        ],
+        [
+          "Ajax Stadium",
+          []
+        ],
+        [
+          500,
+          []
+        ],
+        [
+          "8th",
+          []
+        ]
+      ],
+      [
+        [
+          "Flora",
+          [
+            "/wiki/FC_Flora_(women)"
+          ]
+        ],
+        [
+          "Tallinn",
+          []
+        ],
+        [
+          "Lilleküla harjutusväljak I",
+          []
+        ],
+        [
+          200,
+          []
+        ],
+        [
+          "1st",
+          []
+        ]
+      ],
+      [
+        [
+          "Levadia",
+          [
+            "/wiki/FC_Levadia_Tallinn_(women)"
+          ]
+        ],
+        [
+          "Tallinn",
+          []
+        ],
+        [
+          "Maarjamäe Stadium",
+          []
+        ],
+        [
+          30,
+          []
+        ],
+        [
+          "3rd",
+          []
+        ]
+      ],
+      [
+        [
+          "Lootos",
+          [
+            "/wiki/FC_Lootos_Põlva_(women)"
+          ]
+        ],
+        [
+          "Põlva",
+          [
+            "/wiki/Põlva"
+          ]
+        ],
+        [
+          "Tilsi Stadium",
+          []
+        ],
+        [
+          500,
+          []
+        ],
+        [
+          "6th",
+          []
+        ]
+      ],
+      [
+        [
+          "Pärnu",
+          [
+            "/wiki/Pärnu_JK"
+          ]
+        ],
+        [
+          "Pärnu",
+          [
+            "/wiki/Pärnu"
+          ]
+        ],
+        [
+          "Pärnu Rannastaadion",
+          [
+            "/wiki/Pärnu_Rannastaadion"
+          ]
+        ],
+        [
+          "1,501",
+          []
+        ],
+        [
+          "2nd",
+          []
+        ]
+      ],
+      [
+        [
+          "SK 10 Premium",
+          []
+        ],
+        [
+          "Tartu",
+          [
+            "/wiki/Tartu"
+          ]
+        ],
+        [
+          "Kambja Stadium",
+          []
+        ],
+        [
+          30,
+          []
+        ],
+        [
+          "5th",
+          []
+        ]
+      ],
+      [
+        [
+          "Tallinna Kalev",
+          [
+            "/wiki/JK_Tallinna_Kalev_(women)"
+          ]
+        ],
+        [
+          "Tallinn",
+          [
+            "/wiki/Tallinn"
+          ]
+        ],
+        [
+          "Kalev Keskstaadion artificial turf",
+          [
+            "/wiki/Kalevi_Keskstaadion"
+          ]
+        ],
+        [
+          570,
+          []
+        ],
+        [
+          "4th",
+          []
+        ]
+      ],
+      [
+        [
+          "Tammeka",
+          [
+            "/wiki/Tartu_JK_Tammeka_(women)"
+          ]
+        ],
+        [
+          "Tartu",
+          []
+        ],
+        [
+          "Sepa Football Centre artificial turf",
+          []
+        ],
+        [
+          508,
+          []
+        ],
+        [
+          "7th",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about teams participating in the Naiste Meistriliiga, a women's football league. It includes details such as team names, their locations, stadiums, seating capacities, and their standings in the 2018 season. The table is intended to summarize key attributes of the league's teams.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "2018 season"
+  ],
+  "entities": [
+    "Team",
+    "Location",
+    "Ground"
+  ]
+}

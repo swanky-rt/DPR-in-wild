@@ -1,0 +1,459 @@
+{
+  "table_id": "T362",
+  "uid": "603e5705-2f87-503b-b19a-ac353acd9ad8",
+  "source": "HybridQA",
+  "source_table_id": "603e5705-2f87-503b-b19a-ac353acd9ad8",
+  "domain": "HybridQA",
+  "title": "List of football clubs in Argentina",
+  "columns": [
+    "Team",
+    "City",
+    "Province",
+    "Stadium"
+  ],
+  "rows": [
+    [
+      [
+        "Alvarado",
+        [
+          "/wiki/Club_Atlético_Alvarado"
+        ]
+      ],
+      [
+        "Mar del Plata",
+        [
+          "/wiki/Mar_del_Plata"
+        ]
+      ],
+      [
+        "Buenos Aires",
+        [
+          "/wiki/Buenos_Aires_Province"
+        ]
+      ],
+      [
+        "( None )",
+        []
+      ]
+    ],
+    [
+      [
+        "Cipolletti",
+        [
+          "/wiki/Club_Cipolletti"
+        ]
+      ],
+      [
+        "Cipolletti",
+        [
+          "/wiki/Cipolletti"
+        ]
+      ],
+      [
+        "Río Negro",
+        [
+          "/wiki/Río_Negro_Province"
+        ]
+      ],
+      [
+        "La Visera de Cemento",
+        []
+      ]
+    ],
+    [
+      [
+        "Deportivo Madryn",
+        [
+          "/wiki/Deportivo_Madryn"
+        ]
+      ],
+      [
+        "Puerto Madryn",
+        [
+          "/wiki/Puerto_Madryn"
+        ]
+      ],
+      [
+        "Chubut",
+        [
+          "/wiki/Chubut_Province"
+        ]
+      ],
+      [
+        "Coliseo del Golfo",
+        []
+      ]
+    ],
+    [
+      [
+        "Deportivo Roca",
+        [
+          "/wiki/Deportivo_Roca"
+        ]
+      ],
+      [
+        "General Roca",
+        [
+          "/wiki/General_Roca_(Río_Negro)"
+        ]
+      ],
+      [
+        "Río Negro",
+        [
+          "/wiki/Río_Negro_Province"
+        ]
+      ],
+      [
+        "Luis Maiolino",
+        []
+      ]
+    ],
+    [
+      [
+        "Ferro Carril Oeste",
+        []
+      ],
+      [
+        "General Pico",
+        [
+          "/wiki/General_Pico"
+        ]
+      ],
+      [
+        "La Pampa",
+        [
+          "/wiki/La_Pampa_Province"
+        ]
+      ],
+      [
+        "El Coloso del Barrio Talleres",
+        []
+      ]
+    ],
+    [
+      [
+        "Independiente",
+        [
+          "/wiki/Independiente_de_Neuquén"
+        ]
+      ],
+      [
+        "Neuquén",
+        [
+          "/wiki/Neuquén"
+        ]
+      ],
+      [
+        "Neuquén",
+        [
+          "/wiki/Neuquén_Province"
+        ]
+      ],
+      [
+        "José Rosas y Perito Moreno",
+        []
+      ]
+    ],
+    [
+      [
+        "Sansinena",
+        [
+          "/wiki/Club_Atlético_Sansinena_Social_y_Deportivo"
+        ]
+      ],
+      [
+        "General Cerri",
+        []
+      ],
+      [
+        "Buenos Aires",
+        [
+          "/wiki/Buenos_Aires_Province"
+        ]
+      ],
+      [
+        "Luis Molina",
+        []
+      ]
+    ],
+    [
+      [
+        "Sol de Mayo",
+        []
+      ],
+      [
+        "Viedma",
+        [
+          "/wiki/Viedma,_Río_Negro"
+        ]
+      ],
+      [
+        "Río Negro",
+        [
+          "/wiki/Río_Negro_Province"
+        ]
+      ],
+      [
+        "El Coliseo",
+        []
+      ]
+    ],
+    [
+      [
+        "Villa Mitre",
+        [
+          "/wiki/Club_Villa_Mitre"
+        ]
+      ],
+      [
+        "Bahía Blanca",
+        [
+          "/wiki/Bahía_Blanca"
+        ]
+      ],
+      [
+        "Buenos Aires",
+        [
+          "/wiki/Buenos_Aires_Province"
+        ]
+      ],
+      [
+        "El Fortín",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "603e5705-2f87-503b-b19a-ac353acd9ad8",
+    "table_id": "List_of_football_clubs_in_Argentina_6",
+    "title": "List of football clubs in Argentina",
+    "header": [
+      "Team",
+      "City",
+      "Province",
+      "Stadium"
+    ],
+    "value": [
+      [
+        [
+          "Alvarado",
+          [
+            "/wiki/Club_Atlético_Alvarado"
+          ]
+        ],
+        [
+          "Mar del Plata",
+          [
+            "/wiki/Mar_del_Plata"
+          ]
+        ],
+        [
+          "Buenos Aires",
+          [
+            "/wiki/Buenos_Aires_Province"
+          ]
+        ],
+        [
+          "( None )",
+          []
+        ]
+      ],
+      [
+        [
+          "Cipolletti",
+          [
+            "/wiki/Club_Cipolletti"
+          ]
+        ],
+        [
+          "Cipolletti",
+          [
+            "/wiki/Cipolletti"
+          ]
+        ],
+        [
+          "Río Negro",
+          [
+            "/wiki/Río_Negro_Province"
+          ]
+        ],
+        [
+          "La Visera de Cemento",
+          []
+        ]
+      ],
+      [
+        [
+          "Deportivo Madryn",
+          [
+            "/wiki/Deportivo_Madryn"
+          ]
+        ],
+        [
+          "Puerto Madryn",
+          [
+            "/wiki/Puerto_Madryn"
+          ]
+        ],
+        [
+          "Chubut",
+          [
+            "/wiki/Chubut_Province"
+          ]
+        ],
+        [
+          "Coliseo del Golfo",
+          []
+        ]
+      ],
+      [
+        [
+          "Deportivo Roca",
+          [
+            "/wiki/Deportivo_Roca"
+          ]
+        ],
+        [
+          "General Roca",
+          [
+            "/wiki/General_Roca_(Río_Negro)"
+          ]
+        ],
+        [
+          "Río Negro",
+          [
+            "/wiki/Río_Negro_Province"
+          ]
+        ],
+        [
+          "Luis Maiolino",
+          []
+        ]
+      ],
+      [
+        [
+          "Ferro Carril Oeste",
+          []
+        ],
+        [
+          "General Pico",
+          [
+            "/wiki/General_Pico"
+          ]
+        ],
+        [
+          "La Pampa",
+          [
+            "/wiki/La_Pampa_Province"
+          ]
+        ],
+        [
+          "El Coloso del Barrio Talleres",
+          []
+        ]
+      ],
+      [
+        [
+          "Independiente",
+          [
+            "/wiki/Independiente_de_Neuquén"
+          ]
+        ],
+        [
+          "Neuquén",
+          [
+            "/wiki/Neuquén"
+          ]
+        ],
+        [
+          "Neuquén",
+          [
+            "/wiki/Neuquén_Province"
+          ]
+        ],
+        [
+          "José Rosas y Perito Moreno",
+          []
+        ]
+      ],
+      [
+        [
+          "Sansinena",
+          [
+            "/wiki/Club_Atlético_Sansinena_Social_y_Deportivo"
+          ]
+        ],
+        [
+          "General Cerri",
+          []
+        ],
+        [
+          "Buenos Aires",
+          [
+            "/wiki/Buenos_Aires_Province"
+          ]
+        ],
+        [
+          "Luis Molina",
+          []
+        ]
+      ],
+      [
+        [
+          "Sol de Mayo",
+          []
+        ],
+        [
+          "Viedma",
+          [
+            "/wiki/Viedma,_Río_Negro"
+          ]
+        ],
+        [
+          "Río Negro",
+          [
+            "/wiki/Río_Negro_Province"
+          ]
+        ],
+        [
+          "El Coliseo",
+          []
+        ]
+      ],
+      [
+        [
+          "Villa Mitre",
+          [
+            "/wiki/Club_Villa_Mitre"
+          ]
+        ],
+        [
+          "Bahía Blanca",
+          [
+            "/wiki/Bahía_Blanca"
+          ]
+        ],
+        [
+          "Buenos Aires",
+          [
+            "/wiki/Buenos_Aires_Province"
+          ]
+        ],
+        [
+          "El Fortín",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about football clubs in Argentina, including their associated cities, provinces, and stadiums. It is designed to give an overview of the geographical and infrastructural context of these clubs.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "City",
+    "Province",
+    "Stadium"
+  ],
+  "entities": [
+    "Team"
+  ]
+}

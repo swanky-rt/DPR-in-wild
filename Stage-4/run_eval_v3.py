@@ -4,9 +4,11 @@ Metric computations match exactly the slide definitions:
 
 Slide 1/2 (SQL + Schema metrics):
   Coverage   = |tables_used ∩ ground_truth| / |ground_truth|
-  Complexity = mean(multi_table, join, agg, subquery, multi_entity)   [5 binary dims]
+  Complexity = mean(multi_table, join, agg, subquery, multi_entity, halstead_norm)
+               where halstead_norm = min(Halstead Volume / 200, 1.0)
   Diversity  = 1 - avg_cosine_sim(DPR_i, all other DPRs_i)
-  Surprisal  = -log P(tables_used) / log(|all_tables|)
+  Surprisal  = AutoDiscovery-style |1 - μ_prior| using final_summary as hypothesis;
+               frequency-based table-combo surprisal is retained as fallback when no LLM key is available
 
 Slide 2/2 (LLM-based metrics):
   Uniqueness    = 1 if no near-duplicate exists (cosine > 0.85), else 0
@@ -117,9 +119,9 @@ def compute_complexity_single(sql: str, dpr_text: str = "") -> tuple:
     breakdown["halstead_volume_raw"] = round(halstead_volume, 2)
     breakdown["halstead_norm"] = halstead_norm
 
-    # Combined score: mean of 5 binary dims + normalised Halstead
-    all_vals = list(breakdown.values())
-    # exclude halstead_volume_raw from mean (it's diagnostic only)
+    # Final complexity: mean of the 5 existing binary dimensions plus halstead_norm.
+    # multi_entity is intentionally retained because it captures DPR-level analytical breadth;
+    # halstead_volume_raw is diagnostic only and must not enter the normalized score.
     mean_vals = [v for k, v in breakdown.items() if k != "halstead_volume_raw"]
     score = round(float(np.mean(mean_vals)), 4)
     return score, breakdown
@@ -460,6 +462,9 @@ def run_pipeline(raw_data, output_dir, llm_api_key, llm_api_base, llm_model, top
     records = []
     for i, d in enumerate(raw_data):
         dpr_id           = str(d.get("dpr_id", ""))
+        query_id         = str(d.get("query_id", ""))
+        query_text       = d.get("query_text", "")
+        user_report      = d.get("user_report", {})
         dpr_text         = d.get("DPR", "")
         tables           = d.get("tables", [])
         ground_truth     = d.get("ground_truth", {}).get("table_uids", tables)
@@ -467,6 +472,9 @@ def run_pipeline(raw_data, output_dir, llm_api_key, llm_api_base, llm_model, top
         schema_mapping   = d.get("schema_mapping", {})
         final_summary    = d.get("final_summary", "")
         mini_summaries   = d.get("mini_summaries", [])
+        query_id         = d.get("query_id")
+        query_text       = d.get("query_text")
+        user_report      = d.get("user_report", {})
 
         coverage              = compute_coverage(subquery_results, ground_truth)
         complexity, cpx_breakdown = compute_complexity_dpr(subquery_results, dpr_text)
@@ -509,11 +517,17 @@ def run_pipeline(raw_data, output_dir, llm_api_key, llm_api_base, llm_model, top
         records.append({
             "dpr_id":        dpr_id,
             "dpr_text":      dpr_text,
+            "query_id":      query_id,
+            "query_text":    query_text,
+            "user_report":   user_report,
             "tables":        tables,
             "ground_truth":  ground_truth,
             "schema_mapping":schema_mapping,
             "final_summary": final_summary,
             "mini_summaries":mini_summaries,
+            "query_id":      query_id,
+            "query_text":    query_text,
+            "user_report":   user_report,
             "sub_evals":     sub_evals,
             "metrics": {
                 "coverage":                    coverage,
@@ -532,8 +546,12 @@ def run_pipeline(raw_data, output_dir, llm_api_key, llm_api_base, llm_model, top
     n     = len(records)
     texts = [r["dpr_text"] for r in records]
 
-    vect = TfidfVectorizer().fit(texts)
-    emb  = vect.transform(texts).toarray()
+    non_empty_texts = [t for t in texts if str(t).strip()]
+    if non_empty_texts:
+        vect = TfidfVectorizer().fit(texts)
+        emb  = vect.transform(texts).toarray()
+    else:
+        emb = np.zeros((n, 1))
 
     diversity_arr  = compute_diversity(emb)
     # per-DPR beta surprisal using final_summary as hypothesis
@@ -591,7 +609,7 @@ def run_pipeline(raw_data, output_dir, llm_api_key, llm_api_base, llm_model, top
             "weights_used":      WEIGHTS,
             "formulas": {
                 "coverage":   "|tables_used ∩ ground_truth| / |ground_truth|",
-                "complexity": "mean(multi_table, join, agg, subquery, multi_entity)",
+                "complexity": "mean(multi_table, join, agg, subquery, multi_entity, halstead_norm); halstead_norm = min(Halstead Volume / 200, 1.0)",
                 "diversity":  "1 - avg_cosine_sim(DPR_i, all other DPRs)",
                 "surprisal": "|1 - mu_prior|  where mu_prior = alpha/k, alpha = sum of LLM beliefs, k=5 samples",
                 "uniqueness": "1 if no near-duplicate (cosine > 0.85), else 0",
@@ -608,8 +626,14 @@ def run_pipeline(raw_data, output_dir, llm_api_key, llm_api_base, llm_model, top
             "dpr_id":         r["dpr_id"],
             "combined_score": r["combined_score"],
             "dpr_text":       r["dpr_text"],
+            "query_id":       r.get("query_id", ""),
+            "query_text":     r.get("query_text", ""),
+            "user_report":    r.get("user_report", {}),
             "tables_used":    r["tables"],
             "ground_truth":   r["ground_truth"],
+            "query_id":       r.get("query_id"),
+            "query_text":     r.get("query_text"),
+            "user_report":    r.get("user_report", {}),
             "summary_source": "stage3_output",
             "final_summary":  r["final_summary"],
             "metrics": {

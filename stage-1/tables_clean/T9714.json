@@ -1,0 +1,293 @@
+{
+  "table_id": "T9714",
+  "uid": "9ce6c707-a5d0-53ea-994e-76d75b7fa495",
+  "source": "HybridQA",
+  "source_table_id": "9ce6c707-a5d0-53ea-994e-76d75b7fa495",
+  "domain": "HybridQA",
+  "title": "Celia Kaye",
+  "columns": [
+    "Year",
+    "Film",
+    "Role"
+  ],
+  "rows": [
+    [
+      [
+        1964,
+        []
+      ],
+      [
+        "Island of the Blue Dolphins",
+        [
+          "/wiki/Island_of_the_Blue_Dolphins_(film)"
+        ]
+      ],
+      [
+        "Karana",
+        []
+      ]
+    ],
+    [
+      [
+        1965,
+        []
+      ],
+      [
+        "Wild Seed",
+        [
+          "/wiki/Wild_Seed_(film)"
+        ]
+      ],
+      [
+        "Daphne",
+        []
+      ]
+    ],
+    [
+      [
+        1965,
+        []
+      ],
+      [
+        "Fluffy",
+        [
+          "/wiki/Fluffy_(1965_film)"
+        ]
+      ],
+      [
+        "Sally Brighton",
+        []
+      ]
+    ],
+    [
+      [
+        1972,
+        []
+      ],
+      [
+        "The Final Comedown",
+        [
+          "/wiki/The_Final_Comedown"
+        ]
+      ],
+      [
+        "Rene Freeman",
+        []
+      ]
+    ],
+    [
+      [
+        1973,
+        []
+      ],
+      [
+        "Do n't Be Afraid of the Dark",
+        [
+          "/wiki/Don't_Be_Afraid_of_the_Dark_(1973_film)"
+        ]
+      ],
+      [
+        "Anne",
+        []
+      ]
+    ],
+    [
+      [
+        1976,
+        []
+      ],
+      [
+        "Rattlers",
+        [
+          "/wiki/Rattlers_(film)"
+        ]
+      ],
+      [
+        "Woman in Bathtub",
+        []
+      ]
+    ],
+    [
+      [
+        1978,
+        []
+      ],
+      [
+        "Big Wednesday",
+        [
+          "/wiki/Big_Wednesday"
+        ]
+      ],
+      [
+        "Bride of the Bear",
+        []
+      ]
+    ],
+    [
+      [
+        1982,
+        []
+      ],
+      [
+        "Conan the Barbarian",
+        [
+          "/wiki/Conan_the_Barbarian_(1982_film)"
+        ]
+      ],
+      [
+        "High Priestess",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "9ce6c707-a5d0-53ea-994e-76d75b7fa495",
+    "table_id": "Celia_Kaye_1",
+    "title": "Celia Kaye",
+    "header": [
+      "Year",
+      "Film",
+      "Role"
+    ],
+    "value": [
+      [
+        [
+          1964,
+          []
+        ],
+        [
+          "Island of the Blue Dolphins",
+          [
+            "/wiki/Island_of_the_Blue_Dolphins_(film)"
+          ]
+        ],
+        [
+          "Karana",
+          []
+        ]
+      ],
+      [
+        [
+          1965,
+          []
+        ],
+        [
+          "Wild Seed",
+          [
+            "/wiki/Wild_Seed_(film)"
+          ]
+        ],
+        [
+          "Daphne",
+          []
+        ]
+      ],
+      [
+        [
+          1965,
+          []
+        ],
+        [
+          "Fluffy",
+          [
+            "/wiki/Fluffy_(1965_film)"
+          ]
+        ],
+        [
+          "Sally Brighton",
+          []
+        ]
+      ],
+      [
+        [
+          1972,
+          []
+        ],
+        [
+          "The Final Comedown",
+          [
+            "/wiki/The_Final_Comedown"
+          ]
+        ],
+        [
+          "Rene Freeman",
+          []
+        ]
+      ],
+      [
+        [
+          1973,
+          []
+        ],
+        [
+          "Do n't Be Afraid of the Dark",
+          [
+            "/wiki/Don't_Be_Afraid_of_the_Dark_(1973_film)"
+          ]
+        ],
+        [
+          "Anne",
+          []
+        ]
+      ],
+      [
+        [
+          1976,
+          []
+        ],
+        [
+          "Rattlers",
+          [
+            "/wiki/Rattlers_(film)"
+          ]
+        ],
+        [
+          "Woman in Bathtub",
+          []
+        ]
+      ],
+      [
+        [
+          1978,
+          []
+        ],
+        [
+          "Big Wednesday",
+          [
+            "/wiki/Big_Wednesday"
+          ]
+        ],
+        [
+          "Bride of the Bear",
+          []
+        ]
+      ],
+      [
+        [
+          1982,
+          []
+        ],
+        [
+          "Conan the Barbarian",
+          [
+            "/wiki/Conan_the_Barbarian_(1982_film)"
+          ]
+        ],
+        [
+          "High Priestess",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about films and roles associated with Celia Kaye, including the year of release, the film title, and the character portrayed. It serves as a concise record of her contributions to cinema, useful for reference or analysis in the context of HybridQA.",
+  "numeric_columns": [
+    "Year"
+  ],
+  "categorical_columns": [
+    "Role"
+  ],
+  "entities": [
+    "Film"
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "table_id": "T1467",
+  "uid": "fc63b963-ae1d-5585-b078-1df9348ba6b1",
+  "source": "HybridQA",
+  "source_table_id": "fc63b963-ae1d-5585-b078-1df9348ba6b1",
+  "domain": "HybridQA",
+  "title": "2013 Atlantic Sun Conference men's soccer season",
+  "columns": [
+    "Team",
+    "Location",
+    "Stadium",
+    "Capacity"
+  ],
+  "rows": [
+    [
+      [
+        "East Tennessee State Buccaneers",
+        [
+          "/wiki/East_Tennessee_State_Buccaneers_men's_soccer"
+        ]
+      ],
+      [
+        "Johnson City , Tennessee",
+        [
+          "/wiki/Johnson_City,_Tennessee"
+        ]
+      ],
+      [
+        "Summers-Taylor Stadium",
+        [
+          "/wiki/Summers-Taylor_Stadium"
+        ]
+      ],
+      [
+        "2,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Florida Gulf Coast Eagles",
+        [
+          "/wiki/Florida_Gulf_Coast_Eagles_men's_soccer"
+        ]
+      ],
+      [
+        "Fort Myers , Florida",
+        [
+          "/wiki/Fort_Myers,_Florida"
+        ]
+      ],
+      [
+        "FGCU Soccer Complex",
+        [
+          "/wiki/FGCU_Soccer_Complex"
+        ]
+      ],
+      [
+        "1,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Jacksonville Dolphins",
+        [
+          "/wiki/Jacksonville_Dolphins_men's_soccer"
+        ]
+      ],
+      [
+        "Jacksonville , Florida",
+        [
+          "/wiki/Jacksonville,_Florida"
+        ]
+      ],
+      [
+        "Ashley Sports Complex",
+        []
+      ],
+      [
+        500,
+        []
+      ]
+    ],
+    [
+      [
+        "Lipscomb Bisons",
+        [
+          "/wiki/Lipscomb_Bisons_men's_soccer"
+        ]
+      ],
+      [
+        "Nashville , Tennessee",
+        [
+          "/wiki/Nashville,_Tennessee"
+        ]
+      ],
+      [
+        "Lipscomb Soccer Complex",
+        []
+      ],
+      [
+        250,
+        []
+      ]
+    ],
+    [
+      [
+        "Mercer Bears",
+        [
+          "/wiki/Mercer_Bears_men's_soccer"
+        ]
+      ],
+      [
+        "Macon , Georgia",
+        [
+          "/wiki/Macon,_Georgia"
+        ]
+      ],
+      [
+        "Bear Field",
+        [
+          "/wiki/Bear_Field"
+        ]
+      ],
+      [
+        300,
+        []
+      ]
+    ],
+    [
+      [
+        "North Florida Ospreys",
+        [
+          "/wiki/North_Florida_Ospreys_men's_soccer"
+        ]
+      ],
+      [
+        "Jacksonville , Florida",
+        []
+      ],
+      [
+        "Hodges Stadium",
+        [
+          "/wiki/Hodges_Stadium"
+        ]
+      ],
+      [
+        "9,400",
+        []
+      ]
+    ],
+    [
+      [
+        "Northern Kentucky Norse",
+        [
+          "/wiki/Northern_Kentucky_Norse_men's_soccer"
+        ]
+      ],
+      [
+        "Highland Heights , Kentucky",
+        [
+          "/wiki/Highland_Heights,_Kentucky"
+        ]
+      ],
+      [
+        "NKU Soccer Stadium",
+        []
+      ],
+      [
+        600,
+        []
+      ]
+    ],
+    [
+      [
+        "Stetson Hatters",
+        [
+          "/wiki/Stetson_Hatters_men's_soccer"
+        ]
+      ],
+      [
+        "DeLand , Florida",
+        [
+          "/wiki/DeLand,_Florida"
+        ]
+      ],
+      [
+        "Stetson Soccer Field",
+        []
+      ],
+      [
+        900,
+        []
+      ]
+    ],
+    [
+      [
+        "South Carolina Upstate Spartans",
+        [
+          "/wiki/South_Carolina_Upstate_Spartans_men's_soccer"
+        ]
+      ],
+      [
+        "Spartanburg , South Carolina",
+        [
+          "/wiki/Spartanburg,_South_Carolina"
+        ]
+      ],
+      [
+        "County University Soccer Stadium",
+        []
+      ],
+      [
+        "3,000",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "fc63b963-ae1d-5585-b078-1df9348ba6b1",
+    "table_id": "2013_Atlantic_Sun_Conference_men's_soccer_season_0",
+    "title": "2013 Atlantic Sun Conference men's soccer season",
+    "header": [
+      "Team",
+      "Location",
+      "Stadium",
+      "Capacity"
+    ],
+    "value": [
+      [
+        [
+          "East Tennessee State Buccaneers",
+          [
+            "/wiki/East_Tennessee_State_Buccaneers_men's_soccer"
+          ]
+        ],
+        [
+          "Johnson City , Tennessee",
+          [
+            "/wiki/Johnson_City,_Tennessee"
+          ]
+        ],
+        [
+          "Summers-Taylor Stadium",
+          [
+            "/wiki/Summers-Taylor_Stadium"
+          ]
+        ],
+        [
+          "2,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Florida Gulf Coast Eagles",
+          [
+            "/wiki/Florida_Gulf_Coast_Eagles_men's_soccer"
+          ]
+        ],
+        [
+          "Fort Myers , Florida",
+          [
+            "/wiki/Fort_Myers,_Florida"
+          ]
+        ],
+        [
+          "FGCU Soccer Complex",
+          [
+            "/wiki/FGCU_Soccer_Complex"
+          ]
+        ],
+        [
+          "1,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Jacksonville Dolphins",
+          [
+            "/wiki/Jacksonville_Dolphins_men's_soccer"
+          ]
+        ],
+        [
+          "Jacksonville , Florida",
+          [
+            "/wiki/Jacksonville,_Florida"
+          ]
+        ],
+        [
+          "Ashley Sports Complex",
+          []
+        ],
+        [
+          500,
+          []
+        ]
+      ],
+      [
+        [
+          "Lipscomb Bisons",
+          [
+            "/wiki/Lipscomb_Bisons_men's_soccer"
+          ]
+        ],
+        [
+          "Nashville , Tennessee",
+          [
+            "/wiki/Nashville,_Tennessee"
+          ]
+        ],
+        [
+          "Lipscomb Soccer Complex",
+          []
+        ],
+        [
+          250,
+          []
+        ]
+      ],
+      [
+        [
+          "Mercer Bears",
+          [
+            "/wiki/Mercer_Bears_men's_soccer"
+          ]
+        ],
+        [
+          "Macon , Georgia",
+          [
+            "/wiki/Macon,_Georgia"
+          ]
+        ],
+        [
+          "Bear Field",
+          [
+            "/wiki/Bear_Field"
+          ]
+        ],
+        [
+          300,
+          []
+        ]
+      ],
+      [
+        [
+          "North Florida Ospreys",
+          [
+            "/wiki/North_Florida_Ospreys_men's_soccer"
+          ]
+        ],
+        [
+          "Jacksonville , Florida",
+          []
+        ],
+        [
+          "Hodges Stadium",
+          [
+            "/wiki/Hodges_Stadium"
+          ]
+        ],
+        [
+          "9,400",
+          []
+        ]
+      ],
+      [
+        [
+          "Northern Kentucky Norse",
+          [
+            "/wiki/Northern_Kentucky_Norse_men's_soccer"
+          ]
+        ],
+        [
+          "Highland Heights , Kentucky",
+          [
+            "/wiki/Highland_Heights,_Kentucky"
+          ]
+        ],
+        [
+          "NKU Soccer Stadium",
+          []
+        ],
+        [
+          600,
+          []
+        ]
+      ],
+      [
+        [
+          "Stetson Hatters",
+          [
+            "/wiki/Stetson_Hatters_men's_soccer"
+          ]
+        ],
+        [
+          "DeLand , Florida",
+          [
+            "/wiki/DeLand,_Florida"
+          ]
+        ],
+        [
+          "Stetson Soccer Field",
+          []
+        ],
+        [
+          900,
+          []
+        ]
+      ],
+      [
+        [
+          "South Carolina Upstate Spartans",
+          [
+            "/wiki/South_Carolina_Upstate_Spartans_men's_soccer"
+          ]
+        ],
+        [
+          "Spartanburg , South Carolina",
+          [
+            "/wiki/Spartanburg,_South_Carolina"
+          ]
+        ],
+        [
+          "County University Soccer Stadium",
+          []
+        ],
+        [
+          "3,000",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about teams participating in the 2013 Atlantic Sun Conference men's soccer season, including their locations, stadiums, and seating capacities. It serves as a reference for understanding the geographic and infrastructural details of the conference teams.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "Team",
+    "Location",
+    "Stadium"
+  ],
+  "entities": [
+    "Team",
+    "Location",
+    "Stadium"
+  ]
+}

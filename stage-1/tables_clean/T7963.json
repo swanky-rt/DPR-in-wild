@@ -1,0 +1,240 @@
+{
+  "table_id": "T7963",
+  "uid": "6a204aea-1038-5595-84fd-21c96b629047",
+  "source": "HybridQA",
+  "source_table_id": "6a204aea-1038-5595-84fd-21c96b629047",
+  "domain": "HybridQA",
+  "title": "List of bus transit systems in the United States",
+  "columns": [
+    "System",
+    "Locale",
+    "Major city ( s )"
+  ],
+  "rows": [
+    [
+      [
+        "Bettendorf Transit",
+        [
+          "/wiki/Bettendorf_Transit"
+        ]
+      ],
+      [
+        "Scott County",
+        [
+          "/wiki/Scott_County,_Iowa"
+        ]
+      ],
+      [
+        "Bettendorf",
+        [
+          "/wiki/Bettendorf,_Iowa"
+        ]
+      ]
+    ],
+    [
+      [
+        "Cambus",
+        [
+          "/wiki/Cambus"
+        ]
+      ],
+      [
+        "Iowa City and the University of Iowa",
+        [
+          "/wiki/Iowa_City,_Iowa",
+          "/wiki/University_of_Iowa"
+        ]
+      ],
+      [
+        "Iowa City",
+        [
+          "/wiki/Iowa_City,_Iowa"
+        ]
+      ]
+    ],
+    [
+      [
+        "CyRide",
+        [
+          "/wiki/CyRide"
+        ]
+      ],
+      [
+        "Ames and Iowa State University",
+        [
+          "/wiki/Ames,_Iowa",
+          "/wiki/Iowa_State_University"
+        ]
+      ],
+      [
+        "Ames",
+        [
+          "/wiki/Ames,_Iowa"
+        ]
+      ]
+    ],
+    [
+      [
+        "Des Moines Area Regional Transit ( DART )",
+        [
+          "/wiki/Des_Moines_Area_Regional_Transit"
+        ]
+      ],
+      [
+        "Polk County",
+        [
+          "/wiki/Polk_County,_Iowa"
+        ]
+      ],
+      [
+        "Des Moines",
+        [
+          "/wiki/Des_Moines,_Iowa"
+        ]
+      ]
+    ],
+    [
+      [
+        "Sioux City Transit",
+        [
+          "/wiki/Sioux_City_Transit"
+        ]
+      ],
+      [
+        "Sioux City , Iowa",
+        [
+          "/wiki/Sioux_City,_Iowa"
+        ]
+      ],
+      [
+        "Sioux City , Iowa",
+        [
+          "/wiki/Sioux_City,_Iowa"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "6a204aea-1038-5595-84fd-21c96b629047",
+    "table_id": "List_of_bus_transit_systems_in_the_United_States_15",
+    "title": "List of bus transit systems in the United States",
+    "header": [
+      "System",
+      "Locale",
+      "Major city ( s )"
+    ],
+    "value": [
+      [
+        [
+          "Bettendorf Transit",
+          [
+            "/wiki/Bettendorf_Transit"
+          ]
+        ],
+        [
+          "Scott County",
+          [
+            "/wiki/Scott_County,_Iowa"
+          ]
+        ],
+        [
+          "Bettendorf",
+          [
+            "/wiki/Bettendorf,_Iowa"
+          ]
+        ]
+      ],
+      [
+        [
+          "Cambus",
+          [
+            "/wiki/Cambus"
+          ]
+        ],
+        [
+          "Iowa City and the University of Iowa",
+          [
+            "/wiki/Iowa_City,_Iowa",
+            "/wiki/University_of_Iowa"
+          ]
+        ],
+        [
+          "Iowa City",
+          [
+            "/wiki/Iowa_City,_Iowa"
+          ]
+        ]
+      ],
+      [
+        [
+          "CyRide",
+          [
+            "/wiki/CyRide"
+          ]
+        ],
+        [
+          "Ames and Iowa State University",
+          [
+            "/wiki/Ames,_Iowa",
+            "/wiki/Iowa_State_University"
+          ]
+        ],
+        [
+          "Ames",
+          [
+            "/wiki/Ames,_Iowa"
+          ]
+        ]
+      ],
+      [
+        [
+          "Des Moines Area Regional Transit ( DART )",
+          [
+            "/wiki/Des_Moines_Area_Regional_Transit"
+          ]
+        ],
+        [
+          "Polk County",
+          [
+            "/wiki/Polk_County,_Iowa"
+          ]
+        ],
+        [
+          "Des Moines",
+          [
+            "/wiki/Des_Moines,_Iowa"
+          ]
+        ]
+      ],
+      [
+        [
+          "Sioux City Transit",
+          [
+            "/wiki/Sioux_City_Transit"
+          ]
+        ],
+        [
+          "Sioux City , Iowa",
+          [
+            "/wiki/Sioux_City,_Iowa"
+          ]
+        ],
+        [
+          "Sioux City , Iowa",
+          [
+            "/wiki/Sioux_City,_Iowa"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about bus transit systems in the United States, including their names, the locales they serve, and major cities associated with them. It is intended to offer a high-level overview of public transportation networks in various regions. The table categorizes systems based on their geographic and operational context.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Locale"
+  ],
+  "entities": [
+    "System",
+    "Major city ( s )"
+  ]
+}

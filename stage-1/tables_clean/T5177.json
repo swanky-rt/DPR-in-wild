@@ -1,0 +1,643 @@
+{
+  "table_id": "T5177",
+  "uid": "05b42154-15fc-5de1-9194-fd579b4f0c80",
+  "source": "HybridQA",
+  "source_table_id": "05b42154-15fc-5de1-9194-fd579b4f0c80",
+  "domain": "HybridQA",
+  "title": "WC postcode area",
+  "columns": [
+    "Postcode district",
+    "Post town",
+    "Coverage",
+    "Local authority area"
+  ],
+  "rows": [
+    [
+      [
+        "WC1A",
+        []
+      ],
+      [
+        "LONDON",
+        []
+      ],
+      [
+        "New Oxford Street",
+        [
+          "/wiki/New_Oxford_Street"
+        ]
+      ],
+      [
+        "Camden",
+        [
+          "/wiki/London_Borough_of_Camden"
+        ]
+      ]
+    ],
+    [
+      [
+        "WC1B",
+        []
+      ],
+      [
+        "LONDON",
+        []
+      ],
+      [
+        "Bloomsbury , British Museum , Southampton Row",
+        [
+          "/wiki/Bloomsbury",
+          "/wiki/British_Museum",
+          "/wiki/Southampton_Row"
+        ]
+      ],
+      [
+        "Camden",
+        []
+      ]
+    ],
+    [
+      [
+        "WC1E",
+        []
+      ],
+      [
+        "LONDON",
+        []
+      ],
+      [
+        "University College London , SOAS",
+        [
+          "/wiki/University_College_London",
+          "/wiki/SOAS,_University_of_London"
+        ]
+      ],
+      [
+        "Camden",
+        []
+      ]
+    ],
+    [
+      [
+        "WC1H",
+        []
+      ],
+      [
+        "LONDON",
+        []
+      ],
+      [
+        "St Pancras , UCL Institute of Education",
+        [
+          "/wiki/St_Pancras,_London",
+          "/wiki/UCL_Institute_of_Education"
+        ]
+      ],
+      [
+        "Camden",
+        []
+      ]
+    ],
+    [
+      [
+        "WC1N",
+        []
+      ],
+      [
+        "LONDON",
+        []
+      ],
+      [
+        "Russell Square , Great Ormond Street",
+        [
+          "/wiki/Russell_Square",
+          "/wiki/Great_Ormond_Street_Hospital"
+        ]
+      ],
+      [
+        "Camden",
+        []
+      ]
+    ],
+    [
+      [
+        "WC1R",
+        []
+      ],
+      [
+        "LONDON",
+        []
+      ],
+      [
+        "Gray 's Inn",
+        [
+          "/wiki/Gray's_Inn"
+        ]
+      ],
+      [
+        "Camden",
+        []
+      ]
+    ],
+    [
+      [
+        "WC1V",
+        []
+      ],
+      [
+        "LONDON",
+        []
+      ],
+      [
+        "High Holborn",
+        [
+          "/wiki/High_Holborn"
+        ]
+      ],
+      [
+        "Camden , City of London",
+        [
+          "/wiki/City_of_London"
+        ]
+      ]
+    ],
+    [
+      [
+        "WC1X",
+        []
+      ],
+      [
+        "LONDON",
+        []
+      ],
+      [
+        "Kings Cross , Finsbury ( west ) , Clerkenwell ( north )",
+        [
+          "/wiki/Kings_Cross,_London",
+          "/wiki/Finsbury",
+          "/wiki/Clerkenwell"
+        ]
+      ],
+      [
+        "Camden , Islington",
+        [
+          "/wiki/London_Borough_of_Islington"
+        ]
+      ]
+    ],
+    [
+      [
+        "WC2A",
+        []
+      ],
+      [
+        "LONDON",
+        []
+      ],
+      [
+        "Lincoln 's Inn Fields , Royal Courts of Justice , Chancery Lane",
+        [
+          "/wiki/Lincoln's_Inn_Fields",
+          "/wiki/Royal_Courts_of_Justice",
+          "/wiki/Chancery_Lane"
+        ]
+      ],
+      [
+        "Camden , Westminster , City of London",
+        [
+          "/wiki/City_of_Westminster"
+        ]
+      ]
+    ],
+    [
+      [
+        "WC2B",
+        []
+      ],
+      [
+        "LONDON",
+        []
+      ],
+      [
+        "Drury Lane , Kingsway , Aldwych",
+        [
+          "/wiki/Drury_Lane",
+          "/wiki/Kingsway,_London",
+          "/wiki/Aldwych"
+        ]
+      ],
+      [
+        "Camden , Westminster",
+        []
+      ]
+    ],
+    [
+      [
+        "WC2E",
+        []
+      ],
+      [
+        "LONDON",
+        []
+      ],
+      [
+        "Covent Garden",
+        [
+          "/wiki/Covent_Garden"
+        ]
+      ],
+      [
+        "Westminster",
+        []
+      ]
+    ],
+    [
+      [
+        "WC2H",
+        []
+      ],
+      [
+        "LONDON",
+        []
+      ],
+      [
+        "Leicester Square , St. Giles",
+        [
+          "/wiki/Leicester_Square",
+          "/wiki/St_Giles,_London"
+        ]
+      ],
+      [
+        "Camden , Westminster",
+        []
+      ]
+    ],
+    [
+      [
+        "WC2N",
+        []
+      ],
+      [
+        "LONDON",
+        []
+      ],
+      [
+        "Charing Cross",
+        [
+          "/wiki/Charing_Cross"
+        ]
+      ],
+      [
+        "Westminster",
+        []
+      ]
+    ],
+    [
+      [
+        "WC2R",
+        []
+      ],
+      [
+        "LONDON",
+        []
+      ],
+      [
+        "Somerset House , Temple ( west )",
+        [
+          "/wiki/Somerset_House",
+          "/wiki/Temple,_London"
+        ]
+      ],
+      [
+        "Westminster",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "05b42154-15fc-5de1-9194-fd579b4f0c80",
+    "table_id": "WC_postcode_area_0",
+    "title": "WC postcode area",
+    "header": [
+      "Postcode district",
+      "Post town",
+      "Coverage",
+      "Local authority area"
+    ],
+    "value": [
+      [
+        [
+          "WC1A",
+          []
+        ],
+        [
+          "LONDON",
+          []
+        ],
+        [
+          "New Oxford Street",
+          [
+            "/wiki/New_Oxford_Street"
+          ]
+        ],
+        [
+          "Camden",
+          [
+            "/wiki/London_Borough_of_Camden"
+          ]
+        ]
+      ],
+      [
+        [
+          "WC1B",
+          []
+        ],
+        [
+          "LONDON",
+          []
+        ],
+        [
+          "Bloomsbury , British Museum , Southampton Row",
+          [
+            "/wiki/Bloomsbury",
+            "/wiki/British_Museum",
+            "/wiki/Southampton_Row"
+          ]
+        ],
+        [
+          "Camden",
+          []
+        ]
+      ],
+      [
+        [
+          "WC1E",
+          []
+        ],
+        [
+          "LONDON",
+          []
+        ],
+        [
+          "University College London , SOAS",
+          [
+            "/wiki/University_College_London",
+            "/wiki/SOAS,_University_of_London"
+          ]
+        ],
+        [
+          "Camden",
+          []
+        ]
+      ],
+      [
+        [
+          "WC1H",
+          []
+        ],
+        [
+          "LONDON",
+          []
+        ],
+        [
+          "St Pancras , UCL Institute of Education",
+          [
+            "/wiki/St_Pancras,_London",
+            "/wiki/UCL_Institute_of_Education"
+          ]
+        ],
+        [
+          "Camden",
+          []
+        ]
+      ],
+      [
+        [
+          "WC1N",
+          []
+        ],
+        [
+          "LONDON",
+          []
+        ],
+        [
+          "Russell Square , Great Ormond Street",
+          [
+            "/wiki/Russell_Square",
+            "/wiki/Great_Ormond_Street_Hospital"
+          ]
+        ],
+        [
+          "Camden",
+          []
+        ]
+      ],
+      [
+        [
+          "WC1R",
+          []
+        ],
+        [
+          "LONDON",
+          []
+        ],
+        [
+          "Gray 's Inn",
+          [
+            "/wiki/Gray's_Inn"
+          ]
+        ],
+        [
+          "Camden",
+          []
+        ]
+      ],
+      [
+        [
+          "WC1V",
+          []
+        ],
+        [
+          "LONDON",
+          []
+        ],
+        [
+          "High Holborn",
+          [
+            "/wiki/High_Holborn"
+          ]
+        ],
+        [
+          "Camden , City of London",
+          [
+            "/wiki/City_of_London"
+          ]
+        ]
+      ],
+      [
+        [
+          "WC1X",
+          []
+        ],
+        [
+          "LONDON",
+          []
+        ],
+        [
+          "Kings Cross , Finsbury ( west ) , Clerkenwell ( north )",
+          [
+            "/wiki/Kings_Cross,_London",
+            "/wiki/Finsbury",
+            "/wiki/Clerkenwell"
+          ]
+        ],
+        [
+          "Camden , Islington",
+          [
+            "/wiki/London_Borough_of_Islington"
+          ]
+        ]
+      ],
+      [
+        [
+          "WC2A",
+          []
+        ],
+        [
+          "LONDON",
+          []
+        ],
+        [
+          "Lincoln 's Inn Fields , Royal Courts of Justice , Chancery Lane",
+          [
+            "/wiki/Lincoln's_Inn_Fields",
+            "/wiki/Royal_Courts_of_Justice",
+            "/wiki/Chancery_Lane"
+          ]
+        ],
+        [
+          "Camden , Westminster , City of London",
+          [
+            "/wiki/City_of_Westminster"
+          ]
+        ]
+      ],
+      [
+        [
+          "WC2B",
+          []
+        ],
+        [
+          "LONDON",
+          []
+        ],
+        [
+          "Drury Lane , Kingsway , Aldwych",
+          [
+            "/wiki/Drury_Lane",
+            "/wiki/Kingsway,_London",
+            "/wiki/Aldwych"
+          ]
+        ],
+        [
+          "Camden , Westminster",
+          []
+        ]
+      ],
+      [
+        [
+          "WC2E",
+          []
+        ],
+        [
+          "LONDON",
+          []
+        ],
+        [
+          "Covent Garden",
+          [
+            "/wiki/Covent_Garden"
+          ]
+        ],
+        [
+          "Westminster",
+          []
+        ]
+      ],
+      [
+        [
+          "WC2H",
+          []
+        ],
+        [
+          "LONDON",
+          []
+        ],
+        [
+          "Leicester Square , St. Giles",
+          [
+            "/wiki/Leicester_Square",
+            "/wiki/St_Giles,_London"
+          ]
+        ],
+        [
+          "Camden , Westminster",
+          []
+        ]
+      ],
+      [
+        [
+          "WC2N",
+          []
+        ],
+        [
+          "LONDON",
+          []
+        ],
+        [
+          "Charing Cross",
+          [
+            "/wiki/Charing_Cross"
+          ]
+        ],
+        [
+          "Westminster",
+          []
+        ]
+      ],
+      [
+        [
+          "WC2R",
+          []
+        ],
+        [
+          "LONDON",
+          []
+        ],
+        [
+          "Somerset House , Temple ( west )",
+          [
+            "/wiki/Somerset_House",
+            "/wiki/Temple,_London"
+          ]
+        ],
+        [
+          "Westminster",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about postcode districts within the WC area, including their associated post towns, coverage areas, and local authority jurisdictions. It is designed to outline geographical and administrative details relevant to these districts. The table is useful for understanding the spatial organization and governance of the WC postcode area.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Postcode district",
+    "Post town",
+    "Coverage",
+    "Local authority area"
+  ],
+  "entities": [
+    "Coverage",
+    "Local authority area"
+  ]
+}

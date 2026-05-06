@@ -1,0 +1,525 @@
+{
+  "table_id": "T933",
+  "uid": "626e04bc-6895-5abb-b4cb-36d49d2edc08",
+  "source": "HybridQA",
+  "source_table_id": "626e04bc-6895-5abb-b4cb-36d49d2edc08",
+  "domain": "HybridQA",
+  "title": "1961 Major League Baseball expansion draft",
+  "columns": [
+    "Pick",
+    "Player",
+    "Position",
+    "Selected by",
+    "Previous team"
+  ],
+  "rows": [
+    [
+      [
+        38,
+        []
+      ],
+      [
+        "Joe Amalfitano",
+        [
+          "/wiki/Joe_Amalfitano"
+        ]
+      ],
+      [
+        "IF",
+        [
+          "/wiki/Infielder"
+        ]
+      ],
+      [
+        "Houston Colt .45s",
+        [
+          "/wiki/Houston_Colt_.45s"
+        ]
+      ],
+      [
+        "San Francisco Giants",
+        [
+          "/wiki/San_Francisco_Giants"
+        ]
+      ]
+    ],
+    [
+      [
+        39,
+        []
+      ],
+      [
+        "Jay Hook",
+        [
+          "/wiki/Jay_Hook"
+        ]
+      ],
+      [
+        "P",
+        [
+          "/wiki/Pitcher"
+        ]
+      ],
+      [
+        "New York Mets",
+        [
+          "/wiki/New_York_Mets"
+        ]
+      ],
+      [
+        "Cincinnati Reds",
+        [
+          "/wiki/Cincinnati_Reds"
+        ]
+      ]
+    ],
+    [
+      [
+        40,
+        []
+      ],
+      [
+        "Turk Farrell",
+        [
+          "/wiki/Turk_Farrell"
+        ]
+      ],
+      [
+        "P",
+        [
+          "/wiki/Pitcher"
+        ]
+      ],
+      [
+        "Houston Colt .45s",
+        [
+          "/wiki/Houston_Colt_.45s"
+        ]
+      ],
+      [
+        "Los Angeles Dodgers",
+        [
+          "/wiki/Los_Angeles_Dodgers"
+        ]
+      ]
+    ],
+    [
+      [
+        41,
+        []
+      ],
+      [
+        "Bob Miller",
+        [
+          "/wiki/Bob_Miller_(1960s_pitcher)"
+        ]
+      ],
+      [
+        "P",
+        [
+          "/wiki/Pitcher"
+        ]
+      ],
+      [
+        "New York Mets",
+        [
+          "/wiki/New_York_Mets"
+        ]
+      ],
+      [
+        "St. Louis Cardinals",
+        [
+          "/wiki/St._Louis_Cardinals"
+        ]
+      ]
+    ],
+    [
+      [
+        42,
+        []
+      ],
+      [
+        "Hal Smith",
+        [
+          "/wiki/Hal_Smith_(MLB_utility_player)"
+        ]
+      ],
+      [
+        "C",
+        [
+          "/wiki/Catcher"
+        ]
+      ],
+      [
+        "Houston Colt .45s",
+        [
+          "/wiki/Houston_Colt_.45s"
+        ]
+      ],
+      [
+        "Pittsburgh Pirates",
+        [
+          "/wiki/Pittsburgh_Pirates"
+        ]
+      ]
+    ],
+    [
+      [
+        43,
+        []
+      ],
+      [
+        "Don Zimmer *",
+        [
+          "/wiki/Don_Zimmer"
+        ]
+      ],
+      [
+        "IF",
+        [
+          "/wiki/Infielder"
+        ]
+      ],
+      [
+        "New York Mets",
+        [
+          "/wiki/New_York_Mets"
+        ]
+      ],
+      [
+        "Chicago Cubs",
+        [
+          "/wiki/Chicago_Cubs"
+        ]
+      ]
+    ],
+    [
+      [
+        44,
+        []
+      ],
+      [
+        "Al Spangler",
+        [
+          "/wiki/Al_Spangler"
+        ]
+      ],
+      [
+        "OF",
+        [
+          "/wiki/Outfielder"
+        ]
+      ],
+      [
+        "Houston Colt .45s",
+        [
+          "/wiki/Houston_Colt_.45s"
+        ]
+      ],
+      [
+        "Milwaukee Braves",
+        [
+          "/wiki/Milwaukee_Braves"
+        ]
+      ]
+    ],
+    [
+      [
+        45,
+        []
+      ],
+      [
+        "Lee Walls *",
+        [
+          "/wiki/Lee_Walls"
+        ]
+      ],
+      [
+        "IF / OF",
+        [
+          "/wiki/Infielder",
+          "/wiki/Outfielder"
+        ]
+      ],
+      [
+        "New York Mets",
+        [
+          "/wiki/New_York_Mets"
+        ]
+      ],
+      [
+        "Philadelphia Phillies",
+        [
+          "/wiki/Philadelphia_Phillies"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "626e04bc-6895-5abb-b4cb-36d49d2edc08",
+    "table_id": "1961_Major_League_Baseball_expansion_draft_2",
+    "title": "1961 Major League Baseball expansion draft",
+    "header": [
+      "Pick",
+      "Player",
+      "Position",
+      "Selected by",
+      "Previous team"
+    ],
+    "value": [
+      [
+        [
+          38,
+          []
+        ],
+        [
+          "Joe Amalfitano",
+          [
+            "/wiki/Joe_Amalfitano"
+          ]
+        ],
+        [
+          "IF",
+          [
+            "/wiki/Infielder"
+          ]
+        ],
+        [
+          "Houston Colt .45s",
+          [
+            "/wiki/Houston_Colt_.45s"
+          ]
+        ],
+        [
+          "San Francisco Giants",
+          [
+            "/wiki/San_Francisco_Giants"
+          ]
+        ]
+      ],
+      [
+        [
+          39,
+          []
+        ],
+        [
+          "Jay Hook",
+          [
+            "/wiki/Jay_Hook"
+          ]
+        ],
+        [
+          "P",
+          [
+            "/wiki/Pitcher"
+          ]
+        ],
+        [
+          "New York Mets",
+          [
+            "/wiki/New_York_Mets"
+          ]
+        ],
+        [
+          "Cincinnati Reds",
+          [
+            "/wiki/Cincinnati_Reds"
+          ]
+        ]
+      ],
+      [
+        [
+          40,
+          []
+        ],
+        [
+          "Turk Farrell",
+          [
+            "/wiki/Turk_Farrell"
+          ]
+        ],
+        [
+          "P",
+          [
+            "/wiki/Pitcher"
+          ]
+        ],
+        [
+          "Houston Colt .45s",
+          [
+            "/wiki/Houston_Colt_.45s"
+          ]
+        ],
+        [
+          "Los Angeles Dodgers",
+          [
+            "/wiki/Los_Angeles_Dodgers"
+          ]
+        ]
+      ],
+      [
+        [
+          41,
+          []
+        ],
+        [
+          "Bob Miller",
+          [
+            "/wiki/Bob_Miller_(1960s_pitcher)"
+          ]
+        ],
+        [
+          "P",
+          [
+            "/wiki/Pitcher"
+          ]
+        ],
+        [
+          "New York Mets",
+          [
+            "/wiki/New_York_Mets"
+          ]
+        ],
+        [
+          "St. Louis Cardinals",
+          [
+            "/wiki/St._Louis_Cardinals"
+          ]
+        ]
+      ],
+      [
+        [
+          42,
+          []
+        ],
+        [
+          "Hal Smith",
+          [
+            "/wiki/Hal_Smith_(MLB_utility_player)"
+          ]
+        ],
+        [
+          "C",
+          [
+            "/wiki/Catcher"
+          ]
+        ],
+        [
+          "Houston Colt .45s",
+          [
+            "/wiki/Houston_Colt_.45s"
+          ]
+        ],
+        [
+          "Pittsburgh Pirates",
+          [
+            "/wiki/Pittsburgh_Pirates"
+          ]
+        ]
+      ],
+      [
+        [
+          43,
+          []
+        ],
+        [
+          "Don Zimmer *",
+          [
+            "/wiki/Don_Zimmer"
+          ]
+        ],
+        [
+          "IF",
+          [
+            "/wiki/Infielder"
+          ]
+        ],
+        [
+          "New York Mets",
+          [
+            "/wiki/New_York_Mets"
+          ]
+        ],
+        [
+          "Chicago Cubs",
+          [
+            "/wiki/Chicago_Cubs"
+          ]
+        ]
+      ],
+      [
+        [
+          44,
+          []
+        ],
+        [
+          "Al Spangler",
+          [
+            "/wiki/Al_Spangler"
+          ]
+        ],
+        [
+          "OF",
+          [
+            "/wiki/Outfielder"
+          ]
+        ],
+        [
+          "Houston Colt .45s",
+          [
+            "/wiki/Houston_Colt_.45s"
+          ]
+        ],
+        [
+          "Milwaukee Braves",
+          [
+            "/wiki/Milwaukee_Braves"
+          ]
+        ]
+      ],
+      [
+        [
+          45,
+          []
+        ],
+        [
+          "Lee Walls *",
+          [
+            "/wiki/Lee_Walls"
+          ]
+        ],
+        [
+          "IF / OF",
+          [
+            "/wiki/Infielder",
+            "/wiki/Outfielder"
+          ]
+        ],
+        [
+          "New York Mets",
+          [
+            "/wiki/New_York_Mets"
+          ]
+        ],
+        [
+          "Philadelphia Phillies",
+          [
+            "/wiki/Philadelphia_Phillies"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table documents the 1961 Major League Baseball expansion draft, detailing the players selected by new teams during the draft process. It includes information about the draft pick number, the players chosen, their positions, the teams that selected them, and their previous teams. The table serves as a historical record of the expansion draft and the redistribution of players to new franchises.",
+  "numeric_columns": [
+    "Pick"
+  ],
+  "categorical_columns": [
+    "Position",
+    "Selected by",
+    "Previous team"
+  ],
+  "entities": [
+    "Player"
+  ]
+}

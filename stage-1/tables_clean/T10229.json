@@ -1,0 +1,293 @@
+{
+  "table_id": "T10229",
+  "uid": "22fea1cf-e0a0-5da3-93ef-406232b3ce5e",
+  "source": "HybridQA",
+  "source_table_id": "22fea1cf-e0a0-5da3-93ef-406232b3ce5e",
+  "domain": "HybridQA",
+  "title": "1995 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Grigory Misutin ( UKR )",
+        [
+          "/wiki/Grigory_Misutin"
+        ]
+      ],
+      [
+        9.756,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Alexei Nemov ( RUS )",
+        [
+          "/wiki/Alexei_Nemov"
+        ]
+      ],
+      [
+        9.756,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Vitaly Scherbo ( BLR )",
+        [
+          "/wiki/Vitaly_Scherbo"
+        ]
+      ],
+      [
+        9.662,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Alexei Voropaev ( RUS )",
+        [
+          "/wiki/Alexei_Voropaev"
+        ]
+      ],
+      [
+        9.637,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Cristian Leric ( ROU )",
+        [
+          "/wiki/Cristian_Leric"
+        ]
+      ],
+      [
+        9.606,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Yeo Hong-Chul ( KOR )",
+        [
+          "/wiki/Yeo_Hong-Chul"
+        ]
+      ],
+      [
+        9.55,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Li Xiaoshuang ( CHN )",
+        [
+          "/wiki/Li_Xiaoshuang"
+        ]
+      ],
+      [
+        9.412,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Adrian Ianculescu ( ROU )",
+        [
+          "/wiki/Adrian_Ianculescu"
+        ]
+      ],
+      [
+        9.312,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "22fea1cf-e0a0-5da3-93ef-406232b3ce5e",
+    "table_id": "1995_World_Artistic_Gymnastics_Championships_4",
+    "title": "1995 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Grigory Misutin ( UKR )",
+          [
+            "/wiki/Grigory_Misutin"
+          ]
+        ],
+        [
+          9.756,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Alexei Nemov ( RUS )",
+          [
+            "/wiki/Alexei_Nemov"
+          ]
+        ],
+        [
+          9.756,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Vitaly Scherbo ( BLR )",
+          [
+            "/wiki/Vitaly_Scherbo"
+          ]
+        ],
+        [
+          9.662,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Alexei Voropaev ( RUS )",
+          [
+            "/wiki/Alexei_Voropaev"
+          ]
+        ],
+        [
+          9.637,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Cristian Leric ( ROU )",
+          [
+            "/wiki/Cristian_Leric"
+          ]
+        ],
+        [
+          9.606,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Yeo Hong-Chul ( KOR )",
+          [
+            "/wiki/Yeo_Hong-Chul"
+          ]
+        ],
+        [
+          9.55,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Li Xiaoshuang ( CHN )",
+          [
+            "/wiki/Li_Xiaoshuang"
+          ]
+        ],
+        [
+          9.412,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Adrian Ianculescu ( ROU )",
+          [
+            "/wiki/Adrian_Ianculescu"
+          ]
+        ],
+        [
+          9.312,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the rankings and scores of gymnasts at the 1995 World Artistic Gymnastics Championships. It includes details such as the rank, the name of the gymnast, and their total score. The table is likely used to summarize performance outcomes in the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

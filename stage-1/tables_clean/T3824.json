@@ -1,0 +1,511 @@
+{
+  "table_id": "T3824",
+  "uid": "933ed4db-2e8a-531f-9eb6-0c6b1d15fa7e",
+  "source": "HybridQA",
+  "source_table_id": "933ed4db-2e8a-531f-9eb6-0c6b1d15fa7e",
+  "domain": "HybridQA",
+  "title": "List of tallest buildings in South Korea",
+  "columns": [
+    "Name",
+    "Height m ( ft )",
+    "Floors",
+    "Period",
+    "City"
+  ],
+  "rows": [
+    [
+      [
+        "Central Government Complex Seoul",
+        [
+          "/wiki/Central_Government_Complex_(Seoul)"
+        ]
+      ],
+      [
+        "94 m ( 308 ft )",
+        []
+      ],
+      [
+        19,
+        []
+      ],
+      [
+        "1969-1971",
+        []
+      ],
+      [
+        "Seoul",
+        [
+          "/wiki/Seoul"
+        ]
+      ]
+    ],
+    [
+      [
+        "31 Building",
+        [
+          "/wiki/31_Building"
+        ]
+      ],
+      [
+        "114 m ( 374 ft )",
+        []
+      ],
+      [
+        31,
+        []
+      ],
+      [
+        "1971-1978",
+        []
+      ],
+      [
+        "Seoul",
+        [
+          "/wiki/Seoul"
+        ]
+      ]
+    ],
+    [
+      [
+        "Lotte Hotel Seoul",
+        [
+          "/wiki/Lotte_Hotel_Seoul"
+        ]
+      ],
+      [
+        "138 m ( 453 ft )",
+        []
+      ],
+      [
+        37,
+        []
+      ],
+      [
+        "1978-1983",
+        []
+      ],
+      [
+        "Seoul",
+        [
+          "/wiki/Seoul"
+        ]
+      ]
+    ],
+    [
+      [
+        "63 Building",
+        [
+          "/wiki/63_Building"
+        ]
+      ],
+      [
+        "249 m ( 817 ft )",
+        []
+      ],
+      [
+        61,
+        []
+      ],
+      [
+        "1983-2002",
+        []
+      ],
+      [
+        "Seoul",
+        [
+          "/wiki/Seoul"
+        ]
+      ]
+    ],
+    [
+      [
+        "Mok-dong Hyperion I Tower A",
+        [
+          "/wiki/Hyperion_Tower"
+        ]
+      ],
+      [
+        "256 m ( 840 ft )",
+        []
+      ],
+      [
+        69,
+        []
+      ],
+      [
+        "2002-2003",
+        []
+      ],
+      [
+        "Seoul",
+        [
+          "/wiki/Seoul"
+        ]
+      ]
+    ],
+    [
+      [
+        "Samsung Tower Palace 3 Tower G",
+        [
+          "/wiki/Samsung_Tower_Palace"
+        ]
+      ],
+      [
+        "264 m ( 866 ft )",
+        []
+      ],
+      [
+        69,
+        []
+      ],
+      [
+        "2003-2011",
+        []
+      ],
+      [
+        "Seoul",
+        [
+          "/wiki/Seoul"
+        ]
+      ]
+    ],
+    [
+      [
+        "Haeundae Doosan We 've the Zenith Tower A",
+        [
+          "/wiki/Haeundae_Doosan_We've_the_Zenith"
+        ]
+      ],
+      [
+        "300 m ( 980 ft )",
+        []
+      ],
+      [
+        80,
+        []
+      ],
+      [
+        "2011-2013",
+        []
+      ],
+      [
+        "Busan",
+        [
+          "/wiki/Busan"
+        ]
+      ]
+    ],
+    [
+      [
+        "Northeast Asia Trade Tower",
+        [
+          "/wiki/Northeast_Asia_Trade_Tower"
+        ]
+      ],
+      [
+        "305 m ( 1,001 ft )",
+        []
+      ],
+      [
+        68,
+        []
+      ],
+      [
+        "2013-2017",
+        []
+      ],
+      [
+        "Incheon",
+        [
+          "/wiki/Incheon"
+        ]
+      ]
+    ],
+    [
+      [
+        "Lotte World Tower",
+        [
+          "/wiki/Lotte_World_Tower"
+        ]
+      ],
+      [
+        "555 m ( 1,821 ft )",
+        []
+      ],
+      [
+        123,
+        []
+      ],
+      [
+        "2017-present",
+        []
+      ],
+      [
+        "Seoul",
+        [
+          "/wiki/Seoul"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "933ed4db-2e8a-531f-9eb6-0c6b1d15fa7e",
+    "table_id": "List_of_tallest_buildings_in_South_Korea_1",
+    "title": "List of tallest buildings in South Korea",
+    "header": [
+      "Name",
+      "Height m ( ft )",
+      "Floors",
+      "Period",
+      "City"
+    ],
+    "value": [
+      [
+        [
+          "Central Government Complex Seoul",
+          [
+            "/wiki/Central_Government_Complex_(Seoul)"
+          ]
+        ],
+        [
+          "94 m ( 308 ft )",
+          []
+        ],
+        [
+          19,
+          []
+        ],
+        [
+          "1969-1971",
+          []
+        ],
+        [
+          "Seoul",
+          [
+            "/wiki/Seoul"
+          ]
+        ]
+      ],
+      [
+        [
+          "31 Building",
+          [
+            "/wiki/31_Building"
+          ]
+        ],
+        [
+          "114 m ( 374 ft )",
+          []
+        ],
+        [
+          31,
+          []
+        ],
+        [
+          "1971-1978",
+          []
+        ],
+        [
+          "Seoul",
+          [
+            "/wiki/Seoul"
+          ]
+        ]
+      ],
+      [
+        [
+          "Lotte Hotel Seoul",
+          [
+            "/wiki/Lotte_Hotel_Seoul"
+          ]
+        ],
+        [
+          "138 m ( 453 ft )",
+          []
+        ],
+        [
+          37,
+          []
+        ],
+        [
+          "1978-1983",
+          []
+        ],
+        [
+          "Seoul",
+          [
+            "/wiki/Seoul"
+          ]
+        ]
+      ],
+      [
+        [
+          "63 Building",
+          [
+            "/wiki/63_Building"
+          ]
+        ],
+        [
+          "249 m ( 817 ft )",
+          []
+        ],
+        [
+          61,
+          []
+        ],
+        [
+          "1983-2002",
+          []
+        ],
+        [
+          "Seoul",
+          [
+            "/wiki/Seoul"
+          ]
+        ]
+      ],
+      [
+        [
+          "Mok-dong Hyperion I Tower A",
+          [
+            "/wiki/Hyperion_Tower"
+          ]
+        ],
+        [
+          "256 m ( 840 ft )",
+          []
+        ],
+        [
+          69,
+          []
+        ],
+        [
+          "2002-2003",
+          []
+        ],
+        [
+          "Seoul",
+          [
+            "/wiki/Seoul"
+          ]
+        ]
+      ],
+      [
+        [
+          "Samsung Tower Palace 3 Tower G",
+          [
+            "/wiki/Samsung_Tower_Palace"
+          ]
+        ],
+        [
+          "264 m ( 866 ft )",
+          []
+        ],
+        [
+          69,
+          []
+        ],
+        [
+          "2003-2011",
+          []
+        ],
+        [
+          "Seoul",
+          [
+            "/wiki/Seoul"
+          ]
+        ]
+      ],
+      [
+        [
+          "Haeundae Doosan We 've the Zenith Tower A",
+          [
+            "/wiki/Haeundae_Doosan_We've_the_Zenith"
+          ]
+        ],
+        [
+          "300 m ( 980 ft )",
+          []
+        ],
+        [
+          80,
+          []
+        ],
+        [
+          "2011-2013",
+          []
+        ],
+        [
+          "Busan",
+          [
+            "/wiki/Busan"
+          ]
+        ]
+      ],
+      [
+        [
+          "Northeast Asia Trade Tower",
+          [
+            "/wiki/Northeast_Asia_Trade_Tower"
+          ]
+        ],
+        [
+          "305 m ( 1,001 ft )",
+          []
+        ],
+        [
+          68,
+          []
+        ],
+        [
+          "2013-2017",
+          []
+        ],
+        [
+          "Incheon",
+          [
+            "/wiki/Incheon"
+          ]
+        ]
+      ],
+      [
+        [
+          "Lotte World Tower",
+          [
+            "/wiki/Lotte_World_Tower"
+          ]
+        ],
+        [
+          "555 m ( 1,821 ft )",
+          []
+        ],
+        [
+          123,
+          []
+        ],
+        [
+          "2017-present",
+          []
+        ],
+        [
+          "Seoul",
+          [
+            "/wiki/Seoul"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the tallest buildings in South Korea, including their names, heights, number of floors, operational periods, and locations. It serves as a reference for understanding the architectural and urban development of the country. The data highlights key attributes of these structures, such as their physical dimensions and geographical distribution.",
+  "numeric_columns": [
+    "Height m ( ft )",
+    "Floors"
+  ],
+  "categorical_columns": [
+    "Period"
+  ],
+  "entities": [
+    "Name",
+    "City"
+  ]
+}

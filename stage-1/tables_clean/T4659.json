@@ -1,0 +1,463 @@
+{
+  "table_id": "T4659",
+  "uid": "deede9c6-e40b-5bf2-8838-f1ae89c9c330",
+  "source": "HybridQA",
+  "source_table_id": "deede9c6-e40b-5bf2-8838-f1ae89c9c330",
+  "domain": "HybridQA",
+  "title": "NYPD Blue (season 3)",
+  "columns": [
+    "Actor",
+    "Character",
+    "Main cast",
+    "Recurring cast"
+  ],
+  "rows": [
+    [
+      [
+        "Jimmy Smits",
+        [
+          "/wiki/Jimmy_Smits"
+        ]
+      ],
+      [
+        "Bobby Simone",
+        [
+          "/wiki/Bobby_Simone"
+        ]
+      ],
+      [
+        "entire season",
+        []
+      ],
+      [
+        "N/A",
+        []
+      ]
+    ],
+    [
+      [
+        "Dennis Franz",
+        [
+          "/wiki/Dennis_Franz"
+        ]
+      ],
+      [
+        "Andy Sipowicz",
+        [
+          "/wiki/Andy_Sipowicz"
+        ]
+      ],
+      [
+        "entire season",
+        []
+      ],
+      [
+        "N/A",
+        []
+      ]
+    ],
+    [
+      [
+        "James McDaniel",
+        [
+          "/wiki/James_McDaniel"
+        ]
+      ],
+      [
+        "Arthur Fancy",
+        [
+          "/wiki/Arthur_Fancy"
+        ]
+      ],
+      [
+        "entire season",
+        []
+      ],
+      [
+        "N/A",
+        []
+      ]
+    ],
+    [
+      [
+        "Nicholas Turturro",
+        [
+          "/wiki/Nicholas_Turturro"
+        ]
+      ],
+      [
+        "James Martinez",
+        []
+      ],
+      [
+        "entire season",
+        []
+      ],
+      [
+        "N/A",
+        []
+      ]
+    ],
+    [
+      [
+        "Sharon Lawrence",
+        [
+          "/wiki/Sharon_Lawrence"
+        ]
+      ],
+      [
+        "Sylvia Costas",
+        [
+          "/wiki/Sylvia_Costas"
+        ]
+      ],
+      [
+        "entire season",
+        []
+      ],
+      [
+        "N/A",
+        []
+      ]
+    ],
+    [
+      [
+        "Gordon Clapp",
+        [
+          "/wiki/Gordon_Clapp"
+        ]
+      ],
+      [
+        "Greg Medavoy",
+        [
+          "/wiki/Greg_Medavoy"
+        ]
+      ],
+      [
+        "entire season",
+        []
+      ],
+      [
+        "N/A",
+        []
+      ]
+    ],
+    [
+      [
+        "Gail O'Grady",
+        [
+          "/wiki/Gail_O'Grady"
+        ]
+      ],
+      [
+        "Donna Abandando",
+        []
+      ],
+      [
+        "episodes 1-20",
+        []
+      ],
+      [
+        "N/A",
+        []
+      ]
+    ],
+    [
+      [
+        "Justine Miceli",
+        [
+          "/wiki/Justine_Miceli"
+        ]
+      ],
+      [
+        "Adrienne Lesniak",
+        []
+      ],
+      [
+        "entire season",
+        []
+      ],
+      [
+        "N/A",
+        []
+      ]
+    ],
+    [
+      [
+        "Kim Delaney",
+        [
+          "/wiki/Kim_Delaney"
+        ]
+      ],
+      [
+        "Diane Russell",
+        [
+          "/wiki/Diane_Russell_(NYPD_Blue)"
+        ]
+      ],
+      [
+        "entire season",
+        []
+      ],
+      [
+        "N/A",
+        []
+      ]
+    ],
+    [
+      [
+        "Bill Brochtrup",
+        [
+          "/wiki/Bill_Brochtrup"
+        ]
+      ],
+      [
+        "John Irvin",
+        []
+      ],
+      [
+        "N/A",
+        []
+      ],
+      [
+        "episodes 1,5,8,16,22",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "deede9c6-e40b-5bf2-8838-f1ae89c9c330",
+    "table_id": "NYPD_Blue_(season_3)_0",
+    "title": "NYPD Blue (season 3)",
+    "header": [
+      "Actor",
+      "Character",
+      "Main cast",
+      "Recurring cast"
+    ],
+    "value": [
+      [
+        [
+          "Jimmy Smits",
+          [
+            "/wiki/Jimmy_Smits"
+          ]
+        ],
+        [
+          "Bobby Simone",
+          [
+            "/wiki/Bobby_Simone"
+          ]
+        ],
+        [
+          "entire season",
+          []
+        ],
+        [
+          "N/A",
+          []
+        ]
+      ],
+      [
+        [
+          "Dennis Franz",
+          [
+            "/wiki/Dennis_Franz"
+          ]
+        ],
+        [
+          "Andy Sipowicz",
+          [
+            "/wiki/Andy_Sipowicz"
+          ]
+        ],
+        [
+          "entire season",
+          []
+        ],
+        [
+          "N/A",
+          []
+        ]
+      ],
+      [
+        [
+          "James McDaniel",
+          [
+            "/wiki/James_McDaniel"
+          ]
+        ],
+        [
+          "Arthur Fancy",
+          [
+            "/wiki/Arthur_Fancy"
+          ]
+        ],
+        [
+          "entire season",
+          []
+        ],
+        [
+          "N/A",
+          []
+        ]
+      ],
+      [
+        [
+          "Nicholas Turturro",
+          [
+            "/wiki/Nicholas_Turturro"
+          ]
+        ],
+        [
+          "James Martinez",
+          []
+        ],
+        [
+          "entire season",
+          []
+        ],
+        [
+          "N/A",
+          []
+        ]
+      ],
+      [
+        [
+          "Sharon Lawrence",
+          [
+            "/wiki/Sharon_Lawrence"
+          ]
+        ],
+        [
+          "Sylvia Costas",
+          [
+            "/wiki/Sylvia_Costas"
+          ]
+        ],
+        [
+          "entire season",
+          []
+        ],
+        [
+          "N/A",
+          []
+        ]
+      ],
+      [
+        [
+          "Gordon Clapp",
+          [
+            "/wiki/Gordon_Clapp"
+          ]
+        ],
+        [
+          "Greg Medavoy",
+          [
+            "/wiki/Greg_Medavoy"
+          ]
+        ],
+        [
+          "entire season",
+          []
+        ],
+        [
+          "N/A",
+          []
+        ]
+      ],
+      [
+        [
+          "Gail O'Grady",
+          [
+            "/wiki/Gail_O'Grady"
+          ]
+        ],
+        [
+          "Donna Abandando",
+          []
+        ],
+        [
+          "episodes 1-20",
+          []
+        ],
+        [
+          "N/A",
+          []
+        ]
+      ],
+      [
+        [
+          "Justine Miceli",
+          [
+            "/wiki/Justine_Miceli"
+          ]
+        ],
+        [
+          "Adrienne Lesniak",
+          []
+        ],
+        [
+          "entire season",
+          []
+        ],
+        [
+          "N/A",
+          []
+        ]
+      ],
+      [
+        [
+          "Kim Delaney",
+          [
+            "/wiki/Kim_Delaney"
+          ]
+        ],
+        [
+          "Diane Russell",
+          [
+            "/wiki/Diane_Russell_(NYPD_Blue)"
+          ]
+        ],
+        [
+          "entire season",
+          []
+        ],
+        [
+          "N/A",
+          []
+        ]
+      ],
+      [
+        [
+          "Bill Brochtrup",
+          [
+            "/wiki/Bill_Brochtrup"
+          ]
+        ],
+        [
+          "John Irvin",
+          []
+        ],
+        [
+          "N/A",
+          []
+        ],
+        [
+          "episodes 1,5,8,16,22",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the cast of the third season of the television series 'NYPD Blue.' It lists actors, the characters they portray, and their roles in the season, distinguishing between main and recurring cast members. The table is intended to document the involvement of cast members in this specific season of the show.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Main cast",
+    "Recurring cast"
+  ],
+  "entities": [
+    "Actor",
+    "Character"
+  ]
+}

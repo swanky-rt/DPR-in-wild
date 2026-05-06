@@ -1,0 +1,293 @@
+{
+  "table_id": "T5149",
+  "uid": "3ac03d81-b1b6-5596-bb08-c949a8e655c0",
+  "source": "HybridQA",
+  "source_table_id": "3ac03d81-b1b6-5596-bb08-c949a8e655c0",
+  "domain": "HybridQA",
+  "title": "Southern Europe",
+  "columns": [
+    "Language",
+    "Speakers",
+    "Principal Southern European country / countries"
+  ],
+  "rows": [
+    [
+      [
+        "Italian",
+        [
+          "/wiki/Italian_language"
+        ]
+      ],
+      [
+        "59,400,000",
+        []
+      ],
+      [
+        "Italy Malta San Marino Vatican City",
+        []
+      ]
+    ],
+    [
+      [
+        "Spanish",
+        [
+          "/wiki/Spanish_language"
+        ]
+      ],
+      [
+        "46,000,000+",
+        []
+      ],
+      [
+        "Spain Andorra Gibraltar",
+        []
+      ]
+    ],
+    [
+      [
+        "Serbo-Croatian",
+        [
+          "/wiki/Serbo-Croatian"
+        ]
+      ],
+      [
+        "21,000,000+",
+        []
+      ],
+      [
+        "Serbia Croatia Bosnia and Herzegovina Montenegro",
+        []
+      ]
+    ],
+    [
+      [
+        "Greek",
+        [
+          "/wiki/Greek_language"
+        ]
+      ],
+      [
+        "13,432,490",
+        []
+      ],
+      [
+        "Greece Cyprus",
+        []
+      ]
+    ],
+    [
+      [
+        "Turkish",
+        [
+          "/wiki/Turkish_language"
+        ]
+      ],
+      [
+        "12,649,247",
+        []
+      ],
+      [
+        "Turkey Bulgaria Cyprus",
+        []
+      ]
+    ],
+    [
+      [
+        "Portuguese",
+        [
+          "/wiki/Portuguese_language"
+        ]
+      ],
+      [
+        "10,000,000",
+        []
+      ],
+      [
+        "Portugal Andorra",
+        []
+      ]
+    ],
+    [
+      [
+        "Catalan",
+        [
+          "/wiki/Catalan_language"
+        ]
+      ],
+      [
+        "10,000,000",
+        []
+      ],
+      [
+        "Spain Andorra Italy France",
+        []
+      ]
+    ],
+    [
+      [
+        "Albanian",
+        [
+          "/wiki/Albanian_language"
+        ]
+      ],
+      [
+        "7,500,000",
+        []
+      ],
+      [
+        "Albania Kosovo North Macedonia",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "3ac03d81-b1b6-5596-bb08-c949a8e655c0",
+    "table_id": "Southern_Europe_0",
+    "title": "Southern Europe",
+    "header": [
+      "Language",
+      "Speakers",
+      "Principal Southern European country / countries"
+    ],
+    "value": [
+      [
+        [
+          "Italian",
+          [
+            "/wiki/Italian_language"
+          ]
+        ],
+        [
+          "59,400,000",
+          []
+        ],
+        [
+          "Italy Malta San Marino Vatican City",
+          []
+        ]
+      ],
+      [
+        [
+          "Spanish",
+          [
+            "/wiki/Spanish_language"
+          ]
+        ],
+        [
+          "46,000,000+",
+          []
+        ],
+        [
+          "Spain Andorra Gibraltar",
+          []
+        ]
+      ],
+      [
+        [
+          "Serbo-Croatian",
+          [
+            "/wiki/Serbo-Croatian"
+          ]
+        ],
+        [
+          "21,000,000+",
+          []
+        ],
+        [
+          "Serbia Croatia Bosnia and Herzegovina Montenegro",
+          []
+        ]
+      ],
+      [
+        [
+          "Greek",
+          [
+            "/wiki/Greek_language"
+          ]
+        ],
+        [
+          "13,432,490",
+          []
+        ],
+        [
+          "Greece Cyprus",
+          []
+        ]
+      ],
+      [
+        [
+          "Turkish",
+          [
+            "/wiki/Turkish_language"
+          ]
+        ],
+        [
+          "12,649,247",
+          []
+        ],
+        [
+          "Turkey Bulgaria Cyprus",
+          []
+        ]
+      ],
+      [
+        [
+          "Portuguese",
+          [
+            "/wiki/Portuguese_language"
+          ]
+        ],
+        [
+          "10,000,000",
+          []
+        ],
+        [
+          "Portugal Andorra",
+          []
+        ]
+      ],
+      [
+        [
+          "Catalan",
+          [
+            "/wiki/Catalan_language"
+          ]
+        ],
+        [
+          "10,000,000",
+          []
+        ],
+        [
+          "Spain Andorra Italy France",
+          []
+        ]
+      ],
+      [
+        [
+          "Albanian",
+          [
+            "/wiki/Albanian_language"
+          ]
+        ],
+        [
+          "7,500,000",
+          []
+        ],
+        [
+          "Albania Kosovo North Macedonia",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about languages spoken in Southern Europe, including the number of speakers and the principal countries where these languages are used. It aims to highlight linguistic and demographic aspects of the region.",
+  "numeric_columns": [
+    "Speakers"
+  ],
+  "categorical_columns": [
+    "Language"
+  ],
+  "entities": [
+    "Principal Southern European country / countries"
+  ]
+}

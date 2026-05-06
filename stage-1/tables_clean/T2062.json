@@ -1,0 +1,599 @@
+{
+  "table_id": "T2062",
+  "uid": "ccb95bea-c1af-5e9f-a363-b0ef5cd1e1ee",
+  "source": "HybridQA",
+  "source_table_id": "ccb95bea-c1af-5e9f-a363-b0ef5cd1e1ee",
+  "domain": "HybridQA",
+  "title": "2010 Ýokary Liga",
+  "columns": [
+    "Club",
+    "Location",
+    "Stadium",
+    "Capacity",
+    "Coach"
+  ],
+  "rows": [
+    [
+      [
+        "Ahal",
+        [
+          "/wiki/FC_Ahal"
+        ]
+      ],
+      [
+        "Abadan",
+        [
+          "/wiki/Abadan,_Turkmenistan"
+        ]
+      ],
+      [
+        "Ahal Stadium",
+        []
+      ],
+      [
+        10.0,
+        []
+      ],
+      [
+        "Röwşen Muhadow",
+        []
+      ]
+    ],
+    [
+      [
+        "Altyn Asyr",
+        [
+          "/wiki/FC_Altyn_Asyr"
+        ]
+      ],
+      [
+        "Ashgabat",
+        [
+          "/wiki/Ashgabat"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "Ali Gurbani",
+        []
+      ]
+    ],
+    [
+      [
+        "Aşgabat",
+        [
+          "/wiki/FC_Aşgabat"
+        ]
+      ],
+      [
+        "Ashgabat",
+        [
+          "/wiki/Ashgabat"
+        ]
+      ],
+      [
+        "Nisa-Çandybil Stadium",
+        [
+          "/wiki/Nisa-Çandybil_Stadium"
+        ]
+      ],
+      [
+        1.5,
+        []
+      ],
+      [
+        "Aman Goçumow",
+        []
+      ]
+    ],
+    [
+      [
+        "Balkan",
+        [
+          "/wiki/FC_Balkan"
+        ]
+      ],
+      [
+        "Balkanabat",
+        [
+          "/wiki/Balkanabat"
+        ]
+      ],
+      [
+        "Balkanabat Stadium",
+        [
+          "/wiki/Balkanabat_Stadium"
+        ]
+      ],
+      [
+        10.0,
+        []
+      ],
+      [
+        "Rejepmyrat Agabaýew",
+        []
+      ]
+    ],
+    [
+      [
+        "Daşoguz",
+        [
+          "/wiki/FC_Daşoguz"
+        ]
+      ],
+      [
+        "Daşoguz",
+        [
+          "/wiki/Daşoguz"
+        ]
+      ],
+      [
+        "Daşoguz Stadium",
+        [
+          "/wiki/Daşoguz_Stadium"
+        ]
+      ],
+      [
+        10.0,
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "HTTU Aşgabat",
+        [
+          "/wiki/HTTU_Aşgabat"
+        ]
+      ],
+      [
+        "Ashgabat",
+        [
+          "/wiki/Ashgabat"
+        ]
+      ],
+      [
+        "HTTU Stadium",
+        [
+          "/wiki/HTTU_Stadium"
+        ]
+      ],
+      [
+        1.0,
+        []
+      ],
+      [
+        "Ýazguly Hojageldiýew",
+        []
+      ]
+    ],
+    [
+      [
+        "Lebap",
+        [
+          "/wiki/FC_Lebap"
+        ]
+      ],
+      [
+        "Türkmenabat",
+        [
+          "/wiki/Türkmenabat"
+        ]
+      ],
+      [
+        "Türkmenabat Stadium",
+        [
+          "/wiki/Türkmenabat_Stadium"
+        ]
+      ],
+      [
+        10.0,
+        []
+      ],
+      [
+        "Waleriý Kirillow",
+        []
+      ]
+    ],
+    [
+      [
+        "Merw",
+        [
+          "/wiki/Merw_Mary"
+        ]
+      ],
+      [
+        "Mary",
+        [
+          "/wiki/Mary,_Turkmenistan"
+        ]
+      ],
+      [
+        "Mary Stadium",
+        [
+          "/wiki/Mary_Stadium"
+        ]
+      ],
+      [
+        10.0,
+        []
+      ],
+      [
+        "Rahym Gurbanmämmedow",
+        []
+      ]
+    ],
+    [
+      [
+        "Şagadam",
+        [
+          "/wiki/Şagadam_Türkmenbaşy"
+        ]
+      ],
+      [
+        "Türkmenbaşy",
+        [
+          "/wiki/Türkmenbaşy,_Turkmenistan"
+        ]
+      ],
+      [
+        "Türkmenbaşy Stadium",
+        [
+          "/wiki/Türkmenbaşy_Stadium"
+        ]
+      ],
+      [
+        5.0,
+        []
+      ],
+      [
+        "Gudrat Ismailow",
+        []
+      ]
+    ],
+    [
+      [
+        "Talyp Sporty",
+        [
+          "/wiki/Talyp_Sporty_Aşgabat"
+        ]
+      ],
+      [
+        "Ashgabat",
+        [
+          "/wiki/Ashgabat"
+        ]
+      ],
+      [
+        "Köpetdag Stadium",
+        [
+          "/wiki/Köpetdag_Stadium"
+        ]
+      ],
+      [
+        25.0,
+        []
+      ],
+      [
+        "Baýram Durdyýew",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "ccb95bea-c1af-5e9f-a363-b0ef5cd1e1ee",
+    "table_id": "2010_Turkmenistan_League_0",
+    "title": "2010 Ýokary Liga",
+    "header": [
+      "Club",
+      "Location",
+      "Stadium",
+      "Capacity",
+      "Coach"
+    ],
+    "value": [
+      [
+        [
+          "Ahal",
+          [
+            "/wiki/FC_Ahal"
+          ]
+        ],
+        [
+          "Abadan",
+          [
+            "/wiki/Abadan,_Turkmenistan"
+          ]
+        ],
+        [
+          "Ahal Stadium",
+          []
+        ],
+        [
+          10.0,
+          []
+        ],
+        [
+          "Röwşen Muhadow",
+          []
+        ]
+      ],
+      [
+        [
+          "Altyn Asyr",
+          [
+            "/wiki/FC_Altyn_Asyr"
+          ]
+        ],
+        [
+          "Ashgabat",
+          [
+            "/wiki/Ashgabat"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "Ali Gurbani",
+          []
+        ]
+      ],
+      [
+        [
+          "Aşgabat",
+          [
+            "/wiki/FC_Aşgabat"
+          ]
+        ],
+        [
+          "Ashgabat",
+          [
+            "/wiki/Ashgabat"
+          ]
+        ],
+        [
+          "Nisa-Çandybil Stadium",
+          [
+            "/wiki/Nisa-Çandybil_Stadium"
+          ]
+        ],
+        [
+          1.5,
+          []
+        ],
+        [
+          "Aman Goçumow",
+          []
+        ]
+      ],
+      [
+        [
+          "Balkan",
+          [
+            "/wiki/FC_Balkan"
+          ]
+        ],
+        [
+          "Balkanabat",
+          [
+            "/wiki/Balkanabat"
+          ]
+        ],
+        [
+          "Balkanabat Stadium",
+          [
+            "/wiki/Balkanabat_Stadium"
+          ]
+        ],
+        [
+          10.0,
+          []
+        ],
+        [
+          "Rejepmyrat Agabaýew",
+          []
+        ]
+      ],
+      [
+        [
+          "Daşoguz",
+          [
+            "/wiki/FC_Daşoguz"
+          ]
+        ],
+        [
+          "Daşoguz",
+          [
+            "/wiki/Daşoguz"
+          ]
+        ],
+        [
+          "Daşoguz Stadium",
+          [
+            "/wiki/Daşoguz_Stadium"
+          ]
+        ],
+        [
+          10.0,
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "HTTU Aşgabat",
+          [
+            "/wiki/HTTU_Aşgabat"
+          ]
+        ],
+        [
+          "Ashgabat",
+          [
+            "/wiki/Ashgabat"
+          ]
+        ],
+        [
+          "HTTU Stadium",
+          [
+            "/wiki/HTTU_Stadium"
+          ]
+        ],
+        [
+          1.0,
+          []
+        ],
+        [
+          "Ýazguly Hojageldiýew",
+          []
+        ]
+      ],
+      [
+        [
+          "Lebap",
+          [
+            "/wiki/FC_Lebap"
+          ]
+        ],
+        [
+          "Türkmenabat",
+          [
+            "/wiki/Türkmenabat"
+          ]
+        ],
+        [
+          "Türkmenabat Stadium",
+          [
+            "/wiki/Türkmenabat_Stadium"
+          ]
+        ],
+        [
+          10.0,
+          []
+        ],
+        [
+          "Waleriý Kirillow",
+          []
+        ]
+      ],
+      [
+        [
+          "Merw",
+          [
+            "/wiki/Merw_Mary"
+          ]
+        ],
+        [
+          "Mary",
+          [
+            "/wiki/Mary,_Turkmenistan"
+          ]
+        ],
+        [
+          "Mary Stadium",
+          [
+            "/wiki/Mary_Stadium"
+          ]
+        ],
+        [
+          10.0,
+          []
+        ],
+        [
+          "Rahym Gurbanmämmedow",
+          []
+        ]
+      ],
+      [
+        [
+          "Şagadam",
+          [
+            "/wiki/Şagadam_Türkmenbaşy"
+          ]
+        ],
+        [
+          "Türkmenbaşy",
+          [
+            "/wiki/Türkmenbaşy,_Turkmenistan"
+          ]
+        ],
+        [
+          "Türkmenbaşy Stadium",
+          [
+            "/wiki/Türkmenbaşy_Stadium"
+          ]
+        ],
+        [
+          5.0,
+          []
+        ],
+        [
+          "Gudrat Ismailow",
+          []
+        ]
+      ],
+      [
+        [
+          "Talyp Sporty",
+          [
+            "/wiki/Talyp_Sporty_Aşgabat"
+          ]
+        ],
+        [
+          "Ashgabat",
+          [
+            "/wiki/Ashgabat"
+          ]
+        ],
+        [
+          "Köpetdag Stadium",
+          [
+            "/wiki/Köpetdag_Stadium"
+          ]
+        ],
+        [
+          25.0,
+          []
+        ],
+        [
+          "Baýram Durdyýew",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about football clubs participating in the 2010 Ýokary Liga, including their locations, stadiums, capacities, and coaches. It appears to be a summary of key details related to the league's teams and infrastructure.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "Club",
+    "Location",
+    "Stadium",
+    "Coach"
+  ],
+  "entities": [
+    "Club",
+    "Location",
+    "Stadium",
+    "Coach"
+  ]
+}

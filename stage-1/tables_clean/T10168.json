@@ -1,0 +1,317 @@
+{
+  "table_id": "T10168",
+  "uid": "f6368e8e-10ac-5d94-bd3b-5442a653f665",
+  "source": "HybridQA",
+  "source_table_id": "f6368e8e-10ac-5d94-bd3b-5442a653f665",
+  "domain": "HybridQA",
+  "title": "List of Major League Baseball doubles records",
+  "columns": [
+    "Player",
+    "Titles",
+    "Seasons & Teams"
+  ],
+  "rows": [
+    [
+      [
+        "Honus Wagner",
+        [
+          "/wiki/Honus_Wagner"
+        ]
+      ],
+      [
+        4,
+        []
+      ],
+      [
+        "1906-09 Pittsburgh",
+        [
+          "/wiki/Pittsburgh_Pirates"
+        ]
+      ]
+    ],
+    [
+      [
+        "Tris Speaker",
+        [
+          "/wiki/Tris_Speaker"
+        ]
+      ],
+      [
+        4,
+        []
+      ],
+      [
+        "1920-23 Cleveland",
+        [
+          "/wiki/Cleveland_Indians"
+        ]
+      ]
+    ],
+    [
+      [
+        "Dan Brouthers",
+        [
+          "/wiki/Dan_Brouthers"
+        ]
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        "1886-88 Detroit ( NL )",
+        [
+          "/wiki/Detroit_Wolverines"
+        ]
+      ]
+    ],
+    [
+      [
+        "Rogers Hornsby",
+        [
+          "/wiki/Rogers_Hornsby"
+        ]
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        "1920-22 St. Louis ( NL )",
+        [
+          "/wiki/St._Louis_Cardinals"
+        ]
+      ]
+    ],
+    [
+      [
+        "Joe Medwick",
+        [
+          "/wiki/Joe_Medwick"
+        ]
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        "1936-38 St. Louis ( NL )",
+        []
+      ]
+    ],
+    [
+      [
+        "Stan Musial",
+        [
+          "/wiki/Stan_Musial"
+        ]
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        "1952-54 St. Louis ( NL )",
+        []
+      ]
+    ],
+    [
+      [
+        "Pete Rose",
+        [
+          "/wiki/Pete_Rose"
+        ]
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        "1974-76 Cincinnati",
+        [
+          "/wiki/Cincinnati_Reds"
+        ]
+      ]
+    ],
+    [
+      [
+        "Don Mattingly",
+        [
+          "/wiki/Don_Mattingly"
+        ]
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        "1984-86 New York ( AL )",
+        [
+          "/wiki/New_York_Yankees"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "f6368e8e-10ac-5d94-bd3b-5442a653f665",
+    "table_id": "List_of_Major_League_Baseball_doubles_records_7",
+    "title": "List of Major League Baseball doubles records",
+    "header": [
+      "Player",
+      "Titles",
+      "Seasons & Teams"
+    ],
+    "value": [
+      [
+        [
+          "Honus Wagner",
+          [
+            "/wiki/Honus_Wagner"
+          ]
+        ],
+        [
+          4,
+          []
+        ],
+        [
+          "1906-09 Pittsburgh",
+          [
+            "/wiki/Pittsburgh_Pirates"
+          ]
+        ]
+      ],
+      [
+        [
+          "Tris Speaker",
+          [
+            "/wiki/Tris_Speaker"
+          ]
+        ],
+        [
+          4,
+          []
+        ],
+        [
+          "1920-23 Cleveland",
+          [
+            "/wiki/Cleveland_Indians"
+          ]
+        ]
+      ],
+      [
+        [
+          "Dan Brouthers",
+          [
+            "/wiki/Dan_Brouthers"
+          ]
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          "1886-88 Detroit ( NL )",
+          [
+            "/wiki/Detroit_Wolverines"
+          ]
+        ]
+      ],
+      [
+        [
+          "Rogers Hornsby",
+          [
+            "/wiki/Rogers_Hornsby"
+          ]
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          "1920-22 St. Louis ( NL )",
+          [
+            "/wiki/St._Louis_Cardinals"
+          ]
+        ]
+      ],
+      [
+        [
+          "Joe Medwick",
+          [
+            "/wiki/Joe_Medwick"
+          ]
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          "1936-38 St. Louis ( NL )",
+          []
+        ]
+      ],
+      [
+        [
+          "Stan Musial",
+          [
+            "/wiki/Stan_Musial"
+          ]
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          "1952-54 St. Louis ( NL )",
+          []
+        ]
+      ],
+      [
+        [
+          "Pete Rose",
+          [
+            "/wiki/Pete_Rose"
+          ]
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          "1974-76 Cincinnati",
+          [
+            "/wiki/Cincinnati_Reds"
+          ]
+        ]
+      ],
+      [
+        [
+          "Don Mattingly",
+          [
+            "/wiki/Don_Mattingly"
+          ]
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          "1984-86 New York ( AL )",
+          [
+            "/wiki/New_York_Yankees"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about Major League Baseball doubles records, highlighting players who have achieved notable titles, the number of titles they earned, and the seasons and teams associated with their accomplishments. It serves as a reference for historical achievements in the sport.",
+  "numeric_columns": [
+    "Titles"
+  ],
+  "categorical_columns": [
+    "Seasons & Teams"
+  ],
+  "entities": [
+    "Player"
+  ]
+}

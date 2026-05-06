@@ -1,0 +1,615 @@
+{
+  "table_id": "T4633",
+  "uid": "a81bc799-5d52-5597-9dd5-33a5a9a44053",
+  "source": "HybridQA",
+  "source_table_id": "a81bc799-5d52-5597-9dd5-33a5a9a44053",
+  "domain": "HybridQA",
+  "title": "Mendip transmitting station",
+  "columns": [
+    "Frequency",
+    "UHF",
+    "kW",
+    "Operator",
+    "System"
+  ],
+  "rows": [
+    [
+      [
+        "599.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        37,
+        []
+      ],
+      [
+        126,
+        []
+      ],
+      [
+        "Channel 5",
+        [
+          "/wiki/Channel_5_(UK)"
+        ]
+      ],
+      [
+        "PAL System I",
+        [
+          "/wiki/PAL"
+        ]
+      ]
+    ],
+    [
+      [
+        "735.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        54,
+        []
+      ],
+      [
+        500,
+        []
+      ],
+      [
+        "Channel 4",
+        [
+          "/wiki/Channel_4"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "746.166 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "55+",
+        []
+      ],
+      [
+        10,
+        []
+      ],
+      [
+        "Digital 3 & 4 ( Mux 2 )",
+        [
+          "/wiki/Digital_3&4"
+        ]
+      ],
+      [
+        "DVB-T",
+        [
+          "/wiki/DVB-T"
+        ]
+      ]
+    ],
+    [
+      [
+        "754.166 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "56+",
+        []
+      ],
+      [
+        10,
+        []
+      ],
+      [
+        "Arqiva ( Mux C )",
+        [
+          "/wiki/Arqiva"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "767.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        58,
+        []
+      ],
+      [
+        500,
+        []
+      ],
+      [
+        "BBC One",
+        [
+          "/wiki/BBC_One"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "778.166 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "59+",
+        []
+      ],
+      [
+        10,
+        []
+      ],
+      [
+        "BBC ( Mux 1 )",
+        [
+          "/wiki/BBC"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "791.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        61,
+        []
+      ],
+      [
+        500,
+        []
+      ],
+      [
+        "ITV1 ( HTV West until 2002 )",
+        [
+          "/wiki/ITV1"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "802.166 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "62+",
+        []
+      ],
+      [
+        10,
+        []
+      ],
+      [
+        "SDN ( Mux A )",
+        [
+          "/wiki/S4C_Digital_Networks"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "815.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        64,
+        []
+      ],
+      [
+        500,
+        []
+      ],
+      [
+        "BBC Two",
+        [
+          "/wiki/BBC_Two"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "826.166 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "65+",
+        []
+      ],
+      [
+        10,
+        []
+      ],
+      [
+        "BBC ( Mux B )",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "842.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        67,
+        []
+      ],
+      [
+        10,
+        []
+      ],
+      [
+        "Arqiva ( Mux D )",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "a81bc799-5d52-5597-9dd5-33a5a9a44053",
+    "table_id": "Mendip_transmitting_station_7",
+    "title": "Mendip transmitting station",
+    "header": [
+      "Frequency",
+      "UHF",
+      "kW",
+      "Operator",
+      "System"
+    ],
+    "value": [
+      [
+        [
+          "599.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          37,
+          []
+        ],
+        [
+          126,
+          []
+        ],
+        [
+          "Channel 5",
+          [
+            "/wiki/Channel_5_(UK)"
+          ]
+        ],
+        [
+          "PAL System I",
+          [
+            "/wiki/PAL"
+          ]
+        ]
+      ],
+      [
+        [
+          "735.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          54,
+          []
+        ],
+        [
+          500,
+          []
+        ],
+        [
+          "Channel 4",
+          [
+            "/wiki/Channel_4"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "746.166 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "55+",
+          []
+        ],
+        [
+          10,
+          []
+        ],
+        [
+          "Digital 3 & 4 ( Mux 2 )",
+          [
+            "/wiki/Digital_3&4"
+          ]
+        ],
+        [
+          "DVB-T",
+          [
+            "/wiki/DVB-T"
+          ]
+        ]
+      ],
+      [
+        [
+          "754.166 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "56+",
+          []
+        ],
+        [
+          10,
+          []
+        ],
+        [
+          "Arqiva ( Mux C )",
+          [
+            "/wiki/Arqiva"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "767.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          58,
+          []
+        ],
+        [
+          500,
+          []
+        ],
+        [
+          "BBC One",
+          [
+            "/wiki/BBC_One"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "778.166 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "59+",
+          []
+        ],
+        [
+          10,
+          []
+        ],
+        [
+          "BBC ( Mux 1 )",
+          [
+            "/wiki/BBC"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "791.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          61,
+          []
+        ],
+        [
+          500,
+          []
+        ],
+        [
+          "ITV1 ( HTV West until 2002 )",
+          [
+            "/wiki/ITV1"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "802.166 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "62+",
+          []
+        ],
+        [
+          10,
+          []
+        ],
+        [
+          "SDN ( Mux A )",
+          [
+            "/wiki/S4C_Digital_Networks"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "815.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          64,
+          []
+        ],
+        [
+          500,
+          []
+        ],
+        [
+          "BBC Two",
+          [
+            "/wiki/BBC_Two"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "826.166 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "65+",
+          []
+        ],
+        [
+          10,
+          []
+        ],
+        [
+          "BBC ( Mux B )",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "842.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          67,
+          []
+        ],
+        [
+          10,
+          []
+        ],
+        [
+          "Arqiva ( Mux D )",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the Mendip transmitting station, detailing its broadcast frequencies, transmission power, and associated operators. It appears to document technical and operational details of the station's broadcasting systems, including frequency ranges and transmission standards.",
+  "numeric_columns": [
+    "UHF",
+    "kW"
+  ],
+  "categorical_columns": [
+    "Frequency",
+    "System"
+  ],
+  "entities": [
+    "Operator"
+  ]
+}

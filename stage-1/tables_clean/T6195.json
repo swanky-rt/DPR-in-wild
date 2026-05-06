@@ -1,0 +1,475 @@
+{
+  "table_id": "T6195",
+  "uid": "f0ab1668-70ea-58ec-af77-2a460c8e63c2",
+  "source": "HybridQA",
+  "source_table_id": "f0ab1668-70ea-58ec-af77-2a460c8e63c2",
+  "domain": "HybridQA",
+  "title": "Large igneous province",
+  "columns": [
+    "Province",
+    "Region",
+    "Hotspot"
+  ],
+  "rows": [
+    [
+      [
+        "Columbia River Basalt",
+        [
+          "/wiki/Columbia_River_Basalt_Group"
+        ]
+      ],
+      [
+        "Northwestern USA",
+        []
+      ],
+      [
+        "Yellowstone hotspot",
+        [
+          "/wiki/Yellowstone_hotspot"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ethiopia-Yemen Flood Basalts",
+        [
+          "/wiki/Ethiopia-Yemen_Continental_Flood_Basalts"
+        ]
+      ],
+      [
+        "Ethiopia , Yemen",
+        [
+          "/wiki/Ethiopia",
+          "/wiki/Yemen"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "North Atlantic Igneous Province",
+        [
+          "/wiki/North_Atlantic_Igneous_Province"
+        ]
+      ],
+      [
+        "Northern Canada , Greenland , the Faeroe Islands , Norway , Ireland and Scotland",
+        [
+          "/wiki/Greenland",
+          "/wiki/Faeroe_Islands",
+          "/wiki/Norway",
+          "/wiki/Scotland"
+        ]
+      ],
+      [
+        "Iceland hotspot",
+        [
+          "/wiki/Iceland_hotspot"
+        ]
+      ]
+    ],
+    [
+      [
+        "Deccan Traps",
+        [
+          "/wiki/Deccan_Traps"
+        ]
+      ],
+      [
+        "India",
+        [
+          "/wiki/India"
+        ]
+      ],
+      [
+        "Réunion hotspot",
+        [
+          "/wiki/Réunion_hotspot"
+        ]
+      ]
+    ],
+    [
+      [
+        "Rajmahal Traps",
+        [
+          "/wiki/Rajmahal_Traps"
+        ]
+      ],
+      [
+        "Eastern India",
+        [
+          "/wiki/India"
+        ]
+      ],
+      [
+        "Ninety East Ridge",
+        [
+          "/wiki/Ninety_East_Ridge"
+        ]
+      ]
+    ],
+    [
+      [
+        "Kerguelen Plateau",
+        [
+          "/wiki/Kerguelen_Plateau"
+        ]
+      ],
+      [
+        "Indian Ocean",
+        []
+      ],
+      [
+        "Kerguelen hotspot",
+        [
+          "/wiki/Kerguelen_hotspot"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ontong-Java Plateau",
+        [
+          "/wiki/Ontong-Java_Plateau"
+        ]
+      ],
+      [
+        "Pacific Ocean",
+        []
+      ],
+      [
+        "Louisville hotspot",
+        [
+          "/wiki/Louisville_hotspot"
+        ]
+      ]
+    ],
+    [
+      [
+        "Paraná and Etendeka traps",
+        [
+          "/wiki/Paraná_and_Etendeka_traps"
+        ]
+      ],
+      [
+        "Brazil - Namibia",
+        [
+          "/wiki/Brazil",
+          "/wiki/Namibia"
+        ]
+      ],
+      [
+        "Tristan hotspot",
+        [
+          "/wiki/Tristan_hotspot"
+        ]
+      ]
+    ],
+    [
+      [
+        "Karoo-Ferrar Province",
+        [
+          "/wiki/Karoo-Ferrar"
+        ]
+      ],
+      [
+        "South Africa , Antarctica , Australia & New Zealand",
+        [
+          "/wiki/Antarctica",
+          "/wiki/New_Zealand"
+        ]
+      ],
+      [
+        "Marion Island",
+        [
+          "/wiki/Marion_Island"
+        ]
+      ]
+    ],
+    [
+      [
+        "Caribbean large igneous province",
+        [
+          "/wiki/Caribbean_large_igneous_province"
+        ]
+      ],
+      [
+        "Caribbean-Colombian oceanic plateau",
+        [
+          "/wiki/Caribbean-Colombian_oceanic_plateau"
+        ]
+      ],
+      [
+        "Galápagos hotspot",
+        [
+          "/wiki/Galápagos_hotspot"
+        ]
+      ]
+    ],
+    [
+      [
+        "Mackenzie Large Igneous Province",
+        [
+          "/wiki/Mackenzie_Large_Igneous_Province"
+        ]
+      ],
+      [
+        "Canadian Shield",
+        [
+          "/wiki/Canadian_Shield"
+        ]
+      ],
+      [
+        "Mackenzie hotspot",
+        [
+          "/wiki/Mackenzie_hotspot"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "f0ab1668-70ea-58ec-af77-2a460c8e63c2",
+    "table_id": "Large_igneous_province_0",
+    "title": "Large igneous province",
+    "header": [
+      "Province",
+      "Region",
+      "Hotspot"
+    ],
+    "value": [
+      [
+        [
+          "Columbia River Basalt",
+          [
+            "/wiki/Columbia_River_Basalt_Group"
+          ]
+        ],
+        [
+          "Northwestern USA",
+          []
+        ],
+        [
+          "Yellowstone hotspot",
+          [
+            "/wiki/Yellowstone_hotspot"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ethiopia-Yemen Flood Basalts",
+          [
+            "/wiki/Ethiopia-Yemen_Continental_Flood_Basalts"
+          ]
+        ],
+        [
+          "Ethiopia , Yemen",
+          [
+            "/wiki/Ethiopia",
+            "/wiki/Yemen"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "North Atlantic Igneous Province",
+          [
+            "/wiki/North_Atlantic_Igneous_Province"
+          ]
+        ],
+        [
+          "Northern Canada , Greenland , the Faeroe Islands , Norway , Ireland and Scotland",
+          [
+            "/wiki/Greenland",
+            "/wiki/Faeroe_Islands",
+            "/wiki/Norway",
+            "/wiki/Scotland"
+          ]
+        ],
+        [
+          "Iceland hotspot",
+          [
+            "/wiki/Iceland_hotspot"
+          ]
+        ]
+      ],
+      [
+        [
+          "Deccan Traps",
+          [
+            "/wiki/Deccan_Traps"
+          ]
+        ],
+        [
+          "India",
+          [
+            "/wiki/India"
+          ]
+        ],
+        [
+          "Réunion hotspot",
+          [
+            "/wiki/Réunion_hotspot"
+          ]
+        ]
+      ],
+      [
+        [
+          "Rajmahal Traps",
+          [
+            "/wiki/Rajmahal_Traps"
+          ]
+        ],
+        [
+          "Eastern India",
+          [
+            "/wiki/India"
+          ]
+        ],
+        [
+          "Ninety East Ridge",
+          [
+            "/wiki/Ninety_East_Ridge"
+          ]
+        ]
+      ],
+      [
+        [
+          "Kerguelen Plateau",
+          [
+            "/wiki/Kerguelen_Plateau"
+          ]
+        ],
+        [
+          "Indian Ocean",
+          []
+        ],
+        [
+          "Kerguelen hotspot",
+          [
+            "/wiki/Kerguelen_hotspot"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ontong-Java Plateau",
+          [
+            "/wiki/Ontong-Java_Plateau"
+          ]
+        ],
+        [
+          "Pacific Ocean",
+          []
+        ],
+        [
+          "Louisville hotspot",
+          [
+            "/wiki/Louisville_hotspot"
+          ]
+        ]
+      ],
+      [
+        [
+          "Paraná and Etendeka traps",
+          [
+            "/wiki/Paraná_and_Etendeka_traps"
+          ]
+        ],
+        [
+          "Brazil - Namibia",
+          [
+            "/wiki/Brazil",
+            "/wiki/Namibia"
+          ]
+        ],
+        [
+          "Tristan hotspot",
+          [
+            "/wiki/Tristan_hotspot"
+          ]
+        ]
+      ],
+      [
+        [
+          "Karoo-Ferrar Province",
+          [
+            "/wiki/Karoo-Ferrar"
+          ]
+        ],
+        [
+          "South Africa , Antarctica , Australia & New Zealand",
+          [
+            "/wiki/Antarctica",
+            "/wiki/New_Zealand"
+          ]
+        ],
+        [
+          "Marion Island",
+          [
+            "/wiki/Marion_Island"
+          ]
+        ]
+      ],
+      [
+        [
+          "Caribbean large igneous province",
+          [
+            "/wiki/Caribbean_large_igneous_province"
+          ]
+        ],
+        [
+          "Caribbean-Colombian oceanic plateau",
+          [
+            "/wiki/Caribbean-Colombian_oceanic_plateau"
+          ]
+        ],
+        [
+          "Galápagos hotspot",
+          [
+            "/wiki/Galápagos_hotspot"
+          ]
+        ]
+      ],
+      [
+        [
+          "Mackenzie Large Igneous Province",
+          [
+            "/wiki/Mackenzie_Large_Igneous_Province"
+          ]
+        ],
+        [
+          "Canadian Shield",
+          [
+            "/wiki/Canadian_Shield"
+          ]
+        ],
+        [
+          "Mackenzie hotspot",
+          [
+            "/wiki/Mackenzie_hotspot"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about large igneous provinces, including their names, associated regions, and hotspots. It serves as a reference for understanding the geographical and geological context of these provinces. The data is organized to highlight connections between provinces, locations, and geological features.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Province",
+    "Region",
+    "Hotspot"
+  ],
+  "entities": [
+    "Province",
+    "Region",
+    "Hotspot"
+  ]
+}

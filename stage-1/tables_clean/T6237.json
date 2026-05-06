@@ -1,0 +1,563 @@
+{
+  "table_id": "T6237",
+  "uid": "735e6e8c-a0bd-5bb6-8e5a-ba208ab5878b",
+  "source": "HybridQA",
+  "source_table_id": "735e6e8c-a0bd-5bb6-8e5a-ba208ab5878b",
+  "domain": "HybridQA",
+  "title": "Carmel transmitting station",
+  "columns": [
+    "Frequency",
+    "UHF",
+    "kW",
+    "Service",
+    "System"
+  ],
+  "rows": [
+    [
+      [
+        "727.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        53,
+        []
+      ],
+      [
+        100,
+        []
+      ],
+      [
+        "S4C",
+        [
+          "/wiki/S4C"
+        ]
+      ],
+      [
+        "PAL System I",
+        [
+          "/wiki/PAL"
+        ]
+      ]
+    ],
+    [
+      [
+        "746.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        55,
+        []
+      ],
+      [
+        2.5,
+        []
+      ],
+      [
+        "BBC ( Mux 1 )",
+        [
+          "/wiki/BBC"
+        ]
+      ],
+      [
+        "DVB-T",
+        [
+          "/wiki/DVB-T"
+        ]
+      ]
+    ],
+    [
+      [
+        "759.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        57,
+        []
+      ],
+      [
+        100,
+        []
+      ],
+      [
+        "BBC One Wales",
+        [
+          "/wiki/BBC_One_Wales"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "777.833 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "59-",
+        []
+      ],
+      [
+        5,
+        []
+      ],
+      [
+        "SDN ( Mux A )",
+        [
+          "/wiki/S4C_Digital_Networks"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "783.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        60,
+        []
+      ],
+      [
+        100,
+        []
+      ],
+      [
+        "ITV Wales ( HTV Wales until 2002 )",
+        [
+          "/wiki/ITV_Wales_&_West"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "801.833 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "62-",
+        []
+      ],
+      [
+        2.5,
+        []
+      ],
+      [
+        "BBC ( Mux B )",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "807.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        63,
+        []
+      ],
+      [
+        100,
+        []
+      ],
+      [
+        "BBC Two Wales",
+        [
+          "/wiki/BBC_Two_Wales"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "825.833 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "65-",
+        []
+      ],
+      [
+        2.5,
+        []
+      ],
+      [
+        "Digital 3 & 4 ( Mux 2 )",
+        [
+          "/wiki/Digital_3&4"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "834.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        66,
+        []
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "Arqiva ( Mux C )",
+        [
+          "/wiki/Arqiva"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "842.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        67,
+        []
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "Arqiva ( Mux D )",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "735e6e8c-a0bd-5bb6-8e5a-ba208ab5878b",
+    "table_id": "Carmel_transmitting_station_2",
+    "title": "Carmel transmitting station",
+    "header": [
+      "Frequency",
+      "UHF",
+      "kW",
+      "Service",
+      "System"
+    ],
+    "value": [
+      [
+        [
+          "727.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          53,
+          []
+        ],
+        [
+          100,
+          []
+        ],
+        [
+          "S4C",
+          [
+            "/wiki/S4C"
+          ]
+        ],
+        [
+          "PAL System I",
+          [
+            "/wiki/PAL"
+          ]
+        ]
+      ],
+      [
+        [
+          "746.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          55,
+          []
+        ],
+        [
+          2.5,
+          []
+        ],
+        [
+          "BBC ( Mux 1 )",
+          [
+            "/wiki/BBC"
+          ]
+        ],
+        [
+          "DVB-T",
+          [
+            "/wiki/DVB-T"
+          ]
+        ]
+      ],
+      [
+        [
+          "759.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          57,
+          []
+        ],
+        [
+          100,
+          []
+        ],
+        [
+          "BBC One Wales",
+          [
+            "/wiki/BBC_One_Wales"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "777.833 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "59-",
+          []
+        ],
+        [
+          5,
+          []
+        ],
+        [
+          "SDN ( Mux A )",
+          [
+            "/wiki/S4C_Digital_Networks"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "783.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          60,
+          []
+        ],
+        [
+          100,
+          []
+        ],
+        [
+          "ITV Wales ( HTV Wales until 2002 )",
+          [
+            "/wiki/ITV_Wales_&_West"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "801.833 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "62-",
+          []
+        ],
+        [
+          2.5,
+          []
+        ],
+        [
+          "BBC ( Mux B )",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "807.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          63,
+          []
+        ],
+        [
+          100,
+          []
+        ],
+        [
+          "BBC Two Wales",
+          [
+            "/wiki/BBC_Two_Wales"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "825.833 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "65-",
+          []
+        ],
+        [
+          2.5,
+          []
+        ],
+        [
+          "Digital 3 & 4 ( Mux 2 )",
+          [
+            "/wiki/Digital_3&4"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "834.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          66,
+          []
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "Arqiva ( Mux C )",
+          [
+            "/wiki/Arqiva"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "842.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          67,
+          []
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "Arqiva ( Mux D )",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the broadcasting details of the Carmel transmitting station, including frequency, channel, power, service type, and broadcasting system. It is likely intended for technical or regulatory purposes related to television or radio transmission. The data combines technical specifications with service classifications.",
+  "numeric_columns": [
+    "UHF",
+    "kW"
+  ],
+  "categorical_columns": [
+    "Service",
+    "System"
+  ],
+  "entities": [
+    "Frequency"
+  ]
+}

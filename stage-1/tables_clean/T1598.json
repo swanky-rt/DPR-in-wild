@@ -1,0 +1,468 @@
+{
+  "table_id": "T1598",
+  "uid": "5d727796-f81d-5b7e-b346-7c23e5e8a00a",
+  "source": "HybridQA",
+  "source_table_id": "5d727796-f81d-5b7e-b346-7c23e5e8a00a",
+  "domain": "HybridQA",
+  "title": "2012 Berlin Marathon",
+  "columns": [
+    "Position",
+    "Athlete",
+    "Nationality",
+    "Time"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Geoffrey Mutai",
+        [
+          "/wiki/Geoffrey_Mutai"
+        ]
+      ],
+      [
+        "Kenya",
+        [
+          "/wiki/Kenya"
+        ]
+      ],
+      [
+        "2:04:15 PB",
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Dennis Kimetto",
+        [
+          "/wiki/Dennis_Kimetto"
+        ]
+      ],
+      [
+        "Kenya",
+        [
+          "/wiki/Kenya"
+        ]
+      ],
+      [
+        "2:04:16 PB",
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Geoffrey Kipsang",
+        [
+          "/wiki/Geoffrey_Kipsang"
+        ]
+      ],
+      [
+        "Kenya",
+        [
+          "/wiki/Kenya"
+        ]
+      ],
+      [
+        "2:06:12 PB",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Nicholas Kamakya",
+        [
+          "/wiki/Nicholas_Kamakya"
+        ]
+      ],
+      [
+        "Kenya",
+        [
+          "/wiki/Kenya"
+        ]
+      ],
+      [
+        "2:08:28",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Josphat Keiyo",
+        []
+      ],
+      [
+        "Kenya",
+        [
+          "/wiki/Kenya"
+        ]
+      ],
+      [
+        "2:08:41",
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Josphat Jepkopol",
+        []
+      ],
+      [
+        "Kenya",
+        [
+          "/wiki/Kenya"
+        ]
+      ],
+      [
+        "2:08:44",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Jonathan Maiyo",
+        [
+          "/wiki/Jonathan_Maiyo"
+        ]
+      ],
+      [
+        "Kenya",
+        [
+          "/wiki/Kenya"
+        ]
+      ],
+      [
+        "2:09:19",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Eliud Kiptanui",
+        [
+          "/wiki/Eliud_Kiptanui"
+        ]
+      ],
+      [
+        "Kenya",
+        [
+          "/wiki/Kenya"
+        ]
+      ],
+      [
+        "2:09:59",
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Felix Keny",
+        []
+      ],
+      [
+        "Kenya",
+        [
+          "/wiki/Kenya"
+        ]
+      ],
+      [
+        "2:10:22",
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Masakazu Fujiwara",
+        [
+          "/wiki/Masakazu_Fujiwara"
+        ]
+      ],
+      [
+        "Japan",
+        [
+          "/wiki/Japan"
+        ]
+      ],
+      [
+        "2:11:31",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "5d727796-f81d-5b7e-b346-7c23e5e8a00a",
+    "table_id": "2012_Berlin_Marathon_0",
+    "title": "2012 Berlin Marathon",
+    "header": [
+      "Position",
+      "Athlete",
+      "Nationality",
+      "Time"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Geoffrey Mutai",
+          [
+            "/wiki/Geoffrey_Mutai"
+          ]
+        ],
+        [
+          "Kenya",
+          [
+            "/wiki/Kenya"
+          ]
+        ],
+        [
+          "2:04:15 PB",
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Dennis Kimetto",
+          [
+            "/wiki/Dennis_Kimetto"
+          ]
+        ],
+        [
+          "Kenya",
+          [
+            "/wiki/Kenya"
+          ]
+        ],
+        [
+          "2:04:16 PB",
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Geoffrey Kipsang",
+          [
+            "/wiki/Geoffrey_Kipsang"
+          ]
+        ],
+        [
+          "Kenya",
+          [
+            "/wiki/Kenya"
+          ]
+        ],
+        [
+          "2:06:12 PB",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Nicholas Kamakya",
+          [
+            "/wiki/Nicholas_Kamakya"
+          ]
+        ],
+        [
+          "Kenya",
+          [
+            "/wiki/Kenya"
+          ]
+        ],
+        [
+          "2:08:28",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Josphat Keiyo",
+          []
+        ],
+        [
+          "Kenya",
+          [
+            "/wiki/Kenya"
+          ]
+        ],
+        [
+          "2:08:41",
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Josphat Jepkopol",
+          []
+        ],
+        [
+          "Kenya",
+          [
+            "/wiki/Kenya"
+          ]
+        ],
+        [
+          "2:08:44",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Jonathan Maiyo",
+          [
+            "/wiki/Jonathan_Maiyo"
+          ]
+        ],
+        [
+          "Kenya",
+          [
+            "/wiki/Kenya"
+          ]
+        ],
+        [
+          "2:09:19",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Eliud Kiptanui",
+          [
+            "/wiki/Eliud_Kiptanui"
+          ]
+        ],
+        [
+          "Kenya",
+          [
+            "/wiki/Kenya"
+          ]
+        ],
+        [
+          "2:09:59",
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Felix Keny",
+          []
+        ],
+        [
+          "Kenya",
+          [
+            "/wiki/Kenya"
+          ]
+        ],
+        [
+          "2:10:22",
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Masakazu Fujiwara",
+          [
+            "/wiki/Masakazu_Fujiwara"
+          ]
+        ],
+        [
+          "Japan",
+          [
+            "/wiki/Japan"
+          ]
+        ],
+        [
+          "2:11:31",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the results of the 2012 Berlin Marathon, including the positions of athletes, their names, nationalities, and recorded times. It is designed to summarize performance data for participants in this specific marathon event.",
+  "numeric_columns": [
+    "Position"
+  ],
+  "categorical_columns": [
+    "Nationality",
+    "Time"
+  ],
+  "entities": [
+    "Athlete"
+  ]
+}

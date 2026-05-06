@@ -1,0 +1,690 @@
+{
+  "table_id": "T5822",
+  "uid": "94a30ab3-3fa0-55f4-86b6-ed41526b05b8",
+  "source": "HybridQA",
+  "source_table_id": "94a30ab3-3fa0-55f4-86b6-ed41526b05b8",
+  "domain": "HybridQA",
+  "title": "The World's Billionaires",
+  "columns": [
+    "No",
+    "Name",
+    "Net worth ( USD )",
+    "Age",
+    "Nationality",
+    "Source ( s ) of wealth"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Jeff Bezos",
+        [
+          "/wiki/Jeff_Bezos"
+        ]
+      ],
+      [
+        "$ 112 billion",
+        []
+      ],
+      [
+        54,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Amazon",
+        [
+          "/wiki/Amazon_(company)"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Bill Gates",
+        [
+          "/wiki/Bill_Gates"
+        ]
+      ],
+      [
+        "$ 90 billion",
+        []
+      ],
+      [
+        62,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Microsoft",
+        [
+          "/wiki/Microsoft"
+        ]
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Warren Buffett",
+        [
+          "/wiki/Warren_Buffett"
+        ]
+      ],
+      [
+        "$ 84 billion",
+        []
+      ],
+      [
+        87,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Berkshire Hathaway",
+        [
+          "/wiki/Berkshire_Hathaway"
+        ]
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Bernard Arnault",
+        [
+          "/wiki/Bernard_Arnault"
+        ]
+      ],
+      [
+        "$ 72 billion",
+        []
+      ],
+      [
+        69,
+        []
+      ],
+      [
+        "France",
+        [
+          "/wiki/France"
+        ]
+      ],
+      [
+        "LVMH",
+        [
+          "/wiki/LVMH"
+        ]
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Mark Zuckerberg",
+        [
+          "/wiki/Mark_Zuckerberg"
+        ]
+      ],
+      [
+        "$ 71 billion",
+        []
+      ],
+      [
+        33,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Facebook",
+        [
+          "/wiki/Facebook"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Amancio Ortega",
+        [
+          "/wiki/Amancio_Ortega"
+        ]
+      ],
+      [
+        "$ 70 billion",
+        []
+      ],
+      [
+        81,
+        []
+      ],
+      [
+        "Spain",
+        [
+          "/wiki/Spain"
+        ]
+      ],
+      [
+        "Inditex , Zara",
+        [
+          "/wiki/Inditex",
+          "/wiki/Zara_(retailer)"
+        ]
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Carlos Slim",
+        [
+          "/wiki/Carlos_Slim"
+        ]
+      ],
+      [
+        "$ 67.1 billion",
+        []
+      ],
+      [
+        78,
+        []
+      ],
+      [
+        "Mexico",
+        [
+          "/wiki/Mexico"
+        ]
+      ],
+      [
+        "América Móvil , Grupo Carso",
+        [
+          "/wiki/América_Móvil",
+          "/wiki/Grupo_Carso"
+        ]
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Charles Koch",
+        [
+          "/wiki/Charles_Koch"
+        ]
+      ],
+      [
+        "$ 60 billion",
+        []
+      ],
+      [
+        82,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Koch Industries",
+        [
+          "/wiki/Koch_Industries"
+        ]
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "David Koch",
+        [
+          "/wiki/David_Koch"
+        ]
+      ],
+      [
+        "$ 60 billion",
+        []
+      ],
+      [
+        77,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Koch Industries",
+        [
+          "/wiki/Koch_Industries"
+        ]
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Larry Ellison",
+        [
+          "/wiki/Larry_Ellison"
+        ]
+      ],
+      [
+        "$ 58.5 billion",
+        []
+      ],
+      [
+        73,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Oracle Corporation",
+        [
+          "/wiki/Oracle_Corporation"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "94a30ab3-3fa0-55f4-86b6-ed41526b05b8",
+    "table_id": "List_of_wealthiest_non-inflated_historical_figures_1",
+    "title": "The World's Billionaires",
+    "header": [
+      "No",
+      "Name",
+      "Net worth ( USD )",
+      "Age",
+      "Nationality",
+      "Source ( s ) of wealth"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Jeff Bezos",
+          [
+            "/wiki/Jeff_Bezos"
+          ]
+        ],
+        [
+          "$ 112 billion",
+          []
+        ],
+        [
+          54,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Amazon",
+          [
+            "/wiki/Amazon_(company)"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Bill Gates",
+          [
+            "/wiki/Bill_Gates"
+          ]
+        ],
+        [
+          "$ 90 billion",
+          []
+        ],
+        [
+          62,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Microsoft",
+          [
+            "/wiki/Microsoft"
+          ]
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Warren Buffett",
+          [
+            "/wiki/Warren_Buffett"
+          ]
+        ],
+        [
+          "$ 84 billion",
+          []
+        ],
+        [
+          87,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Berkshire Hathaway",
+          [
+            "/wiki/Berkshire_Hathaway"
+          ]
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Bernard Arnault",
+          [
+            "/wiki/Bernard_Arnault"
+          ]
+        ],
+        [
+          "$ 72 billion",
+          []
+        ],
+        [
+          69,
+          []
+        ],
+        [
+          "France",
+          [
+            "/wiki/France"
+          ]
+        ],
+        [
+          "LVMH",
+          [
+            "/wiki/LVMH"
+          ]
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Mark Zuckerberg",
+          [
+            "/wiki/Mark_Zuckerberg"
+          ]
+        ],
+        [
+          "$ 71 billion",
+          []
+        ],
+        [
+          33,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Facebook",
+          [
+            "/wiki/Facebook"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Amancio Ortega",
+          [
+            "/wiki/Amancio_Ortega"
+          ]
+        ],
+        [
+          "$ 70 billion",
+          []
+        ],
+        [
+          81,
+          []
+        ],
+        [
+          "Spain",
+          [
+            "/wiki/Spain"
+          ]
+        ],
+        [
+          "Inditex , Zara",
+          [
+            "/wiki/Inditex",
+            "/wiki/Zara_(retailer)"
+          ]
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Carlos Slim",
+          [
+            "/wiki/Carlos_Slim"
+          ]
+        ],
+        [
+          "$ 67.1 billion",
+          []
+        ],
+        [
+          78,
+          []
+        ],
+        [
+          "Mexico",
+          [
+            "/wiki/Mexico"
+          ]
+        ],
+        [
+          "América Móvil , Grupo Carso",
+          [
+            "/wiki/América_Móvil",
+            "/wiki/Grupo_Carso"
+          ]
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Charles Koch",
+          [
+            "/wiki/Charles_Koch"
+          ]
+        ],
+        [
+          "$ 60 billion",
+          []
+        ],
+        [
+          82,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Koch Industries",
+          [
+            "/wiki/Koch_Industries"
+          ]
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "David Koch",
+          [
+            "/wiki/David_Koch"
+          ]
+        ],
+        [
+          "$ 60 billion",
+          []
+        ],
+        [
+          77,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Koch Industries",
+          [
+            "/wiki/Koch_Industries"
+          ]
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Larry Ellison",
+          [
+            "/wiki/Larry_Ellison"
+          ]
+        ],
+        [
+          "$ 58.5 billion",
+          []
+        ],
+        [
+          73,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Oracle Corporation",
+          [
+            "/wiki/Oracle_Corporation"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about the world's billionaires, including their rank, name, net worth, age, nationality, and the sources of their wealth. It is intended to summarize key details about prominent wealthy individuals globally.",
+  "numeric_columns": [
+    "No",
+    "Age"
+  ],
+  "categorical_columns": [
+    "Net worth ( USD )",
+    "Nationality",
+    "Source ( s ) of wealth"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

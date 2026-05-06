@@ -1,0 +1,356 @@
+{
+  "table_id": "T8601",
+  "uid": "cae61c6c-dd6e-5b70-b1ca-78bbabdc381c",
+  "source": "HybridQA",
+  "source_table_id": "cae61c6c-dd6e-5b70-b1ca-78bbabdc381c",
+  "domain": "HybridQA",
+  "title": "Ireland cricket team",
+  "columns": [
+    "Player",
+    "Wickets",
+    "Average"
+  ],
+  "rows": [
+    [
+      [
+        "George Dockrell",
+        [
+          "/wiki/George_Dockrell"
+        ]
+      ],
+      [
+        76,
+        []
+      ],
+      [
+        20.92,
+        []
+      ]
+    ],
+    [
+      [
+        "Kevin O'Brien",
+        [
+          "/wiki/Kevin_O'Brien_(cricketer)"
+        ]
+      ],
+      [
+        58,
+        []
+      ],
+      [
+        19.55,
+        []
+      ]
+    ],
+    [
+      [
+        "Boyd Rankin",
+        [
+          "/wiki/Boyd_Rankin"
+        ]
+      ],
+      [
+        52,
+        []
+      ],
+      [
+        21.42,
+        []
+      ]
+    ],
+    [
+      [
+        "Alex Cusack",
+        [
+          "/wiki/Alex_Cusack"
+        ]
+      ],
+      [
+        35,
+        []
+      ],
+      [
+        20.4,
+        []
+      ]
+    ],
+    [
+      [
+        "Trent Johnston",
+        [
+          "/wiki/Trent_Johnston"
+        ]
+      ],
+      [
+        32,
+        []
+      ],
+      [
+        19.87,
+        []
+      ]
+    ],
+    [
+      [
+        "Mark Adair",
+        [
+          "/wiki/Mark_Adair"
+        ]
+      ],
+      [
+        27,
+        []
+      ],
+      [
+        16.11,
+        []
+      ]
+    ],
+    [
+      [
+        "Max Sorensen",
+        [
+          "/wiki/Max_Sorensen"
+        ]
+      ],
+      [
+        26,
+        []
+      ],
+      [
+        18.11,
+        []
+      ]
+    ],
+    [
+      [
+        "Craig Young",
+        [
+          "/wiki/Craig_Young_(cricketer)"
+        ]
+      ],
+      [
+        25,
+        []
+      ],
+      [
+        26.64,
+        []
+      ]
+    ],
+    [
+      [
+        "Andre Botha",
+        [
+          "/wiki/Andre_Botha_(cricketer)"
+        ]
+      ],
+      [
+        21,
+        []
+      ],
+      [
+        8.76,
+        []
+      ]
+    ],
+    [
+      [
+        "Stuart Thompson",
+        [
+          "/wiki/Stuart_Thompson"
+        ]
+      ],
+      [
+        18,
+        []
+      ],
+      [
+        37.22,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "cae61c6c-dd6e-5b70-b1ca-78bbabdc381c",
+    "table_id": "Ireland_cricket_team_5",
+    "title": "Ireland cricket team",
+    "header": [
+      "Player",
+      "Wickets",
+      "Average"
+    ],
+    "value": [
+      [
+        [
+          "George Dockrell",
+          [
+            "/wiki/George_Dockrell"
+          ]
+        ],
+        [
+          76,
+          []
+        ],
+        [
+          20.92,
+          []
+        ]
+      ],
+      [
+        [
+          "Kevin O'Brien",
+          [
+            "/wiki/Kevin_O'Brien_(cricketer)"
+          ]
+        ],
+        [
+          58,
+          []
+        ],
+        [
+          19.55,
+          []
+        ]
+      ],
+      [
+        [
+          "Boyd Rankin",
+          [
+            "/wiki/Boyd_Rankin"
+          ]
+        ],
+        [
+          52,
+          []
+        ],
+        [
+          21.42,
+          []
+        ]
+      ],
+      [
+        [
+          "Alex Cusack",
+          [
+            "/wiki/Alex_Cusack"
+          ]
+        ],
+        [
+          35,
+          []
+        ],
+        [
+          20.4,
+          []
+        ]
+      ],
+      [
+        [
+          "Trent Johnston",
+          [
+            "/wiki/Trent_Johnston"
+          ]
+        ],
+        [
+          32,
+          []
+        ],
+        [
+          19.87,
+          []
+        ]
+      ],
+      [
+        [
+          "Mark Adair",
+          [
+            "/wiki/Mark_Adair"
+          ]
+        ],
+        [
+          27,
+          []
+        ],
+        [
+          16.11,
+          []
+        ]
+      ],
+      [
+        [
+          "Max Sorensen",
+          [
+            "/wiki/Max_Sorensen"
+          ]
+        ],
+        [
+          26,
+          []
+        ],
+        [
+          18.11,
+          []
+        ]
+      ],
+      [
+        [
+          "Craig Young",
+          [
+            "/wiki/Craig_Young_(cricketer)"
+          ]
+        ],
+        [
+          25,
+          []
+        ],
+        [
+          26.64,
+          []
+        ]
+      ],
+      [
+        [
+          "Andre Botha",
+          [
+            "/wiki/Andre_Botha_(cricketer)"
+          ]
+        ],
+        [
+          21,
+          []
+        ],
+        [
+          8.76,
+          []
+        ]
+      ],
+      [
+        [
+          "Stuart Thompson",
+          [
+            "/wiki/Stuart_Thompson"
+          ]
+        ],
+        [
+          18,
+          []
+        ],
+        [
+          37.22,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about players from the Ireland cricket team, focusing on their performance statistics. It includes details about individual players, the number of wickets they have taken, and their bowling average. The table is likely intended for analyzing or comparing player performance.",
+  "numeric_columns": [
+    "Wickets",
+    "Average"
+  ],
+  "categorical_columns": [],
+  "entities": [
+    "Player"
+  ]
+}

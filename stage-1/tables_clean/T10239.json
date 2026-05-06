@@ -1,0 +1,293 @@
+{
+  "table_id": "T10239",
+  "uid": "e882e4b6-eb28-5889-a1e2-39a1e7df6810",
+  "source": "HybridQA",
+  "source_table_id": "e882e4b6-eb28-5889-a1e2-39a1e7df6810",
+  "domain": "HybridQA",
+  "title": "1999 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Andreea Răducan ( ROU )",
+        [
+          "/wiki/Andreea_Răducan"
+        ]
+      ],
+      [
+        9.837,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Simona Amânar ( ROU )",
+        [
+          "/wiki/Simona_Amânar"
+        ]
+      ],
+      [
+        9.8,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Svetlana Khorkina ( RUS )",
+        [
+          "/wiki/Svetlana_Khorkina"
+        ]
+      ],
+      [
+        9.787,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Elena Produnova ( RUS )",
+        [
+          "/wiki/Elena_Produnova"
+        ]
+      ],
+      [
+        9.737,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Ludivine Furnon ( FRA )",
+        [
+          "/wiki/Ludivine_Furnon"
+        ]
+      ],
+      [
+        9.612,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Tatiana Yarosh ( UKR )",
+        [
+          "/wiki/Tatiana_Yarosh"
+        ]
+      ],
+      [
+        9.6,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Yvonne Tousek ( CAN )",
+        [
+          "/wiki/Yvonne_Tousek"
+        ]
+      ],
+      [
+        9.537,
+        []
+      ]
+    ],
+    [
+      [
+        "DQ",
+        []
+      ],
+      [
+        "Dong Fangxiao ( CHN ) *",
+        [
+          "/wiki/Dong_Fangxiao"
+        ]
+      ],
+      [
+        "9.737*",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "e882e4b6-eb28-5889-a1e2-39a1e7df6810",
+    "table_id": "1999_World_Artistic_Gymnastics_Championships_11",
+    "title": "1999 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Andreea Răducan ( ROU )",
+          [
+            "/wiki/Andreea_Răducan"
+          ]
+        ],
+        [
+          9.837,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Simona Amânar ( ROU )",
+          [
+            "/wiki/Simona_Amânar"
+          ]
+        ],
+        [
+          9.8,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Svetlana Khorkina ( RUS )",
+          [
+            "/wiki/Svetlana_Khorkina"
+          ]
+        ],
+        [
+          9.787,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Elena Produnova ( RUS )",
+          [
+            "/wiki/Elena_Produnova"
+          ]
+        ],
+        [
+          9.737,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Ludivine Furnon ( FRA )",
+          [
+            "/wiki/Ludivine_Furnon"
+          ]
+        ],
+        [
+          9.612,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Tatiana Yarosh ( UKR )",
+          [
+            "/wiki/Tatiana_Yarosh"
+          ]
+        ],
+        [
+          9.6,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Yvonne Tousek ( CAN )",
+          [
+            "/wiki/Yvonne_Tousek"
+          ]
+        ],
+        [
+          9.537,
+          []
+        ]
+      ],
+      [
+        [
+          "DQ",
+          []
+        ],
+        [
+          "Dong Fangxiao ( CHN ) *",
+          [
+            "/wiki/Dong_Fangxiao"
+          ]
+        ],
+        [
+          "9.737*",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the rankings and scores of gymnasts at the 1999 World Artistic Gymnastics Championships. It includes details such as the rank of the gymnast, their name, and their total score. The table is likely used to summarize performance outcomes in the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

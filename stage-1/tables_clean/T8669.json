@@ -1,0 +1,476 @@
+{
+  "table_id": "T8669",
+  "uid": "f8479d5c-6d40-54b0-913c-173b92433cdf",
+  "source": "HybridQA",
+  "source_table_id": "f8479d5c-6d40-54b0-913c-173b92433cdf",
+  "domain": "HybridQA",
+  "title": "List of islands of Palau",
+  "columns": [
+    "Name",
+    "Population",
+    "Area ( square kilometer )",
+    "State"
+  ],
+  "rows": [
+    [
+      [
+        "Angaur ( Island )",
+        [
+          "/wiki/Angaur"
+        ]
+      ],
+      [
+        130,
+        []
+      ],
+      [
+        8.06,
+        []
+      ],
+      [
+        "Angaur ( State )",
+        [
+          "/wiki/Angaur"
+        ]
+      ]
+    ],
+    [
+      [
+        "Babeldaob ( Island )",
+        [
+          "/wiki/Babeldaob"
+        ]
+      ],
+      [
+        5125,
+        []
+      ],
+      [
+        368,
+        []
+      ],
+      [
+        "Multiple states",
+        []
+      ]
+    ],
+    [
+      [
+        "Kayangel ( Island )",
+        [
+          "/wiki/Kayangel"
+        ]
+      ],
+      [
+        76,
+        []
+      ],
+      [
+        1.682,
+        []
+      ],
+      [
+        "Kayangel",
+        [
+          "/wiki/Kayangel"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ngerekebesang Island",
+        [
+          "/wiki/Ngerekebesang_Island"
+        ]
+      ],
+      [
+        "1,778",
+        []
+      ],
+      [
+        2.44,
+        []
+      ],
+      [
+        "Koror",
+        [
+          "/wiki/Koror"
+        ]
+      ]
+    ],
+    [
+      [
+        "Oreor ( Island )",
+        [
+          "/wiki/Oreor"
+        ]
+      ],
+      [
+        9800,
+        []
+      ],
+      [
+        9.3,
+        []
+      ],
+      [
+        "Koror",
+        [
+          "/wiki/Koror"
+        ]
+      ]
+    ],
+    [
+      [
+        "Peleliu ( Island )",
+        [
+          "/wiki/Peleliu"
+        ]
+      ],
+      [
+        500,
+        []
+      ],
+      [
+        18.5,
+        []
+      ],
+      [
+        "Peleliu ( State )",
+        [
+          "/wiki/Peleliu"
+        ]
+      ]
+    ],
+    [
+      [
+        "Sonsorol ( Island )",
+        [
+          "/wiki/Sonsorol"
+        ]
+      ],
+      [
+        42,
+        []
+      ],
+      [
+        3.1,
+        []
+      ],
+      [
+        "Sonsorol ( State )",
+        [
+          "/wiki/Sonsorol"
+        ]
+      ]
+    ],
+    [
+      [
+        "Tobi ( Island )",
+        [
+          "/wiki/Tobi_(Island)"
+        ]
+      ],
+      [
+        7,
+        []
+      ],
+      [
+        0.84,
+        []
+      ],
+      [
+        "Hatohobei",
+        [
+          "/wiki/Hatohobei"
+        ]
+      ]
+    ],
+    [
+      [
+        "Malakal Island",
+        [
+          "/wiki/Malakal_Island"
+        ]
+      ],
+      [
+        85,
+        []
+      ],
+      [
+        0.861,
+        []
+      ],
+      [
+        "Koror",
+        [
+          "/wiki/Koror"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ngercheu",
+        [
+          "/wiki/Ngercheu"
+        ]
+      ],
+      [
+        20,
+        []
+      ],
+      [
+        1.098,
+        []
+      ],
+      [
+        "Peleliu ( State )",
+        [
+          "/wiki/Peleliu"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "f8479d5c-6d40-54b0-913c-173b92433cdf",
+    "table_id": "List_of_islands_of_Palau_0",
+    "title": "List of islands of Palau",
+    "header": [
+      "Name",
+      "Population",
+      "Area ( square kilometer )",
+      "State"
+    ],
+    "value": [
+      [
+        [
+          "Angaur ( Island )",
+          [
+            "/wiki/Angaur"
+          ]
+        ],
+        [
+          130,
+          []
+        ],
+        [
+          8.06,
+          []
+        ],
+        [
+          "Angaur ( State )",
+          [
+            "/wiki/Angaur"
+          ]
+        ]
+      ],
+      [
+        [
+          "Babeldaob ( Island )",
+          [
+            "/wiki/Babeldaob"
+          ]
+        ],
+        [
+          5125,
+          []
+        ],
+        [
+          368,
+          []
+        ],
+        [
+          "Multiple states",
+          []
+        ]
+      ],
+      [
+        [
+          "Kayangel ( Island )",
+          [
+            "/wiki/Kayangel"
+          ]
+        ],
+        [
+          76,
+          []
+        ],
+        [
+          1.682,
+          []
+        ],
+        [
+          "Kayangel",
+          [
+            "/wiki/Kayangel"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ngerekebesang Island",
+          [
+            "/wiki/Ngerekebesang_Island"
+          ]
+        ],
+        [
+          "1,778",
+          []
+        ],
+        [
+          2.44,
+          []
+        ],
+        [
+          "Koror",
+          [
+            "/wiki/Koror"
+          ]
+        ]
+      ],
+      [
+        [
+          "Oreor ( Island )",
+          [
+            "/wiki/Oreor"
+          ]
+        ],
+        [
+          9800,
+          []
+        ],
+        [
+          9.3,
+          []
+        ],
+        [
+          "Koror",
+          [
+            "/wiki/Koror"
+          ]
+        ]
+      ],
+      [
+        [
+          "Peleliu ( Island )",
+          [
+            "/wiki/Peleliu"
+          ]
+        ],
+        [
+          500,
+          []
+        ],
+        [
+          18.5,
+          []
+        ],
+        [
+          "Peleliu ( State )",
+          [
+            "/wiki/Peleliu"
+          ]
+        ]
+      ],
+      [
+        [
+          "Sonsorol ( Island )",
+          [
+            "/wiki/Sonsorol"
+          ]
+        ],
+        [
+          42,
+          []
+        ],
+        [
+          3.1,
+          []
+        ],
+        [
+          "Sonsorol ( State )",
+          [
+            "/wiki/Sonsorol"
+          ]
+        ]
+      ],
+      [
+        [
+          "Tobi ( Island )",
+          [
+            "/wiki/Tobi_(Island)"
+          ]
+        ],
+        [
+          7,
+          []
+        ],
+        [
+          0.84,
+          []
+        ],
+        [
+          "Hatohobei",
+          [
+            "/wiki/Hatohobei"
+          ]
+        ]
+      ],
+      [
+        [
+          "Malakal Island",
+          [
+            "/wiki/Malakal_Island"
+          ]
+        ],
+        [
+          85,
+          []
+        ],
+        [
+          0.861,
+          []
+        ],
+        [
+          "Koror",
+          [
+            "/wiki/Koror"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ngercheu",
+          [
+            "/wiki/Ngercheu"
+          ]
+        ],
+        [
+          20,
+          []
+        ],
+        [
+          1.098,
+          []
+        ],
+        [
+          "Peleliu ( State )",
+          [
+            "/wiki/Peleliu"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about various islands in Palau, including their names, population, area, and associated state. It serves as a reference for understanding the geographic and administrative details of these islands. The data combines demographic and spatial attributes with administrative classifications.",
+  "numeric_columns": [
+    "Population",
+    "Area ( square kilometer )"
+  ],
+  "categorical_columns": [
+    "State"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

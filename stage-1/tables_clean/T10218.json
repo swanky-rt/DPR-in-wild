@@ -1,0 +1,293 @@
+{
+  "table_id": "T10218",
+  "uid": "22bf5ccc-4627-57b4-8c98-682c08f47864",
+  "source": "HybridQA",
+  "source_table_id": "22bf5ccc-4627-57b4-8c98-682c08f47864",
+  "domain": "HybridQA",
+  "title": "2003 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Teng Haibin ( CHN )",
+        [
+          "/wiki/Teng_Haibin"
+        ]
+      ],
+      [
+        9.762,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Takehiro Kashima ( JPN )",
+        [
+          "/wiki/Takehiro_Kashima"
+        ]
+      ],
+      [
+        9.762,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Nikolai Kryukov ( RUS )",
+        [
+          "/wiki/Nikolai_Kryukov_(gymnast)"
+        ]
+      ],
+      [
+        9.725,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Ioan Suciu ( ROU )",
+        [
+          "/wiki/Ioan_Silviu_Suciu"
+        ]
+      ],
+      [
+        9.712,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Marius Urzică ( ROU )",
+        [
+          "/wiki/Marius_Urzică"
+        ]
+      ],
+      [
+        9.65,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Ivan Ivankov ( BLR )",
+        [
+          "/wiki/Ivan_Ivankov"
+        ]
+      ],
+      [
+        9.575,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Xiao Qin ( CHN )",
+        [
+          "/wiki/Xiao_Qin"
+        ]
+      ],
+      [
+        9.35,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Eric Casimir ( FRA )",
+        [
+          "/wiki/Eric_Casimir"
+        ]
+      ],
+      [
+        9.15,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "22bf5ccc-4627-57b4-8c98-682c08f47864",
+    "table_id": "2003_World_Artistic_Gymnastics_Championships_2",
+    "title": "2003 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Teng Haibin ( CHN )",
+          [
+            "/wiki/Teng_Haibin"
+          ]
+        ],
+        [
+          9.762,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Takehiro Kashima ( JPN )",
+          [
+            "/wiki/Takehiro_Kashima"
+          ]
+        ],
+        [
+          9.762,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Nikolai Kryukov ( RUS )",
+          [
+            "/wiki/Nikolai_Kryukov_(gymnast)"
+          ]
+        ],
+        [
+          9.725,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Ioan Suciu ( ROU )",
+          [
+            "/wiki/Ioan_Silviu_Suciu"
+          ]
+        ],
+        [
+          9.712,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Marius Urzică ( ROU )",
+          [
+            "/wiki/Marius_Urzică"
+          ]
+        ],
+        [
+          9.65,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Ivan Ivankov ( BLR )",
+          [
+            "/wiki/Ivan_Ivankov"
+          ]
+        ],
+        [
+          9.575,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Xiao Qin ( CHN )",
+          [
+            "/wiki/Xiao_Qin"
+          ]
+        ],
+        [
+          9.35,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Eric Casimir ( FRA )",
+          [
+            "/wiki/Eric_Casimir"
+          ]
+        ],
+        [
+          9.15,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the rankings and scores of gymnasts at the 2003 World Artistic Gymnastics Championships. It includes the rank, name of the gymnast, and their total score, highlighting individual performance in the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

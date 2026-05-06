@@ -1,0 +1,464 @@
+{
+  "table_id": "T1377",
+  "uid": "196ed501-866d-5e51-9ce4-357aae5bc7cb",
+  "source": "HybridQA",
+  "source_table_id": "196ed501-866d-5e51-9ce4-357aae5bc7cb",
+  "domain": "HybridQA",
+  "title": "1994 in film",
+  "columns": [
+    "Rank",
+    "Title",
+    "Distributor",
+    "Worldwide gross"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "The Lion King",
+        [
+          "/wiki/The_Lion_King"
+        ]
+      ],
+      [
+        "Disney",
+        [
+          "/wiki/Walt_Disney_Studios_Motion_Pictures"
+        ]
+      ],
+      [
+        "$ 763,455,561",
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Forrest Gump",
+        [
+          "/wiki/Forrest_Gump"
+        ]
+      ],
+      [
+        "Paramount",
+        [
+          "/wiki/Paramount_Pictures"
+        ]
+      ],
+      [
+        "$ 677,945,399",
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "True Lies",
+        [
+          "/wiki/True_Lies"
+        ]
+      ],
+      [
+        "20th Century Fox",
+        [
+          "/wiki/20th_Century_Fox"
+        ]
+      ],
+      [
+        "$ 378,882,411",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "The Mask",
+        [
+          "/wiki/The_Mask_(1994_film)"
+        ]
+      ],
+      [
+        "Warner Bros",
+        [
+          "/wiki/Warner_Bros."
+        ]
+      ],
+      [
+        "$ 351,583,407",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Speed",
+        [
+          "/wiki/Speed_(1994_film)"
+        ]
+      ],
+      [
+        "20th Century Fox",
+        []
+      ],
+      [
+        "$ 350,448,145",
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "The Flintstones",
+        [
+          "/wiki/The_Flintstones_(film)"
+        ]
+      ],
+      [
+        "Universal",
+        [
+          "/wiki/Universal_Pictures"
+        ]
+      ],
+      [
+        "$ 341,631,208",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Dumb and Dumber",
+        [
+          "/wiki/Dumb_and_Dumber"
+        ]
+      ],
+      [
+        "Warner Bros",
+        []
+      ],
+      [
+        "$ 247,275,374",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Four Weddings and a Funeral",
+        [
+          "/wiki/Four_Weddings_and_a_Funeral"
+        ]
+      ],
+      [
+        "Gramercy",
+        [
+          "/wiki/Gramercy_Pictures"
+        ]
+      ],
+      [
+        "$ 245,700,832",
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Interview with the Vampire",
+        [
+          "/wiki/Interview_with_the_Vampire_(film)"
+        ]
+      ],
+      [
+        "Warner Bros",
+        []
+      ],
+      [
+        "$ 223,664,608",
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Clear and Present Danger",
+        [
+          "/wiki/Clear_and_Present_Danger_(film)"
+        ]
+      ],
+      [
+        "Paramount",
+        []
+      ],
+      [
+        "$ 215,887,717",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "196ed501-866d-5e51-9ce4-357aae5bc7cb",
+    "table_id": "1994_in_film_0",
+    "title": "1994 in film",
+    "header": [
+      "Rank",
+      "Title",
+      "Distributor",
+      "Worldwide gross"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "The Lion King",
+          [
+            "/wiki/The_Lion_King"
+          ]
+        ],
+        [
+          "Disney",
+          [
+            "/wiki/Walt_Disney_Studios_Motion_Pictures"
+          ]
+        ],
+        [
+          "$ 763,455,561",
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Forrest Gump",
+          [
+            "/wiki/Forrest_Gump"
+          ]
+        ],
+        [
+          "Paramount",
+          [
+            "/wiki/Paramount_Pictures"
+          ]
+        ],
+        [
+          "$ 677,945,399",
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "True Lies",
+          [
+            "/wiki/True_Lies"
+          ]
+        ],
+        [
+          "20th Century Fox",
+          [
+            "/wiki/20th_Century_Fox"
+          ]
+        ],
+        [
+          "$ 378,882,411",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "The Mask",
+          [
+            "/wiki/The_Mask_(1994_film)"
+          ]
+        ],
+        [
+          "Warner Bros",
+          [
+            "/wiki/Warner_Bros."
+          ]
+        ],
+        [
+          "$ 351,583,407",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Speed",
+          [
+            "/wiki/Speed_(1994_film)"
+          ]
+        ],
+        [
+          "20th Century Fox",
+          []
+        ],
+        [
+          "$ 350,448,145",
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "The Flintstones",
+          [
+            "/wiki/The_Flintstones_(film)"
+          ]
+        ],
+        [
+          "Universal",
+          [
+            "/wiki/Universal_Pictures"
+          ]
+        ],
+        [
+          "$ 341,631,208",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Dumb and Dumber",
+          [
+            "/wiki/Dumb_and_Dumber"
+          ]
+        ],
+        [
+          "Warner Bros",
+          []
+        ],
+        [
+          "$ 247,275,374",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Four Weddings and a Funeral",
+          [
+            "/wiki/Four_Weddings_and_a_Funeral"
+          ]
+        ],
+        [
+          "Gramercy",
+          [
+            "/wiki/Gramercy_Pictures"
+          ]
+        ],
+        [
+          "$ 245,700,832",
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Interview with the Vampire",
+          [
+            "/wiki/Interview_with_the_Vampire_(film)"
+          ]
+        ],
+        [
+          "Warner Bros",
+          []
+        ],
+        [
+          "$ 223,664,608",
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Clear and Present Danger",
+          [
+            "/wiki/Clear_and_Present_Danger_(film)"
+          ]
+        ],
+        [
+          "Paramount",
+          []
+        ],
+        [
+          "$ 215,887,717",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of the highest-grossing films of 1994, including their rankings, titles, distributors, and worldwide gross earnings. It is intended to summarize the commercial success of films released in that year. The table highlights key information about the films and their financial performance.",
+  "numeric_columns": [
+    "Rank",
+    "Worldwide gross"
+  ],
+  "categorical_columns": [
+    "Distributor"
+  ],
+  "entities": [
+    "Title"
+  ]
+}

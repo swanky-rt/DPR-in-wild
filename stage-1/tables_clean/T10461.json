@@ -1,0 +1,483 @@
+{
+  "table_id": "T10461",
+  "uid": "3cab1d56-c636-52c8-b4c3-4760315269a4",
+  "source": "HybridQA",
+  "source_table_id": "3cab1d56-c636-52c8-b4c3-4760315269a4",
+  "domain": "HybridQA",
+  "title": "Instant messaging",
+  "columns": [
+    "Instant messenger client",
+    "Company",
+    "Usage"
+  ],
+  "rows": [
+    [
+      [
+        "Discord",
+        [
+          "/wiki/Discord_(software)"
+        ]
+      ],
+      [
+        "Discord inc",
+        []
+      ],
+      [
+        "250 million users ( May 2019 )",
+        []
+      ]
+    ],
+    [
+      [
+        "eBuddy XMS",
+        [
+          "/wiki/EBuddy"
+        ]
+      ],
+      [
+        "eBuddy",
+        []
+      ],
+      [
+        "250 million users ( September 2011 )",
+        []
+      ]
+    ],
+    [
+      [
+        "Facebook Messenger",
+        [
+          "/wiki/Facebook_Messenger"
+        ]
+      ],
+      [
+        "Facebook",
+        [
+          "/wiki/Facebook_Inc"
+        ]
+      ],
+      [
+        "900 million active users ( April 2016 )",
+        []
+      ]
+    ],
+    [
+      [
+        "iMessage",
+        [
+          "/wiki/IMessage"
+        ]
+      ],
+      [
+        "Apple Inc",
+        [
+          "/wiki/Apple_Inc."
+        ]
+      ],
+      [
+        "140 million users ( June 2012 )",
+        []
+      ]
+    ],
+    [
+      [
+        "Kik Messenger",
+        [
+          "/wiki/Kik_Messenger"
+        ]
+      ],
+      [
+        "Kik Interactive",
+        []
+      ],
+      [
+        "300 million users ( May 2016 )",
+        []
+      ]
+    ],
+    [
+      [
+        "Line",
+        [
+          "/wiki/Line_(software)"
+        ]
+      ],
+      [
+        "Naver Corporation",
+        [
+          "/wiki/Naver_Corporation"
+        ]
+      ],
+      [
+        "217 million monthly active users ( 2016 )",
+        []
+      ]
+    ],
+    [
+      [
+        "Skype",
+        [
+          "/wiki/Skype"
+        ]
+      ],
+      [
+        "Microsoft",
+        [
+          "/wiki/Microsoft"
+        ]
+      ],
+      [
+        "300 million monthly active users ( 5 June 2019 ) , 1.55 billion registered users ( 2019 ) , 4.9 million daily active users ( 2 March 2014 ) , 34 million peak online ( February 2012 )",
+        []
+      ]
+    ],
+    [
+      [
+        "Snapchat",
+        [
+          "/wiki/Snapchat"
+        ]
+      ],
+      [
+        "Snap Inc",
+        [
+          "/wiki/Snap_Inc."
+        ]
+      ],
+      [
+        "301 million monthly active users ( 2016 )",
+        []
+      ]
+    ],
+    [
+      [
+        "Telegram",
+        [
+          "/wiki/Telegram_(messaging_service)"
+        ]
+      ],
+      [
+        "Telegram Messenger LLP",
+        []
+      ],
+      [
+        "200 million monthly active users ( March 2018 ) , 365 million registered users ( 19 August 2019 )",
+        []
+      ]
+    ],
+    [
+      [
+        "Tencent QQ",
+        [
+          "/wiki/Tencent_QQ"
+        ]
+      ],
+      [
+        "Tencent Holdings Limited",
+        []
+      ],
+      [
+        "823 million monthly active users ( July 2019 )",
+        []
+      ]
+    ],
+    [
+      [
+        "Viber",
+        [
+          "/wiki/Viber"
+        ]
+      ],
+      [
+        "Rakuten",
+        [
+          "/wiki/Rakuten"
+        ]
+      ],
+      [
+        "260 million monthly active users ( January 2019 ) , 1.095 billion registered users ( March 2019 )",
+        []
+      ]
+    ],
+    [
+      [
+        "WeChat",
+        [
+          "/wiki/WeChat"
+        ]
+      ],
+      [
+        "Tencent Holdings Limited",
+        [
+          "/wiki/Tencent"
+        ]
+      ],
+      [
+        "1132.7 million monthly active users ( Q2 '2019 )",
+        []
+      ]
+    ],
+    [
+      [
+        "WhatsApp",
+        [
+          "/wiki/WhatsApp"
+        ]
+      ],
+      [
+        "Facebook",
+        []
+      ],
+      [
+        "1200 million monthly active users ( January 2017 ) , 1.5 billion registered users ( 31 January 2018 ) , 500 million daily active users ( March 2019 )",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "3cab1d56-c636-52c8-b4c3-4760315269a4",
+    "table_id": "Usage_share_of_instant_messaging_clients_0",
+    "title": "Instant messaging",
+    "header": [
+      "Instant messenger client",
+      "Company",
+      "Usage"
+    ],
+    "value": [
+      [
+        [
+          "Discord",
+          [
+            "/wiki/Discord_(software)"
+          ]
+        ],
+        [
+          "Discord inc",
+          []
+        ],
+        [
+          "250 million users ( May 2019 )",
+          []
+        ]
+      ],
+      [
+        [
+          "eBuddy XMS",
+          [
+            "/wiki/EBuddy"
+          ]
+        ],
+        [
+          "eBuddy",
+          []
+        ],
+        [
+          "250 million users ( September 2011 )",
+          []
+        ]
+      ],
+      [
+        [
+          "Facebook Messenger",
+          [
+            "/wiki/Facebook_Messenger"
+          ]
+        ],
+        [
+          "Facebook",
+          [
+            "/wiki/Facebook_Inc"
+          ]
+        ],
+        [
+          "900 million active users ( April 2016 )",
+          []
+        ]
+      ],
+      [
+        [
+          "iMessage",
+          [
+            "/wiki/IMessage"
+          ]
+        ],
+        [
+          "Apple Inc",
+          [
+            "/wiki/Apple_Inc."
+          ]
+        ],
+        [
+          "140 million users ( June 2012 )",
+          []
+        ]
+      ],
+      [
+        [
+          "Kik Messenger",
+          [
+            "/wiki/Kik_Messenger"
+          ]
+        ],
+        [
+          "Kik Interactive",
+          []
+        ],
+        [
+          "300 million users ( May 2016 )",
+          []
+        ]
+      ],
+      [
+        [
+          "Line",
+          [
+            "/wiki/Line_(software)"
+          ]
+        ],
+        [
+          "Naver Corporation",
+          [
+            "/wiki/Naver_Corporation"
+          ]
+        ],
+        [
+          "217 million monthly active users ( 2016 )",
+          []
+        ]
+      ],
+      [
+        [
+          "Skype",
+          [
+            "/wiki/Skype"
+          ]
+        ],
+        [
+          "Microsoft",
+          [
+            "/wiki/Microsoft"
+          ]
+        ],
+        [
+          "300 million monthly active users ( 5 June 2019 ) , 1.55 billion registered users ( 2019 ) , 4.9 million daily active users ( 2 March 2014 ) , 34 million peak online ( February 2012 )",
+          []
+        ]
+      ],
+      [
+        [
+          "Snapchat",
+          [
+            "/wiki/Snapchat"
+          ]
+        ],
+        [
+          "Snap Inc",
+          [
+            "/wiki/Snap_Inc."
+          ]
+        ],
+        [
+          "301 million monthly active users ( 2016 )",
+          []
+        ]
+      ],
+      [
+        [
+          "Telegram",
+          [
+            "/wiki/Telegram_(messaging_service)"
+          ]
+        ],
+        [
+          "Telegram Messenger LLP",
+          []
+        ],
+        [
+          "200 million monthly active users ( March 2018 ) , 365 million registered users ( 19 August 2019 )",
+          []
+        ]
+      ],
+      [
+        [
+          "Tencent QQ",
+          [
+            "/wiki/Tencent_QQ"
+          ]
+        ],
+        [
+          "Tencent Holdings Limited",
+          []
+        ],
+        [
+          "823 million monthly active users ( July 2019 )",
+          []
+        ]
+      ],
+      [
+        [
+          "Viber",
+          [
+            "/wiki/Viber"
+          ]
+        ],
+        [
+          "Rakuten",
+          [
+            "/wiki/Rakuten"
+          ]
+        ],
+        [
+          "260 million monthly active users ( January 2019 ) , 1.095 billion registered users ( March 2019 )",
+          []
+        ]
+      ],
+      [
+        [
+          "WeChat",
+          [
+            "/wiki/WeChat"
+          ]
+        ],
+        [
+          "Tencent Holdings Limited",
+          [
+            "/wiki/Tencent"
+          ]
+        ],
+        [
+          "1132.7 million monthly active users ( Q2 '2019 )",
+          []
+        ]
+      ],
+      [
+        [
+          "WhatsApp",
+          [
+            "/wiki/WhatsApp"
+          ]
+        ],
+        [
+          "Facebook",
+          []
+        ],
+        [
+          "1200 million monthly active users ( January 2017 ) , 1.5 billion registered users ( 31 January 2018 ) , 500 million daily active users ( March 2019 )",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about various instant messaging clients, including their associated companies and usage statistics. It is designed to give an overview of popular messaging platforms and their adoption levels. The data is relevant for understanding trends in communication technology.",
+  "numeric_columns": [
+    "Usage"
+  ],
+  "categorical_columns": [
+    "Instant messenger client",
+    "Company"
+  ],
+  "entities": [
+    "Instant messenger client",
+    "Company"
+  ]
+}

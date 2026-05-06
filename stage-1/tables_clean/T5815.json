@@ -1,0 +1,512 @@
+{
+  "table_id": "T5815",
+  "uid": "a88431f1-dbb9-5404-bae5-fd221d386c73",
+  "source": "HybridQA",
+  "source_table_id": "a88431f1-dbb9-5404-bae5-fd221d386c73",
+  "domain": "HybridQA",
+  "title": "National Soccer League (South Africa)",
+  "columns": [
+    "Season",
+    "Player",
+    "Goals",
+    "Team"
+  ],
+  "rows": [
+    [
+      [
+        1985,
+        []
+      ],
+      [
+        "Frank McGrellis",
+        [
+          "/wiki/Frank_McGrellis"
+        ]
+      ],
+      [
+        25,
+        []
+      ],
+      [
+        "Wits University",
+        [
+          "/wiki/Bidvest_Wits"
+        ]
+      ]
+    ],
+    [
+      [
+        1986,
+        []
+      ],
+      [
+        "Thomas Hlongwane",
+        [
+          "/wiki/Thomas_Hlongwane"
+        ]
+      ],
+      [
+        32,
+        []
+      ],
+      [
+        "Moroka Swallows",
+        [
+          "/wiki/Moroka_Swallows"
+        ]
+      ]
+    ],
+    [
+      [
+        1987,
+        []
+      ],
+      [
+        "Noel Cousins",
+        []
+      ],
+      [
+        25,
+        []
+      ],
+      [
+        "Arcadia Fluoride",
+        []
+      ]
+    ],
+    [
+      [
+        1988,
+        []
+      ],
+      [
+        "Shane McGregor",
+        [
+          "/wiki/Shane_McGregor"
+        ]
+      ],
+      [
+        19,
+        []
+      ],
+      [
+        "Grinaker Rangers & Kaizer Chiefs",
+        [
+          "/wiki/Kaizer_Chiefs"
+        ]
+      ]
+    ],
+    [
+      [
+        1989,
+        []
+      ],
+      [
+        "Noel Cousins",
+        []
+      ],
+      [
+        21,
+        []
+      ],
+      [
+        "Arcadia Fluoride & Moroka Swallows",
+        [
+          "/wiki/Moroka_Swallows"
+        ]
+      ]
+    ],
+    [
+      [
+        1990,
+        []
+      ],
+      [
+        "Bennett Masinga",
+        [
+          "/wiki/Bennett_Masinga"
+        ]
+      ],
+      [
+        20,
+        []
+      ],
+      [
+        "Mamelodi Sundowns",
+        [
+          "/wiki/Mamelodi_Sundowns"
+        ]
+      ]
+    ],
+    [
+      [
+        1991,
+        []
+      ],
+      [
+        "Fani Madida",
+        [
+          "/wiki/Fani_Madida"
+        ]
+      ],
+      [
+        28,
+        []
+      ],
+      [
+        "Kaizer Chiefs",
+        [
+          "/wiki/Kaizer_Chiefs"
+        ]
+      ]
+    ],
+    [
+      [
+        1992,
+        []
+      ],
+      [
+        "George Dearnaley",
+        [
+          "/wiki/George_Dearnaley"
+        ]
+      ],
+      [
+        20,
+        []
+      ],
+      [
+        "AmaZulu",
+        [
+          "/wiki/AmaZulu_F.C."
+        ]
+      ]
+    ],
+    [
+      [
+        1993,
+        []
+      ],
+      [
+        "Daniel Mudau",
+        [
+          "/wiki/Daniel_Mudau"
+        ]
+      ],
+      [
+        22,
+        []
+      ],
+      [
+        "Sundowns FC",
+        [
+          "/wiki/Mamelodi_Sundowns"
+        ]
+      ]
+    ],
+    [
+      [
+        1994,
+        []
+      ],
+      [
+        "Wilfred Mugeyi",
+        [
+          "/wiki/Wilfred_Mugeyi"
+        ]
+      ],
+      [
+        19,
+        []
+      ],
+      [
+        "Umtata Bucks",
+        [
+          "/wiki/Bush_Bucks"
+        ]
+      ]
+    ],
+    [
+      [
+        1995,
+        []
+      ],
+      [
+        "Gerald Stober",
+        [
+          "/wiki/Gerald_Stober"
+        ]
+      ],
+      [
+        18,
+        []
+      ],
+      [
+        "Hellenic",
+        [
+          "/wiki/Hellenic_FC"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "a88431f1-dbb9-5404-bae5-fd221d386c73",
+    "table_id": "National_Soccer_League_(South_Africa)_1",
+    "title": "National Soccer League (South Africa)",
+    "header": [
+      "Season",
+      "Player",
+      "Goals",
+      "Team"
+    ],
+    "value": [
+      [
+        [
+          1985,
+          []
+        ],
+        [
+          "Frank McGrellis",
+          [
+            "/wiki/Frank_McGrellis"
+          ]
+        ],
+        [
+          25,
+          []
+        ],
+        [
+          "Wits University",
+          [
+            "/wiki/Bidvest_Wits"
+          ]
+        ]
+      ],
+      [
+        [
+          1986,
+          []
+        ],
+        [
+          "Thomas Hlongwane",
+          [
+            "/wiki/Thomas_Hlongwane"
+          ]
+        ],
+        [
+          32,
+          []
+        ],
+        [
+          "Moroka Swallows",
+          [
+            "/wiki/Moroka_Swallows"
+          ]
+        ]
+      ],
+      [
+        [
+          1987,
+          []
+        ],
+        [
+          "Noel Cousins",
+          []
+        ],
+        [
+          25,
+          []
+        ],
+        [
+          "Arcadia Fluoride",
+          []
+        ]
+      ],
+      [
+        [
+          1988,
+          []
+        ],
+        [
+          "Shane McGregor",
+          [
+            "/wiki/Shane_McGregor"
+          ]
+        ],
+        [
+          19,
+          []
+        ],
+        [
+          "Grinaker Rangers & Kaizer Chiefs",
+          [
+            "/wiki/Kaizer_Chiefs"
+          ]
+        ]
+      ],
+      [
+        [
+          1989,
+          []
+        ],
+        [
+          "Noel Cousins",
+          []
+        ],
+        [
+          21,
+          []
+        ],
+        [
+          "Arcadia Fluoride & Moroka Swallows",
+          [
+            "/wiki/Moroka_Swallows"
+          ]
+        ]
+      ],
+      [
+        [
+          1990,
+          []
+        ],
+        [
+          "Bennett Masinga",
+          [
+            "/wiki/Bennett_Masinga"
+          ]
+        ],
+        [
+          20,
+          []
+        ],
+        [
+          "Mamelodi Sundowns",
+          [
+            "/wiki/Mamelodi_Sundowns"
+          ]
+        ]
+      ],
+      [
+        [
+          1991,
+          []
+        ],
+        [
+          "Fani Madida",
+          [
+            "/wiki/Fani_Madida"
+          ]
+        ],
+        [
+          28,
+          []
+        ],
+        [
+          "Kaizer Chiefs",
+          [
+            "/wiki/Kaizer_Chiefs"
+          ]
+        ]
+      ],
+      [
+        [
+          1992,
+          []
+        ],
+        [
+          "George Dearnaley",
+          [
+            "/wiki/George_Dearnaley"
+          ]
+        ],
+        [
+          20,
+          []
+        ],
+        [
+          "AmaZulu",
+          [
+            "/wiki/AmaZulu_F.C."
+          ]
+        ]
+      ],
+      [
+        [
+          1993,
+          []
+        ],
+        [
+          "Daniel Mudau",
+          [
+            "/wiki/Daniel_Mudau"
+          ]
+        ],
+        [
+          22,
+          []
+        ],
+        [
+          "Sundowns FC",
+          [
+            "/wiki/Mamelodi_Sundowns"
+          ]
+        ]
+      ],
+      [
+        [
+          1994,
+          []
+        ],
+        [
+          "Wilfred Mugeyi",
+          [
+            "/wiki/Wilfred_Mugeyi"
+          ]
+        ],
+        [
+          19,
+          []
+        ],
+        [
+          "Umtata Bucks",
+          [
+            "/wiki/Bush_Bucks"
+          ]
+        ]
+      ],
+      [
+        [
+          1995,
+          []
+        ],
+        [
+          "Gerald Stober",
+          [
+            "/wiki/Gerald_Stober"
+          ]
+        ],
+        [
+          18,
+          []
+        ],
+        [
+          "Hellenic",
+          [
+            "/wiki/Hellenic_FC"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of the top goal scorers in the National Soccer League (South Africa) for various seasons. It includes information about the season, the player who scored the most goals, the number of goals scored, and the team they represented. The table is useful for analyzing player performance and team contributions in South African soccer history.",
+  "numeric_columns": [
+    "Goals"
+  ],
+  "categorical_columns": [
+    "Season",
+    "Team"
+  ],
+  "entities": [
+    "Player"
+  ]
+}

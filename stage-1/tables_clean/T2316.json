@@ -1,0 +1,369 @@
+{
+  "table_id": "T2316",
+  "uid": "e0cb5076-3dd8-5d14-9f0a-ae96c5919a35",
+  "source": "HybridQA",
+  "source_table_id": "e0cb5076-3dd8-5d14-9f0a-ae96c5919a35",
+  "domain": "HybridQA",
+  "title": "Cornwall League 1",
+  "columns": [
+    "Team",
+    "Ground",
+    "Town/Village",
+    "Previous season"
+  ],
+  "rows": [
+    [
+      [
+        "Bodmin",
+        []
+      ],
+      [
+        "Clifden Park",
+        []
+      ],
+      [
+        "Bodmin",
+        [
+          "/wiki/Bodmin"
+        ]
+      ],
+      [
+        "3rd",
+        []
+      ]
+    ],
+    [
+      [
+        "Camborne School of Mines",
+        []
+      ],
+      [
+        "Memorial Park , Kernick Road",
+        []
+      ],
+      [
+        "Penryn",
+        [
+          "/wiki/Penryn,_Cornwall"
+        ]
+      ],
+      [
+        "4th",
+        []
+      ]
+    ],
+    [
+      [
+        "Hayle",
+        []
+      ],
+      [
+        "Memorial Park",
+        []
+      ],
+      [
+        "Hayle , Cornwall",
+        [
+          "/wiki/Hayle",
+          "/wiki/Cornwall"
+        ]
+      ],
+      [
+        "Relegated from Cornwall/Devon ( 12th )",
+        [
+          "/wiki/Tribute_Cornwall/Devon"
+        ]
+      ]
+    ],
+    [
+      [
+        "Illogan Park",
+        []
+      ],
+      [
+        "Paynters Lane Playing Field",
+        []
+      ],
+      [
+        "Illogan",
+        [
+          "/wiki/Illogan"
+        ]
+      ],
+      [
+        "6th",
+        []
+      ]
+    ],
+    [
+      [
+        "Lankelly-Fowey RFC",
+        []
+      ],
+      [
+        "Lankelly Farm",
+        []
+      ],
+      [
+        "Fowey",
+        [
+          "/wiki/Fowey"
+        ]
+      ],
+      [
+        "5th",
+        []
+      ]
+    ],
+    [
+      [
+        "Newquay Hornets",
+        []
+      ],
+      [
+        "Newquay Sports Ground",
+        []
+      ],
+      [
+        "Newquay",
+        [
+          "/wiki/Newquay"
+        ]
+      ],
+      [
+        "Runners up ( lost playoff )",
+        []
+      ]
+    ],
+    [
+      [
+        "Roseland",
+        []
+      ],
+      [
+        "Philleigh Rugby Field",
+        []
+      ],
+      [
+        "Philleigh",
+        [
+          "/wiki/Philleigh"
+        ]
+      ],
+      [
+        "7th",
+        []
+      ]
+    ],
+    [
+      [
+        "St Agnes",
+        []
+      ],
+      [
+        "Enys Parc",
+        []
+      ],
+      [
+        "St Agnes",
+        [
+          "/wiki/St_Agnes,_Cornwall"
+        ]
+      ],
+      [
+        "Promoted from Cornwall 2 ( champions )",
+        [
+          "/wiki/Cornwall_League_2"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "e0cb5076-3dd8-5d14-9f0a-ae96c5919a35",
+    "table_id": "Cornwall_League_1_0",
+    "title": "Cornwall League 1",
+    "header": [
+      "Team",
+      "Ground",
+      "Town/Village",
+      "Previous season"
+    ],
+    "value": [
+      [
+        [
+          "Bodmin",
+          []
+        ],
+        [
+          "Clifden Park",
+          []
+        ],
+        [
+          "Bodmin",
+          [
+            "/wiki/Bodmin"
+          ]
+        ],
+        [
+          "3rd",
+          []
+        ]
+      ],
+      [
+        [
+          "Camborne School of Mines",
+          []
+        ],
+        [
+          "Memorial Park , Kernick Road",
+          []
+        ],
+        [
+          "Penryn",
+          [
+            "/wiki/Penryn,_Cornwall"
+          ]
+        ],
+        [
+          "4th",
+          []
+        ]
+      ],
+      [
+        [
+          "Hayle",
+          []
+        ],
+        [
+          "Memorial Park",
+          []
+        ],
+        [
+          "Hayle , Cornwall",
+          [
+            "/wiki/Hayle",
+            "/wiki/Cornwall"
+          ]
+        ],
+        [
+          "Relegated from Cornwall/Devon ( 12th )",
+          [
+            "/wiki/Tribute_Cornwall/Devon"
+          ]
+        ]
+      ],
+      [
+        [
+          "Illogan Park",
+          []
+        ],
+        [
+          "Paynters Lane Playing Field",
+          []
+        ],
+        [
+          "Illogan",
+          [
+            "/wiki/Illogan"
+          ]
+        ],
+        [
+          "6th",
+          []
+        ]
+      ],
+      [
+        [
+          "Lankelly-Fowey RFC",
+          []
+        ],
+        [
+          "Lankelly Farm",
+          []
+        ],
+        [
+          "Fowey",
+          [
+            "/wiki/Fowey"
+          ]
+        ],
+        [
+          "5th",
+          []
+        ]
+      ],
+      [
+        [
+          "Newquay Hornets",
+          []
+        ],
+        [
+          "Newquay Sports Ground",
+          []
+        ],
+        [
+          "Newquay",
+          [
+            "/wiki/Newquay"
+          ]
+        ],
+        [
+          "Runners up ( lost playoff )",
+          []
+        ]
+      ],
+      [
+        [
+          "Roseland",
+          []
+        ],
+        [
+          "Philleigh Rugby Field",
+          []
+        ],
+        [
+          "Philleigh",
+          [
+            "/wiki/Philleigh"
+          ]
+        ],
+        [
+          "7th",
+          []
+        ]
+      ],
+      [
+        [
+          "St Agnes",
+          []
+        ],
+        [
+          "Enys Parc",
+          []
+        ],
+        [
+          "St Agnes",
+          [
+            "/wiki/St_Agnes,_Cornwall"
+          ]
+        ],
+        [
+          "Promoted from Cornwall 2 ( champions )",
+          [
+            "/wiki/Cornwall_League_2"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about teams in the Cornwall League 1, including their home grounds, associated towns or villages, and their performance in the previous season. It is likely intended to summarize key details about the league's participants and their locations.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Previous season"
+  ],
+  "entities": [
+    "Team",
+    "Ground",
+    "Town/Village"
+  ]
+}

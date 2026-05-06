@@ -1,0 +1,492 @@
+{
+  "table_id": "T2066",
+  "uid": "abf6695b-0a31-5014-beb4-a159b3f4df84",
+  "source": "HybridQA",
+  "source_table_id": "abf6695b-0a31-5014-beb4-a159b3f4df84",
+  "domain": "HybridQA",
+  "title": "2013 FKF Division One",
+  "columns": [
+    "Club",
+    "Home stadium",
+    "Town / City"
+  ],
+  "rows": [
+    [
+      [
+        "Bidco United",
+        [
+          "/wiki/Bidco_United_F.C."
+        ]
+      ],
+      [
+        "Del Monte Grounds",
+        []
+      ],
+      [
+        "Thika",
+        [
+          "/wiki/Thika"
+        ]
+      ]
+    ],
+    [
+      [
+        "Brighter Stars",
+        []
+      ],
+      [
+        "Brighter Grounds",
+        []
+      ],
+      [
+        "Lamu",
+        [
+          "/wiki/Lamu"
+        ]
+      ]
+    ],
+    [
+      [
+        "Coast United",
+        []
+      ],
+      [
+        "Tudor Day",
+        []
+      ],
+      [
+        "Mombasa",
+        [
+          "/wiki/Mombasa"
+        ]
+      ]
+    ],
+    [
+      [
+        "Kambakia Christian Centre",
+        []
+      ],
+      [
+        "Kinoru Stadium",
+        []
+      ],
+      [
+        "Meru",
+        [
+          "/wiki/Meru,_Kenya"
+        ]
+      ]
+    ],
+    [
+      [
+        "Kenya Revenue Authority",
+        [
+          "/wiki/Kenya_Revenue_Authority"
+        ]
+      ],
+      [
+        "Public Service Grounds",
+        []
+      ],
+      [
+        "Nairobi",
+        [
+          "/wiki/Nairobi"
+        ]
+      ]
+    ],
+    [
+      [
+        "Kibera Celtic",
+        []
+      ],
+      [
+        "Woodley Grounds",
+        []
+      ],
+      [
+        "Nairobi",
+        [
+          "/wiki/Nairobi"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ligi Ndogo",
+        [
+          "/wiki/Ligi_Ndogo_S.C."
+        ]
+      ],
+      [
+        "Ligi Ndogo Grounds",
+        [
+          "/wiki/Ligi_Ndogo_Grounds"
+        ]
+      ],
+      [
+        "Nairobi",
+        [
+          "/wiki/Nairobi"
+        ]
+      ]
+    ],
+    [
+      [
+        "Mahakama",
+        [
+          "/wiki/Mahakama_F.C."
+        ]
+      ],
+      [
+        "Nairobi City Stadium",
+        [
+          "/wiki/Nairobi_City_Stadium"
+        ]
+      ],
+      [
+        "Nairobi",
+        [
+          "/wiki/Nairobi"
+        ]
+      ]
+    ],
+    [
+      [
+        "Maweni City",
+        []
+      ],
+      [
+        "Malindi Stadium",
+        []
+      ],
+      [
+        "Maweni",
+        [
+          "/wiki/Maweni"
+        ]
+      ]
+    ],
+    [
+      [
+        "Murang ' a United",
+        []
+      ],
+      [
+        "Ihora Stadium",
+        []
+      ],
+      [
+        "Murang ' a",
+        [
+          "/wiki/Murang'a"
+        ]
+      ]
+    ],
+    [
+      [
+        "Nairobi Stima",
+        [
+          "/wiki/Nairobi_Stima_F.C."
+        ]
+      ],
+      [
+        "Nairobi City Stadium",
+        [
+          "/wiki/Nairobi_City_Stadium"
+        ]
+      ],
+      [
+        "Nairobi",
+        [
+          "/wiki/Nairobi"
+        ]
+      ]
+    ],
+    [
+      [
+        "Sparki Youth",
+        []
+      ],
+      [
+        "RG Ngala",
+        []
+      ],
+      [
+        "Nairobi",
+        [
+          "/wiki/Nairobi"
+        ]
+      ]
+    ],
+    [
+      [
+        "Talanta",
+        [
+          "/wiki/FC_Talanta"
+        ]
+      ],
+      [
+        "Ruaraka Grounds",
+        [
+          "/wiki/Ruaraka_Grounds"
+        ]
+      ],
+      [
+        "Nairobi",
+        [
+          "/wiki/Nairobi"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "abf6695b-0a31-5014-beb4-a159b3f4df84",
+    "table_id": "2013_FKF_Division_One_0",
+    "title": "2013 FKF Division One",
+    "header": [
+      "Club",
+      "Home stadium",
+      "Town / City"
+    ],
+    "value": [
+      [
+        [
+          "Bidco United",
+          [
+            "/wiki/Bidco_United_F.C."
+          ]
+        ],
+        [
+          "Del Monte Grounds",
+          []
+        ],
+        [
+          "Thika",
+          [
+            "/wiki/Thika"
+          ]
+        ]
+      ],
+      [
+        [
+          "Brighter Stars",
+          []
+        ],
+        [
+          "Brighter Grounds",
+          []
+        ],
+        [
+          "Lamu",
+          [
+            "/wiki/Lamu"
+          ]
+        ]
+      ],
+      [
+        [
+          "Coast United",
+          []
+        ],
+        [
+          "Tudor Day",
+          []
+        ],
+        [
+          "Mombasa",
+          [
+            "/wiki/Mombasa"
+          ]
+        ]
+      ],
+      [
+        [
+          "Kambakia Christian Centre",
+          []
+        ],
+        [
+          "Kinoru Stadium",
+          []
+        ],
+        [
+          "Meru",
+          [
+            "/wiki/Meru,_Kenya"
+          ]
+        ]
+      ],
+      [
+        [
+          "Kenya Revenue Authority",
+          [
+            "/wiki/Kenya_Revenue_Authority"
+          ]
+        ],
+        [
+          "Public Service Grounds",
+          []
+        ],
+        [
+          "Nairobi",
+          [
+            "/wiki/Nairobi"
+          ]
+        ]
+      ],
+      [
+        [
+          "Kibera Celtic",
+          []
+        ],
+        [
+          "Woodley Grounds",
+          []
+        ],
+        [
+          "Nairobi",
+          [
+            "/wiki/Nairobi"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ligi Ndogo",
+          [
+            "/wiki/Ligi_Ndogo_S.C."
+          ]
+        ],
+        [
+          "Ligi Ndogo Grounds",
+          [
+            "/wiki/Ligi_Ndogo_Grounds"
+          ]
+        ],
+        [
+          "Nairobi",
+          [
+            "/wiki/Nairobi"
+          ]
+        ]
+      ],
+      [
+        [
+          "Mahakama",
+          [
+            "/wiki/Mahakama_F.C."
+          ]
+        ],
+        [
+          "Nairobi City Stadium",
+          [
+            "/wiki/Nairobi_City_Stadium"
+          ]
+        ],
+        [
+          "Nairobi",
+          [
+            "/wiki/Nairobi"
+          ]
+        ]
+      ],
+      [
+        [
+          "Maweni City",
+          []
+        ],
+        [
+          "Malindi Stadium",
+          []
+        ],
+        [
+          "Maweni",
+          [
+            "/wiki/Maweni"
+          ]
+        ]
+      ],
+      [
+        [
+          "Murang ' a United",
+          []
+        ],
+        [
+          "Ihora Stadium",
+          []
+        ],
+        [
+          "Murang ' a",
+          [
+            "/wiki/Murang'a"
+          ]
+        ]
+      ],
+      [
+        [
+          "Nairobi Stima",
+          [
+            "/wiki/Nairobi_Stima_F.C."
+          ]
+        ],
+        [
+          "Nairobi City Stadium",
+          [
+            "/wiki/Nairobi_City_Stadium"
+          ]
+        ],
+        [
+          "Nairobi",
+          [
+            "/wiki/Nairobi"
+          ]
+        ]
+      ],
+      [
+        [
+          "Sparki Youth",
+          []
+        ],
+        [
+          "RG Ngala",
+          []
+        ],
+        [
+          "Nairobi",
+          [
+            "/wiki/Nairobi"
+          ]
+        ]
+      ],
+      [
+        [
+          "Talanta",
+          [
+            "/wiki/FC_Talanta"
+          ]
+        ],
+        [
+          "Ruaraka Grounds",
+          [
+            "/wiki/Ruaraka_Grounds"
+          ]
+        ],
+        [
+          "Nairobi",
+          [
+            "/wiki/Nairobi"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about football clubs that participated in the 2013 FKF Division One league, including their home stadiums and associated towns or cities. It serves as a reference for understanding the geographical and infrastructural aspects of the league's teams.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Home stadium"
+  ],
+  "entities": [
+    "Club",
+    "Town / City"
+  ]
+}

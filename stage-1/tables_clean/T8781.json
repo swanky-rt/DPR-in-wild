@@ -1,0 +1,491 @@
+{
+  "table_id": "T8781",
+  "uid": "8d7944b9-f03e-5047-8892-e51f8fa3c7fa",
+  "source": "HybridQA",
+  "source_table_id": "8d7944b9-f03e-5047-8892-e51f8fa3c7fa",
+  "domain": "HybridQA",
+  "title": "Azerbaijan (Iran)",
+  "columns": [
+    "Rank",
+    "Name",
+    "County",
+    "Province",
+    "Population ( County )"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Tabriz",
+        [
+          "/wiki/Tabriz"
+        ]
+      ],
+      [
+        "Tabriz County",
+        [
+          "/wiki/Tabriz_County"
+        ]
+      ],
+      [
+        "East Azerbaijan",
+        [
+          "/wiki/East_Azerbaijan"
+        ]
+      ],
+      [
+        "1,695,094",
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Urmia",
+        [
+          "/wiki/Urmia"
+        ]
+      ],
+      [
+        "Urmia County",
+        [
+          "/wiki/Urmia_County"
+        ]
+      ],
+      [
+        "West Azerbaijan",
+        [
+          "/wiki/West_Azerbaijan"
+        ]
+      ],
+      [
+        "963,738",
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Ardabil",
+        [
+          "/wiki/Ardabil"
+        ]
+      ],
+      [
+        "Ardabil County",
+        [
+          "/wiki/Ardabil_County"
+        ]
+      ],
+      [
+        "Ardabil Province",
+        [
+          "/wiki/Ardabil_Province"
+        ]
+      ],
+      [
+        "564,365",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Zanjan",
+        [
+          "/wiki/Zanjan,_Iran"
+        ]
+      ],
+      [
+        "Zanjan County",
+        [
+          "/wiki/Zanjan_County"
+        ]
+      ],
+      [
+        "Zanjan Province",
+        [
+          "/wiki/Zanjan_Province"
+        ]
+      ],
+      [
+        "486,495",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Khoy",
+        [
+          "/wiki/Khoy"
+        ]
+      ],
+      [
+        "Khoy County",
+        [
+          "/wiki/Khoy_County"
+        ]
+      ],
+      [
+        "West Azerbaijan",
+        [
+          "/wiki/West_Azerbaijan"
+        ]
+      ],
+      [
+        "354,309",
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Miandoab",
+        [
+          "/wiki/Miandoab"
+        ]
+      ],
+      [
+        "Miandoab County",
+        [
+          "/wiki/Miandoab_County"
+        ]
+      ],
+      [
+        "West Azerbaijan",
+        [
+          "/wiki/West_Azerbaijan"
+        ]
+      ],
+      [
+        "260,628",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Maragheh",
+        [
+          "/wiki/Maragheh"
+        ]
+      ],
+      [
+        "Maragheh County",
+        [
+          "/wiki/Maragheh_County"
+        ]
+      ],
+      [
+        "East Azerbaijan",
+        [
+          "/wiki/East_Azerbaijan"
+        ]
+      ],
+      [
+        "247,681",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Marand",
+        [
+          "/wiki/Marand"
+        ]
+      ],
+      [
+        "Marand County",
+        [
+          "/wiki/Marand_County"
+        ]
+      ],
+      [
+        "East Azerbaijan",
+        [
+          "/wiki/East_Azerbaijan"
+        ]
+      ],
+      [
+        "239,209",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "8d7944b9-f03e-5047-8892-e51f8fa3c7fa",
+    "table_id": "Azerbaijan_(Iran)_1",
+    "title": "Azerbaijan (Iran)",
+    "header": [
+      "Rank",
+      "Name",
+      "County",
+      "Province",
+      "Population ( County )"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Tabriz",
+          [
+            "/wiki/Tabriz"
+          ]
+        ],
+        [
+          "Tabriz County",
+          [
+            "/wiki/Tabriz_County"
+          ]
+        ],
+        [
+          "East Azerbaijan",
+          [
+            "/wiki/East_Azerbaijan"
+          ]
+        ],
+        [
+          "1,695,094",
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Urmia",
+          [
+            "/wiki/Urmia"
+          ]
+        ],
+        [
+          "Urmia County",
+          [
+            "/wiki/Urmia_County"
+          ]
+        ],
+        [
+          "West Azerbaijan",
+          [
+            "/wiki/West_Azerbaijan"
+          ]
+        ],
+        [
+          "963,738",
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Ardabil",
+          [
+            "/wiki/Ardabil"
+          ]
+        ],
+        [
+          "Ardabil County",
+          [
+            "/wiki/Ardabil_County"
+          ]
+        ],
+        [
+          "Ardabil Province",
+          [
+            "/wiki/Ardabil_Province"
+          ]
+        ],
+        [
+          "564,365",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Zanjan",
+          [
+            "/wiki/Zanjan,_Iran"
+          ]
+        ],
+        [
+          "Zanjan County",
+          [
+            "/wiki/Zanjan_County"
+          ]
+        ],
+        [
+          "Zanjan Province",
+          [
+            "/wiki/Zanjan_Province"
+          ]
+        ],
+        [
+          "486,495",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Khoy",
+          [
+            "/wiki/Khoy"
+          ]
+        ],
+        [
+          "Khoy County",
+          [
+            "/wiki/Khoy_County"
+          ]
+        ],
+        [
+          "West Azerbaijan",
+          [
+            "/wiki/West_Azerbaijan"
+          ]
+        ],
+        [
+          "354,309",
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Miandoab",
+          [
+            "/wiki/Miandoab"
+          ]
+        ],
+        [
+          "Miandoab County",
+          [
+            "/wiki/Miandoab_County"
+          ]
+        ],
+        [
+          "West Azerbaijan",
+          [
+            "/wiki/West_Azerbaijan"
+          ]
+        ],
+        [
+          "260,628",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Maragheh",
+          [
+            "/wiki/Maragheh"
+          ]
+        ],
+        [
+          "Maragheh County",
+          [
+            "/wiki/Maragheh_County"
+          ]
+        ],
+        [
+          "East Azerbaijan",
+          [
+            "/wiki/East_Azerbaijan"
+          ]
+        ],
+        [
+          "247,681",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Marand",
+          [
+            "/wiki/Marand"
+          ]
+        ],
+        [
+          "Marand County",
+          [
+            "/wiki/Marand_County"
+          ]
+        ],
+        [
+          "East Azerbaijan",
+          [
+            "/wiki/East_Azerbaijan"
+          ]
+        ],
+        [
+          "239,209",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about various locations in Azerbaijan (Iran), including their rank, name, administrative divisions, and population. It is likely intended to offer a comparative overview of these areas based on population and administrative hierarchy.",
+  "numeric_columns": [
+    "Rank",
+    "Population ( County )"
+  ],
+  "categorical_columns": [
+    "County",
+    "Province"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

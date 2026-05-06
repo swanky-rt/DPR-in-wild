@@ -1,0 +1,457 @@
+{
+  "table_id": "T6773",
+  "uid": "62bc2848-b80d-51b0-8f74-3657e41b5550",
+  "source": "HybridQA",
+  "source_table_id": "62bc2848-b80d-51b0-8f74-3657e41b5550",
+  "domain": "HybridQA",
+  "title": "SC Toronto",
+  "columns": [
+    "Years",
+    "Name",
+    "Nation"
+  ],
+  "rows": [
+    [
+      [
+        "1996-2001",
+        []
+      ],
+      [
+        "Cesar Garcia",
+        [
+          "/wiki/Cesar_Garcia"
+        ]
+      ],
+      [
+        "Canada",
+        [
+          "/wiki/Canada"
+        ]
+      ]
+    ],
+    [
+      [
+        2002,
+        []
+      ],
+      [
+        "Victor Cameira",
+        []
+      ],
+      [
+        "Portugal",
+        [
+          "/wiki/Portugal"
+        ]
+      ]
+    ],
+    [
+      [
+        2002,
+        []
+      ],
+      [
+        "Carmine Isacco",
+        [
+          "/wiki/Carmine_Isacco"
+        ]
+      ],
+      [
+        "Canada",
+        [
+          "/wiki/Canada"
+        ]
+      ]
+    ],
+    [
+      [
+        "2003-2004",
+        []
+      ],
+      [
+        "Jose Testas",
+        [
+          "/wiki/Jose_Testas"
+        ]
+      ],
+      [
+        "Portugal",
+        [
+          "/wiki/Portugal"
+        ]
+      ]
+    ],
+    [
+      [
+        2005,
+        []
+      ],
+      [
+        "Cesar Garcia",
+        [
+          "/wiki/Cesar_Garcia"
+        ]
+      ],
+      [
+        "Canada",
+        [
+          "/wiki/Canada"
+        ]
+      ]
+    ],
+    [
+      [
+        "2005-2006",
+        []
+      ],
+      [
+        "Jose Testas",
+        [
+          "/wiki/Jose_Testas"
+        ]
+      ],
+      [
+        "Portugal",
+        [
+          "/wiki/Portugal"
+        ]
+      ]
+    ],
+    [
+      [
+        2007,
+        []
+      ],
+      [
+        "Paulo Almas",
+        []
+      ],
+      [
+        "Portugal",
+        [
+          "/wiki/Portugal"
+        ]
+      ]
+    ],
+    [
+      [
+        2007,
+        []
+      ],
+      [
+        "Jorge Armua",
+        [
+          "/wiki/Jorge_Armua"
+        ]
+      ],
+      [
+        "Uruguay",
+        [
+          "/wiki/Uruguay"
+        ]
+      ]
+    ],
+    [
+      [
+        2008,
+        []
+      ],
+      [
+        "Jose Testas",
+        [
+          "/wiki/Jose_Testas"
+        ]
+      ],
+      [
+        "Portugal",
+        [
+          "/wiki/Portugal"
+        ]
+      ]
+    ],
+    [
+      [
+        2009,
+        []
+      ],
+      [
+        "Danny Amaral",
+        [
+          "/wiki/Danny_Amaral"
+        ]
+      ],
+      [
+        "Canada",
+        [
+          "/wiki/Canada"
+        ]
+      ]
+    ],
+    [
+      [
+        "2010-2011",
+        []
+      ],
+      [
+        "Carmine Isacco",
+        [
+          "/wiki/Carmine_Isacco"
+        ]
+      ],
+      [
+        "Canada",
+        [
+          "/wiki/Canada"
+        ]
+      ]
+    ],
+    [
+      [
+        2012,
+        []
+      ],
+      [
+        "Patrice Gheisar",
+        []
+      ],
+      [
+        "Canada",
+        [
+          "/wiki/Canada"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "62bc2848-b80d-51b0-8f74-3657e41b5550",
+    "table_id": "SC_Toronto_0",
+    "title": "SC Toronto",
+    "header": [
+      "Years",
+      "Name",
+      "Nation"
+    ],
+    "value": [
+      [
+        [
+          "1996-2001",
+          []
+        ],
+        [
+          "Cesar Garcia",
+          [
+            "/wiki/Cesar_Garcia"
+          ]
+        ],
+        [
+          "Canada",
+          [
+            "/wiki/Canada"
+          ]
+        ]
+      ],
+      [
+        [
+          2002,
+          []
+        ],
+        [
+          "Victor Cameira",
+          []
+        ],
+        [
+          "Portugal",
+          [
+            "/wiki/Portugal"
+          ]
+        ]
+      ],
+      [
+        [
+          2002,
+          []
+        ],
+        [
+          "Carmine Isacco",
+          [
+            "/wiki/Carmine_Isacco"
+          ]
+        ],
+        [
+          "Canada",
+          [
+            "/wiki/Canada"
+          ]
+        ]
+      ],
+      [
+        [
+          "2003-2004",
+          []
+        ],
+        [
+          "Jose Testas",
+          [
+            "/wiki/Jose_Testas"
+          ]
+        ],
+        [
+          "Portugal",
+          [
+            "/wiki/Portugal"
+          ]
+        ]
+      ],
+      [
+        [
+          2005,
+          []
+        ],
+        [
+          "Cesar Garcia",
+          [
+            "/wiki/Cesar_Garcia"
+          ]
+        ],
+        [
+          "Canada",
+          [
+            "/wiki/Canada"
+          ]
+        ]
+      ],
+      [
+        [
+          "2005-2006",
+          []
+        ],
+        [
+          "Jose Testas",
+          [
+            "/wiki/Jose_Testas"
+          ]
+        ],
+        [
+          "Portugal",
+          [
+            "/wiki/Portugal"
+          ]
+        ]
+      ],
+      [
+        [
+          2007,
+          []
+        ],
+        [
+          "Paulo Almas",
+          []
+        ],
+        [
+          "Portugal",
+          [
+            "/wiki/Portugal"
+          ]
+        ]
+      ],
+      [
+        [
+          2007,
+          []
+        ],
+        [
+          "Jorge Armua",
+          [
+            "/wiki/Jorge_Armua"
+          ]
+        ],
+        [
+          "Uruguay",
+          [
+            "/wiki/Uruguay"
+          ]
+        ]
+      ],
+      [
+        [
+          2008,
+          []
+        ],
+        [
+          "Jose Testas",
+          [
+            "/wiki/Jose_Testas"
+          ]
+        ],
+        [
+          "Portugal",
+          [
+            "/wiki/Portugal"
+          ]
+        ]
+      ],
+      [
+        [
+          2009,
+          []
+        ],
+        [
+          "Danny Amaral",
+          [
+            "/wiki/Danny_Amaral"
+          ]
+        ],
+        [
+          "Canada",
+          [
+            "/wiki/Canada"
+          ]
+        ]
+      ],
+      [
+        [
+          "2010-2011",
+          []
+        ],
+        [
+          "Carmine Isacco",
+          [
+            "/wiki/Carmine_Isacco"
+          ]
+        ],
+        [
+          "Canada",
+          [
+            "/wiki/Canada"
+          ]
+        ]
+      ],
+      [
+        [
+          2012,
+          []
+        ],
+        [
+          "Patrice Gheisar",
+          []
+        ],
+        [
+          "Canada",
+          [
+            "/wiki/Canada"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about individuals associated with SC Toronto, including their active years, names, and nationalities. It appears to document historical or biographical data related to the organization or team members.",
+  "numeric_columns": [
+    "Years"
+  ],
+  "categorical_columns": [
+    "Nation"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

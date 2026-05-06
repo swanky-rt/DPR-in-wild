@@ -1,0 +1,472 @@
+{
+  "table_id": "T6762",
+  "uid": "efcca053-d9fa-5a4d-bfda-ff1a3dc704dd",
+  "source": "HybridQA",
+  "source_table_id": "efcca053-d9fa-5a4d-bfda-ff1a3dc704dd",
+  "domain": "HybridQA",
+  "title": "List of nature centers in Mississippi",
+  "columns": [
+    "Name",
+    "Location",
+    "County",
+    "Region",
+    "Summary"
+  ],
+  "rows": [
+    [
+      [
+        "Box Environmental Education Center",
+        []
+      ],
+      [
+        "Brooksville",
+        [
+          "/wiki/Brooksville,_Mississippi"
+        ]
+      ],
+      [
+        "Noxubee",
+        [
+          "/wiki/Noxubee_County,_Mississippi"
+        ]
+      ],
+      [
+        "East Central",
+        []
+      ],
+      [
+        "website , operated by the Starkville School District , located on the 48,000-acre Sam D. Hamilton Noxubee National Wildlife Refuge",
+        [
+          "/wiki/Starkville_School_District",
+          "/wiki/Sam_D._Hamilton_Noxubee_National_Wildlife_Refuge"
+        ]
+      ]
+    ],
+    [
+      [
+        "Clinton Community Nature Center",
+        []
+      ],
+      [
+        "Clinton",
+        [
+          "/wiki/Clinton,_Mississippi"
+        ]
+      ],
+      [
+        "Hinds",
+        [
+          "/wiki/Hinds_County,_Mississippi"
+        ]
+      ],
+      [
+        "Southwest",
+        []
+      ],
+      [
+        "website , 33 acres",
+        []
+      ]
+    ],
+    [
+      [
+        "Grand Bay National Estuarine Research Reserve",
+        [
+          "/wiki/Grand_Bay_National_Estuarine_Research_Reserve"
+        ]
+      ],
+      [
+        "Moss Point",
+        [
+          "/wiki/Moss_Point,_Mississippi"
+        ]
+      ],
+      [
+        "Jackson",
+        [
+          "/wiki/Jackson_County,_Mississippi"
+        ]
+      ],
+      [
+        "Southeast",
+        []
+      ],
+      [
+        "18,400 acres , features the Grand Bay Coastal Resources Center Interpretative Area",
+        []
+      ]
+    ],
+    [
+      [
+        "Mississippi Museum of Natural Science",
+        [
+          "/wiki/Mississippi_Museum_of_Natural_Science"
+        ]
+      ],
+      [
+        "Jackson",
+        [
+          "/wiki/Jackson,_Mississippi"
+        ]
+      ],
+      [
+        "Hinds",
+        []
+      ],
+      [
+        "Southwest",
+        []
+      ],
+      [
+        "Natural history museum , aquarium displays , 2.5 miles of nature trails , programs , located in LeFleur 's Bluff State Park",
+        [
+          "/wiki/LeFleur's_Bluff_State_Park"
+        ]
+      ]
+    ],
+    [
+      [
+        "Pascagoula River Audubon Center",
+        []
+      ],
+      [
+        "Moss Point",
+        []
+      ],
+      [
+        "Jackson",
+        []
+      ],
+      [
+        "Southeast",
+        []
+      ],
+      [
+        "website , operated by the National Audubon Society",
+        [
+          "/wiki/National_Audubon_Society"
+        ]
+      ]
+    ],
+    [
+      [
+        "Plymouth Bluff Center",
+        []
+      ],
+      [
+        "Columbus",
+        [
+          "/wiki/Columbus,_Mississippi"
+        ]
+      ],
+      [
+        "Lowndes",
+        [
+          "/wiki/Lowndes_County,_Mississippi"
+        ]
+      ],
+      [
+        "East Central",
+        []
+      ],
+      [
+        "website , operated by the Mississippi University for Women , outdoor education center with museum",
+        [
+          "/wiki/Mississippi_University_for_Women"
+        ]
+      ]
+    ],
+    [
+      [
+        "Scranton Nature Center",
+        []
+      ],
+      [
+        "Pascagoula",
+        [
+          "/wiki/Pascagoula,_Mississippi"
+        ]
+      ],
+      [
+        "Jackson",
+        []
+      ],
+      [
+        "Southeast",
+        []
+      ],
+      [
+        "website , operated by the City in IG Levy Park",
+        []
+      ]
+    ],
+    [
+      [
+        "Strawberry Plains Audubon Center",
+        []
+      ],
+      [
+        "Holly Springs",
+        [
+          "/wiki/Holly_Springs,_Mississippi"
+        ]
+      ],
+      [
+        "Marshall",
+        [
+          "/wiki/Marshall_County,_Mississippi"
+        ]
+      ],
+      [
+        "North",
+        []
+      ],
+      [
+        "website , 2,500 acres , operated by the National Audubon Society , features restored 1850s mansion",
+        [
+          "/wiki/National_Audubon_Society"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "efcca053-d9fa-5a4d-bfda-ff1a3dc704dd",
+    "table_id": "List_of_nature_centers_in_Mississippi_0",
+    "title": "List of nature centers in Mississippi",
+    "header": [
+      "Name",
+      "Location",
+      "County",
+      "Region",
+      "Summary"
+    ],
+    "value": [
+      [
+        [
+          "Box Environmental Education Center",
+          []
+        ],
+        [
+          "Brooksville",
+          [
+            "/wiki/Brooksville,_Mississippi"
+          ]
+        ],
+        [
+          "Noxubee",
+          [
+            "/wiki/Noxubee_County,_Mississippi"
+          ]
+        ],
+        [
+          "East Central",
+          []
+        ],
+        [
+          "website , operated by the Starkville School District , located on the 48,000-acre Sam D. Hamilton Noxubee National Wildlife Refuge",
+          [
+            "/wiki/Starkville_School_District",
+            "/wiki/Sam_D._Hamilton_Noxubee_National_Wildlife_Refuge"
+          ]
+        ]
+      ],
+      [
+        [
+          "Clinton Community Nature Center",
+          []
+        ],
+        [
+          "Clinton",
+          [
+            "/wiki/Clinton,_Mississippi"
+          ]
+        ],
+        [
+          "Hinds",
+          [
+            "/wiki/Hinds_County,_Mississippi"
+          ]
+        ],
+        [
+          "Southwest",
+          []
+        ],
+        [
+          "website , 33 acres",
+          []
+        ]
+      ],
+      [
+        [
+          "Grand Bay National Estuarine Research Reserve",
+          [
+            "/wiki/Grand_Bay_National_Estuarine_Research_Reserve"
+          ]
+        ],
+        [
+          "Moss Point",
+          [
+            "/wiki/Moss_Point,_Mississippi"
+          ]
+        ],
+        [
+          "Jackson",
+          [
+            "/wiki/Jackson_County,_Mississippi"
+          ]
+        ],
+        [
+          "Southeast",
+          []
+        ],
+        [
+          "18,400 acres , features the Grand Bay Coastal Resources Center Interpretative Area",
+          []
+        ]
+      ],
+      [
+        [
+          "Mississippi Museum of Natural Science",
+          [
+            "/wiki/Mississippi_Museum_of_Natural_Science"
+          ]
+        ],
+        [
+          "Jackson",
+          [
+            "/wiki/Jackson,_Mississippi"
+          ]
+        ],
+        [
+          "Hinds",
+          []
+        ],
+        [
+          "Southwest",
+          []
+        ],
+        [
+          "Natural history museum , aquarium displays , 2.5 miles of nature trails , programs , located in LeFleur 's Bluff State Park",
+          [
+            "/wiki/LeFleur's_Bluff_State_Park"
+          ]
+        ]
+      ],
+      [
+        [
+          "Pascagoula River Audubon Center",
+          []
+        ],
+        [
+          "Moss Point",
+          []
+        ],
+        [
+          "Jackson",
+          []
+        ],
+        [
+          "Southeast",
+          []
+        ],
+        [
+          "website , operated by the National Audubon Society",
+          [
+            "/wiki/National_Audubon_Society"
+          ]
+        ]
+      ],
+      [
+        [
+          "Plymouth Bluff Center",
+          []
+        ],
+        [
+          "Columbus",
+          [
+            "/wiki/Columbus,_Mississippi"
+          ]
+        ],
+        [
+          "Lowndes",
+          [
+            "/wiki/Lowndes_County,_Mississippi"
+          ]
+        ],
+        [
+          "East Central",
+          []
+        ],
+        [
+          "website , operated by the Mississippi University for Women , outdoor education center with museum",
+          [
+            "/wiki/Mississippi_University_for_Women"
+          ]
+        ]
+      ],
+      [
+        [
+          "Scranton Nature Center",
+          []
+        ],
+        [
+          "Pascagoula",
+          [
+            "/wiki/Pascagoula,_Mississippi"
+          ]
+        ],
+        [
+          "Jackson",
+          []
+        ],
+        [
+          "Southeast",
+          []
+        ],
+        [
+          "website , operated by the City in IG Levy Park",
+          []
+        ]
+      ],
+      [
+        [
+          "Strawberry Plains Audubon Center",
+          []
+        ],
+        [
+          "Holly Springs",
+          [
+            "/wiki/Holly_Springs,_Mississippi"
+          ]
+        ],
+        [
+          "Marshall",
+          [
+            "/wiki/Marshall_County,_Mississippi"
+          ]
+        ],
+        [
+          "North",
+          []
+        ],
+        [
+          "website , 2,500 acres , operated by the National Audubon Society , features restored 1850s mansion",
+          [
+            "/wiki/National_Audubon_Society"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a list of nature centers located in Mississippi, including details about their names, locations, counties, regions, and a brief summary of each center. It is intended to offer an overview of these centers for informational or educational purposes.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Region"
+  ],
+  "entities": [
+    "Name",
+    "Location",
+    "County",
+    "Summary"
+  ]
+}

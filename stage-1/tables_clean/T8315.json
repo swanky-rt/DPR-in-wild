@@ -1,0 +1,602 @@
+{
+  "table_id": "T8315",
+  "uid": "258033de-5b74-508d-85c5-87fa0b8bf903",
+  "source": "HybridQA",
+  "source_table_id": "258033de-5b74-508d-85c5-87fa0b8bf903",
+  "domain": "HybridQA",
+  "title": "Vancouver",
+  "columns": [
+    "Professional Team",
+    "League",
+    "Sport",
+    "Venue",
+    "Established",
+    "Championships"
+  ],
+  "rows": [
+    [
+      [
+        "BC Lions",
+        [
+          "/wiki/BC_Lions"
+        ]
+      ],
+      [
+        "Canadian Football League ( CFL )",
+        [
+          "/wiki/Canadian_Football_League"
+        ]
+      ],
+      [
+        "Football",
+        [
+          "/wiki/Canadian_football"
+        ]
+      ],
+      [
+        "BC Place",
+        [
+          "/wiki/BC_Place"
+        ]
+      ],
+      [
+        1954,
+        []
+      ],
+      [
+        6,
+        []
+      ]
+    ],
+    [
+      [
+        "Vancouver Canucks",
+        [
+          "/wiki/Vancouver_Canucks"
+        ]
+      ],
+      [
+        "National Hockey League ( NHL )",
+        [
+          "/wiki/National_Hockey_League"
+        ]
+      ],
+      [
+        "Ice hockey",
+        [
+          "/wiki/Ice_hockey"
+        ]
+      ],
+      [
+        "Rogers Arena",
+        [
+          "/wiki/Rogers_Arena"
+        ]
+      ],
+      [
+        "1970 ( 1945 : PCHL )",
+        [
+          "/wiki/Pacific_Coast_Hockey_League"
+        ]
+      ],
+      [
+        "0 ( 6 in previous leagues )",
+        []
+      ]
+    ],
+    [
+      [
+        "Vancouver Canadians",
+        [
+          "/wiki/Vancouver_Canadians"
+        ]
+      ],
+      [
+        "Northwest League ( NWL )",
+        [
+          "/wiki/Northwest_League"
+        ]
+      ],
+      [
+        "Baseball",
+        [
+          "/wiki/Baseball"
+        ]
+      ],
+      [
+        "Nat Bailey Stadium",
+        [
+          "/wiki/Nat_Bailey_Stadium"
+        ]
+      ],
+      [
+        2000,
+        []
+      ],
+      [
+        4,
+        []
+      ]
+    ],
+    [
+      [
+        "Vancouver Giants",
+        [
+          "/wiki/Vancouver_Giants"
+        ]
+      ],
+      [
+        "Western Hockey League ( WHL )",
+        [
+          "/wiki/Western_Hockey_League"
+        ]
+      ],
+      [
+        "Ice hockey",
+        [
+          "/wiki/Ice_hockey"
+        ]
+      ],
+      [
+        "Langley Events Centre",
+        [
+          "/wiki/Langley_Events_Centre"
+        ]
+      ],
+      [
+        2001,
+        []
+      ],
+      [
+        1,
+        []
+      ]
+    ],
+    [
+      [
+        "Vancouver Whitecaps FC",
+        [
+          "/wiki/Vancouver_Whitecaps_FC"
+        ]
+      ],
+      [
+        "Major League Soccer ( MLS )",
+        [
+          "/wiki/Major_League_Soccer"
+        ]
+      ],
+      [
+        "Soccer",
+        [
+          "/wiki/Association_Football"
+        ]
+      ],
+      [
+        "BC Place",
+        [
+          "/wiki/BC_Place"
+        ]
+      ],
+      [
+        "2009 ( 1974 : NASL )",
+        [
+          "/wiki/North_American_Soccer_League_(1968–84)"
+        ]
+      ],
+      [
+        "0 ( 7 in previous leagues )",
+        []
+      ]
+    ],
+    [
+      [
+        "BC Bears",
+        [
+          "/wiki/BC_Bears"
+        ]
+      ],
+      [
+        "Canadian Rugby Championship ( CRC )",
+        [
+          "/wiki/Canadian_Rugby_Championship"
+        ]
+      ],
+      [
+        "Rugby Union",
+        [
+          "/wiki/Rugby_Union"
+        ]
+      ],
+      [
+        "Thunderbird Stadium",
+        [
+          "/wiki/Thunderbird_Stadium"
+        ]
+      ],
+      [
+        2009,
+        []
+      ],
+      [
+        2,
+        []
+      ]
+    ],
+    [
+      [
+        "Vancouver Warriors",
+        [
+          "/wiki/Vancouver_Warriors"
+        ]
+      ],
+      [
+        "National Lacrosse League ( NLL )",
+        [
+          "/wiki/National_Lacrosse_League"
+        ]
+      ],
+      [
+        "Box Lacrosse",
+        [
+          "/wiki/Box_Lacrosse"
+        ]
+      ],
+      [
+        "Rogers Arena",
+        [
+          "/wiki/Rogers_Arena"
+        ]
+      ],
+      [
+        2014,
+        []
+      ],
+      [
+        "0 ( 1 as the Washington Stealth )",
+        [
+          "/wiki/Washington_Stealth"
+        ]
+      ]
+    ],
+    [
+      [
+        "Vancouver Titans",
+        [
+          "/wiki/Vancouver_Titans"
+        ]
+      ],
+      [
+        "Overwatch League",
+        [
+          "/wiki/Overwatch_League"
+        ]
+      ],
+      [
+        "Overwatch",
+        [
+          "/wiki/Overwatch_(video_game)"
+        ]
+      ],
+      [
+        "Blizzard Arena",
+        [
+          "/wiki/Blizzard_Arena"
+        ]
+      ],
+      [
+        2018,
+        []
+      ],
+      [
+        "1 ( Stage 1 Champions )",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "258033de-5b74-508d-85c5-87fa0b8bf903",
+    "table_id": "Vancouver_0",
+    "title": "Vancouver",
+    "header": [
+      "Professional Team",
+      "League",
+      "Sport",
+      "Venue",
+      "Established",
+      "Championships"
+    ],
+    "value": [
+      [
+        [
+          "BC Lions",
+          [
+            "/wiki/BC_Lions"
+          ]
+        ],
+        [
+          "Canadian Football League ( CFL )",
+          [
+            "/wiki/Canadian_Football_League"
+          ]
+        ],
+        [
+          "Football",
+          [
+            "/wiki/Canadian_football"
+          ]
+        ],
+        [
+          "BC Place",
+          [
+            "/wiki/BC_Place"
+          ]
+        ],
+        [
+          1954,
+          []
+        ],
+        [
+          6,
+          []
+        ]
+      ],
+      [
+        [
+          "Vancouver Canucks",
+          [
+            "/wiki/Vancouver_Canucks"
+          ]
+        ],
+        [
+          "National Hockey League ( NHL )",
+          [
+            "/wiki/National_Hockey_League"
+          ]
+        ],
+        [
+          "Ice hockey",
+          [
+            "/wiki/Ice_hockey"
+          ]
+        ],
+        [
+          "Rogers Arena",
+          [
+            "/wiki/Rogers_Arena"
+          ]
+        ],
+        [
+          "1970 ( 1945 : PCHL )",
+          [
+            "/wiki/Pacific_Coast_Hockey_League"
+          ]
+        ],
+        [
+          "0 ( 6 in previous leagues )",
+          []
+        ]
+      ],
+      [
+        [
+          "Vancouver Canadians",
+          [
+            "/wiki/Vancouver_Canadians"
+          ]
+        ],
+        [
+          "Northwest League ( NWL )",
+          [
+            "/wiki/Northwest_League"
+          ]
+        ],
+        [
+          "Baseball",
+          [
+            "/wiki/Baseball"
+          ]
+        ],
+        [
+          "Nat Bailey Stadium",
+          [
+            "/wiki/Nat_Bailey_Stadium"
+          ]
+        ],
+        [
+          2000,
+          []
+        ],
+        [
+          4,
+          []
+        ]
+      ],
+      [
+        [
+          "Vancouver Giants",
+          [
+            "/wiki/Vancouver_Giants"
+          ]
+        ],
+        [
+          "Western Hockey League ( WHL )",
+          [
+            "/wiki/Western_Hockey_League"
+          ]
+        ],
+        [
+          "Ice hockey",
+          [
+            "/wiki/Ice_hockey"
+          ]
+        ],
+        [
+          "Langley Events Centre",
+          [
+            "/wiki/Langley_Events_Centre"
+          ]
+        ],
+        [
+          2001,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        [
+          "Vancouver Whitecaps FC",
+          [
+            "/wiki/Vancouver_Whitecaps_FC"
+          ]
+        ],
+        [
+          "Major League Soccer ( MLS )",
+          [
+            "/wiki/Major_League_Soccer"
+          ]
+        ],
+        [
+          "Soccer",
+          [
+            "/wiki/Association_Football"
+          ]
+        ],
+        [
+          "BC Place",
+          [
+            "/wiki/BC_Place"
+          ]
+        ],
+        [
+          "2009 ( 1974 : NASL )",
+          [
+            "/wiki/North_American_Soccer_League_(1968–84)"
+          ]
+        ],
+        [
+          "0 ( 7 in previous leagues )",
+          []
+        ]
+      ],
+      [
+        [
+          "BC Bears",
+          [
+            "/wiki/BC_Bears"
+          ]
+        ],
+        [
+          "Canadian Rugby Championship ( CRC )",
+          [
+            "/wiki/Canadian_Rugby_Championship"
+          ]
+        ],
+        [
+          "Rugby Union",
+          [
+            "/wiki/Rugby_Union"
+          ]
+        ],
+        [
+          "Thunderbird Stadium",
+          [
+            "/wiki/Thunderbird_Stadium"
+          ]
+        ],
+        [
+          2009,
+          []
+        ],
+        [
+          2,
+          []
+        ]
+      ],
+      [
+        [
+          "Vancouver Warriors",
+          [
+            "/wiki/Vancouver_Warriors"
+          ]
+        ],
+        [
+          "National Lacrosse League ( NLL )",
+          [
+            "/wiki/National_Lacrosse_League"
+          ]
+        ],
+        [
+          "Box Lacrosse",
+          [
+            "/wiki/Box_Lacrosse"
+          ]
+        ],
+        [
+          "Rogers Arena",
+          [
+            "/wiki/Rogers_Arena"
+          ]
+        ],
+        [
+          2014,
+          []
+        ],
+        [
+          "0 ( 1 as the Washington Stealth )",
+          [
+            "/wiki/Washington_Stealth"
+          ]
+        ]
+      ],
+      [
+        [
+          "Vancouver Titans",
+          [
+            "/wiki/Vancouver_Titans"
+          ]
+        ],
+        [
+          "Overwatch League",
+          [
+            "/wiki/Overwatch_League"
+          ]
+        ],
+        [
+          "Overwatch",
+          [
+            "/wiki/Overwatch_(video_game)"
+          ]
+        ],
+        [
+          "Blizzard Arena",
+          [
+            "/wiki/Blizzard_Arena"
+          ]
+        ],
+        [
+          2018,
+          []
+        ],
+        [
+          "1 ( Stage 1 Champions )",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about professional sports teams in Vancouver, including their leagues, sports, venues, establishment years, and championship counts. It is designed to summarize key details about these teams and their achievements. The table is useful for understanding the sports landscape in Vancouver.",
+  "numeric_columns": [
+    "Established",
+    "Championships"
+  ],
+  "categorical_columns": [
+    "League",
+    "Sport"
+  ],
+  "entities": [
+    "Professional Team",
+    "Venue"
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "table_id": "T5637",
+  "uid": "16ac2836-8483-5803-ac52-60283fc0164d",
+  "source": "HybridQA",
+  "source_table_id": "16ac2836-8483-5803-ac52-60283fc0164d",
+  "domain": "HybridQA",
+  "title": "Jefferson Public Radio",
+  "columns": [
+    "Location",
+    "Frequency",
+    "Call sign"
+  ],
+  "rows": [
+    [
+      [
+        "Ashland , Oregon",
+        [
+          "/wiki/Ashland,_Oregon"
+        ]
+      ],
+      [
+        "88.3 FM",
+        []
+      ],
+      [
+        "KSRG",
+        [
+          "/wiki/KSRG"
+        ]
+      ]
+    ],
+    [
+      [
+        "Coos Bay , Oregon",
+        [
+          "/wiki/Coos_Bay,_Oregon"
+        ]
+      ],
+      [
+        "90.5 FM",
+        []
+      ],
+      [
+        "KZBY",
+        [
+          "/wiki/KZBY"
+        ]
+      ]
+    ],
+    [
+      [
+        "Crescent City , California",
+        [
+          "/wiki/Crescent_City,_California"
+        ]
+      ],
+      [
+        "91.1 FM",
+        []
+      ],
+      [
+        "KHEC",
+        [
+          "/wiki/KHEC"
+        ]
+      ]
+    ],
+    [
+      [
+        "Eureka , California",
+        [
+          "/wiki/Eureka,_California"
+        ]
+      ],
+      [
+        "102.5 FM",
+        []
+      ],
+      [
+        "KNHT",
+        [
+          "/wiki/KNHT"
+        ]
+      ]
+    ],
+    [
+      [
+        "Klamath Falls , Oregon",
+        [
+          "/wiki/Klamath_Falls,_Oregon"
+        ]
+      ],
+      [
+        "88.5 FM",
+        []
+      ],
+      [
+        "KLMF",
+        [
+          "/wiki/KLMF"
+        ]
+      ]
+    ],
+    [
+      [
+        "McCloud , California",
+        [
+          "/wiki/McCloud,_California"
+        ]
+      ],
+      [
+        "91.9 FM",
+        []
+      ],
+      [
+        "KLDD",
+        [
+          "/wiki/KLDD"
+        ]
+      ]
+    ],
+    [
+      [
+        "Medford , Oregon",
+        [
+          "/wiki/Medford,_Oregon"
+        ]
+      ],
+      [
+        "90.1 FM",
+        []
+      ],
+      [
+        "KSOR",
+        [
+          "/wiki/KSOR"
+        ]
+      ]
+    ],
+    [
+      [
+        "Myrtle Point , Oregon",
+        [
+          "/wiki/Myrtle_Point,_Oregon"
+        ]
+      ],
+      [
+        "94.1 FM",
+        []
+      ],
+      [
+        "KOOZ",
+        [
+          "/wiki/KOOZ"
+        ]
+      ]
+    ],
+    [
+      [
+        "Roseburg , Oregon",
+        [
+          "/wiki/Roseburg,_Oregon"
+        ]
+      ],
+      [
+        "91.5 FM",
+        []
+      ],
+      [
+        "KSRS",
+        [
+          "/wiki/KSRS"
+        ]
+      ]
+    ],
+    [
+      [
+        "Yreka , California",
+        [
+          "/wiki/Yreka,_California"
+        ]
+      ],
+      [
+        "91.3 FM",
+        []
+      ],
+      [
+        "KNYR",
+        [
+          "/wiki/KNYR"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "16ac2836-8483-5803-ac52-60283fc0164d",
+    "table_id": "Jefferson_Public_Radio_0",
+    "title": "Jefferson Public Radio",
+    "header": [
+      "Location",
+      "Frequency",
+      "Call sign"
+    ],
+    "value": [
+      [
+        [
+          "Ashland , Oregon",
+          [
+            "/wiki/Ashland,_Oregon"
+          ]
+        ],
+        [
+          "88.3 FM",
+          []
+        ],
+        [
+          "KSRG",
+          [
+            "/wiki/KSRG"
+          ]
+        ]
+      ],
+      [
+        [
+          "Coos Bay , Oregon",
+          [
+            "/wiki/Coos_Bay,_Oregon"
+          ]
+        ],
+        [
+          "90.5 FM",
+          []
+        ],
+        [
+          "KZBY",
+          [
+            "/wiki/KZBY"
+          ]
+        ]
+      ],
+      [
+        [
+          "Crescent City , California",
+          [
+            "/wiki/Crescent_City,_California"
+          ]
+        ],
+        [
+          "91.1 FM",
+          []
+        ],
+        [
+          "KHEC",
+          [
+            "/wiki/KHEC"
+          ]
+        ]
+      ],
+      [
+        [
+          "Eureka , California",
+          [
+            "/wiki/Eureka,_California"
+          ]
+        ],
+        [
+          "102.5 FM",
+          []
+        ],
+        [
+          "KNHT",
+          [
+            "/wiki/KNHT"
+          ]
+        ]
+      ],
+      [
+        [
+          "Klamath Falls , Oregon",
+          [
+            "/wiki/Klamath_Falls,_Oregon"
+          ]
+        ],
+        [
+          "88.5 FM",
+          []
+        ],
+        [
+          "KLMF",
+          [
+            "/wiki/KLMF"
+          ]
+        ]
+      ],
+      [
+        [
+          "McCloud , California",
+          [
+            "/wiki/McCloud,_California"
+          ]
+        ],
+        [
+          "91.9 FM",
+          []
+        ],
+        [
+          "KLDD",
+          [
+            "/wiki/KLDD"
+          ]
+        ]
+      ],
+      [
+        [
+          "Medford , Oregon",
+          [
+            "/wiki/Medford,_Oregon"
+          ]
+        ],
+        [
+          "90.1 FM",
+          []
+        ],
+        [
+          "KSOR",
+          [
+            "/wiki/KSOR"
+          ]
+        ]
+      ],
+      [
+        [
+          "Myrtle Point , Oregon",
+          [
+            "/wiki/Myrtle_Point,_Oregon"
+          ]
+        ],
+        [
+          "94.1 FM",
+          []
+        ],
+        [
+          "KOOZ",
+          [
+            "/wiki/KOOZ"
+          ]
+        ]
+      ],
+      [
+        [
+          "Roseburg , Oregon",
+          [
+            "/wiki/Roseburg,_Oregon"
+          ]
+        ],
+        [
+          "91.5 FM",
+          []
+        ],
+        [
+          "KSRS",
+          [
+            "/wiki/KSRS"
+          ]
+        ]
+      ],
+      [
+        [
+          "Yreka , California",
+          [
+            "/wiki/Yreka,_California"
+          ]
+        ],
+        [
+          "91.3 FM",
+          []
+        ],
+        [
+          "KNYR",
+          [
+            "/wiki/KNYR"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about radio stations associated with Jefferson Public Radio, including their locations, broadcast frequencies, and call signs. It is designed to catalog and identify the stations by their geographic area and technical details.",
+  "numeric_columns": [
+    "Frequency"
+  ],
+  "categorical_columns": [
+    "Call sign"
+  ],
+  "entities": [
+    "Location"
+  ]
+}

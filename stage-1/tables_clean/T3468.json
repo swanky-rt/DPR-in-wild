@@ -1,0 +1,595 @@
+{
+  "table_id": "T3468",
+  "uid": "c121a48f-fa0e-5c1e-a6ce-d37205f13058",
+  "source": "HybridQA",
+  "source_table_id": "c121a48f-fa0e-5c1e-a6ce-d37205f13058",
+  "domain": "HybridQA",
+  "title": "2012 Toppserien",
+  "columns": [
+    "Team",
+    "Location",
+    "Arena",
+    "Manager"
+  ],
+  "rows": [
+    [
+      [
+        "Amazon Grimstad",
+        [
+          "/wiki/Amazon_Grimstad"
+        ]
+      ],
+      [
+        "Grimstad",
+        [
+          "/wiki/Grimstad"
+        ]
+      ],
+      [
+        "Levermyr Stadion",
+        [
+          "/wiki/J.J._Ugland_Stadion_–_Levermyr"
+        ]
+      ],
+      [
+        "Margunn Haugenes",
+        [
+          "/wiki/Margunn_Haugenes"
+        ]
+      ]
+    ],
+    [
+      [
+        "Arna-Bjørnar",
+        [
+          "/wiki/Arna-Bjørnar"
+        ]
+      ],
+      [
+        "Bergen",
+        [
+          "/wiki/Bergen"
+        ]
+      ],
+      [
+        "Arna Stadion",
+        []
+      ],
+      [
+        "Morten Kalvenes",
+        []
+      ]
+    ],
+    [
+      [
+        "Fart",
+        [
+          "/wiki/FL_Fart"
+        ]
+      ],
+      [
+        "Vang",
+        [
+          "/wiki/Vang,_Hedmark"
+        ]
+      ],
+      [
+        "Fartbana",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Kattem",
+        [
+          "/wiki/Kattem_IL"
+        ]
+      ],
+      [
+        "Trondheim",
+        [
+          "/wiki/Trondheim"
+        ]
+      ],
+      [
+        "Åsheim kunstgress",
+        []
+      ],
+      [
+        "Steinar Mikkelsen",
+        []
+      ]
+    ],
+    [
+      [
+        "Kolbotn",
+        [
+          "/wiki/Kolbotn_Fotball"
+        ]
+      ],
+      [
+        "Kolbotn",
+        [
+          "/wiki/Kolbotn"
+        ]
+      ],
+      [
+        "Sofiemyr Stadion",
+        []
+      ],
+      [
+        "Kjell S. H. Wold",
+        []
+      ]
+    ],
+    [
+      [
+        "Klepp",
+        [
+          "/wiki/Klepp_IL"
+        ]
+      ],
+      [
+        "Klepp",
+        [
+          "/wiki/Klepp"
+        ]
+      ],
+      [
+        "Klepp Stadion",
+        []
+      ],
+      [
+        "Knut Eriksen",
+        []
+      ]
+    ],
+    [
+      [
+        "Lillestrøm",
+        [
+          "/wiki/LSK_Kvinner_FK"
+        ]
+      ],
+      [
+        "Lillestrøm",
+        [
+          "/wiki/Lillestrøm"
+        ]
+      ],
+      [
+        "LSK-Hallen",
+        [
+          "/wiki/LSK-Hallen"
+        ]
+      ],
+      [
+        "Ranveig Karlsen",
+        []
+      ]
+    ],
+    [
+      [
+        "Røa",
+        [
+          "/wiki/Røa_IL"
+        ]
+      ],
+      [
+        "Oslo",
+        [
+          "/wiki/Oslo"
+        ]
+      ],
+      [
+        "Røa Kunstgress",
+        []
+      ],
+      [
+        "Geir Nordby",
+        []
+      ]
+    ],
+    [
+      [
+        "Sandviken",
+        [
+          "/wiki/IL_Sandviken"
+        ]
+      ],
+      [
+        "Bergen",
+        [
+          "/wiki/Bergen"
+        ]
+      ],
+      [
+        "Stemmemyren idrettsplass",
+        []
+      ],
+      [
+        "Arne Møller",
+        []
+      ]
+    ],
+    [
+      [
+        "Stabæk",
+        [
+          "/wiki/Stabæk_Fotball_Kvinner"
+        ]
+      ],
+      [
+        "Bærum",
+        [
+          "/wiki/Bærum"
+        ]
+      ],
+      [
+        "Nadderud Stadion",
+        [
+          "/wiki/Nadderud_Stadion"
+        ]
+      ],
+      [
+        "Øyvind Eide",
+        []
+      ]
+    ],
+    [
+      [
+        "Trondheims-Ørn",
+        [
+          "/wiki/SK_Trondheims-Ørn"
+        ]
+      ],
+      [
+        "Trondheim",
+        [
+          "/wiki/Trondheim"
+        ]
+      ],
+      [
+        "DnB NOR Arena",
+        [
+          "/wiki/DnB_NOR_Arena"
+        ]
+      ],
+      [
+        "Thomas Dahle",
+        []
+      ]
+    ],
+    [
+      [
+        "Vålerenga",
+        [
+          "/wiki/Vålerenga_Fotball_Damer"
+        ]
+      ],
+      [
+        "Oslo",
+        [
+          "/wiki/Oslo"
+        ]
+      ],
+      [
+        "Vallhall Arena",
+        [
+          "/wiki/Vallhall_Arena"
+        ]
+      ],
+      [
+        "Anita Waage",
+        [
+          "/wiki/Anita_Waage"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "c121a48f-fa0e-5c1e-a6ce-d37205f13058",
+    "table_id": "2012_Toppserien_0",
+    "title": "2012 Toppserien",
+    "header": [
+      "Team",
+      "Location",
+      "Arena",
+      "Manager"
+    ],
+    "value": [
+      [
+        [
+          "Amazon Grimstad",
+          [
+            "/wiki/Amazon_Grimstad"
+          ]
+        ],
+        [
+          "Grimstad",
+          [
+            "/wiki/Grimstad"
+          ]
+        ],
+        [
+          "Levermyr Stadion",
+          [
+            "/wiki/J.J._Ugland_Stadion_–_Levermyr"
+          ]
+        ],
+        [
+          "Margunn Haugenes",
+          [
+            "/wiki/Margunn_Haugenes"
+          ]
+        ]
+      ],
+      [
+        [
+          "Arna-Bjørnar",
+          [
+            "/wiki/Arna-Bjørnar"
+          ]
+        ],
+        [
+          "Bergen",
+          [
+            "/wiki/Bergen"
+          ]
+        ],
+        [
+          "Arna Stadion",
+          []
+        ],
+        [
+          "Morten Kalvenes",
+          []
+        ]
+      ],
+      [
+        [
+          "Fart",
+          [
+            "/wiki/FL_Fart"
+          ]
+        ],
+        [
+          "Vang",
+          [
+            "/wiki/Vang,_Hedmark"
+          ]
+        ],
+        [
+          "Fartbana",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Kattem",
+          [
+            "/wiki/Kattem_IL"
+          ]
+        ],
+        [
+          "Trondheim",
+          [
+            "/wiki/Trondheim"
+          ]
+        ],
+        [
+          "Åsheim kunstgress",
+          []
+        ],
+        [
+          "Steinar Mikkelsen",
+          []
+        ]
+      ],
+      [
+        [
+          "Kolbotn",
+          [
+            "/wiki/Kolbotn_Fotball"
+          ]
+        ],
+        [
+          "Kolbotn",
+          [
+            "/wiki/Kolbotn"
+          ]
+        ],
+        [
+          "Sofiemyr Stadion",
+          []
+        ],
+        [
+          "Kjell S. H. Wold",
+          []
+        ]
+      ],
+      [
+        [
+          "Klepp",
+          [
+            "/wiki/Klepp_IL"
+          ]
+        ],
+        [
+          "Klepp",
+          [
+            "/wiki/Klepp"
+          ]
+        ],
+        [
+          "Klepp Stadion",
+          []
+        ],
+        [
+          "Knut Eriksen",
+          []
+        ]
+      ],
+      [
+        [
+          "Lillestrøm",
+          [
+            "/wiki/LSK_Kvinner_FK"
+          ]
+        ],
+        [
+          "Lillestrøm",
+          [
+            "/wiki/Lillestrøm"
+          ]
+        ],
+        [
+          "LSK-Hallen",
+          [
+            "/wiki/LSK-Hallen"
+          ]
+        ],
+        [
+          "Ranveig Karlsen",
+          []
+        ]
+      ],
+      [
+        [
+          "Røa",
+          [
+            "/wiki/Røa_IL"
+          ]
+        ],
+        [
+          "Oslo",
+          [
+            "/wiki/Oslo"
+          ]
+        ],
+        [
+          "Røa Kunstgress",
+          []
+        ],
+        [
+          "Geir Nordby",
+          []
+        ]
+      ],
+      [
+        [
+          "Sandviken",
+          [
+            "/wiki/IL_Sandviken"
+          ]
+        ],
+        [
+          "Bergen",
+          [
+            "/wiki/Bergen"
+          ]
+        ],
+        [
+          "Stemmemyren idrettsplass",
+          []
+        ],
+        [
+          "Arne Møller",
+          []
+        ]
+      ],
+      [
+        [
+          "Stabæk",
+          [
+            "/wiki/Stabæk_Fotball_Kvinner"
+          ]
+        ],
+        [
+          "Bærum",
+          [
+            "/wiki/Bærum"
+          ]
+        ],
+        [
+          "Nadderud Stadion",
+          [
+            "/wiki/Nadderud_Stadion"
+          ]
+        ],
+        [
+          "Øyvind Eide",
+          []
+        ]
+      ],
+      [
+        [
+          "Trondheims-Ørn",
+          [
+            "/wiki/SK_Trondheims-Ørn"
+          ]
+        ],
+        [
+          "Trondheim",
+          [
+            "/wiki/Trondheim"
+          ]
+        ],
+        [
+          "DnB NOR Arena",
+          [
+            "/wiki/DnB_NOR_Arena"
+          ]
+        ],
+        [
+          "Thomas Dahle",
+          []
+        ]
+      ],
+      [
+        [
+          "Vålerenga",
+          [
+            "/wiki/Vålerenga_Fotball_Damer"
+          ]
+        ],
+        [
+          "Oslo",
+          [
+            "/wiki/Oslo"
+          ]
+        ],
+        [
+          "Vallhall Arena",
+          [
+            "/wiki/Vallhall_Arena"
+          ]
+        ],
+        [
+          "Anita Waage",
+          [
+            "/wiki/Anita_Waage"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about teams in the 2012 Toppserien, a Norwegian women's football league. It includes details about each team's location, home arena, and manager, offering a snapshot of organizational and geographical aspects of the league.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Team",
+    "Location",
+    "Arena"
+  ],
+  "entities": [
+    "Manager"
+  ]
+}

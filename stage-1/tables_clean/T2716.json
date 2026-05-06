@@ -1,0 +1,372 @@
+{
+  "table_id": "T2716",
+  "uid": "e12a0669-0751-5249-86e9-f706388a2f90",
+  "source": "HybridQA",
+  "source_table_id": "e12a0669-0751-5249-86e9-f706388a2f90",
+  "domain": "HybridQA",
+  "title": "2006 Aerobic Gymnastics World Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Country",
+    "Point"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Ao Jinping",
+        []
+      ],
+      [
+        "China",
+        [
+          "/wiki/China"
+        ]
+      ],
+      [
+        21.7,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Ivan Parejo",
+        [
+          "/wiki/Ivan_Parejo"
+        ]
+      ],
+      [
+        "Spain",
+        [
+          "/wiki/Spain"
+        ]
+      ],
+      [
+        21.2,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Mircea Zamfir",
+        [
+          "/wiki/Mircea_Zamfir"
+        ]
+      ],
+      [
+        "Romania",
+        [
+          "/wiki/Romania"
+        ]
+      ],
+      [
+        21.05,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Vito Iaia",
+        []
+      ],
+      [
+        "Italy",
+        [
+          "/wiki/Italy"
+        ]
+      ],
+      [
+        20.85,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Popa Bogdan",
+        []
+      ],
+      [
+        "Romania",
+        [
+          "/wiki/Romania"
+        ]
+      ],
+      [
+        20.7,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Grégory Alcan",
+        []
+      ],
+      [
+        "France",
+        [
+          "/wiki/France"
+        ]
+      ],
+      [
+        20.7,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Jonatan Canada",
+        []
+      ],
+      [
+        "Spain",
+        [
+          "/wiki/Spain"
+        ]
+      ],
+      [
+        19.9,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Song Bo",
+        [
+          "/wiki/Song_Bo"
+        ]
+      ],
+      [
+        "China",
+        [
+          "/wiki/China"
+        ]
+      ],
+      [
+        19.75,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "e12a0669-0751-5249-86e9-f706388a2f90",
+    "table_id": "2006_Aerobic_Gymnastics_World_Championships_1",
+    "title": "2006 Aerobic Gymnastics World Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Country",
+      "Point"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Ao Jinping",
+          []
+        ],
+        [
+          "China",
+          [
+            "/wiki/China"
+          ]
+        ],
+        [
+          21.7,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Ivan Parejo",
+          [
+            "/wiki/Ivan_Parejo"
+          ]
+        ],
+        [
+          "Spain",
+          [
+            "/wiki/Spain"
+          ]
+        ],
+        [
+          21.2,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Mircea Zamfir",
+          [
+            "/wiki/Mircea_Zamfir"
+          ]
+        ],
+        [
+          "Romania",
+          [
+            "/wiki/Romania"
+          ]
+        ],
+        [
+          21.05,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Vito Iaia",
+          []
+        ],
+        [
+          "Italy",
+          [
+            "/wiki/Italy"
+          ]
+        ],
+        [
+          20.85,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Popa Bogdan",
+          []
+        ],
+        [
+          "Romania",
+          [
+            "/wiki/Romania"
+          ]
+        ],
+        [
+          20.7,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Grégory Alcan",
+          []
+        ],
+        [
+          "France",
+          [
+            "/wiki/France"
+          ]
+        ],
+        [
+          20.7,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Jonatan Canada",
+          []
+        ],
+        [
+          "Spain",
+          [
+            "/wiki/Spain"
+          ]
+        ],
+        [
+          19.9,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Song Bo",
+          [
+            "/wiki/Song_Bo"
+          ]
+        ],
+        [
+          "China",
+          [
+            "/wiki/China"
+          ]
+        ],
+        [
+          19.75,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the results of the 2006 Aerobic Gymnastics World Championships, listing the rankings, gymnasts, their respective countries, and their scores. It is intended to summarize the performance outcomes of participants in this competition.",
+  "numeric_columns": [
+    "Rank",
+    "Point"
+  ],
+  "categorical_columns": [
+    "Country"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

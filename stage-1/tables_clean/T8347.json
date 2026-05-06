@@ -1,0 +1,293 @@
+{
+  "table_id": "T8347",
+  "uid": "973f11a1-9c83-547f-a3de-501c71b7f7e7",
+  "source": "HybridQA",
+  "source_table_id": "973f11a1-9c83-547f-a3de-501c71b7f7e7",
+  "domain": "HybridQA",
+  "title": "Double (association football)",
+  "columns": [
+    "Club",
+    "Number",
+    "Seasons"
+  ],
+  "rows": [
+    [
+      [
+        "Kedah",
+        [
+          "/wiki/Kedah_FA"
+        ]
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        "1993 , 2007 , 2008",
+        []
+      ]
+    ],
+    [
+      [
+        "Johor Darul Ta'zim",
+        [
+          "/wiki/Johor_Darul_Takzim_F.C."
+        ]
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        "2016 , 2017 , 2019",
+        []
+      ]
+    ],
+    [
+      [
+        "Selangor",
+        [
+          "/wiki/Selangor_FA"
+        ]
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "1984 , 2009",
+        []
+      ]
+    ],
+    [
+      [
+        "Kuala Lumpur",
+        [
+          "/wiki/Kuala_Lumpur_FA"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1988,
+        []
+      ]
+    ],
+    [
+      [
+        "Johor FA",
+        [
+          "/wiki/Johor_Darul_Takzim_II_F.C."
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1991,
+        []
+      ]
+    ],
+    [
+      [
+        "Pahang",
+        [
+          "/wiki/Pahang_FA"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1992,
+        []
+      ]
+    ],
+    [
+      [
+        "Singapore Lions",
+        [
+          "/wiki/Singapore_Lions"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1994,
+        []
+      ]
+    ],
+    [
+      [
+        "Kelantan",
+        [
+          "/wiki/Kelantan_FA"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        2012,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "973f11a1-9c83-547f-a3de-501c71b7f7e7",
+    "table_id": "Double_(association_football)_22",
+    "title": "Double (association football)",
+    "header": [
+      "Club",
+      "Number",
+      "Seasons"
+    ],
+    "value": [
+      [
+        [
+          "Kedah",
+          [
+            "/wiki/Kedah_FA"
+          ]
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          "1993 , 2007 , 2008",
+          []
+        ]
+      ],
+      [
+        [
+          "Johor Darul Ta'zim",
+          [
+            "/wiki/Johor_Darul_Takzim_F.C."
+          ]
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          "2016 , 2017 , 2019",
+          []
+        ]
+      ],
+      [
+        [
+          "Selangor",
+          [
+            "/wiki/Selangor_FA"
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "1984 , 2009",
+          []
+        ]
+      ],
+      [
+        [
+          "Kuala Lumpur",
+          [
+            "/wiki/Kuala_Lumpur_FA"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1988,
+          []
+        ]
+      ],
+      [
+        [
+          "Johor FA",
+          [
+            "/wiki/Johor_Darul_Takzim_II_F.C."
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1991,
+          []
+        ]
+      ],
+      [
+        [
+          "Pahang",
+          [
+            "/wiki/Pahang_FA"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1992,
+          []
+        ]
+      ],
+      [
+        [
+          "Singapore Lions",
+          [
+            "/wiki/Singapore_Lions"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1994,
+          []
+        ]
+      ],
+      [
+        [
+          "Kelantan",
+          [
+            "/wiki/Kelantan_FA"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          2012,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about football clubs that have achieved a 'double' in association football, which typically refers to winning two major competitions in a single season. It includes the club names, the number of doubles achieved, and the seasons in which these accomplishments occurred.",
+  "numeric_columns": [
+    "Number"
+  ],
+  "categorical_columns": [
+    "Seasons"
+  ],
+  "entities": [
+    "Club"
+  ]
+}

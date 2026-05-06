@@ -1,0 +1,665 @@
+{
+  "table_id": "T4091",
+  "uid": "cfe9fd61-b375-56aa-b8dc-d2c21a9acf5a",
+  "source": "HybridQA",
+  "source_table_id": "cfe9fd61-b375-56aa-b8dc-d2c21a9acf5a",
+  "domain": "HybridQA",
+  "title": "Strictly Come Dancing (series 3)",
+  "columns": [
+    "Dance",
+    "Best dancer ( s )",
+    "Best score",
+    "Worst dancer ( s )",
+    "Worst score"
+  ],
+  "rows": [
+    [
+      [
+        "American Smooth",
+        [
+          "/wiki/American_Smooth"
+        ]
+      ],
+      [
+        "Colin Jackson",
+        [
+          "/wiki/Colin_Jackson"
+        ]
+      ],
+      [
+        37,
+        []
+      ],
+      [
+        "James Martin",
+        [
+          "/wiki/James_Martin_(chef)"
+        ]
+      ],
+      [
+        28,
+        []
+      ]
+    ],
+    [
+      [
+        "Cha-Cha-Cha",
+        [
+          "/wiki/Cha-cha-cha_(dance)"
+        ]
+      ],
+      [
+        "Zoe Ball Colin Jackson",
+        [
+          "/wiki/Zoe_Ball",
+          "/wiki/Colin_Jackson"
+        ]
+      ],
+      [
+        32,
+        []
+      ],
+      [
+        "Will Thorp",
+        [
+          "/wiki/Will_Thorp"
+        ]
+      ],
+      [
+        18,
+        []
+      ]
+    ],
+    [
+      [
+        "Foxtrot",
+        [
+          "/wiki/Foxtrot"
+        ]
+      ],
+      [
+        "Zoe Ball Darren Gough",
+        [
+          "/wiki/Zoe_Ball",
+          "/wiki/Darren_Gough"
+        ]
+      ],
+      [
+        36,
+        []
+      ],
+      [
+        "Fiona Phillips",
+        [
+          "/wiki/Fiona_Phillips"
+        ]
+      ],
+      [
+        20,
+        []
+      ]
+    ],
+    [
+      [
+        "Jive",
+        [
+          "/wiki/Jive_(dance)"
+        ]
+      ],
+      [
+        "Darren Gough Colin Jackson",
+        [
+          "/wiki/Darren_Gough",
+          "/wiki/Colin_Jackson"
+        ]
+      ],
+      [
+        30,
+        []
+      ],
+      [
+        "Fiona Phillips",
+        [
+          "/wiki/Fiona_Phillips"
+        ]
+      ],
+      [
+        16,
+        []
+      ]
+    ],
+    [
+      [
+        "Paso Doble",
+        [
+          "/wiki/Paso_Doble"
+        ]
+      ],
+      [
+        "Darren Gough",
+        [
+          "/wiki/Darren_Gough"
+        ]
+      ],
+      [
+        36,
+        []
+      ],
+      [
+        "Dennis Taylor",
+        [
+          "/wiki/Dennis_Taylor"
+        ]
+      ],
+      [
+        15,
+        []
+      ]
+    ],
+    [
+      [
+        "Quickstep",
+        [
+          "/wiki/Quickstep"
+        ]
+      ],
+      [
+        "Colin Jackson",
+        [
+          "/wiki/Colin_Jackson"
+        ]
+      ],
+      [
+        39,
+        []
+      ],
+      [
+        "Dennis Taylor",
+        [
+          "/wiki/Dennis_Taylor"
+        ]
+      ],
+      [
+        18,
+        []
+      ]
+    ],
+    [
+      [
+        "Rumba",
+        [
+          "/wiki/Rhumba"
+        ]
+      ],
+      [
+        "Colin Jackson",
+        [
+          "/wiki/Colin_Jackson"
+        ]
+      ],
+      [
+        36,
+        []
+      ],
+      [
+        "Fiona Phillips",
+        [
+          "/wiki/Fiona_Phillips"
+        ]
+      ],
+      [
+        13,
+        []
+      ]
+    ],
+    [
+      [
+        "Samba",
+        [
+          "/wiki/Samba_(ballroom)"
+        ]
+      ],
+      [
+        "Zoe Ball",
+        [
+          "/wiki/Zoe_Ball"
+        ]
+      ],
+      [
+        38,
+        []
+      ],
+      [
+        "James Martin",
+        [
+          "/wiki/James_Martin_(chef)"
+        ]
+      ],
+      [
+        20,
+        []
+      ]
+    ],
+    [
+      [
+        "Tango",
+        [
+          "/wiki/Tango_(dance)"
+        ]
+      ],
+      [
+        "Zoe Ball",
+        [
+          "/wiki/Zoe_Ball"
+        ]
+      ],
+      [
+        38,
+        []
+      ],
+      [
+        "Bill Turnbull",
+        [
+          "/wiki/Bill_Turnbull"
+        ]
+      ],
+      [
+        20,
+        []
+      ]
+    ],
+    [
+      [
+        "Viennese Waltz",
+        [
+          "/wiki/Viennese_Waltz"
+        ]
+      ],
+      [
+        "Zoe Ball",
+        [
+          "/wiki/Zoe_Ball"
+        ]
+      ],
+      [
+        36,
+        []
+      ],
+      [
+        "Will Thorp",
+        [
+          "/wiki/Will_Thorp"
+        ]
+      ],
+      [
+        23,
+        []
+      ]
+    ],
+    [
+      [
+        "Waltz",
+        [
+          "/wiki/Waltz"
+        ]
+      ],
+      [
+        "Colin Jackson",
+        [
+          "/wiki/Colin_Jackson"
+        ]
+      ],
+      [
+        37,
+        []
+      ],
+      [
+        "Fiona Phillips",
+        [
+          "/wiki/Fiona_Phillips"
+        ]
+      ],
+      [
+        11,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "cfe9fd61-b375-56aa-b8dc-d2c21a9acf5a",
+    "table_id": "Strictly_Come_Dancing_(series_3)_2",
+    "title": "Strictly Come Dancing (series 3)",
+    "header": [
+      "Dance",
+      "Best dancer ( s )",
+      "Best score",
+      "Worst dancer ( s )",
+      "Worst score"
+    ],
+    "value": [
+      [
+        [
+          "American Smooth",
+          [
+            "/wiki/American_Smooth"
+          ]
+        ],
+        [
+          "Colin Jackson",
+          [
+            "/wiki/Colin_Jackson"
+          ]
+        ],
+        [
+          37,
+          []
+        ],
+        [
+          "James Martin",
+          [
+            "/wiki/James_Martin_(chef)"
+          ]
+        ],
+        [
+          28,
+          []
+        ]
+      ],
+      [
+        [
+          "Cha-Cha-Cha",
+          [
+            "/wiki/Cha-cha-cha_(dance)"
+          ]
+        ],
+        [
+          "Zoe Ball Colin Jackson",
+          [
+            "/wiki/Zoe_Ball",
+            "/wiki/Colin_Jackson"
+          ]
+        ],
+        [
+          32,
+          []
+        ],
+        [
+          "Will Thorp",
+          [
+            "/wiki/Will_Thorp"
+          ]
+        ],
+        [
+          18,
+          []
+        ]
+      ],
+      [
+        [
+          "Foxtrot",
+          [
+            "/wiki/Foxtrot"
+          ]
+        ],
+        [
+          "Zoe Ball Darren Gough",
+          [
+            "/wiki/Zoe_Ball",
+            "/wiki/Darren_Gough"
+          ]
+        ],
+        [
+          36,
+          []
+        ],
+        [
+          "Fiona Phillips",
+          [
+            "/wiki/Fiona_Phillips"
+          ]
+        ],
+        [
+          20,
+          []
+        ]
+      ],
+      [
+        [
+          "Jive",
+          [
+            "/wiki/Jive_(dance)"
+          ]
+        ],
+        [
+          "Darren Gough Colin Jackson",
+          [
+            "/wiki/Darren_Gough",
+            "/wiki/Colin_Jackson"
+          ]
+        ],
+        [
+          30,
+          []
+        ],
+        [
+          "Fiona Phillips",
+          [
+            "/wiki/Fiona_Phillips"
+          ]
+        ],
+        [
+          16,
+          []
+        ]
+      ],
+      [
+        [
+          "Paso Doble",
+          [
+            "/wiki/Paso_Doble"
+          ]
+        ],
+        [
+          "Darren Gough",
+          [
+            "/wiki/Darren_Gough"
+          ]
+        ],
+        [
+          36,
+          []
+        ],
+        [
+          "Dennis Taylor",
+          [
+            "/wiki/Dennis_Taylor"
+          ]
+        ],
+        [
+          15,
+          []
+        ]
+      ],
+      [
+        [
+          "Quickstep",
+          [
+            "/wiki/Quickstep"
+          ]
+        ],
+        [
+          "Colin Jackson",
+          [
+            "/wiki/Colin_Jackson"
+          ]
+        ],
+        [
+          39,
+          []
+        ],
+        [
+          "Dennis Taylor",
+          [
+            "/wiki/Dennis_Taylor"
+          ]
+        ],
+        [
+          18,
+          []
+        ]
+      ],
+      [
+        [
+          "Rumba",
+          [
+            "/wiki/Rhumba"
+          ]
+        ],
+        [
+          "Colin Jackson",
+          [
+            "/wiki/Colin_Jackson"
+          ]
+        ],
+        [
+          36,
+          []
+        ],
+        [
+          "Fiona Phillips",
+          [
+            "/wiki/Fiona_Phillips"
+          ]
+        ],
+        [
+          13,
+          []
+        ]
+      ],
+      [
+        [
+          "Samba",
+          [
+            "/wiki/Samba_(ballroom)"
+          ]
+        ],
+        [
+          "Zoe Ball",
+          [
+            "/wiki/Zoe_Ball"
+          ]
+        ],
+        [
+          38,
+          []
+        ],
+        [
+          "James Martin",
+          [
+            "/wiki/James_Martin_(chef)"
+          ]
+        ],
+        [
+          20,
+          []
+        ]
+      ],
+      [
+        [
+          "Tango",
+          [
+            "/wiki/Tango_(dance)"
+          ]
+        ],
+        [
+          "Zoe Ball",
+          [
+            "/wiki/Zoe_Ball"
+          ]
+        ],
+        [
+          38,
+          []
+        ],
+        [
+          "Bill Turnbull",
+          [
+            "/wiki/Bill_Turnbull"
+          ]
+        ],
+        [
+          20,
+          []
+        ]
+      ],
+      [
+        [
+          "Viennese Waltz",
+          [
+            "/wiki/Viennese_Waltz"
+          ]
+        ],
+        [
+          "Zoe Ball",
+          [
+            "/wiki/Zoe_Ball"
+          ]
+        ],
+        [
+          36,
+          []
+        ],
+        [
+          "Will Thorp",
+          [
+            "/wiki/Will_Thorp"
+          ]
+        ],
+        [
+          23,
+          []
+        ]
+      ],
+      [
+        [
+          "Waltz",
+          [
+            "/wiki/Waltz"
+          ]
+        ],
+        [
+          "Colin Jackson",
+          [
+            "/wiki/Colin_Jackson"
+          ]
+        ],
+        [
+          37,
+          []
+        ],
+        [
+          "Fiona Phillips",
+          [
+            "/wiki/Fiona_Phillips"
+          ]
+        ],
+        [
+          11,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the performances in the third series of 'Strictly Come Dancing,' focusing on different dance styles, the best and worst performers, and their respective scores. It highlights the evaluation of participants' performances by dance type, showcasing both high and low scoring individuals.",
+  "numeric_columns": [
+    "Best score",
+    "Worst score"
+  ],
+  "categorical_columns": [
+    "Dance"
+  ],
+  "entities": [
+    "Best dancer ( s )",
+    "Worst dancer ( s )"
+  ]
+}

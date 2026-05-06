@@ -1,0 +1,480 @@
+{
+  "table_id": "T8721",
+  "uid": "0b62bb1e-a44f-512f-83c9-64375e1cf3d9",
+  "source": "HybridQA",
+  "source_table_id": "0b62bb1e-a44f-512f-83c9-64375e1cf3d9",
+  "domain": "HybridQA",
+  "title": "Modern Library 100 Best Novels",
+  "columns": [
+    "#",
+    "Year",
+    "Title",
+    "Author"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        1922,
+        []
+      ],
+      [
+        "Ulysses",
+        [
+          "/wiki/Ulysses_(novel)"
+        ]
+      ],
+      [
+        "James Joyce",
+        [
+          "/wiki/James_Joyce"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        1925,
+        []
+      ],
+      [
+        "The Great Gatsby",
+        [
+          "/wiki/The_Great_Gatsby"
+        ]
+      ],
+      [
+        "F. Scott Fitzgerald",
+        [
+          "/wiki/F._Scott_Fitzgerald"
+        ]
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        1916,
+        []
+      ],
+      [
+        "A Portrait of the Artist as a Young Man",
+        [
+          "/wiki/A_Portrait_of_the_Artist_as_a_Young_Man"
+        ]
+      ],
+      [
+        "James Joyce",
+        [
+          "/wiki/James_Joyce"
+        ]
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        1955,
+        []
+      ],
+      [
+        "Lolita",
+        [
+          "/wiki/Lolita"
+        ]
+      ],
+      [
+        "Vladimir Nabokov",
+        [
+          "/wiki/Vladimir_Nabokov"
+        ]
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        1932,
+        []
+      ],
+      [
+        "Brave New World",
+        [
+          "/wiki/Brave_New_World"
+        ]
+      ],
+      [
+        "Aldous Huxley",
+        [
+          "/wiki/Aldous_Huxley"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        1929,
+        []
+      ],
+      [
+        "The Sound and the Fury",
+        [
+          "/wiki/The_Sound_and_the_Fury"
+        ]
+      ],
+      [
+        "William Faulkner",
+        [
+          "/wiki/William_Faulkner"
+        ]
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        1961,
+        []
+      ],
+      [
+        "Catch-22",
+        [
+          "/wiki/Catch-22"
+        ]
+      ],
+      [
+        "Joseph Heller",
+        [
+          "/wiki/Joseph_Heller"
+        ]
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        1940,
+        []
+      ],
+      [
+        "Darkness at Noon",
+        [
+          "/wiki/Darkness_at_Noon"
+        ]
+      ],
+      [
+        "Arthur Koestler",
+        [
+          "/wiki/Arthur_Koestler"
+        ]
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        1913,
+        []
+      ],
+      [
+        "Sons and Lovers",
+        [
+          "/wiki/Sons_and_Lovers"
+        ]
+      ],
+      [
+        "D. H. Lawrence",
+        [
+          "/wiki/D._H._Lawrence"
+        ]
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        1939,
+        []
+      ],
+      [
+        "The Grapes of Wrath",
+        [
+          "/wiki/The_Grapes_of_Wrath"
+        ]
+      ],
+      [
+        "John Steinbeck",
+        [
+          "/wiki/John_Steinbeck"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "0b62bb1e-a44f-512f-83c9-64375e1cf3d9",
+    "table_id": "Modern_Library_100_Best_Novels_0",
+    "title": "Modern Library 100 Best Novels",
+    "header": [
+      "#",
+      "Year",
+      "Title",
+      "Author"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          1922,
+          []
+        ],
+        [
+          "Ulysses",
+          [
+            "/wiki/Ulysses_(novel)"
+          ]
+        ],
+        [
+          "James Joyce",
+          [
+            "/wiki/James_Joyce"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          1925,
+          []
+        ],
+        [
+          "The Great Gatsby",
+          [
+            "/wiki/The_Great_Gatsby"
+          ]
+        ],
+        [
+          "F. Scott Fitzgerald",
+          [
+            "/wiki/F._Scott_Fitzgerald"
+          ]
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          1916,
+          []
+        ],
+        [
+          "A Portrait of the Artist as a Young Man",
+          [
+            "/wiki/A_Portrait_of_the_Artist_as_a_Young_Man"
+          ]
+        ],
+        [
+          "James Joyce",
+          [
+            "/wiki/James_Joyce"
+          ]
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          1955,
+          []
+        ],
+        [
+          "Lolita",
+          [
+            "/wiki/Lolita"
+          ]
+        ],
+        [
+          "Vladimir Nabokov",
+          [
+            "/wiki/Vladimir_Nabokov"
+          ]
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          1932,
+          []
+        ],
+        [
+          "Brave New World",
+          [
+            "/wiki/Brave_New_World"
+          ]
+        ],
+        [
+          "Aldous Huxley",
+          [
+            "/wiki/Aldous_Huxley"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          1929,
+          []
+        ],
+        [
+          "The Sound and the Fury",
+          [
+            "/wiki/The_Sound_and_the_Fury"
+          ]
+        ],
+        [
+          "William Faulkner",
+          [
+            "/wiki/William_Faulkner"
+          ]
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          1961,
+          []
+        ],
+        [
+          "Catch-22",
+          [
+            "/wiki/Catch-22"
+          ]
+        ],
+        [
+          "Joseph Heller",
+          [
+            "/wiki/Joseph_Heller"
+          ]
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          1940,
+          []
+        ],
+        [
+          "Darkness at Noon",
+          [
+            "/wiki/Darkness_at_Noon"
+          ]
+        ],
+        [
+          "Arthur Koestler",
+          [
+            "/wiki/Arthur_Koestler"
+          ]
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          1913,
+          []
+        ],
+        [
+          "Sons and Lovers",
+          [
+            "/wiki/Sons_and_Lovers"
+          ]
+        ],
+        [
+          "D. H. Lawrence",
+          [
+            "/wiki/D._H._Lawrence"
+          ]
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          1939,
+          []
+        ],
+        [
+          "The Grapes of Wrath",
+          [
+            "/wiki/The_Grapes_of_Wrath"
+          ]
+        ],
+        [
+          "John Steinbeck",
+          [
+            "/wiki/John_Steinbeck"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table lists the Modern Library's 100 Best Novels, providing information about each novel's ranking, publication year, title, and author. It serves as a resource for exploring notable works of literature and their creators. The table is organized to highlight key details about these influential novels.",
+  "numeric_columns": [
+    "#",
+    "Year"
+  ],
+  "categorical_columns": [
+    "Title"
+  ],
+  "entities": [
+    "Author"
+  ]
+}

@@ -1,0 +1,526 @@
+{
+  "table_id": "T10757",
+  "uid": "eb6f7cd2-077d-5598-8114-4c25d2f2e9f7",
+  "source": "HybridQA",
+  "source_table_id": "eb6f7cd2-077d-5598-8114-4c25d2f2e9f7",
+  "domain": "HybridQA",
+  "title": "OK Liga Femenina",
+  "columns": [
+    "Team",
+    "Arena",
+    "City/Area"
+  ],
+  "rows": [
+    [
+      [
+        "Alcorcón",
+        [
+          "/wiki/CP_Alcorcón"
+        ]
+      ],
+      [
+        "Prado de Santo Domingo",
+        []
+      ],
+      [
+        "Alcorcón",
+        [
+          "/wiki/Alcorcón"
+        ]
+      ]
+    ],
+    [
+      [
+        "Areces Ecopilas Pavitek Asturhockey",
+        [
+          "/wiki/CP_Areces",
+          "/wiki/Asturhockey_CP"
+        ]
+      ],
+      [
+        "Municipal",
+        []
+      ],
+      [
+        "Grado",
+        [
+          "/wiki/Grado,_Asturias"
+        ]
+      ]
+    ],
+    [
+      [
+        "Bigues i Riells",
+        []
+      ],
+      [
+        "Pavelló d'Esports",
+        []
+      ],
+      [
+        "Bigues i Riells",
+        [
+          "/wiki/Bigues_i_Riells"
+        ]
+      ]
+    ],
+    [
+      [
+        "Cerdanyola",
+        [
+          "/wiki/Cerdanyola_CH"
+        ]
+      ],
+      [
+        "Can Xarau",
+        []
+      ],
+      [
+        "Cerdanyola del Vallès",
+        [
+          "/wiki/Cerdanyola_del_Vallès"
+        ]
+      ]
+    ],
+    [
+      [
+        "Cuencas Mineras Nortesport",
+        [
+          "/wiki/CP_Cuencas_Mineras"
+        ]
+      ],
+      [
+        "Municipal",
+        []
+      ],
+      [
+        "Lena",
+        [
+          "/wiki/Lena,_Asturias"
+        ]
+      ]
+    ],
+    [
+      [
+        "Garatge Plana Girona",
+        [
+          "/wiki/Girona_CH"
+        ]
+      ],
+      [
+        "Palau II",
+        []
+      ],
+      [
+        "Girona",
+        [
+          "/wiki/Girona"
+        ]
+      ]
+    ],
+    [
+      [
+        "Generali Palau de Plegamans",
+        [
+          "/wiki/HC_Palau_de_Plegamans"
+        ]
+      ],
+      [
+        "Maria Víctor",
+        []
+      ],
+      [
+        "Palau-solità i Plegamans",
+        [
+          "/wiki/Palau-solità_i_Plegamans"
+        ]
+      ]
+    ],
+    [
+      [
+        "Las Rozas",
+        []
+      ],
+      [
+        "Pabellón Municipal",
+        []
+      ],
+      [
+        "Las Rozas",
+        [
+          "/wiki/Las_Rozas_de_Madrid"
+        ]
+      ]
+    ],
+    [
+      [
+        "Manlleu Magic Studio",
+        [
+          "/wiki/CP_Manlleu"
+        ]
+      ],
+      [
+        "Pavelló d'Esports",
+        []
+      ],
+      [
+        "Manlleu",
+        [
+          "/wiki/Manlleu"
+        ]
+      ]
+    ],
+    [
+      [
+        "Sant Cugat",
+        []
+      ],
+      [
+        "Pavelló Municipal",
+        []
+      ],
+      [
+        "Sant Cugat del Vallès",
+        [
+          "/wiki/Sant_Cugat_del_Vallès"
+        ]
+      ]
+    ],
+    [
+      [
+        "Telecable Gijón",
+        [
+          "/wiki/CP_Gijón_Solimar"
+        ]
+      ],
+      [
+        "Mata-Jove",
+        []
+      ],
+      [
+        "Gijón",
+        [
+          "/wiki/Gijón"
+        ]
+      ]
+    ],
+    [
+      [
+        "Vila-sana",
+        []
+      ],
+      [
+        "Pavelló d'Esports",
+        []
+      ],
+      [
+        "Vila-sana",
+        [
+          "/wiki/Vila-sana"
+        ]
+      ]
+    ],
+    [
+      [
+        "Vilanova",
+        [
+          "/wiki/CP_Vilanova"
+        ]
+      ],
+      [
+        "Pavelló d'Esports",
+        []
+      ],
+      [
+        "Vilanova i la Geltrú",
+        [
+          "/wiki/Vilanova_i_la_Geltrú"
+        ]
+      ]
+    ],
+    [
+      [
+        "Voltregà Stern Motor",
+        [
+          "/wiki/CP_Voltregà"
+        ]
+      ],
+      [
+        "Victorià Oliveras de la Riva",
+        []
+      ],
+      [
+        "Sant Hipòlit de Voltregà",
+        [
+          "/wiki/Sant_Hipòlit_de_Voltregà"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "eb6f7cd2-077d-5598-8114-4c25d2f2e9f7",
+    "table_id": "OK_Liga_Femenina_0",
+    "title": "OK Liga Femenina",
+    "header": [
+      "Team",
+      "Arena",
+      "City/Area"
+    ],
+    "value": [
+      [
+        [
+          "Alcorcón",
+          [
+            "/wiki/CP_Alcorcón"
+          ]
+        ],
+        [
+          "Prado de Santo Domingo",
+          []
+        ],
+        [
+          "Alcorcón",
+          [
+            "/wiki/Alcorcón"
+          ]
+        ]
+      ],
+      [
+        [
+          "Areces Ecopilas Pavitek Asturhockey",
+          [
+            "/wiki/CP_Areces",
+            "/wiki/Asturhockey_CP"
+          ]
+        ],
+        [
+          "Municipal",
+          []
+        ],
+        [
+          "Grado",
+          [
+            "/wiki/Grado,_Asturias"
+          ]
+        ]
+      ],
+      [
+        [
+          "Bigues i Riells",
+          []
+        ],
+        [
+          "Pavelló d'Esports",
+          []
+        ],
+        [
+          "Bigues i Riells",
+          [
+            "/wiki/Bigues_i_Riells"
+          ]
+        ]
+      ],
+      [
+        [
+          "Cerdanyola",
+          [
+            "/wiki/Cerdanyola_CH"
+          ]
+        ],
+        [
+          "Can Xarau",
+          []
+        ],
+        [
+          "Cerdanyola del Vallès",
+          [
+            "/wiki/Cerdanyola_del_Vallès"
+          ]
+        ]
+      ],
+      [
+        [
+          "Cuencas Mineras Nortesport",
+          [
+            "/wiki/CP_Cuencas_Mineras"
+          ]
+        ],
+        [
+          "Municipal",
+          []
+        ],
+        [
+          "Lena",
+          [
+            "/wiki/Lena,_Asturias"
+          ]
+        ]
+      ],
+      [
+        [
+          "Garatge Plana Girona",
+          [
+            "/wiki/Girona_CH"
+          ]
+        ],
+        [
+          "Palau II",
+          []
+        ],
+        [
+          "Girona",
+          [
+            "/wiki/Girona"
+          ]
+        ]
+      ],
+      [
+        [
+          "Generali Palau de Plegamans",
+          [
+            "/wiki/HC_Palau_de_Plegamans"
+          ]
+        ],
+        [
+          "Maria Víctor",
+          []
+        ],
+        [
+          "Palau-solità i Plegamans",
+          [
+            "/wiki/Palau-solità_i_Plegamans"
+          ]
+        ]
+      ],
+      [
+        [
+          "Las Rozas",
+          []
+        ],
+        [
+          "Pabellón Municipal",
+          []
+        ],
+        [
+          "Las Rozas",
+          [
+            "/wiki/Las_Rozas_de_Madrid"
+          ]
+        ]
+      ],
+      [
+        [
+          "Manlleu Magic Studio",
+          [
+            "/wiki/CP_Manlleu"
+          ]
+        ],
+        [
+          "Pavelló d'Esports",
+          []
+        ],
+        [
+          "Manlleu",
+          [
+            "/wiki/Manlleu"
+          ]
+        ]
+      ],
+      [
+        [
+          "Sant Cugat",
+          []
+        ],
+        [
+          "Pavelló Municipal",
+          []
+        ],
+        [
+          "Sant Cugat del Vallès",
+          [
+            "/wiki/Sant_Cugat_del_Vallès"
+          ]
+        ]
+      ],
+      [
+        [
+          "Telecable Gijón",
+          [
+            "/wiki/CP_Gijón_Solimar"
+          ]
+        ],
+        [
+          "Mata-Jove",
+          []
+        ],
+        [
+          "Gijón",
+          [
+            "/wiki/Gijón"
+          ]
+        ]
+      ],
+      [
+        [
+          "Vila-sana",
+          []
+        ],
+        [
+          "Pavelló d'Esports",
+          []
+        ],
+        [
+          "Vila-sana",
+          [
+            "/wiki/Vila-sana"
+          ]
+        ]
+      ],
+      [
+        [
+          "Vilanova",
+          [
+            "/wiki/CP_Vilanova"
+          ]
+        ],
+        [
+          "Pavelló d'Esports",
+          []
+        ],
+        [
+          "Vilanova i la Geltrú",
+          [
+            "/wiki/Vilanova_i_la_Geltrú"
+          ]
+        ]
+      ],
+      [
+        [
+          "Voltregà Stern Motor",
+          [
+            "/wiki/CP_Voltregà"
+          ]
+        ],
+        [
+          "Victorià Oliveras de la Riva",
+          []
+        ],
+        [
+          "Sant Hipòlit de Voltregà",
+          [
+            "/wiki/Sant_Hipòlit_de_Voltregà"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about teams in the OK Liga Femenina, including their associated arenas and the cities or areas they are based in. It appears to be a reference for understanding the geographical and venue distribution of the teams in this league.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Arena"
+  ],
+  "entities": [
+    "Team",
+    "City/Area"
+  ]
+}

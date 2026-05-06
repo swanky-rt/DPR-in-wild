@@ -1,0 +1,283 @@
+{
+  "table_id": "T6563",
+  "uid": "d2e597b5-4d0c-5ed0-bee0-79c52d3a9615",
+  "source": "HybridQA",
+  "source_table_id": "d2e597b5-4d0c-5ed0-bee0-79c52d3a9615",
+  "domain": "HybridQA",
+  "title": "List of films and television shows set or shot in Liverpool",
+  "columns": [
+    "Title",
+    "Year",
+    "Notes"
+  ],
+  "rows": [
+    [
+      [
+        "Coca-Cola",
+        [
+          "/wiki/Coca-Cola"
+        ]
+      ],
+      [
+        1987,
+        []
+      ],
+      [
+        "Shot in St. George 's Hall",
+        [
+          "/wiki/St._George's_Hall,_Liverpool"
+        ]
+      ]
+    ],
+    [
+      [
+        "Foxy Bingo",
+        [
+          "/wiki/Foxy_Bingo"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "Shot on Lark Lane",
+        [
+          "/wiki/Lark_Lane,_Liverpool"
+        ]
+      ]
+    ],
+    [
+      [
+        "Hovis",
+        [
+          "/wiki/Hovis"
+        ]
+      ],
+      [
+        2008,
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "McDonald 's",
+        [
+          "/wiki/McDonald's"
+        ]
+      ],
+      [
+        2018,
+        []
+      ],
+      [
+        "Parts shot on Adelaide Terrace , Waterloo and the Southport coastal road",
+        []
+      ]
+    ],
+    [
+      [
+        "Virgin Trains - Arrive Awesome",
+        [
+          "/wiki/Virgin_Trains"
+        ]
+      ],
+      [
+        2014,
+        []
+      ],
+      [
+        "Filmed at Liverpool Lime Street railway station",
+        [
+          "/wiki/Liverpool_Lime_Street_railway_station"
+        ]
+      ]
+    ],
+    [
+      [
+        "Vodafone - Mo Salah",
+        [
+          "/wiki/Vodafone",
+          "/wiki/Mo_Salah"
+        ]
+      ],
+      [
+        2018,
+        []
+      ],
+      [
+        "Filmed around several areas in and around Liverpool , including Anfield , Hope Street and New Brighton",
+        [
+          "/wiki/Anfield",
+          "/wiki/New_Brighton,_Merseyside"
+        ]
+      ]
+    ],
+    [
+      [
+        "Nike - Alex Oxlade-Chamberlain",
+        [
+          "/wiki/Nike,_Inc.",
+          "/wiki/Alex_Oxlade-Chamberlain"
+        ]
+      ],
+      [
+        2018,
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "d2e597b5-4d0c-5ed0-bee0-79c52d3a9615",
+    "table_id": "List_of_films_and_television_shows_set_or_shot_in_Liverpool_2",
+    "title": "List of films and television shows set or shot in Liverpool",
+    "header": [
+      "Title",
+      "Year",
+      "Notes"
+    ],
+    "value": [
+      [
+        [
+          "Coca-Cola",
+          [
+            "/wiki/Coca-Cola"
+          ]
+        ],
+        [
+          1987,
+          []
+        ],
+        [
+          "Shot in St. George 's Hall",
+          [
+            "/wiki/St._George's_Hall,_Liverpool"
+          ]
+        ]
+      ],
+      [
+        [
+          "Foxy Bingo",
+          [
+            "/wiki/Foxy_Bingo"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "Shot on Lark Lane",
+          [
+            "/wiki/Lark_Lane,_Liverpool"
+          ]
+        ]
+      ],
+      [
+        [
+          "Hovis",
+          [
+            "/wiki/Hovis"
+          ]
+        ],
+        [
+          2008,
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "McDonald 's",
+          [
+            "/wiki/McDonald's"
+          ]
+        ],
+        [
+          2018,
+          []
+        ],
+        [
+          "Parts shot on Adelaide Terrace , Waterloo and the Southport coastal road",
+          []
+        ]
+      ],
+      [
+        [
+          "Virgin Trains - Arrive Awesome",
+          [
+            "/wiki/Virgin_Trains"
+          ]
+        ],
+        [
+          2014,
+          []
+        ],
+        [
+          "Filmed at Liverpool Lime Street railway station",
+          [
+            "/wiki/Liverpool_Lime_Street_railway_station"
+          ]
+        ]
+      ],
+      [
+        [
+          "Vodafone - Mo Salah",
+          [
+            "/wiki/Vodafone",
+            "/wiki/Mo_Salah"
+          ]
+        ],
+        [
+          2018,
+          []
+        ],
+        [
+          "Filmed around several areas in and around Liverpool , including Anfield , Hope Street and New Brighton",
+          [
+            "/wiki/Anfield",
+            "/wiki/New_Brighton,_Merseyside"
+          ]
+        ]
+      ],
+      [
+        [
+          "Nike - Alex Oxlade-Chamberlain",
+          [
+            "/wiki/Nike,_Inc.",
+            "/wiki/Alex_Oxlade-Chamberlain"
+          ]
+        ],
+        [
+          2018,
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table lists films and television shows that are either set or filmed in Liverpool, providing details about their titles, release years, and specific notes related to their production or setting. It serves as a reference for understanding the connection between Liverpool and various media productions.",
+  "numeric_columns": [
+    "Year"
+  ],
+  "categorical_columns": [
+    "Notes"
+  ],
+  "entities": [
+    "Title"
+  ]
+}

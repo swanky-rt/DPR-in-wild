@@ -1,0 +1,534 @@
+{
+  "table_id": "T4540",
+  "uid": "0933c244-408a-5e39-8d88-512e9fe84157",
+  "source": "HybridQA",
+  "source_table_id": "0933c244-408a-5e39-8d88-512e9fe84157",
+  "domain": "HybridQA",
+  "title": "List of airlines of Romania",
+  "columns": [
+    "Airline",
+    "ICAO",
+    "Callsign",
+    "Hub Airport ( s )",
+    "Commenced operations",
+    "Notes"
+  ],
+  "rows": [
+    [
+      [
+        "Air Bucharest",
+        [
+          "/wiki/Air_Bucharest"
+        ]
+      ],
+      [
+        "BUR",
+        []
+      ],
+      [
+        "AIR BUCHAREST",
+        []
+      ],
+      [
+        "Henri Coandă International Airport",
+        [
+          "/wiki/Henri_Coandă_International_Airport"
+        ]
+      ],
+      [
+        2010,
+        []
+      ],
+      [
+        "charter airline",
+        [
+          "/wiki/Charter_airline"
+        ]
+      ]
+    ],
+    [
+      [
+        "Carpatair",
+        [
+          "/wiki/Carpatair"
+        ]
+      ],
+      [
+        "KRP",
+        []
+      ],
+      [
+        "CARPATAIR",
+        []
+      ],
+      [
+        "Chișinău International Airport , Traian Vuia International Airport",
+        [
+          "/wiki/Chișinău_International_Airport",
+          "/wiki/Traian_Vuia_International_Airport"
+        ]
+      ],
+      [
+        1999,
+        []
+      ],
+      [
+        "charter airline",
+        [
+          "/wiki/Charter_airline"
+        ]
+      ]
+    ],
+    [
+      [
+        "C & I Corporation",
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        2008,
+        []
+      ],
+      [
+        "private jets",
+        [
+          "/wiki/Business_jet"
+        ]
+      ]
+    ],
+    [
+      [
+        "Just Us Air",
+        []
+      ],
+      [
+        "JOC",
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "Henri Coandă International Airport",
+        [
+          "/wiki/Henri_Coandă_International_Airport"
+        ]
+      ],
+      [
+        2018,
+        []
+      ],
+      [
+        "charter airline",
+        [
+          "/wiki/Charter_airline"
+        ]
+      ]
+    ],
+    [
+      [
+        "Regional Air Services",
+        []
+      ],
+      [
+        "RTZ",
+        []
+      ],
+      [
+        "AEROTUZLA",
+        []
+      ],
+      [
+        "Tuzla Airfield",
+        []
+      ],
+      [
+        1998,
+        []
+      ],
+      [
+        "general aviation , business jets",
+        [
+          "/wiki/General_aviation",
+          "/wiki/Business_jets"
+        ]
+      ]
+    ],
+    [
+      [
+        "Star East Airline",
+        [
+          "/wiki/Star_East_Airline"
+        ]
+      ],
+      [
+        "SEK",
+        []
+      ],
+      [
+        "EAST RIDER",
+        []
+      ],
+      [
+        "Aurel Vlaicu International Airport",
+        [
+          "/wiki/Aurel_Vlaicu_International_Airport"
+        ]
+      ],
+      [
+        2017,
+        []
+      ],
+      [
+        "charter airline",
+        [
+          "/wiki/Charter_airline"
+        ]
+      ]
+    ],
+    [
+      [
+        "Toyo Aviation",
+        []
+      ],
+      [
+        "TOY",
+        []
+      ],
+      [
+        "TOYO AVIATION",
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        2009,
+        []
+      ],
+      [
+        "private jets",
+        [
+          "/wiki/Business_jet"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ţiriac Air",
+        [
+          "/wiki/Ţiriac_Air"
+        ]
+      ],
+      [
+        "TIH",
+        []
+      ],
+      [
+        "TIRIAC AIR",
+        []
+      ],
+      [
+        "Henri Coandă International Airport",
+        [
+          "/wiki/Henri_Coandă_International_Airport"
+        ]
+      ],
+      [
+        1997,
+        []
+      ],
+      [
+        "private jets",
+        [
+          "/wiki/Business_jet"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "0933c244-408a-5e39-8d88-512e9fe84157",
+    "table_id": "List_of_airlines_of_Romania_1",
+    "title": "List of airlines of Romania",
+    "header": [
+      "Airline",
+      "ICAO",
+      "Callsign",
+      "Hub Airport ( s )",
+      "Commenced operations",
+      "Notes"
+    ],
+    "value": [
+      [
+        [
+          "Air Bucharest",
+          [
+            "/wiki/Air_Bucharest"
+          ]
+        ],
+        [
+          "BUR",
+          []
+        ],
+        [
+          "AIR BUCHAREST",
+          []
+        ],
+        [
+          "Henri Coandă International Airport",
+          [
+            "/wiki/Henri_Coandă_International_Airport"
+          ]
+        ],
+        [
+          2010,
+          []
+        ],
+        [
+          "charter airline",
+          [
+            "/wiki/Charter_airline"
+          ]
+        ]
+      ],
+      [
+        [
+          "Carpatair",
+          [
+            "/wiki/Carpatair"
+          ]
+        ],
+        [
+          "KRP",
+          []
+        ],
+        [
+          "CARPATAIR",
+          []
+        ],
+        [
+          "Chișinău International Airport , Traian Vuia International Airport",
+          [
+            "/wiki/Chișinău_International_Airport",
+            "/wiki/Traian_Vuia_International_Airport"
+          ]
+        ],
+        [
+          1999,
+          []
+        ],
+        [
+          "charter airline",
+          [
+            "/wiki/Charter_airline"
+          ]
+        ]
+      ],
+      [
+        [
+          "C & I Corporation",
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          2008,
+          []
+        ],
+        [
+          "private jets",
+          [
+            "/wiki/Business_jet"
+          ]
+        ]
+      ],
+      [
+        [
+          "Just Us Air",
+          []
+        ],
+        [
+          "JOC",
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "Henri Coandă International Airport",
+          [
+            "/wiki/Henri_Coandă_International_Airport"
+          ]
+        ],
+        [
+          2018,
+          []
+        ],
+        [
+          "charter airline",
+          [
+            "/wiki/Charter_airline"
+          ]
+        ]
+      ],
+      [
+        [
+          "Regional Air Services",
+          []
+        ],
+        [
+          "RTZ",
+          []
+        ],
+        [
+          "AEROTUZLA",
+          []
+        ],
+        [
+          "Tuzla Airfield",
+          []
+        ],
+        [
+          1998,
+          []
+        ],
+        [
+          "general aviation , business jets",
+          [
+            "/wiki/General_aviation",
+            "/wiki/Business_jets"
+          ]
+        ]
+      ],
+      [
+        [
+          "Star East Airline",
+          [
+            "/wiki/Star_East_Airline"
+          ]
+        ],
+        [
+          "SEK",
+          []
+        ],
+        [
+          "EAST RIDER",
+          []
+        ],
+        [
+          "Aurel Vlaicu International Airport",
+          [
+            "/wiki/Aurel_Vlaicu_International_Airport"
+          ]
+        ],
+        [
+          2017,
+          []
+        ],
+        [
+          "charter airline",
+          [
+            "/wiki/Charter_airline"
+          ]
+        ]
+      ],
+      [
+        [
+          "Toyo Aviation",
+          []
+        ],
+        [
+          "TOY",
+          []
+        ],
+        [
+          "TOYO AVIATION",
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          2009,
+          []
+        ],
+        [
+          "private jets",
+          [
+            "/wiki/Business_jet"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ţiriac Air",
+          [
+            "/wiki/Ţiriac_Air"
+          ]
+        ],
+        [
+          "TIH",
+          []
+        ],
+        [
+          "TIRIAC AIR",
+          []
+        ],
+        [
+          "Henri Coandă International Airport",
+          [
+            "/wiki/Henri_Coandă_International_Airport"
+          ]
+        ],
+        [
+          1997,
+          []
+        ],
+        [
+          "private jets",
+          [
+            "/wiki/Business_jet"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a list of airlines operating in Romania, detailing their identifying codes, operational hubs, and additional notes about their operations. It serves as a reference for understanding the aviation landscape in Romania, including key information about each airline's commencement year and operational focus.",
+  "numeric_columns": [
+    "Commenced operations"
+  ],
+  "categorical_columns": [
+    "ICAO",
+    "Callsign",
+    "Notes"
+  ],
+  "entities": [
+    "Airline",
+    "Hub Airport ( s )"
+  ]
+}

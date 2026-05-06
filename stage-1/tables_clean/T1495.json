@@ -1,0 +1,293 @@
+{
+  "table_id": "T1495",
+  "uid": "369f8c13-eded-5b7c-8643-6d2a180213ae",
+  "source": "HybridQA",
+  "source_table_id": "369f8c13-eded-5b7c-8643-6d2a180213ae",
+  "domain": "HybridQA",
+  "title": "1999 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Elena Zamolodchikova ( RUS )",
+        [
+          "/wiki/Elena_Zamolodchikova"
+        ]
+      ],
+      [
+        9.718,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Simona Amânar ( ROU )",
+        [
+          "/wiki/Simona_Amânar"
+        ]
+      ],
+      [
+        9.631,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Maria Olaru ( ROU )",
+        [
+          "/wiki/Maria_Olaru"
+        ]
+      ],
+      [
+        9.593,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Elena Produnova ( RUS )",
+        [
+          "/wiki/Elena_Produnova"
+        ]
+      ],
+      [
+        9.587,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Trudy McIntosh ( AUS )",
+        [
+          "/wiki/Trudy_McIntosh"
+        ]
+      ],
+      [
+        9.568,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Denisse López ( MEX )",
+        [
+          "/wiki/Denisse_López"
+        ]
+      ],
+      [
+        9.562,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Viktoria Karpenko ( UKR )",
+        [
+          "/wiki/Viktoria_Karpenko"
+        ]
+      ],
+      [
+        9.475,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Laura Martínez ( ESP )",
+        [
+          "/wiki/Laura_Martínez_Ruiz"
+        ]
+      ],
+      [
+        8.606,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "369f8c13-eded-5b7c-8643-6d2a180213ae",
+    "table_id": "1999_World_Artistic_Gymnastics_Championships_8",
+    "title": "1999 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Elena Zamolodchikova ( RUS )",
+          [
+            "/wiki/Elena_Zamolodchikova"
+          ]
+        ],
+        [
+          9.718,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Simona Amânar ( ROU )",
+          [
+            "/wiki/Simona_Amânar"
+          ]
+        ],
+        [
+          9.631,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Maria Olaru ( ROU )",
+          [
+            "/wiki/Maria_Olaru"
+          ]
+        ],
+        [
+          9.593,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Elena Produnova ( RUS )",
+          [
+            "/wiki/Elena_Produnova"
+          ]
+        ],
+        [
+          9.587,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Trudy McIntosh ( AUS )",
+          [
+            "/wiki/Trudy_McIntosh"
+          ]
+        ],
+        [
+          9.568,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Denisse López ( MEX )",
+          [
+            "/wiki/Denisse_López"
+          ]
+        ],
+        [
+          9.562,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Viktoria Karpenko ( UKR )",
+          [
+            "/wiki/Viktoria_Karpenko"
+          ]
+        ],
+        [
+          9.475,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Laura Martínez ( ESP )",
+          [
+            "/wiki/Laura_Martínez_Ruiz"
+          ]
+        ],
+        [
+          8.606,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides rankings from the 1999 World Artistic Gymnastics Championships, listing gymnasts along with their total scores. It serves to summarize performance outcomes and highlight individual achievements in the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

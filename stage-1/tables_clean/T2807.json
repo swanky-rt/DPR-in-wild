@@ -1,0 +1,325 @@
+{
+  "table_id": "T2807",
+  "uid": "9458073e-2457-5d67-8507-bc772b644402",
+  "source": "HybridQA",
+  "source_table_id": "9458073e-2457-5d67-8507-bc772b644402",
+  "domain": "HybridQA",
+  "title": "Christina Cole",
+  "columns": [
+    "Year",
+    "Title",
+    "Role"
+  ],
+  "rows": [
+    [
+      [
+        2003,
+        []
+      ],
+      [
+        "What a Girl Wants",
+        [
+          "/wiki/What_a_Girl_Wants_(film)"
+        ]
+      ],
+      [
+        "Clarissa Payne",
+        []
+      ]
+    ],
+    [
+      [
+        2006,
+        []
+      ],
+      [
+        "Casino Royale",
+        [
+          "/wiki/Casino_Royale_(2006_film)"
+        ]
+      ],
+      [
+        "Ocean Club Receptionist",
+        []
+      ]
+    ],
+    [
+      [
+        2007,
+        []
+      ],
+      [
+        "The Deaths of Ian Stone",
+        [
+          "/wiki/The_Deaths_of_Ian_Stone"
+        ]
+      ],
+      [
+        "Jenny Walker",
+        []
+      ]
+    ],
+    [
+      [
+        2008,
+        []
+      ],
+      [
+        "Surviving Evil",
+        [
+          "/wiki/Surviving_Evil"
+        ]
+      ],
+      [
+        "Phoebe Drake",
+        []
+      ]
+    ],
+    [
+      [
+        2008,
+        []
+      ],
+      [
+        "Miss Pettigrew Lives for a Day",
+        [
+          "/wiki/Miss_Pettigrew_Lives_for_a_Day"
+        ]
+      ],
+      [
+        "Charlotte Warren",
+        []
+      ]
+    ],
+    [
+      [
+        2009,
+        []
+      ],
+      [
+        "Doghouse",
+        [
+          "/wiki/Doghouse_(film)"
+        ]
+      ],
+      [
+        "Candy",
+        []
+      ]
+    ],
+    [
+      [
+        2011,
+        []
+      ],
+      [
+        "Blitz",
+        [
+          "/wiki/Blitz_(film)"
+        ]
+      ],
+      [
+        "WPC",
+        []
+      ]
+    ],
+    [
+      [
+        2013,
+        []
+      ],
+      [
+        "Mutual Friends",
+        [
+          "/wiki/Mutual_Friends_(film)"
+        ]
+      ],
+      [
+        "Beatrice",
+        []
+      ]
+    ],
+    [
+      [
+        2015,
+        []
+      ],
+      [
+        "Jupiter Ascending",
+        [
+          "/wiki/Jupiter_Ascending"
+        ]
+      ],
+      [
+        "Gemma Chatterjee",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "9458073e-2457-5d67-8507-bc772b644402",
+    "table_id": "Christina_Cole_0",
+    "title": "Christina Cole",
+    "header": [
+      "Year",
+      "Title",
+      "Role"
+    ],
+    "value": [
+      [
+        [
+          2003,
+          []
+        ],
+        [
+          "What a Girl Wants",
+          [
+            "/wiki/What_a_Girl_Wants_(film)"
+          ]
+        ],
+        [
+          "Clarissa Payne",
+          []
+        ]
+      ],
+      [
+        [
+          2006,
+          []
+        ],
+        [
+          "Casino Royale",
+          [
+            "/wiki/Casino_Royale_(2006_film)"
+          ]
+        ],
+        [
+          "Ocean Club Receptionist",
+          []
+        ]
+      ],
+      [
+        [
+          2007,
+          []
+        ],
+        [
+          "The Deaths of Ian Stone",
+          [
+            "/wiki/The_Deaths_of_Ian_Stone"
+          ]
+        ],
+        [
+          "Jenny Walker",
+          []
+        ]
+      ],
+      [
+        [
+          2008,
+          []
+        ],
+        [
+          "Surviving Evil",
+          [
+            "/wiki/Surviving_Evil"
+          ]
+        ],
+        [
+          "Phoebe Drake",
+          []
+        ]
+      ],
+      [
+        [
+          2008,
+          []
+        ],
+        [
+          "Miss Pettigrew Lives for a Day",
+          [
+            "/wiki/Miss_Pettigrew_Lives_for_a_Day"
+          ]
+        ],
+        [
+          "Charlotte Warren",
+          []
+        ]
+      ],
+      [
+        [
+          2009,
+          []
+        ],
+        [
+          "Doghouse",
+          [
+            "/wiki/Doghouse_(film)"
+          ]
+        ],
+        [
+          "Candy",
+          []
+        ]
+      ],
+      [
+        [
+          2011,
+          []
+        ],
+        [
+          "Blitz",
+          [
+            "/wiki/Blitz_(film)"
+          ]
+        ],
+        [
+          "WPC",
+          []
+        ]
+      ],
+      [
+        [
+          2013,
+          []
+        ],
+        [
+          "Mutual Friends",
+          [
+            "/wiki/Mutual_Friends_(film)"
+          ]
+        ],
+        [
+          "Beatrice",
+          []
+        ]
+      ],
+      [
+        [
+          2015,
+          []
+        ],
+        [
+          "Jupiter Ascending",
+          [
+            "/wiki/Jupiter_Ascending"
+          ]
+        ],
+        [
+          "Gemma Chatterjee",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the acting roles of a specific individual, listing the year of the performance, the title of the work, and the role played. It is likely intended to summarize the person's filmography or acting career. The table is structured to highlight key details about each performance.",
+  "numeric_columns": [
+    "Year"
+  ],
+  "categorical_columns": [
+    "Role"
+  ],
+  "entities": [
+    "Title"
+  ]
+}

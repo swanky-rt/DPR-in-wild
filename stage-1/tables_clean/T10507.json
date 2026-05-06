@@ -1,0 +1,421 @@
+{
+  "table_id": "T10507",
+  "uid": "0764139b-3a1c-544b-bdab-5fd4ddb15316",
+  "source": "HybridQA",
+  "source_table_id": "0764139b-3a1c-544b-bdab-5fd4ddb15316",
+  "domain": "HybridQA",
+  "title": "Domaine Armand Rousseau",
+  "columns": [
+    "Vineyard Name",
+    "Cru",
+    "Hectares"
+  ],
+  "rows": [
+    [
+      [
+        "Chambertin",
+        [
+          "/wiki/Chambertin"
+        ]
+      ],
+      [
+        "Grand Cru",
+        [
+          "/wiki/Burgundy_wine"
+        ]
+      ],
+      [
+        2.55,
+        []
+      ]
+    ],
+    [
+      [
+        "Clos de Bèze",
+        [
+          "/wiki/Clos_de_Bèze"
+        ]
+      ],
+      [
+        "Grand Cru",
+        [
+          "/wiki/Burgundy_wine"
+        ]
+      ],
+      [
+        1.42,
+        []
+      ]
+    ],
+    [
+      [
+        "Clos des Ruchottes",
+        [
+          "/wiki/Ruchottes-Chambertin"
+        ]
+      ],
+      [
+        "Grand Cru",
+        [
+          "/wiki/Burgundy_wine"
+        ]
+      ],
+      [
+        1.06,
+        []
+      ]
+    ],
+    [
+      [
+        "Mazis Chambertin",
+        [
+          "/wiki/Mazis_Chambertin"
+        ]
+      ],
+      [
+        "Grand Cru",
+        [
+          "/wiki/Burgundy_wine"
+        ]
+      ],
+      [
+        0.53,
+        []
+      ]
+    ],
+    [
+      [
+        "Charmes-Chambertin",
+        [
+          "/wiki/Charmes-Chambertin"
+        ]
+      ],
+      [
+        "Grand Cru",
+        [
+          "/wiki/Burgundy_wine"
+        ]
+      ],
+      [
+        0.45,
+        []
+      ]
+    ],
+    [
+      [
+        "Mazoyères-Chambertin",
+        [
+          "/wiki/Mazoyères-Chambertin"
+        ]
+      ],
+      [
+        "Grand Cru",
+        [
+          "/wiki/Burgundy_wine"
+        ]
+      ],
+      [
+        0.92,
+        []
+      ]
+    ],
+    [
+      [
+        "Clos de la Roche",
+        [
+          "/wiki/Clos_de_la_Roche"
+        ]
+      ],
+      [
+        "Grand Cru",
+        [
+          "/wiki/Burgundy_wine"
+        ]
+      ],
+      [
+        1.48,
+        []
+      ]
+    ],
+    [
+      [
+        "Clos St-Jacques",
+        [
+          "/wiki/Clos_St-Jacques"
+        ]
+      ],
+      [
+        "Premier Cru",
+        [
+          "/wiki/Burgundy_wine"
+        ]
+      ],
+      [
+        2.21,
+        []
+      ]
+    ],
+    [
+      [
+        "Cazetiers",
+        []
+      ],
+      [
+        "Premier Cru",
+        [
+          "/wiki/Burgundy_wine"
+        ]
+      ],
+      [
+        0.75,
+        []
+      ]
+    ],
+    [
+      [
+        "Lavaux Saint-Jacques",
+        []
+      ],
+      [
+        "Premier Cru",
+        [
+          "/wiki/Burgundy_wine"
+        ]
+      ],
+      [
+        0.5,
+        []
+      ]
+    ],
+    [
+      [
+        "Gevrey-Chambertin",
+        []
+      ],
+      [
+        "Village",
+        [
+          "/wiki/Burgundy_wine"
+        ]
+      ],
+      [
+        2.26,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "0764139b-3a1c-544b-bdab-5fd4ddb15316",
+    "table_id": "Domaine_Armand_Rousseau_0",
+    "title": "Domaine Armand Rousseau",
+    "header": [
+      "Vineyard Name",
+      "Cru",
+      "Hectares"
+    ],
+    "value": [
+      [
+        [
+          "Chambertin",
+          [
+            "/wiki/Chambertin"
+          ]
+        ],
+        [
+          "Grand Cru",
+          [
+            "/wiki/Burgundy_wine"
+          ]
+        ],
+        [
+          2.55,
+          []
+        ]
+      ],
+      [
+        [
+          "Clos de Bèze",
+          [
+            "/wiki/Clos_de_Bèze"
+          ]
+        ],
+        [
+          "Grand Cru",
+          [
+            "/wiki/Burgundy_wine"
+          ]
+        ],
+        [
+          1.42,
+          []
+        ]
+      ],
+      [
+        [
+          "Clos des Ruchottes",
+          [
+            "/wiki/Ruchottes-Chambertin"
+          ]
+        ],
+        [
+          "Grand Cru",
+          [
+            "/wiki/Burgundy_wine"
+          ]
+        ],
+        [
+          1.06,
+          []
+        ]
+      ],
+      [
+        [
+          "Mazis Chambertin",
+          [
+            "/wiki/Mazis_Chambertin"
+          ]
+        ],
+        [
+          "Grand Cru",
+          [
+            "/wiki/Burgundy_wine"
+          ]
+        ],
+        [
+          0.53,
+          []
+        ]
+      ],
+      [
+        [
+          "Charmes-Chambertin",
+          [
+            "/wiki/Charmes-Chambertin"
+          ]
+        ],
+        [
+          "Grand Cru",
+          [
+            "/wiki/Burgundy_wine"
+          ]
+        ],
+        [
+          0.45,
+          []
+        ]
+      ],
+      [
+        [
+          "Mazoyères-Chambertin",
+          [
+            "/wiki/Mazoyères-Chambertin"
+          ]
+        ],
+        [
+          "Grand Cru",
+          [
+            "/wiki/Burgundy_wine"
+          ]
+        ],
+        [
+          0.92,
+          []
+        ]
+      ],
+      [
+        [
+          "Clos de la Roche",
+          [
+            "/wiki/Clos_de_la_Roche"
+          ]
+        ],
+        [
+          "Grand Cru",
+          [
+            "/wiki/Burgundy_wine"
+          ]
+        ],
+        [
+          1.48,
+          []
+        ]
+      ],
+      [
+        [
+          "Clos St-Jacques",
+          [
+            "/wiki/Clos_St-Jacques"
+          ]
+        ],
+        [
+          "Premier Cru",
+          [
+            "/wiki/Burgundy_wine"
+          ]
+        ],
+        [
+          2.21,
+          []
+        ]
+      ],
+      [
+        [
+          "Cazetiers",
+          []
+        ],
+        [
+          "Premier Cru",
+          [
+            "/wiki/Burgundy_wine"
+          ]
+        ],
+        [
+          0.75,
+          []
+        ]
+      ],
+      [
+        [
+          "Lavaux Saint-Jacques",
+          []
+        ],
+        [
+          "Premier Cru",
+          [
+            "/wiki/Burgundy_wine"
+          ]
+        ],
+        [
+          0.5,
+          []
+        ]
+      ],
+      [
+        [
+          "Gevrey-Chambertin",
+          []
+        ],
+        [
+          "Village",
+          [
+            "/wiki/Burgundy_wine"
+          ]
+        ],
+        [
+          2.26,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about vineyards associated with Domaine Armand Rousseau, focusing on their classification and size. It includes details about the vineyard names, their classification as a type of Cru, and their respective areas in hectares. The table is likely intended for wine enthusiasts or researchers interested in Burgundy wine regions.",
+  "numeric_columns": [
+    "Hectares"
+  ],
+  "categorical_columns": [
+    "Cru"
+  ],
+  "entities": [
+    "Vineyard Name"
+  ]
+}

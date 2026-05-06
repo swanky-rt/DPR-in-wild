@@ -1,0 +1,407 @@
+{
+  "table_id": "T10674",
+  "uid": "b8cd6034-163b-51e8-b3fa-c20f7f2abf68",
+  "source": "HybridQA",
+  "source_table_id": "b8cd6034-163b-51e8-b3fa-c20f7f2abf68",
+  "domain": "HybridQA",
+  "title": "Liga EBA",
+  "columns": [
+    "Team",
+    "City",
+    "Autonomous community",
+    "Arena"
+  ],
+  "rows": [
+    [
+      [
+        "Angels Vision Units Pel Bàsquet Gandía",
+        [
+          "/wiki/UPB_Gandia"
+        ]
+      ],
+      [
+        "Gandia",
+        [
+          "/wiki/Gandia"
+        ]
+      ],
+      [
+        "Valencian Community",
+        [
+          "/wiki/Valencian_Community"
+        ]
+      ],
+      [
+        "Municipal",
+        []
+      ]
+    ],
+    [
+      [
+        "CB Ifach Calpe",
+        []
+      ],
+      [
+        "Calp",
+        [
+          "/wiki/Calp"
+        ]
+      ],
+      [
+        "Valencian Community",
+        [
+          "/wiki/Valencian_Community"
+        ]
+      ],
+      [
+        "Municipal",
+        []
+      ]
+    ],
+    [
+      [
+        "Conciencia2s Valencia CB Aldaia",
+        []
+      ],
+      [
+        "Aldaia",
+        [
+          "/wiki/Aldaia"
+        ]
+      ],
+      [
+        "Valencian Community",
+        [
+          "/wiki/Valencian_Community"
+        ]
+      ],
+      [
+        "Jaume Ortí",
+        []
+      ]
+    ],
+    [
+      [
+        "Guillén Group Alginet",
+        []
+      ],
+      [
+        "Alginet",
+        [
+          "/wiki/Alginet"
+        ]
+      ],
+      [
+        "Valencian Community",
+        [
+          "/wiki/Valencian_Community"
+        ]
+      ],
+      [
+        "Municipal",
+        []
+      ]
+    ],
+    [
+      [
+        "Hero Jairis",
+        []
+      ],
+      [
+        "Alcantarilla",
+        [
+          "/wiki/Alcantarilla"
+        ]
+      ],
+      [
+        "Region of Murcia",
+        [
+          "/wiki/Region_of_Murcia"
+        ]
+      ],
+      [
+        "Fausto Vicent",
+        []
+      ]
+    ],
+    [
+      [
+        "Sha Wellness Clinic L'Alfàs",
+        []
+      ],
+      [
+        "L'Alfàs del Pi",
+        [
+          "/wiki/L'Alfàs_del_Pi"
+        ]
+      ],
+      [
+        "Valencian Community",
+        [
+          "/wiki/Valencian_Community"
+        ]
+      ],
+      [
+        "Pau Gasol",
+        []
+      ]
+    ],
+    [
+      [
+        "UCAM Murcia B Jiffy",
+        [
+          "/wiki/CB_Murcia"
+        ]
+      ],
+      [
+        "Murcia",
+        [
+          "/wiki/Murcia"
+        ]
+      ],
+      [
+        "Region of Murcia",
+        [
+          "/wiki/Region_of_Murcia"
+        ]
+      ],
+      [
+        "Palacio de Deportes",
+        [
+          "/wiki/Palacio_de_Deportes_de_Murcia"
+        ]
+      ]
+    ],
+    [
+      [
+        "UPCT Basket Cartagena",
+        []
+      ],
+      [
+        "Cartagena",
+        [
+          "/wiki/Cartagena,_Spain"
+        ]
+      ],
+      [
+        "Region of Murcia",
+        [
+          "/wiki/Region_of_Murcia"
+        ]
+      ],
+      [
+        "Municipal",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "b8cd6034-163b-51e8-b3fa-c20f7f2abf68",
+    "table_id": "Liga_EBA_8",
+    "title": "Liga EBA",
+    "header": [
+      "Team",
+      "City",
+      "Autonomous community",
+      "Arena"
+    ],
+    "value": [
+      [
+        [
+          "Angels Vision Units Pel Bàsquet Gandía",
+          [
+            "/wiki/UPB_Gandia"
+          ]
+        ],
+        [
+          "Gandia",
+          [
+            "/wiki/Gandia"
+          ]
+        ],
+        [
+          "Valencian Community",
+          [
+            "/wiki/Valencian_Community"
+          ]
+        ],
+        [
+          "Municipal",
+          []
+        ]
+      ],
+      [
+        [
+          "CB Ifach Calpe",
+          []
+        ],
+        [
+          "Calp",
+          [
+            "/wiki/Calp"
+          ]
+        ],
+        [
+          "Valencian Community",
+          [
+            "/wiki/Valencian_Community"
+          ]
+        ],
+        [
+          "Municipal",
+          []
+        ]
+      ],
+      [
+        [
+          "Conciencia2s Valencia CB Aldaia",
+          []
+        ],
+        [
+          "Aldaia",
+          [
+            "/wiki/Aldaia"
+          ]
+        ],
+        [
+          "Valencian Community",
+          [
+            "/wiki/Valencian_Community"
+          ]
+        ],
+        [
+          "Jaume Ortí",
+          []
+        ]
+      ],
+      [
+        [
+          "Guillén Group Alginet",
+          []
+        ],
+        [
+          "Alginet",
+          [
+            "/wiki/Alginet"
+          ]
+        ],
+        [
+          "Valencian Community",
+          [
+            "/wiki/Valencian_Community"
+          ]
+        ],
+        [
+          "Municipal",
+          []
+        ]
+      ],
+      [
+        [
+          "Hero Jairis",
+          []
+        ],
+        [
+          "Alcantarilla",
+          [
+            "/wiki/Alcantarilla"
+          ]
+        ],
+        [
+          "Region of Murcia",
+          [
+            "/wiki/Region_of_Murcia"
+          ]
+        ],
+        [
+          "Fausto Vicent",
+          []
+        ]
+      ],
+      [
+        [
+          "Sha Wellness Clinic L'Alfàs",
+          []
+        ],
+        [
+          "L'Alfàs del Pi",
+          [
+            "/wiki/L'Alfàs_del_Pi"
+          ]
+        ],
+        [
+          "Valencian Community",
+          [
+            "/wiki/Valencian_Community"
+          ]
+        ],
+        [
+          "Pau Gasol",
+          []
+        ]
+      ],
+      [
+        [
+          "UCAM Murcia B Jiffy",
+          [
+            "/wiki/CB_Murcia"
+          ]
+        ],
+        [
+          "Murcia",
+          [
+            "/wiki/Murcia"
+          ]
+        ],
+        [
+          "Region of Murcia",
+          [
+            "/wiki/Region_of_Murcia"
+          ]
+        ],
+        [
+          "Palacio de Deportes",
+          [
+            "/wiki/Palacio_de_Deportes_de_Murcia"
+          ]
+        ]
+      ],
+      [
+        [
+          "UPCT Basket Cartagena",
+          []
+        ],
+        [
+          "Cartagena",
+          [
+            "/wiki/Cartagena,_Spain"
+          ]
+        ],
+        [
+          "Region of Murcia",
+          [
+            "/wiki/Region_of_Murcia"
+          ]
+        ],
+        [
+          "Municipal",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about basketball teams in the Liga EBA, including their associated cities, autonomous communities, and arenas. It is likely used to summarize team locations and facilities within this league.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Team",
+    "City",
+    "Autonomous community",
+    "Arena"
+  ],
+  "entities": [
+    "Team",
+    "City",
+    "Autonomous community",
+    "Arena"
+  ]
+}

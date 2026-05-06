@@ -1,0 +1,293 @@
+{
+  "table_id": "T10234",
+  "uid": "6167b7d0-93e8-5942-aed9-b17f9904f3b5",
+  "source": "HybridQA",
+  "source_table_id": "6167b7d0-93e8-5942-aed9-b17f9904f3b5",
+  "domain": "HybridQA",
+  "title": "1996 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Dina Kochetkova ( RUS )",
+        [
+          "/wiki/Dina_Kochetkova"
+        ]
+      ],
+      [
+        9.887,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Alexandra Marinescu ( ROU )",
+        [
+          "/wiki/Alexandra_Marinescu"
+        ]
+      ],
+      [
+        9.812,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Dominique Dawes ( USA )",
+        [
+          "/wiki/Dominique_Dawes"
+        ]
+      ],
+      [
+        9.8,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Liu Xuan ( CHN )",
+        [
+          "/wiki/Liu_Xuan_(gymnast)"
+        ]
+      ],
+      [
+        9.8,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Vasiliki Tsavdaridou ( GRE )",
+        [
+          "/wiki/Vasiliki_Tsavdaridou"
+        ]
+      ],
+      [
+        9.675,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Mercedes Pacheco ( ESP )",
+        [
+          "/wiki/Mercedes_Pacheco"
+        ]
+      ],
+      [
+        9.637,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Jaycie Phelps ( USA )",
+        [
+          "/wiki/Jaycie_Phelps"
+        ]
+      ],
+      [
+        9.187,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Gina Gogean ( ROU )",
+        [
+          "/wiki/Gina_Gogean"
+        ]
+      ],
+      [
+        9.075,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "6167b7d0-93e8-5942-aed9-b17f9904f3b5",
+    "table_id": "1996_World_Artistic_Gymnastics_Championships_8",
+    "title": "1996 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Dina Kochetkova ( RUS )",
+          [
+            "/wiki/Dina_Kochetkova"
+          ]
+        ],
+        [
+          9.887,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Alexandra Marinescu ( ROU )",
+          [
+            "/wiki/Alexandra_Marinescu"
+          ]
+        ],
+        [
+          9.812,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Dominique Dawes ( USA )",
+          [
+            "/wiki/Dominique_Dawes"
+          ]
+        ],
+        [
+          9.8,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Liu Xuan ( CHN )",
+          [
+            "/wiki/Liu_Xuan_(gymnast)"
+          ]
+        ],
+        [
+          9.8,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Vasiliki Tsavdaridou ( GRE )",
+          [
+            "/wiki/Vasiliki_Tsavdaridou"
+          ]
+        ],
+        [
+          9.675,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Mercedes Pacheco ( ESP )",
+          [
+            "/wiki/Mercedes_Pacheco"
+          ]
+        ],
+        [
+          9.637,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Jaycie Phelps ( USA )",
+          [
+            "/wiki/Jaycie_Phelps"
+          ]
+        ],
+        [
+          9.187,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Gina Gogean ( ROU )",
+          [
+            "/wiki/Gina_Gogean"
+          ]
+        ],
+        [
+          9.075,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the rankings and scores of gymnasts at the 1996 World Artistic Gymnastics Championships. It includes details about the rank, names of the gymnasts, and their total scores. The purpose is to summarize performance outcomes in the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

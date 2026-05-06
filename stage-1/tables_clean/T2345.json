@@ -1,0 +1,471 @@
+{
+  "table_id": "T2345",
+  "uid": "b9d22d5c-1378-5543-9978-60808b1af813",
+  "source": "HybridQA",
+  "source_table_id": "b9d22d5c-1378-5543-9978-60808b1af813",
+  "domain": "HybridQA",
+  "title": "List of United States television stations available in Canada",
+  "columns": [
+    "Market /city",
+    "Call sign",
+    "Affiliation",
+    "Available ?"
+  ],
+  "rows": [
+    [
+      [
+        "Bellingham , Washington",
+        [
+          "/wiki/Template:Seattle_TV"
+        ]
+      ],
+      [
+        "KBCB",
+        [
+          "/wiki/KBCB"
+        ]
+      ],
+      [
+        "SBN",
+        [
+          "/wiki/Sonlife_Broadcasting_Network"
+        ]
+      ],
+      [
+        "No",
+        []
+      ]
+    ],
+    [
+      [
+        "Tacoma , Washington",
+        [
+          "/wiki/Template:Seattle_TV"
+        ]
+      ],
+      [
+        "KBTC-TV",
+        [
+          "/wiki/KBTC-TV"
+        ]
+      ],
+      [
+        "PBS",
+        [
+          "/wiki/Public_Broadcasting_Service"
+        ]
+      ],
+      [
+        "No",
+        []
+      ]
+    ],
+    [
+      [
+        "Seattle , Washington",
+        [
+          "/wiki/Template:Seattle_TV"
+        ]
+      ],
+      [
+        "KCTS-TV",
+        [
+          "/wiki/KCTS-TV"
+        ]
+      ],
+      [
+        "PBS",
+        [
+          "/wiki/Public_Broadcasting_Service"
+        ]
+      ],
+      [
+        "Yes",
+        []
+      ]
+    ],
+    [
+      [
+        "Tacoma , Washington",
+        [
+          "/wiki/Template:Seattle_TV"
+        ]
+      ],
+      [
+        "KCPQ",
+        [
+          "/wiki/KCPQ"
+        ]
+      ],
+      [
+        "Fox",
+        [
+          "/wiki/Fox_Broadcasting_Company"
+        ]
+      ],
+      [
+        "Yes",
+        []
+      ]
+    ],
+    [
+      [
+        "Seattle , Washington",
+        [
+          "/wiki/Template:Seattle_TV"
+        ]
+      ],
+      [
+        "KIRO-TV",
+        [
+          "/wiki/KIRO-TV"
+        ]
+      ],
+      [
+        "CBS",
+        [
+          "/wiki/CBS"
+        ]
+      ],
+      [
+        "Yes",
+        []
+      ]
+    ],
+    [
+      [
+        "Seattle , Washington",
+        [
+          "/wiki/Template:Seattle_TV"
+        ]
+      ],
+      [
+        "KOMO-TV",
+        [
+          "/wiki/KOMO-TV"
+        ]
+      ],
+      [
+        "ABC",
+        [
+          "/wiki/American_Broadcasting_Company"
+        ]
+      ],
+      [
+        "Yes",
+        []
+      ]
+    ],
+    [
+      [
+        "Seattle , Washington",
+        [
+          "/wiki/Template:Seattle_TV"
+        ]
+      ],
+      [
+        "KING-TV",
+        [
+          "/wiki/KING-TV"
+        ]
+      ],
+      [
+        "NBC",
+        [
+          "/wiki/NBC"
+        ]
+      ],
+      [
+        "Yes",
+        []
+      ]
+    ],
+    [
+      [
+        "Tacoma , Washington",
+        [
+          "/wiki/Template:Seattle_TV"
+        ]
+      ],
+      [
+        "KSTW",
+        [
+          "/wiki/KSTW"
+        ]
+      ],
+      [
+        "The CW",
+        [
+          "/wiki/The_CW_Television_Network"
+        ]
+      ],
+      [
+        "Yes",
+        []
+      ]
+    ],
+    [
+      [
+        "Bellingham , Washington",
+        [
+          "/wiki/Template:Seattle_TV"
+        ]
+      ],
+      [
+        "KVOS-TV",
+        [
+          "/wiki/KVOS-TV"
+        ]
+      ],
+      [
+        "Me-TV",
+        [
+          "/wiki/Me-TV"
+        ]
+      ],
+      [
+        "Yes",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "b9d22d5c-1378-5543-9978-60808b1af813",
+    "table_id": "List_of_United_States_stations_available_in_Canada_12",
+    "title": "List of United States television stations available in Canada",
+    "header": [
+      "Market /city",
+      "Call sign",
+      "Affiliation",
+      "Available ?"
+    ],
+    "value": [
+      [
+        [
+          "Bellingham , Washington",
+          [
+            "/wiki/Template:Seattle_TV"
+          ]
+        ],
+        [
+          "KBCB",
+          [
+            "/wiki/KBCB"
+          ]
+        ],
+        [
+          "SBN",
+          [
+            "/wiki/Sonlife_Broadcasting_Network"
+          ]
+        ],
+        [
+          "No",
+          []
+        ]
+      ],
+      [
+        [
+          "Tacoma , Washington",
+          [
+            "/wiki/Template:Seattle_TV"
+          ]
+        ],
+        [
+          "KBTC-TV",
+          [
+            "/wiki/KBTC-TV"
+          ]
+        ],
+        [
+          "PBS",
+          [
+            "/wiki/Public_Broadcasting_Service"
+          ]
+        ],
+        [
+          "No",
+          []
+        ]
+      ],
+      [
+        [
+          "Seattle , Washington",
+          [
+            "/wiki/Template:Seattle_TV"
+          ]
+        ],
+        [
+          "KCTS-TV",
+          [
+            "/wiki/KCTS-TV"
+          ]
+        ],
+        [
+          "PBS",
+          [
+            "/wiki/Public_Broadcasting_Service"
+          ]
+        ],
+        [
+          "Yes",
+          []
+        ]
+      ],
+      [
+        [
+          "Tacoma , Washington",
+          [
+            "/wiki/Template:Seattle_TV"
+          ]
+        ],
+        [
+          "KCPQ",
+          [
+            "/wiki/KCPQ"
+          ]
+        ],
+        [
+          "Fox",
+          [
+            "/wiki/Fox_Broadcasting_Company"
+          ]
+        ],
+        [
+          "Yes",
+          []
+        ]
+      ],
+      [
+        [
+          "Seattle , Washington",
+          [
+            "/wiki/Template:Seattle_TV"
+          ]
+        ],
+        [
+          "KIRO-TV",
+          [
+            "/wiki/KIRO-TV"
+          ]
+        ],
+        [
+          "CBS",
+          [
+            "/wiki/CBS"
+          ]
+        ],
+        [
+          "Yes",
+          []
+        ]
+      ],
+      [
+        [
+          "Seattle , Washington",
+          [
+            "/wiki/Template:Seattle_TV"
+          ]
+        ],
+        [
+          "KOMO-TV",
+          [
+            "/wiki/KOMO-TV"
+          ]
+        ],
+        [
+          "ABC",
+          [
+            "/wiki/American_Broadcasting_Company"
+          ]
+        ],
+        [
+          "Yes",
+          []
+        ]
+      ],
+      [
+        [
+          "Seattle , Washington",
+          [
+            "/wiki/Template:Seattle_TV"
+          ]
+        ],
+        [
+          "KING-TV",
+          [
+            "/wiki/KING-TV"
+          ]
+        ],
+        [
+          "NBC",
+          [
+            "/wiki/NBC"
+          ]
+        ],
+        [
+          "Yes",
+          []
+        ]
+      ],
+      [
+        [
+          "Tacoma , Washington",
+          [
+            "/wiki/Template:Seattle_TV"
+          ]
+        ],
+        [
+          "KSTW",
+          [
+            "/wiki/KSTW"
+          ]
+        ],
+        [
+          "The CW",
+          [
+            "/wiki/The_CW_Television_Network"
+          ]
+        ],
+        [
+          "Yes",
+          []
+        ]
+      ],
+      [
+        [
+          "Bellingham , Washington",
+          [
+            "/wiki/Template:Seattle_TV"
+          ]
+        ],
+        [
+          "KVOS-TV",
+          [
+            "/wiki/KVOS-TV"
+          ]
+        ],
+        [
+          "Me-TV",
+          [
+            "/wiki/Me-TV"
+          ]
+        ],
+        [
+          "Yes",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about United States television stations that are available or not available in Canada. It includes details such as the market or city of origin, the station's call sign, its network affiliation, and its availability status in Canada. The purpose is to document cross-border television broadcasting access.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Affiliation",
+    "Available ?"
+  ],
+  "entities": [
+    "Market /city",
+    "Call sign"
+  ]
+}

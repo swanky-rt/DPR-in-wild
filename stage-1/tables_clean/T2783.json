@@ -1,0 +1,332 @@
+{
+  "table_id": "T2783",
+  "uid": "02ae9fcc-3731-5a44-be76-4850ef660c21",
+  "source": "HybridQA",
+  "source_table_id": "02ae9fcc-3731-5a44-be76-4850ef660c21",
+  "domain": "HybridQA",
+  "title": "List of association football clubs in the Republic of Ireland",
+  "columns": [
+    "Team",
+    "Home town/suburb",
+    "Home ground"
+  ],
+  "rows": [
+    [
+      [
+        "Ballincollig",
+        []
+      ],
+      [
+        "Ballincollig",
+        [
+          "/wiki/Ballincollig"
+        ]
+      ],
+      [
+        "Coolroe",
+        []
+      ]
+    ],
+    [
+      [
+        "Ballinhassig",
+        []
+      ],
+      [
+        "Ballinhassig",
+        [
+          "/wiki/Ballinhassig"
+        ]
+      ],
+      [
+        "Gortnaglough",
+        []
+      ]
+    ],
+    [
+      [
+        "Casement Celtic",
+        []
+      ],
+      [
+        "Togher , Cork City",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Fermoy",
+        []
+      ],
+      [
+        "Fermoy",
+        [
+          "/wiki/Fermoy"
+        ]
+      ],
+      [
+        "Carrig Park",
+        []
+      ]
+    ],
+    [
+      [
+        "Glasheen",
+        []
+      ],
+      [
+        "Glasheen",
+        [
+          "/wiki/Glasheen"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Kilreen Celtic",
+        []
+      ],
+      [
+        "Ballyphehane",
+        [
+          "/wiki/Ballyphehane"
+        ]
+      ],
+      [
+        "Ballyphehane Park",
+        []
+      ]
+    ],
+    [
+      [
+        "Kinsale",
+        [
+          "/wiki/Kinsale_A.F.C."
+        ]
+      ],
+      [
+        "Kinsale",
+        [
+          "/wiki/Kinsale"
+        ]
+      ],
+      [
+        "Madden Park",
+        []
+      ]
+    ],
+    [
+      [
+        "Mallow United",
+        [
+          "/wiki/Mallow_United_F.C."
+        ]
+      ],
+      [
+        "Mallow , County Cork",
+        [
+          "/wiki/Mallow,_County_Cork"
+        ]
+      ],
+      [
+        "Town Park",
+        []
+      ]
+    ],
+    [
+      [
+        "Tramore Athletic",
+        [
+          "/wiki/Tramore_Athletic_F.C."
+        ]
+      ],
+      [
+        "Douglas , County Cork",
+        [
+          "/wiki/Douglas,_County_Cork"
+        ]
+      ],
+      [
+        "Tramore Park",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "02ae9fcc-3731-5a44-be76-4850ef660c21",
+    "table_id": "List_of_association_football_clubs_in_the_Republic_of_Ireland_10",
+    "title": "List of association football clubs in the Republic of Ireland",
+    "header": [
+      "Team",
+      "Home town/suburb",
+      "Home ground"
+    ],
+    "value": [
+      [
+        [
+          "Ballincollig",
+          []
+        ],
+        [
+          "Ballincollig",
+          [
+            "/wiki/Ballincollig"
+          ]
+        ],
+        [
+          "Coolroe",
+          []
+        ]
+      ],
+      [
+        [
+          "Ballinhassig",
+          []
+        ],
+        [
+          "Ballinhassig",
+          [
+            "/wiki/Ballinhassig"
+          ]
+        ],
+        [
+          "Gortnaglough",
+          []
+        ]
+      ],
+      [
+        [
+          "Casement Celtic",
+          []
+        ],
+        [
+          "Togher , Cork City",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Fermoy",
+          []
+        ],
+        [
+          "Fermoy",
+          [
+            "/wiki/Fermoy"
+          ]
+        ],
+        [
+          "Carrig Park",
+          []
+        ]
+      ],
+      [
+        [
+          "Glasheen",
+          []
+        ],
+        [
+          "Glasheen",
+          [
+            "/wiki/Glasheen"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Kilreen Celtic",
+          []
+        ],
+        [
+          "Ballyphehane",
+          [
+            "/wiki/Ballyphehane"
+          ]
+        ],
+        [
+          "Ballyphehane Park",
+          []
+        ]
+      ],
+      [
+        [
+          "Kinsale",
+          [
+            "/wiki/Kinsale_A.F.C."
+          ]
+        ],
+        [
+          "Kinsale",
+          [
+            "/wiki/Kinsale"
+          ]
+        ],
+        [
+          "Madden Park",
+          []
+        ]
+      ],
+      [
+        [
+          "Mallow United",
+          [
+            "/wiki/Mallow_United_F.C."
+          ]
+        ],
+        [
+          "Mallow , County Cork",
+          [
+            "/wiki/Mallow,_County_Cork"
+          ]
+        ],
+        [
+          "Town Park",
+          []
+        ]
+      ],
+      [
+        [
+          "Tramore Athletic",
+          [
+            "/wiki/Tramore_Athletic_F.C."
+          ]
+        ],
+        [
+          "Douglas , County Cork",
+          [
+            "/wiki/Douglas,_County_Cork"
+          ]
+        ],
+        [
+          "Tramore Park",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a list of association football clubs in the Republic of Ireland, detailing their respective home towns or suburbs and home grounds. It serves as a reference for understanding the geographical and infrastructural distribution of football clubs in the region.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Home town/suburb",
+    "Home ground"
+  ],
+  "entities": [
+    "Team"
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "table_id": "T2871",
+  "uid": "769b6b40-b70e-5e83-ad00-67e718431bef",
+  "source": "HybridQA",
+  "source_table_id": "769b6b40-b70e-5e83-ad00-67e718431bef",
+  "domain": "HybridQA",
+  "title": "Egyptian Premier League",
+  "columns": [
+    "No",
+    "Player",
+    "Teams",
+    "Goals"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Hassan El-Shazly",
+        [
+          "/wiki/Hassan_El-Shazly"
+        ]
+      ],
+      [
+        "Tersana",
+        [
+          "/wiki/Tersana_SC"
+        ]
+      ],
+      [
+        176,
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Hossam Hassan",
+        [
+          "/wiki/Hossam_Hassan"
+        ]
+      ],
+      [
+        "Al Ahly / Zamalek / Al Masry / Tersana / El Ittihad El Sakandary",
+        [
+          "/wiki/Al_Ahly_SC",
+          "/wiki/Zamalek_SC",
+          "/wiki/Al_Masry_SC",
+          "/wiki/Tersana_SC",
+          "/wiki/Al_Ittihad_Alexandria_Club"
+        ]
+      ],
+      [
+        168,
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Moustafa Reyadh",
+        [
+          "/wiki/Moustafa_Reyadh"
+        ]
+      ],
+      [
+        "Tersana",
+        [
+          "/wiki/Tersana_SC"
+        ]
+      ],
+      [
+        123,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "El-Sayed El-Dhizui",
+        [
+          "/wiki/El-Sayed_El-Dhizui"
+        ]
+      ],
+      [
+        "Al Masry / Al Ahly",
+        [
+          "/wiki/Al_Masry_SC",
+          "/wiki/Al_Ahly_SC"
+        ]
+      ],
+      [
+        112,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Mahmoud El Khatib",
+        [
+          "/wiki/Mahmoud_El_Khatib"
+        ]
+      ],
+      [
+        "Al Ahly",
+        [
+          "/wiki/Al_Ahly_SC"
+        ]
+      ],
+      [
+        109,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Ahmed El-Kass",
+        [
+          "/wiki/Ahmed_El-Kass"
+        ]
+      ],
+      [
+        "El Olympi / Zamalek / El Ittihad El Sakandary",
+        [
+          "/wiki/Olympic_Club_(Egypt)",
+          "/wiki/Zamalek_SC",
+          "/wiki/Al_Ittihad_Alexandria_Club"
+        ]
+      ],
+      [
+        107,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Mohamed Aboutrika",
+        [
+          "/wiki/Mohamed_Aboutrika"
+        ]
+      ],
+      [
+        "Tersana / Al Ahly",
+        [
+          "/wiki/Tersana_SC",
+          "/wiki/Al_Ahly_SC"
+        ]
+      ],
+      [
+        105,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Abdallah Said",
+        [
+          "/wiki/Abdallah_Said"
+        ]
+      ],
+      [
+        "Pyramids / Al Ahly",
+        [
+          "/wiki/Pyramids_FC",
+          "/wiki/Al_Ahly_SC"
+        ]
+      ],
+      [
+        102,
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Gamal Abdel-Hameed",
+        [
+          "/wiki/Gamal_Abdel-Hameed"
+        ]
+      ],
+      [
+        "Al Ahly / Zamalek",
+        [
+          "/wiki/Al_Ahly_SC",
+          "/wiki/Zamalek_SC"
+        ]
+      ],
+      [
+        101,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "769b6b40-b70e-5e83-ad00-67e718431bef",
+    "table_id": "Egyptian_Premier_League_4",
+    "title": "Egyptian Premier League",
+    "header": [
+      "No",
+      "Player",
+      "Teams",
+      "Goals"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Hassan El-Shazly",
+          [
+            "/wiki/Hassan_El-Shazly"
+          ]
+        ],
+        [
+          "Tersana",
+          [
+            "/wiki/Tersana_SC"
+          ]
+        ],
+        [
+          176,
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Hossam Hassan",
+          [
+            "/wiki/Hossam_Hassan"
+          ]
+        ],
+        [
+          "Al Ahly / Zamalek / Al Masry / Tersana / El Ittihad El Sakandary",
+          [
+            "/wiki/Al_Ahly_SC",
+            "/wiki/Zamalek_SC",
+            "/wiki/Al_Masry_SC",
+            "/wiki/Tersana_SC",
+            "/wiki/Al_Ittihad_Alexandria_Club"
+          ]
+        ],
+        [
+          168,
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Moustafa Reyadh",
+          [
+            "/wiki/Moustafa_Reyadh"
+          ]
+        ],
+        [
+          "Tersana",
+          [
+            "/wiki/Tersana_SC"
+          ]
+        ],
+        [
+          123,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "El-Sayed El-Dhizui",
+          [
+            "/wiki/El-Sayed_El-Dhizui"
+          ]
+        ],
+        [
+          "Al Masry / Al Ahly",
+          [
+            "/wiki/Al_Masry_SC",
+            "/wiki/Al_Ahly_SC"
+          ]
+        ],
+        [
+          112,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Mahmoud El Khatib",
+          [
+            "/wiki/Mahmoud_El_Khatib"
+          ]
+        ],
+        [
+          "Al Ahly",
+          [
+            "/wiki/Al_Ahly_SC"
+          ]
+        ],
+        [
+          109,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Ahmed El-Kass",
+          [
+            "/wiki/Ahmed_El-Kass"
+          ]
+        ],
+        [
+          "El Olympi / Zamalek / El Ittihad El Sakandary",
+          [
+            "/wiki/Olympic_Club_(Egypt)",
+            "/wiki/Zamalek_SC",
+            "/wiki/Al_Ittihad_Alexandria_Club"
+          ]
+        ],
+        [
+          107,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Mohamed Aboutrika",
+          [
+            "/wiki/Mohamed_Aboutrika"
+          ]
+        ],
+        [
+          "Tersana / Al Ahly",
+          [
+            "/wiki/Tersana_SC",
+            "/wiki/Al_Ahly_SC"
+          ]
+        ],
+        [
+          105,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Abdallah Said",
+          [
+            "/wiki/Abdallah_Said"
+          ]
+        ],
+        [
+          "Pyramids / Al Ahly",
+          [
+            "/wiki/Pyramids_FC",
+            "/wiki/Al_Ahly_SC"
+          ]
+        ],
+        [
+          102,
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Gamal Abdel-Hameed",
+          [
+            "/wiki/Gamal_Abdel-Hameed"
+          ]
+        ],
+        [
+          "Al Ahly / Zamalek",
+          [
+            "/wiki/Al_Ahly_SC",
+            "/wiki/Zamalek_SC"
+          ]
+        ],
+        [
+          101,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about players in the Egyptian Premier League, including their ranking, associated teams, and total goals scored. It is likely intended to highlight top performers or historical records in the league.",
+  "numeric_columns": [
+    "No",
+    "Goals"
+  ],
+  "categorical_columns": [
+    "Teams"
+  ],
+  "entities": [
+    "Player"
+  ]
+}

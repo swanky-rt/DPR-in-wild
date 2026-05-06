@@ -1,0 +1,419 @@
+{
+  "table_id": "T5720",
+  "uid": "a5d58ce6-5d41-5b83-a5cd-e57cec49dc45",
+  "source": "HybridQA",
+  "source_table_id": "a5d58ce6-5d41-5b83-a5cd-e57cec49dc45",
+  "domain": "HybridQA",
+  "title": "Western Europe",
+  "columns": [
+    "Rank",
+    "Country or territory",
+    "Population ( most recent estimates )",
+    "Languages",
+    "Capital"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "United Kingdom",
+        []
+      ],
+      [
+        "66,040,229",
+        []
+      ],
+      [
+        "English",
+        [
+          "/wiki/English_language"
+        ]
+      ],
+      [
+        "London",
+        [
+          "/wiki/London"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "France ( metropolitan )",
+        []
+      ],
+      [
+        "65,058,000",
+        []
+      ],
+      [
+        "French",
+        [
+          "/wiki/French_language"
+        ]
+      ],
+      [
+        "Paris",
+        [
+          "/wiki/Paris"
+        ]
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Netherlands",
+        []
+      ],
+      [
+        "17,249,632",
+        []
+      ],
+      [
+        "Dutch , Frisian",
+        [
+          "/wiki/Dutch_language",
+          "/wiki/West_Frisian_language"
+        ]
+      ],
+      [
+        "Amsterdam",
+        [
+          "/wiki/Amsterdam"
+        ]
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Belgium",
+        []
+      ],
+      [
+        "11,420,163",
+        []
+      ],
+      [
+        "Dutch , French and German",
+        [
+          "/wiki/Dutch_language",
+          "/wiki/French_language",
+          "/wiki/German_language"
+        ]
+      ],
+      [
+        "Brussels",
+        [
+          "/wiki/City_of_Brussels"
+        ]
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Ireland",
+        []
+      ],
+      [
+        "4,857,000",
+        []
+      ],
+      [
+        "Irish , English",
+        [
+          "/wiki/Irish_language",
+          "/wiki/English_language"
+        ]
+      ],
+      [
+        "Dublin",
+        [
+          "/wiki/Dublin"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Luxembourg",
+        []
+      ],
+      [
+        "602,005",
+        []
+      ],
+      [
+        "French , Luxembourgish and German",
+        [
+          "/wiki/French_language",
+          "/wiki/Luxembourgish",
+          "/wiki/German_language"
+        ]
+      ],
+      [
+        "Luxembourg City",
+        [
+          "/wiki/Luxembourg_City"
+        ]
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Monaco",
+        []
+      ],
+      [
+        "38,300",
+        []
+      ],
+      [
+        "French",
+        [
+          "/wiki/French_language"
+        ]
+      ],
+      [
+        "Monaco ( city-state )",
+        [
+          "/wiki/Monaco"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "a5d58ce6-5d41-5b83-a5cd-e57cec49dc45",
+    "table_id": "Western_Europe_0",
+    "title": "Western Europe",
+    "header": [
+      "Rank",
+      "Country or territory",
+      "Population ( most recent estimates )",
+      "Languages",
+      "Capital"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "United Kingdom",
+          []
+        ],
+        [
+          "66,040,229",
+          []
+        ],
+        [
+          "English",
+          [
+            "/wiki/English_language"
+          ]
+        ],
+        [
+          "London",
+          [
+            "/wiki/London"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "France ( metropolitan )",
+          []
+        ],
+        [
+          "65,058,000",
+          []
+        ],
+        [
+          "French",
+          [
+            "/wiki/French_language"
+          ]
+        ],
+        [
+          "Paris",
+          [
+            "/wiki/Paris"
+          ]
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Netherlands",
+          []
+        ],
+        [
+          "17,249,632",
+          []
+        ],
+        [
+          "Dutch , Frisian",
+          [
+            "/wiki/Dutch_language",
+            "/wiki/West_Frisian_language"
+          ]
+        ],
+        [
+          "Amsterdam",
+          [
+            "/wiki/Amsterdam"
+          ]
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Belgium",
+          []
+        ],
+        [
+          "11,420,163",
+          []
+        ],
+        [
+          "Dutch , French and German",
+          [
+            "/wiki/Dutch_language",
+            "/wiki/French_language",
+            "/wiki/German_language"
+          ]
+        ],
+        [
+          "Brussels",
+          [
+            "/wiki/City_of_Brussels"
+          ]
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Ireland",
+          []
+        ],
+        [
+          "4,857,000",
+          []
+        ],
+        [
+          "Irish , English",
+          [
+            "/wiki/Irish_language",
+            "/wiki/English_language"
+          ]
+        ],
+        [
+          "Dublin",
+          [
+            "/wiki/Dublin"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Luxembourg",
+          []
+        ],
+        [
+          "602,005",
+          []
+        ],
+        [
+          "French , Luxembourgish and German",
+          [
+            "/wiki/French_language",
+            "/wiki/Luxembourgish",
+            "/wiki/German_language"
+          ]
+        ],
+        [
+          "Luxembourg City",
+          [
+            "/wiki/Luxembourg_City"
+          ]
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Monaco",
+          []
+        ],
+        [
+          "38,300",
+          []
+        ],
+        [
+          "French",
+          [
+            "/wiki/French_language"
+          ]
+        ],
+        [
+          "Monaco ( city-state )",
+          [
+            "/wiki/Monaco"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides an overview of countries or territories in Western Europe, including their population estimates, primary languages, and capitals. It is likely intended for informational or comparative purposes, focusing on demographic and cultural aspects of the region.",
+  "numeric_columns": [
+    "Population ( most recent estimates )"
+  ],
+  "categorical_columns": [
+    "Rank",
+    "Languages"
+  ],
+  "entities": [
+    "Country or territory",
+    "Capital"
+  ]
+}

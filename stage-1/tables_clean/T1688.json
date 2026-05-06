@@ -1,0 +1,293 @@
+{
+  "table_id": "T1688",
+  "uid": "b15ae724-95ea-59b9-a4d6-025eb6dfec5e",
+  "source": "HybridQA",
+  "source_table_id": "b15ae724-95ea-59b9-a4d6-025eb6dfec5e",
+  "domain": "HybridQA",
+  "title": "1994 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Luo Li ( CHN )",
+        [
+          "/wiki/Luo_Li"
+        ]
+      ],
+      [
+        9.912,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Svetlana Khorkina ( RUS )",
+        [
+          "/wiki/Svetlana_Khorkina"
+        ]
+      ],
+      [
+        9.875,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Dina Kochetkova ( RUS )",
+        [
+          "/wiki/Dina_Kochetkova"
+        ]
+      ],
+      [
+        9.85,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Dominique Dawes ( USA )",
+        [
+          "/wiki/Dominique_Dawes"
+        ]
+      ],
+      [
+        9.775,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Lilia Podkopayeva ( UKR )",
+        [
+          "/wiki/Lilia_Podkopayeva"
+        ]
+      ],
+      [
+        9.35,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Lavinia Miloșovici ( ROU )",
+        [
+          "/wiki/Lavinia_Miloșovici"
+        ]
+      ],
+      [
+        9.25,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Nadia Hațegan ( ROU )",
+        [
+          "/wiki/Nadia_Hațegan"
+        ]
+      ],
+      [
+        9.137,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Amanda Borden ( USA )",
+        [
+          "/wiki/Amanda_Borden"
+        ]
+      ],
+      [
+        9.05,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "b15ae724-95ea-59b9-a4d6-025eb6dfec5e",
+    "table_id": "1994_World_Artistic_Gymnastics_Championships_9",
+    "title": "1994 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Luo Li ( CHN )",
+          [
+            "/wiki/Luo_Li"
+          ]
+        ],
+        [
+          9.912,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Svetlana Khorkina ( RUS )",
+          [
+            "/wiki/Svetlana_Khorkina"
+          ]
+        ],
+        [
+          9.875,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Dina Kochetkova ( RUS )",
+          [
+            "/wiki/Dina_Kochetkova"
+          ]
+        ],
+        [
+          9.85,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Dominique Dawes ( USA )",
+          [
+            "/wiki/Dominique_Dawes"
+          ]
+        ],
+        [
+          9.775,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Lilia Podkopayeva ( UKR )",
+          [
+            "/wiki/Lilia_Podkopayeva"
+          ]
+        ],
+        [
+          9.35,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Lavinia Miloșovici ( ROU )",
+          [
+            "/wiki/Lavinia_Miloșovici"
+          ]
+        ],
+        [
+          9.25,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Nadia Hațegan ( ROU )",
+          [
+            "/wiki/Nadia_Hațegan"
+          ]
+        ],
+        [
+          9.137,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Amanda Borden ( USA )",
+          [
+            "/wiki/Amanda_Borden"
+          ]
+        ],
+        [
+          9.05,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the rankings and scores of gymnasts at the 1994 World Artistic Gymnastics Championships. It includes details about the rank, name of the gymnast, and their total score, offering a summary of performance outcomes in the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "table_id": "T10955",
+  "uid": "951a5c35-8df4-5373-9018-ad724c5cc619",
+  "source": "HybridQA",
+  "source_table_id": "951a5c35-8df4-5373-9018-ad724c5cc619",
+  "domain": "HybridQA",
+  "title": "List of public corporations by market capitalization",
+  "columns": [
+    "Rank",
+    "Name",
+    "Headquarters",
+    "Primary industry",
+    "Market value ( USD million )"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "General Electric",
+        [
+          "/wiki/General_Electric"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        "Conglomerate",
+        [
+          "/wiki/Conglomerate_(company)"
+        ]
+      ],
+      [
+        "299,336",
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Microsoft",
+        [
+          "/wiki/Microsoft"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        "Software industry",
+        [
+          "/wiki/Software_industry"
+        ]
+      ],
+      [
+        "271,911",
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Exxon Mobil",
+        [
+          "/wiki/Exxon_Mobil"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        "Oil and gas",
+        [
+          "/wiki/Petroleum_industry"
+        ]
+      ],
+      [
+        "263,940",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Pfizer",
+        [
+          "/wiki/Pfizer"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        "Health care",
+        [
+          "/wiki/Health_care"
+        ]
+      ],
+      [
+        "261,616",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Citigroup",
+        [
+          "/wiki/Citigroup"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        "Banking",
+        [
+          "/wiki/Banking"
+        ]
+      ],
+      [
+        "259,191",
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Wal-Mart",
+        [
+          "/wiki/Wal-Mart"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        "Retail",
+        [
+          "/wiki/Retail"
+        ]
+      ],
+      [
+        "258,888",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "American International Group",
+        [
+          "/wiki/American_International_Group"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        "Insurance",
+        [
+          "/wiki/Insurance"
+        ]
+      ],
+      [
+        "183,696",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Intel Corporation",
+        [
+          "/wiki/Intel_Corporation"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        "Computer hardware",
+        [
+          "/wiki/Computer_hardware"
+        ]
+      ],
+      [
+        "179,996",
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "BP",
+        [
+          "/wiki/BP"
+        ]
+      ],
+      [
+        "United Kingdom",
+        []
+      ],
+      [
+        "Oil and gas",
+        []
+      ],
+      [
+        "174,648",
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "HSBC",
+        [
+          "/wiki/HSBC"
+        ]
+      ],
+      [
+        "United Kingdom",
+        []
+      ],
+      [
+        "Banking",
+        []
+      ],
+      [
+        "163,574",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "951a5c35-8df4-5373-9018-ad724c5cc619",
+    "table_id": "List_of_corporations_by_market_capitalization_2",
+    "title": "List of public corporations by market capitalization",
+    "header": [
+      "Rank",
+      "Name",
+      "Headquarters",
+      "Primary industry",
+      "Market value ( USD million )"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "General Electric",
+          [
+            "/wiki/General_Electric"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          "Conglomerate",
+          [
+            "/wiki/Conglomerate_(company)"
+          ]
+        ],
+        [
+          "299,336",
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Microsoft",
+          [
+            "/wiki/Microsoft"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          "Software industry",
+          [
+            "/wiki/Software_industry"
+          ]
+        ],
+        [
+          "271,911",
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Exxon Mobil",
+          [
+            "/wiki/Exxon_Mobil"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          "Oil and gas",
+          [
+            "/wiki/Petroleum_industry"
+          ]
+        ],
+        [
+          "263,940",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Pfizer",
+          [
+            "/wiki/Pfizer"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          "Health care",
+          [
+            "/wiki/Health_care"
+          ]
+        ],
+        [
+          "261,616",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Citigroup",
+          [
+            "/wiki/Citigroup"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          "Banking",
+          [
+            "/wiki/Banking"
+          ]
+        ],
+        [
+          "259,191",
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Wal-Mart",
+          [
+            "/wiki/Wal-Mart"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          "Retail",
+          [
+            "/wiki/Retail"
+          ]
+        ],
+        [
+          "258,888",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "American International Group",
+          [
+            "/wiki/American_International_Group"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          "Insurance",
+          [
+            "/wiki/Insurance"
+          ]
+        ],
+        [
+          "183,696",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Intel Corporation",
+          [
+            "/wiki/Intel_Corporation"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          "Computer hardware",
+          [
+            "/wiki/Computer_hardware"
+          ]
+        ],
+        [
+          "179,996",
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "BP",
+          [
+            "/wiki/BP"
+          ]
+        ],
+        [
+          "United Kingdom",
+          []
+        ],
+        [
+          "Oil and gas",
+          []
+        ],
+        [
+          "174,648",
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "HSBC",
+          [
+            "/wiki/HSBC"
+          ]
+        ],
+        [
+          "United Kingdom",
+          []
+        ],
+        [
+          "Banking",
+          []
+        ],
+        [
+          "163,574",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table lists public corporations ranked by their market capitalization, providing an overview of major companies and their financial standing. It includes information about each company's rank, name, headquarters location, primary industry, and market value in USD millions. The table is useful for analyzing the financial scale and industry distribution of leading corporations globally.",
+  "numeric_columns": [
+    "Market value ( USD million )"
+  ],
+  "categorical_columns": [
+    "Rank",
+    "Primary industry"
+  ],
+  "entities": [
+    "Name",
+    "Headquarters"
+  ]
+}

@@ -1,0 +1,568 @@
+{
+  "table_id": "T8453",
+  "uid": "fb722daf-4941-58e3-90cb-6db12cca11f3",
+  "source": "HybridQA",
+  "source_table_id": "fb722daf-4941-58e3-90cb-6db12cca11f3",
+  "domain": "HybridQA",
+  "title": "2008 ITU Triathlon World Cup",
+  "columns": [
+    "Date",
+    "City",
+    "County",
+    "Prize purse ( US $ )"
+  ],
+  "rows": [
+    [
+      [
+        "Mar 30",
+        []
+      ],
+      [
+        "Mooloolaba",
+        [
+          "/wiki/Mooloolaba"
+        ]
+      ],
+      [
+        "Australia",
+        [
+          "/wiki/Australia"
+        ]
+      ],
+      [
+        "$ 100,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Apr 6",
+        []
+      ],
+      [
+        "New Plymouth",
+        [
+          "/wiki/New_Plymouth"
+        ]
+      ],
+      [
+        "New Zealand",
+        [
+          "/wiki/New_Zealand"
+        ]
+      ],
+      [
+        "$ 100,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Apr 13",
+        []
+      ],
+      [
+        "Ishigaki",
+        [
+          "/wiki/Ishigaki,_Okinawa"
+        ]
+      ],
+      [
+        "Japan",
+        [
+          "/wiki/Japan"
+        ]
+      ],
+      [
+        "$ 100,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Apr 26",
+        []
+      ],
+      [
+        "Tongyeong",
+        [
+          "/wiki/Tongyeong"
+        ]
+      ],
+      [
+        "South Korea",
+        [
+          "/wiki/South_Korea"
+        ]
+      ],
+      [
+        "$ 100,000",
+        []
+      ]
+    ],
+    [
+      [
+        "May 4",
+        []
+      ],
+      [
+        "Richards Bay",
+        [
+          "/wiki/Richards_Bay"
+        ]
+      ],
+      [
+        "South Africa",
+        [
+          "/wiki/South_Africa"
+        ]
+      ],
+      [
+        "$ 100,000",
+        []
+      ]
+    ],
+    [
+      [
+        "May 25",
+        []
+      ],
+      [
+        "Madrid",
+        [
+          "/wiki/Madrid"
+        ]
+      ],
+      [
+        "Spain",
+        [
+          "/wiki/Spain"
+        ]
+      ],
+      [
+        "$ 100,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Jun 22",
+        []
+      ],
+      [
+        "Des Moines",
+        [
+          "/wiki/Des_Moines"
+        ]
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "$ 700,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Jul 5 -6",
+        []
+      ],
+      [
+        "Hamburg",
+        [
+          "/wiki/Hamburg"
+        ]
+      ],
+      [
+        "Germany",
+        [
+          "/wiki/Germany"
+        ]
+      ],
+      [
+        "$ 100,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Jul 13",
+        []
+      ],
+      [
+        "Tiszaújváros",
+        [
+          "/wiki/Tiszaújváros"
+        ]
+      ],
+      [
+        "Hungary",
+        [
+          "/wiki/Hungary"
+        ]
+      ],
+      [
+        "$ 100,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Jul 20",
+        []
+      ],
+      [
+        "Kitzbühel",
+        [
+          "/wiki/Kitzbühel"
+        ]
+      ],
+      [
+        "Austria",
+        [
+          "/wiki/Austria"
+        ]
+      ],
+      [
+        "$ 100,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Sep 27 -28",
+        []
+      ],
+      [
+        "Lorient",
+        [
+          "/wiki/Lorient"
+        ]
+      ],
+      [
+        "France",
+        [
+          "/wiki/France"
+        ]
+      ],
+      [
+        "$ 100,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Oct 26",
+        []
+      ],
+      [
+        "Huatulco",
+        [
+          "/wiki/Huatulco"
+        ]
+      ],
+      [
+        "Mexico",
+        [
+          "/wiki/Mexico"
+        ]
+      ],
+      [
+        "$ 100,000",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "fb722daf-4941-58e3-90cb-6db12cca11f3",
+    "table_id": "2008_ITU_Triathlon_World_Cup_0",
+    "title": "2008 ITU Triathlon World Cup",
+    "header": [
+      "Date",
+      "City",
+      "County",
+      "Prize purse ( US $ )"
+    ],
+    "value": [
+      [
+        [
+          "Mar 30",
+          []
+        ],
+        [
+          "Mooloolaba",
+          [
+            "/wiki/Mooloolaba"
+          ]
+        ],
+        [
+          "Australia",
+          [
+            "/wiki/Australia"
+          ]
+        ],
+        [
+          "$ 100,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Apr 6",
+          []
+        ],
+        [
+          "New Plymouth",
+          [
+            "/wiki/New_Plymouth"
+          ]
+        ],
+        [
+          "New Zealand",
+          [
+            "/wiki/New_Zealand"
+          ]
+        ],
+        [
+          "$ 100,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Apr 13",
+          []
+        ],
+        [
+          "Ishigaki",
+          [
+            "/wiki/Ishigaki,_Okinawa"
+          ]
+        ],
+        [
+          "Japan",
+          [
+            "/wiki/Japan"
+          ]
+        ],
+        [
+          "$ 100,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Apr 26",
+          []
+        ],
+        [
+          "Tongyeong",
+          [
+            "/wiki/Tongyeong"
+          ]
+        ],
+        [
+          "South Korea",
+          [
+            "/wiki/South_Korea"
+          ]
+        ],
+        [
+          "$ 100,000",
+          []
+        ]
+      ],
+      [
+        [
+          "May 4",
+          []
+        ],
+        [
+          "Richards Bay",
+          [
+            "/wiki/Richards_Bay"
+          ]
+        ],
+        [
+          "South Africa",
+          [
+            "/wiki/South_Africa"
+          ]
+        ],
+        [
+          "$ 100,000",
+          []
+        ]
+      ],
+      [
+        [
+          "May 25",
+          []
+        ],
+        [
+          "Madrid",
+          [
+            "/wiki/Madrid"
+          ]
+        ],
+        [
+          "Spain",
+          [
+            "/wiki/Spain"
+          ]
+        ],
+        [
+          "$ 100,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Jun 22",
+          []
+        ],
+        [
+          "Des Moines",
+          [
+            "/wiki/Des_Moines"
+          ]
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "$ 700,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Jul 5 -6",
+          []
+        ],
+        [
+          "Hamburg",
+          [
+            "/wiki/Hamburg"
+          ]
+        ],
+        [
+          "Germany",
+          [
+            "/wiki/Germany"
+          ]
+        ],
+        [
+          "$ 100,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Jul 13",
+          []
+        ],
+        [
+          "Tiszaújváros",
+          [
+            "/wiki/Tiszaújváros"
+          ]
+        ],
+        [
+          "Hungary",
+          [
+            "/wiki/Hungary"
+          ]
+        ],
+        [
+          "$ 100,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Jul 20",
+          []
+        ],
+        [
+          "Kitzbühel",
+          [
+            "/wiki/Kitzbühel"
+          ]
+        ],
+        [
+          "Austria",
+          [
+            "/wiki/Austria"
+          ]
+        ],
+        [
+          "$ 100,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Sep 27 -28",
+          []
+        ],
+        [
+          "Lorient",
+          [
+            "/wiki/Lorient"
+          ]
+        ],
+        [
+          "France",
+          [
+            "/wiki/France"
+          ]
+        ],
+        [
+          "$ 100,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Oct 26",
+          []
+        ],
+        [
+          "Huatulco",
+          [
+            "/wiki/Huatulco"
+          ]
+        ],
+        [
+          "Mexico",
+          [
+            "/wiki/Mexico"
+          ]
+        ],
+        [
+          "$ 100,000",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the 2008 ITU Triathlon World Cup events, including their dates, locations, and prize purses. It is designed to summarize key details about each event in the series, such as when and where they took place and the monetary rewards offered.",
+  "numeric_columns": [
+    "Prize purse ( US $ )"
+  ],
+  "categorical_columns": [
+    "Date"
+  ],
+  "entities": [
+    "City",
+    "County"
+  ]
+}

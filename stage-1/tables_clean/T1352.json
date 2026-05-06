@@ -1,0 +1,455 @@
+{
+  "table_id": "T1352",
+  "uid": "c282c15e-f9bf-5e9a-a5a8-9f6f5ee6af2e",
+  "source": "HybridQA",
+  "source_table_id": "c282c15e-f9bf-5e9a-a5a8-9f6f5ee6af2e",
+  "domain": "HybridQA",
+  "title": "I-League",
+  "columns": [
+    "Season",
+    "Player",
+    "Position",
+    "Team"
+  ],
+  "rows": [
+    [
+      [
+        "2008-09",
+        [
+          "/wiki/2008–09_I-League"
+        ]
+      ],
+      [
+        "Sunil Chhetri",
+        [
+          "/wiki/Sunil_Chhetri"
+        ]
+      ],
+      [
+        "Forward",
+        [
+          "/wiki/Forward_(association_football)"
+        ]
+      ],
+      [
+        "East Bengal",
+        [
+          "/wiki/East_Bengal_F.C."
+        ]
+      ]
+    ],
+    [
+      [
+        "2009-10",
+        [
+          "/wiki/2009–10_I-League"
+        ]
+      ],
+      [
+        "Mohammed Rafi",
+        [
+          "/wiki/Mohammed_Rafi_(footballer)"
+        ]
+      ],
+      [
+        "Forward",
+        [
+          "/wiki/Forward_(association_football)"
+        ]
+      ],
+      [
+        "Mahindra United",
+        [
+          "/wiki/Mahindra_United_F.C."
+        ]
+      ]
+    ],
+    [
+      [
+        "2010-11",
+        [
+          "/wiki/2010–11_I-League"
+        ]
+      ],
+      [
+        "Mehtab Hossain",
+        [
+          "/wiki/Mehtab_Hossain"
+        ]
+      ],
+      [
+        "Midfielder",
+        [
+          "/wiki/Midfielder_(association_football)"
+        ]
+      ],
+      [
+        "East Bengal",
+        [
+          "/wiki/East_Bengal_F.C."
+        ]
+      ]
+    ],
+    [
+      [
+        "2011-12",
+        [
+          "/wiki/2011–12_I-League"
+        ]
+      ],
+      [
+        "Syed Nabi",
+        [
+          "/wiki/Syed_Nabi"
+        ]
+      ],
+      [
+        "Defender",
+        [
+          "/wiki/Defender_(association_football)"
+        ]
+      ],
+      [
+        "Mohun Bagan",
+        [
+          "/wiki/Mohun_Bagan_A.C."
+        ]
+      ]
+    ],
+    [
+      [
+        "2012-13",
+        [
+          "/wiki/2012–13_I-League"
+        ]
+      ],
+      [
+        "Lenny Rodrigues",
+        [
+          "/wiki/Lenny_Rodrigues"
+        ]
+      ],
+      [
+        "Midfielder",
+        [
+          "/wiki/Midfielder_(association_football)"
+        ]
+      ],
+      [
+        "Churchill Brothers",
+        [
+          "/wiki/Churchill_Brothers_S.C."
+        ]
+      ]
+    ],
+    [
+      [
+        "2013-14",
+        [
+          "/wiki/2013–14_I-League"
+        ]
+      ],
+      [
+        "Balwant Singh",
+        [
+          "/wiki/Balwant_Singh_(footballer)"
+        ]
+      ],
+      [
+        "Forward",
+        [
+          "/wiki/Forward_(association_football)"
+        ]
+      ],
+      [
+        "Churchill Brothers",
+        [
+          "/wiki/Churchill_Brothers_S.C."
+        ]
+      ]
+    ],
+    [
+      [
+        "2014-15",
+        [
+          "/wiki/2014–15_I-League"
+        ]
+      ],
+      [
+        "Jackichand Singh",
+        [
+          "/wiki/Jackichand_Singh"
+        ]
+      ],
+      [
+        "Winger",
+        [
+          "/wiki/Forward_(association_football)"
+        ]
+      ],
+      [
+        "Royal Wahingdoh",
+        [
+          "/wiki/Royal_Wahingdoh_F.C."
+        ]
+      ]
+    ],
+    [
+      [
+        "2015-16",
+        [
+          "/wiki/2015–16_I-League"
+        ]
+      ],
+      [
+        "Jeje Lalpekhlua",
+        [
+          "/wiki/Jeje_Lalpekhlua"
+        ]
+      ],
+      [
+        "Forward",
+        [
+          "/wiki/Forward_(association_football)"
+        ]
+      ],
+      [
+        "Mohun Bagan",
+        [
+          "/wiki/Mohun_Bagan_A.C."
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "c282c15e-f9bf-5e9a-a5a8-9f6f5ee6af2e",
+    "table_id": "I-League_7",
+    "title": "I-League",
+    "header": [
+      "Season",
+      "Player",
+      "Position",
+      "Team"
+    ],
+    "value": [
+      [
+        [
+          "2008-09",
+          [
+            "/wiki/2008–09_I-League"
+          ]
+        ],
+        [
+          "Sunil Chhetri",
+          [
+            "/wiki/Sunil_Chhetri"
+          ]
+        ],
+        [
+          "Forward",
+          [
+            "/wiki/Forward_(association_football)"
+          ]
+        ],
+        [
+          "East Bengal",
+          [
+            "/wiki/East_Bengal_F.C."
+          ]
+        ]
+      ],
+      [
+        [
+          "2009-10",
+          [
+            "/wiki/2009–10_I-League"
+          ]
+        ],
+        [
+          "Mohammed Rafi",
+          [
+            "/wiki/Mohammed_Rafi_(footballer)"
+          ]
+        ],
+        [
+          "Forward",
+          [
+            "/wiki/Forward_(association_football)"
+          ]
+        ],
+        [
+          "Mahindra United",
+          [
+            "/wiki/Mahindra_United_F.C."
+          ]
+        ]
+      ],
+      [
+        [
+          "2010-11",
+          [
+            "/wiki/2010–11_I-League"
+          ]
+        ],
+        [
+          "Mehtab Hossain",
+          [
+            "/wiki/Mehtab_Hossain"
+          ]
+        ],
+        [
+          "Midfielder",
+          [
+            "/wiki/Midfielder_(association_football)"
+          ]
+        ],
+        [
+          "East Bengal",
+          [
+            "/wiki/East_Bengal_F.C."
+          ]
+        ]
+      ],
+      [
+        [
+          "2011-12",
+          [
+            "/wiki/2011–12_I-League"
+          ]
+        ],
+        [
+          "Syed Nabi",
+          [
+            "/wiki/Syed_Nabi"
+          ]
+        ],
+        [
+          "Defender",
+          [
+            "/wiki/Defender_(association_football)"
+          ]
+        ],
+        [
+          "Mohun Bagan",
+          [
+            "/wiki/Mohun_Bagan_A.C."
+          ]
+        ]
+      ],
+      [
+        [
+          "2012-13",
+          [
+            "/wiki/2012–13_I-League"
+          ]
+        ],
+        [
+          "Lenny Rodrigues",
+          [
+            "/wiki/Lenny_Rodrigues"
+          ]
+        ],
+        [
+          "Midfielder",
+          [
+            "/wiki/Midfielder_(association_football)"
+          ]
+        ],
+        [
+          "Churchill Brothers",
+          [
+            "/wiki/Churchill_Brothers_S.C."
+          ]
+        ]
+      ],
+      [
+        [
+          "2013-14",
+          [
+            "/wiki/2013–14_I-League"
+          ]
+        ],
+        [
+          "Balwant Singh",
+          [
+            "/wiki/Balwant_Singh_(footballer)"
+          ]
+        ],
+        [
+          "Forward",
+          [
+            "/wiki/Forward_(association_football)"
+          ]
+        ],
+        [
+          "Churchill Brothers",
+          [
+            "/wiki/Churchill_Brothers_S.C."
+          ]
+        ]
+      ],
+      [
+        [
+          "2014-15",
+          [
+            "/wiki/2014–15_I-League"
+          ]
+        ],
+        [
+          "Jackichand Singh",
+          [
+            "/wiki/Jackichand_Singh"
+          ]
+        ],
+        [
+          "Winger",
+          [
+            "/wiki/Forward_(association_football)"
+          ]
+        ],
+        [
+          "Royal Wahingdoh",
+          [
+            "/wiki/Royal_Wahingdoh_F.C."
+          ]
+        ]
+      ],
+      [
+        [
+          "2015-16",
+          [
+            "/wiki/2015–16_I-League"
+          ]
+        ],
+        [
+          "Jeje Lalpekhlua",
+          [
+            "/wiki/Jeje_Lalpekhlua"
+          ]
+        ],
+        [
+          "Forward",
+          [
+            "/wiki/Forward_(association_football)"
+          ]
+        ],
+        [
+          "Mohun Bagan",
+          [
+            "/wiki/Mohun_Bagan_A.C."
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about players in the I-League, including the season, their playing position, and the team they represented. It is designed to document key details about individual players and their contributions to the league over different seasons.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Season",
+    "Position",
+    "Team"
+  ],
+  "entities": [
+    "Player"
+  ]
+}

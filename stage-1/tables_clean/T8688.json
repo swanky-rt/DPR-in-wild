@@ -1,0 +1,458 @@
+{
+  "table_id": "T8688",
+  "uid": "c348b59d-bdc5-57c8-9a0d-d6969d6e674f",
+  "source": "HybridQA",
+  "source_table_id": "c348b59d-bdc5-57c8-9a0d-d6969d6e674f",
+  "domain": "HybridQA",
+  "title": "List of BBC properties",
+  "columns": [
+    "Name",
+    "Location",
+    "Radio services"
+  ],
+  "rows": [
+    [
+      [
+        "Armagh Planetarium",
+        [
+          "/wiki/Armagh_Planetarium"
+        ]
+      ],
+      [
+        "Armagh",
+        [
+          "/wiki/Armagh"
+        ]
+      ],
+      [
+        "Network Studio for BBC Radio Ulster and BBC Radio Foyle",
+        [
+          "/wiki/BBC_Radio_Ulster",
+          "/wiki/BBC_Radio_Foyle"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ballymena Museum & Town Hall",
+        [
+          "/wiki/Ballymena"
+        ]
+      ],
+      [
+        "Ballymena",
+        [
+          "/wiki/Ballymena"
+        ]
+      ],
+      [
+        "Network Studio for BBC Radio Ulster and BBC Radio Foyle",
+        [
+          "/wiki/BBC_Radio_Ulster",
+          "/wiki/BBC_Radio_Foyle"
+        ]
+      ]
+    ],
+    [
+      [
+        "BBC Blackstaff House",
+        []
+      ],
+      [
+        "Belfast",
+        [
+          "/wiki/Belfast"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "BBC Broadcasting House ( Belfast )",
+        [
+          "/wiki/Broadcasting_House_(Belfast)"
+        ]
+      ],
+      [
+        "Belfast",
+        [
+          "/wiki/Belfast"
+        ]
+      ],
+      [
+        "BBC Radio Ulster",
+        [
+          "/wiki/BBC_Radio_Ulster"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ferguson House",
+        []
+      ],
+      [
+        "Coleraine",
+        [
+          "/wiki/Coleraine"
+        ]
+      ],
+      [
+        "Network Studio for BBC Radio Ulster and BBC Radio Foyle",
+        [
+          "/wiki/BBC_Radio_Ulster",
+          "/wiki/BBC_Radio_Foyle"
+        ]
+      ]
+    ],
+    [
+      [
+        "BBC Derry",
+        []
+      ],
+      [
+        "Derry",
+        [
+          "/wiki/Derry"
+        ]
+      ],
+      [
+        "BBC Radio Foyle",
+        [
+          "/wiki/BBC_Radio_Foyle"
+        ]
+      ]
+    ],
+    [
+      [
+        "St. Patrick Centre",
+        [
+          "/wiki/Saint_Patrick_Visitor_Centre"
+        ]
+      ],
+      [
+        "Downpatrick",
+        [
+          "/wiki/Downpatrick"
+        ]
+      ],
+      [
+        "Network studio for BBC Radio Ulster and BBC Radio Foyle",
+        [
+          "/wiki/BBC_Radio_Ulster",
+          "/wiki/BBC_Radio_Foyle"
+        ]
+      ]
+    ],
+    [
+      [
+        "Intec Centre",
+        []
+      ],
+      [
+        "Enniskillen",
+        [
+          "/wiki/Enniskillen"
+        ]
+      ],
+      [
+        "Network studio for BBC Radio Ulster and BBC Radio Foyle",
+        [
+          "/wiki/BBC_Radio_Ulster",
+          "/wiki/BBC_Radio_Foyle"
+        ]
+      ]
+    ],
+    [
+      [
+        "Newry Council Offices",
+        []
+      ],
+      [
+        "Newry",
+        [
+          "/wiki/Newry"
+        ]
+      ],
+      [
+        "Network studio for BBC Radio Ulster and BBC Radio Foyle",
+        [
+          "/wiki/BBC_Radio_Ulster",
+          "/wiki/BBC_Radio_Foyle"
+        ]
+      ]
+    ],
+    [
+      [
+        "Sketrick House",
+        []
+      ],
+      [
+        "Newtownards",
+        [
+          "/wiki/Newtownards"
+        ]
+      ],
+      [
+        "Network studio for BBC Radio Ulster and BBC Radio Foyle",
+        [
+          "/wiki/BBC_Radio_Ulster",
+          "/wiki/BBC_Radio_Foyle"
+        ]
+      ]
+    ],
+    [
+      [
+        "BBC Omagh",
+        []
+      ],
+      [
+        "Omagh",
+        [
+          "/wiki/Omagh"
+        ]
+      ],
+      [
+        "Network studio for BBC Radio Ulster",
+        [
+          "/wiki/BBC_Radio_Ulster"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "c348b59d-bdc5-57c8-9a0d-d6969d6e674f",
+    "table_id": "List_of_BBC_properties_2",
+    "title": "List of BBC properties",
+    "header": [
+      "Name",
+      "Location",
+      "Radio services"
+    ],
+    "value": [
+      [
+        [
+          "Armagh Planetarium",
+          [
+            "/wiki/Armagh_Planetarium"
+          ]
+        ],
+        [
+          "Armagh",
+          [
+            "/wiki/Armagh"
+          ]
+        ],
+        [
+          "Network Studio for BBC Radio Ulster and BBC Radio Foyle",
+          [
+            "/wiki/BBC_Radio_Ulster",
+            "/wiki/BBC_Radio_Foyle"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ballymena Museum & Town Hall",
+          [
+            "/wiki/Ballymena"
+          ]
+        ],
+        [
+          "Ballymena",
+          [
+            "/wiki/Ballymena"
+          ]
+        ],
+        [
+          "Network Studio for BBC Radio Ulster and BBC Radio Foyle",
+          [
+            "/wiki/BBC_Radio_Ulster",
+            "/wiki/BBC_Radio_Foyle"
+          ]
+        ]
+      ],
+      [
+        [
+          "BBC Blackstaff House",
+          []
+        ],
+        [
+          "Belfast",
+          [
+            "/wiki/Belfast"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "BBC Broadcasting House ( Belfast )",
+          [
+            "/wiki/Broadcasting_House_(Belfast)"
+          ]
+        ],
+        [
+          "Belfast",
+          [
+            "/wiki/Belfast"
+          ]
+        ],
+        [
+          "BBC Radio Ulster",
+          [
+            "/wiki/BBC_Radio_Ulster"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ferguson House",
+          []
+        ],
+        [
+          "Coleraine",
+          [
+            "/wiki/Coleraine"
+          ]
+        ],
+        [
+          "Network Studio for BBC Radio Ulster and BBC Radio Foyle",
+          [
+            "/wiki/BBC_Radio_Ulster",
+            "/wiki/BBC_Radio_Foyle"
+          ]
+        ]
+      ],
+      [
+        [
+          "BBC Derry",
+          []
+        ],
+        [
+          "Derry",
+          [
+            "/wiki/Derry"
+          ]
+        ],
+        [
+          "BBC Radio Foyle",
+          [
+            "/wiki/BBC_Radio_Foyle"
+          ]
+        ]
+      ],
+      [
+        [
+          "St. Patrick Centre",
+          [
+            "/wiki/Saint_Patrick_Visitor_Centre"
+          ]
+        ],
+        [
+          "Downpatrick",
+          [
+            "/wiki/Downpatrick"
+          ]
+        ],
+        [
+          "Network studio for BBC Radio Ulster and BBC Radio Foyle",
+          [
+            "/wiki/BBC_Radio_Ulster",
+            "/wiki/BBC_Radio_Foyle"
+          ]
+        ]
+      ],
+      [
+        [
+          "Intec Centre",
+          []
+        ],
+        [
+          "Enniskillen",
+          [
+            "/wiki/Enniskillen"
+          ]
+        ],
+        [
+          "Network studio for BBC Radio Ulster and BBC Radio Foyle",
+          [
+            "/wiki/BBC_Radio_Ulster",
+            "/wiki/BBC_Radio_Foyle"
+          ]
+        ]
+      ],
+      [
+        [
+          "Newry Council Offices",
+          []
+        ],
+        [
+          "Newry",
+          [
+            "/wiki/Newry"
+          ]
+        ],
+        [
+          "Network studio for BBC Radio Ulster and BBC Radio Foyle",
+          [
+            "/wiki/BBC_Radio_Ulster",
+            "/wiki/BBC_Radio_Foyle"
+          ]
+        ]
+      ],
+      [
+        [
+          "Sketrick House",
+          []
+        ],
+        [
+          "Newtownards",
+          [
+            "/wiki/Newtownards"
+          ]
+        ],
+        [
+          "Network studio for BBC Radio Ulster and BBC Radio Foyle",
+          [
+            "/wiki/BBC_Radio_Ulster",
+            "/wiki/BBC_Radio_Foyle"
+          ]
+        ]
+      ],
+      [
+        [
+          "BBC Omagh",
+          []
+        ],
+        [
+          "Omagh",
+          [
+            "/wiki/Omagh"
+          ]
+        ],
+        [
+          "Network studio for BBC Radio Ulster",
+          [
+            "/wiki/BBC_Radio_Ulster"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides a list of BBC properties, detailing their names, locations, and associated radio services. It serves as a reference for understanding the distribution and functions of BBC facilities across different areas.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Radio services"
+  ],
+  "entities": [
+    "Name",
+    "Location"
+  ]
+}

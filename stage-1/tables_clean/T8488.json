@@ -1,0 +1,538 @@
+{
+  "table_id": "T8488",
+  "uid": "af32e357-74dc-56ce-a919-d1ed2b3021cf",
+  "source": "HybridQA",
+  "source_table_id": "af32e357-74dc-56ce-a919-d1ed2b3021cf",
+  "domain": "HybridQA",
+  "title": "Opel",
+  "columns": [
+    "Production site",
+    "Production since",
+    "Products",
+    "Employees"
+  ],
+  "rows": [
+    [
+      [
+        "Rüsselsheim , Germany",
+        [
+          "/wiki/Rüsselsheim"
+        ]
+      ],
+      [
+        1898,
+        []
+      ],
+      [
+        "Insignia ( saloon/sedan , hatchback , Sports Tourer ( estate/wagon ) , Country Tourer ( crossover estate/wagon ) ) Zafira Tourer C GM F40 transmission",
+        [
+          "/wiki/Opel_Insignia",
+          "/wiki/Opel_Zafira",
+          "/wiki/GM_F40_transmission"
+        ]
+      ],
+      [
+        12.99,
+        []
+      ]
+    ],
+    [
+      [
+        "Kaiserslautern , Germany",
+        [
+          "/wiki/Kaiserslautern"
+        ]
+      ],
+      [
+        1966,
+        []
+      ],
+      [
+        "Components Engines",
+        [
+          "/wiki/Engines"
+        ]
+      ],
+      [
+        2.15,
+        []
+      ]
+    ],
+    [
+      [
+        "Kikinda , Serbia ( *Ex-Yugoslavia )",
+        [
+          "/wiki/Kikinda"
+        ]
+      ],
+      [
+        "1977 -1992",
+        []
+      ],
+      [
+        "Car parts Opel Kadett , Opel Omega , Opel Senator ( also known as Opel Kikinda ) , Opel Vectra",
+        [
+          "/wiki/Opel_Kadett",
+          "/wiki/Opel_Omega",
+          "/wiki/Opel_Senator",
+          "/wiki/Opel_Vectra"
+        ]
+      ],
+      [
+        "?",
+        []
+      ]
+    ],
+    [
+      [
+        "Opel Eisenach GmbH Eisenach , Germany",
+        [
+          "/wiki/Opel_Eisenach",
+          "/wiki/Eisenach"
+        ]
+      ],
+      [
+        1990,
+        []
+      ],
+      [
+        "Corsa E ( three-door ) Adam",
+        [
+          "/wiki/Opel_Corsa",
+          "/wiki/Opel_Adam"
+        ]
+      ],
+      [
+        1.42,
+        []
+      ]
+    ],
+    [
+      [
+        "Figueruelas , Spain",
+        [
+          "/wiki/Figueruelas"
+        ]
+      ],
+      [
+        1982,
+        []
+      ],
+      [
+        "Corsa E ( three- , four- , and five-door ) Meriva B Mokka",
+        [
+          "/wiki/Opel_Meriva",
+          "/wiki/Opel_Mokka"
+        ]
+      ],
+      [
+        5.12,
+        []
+      ]
+    ],
+    [
+      [
+        "Gliwice , Poland",
+        [
+          "/wiki/Gliwice"
+        ]
+      ],
+      [
+        1998,
+        []
+      ],
+      [
+        "Opel Astra J ( saloon/sedan , GTC three-door hatchback ) Opel Astra K ( 5-door ) Buick/Opel/Vauxhall Cascada",
+        [
+          "/wiki/Opel_Cascada"
+        ]
+      ],
+      [
+        2.92,
+        []
+      ]
+    ],
+    [
+      [
+        "Opel Manufacturing Poland Tychy , Poland",
+        [
+          "/wiki/Opel_Manufacturing_Poland",
+          "/wiki/Tychy"
+        ]
+      ],
+      [
+        1996,
+        []
+      ],
+      [
+        "Diesel engines",
+        []
+      ],
+      [
+        480,
+        []
+      ]
+    ],
+    [
+      [
+        "St. Gotthard , Hungary",
+        [
+          "/wiki/Szentgotthárd"
+        ]
+      ],
+      [
+        1990,
+        []
+      ],
+      [
+        "Engines Transmissions",
+        []
+      ],
+      [
+        810,
+        []
+      ]
+    ],
+    [
+      [
+        "Vauxhall Ellesmere Port Ellesmere Port , Great Britain",
+        [
+          "/wiki/Vauxhall_Ellesmere_Port",
+          "/wiki/Ellesmere_Port"
+        ]
+      ],
+      [
+        1962,
+        []
+      ],
+      [
+        "Astra K Sports Tourer ( estate/wagon )",
+        [
+          "/wiki/Opel_Astra"
+        ]
+      ],
+      [
+        1.63,
+        []
+      ]
+    ],
+    [
+      [
+        "IBC Vehicles Ltd Luton , Great Britain",
+        [
+          "/wiki/IBC_Vehicles",
+          "/wiki/Luton"
+        ]
+      ],
+      [
+        1907,
+        []
+      ],
+      [
+        "Vivaro B",
+        [
+          "/wiki/Opel_Vivaro_B"
+        ]
+      ],
+      [
+        1.1400000000000001,
+        []
+      ]
+    ],
+    [
+      [
+        "GM Auto LLC Saint Petersburg , Russia",
+        [
+          "/wiki/Saint_Petersburg"
+        ]
+      ],
+      [
+        2008,
+        []
+      ],
+      [
+        "Astra J ( five-door , saloon/sedan )",
+        [
+          "/wiki/Opel_Astra"
+        ]
+      ],
+      [
+        880,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "af32e357-74dc-56ce-a919-d1ed2b3021cf",
+    "table_id": "Opel_0",
+    "title": "Opel",
+    "header": [
+      "Production site",
+      "Production since",
+      "Products",
+      "Employees"
+    ],
+    "value": [
+      [
+        [
+          "Rüsselsheim , Germany",
+          [
+            "/wiki/Rüsselsheim"
+          ]
+        ],
+        [
+          1898,
+          []
+        ],
+        [
+          "Insignia ( saloon/sedan , hatchback , Sports Tourer ( estate/wagon ) , Country Tourer ( crossover estate/wagon ) ) Zafira Tourer C GM F40 transmission",
+          [
+            "/wiki/Opel_Insignia",
+            "/wiki/Opel_Zafira",
+            "/wiki/GM_F40_transmission"
+          ]
+        ],
+        [
+          12.99,
+          []
+        ]
+      ],
+      [
+        [
+          "Kaiserslautern , Germany",
+          [
+            "/wiki/Kaiserslautern"
+          ]
+        ],
+        [
+          1966,
+          []
+        ],
+        [
+          "Components Engines",
+          [
+            "/wiki/Engines"
+          ]
+        ],
+        [
+          2.15,
+          []
+        ]
+      ],
+      [
+        [
+          "Kikinda , Serbia ( *Ex-Yugoslavia )",
+          [
+            "/wiki/Kikinda"
+          ]
+        ],
+        [
+          "1977 -1992",
+          []
+        ],
+        [
+          "Car parts Opel Kadett , Opel Omega , Opel Senator ( also known as Opel Kikinda ) , Opel Vectra",
+          [
+            "/wiki/Opel_Kadett",
+            "/wiki/Opel_Omega",
+            "/wiki/Opel_Senator",
+            "/wiki/Opel_Vectra"
+          ]
+        ],
+        [
+          "?",
+          []
+        ]
+      ],
+      [
+        [
+          "Opel Eisenach GmbH Eisenach , Germany",
+          [
+            "/wiki/Opel_Eisenach",
+            "/wiki/Eisenach"
+          ]
+        ],
+        [
+          1990,
+          []
+        ],
+        [
+          "Corsa E ( three-door ) Adam",
+          [
+            "/wiki/Opel_Corsa",
+            "/wiki/Opel_Adam"
+          ]
+        ],
+        [
+          1.42,
+          []
+        ]
+      ],
+      [
+        [
+          "Figueruelas , Spain",
+          [
+            "/wiki/Figueruelas"
+          ]
+        ],
+        [
+          1982,
+          []
+        ],
+        [
+          "Corsa E ( three- , four- , and five-door ) Meriva B Mokka",
+          [
+            "/wiki/Opel_Meriva",
+            "/wiki/Opel_Mokka"
+          ]
+        ],
+        [
+          5.12,
+          []
+        ]
+      ],
+      [
+        [
+          "Gliwice , Poland",
+          [
+            "/wiki/Gliwice"
+          ]
+        ],
+        [
+          1998,
+          []
+        ],
+        [
+          "Opel Astra J ( saloon/sedan , GTC three-door hatchback ) Opel Astra K ( 5-door ) Buick/Opel/Vauxhall Cascada",
+          [
+            "/wiki/Opel_Cascada"
+          ]
+        ],
+        [
+          2.92,
+          []
+        ]
+      ],
+      [
+        [
+          "Opel Manufacturing Poland Tychy , Poland",
+          [
+            "/wiki/Opel_Manufacturing_Poland",
+            "/wiki/Tychy"
+          ]
+        ],
+        [
+          1996,
+          []
+        ],
+        [
+          "Diesel engines",
+          []
+        ],
+        [
+          480,
+          []
+        ]
+      ],
+      [
+        [
+          "St. Gotthard , Hungary",
+          [
+            "/wiki/Szentgotthárd"
+          ]
+        ],
+        [
+          1990,
+          []
+        ],
+        [
+          "Engines Transmissions",
+          []
+        ],
+        [
+          810,
+          []
+        ]
+      ],
+      [
+        [
+          "Vauxhall Ellesmere Port Ellesmere Port , Great Britain",
+          [
+            "/wiki/Vauxhall_Ellesmere_Port",
+            "/wiki/Ellesmere_Port"
+          ]
+        ],
+        [
+          1962,
+          []
+        ],
+        [
+          "Astra K Sports Tourer ( estate/wagon )",
+          [
+            "/wiki/Opel_Astra"
+          ]
+        ],
+        [
+          1.63,
+          []
+        ]
+      ],
+      [
+        [
+          "IBC Vehicles Ltd Luton , Great Britain",
+          [
+            "/wiki/IBC_Vehicles",
+            "/wiki/Luton"
+          ]
+        ],
+        [
+          1907,
+          []
+        ],
+        [
+          "Vivaro B",
+          [
+            "/wiki/Opel_Vivaro_B"
+          ]
+        ],
+        [
+          1.1400000000000001,
+          []
+        ]
+      ],
+      [
+        [
+          "GM Auto LLC Saint Petersburg , Russia",
+          [
+            "/wiki/Saint_Petersburg"
+          ]
+        ],
+        [
+          2008,
+          []
+        ],
+        [
+          "Astra J ( five-door , saloon/sedan )",
+          [
+            "/wiki/Opel_Astra"
+          ]
+        ],
+        [
+          880,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about Opel's production sites, including their locations, the year production began, the types of products manufactured, and the number of employees at each site. It serves as an overview of the company's operational details and workforce distribution across different facilities.",
+  "numeric_columns": [
+    "Production since",
+    "Employees"
+  ],
+  "categorical_columns": [
+    "Products"
+  ],
+  "entities": [
+    "Production site"
+  ]
+}

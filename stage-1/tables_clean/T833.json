@@ -1,0 +1,436 @@
+{
+  "table_id": "T833",
+  "uid": "64e681a3-fbf3-53cd-891e-022c66f8f0c0",
+  "source": "HybridQA",
+  "source_table_id": "64e681a3-fbf3-53cd-891e-022c66f8f0c0",
+  "domain": "HybridQA",
+  "title": "2011 ITU Triathlon World Cup",
+  "columns": [
+    "Date",
+    "City",
+    "County",
+    "Prize purse ( US $ )"
+  ],
+  "rows": [
+    [
+      [
+        "Mar 27",
+        []
+      ],
+      [
+        "Mooloolaba",
+        [
+          "/wiki/Mooloolaba"
+        ]
+      ],
+      [
+        "Australia",
+        [
+          "/wiki/Australia"
+        ]
+      ],
+      [
+        "50,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Apr 27",
+        []
+      ],
+      [
+        "Ishigaki",
+        [
+          "/wiki/Ishigaki,_Okinawa"
+        ]
+      ],
+      [
+        "Japan",
+        [
+          "/wiki/Japan"
+        ]
+      ],
+      [
+        "50,000",
+        []
+      ]
+    ],
+    [
+      [
+        "May 8",
+        []
+      ],
+      [
+        "Monterrey",
+        [
+          "/wiki/Monterrey"
+        ]
+      ],
+      [
+        "Mexico",
+        [
+          "/wiki/Mexico"
+        ]
+      ],
+      [
+        "50,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Jul 10",
+        []
+      ],
+      [
+        "Edmonton",
+        [
+          "/wiki/Edmonton"
+        ]
+      ],
+      [
+        "Canada",
+        [
+          "/wiki/Canada"
+        ]
+      ],
+      [
+        "50,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Aug 14",
+        []
+      ],
+      [
+        "Tiszaújváros",
+        [
+          "/wiki/Tiszaújváros"
+        ]
+      ],
+      [
+        "Hungary",
+        [
+          "/wiki/Hungary"
+        ]
+      ],
+      [
+        "50,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Oct 9",
+        []
+      ],
+      [
+        "Huatulco",
+        [
+          "/wiki/Huatulco"
+        ]
+      ],
+      [
+        "Mexico",
+        [
+          "/wiki/Mexico"
+        ]
+      ],
+      [
+        "50,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Oct 15",
+        []
+      ],
+      [
+        "Tongyeong",
+        [
+          "/wiki/Tongyeong"
+        ]
+      ],
+      [
+        "South Korea",
+        [
+          "/wiki/South_Korea"
+        ]
+      ],
+      [
+        "50,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Nov 6",
+        []
+      ],
+      [
+        "Guatapé",
+        [
+          "/wiki/Guatapé"
+        ]
+      ],
+      [
+        "Colombia",
+        [
+          "/wiki/Colombia"
+        ]
+      ],
+      [
+        "50,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Nov 20",
+        []
+      ],
+      [
+        "Auckland",
+        [
+          "/wiki/Auckland"
+        ]
+      ],
+      [
+        "New Zealand",
+        [
+          "/wiki/New_Zealand"
+        ]
+      ],
+      [
+        "50,000",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "64e681a3-fbf3-53cd-891e-022c66f8f0c0",
+    "table_id": "2011_ITU_Triathlon_World_Cup_0",
+    "title": "2011 ITU Triathlon World Cup",
+    "header": [
+      "Date",
+      "City",
+      "County",
+      "Prize purse ( US $ )"
+    ],
+    "value": [
+      [
+        [
+          "Mar 27",
+          []
+        ],
+        [
+          "Mooloolaba",
+          [
+            "/wiki/Mooloolaba"
+          ]
+        ],
+        [
+          "Australia",
+          [
+            "/wiki/Australia"
+          ]
+        ],
+        [
+          "50,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Apr 27",
+          []
+        ],
+        [
+          "Ishigaki",
+          [
+            "/wiki/Ishigaki,_Okinawa"
+          ]
+        ],
+        [
+          "Japan",
+          [
+            "/wiki/Japan"
+          ]
+        ],
+        [
+          "50,000",
+          []
+        ]
+      ],
+      [
+        [
+          "May 8",
+          []
+        ],
+        [
+          "Monterrey",
+          [
+            "/wiki/Monterrey"
+          ]
+        ],
+        [
+          "Mexico",
+          [
+            "/wiki/Mexico"
+          ]
+        ],
+        [
+          "50,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Jul 10",
+          []
+        ],
+        [
+          "Edmonton",
+          [
+            "/wiki/Edmonton"
+          ]
+        ],
+        [
+          "Canada",
+          [
+            "/wiki/Canada"
+          ]
+        ],
+        [
+          "50,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Aug 14",
+          []
+        ],
+        [
+          "Tiszaújváros",
+          [
+            "/wiki/Tiszaújváros"
+          ]
+        ],
+        [
+          "Hungary",
+          [
+            "/wiki/Hungary"
+          ]
+        ],
+        [
+          "50,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Oct 9",
+          []
+        ],
+        [
+          "Huatulco",
+          [
+            "/wiki/Huatulco"
+          ]
+        ],
+        [
+          "Mexico",
+          [
+            "/wiki/Mexico"
+          ]
+        ],
+        [
+          "50,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Oct 15",
+          []
+        ],
+        [
+          "Tongyeong",
+          [
+            "/wiki/Tongyeong"
+          ]
+        ],
+        [
+          "South Korea",
+          [
+            "/wiki/South_Korea"
+          ]
+        ],
+        [
+          "50,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Nov 6",
+          []
+        ],
+        [
+          "Guatapé",
+          [
+            "/wiki/Guatapé"
+          ]
+        ],
+        [
+          "Colombia",
+          [
+            "/wiki/Colombia"
+          ]
+        ],
+        [
+          "50,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Nov 20",
+          []
+        ],
+        [
+          "Auckland",
+          [
+            "/wiki/Auckland"
+          ]
+        ],
+        [
+          "New Zealand",
+          [
+            "/wiki/New_Zealand"
+          ]
+        ],
+        [
+          "50,000",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of the 2011 ITU Triathlon World Cup events, detailing the date, location, and prize purse for each competition. It serves as a summary of key information about the events held in different cities and countries during the series.",
+  "numeric_columns": [
+    "Prize purse ( US $ )"
+  ],
+  "categorical_columns": [
+    "Date"
+  ],
+  "entities": [
+    "City",
+    "County"
+  ]
+}

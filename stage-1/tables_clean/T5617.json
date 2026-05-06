@@ -1,0 +1,430 @@
+{
+  "table_id": "T5617",
+  "uid": "d105a79b-872e-5dbb-aeba-7f3eba1430c4",
+  "source": "HybridQA",
+  "source_table_id": "d105a79b-872e-5dbb-aeba-7f3eba1430c4",
+  "domain": "HybridQA",
+  "title": "Languages with official status in India",
+  "columns": [
+    "No",
+    "Union territory",
+    "Official language ( s )",
+    "Additional official language ( s )"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Andaman and Nicobar Islands",
+        [
+          "/wiki/Andaman_and_Nicobar_Islands"
+        ]
+      ],
+      [
+        "Hindi , English",
+        [
+          "/wiki/Hindi",
+          "/wiki/Indian_English"
+        ]
+      ],
+      [
+        "Bengali",
+        [
+          "/wiki/Bengali_language"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Chandigarh",
+        [
+          "/wiki/Chandigarh"
+        ]
+      ],
+      [
+        "English",
+        [
+          "/wiki/Indian_English"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Dadra and Nagar Haveli and Daman and Diu",
+        [
+          "/wiki/Dadra_and_Nagar_Haveli_and_Daman_and_Diu"
+        ]
+      ],
+      [
+        "Gujarati , Konkani , Marathi , Hindi",
+        [
+          "/wiki/Gujarati_language",
+          "/wiki/Konkani_language",
+          "/wiki/Marathi_language",
+          "/wiki/Hindi"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Delhi",
+        [
+          "/wiki/Delhi"
+        ]
+      ],
+      [
+        "Hindi , English",
+        [
+          "/wiki/Hindi",
+          "/wiki/Indian_English"
+        ]
+      ],
+      [
+        "Urdu , Punjabi",
+        [
+          "/wiki/Urdu",
+          "/wiki/Punjabi_language"
+        ]
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Lakshadweep",
+        [
+          "/wiki/Lakshadweep"
+        ]
+      ],
+      [
+        "Malayalam ,",
+        [
+          "/wiki/Malayalam"
+        ]
+      ],
+      [
+        "Mahl ( in Minicoy Island ) , English",
+        [
+          "/wiki/Mahl_dialect",
+          "/wiki/Indian_English"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Jammu and Kashmir",
+        [
+          "/wiki/Jammu_and_Kashmir"
+        ]
+      ],
+      [
+        "Urdu",
+        [
+          "/wiki/Urdu"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Ladakh",
+        [
+          "/wiki/Ladakh"
+        ]
+      ],
+      [
+        "Urdu , English",
+        [
+          "/wiki/Urdu",
+          "/wiki/English_language"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Puducherry",
+        [
+          "/wiki/Puducherry"
+        ]
+      ],
+      [
+        "Tamil , French , English",
+        [
+          "/wiki/Tamil_language",
+          "/wiki/French_language",
+          "/wiki/Indian_English"
+        ]
+      ],
+      [
+        "Telugu , Malayalam",
+        [
+          "/wiki/Telugu_language",
+          "/wiki/Malayalam"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "d105a79b-872e-5dbb-aeba-7f3eba1430c4",
+    "table_id": "Languages_with_official_status_in_India_2",
+    "title": "Languages with official status in India",
+    "header": [
+      "No",
+      "Union territory",
+      "Official language ( s )",
+      "Additional official language ( s )"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Andaman and Nicobar Islands",
+          [
+            "/wiki/Andaman_and_Nicobar_Islands"
+          ]
+        ],
+        [
+          "Hindi , English",
+          [
+            "/wiki/Hindi",
+            "/wiki/Indian_English"
+          ]
+        ],
+        [
+          "Bengali",
+          [
+            "/wiki/Bengali_language"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Chandigarh",
+          [
+            "/wiki/Chandigarh"
+          ]
+        ],
+        [
+          "English",
+          [
+            "/wiki/Indian_English"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Dadra and Nagar Haveli and Daman and Diu",
+          [
+            "/wiki/Dadra_and_Nagar_Haveli_and_Daman_and_Diu"
+          ]
+        ],
+        [
+          "Gujarati , Konkani , Marathi , Hindi",
+          [
+            "/wiki/Gujarati_language",
+            "/wiki/Konkani_language",
+            "/wiki/Marathi_language",
+            "/wiki/Hindi"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Delhi",
+          [
+            "/wiki/Delhi"
+          ]
+        ],
+        [
+          "Hindi , English",
+          [
+            "/wiki/Hindi",
+            "/wiki/Indian_English"
+          ]
+        ],
+        [
+          "Urdu , Punjabi",
+          [
+            "/wiki/Urdu",
+            "/wiki/Punjabi_language"
+          ]
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Lakshadweep",
+          [
+            "/wiki/Lakshadweep"
+          ]
+        ],
+        [
+          "Malayalam ,",
+          [
+            "/wiki/Malayalam"
+          ]
+        ],
+        [
+          "Mahl ( in Minicoy Island ) , English",
+          [
+            "/wiki/Mahl_dialect",
+            "/wiki/Indian_English"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Jammu and Kashmir",
+          [
+            "/wiki/Jammu_and_Kashmir"
+          ]
+        ],
+        [
+          "Urdu",
+          [
+            "/wiki/Urdu"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Ladakh",
+          [
+            "/wiki/Ladakh"
+          ]
+        ],
+        [
+          "Urdu , English",
+          [
+            "/wiki/Urdu",
+            "/wiki/English_language"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Puducherry",
+          [
+            "/wiki/Puducherry"
+          ]
+        ],
+        [
+          "Tamil , French , English",
+          [
+            "/wiki/Tamil_language",
+            "/wiki/French_language",
+            "/wiki/Indian_English"
+          ]
+        ],
+        [
+          "Telugu , Malayalam",
+          [
+            "/wiki/Telugu_language",
+            "/wiki/Malayalam"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about the official and additional official languages of various Union territories in India. It lists the Union territories, their primary official languages, and any additional languages recognized for official purposes. This data is useful for understanding the linguistic diversity and administrative language policies in these regions.",
+  "numeric_columns": [
+    "No"
+  ],
+  "categorical_columns": [
+    "Official language ( s )",
+    "Additional official language ( s )"
+  ],
+  "entities": [
+    "Union territory"
+  ]
+}

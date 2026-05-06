@@ -1,0 +1,450 @@
+{
+  "table_id": "T8746",
+  "uid": "049f28e1-3bf9-54d4-8461-c1dd35a73ad1",
+  "source": "HybridQA",
+  "source_table_id": "049f28e1-3bf9-54d4-8461-c1dd35a73ad1",
+  "domain": "HybridQA",
+  "title": "Ethnic groups in Central America",
+  "columns": [
+    "Country or territory with flag",
+    "Area ( km ) ( per sq mi )",
+    "Population ( July 2012 est . )",
+    "Population density per km",
+    "Capital"
+  ],
+  "rows": [
+    [
+      [
+        "Guatemala",
+        [
+          "/wiki/Guatemala"
+        ]
+      ],
+      [
+        "108,889 km ( 42,042 sq mi )",
+        []
+      ],
+      [
+        "14,099,032",
+        []
+      ],
+      [
+        "116.8/km ( 4,913.9/sq mi )",
+        []
+      ],
+      [
+        "Guatemala City",
+        [
+          "/wiki/Guatemala_City"
+        ]
+      ]
+    ],
+    [
+      [
+        "Belize",
+        [
+          "/wiki/Belize"
+        ]
+      ],
+      [
+        "22,966 km ( 8,867 sq mi )",
+        []
+      ],
+      [
+        "307,899",
+        []
+      ],
+      [
+        "13/km ( 546.9/sq mi )",
+        []
+      ],
+      [
+        "Belmopan",
+        [
+          "/wiki/Belmopan"
+        ]
+      ]
+    ],
+    [
+      [
+        "El Salvador",
+        [
+          "/wiki/El_Salvador"
+        ]
+      ],
+      [
+        "21,040 km ( 8,120 sq mi )",
+        []
+      ],
+      [
+        "6,090,646",
+        []
+      ],
+      [
+        "330.2/km ( 13,891.9/sq mi )",
+        []
+      ],
+      [
+        "San Salvador",
+        [
+          "/wiki/San_Salvador"
+        ]
+      ]
+    ],
+    [
+      [
+        "Honduras",
+        [
+          "/wiki/Honduras"
+        ]
+      ],
+      [
+        "112,090 km ( 43,280 sq mi )",
+        []
+      ],
+      [
+        "8,296,693",
+        []
+      ],
+      [
+        "66.7/km ( 2,806.1/sq mi )",
+        []
+      ],
+      [
+        "Tegucigalpa",
+        [
+          "/wiki/Tegucigalpa"
+        ]
+      ]
+    ],
+    [
+      [
+        "Nicaragua",
+        [
+          "/wiki/Nicaragua"
+        ]
+      ],
+      [
+        "129,494 km ( 49,998 sq mi )",
+        []
+      ],
+      [
+        "5,727,707",
+        []
+      ],
+      [
+        "43.8/km ( 1,842.7/sq mi )",
+        []
+      ],
+      [
+        "Managua",
+        [
+          "/wiki/Managua"
+        ]
+      ]
+    ],
+    [
+      [
+        "Costa Rica",
+        [
+          "/wiki/Costa_Rica"
+        ]
+      ],
+      [
+        "51,100 km ( 19,700 sq mi )",
+        []
+      ],
+      [
+        "4,636,348",
+        []
+      ],
+      [
+        "70.8/km ( 2,978.6/sq mi )",
+        []
+      ],
+      [
+        "San José",
+        [
+          "/wiki/San_José,_Costa_Rica"
+        ]
+      ]
+    ],
+    [
+      [
+        "Panama",
+        [
+          "/wiki/Panama"
+        ]
+      ],
+      [
+        "78,200 km ( 30,200 sq mi )",
+        []
+      ],
+      [
+        "3,360,474",
+        []
+      ],
+      [
+        "41.4/km ( 1,741.7/sq mi )",
+        []
+      ],
+      [
+        "Panama City",
+        [
+          "/wiki/Panama_City"
+        ]
+      ]
+    ],
+    [
+      [
+        "Total",
+        []
+      ],
+      [
+        "523,780",
+        []
+      ],
+      [
+        "42,071,038",
+        []
+      ],
+      [
+        "77.3/km",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "049f28e1-3bf9-54d4-8461-c1dd35a73ad1",
+    "table_id": "Ethnic_groups_in_Central_America_0",
+    "title": "Ethnic groups in Central America",
+    "header": [
+      "Country or territory with flag",
+      "Area ( km ) ( per sq mi )",
+      "Population ( July 2012 est . )",
+      "Population density per km",
+      "Capital"
+    ],
+    "value": [
+      [
+        [
+          "Guatemala",
+          [
+            "/wiki/Guatemala"
+          ]
+        ],
+        [
+          "108,889 km ( 42,042 sq mi )",
+          []
+        ],
+        [
+          "14,099,032",
+          []
+        ],
+        [
+          "116.8/km ( 4,913.9/sq mi )",
+          []
+        ],
+        [
+          "Guatemala City",
+          [
+            "/wiki/Guatemala_City"
+          ]
+        ]
+      ],
+      [
+        [
+          "Belize",
+          [
+            "/wiki/Belize"
+          ]
+        ],
+        [
+          "22,966 km ( 8,867 sq mi )",
+          []
+        ],
+        [
+          "307,899",
+          []
+        ],
+        [
+          "13/km ( 546.9/sq mi )",
+          []
+        ],
+        [
+          "Belmopan",
+          [
+            "/wiki/Belmopan"
+          ]
+        ]
+      ],
+      [
+        [
+          "El Salvador",
+          [
+            "/wiki/El_Salvador"
+          ]
+        ],
+        [
+          "21,040 km ( 8,120 sq mi )",
+          []
+        ],
+        [
+          "6,090,646",
+          []
+        ],
+        [
+          "330.2/km ( 13,891.9/sq mi )",
+          []
+        ],
+        [
+          "San Salvador",
+          [
+            "/wiki/San_Salvador"
+          ]
+        ]
+      ],
+      [
+        [
+          "Honduras",
+          [
+            "/wiki/Honduras"
+          ]
+        ],
+        [
+          "112,090 km ( 43,280 sq mi )",
+          []
+        ],
+        [
+          "8,296,693",
+          []
+        ],
+        [
+          "66.7/km ( 2,806.1/sq mi )",
+          []
+        ],
+        [
+          "Tegucigalpa",
+          [
+            "/wiki/Tegucigalpa"
+          ]
+        ]
+      ],
+      [
+        [
+          "Nicaragua",
+          [
+            "/wiki/Nicaragua"
+          ]
+        ],
+        [
+          "129,494 km ( 49,998 sq mi )",
+          []
+        ],
+        [
+          "5,727,707",
+          []
+        ],
+        [
+          "43.8/km ( 1,842.7/sq mi )",
+          []
+        ],
+        [
+          "Managua",
+          [
+            "/wiki/Managua"
+          ]
+        ]
+      ],
+      [
+        [
+          "Costa Rica",
+          [
+            "/wiki/Costa_Rica"
+          ]
+        ],
+        [
+          "51,100 km ( 19,700 sq mi )",
+          []
+        ],
+        [
+          "4,636,348",
+          []
+        ],
+        [
+          "70.8/km ( 2,978.6/sq mi )",
+          []
+        ],
+        [
+          "San José",
+          [
+            "/wiki/San_José,_Costa_Rica"
+          ]
+        ]
+      ],
+      [
+        [
+          "Panama",
+          [
+            "/wiki/Panama"
+          ]
+        ],
+        [
+          "78,200 km ( 30,200 sq mi )",
+          []
+        ],
+        [
+          "3,360,474",
+          []
+        ],
+        [
+          "41.4/km ( 1,741.7/sq mi )",
+          []
+        ],
+        [
+          "Panama City",
+          [
+            "/wiki/Panama_City"
+          ]
+        ]
+      ],
+      [
+        [
+          "Total",
+          []
+        ],
+        [
+          "523,780",
+          []
+        ],
+        [
+          "42,071,038",
+          []
+        ],
+        [
+          "77.3/km",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of Central American countries or territories, including their geographical area, population statistics, population density, and capitals. It is designed to summarize key demographic and spatial information about these regions. The data may be useful for comparative analysis or general reference about Central America.",
+  "numeric_columns": [
+    "Area ( km ) ( per sq mi )",
+    "Population ( July 2012 est . )",
+    "Population density per km"
+  ],
+  "categorical_columns": [],
+  "entities": [
+    "Country or territory with flag",
+    "Capital"
+  ]
+}

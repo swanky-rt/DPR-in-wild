@@ -1,0 +1,407 @@
+{
+  "table_id": "T8569",
+  "uid": "492b11c2-ec28-5417-9fa3-25a6e14dfdef",
+  "source": "HybridQA",
+  "source_table_id": "492b11c2-ec28-5417-9fa3-25a6e14dfdef",
+  "domain": "HybridQA",
+  "title": "2013 Western Athletic Conference men's soccer season",
+  "columns": [
+    "Team",
+    "Location",
+    "Stadium",
+    "Capacity"
+  ],
+  "rows": [
+    [
+      [
+        "Air Force Falcons",
+        [
+          "/wiki/Air_Force_Falcons_men's_soccer"
+        ]
+      ],
+      [
+        "Colorado Springs , Colorado",
+        [
+          "/wiki/Colorado_Springs,_Colorado"
+        ]
+      ],
+      [
+        "Air Force Soccer Stadium",
+        [
+          "/wiki/Air_Force_Soccer_Stadium"
+        ]
+      ],
+      [
+        "1,000",
+        []
+      ]
+    ],
+    [
+      [
+        "CSU Bakersfield Roadrunners",
+        [
+          "/wiki/CSU_Bakersfield_Roadrunners_men's_soccer"
+        ]
+      ],
+      [
+        "Bakersfield , California",
+        [
+          "/wiki/Bakersfield,_California"
+        ]
+      ],
+      [
+        "CSUB Main Soccer Field",
+        []
+      ],
+      [
+        "2,500",
+        []
+      ]
+    ],
+    [
+      [
+        "Grand Canyon Antelopes",
+        [
+          "/wiki/Grand_Canyon_Antelopes_men's_soccer"
+        ]
+      ],
+      [
+        "Phoenix , Arizona",
+        [
+          "/wiki/Phoenix,_Arizona"
+        ]
+      ],
+      [
+        "GCU Soccer Field",
+        []
+      ],
+      [
+        "1,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Houston Baptist Huskies",
+        [
+          "/wiki/Houston_Baptist_Huskies_men's_soccer"
+        ]
+      ],
+      [
+        "Houston , Texas",
+        [
+          "/wiki/Houston"
+        ]
+      ],
+      [
+        "Sorrells Field",
+        []
+      ],
+      [
+        "1,250",
+        []
+      ]
+    ],
+    [
+      [
+        "San Jose State Spartans",
+        [
+          "/wiki/San_Jose_State_Spartans_men's_soccer"
+        ]
+      ],
+      [
+        "San Jose , California",
+        [
+          "/wiki/San_Jose,_California"
+        ]
+      ],
+      [
+        "Spartan Stadium",
+        [
+          "/wiki/Spartan_Stadium_(San_Jose,_California)"
+        ]
+      ],
+      [
+        "30,456",
+        []
+      ]
+    ],
+    [
+      [
+        "Seattle Redhawks",
+        [
+          "/wiki/Seattle_Redhawks_men's_soccer"
+        ]
+      ],
+      [
+        "Seattle , Washington",
+        [
+          "/wiki/Seattle"
+        ]
+      ],
+      [
+        "Seattle University Soccer Stadium",
+        []
+      ],
+      [
+        "3,000",
+        []
+      ]
+    ],
+    [
+      [
+        "UMKC Kangaroos",
+        [
+          "/wiki/UMKC_Kangaroos_men's_soccer"
+        ]
+      ],
+      [
+        "Kansas City , Missouri",
+        [
+          "/wiki/Kansas_City,_Missouri"
+        ]
+      ],
+      [
+        "Stanley H. Durwood Soccer Stadium",
+        [
+          "/wiki/Stanley_H._Durwood_Soccer_Stadium"
+        ]
+      ],
+      [
+        850,
+        []
+      ]
+    ],
+    [
+      [
+        "UNLV Rebels",
+        [
+          "/wiki/UNLV_Rebels_men's_soccer"
+        ]
+      ],
+      [
+        "Paradise , Nevada",
+        [
+          "/wiki/Paradise,_Nevada"
+        ]
+      ],
+      [
+        "Johann Memorial Field",
+        []
+      ],
+      [
+        "2,500",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "492b11c2-ec28-5417-9fa3-25a6e14dfdef",
+    "table_id": "2013_Western_Athletic_Conference_men's_soccer_season_0",
+    "title": "2013 Western Athletic Conference men's soccer season",
+    "header": [
+      "Team",
+      "Location",
+      "Stadium",
+      "Capacity"
+    ],
+    "value": [
+      [
+        [
+          "Air Force Falcons",
+          [
+            "/wiki/Air_Force_Falcons_men's_soccer"
+          ]
+        ],
+        [
+          "Colorado Springs , Colorado",
+          [
+            "/wiki/Colorado_Springs,_Colorado"
+          ]
+        ],
+        [
+          "Air Force Soccer Stadium",
+          [
+            "/wiki/Air_Force_Soccer_Stadium"
+          ]
+        ],
+        [
+          "1,000",
+          []
+        ]
+      ],
+      [
+        [
+          "CSU Bakersfield Roadrunners",
+          [
+            "/wiki/CSU_Bakersfield_Roadrunners_men's_soccer"
+          ]
+        ],
+        [
+          "Bakersfield , California",
+          [
+            "/wiki/Bakersfield,_California"
+          ]
+        ],
+        [
+          "CSUB Main Soccer Field",
+          []
+        ],
+        [
+          "2,500",
+          []
+        ]
+      ],
+      [
+        [
+          "Grand Canyon Antelopes",
+          [
+            "/wiki/Grand_Canyon_Antelopes_men's_soccer"
+          ]
+        ],
+        [
+          "Phoenix , Arizona",
+          [
+            "/wiki/Phoenix,_Arizona"
+          ]
+        ],
+        [
+          "GCU Soccer Field",
+          []
+        ],
+        [
+          "1,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Houston Baptist Huskies",
+          [
+            "/wiki/Houston_Baptist_Huskies_men's_soccer"
+          ]
+        ],
+        [
+          "Houston , Texas",
+          [
+            "/wiki/Houston"
+          ]
+        ],
+        [
+          "Sorrells Field",
+          []
+        ],
+        [
+          "1,250",
+          []
+        ]
+      ],
+      [
+        [
+          "San Jose State Spartans",
+          [
+            "/wiki/San_Jose_State_Spartans_men's_soccer"
+          ]
+        ],
+        [
+          "San Jose , California",
+          [
+            "/wiki/San_Jose,_California"
+          ]
+        ],
+        [
+          "Spartan Stadium",
+          [
+            "/wiki/Spartan_Stadium_(San_Jose,_California)"
+          ]
+        ],
+        [
+          "30,456",
+          []
+        ]
+      ],
+      [
+        [
+          "Seattle Redhawks",
+          [
+            "/wiki/Seattle_Redhawks_men's_soccer"
+          ]
+        ],
+        [
+          "Seattle , Washington",
+          [
+            "/wiki/Seattle"
+          ]
+        ],
+        [
+          "Seattle University Soccer Stadium",
+          []
+        ],
+        [
+          "3,000",
+          []
+        ]
+      ],
+      [
+        [
+          "UMKC Kangaroos",
+          [
+            "/wiki/UMKC_Kangaroos_men's_soccer"
+          ]
+        ],
+        [
+          "Kansas City , Missouri",
+          [
+            "/wiki/Kansas_City,_Missouri"
+          ]
+        ],
+        [
+          "Stanley H. Durwood Soccer Stadium",
+          [
+            "/wiki/Stanley_H._Durwood_Soccer_Stadium"
+          ]
+        ],
+        [
+          850,
+          []
+        ]
+      ],
+      [
+        [
+          "UNLV Rebels",
+          [
+            "/wiki/UNLV_Rebels_men's_soccer"
+          ]
+        ],
+        [
+          "Paradise , Nevada",
+          [
+            "/wiki/Paradise,_Nevada"
+          ]
+        ],
+        [
+          "Johann Memorial Field",
+          []
+        ],
+        [
+          "2,500",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the teams participating in the 2013 Western Athletic Conference men's soccer season, including their locations, stadiums, and stadium capacities. It serves as a reference for understanding the geographic and infrastructural aspects of the conference's teams.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "Team",
+    "Location",
+    "Stadium"
+  ],
+  "entities": [
+    "Team",
+    "Location",
+    "Stadium"
+  ]
+}

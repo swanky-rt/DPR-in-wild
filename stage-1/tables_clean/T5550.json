@@ -1,0 +1,551 @@
+{
+  "table_id": "T5550",
+  "uid": "e94011e6-b317-5e72-8f23-667aad5113c9",
+  "source": "HybridQA",
+  "source_table_id": "e94011e6-b317-5e72-8f23-667aad5113c9",
+  "domain": "HybridQA",
+  "title": "List of public corporations by market capitalization",
+  "columns": [
+    "Rank",
+    "Name",
+    "Headquarters",
+    "Primary industry",
+    "Market value ( USD million )"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Microsoft",
+        [
+          "/wiki/Microsoft"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        "Software industry",
+        [
+          "/wiki/Software_industry"
+        ]
+      ],
+      [
+        "271,854",
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "General Electric",
+        [
+          "/wiki/General_Electric"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        "Conglomerate",
+        [
+          "/wiki/Conglomerate_(company)"
+        ]
+      ],
+      [
+        "258,871",
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Exxon Mobil",
+        [
+          "/wiki/Exxon_Mobil"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        "Oil and gas",
+        [
+          "/wiki/Petroleum_industry"
+        ]
+      ],
+      [
+        "172,213",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Royal Dutch Shell",
+        [
+          "/wiki/Royal_Dutch_Shell"
+        ]
+      ],
+      [
+        "The Netherlands",
+        []
+      ],
+      [
+        "Oil and gas",
+        []
+      ],
+      [
+        "164,157",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Merck",
+        [
+          "/wiki/Merck_&_Co."
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        "Health care",
+        [
+          "/wiki/Health_care"
+        ]
+      ],
+      [
+        "154,753",
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Pfizer",
+        [
+          "/wiki/Pfizer"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        "Health care",
+        []
+      ],
+      [
+        "148,074",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Intel Corporation",
+        [
+          "/wiki/Intel_Corporation"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        "Computer hardware",
+        [
+          "/wiki/Computer_hardware"
+        ]
+      ],
+      [
+        "144,060",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "The Coca-Cola Company",
+        [
+          "/wiki/The_Coca-Cola_Company"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        "Beverage",
+        [
+          "/wiki/Beverage"
+        ]
+      ],
+      [
+        "142,164",
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Wal-Mart",
+        [
+          "/wiki/Wal-Mart"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        "Retail",
+        [
+          "/wiki/Retail"
+        ]
+      ],
+      [
+        "123,062",
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "IBM",
+        [
+          "/wiki/IBM"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        "Software industry , computer hardware",
+        []
+      ],
+      [
+        "121,184",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "e94011e6-b317-5e72-8f23-667aad5113c9",
+    "table_id": "List_of_corporations_by_market_capitalization_7",
+    "title": "List of public corporations by market capitalization",
+    "header": [
+      "Rank",
+      "Name",
+      "Headquarters",
+      "Primary industry",
+      "Market value ( USD million )"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Microsoft",
+          [
+            "/wiki/Microsoft"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          "Software industry",
+          [
+            "/wiki/Software_industry"
+          ]
+        ],
+        [
+          "271,854",
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "General Electric",
+          [
+            "/wiki/General_Electric"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          "Conglomerate",
+          [
+            "/wiki/Conglomerate_(company)"
+          ]
+        ],
+        [
+          "258,871",
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Exxon Mobil",
+          [
+            "/wiki/Exxon_Mobil"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          "Oil and gas",
+          [
+            "/wiki/Petroleum_industry"
+          ]
+        ],
+        [
+          "172,213",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Royal Dutch Shell",
+          [
+            "/wiki/Royal_Dutch_Shell"
+          ]
+        ],
+        [
+          "The Netherlands",
+          []
+        ],
+        [
+          "Oil and gas",
+          []
+        ],
+        [
+          "164,157",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Merck",
+          [
+            "/wiki/Merck_&_Co."
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          "Health care",
+          [
+            "/wiki/Health_care"
+          ]
+        ],
+        [
+          "154,753",
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Pfizer",
+          [
+            "/wiki/Pfizer"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          "Health care",
+          []
+        ],
+        [
+          "148,074",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Intel Corporation",
+          [
+            "/wiki/Intel_Corporation"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          "Computer hardware",
+          [
+            "/wiki/Computer_hardware"
+          ]
+        ],
+        [
+          "144,060",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "The Coca-Cola Company",
+          [
+            "/wiki/The_Coca-Cola_Company"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          "Beverage",
+          [
+            "/wiki/Beverage"
+          ]
+        ],
+        [
+          "142,164",
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Wal-Mart",
+          [
+            "/wiki/Wal-Mart"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          "Retail",
+          [
+            "/wiki/Retail"
+          ]
+        ],
+        [
+          "123,062",
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "IBM",
+          [
+            "/wiki/IBM"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          "Software industry , computer hardware",
+          []
+        ],
+        [
+          "121,184",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table lists public corporations ranked by their market capitalization, providing insights into their financial valuation. It includes details such as the corporation's rank, name, headquarters location, primary industry, and market value in USD million. The table is useful for understanding the relative size and industry distribution of major corporations globally.",
+  "numeric_columns": [
+    "Market value ( USD million )"
+  ],
+  "categorical_columns": [
+    "Rank",
+    "Primary industry"
+  ],
+  "entities": [
+    "Name",
+    "Headquarters"
+  ]
+}

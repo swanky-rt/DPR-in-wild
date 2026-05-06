@@ -1,0 +1,688 @@
+{
+  "table_id": "T5838",
+  "uid": "8e173123-059e-5244-8d9f-f218b9eb8879",
+  "source": "HybridQA",
+  "source_table_id": "8e173123-059e-5244-8d9f-f218b9eb8879",
+  "domain": "HybridQA",
+  "title": "The World's Billionaires",
+  "columns": [
+    "No",
+    "Name",
+    "Net worth ( USD )",
+    "Age",
+    "Nationality",
+    "Source ( s ) of wealth"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Carlos Slim & family",
+        [
+          "/wiki/Carlos_Slim"
+        ]
+      ],
+      [
+        "$ 74.0 billion",
+        []
+      ],
+      [
+        71,
+        []
+      ],
+      [
+        "Mexico",
+        [
+          "/wiki/Mexico"
+        ]
+      ],
+      [
+        "América Móvil , Grupo Carso",
+        [
+          "/wiki/América_Móvil",
+          "/wiki/Grupo_Carso"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Bill Gates",
+        [
+          "/wiki/Bill_Gates"
+        ]
+      ],
+      [
+        "$ 56.0 billion",
+        []
+      ],
+      [
+        55,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Microsoft",
+        [
+          "/wiki/Microsoft"
+        ]
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Warren Buffett",
+        [
+          "/wiki/Warren_Buffett"
+        ]
+      ],
+      [
+        "$ 50.0 billion",
+        []
+      ],
+      [
+        80,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Berkshire Hathaway",
+        [
+          "/wiki/Berkshire_Hathaway"
+        ]
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Bernard Arnault",
+        [
+          "/wiki/Bernard_Arnault"
+        ]
+      ],
+      [
+        "$ 41.0 billion",
+        []
+      ],
+      [
+        62,
+        []
+      ],
+      [
+        "France",
+        [
+          "/wiki/France"
+        ]
+      ],
+      [
+        "LVMH Moët Hennessy • Louis Vuitton",
+        [
+          "/wiki/LVMH"
+        ]
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Larry Ellison",
+        [
+          "/wiki/Larry_Ellison"
+        ]
+      ],
+      [
+        "$ 39.5 billion",
+        []
+      ],
+      [
+        66,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Oracle Corporation",
+        [
+          "/wiki/Oracle_Corporation"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Lakshmi Mittal",
+        [
+          "/wiki/Lakshmi_Mittal"
+        ]
+      ],
+      [
+        "$ 31.1 billion",
+        []
+      ],
+      [
+        60,
+        []
+      ],
+      [
+        "India",
+        [
+          "/wiki/India"
+        ]
+      ],
+      [
+        "Arcelor Mittal",
+        [
+          "/wiki/Arcelor_Mittal"
+        ]
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Amancio Ortega",
+        [
+          "/wiki/Amancio_Ortega"
+        ]
+      ],
+      [
+        "$ 31.0 billion",
+        []
+      ],
+      [
+        74,
+        []
+      ],
+      [
+        "Spain",
+        [
+          "/wiki/Spain"
+        ]
+      ],
+      [
+        "Inditex Group",
+        [
+          "/wiki/Inditex_Group"
+        ]
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Eike Batista",
+        [
+          "/wiki/Eike_Batista"
+        ]
+      ],
+      [
+        "$ 30.0 billion",
+        []
+      ],
+      [
+        53,
+        []
+      ],
+      [
+        "Brazil",
+        [
+          "/wiki/Brazil"
+        ]
+      ],
+      [
+        "EBX Group",
+        [
+          "/wiki/EBX_Group"
+        ]
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Mukesh Ambani",
+        [
+          "/wiki/Mukesh_Ambani"
+        ]
+      ],
+      [
+        "$ 27.0 billion",
+        []
+      ],
+      [
+        54,
+        []
+      ],
+      [
+        "India",
+        [
+          "/wiki/India"
+        ]
+      ],
+      [
+        "Reliance Industries",
+        [
+          "/wiki/Reliance_Industries"
+        ]
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Christy Walton & family",
+        [
+          "/wiki/Christy_Walton"
+        ]
+      ],
+      [
+        "$ 26.5 billion",
+        []
+      ],
+      [
+        62,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Walmart",
+        [
+          "/wiki/Walmart"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "8e173123-059e-5244-8d9f-f218b9eb8879",
+    "table_id": "List_of_wealthiest_non-inflated_historical_figures_8",
+    "title": "The World's Billionaires",
+    "header": [
+      "No",
+      "Name",
+      "Net worth ( USD )",
+      "Age",
+      "Nationality",
+      "Source ( s ) of wealth"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Carlos Slim & family",
+          [
+            "/wiki/Carlos_Slim"
+          ]
+        ],
+        [
+          "$ 74.0 billion",
+          []
+        ],
+        [
+          71,
+          []
+        ],
+        [
+          "Mexico",
+          [
+            "/wiki/Mexico"
+          ]
+        ],
+        [
+          "América Móvil , Grupo Carso",
+          [
+            "/wiki/América_Móvil",
+            "/wiki/Grupo_Carso"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Bill Gates",
+          [
+            "/wiki/Bill_Gates"
+          ]
+        ],
+        [
+          "$ 56.0 billion",
+          []
+        ],
+        [
+          55,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Microsoft",
+          [
+            "/wiki/Microsoft"
+          ]
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Warren Buffett",
+          [
+            "/wiki/Warren_Buffett"
+          ]
+        ],
+        [
+          "$ 50.0 billion",
+          []
+        ],
+        [
+          80,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Berkshire Hathaway",
+          [
+            "/wiki/Berkshire_Hathaway"
+          ]
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Bernard Arnault",
+          [
+            "/wiki/Bernard_Arnault"
+          ]
+        ],
+        [
+          "$ 41.0 billion",
+          []
+        ],
+        [
+          62,
+          []
+        ],
+        [
+          "France",
+          [
+            "/wiki/France"
+          ]
+        ],
+        [
+          "LVMH Moët Hennessy • Louis Vuitton",
+          [
+            "/wiki/LVMH"
+          ]
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Larry Ellison",
+          [
+            "/wiki/Larry_Ellison"
+          ]
+        ],
+        [
+          "$ 39.5 billion",
+          []
+        ],
+        [
+          66,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Oracle Corporation",
+          [
+            "/wiki/Oracle_Corporation"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Lakshmi Mittal",
+          [
+            "/wiki/Lakshmi_Mittal"
+          ]
+        ],
+        [
+          "$ 31.1 billion",
+          []
+        ],
+        [
+          60,
+          []
+        ],
+        [
+          "India",
+          [
+            "/wiki/India"
+          ]
+        ],
+        [
+          "Arcelor Mittal",
+          [
+            "/wiki/Arcelor_Mittal"
+          ]
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Amancio Ortega",
+          [
+            "/wiki/Amancio_Ortega"
+          ]
+        ],
+        [
+          "$ 31.0 billion",
+          []
+        ],
+        [
+          74,
+          []
+        ],
+        [
+          "Spain",
+          [
+            "/wiki/Spain"
+          ]
+        ],
+        [
+          "Inditex Group",
+          [
+            "/wiki/Inditex_Group"
+          ]
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Eike Batista",
+          [
+            "/wiki/Eike_Batista"
+          ]
+        ],
+        [
+          "$ 30.0 billion",
+          []
+        ],
+        [
+          53,
+          []
+        ],
+        [
+          "Brazil",
+          [
+            "/wiki/Brazil"
+          ]
+        ],
+        [
+          "EBX Group",
+          [
+            "/wiki/EBX_Group"
+          ]
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Mukesh Ambani",
+          [
+            "/wiki/Mukesh_Ambani"
+          ]
+        ],
+        [
+          "$ 27.0 billion",
+          []
+        ],
+        [
+          54,
+          []
+        ],
+        [
+          "India",
+          [
+            "/wiki/India"
+          ]
+        ],
+        [
+          "Reliance Industries",
+          [
+            "/wiki/Reliance_Industries"
+          ]
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Christy Walton & family",
+          [
+            "/wiki/Christy_Walton"
+          ]
+        ],
+        [
+          "$ 26.5 billion",
+          []
+        ],
+        [
+          62,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Walmart",
+          [
+            "/wiki/Walmart"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about the world's billionaires, detailing their rankings, personal and financial details, and sources of wealth. It is designed to showcase the wealthiest individuals globally, including their net worth, age, nationality, and primary sources of income.",
+  "numeric_columns": [
+    "No",
+    "Age"
+  ],
+  "categorical_columns": [
+    "Net worth ( USD )",
+    "Nationality",
+    "Source ( s ) of wealth"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

@@ -1,0 +1,543 @@
+{
+  "table_id": "T1061",
+  "uid": "df2b5273-7cb1-54af-8970-13fb13007511",
+  "source": "HybridQA",
+  "source_table_id": "df2b5273-7cb1-54af-8970-13fb13007511",
+  "domain": "HybridQA",
+  "title": "ICC Champions Trophy",
+  "columns": [
+    "Year",
+    "Player of the final",
+    "Player of the tournament",
+    "Most runs",
+    "Most wickets"
+  ],
+  "rows": [
+    [
+      [
+        1998,
+        [
+          "/wiki/1998_ICC_KnockOut_Trophy"
+        ]
+      ],
+      [
+        "Jacques Kallis",
+        [
+          "/wiki/Jacques_Kallis"
+        ]
+      ],
+      [
+        "Jacques Kallis",
+        [
+          "/wiki/Jacques_Kallis"
+        ]
+      ],
+      [
+        "Philo Wallace ( 221 )",
+        [
+          "/wiki/Philo_Wallace"
+        ]
+      ],
+      [
+        "Jacques Kallis ( 8 )",
+        [
+          "/wiki/Jacques_Kallis"
+        ]
+      ]
+    ],
+    [
+      [
+        2000,
+        [
+          "/wiki/2000_ICC_KnockOut_Trophy"
+        ]
+      ],
+      [
+        "Chris Cairns",
+        [
+          "/wiki/Chris_Cairns"
+        ]
+      ],
+      [
+        "Not awarded",
+        []
+      ],
+      [
+        "Sourav Ganguly ( 348 )",
+        [
+          "/wiki/Sourav_Ganguly"
+        ]
+      ],
+      [
+        "Venkatesh Prasad ( 8 )",
+        [
+          "/wiki/Venkatesh_Prasad"
+        ]
+      ]
+    ],
+    [
+      [
+        2002,
+        [
+          "/wiki/2002_ICC_Champions_Trophy"
+        ]
+      ],
+      [
+        "Not awarded",
+        []
+      ],
+      [
+        "Not awarded",
+        []
+      ],
+      [
+        "Virender Sehwag ( 271 )",
+        [
+          "/wiki/Virender_Sehwag"
+        ]
+      ],
+      [
+        "Muttiah Muralitharan ( 10 )",
+        [
+          "/wiki/Muttiah_Muralitharan"
+        ]
+      ]
+    ],
+    [
+      [
+        2004,
+        [
+          "/wiki/2004_ICC_Champions_Trophy"
+        ]
+      ],
+      [
+        "Ian Bradshaw",
+        [
+          "/wiki/Ian_Bradshaw"
+        ]
+      ],
+      [
+        "Ramnaresh Sarwan",
+        [
+          "/wiki/Ramnaresh_Sarwan"
+        ]
+      ],
+      [
+        "Marcus Trescothick ( 261 )",
+        [
+          "/wiki/Marcus_Trescothick"
+        ]
+      ],
+      [
+        "Andrew Flintoff ( 9 )",
+        [
+          "/wiki/Andrew_Flintoff"
+        ]
+      ]
+    ],
+    [
+      [
+        2006,
+        [
+          "/wiki/2006_ICC_Champions_Trophy"
+        ]
+      ],
+      [
+        "Shane Watson",
+        [
+          "/wiki/Shane_Watson"
+        ]
+      ],
+      [
+        "Chris Gayle",
+        [
+          "/wiki/Chris_Gayle"
+        ]
+      ],
+      [
+        "Chris Gayle ( 474 )",
+        [
+          "/wiki/Chris_Gayle"
+        ]
+      ],
+      [
+        "Jerome Taylor ( 13 )",
+        [
+          "/wiki/Jerome_Taylor"
+        ]
+      ]
+    ],
+    [
+      [
+        2009,
+        [
+          "/wiki/2009_ICC_Champions_Trophy"
+        ]
+      ],
+      [
+        "Shane Watson",
+        [
+          "/wiki/Shane_Watson"
+        ]
+      ],
+      [
+        "Ricky Ponting",
+        [
+          "/wiki/Ricky_Ponting"
+        ]
+      ],
+      [
+        "Ricky Ponting ( 288 )",
+        [
+          "/wiki/Ricky_Ponting"
+        ]
+      ],
+      [
+        "Wayne Parnell ( 11 )",
+        [
+          "/wiki/Wayne_Parnell"
+        ]
+      ]
+    ],
+    [
+      [
+        2013,
+        [
+          "/wiki/2013_ICC_Champions_Trophy"
+        ]
+      ],
+      [
+        "Ravindra Jadeja",
+        [
+          "/wiki/Ravindra_Jadeja"
+        ]
+      ],
+      [
+        "Shikhar Dhawan",
+        [
+          "/wiki/Shikhar_Dhawan"
+        ]
+      ],
+      [
+        "Shikhar Dhawan ( 363 )",
+        [
+          "/wiki/Shikhar_Dhawan"
+        ]
+      ],
+      [
+        "Ravindra Jadeja ( 12 )",
+        [
+          "/wiki/Ravindra_Jadeja"
+        ]
+      ]
+    ],
+    [
+      [
+        2017,
+        [
+          "/wiki/2017_ICC_Champions_Trophy"
+        ]
+      ],
+      [
+        "Fakhar Zaman",
+        [
+          "/wiki/Fakhar_Zaman_(cricketer)"
+        ]
+      ],
+      [
+        "Hasan Ali",
+        [
+          "/wiki/Hasan_Ali_(cricketer)"
+        ]
+      ],
+      [
+        "Shikhar Dhawan ( 338 )",
+        [
+          "/wiki/Shikhar_Dhawan"
+        ]
+      ],
+      [
+        "Hasan Ali ( 13 )",
+        [
+          "/wiki/Hasan_Ali_(cricketer)"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "df2b5273-7cb1-54af-8970-13fb13007511",
+    "table_id": "ICC_Champions_Trophy_1",
+    "title": "ICC Champions Trophy",
+    "header": [
+      "Year",
+      "Player of the final",
+      "Player of the tournament",
+      "Most runs",
+      "Most wickets"
+    ],
+    "value": [
+      [
+        [
+          1998,
+          [
+            "/wiki/1998_ICC_KnockOut_Trophy"
+          ]
+        ],
+        [
+          "Jacques Kallis",
+          [
+            "/wiki/Jacques_Kallis"
+          ]
+        ],
+        [
+          "Jacques Kallis",
+          [
+            "/wiki/Jacques_Kallis"
+          ]
+        ],
+        [
+          "Philo Wallace ( 221 )",
+          [
+            "/wiki/Philo_Wallace"
+          ]
+        ],
+        [
+          "Jacques Kallis ( 8 )",
+          [
+            "/wiki/Jacques_Kallis"
+          ]
+        ]
+      ],
+      [
+        [
+          2000,
+          [
+            "/wiki/2000_ICC_KnockOut_Trophy"
+          ]
+        ],
+        [
+          "Chris Cairns",
+          [
+            "/wiki/Chris_Cairns"
+          ]
+        ],
+        [
+          "Not awarded",
+          []
+        ],
+        [
+          "Sourav Ganguly ( 348 )",
+          [
+            "/wiki/Sourav_Ganguly"
+          ]
+        ],
+        [
+          "Venkatesh Prasad ( 8 )",
+          [
+            "/wiki/Venkatesh_Prasad"
+          ]
+        ]
+      ],
+      [
+        [
+          2002,
+          [
+            "/wiki/2002_ICC_Champions_Trophy"
+          ]
+        ],
+        [
+          "Not awarded",
+          []
+        ],
+        [
+          "Not awarded",
+          []
+        ],
+        [
+          "Virender Sehwag ( 271 )",
+          [
+            "/wiki/Virender_Sehwag"
+          ]
+        ],
+        [
+          "Muttiah Muralitharan ( 10 )",
+          [
+            "/wiki/Muttiah_Muralitharan"
+          ]
+        ]
+      ],
+      [
+        [
+          2004,
+          [
+            "/wiki/2004_ICC_Champions_Trophy"
+          ]
+        ],
+        [
+          "Ian Bradshaw",
+          [
+            "/wiki/Ian_Bradshaw"
+          ]
+        ],
+        [
+          "Ramnaresh Sarwan",
+          [
+            "/wiki/Ramnaresh_Sarwan"
+          ]
+        ],
+        [
+          "Marcus Trescothick ( 261 )",
+          [
+            "/wiki/Marcus_Trescothick"
+          ]
+        ],
+        [
+          "Andrew Flintoff ( 9 )",
+          [
+            "/wiki/Andrew_Flintoff"
+          ]
+        ]
+      ],
+      [
+        [
+          2006,
+          [
+            "/wiki/2006_ICC_Champions_Trophy"
+          ]
+        ],
+        [
+          "Shane Watson",
+          [
+            "/wiki/Shane_Watson"
+          ]
+        ],
+        [
+          "Chris Gayle",
+          [
+            "/wiki/Chris_Gayle"
+          ]
+        ],
+        [
+          "Chris Gayle ( 474 )",
+          [
+            "/wiki/Chris_Gayle"
+          ]
+        ],
+        [
+          "Jerome Taylor ( 13 )",
+          [
+            "/wiki/Jerome_Taylor"
+          ]
+        ]
+      ],
+      [
+        [
+          2009,
+          [
+            "/wiki/2009_ICC_Champions_Trophy"
+          ]
+        ],
+        [
+          "Shane Watson",
+          [
+            "/wiki/Shane_Watson"
+          ]
+        ],
+        [
+          "Ricky Ponting",
+          [
+            "/wiki/Ricky_Ponting"
+          ]
+        ],
+        [
+          "Ricky Ponting ( 288 )",
+          [
+            "/wiki/Ricky_Ponting"
+          ]
+        ],
+        [
+          "Wayne Parnell ( 11 )",
+          [
+            "/wiki/Wayne_Parnell"
+          ]
+        ]
+      ],
+      [
+        [
+          2013,
+          [
+            "/wiki/2013_ICC_Champions_Trophy"
+          ]
+        ],
+        [
+          "Ravindra Jadeja",
+          [
+            "/wiki/Ravindra_Jadeja"
+          ]
+        ],
+        [
+          "Shikhar Dhawan",
+          [
+            "/wiki/Shikhar_Dhawan"
+          ]
+        ],
+        [
+          "Shikhar Dhawan ( 363 )",
+          [
+            "/wiki/Shikhar_Dhawan"
+          ]
+        ],
+        [
+          "Ravindra Jadeja ( 12 )",
+          [
+            "/wiki/Ravindra_Jadeja"
+          ]
+        ]
+      ],
+      [
+        [
+          2017,
+          [
+            "/wiki/2017_ICC_Champions_Trophy"
+          ]
+        ],
+        [
+          "Fakhar Zaman",
+          [
+            "/wiki/Fakhar_Zaman_(cricketer)"
+          ]
+        ],
+        [
+          "Hasan Ali",
+          [
+            "/wiki/Hasan_Ali_(cricketer)"
+          ]
+        ],
+        [
+          "Shikhar Dhawan ( 338 )",
+          [
+            "/wiki/Shikhar_Dhawan"
+          ]
+        ],
+        [
+          "Hasan Ali ( 13 )",
+          [
+            "/wiki/Hasan_Ali_(cricketer)"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides an overview of key statistics and accolades from the ICC Champions Trophy tournaments, including the year, standout players, and performance metrics. It highlights individual achievements such as 'Player of the final', 'Player of the tournament', 'Most runs', and 'Most wickets'. The table serves as a summary of notable performances in this cricket competition.",
+  "numeric_columns": [
+    "Year"
+  ],
+  "categorical_columns": [
+    "Player of the final",
+    "Player of the tournament"
+  ],
+  "entities": [
+    "Most runs",
+    "Most wickets"
+  ]
+}

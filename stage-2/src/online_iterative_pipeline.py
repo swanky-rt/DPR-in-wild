@@ -29,9 +29,9 @@ Reused from generate_dprs_for_queries.py (unchanged):
 
 Repo layout assumed:
   dpr-discovery/
-    stage-1/
+    stage-1_1/
       tables_clean/
-    stage-2/
+    stage-2_2/
       src/
         generate_dprs_for_queries.py   <- imported
         ucb.py                         <- imported
@@ -42,7 +42,7 @@ Repo layout assumed:
         user_queries_from_50matched_dprs.json
 
 Run:
-  cd stage-2
+  cd stage-2_2
   python src/online_iterative_pipeline.py \
       --queries_file data/user_queries_from_50matched_dprs.json \
       --num_queries 5
@@ -69,11 +69,11 @@ from dotenv import load_dotenv
 # Path resolution
 # ---------------------------------------------------------------------------
 
-# stage-2/src/
+# stage-2_2/src/
 SCRIPT_DIR = Path(__file__).resolve().parent
-# stage-2/
+# stage-2_2/
 STAGE2_DIR = SCRIPT_DIR.parent
-# dpr-discovery/  (repo root — stage-1 and stage-2 are siblings here)
+# dpr-discovery/  (repo root — stage-1_1 and stage-2_2 are siblings here)
 REPO_ROOT = STAGE2_DIR.parent
 
 # Add src/ to path so we can import sibling modules
@@ -94,10 +94,10 @@ from ucb import select_cluster, compute_ucb   # noqa: E402
 load_dotenv()
 
 # ---------------------------------------------------------------------------
-# Default paths  (all relative to repo root / stage-2)
+# Default paths  (all relative to repo root / stage-2_2)
 # ---------------------------------------------------------------------------
 
-DEFAULT_TABLES_CLEAN_DIR = REPO_ROOT / "stage-1" / "tables_clean"
+DEFAULT_TABLES_CLEAN_DIR = REPO_ROOT / "stage-1_1" / "tables_clean"
 DEFAULT_CLUSTERS_PATH    = STAGE2_DIR / "data" / "output_qwen_emb_v2" / "clusters.json"
 DEFAULT_OUTPUT_DIR       = STAGE2_DIR / "data" / "output-online-iterative"
 
@@ -546,12 +546,12 @@ def main() -> None:
     parser.add_argument(
         "--tables_clean_dir", type=str,
         default=str(DEFAULT_TABLES_CLEAN_DIR),
-        help="Path to tables_clean/ directory (stage-1 output)"
+        help="Path to tables_clean/ directory (stage-1_1 output)"
     )
     parser.add_argument(
         "--clusters_path", type=str,
         default=str(DEFAULT_CLUSTERS_PATH),
-        help="Path to clusters.json from stage-2 offline clustering"
+        help="Path to clusters.json from stage-2_2 offline clustering"
     )
     parser.add_argument(
         "--output_dir", type=str,

@@ -1,0 +1,459 @@
+{
+  "table_id": "T645",
+  "uid": "5321b711-efc4-5c6c-8541-098269581165",
+  "source": "HybridQA",
+  "source_table_id": "5321b711-efc4-5c6c-8541-098269581165",
+  "domain": "HybridQA",
+  "title": "Ascope Province",
+  "columns": [
+    "Nº",
+    "District",
+    "Population Cens . 2007",
+    "Capital",
+    "Mayor"
+  ],
+  "rows": [
+    [
+      [
+        "1°",
+        []
+      ],
+      [
+        "Ascope",
+        [
+          "/wiki/Ascope_District"
+        ]
+      ],
+      [
+        "-- -",
+        []
+      ],
+      [
+        "Ascope",
+        [
+          "/wiki/Ascope"
+        ]
+      ],
+      [
+        "-- -",
+        []
+      ]
+    ],
+    [
+      [
+        "2°",
+        []
+      ],
+      [
+        "Casa Grande",
+        [
+          "/wiki/Casa_Grande_District"
+        ]
+      ],
+      [
+        "-- -",
+        []
+      ],
+      [
+        "Casa Grande",
+        [
+          "/wiki/Casa_Grande,_Peru"
+        ]
+      ],
+      [
+        "-- -",
+        []
+      ]
+    ],
+    [
+      [
+        "3°",
+        []
+      ],
+      [
+        "Chicama",
+        [
+          "/wiki/Chicama_District"
+        ]
+      ],
+      [
+        "-- -",
+        []
+      ],
+      [
+        "Chicama",
+        [
+          "/wiki/Chicama,_Peru"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "4°",
+        []
+      ],
+      [
+        "Chocope",
+        [
+          "/wiki/Chocope_District"
+        ]
+      ],
+      [
+        "-- -",
+        []
+      ],
+      [
+        "Chocope",
+        [
+          "/wiki/Chocope"
+        ]
+      ],
+      [
+        "-- -",
+        []
+      ]
+    ],
+    [
+      [
+        "5°",
+        []
+      ],
+      [
+        "Magdalena de Cao",
+        [
+          "/wiki/Magdalena_de_Cao_District"
+        ]
+      ],
+      [
+        "-- -",
+        []
+      ],
+      [
+        "Magdalena de Cao",
+        [
+          "/wiki/Magdalena_de_Cao"
+        ]
+      ],
+      [
+        "-- -",
+        []
+      ]
+    ],
+    [
+      [
+        "6°",
+        []
+      ],
+      [
+        "Santiago de Cao",
+        [
+          "/wiki/Santiago_de_Cao_District"
+        ]
+      ],
+      [
+        "-- -",
+        []
+      ],
+      [
+        "Santiago de Cao",
+        [
+          "/wiki/Santiago_de_Cao"
+        ]
+      ],
+      [
+        "-- -",
+        []
+      ]
+    ],
+    [
+      [
+        "7°",
+        []
+      ],
+      [
+        "Paiján",
+        [
+          "/wiki/Paiján_District"
+        ]
+      ],
+      [
+        "-- -",
+        []
+      ],
+      [
+        "Paiján",
+        [
+          "/wiki/Paiján"
+        ]
+      ],
+      [
+        "-- -",
+        []
+      ]
+    ],
+    [
+      [
+        "8°",
+        []
+      ],
+      [
+        "Rázuri",
+        [
+          "/wiki/Rázuri_District"
+        ]
+      ],
+      [
+        "-- -",
+        []
+      ],
+      [
+        "Puerto Chicama",
+        [
+          "/wiki/Puerto_Chicama"
+        ]
+      ],
+      [
+        "-- -",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "5321b711-efc4-5c6c-8541-098269581165",
+    "table_id": "Ascope_Province_0",
+    "title": "Ascope Province",
+    "header": [
+      "Nº",
+      "District",
+      "Population Cens . 2007",
+      "Capital",
+      "Mayor"
+    ],
+    "value": [
+      [
+        [
+          "1°",
+          []
+        ],
+        [
+          "Ascope",
+          [
+            "/wiki/Ascope_District"
+          ]
+        ],
+        [
+          "-- -",
+          []
+        ],
+        [
+          "Ascope",
+          [
+            "/wiki/Ascope"
+          ]
+        ],
+        [
+          "-- -",
+          []
+        ]
+      ],
+      [
+        [
+          "2°",
+          []
+        ],
+        [
+          "Casa Grande",
+          [
+            "/wiki/Casa_Grande_District"
+          ]
+        ],
+        [
+          "-- -",
+          []
+        ],
+        [
+          "Casa Grande",
+          [
+            "/wiki/Casa_Grande,_Peru"
+          ]
+        ],
+        [
+          "-- -",
+          []
+        ]
+      ],
+      [
+        [
+          "3°",
+          []
+        ],
+        [
+          "Chicama",
+          [
+            "/wiki/Chicama_District"
+          ]
+        ],
+        [
+          "-- -",
+          []
+        ],
+        [
+          "Chicama",
+          [
+            "/wiki/Chicama,_Peru"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "4°",
+          []
+        ],
+        [
+          "Chocope",
+          [
+            "/wiki/Chocope_District"
+          ]
+        ],
+        [
+          "-- -",
+          []
+        ],
+        [
+          "Chocope",
+          [
+            "/wiki/Chocope"
+          ]
+        ],
+        [
+          "-- -",
+          []
+        ]
+      ],
+      [
+        [
+          "5°",
+          []
+        ],
+        [
+          "Magdalena de Cao",
+          [
+            "/wiki/Magdalena_de_Cao_District"
+          ]
+        ],
+        [
+          "-- -",
+          []
+        ],
+        [
+          "Magdalena de Cao",
+          [
+            "/wiki/Magdalena_de_Cao"
+          ]
+        ],
+        [
+          "-- -",
+          []
+        ]
+      ],
+      [
+        [
+          "6°",
+          []
+        ],
+        [
+          "Santiago de Cao",
+          [
+            "/wiki/Santiago_de_Cao_District"
+          ]
+        ],
+        [
+          "-- -",
+          []
+        ],
+        [
+          "Santiago de Cao",
+          [
+            "/wiki/Santiago_de_Cao"
+          ]
+        ],
+        [
+          "-- -",
+          []
+        ]
+      ],
+      [
+        [
+          "7°",
+          []
+        ],
+        [
+          "Paiján",
+          [
+            "/wiki/Paiján_District"
+          ]
+        ],
+        [
+          "-- -",
+          []
+        ],
+        [
+          "Paiján",
+          [
+            "/wiki/Paiján"
+          ]
+        ],
+        [
+          "-- -",
+          []
+        ]
+      ],
+      [
+        [
+          "8°",
+          []
+        ],
+        [
+          "Rázuri",
+          [
+            "/wiki/Rázuri_District"
+          ]
+        ],
+        [
+          "-- -",
+          []
+        ],
+        [
+          "Puerto Chicama",
+          [
+            "/wiki/Puerto_Chicama"
+          ]
+        ],
+        [
+          "-- -",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the districts in Ascope Province, including their names, population data from the 2007 census, capitals, and mayors. It appears to be designed to summarize administrative and demographic details for reference or analysis.",
+  "numeric_columns": [
+    "Population Cens . 2007"
+  ],
+  "categorical_columns": [
+    "Nº"
+  ],
+  "entities": [
+    "District",
+    "Capital",
+    "Mayor"
+  ]
+}

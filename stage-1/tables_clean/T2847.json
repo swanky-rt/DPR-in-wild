@@ -1,0 +1,558 @@
+{
+  "table_id": "T2847",
+  "uid": "92feedbb-f53c-5c51-aae4-82b5ab37569b",
+  "source": "HybridQA",
+  "source_table_id": "92feedbb-f53c-5c51-aae4-82b5ab37569b",
+  "domain": "HybridQA",
+  "title": "2012 Latvian Higher League",
+  "columns": [
+    "Team",
+    "Manager",
+    "Captain",
+    "Kit manufacturer",
+    "Shirt sponsor"
+  ],
+  "rows": [
+    [
+      [
+        "FC Daugava",
+        []
+      ],
+      [
+        "Ivan Tabanov",
+        [
+          "/wiki/Ivan_Tabanov"
+        ]
+      ],
+      [
+        "Jurijs Sokolovs",
+        []
+      ],
+      [
+        "Erreà",
+        [
+          "/wiki/Erreà"
+        ]
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        "FK Daugava Rīga",
+        []
+      ],
+      [
+        "Jurijs Popkovs",
+        [
+          "/wiki/Jurijs_Popkovs"
+        ]
+      ],
+      [
+        "Vadims Gospodars",
+        [
+          "/wiki/Vadims_Gospodars"
+        ]
+      ],
+      [
+        "Adidas",
+        [
+          "/wiki/Adidas"
+        ]
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        "FB Gulbene",
+        []
+      ],
+      [
+        "Mihails Koņevs",
+        []
+      ],
+      [
+        "Alberts Nikoļskis",
+        []
+      ],
+      [
+        "Erreà",
+        [
+          "/wiki/Erreà"
+        ]
+      ],
+      [
+        "Piebalga",
+        []
+      ]
+    ],
+    [
+      [
+        "FK Jelgava",
+        []
+      ],
+      [
+        "Dainis Kazakevičs",
+        []
+      ],
+      [
+        "Valērijs Redjko",
+        []
+      ],
+      [
+        "Macron",
+        [
+          "/wiki/Macron_(sportswear)"
+        ]
+      ],
+      [
+        "LDz Cargo",
+        []
+      ]
+    ],
+    [
+      [
+        "FC Jūrmala",
+        []
+      ],
+      [
+        "Vladimirs Pačko",
+        []
+      ],
+      [
+        "Maksims Daņilovs",
+        []
+      ],
+      [
+        "Givova",
+        []
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        "SK Liepājas Metalurgs",
+        []
+      ],
+      [
+        "Jānis Intenbergs",
+        []
+      ],
+      [
+        "Tomas Tamošauskas",
+        [
+          "/wiki/Tomas_Tamošauskas"
+        ]
+      ],
+      [
+        "Adidas",
+        [
+          "/wiki/Adidas"
+        ]
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        "FS Metta/LU",
+        []
+      ],
+      [
+        "Andris Riherts",
+        [
+          "/wiki/Andris_Riherts"
+        ]
+      ],
+      [
+        "Romāns Rožkovskis",
+        []
+      ],
+      [
+        "Nike",
+        [
+          "/wiki/Nike,_Inc."
+        ]
+      ],
+      [
+        "SMS Credit.lv",
+        []
+      ]
+    ],
+    [
+      [
+        "Skonto FC",
+        []
+      ],
+      [
+        "Marians Pahars",
+        [
+          "/wiki/Marians_Pahars"
+        ]
+      ],
+      [
+        "Germans Māliņš",
+        [
+          "/wiki/Germans_Māliņš"
+        ]
+      ],
+      [
+        "Kappa",
+        [
+          "/wiki/Kappa_(company)"
+        ]
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        "FK Spartaks Jūrmala",
+        []
+      ],
+      [
+        "Arminas Narbekovas",
+        [
+          "/wiki/Arminas_Narbekovas"
+        ]
+      ],
+      [
+        "Nauris Bulvītis",
+        [
+          "/wiki/Nauris_Bulvītis"
+        ]
+      ],
+      [
+        "Masita",
+        []
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        "FK Ventspils",
+        []
+      ],
+      [
+        "Jurģis Pučinskis",
+        [
+          "/wiki/Jurģis_Pučinskis"
+        ]
+      ],
+      [
+        "Vitālijs Smirnovs",
+        [
+          "/wiki/Vitālijs_Smirnovs"
+        ]
+      ],
+      [
+        "Adidas",
+        [
+          "/wiki/Adidas"
+        ]
+      ],
+      [
+        "VK Tranzīts",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "92feedbb-f53c-5c51-aae4-82b5ab37569b",
+    "table_id": "2012_Latvian_Higher_League_1",
+    "title": "2012 Latvian Higher League",
+    "header": [
+      "Team",
+      "Manager",
+      "Captain",
+      "Kit manufacturer",
+      "Shirt sponsor"
+    ],
+    "value": [
+      [
+        [
+          "FC Daugava",
+          []
+        ],
+        [
+          "Ivan Tabanov",
+          [
+            "/wiki/Ivan_Tabanov"
+          ]
+        ],
+        [
+          "Jurijs Sokolovs",
+          []
+        ],
+        [
+          "Erreà",
+          [
+            "/wiki/Erreà"
+          ]
+        ],
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        [
+          "FK Daugava Rīga",
+          []
+        ],
+        [
+          "Jurijs Popkovs",
+          [
+            "/wiki/Jurijs_Popkovs"
+          ]
+        ],
+        [
+          "Vadims Gospodars",
+          [
+            "/wiki/Vadims_Gospodars"
+          ]
+        ],
+        [
+          "Adidas",
+          [
+            "/wiki/Adidas"
+          ]
+        ],
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        [
+          "FB Gulbene",
+          []
+        ],
+        [
+          "Mihails Koņevs",
+          []
+        ],
+        [
+          "Alberts Nikoļskis",
+          []
+        ],
+        [
+          "Erreà",
+          [
+            "/wiki/Erreà"
+          ]
+        ],
+        [
+          "Piebalga",
+          []
+        ]
+      ],
+      [
+        [
+          "FK Jelgava",
+          []
+        ],
+        [
+          "Dainis Kazakevičs",
+          []
+        ],
+        [
+          "Valērijs Redjko",
+          []
+        ],
+        [
+          "Macron",
+          [
+            "/wiki/Macron_(sportswear)"
+          ]
+        ],
+        [
+          "LDz Cargo",
+          []
+        ]
+      ],
+      [
+        [
+          "FC Jūrmala",
+          []
+        ],
+        [
+          "Vladimirs Pačko",
+          []
+        ],
+        [
+          "Maksims Daņilovs",
+          []
+        ],
+        [
+          "Givova",
+          []
+        ],
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        [
+          "SK Liepājas Metalurgs",
+          []
+        ],
+        [
+          "Jānis Intenbergs",
+          []
+        ],
+        [
+          "Tomas Tamošauskas",
+          [
+            "/wiki/Tomas_Tamošauskas"
+          ]
+        ],
+        [
+          "Adidas",
+          [
+            "/wiki/Adidas"
+          ]
+        ],
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        [
+          "FS Metta/LU",
+          []
+        ],
+        [
+          "Andris Riherts",
+          [
+            "/wiki/Andris_Riherts"
+          ]
+        ],
+        [
+          "Romāns Rožkovskis",
+          []
+        ],
+        [
+          "Nike",
+          [
+            "/wiki/Nike,_Inc."
+          ]
+        ],
+        [
+          "SMS Credit.lv",
+          []
+        ]
+      ],
+      [
+        [
+          "Skonto FC",
+          []
+        ],
+        [
+          "Marians Pahars",
+          [
+            "/wiki/Marians_Pahars"
+          ]
+        ],
+        [
+          "Germans Māliņš",
+          [
+            "/wiki/Germans_Māliņš"
+          ]
+        ],
+        [
+          "Kappa",
+          [
+            "/wiki/Kappa_(company)"
+          ]
+        ],
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        [
+          "FK Spartaks Jūrmala",
+          []
+        ],
+        [
+          "Arminas Narbekovas",
+          [
+            "/wiki/Arminas_Narbekovas"
+          ]
+        ],
+        [
+          "Nauris Bulvītis",
+          [
+            "/wiki/Nauris_Bulvītis"
+          ]
+        ],
+        [
+          "Masita",
+          []
+        ],
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        [
+          "FK Ventspils",
+          []
+        ],
+        [
+          "Jurģis Pučinskis",
+          [
+            "/wiki/Jurģis_Pučinskis"
+          ]
+        ],
+        [
+          "Vitālijs Smirnovs",
+          [
+            "/wiki/Vitālijs_Smirnovs"
+          ]
+        ],
+        [
+          "Adidas",
+          [
+            "/wiki/Adidas"
+          ]
+        ],
+        [
+          "VK Tranzīts",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about teams in the 2012 Latvian Higher League, a football competition. It includes details about each team's manager, captain, kit manufacturer, and shirt sponsor, offering insights into organizational and sponsorship aspects of the league.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Kit manufacturer",
+    "Shirt sponsor"
+  ],
+  "entities": [
+    "Team",
+    "Manager",
+    "Captain"
+  ]
+}

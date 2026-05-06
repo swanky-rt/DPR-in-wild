@@ -1,0 +1,416 @@
+{
+  "table_id": "T8740",
+  "uid": "94e3999e-1d21-5df6-b166-fcb891d70f13",
+  "source": "HybridQA",
+  "source_table_id": "94e3999e-1d21-5df6-b166-fcb891d70f13",
+  "domain": "HybridQA",
+  "title": "List of islands of Scotland",
+  "columns": [
+    "Name",
+    "Island group / location",
+    "It actually is"
+  ],
+  "rows": [
+    [
+      [
+        "Barmore Island",
+        []
+      ],
+      [
+        "Knapdale",
+        [
+          "/wiki/Knapdale"
+        ]
+      ],
+      [
+        "part of mainland",
+        []
+      ]
+    ],
+    [
+      [
+        "Black Isle ( An t-Eilean Dubh )",
+        [
+          "/wiki/Black_Isle"
+        ]
+      ],
+      [
+        "Ross and Cromarty",
+        [
+          "/wiki/Ross_and_Cromarty"
+        ]
+      ],
+      [
+        "peninsula",
+        []
+      ]
+    ],
+    [
+      [
+        "Burntisland",
+        [
+          "/wiki/Burntisland"
+        ]
+      ],
+      [
+        "Fife",
+        [
+          "/wiki/Fife"
+        ]
+      ],
+      [
+        "part of mainland",
+        []
+      ]
+    ],
+    [
+      [
+        "Eilean Garbh",
+        []
+      ],
+      [
+        "Gigha",
+        [
+          "/wiki/Gigha"
+        ]
+      ],
+      [
+        "a peninsula of Gigha",
+        []
+      ]
+    ],
+    [
+      [
+        "Isle of Fethaland",
+        []
+      ],
+      [
+        "Shetland",
+        [
+          "/wiki/Shetland"
+        ]
+      ],
+      [
+        "place on mainland of Shetland",
+        []
+      ]
+    ],
+    [
+      [
+        "Gluss Isle",
+        []
+      ],
+      [
+        "Shetland",
+        [
+          "/wiki/Shetland"
+        ]
+      ],
+      [
+        "Now joined to mainland of Shetland",
+        []
+      ]
+    ],
+    [
+      [
+        "Isle of Harris ( Na Hearadh )",
+        [
+          "/wiki/Isle_of_Harris"
+        ]
+      ],
+      [
+        "Outer Hebrides",
+        [
+          "/wiki/Outer_Hebrides"
+        ]
+      ],
+      [
+        "part of an island",
+        []
+      ]
+    ],
+    [
+      [
+        "Isle of Lewis ( Eilean Leòdhais )",
+        [
+          "/wiki/Isle_of_Lewis"
+        ]
+      ],
+      [
+        "Outer Hebrides",
+        [
+          "/wiki/Outer_Hebrides"
+        ]
+      ],
+      [
+        "part of an island",
+        []
+      ]
+    ],
+    [
+      [
+        "Isleornsay ( Eilean Iarmain )",
+        [
+          "/wiki/Isleornsay"
+        ]
+      ],
+      [
+        "Skye",
+        [
+          "/wiki/Skye"
+        ]
+      ],
+      [
+        "place on Skye",
+        []
+      ]
+    ],
+    [
+      [
+        "Islesteps ( south of Dumfries )",
+        [
+          "/wiki/Dumfries"
+        ]
+      ],
+      [
+        "Dumfries and Galloway",
+        [
+          "/wiki/Dumfries_and_Galloway"
+        ]
+      ],
+      [
+        "inland place in Scotland",
+        []
+      ]
+    ],
+    [
+      [
+        "Isle of Whithorn",
+        [
+          "/wiki/Isle_of_Whithorn"
+        ]
+      ],
+      [
+        "Dumfries and Galloway",
+        [
+          "/wiki/Dumfries_and_Galloway"
+        ]
+      ],
+      [
+        "place on coast of Scotland",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "94e3999e-1d21-5df6-b166-fcb891d70f13",
+    "table_id": "List_of_islands_of_Scotland_6",
+    "title": "List of islands of Scotland",
+    "header": [
+      "Name",
+      "Island group / location",
+      "It actually is"
+    ],
+    "value": [
+      [
+        [
+          "Barmore Island",
+          []
+        ],
+        [
+          "Knapdale",
+          [
+            "/wiki/Knapdale"
+          ]
+        ],
+        [
+          "part of mainland",
+          []
+        ]
+      ],
+      [
+        [
+          "Black Isle ( An t-Eilean Dubh )",
+          [
+            "/wiki/Black_Isle"
+          ]
+        ],
+        [
+          "Ross and Cromarty",
+          [
+            "/wiki/Ross_and_Cromarty"
+          ]
+        ],
+        [
+          "peninsula",
+          []
+        ]
+      ],
+      [
+        [
+          "Burntisland",
+          [
+            "/wiki/Burntisland"
+          ]
+        ],
+        [
+          "Fife",
+          [
+            "/wiki/Fife"
+          ]
+        ],
+        [
+          "part of mainland",
+          []
+        ]
+      ],
+      [
+        [
+          "Eilean Garbh",
+          []
+        ],
+        [
+          "Gigha",
+          [
+            "/wiki/Gigha"
+          ]
+        ],
+        [
+          "a peninsula of Gigha",
+          []
+        ]
+      ],
+      [
+        [
+          "Isle of Fethaland",
+          []
+        ],
+        [
+          "Shetland",
+          [
+            "/wiki/Shetland"
+          ]
+        ],
+        [
+          "place on mainland of Shetland",
+          []
+        ]
+      ],
+      [
+        [
+          "Gluss Isle",
+          []
+        ],
+        [
+          "Shetland",
+          [
+            "/wiki/Shetland"
+          ]
+        ],
+        [
+          "Now joined to mainland of Shetland",
+          []
+        ]
+      ],
+      [
+        [
+          "Isle of Harris ( Na Hearadh )",
+          [
+            "/wiki/Isle_of_Harris"
+          ]
+        ],
+        [
+          "Outer Hebrides",
+          [
+            "/wiki/Outer_Hebrides"
+          ]
+        ],
+        [
+          "part of an island",
+          []
+        ]
+      ],
+      [
+        [
+          "Isle of Lewis ( Eilean Leòdhais )",
+          [
+            "/wiki/Isle_of_Lewis"
+          ]
+        ],
+        [
+          "Outer Hebrides",
+          [
+            "/wiki/Outer_Hebrides"
+          ]
+        ],
+        [
+          "part of an island",
+          []
+        ]
+      ],
+      [
+        [
+          "Isleornsay ( Eilean Iarmain )",
+          [
+            "/wiki/Isleornsay"
+          ]
+        ],
+        [
+          "Skye",
+          [
+            "/wiki/Skye"
+          ]
+        ],
+        [
+          "place on Skye",
+          []
+        ]
+      ],
+      [
+        [
+          "Islesteps ( south of Dumfries )",
+          [
+            "/wiki/Dumfries"
+          ]
+        ],
+        [
+          "Dumfries and Galloway",
+          [
+            "/wiki/Dumfries_and_Galloway"
+          ]
+        ],
+        [
+          "inland place in Scotland",
+          []
+        ]
+      ],
+      [
+        [
+          "Isle of Whithorn",
+          [
+            "/wiki/Isle_of_Whithorn"
+          ]
+        ],
+        [
+          "Dumfries and Galloway",
+          [
+            "/wiki/Dumfries_and_Galloway"
+          ]
+        ],
+        [
+          "place on coast of Scotland",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a list of islands in Scotland, detailing their names, associated island groups or locations, and clarifying whether they are actual islands or other geographical features. It serves as a reference for understanding the classification and geographical context of these locations.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Island group / location",
+    "It actually is"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

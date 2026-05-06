@@ -1,0 +1,393 @@
+{
+  "table_id": "T323",
+  "uid": "8545e69c-3090-55aa-aaaf-8464cce5694d",
+  "source": "HybridQA",
+  "source_table_id": "8545e69c-3090-55aa-aaaf-8464cce5694d",
+  "domain": "HybridQA",
+  "title": "Daytona State College",
+  "columns": [
+    "Name",
+    "Class year",
+    "Notability"
+  ],
+  "rows": [
+    [
+      [
+        "Herbert L. Becker",
+        [
+          "/wiki/Herbert_L._Becker"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "American actor , magician , entertainer and author",
+        []
+      ]
+    ],
+    [
+      [
+        "Tiffany Chan",
+        [
+          "/wiki/Tiffany_Chan"
+        ]
+      ],
+      [
+        2015,
+        []
+      ],
+      [
+        "Golfer and 2016 Olympian",
+        [
+          "/wiki/2016_Olympics"
+        ]
+      ]
+    ],
+    [
+      [
+        "Joyce Cusack",
+        [
+          "/wiki/Joyce_Cusack"
+        ]
+      ],
+      [
+        1971,
+        []
+      ],
+      [
+        "Member of the Florida House of Representatives",
+        [
+          "/wiki/Florida_House_of_Representatives"
+        ]
+      ]
+    ],
+    [
+      [
+        "Richard Gibbs",
+        [
+          "/wiki/Richard_Gibbs"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "American film composer and music producer",
+        []
+      ]
+    ],
+    [
+      [
+        "Solomon Jones",
+        [
+          "/wiki/Solomon_Jones_(basketball)"
+        ]
+      ],
+      [
+        2004,
+        []
+      ],
+      [
+        "NBA basketball player",
+        [
+          "/wiki/National_Basketball_Association"
+        ]
+      ]
+    ],
+    [
+      [
+        "Pat Meyers",
+        [
+          "/wiki/Pat_Meyers"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "LPGA golfer",
+        [
+          "/wiki/LPGA"
+        ]
+      ]
+    ],
+    [
+      [
+        "Clay Pickering",
+        [
+          "/wiki/Clay_Pickering"
+        ]
+      ],
+      [
+        1980,
+        []
+      ],
+      [
+        "former NFL player",
+        []
+      ]
+    ],
+    [
+      [
+        "Hal Prewitt",
+        [
+          "/wiki/Hal_Prewitt"
+        ]
+      ],
+      [
+        1976,
+        []
+      ],
+      [
+        "Artist , photographer , entrepreneur , racecar driver and inventor of personal computer technology",
+        [
+          "/wiki/Artist",
+          "/wiki/Photographer",
+          "/wiki/Entrepreneur",
+          "/wiki/Racecar_driver",
+          "/wiki/Computer_technology"
+        ]
+      ]
+    ],
+    [
+      [
+        "Dwayne L. Taylor",
+        [
+          "/wiki/Dwayne_L._Taylor"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "Member of the Florida House of Representatives",
+        [
+          "/wiki/Florida_House_of_Representatives"
+        ]
+      ]
+    ],
+    [
+      [
+        "Jamie Watson",
+        [
+          "/wiki/Jamie_Watson_(soccer)"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "Professional soccer player , currently with Orlando City",
+        [
+          "/wiki/Orlando_City_Soccer_Club"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "8545e69c-3090-55aa-aaaf-8464cce5694d",
+    "table_id": "Daytona_State_College_0",
+    "title": "Daytona State College",
+    "header": [
+      "Name",
+      "Class year",
+      "Notability"
+    ],
+    "value": [
+      [
+        [
+          "Herbert L. Becker",
+          [
+            "/wiki/Herbert_L._Becker"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "American actor , magician , entertainer and author",
+          []
+        ]
+      ],
+      [
+        [
+          "Tiffany Chan",
+          [
+            "/wiki/Tiffany_Chan"
+          ]
+        ],
+        [
+          2015,
+          []
+        ],
+        [
+          "Golfer and 2016 Olympian",
+          [
+            "/wiki/2016_Olympics"
+          ]
+        ]
+      ],
+      [
+        [
+          "Joyce Cusack",
+          [
+            "/wiki/Joyce_Cusack"
+          ]
+        ],
+        [
+          1971,
+          []
+        ],
+        [
+          "Member of the Florida House of Representatives",
+          [
+            "/wiki/Florida_House_of_Representatives"
+          ]
+        ]
+      ],
+      [
+        [
+          "Richard Gibbs",
+          [
+            "/wiki/Richard_Gibbs"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "American film composer and music producer",
+          []
+        ]
+      ],
+      [
+        [
+          "Solomon Jones",
+          [
+            "/wiki/Solomon_Jones_(basketball)"
+          ]
+        ],
+        [
+          2004,
+          []
+        ],
+        [
+          "NBA basketball player",
+          [
+            "/wiki/National_Basketball_Association"
+          ]
+        ]
+      ],
+      [
+        [
+          "Pat Meyers",
+          [
+            "/wiki/Pat_Meyers"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "LPGA golfer",
+          [
+            "/wiki/LPGA"
+          ]
+        ]
+      ],
+      [
+        [
+          "Clay Pickering",
+          [
+            "/wiki/Clay_Pickering"
+          ]
+        ],
+        [
+          1980,
+          []
+        ],
+        [
+          "former NFL player",
+          []
+        ]
+      ],
+      [
+        [
+          "Hal Prewitt",
+          [
+            "/wiki/Hal_Prewitt"
+          ]
+        ],
+        [
+          1976,
+          []
+        ],
+        [
+          "Artist , photographer , entrepreneur , racecar driver and inventor of personal computer technology",
+          [
+            "/wiki/Artist",
+            "/wiki/Photographer",
+            "/wiki/Entrepreneur",
+            "/wiki/Racecar_driver",
+            "/wiki/Computer_technology"
+          ]
+        ]
+      ],
+      [
+        [
+          "Dwayne L. Taylor",
+          [
+            "/wiki/Dwayne_L._Taylor"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "Member of the Florida House of Representatives",
+          [
+            "/wiki/Florida_House_of_Representatives"
+          ]
+        ]
+      ],
+      [
+        [
+          "Jamie Watson",
+          [
+            "/wiki/Jamie_Watson_(soccer)"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "Professional soccer player , currently with Orlando City",
+          [
+            "/wiki/Orlando_City_Soccer_Club"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table lists notable individuals associated with Daytona State College, including their names, class years, and areas of notability. It serves to highlight alumni or affiliates who have achieved recognition in various fields. The table combines biographical and categorical information to provide a snapshot of their accomplishments and connections to the college.",
+  "numeric_columns": [
+    "Class year"
+  ],
+  "categorical_columns": [
+    "Notability"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

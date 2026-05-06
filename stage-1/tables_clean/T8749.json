@@ -1,0 +1,449 @@
+{
+  "table_id": "T8749",
+  "uid": "dd2d0760-ccc6-5426-b166-66ab79475c34",
+  "source": "HybridQA",
+  "source_table_id": "dd2d0760-ccc6-5426-b166-66ab79475c34",
+  "domain": "HybridQA",
+  "title": "Latin American migration to the United Kingdom",
+  "columns": [
+    "Country of birth",
+    "Population ( 2011 census )",
+    "Corresponding article"
+  ],
+  "rows": [
+    [
+      [
+        "Brazil",
+        [
+          "/wiki/Brazil"
+        ]
+      ],
+      [
+        "52,148",
+        []
+      ],
+      [
+        "Brazilians in the United Kingdom",
+        [
+          "/wiki/Brazilians_in_the_United_Kingdom"
+        ]
+      ]
+    ],
+    [
+      [
+        "Colombia",
+        [
+          "/wiki/Colombia"
+        ]
+      ],
+      [
+        "25,761",
+        []
+      ],
+      [
+        "Colombians in the United Kingdom",
+        [
+          "/wiki/Colombians_in_the_United_Kingdom"
+        ]
+      ]
+    ],
+    [
+      [
+        "Argentina",
+        [
+          "/wiki/Argentina"
+        ]
+      ],
+      [
+        "10,550",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Mexico",
+        [
+          "/wiki/Mexico"
+        ]
+      ],
+      [
+        "9,771",
+        []
+      ],
+      [
+        "Mexicans in the United Kingdom",
+        [
+          "/wiki/Mexicans_in_the_United_Kingdom"
+        ]
+      ]
+    ],
+    [
+      [
+        "Venezuela",
+        [
+          "/wiki/Venezuela"
+        ]
+      ],
+      [
+        "9,150",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Ecuador",
+        [
+          "/wiki/Ecuador"
+        ]
+      ],
+      [
+        "8,767",
+        []
+      ],
+      [
+        "Ecuadorians in the United Kingdom",
+        [
+          "/wiki/Ecuadorians_in_the_United_Kingdom"
+        ]
+      ]
+    ],
+    [
+      [
+        "Peru",
+        [
+          "/wiki/Peru"
+        ]
+      ],
+      [
+        "7,246",
+        []
+      ],
+      [
+        "Peruvians in the United Kingdom",
+        [
+          "/wiki/Peruvians_in_the_United_Kingdom"
+        ]
+      ]
+    ],
+    [
+      [
+        "Chile",
+        [
+          "/wiki/Chile"
+        ]
+      ],
+      [
+        "7,130",
+        []
+      ],
+      [
+        "Chileans in the United Kingdom",
+        [
+          "/wiki/Chileans_in_the_United_Kingdom"
+        ]
+      ]
+    ],
+    [
+      [
+        "Bolivia",
+        [
+          "/wiki/Bolivia"
+        ]
+      ],
+      [
+        "3,765",
+        []
+      ],
+      [
+        "Bolivians in the United Kingdom",
+        [
+          "/wiki/Bolivians_in_the_United_Kingdom"
+        ]
+      ]
+    ],
+    [
+      [
+        "Cuba",
+        [
+          "/wiki/Cuba"
+        ]
+      ],
+      [
+        "2,481",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Dominican Republic",
+        [
+          "/wiki/Dominican_Republic"
+        ]
+      ],
+      [
+        "1,377",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Uruguay",
+        [
+          "/wiki/Uruguay"
+        ]
+      ],
+      [
+        "1,364",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "dd2d0760-ccc6-5426-b166-66ab79475c34",
+    "table_id": "Latin_American_migration_to_the_United_Kingdom_0",
+    "title": "Latin American migration to the United Kingdom",
+    "header": [
+      "Country of birth",
+      "Population ( 2011 census )",
+      "Corresponding article"
+    ],
+    "value": [
+      [
+        [
+          "Brazil",
+          [
+            "/wiki/Brazil"
+          ]
+        ],
+        [
+          "52,148",
+          []
+        ],
+        [
+          "Brazilians in the United Kingdom",
+          [
+            "/wiki/Brazilians_in_the_United_Kingdom"
+          ]
+        ]
+      ],
+      [
+        [
+          "Colombia",
+          [
+            "/wiki/Colombia"
+          ]
+        ],
+        [
+          "25,761",
+          []
+        ],
+        [
+          "Colombians in the United Kingdom",
+          [
+            "/wiki/Colombians_in_the_United_Kingdom"
+          ]
+        ]
+      ],
+      [
+        [
+          "Argentina",
+          [
+            "/wiki/Argentina"
+          ]
+        ],
+        [
+          "10,550",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Mexico",
+          [
+            "/wiki/Mexico"
+          ]
+        ],
+        [
+          "9,771",
+          []
+        ],
+        [
+          "Mexicans in the United Kingdom",
+          [
+            "/wiki/Mexicans_in_the_United_Kingdom"
+          ]
+        ]
+      ],
+      [
+        [
+          "Venezuela",
+          [
+            "/wiki/Venezuela"
+          ]
+        ],
+        [
+          "9,150",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Ecuador",
+          [
+            "/wiki/Ecuador"
+          ]
+        ],
+        [
+          "8,767",
+          []
+        ],
+        [
+          "Ecuadorians in the United Kingdom",
+          [
+            "/wiki/Ecuadorians_in_the_United_Kingdom"
+          ]
+        ]
+      ],
+      [
+        [
+          "Peru",
+          [
+            "/wiki/Peru"
+          ]
+        ],
+        [
+          "7,246",
+          []
+        ],
+        [
+          "Peruvians in the United Kingdom",
+          [
+            "/wiki/Peruvians_in_the_United_Kingdom"
+          ]
+        ]
+      ],
+      [
+        [
+          "Chile",
+          [
+            "/wiki/Chile"
+          ]
+        ],
+        [
+          "7,130",
+          []
+        ],
+        [
+          "Chileans in the United Kingdom",
+          [
+            "/wiki/Chileans_in_the_United_Kingdom"
+          ]
+        ]
+      ],
+      [
+        [
+          "Bolivia",
+          [
+            "/wiki/Bolivia"
+          ]
+        ],
+        [
+          "3,765",
+          []
+        ],
+        [
+          "Bolivians in the United Kingdom",
+          [
+            "/wiki/Bolivians_in_the_United_Kingdom"
+          ]
+        ]
+      ],
+      [
+        [
+          "Cuba",
+          [
+            "/wiki/Cuba"
+          ]
+        ],
+        [
+          "2,481",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Dominican Republic",
+          [
+            "/wiki/Dominican_Republic"
+          ]
+        ],
+        [
+          "1,377",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Uruguay",
+          [
+            "/wiki/Uruguay"
+          ]
+        ],
+        [
+          "1,364",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about Latin American migration to the United Kingdom, focusing on the population size of individuals born in various Latin American countries as recorded in the 2011 census. It also includes links to related articles for further details about specific migrant communities.",
+  "numeric_columns": [
+    "Population ( 2011 census )"
+  ],
+  "categorical_columns": [
+    "Corresponding article"
+  ],
+  "entities": [
+    "Country of birth"
+  ]
+}

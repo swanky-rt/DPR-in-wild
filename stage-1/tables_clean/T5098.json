@@ -1,0 +1,983 @@
+{
+  "table_id": "T5098",
+  "uid": "f474f874-aa5c-5d1d-9955-bf76decf2974",
+  "source": "HybridQA",
+  "source_table_id": "f474f874-aa5c-5d1d-9955-bf76decf2974",
+  "domain": "HybridQA",
+  "title": "Comparison of firewalls",
+  "columns": [
+    "Firewall",
+    "License",
+    "Cost",
+    "OS"
+  ],
+  "rows": [
+    [
+      [
+        "Clavister",
+        [
+          "/wiki/Clavister"
+        ]
+      ],
+      [
+        "Proprietary",
+        [
+          "/wiki/Proprietary_software"
+        ]
+      ],
+      [
+        "Included on all Clavister NGFWs",
+        []
+      ],
+      [
+        "Proprietary operating system cOS Core",
+        []
+      ]
+    ],
+    [
+      [
+        "Check Point",
+        [
+          "/wiki/Check_Point"
+        ]
+      ],
+      [
+        "Proprietary",
+        [
+          "/wiki/Proprietary_software"
+        ]
+      ],
+      [
+        "Included on Check Point security gateways",
+        []
+      ],
+      [
+        "Proprietary operating system Check Point IPSO and Gaia ( Linux -based )",
+        [
+          "/wiki/Check_Point_IPSO",
+          "/wiki/Linux"
+        ]
+      ]
+    ],
+    [
+      [
+        "FortiGate",
+        [
+          "/wiki/Fortinet"
+        ]
+      ],
+      [
+        "Proprietary",
+        [
+          "/wiki/Proprietary_software"
+        ]
+      ],
+      [
+        "Included on all Fortigate devices",
+        []
+      ],
+      [
+        "Proprietary , FortiOS , Based on the Linux kernel",
+        [
+          "/wiki/Linux"
+        ]
+      ]
+    ],
+    [
+      [
+        "Palo Alto Networks",
+        [
+          "/wiki/Palo_Alto_Networks"
+        ]
+      ],
+      [
+        "Proprietary",
+        [
+          "/wiki/Proprietary_software"
+        ]
+      ],
+      [
+        "Included on Palo Alto Networks firewalls",
+        []
+      ],
+      [
+        "Proprietary operating system PANOS",
+        []
+      ]
+    ],
+    [
+      [
+        "Sophos",
+        [
+          "/wiki/Sophos"
+        ]
+      ],
+      [
+        "Proprietary",
+        [
+          "/wiki/Proprietary_software"
+        ]
+      ],
+      [
+        "Included on Sophos UTM",
+        []
+      ],
+      [
+        "Linux -based appliance",
+        [
+          "/wiki/Linux"
+        ]
+      ]
+    ],
+    [
+      [
+        "Cisco ASA Firepower",
+        [
+          "/wiki/Sourcefire"
+        ]
+      ],
+      [
+        "Proprietary",
+        [
+          "/wiki/Proprietary_software"
+        ]
+      ],
+      [
+        "Included on all CISCO ASA devices",
+        []
+      ],
+      [
+        "Proprietary operating system",
+        []
+      ]
+    ],
+    [
+      [
+        "Cisco PIX",
+        [
+          "/wiki/Cisco_PIX"
+        ]
+      ],
+      [
+        "Proprietary",
+        [
+          "/wiki/Proprietary_software"
+        ]
+      ],
+      [
+        "Included on all CISCO PIX devices",
+        []
+      ],
+      [
+        "Proprietary operating system",
+        []
+      ]
+    ],
+    [
+      [
+        "Juniper SSG",
+        [
+          "/wiki/Juniper_Networks"
+        ]
+      ],
+      [
+        "Proprietary",
+        [
+          "/wiki/Proprietary_software"
+        ]
+      ],
+      [
+        "Included on Netscreen security gateways",
+        []
+      ],
+      [
+        "Proprietary operating system ScreenOS",
+        [
+          "/wiki/ScreenOS"
+        ]
+      ]
+    ],
+    [
+      [
+        "Juniper SRX",
+        [
+          "/wiki/Juniper_Networks"
+        ]
+      ],
+      [
+        "Proprietary",
+        [
+          "/wiki/Proprietary_software"
+        ]
+      ],
+      [
+        "Included on SRX security gateways",
+        []
+      ],
+      [
+        "Proprietary operating system Junos",
+        [
+          "/wiki/Junos"
+        ]
+      ]
+    ],
+    [
+      [
+        "Sonicwall",
+        [
+          "/wiki/Sonicwall"
+        ]
+      ],
+      [
+        "Proprietary",
+        [
+          "/wiki/Proprietary_software"
+        ]
+      ],
+      [
+        "Included on Dell appliance",
+        []
+      ],
+      [
+        "Proprietary operating system SonicOS Based on the Linux kernel",
+        [
+          "/wiki/Linux"
+        ]
+      ]
+    ],
+    [
+      [
+        "Barracuda Firewall",
+        [
+          "/wiki/Barracuda_Networks"
+        ]
+      ],
+      [
+        "Proprietary",
+        [
+          "/wiki/Proprietary_software"
+        ]
+      ],
+      [
+        "Included Firewall Next Generation appliance",
+        []
+      ],
+      [
+        "Windows -based appliance embedded firewall distribution",
+        [
+          "/wiki/Windows"
+        ]
+      ]
+    ],
+    [
+      [
+        "Cyberoam",
+        [
+          "/wiki/Cyberoam"
+        ]
+      ],
+      [
+        "Proprietary",
+        [
+          "/wiki/Proprietary_software"
+        ]
+      ],
+      [
+        "Included Firewall Sophos appliance",
+        []
+      ],
+      [
+        "Windows -based appliance embedded firewall distribution",
+        [
+          "/wiki/Windows"
+        ]
+      ]
+    ],
+    [
+      [
+        "D-Link",
+        [
+          "/wiki/D-Link"
+        ]
+      ],
+      [
+        "Proprietary",
+        [
+          "/wiki/Proprietary_software"
+        ]
+      ],
+      [
+        "Included Firewall DFL",
+        []
+      ],
+      [
+        "Windows -based appliance embedded firewall distribution",
+        [
+          "/wiki/Windows"
+        ]
+      ]
+    ],
+    [
+      [
+        "Endian Firewall",
+        [
+          "/wiki/Endian_Firewall"
+        ]
+      ],
+      [
+        "Proprietary",
+        [
+          "/wiki/Proprietary_software"
+        ]
+      ],
+      [
+        "Free / Paid",
+        []
+      ],
+      [
+        "Linux -based appliance",
+        [
+          "/wiki/Linux"
+        ]
+      ]
+    ],
+    [
+      [
+        "Forcepoint NGFW",
+        [
+          "/wiki/Forcepoint"
+        ]
+      ],
+      [
+        "Proprietary",
+        [
+          "/wiki/Proprietary_software"
+        ]
+      ],
+      [
+        "Included on all Forcepoint NGFW devices",
+        []
+      ],
+      [
+        "Proprietary operating system",
+        []
+      ]
+    ],
+    [
+      [
+        "OPNsense",
+        [
+          "/wiki/OPNsense"
+        ]
+      ],
+      [
+        "Simplified BSD / FreeBSD License",
+        [
+          "/wiki/Simplified_BSD_license"
+        ]
+      ],
+      [
+        "Free / Paid",
+        []
+      ],
+      [
+        "FreeBSD -based appliance firewall distribution",
+        [
+          "/wiki/FreeBSD"
+        ]
+      ]
+    ],
+    [
+      [
+        "pfSense",
+        [
+          "/wiki/PfSense"
+        ]
+      ],
+      [
+        "ESF/ Apache 2.0",
+        [
+          "/wiki/Apache_2.0"
+        ]
+      ],
+      [
+        "Free / Paid",
+        []
+      ],
+      [
+        "FreeBSD -based appliance firewall distribution",
+        [
+          "/wiki/FreeBSD"
+        ]
+      ]
+    ],
+    [
+      [
+        "Untangle",
+        [
+          "/wiki/Untangle"
+        ]
+      ],
+      [
+        "GPL",
+        [
+          "/wiki/GPL"
+        ]
+      ],
+      [
+        "Free / Paid",
+        []
+      ],
+      [
+        "Linux -based appliance firewall distribution",
+        [
+          "/wiki/Linux"
+        ]
+      ]
+    ],
+    [
+      [
+        "Zeroshell",
+        [
+          "/wiki/Zeroshell"
+        ]
+      ],
+      [
+        "GPL",
+        [
+          "/wiki/GPL"
+        ]
+      ],
+      [
+        "Free / Paid",
+        []
+      ],
+      [
+        "Linux / NanoBSD -based appliance firewall distribution",
+        [
+          "/wiki/Linux",
+          "/wiki/NanoBSD"
+        ]
+      ]
+    ],
+    [
+      [
+        "SmoothWall",
+        [
+          "/wiki/SmoothWall"
+        ]
+      ],
+      [
+        "GPL",
+        [
+          "/wiki/GPL"
+        ]
+      ],
+      [
+        "Free / Paid",
+        []
+      ],
+      [
+        "Linux -based appliance embedded firewall distribution",
+        [
+          "/wiki/Linux"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "f474f874-aa5c-5d1d-9955-bf76decf2974",
+    "table_id": "Comparison_of_firewalls_1",
+    "title": "Comparison of firewalls",
+    "header": [
+      "Firewall",
+      "License",
+      "Cost",
+      "OS"
+    ],
+    "value": [
+      [
+        [
+          "Clavister",
+          [
+            "/wiki/Clavister"
+          ]
+        ],
+        [
+          "Proprietary",
+          [
+            "/wiki/Proprietary_software"
+          ]
+        ],
+        [
+          "Included on all Clavister NGFWs",
+          []
+        ],
+        [
+          "Proprietary operating system cOS Core",
+          []
+        ]
+      ],
+      [
+        [
+          "Check Point",
+          [
+            "/wiki/Check_Point"
+          ]
+        ],
+        [
+          "Proprietary",
+          [
+            "/wiki/Proprietary_software"
+          ]
+        ],
+        [
+          "Included on Check Point security gateways",
+          []
+        ],
+        [
+          "Proprietary operating system Check Point IPSO and Gaia ( Linux -based )",
+          [
+            "/wiki/Check_Point_IPSO",
+            "/wiki/Linux"
+          ]
+        ]
+      ],
+      [
+        [
+          "FortiGate",
+          [
+            "/wiki/Fortinet"
+          ]
+        ],
+        [
+          "Proprietary",
+          [
+            "/wiki/Proprietary_software"
+          ]
+        ],
+        [
+          "Included on all Fortigate devices",
+          []
+        ],
+        [
+          "Proprietary , FortiOS , Based on the Linux kernel",
+          [
+            "/wiki/Linux"
+          ]
+        ]
+      ],
+      [
+        [
+          "Palo Alto Networks",
+          [
+            "/wiki/Palo_Alto_Networks"
+          ]
+        ],
+        [
+          "Proprietary",
+          [
+            "/wiki/Proprietary_software"
+          ]
+        ],
+        [
+          "Included on Palo Alto Networks firewalls",
+          []
+        ],
+        [
+          "Proprietary operating system PANOS",
+          []
+        ]
+      ],
+      [
+        [
+          "Sophos",
+          [
+            "/wiki/Sophos"
+          ]
+        ],
+        [
+          "Proprietary",
+          [
+            "/wiki/Proprietary_software"
+          ]
+        ],
+        [
+          "Included on Sophos UTM",
+          []
+        ],
+        [
+          "Linux -based appliance",
+          [
+            "/wiki/Linux"
+          ]
+        ]
+      ],
+      [
+        [
+          "Cisco ASA Firepower",
+          [
+            "/wiki/Sourcefire"
+          ]
+        ],
+        [
+          "Proprietary",
+          [
+            "/wiki/Proprietary_software"
+          ]
+        ],
+        [
+          "Included on all CISCO ASA devices",
+          []
+        ],
+        [
+          "Proprietary operating system",
+          []
+        ]
+      ],
+      [
+        [
+          "Cisco PIX",
+          [
+            "/wiki/Cisco_PIX"
+          ]
+        ],
+        [
+          "Proprietary",
+          [
+            "/wiki/Proprietary_software"
+          ]
+        ],
+        [
+          "Included on all CISCO PIX devices",
+          []
+        ],
+        [
+          "Proprietary operating system",
+          []
+        ]
+      ],
+      [
+        [
+          "Juniper SSG",
+          [
+            "/wiki/Juniper_Networks"
+          ]
+        ],
+        [
+          "Proprietary",
+          [
+            "/wiki/Proprietary_software"
+          ]
+        ],
+        [
+          "Included on Netscreen security gateways",
+          []
+        ],
+        [
+          "Proprietary operating system ScreenOS",
+          [
+            "/wiki/ScreenOS"
+          ]
+        ]
+      ],
+      [
+        [
+          "Juniper SRX",
+          [
+            "/wiki/Juniper_Networks"
+          ]
+        ],
+        [
+          "Proprietary",
+          [
+            "/wiki/Proprietary_software"
+          ]
+        ],
+        [
+          "Included on SRX security gateways",
+          []
+        ],
+        [
+          "Proprietary operating system Junos",
+          [
+            "/wiki/Junos"
+          ]
+        ]
+      ],
+      [
+        [
+          "Sonicwall",
+          [
+            "/wiki/Sonicwall"
+          ]
+        ],
+        [
+          "Proprietary",
+          [
+            "/wiki/Proprietary_software"
+          ]
+        ],
+        [
+          "Included on Dell appliance",
+          []
+        ],
+        [
+          "Proprietary operating system SonicOS Based on the Linux kernel",
+          [
+            "/wiki/Linux"
+          ]
+        ]
+      ],
+      [
+        [
+          "Barracuda Firewall",
+          [
+            "/wiki/Barracuda_Networks"
+          ]
+        ],
+        [
+          "Proprietary",
+          [
+            "/wiki/Proprietary_software"
+          ]
+        ],
+        [
+          "Included Firewall Next Generation appliance",
+          []
+        ],
+        [
+          "Windows -based appliance embedded firewall distribution",
+          [
+            "/wiki/Windows"
+          ]
+        ]
+      ],
+      [
+        [
+          "Cyberoam",
+          [
+            "/wiki/Cyberoam"
+          ]
+        ],
+        [
+          "Proprietary",
+          [
+            "/wiki/Proprietary_software"
+          ]
+        ],
+        [
+          "Included Firewall Sophos appliance",
+          []
+        ],
+        [
+          "Windows -based appliance embedded firewall distribution",
+          [
+            "/wiki/Windows"
+          ]
+        ]
+      ],
+      [
+        [
+          "D-Link",
+          [
+            "/wiki/D-Link"
+          ]
+        ],
+        [
+          "Proprietary",
+          [
+            "/wiki/Proprietary_software"
+          ]
+        ],
+        [
+          "Included Firewall DFL",
+          []
+        ],
+        [
+          "Windows -based appliance embedded firewall distribution",
+          [
+            "/wiki/Windows"
+          ]
+        ]
+      ],
+      [
+        [
+          "Endian Firewall",
+          [
+            "/wiki/Endian_Firewall"
+          ]
+        ],
+        [
+          "Proprietary",
+          [
+            "/wiki/Proprietary_software"
+          ]
+        ],
+        [
+          "Free / Paid",
+          []
+        ],
+        [
+          "Linux -based appliance",
+          [
+            "/wiki/Linux"
+          ]
+        ]
+      ],
+      [
+        [
+          "Forcepoint NGFW",
+          [
+            "/wiki/Forcepoint"
+          ]
+        ],
+        [
+          "Proprietary",
+          [
+            "/wiki/Proprietary_software"
+          ]
+        ],
+        [
+          "Included on all Forcepoint NGFW devices",
+          []
+        ],
+        [
+          "Proprietary operating system",
+          []
+        ]
+      ],
+      [
+        [
+          "OPNsense",
+          [
+            "/wiki/OPNsense"
+          ]
+        ],
+        [
+          "Simplified BSD / FreeBSD License",
+          [
+            "/wiki/Simplified_BSD_license"
+          ]
+        ],
+        [
+          "Free / Paid",
+          []
+        ],
+        [
+          "FreeBSD -based appliance firewall distribution",
+          [
+            "/wiki/FreeBSD"
+          ]
+        ]
+      ],
+      [
+        [
+          "pfSense",
+          [
+            "/wiki/PfSense"
+          ]
+        ],
+        [
+          "ESF/ Apache 2.0",
+          [
+            "/wiki/Apache_2.0"
+          ]
+        ],
+        [
+          "Free / Paid",
+          []
+        ],
+        [
+          "FreeBSD -based appliance firewall distribution",
+          [
+            "/wiki/FreeBSD"
+          ]
+        ]
+      ],
+      [
+        [
+          "Untangle",
+          [
+            "/wiki/Untangle"
+          ]
+        ],
+        [
+          "GPL",
+          [
+            "/wiki/GPL"
+          ]
+        ],
+        [
+          "Free / Paid",
+          []
+        ],
+        [
+          "Linux -based appliance firewall distribution",
+          [
+            "/wiki/Linux"
+          ]
+        ]
+      ],
+      [
+        [
+          "Zeroshell",
+          [
+            "/wiki/Zeroshell"
+          ]
+        ],
+        [
+          "GPL",
+          [
+            "/wiki/GPL"
+          ]
+        ],
+        [
+          "Free / Paid",
+          []
+        ],
+        [
+          "Linux / NanoBSD -based appliance firewall distribution",
+          [
+            "/wiki/Linux",
+            "/wiki/NanoBSD"
+          ]
+        ]
+      ],
+      [
+        [
+          "SmoothWall",
+          [
+            "/wiki/SmoothWall"
+          ]
+        ],
+        [
+          "GPL",
+          [
+            "/wiki/GPL"
+          ]
+        ],
+        [
+          "Free / Paid",
+          []
+        ],
+        [
+          "Linux -based appliance embedded firewall distribution",
+          [
+            "/wiki/Linux"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a comparison of various firewalls, detailing their licensing models, associated costs, and the operating systems they utilize. It is intended to help users understand the features and specifications of different firewall products.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "License",
+    "Cost",
+    "OS"
+  ],
+  "entities": [
+    "Firewall"
+  ]
+}

@@ -1,0 +1,500 @@
+{
+  "table_id": "T2159",
+  "uid": "c2dba2bd-252a-5a98-88dd-690913d9c9d6",
+  "source": "HybridQA",
+  "source_table_id": "c2dba2bd-252a-5a98-88dd-690913d9c9d6",
+  "domain": "HybridQA",
+  "title": "Club Fonograma",
+  "columns": [
+    "Order",
+    "Artist",
+    "Album",
+    "Country"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Café Tacuba",
+        [
+          "/wiki/Café_Tacuba"
+        ]
+      ],
+      [
+        "Cuatro Caminos",
+        [
+          "/wiki/Cuatro_Caminos_(album)"
+        ]
+      ],
+      [
+        "Mexico",
+        [
+          "/wiki/Mexico"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Javiera Mena",
+        [
+          "/wiki/Javiera_Mena"
+        ]
+      ],
+      [
+        "Esquemas Juveniles",
+        []
+      ],
+      [
+        "Chile",
+        [
+          "/wiki/Chile"
+        ]
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Porter",
+        [
+          "/wiki/Porter_(band)"
+        ]
+      ],
+      [
+        "Atemahawke",
+        [
+          "/wiki/Atemahawke"
+        ]
+      ],
+      [
+        "Mexico",
+        [
+          "/wiki/Mexico"
+        ]
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Julieta Venegas",
+        [
+          "/wiki/Julieta_Venegas"
+        ]
+      ],
+      [
+        "Bueninvento",
+        [
+          "/wiki/Bueninvento"
+        ]
+      ],
+      [
+        "Mexico",
+        [
+          "/wiki/Mexico"
+        ]
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Calle 13",
+        [
+          "/wiki/Calle_13_(band)"
+        ]
+      ],
+      [
+        "Residente o Visitante",
+        [
+          "/wiki/Residente_o_Visitante"
+        ]
+      ],
+      [
+        "Puerto Rico",
+        [
+          "/wiki/Puerto_Rico"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Emilio José",
+        []
+      ],
+      [
+        "Chorando Apréndese",
+        []
+      ],
+      [
+        "Spain",
+        [
+          "/wiki/Spain"
+        ]
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Natalia Lafourcade",
+        [
+          "/wiki/Natalia_Lafourcade"
+        ]
+      ],
+      [
+        "Hu Hu Hu",
+        [
+          "/wiki/Hu_Hu_Hu"
+        ]
+      ],
+      [
+        "Mexico",
+        [
+          "/wiki/Mexico"
+        ]
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Triángulo de Amor Bizarro",
+        [
+          "/wiki/Triángulo_de_Amor_Bizarro"
+        ]
+      ],
+      [
+        "Triángulo de Amor Bizarro",
+        [
+          "/wiki/Triángulo_de_Amor_Bizarro_(album)"
+        ]
+      ],
+      [
+        "Spain",
+        [
+          "/wiki/Spain"
+        ]
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "El Guincho",
+        [
+          "/wiki/El_Guincho"
+        ]
+      ],
+      [
+        "Alegranza !",
+        [
+          "/wiki/Alegranza_(album)"
+        ]
+      ],
+      [
+        "Spain",
+        [
+          "/wiki/Spain"
+        ]
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "En Ventura",
+        []
+      ],
+      [
+        "Los Gandharvas",
+        []
+      ],
+      [
+        "Mexico",
+        [
+          "/wiki/Mexico"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "c2dba2bd-252a-5a98-88dd-690913d9c9d6",
+    "table_id": "Club_Fonograma_0",
+    "title": "Club Fonograma",
+    "header": [
+      "Order",
+      "Artist",
+      "Album",
+      "Country"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Café Tacuba",
+          [
+            "/wiki/Café_Tacuba"
+          ]
+        ],
+        [
+          "Cuatro Caminos",
+          [
+            "/wiki/Cuatro_Caminos_(album)"
+          ]
+        ],
+        [
+          "Mexico",
+          [
+            "/wiki/Mexico"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Javiera Mena",
+          [
+            "/wiki/Javiera_Mena"
+          ]
+        ],
+        [
+          "Esquemas Juveniles",
+          []
+        ],
+        [
+          "Chile",
+          [
+            "/wiki/Chile"
+          ]
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Porter",
+          [
+            "/wiki/Porter_(band)"
+          ]
+        ],
+        [
+          "Atemahawke",
+          [
+            "/wiki/Atemahawke"
+          ]
+        ],
+        [
+          "Mexico",
+          [
+            "/wiki/Mexico"
+          ]
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Julieta Venegas",
+          [
+            "/wiki/Julieta_Venegas"
+          ]
+        ],
+        [
+          "Bueninvento",
+          [
+            "/wiki/Bueninvento"
+          ]
+        ],
+        [
+          "Mexico",
+          [
+            "/wiki/Mexico"
+          ]
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Calle 13",
+          [
+            "/wiki/Calle_13_(band)"
+          ]
+        ],
+        [
+          "Residente o Visitante",
+          [
+            "/wiki/Residente_o_Visitante"
+          ]
+        ],
+        [
+          "Puerto Rico",
+          [
+            "/wiki/Puerto_Rico"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Emilio José",
+          []
+        ],
+        [
+          "Chorando Apréndese",
+          []
+        ],
+        [
+          "Spain",
+          [
+            "/wiki/Spain"
+          ]
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Natalia Lafourcade",
+          [
+            "/wiki/Natalia_Lafourcade"
+          ]
+        ],
+        [
+          "Hu Hu Hu",
+          [
+            "/wiki/Hu_Hu_Hu"
+          ]
+        ],
+        [
+          "Mexico",
+          [
+            "/wiki/Mexico"
+          ]
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Triángulo de Amor Bizarro",
+          [
+            "/wiki/Triángulo_de_Amor_Bizarro"
+          ]
+        ],
+        [
+          "Triángulo de Amor Bizarro",
+          [
+            "/wiki/Triángulo_de_Amor_Bizarro_(album)"
+          ]
+        ],
+        [
+          "Spain",
+          [
+            "/wiki/Spain"
+          ]
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "El Guincho",
+          [
+            "/wiki/El_Guincho"
+          ]
+        ],
+        [
+          "Alegranza !",
+          [
+            "/wiki/Alegranza_(album)"
+          ]
+        ],
+        [
+          "Spain",
+          [
+            "/wiki/Spain"
+          ]
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "En Ventura",
+          []
+        ],
+        [
+          "Los Gandharvas",
+          []
+        ],
+        [
+          "Mexico",
+          [
+            "/wiki/Mexico"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about music albums, including their order in a list, the artist who created them, the album title, and the country associated with the artist. It appears to be a curated list, possibly for ranking or recommendation purposes, focusing on music and cultural context.",
+  "numeric_columns": [
+    "Order"
+  ],
+  "categorical_columns": [
+    "Album"
+  ],
+  "entities": [
+    "Artist",
+    "Country"
+  ]
+}

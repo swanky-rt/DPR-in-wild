@@ -1,0 +1,515 @@
+{
+  "table_id": "T2718",
+  "uid": "cc7cc9e0-de73-57ed-9975-a9c70e9155c8",
+  "source": "HybridQA",
+  "source_table_id": "cc7cc9e0-de73-57ed-9975-a9c70e9155c8",
+  "domain": "HybridQA",
+  "title": "2013 Esiliiga B",
+  "columns": [
+    "Team",
+    "Location",
+    "Stadium",
+    "Capacity"
+  ],
+  "rows": [
+    [
+      [
+        "Pärnu Linnameeskond",
+        [
+          "/wiki/Pärnu_Linnameeskond"
+        ]
+      ],
+      [
+        "Pärnu",
+        [
+          "/wiki/Pärnu"
+        ]
+      ],
+      [
+        "Pärnu Kalev Stadium",
+        [
+          "/wiki/Pärnu_Kalevi_staadion"
+        ]
+      ],
+      [
+        "1,900",
+        []
+      ]
+    ],
+    [
+      [
+        "Järve Kohtla-Järve",
+        [
+          "/wiki/Kohtla-Järve_JK_Järve"
+        ]
+      ],
+      [
+        "Kohtla-Järve",
+        [
+          "/wiki/Kohtla-Järve"
+        ]
+      ],
+      [
+        "Kohtla-Järve SPK Stadium",
+        [
+          "/wiki/Kohtla-Järve_Spordikeskuse_staadion"
+        ]
+      ],
+      [
+        780,
+        []
+      ]
+    ],
+    [
+      [
+        "HÜJK Emmaste",
+        [
+          "/wiki/HÜJK_Emmaste"
+        ]
+      ],
+      [
+        "Tallinn",
+        [
+          "/wiki/Tallinn"
+        ]
+      ],
+      [
+        "Männiku Stadium",
+        []
+      ],
+      [
+        "1,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Sillamäe Kalev II",
+        [
+          "/wiki/JK_Sillamäe_Kalev_II"
+        ]
+      ],
+      [
+        "Sillamäe",
+        [
+          "/wiki/Sillamäe"
+        ]
+      ],
+      [
+        "Sillamäe Kalev Stadium",
+        [
+          "/wiki/Sillamäe_Kalevi_Stadium"
+        ]
+      ],
+      [
+        500,
+        []
+      ]
+    ],
+    [
+      [
+        "Nõmme Kalju II",
+        [
+          "/wiki/JK_Nõmme_Kalju_II"
+        ]
+      ],
+      [
+        "Tallinn",
+        [
+          "/wiki/Tallinn"
+        ]
+      ],
+      [
+        "Hiiu Stadium",
+        [
+          "/wiki/Hiiu_Stadium"
+        ]
+      ],
+      [
+        "2,730",
+        []
+      ]
+    ],
+    [
+      [
+        "Elva",
+        [
+          "/wiki/FC_Elva"
+        ]
+      ],
+      [
+        "Elva",
+        [
+          "/wiki/Elva,_Estonia"
+        ]
+      ],
+      [
+        "Elva Stadium",
+        [
+          "/wiki/Elva_linnastaadion"
+        ]
+      ],
+      [
+        "1,500",
+        []
+      ]
+    ],
+    [
+      [
+        "Legion Tallinn",
+        [
+          "/wiki/Tallinna_JK_Legion"
+        ]
+      ],
+      [
+        "Tallinn",
+        [
+          "/wiki/Tallinn"
+        ]
+      ],
+      [
+        "Sportland Arena",
+        [
+          "/wiki/Sportland_Arena"
+        ]
+      ],
+      [
+        800,
+        []
+      ]
+    ],
+    [
+      [
+        "Ararat TTÜ Tallinn",
+        [
+          "/wiki/FC_Ararat_Tallinn"
+        ]
+      ],
+      [
+        "Tallinn",
+        [
+          "/wiki/Tallinn"
+        ]
+      ],
+      [
+        "Sportland Arena",
+        [
+          "/wiki/Sportland_Arena"
+        ]
+      ],
+      [
+        800,
+        []
+      ]
+    ],
+    [
+      [
+        "Dünamo Tallinn",
+        [
+          "/wiki/Tallinna_Dünamo"
+        ]
+      ],
+      [
+        "Tallinn",
+        [
+          "/wiki/Tallinn"
+        ]
+      ],
+      [
+        "Sõle Stadium",
+        []
+      ],
+      [
+        500,
+        []
+      ]
+    ],
+    [
+      [
+        "Flora III Tallinn",
+        [
+          "/wiki/FC_Flora_III_Tallinn"
+        ]
+      ],
+      [
+        "Tallinn",
+        [
+          "/wiki/Tallinn"
+        ]
+      ],
+      [
+        "Sportland Arena",
+        [
+          "/wiki/Sportland_Arena"
+        ]
+      ],
+      [
+        800,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "cc7cc9e0-de73-57ed-9975-a9c70e9155c8",
+    "table_id": "2013_Esiliiga_B_0",
+    "title": "2013 Esiliiga B",
+    "header": [
+      "Team",
+      "Location",
+      "Stadium",
+      "Capacity"
+    ],
+    "value": [
+      [
+        [
+          "Pärnu Linnameeskond",
+          [
+            "/wiki/Pärnu_Linnameeskond"
+          ]
+        ],
+        [
+          "Pärnu",
+          [
+            "/wiki/Pärnu"
+          ]
+        ],
+        [
+          "Pärnu Kalev Stadium",
+          [
+            "/wiki/Pärnu_Kalevi_staadion"
+          ]
+        ],
+        [
+          "1,900",
+          []
+        ]
+      ],
+      [
+        [
+          "Järve Kohtla-Järve",
+          [
+            "/wiki/Kohtla-Järve_JK_Järve"
+          ]
+        ],
+        [
+          "Kohtla-Järve",
+          [
+            "/wiki/Kohtla-Järve"
+          ]
+        ],
+        [
+          "Kohtla-Järve SPK Stadium",
+          [
+            "/wiki/Kohtla-Järve_Spordikeskuse_staadion"
+          ]
+        ],
+        [
+          780,
+          []
+        ]
+      ],
+      [
+        [
+          "HÜJK Emmaste",
+          [
+            "/wiki/HÜJK_Emmaste"
+          ]
+        ],
+        [
+          "Tallinn",
+          [
+            "/wiki/Tallinn"
+          ]
+        ],
+        [
+          "Männiku Stadium",
+          []
+        ],
+        [
+          "1,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Sillamäe Kalev II",
+          [
+            "/wiki/JK_Sillamäe_Kalev_II"
+          ]
+        ],
+        [
+          "Sillamäe",
+          [
+            "/wiki/Sillamäe"
+          ]
+        ],
+        [
+          "Sillamäe Kalev Stadium",
+          [
+            "/wiki/Sillamäe_Kalevi_Stadium"
+          ]
+        ],
+        [
+          500,
+          []
+        ]
+      ],
+      [
+        [
+          "Nõmme Kalju II",
+          [
+            "/wiki/JK_Nõmme_Kalju_II"
+          ]
+        ],
+        [
+          "Tallinn",
+          [
+            "/wiki/Tallinn"
+          ]
+        ],
+        [
+          "Hiiu Stadium",
+          [
+            "/wiki/Hiiu_Stadium"
+          ]
+        ],
+        [
+          "2,730",
+          []
+        ]
+      ],
+      [
+        [
+          "Elva",
+          [
+            "/wiki/FC_Elva"
+          ]
+        ],
+        [
+          "Elva",
+          [
+            "/wiki/Elva,_Estonia"
+          ]
+        ],
+        [
+          "Elva Stadium",
+          [
+            "/wiki/Elva_linnastaadion"
+          ]
+        ],
+        [
+          "1,500",
+          []
+        ]
+      ],
+      [
+        [
+          "Legion Tallinn",
+          [
+            "/wiki/Tallinna_JK_Legion"
+          ]
+        ],
+        [
+          "Tallinn",
+          [
+            "/wiki/Tallinn"
+          ]
+        ],
+        [
+          "Sportland Arena",
+          [
+            "/wiki/Sportland_Arena"
+          ]
+        ],
+        [
+          800,
+          []
+        ]
+      ],
+      [
+        [
+          "Ararat TTÜ Tallinn",
+          [
+            "/wiki/FC_Ararat_Tallinn"
+          ]
+        ],
+        [
+          "Tallinn",
+          [
+            "/wiki/Tallinn"
+          ]
+        ],
+        [
+          "Sportland Arena",
+          [
+            "/wiki/Sportland_Arena"
+          ]
+        ],
+        [
+          800,
+          []
+        ]
+      ],
+      [
+        [
+          "Dünamo Tallinn",
+          [
+            "/wiki/Tallinna_Dünamo"
+          ]
+        ],
+        [
+          "Tallinn",
+          [
+            "/wiki/Tallinn"
+          ]
+        ],
+        [
+          "Sõle Stadium",
+          []
+        ],
+        [
+          500,
+          []
+        ]
+      ],
+      [
+        [
+          "Flora III Tallinn",
+          [
+            "/wiki/FC_Flora_III_Tallinn"
+          ]
+        ],
+        [
+          "Tallinn",
+          [
+            "/wiki/Tallinn"
+          ]
+        ],
+        [
+          "Sportland Arena",
+          [
+            "/wiki/Sportland_Arena"
+          ]
+        ],
+        [
+          800,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about teams participating in the 2013 Esiliiga B, a football league. It includes details about each team's location, home stadium, and the stadium's seating capacity.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "Team",
+    "Location",
+    "Stadium"
+  ],
+  "entities": [
+    "Team",
+    "Location",
+    "Stadium"
+  ]
+}

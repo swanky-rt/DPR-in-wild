@@ -1,0 +1,519 @@
+{
+  "table_id": "T8583",
+  "uid": "c72ffe12-2cda-509d-ab4f-cc98ff366fc9",
+  "source": "HybridQA",
+  "source_table_id": "c72ffe12-2cda-509d-ab4f-cc98ff366fc9",
+  "domain": "HybridQA",
+  "title": "NYC 22",
+  "columns": [
+    "Country",
+    "Network ( s )",
+    "Series premiere",
+    "Timeslot"
+  ],
+  "rows": [
+    [
+      [
+        "Brazil",
+        [
+          "/wiki/Brazil"
+        ]
+      ],
+      [
+        "Universal Channel Brasil",
+        [
+          "/wiki/Globosat"
+        ]
+      ],
+      [
+        "July 1 , 2012",
+        []
+      ],
+      [
+        "Sundays at 17:00",
+        []
+      ]
+    ],
+    [
+      [
+        "Canada",
+        [
+          "/wiki/Canada"
+        ]
+      ],
+      [
+        "Global",
+        [
+          "/wiki/Global_Television_Network"
+        ]
+      ],
+      [
+        "April 15 , 2012",
+        []
+      ],
+      [
+        "Sundays at 10:00 pm",
+        []
+      ]
+    ],
+    [
+      [
+        "Portugal",
+        [
+          "/wiki/Portugal"
+        ]
+      ],
+      [
+        "TV Séries HD",
+        [
+          "/wiki/TVCine"
+        ]
+      ],
+      [
+        "May 7 , 2012",
+        []
+      ],
+      [
+        "Mondays at 10:10 pm",
+        []
+      ]
+    ],
+    [
+      [
+        "Peru",
+        [
+          "/wiki/Peru"
+        ]
+      ],
+      [
+        "Universal Channel",
+        [
+          "/wiki/Universal_Channel"
+        ]
+      ],
+      [
+        "July 7 , 2012",
+        []
+      ],
+      [
+        "Saturdays 6:00 pm",
+        []
+      ]
+    ],
+    [
+      [
+        "Malaysia",
+        [
+          "/wiki/Malaysia"
+        ]
+      ],
+      [
+        "BeTV",
+        [
+          "/wiki/BeTV_(Asia_Pacific)"
+        ]
+      ],
+      [
+        "October 5 , 2012",
+        []
+      ],
+      [
+        "Friday 9:20 pm",
+        []
+      ]
+    ],
+    [
+      [
+        "Turkey",
+        [
+          "/wiki/Turkey"
+        ]
+      ],
+      [
+        "Fox Crime",
+        [
+          "/wiki/Fox_Crime"
+        ]
+      ],
+      [
+        "November 23 , 2012",
+        []
+      ],
+      [
+        "Fridays 11:00 pm",
+        []
+      ]
+    ],
+    [
+      [
+        "Greece",
+        [
+          "/wiki/Greece"
+        ]
+      ],
+      [
+        "Skai TV",
+        [
+          "/wiki/Skai_TV"
+        ]
+      ],
+      [
+        "March 5 , 2013",
+        []
+      ],
+      [
+        "Tuesdays 10:00 pm",
+        []
+      ]
+    ],
+    [
+      [
+        "France",
+        [
+          "/wiki/France"
+        ]
+      ],
+      [
+        "Série Club",
+        []
+      ],
+      [
+        "March 24 , 2013",
+        []
+      ],
+      [
+        "Sunday 8:50 pm",
+        []
+      ]
+    ],
+    [
+      [
+        "New Zealand",
+        [
+          "/wiki/New_Zealand"
+        ]
+      ],
+      [
+        "FOUR",
+        [
+          "/wiki/FOUR"
+        ]
+      ],
+      [
+        "December 2 , 2013",
+        []
+      ],
+      [
+        "Tuesdays 10:30 pm",
+        []
+      ]
+    ],
+    [
+      [
+        "Ireland",
+        [
+          "/wiki/Republic_of_Ireland"
+        ]
+      ],
+      [
+        "RTÉ Two",
+        [
+          "/wiki/RTÉ_Two"
+        ]
+      ],
+      [
+        "February 6 , 2013",
+        []
+      ],
+      [
+        "Premiered Thurs 12.40am",
+        []
+      ]
+    ],
+    [
+      [
+        "Mexico",
+        [
+          "/wiki/Mexico"
+        ]
+      ],
+      [
+        "Canal 5",
+        [
+          "/wiki/Canal_5_(Televisa_Network)"
+        ]
+      ],
+      [
+        2014,
+        []
+      ],
+      [
+        "TBA",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "c72ffe12-2cda-509d-ab4f-cc98ff366fc9",
+    "table_id": "NYC_22_0",
+    "title": "NYC 22",
+    "header": [
+      "Country",
+      "Network ( s )",
+      "Series premiere",
+      "Timeslot"
+    ],
+    "value": [
+      [
+        [
+          "Brazil",
+          [
+            "/wiki/Brazil"
+          ]
+        ],
+        [
+          "Universal Channel Brasil",
+          [
+            "/wiki/Globosat"
+          ]
+        ],
+        [
+          "July 1 , 2012",
+          []
+        ],
+        [
+          "Sundays at 17:00",
+          []
+        ]
+      ],
+      [
+        [
+          "Canada",
+          [
+            "/wiki/Canada"
+          ]
+        ],
+        [
+          "Global",
+          [
+            "/wiki/Global_Television_Network"
+          ]
+        ],
+        [
+          "April 15 , 2012",
+          []
+        ],
+        [
+          "Sundays at 10:00 pm",
+          []
+        ]
+      ],
+      [
+        [
+          "Portugal",
+          [
+            "/wiki/Portugal"
+          ]
+        ],
+        [
+          "TV Séries HD",
+          [
+            "/wiki/TVCine"
+          ]
+        ],
+        [
+          "May 7 , 2012",
+          []
+        ],
+        [
+          "Mondays at 10:10 pm",
+          []
+        ]
+      ],
+      [
+        [
+          "Peru",
+          [
+            "/wiki/Peru"
+          ]
+        ],
+        [
+          "Universal Channel",
+          [
+            "/wiki/Universal_Channel"
+          ]
+        ],
+        [
+          "July 7 , 2012",
+          []
+        ],
+        [
+          "Saturdays 6:00 pm",
+          []
+        ]
+      ],
+      [
+        [
+          "Malaysia",
+          [
+            "/wiki/Malaysia"
+          ]
+        ],
+        [
+          "BeTV",
+          [
+            "/wiki/BeTV_(Asia_Pacific)"
+          ]
+        ],
+        [
+          "October 5 , 2012",
+          []
+        ],
+        [
+          "Friday 9:20 pm",
+          []
+        ]
+      ],
+      [
+        [
+          "Turkey",
+          [
+            "/wiki/Turkey"
+          ]
+        ],
+        [
+          "Fox Crime",
+          [
+            "/wiki/Fox_Crime"
+          ]
+        ],
+        [
+          "November 23 , 2012",
+          []
+        ],
+        [
+          "Fridays 11:00 pm",
+          []
+        ]
+      ],
+      [
+        [
+          "Greece",
+          [
+            "/wiki/Greece"
+          ]
+        ],
+        [
+          "Skai TV",
+          [
+            "/wiki/Skai_TV"
+          ]
+        ],
+        [
+          "March 5 , 2013",
+          []
+        ],
+        [
+          "Tuesdays 10:00 pm",
+          []
+        ]
+      ],
+      [
+        [
+          "France",
+          [
+            "/wiki/France"
+          ]
+        ],
+        [
+          "Série Club",
+          []
+        ],
+        [
+          "March 24 , 2013",
+          []
+        ],
+        [
+          "Sunday 8:50 pm",
+          []
+        ]
+      ],
+      [
+        [
+          "New Zealand",
+          [
+            "/wiki/New_Zealand"
+          ]
+        ],
+        [
+          "FOUR",
+          [
+            "/wiki/FOUR"
+          ]
+        ],
+        [
+          "December 2 , 2013",
+          []
+        ],
+        [
+          "Tuesdays 10:30 pm",
+          []
+        ]
+      ],
+      [
+        [
+          "Ireland",
+          [
+            "/wiki/Republic_of_Ireland"
+          ]
+        ],
+        [
+          "RTÉ Two",
+          [
+            "/wiki/RTÉ_Two"
+          ]
+        ],
+        [
+          "February 6 , 2013",
+          []
+        ],
+        [
+          "Premiered Thurs 12.40am",
+          []
+        ]
+      ],
+      [
+        [
+          "Mexico",
+          [
+            "/wiki/Mexico"
+          ]
+        ],
+        [
+          "Canal 5",
+          [
+            "/wiki/Canal_5_(Televisa_Network)"
+          ]
+        ],
+        [
+          2014,
+          []
+        ],
+        [
+          "TBA",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the airing details of the TV series 'NYC 22' across different countries. It includes the country of broadcast, the network airing the show, the series premiere date, and the timeslot for airing. The table is useful for understanding the international distribution and scheduling of the series.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Timeslot"
+  ],
+  "entities": [
+    "Country",
+    "Network ( s )",
+    "Series premiere"
+  ]
+}

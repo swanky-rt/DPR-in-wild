@@ -1,0 +1,411 @@
+{
+  "table_id": "T6888",
+  "uid": "c1fb7e48-6364-5f68-955b-cbe4c8022998",
+  "source": "HybridQA",
+  "source_table_id": "c1fb7e48-6364-5f68-955b-cbe4c8022998",
+  "domain": "HybridQA",
+  "title": "List of Indian state animals",
+  "columns": [
+    "Union territory",
+    "Common name",
+    "Binomial name",
+    "IUCN Category"
+  ],
+  "rows": [
+    [
+      [
+        "Andaman and Nicobar Islands",
+        [
+          "/wiki/Andaman_and_Nicobar_Islands"
+        ]
+      ],
+      [
+        "Dugong",
+        [
+          "/wiki/Dugong"
+        ]
+      ],
+      [
+        "Dugong dugon",
+        [
+          "/wiki/Dugong_dugon"
+        ]
+      ],
+      [
+        "VU",
+        []
+      ]
+    ],
+    [
+      [
+        "Chandigarh",
+        [
+          "/wiki/Chandigarh"
+        ]
+      ],
+      [
+        "Indian Gray Mongoose",
+        [
+          "/wiki/Indian_gray_mongoose"
+        ]
+      ],
+      [
+        "Herpestes edwardsi",
+        []
+      ],
+      [
+        "LC",
+        []
+      ]
+    ],
+    [
+      [
+        "Dadra and Nagar Haveli and Daman and Diu",
+        [
+          "/wiki/Dadra_and_Nagar_Haveli_and_Daman_and_Diu"
+        ]
+      ],
+      [
+        "Not yet designated",
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Delhi",
+        [
+          "/wiki/Delhi"
+        ]
+      ],
+      [
+        "Nilgai",
+        [
+          "/wiki/Nilgai"
+        ]
+      ],
+      [
+        "Boselaphus tragocamelus",
+        [
+          "/wiki/Boselaphus_tragocamelus"
+        ]
+      ],
+      [
+        "LC",
+        []
+      ]
+    ],
+    [
+      [
+        "Jammu and Kashmir",
+        [
+          "/wiki/Jammu_and_Kashmir_(union_territory)"
+        ]
+      ],
+      [
+        "Kashmir stag /Hangul",
+        [
+          "/wiki/Kashmir_stag"
+        ]
+      ],
+      [
+        "Cervus elaphus hanglu",
+        [
+          "/wiki/Cervus_elaphus_hanglu"
+        ]
+      ],
+      [
+        "CR",
+        []
+      ]
+    ],
+    [
+      [
+        "Ladakh",
+        [
+          "/wiki/Ladakh"
+        ]
+      ],
+      [
+        "Domestic yak",
+        [
+          "/wiki/Domestic_yak"
+        ]
+      ],
+      [
+        "Bos grunniens",
+        [
+          "/wiki/Bos_grunniens"
+        ]
+      ],
+      [
+        "D",
+        []
+      ]
+    ],
+    [
+      [
+        "Lakshadweep",
+        [
+          "/wiki/Lakshadweep"
+        ]
+      ],
+      [
+        "Butterfly fish",
+        [
+          "/wiki/Indian_vagabond_butterflyfish"
+        ]
+      ],
+      [
+        "Chaetodon decussatus",
+        [
+          "/wiki/Chaetodon_decussatus"
+        ]
+      ],
+      [
+        "NT",
+        []
+      ]
+    ],
+    [
+      [
+        "Puducherry",
+        [
+          "/wiki/Puducherry"
+        ]
+      ],
+      [
+        "Indian palm squirrel",
+        [
+          "/wiki/Indian_palm_squirrel"
+        ]
+      ],
+      [
+        "Funambulus palmarum",
+        [
+          "/wiki/Funambulus_palmarum"
+        ]
+      ],
+      [
+        "LC",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "c1fb7e48-6364-5f68-955b-cbe4c8022998",
+    "table_id": "List_of_Indian_state_animals_1",
+    "title": "List of Indian state animals",
+    "header": [
+      "Union territory",
+      "Common name",
+      "Binomial name",
+      "IUCN Category"
+    ],
+    "value": [
+      [
+        [
+          "Andaman and Nicobar Islands",
+          [
+            "/wiki/Andaman_and_Nicobar_Islands"
+          ]
+        ],
+        [
+          "Dugong",
+          [
+            "/wiki/Dugong"
+          ]
+        ],
+        [
+          "Dugong dugon",
+          [
+            "/wiki/Dugong_dugon"
+          ]
+        ],
+        [
+          "VU",
+          []
+        ]
+      ],
+      [
+        [
+          "Chandigarh",
+          [
+            "/wiki/Chandigarh"
+          ]
+        ],
+        [
+          "Indian Gray Mongoose",
+          [
+            "/wiki/Indian_gray_mongoose"
+          ]
+        ],
+        [
+          "Herpestes edwardsi",
+          []
+        ],
+        [
+          "LC",
+          []
+        ]
+      ],
+      [
+        [
+          "Dadra and Nagar Haveli and Daman and Diu",
+          [
+            "/wiki/Dadra_and_Nagar_Haveli_and_Daman_and_Diu"
+          ]
+        ],
+        [
+          "Not yet designated",
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Delhi",
+          [
+            "/wiki/Delhi"
+          ]
+        ],
+        [
+          "Nilgai",
+          [
+            "/wiki/Nilgai"
+          ]
+        ],
+        [
+          "Boselaphus tragocamelus",
+          [
+            "/wiki/Boselaphus_tragocamelus"
+          ]
+        ],
+        [
+          "LC",
+          []
+        ]
+      ],
+      [
+        [
+          "Jammu and Kashmir",
+          [
+            "/wiki/Jammu_and_Kashmir_(union_territory)"
+          ]
+        ],
+        [
+          "Kashmir stag /Hangul",
+          [
+            "/wiki/Kashmir_stag"
+          ]
+        ],
+        [
+          "Cervus elaphus hanglu",
+          [
+            "/wiki/Cervus_elaphus_hanglu"
+          ]
+        ],
+        [
+          "CR",
+          []
+        ]
+      ],
+      [
+        [
+          "Ladakh",
+          [
+            "/wiki/Ladakh"
+          ]
+        ],
+        [
+          "Domestic yak",
+          [
+            "/wiki/Domestic_yak"
+          ]
+        ],
+        [
+          "Bos grunniens",
+          [
+            "/wiki/Bos_grunniens"
+          ]
+        ],
+        [
+          "D",
+          []
+        ]
+      ],
+      [
+        [
+          "Lakshadweep",
+          [
+            "/wiki/Lakshadweep"
+          ]
+        ],
+        [
+          "Butterfly fish",
+          [
+            "/wiki/Indian_vagabond_butterflyfish"
+          ]
+        ],
+        [
+          "Chaetodon decussatus",
+          [
+            "/wiki/Chaetodon_decussatus"
+          ]
+        ],
+        [
+          "NT",
+          []
+        ]
+      ],
+      [
+        [
+          "Puducherry",
+          [
+            "/wiki/Puducherry"
+          ]
+        ],
+        [
+          "Indian palm squirrel",
+          [
+            "/wiki/Indian_palm_squirrel"
+          ]
+        ],
+        [
+          "Funambulus palmarum",
+          [
+            "/wiki/Funambulus_palmarum"
+          ]
+        ],
+        [
+          "LC",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a list of Indian state and union territory animals, detailing their common names, scientific (binomial) names, and conservation status as per the IUCN category. It is intended to document the official animal symbols for different regions in India and their ecological significance.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Common name",
+    "IUCN Category"
+  ],
+  "entities": [
+    "Union territory",
+    "Binomial name"
+  ]
+}

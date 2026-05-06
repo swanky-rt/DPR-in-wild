@@ -1,0 +1,511 @@
+{
+  "table_id": "T9253",
+  "uid": "042ebcd8-ffc3-5831-802e-130e11dbbee1",
+  "source": "HybridQA",
+  "source_table_id": "042ebcd8-ffc3-5831-802e-130e11dbbee1",
+  "domain": "HybridQA",
+  "title": "List of UMTS networks",
+  "columns": [
+    "Operator",
+    "Country",
+    "Frequency ( MHz )",
+    "Band",
+    "Launch date"
+  ],
+  "rows": [
+    [
+      [
+        "Algar Telecom",
+        [
+          "/wiki/Companhia_de_Telecomunicações_do_Brasil_Central"
+        ]
+      ],
+      [
+        "Brazil",
+        [
+          "/wiki/Brazil"
+        ]
+      ],
+      [
+        2100,
+        []
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "Apr 2008",
+        []
+      ]
+    ],
+    [
+      [
+        "Claro",
+        [
+          "/wiki/Claro_Americas"
+        ]
+      ],
+      [
+        "Brazil",
+        [
+          "/wiki/Brazil"
+        ]
+      ],
+      [
+        "850 / 2100",
+        []
+      ],
+      [
+        "5 / 1",
+        []
+      ],
+      [
+        "Nov 2007 / Dec 2011",
+        []
+      ]
+    ],
+    [
+      [
+        "Nextel",
+        [
+          "/wiki/Nextel_Communications"
+        ]
+      ],
+      [
+        "Brazil",
+        [
+          "/wiki/Brazil"
+        ]
+      ],
+      [
+        2100,
+        []
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "Oct 2013",
+        []
+      ]
+    ],
+    [
+      [
+        "TIM",
+        [
+          "/wiki/TIM_Brasil"
+        ]
+      ],
+      [
+        "Brazil",
+        [
+          "/wiki/Brazil"
+        ]
+      ],
+      [
+        "850 / 900 / 2100",
+        []
+      ],
+      [
+        "5 / 8 / 1",
+        []
+      ],
+      [
+        "Apr 2008 / Oct 2010",
+        []
+      ]
+    ],
+    [
+      [
+        "Vivo",
+        [
+          "/wiki/Vivo_(telecommunications)"
+        ]
+      ],
+      [
+        "Brazil",
+        [
+          "/wiki/Brazil"
+        ]
+      ],
+      [
+        "850 / 2100",
+        []
+      ],
+      [
+        "5 / 1",
+        []
+      ],
+      [
+        "Nov 2011",
+        []
+      ]
+    ],
+    [
+      [
+        "Digicel",
+        [
+          "/wiki/Digicel"
+        ]
+      ],
+      [
+        "El Salvador",
+        [
+          "/wiki/El_Salvador"
+        ]
+      ],
+      [
+        900,
+        []
+      ],
+      [
+        8,
+        []
+      ],
+      [
+        "Jan 2014",
+        []
+      ]
+    ],
+    [
+      [
+        "AT & T",
+        [
+          "/wiki/AT&T_Mexico"
+        ]
+      ],
+      [
+        "Mexico",
+        [
+          "/wiki/Mexico"
+        ]
+      ],
+      [
+        "1900 / 1700",
+        []
+      ],
+      [
+        "2 / 4",
+        []
+      ],
+      [
+        "Sep 2012",
+        []
+      ]
+    ],
+    [
+      [
+        "ANTEL",
+        [
+          "/wiki/ANTEL"
+        ]
+      ],
+      [
+        "Uruguay",
+        [
+          "/wiki/Uruguay"
+        ]
+      ],
+      [
+        2100,
+        []
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "Jul 2007",
+        []
+      ]
+    ],
+    [
+      [
+        "Digitel",
+        [
+          "/wiki/Digitel_GSM"
+        ]
+      ],
+      [
+        "Venezuela",
+        [
+          "/wiki/Venezuela"
+        ]
+      ],
+      [
+        900,
+        []
+      ],
+      [
+        8,
+        []
+      ],
+      [
+        "Mar 2009",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "042ebcd8-ffc3-5831-802e-130e11dbbee1",
+    "table_id": "List_of_UMTS_networks_2",
+    "title": "List of UMTS networks",
+    "header": [
+      "Operator",
+      "Country",
+      "Frequency ( MHz )",
+      "Band",
+      "Launch date"
+    ],
+    "value": [
+      [
+        [
+          "Algar Telecom",
+          [
+            "/wiki/Companhia_de_Telecomunicações_do_Brasil_Central"
+          ]
+        ],
+        [
+          "Brazil",
+          [
+            "/wiki/Brazil"
+          ]
+        ],
+        [
+          2100,
+          []
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "Apr 2008",
+          []
+        ]
+      ],
+      [
+        [
+          "Claro",
+          [
+            "/wiki/Claro_Americas"
+          ]
+        ],
+        [
+          "Brazil",
+          [
+            "/wiki/Brazil"
+          ]
+        ],
+        [
+          "850 / 2100",
+          []
+        ],
+        [
+          "5 / 1",
+          []
+        ],
+        [
+          "Nov 2007 / Dec 2011",
+          []
+        ]
+      ],
+      [
+        [
+          "Nextel",
+          [
+            "/wiki/Nextel_Communications"
+          ]
+        ],
+        [
+          "Brazil",
+          [
+            "/wiki/Brazil"
+          ]
+        ],
+        [
+          2100,
+          []
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "Oct 2013",
+          []
+        ]
+      ],
+      [
+        [
+          "TIM",
+          [
+            "/wiki/TIM_Brasil"
+          ]
+        ],
+        [
+          "Brazil",
+          [
+            "/wiki/Brazil"
+          ]
+        ],
+        [
+          "850 / 900 / 2100",
+          []
+        ],
+        [
+          "5 / 8 / 1",
+          []
+        ],
+        [
+          "Apr 2008 / Oct 2010",
+          []
+        ]
+      ],
+      [
+        [
+          "Vivo",
+          [
+            "/wiki/Vivo_(telecommunications)"
+          ]
+        ],
+        [
+          "Brazil",
+          [
+            "/wiki/Brazil"
+          ]
+        ],
+        [
+          "850 / 2100",
+          []
+        ],
+        [
+          "5 / 1",
+          []
+        ],
+        [
+          "Nov 2011",
+          []
+        ]
+      ],
+      [
+        [
+          "Digicel",
+          [
+            "/wiki/Digicel"
+          ]
+        ],
+        [
+          "El Salvador",
+          [
+            "/wiki/El_Salvador"
+          ]
+        ],
+        [
+          900,
+          []
+        ],
+        [
+          8,
+          []
+        ],
+        [
+          "Jan 2014",
+          []
+        ]
+      ],
+      [
+        [
+          "AT & T",
+          [
+            "/wiki/AT&T_Mexico"
+          ]
+        ],
+        [
+          "Mexico",
+          [
+            "/wiki/Mexico"
+          ]
+        ],
+        [
+          "1900 / 1700",
+          []
+        ],
+        [
+          "2 / 4",
+          []
+        ],
+        [
+          "Sep 2012",
+          []
+        ]
+      ],
+      [
+        [
+          "ANTEL",
+          [
+            "/wiki/ANTEL"
+          ]
+        ],
+        [
+          "Uruguay",
+          [
+            "/wiki/Uruguay"
+          ]
+        ],
+        [
+          2100,
+          []
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "Jul 2007",
+          []
+        ]
+      ],
+      [
+        [
+          "Digitel",
+          [
+            "/wiki/Digitel_GSM"
+          ]
+        ],
+        [
+          "Venezuela",
+          [
+            "/wiki/Venezuela"
+          ]
+        ],
+        [
+          900,
+          []
+        ],
+        [
+          8,
+          []
+        ],
+        [
+          "Mar 2009",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about UMTS networks, detailing operators, their countries, frequency bands, and launch dates. It serves as a reference for understanding the deployment and specifications of UMTS technology across different regions. The data includes both technical specifications and organizational details.",
+  "numeric_columns": [
+    "Frequency ( MHz )",
+    "Band"
+  ],
+  "categorical_columns": [
+    "Launch date"
+  ],
+  "entities": [
+    "Operator",
+    "Country"
+  ]
+}

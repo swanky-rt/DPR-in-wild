@@ -1,0 +1,419 @@
+{
+  "table_id": "T3287",
+  "uid": "52d76a15-c7aa-5e29-a31f-3a2db4f653c6",
+  "source": "HybridQA",
+  "source_table_id": "52d76a15-c7aa-5e29-a31f-3a2db4f653c6",
+  "domain": "HybridQA",
+  "title": "2013 FA WSL",
+  "columns": [
+    "Team",
+    "Location",
+    "Ground",
+    "2012 WSL finish"
+  ],
+  "rows": [
+    [
+      [
+        "Arsenal",
+        [
+          "/wiki/Arsenal_L.F.C."
+        ]
+      ],
+      [
+        "Borehamwood",
+        [
+          "/wiki/Borehamwood"
+        ]
+      ],
+      [
+        "Meadow Park",
+        [
+          "/wiki/Meadow_Park_(Borehamwood)"
+        ]
+      ],
+      [
+        "1st",
+        []
+      ]
+    ],
+    [
+      [
+        "Birmingham City",
+        [
+          "/wiki/Birmingham_City_L.F.C."
+        ]
+      ],
+      [
+        "Stratford-upon-Avon",
+        [
+          "/wiki/Stratford-upon-Avon"
+        ]
+      ],
+      [
+        "The DCS Stadium",
+        [
+          "/wiki/Stratford_Town_F.C."
+        ]
+      ],
+      [
+        "2nd",
+        []
+      ]
+    ],
+    [
+      [
+        "Bristol Academy",
+        [
+          "/wiki/Bristol_Academy_W.F.C."
+        ]
+      ],
+      [
+        "Filton",
+        [
+          "/wiki/Filton"
+        ]
+      ],
+      [
+        "Stoke Gifford Stadium",
+        []
+      ],
+      [
+        "4th",
+        []
+      ]
+    ],
+    [
+      [
+        "Chelsea",
+        [
+          "/wiki/Chelsea_L.F.C."
+        ]
+      ],
+      [
+        "Staines",
+        [
+          "/wiki/Staines"
+        ]
+      ],
+      [
+        "Wheatsheaf Park",
+        [
+          "/wiki/Staines_Town_F.C."
+        ]
+      ],
+      [
+        "6th",
+        []
+      ]
+    ],
+    [
+      [
+        "Doncaster Rovers Belles",
+        [
+          "/wiki/Doncaster_Rovers_Belles_L.F.C."
+        ]
+      ],
+      [
+        "Doncaster",
+        [
+          "/wiki/Doncaster"
+        ]
+      ],
+      [
+        "Keepmoat Stadium",
+        [
+          "/wiki/Keepmoat_Stadium"
+        ]
+      ],
+      [
+        "7th",
+        []
+      ]
+    ],
+    [
+      [
+        "Everton",
+        [
+          "/wiki/Everton_L.F.C."
+        ]
+      ],
+      [
+        "Crosby",
+        [
+          "/wiki/Crosby,_Merseyside"
+        ]
+      ],
+      [
+        "The Arriva Stadium",
+        [
+          "/wiki/Marine_F.C."
+        ]
+      ],
+      [
+        "3rd",
+        []
+      ]
+    ],
+    [
+      [
+        "Lincoln Ladies",
+        [
+          "/wiki/Lincoln_Ladies_F.C."
+        ]
+      ],
+      [
+        "Lincoln",
+        [
+          "/wiki/Lincoln,_England"
+        ]
+      ],
+      [
+        "Sincil Bank",
+        [
+          "/wiki/Sincil_Bank"
+        ]
+      ],
+      [
+        "5th",
+        []
+      ]
+    ],
+    [
+      [
+        "Liverpool",
+        [
+          "/wiki/Liverpool_L.F.C."
+        ]
+      ],
+      [
+        "Widnes",
+        [
+          "/wiki/Widnes"
+        ]
+      ],
+      [
+        "Halton Stadium",
+        [
+          "/wiki/Halton_Stadium"
+        ]
+      ],
+      [
+        "8th",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "52d76a15-c7aa-5e29-a31f-3a2db4f653c6",
+    "table_id": "2013_FA_WSL_0",
+    "title": "2013 FA WSL",
+    "header": [
+      "Team",
+      "Location",
+      "Ground",
+      "2012 WSL finish"
+    ],
+    "value": [
+      [
+        [
+          "Arsenal",
+          [
+            "/wiki/Arsenal_L.F.C."
+          ]
+        ],
+        [
+          "Borehamwood",
+          [
+            "/wiki/Borehamwood"
+          ]
+        ],
+        [
+          "Meadow Park",
+          [
+            "/wiki/Meadow_Park_(Borehamwood)"
+          ]
+        ],
+        [
+          "1st",
+          []
+        ]
+      ],
+      [
+        [
+          "Birmingham City",
+          [
+            "/wiki/Birmingham_City_L.F.C."
+          ]
+        ],
+        [
+          "Stratford-upon-Avon",
+          [
+            "/wiki/Stratford-upon-Avon"
+          ]
+        ],
+        [
+          "The DCS Stadium",
+          [
+            "/wiki/Stratford_Town_F.C."
+          ]
+        ],
+        [
+          "2nd",
+          []
+        ]
+      ],
+      [
+        [
+          "Bristol Academy",
+          [
+            "/wiki/Bristol_Academy_W.F.C."
+          ]
+        ],
+        [
+          "Filton",
+          [
+            "/wiki/Filton"
+          ]
+        ],
+        [
+          "Stoke Gifford Stadium",
+          []
+        ],
+        [
+          "4th",
+          []
+        ]
+      ],
+      [
+        [
+          "Chelsea",
+          [
+            "/wiki/Chelsea_L.F.C."
+          ]
+        ],
+        [
+          "Staines",
+          [
+            "/wiki/Staines"
+          ]
+        ],
+        [
+          "Wheatsheaf Park",
+          [
+            "/wiki/Staines_Town_F.C."
+          ]
+        ],
+        [
+          "6th",
+          []
+        ]
+      ],
+      [
+        [
+          "Doncaster Rovers Belles",
+          [
+            "/wiki/Doncaster_Rovers_Belles_L.F.C."
+          ]
+        ],
+        [
+          "Doncaster",
+          [
+            "/wiki/Doncaster"
+          ]
+        ],
+        [
+          "Keepmoat Stadium",
+          [
+            "/wiki/Keepmoat_Stadium"
+          ]
+        ],
+        [
+          "7th",
+          []
+        ]
+      ],
+      [
+        [
+          "Everton",
+          [
+            "/wiki/Everton_L.F.C."
+          ]
+        ],
+        [
+          "Crosby",
+          [
+            "/wiki/Crosby,_Merseyside"
+          ]
+        ],
+        [
+          "The Arriva Stadium",
+          [
+            "/wiki/Marine_F.C."
+          ]
+        ],
+        [
+          "3rd",
+          []
+        ]
+      ],
+      [
+        [
+          "Lincoln Ladies",
+          [
+            "/wiki/Lincoln_Ladies_F.C."
+          ]
+        ],
+        [
+          "Lincoln",
+          [
+            "/wiki/Lincoln,_England"
+          ]
+        ],
+        [
+          "Sincil Bank",
+          [
+            "/wiki/Sincil_Bank"
+          ]
+        ],
+        [
+          "5th",
+          []
+        ]
+      ],
+      [
+        [
+          "Liverpool",
+          [
+            "/wiki/Liverpool_L.F.C."
+          ]
+        ],
+        [
+          "Widnes",
+          [
+            "/wiki/Widnes"
+          ]
+        ],
+        [
+          "Halton Stadium",
+          [
+            "/wiki/Halton_Stadium"
+          ]
+        ],
+        [
+          "8th",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about teams participating in the 2013 FA Women's Super League (FA WSL), including their locations, home grounds, and their finishing positions in the 2012 season. It serves as a summary of key details for each team in the league.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Location",
+    "Ground",
+    "2012 WSL finish"
+  ],
+  "entities": [
+    "Team"
+  ]
+}

@@ -1,0 +1,554 @@
+{
+  "table_id": "T5954",
+  "uid": "e9d9d923-b117-5cde-8d3b-112f18aa061b",
+  "source": "HybridQA",
+  "source_table_id": "e9d9d923-b117-5cde-8d3b-112f18aa061b",
+  "domain": "HybridQA",
+  "title": "Blaenplwyf transmitting station",
+  "columns": [
+    "Frequency",
+    "UHF",
+    "kW",
+    "Service",
+    "System"
+  ],
+  "rows": [
+    [
+      [
+        "471.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        21,
+        []
+      ],
+      [
+        100,
+        []
+      ],
+      [
+        "S4C",
+        [
+          "/wiki/S4C"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "482.166 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "22+",
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "Digital 3 & 4 ( Mux 2 )",
+        [
+          "/wiki/Digital_3&4"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "495.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        24,
+        []
+      ],
+      [
+        100,
+        []
+      ],
+      [
+        "ITV1 Wales",
+        [
+          "/wiki/ITV_Wales_&_West"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "506.166 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "25+",
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "SDN ( Mux A )",
+        [
+          "/wiki/S4C_Digital_Networks"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "522.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        27,
+        []
+      ],
+      [
+        40,
+        []
+      ],
+      [
+        "BBC A",
+        [
+          "/wiki/BBC"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "538.166 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "29+",
+        []
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "Arqiva ( Mux C )",
+        [
+          "/wiki/Arqiva"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "551.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        31,
+        []
+      ],
+      [
+        100,
+        []
+      ],
+      [
+        "BBC One Wales",
+        [
+          "/wiki/BBC_One_Wales"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "562.166 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "32+",
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "BBC ( Mux B )",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "570.166 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "33+",
+        []
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "Arqiva ( Mux D )",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "751.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        56,
+        []
+      ],
+      [
+        4,
+        []
+      ],
+      [
+        "Channel 5",
+        [
+          "/wiki/Channel_5_(UK)"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "e9d9d923-b117-5cde-8d3b-112f18aa061b",
+    "table_id": "Blaenplwyf_transmitting_station_7",
+    "title": "Blaenplwyf transmitting station",
+    "header": [
+      "Frequency",
+      "UHF",
+      "kW",
+      "Service",
+      "System"
+    ],
+    "value": [
+      [
+        [
+          "471.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          21,
+          []
+        ],
+        [
+          100,
+          []
+        ],
+        [
+          "S4C",
+          [
+            "/wiki/S4C"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "482.166 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "22+",
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "Digital 3 & 4 ( Mux 2 )",
+          [
+            "/wiki/Digital_3&4"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "495.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          24,
+          []
+        ],
+        [
+          100,
+          []
+        ],
+        [
+          "ITV1 Wales",
+          [
+            "/wiki/ITV_Wales_&_West"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "506.166 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "25+",
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "SDN ( Mux A )",
+          [
+            "/wiki/S4C_Digital_Networks"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "522.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          27,
+          []
+        ],
+        [
+          40,
+          []
+        ],
+        [
+          "BBC A",
+          [
+            "/wiki/BBC"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "538.166 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "29+",
+          []
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "Arqiva ( Mux C )",
+          [
+            "/wiki/Arqiva"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "551.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          31,
+          []
+        ],
+        [
+          100,
+          []
+        ],
+        [
+          "BBC One Wales",
+          [
+            "/wiki/BBC_One_Wales"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "562.166 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "32+",
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "BBC ( Mux B )",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "570.166 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "33+",
+          []
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "Arqiva ( Mux D )",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "751.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          56,
+          []
+        ],
+        [
+          4,
+          []
+        ],
+        [
+          "Channel 5",
+          [
+            "/wiki/Channel_5_(UK)"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the Blaenplwyf transmitting station, detailing its broadcast frequencies, transmission power, and associated services. It is likely used to document technical specifications and broadcasting details for different systems and services at the station.",
+  "numeric_columns": [
+    "UHF",
+    "kW"
+  ],
+  "categorical_columns": [
+    "Frequency",
+    "Service",
+    "System"
+  ],
+  "entities": []
+}

@@ -1,0 +1,460 @@
+{
+  "table_id": "T891",
+  "uid": "6c9d9aa3-e98a-5788-bba3-e1500ba13f3f",
+  "source": "HybridQA",
+  "source_table_id": "6c9d9aa3-e98a-5788-bba3-e1500ba13f3f",
+  "domain": "HybridQA",
+  "title": "1970 Boston Marathon",
+  "columns": [
+    "Position",
+    "Athlete",
+    "Nationality",
+    "Time"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Ron Hill",
+        [
+          "/wiki/Ron_Hill"
+        ]
+      ],
+      [
+        "England",
+        [
+          "/wiki/England"
+        ]
+      ],
+      [
+        "2:10:31",
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Eamon O'Reilly",
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "2:11:13",
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Patrick McMahon",
+        []
+      ],
+      [
+        "Ireland",
+        [
+          "/wiki/Republic_of_Ireland"
+        ]
+      ],
+      [
+        "2:14:54",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Pentti Rummakko",
+        [
+          "/wiki/Pentti_Rummakko"
+        ]
+      ],
+      [
+        "Finland",
+        [
+          "/wiki/Finland"
+        ]
+      ],
+      [
+        "2:15:00",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Kalle Hakkarainen",
+        []
+      ],
+      [
+        "Finland",
+        [
+          "/wiki/Finland"
+        ]
+      ],
+      [
+        "2:19:43",
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Ken Moore",
+        [
+          "/wiki/Kenny_Moore"
+        ]
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "2:19:48",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Robert Moore",
+        []
+      ],
+      [
+        "Canada",
+        [
+          "/wiki/Canada"
+        ]
+      ],
+      [
+        "2:20:08",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Andy Boychuk",
+        [
+          "/wiki/Andy_Boychuk"
+        ]
+      ],
+      [
+        "Canada",
+        [
+          "/wiki/Canada"
+        ]
+      ],
+      [
+        "2:21:07",
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Bill Clark",
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "2:22:17",
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Wayne Yetman",
+        [
+          "/wiki/Wayne_Yetman"
+        ]
+      ],
+      [
+        "Canada",
+        [
+          "/wiki/Canada"
+        ]
+      ],
+      [
+        "2:22:33",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "6c9d9aa3-e98a-5788-bba3-e1500ba13f3f",
+    "table_id": "1970_Boston_Marathon_0",
+    "title": "1970 Boston Marathon",
+    "header": [
+      "Position",
+      "Athlete",
+      "Nationality",
+      "Time"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Ron Hill",
+          [
+            "/wiki/Ron_Hill"
+          ]
+        ],
+        [
+          "England",
+          [
+            "/wiki/England"
+          ]
+        ],
+        [
+          "2:10:31",
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Eamon O'Reilly",
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "2:11:13",
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Patrick McMahon",
+          []
+        ],
+        [
+          "Ireland",
+          [
+            "/wiki/Republic_of_Ireland"
+          ]
+        ],
+        [
+          "2:14:54",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Pentti Rummakko",
+          [
+            "/wiki/Pentti_Rummakko"
+          ]
+        ],
+        [
+          "Finland",
+          [
+            "/wiki/Finland"
+          ]
+        ],
+        [
+          "2:15:00",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Kalle Hakkarainen",
+          []
+        ],
+        [
+          "Finland",
+          [
+            "/wiki/Finland"
+          ]
+        ],
+        [
+          "2:19:43",
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Ken Moore",
+          [
+            "/wiki/Kenny_Moore"
+          ]
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "2:19:48",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Robert Moore",
+          []
+        ],
+        [
+          "Canada",
+          [
+            "/wiki/Canada"
+          ]
+        ],
+        [
+          "2:20:08",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Andy Boychuk",
+          [
+            "/wiki/Andy_Boychuk"
+          ]
+        ],
+        [
+          "Canada",
+          [
+            "/wiki/Canada"
+          ]
+        ],
+        [
+          "2:21:07",
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Bill Clark",
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "2:22:17",
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Wayne Yetman",
+          [
+            "/wiki/Wayne_Yetman"
+          ]
+        ],
+        [
+          "Canada",
+          [
+            "/wiki/Canada"
+          ]
+        ],
+        [
+          "2:22:33",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the results of the 1970 Boston Marathon, detailing the performance of athletes in the race. It includes data on their finishing positions, names, nationalities, and completion times. The table serves as a historical record of the event's participants and outcomes.",
+  "numeric_columns": [
+    "Position"
+  ],
+  "categorical_columns": [
+    "Nationality",
+    "Time"
+  ],
+  "entities": [
+    "Athlete"
+  ]
+}

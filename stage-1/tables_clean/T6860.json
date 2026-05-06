@@ -1,0 +1,584 @@
+{
+  "table_id": "T6860",
+  "uid": "f9062d0f-c268-5f22-bc4b-b9fc2b3b2043",
+  "source": "HybridQA",
+  "source_table_id": "f9062d0f-c268-5f22-bc4b-b9fc2b3b2043",
+  "domain": "HybridQA",
+  "title": "Phillips 66",
+  "columns": [
+    "Name",
+    "Location",
+    "Nelson Complexity Factor",
+    "Crude Oil Processing Capacity ( MBD )"
+  ],
+  "rows": [
+    [
+      [
+        "Wood River Refinery*",
+        [
+          "/wiki/Wood_River_Refinery"
+        ]
+      ],
+      [
+        "Roxana , IL",
+        [
+          "/wiki/Roxana,_Illinois"
+        ]
+      ],
+      [
+        9.8,
+        []
+      ],
+      [
+        305,
+        []
+      ]
+    ],
+    [
+      [
+        "Alliance Refinery",
+        []
+      ],
+      [
+        "Belle Chasse , LA",
+        [
+          "/wiki/Belle_Chase,_Louisiana"
+        ]
+      ],
+      [
+        12.0,
+        []
+      ],
+      [
+        247,
+        []
+      ]
+    ],
+    [
+      [
+        "Sweeny Refinery",
+        []
+      ],
+      [
+        "Old Ocean , TX",
+        [
+          "/wiki/Old_Ocean,_Texas"
+        ]
+      ],
+      [
+        13.2,
+        []
+      ],
+      [
+        247,
+        []
+      ]
+    ],
+    [
+      [
+        "Bayway Refinery",
+        [
+          "/wiki/Bayway_Refinery"
+        ]
+      ],
+      [
+        "Linden , NJ",
+        [
+          "/wiki/Linden,_New_Jersey"
+        ]
+      ],
+      [
+        8.5,
+        []
+      ],
+      [
+        238,
+        []
+      ]
+    ],
+    [
+      [
+        "Lake Charles Refinery",
+        []
+      ],
+      [
+        "Westlake , LA",
+        [
+          "/wiki/Westlake,_Louisiana"
+        ]
+      ],
+      [
+        10.2,
+        []
+      ],
+      [
+        239,
+        []
+      ]
+    ],
+    [
+      [
+        "Ponca City Refinery",
+        []
+      ],
+      [
+        "Ponca City , OK",
+        [
+          "/wiki/Ponca_City,_Oklahoma"
+        ]
+      ],
+      [
+        9.8,
+        []
+      ],
+      [
+        210,
+        []
+      ]
+    ],
+    [
+      [
+        "Borger Refinery*",
+        []
+      ],
+      [
+        "Borger , TX",
+        [
+          "/wiki/Borger,_Texas"
+        ]
+      ],
+      [
+        12.3,
+        []
+      ],
+      [
+        146,
+        []
+      ]
+    ],
+    [
+      [
+        "Los Angeles Refinery",
+        []
+      ],
+      [
+        "Carson , CA / Wilmington , CA",
+        [
+          "/wiki/Carson,_California",
+          "/wiki/Wilmington,_Los_Angeles"
+        ]
+      ],
+      [
+        14.1,
+        []
+      ],
+      [
+        139,
+        []
+      ]
+    ],
+    [
+      [
+        "San Francisco Refinery",
+        []
+      ],
+      [
+        "Rodeo , CA / Arroyo Grande , CA",
+        [
+          "/wiki/Rodeo,_California",
+          "/wiki/Arroyo_Grande,_California"
+        ]
+      ],
+      [
+        13.6,
+        []
+      ],
+      [
+        120,
+        []
+      ]
+    ],
+    [
+      [
+        "Ferndale Refinery",
+        [
+          "/wiki/Ferndale_Refinery"
+        ]
+      ],
+      [
+        "Ferndale , WA",
+        [
+          "/wiki/Ferndale,_Washington"
+        ]
+      ],
+      [
+        7.4,
+        []
+      ],
+      [
+        100,
+        []
+      ]
+    ],
+    [
+      [
+        "Billings Refinery",
+        [
+          "/wiki/Billings_Refinery_(Phillips_66)"
+        ]
+      ],
+      [
+        "Billings , MT",
+        [
+          "/wiki/Billings,_Montana"
+        ]
+      ],
+      [
+        14.3,
+        []
+      ],
+      [
+        58,
+        []
+      ]
+    ],
+    [
+      [
+        "Humber Refinery",
+        [
+          "/wiki/Humber_Refinery"
+        ]
+      ],
+      [
+        "North Lincolnshire",
+        [
+          "/wiki/North_Lincolnshire"
+        ]
+      ],
+      [
+        11.6,
+        []
+      ],
+      [
+        221,
+        []
+      ]
+    ],
+    [
+      [
+        "MIRO Refinery*",
+        []
+      ],
+      [
+        "Karlsruhe",
+        [
+          "/wiki/Karlsruhe"
+        ]
+      ],
+      [
+        7.9,
+        []
+      ],
+      [
+        58,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "f9062d0f-c268-5f22-bc4b-b9fc2b3b2043",
+    "table_id": "Phillips_66_0",
+    "title": "Phillips 66",
+    "header": [
+      "Name",
+      "Location",
+      "Nelson Complexity Factor",
+      "Crude Oil Processing Capacity ( MBD )"
+    ],
+    "value": [
+      [
+        [
+          "Wood River Refinery*",
+          [
+            "/wiki/Wood_River_Refinery"
+          ]
+        ],
+        [
+          "Roxana , IL",
+          [
+            "/wiki/Roxana,_Illinois"
+          ]
+        ],
+        [
+          9.8,
+          []
+        ],
+        [
+          305,
+          []
+        ]
+      ],
+      [
+        [
+          "Alliance Refinery",
+          []
+        ],
+        [
+          "Belle Chasse , LA",
+          [
+            "/wiki/Belle_Chase,_Louisiana"
+          ]
+        ],
+        [
+          12.0,
+          []
+        ],
+        [
+          247,
+          []
+        ]
+      ],
+      [
+        [
+          "Sweeny Refinery",
+          []
+        ],
+        [
+          "Old Ocean , TX",
+          [
+            "/wiki/Old_Ocean,_Texas"
+          ]
+        ],
+        [
+          13.2,
+          []
+        ],
+        [
+          247,
+          []
+        ]
+      ],
+      [
+        [
+          "Bayway Refinery",
+          [
+            "/wiki/Bayway_Refinery"
+          ]
+        ],
+        [
+          "Linden , NJ",
+          [
+            "/wiki/Linden,_New_Jersey"
+          ]
+        ],
+        [
+          8.5,
+          []
+        ],
+        [
+          238,
+          []
+        ]
+      ],
+      [
+        [
+          "Lake Charles Refinery",
+          []
+        ],
+        [
+          "Westlake , LA",
+          [
+            "/wiki/Westlake,_Louisiana"
+          ]
+        ],
+        [
+          10.2,
+          []
+        ],
+        [
+          239,
+          []
+        ]
+      ],
+      [
+        [
+          "Ponca City Refinery",
+          []
+        ],
+        [
+          "Ponca City , OK",
+          [
+            "/wiki/Ponca_City,_Oklahoma"
+          ]
+        ],
+        [
+          9.8,
+          []
+        ],
+        [
+          210,
+          []
+        ]
+      ],
+      [
+        [
+          "Borger Refinery*",
+          []
+        ],
+        [
+          "Borger , TX",
+          [
+            "/wiki/Borger,_Texas"
+          ]
+        ],
+        [
+          12.3,
+          []
+        ],
+        [
+          146,
+          []
+        ]
+      ],
+      [
+        [
+          "Los Angeles Refinery",
+          []
+        ],
+        [
+          "Carson , CA / Wilmington , CA",
+          [
+            "/wiki/Carson,_California",
+            "/wiki/Wilmington,_Los_Angeles"
+          ]
+        ],
+        [
+          14.1,
+          []
+        ],
+        [
+          139,
+          []
+        ]
+      ],
+      [
+        [
+          "San Francisco Refinery",
+          []
+        ],
+        [
+          "Rodeo , CA / Arroyo Grande , CA",
+          [
+            "/wiki/Rodeo,_California",
+            "/wiki/Arroyo_Grande,_California"
+          ]
+        ],
+        [
+          13.6,
+          []
+        ],
+        [
+          120,
+          []
+        ]
+      ],
+      [
+        [
+          "Ferndale Refinery",
+          [
+            "/wiki/Ferndale_Refinery"
+          ]
+        ],
+        [
+          "Ferndale , WA",
+          [
+            "/wiki/Ferndale,_Washington"
+          ]
+        ],
+        [
+          7.4,
+          []
+        ],
+        [
+          100,
+          []
+        ]
+      ],
+      [
+        [
+          "Billings Refinery",
+          [
+            "/wiki/Billings_Refinery_(Phillips_66)"
+          ]
+        ],
+        [
+          "Billings , MT",
+          [
+            "/wiki/Billings,_Montana"
+          ]
+        ],
+        [
+          14.3,
+          []
+        ],
+        [
+          58,
+          []
+        ]
+      ],
+      [
+        [
+          "Humber Refinery",
+          [
+            "/wiki/Humber_Refinery"
+          ]
+        ],
+        [
+          "North Lincolnshire",
+          [
+            "/wiki/North_Lincolnshire"
+          ]
+        ],
+        [
+          11.6,
+          []
+        ],
+        [
+          221,
+          []
+        ]
+      ],
+      [
+        [
+          "MIRO Refinery*",
+          []
+        ],
+        [
+          "Karlsruhe",
+          [
+            "/wiki/Karlsruhe"
+          ]
+        ],
+        [
+          7.9,
+          []
+        ],
+        [
+          58,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about Phillips 66 refineries, including their names, locations, operational complexity, and crude oil processing capacities. It is designed to give an overview of the company's refinery operations and capabilities. The data includes both qualitative and quantitative attributes of the refineries.",
+  "numeric_columns": [
+    "Nelson Complexity Factor",
+    "Crude Oil Processing Capacity ( MBD )"
+  ],
+  "categorical_columns": [
+    "Location"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

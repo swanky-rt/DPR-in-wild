@@ -1,0 +1,293 @@
+{
+  "table_id": "T1491",
+  "uid": "64866bce-0e64-594d-bdba-6d97d694a8c3",
+  "source": "HybridQA",
+  "source_table_id": "64866bce-0e64-594d-bdba-6d97d694a8c3",
+  "domain": "HybridQA",
+  "title": "1991 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Ralf Büchner ( GER )",
+        [
+          "/wiki/Ralf_Büchner"
+        ]
+      ],
+      [
+        9.787,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Li Chunyang ( CHN )",
+        [
+          "/wiki/Li_Chunyang"
+        ]
+      ],
+      [
+        9.787,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Vitaly Scherbo ( URS )",
+        [
+          "/wiki/Vitaly_Scherbo"
+        ]
+      ],
+      [
+        9.775,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Scott Keswick ( USA )",
+        [
+          "/wiki/Scott_Keswick"
+        ]
+      ],
+      [
+        9.725,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Zoltán Supola ( HUN )",
+        [
+          "/wiki/Zoltán_Supola_(gymnast)"
+        ]
+      ],
+      [
+        9.712,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Sylvio Kroll ( GER )",
+        [
+          "/wiki/Sylvio_Kroll"
+        ]
+      ],
+      [
+        9.637,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Grigory Misutin ( URS )",
+        [
+          "/wiki/Grigory_Misutin"
+        ]
+      ],
+      [
+        8.925,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Yukio Iketani ( JPN )",
+        [
+          "/wiki/Yukio_Iketani"
+        ]
+      ],
+      [
+        2.75,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "64866bce-0e64-594d-bdba-6d97d694a8c3",
+    "table_id": "1991_World_Artistic_Gymnastics_Championships_6",
+    "title": "1991 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Ralf Büchner ( GER )",
+          [
+            "/wiki/Ralf_Büchner"
+          ]
+        ],
+        [
+          9.787,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Li Chunyang ( CHN )",
+          [
+            "/wiki/Li_Chunyang"
+          ]
+        ],
+        [
+          9.787,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Vitaly Scherbo ( URS )",
+          [
+            "/wiki/Vitaly_Scherbo"
+          ]
+        ],
+        [
+          9.775,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Scott Keswick ( USA )",
+          [
+            "/wiki/Scott_Keswick"
+          ]
+        ],
+        [
+          9.725,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Zoltán Supola ( HUN )",
+          [
+            "/wiki/Zoltán_Supola_(gymnast)"
+          ]
+        ],
+        [
+          9.712,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Sylvio Kroll ( GER )",
+          [
+            "/wiki/Sylvio_Kroll"
+          ]
+        ],
+        [
+          9.637,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Grigory Misutin ( URS )",
+          [
+            "/wiki/Grigory_Misutin"
+          ]
+        ],
+        [
+          8.925,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Yukio Iketani ( JPN )",
+          [
+            "/wiki/Yukio_Iketani"
+          ]
+        ],
+        [
+          2.75,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides rankings and scores for gymnasts who participated in the 1991 World Artistic Gymnastics Championships. It includes information about their rank, names, and total scores, likely summarizing performance outcomes in the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

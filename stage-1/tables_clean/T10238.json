@@ -1,0 +1,293 @@
+{
+  "table_id": "T10238",
+  "uid": "a0248e45-821e-5684-8d68-3bb505febdbf",
+  "source": "HybridQA",
+  "source_table_id": "a0248e45-821e-5684-8d68-3bb505febdbf",
+  "domain": "HybridQA",
+  "title": "1997 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Simona Amânar ( ROU )",
+        [
+          "/wiki/Simona_Amânar"
+        ]
+      ],
+      [
+        9.712,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Zhou Duan ( CHN )",
+        [
+          "/wiki/Zhou_Duan"
+        ]
+      ],
+      [
+        9.606,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Gina Gogean ( ROU )",
+        [
+          "/wiki/Gina_Gogean"
+        ]
+      ],
+      [
+        9.6,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Adrienn Varga ( HUN )",
+        [
+          "/wiki/Adrienn_Varga"
+        ]
+      ],
+      [
+        9.543,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Mohini Bhardwaj ( USA )",
+        [
+          "/wiki/Mohini_Bhardwaj"
+        ]
+      ],
+      [
+        9.512,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Kui Yuanyuan ( CHN )",
+        [
+          "/wiki/Kui_Yuanyuan"
+        ]
+      ],
+      [
+        9.35,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Elena Dolgopolova ( RUS )",
+        [
+          "/wiki/Elena_Dolgopolova"
+        ]
+      ],
+      [
+        9.331,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Svetlana Khorkina ( RUS )",
+        [
+          "/wiki/Svetlana_Khorkina"
+        ]
+      ],
+      [
+        0.0,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "a0248e45-821e-5684-8d68-3bb505febdbf",
+    "table_id": "1997_World_Artistic_Gymnastics_Championships_8",
+    "title": "1997 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Simona Amânar ( ROU )",
+          [
+            "/wiki/Simona_Amânar"
+          ]
+        ],
+        [
+          9.712,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Zhou Duan ( CHN )",
+          [
+            "/wiki/Zhou_Duan"
+          ]
+        ],
+        [
+          9.606,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Gina Gogean ( ROU )",
+          [
+            "/wiki/Gina_Gogean"
+          ]
+        ],
+        [
+          9.6,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Adrienn Varga ( HUN )",
+          [
+            "/wiki/Adrienn_Varga"
+          ]
+        ],
+        [
+          9.543,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Mohini Bhardwaj ( USA )",
+          [
+            "/wiki/Mohini_Bhardwaj"
+          ]
+        ],
+        [
+          9.512,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Kui Yuanyuan ( CHN )",
+          [
+            "/wiki/Kui_Yuanyuan"
+          ]
+        ],
+        [
+          9.35,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Elena Dolgopolova ( RUS )",
+          [
+            "/wiki/Elena_Dolgopolova"
+          ]
+        ],
+        [
+          9.331,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Svetlana Khorkina ( RUS )",
+          [
+            "/wiki/Svetlana_Khorkina"
+          ]
+        ],
+        [
+          0.0,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides rankings from the 1997 World Artistic Gymnastics Championships, listing gymnasts along with their total scores. It serves to summarize performance outcomes in a competitive gymnastics event. The columns include rankings, athlete names, and numerical scores.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

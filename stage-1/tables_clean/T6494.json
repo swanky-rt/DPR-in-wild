@@ -1,0 +1,436 @@
+{
+  "table_id": "T6494",
+  "uid": "05f55fff-b7ed-587a-99d9-35eb4eff2f46",
+  "source": "HybridQA",
+  "source_table_id": "05f55fff-b7ed-587a-99d9-35eb4eff2f46",
+  "domain": "HybridQA",
+  "title": "List of longest ski jumps",
+  "columns": [
+    "Athlete",
+    "Country",
+    "Jumps ≥ 250 m",
+    "Longest jump"
+  ],
+  "rows": [
+    [
+      [
+        "Stefan Kraft",
+        [
+          "/wiki/Stefan_Kraft"
+        ]
+      ],
+      [
+        "Austria",
+        [
+          "/wiki/Austria"
+        ]
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        "253.5 m",
+        []
+      ]
+    ],
+    [
+      [
+        "Robert Johansson",
+        [
+          "/wiki/Robert_Johansson_(ski_jumper)"
+        ]
+      ],
+      [
+        "Norway",
+        [
+          "/wiki/Norway"
+        ]
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "252 m ( former )",
+        []
+      ]
+    ],
+    [
+      [
+        "Peter Prevc",
+        [
+          "/wiki/Peter_Prevc"
+        ]
+      ],
+      [
+        "Slovenia",
+        [
+          "/wiki/Slovenia"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "250 m ( former )",
+        []
+      ]
+    ],
+    [
+      [
+        "Anders Fannemel",
+        [
+          "/wiki/Anders_Fannemel"
+        ]
+      ],
+      [
+        "Norway",
+        [
+          "/wiki/Norway"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "251.5 m ( former )",
+        []
+      ]
+    ],
+    [
+      [
+        "Ryoyu Kobayashi",
+        [
+          "/wiki/Ryoyu_Kobayashi"
+        ]
+      ],
+      [
+        "Japan",
+        [
+          "/wiki/Japan"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "252.0 m",
+        []
+      ]
+    ],
+    [
+      [
+        "Kamil Stoch",
+        [
+          "/wiki/Kamil_Stoch"
+        ]
+      ],
+      [
+        "Poland",
+        [
+          "/wiki/Poland"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "251.5 m",
+        []
+      ]
+    ],
+    [
+      [
+        "Dimitry Vassiliev",
+        [
+          "/wiki/Dimitry_Vassiliev"
+        ]
+      ],
+      [
+        "Russia",
+        [
+          "/wiki/Russia"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "254 m ( WR fall )",
+        []
+      ]
+    ],
+    [
+      [
+        "Gregor Schlierenzauer",
+        [
+          "/wiki/Gregor_Schlierenzauer"
+        ]
+      ],
+      [
+        "Austria",
+        [
+          "/wiki/Austria"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "253.5 m ( WR fall )",
+        []
+      ]
+    ],
+    [
+      [
+        "Tilen Bartol",
+        [
+          "/wiki/Tilen_Bartol"
+        ]
+      ],
+      [
+        "Slovenia",
+        [
+          "/wiki/Slovenia"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "252 m ( test jump : WR fall )",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "05f55fff-b7ed-587a-99d9-35eb4eff2f46",
+    "table_id": "List_of_the_longest_ski_jumps_5",
+    "title": "List of longest ski jumps",
+    "header": [
+      "Athlete",
+      "Country",
+      "Jumps ≥ 250 m",
+      "Longest jump"
+    ],
+    "value": [
+      [
+        [
+          "Stefan Kraft",
+          [
+            "/wiki/Stefan_Kraft"
+          ]
+        ],
+        [
+          "Austria",
+          [
+            "/wiki/Austria"
+          ]
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          "253.5 m",
+          []
+        ]
+      ],
+      [
+        [
+          "Robert Johansson",
+          [
+            "/wiki/Robert_Johansson_(ski_jumper)"
+          ]
+        ],
+        [
+          "Norway",
+          [
+            "/wiki/Norway"
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "252 m ( former )",
+          []
+        ]
+      ],
+      [
+        [
+          "Peter Prevc",
+          [
+            "/wiki/Peter_Prevc"
+          ]
+        ],
+        [
+          "Slovenia",
+          [
+            "/wiki/Slovenia"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "250 m ( former )",
+          []
+        ]
+      ],
+      [
+        [
+          "Anders Fannemel",
+          [
+            "/wiki/Anders_Fannemel"
+          ]
+        ],
+        [
+          "Norway",
+          [
+            "/wiki/Norway"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "251.5 m ( former )",
+          []
+        ]
+      ],
+      [
+        [
+          "Ryoyu Kobayashi",
+          [
+            "/wiki/Ryoyu_Kobayashi"
+          ]
+        ],
+        [
+          "Japan",
+          [
+            "/wiki/Japan"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "252.0 m",
+          []
+        ]
+      ],
+      [
+        [
+          "Kamil Stoch",
+          [
+            "/wiki/Kamil_Stoch"
+          ]
+        ],
+        [
+          "Poland",
+          [
+            "/wiki/Poland"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "251.5 m",
+          []
+        ]
+      ],
+      [
+        [
+          "Dimitry Vassiliev",
+          [
+            "/wiki/Dimitry_Vassiliev"
+          ]
+        ],
+        [
+          "Russia",
+          [
+            "/wiki/Russia"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "254 m ( WR fall )",
+          []
+        ]
+      ],
+      [
+        [
+          "Gregor Schlierenzauer",
+          [
+            "/wiki/Gregor_Schlierenzauer"
+          ]
+        ],
+        [
+          "Austria",
+          [
+            "/wiki/Austria"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "253.5 m ( WR fall )",
+          []
+        ]
+      ],
+      [
+        [
+          "Tilen Bartol",
+          [
+            "/wiki/Tilen_Bartol"
+          ]
+        ],
+        [
+          "Slovenia",
+          [
+            "/wiki/Slovenia"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "252 m ( test jump : WR fall )",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about ski jumpers and their achievements in terms of the longest ski jumps recorded. It includes details about the athletes, their countries, the number of jumps they have achieved over 250 meters, and their longest recorded jump. The purpose is to highlight notable performances in the sport of ski jumping.",
+  "numeric_columns": [
+    "Jumps ≥ 250 m"
+  ],
+  "categorical_columns": [
+    "Longest jump"
+  ],
+  "entities": [
+    "Athlete",
+    "Country"
+  ]
+}

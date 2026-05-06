@@ -1,0 +1,656 @@
+{
+  "table_id": "T9909",
+  "uid": "7f0b4cfa-51f3-5078-a2c0-a314a1326f52",
+  "source": "HybridQA",
+  "source_table_id": "7f0b4cfa-51f3-5078-a2c0-a314a1326f52",
+  "domain": "HybridQA",
+  "title": "Provinces of Indonesia",
+  "columns": [
+    "New province ( current name )",
+    "Year",
+    "New province ( then name )",
+    "Province of origin"
+  ],
+  "rows": [
+    [
+      [
+        "Aceh",
+        [
+          "/wiki/Aceh"
+        ]
+      ],
+      [
+        1956,
+        []
+      ],
+      [
+        "Aceh Darussalam",
+        []
+      ],
+      [
+        "North Sumatra",
+        [
+          "/wiki/North_Sumatra"
+        ]
+      ]
+    ],
+    [
+      [
+        "Central Kalimantan",
+        [
+          "/wiki/Central_Kalimantan"
+        ]
+      ],
+      [
+        1958,
+        []
+      ],
+      [
+        "Central Kalimantan",
+        []
+      ],
+      [
+        "South Kalimantan",
+        [
+          "/wiki/South_Kalimantan"
+        ]
+      ]
+    ],
+    [
+      [
+        "Lampung",
+        [
+          "/wiki/Lampung"
+        ]
+      ],
+      [
+        1964,
+        []
+      ],
+      [
+        "Lampung",
+        []
+      ],
+      [
+        "South Sumatra",
+        [
+          "/wiki/South_Sumatra"
+        ]
+      ]
+    ],
+    [
+      [
+        "Central Sulawesi",
+        [
+          "/wiki/Central_Sulawesi"
+        ]
+      ],
+      [
+        1964,
+        []
+      ],
+      [
+        "Central Sulawesi",
+        []
+      ],
+      [
+        "North Sulawesi",
+        [
+          "/wiki/North_Sulawesi"
+        ]
+      ]
+    ],
+    [
+      [
+        "Southeast Sulawesi",
+        [
+          "/wiki/Southeast_Sulawesi"
+        ]
+      ],
+      [
+        1964,
+        []
+      ],
+      [
+        "Southeast Sulawesi",
+        []
+      ],
+      [
+        "South Sulawesi",
+        [
+          "/wiki/South_Sulawesi"
+        ]
+      ]
+    ],
+    [
+      [
+        "Bengkulu",
+        [
+          "/wiki/Bengkulu"
+        ]
+      ],
+      [
+        1967,
+        []
+      ],
+      [
+        "Bengkulu",
+        []
+      ],
+      [
+        "South Sumatra",
+        [
+          "/wiki/South_Sumatra"
+        ]
+      ]
+    ],
+    [
+      [
+        "West Papua",
+        [
+          "/wiki/West_Papua_(province)"
+        ]
+      ],
+      [
+        1999,
+        []
+      ],
+      [
+        "West Irian Jaya",
+        []
+      ],
+      [
+        "Irian Jaya",
+        [
+          "/wiki/Papua_(province)"
+        ]
+      ]
+    ],
+    [
+      [
+        "North Maluku",
+        [
+          "/wiki/North_Maluku"
+        ]
+      ],
+      [
+        1999,
+        []
+      ],
+      [
+        "North Maluku",
+        []
+      ],
+      [
+        "Maluku",
+        [
+          "/wiki/Maluku_(province)"
+        ]
+      ]
+    ],
+    [
+      [
+        "Banten",
+        [
+          "/wiki/Banten"
+        ]
+      ],
+      [
+        2000,
+        []
+      ],
+      [
+        "Banten",
+        []
+      ],
+      [
+        "West Java",
+        [
+          "/wiki/West_Java"
+        ]
+      ]
+    ],
+    [
+      [
+        "Bangka Belitung Islands",
+        [
+          "/wiki/Bangka_Belitung_Islands"
+        ]
+      ],
+      [
+        2000,
+        []
+      ],
+      [
+        "Bangka Belitung Islands",
+        []
+      ],
+      [
+        "South Sumatra",
+        [
+          "/wiki/South_Sumatra"
+        ]
+      ]
+    ],
+    [
+      [
+        "Gorontalo",
+        [
+          "/wiki/Gorontalo"
+        ]
+      ],
+      [
+        2000,
+        []
+      ],
+      [
+        "Gorontalo",
+        []
+      ],
+      [
+        "North Sulawesi",
+        [
+          "/wiki/North_Sulawesi"
+        ]
+      ]
+    ],
+    [
+      [
+        "Riau Islands",
+        [
+          "/wiki/Riau_Islands"
+        ]
+      ],
+      [
+        2002,
+        []
+      ],
+      [
+        "Riau Islands",
+        []
+      ],
+      [
+        "Riau",
+        [
+          "/wiki/Riau"
+        ]
+      ]
+    ],
+    [
+      [
+        "West Sulawesi",
+        [
+          "/wiki/West_Sulawesi"
+        ]
+      ],
+      [
+        2004,
+        []
+      ],
+      [
+        "West Sulawesi",
+        []
+      ],
+      [
+        "South Sulawesi",
+        [
+          "/wiki/South_Sulawesi"
+        ]
+      ]
+    ],
+    [
+      [
+        "North Kalimantan",
+        [
+          "/wiki/North_Kalimantan"
+        ]
+      ],
+      [
+        2012,
+        []
+      ],
+      [
+        "North Kalimantan",
+        []
+      ],
+      [
+        "East Kalimantan",
+        [
+          "/wiki/East_Kalimantan"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "7f0b4cfa-51f3-5078-a2c0-a314a1326f52",
+    "table_id": "Provinces_of_Indonesia_2",
+    "title": "Provinces of Indonesia",
+    "header": [
+      "New province ( current name )",
+      "Year",
+      "New province ( then name )",
+      "Province of origin"
+    ],
+    "value": [
+      [
+        [
+          "Aceh",
+          [
+            "/wiki/Aceh"
+          ]
+        ],
+        [
+          1956,
+          []
+        ],
+        [
+          "Aceh Darussalam",
+          []
+        ],
+        [
+          "North Sumatra",
+          [
+            "/wiki/North_Sumatra"
+          ]
+        ]
+      ],
+      [
+        [
+          "Central Kalimantan",
+          [
+            "/wiki/Central_Kalimantan"
+          ]
+        ],
+        [
+          1958,
+          []
+        ],
+        [
+          "Central Kalimantan",
+          []
+        ],
+        [
+          "South Kalimantan",
+          [
+            "/wiki/South_Kalimantan"
+          ]
+        ]
+      ],
+      [
+        [
+          "Lampung",
+          [
+            "/wiki/Lampung"
+          ]
+        ],
+        [
+          1964,
+          []
+        ],
+        [
+          "Lampung",
+          []
+        ],
+        [
+          "South Sumatra",
+          [
+            "/wiki/South_Sumatra"
+          ]
+        ]
+      ],
+      [
+        [
+          "Central Sulawesi",
+          [
+            "/wiki/Central_Sulawesi"
+          ]
+        ],
+        [
+          1964,
+          []
+        ],
+        [
+          "Central Sulawesi",
+          []
+        ],
+        [
+          "North Sulawesi",
+          [
+            "/wiki/North_Sulawesi"
+          ]
+        ]
+      ],
+      [
+        [
+          "Southeast Sulawesi",
+          [
+            "/wiki/Southeast_Sulawesi"
+          ]
+        ],
+        [
+          1964,
+          []
+        ],
+        [
+          "Southeast Sulawesi",
+          []
+        ],
+        [
+          "South Sulawesi",
+          [
+            "/wiki/South_Sulawesi"
+          ]
+        ]
+      ],
+      [
+        [
+          "Bengkulu",
+          [
+            "/wiki/Bengkulu"
+          ]
+        ],
+        [
+          1967,
+          []
+        ],
+        [
+          "Bengkulu",
+          []
+        ],
+        [
+          "South Sumatra",
+          [
+            "/wiki/South_Sumatra"
+          ]
+        ]
+      ],
+      [
+        [
+          "West Papua",
+          [
+            "/wiki/West_Papua_(province)"
+          ]
+        ],
+        [
+          1999,
+          []
+        ],
+        [
+          "West Irian Jaya",
+          []
+        ],
+        [
+          "Irian Jaya",
+          [
+            "/wiki/Papua_(province)"
+          ]
+        ]
+      ],
+      [
+        [
+          "North Maluku",
+          [
+            "/wiki/North_Maluku"
+          ]
+        ],
+        [
+          1999,
+          []
+        ],
+        [
+          "North Maluku",
+          []
+        ],
+        [
+          "Maluku",
+          [
+            "/wiki/Maluku_(province)"
+          ]
+        ]
+      ],
+      [
+        [
+          "Banten",
+          [
+            "/wiki/Banten"
+          ]
+        ],
+        [
+          2000,
+          []
+        ],
+        [
+          "Banten",
+          []
+        ],
+        [
+          "West Java",
+          [
+            "/wiki/West_Java"
+          ]
+        ]
+      ],
+      [
+        [
+          "Bangka Belitung Islands",
+          [
+            "/wiki/Bangka_Belitung_Islands"
+          ]
+        ],
+        [
+          2000,
+          []
+        ],
+        [
+          "Bangka Belitung Islands",
+          []
+        ],
+        [
+          "South Sumatra",
+          [
+            "/wiki/South_Sumatra"
+          ]
+        ]
+      ],
+      [
+        [
+          "Gorontalo",
+          [
+            "/wiki/Gorontalo"
+          ]
+        ],
+        [
+          2000,
+          []
+        ],
+        [
+          "Gorontalo",
+          []
+        ],
+        [
+          "North Sulawesi",
+          [
+            "/wiki/North_Sulawesi"
+          ]
+        ]
+      ],
+      [
+        [
+          "Riau Islands",
+          [
+            "/wiki/Riau_Islands"
+          ]
+        ],
+        [
+          2002,
+          []
+        ],
+        [
+          "Riau Islands",
+          []
+        ],
+        [
+          "Riau",
+          [
+            "/wiki/Riau"
+          ]
+        ]
+      ],
+      [
+        [
+          "West Sulawesi",
+          [
+            "/wiki/West_Sulawesi"
+          ]
+        ],
+        [
+          2004,
+          []
+        ],
+        [
+          "West Sulawesi",
+          []
+        ],
+        [
+          "South Sulawesi",
+          [
+            "/wiki/South_Sulawesi"
+          ]
+        ]
+      ],
+      [
+        [
+          "North Kalimantan",
+          [
+            "/wiki/North_Kalimantan"
+          ]
+        ],
+        [
+          2012,
+          []
+        ],
+        [
+          "North Kalimantan",
+          []
+        ],
+        [
+          "East Kalimantan",
+          [
+            "/wiki/East_Kalimantan"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the formation of new provinces in Indonesia, including their current names, the years they were established, their names at the time of formation, and the provinces they originated from. It is intended to document administrative changes and the historical evolution of provincial boundaries in Indonesia.",
+  "numeric_columns": [
+    "Year"
+  ],
+  "categorical_columns": [
+    "New province ( then name )",
+    "Province of origin"
+  ],
+  "entities": [
+    "New province ( current name )"
+  ]
+}

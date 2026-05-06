@@ -1,0 +1,567 @@
+{
+  "table_id": "T2775",
+  "uid": "0c4fee70-05e1-5129-ac21-8834b5e87369",
+  "source": "HybridQA",
+  "source_table_id": "0c4fee70-05e1-5129-ac21-8834b5e87369",
+  "domain": "HybridQA",
+  "title": "2013 LFF I Lyga",
+  "columns": [
+    "Club",
+    "Location",
+    "Stadium",
+    "2012 I Lyga"
+  ],
+  "rows": [
+    [
+      [
+        "FK Baltija Panevėžys",
+        [
+          "/wiki/FK_Baltija_Panevėžys"
+        ]
+      ],
+      [
+        "Panevėžys",
+        [
+          "/wiki/Panevėžys"
+        ]
+      ],
+      [
+        "Panevėžio futbolo akademijos stadionas",
+        []
+      ],
+      [
+        "no league",
+        []
+      ]
+    ],
+    [
+      [
+        "FK Klaipėdos Granitas",
+        [
+          "/wiki/FK_Klaipėdos_Granitas"
+        ]
+      ],
+      [
+        "Klaipėda",
+        [
+          "/wiki/Klaipėda"
+        ]
+      ],
+      [
+        "Klaipėdos m. centrinis stadionas",
+        []
+      ],
+      [
+        "4th ( LFF 2 lyga - West )",
+        []
+      ]
+    ],
+    [
+      [
+        "FK Lietava Jonava",
+        [
+          "/wiki/FK_Jonava"
+        ]
+      ],
+      [
+        "Jonava",
+        [
+          "/wiki/Jonava"
+        ]
+      ],
+      [
+        "Jonavos centrinis stadionas",
+        []
+      ],
+      [
+        "1st",
+        []
+      ]
+    ],
+    [
+      [
+        "FK Lokomotyvas Radviliškis",
+        [
+          "/wiki/FK_Lokomotyvas_Radviliškis"
+        ]
+      ],
+      [
+        "Radviliškis",
+        [
+          "/wiki/Radviliškis"
+        ]
+      ],
+      [
+        "Panevėžio futbolo akademijos stadionas , Panevėžys",
+        [
+          "/wiki/Panevėžys"
+        ]
+      ],
+      [
+        "1st ( LFF 2 lyga - West )",
+        []
+      ]
+    ],
+    [
+      [
+        "FK Nevėžis Kėdainiai",
+        [
+          "/wiki/FK_Nevėžis_Kėdainiai"
+        ]
+      ],
+      [
+        "Kėdainiai",
+        [
+          "/wiki/Kėdainiai"
+        ]
+      ],
+      [
+        "Kėdainių miesto stadionas",
+        []
+      ],
+      [
+        "2nd",
+        []
+      ]
+    ],
+    [
+      [
+        "FK Palanga",
+        [
+          "/wiki/FK_Palanga"
+        ]
+      ],
+      [
+        "Palanga",
+        [
+          "/wiki/Palanga"
+        ]
+      ],
+      [
+        "Palangos centrinis miesto stadionas",
+        []
+      ],
+      [
+        "8th",
+        []
+      ]
+    ],
+    [
+      [
+        "FK Polonija Vilnius",
+        [
+          "/wiki/FK_Polonija_Vilnius"
+        ]
+      ],
+      [
+        "Vilnius",
+        [
+          "/wiki/Vilnius"
+        ]
+      ],
+      [
+        "Vingio parko stadionas",
+        []
+      ],
+      [
+        "5th",
+        []
+      ]
+    ],
+    [
+      [
+        "FK Šilas Kazlų Rūda",
+        [
+          "/wiki/FK_Šilas_Kazlų_Rūda"
+        ]
+      ],
+      [
+        "Kazlų Rūda",
+        [
+          "/wiki/Kazlų_Rūda"
+        ]
+      ],
+      [
+        "Kazlų Rūdos stadionas",
+        []
+      ],
+      [
+        "4th ( LFF 2 lyga - South )",
+        []
+      ]
+    ],
+    [
+      [
+        "FK Šilutė",
+        [
+          "/wiki/FK_Šilutė"
+        ]
+      ],
+      [
+        "Šilutė",
+        [
+          "/wiki/Šilutė"
+        ]
+      ],
+      [
+        "Šilutės miesto stadionas",
+        []
+      ],
+      [
+        "7th",
+        []
+      ]
+    ],
+    [
+      [
+        "FM Spyris Kaunas",
+        [
+          "/wiki/FM_Spyris_Kaunas"
+        ]
+      ],
+      [
+        "Kaunas",
+        [
+          "/wiki/Kaunas"
+        ]
+      ],
+      [
+        "Nacionalinės futbolo akademijos stadionas",
+        []
+      ],
+      [
+        "5th ( LFF 2 lyga - South )",
+        []
+      ]
+    ],
+    [
+      [
+        "FK Trakai",
+        [
+          "/wiki/FK_Trakai"
+        ]
+      ],
+      [
+        "Trakai",
+        [
+          "/wiki/Trakai"
+        ]
+      ],
+      [
+        "Trakų naujasis stadionas",
+        []
+      ],
+      [
+        "4th",
+        []
+      ]
+    ],
+    [
+      [
+        "FK Žalgiris-3 Vilnius",
+        []
+      ],
+      [
+        "Vilnius",
+        [
+          "/wiki/Vilnius"
+        ]
+      ],
+      [
+        "Vilniaus LFF stadionas",
+        []
+      ],
+      [
+        "3rd ( LFF 2 lyga - South )",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "0c4fee70-05e1-5129-ac21-8834b5e87369",
+    "table_id": "2013_LFF_I_lyga_0",
+    "title": "2013 LFF I Lyga",
+    "header": [
+      "Club",
+      "Location",
+      "Stadium",
+      "2012 I Lyga"
+    ],
+    "value": [
+      [
+        [
+          "FK Baltija Panevėžys",
+          [
+            "/wiki/FK_Baltija_Panevėžys"
+          ]
+        ],
+        [
+          "Panevėžys",
+          [
+            "/wiki/Panevėžys"
+          ]
+        ],
+        [
+          "Panevėžio futbolo akademijos stadionas",
+          []
+        ],
+        [
+          "no league",
+          []
+        ]
+      ],
+      [
+        [
+          "FK Klaipėdos Granitas",
+          [
+            "/wiki/FK_Klaipėdos_Granitas"
+          ]
+        ],
+        [
+          "Klaipėda",
+          [
+            "/wiki/Klaipėda"
+          ]
+        ],
+        [
+          "Klaipėdos m. centrinis stadionas",
+          []
+        ],
+        [
+          "4th ( LFF 2 lyga - West )",
+          []
+        ]
+      ],
+      [
+        [
+          "FK Lietava Jonava",
+          [
+            "/wiki/FK_Jonava"
+          ]
+        ],
+        [
+          "Jonava",
+          [
+            "/wiki/Jonava"
+          ]
+        ],
+        [
+          "Jonavos centrinis stadionas",
+          []
+        ],
+        [
+          "1st",
+          []
+        ]
+      ],
+      [
+        [
+          "FK Lokomotyvas Radviliškis",
+          [
+            "/wiki/FK_Lokomotyvas_Radviliškis"
+          ]
+        ],
+        [
+          "Radviliškis",
+          [
+            "/wiki/Radviliškis"
+          ]
+        ],
+        [
+          "Panevėžio futbolo akademijos stadionas , Panevėžys",
+          [
+            "/wiki/Panevėžys"
+          ]
+        ],
+        [
+          "1st ( LFF 2 lyga - West )",
+          []
+        ]
+      ],
+      [
+        [
+          "FK Nevėžis Kėdainiai",
+          [
+            "/wiki/FK_Nevėžis_Kėdainiai"
+          ]
+        ],
+        [
+          "Kėdainiai",
+          [
+            "/wiki/Kėdainiai"
+          ]
+        ],
+        [
+          "Kėdainių miesto stadionas",
+          []
+        ],
+        [
+          "2nd",
+          []
+        ]
+      ],
+      [
+        [
+          "FK Palanga",
+          [
+            "/wiki/FK_Palanga"
+          ]
+        ],
+        [
+          "Palanga",
+          [
+            "/wiki/Palanga"
+          ]
+        ],
+        [
+          "Palangos centrinis miesto stadionas",
+          []
+        ],
+        [
+          "8th",
+          []
+        ]
+      ],
+      [
+        [
+          "FK Polonija Vilnius",
+          [
+            "/wiki/FK_Polonija_Vilnius"
+          ]
+        ],
+        [
+          "Vilnius",
+          [
+            "/wiki/Vilnius"
+          ]
+        ],
+        [
+          "Vingio parko stadionas",
+          []
+        ],
+        [
+          "5th",
+          []
+        ]
+      ],
+      [
+        [
+          "FK Šilas Kazlų Rūda",
+          [
+            "/wiki/FK_Šilas_Kazlų_Rūda"
+          ]
+        ],
+        [
+          "Kazlų Rūda",
+          [
+            "/wiki/Kazlų_Rūda"
+          ]
+        ],
+        [
+          "Kazlų Rūdos stadionas",
+          []
+        ],
+        [
+          "4th ( LFF 2 lyga - South )",
+          []
+        ]
+      ],
+      [
+        [
+          "FK Šilutė",
+          [
+            "/wiki/FK_Šilutė"
+          ]
+        ],
+        [
+          "Šilutė",
+          [
+            "/wiki/Šilutė"
+          ]
+        ],
+        [
+          "Šilutės miesto stadionas",
+          []
+        ],
+        [
+          "7th",
+          []
+        ]
+      ],
+      [
+        [
+          "FM Spyris Kaunas",
+          [
+            "/wiki/FM_Spyris_Kaunas"
+          ]
+        ],
+        [
+          "Kaunas",
+          [
+            "/wiki/Kaunas"
+          ]
+        ],
+        [
+          "Nacionalinės futbolo akademijos stadionas",
+          []
+        ],
+        [
+          "5th ( LFF 2 lyga - South )",
+          []
+        ]
+      ],
+      [
+        [
+          "FK Trakai",
+          [
+            "/wiki/FK_Trakai"
+          ]
+        ],
+        [
+          "Trakai",
+          [
+            "/wiki/Trakai"
+          ]
+        ],
+        [
+          "Trakų naujasis stadionas",
+          []
+        ],
+        [
+          "4th",
+          []
+        ]
+      ],
+      [
+        [
+          "FK Žalgiris-3 Vilnius",
+          []
+        ],
+        [
+          "Vilnius",
+          [
+            "/wiki/Vilnius"
+          ]
+        ],
+        [
+          "Vilniaus LFF stadionas",
+          []
+        ],
+        [
+          "3rd ( LFF 2 lyga - South )",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about football clubs participating in the 2013 LFF I Lyga, a Lithuanian football league. It includes details about the clubs, their locations, stadiums, and their standings or league participation in the previous season (2012 I Lyga). The table serves as an overview of the league's composition and club-related data for the specified year.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Location",
+    "Stadium",
+    "2012 I Lyga"
+  ],
+  "entities": [
+    "Club"
+  ]
+}

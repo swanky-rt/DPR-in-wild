@@ -1,0 +1,392 @@
+{
+  "table_id": "T7303",
+  "uid": "b6293956-883c-5eb1-bad9-274326fd51fd",
+  "source": "HybridQA",
+  "source_table_id": "b6293956-883c-5eb1-bad9-274326fd51fd",
+  "domain": "HybridQA",
+  "title": "Romania",
+  "columns": [
+    "Development region",
+    "Area ( km )",
+    "Population ( 2011 )",
+    "Most populous urban centre"
+  ],
+  "rows": [
+    [
+      [
+        "Nord-Vest",
+        [
+          "/wiki/Nord-Vest_(development_region)"
+        ]
+      ],
+      [
+        "34,159",
+        []
+      ],
+      [
+        "2,600,132",
+        []
+      ],
+      [
+        "Cluj-Napoca ( 411,379 )",
+        [
+          "/wiki/Cluj-Napoca_metropolitan_area"
+        ]
+      ]
+    ],
+    [
+      [
+        "Centru",
+        [
+          "/wiki/Centru_(development_region)"
+        ]
+      ],
+      [
+        "34,082",
+        []
+      ],
+      [
+        "2,360,805",
+        []
+      ],
+      [
+        "Brașov ( 369,896 )",
+        [
+          "/wiki/Brașov_metropolitan_area"
+        ]
+      ]
+    ],
+    [
+      [
+        "Nord-Est",
+        [
+          "/wiki/Nord-Est_(development_region)"
+        ]
+      ],
+      [
+        "36,850",
+        []
+      ],
+      [
+        "3,302,217",
+        []
+      ],
+      [
+        "Iași ( 382,484 )",
+        [
+          "/wiki/Iași_metropolitan_area"
+        ]
+      ]
+    ],
+    [
+      [
+        "Sud-Est",
+        [
+          "/wiki/Sud-Est_(development_region)"
+        ]
+      ],
+      [
+        "35,762",
+        []
+      ],
+      [
+        "2,545,923",
+        []
+      ],
+      [
+        "Constanța ( 425,916 )",
+        [
+          "/wiki/Constanța_metropolitan_area"
+        ]
+      ]
+    ],
+    [
+      [
+        "Sud - Muntenia",
+        [
+          "/wiki/Sud_-_Muntenia_(development_region)"
+        ]
+      ],
+      [
+        "34,489",
+        []
+      ],
+      [
+        "3,136,446",
+        []
+      ],
+      [
+        "Ploiești ( 276,279 )",
+        [
+          "/wiki/Ploiești_metropolitan_area"
+        ]
+      ]
+    ],
+    [
+      [
+        "București - Ilfov",
+        [
+          "/wiki/București_-_Ilfov"
+        ]
+      ],
+      [
+        "1,811",
+        []
+      ],
+      [
+        "2,272,163",
+        []
+      ],
+      [
+        "Bucharest ( 2,272,163 )",
+        [
+          "/wiki/Bucharest_metropolitan_area"
+        ]
+      ]
+    ],
+    [
+      [
+        "Sud-Vest Oltenia",
+        [
+          "/wiki/Sud-Vest_(development_region)"
+        ]
+      ],
+      [
+        "29,212",
+        []
+      ],
+      [
+        "2,075,642",
+        []
+      ],
+      [
+        "Craiova ( 356,544 )",
+        [
+          "/wiki/Craiova_metropolitan_area"
+        ]
+      ]
+    ],
+    [
+      [
+        "Vest",
+        [
+          "/wiki/Vest_(development_region)"
+        ]
+      ],
+      [
+        "32,028",
+        []
+      ],
+      [
+        "1,828,313",
+        []
+      ],
+      [
+        "Timișoara ( 384,809 )",
+        [
+          "/wiki/Timișoara_metropolitan_area"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "b6293956-883c-5eb1-bad9-274326fd51fd",
+    "table_id": "Romania_1",
+    "title": "Romania",
+    "header": [
+      "Development region",
+      "Area ( km )",
+      "Population ( 2011 )",
+      "Most populous urban centre"
+    ],
+    "value": [
+      [
+        [
+          "Nord-Vest",
+          [
+            "/wiki/Nord-Vest_(development_region)"
+          ]
+        ],
+        [
+          "34,159",
+          []
+        ],
+        [
+          "2,600,132",
+          []
+        ],
+        [
+          "Cluj-Napoca ( 411,379 )",
+          [
+            "/wiki/Cluj-Napoca_metropolitan_area"
+          ]
+        ]
+      ],
+      [
+        [
+          "Centru",
+          [
+            "/wiki/Centru_(development_region)"
+          ]
+        ],
+        [
+          "34,082",
+          []
+        ],
+        [
+          "2,360,805",
+          []
+        ],
+        [
+          "Brașov ( 369,896 )",
+          [
+            "/wiki/Brașov_metropolitan_area"
+          ]
+        ]
+      ],
+      [
+        [
+          "Nord-Est",
+          [
+            "/wiki/Nord-Est_(development_region)"
+          ]
+        ],
+        [
+          "36,850",
+          []
+        ],
+        [
+          "3,302,217",
+          []
+        ],
+        [
+          "Iași ( 382,484 )",
+          [
+            "/wiki/Iași_metropolitan_area"
+          ]
+        ]
+      ],
+      [
+        [
+          "Sud-Est",
+          [
+            "/wiki/Sud-Est_(development_region)"
+          ]
+        ],
+        [
+          "35,762",
+          []
+        ],
+        [
+          "2,545,923",
+          []
+        ],
+        [
+          "Constanța ( 425,916 )",
+          [
+            "/wiki/Constanța_metropolitan_area"
+          ]
+        ]
+      ],
+      [
+        [
+          "Sud - Muntenia",
+          [
+            "/wiki/Sud_-_Muntenia_(development_region)"
+          ]
+        ],
+        [
+          "34,489",
+          []
+        ],
+        [
+          "3,136,446",
+          []
+        ],
+        [
+          "Ploiești ( 276,279 )",
+          [
+            "/wiki/Ploiești_metropolitan_area"
+          ]
+        ]
+      ],
+      [
+        [
+          "București - Ilfov",
+          [
+            "/wiki/București_-_Ilfov"
+          ]
+        ],
+        [
+          "1,811",
+          []
+        ],
+        [
+          "2,272,163",
+          []
+        ],
+        [
+          "Bucharest ( 2,272,163 )",
+          [
+            "/wiki/Bucharest_metropolitan_area"
+          ]
+        ]
+      ],
+      [
+        [
+          "Sud-Vest Oltenia",
+          [
+            "/wiki/Sud-Vest_(development_region)"
+          ]
+        ],
+        [
+          "29,212",
+          []
+        ],
+        [
+          "2,075,642",
+          []
+        ],
+        [
+          "Craiova ( 356,544 )",
+          [
+            "/wiki/Craiova_metropolitan_area"
+          ]
+        ]
+      ],
+      [
+        [
+          "Vest",
+          [
+            "/wiki/Vest_(development_region)"
+          ]
+        ],
+        [
+          "32,028",
+          []
+        ],
+        [
+          "1,828,313",
+          []
+        ],
+        [
+          "Timișoara ( 384,809 )",
+          [
+            "/wiki/Timișoara_metropolitan_area"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of Romania's development regions, including their geographic area, population as of 2011, and the most populous urban centers within each region. It is designed to summarize key demographic and geographic data for regional analysis or comparison.",
+  "numeric_columns": [
+    "Area ( km )",
+    "Population ( 2011 )"
+  ],
+  "categorical_columns": [
+    "Development region"
+  ],
+  "entities": [
+    "Most populous urban centre"
+  ]
+}

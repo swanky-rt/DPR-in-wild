@@ -1,0 +1,602 @@
+{
+  "table_id": "T2860",
+  "uid": "7addde1a-6008-56a6-83a3-436c45c25d47",
+  "source": "HybridQA",
+  "source_table_id": "7addde1a-6008-56a6-83a3-436c45c25d47",
+  "domain": "HybridQA",
+  "title": "2013 Regional League Division 2 Northern Region",
+  "columns": [
+    "Team",
+    "Kit manufacturer",
+    "Shirt sponsor"
+  ],
+  "rows": [
+    [
+      [
+        "Phitsanulok",
+        [
+          "/wiki/Phitsanulok_F.C."
+        ]
+      ],
+      [
+        "Winner",
+        []
+      ],
+      [
+        "Isuzu , Hock An Tueng Group And Chang",
+        [
+          "/wiki/Isuzu_Motors",
+          "/wiki/ThaiBev"
+        ]
+      ]
+    ],
+    [
+      [
+        "Chiangmai",
+        [
+          "/wiki/Chiangmai_F.C."
+        ]
+      ],
+      [
+        0,
+        []
+      ],
+      [
+        "Muang Thai , Chiangmai Ram Hospital , Leo Beer And Singha",
+        [
+          "/wiki/Singha"
+        ]
+      ]
+    ],
+    [
+      [
+        "Lamphun Warior",
+        [
+          "/wiki/Lamphun_Warrior_F.C."
+        ]
+      ],
+      [
+        "Triple Sport",
+        []
+      ],
+      [
+        "Yamaha , Chang And Betagro",
+        [
+          "/wiki/Yamaha_Motor_Company",
+          "/wiki/ThaiBev"
+        ]
+      ]
+    ],
+    [
+      [
+        "Phichit",
+        [
+          "/wiki/Phichit_F.C."
+        ]
+      ],
+      [
+        "FBT",
+        [
+          "/wiki/FBT_(company)"
+        ]
+      ],
+      [
+        "Red Bull And Leo Beer",
+        []
+      ]
+    ],
+    [
+      [
+        "Uttaradit",
+        [
+          "/wiki/Uttaradit_F.C."
+        ]
+      ],
+      [
+        "Ego Sport",
+        []
+      ],
+      [
+        "Ego Sport",
+        []
+      ]
+    ],
+    [
+      [
+        "Nakhon Sawan",
+        [
+          "/wiki/Nakhon_Sawan_F.C."
+        ]
+      ],
+      [
+        "FBT",
+        [
+          "/wiki/FBT_(company)"
+        ]
+      ],
+      [
+        "Leo Beer",
+        []
+      ]
+    ],
+    [
+      [
+        "Kamphaeng Phet",
+        [
+          "/wiki/Kamphaeng_Phet_F.C."
+        ]
+      ],
+      [
+        "Kela",
+        []
+      ],
+      [
+        "Bangkok Airways , AIA And Chang",
+        [
+          "/wiki/Bangkok_Airways",
+          "/wiki/American_International_Assurance",
+          "/wiki/ThaiBev"
+        ]
+      ]
+    ],
+    [
+      [
+        "Uthai Thani",
+        [
+          "/wiki/Uthai_Thani_F.C."
+        ]
+      ],
+      [
+        "FBT",
+        [
+          "/wiki/FBT_(company)"
+        ]
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        "Tak",
+        [
+          "/wiki/Tak_F.C."
+        ]
+      ],
+      [
+        "Mawin",
+        []
+      ],
+      [
+        "Fairway And Mawin",
+        []
+      ]
+    ],
+    [
+      [
+        "Lampang",
+        [
+          "/wiki/Lampang_F.C."
+        ]
+      ],
+      [
+        "Kela",
+        []
+      ],
+      [
+        "Toyota , Leo And S.Sommee",
+        [
+          "/wiki/Toyota"
+        ]
+      ]
+    ],
+    [
+      [
+        "Phrae",
+        [
+          "/wiki/Phrae_United"
+        ]
+      ],
+      [
+        "Kool",
+        []
+      ],
+      [
+        "Leo Beer And Phrae Sila",
+        []
+      ]
+    ],
+    [
+      [
+        "Sukhothai",
+        [
+          "/wiki/Sukhothai_F.C."
+        ]
+      ],
+      [
+        "Mawin",
+        []
+      ],
+      [
+        "3K Battery , Bangkok Airways And Chang",
+        [
+          "/wiki/Bangkok_Airways",
+          "/wiki/ThaiBev"
+        ]
+      ]
+    ],
+    [
+      [
+        "Phetchabun",
+        [
+          "/wiki/Phetchabun_F.C."
+        ]
+      ],
+      [
+        "Ego Sports",
+        []
+      ],
+      [
+        "Leo Beer",
+        []
+      ]
+    ],
+    [
+      [
+        "Chiangrai",
+        [
+          "/wiki/Chiangrai_F.C."
+        ]
+      ],
+      [
+        "FBT",
+        [
+          "/wiki/FBT_(company)"
+        ]
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        "Phayao",
+        [
+          "/wiki/Phayao_F.C."
+        ]
+      ],
+      [
+        "Kela",
+        []
+      ],
+      [
+        "GS Battery And Chang",
+        [
+          "/wiki/ThaiBev"
+        ]
+      ]
+    ],
+    [
+      [
+        "Nan",
+        [
+          "/wiki/Nan_F.C."
+        ]
+      ],
+      [
+        "Deffo",
+        []
+      ],
+      [
+        "Leo Beer",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "7addde1a-6008-56a6-83a3-436c45c25d47",
+    "table_id": "2013_Thai_Division_2_League_Northern_Region_1",
+    "title": "2013 Regional League Division 2 Northern Region",
+    "header": [
+      "Team",
+      "Kit manufacturer",
+      "Shirt sponsor"
+    ],
+    "value": [
+      [
+        [
+          "Phitsanulok",
+          [
+            "/wiki/Phitsanulok_F.C."
+          ]
+        ],
+        [
+          "Winner",
+          []
+        ],
+        [
+          "Isuzu , Hock An Tueng Group And Chang",
+          [
+            "/wiki/Isuzu_Motors",
+            "/wiki/ThaiBev"
+          ]
+        ]
+      ],
+      [
+        [
+          "Chiangmai",
+          [
+            "/wiki/Chiangmai_F.C."
+          ]
+        ],
+        [
+          0,
+          []
+        ],
+        [
+          "Muang Thai , Chiangmai Ram Hospital , Leo Beer And Singha",
+          [
+            "/wiki/Singha"
+          ]
+        ]
+      ],
+      [
+        [
+          "Lamphun Warior",
+          [
+            "/wiki/Lamphun_Warrior_F.C."
+          ]
+        ],
+        [
+          "Triple Sport",
+          []
+        ],
+        [
+          "Yamaha , Chang And Betagro",
+          [
+            "/wiki/Yamaha_Motor_Company",
+            "/wiki/ThaiBev"
+          ]
+        ]
+      ],
+      [
+        [
+          "Phichit",
+          [
+            "/wiki/Phichit_F.C."
+          ]
+        ],
+        [
+          "FBT",
+          [
+            "/wiki/FBT_(company)"
+          ]
+        ],
+        [
+          "Red Bull And Leo Beer",
+          []
+        ]
+      ],
+      [
+        [
+          "Uttaradit",
+          [
+            "/wiki/Uttaradit_F.C."
+          ]
+        ],
+        [
+          "Ego Sport",
+          []
+        ],
+        [
+          "Ego Sport",
+          []
+        ]
+      ],
+      [
+        [
+          "Nakhon Sawan",
+          [
+            "/wiki/Nakhon_Sawan_F.C."
+          ]
+        ],
+        [
+          "FBT",
+          [
+            "/wiki/FBT_(company)"
+          ]
+        ],
+        [
+          "Leo Beer",
+          []
+        ]
+      ],
+      [
+        [
+          "Kamphaeng Phet",
+          [
+            "/wiki/Kamphaeng_Phet_F.C."
+          ]
+        ],
+        [
+          "Kela",
+          []
+        ],
+        [
+          "Bangkok Airways , AIA And Chang",
+          [
+            "/wiki/Bangkok_Airways",
+            "/wiki/American_International_Assurance",
+            "/wiki/ThaiBev"
+          ]
+        ]
+      ],
+      [
+        [
+          "Uthai Thani",
+          [
+            "/wiki/Uthai_Thani_F.C."
+          ]
+        ],
+        [
+          "FBT",
+          [
+            "/wiki/FBT_(company)"
+          ]
+        ],
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        [
+          "Tak",
+          [
+            "/wiki/Tak_F.C."
+          ]
+        ],
+        [
+          "Mawin",
+          []
+        ],
+        [
+          "Fairway And Mawin",
+          []
+        ]
+      ],
+      [
+        [
+          "Lampang",
+          [
+            "/wiki/Lampang_F.C."
+          ]
+        ],
+        [
+          "Kela",
+          []
+        ],
+        [
+          "Toyota , Leo And S.Sommee",
+          [
+            "/wiki/Toyota"
+          ]
+        ]
+      ],
+      [
+        [
+          "Phrae",
+          [
+            "/wiki/Phrae_United"
+          ]
+        ],
+        [
+          "Kool",
+          []
+        ],
+        [
+          "Leo Beer And Phrae Sila",
+          []
+        ]
+      ],
+      [
+        [
+          "Sukhothai",
+          [
+            "/wiki/Sukhothai_F.C."
+          ]
+        ],
+        [
+          "Mawin",
+          []
+        ],
+        [
+          "3K Battery , Bangkok Airways And Chang",
+          [
+            "/wiki/Bangkok_Airways",
+            "/wiki/ThaiBev"
+          ]
+        ]
+      ],
+      [
+        [
+          "Phetchabun",
+          [
+            "/wiki/Phetchabun_F.C."
+          ]
+        ],
+        [
+          "Ego Sports",
+          []
+        ],
+        [
+          "Leo Beer",
+          []
+        ]
+      ],
+      [
+        [
+          "Chiangrai",
+          [
+            "/wiki/Chiangrai_F.C."
+          ]
+        ],
+        [
+          "FBT",
+          [
+            "/wiki/FBT_(company)"
+          ]
+        ],
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        [
+          "Phayao",
+          [
+            "/wiki/Phayao_F.C."
+          ]
+        ],
+        [
+          "Kela",
+          []
+        ],
+        [
+          "GS Battery And Chang",
+          [
+            "/wiki/ThaiBev"
+          ]
+        ]
+      ],
+      [
+        [
+          "Nan",
+          [
+            "/wiki/Nan_F.C."
+          ]
+        ],
+        [
+          "Deffo",
+          []
+        ],
+        [
+          "Leo Beer",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about teams participating in the 2013 Regional League Division 2 Northern Region, focusing on their kit manufacturers and shirt sponsors. It is intended to document sponsorship and branding details for the teams in this football league.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Kit manufacturer",
+    "Shirt sponsor"
+  ],
+  "entities": [
+    "Team"
+  ]
+}

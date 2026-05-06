@@ -1,0 +1,293 @@
+{
+  "table_id": "T10369",
+  "uid": "d78ce5c4-39a7-5d21-832d-8b37ae687b2b",
+  "source": "HybridQA",
+  "source_table_id": "d78ce5c4-39a7-5d21-832d-8b37ae687b2b",
+  "domain": "HybridQA",
+  "title": "Women's Baseball Association Korea",
+  "columns": [
+    "Team Name ( Korean - English )",
+    "City",
+    "Year founded"
+  ],
+  "rows": [
+    [
+      [
+        "인천 해머스스톰 - Incheon Hammers Storm",
+        []
+      ],
+      [
+        "Incheon",
+        [
+          "/wiki/Incheon"
+        ]
+      ],
+      [
+        2006,
+        []
+      ]
+    ],
+    [
+      [
+        "경기 플라워즈 - Gyeonggi-do Flowers",
+        []
+      ],
+      [
+        "Gyeonggi-do",
+        [
+          "/wiki/Gyeonggi-do"
+        ]
+      ],
+      [
+        2008,
+        []
+      ]
+    ],
+    [
+      [
+        "서울 나인빅스 - NineVics",
+        []
+      ],
+      [
+        "Seoul",
+        [
+          "/wiki/Seoul"
+        ]
+      ],
+      [
+        2005,
+        []
+      ]
+    ],
+    [
+      [
+        "대전 레이디스 - Daejeon Ladies",
+        []
+      ],
+      [
+        "Daejeon",
+        [
+          "/wiki/Daejeon"
+        ]
+      ],
+      [
+        2007,
+        []
+      ]
+    ],
+    [
+      [
+        "전북 JTCR - Jeonbuk Triple Crown Rudolph",
+        []
+      ],
+      [
+        "Jeonbuk",
+        [
+          "/wiki/Jeonbuk"
+        ]
+      ],
+      [
+        2008,
+        []
+      ]
+    ],
+    [
+      [
+        "광주 스윙 이글스 - Gwangju Swing Eagles",
+        []
+      ],
+      [
+        "Gwangju",
+        [
+          "/wiki/Gwangju"
+        ]
+      ],
+      [
+        2005,
+        []
+      ]
+    ],
+    [
+      [
+        "부산 빈 - Busan Bin",
+        []
+      ],
+      [
+        "Busan",
+        [
+          "/wiki/Busan"
+        ]
+      ],
+      [
+        2004,
+        []
+      ]
+    ],
+    [
+      [
+        "대구 마이티 - Daegu Mighty Royals",
+        []
+      ],
+      [
+        "Daegu",
+        [
+          "/wiki/Daegu"
+        ]
+      ],
+      [
+        2005,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "d78ce5c4-39a7-5d21-832d-8b37ae687b2b",
+    "table_id": "Women's_Baseball_Association_Korea_0",
+    "title": "Women's Baseball Association Korea",
+    "header": [
+      "Team Name ( Korean - English )",
+      "City",
+      "Year founded"
+    ],
+    "value": [
+      [
+        [
+          "인천 해머스스톰 - Incheon Hammers Storm",
+          []
+        ],
+        [
+          "Incheon",
+          [
+            "/wiki/Incheon"
+          ]
+        ],
+        [
+          2006,
+          []
+        ]
+      ],
+      [
+        [
+          "경기 플라워즈 - Gyeonggi-do Flowers",
+          []
+        ],
+        [
+          "Gyeonggi-do",
+          [
+            "/wiki/Gyeonggi-do"
+          ]
+        ],
+        [
+          2008,
+          []
+        ]
+      ],
+      [
+        [
+          "서울 나인빅스 - NineVics",
+          []
+        ],
+        [
+          "Seoul",
+          [
+            "/wiki/Seoul"
+          ]
+        ],
+        [
+          2005,
+          []
+        ]
+      ],
+      [
+        [
+          "대전 레이디스 - Daejeon Ladies",
+          []
+        ],
+        [
+          "Daejeon",
+          [
+            "/wiki/Daejeon"
+          ]
+        ],
+        [
+          2007,
+          []
+        ]
+      ],
+      [
+        [
+          "전북 JTCR - Jeonbuk Triple Crown Rudolph",
+          []
+        ],
+        [
+          "Jeonbuk",
+          [
+            "/wiki/Jeonbuk"
+          ]
+        ],
+        [
+          2008,
+          []
+        ]
+      ],
+      [
+        [
+          "광주 스윙 이글스 - Gwangju Swing Eagles",
+          []
+        ],
+        [
+          "Gwangju",
+          [
+            "/wiki/Gwangju"
+          ]
+        ],
+        [
+          2005,
+          []
+        ]
+      ],
+      [
+        [
+          "부산 빈 - Busan Bin",
+          []
+        ],
+        [
+          "Busan",
+          [
+            "/wiki/Busan"
+          ]
+        ],
+        [
+          2004,
+          []
+        ]
+      ],
+      [
+        [
+          "대구 마이티 - Daegu Mighty Royals",
+          []
+        ],
+        [
+          "Daegu",
+          [
+            "/wiki/Daegu"
+          ]
+        ],
+        [
+          2005,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about teams in the Women's Baseball Association Korea, including their names, locations, and founding years. It serves to document key details about the teams, combining both Korean and English names for accessibility. The table is likely used for organizational or informational purposes within the sports domain.",
+  "numeric_columns": [
+    "Year founded"
+  ],
+  "categorical_columns": [
+    "Team Name ( Korean - English )"
+  ],
+  "entities": [
+    "City"
+  ]
+}

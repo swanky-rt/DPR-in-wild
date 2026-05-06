@@ -1,0 +1,456 @@
+{
+  "table_id": "T1327",
+  "uid": "ecdd9c6e-5b28-50c8-9e8a-8b98b395d259",
+  "source": "HybridQA",
+  "source_table_id": "ecdd9c6e-5b28-50c8-9e8a-8b98b395d259",
+  "domain": "HybridQA",
+  "title": "List of association football clubs in New Zealand",
+  "columns": [
+    "Club",
+    "Location",
+    "Home Ground",
+    "Capacity"
+  ],
+  "rows": [
+    [
+      [
+        "Caversham",
+        [
+          "/wiki/Caversham_AFC"
+        ]
+      ],
+      [
+        "Caversham",
+        [
+          "/wiki/Caversham,_New_Zealand"
+        ]
+      ],
+      [
+        "Tonga Park",
+        [
+          "/wiki/Tonga_Park"
+        ]
+      ],
+      [
+        "3,500",
+        []
+      ]
+    ],
+    [
+      [
+        "Dunedin Technical",
+        [
+          "/wiki/Dunedin_Technical"
+        ]
+      ],
+      [
+        "Musselburgh",
+        [
+          "/wiki/Musselburgh,_New_Zealand"
+        ]
+      ],
+      [
+        "Culling Park",
+        []
+      ],
+      [
+        "4,500",
+        []
+      ]
+    ],
+    [
+      [
+        "Green Island",
+        [
+          "/wiki/Green_Island_FC"
+        ]
+      ],
+      [
+        "Green Island",
+        [
+          "/wiki/Green_Island,_New_Zealand"
+        ]
+      ],
+      [
+        "Sunnyvale Park",
+        [
+          "/wiki/Sunnyvale_Park"
+        ]
+      ],
+      [
+        "3,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Mosgiel",
+        [
+          "/wiki/Mosgiel_AFC"
+        ]
+      ],
+      [
+        "Mosgiel",
+        [
+          "/wiki/Mosgiel"
+        ]
+      ],
+      [
+        "Memorial Park Ground",
+        [
+          "/wiki/Memorial_Park_Ground"
+        ]
+      ],
+      [
+        "3,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Northern AFC",
+        [
+          "/wiki/Northern_AFC"
+        ]
+      ],
+      [
+        "North East Valley",
+        [
+          "/wiki/North_East_Valley"
+        ]
+      ],
+      [
+        "The Gardens Ground",
+        []
+      ],
+      [
+        "3,500",
+        []
+      ]
+    ],
+    [
+      [
+        "Otago University",
+        [
+          "/wiki/Otago_University_AFC"
+        ]
+      ],
+      [
+        "Dunedin North",
+        [
+          "/wiki/Dunedin_North"
+        ]
+      ],
+      [
+        "Caledonian Ground",
+        [
+          "/wiki/Caledonian_Ground"
+        ]
+      ],
+      [
+        "7,500",
+        []
+      ]
+    ],
+    [
+      [
+        "Queenstown Rovers",
+        [
+          "/wiki/Queenstown_Rovers"
+        ]
+      ],
+      [
+        "Queenstown",
+        [
+          "/wiki/Queenstown,_New_Zealand"
+        ]
+      ],
+      [
+        "Queenstown Events Centre Stadium",
+        [
+          "/wiki/Queenstown_Events_Centre"
+        ]
+      ],
+      [
+        "19,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Roslyn-Wakari",
+        [
+          "/wiki/Roslyn-Wakari"
+        ]
+      ],
+      [
+        "Kaikorai Valley",
+        [
+          "/wiki/Kaikorai_Valley"
+        ]
+      ],
+      [
+        "Ellis Park",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Southland United",
+        []
+      ],
+      [
+        "Invercargill",
+        [
+          "/wiki/Invercargill"
+        ]
+      ],
+      [
+        "Stadium Southland",
+        [
+          "/wiki/Stadium_Southland"
+        ]
+      ],
+      [
+        "4,019",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "ecdd9c6e-5b28-50c8-9e8a-8b98b395d259",
+    "table_id": "List_of_association_football_clubs_in_New_Zealand_5",
+    "title": "List of association football clubs in New Zealand",
+    "header": [
+      "Club",
+      "Location",
+      "Home Ground",
+      "Capacity"
+    ],
+    "value": [
+      [
+        [
+          "Caversham",
+          [
+            "/wiki/Caversham_AFC"
+          ]
+        ],
+        [
+          "Caversham",
+          [
+            "/wiki/Caversham,_New_Zealand"
+          ]
+        ],
+        [
+          "Tonga Park",
+          [
+            "/wiki/Tonga_Park"
+          ]
+        ],
+        [
+          "3,500",
+          []
+        ]
+      ],
+      [
+        [
+          "Dunedin Technical",
+          [
+            "/wiki/Dunedin_Technical"
+          ]
+        ],
+        [
+          "Musselburgh",
+          [
+            "/wiki/Musselburgh,_New_Zealand"
+          ]
+        ],
+        [
+          "Culling Park",
+          []
+        ],
+        [
+          "4,500",
+          []
+        ]
+      ],
+      [
+        [
+          "Green Island",
+          [
+            "/wiki/Green_Island_FC"
+          ]
+        ],
+        [
+          "Green Island",
+          [
+            "/wiki/Green_Island,_New_Zealand"
+          ]
+        ],
+        [
+          "Sunnyvale Park",
+          [
+            "/wiki/Sunnyvale_Park"
+          ]
+        ],
+        [
+          "3,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Mosgiel",
+          [
+            "/wiki/Mosgiel_AFC"
+          ]
+        ],
+        [
+          "Mosgiel",
+          [
+            "/wiki/Mosgiel"
+          ]
+        ],
+        [
+          "Memorial Park Ground",
+          [
+            "/wiki/Memorial_Park_Ground"
+          ]
+        ],
+        [
+          "3,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Northern AFC",
+          [
+            "/wiki/Northern_AFC"
+          ]
+        ],
+        [
+          "North East Valley",
+          [
+            "/wiki/North_East_Valley"
+          ]
+        ],
+        [
+          "The Gardens Ground",
+          []
+        ],
+        [
+          "3,500",
+          []
+        ]
+      ],
+      [
+        [
+          "Otago University",
+          [
+            "/wiki/Otago_University_AFC"
+          ]
+        ],
+        [
+          "Dunedin North",
+          [
+            "/wiki/Dunedin_North"
+          ]
+        ],
+        [
+          "Caledonian Ground",
+          [
+            "/wiki/Caledonian_Ground"
+          ]
+        ],
+        [
+          "7,500",
+          []
+        ]
+      ],
+      [
+        [
+          "Queenstown Rovers",
+          [
+            "/wiki/Queenstown_Rovers"
+          ]
+        ],
+        [
+          "Queenstown",
+          [
+            "/wiki/Queenstown,_New_Zealand"
+          ]
+        ],
+        [
+          "Queenstown Events Centre Stadium",
+          [
+            "/wiki/Queenstown_Events_Centre"
+          ]
+        ],
+        [
+          "19,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Roslyn-Wakari",
+          [
+            "/wiki/Roslyn-Wakari"
+          ]
+        ],
+        [
+          "Kaikorai Valley",
+          [
+            "/wiki/Kaikorai_Valley"
+          ]
+        ],
+        [
+          "Ellis Park",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Southland United",
+          []
+        ],
+        [
+          "Invercargill",
+          [
+            "/wiki/Invercargill"
+          ]
+        ],
+        [
+          "Stadium Southland",
+          [
+            "/wiki/Stadium_Southland"
+          ]
+        ],
+        [
+          "4,019",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about association football clubs in New Zealand, including their names, locations, home grounds, and stadium capacities. It is intended to offer an overview of key details about these clubs for reference or analysis.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "Location",
+    "Home Ground"
+  ],
+  "entities": [
+    "Club"
+  ]
+}

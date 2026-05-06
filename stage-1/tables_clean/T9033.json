@@ -1,0 +1,482 @@
+{
+  "table_id": "T9033",
+  "uid": "e303c0a4-43a9-5b14-8092-14926e73a597",
+  "source": "HybridQA",
+  "source_table_id": "e303c0a4-43a9-5b14-8092-14926e73a597",
+  "domain": "HybridQA",
+  "title": "Comics anthology",
+  "columns": [
+    "Title",
+    "Publisher",
+    "First Year",
+    "Last Year"
+  ],
+  "rows": [
+    [
+      [
+        "Le Petit Vingtième",
+        [
+          "/wiki/Le_Petit_Vingtième"
+        ]
+      ],
+      [
+        "Le Vingtième Siècle",
+        [
+          "/wiki/Le_Vingtième_Siècle"
+        ]
+      ],
+      [
+        1928,
+        []
+      ],
+      [
+        1940,
+        []
+      ]
+    ],
+    [
+      [
+        "Spirou magazine",
+        [
+          "/wiki/Spirou_(magazine)"
+        ]
+      ],
+      [
+        "Dupuis",
+        [
+          "/wiki/Dupuis"
+        ]
+      ],
+      [
+        1938,
+        []
+      ],
+      [
+        "ongoing",
+        []
+      ]
+    ],
+    [
+      [
+        "Tintin magazine",
+        [
+          "/wiki/Tintin_(magazine)"
+        ]
+      ],
+      [
+        "Le Lombard Média-Participations",
+        [
+          "/wiki/Le_Lombard",
+          "/wiki/Média-Participations"
+        ]
+      ],
+      [
+        1946,
+        []
+      ],
+      [
+        1993,
+        []
+      ]
+    ],
+    [
+      [
+        "Pilote magazine",
+        [
+          "/wiki/Pilote"
+        ]
+      ],
+      [
+        "Dargaud",
+        [
+          "/wiki/Dargaud"
+        ]
+      ],
+      [
+        1959,
+        []
+      ],
+      [
+        1989,
+        []
+      ]
+    ],
+    [
+      [
+        "Pif gadget",
+        [
+          "/wiki/Pif_gadget"
+        ]
+      ],
+      [
+        "French Communist Party",
+        [
+          "/wiki/French_Communist_Party"
+        ]
+      ],
+      [
+        "1969 2004",
+        []
+      ],
+      [
+        "1994 2009",
+        []
+      ]
+    ],
+    [
+      [
+        "L'Écho des savanes",
+        [
+          "/wiki/L'Écho_des_savanes"
+        ]
+      ],
+      [
+        "Self-published Albin Michel",
+        [
+          "/wiki/Albin_Michel"
+        ]
+      ],
+      [
+        1972,
+        []
+      ],
+      [
+        2006,
+        []
+      ]
+    ],
+    [
+      [
+        "Métal Hurlant",
+        [
+          "/wiki/Métal_Hurlant"
+        ]
+      ],
+      [
+        "Les Humanoïdes Associés Humanoids Publishing / DC Comics",
+        [
+          "/wiki/Les_Humanoïdes_Associés",
+          "/wiki/Humanoids_Publishing",
+          "/wiki/DC_Comics"
+        ]
+      ],
+      [
+        "1974 2002",
+        []
+      ],
+      [
+        "1987 ongoing",
+        []
+      ]
+    ],
+    [
+      [
+        "Fluide Glacial",
+        [
+          "/wiki/Fluide_Glacial"
+        ]
+      ],
+      [
+        "Groupe Flammarion",
+        [
+          "/wiki/Groupe_Flammarion"
+        ]
+      ],
+      [
+        1975,
+        []
+      ],
+      [
+        "ongoing",
+        []
+      ]
+    ],
+    [
+      [
+        "À Suivre magazine",
+        [
+          "/wiki/À_Suivre"
+        ]
+      ],
+      [
+        "Casterman",
+        [
+          "/wiki/Casterman"
+        ]
+      ],
+      [
+        1979,
+        []
+      ],
+      [
+        1997,
+        []
+      ]
+    ],
+    [
+      [
+        "Lapin",
+        []
+      ],
+      [
+        "L'Association",
+        [
+          "/wiki/L'Association"
+        ]
+      ],
+      [
+        1999,
+        []
+      ],
+      [
+        "ongoing",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "e303c0a4-43a9-5b14-8092-14926e73a597",
+    "table_id": "Comics_anthology_3",
+    "title": "Comics anthology",
+    "header": [
+      "Title",
+      "Publisher",
+      "First Year",
+      "Last Year"
+    ],
+    "value": [
+      [
+        [
+          "Le Petit Vingtième",
+          [
+            "/wiki/Le_Petit_Vingtième"
+          ]
+        ],
+        [
+          "Le Vingtième Siècle",
+          [
+            "/wiki/Le_Vingtième_Siècle"
+          ]
+        ],
+        [
+          1928,
+          []
+        ],
+        [
+          1940,
+          []
+        ]
+      ],
+      [
+        [
+          "Spirou magazine",
+          [
+            "/wiki/Spirou_(magazine)"
+          ]
+        ],
+        [
+          "Dupuis",
+          [
+            "/wiki/Dupuis"
+          ]
+        ],
+        [
+          1938,
+          []
+        ],
+        [
+          "ongoing",
+          []
+        ]
+      ],
+      [
+        [
+          "Tintin magazine",
+          [
+            "/wiki/Tintin_(magazine)"
+          ]
+        ],
+        [
+          "Le Lombard Média-Participations",
+          [
+            "/wiki/Le_Lombard",
+            "/wiki/Média-Participations"
+          ]
+        ],
+        [
+          1946,
+          []
+        ],
+        [
+          1993,
+          []
+        ]
+      ],
+      [
+        [
+          "Pilote magazine",
+          [
+            "/wiki/Pilote"
+          ]
+        ],
+        [
+          "Dargaud",
+          [
+            "/wiki/Dargaud"
+          ]
+        ],
+        [
+          1959,
+          []
+        ],
+        [
+          1989,
+          []
+        ]
+      ],
+      [
+        [
+          "Pif gadget",
+          [
+            "/wiki/Pif_gadget"
+          ]
+        ],
+        [
+          "French Communist Party",
+          [
+            "/wiki/French_Communist_Party"
+          ]
+        ],
+        [
+          "1969 2004",
+          []
+        ],
+        [
+          "1994 2009",
+          []
+        ]
+      ],
+      [
+        [
+          "L'Écho des savanes",
+          [
+            "/wiki/L'Écho_des_savanes"
+          ]
+        ],
+        [
+          "Self-published Albin Michel",
+          [
+            "/wiki/Albin_Michel"
+          ]
+        ],
+        [
+          1972,
+          []
+        ],
+        [
+          2006,
+          []
+        ]
+      ],
+      [
+        [
+          "Métal Hurlant",
+          [
+            "/wiki/Métal_Hurlant"
+          ]
+        ],
+        [
+          "Les Humanoïdes Associés Humanoids Publishing / DC Comics",
+          [
+            "/wiki/Les_Humanoïdes_Associés",
+            "/wiki/Humanoids_Publishing",
+            "/wiki/DC_Comics"
+          ]
+        ],
+        [
+          "1974 2002",
+          []
+        ],
+        [
+          "1987 ongoing",
+          []
+        ]
+      ],
+      [
+        [
+          "Fluide Glacial",
+          [
+            "/wiki/Fluide_Glacial"
+          ]
+        ],
+        [
+          "Groupe Flammarion",
+          [
+            "/wiki/Groupe_Flammarion"
+          ]
+        ],
+        [
+          1975,
+          []
+        ],
+        [
+          "ongoing",
+          []
+        ]
+      ],
+      [
+        [
+          "À Suivre magazine",
+          [
+            "/wiki/À_Suivre"
+          ]
+        ],
+        [
+          "Casterman",
+          [
+            "/wiki/Casterman"
+          ]
+        ],
+        [
+          1979,
+          []
+        ],
+        [
+          1997,
+          []
+        ]
+      ],
+      [
+        [
+          "Lapin",
+          []
+        ],
+        [
+          "L'Association",
+          [
+            "/wiki/L'Association"
+          ]
+        ],
+        [
+          1999,
+          []
+        ],
+        [
+          "ongoing",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about various comics anthologies, including their titles, publishers, and the years they were first and last published. It serves as a reference for understanding the publication history of these anthologies within the comics domain.",
+  "numeric_columns": [
+    "First Year",
+    "Last Year"
+  ],
+  "categorical_columns": [
+    "Publisher"
+  ],
+  "entities": [
+    "Title"
+  ]
+}

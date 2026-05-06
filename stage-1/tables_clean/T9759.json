@@ -1,0 +1,293 @@
+{
+  "table_id": "T9759",
+  "uid": "867c60bb-f7ff-5642-8cd4-fef3de426e10",
+  "source": "HybridQA",
+  "source_table_id": "867c60bb-f7ff-5642-8cd4-fef3de426e10",
+  "domain": "HybridQA",
+  "title": "Double (association football)",
+  "columns": [
+    "Club",
+    "Number",
+    "Seasons"
+  ],
+  "rows": [
+    [
+      [
+        "Manchester United",
+        [
+          "/wiki/Manchester_United_F.C."
+        ]
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        "1993-94 , 1995-96 , 1998-99",
+        []
+      ]
+    ],
+    [
+      [
+        "Arsenal",
+        [
+          "/wiki/Arsenal_F.C."
+        ]
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        "1970-71 , 1997-98 , 2001-02",
+        []
+      ]
+    ],
+    [
+      [
+        "Preston North End",
+        [
+          "/wiki/Preston_North_End_F.C."
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "1888-89",
+        []
+      ]
+    ],
+    [
+      [
+        "Aston Villa",
+        [
+          "/wiki/Aston_Villa_F.C."
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "1896-97",
+        []
+      ]
+    ],
+    [
+      [
+        "Tottenham Hotspur",
+        [
+          "/wiki/Tottenham_Hotspur_F.C."
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "1960-61",
+        []
+      ]
+    ],
+    [
+      [
+        "Liverpool",
+        [
+          "/wiki/Liverpool_F.C."
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "1985-86",
+        []
+      ]
+    ],
+    [
+      [
+        "Chelsea",
+        [
+          "/wiki/Chelsea_F.C."
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "2009-10",
+        []
+      ]
+    ],
+    [
+      [
+        "Manchester City",
+        [
+          "/wiki/Manchester_City_F.C."
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "2018-19",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "867c60bb-f7ff-5642-8cd4-fef3de426e10",
+    "table_id": "Double_(association_football)_138",
+    "title": "Double (association football)",
+    "header": [
+      "Club",
+      "Number",
+      "Seasons"
+    ],
+    "value": [
+      [
+        [
+          "Manchester United",
+          [
+            "/wiki/Manchester_United_F.C."
+          ]
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          "1993-94 , 1995-96 , 1998-99",
+          []
+        ]
+      ],
+      [
+        [
+          "Arsenal",
+          [
+            "/wiki/Arsenal_F.C."
+          ]
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          "1970-71 , 1997-98 , 2001-02",
+          []
+        ]
+      ],
+      [
+        [
+          "Preston North End",
+          [
+            "/wiki/Preston_North_End_F.C."
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "1888-89",
+          []
+        ]
+      ],
+      [
+        [
+          "Aston Villa",
+          [
+            "/wiki/Aston_Villa_F.C."
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "1896-97",
+          []
+        ]
+      ],
+      [
+        [
+          "Tottenham Hotspur",
+          [
+            "/wiki/Tottenham_Hotspur_F.C."
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "1960-61",
+          []
+        ]
+      ],
+      [
+        [
+          "Liverpool",
+          [
+            "/wiki/Liverpool_F.C."
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "1985-86",
+          []
+        ]
+      ],
+      [
+        [
+          "Chelsea",
+          [
+            "/wiki/Chelsea_F.C."
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "2009-10",
+          []
+        ]
+      ],
+      [
+        [
+          "Manchester City",
+          [
+            "/wiki/Manchester_City_F.C."
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "2018-19",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about football clubs that have achieved a 'Double' in association football, which typically refers to winning two major competitions in the same season. It includes the names of the clubs, the number of times they achieved this feat, and the seasons in which it occurred.",
+  "numeric_columns": [
+    "Number"
+  ],
+  "categorical_columns": [
+    "Seasons"
+  ],
+  "entities": [
+    "Club"
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "table_id": "T10231",
+  "uid": "577e022b-0f88-5fe1-983d-41701a9aa663",
+  "source": "HybridQA",
+  "source_table_id": "577e022b-0f88-5fe1-983d-41701a9aa663",
+  "domain": "HybridQA",
+  "title": "1995 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Mo Huilan ( CHN )",
+        [
+          "/wiki/Mo_Huilan"
+        ]
+      ],
+      [
+        9.9,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Dominique Moceanu ( USA )",
+        [
+          "/wiki/Dominique_Moceanu"
+        ]
+      ],
+      [
+        9.837,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Lilia Podkopayeva ( UKR )",
+        [
+          "/wiki/Lilia_Podkopayeva"
+        ]
+      ],
+      [
+        9.837,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Alexandra Marinescu ( ROU )",
+        [
+          "/wiki/Alexandra_Marinescu"
+        ]
+      ],
+      [
+        9.737,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Shannon Miller ( USA )",
+        [
+          "/wiki/Shannon_Miller"
+        ]
+      ],
+      [
+        9.737,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Dina Kochetkova ( RUS )",
+        [
+          "/wiki/Dina_Kochetkova"
+        ]
+      ],
+      [
+        9.725,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Qiao Ya ( CHN )",
+        [
+          "/wiki/Qiao_Ya"
+        ]
+      ],
+      [
+        9.625,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Elena Grosheva ( RUS )",
+        [
+          "/wiki/Elena_Grosheva"
+        ]
+      ],
+      [
+        9.562,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "577e022b-0f88-5fe1-983d-41701a9aa663",
+    "table_id": "1995_World_Artistic_Gymnastics_Championships_8",
+    "title": "1995 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Mo Huilan ( CHN )",
+          [
+            "/wiki/Mo_Huilan"
+          ]
+        ],
+        [
+          9.9,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Dominique Moceanu ( USA )",
+          [
+            "/wiki/Dominique_Moceanu"
+          ]
+        ],
+        [
+          9.837,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Lilia Podkopayeva ( UKR )",
+          [
+            "/wiki/Lilia_Podkopayeva"
+          ]
+        ],
+        [
+          9.837,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Alexandra Marinescu ( ROU )",
+          [
+            "/wiki/Alexandra_Marinescu"
+          ]
+        ],
+        [
+          9.737,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Shannon Miller ( USA )",
+          [
+            "/wiki/Shannon_Miller"
+          ]
+        ],
+        [
+          9.737,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Dina Kochetkova ( RUS )",
+          [
+            "/wiki/Dina_Kochetkova"
+          ]
+        ],
+        [
+          9.725,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Qiao Ya ( CHN )",
+          [
+            "/wiki/Qiao_Ya"
+          ]
+        ],
+        [
+          9.625,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Elena Grosheva ( RUS )",
+          [
+            "/wiki/Elena_Grosheva"
+          ]
+        ],
+        [
+          9.562,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the rankings and scores of gymnasts at the 1995 World Artistic Gymnastics Championships. It includes details about the rank, the names of the gymnasts, and their total scores, likely summarizing performance outcomes.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

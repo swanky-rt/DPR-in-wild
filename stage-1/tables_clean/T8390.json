@@ -1,0 +1,490 @@
+{
+  "table_id": "T8390",
+  "uid": "2b67ca3b-b9f6-516c-bea7-5c4676a37f15",
+  "source": "HybridQA",
+  "source_table_id": "2b67ca3b-b9f6-516c-bea7-5c4676a37f15",
+  "domain": "HybridQA",
+  "title": "Subantarctic",
+  "columns": [
+    "Name of island group",
+    "Ocean",
+    "Claimed by"
+  ],
+  "rows": [
+    [
+      [
+        "Antipodes Islands",
+        [
+          "/wiki/Antipodes_Islands"
+        ]
+      ],
+      [
+        "Pacific Ocean",
+        [
+          "/wiki/Pacific_Ocean"
+        ]
+      ],
+      [
+        "New Zealand",
+        [
+          "/wiki/New_Zealand"
+        ]
+      ]
+    ],
+    [
+      [
+        "Auckland Islands",
+        [
+          "/wiki/Auckland_Islands"
+        ]
+      ],
+      [
+        "Pacific Ocean",
+        []
+      ],
+      [
+        "New Zealand",
+        []
+      ]
+    ],
+    [
+      [
+        "Bounty Islands",
+        [
+          "/wiki/Bounty_Islands"
+        ]
+      ],
+      [
+        "Pacific Ocean",
+        []
+      ],
+      [
+        "New Zealand",
+        []
+      ]
+    ],
+    [
+      [
+        "Bouvet Island ( Bouvetøya )",
+        [
+          "/wiki/Bouvet_Island"
+        ]
+      ],
+      [
+        "Atlantic Ocean",
+        [
+          "/wiki/Atlantic_Ocean"
+        ]
+      ],
+      [
+        "Norway",
+        [
+          "/wiki/Norway"
+        ]
+      ]
+    ],
+    [
+      [
+        "Campbell Island group",
+        [
+          "/wiki/Campbell_Island_group"
+        ]
+      ],
+      [
+        "Pacific Ocean",
+        []
+      ],
+      [
+        "New Zealand",
+        []
+      ]
+    ],
+    [
+      [
+        "Crozet Islands ( French : Îles Crozet or officially Archipel Crozet )",
+        [
+          "/wiki/Crozet_Islands",
+          "/wiki/French_language"
+        ]
+      ],
+      [
+        "Indian Ocean",
+        [
+          "/wiki/Indian_Ocean"
+        ]
+      ],
+      [
+        "France",
+        [
+          "/wiki/France"
+        ]
+      ]
+    ],
+    [
+      [
+        "Heard Island and McDonald Islands ( HIMI )",
+        [
+          "/wiki/Heard_Island_and_McDonald_Islands"
+        ]
+      ],
+      [
+        "Indian Ocean",
+        []
+      ],
+      [
+        "Australia",
+        [
+          "/wiki/Australia"
+        ]
+      ]
+    ],
+    [
+      [
+        "Kerguelen Islands",
+        [
+          "/wiki/Kerguelen_Islands"
+        ]
+      ],
+      [
+        "Indian Ocean",
+        []
+      ],
+      [
+        "France",
+        []
+      ]
+    ],
+    [
+      [
+        "Macquarie Island",
+        [
+          "/wiki/Macquarie_Island"
+        ]
+      ],
+      [
+        "Pacific Ocean",
+        []
+      ],
+      [
+        "Australia",
+        []
+      ]
+    ],
+    [
+      [
+        "Prince Edward Islands",
+        [
+          "/wiki/Prince_Edward_Islands"
+        ]
+      ],
+      [
+        "Indian Ocean",
+        []
+      ],
+      [
+        "South Africa",
+        [
+          "/wiki/South_Africa"
+        ]
+      ]
+    ],
+    [
+      [
+        "South Georgia Group",
+        [
+          "/wiki/South_Georgia_and_the_South_Sandwich_Islands"
+        ]
+      ],
+      [
+        "Atlantic Ocean",
+        []
+      ],
+      [
+        "United Kingdom",
+        [
+          "/wiki/United_Kingdom"
+        ]
+      ]
+    ],
+    [
+      [
+        "South Sandwich Islands",
+        [
+          "/wiki/South_Georgia_and_the_South_Sandwich_Islands"
+        ]
+      ],
+      [
+        "Atlantic Ocean",
+        []
+      ],
+      [
+        "United Kingdom",
+        []
+      ]
+    ],
+    [
+      [
+        "Snares Islands",
+        [
+          "/wiki/The_Snares"
+        ]
+      ],
+      [
+        "Pacific Ocean",
+        []
+      ],
+      [
+        "New Zealand",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "2b67ca3b-b9f6-516c-bea7-5c4676a37f15",
+    "table_id": "Subantarctic_0",
+    "title": "Subantarctic",
+    "header": [
+      "Name of island group",
+      "Ocean",
+      "Claimed by"
+    ],
+    "value": [
+      [
+        [
+          "Antipodes Islands",
+          [
+            "/wiki/Antipodes_Islands"
+          ]
+        ],
+        [
+          "Pacific Ocean",
+          [
+            "/wiki/Pacific_Ocean"
+          ]
+        ],
+        [
+          "New Zealand",
+          [
+            "/wiki/New_Zealand"
+          ]
+        ]
+      ],
+      [
+        [
+          "Auckland Islands",
+          [
+            "/wiki/Auckland_Islands"
+          ]
+        ],
+        [
+          "Pacific Ocean",
+          []
+        ],
+        [
+          "New Zealand",
+          []
+        ]
+      ],
+      [
+        [
+          "Bounty Islands",
+          [
+            "/wiki/Bounty_Islands"
+          ]
+        ],
+        [
+          "Pacific Ocean",
+          []
+        ],
+        [
+          "New Zealand",
+          []
+        ]
+      ],
+      [
+        [
+          "Bouvet Island ( Bouvetøya )",
+          [
+            "/wiki/Bouvet_Island"
+          ]
+        ],
+        [
+          "Atlantic Ocean",
+          [
+            "/wiki/Atlantic_Ocean"
+          ]
+        ],
+        [
+          "Norway",
+          [
+            "/wiki/Norway"
+          ]
+        ]
+      ],
+      [
+        [
+          "Campbell Island group",
+          [
+            "/wiki/Campbell_Island_group"
+          ]
+        ],
+        [
+          "Pacific Ocean",
+          []
+        ],
+        [
+          "New Zealand",
+          []
+        ]
+      ],
+      [
+        [
+          "Crozet Islands ( French : Îles Crozet or officially Archipel Crozet )",
+          [
+            "/wiki/Crozet_Islands",
+            "/wiki/French_language"
+          ]
+        ],
+        [
+          "Indian Ocean",
+          [
+            "/wiki/Indian_Ocean"
+          ]
+        ],
+        [
+          "France",
+          [
+            "/wiki/France"
+          ]
+        ]
+      ],
+      [
+        [
+          "Heard Island and McDonald Islands ( HIMI )",
+          [
+            "/wiki/Heard_Island_and_McDonald_Islands"
+          ]
+        ],
+        [
+          "Indian Ocean",
+          []
+        ],
+        [
+          "Australia",
+          [
+            "/wiki/Australia"
+          ]
+        ]
+      ],
+      [
+        [
+          "Kerguelen Islands",
+          [
+            "/wiki/Kerguelen_Islands"
+          ]
+        ],
+        [
+          "Indian Ocean",
+          []
+        ],
+        [
+          "France",
+          []
+        ]
+      ],
+      [
+        [
+          "Macquarie Island",
+          [
+            "/wiki/Macquarie_Island"
+          ]
+        ],
+        [
+          "Pacific Ocean",
+          []
+        ],
+        [
+          "Australia",
+          []
+        ]
+      ],
+      [
+        [
+          "Prince Edward Islands",
+          [
+            "/wiki/Prince_Edward_Islands"
+          ]
+        ],
+        [
+          "Indian Ocean",
+          []
+        ],
+        [
+          "South Africa",
+          [
+            "/wiki/South_Africa"
+          ]
+        ]
+      ],
+      [
+        [
+          "South Georgia Group",
+          [
+            "/wiki/South_Georgia_and_the_South_Sandwich_Islands"
+          ]
+        ],
+        [
+          "Atlantic Ocean",
+          []
+        ],
+        [
+          "United Kingdom",
+          [
+            "/wiki/United_Kingdom"
+          ]
+        ]
+      ],
+      [
+        [
+          "South Sandwich Islands",
+          [
+            "/wiki/South_Georgia_and_the_South_Sandwich_Islands"
+          ]
+        ],
+        [
+          "Atlantic Ocean",
+          []
+        ],
+        [
+          "United Kingdom",
+          []
+        ]
+      ],
+      [
+        [
+          "Snares Islands",
+          [
+            "/wiki/The_Snares"
+          ]
+        ],
+        [
+          "Pacific Ocean",
+          []
+        ],
+        [
+          "New Zealand",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about various island groups located in the Subantarctic region, including the ocean they are situated in and the countries that claim them. It is designed to categorize and identify geographical entities and their affiliations. The table is relevant for understanding territorial claims and geographic distribution in the Subantarctic domain.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Ocean",
+    "Claimed by"
+  ],
+  "entities": [
+    "Name of island group"
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "table_id": "T8682",
+  "uid": "d7bfa8bf-3fa1-5e00-8c80-be1a403713bc",
+  "source": "HybridQA",
+  "source_table_id": "d7bfa8bf-3fa1-5e00-8c80-be1a403713bc",
+  "domain": "HybridQA",
+  "title": "Laurence Fox",
+  "columns": [
+    "Year",
+    "Title",
+    "Role"
+  ],
+  "rows": [
+    [
+      [
+        2001,
+        []
+      ],
+      [
+        "The Hole",
+        [
+          "/wiki/The_Hole_(2001_film)"
+        ]
+      ],
+      [
+        "Geoff Bingham",
+        []
+      ]
+    ],
+    [
+      [
+        2001,
+        []
+      ],
+      [
+        "Gosford Park",
+        [
+          "/wiki/Gosford_Park"
+        ]
+      ],
+      [
+        "Lord Rupert Standish",
+        []
+      ]
+    ],
+    [
+      [
+        2002,
+        []
+      ],
+      [
+        "Deathwatch",
+        [
+          "/wiki/Deathwatch_(2002_film)"
+        ]
+      ],
+      [
+        "Capt . Bramwell Jennings",
+        []
+      ]
+    ],
+    [
+      [
+        2003,
+        []
+      ],
+      [
+        "Al sur de Granada ( South from Granada )",
+        [
+          "/wiki/Al_sur_de_Granada"
+        ]
+      ],
+      [
+        "Ralph Partridge",
+        [
+          "/wiki/Ralph_Partridge"
+        ]
+      ]
+    ],
+    [
+      [
+        2005,
+        []
+      ],
+      [
+        "The Last Drop",
+        [
+          "/wiki/The_Last_Drop"
+        ]
+      ],
+      [
+        "Obergruppenfuhrer Kessler",
+        []
+      ]
+    ],
+    [
+      [
+        2007,
+        []
+      ],
+      [
+        "Becoming Jane",
+        [
+          "/wiki/Becoming_Jane"
+        ]
+      ],
+      [
+        "Mr. Wisley",
+        []
+      ]
+    ],
+    [
+      [
+        2007,
+        []
+      ],
+      [
+        "Elizabeth : The Golden Age",
+        [
+          "/wiki/Elizabeth:_The_Golden_Age"
+        ]
+      ],
+      [
+        "Sir Christopher Hatton",
+        [
+          "/wiki/Christopher_Hatton"
+        ]
+      ]
+    ],
+    [
+      [
+        2011,
+        []
+      ],
+      [
+        "W.E",
+        [
+          "/wiki/W.E_(film)"
+        ]
+      ],
+      [
+        "Bertie",
+        [
+          "/wiki/George_VI"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "d7bfa8bf-3fa1-5e00-8c80-be1a403713bc",
+    "table_id": "Laurence_Fox_0",
+    "title": "Laurence Fox",
+    "header": [
+      "Year",
+      "Title",
+      "Role"
+    ],
+    "value": [
+      [
+        [
+          2001,
+          []
+        ],
+        [
+          "The Hole",
+          [
+            "/wiki/The_Hole_(2001_film)"
+          ]
+        ],
+        [
+          "Geoff Bingham",
+          []
+        ]
+      ],
+      [
+        [
+          2001,
+          []
+        ],
+        [
+          "Gosford Park",
+          [
+            "/wiki/Gosford_Park"
+          ]
+        ],
+        [
+          "Lord Rupert Standish",
+          []
+        ]
+      ],
+      [
+        [
+          2002,
+          []
+        ],
+        [
+          "Deathwatch",
+          [
+            "/wiki/Deathwatch_(2002_film)"
+          ]
+        ],
+        [
+          "Capt . Bramwell Jennings",
+          []
+        ]
+      ],
+      [
+        [
+          2003,
+          []
+        ],
+        [
+          "Al sur de Granada ( South from Granada )",
+          [
+            "/wiki/Al_sur_de_Granada"
+          ]
+        ],
+        [
+          "Ralph Partridge",
+          [
+            "/wiki/Ralph_Partridge"
+          ]
+        ]
+      ],
+      [
+        [
+          2005,
+          []
+        ],
+        [
+          "The Last Drop",
+          [
+            "/wiki/The_Last_Drop"
+          ]
+        ],
+        [
+          "Obergruppenfuhrer Kessler",
+          []
+        ]
+      ],
+      [
+        [
+          2007,
+          []
+        ],
+        [
+          "Becoming Jane",
+          [
+            "/wiki/Becoming_Jane"
+          ]
+        ],
+        [
+          "Mr. Wisley",
+          []
+        ]
+      ],
+      [
+        [
+          2007,
+          []
+        ],
+        [
+          "Elizabeth : The Golden Age",
+          [
+            "/wiki/Elizabeth:_The_Golden_Age"
+          ]
+        ],
+        [
+          "Sir Christopher Hatton",
+          [
+            "/wiki/Christopher_Hatton"
+          ]
+        ]
+      ],
+      [
+        [
+          2011,
+          []
+        ],
+        [
+          "W.E",
+          [
+            "/wiki/W.E_(film)"
+          ]
+        ],
+        [
+          "Bertie",
+          [
+            "/wiki/George_VI"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of Laurence Fox's acting career, listing the years of his performances, the titles of the works he appeared in, and the roles he portrayed. It serves as a concise reference for his filmography within the entertainment domain.",
+  "numeric_columns": [
+    "Year"
+  ],
+  "categorical_columns": [
+    "Role"
+  ],
+  "entities": [
+    "Title"
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "table_id": "T10205",
+  "uid": "61175255-8553-55e1-9f78-f88638f668a8",
+  "source": "HybridQA",
+  "source_table_id": "61175255-8553-55e1-9f78-f88638f668a8",
+  "domain": "HybridQA",
+  "title": "I-League",
+  "columns": [
+    "Season",
+    "Player",
+    "Position",
+    "Team"
+  ],
+  "rows": [
+    [
+      [
+        "2008-09",
+        [
+          "/wiki/2008–09_I-League"
+        ]
+      ],
+      [
+        "Baljit Sahni",
+        [
+          "/wiki/Baljit_Sahni"
+        ]
+      ],
+      [
+        "Forward",
+        [
+          "/wiki/Forward_(association_football)"
+        ]
+      ],
+      [
+        "JCT",
+        [
+          "/wiki/JCT_F.C."
+        ]
+      ]
+    ],
+    [
+      [
+        "2009-10",
+        [
+          "/wiki/2009–10_I-League"
+        ]
+      ],
+      [
+        "Joaquim Abranches",
+        [
+          "/wiki/Joaquim_Abranches"
+        ]
+      ],
+      [
+        "Forward",
+        [
+          "/wiki/Forward_(association_football)"
+        ]
+      ],
+      [
+        "Dempo",
+        [
+          "/wiki/Dempo_S.C."
+        ]
+      ]
+    ],
+    [
+      [
+        "2010-11",
+        [
+          "/wiki/2010–11_I-League"
+        ]
+      ],
+      [
+        "Jeje Lalpekhlua",
+        [
+          "/wiki/Jeje_Lalpekhlua"
+        ]
+      ],
+      [
+        "Forward",
+        [
+          "/wiki/Forward_(association_football)"
+        ]
+      ],
+      [
+        "Pailan Arrows",
+        [
+          "/wiki/Indian_Arrows"
+        ]
+      ]
+    ],
+    [
+      [
+        "2011-12",
+        [
+          "/wiki/2011–12_I-League"
+        ]
+      ],
+      [
+        "Manandeep Singh",
+        [
+          "/wiki/Manandeep_Singh"
+        ]
+      ],
+      [
+        "Forward",
+        [
+          "/wiki/Forward_(association_football)"
+        ]
+      ],
+      [
+        "Pailan Arrows",
+        [
+          "/wiki/Indian_Arrows"
+        ]
+      ]
+    ],
+    [
+      [
+        "2012-13",
+        [
+          "/wiki/2012–13_I-League"
+        ]
+      ],
+      [
+        "Alwyn George",
+        [
+          "/wiki/Alwyn_George"
+        ]
+      ],
+      [
+        "Midfielder",
+        [
+          "/wiki/Midfielder"
+        ]
+      ],
+      [
+        "Pailan Arrows",
+        [
+          "/wiki/Indian_Arrows"
+        ]
+      ]
+    ],
+    [
+      [
+        "2013-14",
+        [
+          "/wiki/2013–14_I-League"
+        ]
+      ],
+      [
+        "Alwyn George",
+        [
+          "/wiki/Alwyn_George"
+        ]
+      ],
+      [
+        "Midfielder",
+        [
+          "/wiki/Midfielder"
+        ]
+      ],
+      [
+        "Dempo",
+        [
+          "/wiki/Dempo_S.C."
+        ]
+      ]
+    ],
+    [
+      [
+        "2015-16",
+        [
+          "/wiki/2015–16_I-League"
+        ]
+      ],
+      [
+        "Udanta Singh",
+        [
+          "/wiki/Udanta_Singh"
+        ]
+      ],
+      [
+        "Winger",
+        [
+          "/wiki/Forward_(association_football)"
+        ]
+      ],
+      [
+        "Bengaluru FC",
+        [
+          "/wiki/Bengaluru_FC"
+        ]
+      ]
+    ],
+    [
+      [
+        "2016-17",
+        [
+          "/wiki/2016–17_I-League"
+        ]
+      ],
+      [
+        "Jerry Lalrinzuala",
+        [
+          "/wiki/Jerry_Lalrinzuala"
+        ]
+      ],
+      [
+        "Left Back",
+        [
+          "/wiki/Defender_(association_football)"
+        ]
+      ],
+      [
+        "DSK Shivajians",
+        [
+          "/wiki/DSK_Shivajians_F.C."
+        ]
+      ]
+    ],
+    [
+      [
+        "2017-18",
+        [
+          "/wiki/2017–18_I-League"
+        ]
+      ],
+      [
+        "Samuel Lalmuanpuia",
+        [
+          "/wiki/Samuel_Lalmuanpuia"
+        ]
+      ],
+      [
+        "Midfielder",
+        [
+          "/wiki/Midfielder_(association_football)"
+        ]
+      ],
+      [
+        "Shillong Lajong",
+        [
+          "/wiki/Shillong_Lajong_F.C."
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "61175255-8553-55e1-9f78-f88638f668a8",
+    "table_id": "I-League_9",
+    "title": "I-League",
+    "header": [
+      "Season",
+      "Player",
+      "Position",
+      "Team"
+    ],
+    "value": [
+      [
+        [
+          "2008-09",
+          [
+            "/wiki/2008–09_I-League"
+          ]
+        ],
+        [
+          "Baljit Sahni",
+          [
+            "/wiki/Baljit_Sahni"
+          ]
+        ],
+        [
+          "Forward",
+          [
+            "/wiki/Forward_(association_football)"
+          ]
+        ],
+        [
+          "JCT",
+          [
+            "/wiki/JCT_F.C."
+          ]
+        ]
+      ],
+      [
+        [
+          "2009-10",
+          [
+            "/wiki/2009–10_I-League"
+          ]
+        ],
+        [
+          "Joaquim Abranches",
+          [
+            "/wiki/Joaquim_Abranches"
+          ]
+        ],
+        [
+          "Forward",
+          [
+            "/wiki/Forward_(association_football)"
+          ]
+        ],
+        [
+          "Dempo",
+          [
+            "/wiki/Dempo_S.C."
+          ]
+        ]
+      ],
+      [
+        [
+          "2010-11",
+          [
+            "/wiki/2010–11_I-League"
+          ]
+        ],
+        [
+          "Jeje Lalpekhlua",
+          [
+            "/wiki/Jeje_Lalpekhlua"
+          ]
+        ],
+        [
+          "Forward",
+          [
+            "/wiki/Forward_(association_football)"
+          ]
+        ],
+        [
+          "Pailan Arrows",
+          [
+            "/wiki/Indian_Arrows"
+          ]
+        ]
+      ],
+      [
+        [
+          "2011-12",
+          [
+            "/wiki/2011–12_I-League"
+          ]
+        ],
+        [
+          "Manandeep Singh",
+          [
+            "/wiki/Manandeep_Singh"
+          ]
+        ],
+        [
+          "Forward",
+          [
+            "/wiki/Forward_(association_football)"
+          ]
+        ],
+        [
+          "Pailan Arrows",
+          [
+            "/wiki/Indian_Arrows"
+          ]
+        ]
+      ],
+      [
+        [
+          "2012-13",
+          [
+            "/wiki/2012–13_I-League"
+          ]
+        ],
+        [
+          "Alwyn George",
+          [
+            "/wiki/Alwyn_George"
+          ]
+        ],
+        [
+          "Midfielder",
+          [
+            "/wiki/Midfielder"
+          ]
+        ],
+        [
+          "Pailan Arrows",
+          [
+            "/wiki/Indian_Arrows"
+          ]
+        ]
+      ],
+      [
+        [
+          "2013-14",
+          [
+            "/wiki/2013–14_I-League"
+          ]
+        ],
+        [
+          "Alwyn George",
+          [
+            "/wiki/Alwyn_George"
+          ]
+        ],
+        [
+          "Midfielder",
+          [
+            "/wiki/Midfielder"
+          ]
+        ],
+        [
+          "Dempo",
+          [
+            "/wiki/Dempo_S.C."
+          ]
+        ]
+      ],
+      [
+        [
+          "2015-16",
+          [
+            "/wiki/2015–16_I-League"
+          ]
+        ],
+        [
+          "Udanta Singh",
+          [
+            "/wiki/Udanta_Singh"
+          ]
+        ],
+        [
+          "Winger",
+          [
+            "/wiki/Forward_(association_football)"
+          ]
+        ],
+        [
+          "Bengaluru FC",
+          [
+            "/wiki/Bengaluru_FC"
+          ]
+        ]
+      ],
+      [
+        [
+          "2016-17",
+          [
+            "/wiki/2016–17_I-League"
+          ]
+        ],
+        [
+          "Jerry Lalrinzuala",
+          [
+            "/wiki/Jerry_Lalrinzuala"
+          ]
+        ],
+        [
+          "Left Back",
+          [
+            "/wiki/Defender_(association_football)"
+          ]
+        ],
+        [
+          "DSK Shivajians",
+          [
+            "/wiki/DSK_Shivajians_F.C."
+          ]
+        ]
+      ],
+      [
+        [
+          "2017-18",
+          [
+            "/wiki/2017–18_I-League"
+          ]
+        ],
+        [
+          "Samuel Lalmuanpuia",
+          [
+            "/wiki/Samuel_Lalmuanpuia"
+          ]
+        ],
+        [
+          "Midfielder",
+          [
+            "/wiki/Midfielder_(association_football)"
+          ]
+        ],
+        [
+          "Shillong Lajong",
+          [
+            "/wiki/Shillong_Lajong_F.C."
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about players in the I-League, including their season of participation, playing position, and associated team. It serves as a record of player details and their roles within teams during specific seasons of the league.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Season",
+    "Position"
+  ],
+  "entities": [
+    "Player",
+    "Team"
+  ]
+}

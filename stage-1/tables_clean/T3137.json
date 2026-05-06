@@ -1,0 +1,526 @@
+{
+  "table_id": "T3137",
+  "uid": "61b8e1ae-1381-5e28-b024-f4bb71730bac",
+  "source": "HybridQA",
+  "source_table_id": "61b8e1ae-1381-5e28-b024-f4bb71730bac",
+  "domain": "HybridQA",
+  "title": "Mississippi 8 Conference",
+  "columns": [
+    "School",
+    "Location",
+    "Established",
+    "Joined",
+    "Enrollment",
+    "Nickname"
+  ],
+  "rows": [
+    [
+      [
+        "Becker High School",
+        [
+          "/wiki/Becker_High_School"
+        ]
+      ],
+      [
+        "Becker , MN",
+        [
+          "/wiki/Becker,_Minnesota"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "2004 and 2019",
+        []
+      ],
+      [
+        828,
+        []
+      ],
+      [
+        "Bulldogs",
+        []
+      ]
+    ],
+    [
+      [
+        "Big Lake High School",
+        [
+          "/wiki/Big_Lake_High_School"
+        ]
+      ],
+      [
+        "Big Lake , MN",
+        [
+          "/wiki/Big_Lake,_Minnesota"
+        ]
+      ],
+      [
+        1917,
+        []
+      ],
+      [
+        2004,
+        []
+      ],
+      [
+        835,
+        []
+      ],
+      [
+        "Hornets",
+        []
+      ]
+    ],
+    [
+      [
+        "Cambridge-Isanti High School",
+        [
+          "/wiki/Cambridge-Isanti_High_School"
+        ]
+      ],
+      [
+        "Cambridge , MN",
+        [
+          "/wiki/Cambridge,_Minnesota"
+        ]
+      ],
+      [
+        1869,
+        []
+      ],
+      [
+        2004,
+        []
+      ],
+      [
+        "1,302",
+        []
+      ],
+      [
+        "Blue Jackets",
+        []
+      ]
+    ],
+    [
+      [
+        "Chisago Lakes High School",
+        [
+          "/wiki/Chisago_Lakes_High_School"
+        ]
+      ],
+      [
+        "Lindstrom , MN",
+        [
+          "/wiki/Lindstrom,_Minnesota"
+        ]
+      ],
+      [
+        1943,
+        []
+      ],
+      [
+        2013,
+        []
+      ],
+      [
+        "1,017",
+        []
+      ],
+      [
+        "Wildcats",
+        []
+      ]
+    ],
+    [
+      [
+        "Monticello High School",
+        [
+          "/wiki/Monticello_High_School_(Minnesota)"
+        ]
+      ],
+      [
+        "Monticello , MN",
+        [
+          "/wiki/Monticello,_Minnesota"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        2004,
+        []
+      ],
+      [
+        "1,061",
+        []
+      ],
+      [
+        "Magic",
+        []
+      ]
+    ],
+    [
+      [
+        "North Branch High School",
+        [
+          "/wiki/North_Branch_Area_High_School"
+        ]
+      ],
+      [
+        "North Branch , MN",
+        [
+          "/wiki/North_Branch,_Minnesota"
+        ]
+      ],
+      [
+        1932,
+        []
+      ],
+      [
+        2013,
+        []
+      ],
+      [
+        776,
+        []
+      ],
+      [
+        "Vikings",
+        []
+      ]
+    ],
+    [
+      [
+        "Princeton High School",
+        [
+          "/wiki/Princeton_High_School_(Minnesota)"
+        ]
+      ],
+      [
+        "Princeton , MN",
+        [
+          "/wiki/Princeton,_Minnesota"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "2004 and 2013",
+        []
+      ],
+      [
+        894,
+        []
+      ],
+      [
+        "Tigers",
+        []
+      ]
+    ],
+    [
+      [
+        "Saint Francis High School",
+        [
+          "/wiki/Saint_Francis_High_School_(Saint_Francis,_Minnesota)"
+        ]
+      ],
+      [
+        "St. Francis , MN",
+        [
+          "/wiki/St._Francis,_Minnesota"
+        ]
+      ],
+      [
+        1914,
+        []
+      ],
+      [
+        2013,
+        []
+      ],
+      [
+        "1,303",
+        []
+      ],
+      [
+        "Saints",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "61b8e1ae-1381-5e28-b024-f4bb71730bac",
+    "table_id": "Mississippi_8_Conference_0",
+    "title": "Mississippi 8 Conference",
+    "header": [
+      "School",
+      "Location",
+      "Established",
+      "Joined",
+      "Enrollment",
+      "Nickname"
+    ],
+    "value": [
+      [
+        [
+          "Becker High School",
+          [
+            "/wiki/Becker_High_School"
+          ]
+        ],
+        [
+          "Becker , MN",
+          [
+            "/wiki/Becker,_Minnesota"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "2004 and 2019",
+          []
+        ],
+        [
+          828,
+          []
+        ],
+        [
+          "Bulldogs",
+          []
+        ]
+      ],
+      [
+        [
+          "Big Lake High School",
+          [
+            "/wiki/Big_Lake_High_School"
+          ]
+        ],
+        [
+          "Big Lake , MN",
+          [
+            "/wiki/Big_Lake,_Minnesota"
+          ]
+        ],
+        [
+          1917,
+          []
+        ],
+        [
+          2004,
+          []
+        ],
+        [
+          835,
+          []
+        ],
+        [
+          "Hornets",
+          []
+        ]
+      ],
+      [
+        [
+          "Cambridge-Isanti High School",
+          [
+            "/wiki/Cambridge-Isanti_High_School"
+          ]
+        ],
+        [
+          "Cambridge , MN",
+          [
+            "/wiki/Cambridge,_Minnesota"
+          ]
+        ],
+        [
+          1869,
+          []
+        ],
+        [
+          2004,
+          []
+        ],
+        [
+          "1,302",
+          []
+        ],
+        [
+          "Blue Jackets",
+          []
+        ]
+      ],
+      [
+        [
+          "Chisago Lakes High School",
+          [
+            "/wiki/Chisago_Lakes_High_School"
+          ]
+        ],
+        [
+          "Lindstrom , MN",
+          [
+            "/wiki/Lindstrom,_Minnesota"
+          ]
+        ],
+        [
+          1943,
+          []
+        ],
+        [
+          2013,
+          []
+        ],
+        [
+          "1,017",
+          []
+        ],
+        [
+          "Wildcats",
+          []
+        ]
+      ],
+      [
+        [
+          "Monticello High School",
+          [
+            "/wiki/Monticello_High_School_(Minnesota)"
+          ]
+        ],
+        [
+          "Monticello , MN",
+          [
+            "/wiki/Monticello,_Minnesota"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          2004,
+          []
+        ],
+        [
+          "1,061",
+          []
+        ],
+        [
+          "Magic",
+          []
+        ]
+      ],
+      [
+        [
+          "North Branch High School",
+          [
+            "/wiki/North_Branch_Area_High_School"
+          ]
+        ],
+        [
+          "North Branch , MN",
+          [
+            "/wiki/North_Branch,_Minnesota"
+          ]
+        ],
+        [
+          1932,
+          []
+        ],
+        [
+          2013,
+          []
+        ],
+        [
+          776,
+          []
+        ],
+        [
+          "Vikings",
+          []
+        ]
+      ],
+      [
+        [
+          "Princeton High School",
+          [
+            "/wiki/Princeton_High_School_(Minnesota)"
+          ]
+        ],
+        [
+          "Princeton , MN",
+          [
+            "/wiki/Princeton,_Minnesota"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "2004 and 2013",
+          []
+        ],
+        [
+          894,
+          []
+        ],
+        [
+          "Tigers",
+          []
+        ]
+      ],
+      [
+        [
+          "Saint Francis High School",
+          [
+            "/wiki/Saint_Francis_High_School_(Saint_Francis,_Minnesota)"
+          ]
+        ],
+        [
+          "St. Francis , MN",
+          [
+            "/wiki/St._Francis,_Minnesota"
+          ]
+        ],
+        [
+          1914,
+          []
+        ],
+        [
+          2013,
+          []
+        ],
+        [
+          "1,303",
+          []
+        ],
+        [
+          "Saints",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about schools in the Mississippi 8 Conference, including their locations, founding years, conference joining years, enrollment numbers, and nicknames. It serves as a reference for understanding the characteristics and history of these schools within the conference.",
+  "numeric_columns": [
+    "Established",
+    "Joined",
+    "Enrollment"
+  ],
+  "categorical_columns": [
+    "Nickname"
+  ],
+  "entities": [
+    "School",
+    "Location"
+  ]
+}

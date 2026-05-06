@@ -1,0 +1,542 @@
+{
+  "table_id": "T5072",
+  "uid": "049182e6-03cd-5110-ab71-80109e6c806a",
+  "source": "HybridQA",
+  "source_table_id": "049182e6-03cd-5110-ab71-80109e6c806a",
+  "domain": "HybridQA",
+  "title": "List of county routes in Sullivan County, New York",
+  "columns": [
+    "Route",
+    "Length ( mi )",
+    "Length ( km )",
+    "From",
+    "Via",
+    "To"
+  ],
+  "rows": [
+    [
+      [
+        "CR 51",
+        []
+      ],
+      [
+        2.13,
+        []
+      ],
+      [
+        3.43,
+        []
+      ],
+      [
+        "NY 52",
+        [
+          "/wiki/NY_52"
+        ]
+      ],
+      [
+        "Hilldale Road in Fallsburg",
+        [
+          "/wiki/Fallsburg,_New_York"
+        ]
+      ],
+      [
+        "CR 52 / CR 104",
+        []
+      ]
+    ],
+    [
+      [
+        "CR 52",
+        []
+      ],
+      [
+        3.49,
+        []
+      ],
+      [
+        5.62,
+        []
+      ],
+      [
+        "CR 51 / CR 104",
+        []
+      ],
+      [
+        "Brickman Road in Fallsburg",
+        [
+          "/wiki/Fallsburg,_New_York"
+        ]
+      ],
+      [
+        "NY 42 / CR 53",
+        [
+          "/wiki/NY_42"
+        ]
+      ]
+    ],
+    [
+      [
+        "CR 53",
+        []
+      ],
+      [
+        2.03,
+        []
+      ],
+      [
+        3.27,
+        []
+      ],
+      [
+        "Roosevelt Avenue",
+        []
+      ],
+      [
+        "Old Falls Road in Fallsburg",
+        [
+          "/wiki/Fallsburg,_New_York"
+        ]
+      ],
+      [
+        "NY 42 / CR 52",
+        [
+          "/wiki/NY_42"
+        ]
+      ]
+    ],
+    [
+      [
+        "CR 54",
+        []
+      ],
+      [
+        1.65,
+        []
+      ],
+      [
+        2.66,
+        []
+      ],
+      [
+        "0.13 miles ( 0.21 km ) west of Woodridge east village line",
+        [
+          "/wiki/Woodridge,_New_York"
+        ]
+      ],
+      [
+        "Mountaindale Road",
+        []
+      ],
+      [
+        "CR 55 / CR 56 in Fallsburg",
+        [
+          "/wiki/Fallsburg,_New_York"
+        ]
+      ]
+    ],
+    [
+      [
+        "CR 55",
+        []
+      ],
+      [
+        6.59,
+        []
+      ],
+      [
+        10.61,
+        []
+      ],
+      [
+        "CR 54 / CR 56 in Fallsburg",
+        [
+          "/wiki/Fallsburg,_New_York"
+        ]
+      ],
+      [
+        "Main Street and Mountaindale Road",
+        []
+      ],
+      [
+        "Ulster County line in Mamakating ( becomes CH 80 )",
+        [
+          "/wiki/Ulster_County,_New_York",
+          "/wiki/Mamakating,_New_York",
+          "/wiki/County_Highway_80_(Ulster_County,_New_York)"
+        ]
+      ]
+    ],
+    [
+      [
+        "CR 56",
+        []
+      ],
+      [
+        7.52,
+        []
+      ],
+      [
+        12.1,
+        []
+      ],
+      [
+        "CR 172 in Mamakating",
+        [
+          "/wiki/Mamakating,_New_York"
+        ]
+      ],
+      [
+        "Masten Lake Road",
+        []
+      ],
+      [
+        "CR 54 / CR 55 in Fallsburg",
+        [
+          "/wiki/Fallsburg,_New_York"
+        ]
+      ]
+    ],
+    [
+      [
+        "CR 58",
+        []
+      ],
+      [
+        5.67,
+        []
+      ],
+      [
+        9.12,
+        []
+      ],
+      [
+        "Rock Hill Drive at NY 17 exit 109 in Thompson",
+        [
+          "/wiki/NY_17",
+          "/wiki/Thompson,_New_York"
+        ]
+      ],
+      [
+        "Glen Wild Road",
+        []
+      ],
+      [
+        "Woodridge village line in Fallsburg",
+        [
+          "/wiki/Woodridge,_New_York",
+          "/wiki/Fallsburg,_New_York"
+        ]
+      ]
+    ],
+    [
+      [
+        "CR 59",
+        []
+      ],
+      [
+        1.1,
+        []
+      ],
+      [
+        1.77,
+        []
+      ],
+      [
+        "NY 17B",
+        [
+          "/wiki/NY_17B"
+        ]
+      ],
+      [
+        "Kaufman Road in Thompson",
+        [
+          "/wiki/Thompson,_New_York"
+        ]
+      ],
+      [
+        "NY 17 eastbound on-ramp",
+        [
+          "/wiki/NY_17"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "049182e6-03cd-5110-ab71-80109e6c806a",
+    "table_id": "List_of_county_routes_in_Sullivan_County,_New_York_4",
+    "title": "List of county routes in Sullivan County, New York",
+    "header": [
+      "Route",
+      "Length ( mi )",
+      "Length ( km )",
+      "From",
+      "Via",
+      "To"
+    ],
+    "value": [
+      [
+        [
+          "CR 51",
+          []
+        ],
+        [
+          2.13,
+          []
+        ],
+        [
+          3.43,
+          []
+        ],
+        [
+          "NY 52",
+          [
+            "/wiki/NY_52"
+          ]
+        ],
+        [
+          "Hilldale Road in Fallsburg",
+          [
+            "/wiki/Fallsburg,_New_York"
+          ]
+        ],
+        [
+          "CR 52 / CR 104",
+          []
+        ]
+      ],
+      [
+        [
+          "CR 52",
+          []
+        ],
+        [
+          3.49,
+          []
+        ],
+        [
+          5.62,
+          []
+        ],
+        [
+          "CR 51 / CR 104",
+          []
+        ],
+        [
+          "Brickman Road in Fallsburg",
+          [
+            "/wiki/Fallsburg,_New_York"
+          ]
+        ],
+        [
+          "NY 42 / CR 53",
+          [
+            "/wiki/NY_42"
+          ]
+        ]
+      ],
+      [
+        [
+          "CR 53",
+          []
+        ],
+        [
+          2.03,
+          []
+        ],
+        [
+          3.27,
+          []
+        ],
+        [
+          "Roosevelt Avenue",
+          []
+        ],
+        [
+          "Old Falls Road in Fallsburg",
+          [
+            "/wiki/Fallsburg,_New_York"
+          ]
+        ],
+        [
+          "NY 42 / CR 52",
+          [
+            "/wiki/NY_42"
+          ]
+        ]
+      ],
+      [
+        [
+          "CR 54",
+          []
+        ],
+        [
+          1.65,
+          []
+        ],
+        [
+          2.66,
+          []
+        ],
+        [
+          "0.13 miles ( 0.21 km ) west of Woodridge east village line",
+          [
+            "/wiki/Woodridge,_New_York"
+          ]
+        ],
+        [
+          "Mountaindale Road",
+          []
+        ],
+        [
+          "CR 55 / CR 56 in Fallsburg",
+          [
+            "/wiki/Fallsburg,_New_York"
+          ]
+        ]
+      ],
+      [
+        [
+          "CR 55",
+          []
+        ],
+        [
+          6.59,
+          []
+        ],
+        [
+          10.61,
+          []
+        ],
+        [
+          "CR 54 / CR 56 in Fallsburg",
+          [
+            "/wiki/Fallsburg,_New_York"
+          ]
+        ],
+        [
+          "Main Street and Mountaindale Road",
+          []
+        ],
+        [
+          "Ulster County line in Mamakating ( becomes CH 80 )",
+          [
+            "/wiki/Ulster_County,_New_York",
+            "/wiki/Mamakating,_New_York",
+            "/wiki/County_Highway_80_(Ulster_County,_New_York)"
+          ]
+        ]
+      ],
+      [
+        [
+          "CR 56",
+          []
+        ],
+        [
+          7.52,
+          []
+        ],
+        [
+          12.1,
+          []
+        ],
+        [
+          "CR 172 in Mamakating",
+          [
+            "/wiki/Mamakating,_New_York"
+          ]
+        ],
+        [
+          "Masten Lake Road",
+          []
+        ],
+        [
+          "CR 54 / CR 55 in Fallsburg",
+          [
+            "/wiki/Fallsburg,_New_York"
+          ]
+        ]
+      ],
+      [
+        [
+          "CR 58",
+          []
+        ],
+        [
+          5.67,
+          []
+        ],
+        [
+          9.12,
+          []
+        ],
+        [
+          "Rock Hill Drive at NY 17 exit 109 in Thompson",
+          [
+            "/wiki/NY_17",
+            "/wiki/Thompson,_New_York"
+          ]
+        ],
+        [
+          "Glen Wild Road",
+          []
+        ],
+        [
+          "Woodridge village line in Fallsburg",
+          [
+            "/wiki/Woodridge,_New_York",
+            "/wiki/Fallsburg,_New_York"
+          ]
+        ]
+      ],
+      [
+        [
+          "CR 59",
+          []
+        ],
+        [
+          1.1,
+          []
+        ],
+        [
+          1.77,
+          []
+        ],
+        [
+          "NY 17B",
+          [
+            "/wiki/NY_17B"
+          ]
+        ],
+        [
+          "Kaufman Road in Thompson",
+          [
+            "/wiki/Thompson,_New_York"
+          ]
+        ],
+        [
+          "NY 17 eastbound on-ramp",
+          [
+            "/wiki/NY_17"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of county routes in Sullivan County, New York, detailing their lengths, starting points, routes they pass through, and endpoints. It is intended to document and organize information about these transportation routes for reference or planning purposes.",
+  "numeric_columns": [
+    "Length ( mi )",
+    "Length ( km )"
+  ],
+  "categorical_columns": [
+    "Route",
+    "From",
+    "Via",
+    "To"
+  ],
+  "entities": [
+    "Route",
+    "From",
+    "Via",
+    "To"
+  ]
+}

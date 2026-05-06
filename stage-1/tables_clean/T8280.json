@@ -1,0 +1,404 @@
+{
+  "table_id": "T8280",
+  "uid": "586477e0-77b8-5d02-9d34-eb14e76b3ea8",
+  "source": "HybridQA",
+  "source_table_id": "586477e0-77b8-5d02-9d34-eb14e76b3ea8",
+  "domain": "HybridQA",
+  "title": "1960 College Baseball All-America Team",
+  "columns": [
+    "Position",
+    "Name",
+    "School"
+  ],
+  "rows": [
+    [
+      [
+        "Pitcher",
+        [
+          "/wiki/Pitcher"
+        ]
+      ],
+      [
+        "Bruce Gardner",
+        []
+      ],
+      [
+        "USC",
+        [
+          "/wiki/USC_Trojans_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Pitcher",
+        [
+          "/wiki/Pitcher"
+        ]
+      ],
+      [
+        "Dick Soergel",
+        []
+      ],
+      [
+        "Oklahoma State",
+        [
+          "/wiki/Oklahoma_State_Cowboys_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Catcher",
+        [
+          "/wiki/Catcher"
+        ]
+      ],
+      [
+        "Alan Hall",
+        []
+      ],
+      [
+        "Arizona",
+        [
+          "/wiki/Arizona_Wildcats_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "First baseman",
+        [
+          "/wiki/First_baseman"
+        ]
+      ],
+      [
+        "Wayne Knapp",
+        []
+      ],
+      [
+        "Minnesota",
+        [
+          "/wiki/Minnesota_Golden_Gophers_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Second baseman",
+        [
+          "/wiki/Second_baseman"
+        ]
+      ],
+      [
+        "Larry Fegley",
+        []
+      ],
+      [
+        "Penn State",
+        [
+          "/wiki/Penn_State_Nittany_Lions_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Third baseman",
+        [
+          "/wiki/Third_baseman"
+        ]
+      ],
+      [
+        "Jake Gibbs",
+        [
+          "/wiki/Jake_Gibbs"
+        ]
+      ],
+      [
+        "Mississippi",
+        [
+          "/wiki/Ole_Miss_Rebels_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Shortstop",
+        [
+          "/wiki/Shortstop"
+        ]
+      ],
+      [
+        "Ron Cox",
+        []
+      ],
+      [
+        "Missouri",
+        [
+          "/wiki/Missouri_Tigers_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Outfielder",
+        [
+          "/wiki/Outfielder"
+        ]
+      ],
+      [
+        "Tyron Cline",
+        [
+          "/wiki/Tyron_Cline"
+        ]
+      ],
+      [
+        "Clemson",
+        [
+          "/wiki/Clemson_Tigers"
+        ]
+      ]
+    ],
+    [
+      [
+        "Outfielder",
+        [
+          "/wiki/Outfielder"
+        ]
+      ],
+      [
+        "Thomas Perdue",
+        []
+      ],
+      [
+        "Ohio State",
+        [
+          "/wiki/Ohio_State_Buckeyes_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Outfielder",
+        [
+          "/wiki/Outfielder"
+        ]
+      ],
+      [
+        "Larry Petersen",
+        []
+      ],
+      [
+        "Oregon State",
+        [
+          "/wiki/Oregon_State_Beavers_baseball"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "586477e0-77b8-5d02-9d34-eb14e76b3ea8",
+    "table_id": "1960_College_Baseball_All-America_Team_0",
+    "title": "1960 College Baseball All-America Team",
+    "header": [
+      "Position",
+      "Name",
+      "School"
+    ],
+    "value": [
+      [
+        [
+          "Pitcher",
+          [
+            "/wiki/Pitcher"
+          ]
+        ],
+        [
+          "Bruce Gardner",
+          []
+        ],
+        [
+          "USC",
+          [
+            "/wiki/USC_Trojans_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Pitcher",
+          [
+            "/wiki/Pitcher"
+          ]
+        ],
+        [
+          "Dick Soergel",
+          []
+        ],
+        [
+          "Oklahoma State",
+          [
+            "/wiki/Oklahoma_State_Cowboys_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Catcher",
+          [
+            "/wiki/Catcher"
+          ]
+        ],
+        [
+          "Alan Hall",
+          []
+        ],
+        [
+          "Arizona",
+          [
+            "/wiki/Arizona_Wildcats_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "First baseman",
+          [
+            "/wiki/First_baseman"
+          ]
+        ],
+        [
+          "Wayne Knapp",
+          []
+        ],
+        [
+          "Minnesota",
+          [
+            "/wiki/Minnesota_Golden_Gophers_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Second baseman",
+          [
+            "/wiki/Second_baseman"
+          ]
+        ],
+        [
+          "Larry Fegley",
+          []
+        ],
+        [
+          "Penn State",
+          [
+            "/wiki/Penn_State_Nittany_Lions_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Third baseman",
+          [
+            "/wiki/Third_baseman"
+          ]
+        ],
+        [
+          "Jake Gibbs",
+          [
+            "/wiki/Jake_Gibbs"
+          ]
+        ],
+        [
+          "Mississippi",
+          [
+            "/wiki/Ole_Miss_Rebels_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Shortstop",
+          [
+            "/wiki/Shortstop"
+          ]
+        ],
+        [
+          "Ron Cox",
+          []
+        ],
+        [
+          "Missouri",
+          [
+            "/wiki/Missouri_Tigers_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Outfielder",
+          [
+            "/wiki/Outfielder"
+          ]
+        ],
+        [
+          "Tyron Cline",
+          [
+            "/wiki/Tyron_Cline"
+          ]
+        ],
+        [
+          "Clemson",
+          [
+            "/wiki/Clemson_Tigers"
+          ]
+        ]
+      ],
+      [
+        [
+          "Outfielder",
+          [
+            "/wiki/Outfielder"
+          ]
+        ],
+        [
+          "Thomas Perdue",
+          []
+        ],
+        [
+          "Ohio State",
+          [
+            "/wiki/Ohio_State_Buckeyes_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Outfielder",
+          [
+            "/wiki/Outfielder"
+          ]
+        ],
+        [
+          "Larry Petersen",
+          []
+        ],
+        [
+          "Oregon State",
+          [
+            "/wiki/Oregon_State_Beavers_baseball"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table lists members of the 1960 College Baseball All-America Team, highlighting their positions, names, and associated schools. It serves to document notable college baseball players from that year and their respective institutions. The table provides a snapshot of key individuals and their roles in college baseball during that period.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Position",
+    "School"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

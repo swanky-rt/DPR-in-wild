@@ -1,0 +1,188 @@
+{
+  "table_id": "T6852",
+  "uid": "aa53051f-d1db-50ea-8e3d-0d640f724f9b",
+  "source": "HybridQA",
+  "source_table_id": "aa53051f-d1db-50ea-8e3d-0d640f724f9b",
+  "domain": "HybridQA",
+  "title": "List of bus transit systems in the United States",
+  "columns": [
+    "System",
+    "Locale",
+    "Major city ( s )"
+  ],
+  "rows": [
+    [
+      [
+        "Johnson County Transit",
+        [
+          "/wiki/Johnson_County_Transit"
+        ]
+      ],
+      [
+        "Kansas City Metro Area",
+        [
+          "/wiki/Kansas_City_Metro_Area"
+        ]
+      ],
+      [
+        "Overland Park",
+        [
+          "/wiki/Overland_Park,_Kansas"
+        ]
+      ]
+    ],
+    [
+      [
+        "Kansas City Area Transportation Authority",
+        [
+          "/wiki/Kansas_City_Area_Transportation_Authority"
+        ]
+      ],
+      [
+        "Kansas City Metro Area",
+        [
+          "/wiki/Kansas_City_Metro_Area"
+        ]
+      ],
+      [
+        "Kansas City",
+        [
+          "/wiki/Kansas_City,_Kansas"
+        ]
+      ]
+    ],
+    [
+      [
+        "Topeka Transit",
+        [
+          "/wiki/Topeka_Transit"
+        ]
+      ],
+      [
+        "Topeka",
+        [
+          "/wiki/Topeka,_Kansas"
+        ]
+      ],
+      [
+        "Topeka",
+        []
+      ]
+    ],
+    [
+      [
+        "Wichita Transit",
+        [
+          "/wiki/Wichita_Transit"
+        ]
+      ],
+      [
+        "Wichita",
+        [
+          "/wiki/Wichita,_Kansas"
+        ]
+      ],
+      [
+        "Wichita",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "aa53051f-d1db-50ea-8e3d-0d640f724f9b",
+    "table_id": "List_of_bus_transit_systems_in_the_United_States_16",
+    "title": "List of bus transit systems in the United States",
+    "header": [
+      "System",
+      "Locale",
+      "Major city ( s )"
+    ],
+    "value": [
+      [
+        [
+          "Johnson County Transit",
+          [
+            "/wiki/Johnson_County_Transit"
+          ]
+        ],
+        [
+          "Kansas City Metro Area",
+          [
+            "/wiki/Kansas_City_Metro_Area"
+          ]
+        ],
+        [
+          "Overland Park",
+          [
+            "/wiki/Overland_Park,_Kansas"
+          ]
+        ]
+      ],
+      [
+        [
+          "Kansas City Area Transportation Authority",
+          [
+            "/wiki/Kansas_City_Area_Transportation_Authority"
+          ]
+        ],
+        [
+          "Kansas City Metro Area",
+          [
+            "/wiki/Kansas_City_Metro_Area"
+          ]
+        ],
+        [
+          "Kansas City",
+          [
+            "/wiki/Kansas_City,_Kansas"
+          ]
+        ]
+      ],
+      [
+        [
+          "Topeka Transit",
+          [
+            "/wiki/Topeka_Transit"
+          ]
+        ],
+        [
+          "Topeka",
+          [
+            "/wiki/Topeka,_Kansas"
+          ]
+        ],
+        [
+          "Topeka",
+          []
+        ]
+      ],
+      [
+        [
+          "Wichita Transit",
+          [
+            "/wiki/Wichita_Transit"
+          ]
+        ],
+        [
+          "Wichita",
+          [
+            "/wiki/Wichita,_Kansas"
+          ]
+        ],
+        [
+          "Wichita",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about bus transit systems in the United States, including their names, the locales they serve, and the major cities associated with them. It is intended to catalog and describe public transportation systems across different regions.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Locale"
+  ],
+  "entities": [
+    "System",
+    "Major city ( s )"
+  ]
+}

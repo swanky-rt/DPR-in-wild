@@ -1,0 +1,467 @@
+{
+  "table_id": "T1362",
+  "uid": "0ebe9c3a-0b32-5936-bad2-daf187ac9bf7",
+  "source": "HybridQA",
+  "source_table_id": "0ebe9c3a-0b32-5936-bad2-daf187ac9bf7",
+  "domain": "HybridQA",
+  "title": "Metropolitan Collegiate Hockey Conference",
+  "columns": [
+    "School",
+    "Location",
+    "Founded",
+    "Affiliation",
+    "Nickname"
+  ],
+  "rows": [
+    [
+      [
+        "St. Thomas Aquinas College",
+        [
+          "/wiki/St._Thomas_Aquinas_College"
+        ]
+      ],
+      [
+        "Rockland County , NY",
+        [
+          "/wiki/Rockland_County,_NY"
+        ]
+      ],
+      [
+        1952,
+        []
+      ],
+      [
+        "Private/Dominican",
+        []
+      ],
+      [
+        "Spartans",
+        []
+      ]
+    ],
+    [
+      [
+        "Columbia University",
+        [
+          "/wiki/Columbia_University"
+        ]
+      ],
+      [
+        "Manhattan , NY",
+        [
+          "/wiki/Manhattan,_NY"
+        ]
+      ],
+      [
+        1754,
+        []
+      ],
+      [
+        "Ivy League",
+        [
+          "/wiki/Ivy_League"
+        ]
+      ],
+      [
+        "Lions",
+        []
+      ]
+    ],
+    [
+      [
+        "Fordham University",
+        [
+          "/wiki/Fordham_University"
+        ]
+      ],
+      [
+        "Bronx , NY",
+        [
+          "/wiki/Bronx,_NY"
+        ]
+      ],
+      [
+        1841,
+        []
+      ],
+      [
+        "Private/Jesuit",
+        []
+      ],
+      [
+        "Rams",
+        []
+      ]
+    ],
+    [
+      [
+        "Hofstra University",
+        [
+          "/wiki/Hofstra_University"
+        ]
+      ],
+      [
+        "Hempstead , NY",
+        [
+          "/wiki/Hempstead,_NY"
+        ]
+      ],
+      [
+        1935,
+        []
+      ],
+      [
+        "Private/Non-sectarian",
+        []
+      ],
+      [
+        "Pride",
+        []
+      ]
+    ],
+    [
+      [
+        "Suffolk County Community College",
+        [
+          "/wiki/Suffolk_County_Community_College"
+        ]
+      ],
+      [
+        "Long Island , NY",
+        [
+          "/wiki/Long_Island,_NY"
+        ]
+      ],
+      [
+        1959,
+        []
+      ],
+      [
+        "Community College",
+        []
+      ],
+      [
+        "Sharks",
+        []
+      ]
+    ],
+    [
+      [
+        "Stevens Institute of Technology",
+        [
+          "/wiki/Stevens_Institute_of_Technology"
+        ]
+      ],
+      [
+        "Hoboken , NJ",
+        [
+          "/wiki/Hoboken,_NJ"
+        ]
+      ],
+      [
+        1870,
+        []
+      ],
+      [
+        "Private/Non-sectarian",
+        []
+      ],
+      [
+        "Ducks",
+        []
+      ]
+    ],
+    [
+      [
+        "US Merchant Marine Academy",
+        [
+          "/wiki/US_Merchant_Marine_Academy"
+        ]
+      ],
+      [
+        "Kings Point , NY",
+        [
+          "/wiki/Kings_Point,_NY"
+        ]
+      ],
+      [
+        1943,
+        []
+      ],
+      [
+        "United States service academies",
+        [
+          "/wiki/United_States_service_academies"
+        ]
+      ],
+      [
+        "Mariners",
+        []
+      ]
+    ],
+    [
+      [
+        "SUNY Maritime",
+        [
+          "/wiki/State_University_of_New_York_Maritime_College"
+        ]
+      ],
+      [
+        "Bronx , NY",
+        [
+          "/wiki/Bronx,_NY"
+        ]
+      ],
+      [
+        1938,
+        []
+      ],
+      [
+        "Public College",
+        []
+      ],
+      [
+        "Privateers",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "0ebe9c3a-0b32-5936-bad2-daf187ac9bf7",
+    "table_id": "Metropolitan_Collegiate_Hockey_Conference_0",
+    "title": "Metropolitan Collegiate Hockey Conference",
+    "header": [
+      "School",
+      "Location",
+      "Founded",
+      "Affiliation",
+      "Nickname"
+    ],
+    "value": [
+      [
+        [
+          "St. Thomas Aquinas College",
+          [
+            "/wiki/St._Thomas_Aquinas_College"
+          ]
+        ],
+        [
+          "Rockland County , NY",
+          [
+            "/wiki/Rockland_County,_NY"
+          ]
+        ],
+        [
+          1952,
+          []
+        ],
+        [
+          "Private/Dominican",
+          []
+        ],
+        [
+          "Spartans",
+          []
+        ]
+      ],
+      [
+        [
+          "Columbia University",
+          [
+            "/wiki/Columbia_University"
+          ]
+        ],
+        [
+          "Manhattan , NY",
+          [
+            "/wiki/Manhattan,_NY"
+          ]
+        ],
+        [
+          1754,
+          []
+        ],
+        [
+          "Ivy League",
+          [
+            "/wiki/Ivy_League"
+          ]
+        ],
+        [
+          "Lions",
+          []
+        ]
+      ],
+      [
+        [
+          "Fordham University",
+          [
+            "/wiki/Fordham_University"
+          ]
+        ],
+        [
+          "Bronx , NY",
+          [
+            "/wiki/Bronx,_NY"
+          ]
+        ],
+        [
+          1841,
+          []
+        ],
+        [
+          "Private/Jesuit",
+          []
+        ],
+        [
+          "Rams",
+          []
+        ]
+      ],
+      [
+        [
+          "Hofstra University",
+          [
+            "/wiki/Hofstra_University"
+          ]
+        ],
+        [
+          "Hempstead , NY",
+          [
+            "/wiki/Hempstead,_NY"
+          ]
+        ],
+        [
+          1935,
+          []
+        ],
+        [
+          "Private/Non-sectarian",
+          []
+        ],
+        [
+          "Pride",
+          []
+        ]
+      ],
+      [
+        [
+          "Suffolk County Community College",
+          [
+            "/wiki/Suffolk_County_Community_College"
+          ]
+        ],
+        [
+          "Long Island , NY",
+          [
+            "/wiki/Long_Island,_NY"
+          ]
+        ],
+        [
+          1959,
+          []
+        ],
+        [
+          "Community College",
+          []
+        ],
+        [
+          "Sharks",
+          []
+        ]
+      ],
+      [
+        [
+          "Stevens Institute of Technology",
+          [
+            "/wiki/Stevens_Institute_of_Technology"
+          ]
+        ],
+        [
+          "Hoboken , NJ",
+          [
+            "/wiki/Hoboken,_NJ"
+          ]
+        ],
+        [
+          1870,
+          []
+        ],
+        [
+          "Private/Non-sectarian",
+          []
+        ],
+        [
+          "Ducks",
+          []
+        ]
+      ],
+      [
+        [
+          "US Merchant Marine Academy",
+          [
+            "/wiki/US_Merchant_Marine_Academy"
+          ]
+        ],
+        [
+          "Kings Point , NY",
+          [
+            "/wiki/Kings_Point,_NY"
+          ]
+        ],
+        [
+          1943,
+          []
+        ],
+        [
+          "United States service academies",
+          [
+            "/wiki/United_States_service_academies"
+          ]
+        ],
+        [
+          "Mariners",
+          []
+        ]
+      ],
+      [
+        [
+          "SUNY Maritime",
+          [
+            "/wiki/State_University_of_New_York_Maritime_College"
+          ]
+        ],
+        [
+          "Bronx , NY",
+          [
+            "/wiki/Bronx,_NY"
+          ]
+        ],
+        [
+          1938,
+          []
+        ],
+        [
+          "Public College",
+          []
+        ],
+        [
+          "Privateers",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about schools participating in the Metropolitan Collegiate Hockey Conference. It includes details such as the name of the school, its location, founding year, organizational affiliation, and team nickname. The table is likely used to summarize key attributes of the institutions involved in this collegiate hockey league.",
+  "numeric_columns": [
+    "Founded"
+  ],
+  "categorical_columns": [
+    "Affiliation",
+    "Nickname"
+  ],
+  "entities": [
+    "School",
+    "Location"
+  ]
+}

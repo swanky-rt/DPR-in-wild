@@ -1,0 +1,411 @@
+{
+  "table_id": "T8566",
+  "uid": "e832b23b-0b89-5de2-a23a-439d425b8448",
+  "source": "HybridQA",
+  "source_table_id": "e832b23b-0b89-5de2-a23a-439d425b8448",
+  "domain": "HybridQA",
+  "title": "Venues of the 2003 Pan American Games",
+  "columns": [
+    "Venue",
+    "Sports",
+    "Capacity"
+  ],
+  "rows": [
+    [
+      [
+        "Juan Pablo Duarte Olympic Center",
+        [
+          "/wiki/Juan_Pablo_Duarte_Olympic_Center"
+        ]
+      ],
+      [
+        "Basketball",
+        [
+          "/wiki/Basketball_at_the_2003_Pan_American_Games"
+        ]
+      ],
+      [
+        "9,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Softball Stadium",
+        []
+      ],
+      [
+        "Softball",
+        [
+          "/wiki/Softball_at_the_2003_Pan_American_Games"
+        ]
+      ],
+      [
+        "5,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Olympic Velodrome - Juan Pablo Duarte Olympic Center",
+        []
+      ],
+      [
+        "Cycling ( track )",
+        [
+          "/wiki/Cycling_at_the_2003_Pan_American_Games"
+        ]
+      ],
+      [
+        "2,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Olympic Stadium",
+        [
+          "/wiki/Estadio_Olímpico_Félix_Sánchez"
+        ]
+      ],
+      [
+        "Athletics Ceremonies Football",
+        [
+          "/wiki/Athletics_at_the_2003_Pan_American_Games",
+          "/wiki/Football_at_the_2003_Pan_American_Games_(disambiguation)"
+        ]
+      ],
+      [
+        "35,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Judo Pavilion",
+        []
+      ],
+      [
+        "Fencing Judo",
+        [
+          "/wiki/Fencing_at_the_2003_Pan_American_Games",
+          "/wiki/Judo_at_the_2003_Pan_American_Games"
+        ]
+      ],
+      [
+        "2,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Aquatics Center - Juan Pablo Duarte Olympic Center",
+        []
+      ],
+      [
+        "Diving Swimming Synchronized swimming Water polo",
+        [
+          "/wiki/Diving_at_the_2003_Pan_American_Games",
+          "/wiki/Swimming_at_the_2003_Pan_American_Games",
+          "/wiki/Synchronized_swimming_at_the_2003_Pan_American_Games",
+          "/wiki/Water_polo_at_the_2003_Pan_American_Games"
+        ]
+      ],
+      [
+        "4,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Combat Pavilion",
+        []
+      ],
+      [
+        "Karate Taekwondo Wrestling",
+        [
+          "/wiki/Karate_at_the_2003_Pan_American_Games",
+          "/wiki/Taekwondo_at_the_2003_Pan_American_Games",
+          "/wiki/Wrestling_at_the_2003_Pan_American_Games"
+        ]
+      ],
+      [
+        "2,500",
+        []
+      ]
+    ],
+    [
+      [
+        "Volleyball Pavilion",
+        []
+      ],
+      [
+        "Volleyball",
+        [
+          "/wiki/Volleyball_at_the_2003_Pan_American_Games"
+        ]
+      ],
+      [
+        "5,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Road cycling circuit",
+        []
+      ],
+      [
+        "Cycling ( road )",
+        [
+          "/wiki/Cycling_at_the_2003_Pan_American_Games"
+        ]
+      ],
+      [
+        "10,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Racquetball Pavilion",
+        []
+      ],
+      [
+        "Racquetball",
+        [
+          "/wiki/Racquetball_at_the_2003_Pan_American_Games"
+        ]
+      ],
+      [
+        600,
+        []
+      ]
+    ],
+    [
+      [
+        "Olympic Stadium Basque Pelota",
+        []
+      ],
+      [
+        "Basque pelota",
+        [
+          "/wiki/Basque_Pelota_at_the_2003_Pan_American_Games"
+        ]
+      ],
+      [
+        400,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "e832b23b-0b89-5de2-a23a-439d425b8448",
+    "table_id": "Venues_of_the_2003_Pan_American_Games_0",
+    "title": "Venues of the 2003 Pan American Games",
+    "header": [
+      "Venue",
+      "Sports",
+      "Capacity"
+    ],
+    "value": [
+      [
+        [
+          "Juan Pablo Duarte Olympic Center",
+          [
+            "/wiki/Juan_Pablo_Duarte_Olympic_Center"
+          ]
+        ],
+        [
+          "Basketball",
+          [
+            "/wiki/Basketball_at_the_2003_Pan_American_Games"
+          ]
+        ],
+        [
+          "9,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Softball Stadium",
+          []
+        ],
+        [
+          "Softball",
+          [
+            "/wiki/Softball_at_the_2003_Pan_American_Games"
+          ]
+        ],
+        [
+          "5,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Olympic Velodrome - Juan Pablo Duarte Olympic Center",
+          []
+        ],
+        [
+          "Cycling ( track )",
+          [
+            "/wiki/Cycling_at_the_2003_Pan_American_Games"
+          ]
+        ],
+        [
+          "2,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Olympic Stadium",
+          [
+            "/wiki/Estadio_Olímpico_Félix_Sánchez"
+          ]
+        ],
+        [
+          "Athletics Ceremonies Football",
+          [
+            "/wiki/Athletics_at_the_2003_Pan_American_Games",
+            "/wiki/Football_at_the_2003_Pan_American_Games_(disambiguation)"
+          ]
+        ],
+        [
+          "35,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Judo Pavilion",
+          []
+        ],
+        [
+          "Fencing Judo",
+          [
+            "/wiki/Fencing_at_the_2003_Pan_American_Games",
+            "/wiki/Judo_at_the_2003_Pan_American_Games"
+          ]
+        ],
+        [
+          "2,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Aquatics Center - Juan Pablo Duarte Olympic Center",
+          []
+        ],
+        [
+          "Diving Swimming Synchronized swimming Water polo",
+          [
+            "/wiki/Diving_at_the_2003_Pan_American_Games",
+            "/wiki/Swimming_at_the_2003_Pan_American_Games",
+            "/wiki/Synchronized_swimming_at_the_2003_Pan_American_Games",
+            "/wiki/Water_polo_at_the_2003_Pan_American_Games"
+          ]
+        ],
+        [
+          "4,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Combat Pavilion",
+          []
+        ],
+        [
+          "Karate Taekwondo Wrestling",
+          [
+            "/wiki/Karate_at_the_2003_Pan_American_Games",
+            "/wiki/Taekwondo_at_the_2003_Pan_American_Games",
+            "/wiki/Wrestling_at_the_2003_Pan_American_Games"
+          ]
+        ],
+        [
+          "2,500",
+          []
+        ]
+      ],
+      [
+        [
+          "Volleyball Pavilion",
+          []
+        ],
+        [
+          "Volleyball",
+          [
+            "/wiki/Volleyball_at_the_2003_Pan_American_Games"
+          ]
+        ],
+        [
+          "5,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Road cycling circuit",
+          []
+        ],
+        [
+          "Cycling ( road )",
+          [
+            "/wiki/Cycling_at_the_2003_Pan_American_Games"
+          ]
+        ],
+        [
+          "10,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Racquetball Pavilion",
+          []
+        ],
+        [
+          "Racquetball",
+          [
+            "/wiki/Racquetball_at_the_2003_Pan_American_Games"
+          ]
+        ],
+        [
+          600,
+          []
+        ]
+      ],
+      [
+        [
+          "Olympic Stadium Basque Pelota",
+          []
+        ],
+        [
+          "Basque pelota",
+          [
+            "/wiki/Basque_Pelota_at_the_2003_Pan_American_Games"
+          ]
+        ],
+        [
+          400,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the venues used during the 2003 Pan American Games, including their names, the sports they hosted, and their seating capacities. It is intended to document the facilities and their roles in the event.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "Sports"
+  ],
+  "entities": [
+    "Venue"
+  ]
+}

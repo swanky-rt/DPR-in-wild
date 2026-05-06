@@ -1,0 +1,535 @@
+{
+  "table_id": "T1506",
+  "uid": "e081d2aa-3f69-52f0-910b-c1e148b45cbf",
+  "source": "HybridQA",
+  "source_table_id": "e081d2aa-3f69-52f0-910b-c1e148b45cbf",
+  "domain": "HybridQA",
+  "title": "United Soccer Conference",
+  "columns": [
+    "Institution",
+    "Team",
+    "Joined",
+    "Left",
+    "Current women 's soccer conference"
+  ],
+  "rows": [
+    [
+      [
+        "Delaware State University",
+        [
+          "/wiki/Delaware_State_University"
+        ]
+      ],
+      [
+        "Hornets",
+        [
+          "/wiki/Delaware_State_Hornets"
+        ]
+      ],
+      [
+        2005,
+        []
+      ],
+      [
+        2009,
+        []
+      ],
+      [
+        "Independent",
+        [
+          "/wiki/NCAA_Division_I_independent_schools_(soccer)"
+        ]
+      ]
+    ],
+    [
+      [
+        "Howard University",
+        [
+          "/wiki/Howard_University"
+        ]
+      ],
+      [
+        "Lady Bison",
+        [
+          "/wiki/Howard_Bison_and_Lady_Bison"
+        ]
+      ],
+      [
+        2005,
+        []
+      ],
+      [
+        2009,
+        []
+      ],
+      [
+        "Southwestern Athletic Conference",
+        [
+          "/wiki/Southwestern_Athletic_Conference"
+        ]
+      ]
+    ],
+    [
+      [
+        "Indiana University - Purdue University Fort Wayne",
+        [
+          "/wiki/Indiana_University_–_Purdue_University_Fort_Wayne"
+        ]
+      ],
+      [
+        "Mastodons",
+        [
+          "/wiki/Purdue_Fort_Wayne_Mastodons"
+        ]
+      ],
+      [
+        2005,
+        []
+      ],
+      [
+        2006,
+        []
+      ],
+      [
+        "Summit League",
+        [
+          "/wiki/Summit_League"
+        ]
+      ]
+    ],
+    [
+      [
+        "Longwood University",
+        [
+          "/wiki/Longwood_University"
+        ]
+      ],
+      [
+        "Lancers",
+        [
+          "/wiki/Longwood_Lancers"
+        ]
+      ],
+      [
+        2005,
+        []
+      ],
+      [
+        2009,
+        []
+      ],
+      [
+        "Big South Conference",
+        [
+          "/wiki/Big_South_Conference"
+        ]
+      ]
+    ],
+    [
+      [
+        "New Jersey Institute of Technology",
+        [
+          "/wiki/New_Jersey_Institute_of_Technology"
+        ]
+      ],
+      [
+        "Highlanders",
+        [
+          "/wiki/NJIT_Highlanders"
+        ]
+      ],
+      [
+        2007,
+        []
+      ],
+      [
+        2009,
+        []
+      ],
+      [
+        "ASUN Conference",
+        [
+          "/wiki/Atlantic_Sun_Conference"
+        ]
+      ]
+    ],
+    [
+      [
+        "North Dakota State University",
+        [
+          "/wiki/North_Dakota_State_University"
+        ]
+      ],
+      [
+        "Bison",
+        [
+          "/wiki/North_Dakota_State_Bison_women's_soccer"
+        ]
+      ],
+      [
+        2006,
+        []
+      ],
+      [
+        2006,
+        []
+      ],
+      [
+        "Summit League",
+        []
+      ]
+    ],
+    [
+      [
+        "South Carolina State University",
+        [
+          "/wiki/South_Carolina_State_University"
+        ]
+      ],
+      [
+        "Lady Bulldogs",
+        [
+          "/wiki/South_Carolina_State_Bulldogs_and_Lady_Bulldogs"
+        ]
+      ],
+      [
+        2005,
+        []
+      ],
+      [
+        2009,
+        []
+      ],
+      [
+        "Independent",
+        []
+      ]
+    ],
+    [
+      [
+        "South Dakota State University",
+        [
+          "/wiki/South_Dakota_State_University"
+        ]
+      ],
+      [
+        "Jackrabbits",
+        [
+          "/wiki/South_Dakota_State_Jackrabbits"
+        ]
+      ],
+      [
+        2006,
+        []
+      ],
+      [
+        2006,
+        []
+      ],
+      [
+        "Summit League",
+        []
+      ]
+    ],
+    [
+      [
+        "Utah Valley University",
+        [
+          "/wiki/Utah_Valley_University"
+        ]
+      ],
+      [
+        "Wolverines",
+        [
+          "/wiki/Utah_Valley_Wolverines"
+        ]
+      ],
+      [
+        2005,
+        []
+      ],
+      [
+        2009,
+        []
+      ],
+      [
+        "Western Athletic Conference",
+        [
+          "/wiki/Western_Athletic_Conference"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "e081d2aa-3f69-52f0-910b-c1e148b45cbf",
+    "table_id": "United_Soccer_Conference_0",
+    "title": "United Soccer Conference",
+    "header": [
+      "Institution",
+      "Team",
+      "Joined",
+      "Left",
+      "Current women 's soccer conference"
+    ],
+    "value": [
+      [
+        [
+          "Delaware State University",
+          [
+            "/wiki/Delaware_State_University"
+          ]
+        ],
+        [
+          "Hornets",
+          [
+            "/wiki/Delaware_State_Hornets"
+          ]
+        ],
+        [
+          2005,
+          []
+        ],
+        [
+          2009,
+          []
+        ],
+        [
+          "Independent",
+          [
+            "/wiki/NCAA_Division_I_independent_schools_(soccer)"
+          ]
+        ]
+      ],
+      [
+        [
+          "Howard University",
+          [
+            "/wiki/Howard_University"
+          ]
+        ],
+        [
+          "Lady Bison",
+          [
+            "/wiki/Howard_Bison_and_Lady_Bison"
+          ]
+        ],
+        [
+          2005,
+          []
+        ],
+        [
+          2009,
+          []
+        ],
+        [
+          "Southwestern Athletic Conference",
+          [
+            "/wiki/Southwestern_Athletic_Conference"
+          ]
+        ]
+      ],
+      [
+        [
+          "Indiana University - Purdue University Fort Wayne",
+          [
+            "/wiki/Indiana_University_–_Purdue_University_Fort_Wayne"
+          ]
+        ],
+        [
+          "Mastodons",
+          [
+            "/wiki/Purdue_Fort_Wayne_Mastodons"
+          ]
+        ],
+        [
+          2005,
+          []
+        ],
+        [
+          2006,
+          []
+        ],
+        [
+          "Summit League",
+          [
+            "/wiki/Summit_League"
+          ]
+        ]
+      ],
+      [
+        [
+          "Longwood University",
+          [
+            "/wiki/Longwood_University"
+          ]
+        ],
+        [
+          "Lancers",
+          [
+            "/wiki/Longwood_Lancers"
+          ]
+        ],
+        [
+          2005,
+          []
+        ],
+        [
+          2009,
+          []
+        ],
+        [
+          "Big South Conference",
+          [
+            "/wiki/Big_South_Conference"
+          ]
+        ]
+      ],
+      [
+        [
+          "New Jersey Institute of Technology",
+          [
+            "/wiki/New_Jersey_Institute_of_Technology"
+          ]
+        ],
+        [
+          "Highlanders",
+          [
+            "/wiki/NJIT_Highlanders"
+          ]
+        ],
+        [
+          2007,
+          []
+        ],
+        [
+          2009,
+          []
+        ],
+        [
+          "ASUN Conference",
+          [
+            "/wiki/Atlantic_Sun_Conference"
+          ]
+        ]
+      ],
+      [
+        [
+          "North Dakota State University",
+          [
+            "/wiki/North_Dakota_State_University"
+          ]
+        ],
+        [
+          "Bison",
+          [
+            "/wiki/North_Dakota_State_Bison_women's_soccer"
+          ]
+        ],
+        [
+          2006,
+          []
+        ],
+        [
+          2006,
+          []
+        ],
+        [
+          "Summit League",
+          []
+        ]
+      ],
+      [
+        [
+          "South Carolina State University",
+          [
+            "/wiki/South_Carolina_State_University"
+          ]
+        ],
+        [
+          "Lady Bulldogs",
+          [
+            "/wiki/South_Carolina_State_Bulldogs_and_Lady_Bulldogs"
+          ]
+        ],
+        [
+          2005,
+          []
+        ],
+        [
+          2009,
+          []
+        ],
+        [
+          "Independent",
+          []
+        ]
+      ],
+      [
+        [
+          "South Dakota State University",
+          [
+            "/wiki/South_Dakota_State_University"
+          ]
+        ],
+        [
+          "Jackrabbits",
+          [
+            "/wiki/South_Dakota_State_Jackrabbits"
+          ]
+        ],
+        [
+          2006,
+          []
+        ],
+        [
+          2006,
+          []
+        ],
+        [
+          "Summit League",
+          []
+        ]
+      ],
+      [
+        [
+          "Utah Valley University",
+          [
+            "/wiki/Utah_Valley_University"
+          ]
+        ],
+        [
+          "Wolverines",
+          [
+            "/wiki/Utah_Valley_Wolverines"
+          ]
+        ],
+        [
+          2005,
+          []
+        ],
+        [
+          2009,
+          []
+        ],
+        [
+          "Western Athletic Conference",
+          [
+            "/wiki/Western_Athletic_Conference"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about institutions and their women's soccer teams that were part of the United Soccer Conference, including the years they joined and left, as well as their current soccer conference affiliations. It serves to track membership changes and current standings in women's soccer conferences.",
+  "numeric_columns": [
+    "Joined",
+    "Left"
+  ],
+  "categorical_columns": [
+    "Team",
+    "Current women 's soccer conference"
+  ],
+  "entities": [
+    "Institution"
+  ]
+}

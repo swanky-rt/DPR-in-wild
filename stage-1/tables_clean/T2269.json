@@ -1,0 +1,568 @@
+{
+  "table_id": "T2269",
+  "uid": "7a8fedcb-d825-5cee-ac8d-825f7bb4ba30",
+  "source": "HybridQA",
+  "source_table_id": "7a8fedcb-d825-5cee-ac8d-825f7bb4ba30",
+  "domain": "HybridQA",
+  "title": "List of sports venues in North Carolina",
+  "columns": [
+    "Venue",
+    "City/Town",
+    "Tenant/Use",
+    "Capacity"
+  ],
+  "rows": [
+    [
+      [
+        "Charlotte Motor Speedway",
+        [
+          "/wiki/Charlotte_Motor_Speedway"
+        ]
+      ],
+      [
+        "Concord",
+        [
+          "/wiki/Concord,_North_Carolina"
+        ]
+      ],
+      [
+        "Oval racing , Road racing",
+        []
+      ],
+      [
+        "94,000-170,000",
+        []
+      ]
+    ],
+    [
+      [
+        "North Wilkesboro Speedway",
+        [
+          "/wiki/North_Wilkesboro_Speedway"
+        ]
+      ],
+      [
+        "North Wilkesboro",
+        [
+          "/wiki/North_Wilkesboro,_North_Carolina"
+        ]
+      ],
+      [
+        "Oval racing",
+        []
+      ],
+      [
+        "40,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Rockingham Speedway",
+        [
+          "/wiki/Rockingham_Speedway"
+        ]
+      ],
+      [
+        "Rockingham",
+        [
+          "/wiki/Rockingham,_North_Carolina"
+        ]
+      ],
+      [
+        "Oval racing , Road racing",
+        []
+      ],
+      [
+        "34,500",
+        []
+      ]
+    ],
+    [
+      [
+        "zMax Dragway",
+        [
+          "/wiki/Charlotte_Motor_Speedway"
+        ]
+      ],
+      [
+        "Concord",
+        [
+          "/wiki/Concord,_North_Carolina"
+        ]
+      ],
+      [
+        "Drag racing",
+        []
+      ],
+      [
+        "30,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Rockingham Dragway",
+        [
+          "/wiki/Rockingham_Dragway_(North_Carolina)"
+        ]
+      ],
+      [
+        "Rockingham",
+        [
+          "/wiki/Rockingham,_North_Carolina"
+        ]
+      ],
+      [
+        "Drag racing",
+        []
+      ],
+      [
+        "30,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Bowman Gray Stadium",
+        [
+          "/wiki/Bowman_Gray_Stadium"
+        ]
+      ],
+      [
+        "Winston-Salem",
+        [
+          "/wiki/Winston-Salem,_North_Carolina"
+        ]
+      ],
+      [
+        "Oval racing",
+        []
+      ],
+      [
+        "17,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Dirt Track @ Charlotte",
+        [
+          "/wiki/Charlotte_Motor_Speedway"
+        ]
+      ],
+      [
+        "Concord",
+        [
+          "/wiki/Concord,_North_Carolina"
+        ]
+      ],
+      [
+        "Dirt racing",
+        []
+      ],
+      [
+        "14,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Hickory Motor Speedway",
+        [
+          "/wiki/Hickory_Motor_Speedway"
+        ]
+      ],
+      [
+        "Newton",
+        [
+          "/wiki/Newton,_North_Carolina"
+        ]
+      ],
+      [
+        "Oval racing",
+        []
+      ],
+      [
+        "13,200",
+        []
+      ]
+    ],
+    [
+      [
+        "Orange County Speedway",
+        [
+          "/wiki/Orange_County_Speedway"
+        ]
+      ],
+      [
+        "Rougemont",
+        [
+          "/wiki/Rougemont,_North_Carolina"
+        ]
+      ],
+      [
+        "Oval racing",
+        []
+      ],
+      [
+        "12,400",
+        []
+      ]
+    ],
+    [
+      [
+        "Concord Motorsport Park",
+        [
+          "/wiki/Concord_Motorsport_Park"
+        ]
+      ],
+      [
+        "Midland",
+        [
+          "/wiki/Midland,_North_Carolina"
+        ]
+      ],
+      [
+        "Oval racing",
+        []
+      ],
+      [
+        "8,500",
+        []
+      ]
+    ],
+    [
+      [
+        "Ace Speedway",
+        [
+          "/wiki/Ace_Speedway"
+        ]
+      ],
+      [
+        "Altamahaw",
+        [
+          "/wiki/Altamahaw,_North_Carolina"
+        ]
+      ],
+      [
+        "Oval racing",
+        []
+      ],
+      [
+        "5,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Caraway Speedway",
+        [
+          "/wiki/Caraway_Speedway"
+        ]
+      ],
+      [
+        "Sophia",
+        [
+          "/wiki/Sophia,_North_Carolina"
+        ]
+      ],
+      [
+        "Oval racing",
+        []
+      ],
+      [
+        "4,000",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "7a8fedcb-d825-5cee-ac8d-825f7bb4ba30",
+    "table_id": "List_of_sports_venues_in_North_Carolina_1",
+    "title": "List of sports venues in North Carolina",
+    "header": [
+      "Venue",
+      "City/Town",
+      "Tenant/Use",
+      "Capacity"
+    ],
+    "value": [
+      [
+        [
+          "Charlotte Motor Speedway",
+          [
+            "/wiki/Charlotte_Motor_Speedway"
+          ]
+        ],
+        [
+          "Concord",
+          [
+            "/wiki/Concord,_North_Carolina"
+          ]
+        ],
+        [
+          "Oval racing , Road racing",
+          []
+        ],
+        [
+          "94,000-170,000",
+          []
+        ]
+      ],
+      [
+        [
+          "North Wilkesboro Speedway",
+          [
+            "/wiki/North_Wilkesboro_Speedway"
+          ]
+        ],
+        [
+          "North Wilkesboro",
+          [
+            "/wiki/North_Wilkesboro,_North_Carolina"
+          ]
+        ],
+        [
+          "Oval racing",
+          []
+        ],
+        [
+          "40,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Rockingham Speedway",
+          [
+            "/wiki/Rockingham_Speedway"
+          ]
+        ],
+        [
+          "Rockingham",
+          [
+            "/wiki/Rockingham,_North_Carolina"
+          ]
+        ],
+        [
+          "Oval racing , Road racing",
+          []
+        ],
+        [
+          "34,500",
+          []
+        ]
+      ],
+      [
+        [
+          "zMax Dragway",
+          [
+            "/wiki/Charlotte_Motor_Speedway"
+          ]
+        ],
+        [
+          "Concord",
+          [
+            "/wiki/Concord,_North_Carolina"
+          ]
+        ],
+        [
+          "Drag racing",
+          []
+        ],
+        [
+          "30,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Rockingham Dragway",
+          [
+            "/wiki/Rockingham_Dragway_(North_Carolina)"
+          ]
+        ],
+        [
+          "Rockingham",
+          [
+            "/wiki/Rockingham,_North_Carolina"
+          ]
+        ],
+        [
+          "Drag racing",
+          []
+        ],
+        [
+          "30,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Bowman Gray Stadium",
+          [
+            "/wiki/Bowman_Gray_Stadium"
+          ]
+        ],
+        [
+          "Winston-Salem",
+          [
+            "/wiki/Winston-Salem,_North_Carolina"
+          ]
+        ],
+        [
+          "Oval racing",
+          []
+        ],
+        [
+          "17,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Dirt Track @ Charlotte",
+          [
+            "/wiki/Charlotte_Motor_Speedway"
+          ]
+        ],
+        [
+          "Concord",
+          [
+            "/wiki/Concord,_North_Carolina"
+          ]
+        ],
+        [
+          "Dirt racing",
+          []
+        ],
+        [
+          "14,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Hickory Motor Speedway",
+          [
+            "/wiki/Hickory_Motor_Speedway"
+          ]
+        ],
+        [
+          "Newton",
+          [
+            "/wiki/Newton,_North_Carolina"
+          ]
+        ],
+        [
+          "Oval racing",
+          []
+        ],
+        [
+          "13,200",
+          []
+        ]
+      ],
+      [
+        [
+          "Orange County Speedway",
+          [
+            "/wiki/Orange_County_Speedway"
+          ]
+        ],
+        [
+          "Rougemont",
+          [
+            "/wiki/Rougemont,_North_Carolina"
+          ]
+        ],
+        [
+          "Oval racing",
+          []
+        ],
+        [
+          "12,400",
+          []
+        ]
+      ],
+      [
+        [
+          "Concord Motorsport Park",
+          [
+            "/wiki/Concord_Motorsport_Park"
+          ]
+        ],
+        [
+          "Midland",
+          [
+            "/wiki/Midland,_North_Carolina"
+          ]
+        ],
+        [
+          "Oval racing",
+          []
+        ],
+        [
+          "8,500",
+          []
+        ]
+      ],
+      [
+        [
+          "Ace Speedway",
+          [
+            "/wiki/Ace_Speedway"
+          ]
+        ],
+        [
+          "Altamahaw",
+          [
+            "/wiki/Altamahaw,_North_Carolina"
+          ]
+        ],
+        [
+          "Oval racing",
+          []
+        ],
+        [
+          "5,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Caraway Speedway",
+          [
+            "/wiki/Caraway_Speedway"
+          ]
+        ],
+        [
+          "Sophia",
+          [
+            "/wiki/Sophia,_North_Carolina"
+          ]
+        ],
+        [
+          "Oval racing",
+          []
+        ],
+        [
+          "4,000",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a list of sports venues located in North Carolina, detailing their names, locations, primary uses or tenants, and seating capacities. It serves as a reference for understanding the variety and scale of sports facilities in the region.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "Tenant/Use"
+  ],
+  "entities": [
+    "Venue",
+    "City/Town"
+  ]
+}

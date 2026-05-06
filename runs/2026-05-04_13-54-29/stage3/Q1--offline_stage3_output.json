@@ -1,0 +1,177 @@
+[
+  {
+    "dpr_id": "Q1_C1_v7",
+    "DPR": "Develop a forecasting model that aggregates historical athlete rankings, times, nationalities, and event locations (1898\u20131933) to predict future trends in long-distance running performance by region, gender, and age demographics while accounting for historical competition patterns and geographic distribution of training hubs.",
+    "sub_questions": [
+      "Summarize rows and key values in table T5 relevant to the DPR.",
+      "Summarize rows and key values in table T6 relevant to the DPR.",
+      "Summarize rows and key values in table T7 relevant to the DPR."
+    ],
+    "subquery_results": [],
+    "mini_summaries": [],
+    "final_summary": "",
+    "tables": [
+      "T5",
+      "T6",
+      "T7",
+      "T20",
+      "T21",
+      "T77",
+      "T78",
+      "T79",
+      "T80",
+      "T81",
+      "T82",
+      "T83",
+      "T84",
+      "T85",
+      "T86",
+      "T88",
+      "T89",
+      "T99"
+    ],
+    "ground_truth": {
+      "table_uids": [
+        "T5",
+        "T6",
+        "T7",
+        "T20",
+        "T21",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T88",
+        "T89",
+        "T99"
+      ]
+    },
+    "generated_sql": null,
+    "execution_status": false,
+    "result": {
+      "validation": "Failed",
+      "error": "Error code: 400 - {'error': {'message': \"{'error': '/chat/completions: Invalid model name passed in model=openai/qwen.qwen3-235b-a22b-2507-v1:0. Call `/v1/models` to view available models for your key.'}\", 'type': 'None', 'param': 'None', 'code': '400'}}"
+    },
+    "schema_mapping": {
+      "T5": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T6": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T7": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T20": {
+        "Scientific name": "Scientific_name",
+        "Common name": "Common_name",
+        "Classified": "Classified",
+        "Conservation status": "Conservation_status"
+      },
+      "T21": {
+        "Scientific name": "Scientific_name",
+        "Common name": "Common_name",
+        "Classified": "Classified",
+        "Average size": "Average_size",
+        "Conservation status": "Conservation_status"
+      },
+      "T77": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T78": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T79": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T80": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T81": {
+        "#": "col",
+        "Date": "Date",
+        "Rival": "Rival",
+        "City": "City",
+        "Venue": "Venue",
+        "Score": "Score"
+      },
+      "T82": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T83": {
+        "Rank": "Rank",
+        "Country": "Country",
+        "Team": "Team",
+        "Points": "Points"
+      },
+      "T84": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality"
+      },
+      "T85": {
+        "Rank": "Rank",
+        "Athlete": "Athlete",
+        "Nationality": "Nationality",
+        "Time": "Time"
+      },
+      "T86": {
+        "Pos": "Pos",
+        "Driver": "Driver",
+        "Car Constructor": "Car_Constructor",
+        "Time ( Diff . ) /Status": "Time_Diff_Status"
+      },
+      "T88": {
+        "Stage": "Stage",
+        "Rider": "Rider",
+        "Height": "Height",
+        "Mountain range": "Mountain_range",
+        "Winner": "Winner"
+      },
+      "T89": {
+        "Pos": "Pos",
+        "Driver": "Driver",
+        "Car Constructor": "Car_Constructor",
+        "Time ( Diff . ) /Status": "Time_Diff_Status"
+      },
+      "T99": {
+        "Team": "Team",
+        "City": "City",
+        "Stadium": "Stadium"
+      }
+    },
+    "llm_model": "openai/qwen.qwen3-235b-a22b-2507-v1:0",
+    "llm_model_summaries": "openai/qwen.qwen3-235b-a22b-2507-v1:0",
+    "upstream_model": null
+  }
+]

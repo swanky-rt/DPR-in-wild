@@ -1,0 +1,317 @@
+{
+  "table_id": "T2288",
+  "uid": "baf837c7-1d5c-5880-af25-1a99099ac073",
+  "source": "HybridQA",
+  "source_table_id": "baf837c7-1d5c-5880-af25-1a99099ac073",
+  "domain": "HybridQA",
+  "title": "2013 V.League 2",
+  "columns": [
+    "Club",
+    "Home stadium",
+    "Capacity"
+  ],
+  "rows": [
+    [
+      [
+        "Hùng Vương An Giang",
+        [
+          "/wiki/An_Giang_F.C."
+        ]
+      ],
+      [
+        "Long Xuyên Stadium",
+        []
+      ],
+      [
+        "15,000",
+        []
+      ]
+    ],
+    [
+      [
+        "SQC Bình Định",
+        [
+          "/wiki/Bình_Định_F.C."
+        ]
+      ],
+      [
+        "Quy Nhơn Stadium",
+        [
+          "/wiki/Quy_Nhơn_Stadium"
+        ]
+      ],
+      [
+        "25,000",
+        []
+      ]
+    ],
+    [
+      [
+        "TDC Bình Dương",
+        [
+          "/wiki/TDC_Bình_Dương_F.C."
+        ]
+      ],
+      [
+        "Gò Đậu Stadium",
+        [
+          "/wiki/Gò_Đậu_Stadium"
+        ]
+      ],
+      [
+        "18,250",
+        []
+      ]
+    ],
+    [
+      [
+        "XSKT Cần Thơ",
+        [
+          "/wiki/Cần_Thơ_F.C."
+        ]
+      ],
+      [
+        "Cần Thơ Stadium",
+        [
+          "/wiki/Cần_Thơ_Stadium"
+        ]
+      ],
+      [
+        "50,000",
+        []
+      ]
+    ],
+    [
+      [
+        "TDCS Đồng Tháp",
+        [
+          "/wiki/Đồng_Tháp_F.C."
+        ]
+      ],
+      [
+        "Cao Lãnh Stadium",
+        [
+          "/wiki/Cao_Lãnh_Stadium"
+        ]
+      ],
+      [
+        "23,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Hà Nội",
+        [
+          "/wiki/Ha_Noi_F.C._(2011)"
+        ]
+      ],
+      [
+        "Hàng Đẫy Stadium",
+        [
+          "/wiki/Hàng_Đẫy_Stadium"
+        ]
+      ],
+      [
+        "22,000",
+        []
+      ]
+    ],
+    [
+      [
+        "QNK Quảng Nam",
+        [
+          "/wiki/Quảng_Nam_F.C."
+        ]
+      ],
+      [
+        "Tam Kỳ Stadium",
+        [
+          "/wiki/Tam_Kỳ_Stadium"
+        ]
+      ],
+      [
+        "15,624",
+        []
+      ]
+    ],
+    [
+      [
+        "Than Quảng Ninh",
+        [
+          "/wiki/Quảng_Ninh_F.C."
+        ]
+      ],
+      [
+        "Cửa Ông Stadium",
+        []
+      ],
+      [
+        "10,000",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "baf837c7-1d5c-5880-af25-1a99099ac073",
+    "table_id": "2013_V.League_2_0",
+    "title": "2013 V.League 2",
+    "header": [
+      "Club",
+      "Home stadium",
+      "Capacity"
+    ],
+    "value": [
+      [
+        [
+          "Hùng Vương An Giang",
+          [
+            "/wiki/An_Giang_F.C."
+          ]
+        ],
+        [
+          "Long Xuyên Stadium",
+          []
+        ],
+        [
+          "15,000",
+          []
+        ]
+      ],
+      [
+        [
+          "SQC Bình Định",
+          [
+            "/wiki/Bình_Định_F.C."
+          ]
+        ],
+        [
+          "Quy Nhơn Stadium",
+          [
+            "/wiki/Quy_Nhơn_Stadium"
+          ]
+        ],
+        [
+          "25,000",
+          []
+        ]
+      ],
+      [
+        [
+          "TDC Bình Dương",
+          [
+            "/wiki/TDC_Bình_Dương_F.C."
+          ]
+        ],
+        [
+          "Gò Đậu Stadium",
+          [
+            "/wiki/Gò_Đậu_Stadium"
+          ]
+        ],
+        [
+          "18,250",
+          []
+        ]
+      ],
+      [
+        [
+          "XSKT Cần Thơ",
+          [
+            "/wiki/Cần_Thơ_F.C."
+          ]
+        ],
+        [
+          "Cần Thơ Stadium",
+          [
+            "/wiki/Cần_Thơ_Stadium"
+          ]
+        ],
+        [
+          "50,000",
+          []
+        ]
+      ],
+      [
+        [
+          "TDCS Đồng Tháp",
+          [
+            "/wiki/Đồng_Tháp_F.C."
+          ]
+        ],
+        [
+          "Cao Lãnh Stadium",
+          [
+            "/wiki/Cao_Lãnh_Stadium"
+          ]
+        ],
+        [
+          "23,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Hà Nội",
+          [
+            "/wiki/Ha_Noi_F.C._(2011)"
+          ]
+        ],
+        [
+          "Hàng Đẫy Stadium",
+          [
+            "/wiki/Hàng_Đẫy_Stadium"
+          ]
+        ],
+        [
+          "22,000",
+          []
+        ]
+      ],
+      [
+        [
+          "QNK Quảng Nam",
+          [
+            "/wiki/Quảng_Nam_F.C."
+          ]
+        ],
+        [
+          "Tam Kỳ Stadium",
+          [
+            "/wiki/Tam_Kỳ_Stadium"
+          ]
+        ],
+        [
+          "15,624",
+          []
+        ]
+      ],
+      [
+        [
+          "Than Quảng Ninh",
+          [
+            "/wiki/Quảng_Ninh_F.C."
+          ]
+        ],
+        [
+          "Cửa Ông Stadium",
+          []
+        ],
+        [
+          "10,000",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about clubs participating in the 2013 V.League 2, including their home stadiums and the seating capacities of those stadiums. It serves as a reference for understanding the venues and their sizes associated with each club in the league.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "Home stadium"
+  ],
+  "entities": [
+    "Club"
+  ]
+}

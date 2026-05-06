@@ -1,0 +1,566 @@
+{
+  "table_id": "T4727",
+  "uid": "41cd7fb4-ae2a-5655-868e-c16b04239cab",
+  "source": "HybridQA",
+  "source_table_id": "41cd7fb4-ae2a-5655-868e-c16b04239cab",
+  "domain": "HybridQA",
+  "title": "High schools in Angus",
+  "columns": [
+    "School",
+    "Location",
+    "Catchment",
+    "Roll",
+    "Gender",
+    "External link"
+  ],
+  "rows": [
+    [
+      [
+        "Arbroath Academy",
+        []
+      ],
+      [
+        "Arbroath",
+        [
+          "/wiki/Arbroath"
+        ]
+      ],
+      [
+        "North-east Arbroath and surrounding areas",
+        []
+      ],
+      [
+        630,
+        []
+      ],
+      [
+        "Mixed",
+        [
+          "/wiki/Co-educational"
+        ]
+      ],
+      [
+        "Arbroath Academy",
+        []
+      ]
+    ],
+    [
+      [
+        "Arbroath High School",
+        [
+          "/wiki/Arbroath_High_School"
+        ]
+      ],
+      [
+        "Arbroath",
+        [
+          "/wiki/Arbroath"
+        ]
+      ],
+      [
+        "West Arbroath and surrounding rural areas",
+        []
+      ],
+      [
+        1015,
+        []
+      ],
+      [
+        "Mixed",
+        [
+          "/wiki/Co-educational"
+        ]
+      ],
+      [
+        "Arbroath High School",
+        []
+      ]
+    ],
+    [
+      [
+        "Brechin High School",
+        [
+          "/wiki/Brechin_High_School"
+        ]
+      ],
+      [
+        "Brechin",
+        [
+          "/wiki/Brechin"
+        ]
+      ],
+      [
+        "Brechin and surrounding rural areas",
+        []
+      ],
+      [
+        625,
+        []
+      ],
+      [
+        "Mixed",
+        [
+          "/wiki/Co-educational"
+        ]
+      ],
+      [
+        "Brechin High School",
+        []
+      ]
+    ],
+    [
+      [
+        "Carnoustie High School",
+        [
+          "/wiki/Carnoustie_High_School"
+        ]
+      ],
+      [
+        "Carnoustie",
+        [
+          "/wiki/Carnoustie"
+        ]
+      ],
+      [
+        "Carnoustie and local villages such as Monikie and Newbigging",
+        [
+          "/wiki/Monikie",
+          "/wiki/Newbigging,_Angus"
+        ]
+      ],
+      [
+        809,
+        []
+      ],
+      [
+        "Mixed",
+        [
+          "/wiki/Co-educational"
+        ]
+      ],
+      [
+        "Carnoustie High School",
+        []
+      ]
+    ],
+    [
+      [
+        "Forfar Academy",
+        [
+          "/wiki/Forfar_Academy"
+        ]
+      ],
+      [
+        "Forfar",
+        [
+          "/wiki/Forfar"
+        ]
+      ],
+      [
+        "Forfar and rural areas",
+        []
+      ],
+      [
+        1057,
+        []
+      ],
+      [
+        "Mixed",
+        [
+          "/wiki/Co-educational"
+        ]
+      ],
+      [
+        "No Website Available",
+        []
+      ]
+    ],
+    [
+      [
+        "Monifieth High School",
+        [
+          "/wiki/Monifieth_High_School"
+        ]
+      ],
+      [
+        "Monifieth",
+        [
+          "/wiki/Monifieth"
+        ]
+      ],
+      [
+        "Monifieth and rural areas , such as Birkhill and Liff",
+        [
+          "/wiki/Birkhill",
+          "/wiki/Liff,_Angus"
+        ]
+      ],
+      [
+        1081,
+        []
+      ],
+      [
+        "Mixed",
+        [
+          "/wiki/Co-educational"
+        ]
+      ],
+      [
+        "Monifieth High School",
+        []
+      ]
+    ],
+    [
+      [
+        "Montrose Academy",
+        [
+          "/wiki/Montrose_Academy"
+        ]
+      ],
+      [
+        "Montrose",
+        [
+          "/wiki/Montrose,_Angus"
+        ]
+      ],
+      [
+        "Montrose and surrounding area",
+        []
+      ],
+      [
+        911,
+        []
+      ],
+      [
+        "Mixed",
+        [
+          "/wiki/Co-educational"
+        ]
+      ],
+      [
+        "Montrose Academy",
+        []
+      ]
+    ],
+    [
+      [
+        "Webster 's High School",
+        [
+          "/wiki/Webster's_High_School"
+        ]
+      ],
+      [
+        "Kirriemuir",
+        [
+          "/wiki/Kirriemuir"
+        ]
+      ],
+      [
+        "Kirriemuir and local area",
+        []
+      ],
+      [
+        776,
+        []
+      ],
+      [
+        "Mixed",
+        [
+          "/wiki/Co-educational"
+        ]
+      ],
+      [
+        "Webster 's High School",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "41cd7fb4-ae2a-5655-868e-c16b04239cab",
+    "table_id": "High_schools_in_Angus_0",
+    "title": "High schools in Angus",
+    "header": [
+      "School",
+      "Location",
+      "Catchment",
+      "Roll",
+      "Gender",
+      "External link"
+    ],
+    "value": [
+      [
+        [
+          "Arbroath Academy",
+          []
+        ],
+        [
+          "Arbroath",
+          [
+            "/wiki/Arbroath"
+          ]
+        ],
+        [
+          "North-east Arbroath and surrounding areas",
+          []
+        ],
+        [
+          630,
+          []
+        ],
+        [
+          "Mixed",
+          [
+            "/wiki/Co-educational"
+          ]
+        ],
+        [
+          "Arbroath Academy",
+          []
+        ]
+      ],
+      [
+        [
+          "Arbroath High School",
+          [
+            "/wiki/Arbroath_High_School"
+          ]
+        ],
+        [
+          "Arbroath",
+          [
+            "/wiki/Arbroath"
+          ]
+        ],
+        [
+          "West Arbroath and surrounding rural areas",
+          []
+        ],
+        [
+          1015,
+          []
+        ],
+        [
+          "Mixed",
+          [
+            "/wiki/Co-educational"
+          ]
+        ],
+        [
+          "Arbroath High School",
+          []
+        ]
+      ],
+      [
+        [
+          "Brechin High School",
+          [
+            "/wiki/Brechin_High_School"
+          ]
+        ],
+        [
+          "Brechin",
+          [
+            "/wiki/Brechin"
+          ]
+        ],
+        [
+          "Brechin and surrounding rural areas",
+          []
+        ],
+        [
+          625,
+          []
+        ],
+        [
+          "Mixed",
+          [
+            "/wiki/Co-educational"
+          ]
+        ],
+        [
+          "Brechin High School",
+          []
+        ]
+      ],
+      [
+        [
+          "Carnoustie High School",
+          [
+            "/wiki/Carnoustie_High_School"
+          ]
+        ],
+        [
+          "Carnoustie",
+          [
+            "/wiki/Carnoustie"
+          ]
+        ],
+        [
+          "Carnoustie and local villages such as Monikie and Newbigging",
+          [
+            "/wiki/Monikie",
+            "/wiki/Newbigging,_Angus"
+          ]
+        ],
+        [
+          809,
+          []
+        ],
+        [
+          "Mixed",
+          [
+            "/wiki/Co-educational"
+          ]
+        ],
+        [
+          "Carnoustie High School",
+          []
+        ]
+      ],
+      [
+        [
+          "Forfar Academy",
+          [
+            "/wiki/Forfar_Academy"
+          ]
+        ],
+        [
+          "Forfar",
+          [
+            "/wiki/Forfar"
+          ]
+        ],
+        [
+          "Forfar and rural areas",
+          []
+        ],
+        [
+          1057,
+          []
+        ],
+        [
+          "Mixed",
+          [
+            "/wiki/Co-educational"
+          ]
+        ],
+        [
+          "No Website Available",
+          []
+        ]
+      ],
+      [
+        [
+          "Monifieth High School",
+          [
+            "/wiki/Monifieth_High_School"
+          ]
+        ],
+        [
+          "Monifieth",
+          [
+            "/wiki/Monifieth"
+          ]
+        ],
+        [
+          "Monifieth and rural areas , such as Birkhill and Liff",
+          [
+            "/wiki/Birkhill",
+            "/wiki/Liff,_Angus"
+          ]
+        ],
+        [
+          1081,
+          []
+        ],
+        [
+          "Mixed",
+          [
+            "/wiki/Co-educational"
+          ]
+        ],
+        [
+          "Monifieth High School",
+          []
+        ]
+      ],
+      [
+        [
+          "Montrose Academy",
+          [
+            "/wiki/Montrose_Academy"
+          ]
+        ],
+        [
+          "Montrose",
+          [
+            "/wiki/Montrose,_Angus"
+          ]
+        ],
+        [
+          "Montrose and surrounding area",
+          []
+        ],
+        [
+          911,
+          []
+        ],
+        [
+          "Mixed",
+          [
+            "/wiki/Co-educational"
+          ]
+        ],
+        [
+          "Montrose Academy",
+          []
+        ]
+      ],
+      [
+        [
+          "Webster 's High School",
+          [
+            "/wiki/Webster's_High_School"
+          ]
+        ],
+        [
+          "Kirriemuir",
+          [
+            "/wiki/Kirriemuir"
+          ]
+        ],
+        [
+          "Kirriemuir and local area",
+          []
+        ],
+        [
+          776,
+          []
+        ],
+        [
+          "Mixed",
+          [
+            "/wiki/Co-educational"
+          ]
+        ],
+        [
+          "Webster 's High School",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about high schools in Angus, including their names, locations, catchment areas, student rolls, gender composition, and external links for further details. It serves as a reference for understanding the distribution and characteristics of secondary education institutions in the region.",
+  "numeric_columns": [
+    "Roll"
+  ],
+  "categorical_columns": [
+    "Catchment",
+    "Gender"
+  ],
+  "entities": [
+    "School",
+    "Location",
+    "External link"
+  ]
+}

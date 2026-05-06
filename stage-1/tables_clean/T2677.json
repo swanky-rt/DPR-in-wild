@@ -1,0 +1,427 @@
+{
+  "table_id": "T2677",
+  "uid": "b4f0e7f9-c0b7-5149-86f4-7d68df652c73",
+  "source": "HybridQA",
+  "source_table_id": "b4f0e7f9-c0b7-5149-86f4-7d68df652c73",
+  "domain": "HybridQA",
+  "title": "2012 Malaysia FAM League",
+  "columns": [
+    "Team",
+    "Location",
+    "Stadium",
+    "Stadium capacity"
+  ],
+  "rows": [
+    [
+      [
+        "Malacca FA",
+        []
+      ],
+      [
+        "Malacca",
+        [
+          "/wiki/Malacca"
+        ]
+      ],
+      [
+        "Hang Tuah Stadium",
+        [
+          "/wiki/Hang_Tuah_Stadium"
+        ]
+      ],
+      [
+        "10,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Melodi Jaya SC",
+        []
+      ],
+      [
+        "Johor",
+        [
+          "/wiki/Johor"
+        ]
+      ],
+      [
+        "Kulai Mini Stadium , Kulai",
+        []
+      ],
+      [
+        "3,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Penang Water Supply Board",
+        []
+      ],
+      [
+        "Penang",
+        [
+          "/wiki/Penang"
+        ]
+      ],
+      [
+        "Bandaraya Stadium",
+        [
+          "/wiki/City_Stadium_(Penang)"
+        ]
+      ],
+      [
+        "20,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Penang FA",
+        []
+      ],
+      [
+        "Penang",
+        [
+          "/wiki/Penang"
+        ]
+      ],
+      [
+        "Batu Kawan Stadium",
+        [
+          "/wiki/Batu_Kawan_Stadium"
+        ]
+      ],
+      [
+        "30,000",
+        []
+      ]
+    ],
+    [
+      [
+        "KP Shahzan Muda FC",
+        []
+      ],
+      [
+        "Pahang",
+        [
+          "/wiki/Pahang"
+        ]
+      ],
+      [
+        "Temerloh Mini Stadium",
+        [
+          "/wiki/Temerloh_Mini_Stadium"
+        ]
+      ],
+      [
+        "13,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Kepala Batas FC",
+        []
+      ],
+      [
+        "Penang",
+        [
+          "/wiki/Penang"
+        ]
+      ],
+      [
+        "Batu Kawan Stadium",
+        [
+          "/wiki/Batu_Kawan_Stadium"
+        ]
+      ],
+      [
+        "30,000",
+        []
+      ]
+    ],
+    [
+      [
+        "KL SPA FC",
+        []
+      ],
+      [
+        "Selangor",
+        [
+          "/wiki/Selangor"
+        ]
+      ],
+      [
+        "Petronas Mini Stadium , Bangi",
+        []
+      ],
+      [
+        "3,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Tentera Darat FC",
+        []
+      ],
+      [
+        "Kuala Lumpur",
+        [
+          "/wiki/Kuala_Lumpur"
+        ]
+      ],
+      [
+        "Football Field Camp Batu Kentomen",
+        []
+      ],
+      [
+        500,
+        []
+      ]
+    ],
+    [
+      [
+        "UiTM FC",
+        []
+      ],
+      [
+        "Selangor",
+        [
+          "/wiki/Selangor"
+        ]
+      ],
+      [
+        "UiTM Stadium , Shah Alam",
+        [
+          "/wiki/UiTM_Stadium"
+        ]
+      ],
+      [
+        "10,000",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "b4f0e7f9-c0b7-5149-86f4-7d68df652c73",
+    "table_id": "2012_Malaysia_FAM_League_0",
+    "title": "2012 Malaysia FAM League",
+    "header": [
+      "Team",
+      "Location",
+      "Stadium",
+      "Stadium capacity"
+    ],
+    "value": [
+      [
+        [
+          "Malacca FA",
+          []
+        ],
+        [
+          "Malacca",
+          [
+            "/wiki/Malacca"
+          ]
+        ],
+        [
+          "Hang Tuah Stadium",
+          [
+            "/wiki/Hang_Tuah_Stadium"
+          ]
+        ],
+        [
+          "10,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Melodi Jaya SC",
+          []
+        ],
+        [
+          "Johor",
+          [
+            "/wiki/Johor"
+          ]
+        ],
+        [
+          "Kulai Mini Stadium , Kulai",
+          []
+        ],
+        [
+          "3,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Penang Water Supply Board",
+          []
+        ],
+        [
+          "Penang",
+          [
+            "/wiki/Penang"
+          ]
+        ],
+        [
+          "Bandaraya Stadium",
+          [
+            "/wiki/City_Stadium_(Penang)"
+          ]
+        ],
+        [
+          "20,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Penang FA",
+          []
+        ],
+        [
+          "Penang",
+          [
+            "/wiki/Penang"
+          ]
+        ],
+        [
+          "Batu Kawan Stadium",
+          [
+            "/wiki/Batu_Kawan_Stadium"
+          ]
+        ],
+        [
+          "30,000",
+          []
+        ]
+      ],
+      [
+        [
+          "KP Shahzan Muda FC",
+          []
+        ],
+        [
+          "Pahang",
+          [
+            "/wiki/Pahang"
+          ]
+        ],
+        [
+          "Temerloh Mini Stadium",
+          [
+            "/wiki/Temerloh_Mini_Stadium"
+          ]
+        ],
+        [
+          "13,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Kepala Batas FC",
+          []
+        ],
+        [
+          "Penang",
+          [
+            "/wiki/Penang"
+          ]
+        ],
+        [
+          "Batu Kawan Stadium",
+          [
+            "/wiki/Batu_Kawan_Stadium"
+          ]
+        ],
+        [
+          "30,000",
+          []
+        ]
+      ],
+      [
+        [
+          "KL SPA FC",
+          []
+        ],
+        [
+          "Selangor",
+          [
+            "/wiki/Selangor"
+          ]
+        ],
+        [
+          "Petronas Mini Stadium , Bangi",
+          []
+        ],
+        [
+          "3,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Tentera Darat FC",
+          []
+        ],
+        [
+          "Kuala Lumpur",
+          [
+            "/wiki/Kuala_Lumpur"
+          ]
+        ],
+        [
+          "Football Field Camp Batu Kentomen",
+          []
+        ],
+        [
+          500,
+          []
+        ]
+      ],
+      [
+        [
+          "UiTM FC",
+          []
+        ],
+        [
+          "Selangor",
+          [
+            "/wiki/Selangor"
+          ]
+        ],
+        [
+          "UiTM Stadium , Shah Alam",
+          [
+            "/wiki/UiTM_Stadium"
+          ]
+        ],
+        [
+          "10,000",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about teams participating in the 2012 Malaysia FAM League, including their locations, home stadiums, and stadium capacities. It is designed to offer an overview of the teams and their associated facilities during the league season.",
+  "numeric_columns": [
+    "Stadium capacity"
+  ],
+  "categorical_columns": [
+    "Team",
+    "Location",
+    "Stadium"
+  ],
+  "entities": [
+    "Team",
+    "Location",
+    "Stadium"
+  ]
+}

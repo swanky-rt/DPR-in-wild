@@ -1,0 +1,293 @@
+{
+  "table_id": "T9586",
+  "uid": "0180750e-4dae-5598-9210-da75c7c2d46a",
+  "source": "HybridQA",
+  "source_table_id": "0180750e-4dae-5598-9210-da75c7c2d46a",
+  "domain": "HybridQA",
+  "title": "1946 Notre Dame Fighting Irish football team",
+  "columns": [
+    "Name",
+    "Position",
+    "Year Inducted"
+  ],
+  "rows": [
+    [
+      [
+        "George Connor",
+        [
+          "/wiki/George_Connor_(American_football)"
+        ]
+      ],
+      [
+        "Tackle",
+        []
+      ],
+      [
+        1963,
+        []
+      ]
+    ],
+    [
+      [
+        "Zygmont Ziggy Czarobski",
+        [
+          "/wiki/Zygmont_Czarobski"
+        ]
+      ],
+      [
+        "Tackle",
+        []
+      ],
+      [
+        1977,
+        []
+      ]
+    ],
+    [
+      [
+        "Bill Fischer",
+        [
+          "/wiki/Bill_Fischer_(American_football)"
+        ]
+      ],
+      [
+        "Tackle/Guard",
+        []
+      ],
+      [
+        1983,
+        []
+      ]
+    ],
+    [
+      [
+        "Leon Hart",
+        [
+          "/wiki/Leon_Hart"
+        ]
+      ],
+      [
+        "End",
+        []
+      ],
+      [
+        1973,
+        []
+      ]
+    ],
+    [
+      [
+        "Frank Leahy",
+        [
+          "/wiki/Frank_Leahy"
+        ]
+      ],
+      [
+        "Coach",
+        []
+      ],
+      [
+        1970,
+        []
+      ]
+    ],
+    [
+      [
+        "Johnny Lujack",
+        [
+          "/wiki/Johnny_Lujack"
+        ]
+      ],
+      [
+        "Quarterback",
+        []
+      ],
+      [
+        1960,
+        []
+      ]
+    ],
+    [
+      [
+        "Jim Martin",
+        [
+          "/wiki/Jim_Martin_(football)"
+        ]
+      ],
+      [
+        "End/Tackle",
+        []
+      ],
+      [
+        1995,
+        []
+      ]
+    ],
+    [
+      [
+        "Emil Red Sitko",
+        [
+          "/wiki/Emil_Sitko"
+        ]
+      ],
+      [
+        "Halfback/Fullback",
+        []
+      ],
+      [
+        1984,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "0180750e-4dae-5598-9210-da75c7c2d46a",
+    "table_id": "1946_Notre_Dame_Fighting_Irish_football_team_0",
+    "title": "1946 Notre Dame Fighting Irish football team",
+    "header": [
+      "Name",
+      "Position",
+      "Year Inducted"
+    ],
+    "value": [
+      [
+        [
+          "George Connor",
+          [
+            "/wiki/George_Connor_(American_football)"
+          ]
+        ],
+        [
+          "Tackle",
+          []
+        ],
+        [
+          1963,
+          []
+        ]
+      ],
+      [
+        [
+          "Zygmont Ziggy Czarobski",
+          [
+            "/wiki/Zygmont_Czarobski"
+          ]
+        ],
+        [
+          "Tackle",
+          []
+        ],
+        [
+          1977,
+          []
+        ]
+      ],
+      [
+        [
+          "Bill Fischer",
+          [
+            "/wiki/Bill_Fischer_(American_football)"
+          ]
+        ],
+        [
+          "Tackle/Guard",
+          []
+        ],
+        [
+          1983,
+          []
+        ]
+      ],
+      [
+        [
+          "Leon Hart",
+          [
+            "/wiki/Leon_Hart"
+          ]
+        ],
+        [
+          "End",
+          []
+        ],
+        [
+          1973,
+          []
+        ]
+      ],
+      [
+        [
+          "Frank Leahy",
+          [
+            "/wiki/Frank_Leahy"
+          ]
+        ],
+        [
+          "Coach",
+          []
+        ],
+        [
+          1970,
+          []
+        ]
+      ],
+      [
+        [
+          "Johnny Lujack",
+          [
+            "/wiki/Johnny_Lujack"
+          ]
+        ],
+        [
+          "Quarterback",
+          []
+        ],
+        [
+          1960,
+          []
+        ]
+      ],
+      [
+        [
+          "Jim Martin",
+          [
+            "/wiki/Jim_Martin_(football)"
+          ]
+        ],
+        [
+          "End/Tackle",
+          []
+        ],
+        [
+          1995,
+          []
+        ]
+      ],
+      [
+        [
+          "Emil Red Sitko",
+          [
+            "/wiki/Emil_Sitko"
+          ]
+        ],
+        [
+          "Halfback/Fullback",
+          []
+        ],
+        [
+          1984,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about members of the 1946 Notre Dame Fighting Irish football team who were later inducted into a hall of fame or similar recognition. It includes details about their names, playing positions, and the year they were inducted. The table serves to highlight notable players from this team and their subsequent honors.",
+  "numeric_columns": [
+    "Year Inducted"
+  ],
+  "categorical_columns": [
+    "Position"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

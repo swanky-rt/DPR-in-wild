@@ -1,0 +1,590 @@
+{
+  "table_id": "T516",
+  "uid": "dbd56e96-dd16-50bb-8291-e89af03551bc",
+  "source": "HybridQA",
+  "source_table_id": "dbd56e96-dd16-50bb-8291-e89af03551bc",
+  "domain": "HybridQA",
+  "title": "Minnesota Vikings draft history",
+  "columns": [
+    "Round",
+    "Pick #",
+    "Overall",
+    "Name",
+    "Position",
+    "College"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        16,
+        []
+      ],
+      [
+        16,
+        []
+      ],
+      [
+        "Ted Brown",
+        [
+          "/wiki/Ted_Brown_(American_football)"
+        ]
+      ],
+      [
+        "Running back",
+        [
+          "/wiki/Running_back"
+        ]
+      ],
+      [
+        "North Carolina State",
+        [
+          "/wiki/NC_State_Wolfpack_football"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        15,
+        []
+      ],
+      [
+        43,
+        []
+      ],
+      [
+        "Dave Huffman",
+        [
+          "/wiki/Dave_Huffman"
+        ]
+      ],
+      [
+        "Center",
+        [
+          "/wiki/Center_(American_football)"
+        ]
+      ],
+      [
+        "Notre Dame",
+        [
+          "/wiki/Notre_Dame_Fighting_Irish_football"
+        ]
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        15,
+        []
+      ],
+      [
+        97,
+        []
+      ],
+      [
+        "Steve Dils",
+        [
+          "/wiki/Steve_Dils"
+        ]
+      ],
+      [
+        "Quarterback",
+        [
+          "/wiki/Quarterback"
+        ]
+      ],
+      [
+        "Stanford",
+        [
+          "/wiki/Stanford_Cardinal_football"
+        ]
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        19,
+        []
+      ],
+      [
+        129,
+        []
+      ],
+      [
+        "Jerry Meter",
+        []
+      ],
+      [
+        "Linebacker",
+        [
+          "/wiki/Linebacker"
+        ]
+      ],
+      [
+        "Michigan",
+        [
+          "/wiki/Michigan_Wolverines_football"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        15,
+        []
+      ],
+      [
+        152,
+        []
+      ],
+      [
+        "Joe Senser",
+        [
+          "/wiki/Joe_Senser"
+        ]
+      ],
+      [
+        "Tight end",
+        [
+          "/wiki/Tight_end"
+        ]
+      ],
+      [
+        "West Chester ( PA )",
+        [
+          "/wiki/West_Chester_Golden_Rams"
+        ]
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        16,
+        []
+      ],
+      [
+        181,
+        []
+      ],
+      [
+        "Bob Winkel",
+        []
+      ],
+      [
+        "Defensive tackle",
+        [
+          "/wiki/Defensive_tackle"
+        ]
+      ],
+      [
+        "Kentucky",
+        [
+          "/wiki/Kentucky_Wildcats_football"
+        ]
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        16,
+        []
+      ],
+      [
+        236,
+        []
+      ],
+      [
+        "Billy Diggs",
+        []
+      ],
+      [
+        "Wide receiver",
+        [
+          "/wiki/Wide_receiver"
+        ]
+      ],
+      [
+        "Winston-Salem State",
+        [
+          "/wiki/Winston-Salem_State_University"
+        ]
+      ]
+    ],
+    [
+      [
+        11,
+        []
+      ],
+      [
+        16,
+        []
+      ],
+      [
+        291,
+        []
+      ],
+      [
+        "Brian Nelson",
+        []
+      ],
+      [
+        "Wide receiver",
+        []
+      ],
+      [
+        "Texas Tech",
+        [
+          "/wiki/Texas_Tech_Red_Raiders_football"
+        ]
+      ]
+    ],
+    [
+      [
+        12,
+        []
+      ],
+      [
+        14,
+        []
+      ],
+      [
+        317,
+        []
+      ],
+      [
+        "David Stephens",
+        []
+      ],
+      [
+        "Linebacker",
+        []
+      ],
+      [
+        "Kentucky",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "dbd56e96-dd16-50bb-8291-e89af03551bc",
+    "table_id": "Minnesota_Vikings_draft_history_18",
+    "title": "Minnesota Vikings draft history",
+    "header": [
+      "Round",
+      "Pick #",
+      "Overall",
+      "Name",
+      "Position",
+      "College"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          16,
+          []
+        ],
+        [
+          16,
+          []
+        ],
+        [
+          "Ted Brown",
+          [
+            "/wiki/Ted_Brown_(American_football)"
+          ]
+        ],
+        [
+          "Running back",
+          [
+            "/wiki/Running_back"
+          ]
+        ],
+        [
+          "North Carolina State",
+          [
+            "/wiki/NC_State_Wolfpack_football"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          15,
+          []
+        ],
+        [
+          43,
+          []
+        ],
+        [
+          "Dave Huffman",
+          [
+            "/wiki/Dave_Huffman"
+          ]
+        ],
+        [
+          "Center",
+          [
+            "/wiki/Center_(American_football)"
+          ]
+        ],
+        [
+          "Notre Dame",
+          [
+            "/wiki/Notre_Dame_Fighting_Irish_football"
+          ]
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          15,
+          []
+        ],
+        [
+          97,
+          []
+        ],
+        [
+          "Steve Dils",
+          [
+            "/wiki/Steve_Dils"
+          ]
+        ],
+        [
+          "Quarterback",
+          [
+            "/wiki/Quarterback"
+          ]
+        ],
+        [
+          "Stanford",
+          [
+            "/wiki/Stanford_Cardinal_football"
+          ]
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          19,
+          []
+        ],
+        [
+          129,
+          []
+        ],
+        [
+          "Jerry Meter",
+          []
+        ],
+        [
+          "Linebacker",
+          [
+            "/wiki/Linebacker"
+          ]
+        ],
+        [
+          "Michigan",
+          [
+            "/wiki/Michigan_Wolverines_football"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          15,
+          []
+        ],
+        [
+          152,
+          []
+        ],
+        [
+          "Joe Senser",
+          [
+            "/wiki/Joe_Senser"
+          ]
+        ],
+        [
+          "Tight end",
+          [
+            "/wiki/Tight_end"
+          ]
+        ],
+        [
+          "West Chester ( PA )",
+          [
+            "/wiki/West_Chester_Golden_Rams"
+          ]
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          16,
+          []
+        ],
+        [
+          181,
+          []
+        ],
+        [
+          "Bob Winkel",
+          []
+        ],
+        [
+          "Defensive tackle",
+          [
+            "/wiki/Defensive_tackle"
+          ]
+        ],
+        [
+          "Kentucky",
+          [
+            "/wiki/Kentucky_Wildcats_football"
+          ]
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          16,
+          []
+        ],
+        [
+          236,
+          []
+        ],
+        [
+          "Billy Diggs",
+          []
+        ],
+        [
+          "Wide receiver",
+          [
+            "/wiki/Wide_receiver"
+          ]
+        ],
+        [
+          "Winston-Salem State",
+          [
+            "/wiki/Winston-Salem_State_University"
+          ]
+        ]
+      ],
+      [
+        [
+          11,
+          []
+        ],
+        [
+          16,
+          []
+        ],
+        [
+          291,
+          []
+        ],
+        [
+          "Brian Nelson",
+          []
+        ],
+        [
+          "Wide receiver",
+          []
+        ],
+        [
+          "Texas Tech",
+          [
+            "/wiki/Texas_Tech_Red_Raiders_football"
+          ]
+        ]
+      ],
+      [
+        [
+          12,
+          []
+        ],
+        [
+          14,
+          []
+        ],
+        [
+          317,
+          []
+        ],
+        [
+          "David Stephens",
+          []
+        ],
+        [
+          "Linebacker",
+          []
+        ],
+        [
+          "Kentucky",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a historical overview of the Minnesota Vikings' draft selections, detailing key information about players chosen in various rounds. It includes data on draft round, pick number, overall selection number, player name, position, and college attended. The table is useful for analyzing draft trends and player backgrounds in the context of the team's history.",
+  "numeric_columns": [
+    "Round",
+    "Pick #",
+    "Overall"
+  ],
+  "categorical_columns": [
+    "Position"
+  ],
+  "entities": [
+    "Name",
+    "College"
+  ]
+}

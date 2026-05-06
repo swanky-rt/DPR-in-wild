@@ -1,0 +1,480 @@
+{
+  "table_id": "T1969",
+  "uid": "a43ebabb-a92d-5a28-821f-a45a14cf7371",
+  "source": "HybridQA",
+  "source_table_id": "a43ebabb-a92d-5a28-821f-a45a14cf7371",
+  "domain": "HybridQA",
+  "title": "South Bohemian Region",
+  "columns": [
+    "Name",
+    "Population",
+    "Area ( km² )",
+    "District"
+  ],
+  "rows": [
+    [
+      [
+        "České Budějovice",
+        [
+          "/wiki/České_Budějovice"
+        ]
+      ],
+      [
+        "94,014",
+        []
+      ],
+      [
+        56,
+        []
+      ],
+      [
+        "České Budějovice District",
+        [
+          "/wiki/České_Budějovice_District"
+        ]
+      ]
+    ],
+    [
+      [
+        "Tábor",
+        [
+          "/wiki/Tábor"
+        ]
+      ],
+      [
+        "34,456",
+        []
+      ],
+      [
+        62,
+        []
+      ],
+      [
+        "Tábor District",
+        [
+          "/wiki/Tábor_District"
+        ]
+      ]
+    ],
+    [
+      [
+        "Písek",
+        [
+          "/wiki/Písek"
+        ]
+      ],
+      [
+        "30,351",
+        []
+      ],
+      [
+        63,
+        []
+      ],
+      [
+        "Písek District",
+        [
+          "/wiki/Písek_District"
+        ]
+      ]
+    ],
+    [
+      [
+        "Strakonice",
+        [
+          "/wiki/Strakonice"
+        ]
+      ],
+      [
+        "22,754",
+        []
+      ],
+      [
+        35,
+        []
+      ],
+      [
+        "Strakonice District",
+        [
+          "/wiki/Strakonice_District"
+        ]
+      ]
+    ],
+    [
+      [
+        "Jindřichův Hradec",
+        [
+          "/wiki/Jindřichův_Hradec"
+        ]
+      ],
+      [
+        "21,445",
+        []
+      ],
+      [
+        74,
+        []
+      ],
+      [
+        "Jindřichův Hradec District",
+        [
+          "/wiki/Jindřichův_Hradec_District"
+        ]
+      ]
+    ],
+    [
+      [
+        "Český Krumlov",
+        [
+          "/wiki/Český_Krumlov"
+        ]
+      ],
+      [
+        "13,085",
+        []
+      ],
+      [
+        22,
+        []
+      ],
+      [
+        "Český Krumlov District",
+        [
+          "/wiki/Český_Krumlov_District"
+        ]
+      ]
+    ],
+    [
+      [
+        "Prachatice",
+        [
+          "/wiki/Prachatice"
+        ]
+      ],
+      [
+        "10,874",
+        []
+      ],
+      [
+        39,
+        []
+      ],
+      [
+        "Prachatice District",
+        [
+          "/wiki/Prachatice_District"
+        ]
+      ]
+    ],
+    [
+      [
+        "Milevsko",
+        [
+          "/wiki/Milevsko"
+        ]
+      ],
+      [
+        "8,277",
+        []
+      ],
+      [
+        42,
+        []
+      ],
+      [
+        "Písek District",
+        [
+          "/wiki/Písek_District"
+        ]
+      ]
+    ],
+    [
+      [
+        "Třeboň",
+        [
+          "/wiki/Třeboň"
+        ]
+      ],
+      [
+        "8,253",
+        []
+      ],
+      [
+        98,
+        []
+      ],
+      [
+        "Jindřichův Hradec District",
+        [
+          "/wiki/Jindřichův_Hradec_District"
+        ]
+      ]
+    ],
+    [
+      [
+        "Týn nad Vltavou",
+        [
+          "/wiki/Týn_nad_Vltavou"
+        ]
+      ],
+      [
+        "8,000",
+        []
+      ],
+      [
+        43,
+        []
+      ],
+      [
+        "České Budějovice District",
+        [
+          "/wiki/České_Budějovice_District"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "a43ebabb-a92d-5a28-821f-a45a14cf7371",
+    "table_id": "South_Bohemian_Region_0",
+    "title": "South Bohemian Region",
+    "header": [
+      "Name",
+      "Population",
+      "Area ( km² )",
+      "District"
+    ],
+    "value": [
+      [
+        [
+          "České Budějovice",
+          [
+            "/wiki/České_Budějovice"
+          ]
+        ],
+        [
+          "94,014",
+          []
+        ],
+        [
+          56,
+          []
+        ],
+        [
+          "České Budějovice District",
+          [
+            "/wiki/České_Budějovice_District"
+          ]
+        ]
+      ],
+      [
+        [
+          "Tábor",
+          [
+            "/wiki/Tábor"
+          ]
+        ],
+        [
+          "34,456",
+          []
+        ],
+        [
+          62,
+          []
+        ],
+        [
+          "Tábor District",
+          [
+            "/wiki/Tábor_District"
+          ]
+        ]
+      ],
+      [
+        [
+          "Písek",
+          [
+            "/wiki/Písek"
+          ]
+        ],
+        [
+          "30,351",
+          []
+        ],
+        [
+          63,
+          []
+        ],
+        [
+          "Písek District",
+          [
+            "/wiki/Písek_District"
+          ]
+        ]
+      ],
+      [
+        [
+          "Strakonice",
+          [
+            "/wiki/Strakonice"
+          ]
+        ],
+        [
+          "22,754",
+          []
+        ],
+        [
+          35,
+          []
+        ],
+        [
+          "Strakonice District",
+          [
+            "/wiki/Strakonice_District"
+          ]
+        ]
+      ],
+      [
+        [
+          "Jindřichův Hradec",
+          [
+            "/wiki/Jindřichův_Hradec"
+          ]
+        ],
+        [
+          "21,445",
+          []
+        ],
+        [
+          74,
+          []
+        ],
+        [
+          "Jindřichův Hradec District",
+          [
+            "/wiki/Jindřichův_Hradec_District"
+          ]
+        ]
+      ],
+      [
+        [
+          "Český Krumlov",
+          [
+            "/wiki/Český_Krumlov"
+          ]
+        ],
+        [
+          "13,085",
+          []
+        ],
+        [
+          22,
+          []
+        ],
+        [
+          "Český Krumlov District",
+          [
+            "/wiki/Český_Krumlov_District"
+          ]
+        ]
+      ],
+      [
+        [
+          "Prachatice",
+          [
+            "/wiki/Prachatice"
+          ]
+        ],
+        [
+          "10,874",
+          []
+        ],
+        [
+          39,
+          []
+        ],
+        [
+          "Prachatice District",
+          [
+            "/wiki/Prachatice_District"
+          ]
+        ]
+      ],
+      [
+        [
+          "Milevsko",
+          [
+            "/wiki/Milevsko"
+          ]
+        ],
+        [
+          "8,277",
+          []
+        ],
+        [
+          42,
+          []
+        ],
+        [
+          "Písek District",
+          [
+            "/wiki/Písek_District"
+          ]
+        ]
+      ],
+      [
+        [
+          "Třeboň",
+          [
+            "/wiki/Třeboň"
+          ]
+        ],
+        [
+          "8,253",
+          []
+        ],
+        [
+          98,
+          []
+        ],
+        [
+          "Jindřichův Hradec District",
+          [
+            "/wiki/Jindřichův_Hradec_District"
+          ]
+        ]
+      ],
+      [
+        [
+          "Týn nad Vltavou",
+          [
+            "/wiki/Týn_nad_Vltavou"
+          ]
+        ],
+        [
+          "8,000",
+          []
+        ],
+        [
+          43,
+          []
+        ],
+        [
+          "České Budějovice District",
+          [
+            "/wiki/České_Budějovice_District"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about locations in the South Bohemian Region, including their names, population sizes, areas, and associated districts. It is likely intended for geographic or demographic analysis within this region.",
+  "numeric_columns": [
+    "Population",
+    "Area ( km² )"
+  ],
+  "categorical_columns": [
+    "District"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

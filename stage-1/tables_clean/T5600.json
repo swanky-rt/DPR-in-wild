@@ -1,0 +1,559 @@
+{
+  "table_id": "T5600",
+  "uid": "928e269a-6d41-53b7-8c04-94f9087b328b",
+  "source": "HybridQA",
+  "source_table_id": "928e269a-6d41-53b7-8c04-94f9087b328b",
+  "domain": "HybridQA",
+  "title": "List of highest-grossing films in Malaysia",
+  "columns": [
+    "Rank",
+    "Release Date",
+    "Film Title",
+    "Studio",
+    "Gross ( RM )"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "2 Apr",
+        []
+      ],
+      [
+        "Furious 7",
+        [
+          "/wiki/Furious_7"
+        ]
+      ],
+      [
+        "United International Pictures",
+        [
+          "/wiki/United_International_Pictures"
+        ]
+      ],
+      [
+        "60,659,547",
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "23 Apr",
+        []
+      ],
+      [
+        "Avengers : Age of Ultron",
+        [
+          "/wiki/Avengers:_Age_of_Ultron"
+        ]
+      ],
+      [
+        "Walt Disney Pictures",
+        [
+          "/wiki/Walt_Disney_Pictures"
+        ]
+      ],
+      [
+        "51,190,838",
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "11 Jun",
+        []
+      ],
+      [
+        "Jurassic World",
+        [
+          "/wiki/Jurassic_World"
+        ]
+      ],
+      [
+        "United International Pictures",
+        [
+          "/wiki/United_International_Pictures"
+        ]
+      ],
+      [
+        "48,511,938",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "16 Jul",
+        []
+      ],
+      [
+        "Ant-Man",
+        [
+          "/wiki/Ant-Man_(film)"
+        ]
+      ],
+      [
+        "Walt Disney Pictures",
+        [
+          "/wiki/Walt_Disney_Pictures"
+        ]
+      ],
+      [
+        "29,639,008",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "17 Dec",
+        []
+      ],
+      [
+        "Star Wars : The Force Awakens",
+        [
+          "/wiki/Star_Wars:_The_Force_Awakens"
+        ]
+      ],
+      [
+        "Walt Disney Pictures",
+        [
+          "/wiki/Walt_Disney_Pictures"
+        ]
+      ],
+      [
+        "27,529,999",
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "24 Dec",
+        []
+      ],
+      [
+        "Ip Man 3",
+        [
+          "/wiki/Ip_Man_3"
+        ]
+      ],
+      [
+        "Fivestar Pictures",
+        []
+      ],
+      [
+        "27,206,291",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "28 May",
+        []
+      ],
+      [
+        "San Andreas",
+        [
+          "/wiki/San_Andreas_(film)"
+        ]
+      ],
+      [
+        "Warner Bros",
+        [
+          "/wiki/Warner_Bros."
+        ]
+      ],
+      [
+        "25,508,810",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "30 Jul",
+        []
+      ],
+      [
+        "Mission : Impossible - Rogue Nation",
+        [
+          "/wiki/Mission:_Impossible_–_Rogue_Nation"
+        ]
+      ],
+      [
+        "United International Pictures",
+        [
+          "/wiki/United_International_Pictures"
+        ]
+      ],
+      [
+        "25,124,472",
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "10 Sep",
+        []
+      ],
+      [
+        "Maze Runner : The Scorch Trials",
+        [
+          "/wiki/Maze_Runner:_The_Scorch_Trials"
+        ]
+      ],
+      [
+        "20th Century Fox",
+        [
+          "/wiki/20th_Century_Fox"
+        ]
+      ],
+      [
+        "23,505,517",
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "5 Nov",
+        []
+      ],
+      [
+        "Spectre",
+        [
+          "/wiki/Spectre_(2015_film)"
+        ]
+      ],
+      [
+        "Sony Pictures Entertainment",
+        [
+          "/wiki/Sony_Pictures_Entertainment"
+        ]
+      ],
+      [
+        "22,194,776",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "928e269a-6d41-53b7-8c04-94f9087b328b",
+    "table_id": "Malaysia_Yearly_Box_Office_8",
+    "title": "List of highest-grossing films in Malaysia",
+    "header": [
+      "Rank",
+      "Release Date",
+      "Film Title",
+      "Studio",
+      "Gross ( RM )"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "2 Apr",
+          []
+        ],
+        [
+          "Furious 7",
+          [
+            "/wiki/Furious_7"
+          ]
+        ],
+        [
+          "United International Pictures",
+          [
+            "/wiki/United_International_Pictures"
+          ]
+        ],
+        [
+          "60,659,547",
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "23 Apr",
+          []
+        ],
+        [
+          "Avengers : Age of Ultron",
+          [
+            "/wiki/Avengers:_Age_of_Ultron"
+          ]
+        ],
+        [
+          "Walt Disney Pictures",
+          [
+            "/wiki/Walt_Disney_Pictures"
+          ]
+        ],
+        [
+          "51,190,838",
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "11 Jun",
+          []
+        ],
+        [
+          "Jurassic World",
+          [
+            "/wiki/Jurassic_World"
+          ]
+        ],
+        [
+          "United International Pictures",
+          [
+            "/wiki/United_International_Pictures"
+          ]
+        ],
+        [
+          "48,511,938",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "16 Jul",
+          []
+        ],
+        [
+          "Ant-Man",
+          [
+            "/wiki/Ant-Man_(film)"
+          ]
+        ],
+        [
+          "Walt Disney Pictures",
+          [
+            "/wiki/Walt_Disney_Pictures"
+          ]
+        ],
+        [
+          "29,639,008",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "17 Dec",
+          []
+        ],
+        [
+          "Star Wars : The Force Awakens",
+          [
+            "/wiki/Star_Wars:_The_Force_Awakens"
+          ]
+        ],
+        [
+          "Walt Disney Pictures",
+          [
+            "/wiki/Walt_Disney_Pictures"
+          ]
+        ],
+        [
+          "27,529,999",
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "24 Dec",
+          []
+        ],
+        [
+          "Ip Man 3",
+          [
+            "/wiki/Ip_Man_3"
+          ]
+        ],
+        [
+          "Fivestar Pictures",
+          []
+        ],
+        [
+          "27,206,291",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "28 May",
+          []
+        ],
+        [
+          "San Andreas",
+          [
+            "/wiki/San_Andreas_(film)"
+          ]
+        ],
+        [
+          "Warner Bros",
+          [
+            "/wiki/Warner_Bros."
+          ]
+        ],
+        [
+          "25,508,810",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "30 Jul",
+          []
+        ],
+        [
+          "Mission : Impossible - Rogue Nation",
+          [
+            "/wiki/Mission:_Impossible_–_Rogue_Nation"
+          ]
+        ],
+        [
+          "United International Pictures",
+          [
+            "/wiki/United_International_Pictures"
+          ]
+        ],
+        [
+          "25,124,472",
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "10 Sep",
+          []
+        ],
+        [
+          "Maze Runner : The Scorch Trials",
+          [
+            "/wiki/Maze_Runner:_The_Scorch_Trials"
+          ]
+        ],
+        [
+          "20th Century Fox",
+          [
+            "/wiki/20th_Century_Fox"
+          ]
+        ],
+        [
+          "23,505,517",
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "5 Nov",
+          []
+        ],
+        [
+          "Spectre",
+          [
+            "/wiki/Spectre_(2015_film)"
+          ]
+        ],
+        [
+          "Sony Pictures Entertainment",
+          [
+            "/wiki/Sony_Pictures_Entertainment"
+          ]
+        ],
+        [
+          "22,194,776",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table lists the highest-grossing films in Malaysia, providing information about their rank, release date, title, studio, and total gross earnings in Malaysian Ringgit. It is intended to showcase the financial performance of films in the Malaysian market.",
+  "numeric_columns": [
+    "Gross ( RM )"
+  ],
+  "categorical_columns": [
+    "Rank",
+    "Release Date",
+    "Studio"
+  ],
+  "entities": [
+    "Film Title"
+  ]
+}

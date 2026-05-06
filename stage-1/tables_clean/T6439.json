@@ -1,0 +1,497 @@
+{
+  "table_id": "T6439",
+  "uid": "c01ac0de-cdff-50d2-a11b-e8acef18bd8a",
+  "source": "HybridQA",
+  "source_table_id": "c01ac0de-cdff-50d2-a11b-e8acef18bd8a",
+  "domain": "HybridQA",
+  "title": "List of offshore wind farms",
+  "columns": [
+    "Wind farm",
+    "Location",
+    "Capacity ( MW )",
+    "Turbines & model",
+    "Completion"
+  ],
+  "rows": [
+    [
+      [
+        "Greater Changhua",
+        []
+      ],
+      [
+        "Taiwan",
+        [
+          "/wiki/Taiwan"
+        ]
+      ],
+      [
+        900,
+        []
+      ],
+      [
+        "111 x Siemens 8MW-167 DD",
+        []
+      ],
+      [
+        2022,
+        []
+      ]
+    ],
+    [
+      [
+        "Triton Knoll",
+        [
+          "/wiki/Triton_Knoll"
+        ]
+      ],
+      [
+        "United Kingdom",
+        [
+          "/wiki/United_Kingdom"
+        ]
+      ],
+      [
+        855,
+        []
+      ],
+      [
+        "90 x MHI Vesta 9.5 MW",
+        []
+      ],
+      [
+        "2021 . First foundation installed on 22nd January 2020",
+        []
+      ]
+    ],
+    [
+      [
+        "Borssele 1 & 2",
+        []
+      ],
+      [
+        "Netherlands",
+        [
+          "/wiki/Netherlands"
+        ]
+      ],
+      [
+        752,
+        []
+      ],
+      [
+        "94 x Siemens Gamesa 8MW",
+        []
+      ],
+      [
+        2020,
+        []
+      ]
+    ],
+    [
+      [
+        "East Anglia ONE",
+        [
+          "/wiki/East_Anglia_ONE"
+        ]
+      ],
+      [
+        "United Kingdom",
+        [
+          "/wiki/United_Kingdom"
+        ]
+      ],
+      [
+        714,
+        []
+      ],
+      [
+        "102 x Siemens SWT-7.0-154",
+        []
+      ],
+      [
+        2020,
+        []
+      ]
+    ],
+    [
+      [
+        "Kriegers Flak",
+        [
+          "/wiki/Kriegers_Flak_(wind_farm)"
+        ]
+      ],
+      [
+        "Denmark",
+        [
+          "/wiki/Denmark"
+        ]
+      ],
+      [
+        605,
+        []
+      ],
+      [
+        "72 x Siemens SG 8.4MW",
+        []
+      ],
+      [
+        2021,
+        []
+      ]
+    ],
+    [
+      [
+        "CGN Yangjiang Nanpeng Island",
+        []
+      ],
+      [
+        "China",
+        [
+          "/wiki/China"
+        ]
+      ],
+      [
+        400,
+        []
+      ],
+      [
+        "75 x Mingyang MY-5.5 MW",
+        [
+          "/wiki/Mingyang_Wind_Power"
+        ]
+      ],
+      [
+        2020,
+        []
+      ]
+    ],
+    [
+      [
+        "Formosa II",
+        []
+      ],
+      [
+        "Taiwan",
+        [
+          "/wiki/Taiwan"
+        ]
+      ],
+      [
+        376,
+        []
+      ],
+      [
+        "47 × Siemens 8MW-167 DD",
+        []
+      ],
+      [
+        2020,
+        []
+      ]
+    ],
+    [
+      [
+        "Datang Jiangsu Binhai",
+        []
+      ],
+      [
+        "China",
+        [
+          "/wiki/China"
+        ]
+      ],
+      [
+        316.5,
+        []
+      ],
+      [
+        "1 x Mingyang SCD 3 MW 50 x Goldwind GW-140/3300 45 x Sinovel SL3300/128",
+        [
+          "/wiki/Goldwind",
+          "/wiki/Sinovel"
+        ]
+      ],
+      [
+        2020,
+        []
+      ]
+    ],
+    [
+      [
+        "Laoting Bodhi Island",
+        []
+      ],
+      [
+        "China",
+        [
+          "/wiki/China"
+        ]
+      ],
+      [
+        300,
+        []
+      ],
+      [
+        "75 x Siemens SWT-4.0-130",
+        []
+      ],
+      [
+        2020,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "c01ac0de-cdff-50d2-a11b-e8acef18bd8a",
+    "table_id": "List_of_offshore_wind_farms_1",
+    "title": "List of offshore wind farms",
+    "header": [
+      "Wind farm",
+      "Location",
+      "Capacity ( MW )",
+      "Turbines & model",
+      "Completion"
+    ],
+    "value": [
+      [
+        [
+          "Greater Changhua",
+          []
+        ],
+        [
+          "Taiwan",
+          [
+            "/wiki/Taiwan"
+          ]
+        ],
+        [
+          900,
+          []
+        ],
+        [
+          "111 x Siemens 8MW-167 DD",
+          []
+        ],
+        [
+          2022,
+          []
+        ]
+      ],
+      [
+        [
+          "Triton Knoll",
+          [
+            "/wiki/Triton_Knoll"
+          ]
+        ],
+        [
+          "United Kingdom",
+          [
+            "/wiki/United_Kingdom"
+          ]
+        ],
+        [
+          855,
+          []
+        ],
+        [
+          "90 x MHI Vesta 9.5 MW",
+          []
+        ],
+        [
+          "2021 . First foundation installed on 22nd January 2020",
+          []
+        ]
+      ],
+      [
+        [
+          "Borssele 1 & 2",
+          []
+        ],
+        [
+          "Netherlands",
+          [
+            "/wiki/Netherlands"
+          ]
+        ],
+        [
+          752,
+          []
+        ],
+        [
+          "94 x Siemens Gamesa 8MW",
+          []
+        ],
+        [
+          2020,
+          []
+        ]
+      ],
+      [
+        [
+          "East Anglia ONE",
+          [
+            "/wiki/East_Anglia_ONE"
+          ]
+        ],
+        [
+          "United Kingdom",
+          [
+            "/wiki/United_Kingdom"
+          ]
+        ],
+        [
+          714,
+          []
+        ],
+        [
+          "102 x Siemens SWT-7.0-154",
+          []
+        ],
+        [
+          2020,
+          []
+        ]
+      ],
+      [
+        [
+          "Kriegers Flak",
+          [
+            "/wiki/Kriegers_Flak_(wind_farm)"
+          ]
+        ],
+        [
+          "Denmark",
+          [
+            "/wiki/Denmark"
+          ]
+        ],
+        [
+          605,
+          []
+        ],
+        [
+          "72 x Siemens SG 8.4MW",
+          []
+        ],
+        [
+          2021,
+          []
+        ]
+      ],
+      [
+        [
+          "CGN Yangjiang Nanpeng Island",
+          []
+        ],
+        [
+          "China",
+          [
+            "/wiki/China"
+          ]
+        ],
+        [
+          400,
+          []
+        ],
+        [
+          "75 x Mingyang MY-5.5 MW",
+          [
+            "/wiki/Mingyang_Wind_Power"
+          ]
+        ],
+        [
+          2020,
+          []
+        ]
+      ],
+      [
+        [
+          "Formosa II",
+          []
+        ],
+        [
+          "Taiwan",
+          [
+            "/wiki/Taiwan"
+          ]
+        ],
+        [
+          376,
+          []
+        ],
+        [
+          "47 × Siemens 8MW-167 DD",
+          []
+        ],
+        [
+          2020,
+          []
+        ]
+      ],
+      [
+        [
+          "Datang Jiangsu Binhai",
+          []
+        ],
+        [
+          "China",
+          [
+            "/wiki/China"
+          ]
+        ],
+        [
+          316.5,
+          []
+        ],
+        [
+          "1 x Mingyang SCD 3 MW 50 x Goldwind GW-140/3300 45 x Sinovel SL3300/128",
+          [
+            "/wiki/Goldwind",
+            "/wiki/Sinovel"
+          ]
+        ],
+        [
+          2020,
+          []
+        ]
+      ],
+      [
+        [
+          "Laoting Bodhi Island",
+          []
+        ],
+        [
+          "China",
+          [
+            "/wiki/China"
+          ]
+        ],
+        [
+          300,
+          []
+        ],
+        [
+          "75 x Siemens SWT-4.0-130",
+          []
+        ],
+        [
+          2020,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about offshore wind farms, detailing their names, locations, energy capacities, turbine specifications, and completion dates. It serves as a resource for understanding the scale and technological aspects of offshore wind energy projects globally.",
+  "numeric_columns": [
+    "Capacity ( MW )"
+  ],
+  "categorical_columns": [
+    "Turbines & model",
+    "Completion"
+  ],
+  "entities": [
+    "Wind farm",
+    "Location"
+  ]
+}

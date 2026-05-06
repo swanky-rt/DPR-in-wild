@@ -1,0 +1,329 @@
+{
+  "table_id": "T374",
+  "uid": "a2629205-f9e1-5108-8985-c5a2af850e5d",
+  "source": "HybridQA",
+  "source_table_id": "a2629205-f9e1-5108-8985-c5a2af850e5d",
+  "domain": "HybridQA",
+  "title": "Tie Cup",
+  "columns": [
+    "Team",
+    "Titles",
+    "Years won"
+  ],
+  "rows": [
+    [
+      [
+        "Alumni",
+        [
+          "/wiki/Alumni_Athletic_Club"
+        ]
+      ],
+      [
+        6,
+        []
+      ],
+      [
+        "1901 , 1903 , 1906 , 1907 , 1908 , 1909",
+        []
+      ]
+    ],
+    [
+      [
+        "Rosario AC",
+        [
+          "/wiki/Club_Atlético_del_Rosario"
+        ]
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        "1902 , 1904 , 1905",
+        [
+          "/wiki/1904_Tie_Cup_Final"
+        ]
+      ]
+    ],
+    [
+      [
+        "Wanderers",
+        [
+          "/wiki/Montevideo_Wanderers"
+        ]
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        "1911 , 1917 , 1918",
+        []
+      ]
+    ],
+    [
+      [
+        "Nacional",
+        [
+          "/wiki/Club_Nacional_de_Football"
+        ]
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "1913 , 1915",
+        []
+      ]
+    ],
+    [
+      [
+        "Belgrano AC",
+        [
+          "/wiki/Belgrano_Athletic"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1900,
+        []
+      ]
+    ],
+    [
+      [
+        "San Isidro",
+        [
+          "/wiki/Club_Atlético_San_Isidro"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1912,
+        []
+      ]
+    ],
+    [
+      [
+        "River Plate",
+        [
+          "/wiki/Club_Atlético_River_Plate"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1914,
+        []
+      ]
+    ],
+    [
+      [
+        "Peñarol",
+        [
+          "/wiki/Peñarol"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1916,
+        []
+      ]
+    ],
+    [
+      [
+        "Boca Juniors",
+        [
+          "/wiki/Boca_Juniors"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1919,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "a2629205-f9e1-5108-8985-c5a2af850e5d",
+    "table_id": "Tie_Cup_1",
+    "title": "Tie Cup",
+    "header": [
+      "Team",
+      "Titles",
+      "Years won"
+    ],
+    "value": [
+      [
+        [
+          "Alumni",
+          [
+            "/wiki/Alumni_Athletic_Club"
+          ]
+        ],
+        [
+          6,
+          []
+        ],
+        [
+          "1901 , 1903 , 1906 , 1907 , 1908 , 1909",
+          []
+        ]
+      ],
+      [
+        [
+          "Rosario AC",
+          [
+            "/wiki/Club_Atlético_del_Rosario"
+          ]
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          "1902 , 1904 , 1905",
+          [
+            "/wiki/1904_Tie_Cup_Final"
+          ]
+        ]
+      ],
+      [
+        [
+          "Wanderers",
+          [
+            "/wiki/Montevideo_Wanderers"
+          ]
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          "1911 , 1917 , 1918",
+          []
+        ]
+      ],
+      [
+        [
+          "Nacional",
+          [
+            "/wiki/Club_Nacional_de_Football"
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "1913 , 1915",
+          []
+        ]
+      ],
+      [
+        [
+          "Belgrano AC",
+          [
+            "/wiki/Belgrano_Athletic"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1900,
+          []
+        ]
+      ],
+      [
+        [
+          "San Isidro",
+          [
+            "/wiki/Club_Atlético_San_Isidro"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1912,
+          []
+        ]
+      ],
+      [
+        [
+          "River Plate",
+          [
+            "/wiki/Club_Atlético_River_Plate"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1914,
+          []
+        ]
+      ],
+      [
+        [
+          "Peñarol",
+          [
+            "/wiki/Peñarol"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1916,
+          []
+        ]
+      ],
+      [
+        [
+          "Boca Juniors",
+          [
+            "/wiki/Boca_Juniors"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1919,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about teams that participated in the Tie Cup, including their achievements and the years they won titles. It is designed to summarize historical performance data for teams in this competition.",
+  "numeric_columns": [
+    "Titles"
+  ],
+  "categorical_columns": [
+    "Years won"
+  ],
+  "entities": [
+    "Team"
+  ]
+}

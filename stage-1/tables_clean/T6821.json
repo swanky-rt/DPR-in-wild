@@ -1,0 +1,465 @@
+{
+  "table_id": "T6821",
+  "uid": "ee327b3e-adb6-5f03-afb3-6639fa33114d",
+  "source": "HybridQA",
+  "source_table_id": "ee327b3e-adb6-5f03-afb3-6639fa33114d",
+  "domain": "HybridQA",
+  "title": "FIFA Order of Merit",
+  "columns": [
+    "Recipient",
+    "Year",
+    "Nationality"
+  ],
+  "rows": [
+    [
+      [
+        "Franz Beckenbauer *",
+        [
+          "/wiki/Franz_Beckenbauer"
+        ]
+      ],
+      [
+        "1984 , 2004",
+        []
+      ],
+      [
+        "Germany",
+        [
+          "/wiki/Germany"
+        ]
+      ]
+    ],
+    [
+      [
+        "Helmut Schön",
+        [
+          "/wiki/Helmut_Schön"
+        ]
+      ],
+      [
+        1984,
+        []
+      ],
+      [
+        "Germany",
+        [
+          "/wiki/Germany"
+        ]
+      ]
+    ],
+    [
+      [
+        "Mário Zagallo",
+        [
+          "/wiki/Mário_Zagallo"
+        ]
+      ],
+      [
+        1992,
+        []
+      ],
+      [
+        "Brazil",
+        [
+          "/wiki/Brazil"
+        ]
+      ]
+    ],
+    [
+      [
+        "Karl Heinz Weigang",
+        [
+          "/wiki/Karl_Heinz_Weigang"
+        ]
+      ],
+      [
+        1998,
+        []
+      ],
+      [
+        "Germany",
+        [
+          "/wiki/Germany"
+        ]
+      ]
+    ],
+    [
+      [
+        "Miljan Miljanić *",
+        [
+          "/wiki/Miljan_Miljanić"
+        ]
+      ],
+      [
+        2002,
+        []
+      ],
+      [
+        "Serbia",
+        [
+          "/wiki/Serbia"
+        ]
+      ]
+    ],
+    [
+      [
+        "Valeriy Lobanovskyi",
+        [
+          "/wiki/Valeriy_Lobanovskyi"
+        ]
+      ],
+      [
+        2003,
+        []
+      ],
+      [
+        "Ukraine",
+        [
+          "/wiki/Ukraine"
+        ]
+      ]
+    ],
+    [
+      [
+        "Sein Hlaing",
+        [
+          "/wiki/Sein_Hlaing"
+        ]
+      ],
+      [
+        2004,
+        []
+      ],
+      [
+        "Myanmar",
+        [
+          "/wiki/Myanmar"
+        ]
+      ]
+    ],
+    [
+      [
+        "Kazimierz Górski *",
+        [
+          "/wiki/Kazimierz_Górski"
+        ]
+      ],
+      [
+        2006,
+        []
+      ],
+      [
+        "Poland",
+        [
+          "/wiki/Poland"
+        ]
+      ]
+    ],
+    [
+      [
+        "Nodar Akhalkatsi",
+        [
+          "/wiki/Nodar_Akhalkatsi"
+        ]
+      ],
+      [
+        2008,
+        []
+      ],
+      [
+        "Georgia",
+        [
+          "/wiki/Georgia_(country)"
+        ]
+      ]
+    ],
+    [
+      [
+        "Johan Cruijff *",
+        [
+          "/wiki/Johan_Cruijff"
+        ]
+      ],
+      [
+        2010,
+        []
+      ],
+      [
+        "Netherlands",
+        [
+          "/wiki/Netherlands"
+        ]
+      ]
+    ],
+    [
+      [
+        "Winston Chung-Fah",
+        []
+      ],
+      [
+        2012,
+        []
+      ],
+      [
+        "Jamaica",
+        [
+          "/wiki/Jamaica"
+        ]
+      ]
+    ],
+    [
+      [
+        "Óscar Tabárez",
+        [
+          "/wiki/Óscar_Tabárez"
+        ]
+      ],
+      [
+        2012,
+        []
+      ],
+      [
+        "Uruguay",
+        [
+          "/wiki/Uruguay"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "ee327b3e-adb6-5f03-afb3-6639fa33114d",
+    "table_id": "FIFA_Order_of_Merit_3",
+    "title": "FIFA Order of Merit",
+    "header": [
+      "Recipient",
+      "Year",
+      "Nationality"
+    ],
+    "value": [
+      [
+        [
+          "Franz Beckenbauer *",
+          [
+            "/wiki/Franz_Beckenbauer"
+          ]
+        ],
+        [
+          "1984 , 2004",
+          []
+        ],
+        [
+          "Germany",
+          [
+            "/wiki/Germany"
+          ]
+        ]
+      ],
+      [
+        [
+          "Helmut Schön",
+          [
+            "/wiki/Helmut_Schön"
+          ]
+        ],
+        [
+          1984,
+          []
+        ],
+        [
+          "Germany",
+          [
+            "/wiki/Germany"
+          ]
+        ]
+      ],
+      [
+        [
+          "Mário Zagallo",
+          [
+            "/wiki/Mário_Zagallo"
+          ]
+        ],
+        [
+          1992,
+          []
+        ],
+        [
+          "Brazil",
+          [
+            "/wiki/Brazil"
+          ]
+        ]
+      ],
+      [
+        [
+          "Karl Heinz Weigang",
+          [
+            "/wiki/Karl_Heinz_Weigang"
+          ]
+        ],
+        [
+          1998,
+          []
+        ],
+        [
+          "Germany",
+          [
+            "/wiki/Germany"
+          ]
+        ]
+      ],
+      [
+        [
+          "Miljan Miljanić *",
+          [
+            "/wiki/Miljan_Miljanić"
+          ]
+        ],
+        [
+          2002,
+          []
+        ],
+        [
+          "Serbia",
+          [
+            "/wiki/Serbia"
+          ]
+        ]
+      ],
+      [
+        [
+          "Valeriy Lobanovskyi",
+          [
+            "/wiki/Valeriy_Lobanovskyi"
+          ]
+        ],
+        [
+          2003,
+          []
+        ],
+        [
+          "Ukraine",
+          [
+            "/wiki/Ukraine"
+          ]
+        ]
+      ],
+      [
+        [
+          "Sein Hlaing",
+          [
+            "/wiki/Sein_Hlaing"
+          ]
+        ],
+        [
+          2004,
+          []
+        ],
+        [
+          "Myanmar",
+          [
+            "/wiki/Myanmar"
+          ]
+        ]
+      ],
+      [
+        [
+          "Kazimierz Górski *",
+          [
+            "/wiki/Kazimierz_Górski"
+          ]
+        ],
+        [
+          2006,
+          []
+        ],
+        [
+          "Poland",
+          [
+            "/wiki/Poland"
+          ]
+        ]
+      ],
+      [
+        [
+          "Nodar Akhalkatsi",
+          [
+            "/wiki/Nodar_Akhalkatsi"
+          ]
+        ],
+        [
+          2008,
+          []
+        ],
+        [
+          "Georgia",
+          [
+            "/wiki/Georgia_(country)"
+          ]
+        ]
+      ],
+      [
+        [
+          "Johan Cruijff *",
+          [
+            "/wiki/Johan_Cruijff"
+          ]
+        ],
+        [
+          2010,
+          []
+        ],
+        [
+          "Netherlands",
+          [
+            "/wiki/Netherlands"
+          ]
+        ]
+      ],
+      [
+        [
+          "Winston Chung-Fah",
+          []
+        ],
+        [
+          2012,
+          []
+        ],
+        [
+          "Jamaica",
+          [
+            "/wiki/Jamaica"
+          ]
+        ]
+      ],
+      [
+        [
+          "Óscar Tabárez",
+          [
+            "/wiki/Óscar_Tabárez"
+          ]
+        ],
+        [
+          2012,
+          []
+        ],
+        [
+          "Uruguay",
+          [
+            "/wiki/Uruguay"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table represents recipients of the FIFA Order of Merit, an honor awarded by FIFA to individuals or entities for their contributions to football. It includes information about the recipient, the year(s) they were honored, and their nationality.",
+  "numeric_columns": [
+    "Year"
+  ],
+  "categorical_columns": [
+    "Nationality"
+  ],
+  "entities": [
+    "Recipient"
+  ]
+}

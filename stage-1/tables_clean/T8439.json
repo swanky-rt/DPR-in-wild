@@ -1,0 +1,501 @@
+{
+  "table_id": "T8439",
+  "uid": "58a34b8f-9ec6-5a78-8b0d-198f0bcf577c",
+  "source": "HybridQA",
+  "source_table_id": "58a34b8f-9ec6-5a78-8b0d-198f0bcf577c",
+  "domain": "HybridQA",
+  "title": "Kansas City, Missouri",
+  "columns": [
+    "Club",
+    "Sport",
+    "Founded",
+    "League",
+    "Venue"
+  ],
+  "rows": [
+    [
+      [
+        "Kansas City Chiefs",
+        [
+          "/wiki/Kansas_City_Chiefs"
+        ]
+      ],
+      [
+        "Football",
+        [
+          "/wiki/American_football"
+        ]
+      ],
+      [
+        "1960 ( as the Dallas Texans ) 1963 ( as Kansas City Chiefs )",
+        []
+      ],
+      [
+        "National Football League",
+        [
+          "/wiki/National_Football_League"
+        ]
+      ],
+      [
+        "Arrowhead Stadium",
+        [
+          "/wiki/Arrowhead_Stadium"
+        ]
+      ]
+    ],
+    [
+      [
+        "Kansas City Royals",
+        [
+          "/wiki/Kansas_City_Royals"
+        ]
+      ],
+      [
+        "Baseball",
+        []
+      ],
+      [
+        1969,
+        []
+      ],
+      [
+        "Major League Baseball",
+        [
+          "/wiki/Major_League_Baseball"
+        ]
+      ],
+      [
+        "Kauffman Stadium",
+        [
+          "/wiki/Kauffman_Stadium"
+        ]
+      ]
+    ],
+    [
+      [
+        "Sporting Kansas City",
+        [
+          "/wiki/Sporting_Kansas_City"
+        ]
+      ],
+      [
+        "Soccer",
+        []
+      ],
+      [
+        1996,
+        []
+      ],
+      [
+        "Major League Soccer",
+        [
+          "/wiki/Major_League_Soccer"
+        ]
+      ],
+      [
+        "Children 's Mercy Park ( Kansas City , Kansas )",
+        [
+          "/wiki/Children's_Mercy_Park",
+          "/wiki/Kansas_City,_Kansas"
+        ]
+      ]
+    ],
+    [
+      [
+        "Swope Park Rangers",
+        [
+          "/wiki/Swope_Park_Rangers"
+        ]
+      ],
+      [
+        "Soccer",
+        []
+      ],
+      [
+        2016,
+        []
+      ],
+      [
+        "USL Championship",
+        [
+          "/wiki/USL_Championship"
+        ]
+      ],
+      [
+        "Children 's Mercy Park ( Kansas City , Kansas )",
+        [
+          "/wiki/Children's_Mercy_Park",
+          "/wiki/Kansas_City,_Kansas"
+        ]
+      ]
+    ],
+    [
+      [
+        "Kansas City Mavericks",
+        [
+          "/wiki/Kansas_City_Mavericks"
+        ]
+      ],
+      [
+        "Hockey",
+        [
+          "/wiki/Ice_hockey"
+        ]
+      ],
+      [
+        2009,
+        []
+      ],
+      [
+        "ECHL",
+        [
+          "/wiki/ECHL"
+        ]
+      ],
+      [
+        "Silverstein Eye Centers Arena ( Independence )",
+        [
+          "/wiki/Silverstein_Eye_Centers_Arena",
+          "/wiki/Independence,_Missouri"
+        ]
+      ]
+    ],
+    [
+      [
+        "Kansas City Comets",
+        [
+          "/wiki/Kansas_City_Comets_(2010–)"
+        ]
+      ],
+      [
+        "Soccer , Indoor",
+        [
+          "/wiki/Indoor_soccer"
+        ]
+      ],
+      [
+        2010,
+        []
+      ],
+      [
+        "Major Arena Soccer League",
+        [
+          "/wiki/Major_Arena_Soccer_League"
+        ]
+      ],
+      [
+        "Silverstein Eye Centers Arena ( Independence )",
+        [
+          "/wiki/Silverstein_Eye_Centers_Arena"
+        ]
+      ]
+    ],
+    [
+      [
+        "Kansas City Blues",
+        [
+          "/wiki/Kansas_City_Blues_(USA_Rugby)"
+        ]
+      ],
+      [
+        "Rugby Union",
+        []
+      ],
+      [
+        1966,
+        []
+      ],
+      [
+        "USA Rugby Division 1",
+        []
+      ],
+      [
+        "Swope Park Training Complex",
+        []
+      ]
+    ],
+    [
+      [
+        "Kansas City Storm",
+        [
+          "/wiki/Kansas_City_Storm"
+        ]
+      ],
+      [
+        "Football , Women 's",
+        [
+          "/wiki/Women's_American_football"
+        ]
+      ],
+      [
+        2004,
+        []
+      ],
+      [
+        "WTFA",
+        []
+      ],
+      [
+        "North Kansas City High School",
+        [
+          "/wiki/North_Kansas_City_High_School"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "58a34b8f-9ec6-5a78-8b0d-198f0bcf577c",
+    "table_id": "Kansas_City,_Missouri_2",
+    "title": "Kansas City, Missouri",
+    "header": [
+      "Club",
+      "Sport",
+      "Founded",
+      "League",
+      "Venue"
+    ],
+    "value": [
+      [
+        [
+          "Kansas City Chiefs",
+          [
+            "/wiki/Kansas_City_Chiefs"
+          ]
+        ],
+        [
+          "Football",
+          [
+            "/wiki/American_football"
+          ]
+        ],
+        [
+          "1960 ( as the Dallas Texans ) 1963 ( as Kansas City Chiefs )",
+          []
+        ],
+        [
+          "National Football League",
+          [
+            "/wiki/National_Football_League"
+          ]
+        ],
+        [
+          "Arrowhead Stadium",
+          [
+            "/wiki/Arrowhead_Stadium"
+          ]
+        ]
+      ],
+      [
+        [
+          "Kansas City Royals",
+          [
+            "/wiki/Kansas_City_Royals"
+          ]
+        ],
+        [
+          "Baseball",
+          []
+        ],
+        [
+          1969,
+          []
+        ],
+        [
+          "Major League Baseball",
+          [
+            "/wiki/Major_League_Baseball"
+          ]
+        ],
+        [
+          "Kauffman Stadium",
+          [
+            "/wiki/Kauffman_Stadium"
+          ]
+        ]
+      ],
+      [
+        [
+          "Sporting Kansas City",
+          [
+            "/wiki/Sporting_Kansas_City"
+          ]
+        ],
+        [
+          "Soccer",
+          []
+        ],
+        [
+          1996,
+          []
+        ],
+        [
+          "Major League Soccer",
+          [
+            "/wiki/Major_League_Soccer"
+          ]
+        ],
+        [
+          "Children 's Mercy Park ( Kansas City , Kansas )",
+          [
+            "/wiki/Children's_Mercy_Park",
+            "/wiki/Kansas_City,_Kansas"
+          ]
+        ]
+      ],
+      [
+        [
+          "Swope Park Rangers",
+          [
+            "/wiki/Swope_Park_Rangers"
+          ]
+        ],
+        [
+          "Soccer",
+          []
+        ],
+        [
+          2016,
+          []
+        ],
+        [
+          "USL Championship",
+          [
+            "/wiki/USL_Championship"
+          ]
+        ],
+        [
+          "Children 's Mercy Park ( Kansas City , Kansas )",
+          [
+            "/wiki/Children's_Mercy_Park",
+            "/wiki/Kansas_City,_Kansas"
+          ]
+        ]
+      ],
+      [
+        [
+          "Kansas City Mavericks",
+          [
+            "/wiki/Kansas_City_Mavericks"
+          ]
+        ],
+        [
+          "Hockey",
+          [
+            "/wiki/Ice_hockey"
+          ]
+        ],
+        [
+          2009,
+          []
+        ],
+        [
+          "ECHL",
+          [
+            "/wiki/ECHL"
+          ]
+        ],
+        [
+          "Silverstein Eye Centers Arena ( Independence )",
+          [
+            "/wiki/Silverstein_Eye_Centers_Arena",
+            "/wiki/Independence,_Missouri"
+          ]
+        ]
+      ],
+      [
+        [
+          "Kansas City Comets",
+          [
+            "/wiki/Kansas_City_Comets_(2010–)"
+          ]
+        ],
+        [
+          "Soccer , Indoor",
+          [
+            "/wiki/Indoor_soccer"
+          ]
+        ],
+        [
+          2010,
+          []
+        ],
+        [
+          "Major Arena Soccer League",
+          [
+            "/wiki/Major_Arena_Soccer_League"
+          ]
+        ],
+        [
+          "Silverstein Eye Centers Arena ( Independence )",
+          [
+            "/wiki/Silverstein_Eye_Centers_Arena"
+          ]
+        ]
+      ],
+      [
+        [
+          "Kansas City Blues",
+          [
+            "/wiki/Kansas_City_Blues_(USA_Rugby)"
+          ]
+        ],
+        [
+          "Rugby Union",
+          []
+        ],
+        [
+          1966,
+          []
+        ],
+        [
+          "USA Rugby Division 1",
+          []
+        ],
+        [
+          "Swope Park Training Complex",
+          []
+        ]
+      ],
+      [
+        [
+          "Kansas City Storm",
+          [
+            "/wiki/Kansas_City_Storm"
+          ]
+        ],
+        [
+          "Football , Women 's",
+          [
+            "/wiki/Women's_American_football"
+          ]
+        ],
+        [
+          2004,
+          []
+        ],
+        [
+          "WTFA",
+          []
+        ],
+        [
+          "North Kansas City High School",
+          [
+            "/wiki/North_Kansas_City_High_School"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about sports clubs based in Kansas City, Missouri, including their associated sports, founding years, leagues, and venues. It is designed to give an overview of key details about these organizations and their operations. The table is part of a HybridQA domain, likely intended for structured data analysis or integration with other datasets.",
+  "numeric_columns": [
+    "Founded"
+  ],
+  "categorical_columns": [
+    "Sport",
+    "League"
+  ],
+  "entities": [
+    "Club",
+    "Venue"
+  ]
+}

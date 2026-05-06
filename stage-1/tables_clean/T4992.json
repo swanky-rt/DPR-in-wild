@@ -1,0 +1,511 @@
+{
+  "table_id": "T4992",
+  "uid": "c7a612b7-45f5-5781-9ba0-325f32eadca9",
+  "source": "HybridQA",
+  "source_table_id": "c7a612b7-45f5-5781-9ba0-325f32eadca9",
+  "domain": "HybridQA",
+  "title": "Moel-y-Parc transmitting station",
+  "columns": [
+    "Frequency",
+    "UHF",
+    "kW",
+    "Service",
+    "System"
+  ],
+  "rows": [
+    [
+      [
+        "546.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        30,
+        []
+      ],
+      [
+        0.25,
+        []
+      ],
+      [
+        "Arqiva ( Mux C )",
+        [
+          "/wiki/Arqiva"
+        ]
+      ],
+      [
+        "DVB-T",
+        [
+          "/wiki/DVB-T"
+        ]
+      ]
+    ],
+    [
+      [
+        "578.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        34,
+        []
+      ],
+      [
+        0.25,
+        []
+      ],
+      [
+        "Arqiva ( Mux D )",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "639.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        42,
+        []
+      ],
+      [
+        100,
+        []
+      ],
+      [
+        "S4C",
+        [
+          "/wiki/S4C"
+        ]
+      ],
+      [
+        "PAL System I",
+        [
+          "/wiki/PAL"
+        ]
+      ]
+    ],
+    [
+      [
+        "666.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        45,
+        []
+      ],
+      [
+        20,
+        []
+      ],
+      [
+        "BBC A",
+        [
+          "/wiki/BBC"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "695.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        49,
+        []
+      ],
+      [
+        100,
+        []
+      ],
+      [
+        "ITV1 Wales",
+        [
+          "/wiki/ITV_Wales_&_West"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "719.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        52,
+        []
+      ],
+      [
+        100,
+        []
+      ],
+      [
+        "BBC One Wales",
+        [
+          "/wiki/BBC_One_Wales"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "770.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        58,
+        []
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "Digital 3 & 4 ( Mux 2 )",
+        [
+          "/wiki/Digital_3&4"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "794.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        61,
+        []
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "SDN ( Mux A )",
+        [
+          "/wiki/S4C_Digital_Networks"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "818.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        64,
+        []
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "BBC ( Mux B )",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "c7a612b7-45f5-5781-9ba0-325f32eadca9",
+    "table_id": "Moel-y-Parc_transmitting_station_7",
+    "title": "Moel-y-Parc transmitting station",
+    "header": [
+      "Frequency",
+      "UHF",
+      "kW",
+      "Service",
+      "System"
+    ],
+    "value": [
+      [
+        [
+          "546.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          30,
+          []
+        ],
+        [
+          0.25,
+          []
+        ],
+        [
+          "Arqiva ( Mux C )",
+          [
+            "/wiki/Arqiva"
+          ]
+        ],
+        [
+          "DVB-T",
+          [
+            "/wiki/DVB-T"
+          ]
+        ]
+      ],
+      [
+        [
+          "578.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          34,
+          []
+        ],
+        [
+          0.25,
+          []
+        ],
+        [
+          "Arqiva ( Mux D )",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "639.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          42,
+          []
+        ],
+        [
+          100,
+          []
+        ],
+        [
+          "S4C",
+          [
+            "/wiki/S4C"
+          ]
+        ],
+        [
+          "PAL System I",
+          [
+            "/wiki/PAL"
+          ]
+        ]
+      ],
+      [
+        [
+          "666.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          45,
+          []
+        ],
+        [
+          20,
+          []
+        ],
+        [
+          "BBC A",
+          [
+            "/wiki/BBC"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "695.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          49,
+          []
+        ],
+        [
+          100,
+          []
+        ],
+        [
+          "ITV1 Wales",
+          [
+            "/wiki/ITV_Wales_&_West"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "719.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          52,
+          []
+        ],
+        [
+          100,
+          []
+        ],
+        [
+          "BBC One Wales",
+          [
+            "/wiki/BBC_One_Wales"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "770.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          58,
+          []
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "Digital 3 & 4 ( Mux 2 )",
+          [
+            "/wiki/Digital_3&4"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "794.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          61,
+          []
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "SDN ( Mux A )",
+          [
+            "/wiki/S4C_Digital_Networks"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "818.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          64,
+          []
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "BBC ( Mux B )",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides technical details about the Moel-y-Parc transmitting station, focusing on frequency allocations, transmission power, and broadcasting systems. It is likely intended for understanding or managing the station's broadcast services and technical specifications. The table includes information on frequencies, transmission power levels, service types, and system standards.",
+  "numeric_columns": [
+    "UHF",
+    "kW"
+  ],
+  "categorical_columns": [
+    "Service",
+    "System"
+  ],
+  "entities": [
+    "Frequency"
+  ]
+}

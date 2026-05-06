@@ -1,0 +1,447 @@
+{
+  "table_id": "T10672",
+  "uid": "ecbfc924-f007-5ba6-8668-b037d36823a4",
+  "source": "HybridQA",
+  "source_table_id": "ecbfc924-f007-5ba6-8668-b037d36823a4",
+  "domain": "HybridQA",
+  "title": "Liga EBA",
+  "columns": [
+    "Team",
+    "City",
+    "Autonomous community",
+    "Arena"
+  ],
+  "rows": [
+    [
+      [
+        "ADEPLA Basket",
+        []
+      ],
+      [
+        "Plasencia",
+        [
+          "/wiki/Plasencia"
+        ]
+      ],
+      [
+        "Extremadura",
+        [
+          "/wiki/Extremadura"
+        ]
+      ],
+      [
+        "Centro Universitario",
+        []
+      ]
+    ],
+    [
+      [
+        "Alba Ibs Club Baloncesto Utrera",
+        []
+      ],
+      [
+        "Utrera",
+        [
+          "/wiki/Utrera"
+        ]
+      ],
+      [
+        "Andalusia",
+        [
+          "/wiki/Andalusia"
+        ]
+      ],
+      [
+        "Pepe Álvarez",
+        []
+      ]
+    ],
+    [
+      [
+        "DKV San Fernando",
+        []
+      ],
+      [
+        "San Fernando",
+        [
+          "/wiki/San_Fernando,_Cádiz"
+        ]
+      ],
+      [
+        "Andalusia",
+        [
+          "/wiki/Andalusia"
+        ]
+      ],
+      [
+        "Almirante Laulhé",
+        []
+      ]
+    ],
+    [
+      [
+        "Huelva",
+        []
+      ],
+      [
+        "Huelva",
+        [
+          "/wiki/Huelva"
+        ]
+      ],
+      [
+        "Andalusia",
+        [
+          "/wiki/Andalusia"
+        ]
+      ],
+      [
+        "Andrés Estrada",
+        []
+      ]
+    ],
+    [
+      [
+        "Matenglish CBSFDO",
+        []
+      ],
+      [
+        "San Fernando",
+        [
+          "/wiki/San_Fernando,_Cádiz"
+        ]
+      ],
+      [
+        "Andalusia",
+        [
+          "/wiki/Andalusia"
+        ]
+      ],
+      [
+        "Municipal",
+        []
+      ]
+    ],
+    [
+      [
+        "Oh ! Tels ULB",
+        []
+      ],
+      [
+        "La Línea de la Concepción",
+        [
+          "/wiki/La_Línea_de_la_Concepción"
+        ]
+      ],
+      [
+        "Andalusia",
+        [
+          "/wiki/Andalusia"
+        ]
+      ],
+      [
+        "Municipal",
+        []
+      ]
+    ],
+    [
+      [
+        "Real Betis Energía Plus B",
+        [
+          "/wiki/CB_Sevilla"
+        ]
+      ],
+      [
+        "Seville",
+        [
+          "/wiki/Seville"
+        ]
+      ],
+      [
+        "Andalusia",
+        [
+          "/wiki/Andalusia"
+        ]
+      ],
+      [
+        "Amate",
+        []
+      ]
+    ],
+    [
+      [
+        "Rus CB Ciudad de Dos Hermanas",
+        []
+      ],
+      [
+        "Dos Hermanas",
+        [
+          "/wiki/Dos_Hermanas"
+        ]
+      ],
+      [
+        "Andalusia",
+        [
+          "/wiki/Andalusia"
+        ]
+      ],
+      [
+        "Los Montecillos",
+        []
+      ]
+    ],
+    [
+      [
+        "Torta del Casar Extremadura",
+        [
+          "/wiki/Cáceres_Ciudad_del_Baloncesto"
+        ]
+      ],
+      [
+        "Cáceres",
+        [
+          "/wiki/Cáceres,_Spain"
+        ]
+      ],
+      [
+        "Extremadura",
+        [
+          "/wiki/Extremadura"
+        ]
+      ],
+      [
+        "Casar de Cáceres",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "ecbfc924-f007-5ba6-8668-b037d36823a4",
+    "table_id": "Liga_EBA_6",
+    "title": "Liga EBA",
+    "header": [
+      "Team",
+      "City",
+      "Autonomous community",
+      "Arena"
+    ],
+    "value": [
+      [
+        [
+          "ADEPLA Basket",
+          []
+        ],
+        [
+          "Plasencia",
+          [
+            "/wiki/Plasencia"
+          ]
+        ],
+        [
+          "Extremadura",
+          [
+            "/wiki/Extremadura"
+          ]
+        ],
+        [
+          "Centro Universitario",
+          []
+        ]
+      ],
+      [
+        [
+          "Alba Ibs Club Baloncesto Utrera",
+          []
+        ],
+        [
+          "Utrera",
+          [
+            "/wiki/Utrera"
+          ]
+        ],
+        [
+          "Andalusia",
+          [
+            "/wiki/Andalusia"
+          ]
+        ],
+        [
+          "Pepe Álvarez",
+          []
+        ]
+      ],
+      [
+        [
+          "DKV San Fernando",
+          []
+        ],
+        [
+          "San Fernando",
+          [
+            "/wiki/San_Fernando,_Cádiz"
+          ]
+        ],
+        [
+          "Andalusia",
+          [
+            "/wiki/Andalusia"
+          ]
+        ],
+        [
+          "Almirante Laulhé",
+          []
+        ]
+      ],
+      [
+        [
+          "Huelva",
+          []
+        ],
+        [
+          "Huelva",
+          [
+            "/wiki/Huelva"
+          ]
+        ],
+        [
+          "Andalusia",
+          [
+            "/wiki/Andalusia"
+          ]
+        ],
+        [
+          "Andrés Estrada",
+          []
+        ]
+      ],
+      [
+        [
+          "Matenglish CBSFDO",
+          []
+        ],
+        [
+          "San Fernando",
+          [
+            "/wiki/San_Fernando,_Cádiz"
+          ]
+        ],
+        [
+          "Andalusia",
+          [
+            "/wiki/Andalusia"
+          ]
+        ],
+        [
+          "Municipal",
+          []
+        ]
+      ],
+      [
+        [
+          "Oh ! Tels ULB",
+          []
+        ],
+        [
+          "La Línea de la Concepción",
+          [
+            "/wiki/La_Línea_de_la_Concepción"
+          ]
+        ],
+        [
+          "Andalusia",
+          [
+            "/wiki/Andalusia"
+          ]
+        ],
+        [
+          "Municipal",
+          []
+        ]
+      ],
+      [
+        [
+          "Real Betis Energía Plus B",
+          [
+            "/wiki/CB_Sevilla"
+          ]
+        ],
+        [
+          "Seville",
+          [
+            "/wiki/Seville"
+          ]
+        ],
+        [
+          "Andalusia",
+          [
+            "/wiki/Andalusia"
+          ]
+        ],
+        [
+          "Amate",
+          []
+        ]
+      ],
+      [
+        [
+          "Rus CB Ciudad de Dos Hermanas",
+          []
+        ],
+        [
+          "Dos Hermanas",
+          [
+            "/wiki/Dos_Hermanas"
+          ]
+        ],
+        [
+          "Andalusia",
+          [
+            "/wiki/Andalusia"
+          ]
+        ],
+        [
+          "Los Montecillos",
+          []
+        ]
+      ],
+      [
+        [
+          "Torta del Casar Extremadura",
+          [
+            "/wiki/Cáceres_Ciudad_del_Baloncesto"
+          ]
+        ],
+        [
+          "Cáceres",
+          [
+            "/wiki/Cáceres,_Spain"
+          ]
+        ],
+        [
+          "Extremadura",
+          [
+            "/wiki/Extremadura"
+          ]
+        ],
+        [
+          "Casar de Cáceres",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about basketball teams in the Liga EBA, including their associated cities, autonomous communities, and arenas. It serves as a reference for understanding the geographical and infrastructural context of the league's teams.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Team",
+    "City",
+    "Autonomous community",
+    "Arena"
+  ],
+  "entities": [
+    "Team",
+    "City",
+    "Autonomous community",
+    "Arena"
+  ]
+}

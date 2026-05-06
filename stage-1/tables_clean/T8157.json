@@ -1,0 +1,293 @@
+{
+  "table_id": "T8157",
+  "uid": "e8ca4bdb-f2e1-51a7-9916-5e68c92a16ef",
+  "source": "HybridQA",
+  "source_table_id": "e8ca4bdb-f2e1-51a7-9916-5e68c92a16ef",
+  "domain": "HybridQA",
+  "title": "Venues of the 2003 Pan American Games",
+  "columns": [
+    "Venue",
+    "Sports",
+    "Capacity"
+  ],
+  "rows": [
+    [
+      [
+        "Tennis Center",
+        []
+      ],
+      [
+        "Tennis",
+        [
+          "/wiki/Tennis_at_the_2003_Pan_American_Games"
+        ]
+      ],
+      [
+        "3,600",
+        []
+      ]
+    ],
+    [
+      [
+        "Handball Hall",
+        []
+      ],
+      [
+        "Handball",
+        [
+          "/wiki/Handball_at_the_2003_Pan_American_Games"
+        ]
+      ],
+      [
+        "2,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Weightlifting Pavilion",
+        []
+      ],
+      [
+        "Weightlifting",
+        [
+          "/wiki/Weightlifting_at_the_2003_Pan_American_Games"
+        ]
+      ],
+      [
+        "2,000",
+        []
+      ]
+    ],
+    [
+      [
+        "East Park Football Field",
+        []
+      ],
+      [
+        "Football",
+        [
+          "/wiki/Football_at_the_2003_Pan_American_Games_(disambiguation)"
+        ]
+      ],
+      [
+        "2,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Table Tennis Center",
+        []
+      ],
+      [
+        "Table tennis",
+        [
+          "/wiki/Table_tennis_at_the_2003_Pan_American_Games"
+        ]
+      ],
+      [
+        "2,300",
+        []
+      ]
+    ],
+    [
+      [
+        "Gymnastic Pavilion",
+        []
+      ],
+      [
+        "Gymnastics ( Artistic and Rhythmic )",
+        [
+          "/wiki/Gymnastics_at_the_2003_Pan_American_Games"
+        ]
+      ],
+      [
+        "3,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Hockey Field - East Park",
+        []
+      ],
+      [
+        "Field hockey",
+        [
+          "/wiki/Field_hockey_at_the_2003_Pan_American_Games"
+        ]
+      ],
+      [
+        "2,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Archery field - East Park",
+        []
+      ],
+      [
+        "Archery",
+        [
+          "/wiki/Archery_at_the_2003_Pan_American_Games"
+        ]
+      ],
+      [
+        500,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "e8ca4bdb-f2e1-51a7-9916-5e68c92a16ef",
+    "table_id": "Venues_of_the_2003_Pan_American_Games_1",
+    "title": "Venues of the 2003 Pan American Games",
+    "header": [
+      "Venue",
+      "Sports",
+      "Capacity"
+    ],
+    "value": [
+      [
+        [
+          "Tennis Center",
+          []
+        ],
+        [
+          "Tennis",
+          [
+            "/wiki/Tennis_at_the_2003_Pan_American_Games"
+          ]
+        ],
+        [
+          "3,600",
+          []
+        ]
+      ],
+      [
+        [
+          "Handball Hall",
+          []
+        ],
+        [
+          "Handball",
+          [
+            "/wiki/Handball_at_the_2003_Pan_American_Games"
+          ]
+        ],
+        [
+          "2,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Weightlifting Pavilion",
+          []
+        ],
+        [
+          "Weightlifting",
+          [
+            "/wiki/Weightlifting_at_the_2003_Pan_American_Games"
+          ]
+        ],
+        [
+          "2,000",
+          []
+        ]
+      ],
+      [
+        [
+          "East Park Football Field",
+          []
+        ],
+        [
+          "Football",
+          [
+            "/wiki/Football_at_the_2003_Pan_American_Games_(disambiguation)"
+          ]
+        ],
+        [
+          "2,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Table Tennis Center",
+          []
+        ],
+        [
+          "Table tennis",
+          [
+            "/wiki/Table_tennis_at_the_2003_Pan_American_Games"
+          ]
+        ],
+        [
+          "2,300",
+          []
+        ]
+      ],
+      [
+        [
+          "Gymnastic Pavilion",
+          []
+        ],
+        [
+          "Gymnastics ( Artistic and Rhythmic )",
+          [
+            "/wiki/Gymnastics_at_the_2003_Pan_American_Games"
+          ]
+        ],
+        [
+          "3,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Hockey Field - East Park",
+          []
+        ],
+        [
+          "Field hockey",
+          [
+            "/wiki/Field_hockey_at_the_2003_Pan_American_Games"
+          ]
+        ],
+        [
+          "2,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Archery field - East Park",
+          []
+        ],
+        [
+          "Archery",
+          [
+            "/wiki/Archery_at_the_2003_Pan_American_Games"
+          ]
+        ],
+        [
+          500,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the venues used during the 2003 Pan American Games, detailing the sports hosted at each venue and their seating capacities. It serves as a reference for understanding the allocation of sports to specific locations and the scale of audience accommodation at these venues.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "Sports"
+  ],
+  "entities": [
+    "Venue"
+  ]
+}

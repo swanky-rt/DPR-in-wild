@@ -1,0 +1,456 @@
+{
+  "table_id": "T3426",
+  "uid": "409c4f6f-d9e3-564c-aaeb-2bdbf75e7049",
+  "source": "HybridQA",
+  "source_table_id": "409c4f6f-d9e3-564c-aaeb-2bdbf75e7049",
+  "domain": "HybridQA",
+  "title": "2013 FKF Division One",
+  "columns": [
+    "Club",
+    "Home stadium",
+    "Town / City"
+  ],
+  "rows": [
+    [
+      [
+        "Administration Police",
+        [
+          "/wiki/Administration_Police"
+        ]
+      ],
+      [
+        "APTC Ground",
+        []
+      ],
+      [
+        "Nairobi",
+        [
+          "/wiki/Nairobi"
+        ]
+      ]
+    ],
+    [
+      [
+        "Admiral",
+        [
+          "/wiki/Admiral_F.C."
+        ]
+      ],
+      [
+        "RG Ngala",
+        []
+      ],
+      [
+        "Mombasa",
+        [
+          "/wiki/Mombasa"
+        ]
+      ]
+    ],
+    [
+      [
+        "Green Berets",
+        []
+      ],
+      [
+        "PSTC Ruiru",
+        []
+      ],
+      [
+        "Ruiru",
+        [
+          "/wiki/Ruiru"
+        ]
+      ]
+    ],
+    [
+      [
+        "Jericho AllStars",
+        []
+      ],
+      [
+        "Jericho Toyoyo",
+        []
+      ],
+      [
+        "Nairobi",
+        [
+          "/wiki/Nairobi"
+        ]
+      ]
+    ],
+    [
+      [
+        "Kariobangi Sharks",
+        [
+          "/wiki/Kariobangi_Sharks_F.C."
+        ]
+      ],
+      [
+        "Nairobi City Stadium",
+        [
+          "/wiki/Nairobi_City_Stadium"
+        ]
+      ],
+      [
+        "Nairobi",
+        [
+          "/wiki/Nairobi"
+        ]
+      ]
+    ],
+    [
+      [
+        "Modern Coast Rangers",
+        [
+          "/wiki/Modern_Coast_Rangers_F.C."
+        ]
+      ],
+      [
+        "Refinery Grounds",
+        []
+      ],
+      [
+        "Mombasa",
+        [
+          "/wiki/Mombasa"
+        ]
+      ]
+    ],
+    [
+      [
+        "Mount Kenya United",
+        [
+          "/wiki/Mount_Kenya_United_F.C."
+        ]
+      ],
+      [
+        "Kinunga Stadium",
+        []
+      ],
+      [
+        "Unknown",
+        []
+      ]
+    ],
+    [
+      [
+        "Moyas",
+        []
+      ],
+      [
+        "Langata Prison Ground",
+        []
+      ],
+      [
+        "Nairobi",
+        [
+          "/wiki/Nairobi"
+        ]
+      ]
+    ],
+    [
+      [
+        "Mumbi Nationale",
+        []
+      ],
+      [
+        "Portland Ground",
+        []
+      ],
+      [
+        "Unknown",
+        []
+      ]
+    ],
+    [
+      [
+        "Nakumatt",
+        [
+          "/wiki/Nakumatt_F.C."
+        ]
+      ],
+      [
+        "Sameer Ground",
+        []
+      ],
+      [
+        "Nairobi",
+        [
+          "/wiki/Nairobi"
+        ]
+      ]
+    ],
+    [
+      [
+        "Posta Rangers",
+        [
+          "/wiki/Posta_Rangers_F.C."
+        ]
+      ],
+      [
+        "Hope Centre",
+        [
+          "/wiki/Hope_Centre"
+        ]
+      ],
+      [
+        "Nairobi",
+        [
+          "/wiki/Nairobi"
+        ]
+      ]
+    ],
+    [
+      [
+        "FC West Ham United",
+        [
+          "/wiki/FC_West_Ham_United"
+        ]
+      ],
+      [
+        "Mombasa Municipal Stadium",
+        [
+          "/wiki/Mombasa_Municipal_Stadium"
+        ]
+      ],
+      [
+        "Mombasa",
+        [
+          "/wiki/Mombasa"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "409c4f6f-d9e3-564c-aaeb-2bdbf75e7049",
+    "table_id": "2013_FKF_Division_One_1",
+    "title": "2013 FKF Division One",
+    "header": [
+      "Club",
+      "Home stadium",
+      "Town / City"
+    ],
+    "value": [
+      [
+        [
+          "Administration Police",
+          [
+            "/wiki/Administration_Police"
+          ]
+        ],
+        [
+          "APTC Ground",
+          []
+        ],
+        [
+          "Nairobi",
+          [
+            "/wiki/Nairobi"
+          ]
+        ]
+      ],
+      [
+        [
+          "Admiral",
+          [
+            "/wiki/Admiral_F.C."
+          ]
+        ],
+        [
+          "RG Ngala",
+          []
+        ],
+        [
+          "Mombasa",
+          [
+            "/wiki/Mombasa"
+          ]
+        ]
+      ],
+      [
+        [
+          "Green Berets",
+          []
+        ],
+        [
+          "PSTC Ruiru",
+          []
+        ],
+        [
+          "Ruiru",
+          [
+            "/wiki/Ruiru"
+          ]
+        ]
+      ],
+      [
+        [
+          "Jericho AllStars",
+          []
+        ],
+        [
+          "Jericho Toyoyo",
+          []
+        ],
+        [
+          "Nairobi",
+          [
+            "/wiki/Nairobi"
+          ]
+        ]
+      ],
+      [
+        [
+          "Kariobangi Sharks",
+          [
+            "/wiki/Kariobangi_Sharks_F.C."
+          ]
+        ],
+        [
+          "Nairobi City Stadium",
+          [
+            "/wiki/Nairobi_City_Stadium"
+          ]
+        ],
+        [
+          "Nairobi",
+          [
+            "/wiki/Nairobi"
+          ]
+        ]
+      ],
+      [
+        [
+          "Modern Coast Rangers",
+          [
+            "/wiki/Modern_Coast_Rangers_F.C."
+          ]
+        ],
+        [
+          "Refinery Grounds",
+          []
+        ],
+        [
+          "Mombasa",
+          [
+            "/wiki/Mombasa"
+          ]
+        ]
+      ],
+      [
+        [
+          "Mount Kenya United",
+          [
+            "/wiki/Mount_Kenya_United_F.C."
+          ]
+        ],
+        [
+          "Kinunga Stadium",
+          []
+        ],
+        [
+          "Unknown",
+          []
+        ]
+      ],
+      [
+        [
+          "Moyas",
+          []
+        ],
+        [
+          "Langata Prison Ground",
+          []
+        ],
+        [
+          "Nairobi",
+          [
+            "/wiki/Nairobi"
+          ]
+        ]
+      ],
+      [
+        [
+          "Mumbi Nationale",
+          []
+        ],
+        [
+          "Portland Ground",
+          []
+        ],
+        [
+          "Unknown",
+          []
+        ]
+      ],
+      [
+        [
+          "Nakumatt",
+          [
+            "/wiki/Nakumatt_F.C."
+          ]
+        ],
+        [
+          "Sameer Ground",
+          []
+        ],
+        [
+          "Nairobi",
+          [
+            "/wiki/Nairobi"
+          ]
+        ]
+      ],
+      [
+        [
+          "Posta Rangers",
+          [
+            "/wiki/Posta_Rangers_F.C."
+          ]
+        ],
+        [
+          "Hope Centre",
+          [
+            "/wiki/Hope_Centre"
+          ]
+        ],
+        [
+          "Nairobi",
+          [
+            "/wiki/Nairobi"
+          ]
+        ]
+      ],
+      [
+        [
+          "FC West Ham United",
+          [
+            "/wiki/FC_West_Ham_United"
+          ]
+        ],
+        [
+          "Mombasa Municipal Stadium",
+          [
+            "/wiki/Mombasa_Municipal_Stadium"
+          ]
+        ],
+        [
+          "Mombasa",
+          [
+            "/wiki/Mombasa"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about football clubs participating in the 2013 FKF Division One league, including their home stadiums and the towns or cities they are based in. It serves as a reference for understanding the geographical and infrastructural aspects of the league's teams.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Home stadium",
+    "Town / City"
+  ],
+  "entities": [
+    "Club"
+  ]
+}

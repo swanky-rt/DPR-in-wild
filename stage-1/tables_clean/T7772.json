@@ -1,0 +1,497 @@
+{
+  "table_id": "T7772",
+  "uid": "fcb13301-20ef-5bf7-a28b-7786efb1c919",
+  "source": "HybridQA",
+  "source_table_id": "fcb13301-20ef-5bf7-a28b-7786efb1c919",
+  "domain": "HybridQA",
+  "title": "Solar power in the Czech Republic",
+  "columns": [
+    "Photovoltaic power station",
+    "Region",
+    "Nominal Power ( MW p )"
+  ],
+  "rows": [
+    [
+      [
+        "Ralsko Solar Park",
+        [
+          "/wiki/Ralsko_Solar_Park"
+        ]
+      ],
+      [
+        "Liberec",
+        [
+          "/wiki/Liberec_Region"
+        ]
+      ],
+      [
+        38.3,
+        []
+      ]
+    ],
+    [
+      [
+        "Vepřek Solar Park",
+        [
+          "/wiki/Vepřek_Solar_Park"
+        ]
+      ],
+      [
+        "Central Bohemian",
+        [
+          "/wiki/Central_Bohemian_Region"
+        ]
+      ],
+      [
+        35.1,
+        []
+      ]
+    ],
+    [
+      [
+        "Ševětín Solar Park",
+        [
+          "/wiki/Ševětín_Solar_Park"
+        ]
+      ],
+      [
+        "South Bohemian",
+        [
+          "/wiki/South_Bohemian_Region"
+        ]
+      ],
+      [
+        29.902,
+        []
+      ]
+    ],
+    [
+      [
+        "Bežerovice",
+        []
+      ],
+      [
+        "South Bohemian",
+        [
+          "/wiki/South_Bohemian_Region"
+        ]
+      ],
+      [
+        3.013,
+        []
+      ]
+    ],
+    [
+      [
+        "Buštěhrad",
+        []
+      ],
+      [
+        "Central Bohemian",
+        [
+          "/wiki/Central_Bohemian_Region"
+        ]
+      ],
+      [
+        2.396,
+        []
+      ]
+    ],
+    [
+      [
+        "Čekanice",
+        []
+      ],
+      [
+        "South Bohemian",
+        [
+          "/wiki/South_Bohemian_Region"
+        ]
+      ],
+      [
+        4.48,
+        []
+      ]
+    ],
+    [
+      [
+        "Dukovany",
+        []
+      ],
+      [
+        "Vysočina",
+        [
+          "/wiki/Vysočina_Region"
+        ]
+      ],
+      [
+        0.01,
+        []
+      ]
+    ],
+    [
+      [
+        "Hrušovany",
+        []
+      ],
+      [
+        "South Moravia",
+        [
+          "/wiki/South_Moravian_Region"
+        ]
+      ],
+      [
+        3.73,
+        []
+      ]
+    ],
+    [
+      [
+        "Chýnov",
+        []
+      ],
+      [
+        "South Bohemian",
+        [
+          "/wiki/South_Bohemian_Region"
+        ]
+      ],
+      [
+        2.009,
+        []
+      ]
+    ],
+    [
+      [
+        "Mimoň",
+        []
+      ],
+      [
+        "Ústí",
+        [
+          "/wiki/Ústí_nad_Labem_Region"
+        ]
+      ],
+      [
+        17.494,
+        []
+      ]
+    ],
+    [
+      [
+        "Pánov",
+        []
+      ],
+      [
+        "South Moravia",
+        [
+          "/wiki/South_Moravian_Region"
+        ]
+      ],
+      [
+        2.134,
+        []
+      ]
+    ],
+    [
+      [
+        "Přelouč",
+        []
+      ],
+      [
+        "Pardubice",
+        [
+          "/wiki/Pardubice_Region"
+        ]
+      ],
+      [
+        0.020800000000000003,
+        []
+      ]
+    ],
+    [
+      [
+        "Vranovská Ves",
+        []
+      ],
+      [
+        "South Moravia",
+        [
+          "/wiki/South_Moravian_Region"
+        ]
+      ],
+      [
+        16.033,
+        []
+      ]
+    ],
+    [
+      [
+        "Žabčice",
+        []
+      ],
+      [
+        "South Moravia",
+        [
+          "/wiki/South_Moravian_Region"
+        ]
+      ],
+      [
+        5.6,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "fcb13301-20ef-5bf7-a28b-7786efb1c919",
+    "table_id": "Solar_power_in_the_Czech_Republic_0",
+    "title": "Solar power in the Czech Republic",
+    "header": [
+      "Photovoltaic power station",
+      "Region",
+      "Nominal Power ( MW p )"
+    ],
+    "value": [
+      [
+        [
+          "Ralsko Solar Park",
+          [
+            "/wiki/Ralsko_Solar_Park"
+          ]
+        ],
+        [
+          "Liberec",
+          [
+            "/wiki/Liberec_Region"
+          ]
+        ],
+        [
+          38.3,
+          []
+        ]
+      ],
+      [
+        [
+          "Vepřek Solar Park",
+          [
+            "/wiki/Vepřek_Solar_Park"
+          ]
+        ],
+        [
+          "Central Bohemian",
+          [
+            "/wiki/Central_Bohemian_Region"
+          ]
+        ],
+        [
+          35.1,
+          []
+        ]
+      ],
+      [
+        [
+          "Ševětín Solar Park",
+          [
+            "/wiki/Ševětín_Solar_Park"
+          ]
+        ],
+        [
+          "South Bohemian",
+          [
+            "/wiki/South_Bohemian_Region"
+          ]
+        ],
+        [
+          29.902,
+          []
+        ]
+      ],
+      [
+        [
+          "Bežerovice",
+          []
+        ],
+        [
+          "South Bohemian",
+          [
+            "/wiki/South_Bohemian_Region"
+          ]
+        ],
+        [
+          3.013,
+          []
+        ]
+      ],
+      [
+        [
+          "Buštěhrad",
+          []
+        ],
+        [
+          "Central Bohemian",
+          [
+            "/wiki/Central_Bohemian_Region"
+          ]
+        ],
+        [
+          2.396,
+          []
+        ]
+      ],
+      [
+        [
+          "Čekanice",
+          []
+        ],
+        [
+          "South Bohemian",
+          [
+            "/wiki/South_Bohemian_Region"
+          ]
+        ],
+        [
+          4.48,
+          []
+        ]
+      ],
+      [
+        [
+          "Dukovany",
+          []
+        ],
+        [
+          "Vysočina",
+          [
+            "/wiki/Vysočina_Region"
+          ]
+        ],
+        [
+          0.01,
+          []
+        ]
+      ],
+      [
+        [
+          "Hrušovany",
+          []
+        ],
+        [
+          "South Moravia",
+          [
+            "/wiki/South_Moravian_Region"
+          ]
+        ],
+        [
+          3.73,
+          []
+        ]
+      ],
+      [
+        [
+          "Chýnov",
+          []
+        ],
+        [
+          "South Bohemian",
+          [
+            "/wiki/South_Bohemian_Region"
+          ]
+        ],
+        [
+          2.009,
+          []
+        ]
+      ],
+      [
+        [
+          "Mimoň",
+          []
+        ],
+        [
+          "Ústí",
+          [
+            "/wiki/Ústí_nad_Labem_Region"
+          ]
+        ],
+        [
+          17.494,
+          []
+        ]
+      ],
+      [
+        [
+          "Pánov",
+          []
+        ],
+        [
+          "South Moravia",
+          [
+            "/wiki/South_Moravian_Region"
+          ]
+        ],
+        [
+          2.134,
+          []
+        ]
+      ],
+      [
+        [
+          "Přelouč",
+          []
+        ],
+        [
+          "Pardubice",
+          [
+            "/wiki/Pardubice_Region"
+          ]
+        ],
+        [
+          0.020800000000000003,
+          []
+        ]
+      ],
+      [
+        [
+          "Vranovská Ves",
+          []
+        ],
+        [
+          "South Moravia",
+          [
+            "/wiki/South_Moravian_Region"
+          ]
+        ],
+        [
+          16.033,
+          []
+        ]
+      ],
+      [
+        [
+          "Žabčice",
+          []
+        ],
+        [
+          "South Moravia",
+          [
+            "/wiki/South_Moravian_Region"
+          ]
+        ],
+        [
+          5.6,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about photovoltaic power stations in the Czech Republic, including their names, locations by region, and their nominal power capacities. It serves to highlight the distribution and scale of solar power installations in the country.",
+  "numeric_columns": [
+    "Nominal Power ( MW p )"
+  ],
+  "categorical_columns": [
+    "Region"
+  ],
+  "entities": [
+    "Photovoltaic power station"
+  ]
+}

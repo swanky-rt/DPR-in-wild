@@ -1,0 +1,412 @@
+{
+  "table_id": "T9615",
+  "uid": "af5c53e5-a124-5e53-92ef-12ce641a0081",
+  "source": "HybridQA",
+  "source_table_id": "af5c53e5-a124-5e53-92ef-12ce641a0081",
+  "domain": "HybridQA",
+  "title": "1948 College Baseball All-America Team",
+  "columns": [
+    "Position",
+    "Name",
+    "School"
+  ],
+  "rows": [
+    [
+      [
+        "Pitcher",
+        [
+          "/wiki/Pitcher"
+        ]
+      ],
+      [
+        "Frank Quinn",
+        [
+          "/wiki/Frank_Quinn_(pitcher)"
+        ]
+      ],
+      [
+        "Yale",
+        [
+          "/wiki/Yale_Bulldogs"
+        ]
+      ]
+    ],
+    [
+      [
+        "Pitcher",
+        [
+          "/wiki/Pitcher"
+        ]
+      ],
+      [
+        "Wally Hood",
+        [
+          "/wiki/Wally_Hood_(pitcher)"
+        ]
+      ],
+      [
+        "USC",
+        [
+          "/wiki/USC_Trojans_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Catcher",
+        [
+          "/wiki/Catcher"
+        ]
+      ],
+      [
+        "Emmett Cheek",
+        []
+      ],
+      [
+        "North Carolina",
+        [
+          "/wiki/North_Carolina_Tar_Heels_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "First baseman",
+        [
+          "/wiki/First_baseman"
+        ]
+      ],
+      [
+        "Jack Wallace",
+        []
+      ],
+      [
+        "NYU",
+        [
+          "/wiki/NYU_Violets"
+        ]
+      ]
+    ],
+    [
+      [
+        "Second baseman",
+        [
+          "/wiki/Second_baseman"
+        ]
+      ],
+      [
+        "Art Mazmanian",
+        [
+          "/wiki/Art_Mazmanian"
+        ]
+      ],
+      [
+        "USC",
+        [
+          "/wiki/USC_Trojans_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Third baseman",
+        [
+          "/wiki/Third_baseman"
+        ]
+      ],
+      [
+        "Richard Mathews",
+        []
+      ],
+      [
+        "Yale",
+        [
+          "/wiki/Yale_Bulldogs"
+        ]
+      ]
+    ],
+    [
+      [
+        "Shortstop",
+        [
+          "/wiki/Shortstop"
+        ]
+      ],
+      [
+        "Rip Ryan",
+        []
+      ],
+      [
+        "North Carolina",
+        [
+          "/wiki/North_Carolina_Tar_Heels_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Outfielder",
+        [
+          "/wiki/Outfielder"
+        ]
+      ],
+      [
+        "Hank Workman",
+        [
+          "/wiki/Hank_Workman"
+        ]
+      ],
+      [
+        "USC",
+        [
+          "/wiki/USC_Trojans"
+        ]
+      ]
+    ],
+    [
+      [
+        "Outfielder",
+        [
+          "/wiki/Outfielder"
+        ]
+      ],
+      [
+        "Ruck Steger",
+        []
+      ],
+      [
+        "Illinois",
+        [
+          "/wiki/Illinois_Illini"
+        ]
+      ]
+    ],
+    [
+      [
+        "Outfielder",
+        [
+          "/wiki/Outfielder"
+        ]
+      ],
+      [
+        "John Bird",
+        []
+      ],
+      [
+        "Lafayette",
+        [
+          "/wiki/Lafayette_Leopards"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "af5c53e5-a124-5e53-92ef-12ce641a0081",
+    "table_id": "1948_College_Baseball_All-America_Team_0",
+    "title": "1948 College Baseball All-America Team",
+    "header": [
+      "Position",
+      "Name",
+      "School"
+    ],
+    "value": [
+      [
+        [
+          "Pitcher",
+          [
+            "/wiki/Pitcher"
+          ]
+        ],
+        [
+          "Frank Quinn",
+          [
+            "/wiki/Frank_Quinn_(pitcher)"
+          ]
+        ],
+        [
+          "Yale",
+          [
+            "/wiki/Yale_Bulldogs"
+          ]
+        ]
+      ],
+      [
+        [
+          "Pitcher",
+          [
+            "/wiki/Pitcher"
+          ]
+        ],
+        [
+          "Wally Hood",
+          [
+            "/wiki/Wally_Hood_(pitcher)"
+          ]
+        ],
+        [
+          "USC",
+          [
+            "/wiki/USC_Trojans_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Catcher",
+          [
+            "/wiki/Catcher"
+          ]
+        ],
+        [
+          "Emmett Cheek",
+          []
+        ],
+        [
+          "North Carolina",
+          [
+            "/wiki/North_Carolina_Tar_Heels_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "First baseman",
+          [
+            "/wiki/First_baseman"
+          ]
+        ],
+        [
+          "Jack Wallace",
+          []
+        ],
+        [
+          "NYU",
+          [
+            "/wiki/NYU_Violets"
+          ]
+        ]
+      ],
+      [
+        [
+          "Second baseman",
+          [
+            "/wiki/Second_baseman"
+          ]
+        ],
+        [
+          "Art Mazmanian",
+          [
+            "/wiki/Art_Mazmanian"
+          ]
+        ],
+        [
+          "USC",
+          [
+            "/wiki/USC_Trojans_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Third baseman",
+          [
+            "/wiki/Third_baseman"
+          ]
+        ],
+        [
+          "Richard Mathews",
+          []
+        ],
+        [
+          "Yale",
+          [
+            "/wiki/Yale_Bulldogs"
+          ]
+        ]
+      ],
+      [
+        [
+          "Shortstop",
+          [
+            "/wiki/Shortstop"
+          ]
+        ],
+        [
+          "Rip Ryan",
+          []
+        ],
+        [
+          "North Carolina",
+          [
+            "/wiki/North_Carolina_Tar_Heels_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Outfielder",
+          [
+            "/wiki/Outfielder"
+          ]
+        ],
+        [
+          "Hank Workman",
+          [
+            "/wiki/Hank_Workman"
+          ]
+        ],
+        [
+          "USC",
+          [
+            "/wiki/USC_Trojans"
+          ]
+        ]
+      ],
+      [
+        [
+          "Outfielder",
+          [
+            "/wiki/Outfielder"
+          ]
+        ],
+        [
+          "Ruck Steger",
+          []
+        ],
+        [
+          "Illinois",
+          [
+            "/wiki/Illinois_Illini"
+          ]
+        ]
+      ],
+      [
+        [
+          "Outfielder",
+          [
+            "/wiki/Outfielder"
+          ]
+        ],
+        [
+          "John Bird",
+          []
+        ],
+        [
+          "Lafayette",
+          [
+            "/wiki/Lafayette_Leopards"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table lists members of the 1948 College Baseball All-America Team, highlighting their positions, names, and associated schools. It serves to document notable college baseball players from that year and their respective institutions. The table provides a snapshot of key individuals and their roles in college baseball during this period.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Position",
+    "School"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

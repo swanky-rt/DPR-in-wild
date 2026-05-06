@@ -1,0 +1,395 @@
+{
+  "table_id": "T1243",
+  "uid": "e923f0df-a1b9-531d-bee5-cb32aace00ac",
+  "source": "HybridQA",
+  "source_table_id": "e923f0df-a1b9-531d-bee5-cb32aace00ac",
+  "domain": "HybridQA",
+  "title": "Venues of the 2006 Winter Olympics",
+  "columns": [
+    "Venue",
+    "Sports",
+    "Capacity"
+  ],
+  "rows": [
+    [
+      [
+        "Bardonecchia",
+        [
+          "/wiki/Bardonecchia"
+        ]
+      ],
+      [
+        "Snowboarding",
+        [
+          "/wiki/Snowboarding_at_the_2006_Winter_Olympics"
+        ]
+      ],
+      [
+        "6,763",
+        []
+      ]
+    ],
+    [
+      [
+        "Cesana Pariol",
+        [
+          "/wiki/Cesana_Pariol"
+        ]
+      ],
+      [
+        "Bobsleigh , luge , skeleton",
+        [
+          "/wiki/Bobsleigh_at_the_2006_Winter_Olympics",
+          "/wiki/Luge_at_the_2006_Winter_Olympics",
+          "/wiki/Skeleton_at_the_2006_Winter_Olympics"
+        ]
+      ],
+      [
+        "4,400",
+        []
+      ]
+    ],
+    [
+      [
+        "Cesana San Sicario",
+        [
+          "/wiki/Cesana_San_Sicario"
+        ]
+      ],
+      [
+        "Biathlon",
+        [
+          "/wiki/Biathlon_at_the_2006_Winter_Olympics"
+        ]
+      ],
+      [
+        "4,700",
+        []
+      ]
+    ],
+    [
+      [
+        "Pinerolo Palaghiaccio",
+        [
+          "/wiki/Pinerolo_Palaghiaccio"
+        ]
+      ],
+      [
+        "Curling",
+        [
+          "/wiki/Curling_at_the_2006_Winter_Olympics"
+        ]
+      ],
+      [
+        "2,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Pragelato",
+        [
+          "/wiki/Stadio_del_Trampolino"
+        ]
+      ],
+      [
+        "Nordic combined ( ski jumping ) , ski jumping",
+        [
+          "/wiki/Nordic_combined_at_the_2006_Winter_Olympics",
+          "/wiki/Ski_jumping_at_the_2006_Winter_Olympics"
+        ]
+      ],
+      [
+        "8,055",
+        []
+      ]
+    ],
+    [
+      [
+        "Pragelato Plan",
+        [
+          "/wiki/Pragelato_Plan"
+        ]
+      ],
+      [
+        "Cross-country skiing , Nordic combined ( cross-country skiing )",
+        [
+          "/wiki/Cross-country_skiing_at_the_2006_Winter_Olympics"
+        ]
+      ],
+      [
+        "5,400",
+        []
+      ]
+    ],
+    [
+      [
+        "San Sicario Fraiteve",
+        [
+          "/wiki/San_Sicario_Fraiteve"
+        ]
+      ],
+      [
+        "Alpine skiing ( women 's combined ( downhill ) , downhill , super-G )",
+        [
+          "/wiki/Alpine_skiing_at_the_2006_Winter_Olympics"
+        ]
+      ],
+      [
+        "6,160",
+        []
+      ]
+    ],
+    [
+      [
+        "Sauze d'Oulx-Jouvencaux",
+        [
+          "/wiki/Sauze_d'Oulx-Jouvencaux"
+        ]
+      ],
+      [
+        "Freestyle skiing",
+        [
+          "/wiki/Freestyle_skiing_at_the_2006_Winter_Olympics"
+        ]
+      ],
+      [
+        "7,900",
+        []
+      ]
+    ],
+    [
+      [
+        "Sestriere Borgata",
+        [
+          "/wiki/Sestriere"
+        ]
+      ],
+      [
+        "Alpine skiing ( men 's combined ( downhill ) , downhill , super-G )",
+        []
+      ],
+      [
+        "6,800",
+        []
+      ]
+    ],
+    [
+      [
+        "Sestriere Colle",
+        [
+          "/wiki/Sestriere"
+        ]
+      ],
+      [
+        "Alpine skiing ( combined ( slalom ) , giant slalom , slalom )",
+        []
+      ],
+      [
+        "7,900",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "e923f0df-a1b9-531d-bee5-cb32aace00ac",
+    "table_id": "Venues_of_the_2006_Winter_Olympics_1",
+    "title": "Venues of the 2006 Winter Olympics",
+    "header": [
+      "Venue",
+      "Sports",
+      "Capacity"
+    ],
+    "value": [
+      [
+        [
+          "Bardonecchia",
+          [
+            "/wiki/Bardonecchia"
+          ]
+        ],
+        [
+          "Snowboarding",
+          [
+            "/wiki/Snowboarding_at_the_2006_Winter_Olympics"
+          ]
+        ],
+        [
+          "6,763",
+          []
+        ]
+      ],
+      [
+        [
+          "Cesana Pariol",
+          [
+            "/wiki/Cesana_Pariol"
+          ]
+        ],
+        [
+          "Bobsleigh , luge , skeleton",
+          [
+            "/wiki/Bobsleigh_at_the_2006_Winter_Olympics",
+            "/wiki/Luge_at_the_2006_Winter_Olympics",
+            "/wiki/Skeleton_at_the_2006_Winter_Olympics"
+          ]
+        ],
+        [
+          "4,400",
+          []
+        ]
+      ],
+      [
+        [
+          "Cesana San Sicario",
+          [
+            "/wiki/Cesana_San_Sicario"
+          ]
+        ],
+        [
+          "Biathlon",
+          [
+            "/wiki/Biathlon_at_the_2006_Winter_Olympics"
+          ]
+        ],
+        [
+          "4,700",
+          []
+        ]
+      ],
+      [
+        [
+          "Pinerolo Palaghiaccio",
+          [
+            "/wiki/Pinerolo_Palaghiaccio"
+          ]
+        ],
+        [
+          "Curling",
+          [
+            "/wiki/Curling_at_the_2006_Winter_Olympics"
+          ]
+        ],
+        [
+          "2,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Pragelato",
+          [
+            "/wiki/Stadio_del_Trampolino"
+          ]
+        ],
+        [
+          "Nordic combined ( ski jumping ) , ski jumping",
+          [
+            "/wiki/Nordic_combined_at_the_2006_Winter_Olympics",
+            "/wiki/Ski_jumping_at_the_2006_Winter_Olympics"
+          ]
+        ],
+        [
+          "8,055",
+          []
+        ]
+      ],
+      [
+        [
+          "Pragelato Plan",
+          [
+            "/wiki/Pragelato_Plan"
+          ]
+        ],
+        [
+          "Cross-country skiing , Nordic combined ( cross-country skiing )",
+          [
+            "/wiki/Cross-country_skiing_at_the_2006_Winter_Olympics"
+          ]
+        ],
+        [
+          "5,400",
+          []
+        ]
+      ],
+      [
+        [
+          "San Sicario Fraiteve",
+          [
+            "/wiki/San_Sicario_Fraiteve"
+          ]
+        ],
+        [
+          "Alpine skiing ( women 's combined ( downhill ) , downhill , super-G )",
+          [
+            "/wiki/Alpine_skiing_at_the_2006_Winter_Olympics"
+          ]
+        ],
+        [
+          "6,160",
+          []
+        ]
+      ],
+      [
+        [
+          "Sauze d'Oulx-Jouvencaux",
+          [
+            "/wiki/Sauze_d'Oulx-Jouvencaux"
+          ]
+        ],
+        [
+          "Freestyle skiing",
+          [
+            "/wiki/Freestyle_skiing_at_the_2006_Winter_Olympics"
+          ]
+        ],
+        [
+          "7,900",
+          []
+        ]
+      ],
+      [
+        [
+          "Sestriere Borgata",
+          [
+            "/wiki/Sestriere"
+          ]
+        ],
+        [
+          "Alpine skiing ( men 's combined ( downhill ) , downhill , super-G )",
+          []
+        ],
+        [
+          "6,800",
+          []
+        ]
+      ],
+      [
+        [
+          "Sestriere Colle",
+          [
+            "/wiki/Sestriere"
+          ]
+        ],
+        [
+          "Alpine skiing ( combined ( slalom ) , giant slalom , slalom )",
+          []
+        ],
+        [
+          "7,900",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the venues used during the 2006 Winter Olympics, including the sports hosted at each venue and their seating capacities. It serves as a reference for understanding the distribution of events and the scale of facilities used during the games.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "Sports"
+  ],
+  "entities": [
+    "Venue"
+  ]
+}

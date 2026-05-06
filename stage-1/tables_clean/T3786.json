@@ -1,0 +1,417 @@
+{
+  "table_id": "T3786",
+  "uid": "c6120c1a-904f-5d77-b580-c334514a3512",
+  "source": "HybridQA",
+  "source_table_id": "c6120c1a-904f-5d77-b580-c334514a3512",
+  "domain": "HybridQA",
+  "title": "Venues of the 2008 Summer Olympics",
+  "columns": [
+    "Venue",
+    "Sports",
+    "Capacity"
+  ],
+  "rows": [
+    [
+      [
+        "Beihang University Gymnasium",
+        [
+          "/wiki/Beihang_University_Gymnasium"
+        ]
+      ],
+      [
+        "Weightlifting",
+        [
+          "/wiki/Weightlifting_at_the_2008_Summer_Olympics"
+        ]
+      ],
+      [
+        "5,400",
+        []
+      ]
+    ],
+    [
+      [
+        "Beijing Institute of Technology Gymnasium",
+        [
+          "/wiki/Beijing_Institute_of_Technology_Gymnasium"
+        ]
+      ],
+      [
+        "Volleyball",
+        [
+          "/wiki/Volleyball_at_the_2008_Summer_Olympics"
+        ]
+      ],
+      [
+        "5,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Beijing Shooting Range Clay Target Field",
+        [
+          "/wiki/Beijing_Shooting_Range_Clay_Target_Field"
+        ]
+      ],
+      [
+        "Shooting ( shotgun )",
+        []
+      ],
+      [
+        "5,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Capital Indoor Stadium",
+        [
+          "/wiki/Capital_Indoor_Stadium"
+        ]
+      ],
+      [
+        "Volleyball ( final )",
+        []
+      ],
+      [
+        "18,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Fengtai Softball Field",
+        [
+          "/wiki/Fengtai_Softball_Field"
+        ]
+      ],
+      [
+        "Softball",
+        [
+          "/wiki/Softball_at_the_2008_Summer_Olympics"
+        ]
+      ],
+      [
+        "13,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Laoshan Mountain Bike Course",
+        [
+          "/wiki/Laoshan_Mountain_Bike_Course"
+        ]
+      ],
+      [
+        "Cycling ( Mountain Bike )",
+        []
+      ],
+      [
+        "2,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Olympic Sports Centre",
+        [
+          "/wiki/Olympic_Sports_Centre_(Beijing)"
+        ]
+      ],
+      [
+        "Football , Modern Pentathlon ( riding , running )",
+        [
+          "/wiki/Modern_pentathlon_at_the_2008_Summer_Olympics"
+        ]
+      ],
+      [
+        "36,228",
+        []
+      ]
+    ],
+    [
+      [
+        "Olympic Sports Center Gymnasium",
+        [
+          "/wiki/Olympic_Sports_Center_Gymnasium"
+        ]
+      ],
+      [
+        "Handball",
+        [
+          "/wiki/Handball_at_the_2008_Summer_Olympics"
+        ]
+      ],
+      [
+        "7,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Workers Indoor Arena",
+        [
+          "/wiki/Workers_Indoor_Arena"
+        ]
+      ],
+      [
+        "Boxing",
+        [
+          "/wiki/Boxing_at_the_2008_Summer_Olympics"
+        ]
+      ],
+      [
+        "13,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Workers Stadium",
+        [
+          "/wiki/Workers_Stadium"
+        ]
+      ],
+      [
+        "Football",
+        []
+      ],
+      [
+        "70,161",
+        []
+      ]
+    ],
+    [
+      [
+        "Ying Tung Natatorium",
+        [
+          "/wiki/Ying_Tung_Natatorium"
+        ]
+      ],
+      [
+        "Water Polo , Modern Pentathlon ( swimming )",
+        [
+          "/wiki/Water_polo_at_the_2008_Summer_Olympics"
+        ]
+      ],
+      [
+        "4,852",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "c6120c1a-904f-5d77-b580-c334514a3512",
+    "table_id": "Venues_of_the_2008_Summer_Olympics_3",
+    "title": "Venues of the 2008 Summer Olympics",
+    "header": [
+      "Venue",
+      "Sports",
+      "Capacity"
+    ],
+    "value": [
+      [
+        [
+          "Beihang University Gymnasium",
+          [
+            "/wiki/Beihang_University_Gymnasium"
+          ]
+        ],
+        [
+          "Weightlifting",
+          [
+            "/wiki/Weightlifting_at_the_2008_Summer_Olympics"
+          ]
+        ],
+        [
+          "5,400",
+          []
+        ]
+      ],
+      [
+        [
+          "Beijing Institute of Technology Gymnasium",
+          [
+            "/wiki/Beijing_Institute_of_Technology_Gymnasium"
+          ]
+        ],
+        [
+          "Volleyball",
+          [
+            "/wiki/Volleyball_at_the_2008_Summer_Olympics"
+          ]
+        ],
+        [
+          "5,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Beijing Shooting Range Clay Target Field",
+          [
+            "/wiki/Beijing_Shooting_Range_Clay_Target_Field"
+          ]
+        ],
+        [
+          "Shooting ( shotgun )",
+          []
+        ],
+        [
+          "5,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Capital Indoor Stadium",
+          [
+            "/wiki/Capital_Indoor_Stadium"
+          ]
+        ],
+        [
+          "Volleyball ( final )",
+          []
+        ],
+        [
+          "18,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Fengtai Softball Field",
+          [
+            "/wiki/Fengtai_Softball_Field"
+          ]
+        ],
+        [
+          "Softball",
+          [
+            "/wiki/Softball_at_the_2008_Summer_Olympics"
+          ]
+        ],
+        [
+          "13,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Laoshan Mountain Bike Course",
+          [
+            "/wiki/Laoshan_Mountain_Bike_Course"
+          ]
+        ],
+        [
+          "Cycling ( Mountain Bike )",
+          []
+        ],
+        [
+          "2,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Olympic Sports Centre",
+          [
+            "/wiki/Olympic_Sports_Centre_(Beijing)"
+          ]
+        ],
+        [
+          "Football , Modern Pentathlon ( riding , running )",
+          [
+            "/wiki/Modern_pentathlon_at_the_2008_Summer_Olympics"
+          ]
+        ],
+        [
+          "36,228",
+          []
+        ]
+      ],
+      [
+        [
+          "Olympic Sports Center Gymnasium",
+          [
+            "/wiki/Olympic_Sports_Center_Gymnasium"
+          ]
+        ],
+        [
+          "Handball",
+          [
+            "/wiki/Handball_at_the_2008_Summer_Olympics"
+          ]
+        ],
+        [
+          "7,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Workers Indoor Arena",
+          [
+            "/wiki/Workers_Indoor_Arena"
+          ]
+        ],
+        [
+          "Boxing",
+          [
+            "/wiki/Boxing_at_the_2008_Summer_Olympics"
+          ]
+        ],
+        [
+          "13,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Workers Stadium",
+          [
+            "/wiki/Workers_Stadium"
+          ]
+        ],
+        [
+          "Football",
+          []
+        ],
+        [
+          "70,161",
+          []
+        ]
+      ],
+      [
+        [
+          "Ying Tung Natatorium",
+          [
+            "/wiki/Ying_Tung_Natatorium"
+          ]
+        ],
+        [
+          "Water Polo , Modern Pentathlon ( swimming )",
+          [
+            "/wiki/Water_polo_at_the_2008_Summer_Olympics"
+          ]
+        ],
+        [
+          "4,852",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the venues used during the 2008 Summer Olympics, including the sports hosted at each venue and their seating capacities. It serves as a reference for understanding the distribution of events and the scale of facilities used during the games.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "Sports"
+  ],
+  "entities": [
+    "Venue"
+  ]
+}

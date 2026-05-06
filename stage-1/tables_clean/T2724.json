@@ -1,0 +1,424 @@
+{
+  "table_id": "T2724",
+  "uid": "8caf45f2-e26b-5935-9813-8aba4e674387",
+  "source": "HybridQA",
+  "source_table_id": "8caf45f2-e26b-5935-9813-8aba4e674387",
+  "domain": "HybridQA",
+  "title": "Athletics at the 2009 Mediterranean Games",
+  "columns": [
+    "Name",
+    "Event",
+    "Country",
+    "Record"
+  ],
+  "rows": [
+    [
+      [
+        "Jamel Chatbi",
+        [
+          "/wiki/Jamel_Chatbi"
+        ]
+      ],
+      [
+        "3000 metres steeplechase",
+        [
+          "/wiki/3000_metres_steeplechase"
+        ]
+      ],
+      [
+        "Morocco",
+        [
+          "/wiki/Morocco"
+        ]
+      ],
+      [
+        "8:13.11",
+        []
+      ]
+    ],
+    [
+      [
+        "Ivano Brugnetti",
+        [
+          "/wiki/Ivano_Brugnetti"
+        ]
+      ],
+      [
+        "20 kilometres walk",
+        [
+          "/wiki/20_kilometres_walk"
+        ]
+      ],
+      [
+        "Italy",
+        [
+          "/wiki/Italy"
+        ]
+      ],
+      [
+        "1:22:33",
+        []
+      ]
+    ],
+    [
+      [
+        "Nikoleta Kyriakopoulou",
+        [
+          "/wiki/Nikoleta_Kyriakopoulou"
+        ]
+      ],
+      [
+        "Pole vault",
+        [
+          "/wiki/Pole_vault"
+        ]
+      ],
+      [
+        "Greece",
+        [
+          "/wiki/Greece"
+        ]
+      ],
+      [
+        "4.50 m",
+        []
+      ]
+    ],
+    [
+      [
+        "Kyriakos Ioannou",
+        [
+          "/wiki/Kyriakos_Ioannou"
+        ]
+      ],
+      [
+        "High jump",
+        [
+          "/wiki/High_jump"
+        ]
+      ],
+      [
+        "Cyprus",
+        [
+          "/wiki/Cyprus"
+        ]
+      ],
+      [
+        "2.30 m",
+        []
+      ]
+    ],
+    [
+      [
+        "Salim Sdiri",
+        [
+          "/wiki/Salim_Sdiri"
+        ]
+      ],
+      [
+        "Long jump",
+        [
+          "/wiki/Long_jump"
+        ]
+      ],
+      [
+        "France",
+        [
+          "/wiki/France"
+        ]
+      ],
+      [
+        "8.29 m",
+        []
+      ]
+    ],
+    [
+      [
+        "Frank Casañas",
+        [
+          "/wiki/Frank_Casañas"
+        ]
+      ],
+      [
+        "Discus throw",
+        [
+          "/wiki/Discus_throw"
+        ]
+      ],
+      [
+        "Spain",
+        [
+          "/wiki/Spain"
+        ]
+      ],
+      [
+        "65.58 m",
+        []
+      ]
+    ],
+    [
+      [
+        "Libania Grenot",
+        [
+          "/wiki/Libania_Grenot"
+        ]
+      ],
+      [
+        "400 metres",
+        [
+          "/wiki/400_metres"
+        ]
+      ],
+      [
+        "Italy",
+        [
+          "/wiki/Italy"
+        ]
+      ],
+      [
+        50.3,
+        []
+      ]
+    ],
+    [
+      [
+        "Elisa Cusma Piccione",
+        [
+          "/wiki/Elisa_Cusma_Piccione"
+        ]
+      ],
+      [
+        "800 metres",
+        [
+          "/wiki/800_metres"
+        ]
+      ],
+      [
+        "Italy",
+        [
+          "/wiki/Italy"
+        ]
+      ],
+      [
+        "1:59.87",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "8caf45f2-e26b-5935-9813-8aba4e674387",
+    "table_id": "Athletics_at_the_2009_Mediterranean_Games_0",
+    "title": "Athletics at the 2009 Mediterranean Games",
+    "header": [
+      "Name",
+      "Event",
+      "Country",
+      "Record"
+    ],
+    "value": [
+      [
+        [
+          "Jamel Chatbi",
+          [
+            "/wiki/Jamel_Chatbi"
+          ]
+        ],
+        [
+          "3000 metres steeplechase",
+          [
+            "/wiki/3000_metres_steeplechase"
+          ]
+        ],
+        [
+          "Morocco",
+          [
+            "/wiki/Morocco"
+          ]
+        ],
+        [
+          "8:13.11",
+          []
+        ]
+      ],
+      [
+        [
+          "Ivano Brugnetti",
+          [
+            "/wiki/Ivano_Brugnetti"
+          ]
+        ],
+        [
+          "20 kilometres walk",
+          [
+            "/wiki/20_kilometres_walk"
+          ]
+        ],
+        [
+          "Italy",
+          [
+            "/wiki/Italy"
+          ]
+        ],
+        [
+          "1:22:33",
+          []
+        ]
+      ],
+      [
+        [
+          "Nikoleta Kyriakopoulou",
+          [
+            "/wiki/Nikoleta_Kyriakopoulou"
+          ]
+        ],
+        [
+          "Pole vault",
+          [
+            "/wiki/Pole_vault"
+          ]
+        ],
+        [
+          "Greece",
+          [
+            "/wiki/Greece"
+          ]
+        ],
+        [
+          "4.50 m",
+          []
+        ]
+      ],
+      [
+        [
+          "Kyriakos Ioannou",
+          [
+            "/wiki/Kyriakos_Ioannou"
+          ]
+        ],
+        [
+          "High jump",
+          [
+            "/wiki/High_jump"
+          ]
+        ],
+        [
+          "Cyprus",
+          [
+            "/wiki/Cyprus"
+          ]
+        ],
+        [
+          "2.30 m",
+          []
+        ]
+      ],
+      [
+        [
+          "Salim Sdiri",
+          [
+            "/wiki/Salim_Sdiri"
+          ]
+        ],
+        [
+          "Long jump",
+          [
+            "/wiki/Long_jump"
+          ]
+        ],
+        [
+          "France",
+          [
+            "/wiki/France"
+          ]
+        ],
+        [
+          "8.29 m",
+          []
+        ]
+      ],
+      [
+        [
+          "Frank Casañas",
+          [
+            "/wiki/Frank_Casañas"
+          ]
+        ],
+        [
+          "Discus throw",
+          [
+            "/wiki/Discus_throw"
+          ]
+        ],
+        [
+          "Spain",
+          [
+            "/wiki/Spain"
+          ]
+        ],
+        [
+          "65.58 m",
+          []
+        ]
+      ],
+      [
+        [
+          "Libania Grenot",
+          [
+            "/wiki/Libania_Grenot"
+          ]
+        ],
+        [
+          "400 metres",
+          [
+            "/wiki/400_metres"
+          ]
+        ],
+        [
+          "Italy",
+          [
+            "/wiki/Italy"
+          ]
+        ],
+        [
+          50.3,
+          []
+        ]
+      ],
+      [
+        [
+          "Elisa Cusma Piccione",
+          [
+            "/wiki/Elisa_Cusma_Piccione"
+          ]
+        ],
+        [
+          "800 metres",
+          [
+            "/wiki/800_metres"
+          ]
+        ],
+        [
+          "Italy",
+          [
+            "/wiki/Italy"
+          ]
+        ],
+        [
+          "1:59.87",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about athletics events at the 2009 Mediterranean Games, including details about the athletes, the events they participated in, their countries, and their performance records. It is intended to document key results and participants in the competition.",
+  "numeric_columns": [
+    "Record"
+  ],
+  "categorical_columns": [
+    "Event",
+    "Country"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "table_id": "T10708",
+  "uid": "76839c3a-13d6-5513-b32e-47b9cac94fe3",
+  "source": "HybridQA",
+  "source_table_id": "76839c3a-13d6-5513-b32e-47b9cac94fe3",
+  "domain": "HybridQA",
+  "title": "Antrim International Cross Country",
+  "columns": [
+    "Athlete",
+    "Country",
+    "Wins",
+    "Years"
+  ],
+  "rows": [
+    [
+      [
+        "Paula Radcliffe",
+        [
+          "/wiki/Paula_Radcliffe"
+        ]
+      ],
+      [
+        "Great Britain",
+        [
+          "/wiki/United_Kingdom"
+        ]
+      ],
+      [
+        4,
+        []
+      ],
+      [
+        "1994 , 1996 , 2000 , 2001",
+        []
+      ]
+    ],
+    [
+      [
+        "Mike Kigen",
+        [
+          "/wiki/Mike_Kigen"
+        ]
+      ],
+      [
+        "Kenya",
+        [
+          "/wiki/Kenya"
+        ]
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        "2010 , 2011 , 2012",
+        []
+      ]
+    ],
+    [
+      [
+        "Steve Ovett",
+        [
+          "/wiki/Steve_Ovett"
+        ]
+      ],
+      [
+        "Great Britain",
+        [
+          "/wiki/United_Kingdom"
+        ]
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "1978 , 1984",
+        []
+      ]
+    ],
+    [
+      [
+        "Roger Hackney",
+        [
+          "/wiki/Roger_Hackney"
+        ]
+      ],
+      [
+        "Great Britain",
+        [
+          "/wiki/United_Kingdom"
+        ]
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "1986 , 1987",
+        []
+      ]
+    ],
+    [
+      [
+        "Ismael Kirui",
+        [
+          "/wiki/Ismael_Kirui"
+        ]
+      ],
+      [
+        "Kenya",
+        [
+          "/wiki/Kenya"
+        ]
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "1994 , 1995",
+        []
+      ]
+    ],
+    [
+      [
+        "Moses Kipsiro",
+        [
+          "/wiki/Moses_Kipsiro"
+        ]
+      ],
+      [
+        "Uganda",
+        [
+          "/wiki/Uganda"
+        ]
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "2007 , 2008",
+        []
+      ]
+    ],
+    [
+      [
+        "Thomas Ayeko",
+        [
+          "/wiki/Thomas_Ayeko"
+        ]
+      ],
+      [
+        "Uganda",
+        [
+          "/wiki/Uganda"
+        ]
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "2013 , 2015",
+        []
+      ]
+    ],
+    [
+      [
+        "Fionnuala Britton",
+        [
+          "/wiki/Fionnuala_Britton"
+        ]
+      ],
+      [
+        "Ireland",
+        [
+          "/wiki/Republic_of_Ireland"
+        ]
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "2012 , 2013",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "76839c3a-13d6-5513-b32e-47b9cac94fe3",
+    "table_id": "Antrim_International_Cross_Country_1",
+    "title": "Antrim International Cross Country",
+    "header": [
+      "Athlete",
+      "Country",
+      "Wins",
+      "Years"
+    ],
+    "value": [
+      [
+        [
+          "Paula Radcliffe",
+          [
+            "/wiki/Paula_Radcliffe"
+          ]
+        ],
+        [
+          "Great Britain",
+          [
+            "/wiki/United_Kingdom"
+          ]
+        ],
+        [
+          4,
+          []
+        ],
+        [
+          "1994 , 1996 , 2000 , 2001",
+          []
+        ]
+      ],
+      [
+        [
+          "Mike Kigen",
+          [
+            "/wiki/Mike_Kigen"
+          ]
+        ],
+        [
+          "Kenya",
+          [
+            "/wiki/Kenya"
+          ]
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          "2010 , 2011 , 2012",
+          []
+        ]
+      ],
+      [
+        [
+          "Steve Ovett",
+          [
+            "/wiki/Steve_Ovett"
+          ]
+        ],
+        [
+          "Great Britain",
+          [
+            "/wiki/United_Kingdom"
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "1978 , 1984",
+          []
+        ]
+      ],
+      [
+        [
+          "Roger Hackney",
+          [
+            "/wiki/Roger_Hackney"
+          ]
+        ],
+        [
+          "Great Britain",
+          [
+            "/wiki/United_Kingdom"
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "1986 , 1987",
+          []
+        ]
+      ],
+      [
+        [
+          "Ismael Kirui",
+          [
+            "/wiki/Ismael_Kirui"
+          ]
+        ],
+        [
+          "Kenya",
+          [
+            "/wiki/Kenya"
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "1994 , 1995",
+          []
+        ]
+      ],
+      [
+        [
+          "Moses Kipsiro",
+          [
+            "/wiki/Moses_Kipsiro"
+          ]
+        ],
+        [
+          "Uganda",
+          [
+            "/wiki/Uganda"
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "2007 , 2008",
+          []
+        ]
+      ],
+      [
+        [
+          "Thomas Ayeko",
+          [
+            "/wiki/Thomas_Ayeko"
+          ]
+        ],
+        [
+          "Uganda",
+          [
+            "/wiki/Uganda"
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "2013 , 2015",
+          []
+        ]
+      ],
+      [
+        [
+          "Fionnuala Britton",
+          [
+            "/wiki/Fionnuala_Britton"
+          ]
+        ],
+        [
+          "Ireland",
+          [
+            "/wiki/Republic_of_Ireland"
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "2012 , 2013",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about athletes who have competed in the Antrim International Cross Country event, including their country of representation, the number of wins they achieved, and the years in which they won. It is designed to summarize performance and participation details for notable competitors in this event.",
+  "numeric_columns": [
+    "Wins"
+  ],
+  "categorical_columns": [
+    "Country",
+    "Years"
+  ],
+  "entities": [
+    "Athlete"
+  ]
+}

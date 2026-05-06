@@ -1,0 +1,487 @@
+{
+  "table_id": "T10671",
+  "uid": "b562b877-2631-5500-b54a-9dca7d0d2613",
+  "source": "HybridQA",
+  "source_table_id": "b562b877-2631-5500-b54a-9dca7d0d2613",
+  "domain": "HybridQA",
+  "title": "Liga EBA",
+  "columns": [
+    "Team",
+    "City",
+    "Autonomous community",
+    "Arena"
+  ],
+  "rows": [
+    [
+      [
+        "Benahavís Costa del Sol",
+        []
+      ],
+      [
+        "Benahavís",
+        [
+          "/wiki/Benahavís"
+        ]
+      ],
+      [
+        "Andalusia",
+        [
+          "/wiki/Andalusia"
+        ]
+      ],
+      [
+        "Municipal",
+        []
+      ]
+    ],
+    [
+      [
+        "CAM Enrique Soler",
+        []
+      ],
+      [
+        "Melilla",
+        [
+          "/wiki/Melilla"
+        ]
+      ],
+      [
+        "Melilla",
+        [
+          "/wiki/Melilla"
+        ]
+      ],
+      [
+        "Guillermo García Pezzi",
+        []
+      ]
+    ],
+    [
+      [
+        "CB La Zubia",
+        []
+      ],
+      [
+        "La Zubia",
+        [
+          "/wiki/La_Zubia"
+        ]
+      ],
+      [
+        "Andalusia",
+        [
+          "/wiki/Andalusia"
+        ]
+      ],
+      [
+        "11 de Marzo",
+        []
+      ]
+    ],
+    [
+      [
+        "CB Novaschool",
+        []
+      ],
+      [
+        "Rincón de la Victoria",
+        [
+          "/wiki/Rincón_de_la_Victoria"
+        ]
+      ],
+      [
+        "Andalusia",
+        [
+          "/wiki/Andalusia"
+        ]
+      ],
+      [
+        "Novaschool Añoreta",
+        []
+      ]
+    ],
+    [
+      [
+        "CP Mijas Quabit",
+        []
+      ],
+      [
+        "Mijas",
+        [
+          "/wiki/Mijas"
+        ]
+      ],
+      [
+        "Andalusia",
+        [
+          "/wiki/Andalusia"
+        ]
+      ],
+      [
+        "Regino Hernández",
+        []
+      ]
+    ],
+    [
+      [
+        "Ecoculture CB Almería",
+        []
+      ],
+      [
+        "Almería",
+        [
+          "/wiki/Almería"
+        ]
+      ],
+      [
+        "Andalusia",
+        [
+          "/wiki/Andalusia"
+        ]
+      ],
+      [
+        "Moisés Ruiz",
+        []
+      ]
+    ],
+    [
+      [
+        "Jaén Paraíso Interior CB Andújar",
+        []
+      ],
+      [
+        "Andújar",
+        [
+          "/wiki/Andújar"
+        ]
+      ],
+      [
+        "Andalusia",
+        [
+          "/wiki/Andalusia"
+        ]
+      ],
+      [
+        "Municipal",
+        []
+      ]
+    ],
+    [
+      [
+        "Jaén Paraíso Interior CB Cazorla Shooting Pro Camp",
+        []
+      ],
+      [
+        "Cazorla",
+        [
+          "/wiki/Cazorla"
+        ]
+      ],
+      [
+        "Andalusia",
+        [
+          "/wiki/Andalusia"
+        ]
+      ],
+      [
+        "Municipal",
+        []
+      ]
+    ],
+    [
+      [
+        "Jaén Paraíso Interior CB Martos Montetucci",
+        []
+      ],
+      [
+        "Martos",
+        [
+          "/wiki/Martos"
+        ]
+      ],
+      [
+        "Andalusia",
+        [
+          "/wiki/Andalusia"
+        ]
+      ],
+      [
+        "Municipal de la Juventud",
+        []
+      ]
+    ],
+    [
+      [
+        "Unicaja B",
+        [
+          "/wiki/Baloncesto_Málaga"
+        ]
+      ],
+      [
+        "Málaga",
+        [
+          "/wiki/Málaga"
+        ]
+      ],
+      [
+        "Andalusia",
+        [
+          "/wiki/Andalusia"
+        ]
+      ],
+      [
+        "Los Guindos",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "b562b877-2631-5500-b54a-9dca7d0d2613",
+    "table_id": "Liga_EBA_5",
+    "title": "Liga EBA",
+    "header": [
+      "Team",
+      "City",
+      "Autonomous community",
+      "Arena"
+    ],
+    "value": [
+      [
+        [
+          "Benahavís Costa del Sol",
+          []
+        ],
+        [
+          "Benahavís",
+          [
+            "/wiki/Benahavís"
+          ]
+        ],
+        [
+          "Andalusia",
+          [
+            "/wiki/Andalusia"
+          ]
+        ],
+        [
+          "Municipal",
+          []
+        ]
+      ],
+      [
+        [
+          "CAM Enrique Soler",
+          []
+        ],
+        [
+          "Melilla",
+          [
+            "/wiki/Melilla"
+          ]
+        ],
+        [
+          "Melilla",
+          [
+            "/wiki/Melilla"
+          ]
+        ],
+        [
+          "Guillermo García Pezzi",
+          []
+        ]
+      ],
+      [
+        [
+          "CB La Zubia",
+          []
+        ],
+        [
+          "La Zubia",
+          [
+            "/wiki/La_Zubia"
+          ]
+        ],
+        [
+          "Andalusia",
+          [
+            "/wiki/Andalusia"
+          ]
+        ],
+        [
+          "11 de Marzo",
+          []
+        ]
+      ],
+      [
+        [
+          "CB Novaschool",
+          []
+        ],
+        [
+          "Rincón de la Victoria",
+          [
+            "/wiki/Rincón_de_la_Victoria"
+          ]
+        ],
+        [
+          "Andalusia",
+          [
+            "/wiki/Andalusia"
+          ]
+        ],
+        [
+          "Novaschool Añoreta",
+          []
+        ]
+      ],
+      [
+        [
+          "CP Mijas Quabit",
+          []
+        ],
+        [
+          "Mijas",
+          [
+            "/wiki/Mijas"
+          ]
+        ],
+        [
+          "Andalusia",
+          [
+            "/wiki/Andalusia"
+          ]
+        ],
+        [
+          "Regino Hernández",
+          []
+        ]
+      ],
+      [
+        [
+          "Ecoculture CB Almería",
+          []
+        ],
+        [
+          "Almería",
+          [
+            "/wiki/Almería"
+          ]
+        ],
+        [
+          "Andalusia",
+          [
+            "/wiki/Andalusia"
+          ]
+        ],
+        [
+          "Moisés Ruiz",
+          []
+        ]
+      ],
+      [
+        [
+          "Jaén Paraíso Interior CB Andújar",
+          []
+        ],
+        [
+          "Andújar",
+          [
+            "/wiki/Andújar"
+          ]
+        ],
+        [
+          "Andalusia",
+          [
+            "/wiki/Andalusia"
+          ]
+        ],
+        [
+          "Municipal",
+          []
+        ]
+      ],
+      [
+        [
+          "Jaén Paraíso Interior CB Cazorla Shooting Pro Camp",
+          []
+        ],
+        [
+          "Cazorla",
+          [
+            "/wiki/Cazorla"
+          ]
+        ],
+        [
+          "Andalusia",
+          [
+            "/wiki/Andalusia"
+          ]
+        ],
+        [
+          "Municipal",
+          []
+        ]
+      ],
+      [
+        [
+          "Jaén Paraíso Interior CB Martos Montetucci",
+          []
+        ],
+        [
+          "Martos",
+          [
+            "/wiki/Martos"
+          ]
+        ],
+        [
+          "Andalusia",
+          [
+            "/wiki/Andalusia"
+          ]
+        ],
+        [
+          "Municipal de la Juventud",
+          []
+        ]
+      ],
+      [
+        [
+          "Unicaja B",
+          [
+            "/wiki/Baloncesto_Málaga"
+          ]
+        ],
+        [
+          "Málaga",
+          [
+            "/wiki/Málaga"
+          ]
+        ],
+        [
+          "Andalusia",
+          [
+            "/wiki/Andalusia"
+          ]
+        ],
+        [
+          "Los Guindos",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about basketball teams in the Liga EBA, including their names, locations, and arenas. It is designed to give an overview of the teams' geographic and organizational details within the league. The data includes the team's city, autonomous community, and the name of their arena.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Team",
+    "City",
+    "Autonomous community",
+    "Arena"
+  ],
+  "entities": [
+    "Team",
+    "City",
+    "Autonomous community",
+    "Arena"
+  ]
+}

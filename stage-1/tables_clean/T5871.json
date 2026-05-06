@@ -1,0 +1,461 @@
+{
+  "table_id": "T5871",
+  "uid": "308ddf47-2b4a-539a-9977-6d06d362546d",
+  "source": "HybridQA",
+  "source_table_id": "308ddf47-2b4a-539a-9977-6d06d362546d",
+  "domain": "HybridQA",
+  "title": "Birefringence",
+  "columns": [
+    "Material",
+    "Crystal system",
+    "n α",
+    "n β",
+    "n γ"
+  ],
+  "rows": [
+    [
+      [
+        "borax Na 2 ( B 4 O 5 ) ( OH ) 4 ·8H 2 O",
+        [
+          "/wiki/Borax"
+        ]
+      ],
+      [
+        "Monoclinic",
+        [
+          "/wiki/Monoclinic"
+        ]
+      ],
+      [
+        1.447,
+        []
+      ],
+      [
+        1.469,
+        []
+      ],
+      [
+        1.472,
+        []
+      ]
+    ],
+    [
+      [
+        "epsom salt MgSO 4 ·7H 2 O",
+        [
+          "/wiki/Magnesium_sulfate"
+        ]
+      ],
+      [
+        "Monoclinic",
+        [
+          "/wiki/Monoclinic"
+        ]
+      ],
+      [
+        1.433,
+        []
+      ],
+      [
+        1.455,
+        []
+      ],
+      [
+        1.461,
+        []
+      ]
+    ],
+    [
+      [
+        "mica , biotite K ( Mg , Fe ) 3 ( AlSi 3 O 10 ) ( F , OH ) 2",
+        [
+          "/wiki/Mica",
+          "/wiki/Biotite"
+        ]
+      ],
+      [
+        "Monoclinic",
+        [
+          "/wiki/Monoclinic"
+        ]
+      ],
+      [
+        1.595,
+        []
+      ],
+      [
+        1.6400000000000001,
+        []
+      ],
+      [
+        1.6400000000000001,
+        []
+      ]
+    ],
+    [
+      [
+        "mica , muscovite KAl 2 ( AlSi 3 O 10 ) ( F , OH ) 2",
+        [
+          "/wiki/Muscovite"
+        ]
+      ],
+      [
+        "Monoclinic",
+        [
+          "/wiki/Monoclinic"
+        ]
+      ],
+      [
+        1.5630000000000002,
+        []
+      ],
+      [
+        1.596,
+        []
+      ],
+      [
+        1.601,
+        []
+      ]
+    ],
+    [
+      [
+        "olivine ( Mg , Fe ) 2 SiO 4",
+        [
+          "/wiki/Olivine"
+        ]
+      ],
+      [
+        "Orthorhombic",
+        [
+          "/wiki/Orthorhombic"
+        ]
+      ],
+      [
+        1.6400000000000001,
+        []
+      ],
+      [
+        1.6600000000000001,
+        []
+      ],
+      [
+        1.6800000000000002,
+        []
+      ]
+    ],
+    [
+      [
+        "perovskite CaTiO 3",
+        [
+          "/wiki/Perovskite"
+        ]
+      ],
+      [
+        "Orthorhombic",
+        [
+          "/wiki/Orthorhombic"
+        ]
+      ],
+      [
+        2.3,
+        []
+      ],
+      [
+        2.34,
+        []
+      ],
+      [
+        2.38,
+        []
+      ]
+    ],
+    [
+      [
+        "topaz Al 2 SiO 4 ( F , OH ) 2",
+        [
+          "/wiki/Topaz"
+        ]
+      ],
+      [
+        "Orthorhombic",
+        [
+          "/wiki/Orthorhombic"
+        ]
+      ],
+      [
+        1.6179999999999999,
+        []
+      ],
+      [
+        1.62,
+        []
+      ],
+      [
+        1.627,
+        []
+      ]
+    ],
+    [
+      [
+        "ulexite NaCaB 5 O 6 ( OH ) 6 ·5H 2 O",
+        [
+          "/wiki/Ulexite"
+        ]
+      ],
+      [
+        "Triclinic",
+        [
+          "/wiki/Triclinic"
+        ]
+      ],
+      [
+        1.49,
+        []
+      ],
+      [
+        1.51,
+        []
+      ],
+      [
+        1.52,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "308ddf47-2b4a-539a-9977-6d06d362546d",
+    "table_id": "Birefringence_1",
+    "title": "Birefringence",
+    "header": [
+      "Material",
+      "Crystal system",
+      "n α",
+      "n β",
+      "n γ"
+    ],
+    "value": [
+      [
+        [
+          "borax Na 2 ( B 4 O 5 ) ( OH ) 4 ·8H 2 O",
+          [
+            "/wiki/Borax"
+          ]
+        ],
+        [
+          "Monoclinic",
+          [
+            "/wiki/Monoclinic"
+          ]
+        ],
+        [
+          1.447,
+          []
+        ],
+        [
+          1.469,
+          []
+        ],
+        [
+          1.472,
+          []
+        ]
+      ],
+      [
+        [
+          "epsom salt MgSO 4 ·7H 2 O",
+          [
+            "/wiki/Magnesium_sulfate"
+          ]
+        ],
+        [
+          "Monoclinic",
+          [
+            "/wiki/Monoclinic"
+          ]
+        ],
+        [
+          1.433,
+          []
+        ],
+        [
+          1.455,
+          []
+        ],
+        [
+          1.461,
+          []
+        ]
+      ],
+      [
+        [
+          "mica , biotite K ( Mg , Fe ) 3 ( AlSi 3 O 10 ) ( F , OH ) 2",
+          [
+            "/wiki/Mica",
+            "/wiki/Biotite"
+          ]
+        ],
+        [
+          "Monoclinic",
+          [
+            "/wiki/Monoclinic"
+          ]
+        ],
+        [
+          1.595,
+          []
+        ],
+        [
+          1.6400000000000001,
+          []
+        ],
+        [
+          1.6400000000000001,
+          []
+        ]
+      ],
+      [
+        [
+          "mica , muscovite KAl 2 ( AlSi 3 O 10 ) ( F , OH ) 2",
+          [
+            "/wiki/Muscovite"
+          ]
+        ],
+        [
+          "Monoclinic",
+          [
+            "/wiki/Monoclinic"
+          ]
+        ],
+        [
+          1.5630000000000002,
+          []
+        ],
+        [
+          1.596,
+          []
+        ],
+        [
+          1.601,
+          []
+        ]
+      ],
+      [
+        [
+          "olivine ( Mg , Fe ) 2 SiO 4",
+          [
+            "/wiki/Olivine"
+          ]
+        ],
+        [
+          "Orthorhombic",
+          [
+            "/wiki/Orthorhombic"
+          ]
+        ],
+        [
+          1.6400000000000001,
+          []
+        ],
+        [
+          1.6600000000000001,
+          []
+        ],
+        [
+          1.6800000000000002,
+          []
+        ]
+      ],
+      [
+        [
+          "perovskite CaTiO 3",
+          [
+            "/wiki/Perovskite"
+          ]
+        ],
+        [
+          "Orthorhombic",
+          [
+            "/wiki/Orthorhombic"
+          ]
+        ],
+        [
+          2.3,
+          []
+        ],
+        [
+          2.34,
+          []
+        ],
+        [
+          2.38,
+          []
+        ]
+      ],
+      [
+        [
+          "topaz Al 2 SiO 4 ( F , OH ) 2",
+          [
+            "/wiki/Topaz"
+          ]
+        ],
+        [
+          "Orthorhombic",
+          [
+            "/wiki/Orthorhombic"
+          ]
+        ],
+        [
+          1.6179999999999999,
+          []
+        ],
+        [
+          1.62,
+          []
+        ],
+        [
+          1.627,
+          []
+        ]
+      ],
+      [
+        [
+          "ulexite NaCaB 5 O 6 ( OH ) 6 ·5H 2 O",
+          [
+            "/wiki/Ulexite"
+          ]
+        ],
+        [
+          "Triclinic",
+          [
+            "/wiki/Triclinic"
+          ]
+        ],
+        [
+          1.49,
+          []
+        ],
+        [
+          1.51,
+          []
+        ],
+        [
+          1.52,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about birefringence properties of various materials, including their crystal systems and refractive indices. It is designed to explore the optical characteristics of materials in relation to their structural properties. The data is relevant to studies in crystallography and material science.",
+  "numeric_columns": [
+    "n α",
+    "n β",
+    "n γ"
+  ],
+  "categorical_columns": [
+    "Crystal system"
+  ],
+  "entities": [
+    "Material"
+  ]
+}

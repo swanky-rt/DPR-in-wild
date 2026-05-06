@@ -1,0 +1,295 @@
+{
+  "table_id": "T8233",
+  "uid": "91a740b3-4e3c-59a7-8595-b92f8e345727",
+  "source": "HybridQA",
+  "source_table_id": "91a740b3-4e3c-59a7-8595-b92f8e345727",
+  "domain": "HybridQA",
+  "title": "List of 18th-century journals",
+  "columns": [
+    "Name",
+    "Subject area and type",
+    "Date ( from )"
+  ],
+  "rows": [
+    [
+      [
+        "Executive Journal of the Northwest Territory",
+        [
+          "/wiki/Northwest_Territory"
+        ]
+      ],
+      [
+        "Official journal ( Ohio )",
+        [
+          "/wiki/Ohio"
+        ]
+      ],
+      [
+        1788,
+        []
+      ]
+    ],
+    [
+      [
+        "A Journal of the Session : Containing the Decisions of the Lords of Council",
+        []
+      ],
+      [
+        "Law ( Scottish Court of Session )",
+        [
+          "/wiki/Law",
+          "/wiki/Court_of_Session"
+        ]
+      ],
+      [
+        1705,
+        []
+      ]
+    ],
+    [
+      [
+        "Journal of the Illinois General Assembly , House of Representatives",
+        []
+      ],
+      [
+        "Illinois",
+        [
+          "/wiki/Illinois"
+        ]
+      ],
+      [
+        1798,
+        []
+      ]
+    ],
+    [
+      [
+        "The London journal",
+        []
+      ],
+      [
+        "? UK Political journal",
+        []
+      ],
+      [
+        "1720 ?",
+        []
+      ]
+    ],
+    [
+      [
+        "The Journal of the House of Burgesses",
+        [
+          "/wiki/House_of_Burgesses"
+        ]
+      ],
+      [
+        "[ Virginia General Assembly ]",
+        [
+          "/wiki/Virginia"
+        ]
+      ],
+      [
+        1758,
+        []
+      ]
+    ],
+    [
+      [
+        "Journal : Georgia Constitutional Convention",
+        []
+      ],
+      [
+        "Georgia",
+        [
+          "/wiki/Georgia_(U.S._state)"
+        ]
+      ],
+      [
+        1798,
+        []
+      ]
+    ],
+    [
+      [
+        "Journal of proceedings , Maryland ( Colony ) Council",
+        []
+      ],
+      [
+        "Maryland",
+        [
+          "/wiki/Maryland"
+        ]
+      ],
+      [
+        1756,
+        []
+      ]
+    ],
+    [
+      [
+        "Journal of the Indian Roads Congress",
+        []
+      ],
+      [
+        "Public inquiry ( India )",
+        []
+      ],
+      [
+        1792,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "91a740b3-4e3c-59a7-8595-b92f8e345727",
+    "table_id": "List_of_18th-century_journals_4",
+    "title": "List of 18th-century journals",
+    "header": [
+      "Name",
+      "Subject area and type",
+      "Date ( from )"
+    ],
+    "value": [
+      [
+        [
+          "Executive Journal of the Northwest Territory",
+          [
+            "/wiki/Northwest_Territory"
+          ]
+        ],
+        [
+          "Official journal ( Ohio )",
+          [
+            "/wiki/Ohio"
+          ]
+        ],
+        [
+          1788,
+          []
+        ]
+      ],
+      [
+        [
+          "A Journal of the Session : Containing the Decisions of the Lords of Council",
+          []
+        ],
+        [
+          "Law ( Scottish Court of Session )",
+          [
+            "/wiki/Law",
+            "/wiki/Court_of_Session"
+          ]
+        ],
+        [
+          1705,
+          []
+        ]
+      ],
+      [
+        [
+          "Journal of the Illinois General Assembly , House of Representatives",
+          []
+        ],
+        [
+          "Illinois",
+          [
+            "/wiki/Illinois"
+          ]
+        ],
+        [
+          1798,
+          []
+        ]
+      ],
+      [
+        [
+          "The London journal",
+          []
+        ],
+        [
+          "? UK Political journal",
+          []
+        ],
+        [
+          "1720 ?",
+          []
+        ]
+      ],
+      [
+        [
+          "The Journal of the House of Burgesses",
+          [
+            "/wiki/House_of_Burgesses"
+          ]
+        ],
+        [
+          "[ Virginia General Assembly ]",
+          [
+            "/wiki/Virginia"
+          ]
+        ],
+        [
+          1758,
+          []
+        ]
+      ],
+      [
+        [
+          "Journal : Georgia Constitutional Convention",
+          []
+        ],
+        [
+          "Georgia",
+          [
+            "/wiki/Georgia_(U.S._state)"
+          ]
+        ],
+        [
+          1798,
+          []
+        ]
+      ],
+      [
+        [
+          "Journal of proceedings , Maryland ( Colony ) Council",
+          []
+        ],
+        [
+          "Maryland",
+          [
+            "/wiki/Maryland"
+          ]
+        ],
+        [
+          1756,
+          []
+        ]
+      ],
+      [
+        [
+          "Journal of the Indian Roads Congress",
+          []
+        ],
+        [
+          "Public inquiry ( India )",
+          []
+        ],
+        [
+          1792,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a list of journals from the 18th century, detailing their names, subject areas or types, and the dates they were first published. It serves as a historical reference for understanding the types of publications and their thematic focus during that period.",
+  "numeric_columns": [
+    "Date ( from )"
+  ],
+  "categorical_columns": [
+    "Subject area and type"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

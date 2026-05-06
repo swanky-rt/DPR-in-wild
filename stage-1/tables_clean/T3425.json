@@ -1,0 +1,483 @@
+{
+  "table_id": "T3425",
+  "uid": "20ce6a59-6d83-579d-9b54-489462c91b8d",
+  "source": "HybridQA",
+  "source_table_id": "20ce6a59-6d83-579d-9b54-489462c91b8d",
+  "domain": "HybridQA",
+  "title": "Scottish Women's Premier League",
+  "columns": [
+    "Team",
+    "Location",
+    "Home ground",
+    "Capacity",
+    "2018 position"
+  ],
+  "rows": [
+    [
+      [
+        "Dundee United",
+        [
+          "/wiki/Dundee_United_W.F.C."
+        ]
+      ],
+      [
+        "Dundee",
+        [
+          "/wiki/Dundee"
+        ]
+      ],
+      [
+        "Gussie Park",
+        []
+      ],
+      [
+        "1,000",
+        []
+      ],
+      [
+        "1st in SWFL 1 North",
+        []
+      ]
+    ],
+    [
+      [
+        "Hamilton Academical",
+        [
+          "/wiki/Hamilton_Academical_W.F.C."
+        ]
+      ],
+      [
+        "Hamilton",
+        [
+          "/wiki/Hamilton,_South_Lanarkshire"
+        ]
+      ],
+      [
+        "The Hope CBD Stadium",
+        []
+      ],
+      [
+        "5,510",
+        []
+      ],
+      [
+        "8th in SWPL 1",
+        [
+          "/wiki/2018_Scottish_Women's_Premier_League"
+        ]
+      ]
+    ],
+    [
+      [
+        "Glasgow Girls",
+        [
+          "/wiki/Glasgow_Girls_F.C."
+        ]
+      ],
+      [
+        "Glasgow",
+        [
+          "/wiki/Glasgow"
+        ]
+      ],
+      [
+        "Petershill Park",
+        [
+          "/wiki/Petershill_Park"
+        ]
+      ],
+      [
+        "1,000",
+        []
+      ],
+      [
+        "6th",
+        []
+      ]
+    ],
+    [
+      [
+        "Heart of Midlothian",
+        [
+          "/wiki/Heart_of_Midlothian_W.F.C."
+        ]
+      ],
+      [
+        "Edinburgh",
+        [
+          "/wiki/Edinburgh"
+        ]
+      ],
+      [
+        "Oriam",
+        [
+          "/wiki/Oriam"
+        ]
+      ],
+      [
+        "1,000",
+        []
+      ],
+      [
+        "3rd",
+        []
+      ]
+    ],
+    [
+      [
+        "Kilmarnock Ladies",
+        [
+          "/wiki/F.C._Kilmarnock_Ladies"
+        ]
+      ],
+      [
+        "Kilmarnock",
+        [
+          "/wiki/Kilmarnock"
+        ]
+      ],
+      [
+        "Rugby Park",
+        [
+          "/wiki/Rugby_Park"
+        ]
+      ],
+      [
+        "17,889",
+        []
+      ],
+      [
+        "2nd",
+        []
+      ]
+    ],
+    [
+      [
+        "Hutchison Vale",
+        [
+          "/wiki/Edinburgh_University_Hutchison_Vale_F.C."
+        ]
+      ],
+      [
+        "Edinburgh",
+        [
+          "/wiki/Edinburgh"
+        ]
+      ],
+      [
+        "Saughton Enclosure",
+        []
+      ],
+      [
+        "1,000",
+        []
+      ],
+      [
+        "5th",
+        []
+      ]
+    ],
+    [
+      [
+        "Partick Thistle",
+        [
+          "/wiki/Partick_Thistle"
+        ]
+      ],
+      [
+        "Glasgow",
+        [
+          "/wiki/Glasgow"
+        ]
+      ],
+      [
+        "Petershill Park",
+        [
+          "/wiki/Petershill_Park"
+        ]
+      ],
+      [
+        "1,000",
+        []
+      ],
+      [
+        "3rd in SWFL 1 South",
+        []
+      ]
+    ],
+    [
+      [
+        "St Johnstone",
+        [
+          "/wiki/St_Johnstone_W.F.C."
+        ]
+      ],
+      [
+        "Perth",
+        [
+          "/wiki/Perth,_Scotland"
+        ]
+      ],
+      [
+        "McDiarmid Park",
+        [
+          "/wiki/McDiarmid_Park"
+        ]
+      ],
+      [
+        "10,696",
+        []
+      ],
+      [
+        "4th",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "20ce6a59-6d83-579d-9b54-489462c91b8d",
+    "table_id": "Scottish_Women's_Premier_League_1",
+    "title": "Scottish Women's Premier League",
+    "header": [
+      "Team",
+      "Location",
+      "Home ground",
+      "Capacity",
+      "2018 position"
+    ],
+    "value": [
+      [
+        [
+          "Dundee United",
+          [
+            "/wiki/Dundee_United_W.F.C."
+          ]
+        ],
+        [
+          "Dundee",
+          [
+            "/wiki/Dundee"
+          ]
+        ],
+        [
+          "Gussie Park",
+          []
+        ],
+        [
+          "1,000",
+          []
+        ],
+        [
+          "1st in SWFL 1 North",
+          []
+        ]
+      ],
+      [
+        [
+          "Hamilton Academical",
+          [
+            "/wiki/Hamilton_Academical_W.F.C."
+          ]
+        ],
+        [
+          "Hamilton",
+          [
+            "/wiki/Hamilton,_South_Lanarkshire"
+          ]
+        ],
+        [
+          "The Hope CBD Stadium",
+          []
+        ],
+        [
+          "5,510",
+          []
+        ],
+        [
+          "8th in SWPL 1",
+          [
+            "/wiki/2018_Scottish_Women's_Premier_League"
+          ]
+        ]
+      ],
+      [
+        [
+          "Glasgow Girls",
+          [
+            "/wiki/Glasgow_Girls_F.C."
+          ]
+        ],
+        [
+          "Glasgow",
+          [
+            "/wiki/Glasgow"
+          ]
+        ],
+        [
+          "Petershill Park",
+          [
+            "/wiki/Petershill_Park"
+          ]
+        ],
+        [
+          "1,000",
+          []
+        ],
+        [
+          "6th",
+          []
+        ]
+      ],
+      [
+        [
+          "Heart of Midlothian",
+          [
+            "/wiki/Heart_of_Midlothian_W.F.C."
+          ]
+        ],
+        [
+          "Edinburgh",
+          [
+            "/wiki/Edinburgh"
+          ]
+        ],
+        [
+          "Oriam",
+          [
+            "/wiki/Oriam"
+          ]
+        ],
+        [
+          "1,000",
+          []
+        ],
+        [
+          "3rd",
+          []
+        ]
+      ],
+      [
+        [
+          "Kilmarnock Ladies",
+          [
+            "/wiki/F.C._Kilmarnock_Ladies"
+          ]
+        ],
+        [
+          "Kilmarnock",
+          [
+            "/wiki/Kilmarnock"
+          ]
+        ],
+        [
+          "Rugby Park",
+          [
+            "/wiki/Rugby_Park"
+          ]
+        ],
+        [
+          "17,889",
+          []
+        ],
+        [
+          "2nd",
+          []
+        ]
+      ],
+      [
+        [
+          "Hutchison Vale",
+          [
+            "/wiki/Edinburgh_University_Hutchison_Vale_F.C."
+          ]
+        ],
+        [
+          "Edinburgh",
+          [
+            "/wiki/Edinburgh"
+          ]
+        ],
+        [
+          "Saughton Enclosure",
+          []
+        ],
+        [
+          "1,000",
+          []
+        ],
+        [
+          "5th",
+          []
+        ]
+      ],
+      [
+        [
+          "Partick Thistle",
+          [
+            "/wiki/Partick_Thistle"
+          ]
+        ],
+        [
+          "Glasgow",
+          [
+            "/wiki/Glasgow"
+          ]
+        ],
+        [
+          "Petershill Park",
+          [
+            "/wiki/Petershill_Park"
+          ]
+        ],
+        [
+          "1,000",
+          []
+        ],
+        [
+          "3rd in SWFL 1 South",
+          []
+        ]
+      ],
+      [
+        [
+          "St Johnstone",
+          [
+            "/wiki/St_Johnstone_W.F.C."
+          ]
+        ],
+        [
+          "Perth",
+          [
+            "/wiki/Perth,_Scotland"
+          ]
+        ],
+        [
+          "McDiarmid Park",
+          [
+            "/wiki/McDiarmid_Park"
+          ]
+        ],
+        [
+          "10,696",
+          []
+        ],
+        [
+          "4th",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about teams in the Scottish Women's Premier League, including their locations, home grounds, stadium capacities, and their positions in the 2018 season. It serves as an overview of key details related to the league's teams and their facilities.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "2018 position"
+  ],
+  "entities": [
+    "Team",
+    "Location",
+    "Home ground"
+  ]
+}

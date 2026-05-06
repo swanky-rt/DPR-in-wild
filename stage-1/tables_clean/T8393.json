@@ -1,0 +1,503 @@
+{
+  "table_id": "T8393",
+  "uid": "128b57fa-ebc7-5d24-8d78-3173b62a807b",
+  "source": "HybridQA",
+  "source_table_id": "128b57fa-ebc7-5d24-8d78-3173b62a807b",
+  "domain": "HybridQA",
+  "title": "2010 BC Lions season",
+  "columns": [
+    "Round",
+    "Pick",
+    "Player",
+    "Position",
+    "School/Club Team"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        4,
+        []
+      ],
+      [
+        "Danny Watkins",
+        [
+          "/wiki/Danny_Watkins"
+        ]
+      ],
+      [
+        "OT",
+        []
+      ],
+      [
+        "Baylor",
+        [
+          "/wiki/Baylor_Bears_football"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        10,
+        []
+      ],
+      [
+        "Shawn Gore",
+        [
+          "/wiki/Shawn_Gore"
+        ]
+      ],
+      [
+        "WR",
+        []
+      ],
+      [
+        "Bishop 's",
+        [
+          "/wiki/Bishop's_University"
+        ]
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        16,
+        []
+      ],
+      [
+        "Joash Gesse",
+        [
+          "/wiki/Joash_Gesse"
+        ]
+      ],
+      [
+        "LB",
+        []
+      ],
+      [
+        "Montréal",
+        [
+          "/wiki/Montreal_Carabins"
+        ]
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        20,
+        []
+      ],
+      [
+        "Hamid Mahmoudi",
+        [
+          "/wiki/Hamid_Mahmoudi"
+        ]
+      ],
+      [
+        "DB",
+        []
+      ],
+      [
+        "Montréal",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        24,
+        []
+      ],
+      [
+        "Nate Binder",
+        [
+          "/wiki/Nate_Binder"
+        ]
+      ],
+      [
+        "WR",
+        []
+      ],
+      [
+        "Tusculum College",
+        [
+          "/wiki/Tusculum_Pioneers"
+        ]
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        25,
+        []
+      ],
+      [
+        "Akeem Foster",
+        [
+          "/wiki/Akeem_Foster"
+        ]
+      ],
+      [
+        "WR",
+        []
+      ],
+      [
+        "St. Francis Xavier",
+        [
+          "/wiki/St._Francis_Xavier_University_X-Men"
+        ]
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        34,
+        []
+      ],
+      [
+        "Cauchy Muamba",
+        [
+          "/wiki/Cauchy_Muamba"
+        ]
+      ],
+      [
+        "DB",
+        []
+      ],
+      [
+        "St. Francis Xavier",
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        41,
+        []
+      ],
+      [
+        "Adam Baboulas",
+        [
+          "/wiki/Adam_Baboulas"
+        ]
+      ],
+      [
+        "OL",
+        []
+      ],
+      [
+        "Saint Mary 's",
+        [
+          "/wiki/Saint_Mary's_University_(Halifax)"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        42,
+        []
+      ],
+      [
+        "Matthew Chapdelaine",
+        [
+          "/wiki/Matthew_Chapdelaine"
+        ]
+      ],
+      [
+        "WR",
+        []
+      ],
+      [
+        "Simon Fraser",
+        [
+          "/wiki/Simon_Fraser_Clan"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "128b57fa-ebc7-5d24-8d78-3173b62a807b",
+    "table_id": "2010_BC_Lions_season_0",
+    "title": "2010 BC Lions season",
+    "header": [
+      "Round",
+      "Pick",
+      "Player",
+      "Position",
+      "School/Club Team"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          4,
+          []
+        ],
+        [
+          "Danny Watkins",
+          [
+            "/wiki/Danny_Watkins"
+          ]
+        ],
+        [
+          "OT",
+          []
+        ],
+        [
+          "Baylor",
+          [
+            "/wiki/Baylor_Bears_football"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          10,
+          []
+        ],
+        [
+          "Shawn Gore",
+          [
+            "/wiki/Shawn_Gore"
+          ]
+        ],
+        [
+          "WR",
+          []
+        ],
+        [
+          "Bishop 's",
+          [
+            "/wiki/Bishop's_University"
+          ]
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          16,
+          []
+        ],
+        [
+          "Joash Gesse",
+          [
+            "/wiki/Joash_Gesse"
+          ]
+        ],
+        [
+          "LB",
+          []
+        ],
+        [
+          "Montréal",
+          [
+            "/wiki/Montreal_Carabins"
+          ]
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          20,
+          []
+        ],
+        [
+          "Hamid Mahmoudi",
+          [
+            "/wiki/Hamid_Mahmoudi"
+          ]
+        ],
+        [
+          "DB",
+          []
+        ],
+        [
+          "Montréal",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          24,
+          []
+        ],
+        [
+          "Nate Binder",
+          [
+            "/wiki/Nate_Binder"
+          ]
+        ],
+        [
+          "WR",
+          []
+        ],
+        [
+          "Tusculum College",
+          [
+            "/wiki/Tusculum_Pioneers"
+          ]
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          25,
+          []
+        ],
+        [
+          "Akeem Foster",
+          [
+            "/wiki/Akeem_Foster"
+          ]
+        ],
+        [
+          "WR",
+          []
+        ],
+        [
+          "St. Francis Xavier",
+          [
+            "/wiki/St._Francis_Xavier_University_X-Men"
+          ]
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          34,
+          []
+        ],
+        [
+          "Cauchy Muamba",
+          [
+            "/wiki/Cauchy_Muamba"
+          ]
+        ],
+        [
+          "DB",
+          []
+        ],
+        [
+          "St. Francis Xavier",
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          41,
+          []
+        ],
+        [
+          "Adam Baboulas",
+          [
+            "/wiki/Adam_Baboulas"
+          ]
+        ],
+        [
+          "OL",
+          []
+        ],
+        [
+          "Saint Mary 's",
+          [
+            "/wiki/Saint_Mary's_University_(Halifax)"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          42,
+          []
+        ],
+        [
+          "Matthew Chapdelaine",
+          [
+            "/wiki/Matthew_Chapdelaine"
+          ]
+        ],
+        [
+          "WR",
+          []
+        ],
+        [
+          "Simon Fraser",
+          [
+            "/wiki/Simon_Fraser_Clan"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the 2010 BC Lions season, specifically focusing on their draft picks. It includes details about the round and pick number, the player selected, their position, and the school or club team they were associated with. The table is likely used to summarize the team's draft selections for that season.",
+  "numeric_columns": [
+    "Round",
+    "Pick"
+  ],
+  "categorical_columns": [
+    "Position"
+  ],
+  "entities": [
+    "Player",
+    "School/Club Team"
+  ]
+}

@@ -1,0 +1,520 @@
+{
+  "table_id": "T10803",
+  "uid": "75ce0084-308b-5cf2-822b-e87157955153",
+  "source": "HybridQA",
+  "source_table_id": "75ce0084-308b-5cf2-822b-e87157955153",
+  "domain": "HybridQA",
+  "title": "Sports in Maryland",
+  "columns": [
+    "Sport",
+    "Gender",
+    "Venue"
+  ],
+  "rows": [
+    [
+      [
+        "Baseball",
+        []
+      ],
+      [
+        "Men 's",
+        []
+      ],
+      [
+        "Shipley Field",
+        [
+          "/wiki/Shipley_Field"
+        ]
+      ]
+    ],
+    [
+      [
+        "Basketball",
+        [
+          "/wiki/Maryland_Terrapins_men's_basketball"
+        ]
+      ],
+      [
+        "Men 's & Women 's",
+        [
+          "/wiki/Maryland_Terrapins_women's_basketball"
+        ]
+      ],
+      [
+        "Xfinity Center",
+        [
+          "/wiki/Xfinity_Center_(College_Park,_Maryland)"
+        ]
+      ]
+    ],
+    [
+      [
+        "Competitive Cheer",
+        []
+      ],
+      [
+        "Coed",
+        []
+      ],
+      [
+        "Xfinity Center",
+        [
+          "/wiki/Xfinity_Center_(College_Park,_Maryland)"
+        ]
+      ]
+    ],
+    [
+      [
+        "Cross Country",
+        []
+      ],
+      [
+        "Men 's & Women 's",
+        []
+      ],
+      [
+        "Kehoe Track at Ludwig Field",
+        [
+          "/wiki/Ludwig_Field"
+        ]
+      ]
+    ],
+    [
+      [
+        "Field Hockey",
+        []
+      ],
+      [
+        "Women 's",
+        []
+      ],
+      [
+        "Field Hockey & Lacrosse Complex",
+        []
+      ]
+    ],
+    [
+      [
+        "Football",
+        [
+          "/wiki/Maryland_Terrapins_football"
+        ]
+      ],
+      [
+        "Men 's",
+        []
+      ],
+      [
+        "Maryland Stadium",
+        [
+          "/wiki/Maryland_Stadium"
+        ]
+      ]
+    ],
+    [
+      [
+        "Golf",
+        []
+      ],
+      [
+        "Men 's & Women 's",
+        []
+      ],
+      [
+        "Maryland Golf Course",
+        [
+          "/wiki/Maryland_Golf_Course"
+        ]
+      ]
+    ],
+    [
+      [
+        "Lacrosse",
+        [
+          "/wiki/Maryland_Terrapins_men's_lacrosse"
+        ]
+      ],
+      [
+        "Men 's & Women 's",
+        []
+      ],
+      [
+        "Maryland Stadium ; Field Hockey & Lacrosse Complex / Ludwig Field",
+        [
+          "/wiki/Maryland_Stadium"
+        ]
+      ]
+    ],
+    [
+      [
+        "Soccer",
+        [
+          "/wiki/Maryland_Terrapins_men's_soccer"
+        ]
+      ],
+      [
+        "Men 's & Women 's",
+        []
+      ],
+      [
+        "Ludwig Field",
+        [
+          "/wiki/Ludwig_Field"
+        ]
+      ]
+    ],
+    [
+      [
+        "Swimming",
+        []
+      ],
+      [
+        "Men 's & Women 's",
+        []
+      ],
+      [
+        "Eppley Recreation Center Natatorium",
+        []
+      ]
+    ],
+    [
+      [
+        "Tennis",
+        []
+      ],
+      [
+        "Men 's & Women 's",
+        []
+      ],
+      [
+        "Tennis Center at College Park",
+        []
+      ]
+    ],
+    [
+      [
+        "Track & Field",
+        []
+      ],
+      [
+        "Men 's & Women 's",
+        []
+      ],
+      [
+        "Kehoe Track at Ludwig Field",
+        [
+          "/wiki/Ludwig_Field"
+        ]
+      ]
+    ],
+    [
+      [
+        "Volleyball",
+        []
+      ],
+      [
+        "Women 's",
+        []
+      ],
+      [
+        "Xfinity Center",
+        [
+          "/wiki/Xfinity_Center_(College_Park,_Maryland)"
+        ]
+      ]
+    ],
+    [
+      [
+        "Water Polo",
+        []
+      ],
+      [
+        "Women 's",
+        []
+      ],
+      [
+        "Eppley Recreation Center Natatorium",
+        []
+      ]
+    ],
+    [
+      [
+        "Wrestling",
+        []
+      ],
+      [
+        "Men 's",
+        []
+      ],
+      [
+        "Xfinity Center",
+        [
+          "/wiki/Xfinity_Center_(College_Park,_Maryland)"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "75ce0084-308b-5cf2-822b-e87157955153",
+    "table_id": "Sports_in_Maryland_20",
+    "title": "Sports in Maryland",
+    "header": [
+      "Sport",
+      "Gender",
+      "Venue"
+    ],
+    "value": [
+      [
+        [
+          "Baseball",
+          []
+        ],
+        [
+          "Men 's",
+          []
+        ],
+        [
+          "Shipley Field",
+          [
+            "/wiki/Shipley_Field"
+          ]
+        ]
+      ],
+      [
+        [
+          "Basketball",
+          [
+            "/wiki/Maryland_Terrapins_men's_basketball"
+          ]
+        ],
+        [
+          "Men 's & Women 's",
+          [
+            "/wiki/Maryland_Terrapins_women's_basketball"
+          ]
+        ],
+        [
+          "Xfinity Center",
+          [
+            "/wiki/Xfinity_Center_(College_Park,_Maryland)"
+          ]
+        ]
+      ],
+      [
+        [
+          "Competitive Cheer",
+          []
+        ],
+        [
+          "Coed",
+          []
+        ],
+        [
+          "Xfinity Center",
+          [
+            "/wiki/Xfinity_Center_(College_Park,_Maryland)"
+          ]
+        ]
+      ],
+      [
+        [
+          "Cross Country",
+          []
+        ],
+        [
+          "Men 's & Women 's",
+          []
+        ],
+        [
+          "Kehoe Track at Ludwig Field",
+          [
+            "/wiki/Ludwig_Field"
+          ]
+        ]
+      ],
+      [
+        [
+          "Field Hockey",
+          []
+        ],
+        [
+          "Women 's",
+          []
+        ],
+        [
+          "Field Hockey & Lacrosse Complex",
+          []
+        ]
+      ],
+      [
+        [
+          "Football",
+          [
+            "/wiki/Maryland_Terrapins_football"
+          ]
+        ],
+        [
+          "Men 's",
+          []
+        ],
+        [
+          "Maryland Stadium",
+          [
+            "/wiki/Maryland_Stadium"
+          ]
+        ]
+      ],
+      [
+        [
+          "Golf",
+          []
+        ],
+        [
+          "Men 's & Women 's",
+          []
+        ],
+        [
+          "Maryland Golf Course",
+          [
+            "/wiki/Maryland_Golf_Course"
+          ]
+        ]
+      ],
+      [
+        [
+          "Lacrosse",
+          [
+            "/wiki/Maryland_Terrapins_men's_lacrosse"
+          ]
+        ],
+        [
+          "Men 's & Women 's",
+          []
+        ],
+        [
+          "Maryland Stadium ; Field Hockey & Lacrosse Complex / Ludwig Field",
+          [
+            "/wiki/Maryland_Stadium"
+          ]
+        ]
+      ],
+      [
+        [
+          "Soccer",
+          [
+            "/wiki/Maryland_Terrapins_men's_soccer"
+          ]
+        ],
+        [
+          "Men 's & Women 's",
+          []
+        ],
+        [
+          "Ludwig Field",
+          [
+            "/wiki/Ludwig_Field"
+          ]
+        ]
+      ],
+      [
+        [
+          "Swimming",
+          []
+        ],
+        [
+          "Men 's & Women 's",
+          []
+        ],
+        [
+          "Eppley Recreation Center Natatorium",
+          []
+        ]
+      ],
+      [
+        [
+          "Tennis",
+          []
+        ],
+        [
+          "Men 's & Women 's",
+          []
+        ],
+        [
+          "Tennis Center at College Park",
+          []
+        ]
+      ],
+      [
+        [
+          "Track & Field",
+          []
+        ],
+        [
+          "Men 's & Women 's",
+          []
+        ],
+        [
+          "Kehoe Track at Ludwig Field",
+          [
+            "/wiki/Ludwig_Field"
+          ]
+        ]
+      ],
+      [
+        [
+          "Volleyball",
+          []
+        ],
+        [
+          "Women 's",
+          []
+        ],
+        [
+          "Xfinity Center",
+          [
+            "/wiki/Xfinity_Center_(College_Park,_Maryland)"
+          ]
+        ]
+      ],
+      [
+        [
+          "Water Polo",
+          []
+        ],
+        [
+          "Women 's",
+          []
+        ],
+        [
+          "Eppley Recreation Center Natatorium",
+          []
+        ]
+      ],
+      [
+        [
+          "Wrestling",
+          []
+        ],
+        [
+          "Men 's",
+          []
+        ],
+        [
+          "Xfinity Center",
+          [
+            "/wiki/Xfinity_Center_(College_Park,_Maryland)"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides an overview of sports in Maryland, detailing the types of sports, the gender categories they are associated with, and the venues where they take place. It is designed to categorize and link sports activities with their respective locations and gender-specific participation.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Sport",
+    "Gender"
+  ],
+  "entities": [
+    "Venue"
+  ]
+}

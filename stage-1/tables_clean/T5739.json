@@ -1,0 +1,532 @@
+{
+  "table_id": "T5739",
+  "uid": "ae554302-6818-53c4-ab70-9b42a1b0d409",
+  "source": "HybridQA",
+  "source_table_id": "ae554302-6818-53c4-ab70-9b42a1b0d409",
+  "domain": "HybridQA",
+  "title": "Biosphere reserves of India",
+  "columns": [
+    "#",
+    "Name",
+    "States",
+    "Year"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Nilgiri Biosphere Reserve",
+        [
+          "/wiki/Nilgiri_Biosphere_Reserve"
+        ]
+      ],
+      [
+        "Tamil Nadu , Kerala and Karnataka",
+        [
+          "/wiki/Tamil_Nadu",
+          "/wiki/Kerala",
+          "/wiki/Karnataka"
+        ]
+      ],
+      [
+        2000,
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Gulf of Mannar Biosphere Reserve",
+        [
+          "/wiki/Gulf_of_Mannar_Biosphere_Reserve"
+        ]
+      ],
+      [
+        "Tamil Nadu",
+        [
+          "/wiki/Tamil_Nadu"
+        ]
+      ],
+      [
+        2001,
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Sundarbans Biosphere Reserve",
+        [
+          "/wiki/Sundarbans"
+        ]
+      ],
+      [
+        "West Bengal",
+        [
+          "/wiki/West_Bengal"
+        ]
+      ],
+      [
+        2001,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Nanda Devi Biosphere Reserve",
+        [
+          "/wiki/Nanda_Devi_Biosphere_Reserve"
+        ]
+      ],
+      [
+        "Uttarakhand",
+        [
+          "/wiki/Uttarakhand"
+        ]
+      ],
+      [
+        2004,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Nokrek Biosphere Reserve",
+        [
+          "/wiki/Nokrek_Biosphere_Reserve"
+        ]
+      ],
+      [
+        "Meghalaya",
+        [
+          "/wiki/Meghalaya"
+        ]
+      ],
+      [
+        2009,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Pachmarhi Biosphere Reserve",
+        [
+          "/wiki/Pachmarhi_Biosphere_Reserve"
+        ]
+      ],
+      [
+        "Madhya Pradesh",
+        [
+          "/wiki/Madhya_Pradesh"
+        ]
+      ],
+      [
+        2009,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Simlipal Biosphere Reserve",
+        [
+          "/wiki/Simlipal_Biosphere_Reserve"
+        ]
+      ],
+      [
+        "Odisha",
+        [
+          "/wiki/Odisha"
+        ]
+      ],
+      [
+        2009,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Great Nicobar Biosphere Reserve",
+        [
+          "/wiki/Great_Nicobar_Biosphere_Reserve"
+        ]
+      ],
+      [
+        "Great Nicobar",
+        [
+          "/wiki/Great_Nicobar"
+        ]
+      ],
+      [
+        2013,
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Achanakmar-Amarkantak Biosphere Reserve",
+        [
+          "/wiki/Achanakmar-Amarkantak_Biosphere_Reserve"
+        ]
+      ],
+      [
+        "Chhattisgarh , Madhya Pradesh",
+        [
+          "/wiki/Chhattisgarh",
+          "/wiki/Madhya_Pradesh"
+        ]
+      ],
+      [
+        2012,
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Agasthyamalai Biosphere Reserve",
+        [
+          "/wiki/Agasthyamalai_Biosphere_Reserve"
+        ]
+      ],
+      [
+        "Kerala and Tamil Nadu",
+        [
+          "/wiki/Kerala",
+          "/wiki/Tamil_Nadu"
+        ]
+      ],
+      [
+        2016,
+        []
+      ]
+    ],
+    [
+      [
+        11,
+        []
+      ],
+      [
+        "Khangchendzonga National Park",
+        [
+          "/wiki/Khangchendzonga_National_Park"
+        ]
+      ],
+      [
+        "Sikkim",
+        [
+          "/wiki/Sikkim"
+        ]
+      ],
+      [
+        2018,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "ae554302-6818-53c4-ab70-9b42a1b0d409",
+    "table_id": "Biosphere_reserves_of_India_0",
+    "title": "Biosphere reserves of India",
+    "header": [
+      "#",
+      "Name",
+      "States",
+      "Year"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Nilgiri Biosphere Reserve",
+          [
+            "/wiki/Nilgiri_Biosphere_Reserve"
+          ]
+        ],
+        [
+          "Tamil Nadu , Kerala and Karnataka",
+          [
+            "/wiki/Tamil_Nadu",
+            "/wiki/Kerala",
+            "/wiki/Karnataka"
+          ]
+        ],
+        [
+          2000,
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Gulf of Mannar Biosphere Reserve",
+          [
+            "/wiki/Gulf_of_Mannar_Biosphere_Reserve"
+          ]
+        ],
+        [
+          "Tamil Nadu",
+          [
+            "/wiki/Tamil_Nadu"
+          ]
+        ],
+        [
+          2001,
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Sundarbans Biosphere Reserve",
+          [
+            "/wiki/Sundarbans"
+          ]
+        ],
+        [
+          "West Bengal",
+          [
+            "/wiki/West_Bengal"
+          ]
+        ],
+        [
+          2001,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Nanda Devi Biosphere Reserve",
+          [
+            "/wiki/Nanda_Devi_Biosphere_Reserve"
+          ]
+        ],
+        [
+          "Uttarakhand",
+          [
+            "/wiki/Uttarakhand"
+          ]
+        ],
+        [
+          2004,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Nokrek Biosphere Reserve",
+          [
+            "/wiki/Nokrek_Biosphere_Reserve"
+          ]
+        ],
+        [
+          "Meghalaya",
+          [
+            "/wiki/Meghalaya"
+          ]
+        ],
+        [
+          2009,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Pachmarhi Biosphere Reserve",
+          [
+            "/wiki/Pachmarhi_Biosphere_Reserve"
+          ]
+        ],
+        [
+          "Madhya Pradesh",
+          [
+            "/wiki/Madhya_Pradesh"
+          ]
+        ],
+        [
+          2009,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Simlipal Biosphere Reserve",
+          [
+            "/wiki/Simlipal_Biosphere_Reserve"
+          ]
+        ],
+        [
+          "Odisha",
+          [
+            "/wiki/Odisha"
+          ]
+        ],
+        [
+          2009,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Great Nicobar Biosphere Reserve",
+          [
+            "/wiki/Great_Nicobar_Biosphere_Reserve"
+          ]
+        ],
+        [
+          "Great Nicobar",
+          [
+            "/wiki/Great_Nicobar"
+          ]
+        ],
+        [
+          2013,
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Achanakmar-Amarkantak Biosphere Reserve",
+          [
+            "/wiki/Achanakmar-Amarkantak_Biosphere_Reserve"
+          ]
+        ],
+        [
+          "Chhattisgarh , Madhya Pradesh",
+          [
+            "/wiki/Chhattisgarh",
+            "/wiki/Madhya_Pradesh"
+          ]
+        ],
+        [
+          2012,
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Agasthyamalai Biosphere Reserve",
+          [
+            "/wiki/Agasthyamalai_Biosphere_Reserve"
+          ]
+        ],
+        [
+          "Kerala and Tamil Nadu",
+          [
+            "/wiki/Kerala",
+            "/wiki/Tamil_Nadu"
+          ]
+        ],
+        [
+          2016,
+          []
+        ]
+      ],
+      [
+        [
+          11,
+          []
+        ],
+        [
+          "Khangchendzonga National Park",
+          [
+            "/wiki/Khangchendzonga_National_Park"
+          ]
+        ],
+        [
+          "Sikkim",
+          [
+            "/wiki/Sikkim"
+          ]
+        ],
+        [
+          2018,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about biosphere reserves in India, including their names, associated states, and the year they were designated. It serves as a reference for understanding the geographical and temporal distribution of these reserves.",
+  "numeric_columns": [
+    "#"
+  ],
+  "categorical_columns": [
+    "States",
+    "Year"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

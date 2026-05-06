@@ -1,0 +1,618 @@
+{
+  "table_id": "T4929",
+  "uid": "cd7b9d21-d16e-561f-bde9-9b287164bb86",
+  "source": "HybridQA",
+  "source_table_id": "cd7b9d21-d16e-561f-bde9-9b287164bb86",
+  "domain": "HybridQA",
+  "title": "Oxford transmitting station",
+  "columns": [
+    "Frequency",
+    "UHF",
+    "kW",
+    "Service",
+    "System"
+  ],
+  "rows": [
+    [
+      [
+        "538.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        29,
+        []
+      ],
+      [
+        8,
+        []
+      ],
+      [
+        "Arqiva ( Mux D )",
+        [
+          "/wiki/Arqiva"
+        ]
+      ],
+      [
+        "DVB-T",
+        [
+          "/wiki/DVB-T"
+        ]
+      ]
+    ],
+    [
+      [
+        "578.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        34,
+        []
+      ],
+      [
+        10,
+        []
+      ],
+      [
+        "BBC ( Mux 1 )",
+        [
+          "/wiki/BBC"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "690.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        48,
+        []
+      ],
+      [
+        8,
+        []
+      ],
+      [
+        "Arqiva ( Mux C )",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "695.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        49,
+        []
+      ],
+      [
+        40,
+        []
+      ],
+      [
+        "Channel 5",
+        [
+          "/wiki/Channel_5_(UK)"
+        ]
+      ],
+      [
+        "PAL System I",
+        [
+          "/wiki/PAL"
+        ]
+      ]
+    ],
+    [
+      [
+        "713.833 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "51-",
+        []
+      ],
+      [
+        6,
+        []
+      ],
+      [
+        "SDN ( Mux A )",
+        [
+          "/wiki/S4C_Digital_Networks"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "721.833 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "52-",
+        []
+      ],
+      [
+        6,
+        []
+      ],
+      [
+        "BBC ( Mux B )",
+        [
+          "/wiki/BBC"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "727.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        53,
+        []
+      ],
+      [
+        500,
+        []
+      ],
+      [
+        "Channel 4",
+        [
+          "/wiki/Channel_4"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "759.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        57,
+        []
+      ],
+      [
+        500,
+        []
+      ],
+      [
+        "BBC One",
+        [
+          "/wiki/BBC_One"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "783.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        60,
+        []
+      ],
+      [
+        500,
+        []
+      ],
+      [
+        "Central",
+        [
+          "/wiki/ITV_Central"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "807.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        63,
+        []
+      ],
+      [
+        500,
+        []
+      ],
+      [
+        "BBC Two",
+        [
+          "/wiki/BBC_Two"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "850.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        68,
+        []
+      ],
+      [
+        10,
+        []
+      ],
+      [
+        "Digital 3 & 4 ( Mux 2 )",
+        [
+          "/wiki/Digital_3&4"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "cd7b9d21-d16e-561f-bde9-9b287164bb86",
+    "table_id": "Oxford_transmitting_station_10",
+    "title": "Oxford transmitting station",
+    "header": [
+      "Frequency",
+      "UHF",
+      "kW",
+      "Service",
+      "System"
+    ],
+    "value": [
+      [
+        [
+          "538.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          29,
+          []
+        ],
+        [
+          8,
+          []
+        ],
+        [
+          "Arqiva ( Mux D )",
+          [
+            "/wiki/Arqiva"
+          ]
+        ],
+        [
+          "DVB-T",
+          [
+            "/wiki/DVB-T"
+          ]
+        ]
+      ],
+      [
+        [
+          "578.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          34,
+          []
+        ],
+        [
+          10,
+          []
+        ],
+        [
+          "BBC ( Mux 1 )",
+          [
+            "/wiki/BBC"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "690.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          48,
+          []
+        ],
+        [
+          8,
+          []
+        ],
+        [
+          "Arqiva ( Mux C )",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "695.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          49,
+          []
+        ],
+        [
+          40,
+          []
+        ],
+        [
+          "Channel 5",
+          [
+            "/wiki/Channel_5_(UK)"
+          ]
+        ],
+        [
+          "PAL System I",
+          [
+            "/wiki/PAL"
+          ]
+        ]
+      ],
+      [
+        [
+          "713.833 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "51-",
+          []
+        ],
+        [
+          6,
+          []
+        ],
+        [
+          "SDN ( Mux A )",
+          [
+            "/wiki/S4C_Digital_Networks"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "721.833 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "52-",
+          []
+        ],
+        [
+          6,
+          []
+        ],
+        [
+          "BBC ( Mux B )",
+          [
+            "/wiki/BBC"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "727.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          53,
+          []
+        ],
+        [
+          500,
+          []
+        ],
+        [
+          "Channel 4",
+          [
+            "/wiki/Channel_4"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "759.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          57,
+          []
+        ],
+        [
+          500,
+          []
+        ],
+        [
+          "BBC One",
+          [
+            "/wiki/BBC_One"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "783.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          60,
+          []
+        ],
+        [
+          500,
+          []
+        ],
+        [
+          "Central",
+          [
+            "/wiki/ITV_Central"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "807.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          63,
+          []
+        ],
+        [
+          500,
+          []
+        ],
+        [
+          "BBC Two",
+          [
+            "/wiki/BBC_Two"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "850.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          68,
+          []
+        ],
+        [
+          10,
+          []
+        ],
+        [
+          "Digital 3 & 4 ( Mux 2 )",
+          [
+            "/wiki/Digital_3&4"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the Oxford transmitting station, detailing the frequencies, power levels, services, and broadcasting systems used for transmission. It is intended to outline technical specifications and associated services for broadcasting purposes. The table is relevant to telecommunications and broadcasting domains.",
+  "numeric_columns": [
+    "UHF",
+    "kW"
+  ],
+  "categorical_columns": [
+    "Frequency",
+    "Service",
+    "System"
+  ],
+  "entities": []
+}

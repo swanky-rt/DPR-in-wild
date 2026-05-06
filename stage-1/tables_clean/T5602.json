@@ -1,0 +1,558 @@
+{
+  "table_id": "T5602",
+  "uid": "65742253-e0e7-515e-82f0-667a99e0299b",
+  "source": "HybridQA",
+  "source_table_id": "65742253-e0e7-515e-82f0-667a99e0299b",
+  "domain": "HybridQA",
+  "title": "College Hockey Mid-America",
+  "columns": [
+    "School",
+    "Location",
+    "Nickname",
+    "Primary conference",
+    "Website"
+  ],
+  "rows": [
+    [
+      [
+        "Duquesne University",
+        [
+          "/wiki/Duquesne_University"
+        ]
+      ],
+      [
+        "Pittsburgh , PA",
+        [
+          "/wiki/Pittsburgh,_PA"
+        ]
+      ],
+      [
+        "Dukes",
+        [
+          "/wiki/Duquesne_Dukes"
+        ]
+      ],
+      [
+        "Atlantic 10 ( DI )",
+        [
+          "/wiki/Atlantic_10_Conference",
+          "/wiki/NCAA_Division_I"
+        ]
+      ],
+      [
+        [
+          1
+        ],
+        []
+      ]
+    ],
+    [
+      [
+        "Indiana University of Pennsylvania",
+        [
+          "/wiki/Indiana_University_of_Pennsylvania"
+        ]
+      ],
+      [
+        "Indiana , PA",
+        [
+          "/wiki/Indiana,_PA"
+        ]
+      ],
+      [
+        "Crimson Hawks",
+        [
+          "/wiki/IUP_Crimson_Hawks"
+        ]
+      ],
+      [
+        "PSAC ( DII )",
+        [
+          "/wiki/Pennsylvania_State_Athletic_Conference",
+          "/wiki/NCAA_Division_II"
+        ]
+      ],
+      [
+        [
+          2
+        ],
+        []
+      ]
+    ],
+    [
+      [
+        "John Carroll University",
+        [
+          "/wiki/John_Carroll_University"
+        ]
+      ],
+      [
+        "University Heights , OH",
+        [
+          "/wiki/University_Heights,_OH"
+        ]
+      ],
+      [
+        "Blue Streaks",
+        []
+      ],
+      [
+        "Ohio Athletic Conference ( DIII )",
+        [
+          "/wiki/Ohio_Athletic_Conference",
+          "/wiki/NCAA_Division_III"
+        ]
+      ],
+      [
+        [
+          3
+        ],
+        []
+      ]
+    ],
+    [
+      [
+        "Mercyhurst University",
+        [
+          "/wiki/Mercyhurst_University"
+        ]
+      ],
+      [
+        "Erie , PA",
+        [
+          "/wiki/Erie,_PA"
+        ]
+      ],
+      [
+        "Lakers",
+        []
+      ],
+      [
+        "PSAC ( D-II )",
+        [
+          "/wiki/Pennsylvania_State_Athletic_Conference",
+          "/wiki/NCAA_Division_II"
+        ]
+      ],
+      [
+        [
+          4
+        ],
+        []
+      ]
+    ],
+    [
+      [
+        "University of Pittsburgh",
+        [
+          "/wiki/University_of_Pittsburgh"
+        ]
+      ],
+      [
+        "Pittsburgh , PA",
+        [
+          "/wiki/Pittsburgh,_PA"
+        ]
+      ],
+      [
+        "Panthers",
+        [
+          "/wiki/Pittsburgh_Panthers"
+        ]
+      ],
+      [
+        "Atlantic Coast Conference ( DI )",
+        [
+          "/wiki/Atlantic_Coast_Conference",
+          "/wiki/NCAA_Division_I"
+        ]
+      ],
+      [
+        [
+          5
+        ],
+        []
+      ]
+    ],
+    [
+      [
+        "Robert Morris University",
+        [
+          "/wiki/Robert_Morris_University"
+        ]
+      ],
+      [
+        "Moon Township , PA",
+        [
+          "/wiki/Moon_Township,_PA"
+        ]
+      ],
+      [
+        "Colonials",
+        [
+          "/wiki/Robert_Morris_Colonials"
+        ]
+      ],
+      [
+        "Northeast Conference ( D-I )",
+        [
+          "/wiki/Northeast_Conference",
+          "/wiki/NCAA_Division_I"
+        ]
+      ],
+      [
+        [
+          6
+        ],
+        []
+      ]
+    ],
+    [
+      [
+        "Slippery Rock University",
+        [
+          "/wiki/Slippery_Rock_University_of_Pennsylvania"
+        ]
+      ],
+      [
+        "Slippery Rock , PA",
+        [
+          "/wiki/Slippery_Rock,_PA"
+        ]
+      ],
+      [
+        "Pride",
+        []
+      ],
+      [
+        "PSAC ( DII )",
+        [
+          "/wiki/Pennsylvania_State_Athletic_Conference",
+          "/wiki/NCAA_Division_II"
+        ]
+      ],
+      [
+        [
+          7
+        ],
+        []
+      ]
+    ],
+    [
+      [
+        "West Virginia University",
+        [
+          "/wiki/West_Virginia_University"
+        ]
+      ],
+      [
+        "Morgantown , WV",
+        [
+          "/wiki/Morgantown,_WV"
+        ]
+      ],
+      [
+        "Mountaineers",
+        [
+          "/wiki/West_Virginia_Mountaineers"
+        ]
+      ],
+      [
+        "Big 12 Conference ( DI )",
+        [
+          "/wiki/Big_12_Conference",
+          "/wiki/NCAA_Division_I"
+        ]
+      ],
+      [
+        [
+          8
+        ],
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "65742253-e0e7-515e-82f0-667a99e0299b",
+    "table_id": "College_Hockey_Mid-America_0",
+    "title": "College Hockey Mid-America",
+    "header": [
+      "School",
+      "Location",
+      "Nickname",
+      "Primary conference",
+      "Website"
+    ],
+    "value": [
+      [
+        [
+          "Duquesne University",
+          [
+            "/wiki/Duquesne_University"
+          ]
+        ],
+        [
+          "Pittsburgh , PA",
+          [
+            "/wiki/Pittsburgh,_PA"
+          ]
+        ],
+        [
+          "Dukes",
+          [
+            "/wiki/Duquesne_Dukes"
+          ]
+        ],
+        [
+          "Atlantic 10 ( DI )",
+          [
+            "/wiki/Atlantic_10_Conference",
+            "/wiki/NCAA_Division_I"
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          []
+        ]
+      ],
+      [
+        [
+          "Indiana University of Pennsylvania",
+          [
+            "/wiki/Indiana_University_of_Pennsylvania"
+          ]
+        ],
+        [
+          "Indiana , PA",
+          [
+            "/wiki/Indiana,_PA"
+          ]
+        ],
+        [
+          "Crimson Hawks",
+          [
+            "/wiki/IUP_Crimson_Hawks"
+          ]
+        ],
+        [
+          "PSAC ( DII )",
+          [
+            "/wiki/Pennsylvania_State_Athletic_Conference",
+            "/wiki/NCAA_Division_II"
+          ]
+        ],
+        [
+          [
+            2
+          ],
+          []
+        ]
+      ],
+      [
+        [
+          "John Carroll University",
+          [
+            "/wiki/John_Carroll_University"
+          ]
+        ],
+        [
+          "University Heights , OH",
+          [
+            "/wiki/University_Heights,_OH"
+          ]
+        ],
+        [
+          "Blue Streaks",
+          []
+        ],
+        [
+          "Ohio Athletic Conference ( DIII )",
+          [
+            "/wiki/Ohio_Athletic_Conference",
+            "/wiki/NCAA_Division_III"
+          ]
+        ],
+        [
+          [
+            3
+          ],
+          []
+        ]
+      ],
+      [
+        [
+          "Mercyhurst University",
+          [
+            "/wiki/Mercyhurst_University"
+          ]
+        ],
+        [
+          "Erie , PA",
+          [
+            "/wiki/Erie,_PA"
+          ]
+        ],
+        [
+          "Lakers",
+          []
+        ],
+        [
+          "PSAC ( D-II )",
+          [
+            "/wiki/Pennsylvania_State_Athletic_Conference",
+            "/wiki/NCAA_Division_II"
+          ]
+        ],
+        [
+          [
+            4
+          ],
+          []
+        ]
+      ],
+      [
+        [
+          "University of Pittsburgh",
+          [
+            "/wiki/University_of_Pittsburgh"
+          ]
+        ],
+        [
+          "Pittsburgh , PA",
+          [
+            "/wiki/Pittsburgh,_PA"
+          ]
+        ],
+        [
+          "Panthers",
+          [
+            "/wiki/Pittsburgh_Panthers"
+          ]
+        ],
+        [
+          "Atlantic Coast Conference ( DI )",
+          [
+            "/wiki/Atlantic_Coast_Conference",
+            "/wiki/NCAA_Division_I"
+          ]
+        ],
+        [
+          [
+            5
+          ],
+          []
+        ]
+      ],
+      [
+        [
+          "Robert Morris University",
+          [
+            "/wiki/Robert_Morris_University"
+          ]
+        ],
+        [
+          "Moon Township , PA",
+          [
+            "/wiki/Moon_Township,_PA"
+          ]
+        ],
+        [
+          "Colonials",
+          [
+            "/wiki/Robert_Morris_Colonials"
+          ]
+        ],
+        [
+          "Northeast Conference ( D-I )",
+          [
+            "/wiki/Northeast_Conference",
+            "/wiki/NCAA_Division_I"
+          ]
+        ],
+        [
+          [
+            6
+          ],
+          []
+        ]
+      ],
+      [
+        [
+          "Slippery Rock University",
+          [
+            "/wiki/Slippery_Rock_University_of_Pennsylvania"
+          ]
+        ],
+        [
+          "Slippery Rock , PA",
+          [
+            "/wiki/Slippery_Rock,_PA"
+          ]
+        ],
+        [
+          "Pride",
+          []
+        ],
+        [
+          "PSAC ( DII )",
+          [
+            "/wiki/Pennsylvania_State_Athletic_Conference",
+            "/wiki/NCAA_Division_II"
+          ]
+        ],
+        [
+          [
+            7
+          ],
+          []
+        ]
+      ],
+      [
+        [
+          "West Virginia University",
+          [
+            "/wiki/West_Virginia_University"
+          ]
+        ],
+        [
+          "Morgantown , WV",
+          [
+            "/wiki/Morgantown,_WV"
+          ]
+        ],
+        [
+          "Mountaineers",
+          [
+            "/wiki/West_Virginia_Mountaineers"
+          ]
+        ],
+        [
+          "Big 12 Conference ( DI )",
+          [
+            "/wiki/Big_12_Conference",
+            "/wiki/NCAA_Division_I"
+          ]
+        ],
+        [
+          [
+            8
+          ],
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about colleges and universities associated with the College Hockey Mid-America league. It includes details about the schools, their locations, nicknames, primary athletic conferences, and official websites. The table is likely intended for reference or organizational purposes within the context of college hockey.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Nickname",
+    "Primary conference"
+  ],
+  "entities": [
+    "School",
+    "Location",
+    "Website"
+  ]
+}

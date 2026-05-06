@@ -1,0 +1,463 @@
+{
+  "table_id": "T4632",
+  "uid": "4a816d34-2643-590d-bb57-6058096a5ac1",
+  "source": "HybridQA",
+  "source_table_id": "4a816d34-2643-590d-bb57-6058096a5ac1",
+  "domain": "HybridQA",
+  "title": "Ferryside television relay station",
+  "columns": [
+    "Frequency",
+    "UHF",
+    "kW",
+    "Service",
+    "System"
+  ],
+  "rows": [
+    [
+      [
+        "471.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        21,
+        []
+      ],
+      [
+        0.023,
+        []
+      ],
+      [
+        "BBC One Wales",
+        [
+          "/wiki/BBC_One_Wales"
+        ]
+      ],
+      [
+        "PAL System I",
+        [
+          "/wiki/PAL"
+        ]
+      ]
+    ],
+    [
+      [
+        "489.833 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "23-",
+        []
+      ],
+      [
+        0.001,
+        []
+      ],
+      [
+        "BBC Mux B",
+        []
+      ],
+      [
+        "DVB-T",
+        [
+          "/wiki/DVB-T"
+        ]
+      ]
+    ],
+    [
+      [
+        "495.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        24,
+        []
+      ],
+      [
+        0.023,
+        []
+      ],
+      [
+        "ITV1 Wales",
+        [
+          "/wiki/ITV_Wales_&_West"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "513.833 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "26-",
+        []
+      ],
+      [
+        0.001,
+        []
+      ],
+      [
+        "BBC Mux 1",
+        [
+          "/wiki/BBC"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "519.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        27,
+        []
+      ],
+      [
+        0.023,
+        []
+      ],
+      [
+        "BBC Two Wales",
+        [
+          "/wiki/BBC_Two_Wales"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "545.833 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "30-",
+        []
+      ],
+      [
+        0.005,
+        []
+      ],
+      [
+        "Digital 3 & 4 Mux 2",
+        [
+          "/wiki/Digital_3&4"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "551.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        31,
+        []
+      ],
+      [
+        0.023,
+        []
+      ],
+      [
+        "S4C",
+        [
+          "/wiki/S4C"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "578.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        34,
+        []
+      ],
+      [
+        0.005,
+        []
+      ],
+      [
+        "SDN Mux A",
+        [
+          "/wiki/S4C_Digital_Networks"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "4a816d34-2643-590d-bb57-6058096a5ac1",
+    "table_id": "Ferryside_television_relay_station_1",
+    "title": "Ferryside television relay station",
+    "header": [
+      "Frequency",
+      "UHF",
+      "kW",
+      "Service",
+      "System"
+    ],
+    "value": [
+      [
+        [
+          "471.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          21,
+          []
+        ],
+        [
+          0.023,
+          []
+        ],
+        [
+          "BBC One Wales",
+          [
+            "/wiki/BBC_One_Wales"
+          ]
+        ],
+        [
+          "PAL System I",
+          [
+            "/wiki/PAL"
+          ]
+        ]
+      ],
+      [
+        [
+          "489.833 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "23-",
+          []
+        ],
+        [
+          0.001,
+          []
+        ],
+        [
+          "BBC Mux B",
+          []
+        ],
+        [
+          "DVB-T",
+          [
+            "/wiki/DVB-T"
+          ]
+        ]
+      ],
+      [
+        [
+          "495.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          24,
+          []
+        ],
+        [
+          0.023,
+          []
+        ],
+        [
+          "ITV1 Wales",
+          [
+            "/wiki/ITV_Wales_&_West"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "513.833 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "26-",
+          []
+        ],
+        [
+          0.001,
+          []
+        ],
+        [
+          "BBC Mux 1",
+          [
+            "/wiki/BBC"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "519.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          27,
+          []
+        ],
+        [
+          0.023,
+          []
+        ],
+        [
+          "BBC Two Wales",
+          [
+            "/wiki/BBC_Two_Wales"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "545.833 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "30-",
+          []
+        ],
+        [
+          0.005,
+          []
+        ],
+        [
+          "Digital 3 & 4 Mux 2",
+          [
+            "/wiki/Digital_3&4"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "551.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          31,
+          []
+        ],
+        [
+          0.023,
+          []
+        ],
+        [
+          "S4C",
+          [
+            "/wiki/S4C"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "578.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          34,
+          []
+        ],
+        [
+          0.005,
+          []
+        ],
+        [
+          "SDN Mux A",
+          [
+            "/wiki/S4C_Digital_Networks"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the Ferryside television relay station, detailing its broadcast frequencies, transmission power, and services offered. It includes technical specifications such as frequency, channel identifiers, and system types, as well as the services provided by the station.",
+  "numeric_columns": [
+    "UHF",
+    "kW"
+  ],
+  "categorical_columns": [
+    "Service",
+    "System"
+  ],
+  "entities": [
+    "Frequency"
+  ]
+}

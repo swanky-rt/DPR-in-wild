@@ -1,0 +1,578 @@
+{
+  "table_id": "T9000",
+  "uid": "62eb60cf-90f7-5521-8e30-874e4cd30697",
+  "source": "HybridQA",
+  "source_table_id": "62eb60cf-90f7-5521-8e30-874e4cd30697",
+  "domain": "HybridQA",
+  "title": "List of islands of Thailand",
+  "columns": [
+    "Name",
+    "Thai Name",
+    "Province"
+  ],
+  "rows": [
+    [
+      [
+        "Ko Chang",
+        [
+          "/wiki/Ko_Chang"
+        ]
+      ],
+      [
+        "เกาะช้าง",
+        []
+      ],
+      [
+        "Trat",
+        [
+          "/wiki/Trat_Province"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ko Kut",
+        [
+          "/wiki/Ko_Kut"
+        ]
+      ],
+      [
+        "เกาะกูด",
+        []
+      ],
+      [
+        "Trat",
+        [
+          "/wiki/Trat_Province"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ko Lanta Yai",
+        [
+          "/wiki/Ko_Lanta_Yai"
+        ]
+      ],
+      [
+        "เกาะลันตาใหญ่",
+        []
+      ],
+      [
+        "Krabi",
+        [
+          "/wiki/Krabi_Province"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ko Mak",
+        [
+          "/wiki/Ko_Mak"
+        ]
+      ],
+      [
+        "เกาะหมาก",
+        []
+      ],
+      [
+        "Trat",
+        [
+          "/wiki/Trat_Province"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ko Pha Ngan",
+        [
+          "/wiki/Ko_Pha_Ngan"
+        ]
+      ],
+      [
+        "เกาะพะงัน",
+        []
+      ],
+      [
+        "Surat Thani",
+        [
+          "/wiki/Surat_Thani_Province"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ko Phi Phi Lee",
+        [
+          "/wiki/Ko_Phi_Phi_Lee"
+        ]
+      ],
+      [
+        "เกาะพีพีเล",
+        []
+      ],
+      [
+        "Krabi",
+        [
+          "/wiki/Krabi_Province"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ko Phi Phi Don",
+        [
+          "/wiki/Ko_Phi_Phi_Don"
+        ]
+      ],
+      [
+        "เกาะพีพีดอน",
+        []
+      ],
+      [
+        "Krabi",
+        [
+          "/wiki/Krabi_Province"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ko Rang",
+        [
+          "/wiki/Ko_Rang"
+        ]
+      ],
+      [
+        "เกาะรัง",
+        []
+      ],
+      [
+        "Trat",
+        [
+          "/wiki/Trat_Province"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ko Samet",
+        [
+          "/wiki/Ko_Samet"
+        ]
+      ],
+      [
+        "เกาะเสม็ด",
+        []
+      ],
+      [
+        "Rayong",
+        [
+          "/wiki/Rayong_Province"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ko Samui",
+        [
+          "/wiki/Ko_Samui"
+        ]
+      ],
+      [
+        "เกาะสมุย",
+        []
+      ],
+      [
+        "Surat Thani",
+        [
+          "/wiki/Surat_Thani_Province"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ko Tao",
+        [
+          "/wiki/Ko_Tao"
+        ]
+      ],
+      [
+        "เกาะเต่า",
+        []
+      ],
+      [
+        "Surat Thani",
+        [
+          "/wiki/Surat_Thani_Province"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ko Tapu",
+        [
+          "/wiki/Ko_Tapu"
+        ]
+      ],
+      [
+        "เกาะตะปู",
+        []
+      ],
+      [
+        "Phang Nga",
+        [
+          "/wiki/Phang_Nga_Province"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ko Tarutao",
+        [
+          "/wiki/Ko_Tarutao"
+        ]
+      ],
+      [
+        "เกาะตะรุเตา",
+        []
+      ],
+      [
+        "Satun",
+        [
+          "/wiki/Satun_Province"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ko Phuket",
+        [
+          "/wiki/Phuket_city"
+        ]
+      ],
+      [
+        "เกาะภูเก็ต",
+        []
+      ],
+      [
+        "Phuket",
+        [
+          "/wiki/Phuket_Province"
+        ]
+      ]
+    ],
+    [
+      [
+        "Similan Islands",
+        [
+          "/wiki/Similan_Islands"
+        ]
+      ],
+      [
+        "เกาะสิมิลัน",
+        []
+      ],
+      [
+        "Phang Nga",
+        [
+          "/wiki/Phang_Nga_Province"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "62eb60cf-90f7-5521-8e30-874e4cd30697",
+    "table_id": "List_of_islands_of_Thailand_0",
+    "title": "List of islands of Thailand",
+    "header": [
+      "Name",
+      "Thai Name",
+      "Province"
+    ],
+    "value": [
+      [
+        [
+          "Ko Chang",
+          [
+            "/wiki/Ko_Chang"
+          ]
+        ],
+        [
+          "เกาะช้าง",
+          []
+        ],
+        [
+          "Trat",
+          [
+            "/wiki/Trat_Province"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ko Kut",
+          [
+            "/wiki/Ko_Kut"
+          ]
+        ],
+        [
+          "เกาะกูด",
+          []
+        ],
+        [
+          "Trat",
+          [
+            "/wiki/Trat_Province"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ko Lanta Yai",
+          [
+            "/wiki/Ko_Lanta_Yai"
+          ]
+        ],
+        [
+          "เกาะลันตาใหญ่",
+          []
+        ],
+        [
+          "Krabi",
+          [
+            "/wiki/Krabi_Province"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ko Mak",
+          [
+            "/wiki/Ko_Mak"
+          ]
+        ],
+        [
+          "เกาะหมาก",
+          []
+        ],
+        [
+          "Trat",
+          [
+            "/wiki/Trat_Province"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ko Pha Ngan",
+          [
+            "/wiki/Ko_Pha_Ngan"
+          ]
+        ],
+        [
+          "เกาะพะงัน",
+          []
+        ],
+        [
+          "Surat Thani",
+          [
+            "/wiki/Surat_Thani_Province"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ko Phi Phi Lee",
+          [
+            "/wiki/Ko_Phi_Phi_Lee"
+          ]
+        ],
+        [
+          "เกาะพีพีเล",
+          []
+        ],
+        [
+          "Krabi",
+          [
+            "/wiki/Krabi_Province"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ko Phi Phi Don",
+          [
+            "/wiki/Ko_Phi_Phi_Don"
+          ]
+        ],
+        [
+          "เกาะพีพีดอน",
+          []
+        ],
+        [
+          "Krabi",
+          [
+            "/wiki/Krabi_Province"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ko Rang",
+          [
+            "/wiki/Ko_Rang"
+          ]
+        ],
+        [
+          "เกาะรัง",
+          []
+        ],
+        [
+          "Trat",
+          [
+            "/wiki/Trat_Province"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ko Samet",
+          [
+            "/wiki/Ko_Samet"
+          ]
+        ],
+        [
+          "เกาะเสม็ด",
+          []
+        ],
+        [
+          "Rayong",
+          [
+            "/wiki/Rayong_Province"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ko Samui",
+          [
+            "/wiki/Ko_Samui"
+          ]
+        ],
+        [
+          "เกาะสมุย",
+          []
+        ],
+        [
+          "Surat Thani",
+          [
+            "/wiki/Surat_Thani_Province"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ko Tao",
+          [
+            "/wiki/Ko_Tao"
+          ]
+        ],
+        [
+          "เกาะเต่า",
+          []
+        ],
+        [
+          "Surat Thani",
+          [
+            "/wiki/Surat_Thani_Province"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ko Tapu",
+          [
+            "/wiki/Ko_Tapu"
+          ]
+        ],
+        [
+          "เกาะตะปู",
+          []
+        ],
+        [
+          "Phang Nga",
+          [
+            "/wiki/Phang_Nga_Province"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ko Tarutao",
+          [
+            "/wiki/Ko_Tarutao"
+          ]
+        ],
+        [
+          "เกาะตะรุเตา",
+          []
+        ],
+        [
+          "Satun",
+          [
+            "/wiki/Satun_Province"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ko Phuket",
+          [
+            "/wiki/Phuket_city"
+          ]
+        ],
+        [
+          "เกาะภูเก็ต",
+          []
+        ],
+        [
+          "Phuket",
+          [
+            "/wiki/Phuket_Province"
+          ]
+        ]
+      ],
+      [
+        [
+          "Similan Islands",
+          [
+            "/wiki/Similan_Islands"
+          ]
+        ],
+        [
+          "เกาะสิมิลัน",
+          []
+        ],
+        [
+          "Phang Nga",
+          [
+            "/wiki/Phang_Nga_Province"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about islands in Thailand, including their names in English and Thai, as well as the provinces they are located in. It serves as a reference for geographic and cultural details related to these islands. The table is likely intended for educational or informational purposes.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Name",
+    "Thai Name",
+    "Province"
+  ],
+  "entities": [
+    "Name",
+    "Province"
+  ]
+}

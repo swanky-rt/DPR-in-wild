@@ -1,0 +1,468 @@
+{
+  "table_id": "T2595",
+  "uid": "15f60c02-c69a-5e38-8662-518b1bd01036",
+  "source": "HybridQA",
+  "source_table_id": "15f60c02-c69a-5e38-8662-518b1bd01036",
+  "domain": "HybridQA",
+  "title": "2012 Campeonato Baiano",
+  "columns": [
+    "Club",
+    "Home city",
+    "2011 result"
+  ],
+  "rows": [
+    [
+      [
+        "Atlético de Alagoinhas",
+        [
+          "/wiki/Alagoinhas_Atlético_Clube"
+        ]
+      ],
+      [
+        "Alagoinhas",
+        [
+          "/wiki/Alagoinhas"
+        ]
+      ],
+      [
+        "6th",
+        []
+      ]
+    ],
+    [
+      [
+        "Bahia",
+        [
+          "/wiki/Esporte_Clube_Bahia"
+        ]
+      ],
+      [
+        "Salvador",
+        [
+          "/wiki/Salvador,_Bahia"
+        ]
+      ],
+      [
+        "3rd",
+        []
+      ]
+    ],
+    [
+      [
+        "Bahia de Feira",
+        [
+          "/wiki/Associação_Desportiva_Bahia_de_Feira"
+        ]
+      ],
+      [
+        "Feira de Santana",
+        [
+          "/wiki/Feira_de_Santana"
+        ]
+      ],
+      [
+        "1st",
+        []
+      ]
+    ],
+    [
+      [
+        "Camaçari",
+        [
+          "/wiki/Camaçari_Futebol_Clube"
+        ]
+      ],
+      [
+        "Camaçari",
+        [
+          "/wiki/Camaçari"
+        ]
+      ],
+      [
+        "8th",
+        []
+      ]
+    ],
+    [
+      [
+        "Feirense",
+        [
+          "/wiki/Feirense_Futebol_Clube"
+        ]
+      ],
+      [
+        "Feira de Santana",
+        [
+          "/wiki/Feira_de_Santana"
+        ]
+      ],
+      [
+        "7th",
+        []
+      ]
+    ],
+    [
+      [
+        "Fluminense de Feira",
+        [
+          "/wiki/Fluminense_de_Feira_Futebol_Clube"
+        ]
+      ],
+      [
+        "Feira de Santana",
+        [
+          "/wiki/Feira_de_Santana"
+        ]
+      ],
+      [
+        "9th",
+        []
+      ]
+    ],
+    [
+      [
+        "Itabuna",
+        [
+          "/wiki/Itabuna_Esporte_Clube"
+        ]
+      ],
+      [
+        "Itabuna",
+        [
+          "/wiki/Itabuna"
+        ]
+      ],
+      [
+        "2nd ( 2nd division )",
+        []
+      ]
+    ],
+    [
+      [
+        "Juazeiro",
+        [
+          "/wiki/Juazeiro_Social_Clube"
+        ]
+      ],
+      [
+        "Juazeiro",
+        [
+          "/wiki/Juazeiro"
+        ]
+      ],
+      [
+        "10th",
+        []
+      ]
+    ],
+    [
+      [
+        "Juazeirense",
+        [
+          "/wiki/Sociedade_Desportiva_Juazeirense"
+        ]
+      ],
+      [
+        "Juazeiro",
+        [
+          "/wiki/Juazeiro"
+        ]
+      ],
+      [
+        "1st ( 2nd division )",
+        []
+      ]
+    ],
+    [
+      [
+        "Serrano",
+        [
+          "/wiki/Serrano_Sport_Club"
+        ]
+      ],
+      [
+        "Vitória da Conquista",
+        [
+          "/wiki/Vitória_da_Conquista"
+        ]
+      ],
+      [
+        "4th",
+        []
+      ]
+    ],
+    [
+      [
+        "Vitória",
+        [
+          "/wiki/Esporte_Clube_Vitória"
+        ]
+      ],
+      [
+        "Salvador",
+        [
+          "/wiki/Salvador,_Bahia"
+        ]
+      ],
+      [
+        "2nd",
+        []
+      ]
+    ],
+    [
+      [
+        "Vitória da Conquista",
+        [
+          "/wiki/Esporte_Clube_Primeiro_Passo_Vitória_da_Conquista"
+        ]
+      ],
+      [
+        "Vitória da Conquista",
+        [
+          "/wiki/Vitória_da_Conquista"
+        ]
+      ],
+      [
+        "5th",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "15f60c02-c69a-5e38-8662-518b1bd01036",
+    "table_id": "2012_Campeonato_Baiano_0",
+    "title": "2012 Campeonato Baiano",
+    "header": [
+      "Club",
+      "Home city",
+      "2011 result"
+    ],
+    "value": [
+      [
+        [
+          "Atlético de Alagoinhas",
+          [
+            "/wiki/Alagoinhas_Atlético_Clube"
+          ]
+        ],
+        [
+          "Alagoinhas",
+          [
+            "/wiki/Alagoinhas"
+          ]
+        ],
+        [
+          "6th",
+          []
+        ]
+      ],
+      [
+        [
+          "Bahia",
+          [
+            "/wiki/Esporte_Clube_Bahia"
+          ]
+        ],
+        [
+          "Salvador",
+          [
+            "/wiki/Salvador,_Bahia"
+          ]
+        ],
+        [
+          "3rd",
+          []
+        ]
+      ],
+      [
+        [
+          "Bahia de Feira",
+          [
+            "/wiki/Associação_Desportiva_Bahia_de_Feira"
+          ]
+        ],
+        [
+          "Feira de Santana",
+          [
+            "/wiki/Feira_de_Santana"
+          ]
+        ],
+        [
+          "1st",
+          []
+        ]
+      ],
+      [
+        [
+          "Camaçari",
+          [
+            "/wiki/Camaçari_Futebol_Clube"
+          ]
+        ],
+        [
+          "Camaçari",
+          [
+            "/wiki/Camaçari"
+          ]
+        ],
+        [
+          "8th",
+          []
+        ]
+      ],
+      [
+        [
+          "Feirense",
+          [
+            "/wiki/Feirense_Futebol_Clube"
+          ]
+        ],
+        [
+          "Feira de Santana",
+          [
+            "/wiki/Feira_de_Santana"
+          ]
+        ],
+        [
+          "7th",
+          []
+        ]
+      ],
+      [
+        [
+          "Fluminense de Feira",
+          [
+            "/wiki/Fluminense_de_Feira_Futebol_Clube"
+          ]
+        ],
+        [
+          "Feira de Santana",
+          [
+            "/wiki/Feira_de_Santana"
+          ]
+        ],
+        [
+          "9th",
+          []
+        ]
+      ],
+      [
+        [
+          "Itabuna",
+          [
+            "/wiki/Itabuna_Esporte_Clube"
+          ]
+        ],
+        [
+          "Itabuna",
+          [
+            "/wiki/Itabuna"
+          ]
+        ],
+        [
+          "2nd ( 2nd division )",
+          []
+        ]
+      ],
+      [
+        [
+          "Juazeiro",
+          [
+            "/wiki/Juazeiro_Social_Clube"
+          ]
+        ],
+        [
+          "Juazeiro",
+          [
+            "/wiki/Juazeiro"
+          ]
+        ],
+        [
+          "10th",
+          []
+        ]
+      ],
+      [
+        [
+          "Juazeirense",
+          [
+            "/wiki/Sociedade_Desportiva_Juazeirense"
+          ]
+        ],
+        [
+          "Juazeiro",
+          [
+            "/wiki/Juazeiro"
+          ]
+        ],
+        [
+          "1st ( 2nd division )",
+          []
+        ]
+      ],
+      [
+        [
+          "Serrano",
+          [
+            "/wiki/Serrano_Sport_Club"
+          ]
+        ],
+        [
+          "Vitória da Conquista",
+          [
+            "/wiki/Vitória_da_Conquista"
+          ]
+        ],
+        [
+          "4th",
+          []
+        ]
+      ],
+      [
+        [
+          "Vitória",
+          [
+            "/wiki/Esporte_Clube_Vitória"
+          ]
+        ],
+        [
+          "Salvador",
+          [
+            "/wiki/Salvador,_Bahia"
+          ]
+        ],
+        [
+          "2nd",
+          []
+        ]
+      ],
+      [
+        [
+          "Vitória da Conquista",
+          [
+            "/wiki/Esporte_Clube_Primeiro_Passo_Vitória_da_Conquista"
+          ]
+        ],
+        [
+          "Vitória da Conquista",
+          [
+            "/wiki/Vitória_da_Conquista"
+          ]
+        ],
+        [
+          "5th",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about clubs that participated in the 2012 Campeonato Baiano, a football competition in Brazil. It includes details about the clubs, their home cities, and their performance in the 2011 season. The table is useful for understanding the participating teams and their prior standings.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "2011 result"
+  ],
+  "entities": [
+    "Club",
+    "Home city"
+  ]
+}

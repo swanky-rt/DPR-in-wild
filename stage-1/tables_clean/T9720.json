@@ -1,0 +1,612 @@
+{
+  "table_id": "T9720",
+  "uid": "5ed90512-76b3-59d8-a726-a55ec3318d8b",
+  "source": "HybridQA",
+  "source_table_id": "5ed90512-76b3-59d8-a726-a55ec3318d8b",
+  "domain": "HybridQA",
+  "title": "Kakkonen",
+  "columns": [
+    "No",
+    "Abbreviated Name",
+    "Town or Settlement",
+    "Official Club and Team Name"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Kiffen",
+        [
+          "/wiki/FC_Kiffen_08"
+        ]
+      ],
+      [
+        "Helsinki",
+        [
+          "/wiki/Helsinki"
+        ]
+      ],
+      [
+        "Kronohagens Idrottsförening",
+        [
+          "/wiki/FC_Kiffen_08"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "FC Lahti Akatemia",
+        [
+          "/wiki/FC_Kuusysi"
+        ]
+      ],
+      [
+        "Lahti",
+        [
+          "/wiki/Lahti"
+        ]
+      ],
+      [
+        "FC Kuusysi",
+        [
+          "/wiki/FC_Kuusysi"
+        ]
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "FC Legirus Inter",
+        []
+      ],
+      [
+        "Vantaa",
+        [
+          "/wiki/Vantaa"
+        ]
+      ],
+      [
+        "FC Legirus Inter",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "JäPS",
+        [
+          "/wiki/Jarvenpaan_Palloseura"
+        ]
+      ],
+      [
+        "Järvenpää",
+        [
+          "/wiki/Järvenpää"
+        ]
+      ],
+      [
+        "Järvenpään Palloseura",
+        [
+          "/wiki/Jarvenpaan_Palloseura"
+        ]
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Klubi 04",
+        [
+          "/wiki/Klubi_04"
+        ]
+      ],
+      [
+        "Helsinki",
+        [
+          "/wiki/Helsinki"
+        ]
+      ],
+      [
+        "Klubi 04",
+        [
+          "/wiki/Klubi_04"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "KTP",
+        [
+          "/wiki/Kotkan_Työväen_Palloilijat"
+        ]
+      ],
+      [
+        "Kotka",
+        [
+          "/wiki/Kotka"
+        ]
+      ],
+      [
+        "Kotkan Työväen Palloilijat",
+        [
+          "/wiki/Kotkan_Työväen_Palloilijat"
+        ]
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Kultsu FC",
+        [
+          "/wiki/Kultsu_FC"
+        ]
+      ],
+      [
+        "Lappeenranta",
+        [
+          "/wiki/Lappeenranta"
+        ]
+      ],
+      [
+        "Kultsu FC",
+        [
+          "/wiki/Kultsu_FC"
+        ]
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "MiPK",
+        [
+          "/wiki/Mikkelin_Kissat"
+        ]
+      ],
+      [
+        "Mikkeli",
+        [
+          "/wiki/Mikkeli"
+        ]
+      ],
+      [
+        "Mikkelin Pallo-Kissat",
+        [
+          "/wiki/Mikkelin_Kissat"
+        ]
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "MP",
+        [
+          "/wiki/Mikkelin_Palloilijat"
+        ]
+      ],
+      [
+        "Mikkeli",
+        [
+          "/wiki/Mikkeli"
+        ]
+      ],
+      [
+        "Mikkelin Palloilijat",
+        [
+          "/wiki/Mikkelin_Palloilijat"
+        ]
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "PEPO",
+        [
+          "/wiki/PEPO"
+        ]
+      ],
+      [
+        "Lappeenranta",
+        [
+          "/wiki/Lappeenranta"
+        ]
+      ],
+      [
+        "PEPO Lappeenranta",
+        [
+          "/wiki/PEPO_Lappeenranta"
+        ]
+      ]
+    ],
+    [
+      [
+        11,
+        []
+      ],
+      [
+        "PKKU",
+        [
+          "/wiki/Pallokerho_Keski-Uusimaa"
+        ]
+      ],
+      [
+        "Järvenpää , Kerava and Tuusula",
+        [
+          "/wiki/Järvenpää",
+          "/wiki/Kerava",
+          "/wiki/Tuusula"
+        ]
+      ],
+      [
+        "Pallokerho Keski-Uusimaa",
+        [
+          "/wiki/Pallokerho_Keski-Uusimaa"
+        ]
+      ]
+    ],
+    [
+      [
+        12,
+        []
+      ],
+      [
+        "Sudet",
+        [
+          "/wiki/Sudet"
+        ]
+      ],
+      [
+        "Kouvola",
+        [
+          "/wiki/Kouvola"
+        ]
+      ],
+      [
+        "Sudet",
+        [
+          "/wiki/Sudet"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "5ed90512-76b3-59d8-a726-a55ec3318d8b",
+    "table_id": "Kakkonen_0",
+    "title": "Kakkonen",
+    "header": [
+      "No",
+      "Abbreviated Name",
+      "Town or Settlement",
+      "Official Club and Team Name"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Kiffen",
+          [
+            "/wiki/FC_Kiffen_08"
+          ]
+        ],
+        [
+          "Helsinki",
+          [
+            "/wiki/Helsinki"
+          ]
+        ],
+        [
+          "Kronohagens Idrottsförening",
+          [
+            "/wiki/FC_Kiffen_08"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "FC Lahti Akatemia",
+          [
+            "/wiki/FC_Kuusysi"
+          ]
+        ],
+        [
+          "Lahti",
+          [
+            "/wiki/Lahti"
+          ]
+        ],
+        [
+          "FC Kuusysi",
+          [
+            "/wiki/FC_Kuusysi"
+          ]
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "FC Legirus Inter",
+          []
+        ],
+        [
+          "Vantaa",
+          [
+            "/wiki/Vantaa"
+          ]
+        ],
+        [
+          "FC Legirus Inter",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "JäPS",
+          [
+            "/wiki/Jarvenpaan_Palloseura"
+          ]
+        ],
+        [
+          "Järvenpää",
+          [
+            "/wiki/Järvenpää"
+          ]
+        ],
+        [
+          "Järvenpään Palloseura",
+          [
+            "/wiki/Jarvenpaan_Palloseura"
+          ]
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Klubi 04",
+          [
+            "/wiki/Klubi_04"
+          ]
+        ],
+        [
+          "Helsinki",
+          [
+            "/wiki/Helsinki"
+          ]
+        ],
+        [
+          "Klubi 04",
+          [
+            "/wiki/Klubi_04"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "KTP",
+          [
+            "/wiki/Kotkan_Työväen_Palloilijat"
+          ]
+        ],
+        [
+          "Kotka",
+          [
+            "/wiki/Kotka"
+          ]
+        ],
+        [
+          "Kotkan Työväen Palloilijat",
+          [
+            "/wiki/Kotkan_Työväen_Palloilijat"
+          ]
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Kultsu FC",
+          [
+            "/wiki/Kultsu_FC"
+          ]
+        ],
+        [
+          "Lappeenranta",
+          [
+            "/wiki/Lappeenranta"
+          ]
+        ],
+        [
+          "Kultsu FC",
+          [
+            "/wiki/Kultsu_FC"
+          ]
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "MiPK",
+          [
+            "/wiki/Mikkelin_Kissat"
+          ]
+        ],
+        [
+          "Mikkeli",
+          [
+            "/wiki/Mikkeli"
+          ]
+        ],
+        [
+          "Mikkelin Pallo-Kissat",
+          [
+            "/wiki/Mikkelin_Kissat"
+          ]
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "MP",
+          [
+            "/wiki/Mikkelin_Palloilijat"
+          ]
+        ],
+        [
+          "Mikkeli",
+          [
+            "/wiki/Mikkeli"
+          ]
+        ],
+        [
+          "Mikkelin Palloilijat",
+          [
+            "/wiki/Mikkelin_Palloilijat"
+          ]
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "PEPO",
+          [
+            "/wiki/PEPO"
+          ]
+        ],
+        [
+          "Lappeenranta",
+          [
+            "/wiki/Lappeenranta"
+          ]
+        ],
+        [
+          "PEPO Lappeenranta",
+          [
+            "/wiki/PEPO_Lappeenranta"
+          ]
+        ]
+      ],
+      [
+        [
+          11,
+          []
+        ],
+        [
+          "PKKU",
+          [
+            "/wiki/Pallokerho_Keski-Uusimaa"
+          ]
+        ],
+        [
+          "Järvenpää , Kerava and Tuusula",
+          [
+            "/wiki/Järvenpää",
+            "/wiki/Kerava",
+            "/wiki/Tuusula"
+          ]
+        ],
+        [
+          "Pallokerho Keski-Uusimaa",
+          [
+            "/wiki/Pallokerho_Keski-Uusimaa"
+          ]
+        ]
+      ],
+      [
+        [
+          12,
+          []
+        ],
+        [
+          "Sudet",
+          [
+            "/wiki/Sudet"
+          ]
+        ],
+        [
+          "Kouvola",
+          [
+            "/wiki/Kouvola"
+          ]
+        ],
+        [
+          "Sudet",
+          [
+            "/wiki/Sudet"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about football clubs and teams in a specific league or competition, including their abbreviated names, official names, and associated towns or settlements. It appears to serve as a reference for identifying clubs and their geographical locations. The data may be used for organizational, historical, or analytical purposes within the domain of sports and hybrid knowledge representation.",
+  "numeric_columns": [
+    "No"
+  ],
+  "categorical_columns": [
+    "Abbreviated Name",
+    "Official Club and Team Name"
+  ],
+  "entities": [
+    "Town or Settlement"
+  ]
+}

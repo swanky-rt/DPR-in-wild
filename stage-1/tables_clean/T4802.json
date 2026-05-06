@@ -1,0 +1,647 @@
+{
+  "table_id": "T4802",
+  "uid": "714d992a-d2ab-5667-b029-d13b55ecb038",
+  "source": "HybridQA",
+  "source_table_id": "714d992a-d2ab-5667-b029-d13b55ecb038",
+  "domain": "HybridQA",
+  "title": "Comparison of TLS implementations",
+  "columns": [
+    "Implementation",
+    "TPM support",
+    "Hardware token support",
+    "Objects identified via"
+  ],
+  "rows": [
+    [
+      [
+        "Botan",
+        [
+          "/wiki/Botan_(programming_library)"
+        ]
+      ],
+      [
+        "Partial",
+        []
+      ],
+      [
+        "PKCS11",
+        [
+          "/wiki/PKCS11"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "cryptlib",
+        [
+          "/wiki/Cryptlib"
+        ]
+      ],
+      [
+        "No",
+        []
+      ],
+      [
+        "PKCS11",
+        [
+          "/wiki/PKCS11"
+        ]
+      ],
+      [
+        "User-defined label",
+        []
+      ]
+    ],
+    [
+      [
+        "GnuTLS",
+        [
+          "/wiki/GnuTLS"
+        ]
+      ],
+      [
+        "Yes",
+        []
+      ],
+      [
+        "PKCS11",
+        [
+          "/wiki/PKCS11"
+        ]
+      ],
+      [
+        "RFC7512 PKCS # 11 URLs",
+        []
+      ]
+    ],
+    [
+      [
+        "JSSE",
+        [
+          "/wiki/Java_Secure_Socket_Extension"
+        ]
+      ],
+      [
+        "No",
+        []
+      ],
+      [
+        "PKCS11 Java Cryptography Architecture , Java Cryptography Extension",
+        [
+          "/wiki/PKCS11",
+          "/wiki/Java_Cryptography_Architecture",
+          "/wiki/Java_Cryptography_Extension"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "LibreSSL",
+        [
+          "/wiki/LibreSSL"
+        ]
+      ],
+      [
+        "Yes",
+        []
+      ],
+      [
+        "PKCS11 ( via 3rd party module )",
+        [
+          "/wiki/PKCS11"
+        ]
+      ],
+      [
+        "Custom method",
+        []
+      ]
+    ],
+    [
+      [
+        "MatrixSSL",
+        [
+          "/wiki/MatrixSSL"
+        ]
+      ],
+      [
+        "No",
+        []
+      ],
+      [
+        "PKCS11",
+        [
+          "/wiki/PKCS11"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Mbed TLS",
+        [
+          "/wiki/Mbed_TLS"
+        ]
+      ],
+      [
+        "No",
+        []
+      ],
+      [
+        "PKCS11 ( via libpkcs11-helper ) or standard hooks",
+        [
+          "/wiki/PKCS11"
+        ]
+      ],
+      [
+        "Custom method",
+        []
+      ]
+    ],
+    [
+      [
+        "NSS",
+        [
+          "/wiki/Network_Security_Services"
+        ]
+      ],
+      [
+        "No",
+        []
+      ],
+      [
+        "PKCS11",
+        [
+          "/wiki/PKCS11"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "OpenSSL",
+        [
+          "/wiki/OpenSSL"
+        ]
+      ],
+      [
+        "Yes",
+        []
+      ],
+      [
+        "PKCS11 ( via 3rd party module )",
+        [
+          "/wiki/PKCS11"
+        ]
+      ],
+      [
+        "RFC7512 PKCS # 11 URLs",
+        []
+      ]
+    ],
+    [
+      [
+        "RSA BSAFE Micro-Edition Suite",
+        [
+          "/wiki/RSA_BSAFE"
+        ]
+      ],
+      [
+        "No",
+        []
+      ],
+      [
+        "PKCS11 ( via 3rd party module )",
+        [
+          "/wiki/PKCS11"
+        ]
+      ],
+      [
+        "User-defined label",
+        []
+      ]
+    ],
+    [
+      [
+        "RSA BSAFE SSL-J",
+        [
+          "/wiki/RSA_BSAFE"
+        ]
+      ],
+      [
+        "No",
+        []
+      ],
+      [
+        "No",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "SChannel",
+        [
+          "/wiki/SChannel"
+        ]
+      ],
+      [
+        "No",
+        []
+      ],
+      [
+        "Microsoft CryptoAPI",
+        [
+          "/wiki/Microsoft_CryptoAPI"
+        ]
+      ],
+      [
+        "UUID , User-defined label",
+        []
+      ]
+    ],
+    [
+      [
+        "wolfSSL",
+        [
+          "/wiki/WolfSSL"
+        ]
+      ],
+      [
+        "Yes",
+        []
+      ],
+      [
+        "PKCS11",
+        [
+          "/wiki/PKCS11"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Implementation",
+        []
+      ],
+      [
+        "TPM support",
+        []
+      ],
+      [
+        "Hardware token support",
+        []
+      ],
+      [
+        "Objects identified via",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "714d992a-d2ab-5667-b029-d13b55ecb038",
+    "table_id": "Comparison_of_TLS_implementations_17",
+    "title": "Comparison of TLS implementations",
+    "header": [
+      "Implementation",
+      "TPM support",
+      "Hardware token support",
+      "Objects identified via"
+    ],
+    "value": [
+      [
+        [
+          "Botan",
+          [
+            "/wiki/Botan_(programming_library)"
+          ]
+        ],
+        [
+          "Partial",
+          []
+        ],
+        [
+          "PKCS11",
+          [
+            "/wiki/PKCS11"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "cryptlib",
+          [
+            "/wiki/Cryptlib"
+          ]
+        ],
+        [
+          "No",
+          []
+        ],
+        [
+          "PKCS11",
+          [
+            "/wiki/PKCS11"
+          ]
+        ],
+        [
+          "User-defined label",
+          []
+        ]
+      ],
+      [
+        [
+          "GnuTLS",
+          [
+            "/wiki/GnuTLS"
+          ]
+        ],
+        [
+          "Yes",
+          []
+        ],
+        [
+          "PKCS11",
+          [
+            "/wiki/PKCS11"
+          ]
+        ],
+        [
+          "RFC7512 PKCS # 11 URLs",
+          []
+        ]
+      ],
+      [
+        [
+          "JSSE",
+          [
+            "/wiki/Java_Secure_Socket_Extension"
+          ]
+        ],
+        [
+          "No",
+          []
+        ],
+        [
+          "PKCS11 Java Cryptography Architecture , Java Cryptography Extension",
+          [
+            "/wiki/PKCS11",
+            "/wiki/Java_Cryptography_Architecture",
+            "/wiki/Java_Cryptography_Extension"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "LibreSSL",
+          [
+            "/wiki/LibreSSL"
+          ]
+        ],
+        [
+          "Yes",
+          []
+        ],
+        [
+          "PKCS11 ( via 3rd party module )",
+          [
+            "/wiki/PKCS11"
+          ]
+        ],
+        [
+          "Custom method",
+          []
+        ]
+      ],
+      [
+        [
+          "MatrixSSL",
+          [
+            "/wiki/MatrixSSL"
+          ]
+        ],
+        [
+          "No",
+          []
+        ],
+        [
+          "PKCS11",
+          [
+            "/wiki/PKCS11"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Mbed TLS",
+          [
+            "/wiki/Mbed_TLS"
+          ]
+        ],
+        [
+          "No",
+          []
+        ],
+        [
+          "PKCS11 ( via libpkcs11-helper ) or standard hooks",
+          [
+            "/wiki/PKCS11"
+          ]
+        ],
+        [
+          "Custom method",
+          []
+        ]
+      ],
+      [
+        [
+          "NSS",
+          [
+            "/wiki/Network_Security_Services"
+          ]
+        ],
+        [
+          "No",
+          []
+        ],
+        [
+          "PKCS11",
+          [
+            "/wiki/PKCS11"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "OpenSSL",
+          [
+            "/wiki/OpenSSL"
+          ]
+        ],
+        [
+          "Yes",
+          []
+        ],
+        [
+          "PKCS11 ( via 3rd party module )",
+          [
+            "/wiki/PKCS11"
+          ]
+        ],
+        [
+          "RFC7512 PKCS # 11 URLs",
+          []
+        ]
+      ],
+      [
+        [
+          "RSA BSAFE Micro-Edition Suite",
+          [
+            "/wiki/RSA_BSAFE"
+          ]
+        ],
+        [
+          "No",
+          []
+        ],
+        [
+          "PKCS11 ( via 3rd party module )",
+          [
+            "/wiki/PKCS11"
+          ]
+        ],
+        [
+          "User-defined label",
+          []
+        ]
+      ],
+      [
+        [
+          "RSA BSAFE SSL-J",
+          [
+            "/wiki/RSA_BSAFE"
+          ]
+        ],
+        [
+          "No",
+          []
+        ],
+        [
+          "No",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "SChannel",
+          [
+            "/wiki/SChannel"
+          ]
+        ],
+        [
+          "No",
+          []
+        ],
+        [
+          "Microsoft CryptoAPI",
+          [
+            "/wiki/Microsoft_CryptoAPI"
+          ]
+        ],
+        [
+          "UUID , User-defined label",
+          []
+        ]
+      ],
+      [
+        [
+          "wolfSSL",
+          [
+            "/wiki/WolfSSL"
+          ]
+        ],
+        [
+          "Yes",
+          []
+        ],
+        [
+          "PKCS11",
+          [
+            "/wiki/PKCS11"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Implementation",
+          []
+        ],
+        [
+          "TPM support",
+          []
+        ],
+        [
+          "Hardware token support",
+          []
+        ],
+        [
+          "Objects identified via",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides a comparison of different TLS (Transport Layer Security) implementations, focusing on their support for specific features and methods of identifying objects. It is intended to help users understand the capabilities and limitations of various TLS libraries or tools in terms of hardware and software integration.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "TPM support",
+    "Hardware token support",
+    "Objects identified via"
+  ],
+  "entities": [
+    "Implementation"
+  ]
+}

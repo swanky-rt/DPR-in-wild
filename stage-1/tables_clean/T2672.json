@@ -1,0 +1,469 @@
+{
+  "table_id": "T2672",
+  "uid": "1ed050af-8db4-507d-80ce-430f4d1024d2",
+  "source": "HybridQA",
+  "source_table_id": "1ed050af-8db4-507d-80ce-430f4d1024d2",
+  "domain": "HybridQA",
+  "title": "2008 S.League",
+  "columns": [
+    "Team",
+    "Stadium",
+    "Capacity"
+  ],
+  "rows": [
+    [
+      [
+        "Albirex Niigata ( S )",
+        [
+          "/wiki/Albirex_Niigata_(S)"
+        ]
+      ],
+      [
+        "Jurong East Stadium",
+        [
+          "/wiki/Jurong_East_Stadium"
+        ]
+      ],
+      [
+        "2,700",
+        []
+      ]
+    ],
+    [
+      [
+        "Balestier Khalsa",
+        [
+          "/wiki/Balestier_Khalsa"
+        ]
+      ],
+      [
+        "Toa Payoh Stadium",
+        [
+          "/wiki/Toa_Payoh_Stadium"
+        ]
+      ],
+      [
+        "3,896",
+        []
+      ]
+    ],
+    [
+      [
+        "Dalian Shide",
+        [
+          "/wiki/Dalian_Shide_Siwu_FC"
+        ]
+      ],
+      [
+        "Queenstown Stadium",
+        [
+          "/wiki/Queenstown_Stadium"
+        ]
+      ],
+      [
+        "3,800",
+        []
+      ]
+    ],
+    [
+      [
+        "Geylang United",
+        [
+          "/wiki/Geylang_United"
+        ]
+      ],
+      [
+        "Bedok Stadium",
+        [
+          "/wiki/Bedok_Stadium"
+        ]
+      ],
+      [
+        "3,864",
+        []
+      ]
+    ],
+    [
+      [
+        "Gombak United",
+        [
+          "/wiki/Gombak_United"
+        ]
+      ],
+      [
+        "Jurong West Stadium",
+        [
+          "/wiki/Jurong_West_Stadium"
+        ]
+      ],
+      [
+        "4,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Home United",
+        [
+          "/wiki/Home_United"
+        ]
+      ],
+      [
+        "Bishan Stadium",
+        [
+          "/wiki/Bishan_Stadium"
+        ]
+      ],
+      [
+        "4,254",
+        []
+      ]
+    ],
+    [
+      [
+        "Singapore Armed Forces",
+        [
+          "/wiki/SAFFC"
+        ]
+      ],
+      [
+        "Choa Chu Kang Stadium",
+        [
+          "/wiki/Choa_Chu_Kang_Stadium"
+        ]
+      ],
+      [
+        "4,600",
+        []
+      ]
+    ],
+    [
+      [
+        "Sengkang Punggol",
+        [
+          "/wiki/Sengkang_Punggol"
+        ]
+      ],
+      [
+        "Hougang Stadium",
+        [
+          "/wiki/Hougang_Stadium"
+        ]
+      ],
+      [
+        "2,500",
+        []
+      ]
+    ],
+    [
+      [
+        "Super Reds",
+        [
+          "/wiki/Super_Reds"
+        ]
+      ],
+      [
+        "Yishun Stadium",
+        [
+          "/wiki/Yishun_Stadium"
+        ]
+      ],
+      [
+        "3,400",
+        []
+      ]
+    ],
+    [
+      [
+        "Tampines Rovers",
+        [
+          "/wiki/Tampines_Rovers"
+        ]
+      ],
+      [
+        "Tampines Stadium",
+        [
+          "/wiki/Tampines_Stadium"
+        ]
+      ],
+      [
+        "3,580",
+        []
+      ]
+    ],
+    [
+      [
+        "Woodlands Wellington",
+        [
+          "/wiki/Woodlands_Wellington"
+        ]
+      ],
+      [
+        "Woodlands Stadium",
+        [
+          "/wiki/Woodlands_Stadium"
+        ]
+      ],
+      [
+        "4,300",
+        []
+      ]
+    ],
+    [
+      [
+        "Young Lions",
+        [
+          "/wiki/Young_Lions_(football_team)"
+        ]
+      ],
+      [
+        "Jalan Besar Stadium",
+        [
+          "/wiki/Jalan_Besar_Stadium"
+        ]
+      ],
+      [
+        "6,000",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "1ed050af-8db4-507d-80ce-430f4d1024d2",
+    "table_id": "2008_S.League_0",
+    "title": "2008 S.League",
+    "header": [
+      "Team",
+      "Stadium",
+      "Capacity"
+    ],
+    "value": [
+      [
+        [
+          "Albirex Niigata ( S )",
+          [
+            "/wiki/Albirex_Niigata_(S)"
+          ]
+        ],
+        [
+          "Jurong East Stadium",
+          [
+            "/wiki/Jurong_East_Stadium"
+          ]
+        ],
+        [
+          "2,700",
+          []
+        ]
+      ],
+      [
+        [
+          "Balestier Khalsa",
+          [
+            "/wiki/Balestier_Khalsa"
+          ]
+        ],
+        [
+          "Toa Payoh Stadium",
+          [
+            "/wiki/Toa_Payoh_Stadium"
+          ]
+        ],
+        [
+          "3,896",
+          []
+        ]
+      ],
+      [
+        [
+          "Dalian Shide",
+          [
+            "/wiki/Dalian_Shide_Siwu_FC"
+          ]
+        ],
+        [
+          "Queenstown Stadium",
+          [
+            "/wiki/Queenstown_Stadium"
+          ]
+        ],
+        [
+          "3,800",
+          []
+        ]
+      ],
+      [
+        [
+          "Geylang United",
+          [
+            "/wiki/Geylang_United"
+          ]
+        ],
+        [
+          "Bedok Stadium",
+          [
+            "/wiki/Bedok_Stadium"
+          ]
+        ],
+        [
+          "3,864",
+          []
+        ]
+      ],
+      [
+        [
+          "Gombak United",
+          [
+            "/wiki/Gombak_United"
+          ]
+        ],
+        [
+          "Jurong West Stadium",
+          [
+            "/wiki/Jurong_West_Stadium"
+          ]
+        ],
+        [
+          "4,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Home United",
+          [
+            "/wiki/Home_United"
+          ]
+        ],
+        [
+          "Bishan Stadium",
+          [
+            "/wiki/Bishan_Stadium"
+          ]
+        ],
+        [
+          "4,254",
+          []
+        ]
+      ],
+      [
+        [
+          "Singapore Armed Forces",
+          [
+            "/wiki/SAFFC"
+          ]
+        ],
+        [
+          "Choa Chu Kang Stadium",
+          [
+            "/wiki/Choa_Chu_Kang_Stadium"
+          ]
+        ],
+        [
+          "4,600",
+          []
+        ]
+      ],
+      [
+        [
+          "Sengkang Punggol",
+          [
+            "/wiki/Sengkang_Punggol"
+          ]
+        ],
+        [
+          "Hougang Stadium",
+          [
+            "/wiki/Hougang_Stadium"
+          ]
+        ],
+        [
+          "2,500",
+          []
+        ]
+      ],
+      [
+        [
+          "Super Reds",
+          [
+            "/wiki/Super_Reds"
+          ]
+        ],
+        [
+          "Yishun Stadium",
+          [
+            "/wiki/Yishun_Stadium"
+          ]
+        ],
+        [
+          "3,400",
+          []
+        ]
+      ],
+      [
+        [
+          "Tampines Rovers",
+          [
+            "/wiki/Tampines_Rovers"
+          ]
+        ],
+        [
+          "Tampines Stadium",
+          [
+            "/wiki/Tampines_Stadium"
+          ]
+        ],
+        [
+          "3,580",
+          []
+        ]
+      ],
+      [
+        [
+          "Woodlands Wellington",
+          [
+            "/wiki/Woodlands_Wellington"
+          ]
+        ],
+        [
+          "Woodlands Stadium",
+          [
+            "/wiki/Woodlands_Stadium"
+          ]
+        ],
+        [
+          "4,300",
+          []
+        ]
+      ],
+      [
+        [
+          "Young Lions",
+          [
+            "/wiki/Young_Lions_(football_team)"
+          ]
+        ],
+        [
+          "Jalan Besar Stadium",
+          [
+            "/wiki/Jalan_Besar_Stadium"
+          ]
+        ],
+        [
+          "6,000",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about teams participating in the 2008 S.League, including their home stadiums and the seating capacities of those stadiums. It is intended to summarize key details about the league's teams and their venues.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "Stadium"
+  ],
+  "entities": [
+    "Team"
+  ]
+}

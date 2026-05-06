@@ -1,0 +1,324 @@
+{
+  "table_id": "T8223",
+  "uid": "8c5aab65-aefe-5c45-a41f-0a0ba0f13cf8",
+  "source": "HybridQA",
+  "source_table_id": "8c5aab65-aefe-5c45-a41f-0a0ba0f13cf8",
+  "domain": "HybridQA",
+  "title": "Rugby Canada Super League",
+  "columns": [
+    "Team",
+    "City / area",
+    "Seasons"
+  ],
+  "rows": [
+    [
+      [
+        "Calgary Mavericks",
+        [
+          "/wiki/Calgary_Mavericks"
+        ]
+      ],
+      [
+        "Calgary , Alberta",
+        [
+          "/wiki/Calgary,_Alberta"
+        ]
+      ],
+      [
+        "1998-2008",
+        []
+      ]
+    ],
+    [
+      [
+        "Edmonton Gold",
+        [
+          "/wiki/Edmonton_Gold"
+        ]
+      ],
+      [
+        "Edmonton , Alberta",
+        [
+          "/wiki/Edmonton,_Alberta"
+        ]
+      ],
+      [
+        "1998-2008",
+        []
+      ]
+    ],
+    [
+      [
+        "Fraser Valley Venom",
+        [
+          "/wiki/Fraser_Valley_Venom"
+        ]
+      ],
+      [
+        "Fraser Valley , British Columbia",
+        [
+          "/wiki/Fraser_Valley",
+          "/wiki/British_Columbia"
+        ]
+      ],
+      [
+        "1998-2004",
+        []
+      ]
+    ],
+    [
+      [
+        "Manitoba Buffalo",
+        [
+          "/wiki/Manitoba_Buffalo"
+        ]
+      ],
+      [
+        "Winnipeg , Manitoba",
+        [
+          "/wiki/Winnipeg",
+          "/wiki/Manitoba"
+        ]
+      ],
+      [
+        "1998-2001 , 2003-2005",
+        []
+      ]
+    ],
+    [
+      [
+        "Saskatchewan Prairie Fire",
+        [
+          "/wiki/Saskatchewan_Prairie_Fire"
+        ]
+      ],
+      [
+        "Regina , Saskatchewan",
+        [
+          "/wiki/Regina,_Saskatchewan"
+        ]
+      ],
+      [
+        "1998-2008",
+        []
+      ]
+    ],
+    [
+      [
+        "Vancouver Island Crimson Tide",
+        [
+          "/wiki/Vancouver_Island_Crimson_Tide"
+        ]
+      ],
+      [
+        "Victoria , British Columbia",
+        [
+          "/wiki/Victoria,_British_Columbia"
+        ]
+      ],
+      [
+        "1998-2008",
+        []
+      ]
+    ],
+    [
+      [
+        "Vancouver Island Raiders",
+        []
+      ],
+      [
+        "Vancouver Island",
+        [
+          "/wiki/Vancouver_Island"
+        ]
+      ],
+      [
+        2005,
+        []
+      ]
+    ],
+    [
+      [
+        "Vancouver Wave",
+        [
+          "/wiki/Vancouver_Wave"
+        ]
+      ],
+      [
+        "Vancouver , British Columbia",
+        [
+          "/wiki/Vancouver,_British_Columbia"
+        ]
+      ],
+      [
+        "1998-1999 , 2002-2008",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "8c5aab65-aefe-5c45-a41f-0a0ba0f13cf8",
+    "table_id": "Rugby_Canada_Super_League_0",
+    "title": "Rugby Canada Super League",
+    "header": [
+      "Team",
+      "City / area",
+      "Seasons"
+    ],
+    "value": [
+      [
+        [
+          "Calgary Mavericks",
+          [
+            "/wiki/Calgary_Mavericks"
+          ]
+        ],
+        [
+          "Calgary , Alberta",
+          [
+            "/wiki/Calgary,_Alberta"
+          ]
+        ],
+        [
+          "1998-2008",
+          []
+        ]
+      ],
+      [
+        [
+          "Edmonton Gold",
+          [
+            "/wiki/Edmonton_Gold"
+          ]
+        ],
+        [
+          "Edmonton , Alberta",
+          [
+            "/wiki/Edmonton,_Alberta"
+          ]
+        ],
+        [
+          "1998-2008",
+          []
+        ]
+      ],
+      [
+        [
+          "Fraser Valley Venom",
+          [
+            "/wiki/Fraser_Valley_Venom"
+          ]
+        ],
+        [
+          "Fraser Valley , British Columbia",
+          [
+            "/wiki/Fraser_Valley",
+            "/wiki/British_Columbia"
+          ]
+        ],
+        [
+          "1998-2004",
+          []
+        ]
+      ],
+      [
+        [
+          "Manitoba Buffalo",
+          [
+            "/wiki/Manitoba_Buffalo"
+          ]
+        ],
+        [
+          "Winnipeg , Manitoba",
+          [
+            "/wiki/Winnipeg",
+            "/wiki/Manitoba"
+          ]
+        ],
+        [
+          "1998-2001 , 2003-2005",
+          []
+        ]
+      ],
+      [
+        [
+          "Saskatchewan Prairie Fire",
+          [
+            "/wiki/Saskatchewan_Prairie_Fire"
+          ]
+        ],
+        [
+          "Regina , Saskatchewan",
+          [
+            "/wiki/Regina,_Saskatchewan"
+          ]
+        ],
+        [
+          "1998-2008",
+          []
+        ]
+      ],
+      [
+        [
+          "Vancouver Island Crimson Tide",
+          [
+            "/wiki/Vancouver_Island_Crimson_Tide"
+          ]
+        ],
+        [
+          "Victoria , British Columbia",
+          [
+            "/wiki/Victoria,_British_Columbia"
+          ]
+        ],
+        [
+          "1998-2008",
+          []
+        ]
+      ],
+      [
+        [
+          "Vancouver Island Raiders",
+          []
+        ],
+        [
+          "Vancouver Island",
+          [
+            "/wiki/Vancouver_Island"
+          ]
+        ],
+        [
+          2005,
+          []
+        ]
+      ],
+      [
+        [
+          "Vancouver Wave",
+          [
+            "/wiki/Vancouver_Wave"
+          ]
+        ],
+        [
+          "Vancouver , British Columbia",
+          [
+            "/wiki/Vancouver,_British_Columbia"
+          ]
+        ],
+        [
+          "1998-1999 , 2002-2008",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about teams in the Rugby Canada Super League, including their associated cities or areas and the seasons they participated in. It serves as a reference for understanding the geographical distribution and historical participation of teams in the league.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Seasons"
+  ],
+  "entities": [
+    "Team",
+    "City / area"
+  ]
+}

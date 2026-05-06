@@ -1,0 +1,392 @@
+{
+  "table_id": "T8257",
+  "uid": "160987e1-0ed2-5f66-97fe-c979446280ee",
+  "source": "HybridQA",
+  "source_table_id": "160987e1-0ed2-5f66-97fe-c979446280ee",
+  "domain": "HybridQA",
+  "title": "Golden sombrero",
+  "columns": [
+    "Player",
+    "Date",
+    "Innings",
+    "Team"
+  ],
+  "rows": [
+    [
+      [
+        "Carl Weilman",
+        [
+          "/wiki/Carl_Weilman"
+        ]
+      ],
+      [
+        "July 25 , 1913",
+        []
+      ],
+      [
+        15,
+        []
+      ],
+      [
+        "St. Louis Browns",
+        [
+          "/wiki/St._Louis_Browns"
+        ]
+      ]
+    ],
+    [
+      [
+        "Don Hoak",
+        [
+          "/wiki/Don_Hoak"
+        ]
+      ],
+      [
+        "May 2 , 1956",
+        []
+      ],
+      [
+        17,
+        []
+      ],
+      [
+        "Chicago Cubs",
+        [
+          "/wiki/Chicago_Cubs"
+        ]
+      ]
+    ],
+    [
+      [
+        "Rick Reichardt",
+        [
+          "/wiki/Rick_Reichardt"
+        ]
+      ],
+      [
+        "May 31 , 1966",
+        []
+      ],
+      [
+        17,
+        []
+      ],
+      [
+        "California Angels",
+        [
+          "/wiki/California_Angels"
+        ]
+      ]
+    ],
+    [
+      [
+        "Billy Cowan",
+        [
+          "/wiki/Billy_Cowan"
+        ]
+      ],
+      [
+        "July 9 , 1971",
+        []
+      ],
+      [
+        20,
+        []
+      ],
+      [
+        "California Angels",
+        [
+          "/wiki/California_Angels"
+        ]
+      ]
+    ],
+    [
+      [
+        "Cecil Cooper",
+        [
+          "/wiki/Cecil_Cooper"
+        ]
+      ],
+      [
+        "June 14 , 1974",
+        []
+      ],
+      [
+        15,
+        []
+      ],
+      [
+        "Boston Red Sox",
+        [
+          "/wiki/Boston_Red_Sox"
+        ]
+      ]
+    ],
+    [
+      [
+        "Sam Horn",
+        [
+          "/wiki/Sam_Horn"
+        ]
+      ],
+      [
+        "July 17 , 1991",
+        []
+      ],
+      [
+        15,
+        []
+      ],
+      [
+        "Baltimore Orioles",
+        [
+          "/wiki/Baltimore_Orioles"
+        ]
+      ]
+    ],
+    [
+      [
+        "Alex Gonzalez",
+        [
+          "/wiki/Alex_Gonzalez_(shortstop,_born_1973)"
+        ]
+      ],
+      [
+        "September 9 , 1998",
+        []
+      ],
+      [
+        13,
+        []
+      ],
+      [
+        "Toronto Blue Jays",
+        [
+          "/wiki/Toronto_Blue_Jays"
+        ]
+      ]
+    ],
+    [
+      [
+        "Geoff Jenkins",
+        [
+          "/wiki/Geoff_Jenkins"
+        ]
+      ],
+      [
+        "June 8 , 2004",
+        []
+      ],
+      [
+        17,
+        []
+      ],
+      [
+        "Milwaukee Brewers",
+        [
+          "/wiki/Milwaukee_Brewers"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "160987e1-0ed2-5f66-97fe-c979446280ee",
+    "table_id": "Golden_sombrero_1",
+    "title": "Golden sombrero",
+    "header": [
+      "Player",
+      "Date",
+      "Innings",
+      "Team"
+    ],
+    "value": [
+      [
+        [
+          "Carl Weilman",
+          [
+            "/wiki/Carl_Weilman"
+          ]
+        ],
+        [
+          "July 25 , 1913",
+          []
+        ],
+        [
+          15,
+          []
+        ],
+        [
+          "St. Louis Browns",
+          [
+            "/wiki/St._Louis_Browns"
+          ]
+        ]
+      ],
+      [
+        [
+          "Don Hoak",
+          [
+            "/wiki/Don_Hoak"
+          ]
+        ],
+        [
+          "May 2 , 1956",
+          []
+        ],
+        [
+          17,
+          []
+        ],
+        [
+          "Chicago Cubs",
+          [
+            "/wiki/Chicago_Cubs"
+          ]
+        ]
+      ],
+      [
+        [
+          "Rick Reichardt",
+          [
+            "/wiki/Rick_Reichardt"
+          ]
+        ],
+        [
+          "May 31 , 1966",
+          []
+        ],
+        [
+          17,
+          []
+        ],
+        [
+          "California Angels",
+          [
+            "/wiki/California_Angels"
+          ]
+        ]
+      ],
+      [
+        [
+          "Billy Cowan",
+          [
+            "/wiki/Billy_Cowan"
+          ]
+        ],
+        [
+          "July 9 , 1971",
+          []
+        ],
+        [
+          20,
+          []
+        ],
+        [
+          "California Angels",
+          [
+            "/wiki/California_Angels"
+          ]
+        ]
+      ],
+      [
+        [
+          "Cecil Cooper",
+          [
+            "/wiki/Cecil_Cooper"
+          ]
+        ],
+        [
+          "June 14 , 1974",
+          []
+        ],
+        [
+          15,
+          []
+        ],
+        [
+          "Boston Red Sox",
+          [
+            "/wiki/Boston_Red_Sox"
+          ]
+        ]
+      ],
+      [
+        [
+          "Sam Horn",
+          [
+            "/wiki/Sam_Horn"
+          ]
+        ],
+        [
+          "July 17 , 1991",
+          []
+        ],
+        [
+          15,
+          []
+        ],
+        [
+          "Baltimore Orioles",
+          [
+            "/wiki/Baltimore_Orioles"
+          ]
+        ]
+      ],
+      [
+        [
+          "Alex Gonzalez",
+          [
+            "/wiki/Alex_Gonzalez_(shortstop,_born_1973)"
+          ]
+        ],
+        [
+          "September 9 , 1998",
+          []
+        ],
+        [
+          13,
+          []
+        ],
+        [
+          "Toronto Blue Jays",
+          [
+            "/wiki/Toronto_Blue_Jays"
+          ]
+        ]
+      ],
+      [
+        [
+          "Geoff Jenkins",
+          [
+            "/wiki/Geoff_Jenkins"
+          ]
+        ],
+        [
+          "June 8 , 2004",
+          []
+        ],
+        [
+          17,
+          []
+        ],
+        [
+          "Milwaukee Brewers",
+          [
+            "/wiki/Milwaukee_Brewers"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about instances of a specific baseball achievement or record, detailing the players involved, the dates it occurred, the innings in which it happened, and the teams associated. It is likely intended to document historical occurrences of this event in the sport of baseball.",
+  "numeric_columns": [
+    "Innings"
+  ],
+  "categorical_columns": [
+    "Date",
+    "Team"
+  ],
+  "entities": [
+    "Player"
+  ]
+}

@@ -1,0 +1,563 @@
+{
+  "table_id": "T5744",
+  "uid": "38937061-8107-5bcf-a425-20254b9132dd",
+  "source": "HybridQA",
+  "source_table_id": "38937061-8107-5bcf-a425-20254b9132dd",
+  "domain": "HybridQA",
+  "title": "Royal Rumble (1999)",
+  "columns": [
+    "Draw",
+    "Entrant",
+    "Faction",
+    "Order",
+    "Eliminated by"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Ken Shamrock",
+        [
+          "/wiki/Ken_Shamrock"
+        ]
+      ],
+      [
+        "The Corporation",
+        [
+          "/wiki/The_Corporation_(professional_wrestling)"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "Himself",
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Billy Gunn",
+        [
+          "/wiki/Billy_Gunn"
+        ]
+      ],
+      [
+        "D-Generation X",
+        [
+          "/wiki/D-Generation_X"
+        ]
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "Test",
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Big Boss Man",
+        [
+          "/wiki/Big_Boss_Man_(wrestler)"
+        ]
+      ],
+      [
+        "The Corporation",
+        [
+          "/wiki/The_Corporation_(professional_wrestling)"
+        ]
+      ],
+      [
+        7,
+        []
+      ],
+      [
+        "McMahon",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Test",
+        [
+          "/wiki/Test_(wrestler)"
+        ]
+      ],
+      [
+        "The Corporation",
+        [
+          "/wiki/The_Corporation_(professional_wrestling)"
+        ]
+      ],
+      [
+        4,
+        []
+      ],
+      [
+        "Kane",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "X-Pac",
+        [
+          "/wiki/X-Pac"
+        ]
+      ],
+      [
+        "D-Generation X",
+        [
+          "/wiki/D-Generation_X"
+        ]
+      ],
+      [
+        6,
+        []
+      ],
+      [
+        "Boss Man",
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Road Dogg",
+        [
+          "/wiki/Road_Dogg"
+        ]
+      ],
+      [
+        "D-Generation X",
+        [
+          "/wiki/D-Generation_X"
+        ]
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        "Kane",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Kane",
+        [
+          "/wiki/Kane_(wrestler)"
+        ]
+      ],
+      [
+        "The Corporation",
+        [
+          "/wiki/The_Corporation_(professional_wrestling)"
+        ]
+      ],
+      [
+        5,
+        []
+      ],
+      [
+        "Triple H",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Triple H",
+        [
+          "/wiki/Triple_H"
+        ]
+      ],
+      [
+        "D-Generation X",
+        [
+          "/wiki/D-Generation_X"
+        ]
+      ],
+      [
+        8,
+        []
+      ],
+      [
+        "McMahon",
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Mr. McMahon",
+        [
+          "/wiki/Mr._McMahon"
+        ]
+      ],
+      [
+        "The Corporation",
+        [
+          "/wiki/The_Corporation_(professional_wrestling)"
+        ]
+      ],
+      [
+        9,
+        []
+      ],
+      [
+        "Chyna",
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Chyna",
+        [
+          "/wiki/Chyna"
+        ]
+      ],
+      [
+        "D-Generation X",
+        [
+          "/wiki/D-Generation_X"
+        ]
+      ],
+      [
+        0,
+        []
+      ],
+      [
+        "Winner",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "38937061-8107-5bcf-a425-20254b9132dd",
+    "table_id": "Royal_Rumble_(1999)_0",
+    "title": "Royal Rumble (1999)",
+    "header": [
+      "Draw",
+      "Entrant",
+      "Faction",
+      "Order",
+      "Eliminated by"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Ken Shamrock",
+          [
+            "/wiki/Ken_Shamrock"
+          ]
+        ],
+        [
+          "The Corporation",
+          [
+            "/wiki/The_Corporation_(professional_wrestling)"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "Himself",
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Billy Gunn",
+          [
+            "/wiki/Billy_Gunn"
+          ]
+        ],
+        [
+          "D-Generation X",
+          [
+            "/wiki/D-Generation_X"
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "Test",
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Big Boss Man",
+          [
+            "/wiki/Big_Boss_Man_(wrestler)"
+          ]
+        ],
+        [
+          "The Corporation",
+          [
+            "/wiki/The_Corporation_(professional_wrestling)"
+          ]
+        ],
+        [
+          7,
+          []
+        ],
+        [
+          "McMahon",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Test",
+          [
+            "/wiki/Test_(wrestler)"
+          ]
+        ],
+        [
+          "The Corporation",
+          [
+            "/wiki/The_Corporation_(professional_wrestling)"
+          ]
+        ],
+        [
+          4,
+          []
+        ],
+        [
+          "Kane",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "X-Pac",
+          [
+            "/wiki/X-Pac"
+          ]
+        ],
+        [
+          "D-Generation X",
+          [
+            "/wiki/D-Generation_X"
+          ]
+        ],
+        [
+          6,
+          []
+        ],
+        [
+          "Boss Man",
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Road Dogg",
+          [
+            "/wiki/Road_Dogg"
+          ]
+        ],
+        [
+          "D-Generation X",
+          [
+            "/wiki/D-Generation_X"
+          ]
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          "Kane",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Kane",
+          [
+            "/wiki/Kane_(wrestler)"
+          ]
+        ],
+        [
+          "The Corporation",
+          [
+            "/wiki/The_Corporation_(professional_wrestling)"
+          ]
+        ],
+        [
+          5,
+          []
+        ],
+        [
+          "Triple H",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Triple H",
+          [
+            "/wiki/Triple_H"
+          ]
+        ],
+        [
+          "D-Generation X",
+          [
+            "/wiki/D-Generation_X"
+          ]
+        ],
+        [
+          8,
+          []
+        ],
+        [
+          "McMahon",
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Mr. McMahon",
+          [
+            "/wiki/Mr._McMahon"
+          ]
+        ],
+        [
+          "The Corporation",
+          [
+            "/wiki/The_Corporation_(professional_wrestling)"
+          ]
+        ],
+        [
+          9,
+          []
+        ],
+        [
+          "Chyna",
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Chyna",
+          [
+            "/wiki/Chyna"
+          ]
+        ],
+        [
+          "D-Generation X",
+          [
+            "/wiki/D-Generation_X"
+          ]
+        ],
+        [
+          0,
+          []
+        ],
+        [
+          "Winner",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the participants and events of the Royal Rumble (1999), a professional wrestling match. It includes details such as the draw number, entrant names, their faction affiliations, the order of entry, and who eliminated them. The table is designed to summarize key aspects of the match and its participants.",
+  "numeric_columns": [
+    "Draw",
+    "Order"
+  ],
+  "categorical_columns": [
+    "Faction"
+  ],
+  "entities": [
+    "Entrant",
+    "Eliminated by"
+  ]
+}

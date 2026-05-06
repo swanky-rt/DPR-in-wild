@@ -1,0 +1,510 @@
+{
+  "table_id": "T2848",
+  "uid": "e544ba4d-a4fd-5227-965c-cce20590094f",
+  "source": "HybridQA",
+  "source_table_id": "e544ba4d-a4fd-5227-965c-cce20590094f",
+  "domain": "HybridQA",
+  "title": "2012 Malaysia FAM League",
+  "columns": [
+    "Team",
+    "Coach",
+    "Captain",
+    "Kit manufacturer",
+    "Shirt sponsor"
+  ],
+  "rows": [
+    [
+      [
+        "Malacca FA",
+        [
+          "/wiki/Malacca_FA"
+        ]
+      ],
+      [
+        "G. Selvamohan",
+        []
+      ],
+      [
+        "Amrie Abdullah",
+        []
+      ],
+      [
+        "Ambros",
+        []
+      ],
+      [
+        "Metaforce",
+        []
+      ]
+    ],
+    [
+      [
+        "Melodi Jaya SC",
+        [
+          "/wiki/Melodi_Jaya_Sports_Club"
+        ]
+      ],
+      [
+        "Edres Selamat",
+        []
+      ],
+      [
+        "Mohd Fairuz Abdul Rahman",
+        []
+      ],
+      [
+        "Nike",
+        [
+          "/wiki/Nike_Inc."
+        ]
+      ],
+      [
+        "PJM",
+        []
+      ]
+    ],
+    [
+      [
+        "Penang Water Supply Board",
+        []
+      ],
+      [
+        "Zabidi Hassan",
+        []
+      ],
+      [
+        "Mat Saiful Mohamad",
+        []
+      ],
+      [
+        "Line7",
+        []
+      ],
+      [
+        "PBAPP",
+        []
+      ]
+    ],
+    [
+      [
+        "Penang FA",
+        [
+          "/wiki/Penang_FA"
+        ]
+      ],
+      [
+        "Jánós Krécská",
+        [
+          "/wiki/Jánós_Krécská"
+        ]
+      ],
+      [
+        "Hasmawi Hassan",
+        [
+          "/wiki/Hasmawi_Hassan"
+        ]
+      ],
+      [
+        "Adidas",
+        [
+          "/wiki/Adidas"
+        ]
+      ],
+      [
+        "Allianz University College of Medical Science",
+        []
+      ]
+    ],
+    [
+      [
+        "KP Shahzan Muda FC",
+        [
+          "/wiki/Shahzan_Muda_FC"
+        ]
+      ],
+      [
+        "Tajuddin Nor",
+        []
+      ],
+      [
+        "Raja Mohd Hafillah Raja Mamat",
+        []
+      ],
+      [
+        "Kappa",
+        [
+          "/wiki/Kappa_(company)"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Kepala Batas FC",
+        [
+          "/wiki/SDMS_Kepala_Batas_FC"
+        ]
+      ],
+      [
+        "Halim",
+        []
+      ],
+      [
+        "Safuan Azwan Abdul Shukor",
+        []
+      ],
+      [
+        "Lancast",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "KL SPA FC",
+        [
+          "/wiki/Suruhanjaya_Perkhidmatan_Awam_FC"
+        ]
+      ],
+      [
+        "Mohd Nizam Jamil",
+        [
+          "/wiki/Mohd_Nizam_Jamil"
+        ]
+      ],
+      [
+        "Sazali Suwandi",
+        []
+      ],
+      [
+        "Joma",
+        [
+          "/wiki/Joma"
+        ]
+      ],
+      [
+        "Suruhanjaya Perkidmatan Awam",
+        []
+      ]
+    ],
+    [
+      [
+        "Tentera Darat",
+        []
+      ],
+      [
+        "Abdul Kamal",
+        []
+      ],
+      [
+        "Josep Amar",
+        []
+      ],
+      [
+        "adidas",
+        [
+          "/wiki/Adidas"
+        ]
+      ],
+      [
+        "Honda",
+        [
+          "/wiki/Honda"
+        ]
+      ]
+    ],
+    [
+      [
+        "UiTM FC",
+        [
+          "/wiki/UiTM_FC"
+        ]
+      ],
+      [
+        "Azman Eusoff",
+        []
+      ],
+      [
+        "Ahmad Shahir Ismail",
+        []
+      ],
+      [
+        "Umbro",
+        [
+          "/wiki/Umbro"
+        ]
+      ],
+      [
+        "UiTM",
+        [
+          "/wiki/UiTM"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "e544ba4d-a4fd-5227-965c-cce20590094f",
+    "table_id": "2012_Malaysia_FAM_League_1",
+    "title": "2012 Malaysia FAM League",
+    "header": [
+      "Team",
+      "Coach",
+      "Captain",
+      "Kit manufacturer",
+      "Shirt sponsor"
+    ],
+    "value": [
+      [
+        [
+          "Malacca FA",
+          [
+            "/wiki/Malacca_FA"
+          ]
+        ],
+        [
+          "G. Selvamohan",
+          []
+        ],
+        [
+          "Amrie Abdullah",
+          []
+        ],
+        [
+          "Ambros",
+          []
+        ],
+        [
+          "Metaforce",
+          []
+        ]
+      ],
+      [
+        [
+          "Melodi Jaya SC",
+          [
+            "/wiki/Melodi_Jaya_Sports_Club"
+          ]
+        ],
+        [
+          "Edres Selamat",
+          []
+        ],
+        [
+          "Mohd Fairuz Abdul Rahman",
+          []
+        ],
+        [
+          "Nike",
+          [
+            "/wiki/Nike_Inc."
+          ]
+        ],
+        [
+          "PJM",
+          []
+        ]
+      ],
+      [
+        [
+          "Penang Water Supply Board",
+          []
+        ],
+        [
+          "Zabidi Hassan",
+          []
+        ],
+        [
+          "Mat Saiful Mohamad",
+          []
+        ],
+        [
+          "Line7",
+          []
+        ],
+        [
+          "PBAPP",
+          []
+        ]
+      ],
+      [
+        [
+          "Penang FA",
+          [
+            "/wiki/Penang_FA"
+          ]
+        ],
+        [
+          "Jánós Krécská",
+          [
+            "/wiki/Jánós_Krécská"
+          ]
+        ],
+        [
+          "Hasmawi Hassan",
+          [
+            "/wiki/Hasmawi_Hassan"
+          ]
+        ],
+        [
+          "Adidas",
+          [
+            "/wiki/Adidas"
+          ]
+        ],
+        [
+          "Allianz University College of Medical Science",
+          []
+        ]
+      ],
+      [
+        [
+          "KP Shahzan Muda FC",
+          [
+            "/wiki/Shahzan_Muda_FC"
+          ]
+        ],
+        [
+          "Tajuddin Nor",
+          []
+        ],
+        [
+          "Raja Mohd Hafillah Raja Mamat",
+          []
+        ],
+        [
+          "Kappa",
+          [
+            "/wiki/Kappa_(company)"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Kepala Batas FC",
+          [
+            "/wiki/SDMS_Kepala_Batas_FC"
+          ]
+        ],
+        [
+          "Halim",
+          []
+        ],
+        [
+          "Safuan Azwan Abdul Shukor",
+          []
+        ],
+        [
+          "Lancast",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "KL SPA FC",
+          [
+            "/wiki/Suruhanjaya_Perkhidmatan_Awam_FC"
+          ]
+        ],
+        [
+          "Mohd Nizam Jamil",
+          [
+            "/wiki/Mohd_Nizam_Jamil"
+          ]
+        ],
+        [
+          "Sazali Suwandi",
+          []
+        ],
+        [
+          "Joma",
+          [
+            "/wiki/Joma"
+          ]
+        ],
+        [
+          "Suruhanjaya Perkidmatan Awam",
+          []
+        ]
+      ],
+      [
+        [
+          "Tentera Darat",
+          []
+        ],
+        [
+          "Abdul Kamal",
+          []
+        ],
+        [
+          "Josep Amar",
+          []
+        ],
+        [
+          "adidas",
+          [
+            "/wiki/Adidas"
+          ]
+        ],
+        [
+          "Honda",
+          [
+            "/wiki/Honda"
+          ]
+        ]
+      ],
+      [
+        [
+          "UiTM FC",
+          [
+            "/wiki/UiTM_FC"
+          ]
+        ],
+        [
+          "Azman Eusoff",
+          []
+        ],
+        [
+          "Ahmad Shahir Ismail",
+          []
+        ],
+        [
+          "Umbro",
+          [
+            "/wiki/Umbro"
+          ]
+        ],
+        [
+          "UiTM",
+          [
+            "/wiki/UiTM"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about teams participating in the 2012 Malaysia FAM League, including details about their coaches, captains, kit manufacturers, and shirt sponsors. It serves as an overview of organizational and sponsorship aspects of the league teams. The table is structured to highlight both personnel and branding elements associated with each team.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Kit manufacturer",
+    "Shirt sponsor"
+  ],
+  "entities": [
+    "Team",
+    "Coach",
+    "Captain"
+  ]
+}

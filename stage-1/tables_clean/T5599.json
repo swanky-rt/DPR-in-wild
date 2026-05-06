@@ -1,0 +1,563 @@
+{
+  "table_id": "T5599",
+  "uid": "25a41b61-9eed-5413-a7e5-77a8f9b68815",
+  "source": "HybridQA",
+  "source_table_id": "25a41b61-9eed-5413-a7e5-77a8f9b68815",
+  "domain": "HybridQA",
+  "title": "List of highest-grossing films in Malaysia",
+  "columns": [
+    "Rank",
+    "Release Date",
+    "Film Title",
+    "Studio",
+    "Gross ( RM )"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "29 Apr",
+        []
+      ],
+      [
+        "Iron Man 2",
+        [
+          "/wiki/Iron_Man_2"
+        ]
+      ],
+      [
+        "United International Pictures",
+        [
+          "/wiki/United_International_Pictures"
+        ]
+      ],
+      [
+        "15,176,953",
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "10 June",
+        []
+      ],
+      [
+        "The Karate Kid",
+        [
+          "/wiki/The_Karate_Kid_(2010_film)"
+        ]
+      ],
+      [
+        "Sony Pictures",
+        [
+          "/wiki/Sony_Pictures"
+        ]
+      ],
+      [
+        "13,460,360",
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "9 Dec",
+        []
+      ],
+      [
+        "The Chronicles of Narnia : The Voyage of the Dawn Treader",
+        [
+          "/wiki/The_Chronicles_of_Narnia:_The_Voyage_of_the_Dawn_Treader"
+        ]
+      ],
+      [
+        "20th Century Fox",
+        [
+          "/wiki/20th_Century_Fox"
+        ]
+      ],
+      [
+        "12,734,700",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "1 Apr",
+        []
+      ],
+      [
+        "Clash of the Titans",
+        [
+          "/wiki/Clash_of_the_Titans_(2010_film)"
+        ]
+      ],
+      [
+        "Warner Brothers",
+        [
+          "/wiki/Warner_Brothers"
+        ]
+      ],
+      [
+        "12,502,677",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "27 May",
+        []
+      ],
+      [
+        "Prince of Persia : The Sands of Time",
+        [
+          "/wiki/Prince_of_Persia:_The_Sands_of_Time_(film)"
+        ]
+      ],
+      [
+        "Walt Disney Pictures",
+        [
+          "/wiki/Walt_Disney_Pictures"
+        ]
+      ],
+      [
+        "12,283,284",
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "1 Oct",
+        []
+      ],
+      [
+        "Enthiran",
+        [
+          "/wiki/Enthiran"
+        ]
+      ],
+      [
+        "Sun Pictures",
+        [
+          "/wiki/Sun_Pictures"
+        ]
+      ],
+      [
+        "12,268,732",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "4 March",
+        []
+      ],
+      [
+        "Alice in Wonderland",
+        [
+          "/wiki/Alice_in_Wonderland_(2010_film)"
+        ]
+      ],
+      [
+        "Walt Disney Pictures",
+        [
+          "/wiki/Walt_Disney_Pictures"
+        ]
+      ],
+      [
+        "11,562,895",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "29 Apr",
+        []
+      ],
+      [
+        "Ip Man 2",
+        [
+          "/wiki/Ip_Man_2"
+        ]
+      ],
+      [
+        "Golden Screen Cinemas",
+        [
+          "/wiki/Golden_Screen_Cinemas"
+        ]
+      ],
+      [
+        "11,414,916",
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "10 Sep",
+        []
+      ],
+      [
+        "Resident Evil : Afterlife",
+        [
+          "/wiki/Resident_Evil:_Afterlife"
+        ]
+      ],
+      [
+        "Sony Pictures",
+        [
+          "/wiki/Sony_Pictures"
+        ]
+      ],
+      [
+        "11,061,721",
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "18 Nov",
+        []
+      ],
+      [
+        "Harry Potter and the Deathly Hallows - Part 1",
+        [
+          "/wiki/Harry_Potter_and_the_Deathly_Hallows_–_Part_1"
+        ]
+      ],
+      [
+        "Warner Brothers",
+        [
+          "/wiki/Warner_Brothers"
+        ]
+      ],
+      [
+        "10,943,856",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "25a41b61-9eed-5413-a7e5-77a8f9b68815",
+    "table_id": "Malaysia_Yearly_Box_Office_3",
+    "title": "List of highest-grossing films in Malaysia",
+    "header": [
+      "Rank",
+      "Release Date",
+      "Film Title",
+      "Studio",
+      "Gross ( RM )"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "29 Apr",
+          []
+        ],
+        [
+          "Iron Man 2",
+          [
+            "/wiki/Iron_Man_2"
+          ]
+        ],
+        [
+          "United International Pictures",
+          [
+            "/wiki/United_International_Pictures"
+          ]
+        ],
+        [
+          "15,176,953",
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "10 June",
+          []
+        ],
+        [
+          "The Karate Kid",
+          [
+            "/wiki/The_Karate_Kid_(2010_film)"
+          ]
+        ],
+        [
+          "Sony Pictures",
+          [
+            "/wiki/Sony_Pictures"
+          ]
+        ],
+        [
+          "13,460,360",
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "9 Dec",
+          []
+        ],
+        [
+          "The Chronicles of Narnia : The Voyage of the Dawn Treader",
+          [
+            "/wiki/The_Chronicles_of_Narnia:_The_Voyage_of_the_Dawn_Treader"
+          ]
+        ],
+        [
+          "20th Century Fox",
+          [
+            "/wiki/20th_Century_Fox"
+          ]
+        ],
+        [
+          "12,734,700",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "1 Apr",
+          []
+        ],
+        [
+          "Clash of the Titans",
+          [
+            "/wiki/Clash_of_the_Titans_(2010_film)"
+          ]
+        ],
+        [
+          "Warner Brothers",
+          [
+            "/wiki/Warner_Brothers"
+          ]
+        ],
+        [
+          "12,502,677",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "27 May",
+          []
+        ],
+        [
+          "Prince of Persia : The Sands of Time",
+          [
+            "/wiki/Prince_of_Persia:_The_Sands_of_Time_(film)"
+          ]
+        ],
+        [
+          "Walt Disney Pictures",
+          [
+            "/wiki/Walt_Disney_Pictures"
+          ]
+        ],
+        [
+          "12,283,284",
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "1 Oct",
+          []
+        ],
+        [
+          "Enthiran",
+          [
+            "/wiki/Enthiran"
+          ]
+        ],
+        [
+          "Sun Pictures",
+          [
+            "/wiki/Sun_Pictures"
+          ]
+        ],
+        [
+          "12,268,732",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "4 March",
+          []
+        ],
+        [
+          "Alice in Wonderland",
+          [
+            "/wiki/Alice_in_Wonderland_(2010_film)"
+          ]
+        ],
+        [
+          "Walt Disney Pictures",
+          [
+            "/wiki/Walt_Disney_Pictures"
+          ]
+        ],
+        [
+          "11,562,895",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "29 Apr",
+          []
+        ],
+        [
+          "Ip Man 2",
+          [
+            "/wiki/Ip_Man_2"
+          ]
+        ],
+        [
+          "Golden Screen Cinemas",
+          [
+            "/wiki/Golden_Screen_Cinemas"
+          ]
+        ],
+        [
+          "11,414,916",
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "10 Sep",
+          []
+        ],
+        [
+          "Resident Evil : Afterlife",
+          [
+            "/wiki/Resident_Evil:_Afterlife"
+          ]
+        ],
+        [
+          "Sony Pictures",
+          [
+            "/wiki/Sony_Pictures"
+          ]
+        ],
+        [
+          "11,061,721",
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "18 Nov",
+          []
+        ],
+        [
+          "Harry Potter and the Deathly Hallows - Part 1",
+          [
+            "/wiki/Harry_Potter_and_the_Deathly_Hallows_–_Part_1"
+          ]
+        ],
+        [
+          "Warner Brothers",
+          [
+            "/wiki/Warner_Brothers"
+          ]
+        ],
+        [
+          "10,943,856",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table lists the highest-grossing films in Malaysia, providing information about their ranking, release dates, titles, studios, and gross earnings. It is intended to showcase the financial success of films in the Malaysian market. The table combines numeric data with categorical and entity-based information for a comprehensive overview.",
+  "numeric_columns": [
+    "Rank",
+    "Gross ( RM )"
+  ],
+  "categorical_columns": [
+    "Release Date",
+    "Studio"
+  ],
+  "entities": [
+    "Film Title"
+  ]
+}

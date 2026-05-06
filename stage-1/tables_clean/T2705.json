@@ -1,0 +1,551 @@
+{
+  "table_id": "T2705",
+  "uid": "b2a48cf3-f091-5c08-8a32-0f44c5b61a19",
+  "source": "HybridQA",
+  "source_table_id": "b2a48cf3-f091-5c08-8a32-0f44c5b61a19",
+  "domain": "HybridQA",
+  "title": "2011 Champions League Twenty20",
+  "columns": [
+    "Team",
+    "Domestic tournament",
+    "Position",
+    "Appearance",
+    "Qualified"
+  ],
+  "rows": [
+    [
+      [
+        "Southern Redbacks",
+        [
+          "/wiki/South_Australia_cricket_team"
+        ]
+      ],
+      [
+        "2010-11 KFC Twenty20 Big Bash",
+        [
+          "/wiki/2010–11_KFC_Twenty20_Big_Bash"
+        ]
+      ],
+      [
+        "Winners",
+        []
+      ],
+      [
+        "2nd",
+        []
+      ],
+      [
+        "29 January 2011",
+        []
+      ]
+    ],
+    [
+      [
+        "New South Wales Blues",
+        [
+          "/wiki/New_South_Wales_cricket_team"
+        ]
+      ],
+      [
+        "2010-11 KFC Twenty20 Big Bash",
+        [
+          "/wiki/2010–11_KFC_Twenty20_Big_Bash"
+        ]
+      ],
+      [
+        "Runners-up",
+        []
+      ],
+      [
+        "2nd",
+        []
+      ],
+      [
+        "1 February 2011",
+        []
+      ]
+    ],
+    [
+      [
+        "Warriors",
+        [
+          "/wiki/Warriors_(cricket_team)"
+        ]
+      ],
+      [
+        "2010-11 Standard Bank Pro20",
+        [
+          "/wiki/2010–11_Standard_Bank_Pro20"
+        ]
+      ],
+      [
+        "Runners-up",
+        []
+      ],
+      [
+        "2nd",
+        []
+      ],
+      [
+        "4 March 2011",
+        []
+      ]
+    ],
+    [
+      [
+        "Cape Cobras",
+        [
+          "/wiki/Cape_Cobras"
+        ]
+      ],
+      [
+        "2010-11 Standard Bank Pro20",
+        [
+          "/wiki/2010–11_Standard_Bank_Pro20"
+        ]
+      ],
+      [
+        "Winners",
+        []
+      ],
+      [
+        "2nd",
+        []
+      ],
+      [
+        "9 March 2011",
+        []
+      ]
+    ],
+    [
+      [
+        "Royal Challengers Bangalore",
+        [
+          "/wiki/Royal_Challengers_Bangalore"
+        ]
+      ],
+      [
+        "2011 Indian Premier League",
+        [
+          "/wiki/2011_Indian_Premier_League"
+        ]
+      ],
+      [
+        "Runners-up",
+        []
+      ],
+      [
+        "3rd",
+        []
+      ],
+      [
+        "22 May 2011",
+        []
+      ]
+    ],
+    [
+      [
+        "Chennai Super Kings",
+        [
+          "/wiki/Chennai_Super_Kings"
+        ]
+      ],
+      [
+        "2011 Indian Premier League",
+        [
+          "/wiki/2011_Indian_Premier_League"
+        ]
+      ],
+      [
+        "Winners",
+        []
+      ],
+      [
+        "2nd",
+        []
+      ],
+      [
+        "22 May 2011",
+        []
+      ]
+    ],
+    [
+      [
+        "Mumbai Indians",
+        [
+          "/wiki/Mumbai_Indians"
+        ]
+      ],
+      [
+        "2011 Indian Premier League",
+        [
+          "/wiki/2011_Indian_Premier_League"
+        ]
+      ],
+      [
+        "Third place",
+        []
+      ],
+      [
+        "2nd",
+        []
+      ],
+      [
+        "25 May 2011",
+        []
+      ]
+    ],
+    [
+      [
+        "Trinidad and Tobago",
+        [
+          "/wiki/Trinidad_and_Tobago_national_cricket_team"
+        ]
+      ],
+      [
+        "Qualifying stage",
+        []
+      ],
+      [
+        "Pool B winners",
+        []
+      ],
+      [
+        "2nd",
+        []
+      ],
+      [
+        "20 September 2011",
+        []
+      ]
+    ],
+    [
+      [
+        "Kolkata Knight Riders",
+        [
+          "/wiki/Kolkata_Knight_Riders"
+        ]
+      ],
+      [
+        "Qualifying stage",
+        []
+      ],
+      [
+        "Pool A runners-up",
+        []
+      ],
+      [
+        "1st",
+        []
+      ],
+      [
+        "21 September 2011",
+        []
+      ]
+    ],
+    [
+      [
+        "Somerset",
+        [
+          "/wiki/Somerset_County_Cricket_Club"
+        ]
+      ],
+      [
+        "Qualifying stage",
+        []
+      ],
+      [
+        "Pool A winners",
+        []
+      ],
+      [
+        "2nd",
+        []
+      ],
+      [
+        "21 September 2011",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "b2a48cf3-f091-5c08-8a32-0f44c5b61a19",
+    "table_id": "2011_Champions_League_Twenty20_1",
+    "title": "2011 Champions League Twenty20",
+    "header": [
+      "Team",
+      "Domestic tournament",
+      "Position",
+      "Appearance",
+      "Qualified"
+    ],
+    "value": [
+      [
+        [
+          "Southern Redbacks",
+          [
+            "/wiki/South_Australia_cricket_team"
+          ]
+        ],
+        [
+          "2010-11 KFC Twenty20 Big Bash",
+          [
+            "/wiki/2010–11_KFC_Twenty20_Big_Bash"
+          ]
+        ],
+        [
+          "Winners",
+          []
+        ],
+        [
+          "2nd",
+          []
+        ],
+        [
+          "29 January 2011",
+          []
+        ]
+      ],
+      [
+        [
+          "New South Wales Blues",
+          [
+            "/wiki/New_South_Wales_cricket_team"
+          ]
+        ],
+        [
+          "2010-11 KFC Twenty20 Big Bash",
+          [
+            "/wiki/2010–11_KFC_Twenty20_Big_Bash"
+          ]
+        ],
+        [
+          "Runners-up",
+          []
+        ],
+        [
+          "2nd",
+          []
+        ],
+        [
+          "1 February 2011",
+          []
+        ]
+      ],
+      [
+        [
+          "Warriors",
+          [
+            "/wiki/Warriors_(cricket_team)"
+          ]
+        ],
+        [
+          "2010-11 Standard Bank Pro20",
+          [
+            "/wiki/2010–11_Standard_Bank_Pro20"
+          ]
+        ],
+        [
+          "Runners-up",
+          []
+        ],
+        [
+          "2nd",
+          []
+        ],
+        [
+          "4 March 2011",
+          []
+        ]
+      ],
+      [
+        [
+          "Cape Cobras",
+          [
+            "/wiki/Cape_Cobras"
+          ]
+        ],
+        [
+          "2010-11 Standard Bank Pro20",
+          [
+            "/wiki/2010–11_Standard_Bank_Pro20"
+          ]
+        ],
+        [
+          "Winners",
+          []
+        ],
+        [
+          "2nd",
+          []
+        ],
+        [
+          "9 March 2011",
+          []
+        ]
+      ],
+      [
+        [
+          "Royal Challengers Bangalore",
+          [
+            "/wiki/Royal_Challengers_Bangalore"
+          ]
+        ],
+        [
+          "2011 Indian Premier League",
+          [
+            "/wiki/2011_Indian_Premier_League"
+          ]
+        ],
+        [
+          "Runners-up",
+          []
+        ],
+        [
+          "3rd",
+          []
+        ],
+        [
+          "22 May 2011",
+          []
+        ]
+      ],
+      [
+        [
+          "Chennai Super Kings",
+          [
+            "/wiki/Chennai_Super_Kings"
+          ]
+        ],
+        [
+          "2011 Indian Premier League",
+          [
+            "/wiki/2011_Indian_Premier_League"
+          ]
+        ],
+        [
+          "Winners",
+          []
+        ],
+        [
+          "2nd",
+          []
+        ],
+        [
+          "22 May 2011",
+          []
+        ]
+      ],
+      [
+        [
+          "Mumbai Indians",
+          [
+            "/wiki/Mumbai_Indians"
+          ]
+        ],
+        [
+          "2011 Indian Premier League",
+          [
+            "/wiki/2011_Indian_Premier_League"
+          ]
+        ],
+        [
+          "Third place",
+          []
+        ],
+        [
+          "2nd",
+          []
+        ],
+        [
+          "25 May 2011",
+          []
+        ]
+      ],
+      [
+        [
+          "Trinidad and Tobago",
+          [
+            "/wiki/Trinidad_and_Tobago_national_cricket_team"
+          ]
+        ],
+        [
+          "Qualifying stage",
+          []
+        ],
+        [
+          "Pool B winners",
+          []
+        ],
+        [
+          "2nd",
+          []
+        ],
+        [
+          "20 September 2011",
+          []
+        ]
+      ],
+      [
+        [
+          "Kolkata Knight Riders",
+          [
+            "/wiki/Kolkata_Knight_Riders"
+          ]
+        ],
+        [
+          "Qualifying stage",
+          []
+        ],
+        [
+          "Pool A runners-up",
+          []
+        ],
+        [
+          "1st",
+          []
+        ],
+        [
+          "21 September 2011",
+          []
+        ]
+      ],
+      [
+        [
+          "Somerset",
+          [
+            "/wiki/Somerset_County_Cricket_Club"
+          ]
+        ],
+        [
+          "Qualifying stage",
+          []
+        ],
+        [
+          "Pool A winners",
+          []
+        ],
+        [
+          "2nd",
+          []
+        ],
+        [
+          "21 September 2011",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of teams that participated in the 2011 Champions League Twenty20 cricket tournament, including their domestic tournament performance, position, appearance count, and qualification date. It highlights the connection between domestic cricket tournaments and international qualification for the Champions League Twenty20.",
+  "numeric_columns": [
+    "Appearance"
+  ],
+  "categorical_columns": [
+    "Domestic tournament",
+    "Position",
+    "Qualified"
+  ],
+  "entities": [
+    "Team"
+  ]
+}

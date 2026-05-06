@@ -1,0 +1,293 @@
+{
+  "table_id": "T10241",
+  "uid": "4d16e311-478c-58fd-b100-4c8425be7318",
+  "source": "HybridQA",
+  "source_table_id": "4d16e311-478c-58fd-b100-4c8425be7318",
+  "domain": "HybridQA",
+  "title": "2001 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Marian Dragulescu ( ROU )",
+        [
+          "/wiki/Marian_Dragulescu"
+        ]
+      ],
+      [
+        9.55,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Yordan Yovchev ( BUL )",
+        [
+          "/wiki/Yordan_Yovchev"
+        ]
+      ],
+      [
+        9.55,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Igors Vihrovs ( LAT )",
+        [
+          "/wiki/Igors_Vihrovs"
+        ]
+      ],
+      [
+        9.425,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Stephen McCain ( USA )",
+        [
+          "/wiki/Stephen_McCain"
+        ]
+      ],
+      [
+        9.312,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Jevgēņijs Saproņenko ( LAT )",
+        [
+          "/wiki/Jevgēņijs_Saproņenko"
+        ]
+      ],
+      [
+        8.962,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Alexei Bondarenko ( RUS )",
+        [
+          "/wiki/Alexei_Bondarenko"
+        ]
+      ],
+      [
+        8.937,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Yernar Yerimbetov ( KAZ )",
+        [
+          "/wiki/Yernar_Yerimbetov"
+        ]
+      ],
+      [
+        8.712,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Alexander Beresh ( UKR )",
+        [
+          "/wiki/Alexander_Beresh"
+        ]
+      ],
+      [
+        7.862,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "4d16e311-478c-58fd-b100-4c8425be7318",
+    "table_id": "2001_World_Artistic_Gymnastics_Championships_1",
+    "title": "2001 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Marian Dragulescu ( ROU )",
+          [
+            "/wiki/Marian_Dragulescu"
+          ]
+        ],
+        [
+          9.55,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Yordan Yovchev ( BUL )",
+          [
+            "/wiki/Yordan_Yovchev"
+          ]
+        ],
+        [
+          9.55,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Igors Vihrovs ( LAT )",
+          [
+            "/wiki/Igors_Vihrovs"
+          ]
+        ],
+        [
+          9.425,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Stephen McCain ( USA )",
+          [
+            "/wiki/Stephen_McCain"
+          ]
+        ],
+        [
+          9.312,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Jevgēņijs Saproņenko ( LAT )",
+          [
+            "/wiki/Jevgēņijs_Saproņenko"
+          ]
+        ],
+        [
+          8.962,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Alexei Bondarenko ( RUS )",
+          [
+            "/wiki/Alexei_Bondarenko"
+          ]
+        ],
+        [
+          8.937,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Yernar Yerimbetov ( KAZ )",
+          [
+            "/wiki/Yernar_Yerimbetov"
+          ]
+        ],
+        [
+          8.712,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Alexander Beresh ( UKR )",
+          [
+            "/wiki/Alexander_Beresh"
+          ]
+        ],
+        [
+          7.862,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the rankings and scores of gymnasts at the 2001 World Artistic Gymnastics Championships. It includes details such as the rank of the gymnast, their name, and their total score. The table is likely used to summarize performance outcomes in the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

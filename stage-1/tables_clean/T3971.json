@@ -1,0 +1,476 @@
+{
+  "table_id": "T3971",
+  "uid": "d428f5b8-9d37-59c2-8efa-c2b90728e749",
+  "source": "HybridQA",
+  "source_table_id": "d428f5b8-9d37-59c2-8efa-c2b90728e749",
+  "domain": "HybridQA",
+  "title": "CMLL Reyes del Aire",
+  "columns": [
+    "Order",
+    "Wrestler",
+    "Eliminated by",
+    "Time"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Puma",
+        [
+          "/wiki/Puma_(luchador)"
+        ]
+      ],
+      [
+        "Stuka Jr",
+        [
+          "/wiki/Stuka_Jr."
+        ]
+      ],
+      [
+        "06:58",
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Stigma",
+        [
+          "/wiki/Stigma_(luchador)"
+        ]
+      ],
+      [
+        "Misterioso Jr",
+        [
+          "/wiki/Misterioso_Jr."
+        ]
+      ],
+      [
+        "10:25",
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Stuka Jr",
+        [
+          "/wiki/Stuka_Jr."
+        ]
+      ],
+      [
+        "Gran Guerrero",
+        [
+          "/wiki/Gran_Guerrero"
+        ]
+      ],
+      [
+        "12:30",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Ángel de Oro",
+        [
+          "/wiki/Ángel_de_Oro"
+        ]
+      ],
+      [
+        "Ripper",
+        [
+          "/wiki/Psicosis_II"
+        ]
+      ],
+      [
+        "13:25",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Misterioso Jr",
+        [
+          "/wiki/Misterioso_Jr."
+        ]
+      ],
+      [
+        "Dragón Rojo Jr",
+        [
+          "/wiki/Dragón_Rojo_Jr."
+        ]
+      ],
+      [
+        "14:05",
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Gran Guerrero",
+        [
+          "/wiki/Gran_Guerrero"
+        ]
+      ],
+      [
+        "Máscara Dorada",
+        [
+          "/wiki/Máscara_Dorada"
+        ]
+      ],
+      [
+        "15:25",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Ripper",
+        [
+          "/wiki/Psicosis_II"
+        ]
+      ],
+      [
+        "Dragón Rojo Jr. ( Double DQ )",
+        [
+          "/wiki/Dragón_Rojo_Jr."
+        ]
+      ],
+      [
+        "17:32",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Dragón Rojo Jr",
+        [
+          "/wiki/Dragón_Rojo_Jr."
+        ]
+      ],
+      [
+        "Ripper ( Double DQ )",
+        [
+          "/wiki/Psicosis_II"
+        ]
+      ],
+      [
+        "17:32",
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Máscara Dorada",
+        [
+          "/wiki/Máscara_Dorada"
+        ]
+      ],
+      [
+        "Rey Escorpión",
+        [
+          "/wiki/Rey_Escorpión"
+        ]
+      ],
+      [
+        "20:15",
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Rey Escorpión",
+        [
+          "/wiki/Rey_Escorpión"
+        ]
+      ],
+      [
+        "Winner",
+        []
+      ],
+      [
+        "20:15",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "d428f5b8-9d37-59c2-8efa-c2b90728e749",
+    "table_id": "CMLL_Reyes_del_Aire_12",
+    "title": "CMLL Reyes del Aire",
+    "header": [
+      "Order",
+      "Wrestler",
+      "Eliminated by",
+      "Time"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Puma",
+          [
+            "/wiki/Puma_(luchador)"
+          ]
+        ],
+        [
+          "Stuka Jr",
+          [
+            "/wiki/Stuka_Jr."
+          ]
+        ],
+        [
+          "06:58",
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Stigma",
+          [
+            "/wiki/Stigma_(luchador)"
+          ]
+        ],
+        [
+          "Misterioso Jr",
+          [
+            "/wiki/Misterioso_Jr."
+          ]
+        ],
+        [
+          "10:25",
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Stuka Jr",
+          [
+            "/wiki/Stuka_Jr."
+          ]
+        ],
+        [
+          "Gran Guerrero",
+          [
+            "/wiki/Gran_Guerrero"
+          ]
+        ],
+        [
+          "12:30",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Ángel de Oro",
+          [
+            "/wiki/Ángel_de_Oro"
+          ]
+        ],
+        [
+          "Ripper",
+          [
+            "/wiki/Psicosis_II"
+          ]
+        ],
+        [
+          "13:25",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Misterioso Jr",
+          [
+            "/wiki/Misterioso_Jr."
+          ]
+        ],
+        [
+          "Dragón Rojo Jr",
+          [
+            "/wiki/Dragón_Rojo_Jr."
+          ]
+        ],
+        [
+          "14:05",
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Gran Guerrero",
+          [
+            "/wiki/Gran_Guerrero"
+          ]
+        ],
+        [
+          "Máscara Dorada",
+          [
+            "/wiki/Máscara_Dorada"
+          ]
+        ],
+        [
+          "15:25",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Ripper",
+          [
+            "/wiki/Psicosis_II"
+          ]
+        ],
+        [
+          "Dragón Rojo Jr. ( Double DQ )",
+          [
+            "/wiki/Dragón_Rojo_Jr."
+          ]
+        ],
+        [
+          "17:32",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Dragón Rojo Jr",
+          [
+            "/wiki/Dragón_Rojo_Jr."
+          ]
+        ],
+        [
+          "Ripper ( Double DQ )",
+          [
+            "/wiki/Psicosis_II"
+          ]
+        ],
+        [
+          "17:32",
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Máscara Dorada",
+          [
+            "/wiki/Máscara_Dorada"
+          ]
+        ],
+        [
+          "Rey Escorpión",
+          [
+            "/wiki/Rey_Escorpión"
+          ]
+        ],
+        [
+          "20:15",
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Rey Escorpión",
+          [
+            "/wiki/Rey_Escorpión"
+          ]
+        ],
+        [
+          "Winner",
+          []
+        ],
+        [
+          "20:15",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about participants in the CMLL Reyes del Aire wrestling event, detailing the order of elimination, the wrestlers involved, who eliminated them, and the time of elimination. It serves to document the sequence and outcomes of the event for reference or analysis.",
+  "numeric_columns": [
+    "Order"
+  ],
+  "categorical_columns": [
+    "Time"
+  ],
+  "entities": [
+    "Wrestler",
+    "Eliminated by"
+  ]
+}

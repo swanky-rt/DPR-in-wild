@@ -1,0 +1,499 @@
+{
+  "table_id": "T4631",
+  "uid": "ec3028db-8114-55a8-98ad-d54b7d885a62",
+  "source": "HybridQA",
+  "source_table_id": "ec3028db-8114-55a8-98ad-d54b7d885a62",
+  "domain": "HybridQA",
+  "title": "Angus transmitting station",
+  "columns": [
+    "Frequency",
+    "UHF",
+    "kW",
+    "Operator",
+    "System"
+  ],
+  "rows": [
+    [
+      [
+        "690.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        48,
+        []
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "Local TV",
+        []
+      ],
+      [
+        "DVB-T",
+        [
+          "/wiki/DVB-T"
+        ]
+      ]
+    ],
+    [
+      [
+        "698.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        49,
+        []
+      ],
+      [
+        10,
+        []
+      ],
+      [
+        "Arqiva B",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "730.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        53,
+        []
+      ],
+      [
+        20,
+        []
+      ],
+      [
+        "Digital 3 & 4",
+        [
+          "/wiki/Digital_3&4"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "738.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        54,
+        []
+      ],
+      [
+        10,
+        []
+      ],
+      [
+        "SDN",
+        [
+          "/wiki/S4C_Digital_Networks"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "746.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        55,
+        []
+      ],
+      [
+        5,
+        []
+      ],
+      [
+        "COM 7",
+        []
+      ],
+      [
+        "DVB-T2",
+        [
+          "/wiki/DVB-T2"
+        ]
+      ]
+    ],
+    [
+      [
+        "754.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        56,
+        []
+      ],
+      [
+        5,
+        []
+      ],
+      [
+        "COM 8",
+        []
+      ],
+      [
+        "DVB-T2",
+        []
+      ]
+    ],
+    [
+      [
+        "762.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        57,
+        []
+      ],
+      [
+        20,
+        []
+      ],
+      [
+        "BBC B",
+        [
+          "/wiki/BBC"
+        ]
+      ],
+      [
+        "DVB-T2",
+        []
+      ]
+    ],
+    [
+      [
+        "770.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        58,
+        []
+      ],
+      [
+        10,
+        []
+      ],
+      [
+        "Arqiva A",
+        [
+          "/wiki/Arqiva"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "785.833 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "60-",
+        []
+      ],
+      [
+        20,
+        []
+      ],
+      [
+        "BBC A",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "ec3028db-8114-55a8-98ad-d54b7d885a62",
+    "table_id": "Angus_transmitting_station_8",
+    "title": "Angus transmitting station",
+    "header": [
+      "Frequency",
+      "UHF",
+      "kW",
+      "Operator",
+      "System"
+    ],
+    "value": [
+      [
+        [
+          "690.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          48,
+          []
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "Local TV",
+          []
+        ],
+        [
+          "DVB-T",
+          [
+            "/wiki/DVB-T"
+          ]
+        ]
+      ],
+      [
+        [
+          "698.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          49,
+          []
+        ],
+        [
+          10,
+          []
+        ],
+        [
+          "Arqiva B",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "730.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          53,
+          []
+        ],
+        [
+          20,
+          []
+        ],
+        [
+          "Digital 3 & 4",
+          [
+            "/wiki/Digital_3&4"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "738.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          54,
+          []
+        ],
+        [
+          10,
+          []
+        ],
+        [
+          "SDN",
+          [
+            "/wiki/S4C_Digital_Networks"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "746.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          55,
+          []
+        ],
+        [
+          5,
+          []
+        ],
+        [
+          "COM 7",
+          []
+        ],
+        [
+          "DVB-T2",
+          [
+            "/wiki/DVB-T2"
+          ]
+        ]
+      ],
+      [
+        [
+          "754.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          56,
+          []
+        ],
+        [
+          5,
+          []
+        ],
+        [
+          "COM 8",
+          []
+        ],
+        [
+          "DVB-T2",
+          []
+        ]
+      ],
+      [
+        [
+          "762.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          57,
+          []
+        ],
+        [
+          20,
+          []
+        ],
+        [
+          "BBC B",
+          [
+            "/wiki/BBC"
+          ]
+        ],
+        [
+          "DVB-T2",
+          []
+        ]
+      ],
+      [
+        [
+          "770.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          58,
+          []
+        ],
+        [
+          10,
+          []
+        ],
+        [
+          "Arqiva A",
+          [
+            "/wiki/Arqiva"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "785.833 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "60-",
+          []
+        ],
+        [
+          20,
+          []
+        ],
+        [
+          "BBC A",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the broadcasting details of the Angus transmitting station, including frequency, power, operator, and system type. It is likely used to document technical specifications and operational details of the station's transmissions. The table is relevant for understanding the station's broadcast capabilities and configurations.",
+  "numeric_columns": [
+    "UHF",
+    "kW"
+  ],
+  "categorical_columns": [
+    "Frequency",
+    "System"
+  ],
+  "entities": [
+    "Operator"
+  ]
+}

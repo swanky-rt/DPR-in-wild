@@ -1,0 +1,379 @@
+{
+  "table_id": "T4541",
+  "uid": "27d75f1e-6e22-58f5-bc3c-a3aef90c6ef0",
+  "source": "HybridQA",
+  "source_table_id": "27d75f1e-6e22-58f5-bc3c-a3aef90c6ef0",
+  "domain": "HybridQA",
+  "title": "List of airports in East Timor",
+  "columns": [
+    "City served",
+    "ICAO",
+    "IATA",
+    "Airport name"
+  ],
+  "rows": [
+    [
+      [
+        "Atauro Island",
+        [
+          "/wiki/Atauro_Island"
+        ]
+      ],
+      [
+        "WPAT",
+        []
+      ],
+      [
+        "AUT",
+        []
+      ],
+      [
+        "Atauro Airport",
+        []
+      ]
+    ],
+    [
+      [
+        "Baucau",
+        [
+          "/wiki/Baucau"
+        ]
+      ],
+      [
+        "WPEC",
+        []
+      ],
+      [
+        "BCH",
+        []
+      ],
+      [
+        "Baucau Airport",
+        [
+          "/wiki/Baucau_Airport"
+        ]
+      ]
+    ],
+    [
+      [
+        "Dili",
+        [
+          "/wiki/Dili"
+        ]
+      ],
+      [
+        "WPDL",
+        []
+      ],
+      [
+        "DIL",
+        []
+      ],
+      [
+        "Presidente Nicolau Lobato International Airport",
+        [
+          "/wiki/Presidente_Nicolau_Lobato_International_Airport"
+        ]
+      ]
+    ],
+    [
+      [
+        "Fuiloro",
+        [
+          "/wiki/Fuiloro"
+        ]
+      ],
+      [
+        "WPFL",
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "Abisu Airport",
+        []
+      ]
+    ],
+    [
+      [
+        "Maliana",
+        [
+          "/wiki/Maliana"
+        ]
+      ],
+      [
+        "WPMN",
+        []
+      ],
+      [
+        "MPT",
+        []
+      ],
+      [
+        "Maliana Airport [ id ]",
+        []
+      ]
+    ],
+    [
+      [
+        "Pante Macassar",
+        [
+          "/wiki/Pante_Macassar"
+        ]
+      ],
+      [
+        "WPOC",
+        []
+      ],
+      [
+        "OEC",
+        []
+      ],
+      [
+        "Oecusse Airport",
+        [
+          "/wiki/Oecusse_Airport"
+        ]
+      ]
+    ],
+    [
+      [
+        "Suai",
+        [
+          "/wiki/Suai,_East_Timor"
+        ]
+      ],
+      [
+        "WPDB",
+        []
+      ],
+      [
+        "UAI",
+        []
+      ],
+      [
+        "Suai Airport",
+        [
+          "/wiki/Suai_Airport"
+        ]
+      ]
+    ],
+    [
+      [
+        "Viqueque",
+        [
+          "/wiki/Viqueque"
+        ]
+      ],
+      [
+        "WPVQ",
+        []
+      ],
+      [
+        "VIQ",
+        []
+      ],
+      [
+        "Viqueque Airport",
+        [
+          "/wiki/Viqueque_Airport"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "27d75f1e-6e22-58f5-bc3c-a3aef90c6ef0",
+    "table_id": "List_of_airports_in_East_Timor_0",
+    "title": "List of airports in East Timor",
+    "header": [
+      "City served",
+      "ICAO",
+      "IATA",
+      "Airport name"
+    ],
+    "value": [
+      [
+        [
+          "Atauro Island",
+          [
+            "/wiki/Atauro_Island"
+          ]
+        ],
+        [
+          "WPAT",
+          []
+        ],
+        [
+          "AUT",
+          []
+        ],
+        [
+          "Atauro Airport",
+          []
+        ]
+      ],
+      [
+        [
+          "Baucau",
+          [
+            "/wiki/Baucau"
+          ]
+        ],
+        [
+          "WPEC",
+          []
+        ],
+        [
+          "BCH",
+          []
+        ],
+        [
+          "Baucau Airport",
+          [
+            "/wiki/Baucau_Airport"
+          ]
+        ]
+      ],
+      [
+        [
+          "Dili",
+          [
+            "/wiki/Dili"
+          ]
+        ],
+        [
+          "WPDL",
+          []
+        ],
+        [
+          "DIL",
+          []
+        ],
+        [
+          "Presidente Nicolau Lobato International Airport",
+          [
+            "/wiki/Presidente_Nicolau_Lobato_International_Airport"
+          ]
+        ]
+      ],
+      [
+        [
+          "Fuiloro",
+          [
+            "/wiki/Fuiloro"
+          ]
+        ],
+        [
+          "WPFL",
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "Abisu Airport",
+          []
+        ]
+      ],
+      [
+        [
+          "Maliana",
+          [
+            "/wiki/Maliana"
+          ]
+        ],
+        [
+          "WPMN",
+          []
+        ],
+        [
+          "MPT",
+          []
+        ],
+        [
+          "Maliana Airport [ id ]",
+          []
+        ]
+      ],
+      [
+        [
+          "Pante Macassar",
+          [
+            "/wiki/Pante_Macassar"
+          ]
+        ],
+        [
+          "WPOC",
+          []
+        ],
+        [
+          "OEC",
+          []
+        ],
+        [
+          "Oecusse Airport",
+          [
+            "/wiki/Oecusse_Airport"
+          ]
+        ]
+      ],
+      [
+        [
+          "Suai",
+          [
+            "/wiki/Suai,_East_Timor"
+          ]
+        ],
+        [
+          "WPDB",
+          []
+        ],
+        [
+          "UAI",
+          []
+        ],
+        [
+          "Suai Airport",
+          [
+            "/wiki/Suai_Airport"
+          ]
+        ]
+      ],
+      [
+        [
+          "Viqueque",
+          [
+            "/wiki/Viqueque"
+          ]
+        ],
+        [
+          "WPVQ",
+          []
+        ],
+        [
+          "VIQ",
+          []
+        ],
+        [
+          "Viqueque Airport",
+          [
+            "/wiki/Viqueque_Airport"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a list of airports in East Timor, detailing the cities they serve, their ICAO and IATA codes, and the names of the airports. It is intended to offer a structured overview of aviation facilities in the region, useful for reference or logistical purposes.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "ICAO",
+    "IATA"
+  ],
+  "entities": [
+    "City served",
+    "Airport name"
+  ]
+}

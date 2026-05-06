@@ -1,0 +1,599 @@
+{
+  "table_id": "T3366",
+  "uid": "f9ea176d-3769-5dbb-9ba9-1b497dbb4235",
+  "source": "HybridQA",
+  "source_table_id": "f9ea176d-3769-5dbb-9ba9-1b497dbb4235",
+  "domain": "HybridQA",
+  "title": "2012 Damallsvenskan",
+  "columns": [
+    "Team",
+    "Location",
+    "Stadium",
+    "Stadium capacity"
+  ],
+  "rows": [
+    [
+      [
+        "AIK",
+        [
+          "/wiki/AIK_Fotboll_Dam"
+        ]
+      ],
+      [
+        "Stockholm",
+        [
+          "/wiki/Stockholm"
+        ]
+      ],
+      [
+        "Skytteholms IP",
+        [
+          "/wiki/Skytteholms_IP"
+        ]
+      ],
+      [
+        "3,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Djurgårdens IF",
+        [
+          "/wiki/Djurgårdens_IF_Dam"
+        ]
+      ],
+      [
+        "Stockholm",
+        []
+      ],
+      [
+        "Kristinebergs IP",
+        []
+      ],
+      [
+        930,
+        []
+      ]
+    ],
+    [
+      [
+        "Kopparbergs/Göteborg FC",
+        [
+          "/wiki/Kopparbergs/Göteborg_FC"
+        ]
+      ],
+      [
+        "Gothenburg",
+        [
+          "/wiki/Gothenburg"
+        ]
+      ],
+      [
+        "Valhalla IP",
+        [
+          "/wiki/Valhalla_IP"
+        ]
+      ],
+      [
+        "3,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Jitex BK",
+        [
+          "/wiki/Jitex_BK"
+        ]
+      ],
+      [
+        "Mölndal",
+        [
+          "/wiki/Mölndal"
+        ]
+      ],
+      [
+        "Åbyvallen",
+        []
+      ],
+      [
+        "2,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Kristianstads DFF",
+        [
+          "/wiki/Kristianstads_DFF"
+        ]
+      ],
+      [
+        "Kristianstad",
+        [
+          "/wiki/Kristianstad"
+        ]
+      ],
+      [
+        "Vilans IP",
+        []
+      ],
+      [
+        "5,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Linköpings FC",
+        [
+          "/wiki/Linköpings_FC"
+        ]
+      ],
+      [
+        "Linköping",
+        [
+          "/wiki/Linköping"
+        ]
+      ],
+      [
+        "Folkungavallen",
+        [
+          "/wiki/Folkungavallen"
+        ]
+      ],
+      [
+        "8,000",
+        []
+      ]
+    ],
+    [
+      [
+        "LdB FC Malmö",
+        [
+          "/wiki/FC_Rosengård"
+        ]
+      ],
+      [
+        "Malmö",
+        [
+          "/wiki/Malmö"
+        ]
+      ],
+      [
+        "Malmö IP",
+        [
+          "/wiki/Malmö_IP"
+        ]
+      ],
+      [
+        "6,800",
+        []
+      ]
+    ],
+    [
+      [
+        "Piteå IF",
+        [
+          "/wiki/Piteå_IF"
+        ]
+      ],
+      [
+        "Piteå",
+        [
+          "/wiki/Piteå"
+        ]
+      ],
+      [
+        "LF Arena",
+        [
+          "/wiki/LF_Arena"
+        ]
+      ],
+      [
+        "3,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Tyresö FF",
+        [
+          "/wiki/Tyresö_FF"
+        ]
+      ],
+      [
+        "Tyresö",
+        [
+          "/wiki/Tyresö_Municipality"
+        ]
+      ],
+      [
+        "Tyresövallen",
+        [
+          "/wiki/Tyresövallen"
+        ]
+      ],
+      [
+        "3,500",
+        []
+      ]
+    ],
+    [
+      [
+        "Umeå IK",
+        [
+          "/wiki/Umeå_IK"
+        ]
+      ],
+      [
+        "Umeå",
+        [
+          "/wiki/Umeå"
+        ]
+      ],
+      [
+        "T3 Arena",
+        [
+          "/wiki/T3_Arena"
+        ]
+      ],
+      [
+        "8,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Vittsjö GIK",
+        [
+          "/wiki/Vittsjö_GIK"
+        ]
+      ],
+      [
+        "Vittsjö",
+        [
+          "/wiki/Vittsjö"
+        ]
+      ],
+      [
+        "Vittsjö IP",
+        []
+      ],
+      [
+        "1,500",
+        []
+      ]
+    ],
+    [
+      [
+        "KIF Örebro DFF",
+        [
+          "/wiki/KIF_Örebro_DFF"
+        ]
+      ],
+      [
+        "Örebro",
+        [
+          "/wiki/Örebro"
+        ]
+      ],
+      [
+        "Behrn Arena",
+        [
+          "/wiki/Behrn_Arena"
+        ]
+      ],
+      [
+        "13,500",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "f9ea176d-3769-5dbb-9ba9-1b497dbb4235",
+    "table_id": "2012_Damallsvenskan_0",
+    "title": "2012 Damallsvenskan",
+    "header": [
+      "Team",
+      "Location",
+      "Stadium",
+      "Stadium capacity"
+    ],
+    "value": [
+      [
+        [
+          "AIK",
+          [
+            "/wiki/AIK_Fotboll_Dam"
+          ]
+        ],
+        [
+          "Stockholm",
+          [
+            "/wiki/Stockholm"
+          ]
+        ],
+        [
+          "Skytteholms IP",
+          [
+            "/wiki/Skytteholms_IP"
+          ]
+        ],
+        [
+          "3,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Djurgårdens IF",
+          [
+            "/wiki/Djurgårdens_IF_Dam"
+          ]
+        ],
+        [
+          "Stockholm",
+          []
+        ],
+        [
+          "Kristinebergs IP",
+          []
+        ],
+        [
+          930,
+          []
+        ]
+      ],
+      [
+        [
+          "Kopparbergs/Göteborg FC",
+          [
+            "/wiki/Kopparbergs/Göteborg_FC"
+          ]
+        ],
+        [
+          "Gothenburg",
+          [
+            "/wiki/Gothenburg"
+          ]
+        ],
+        [
+          "Valhalla IP",
+          [
+            "/wiki/Valhalla_IP"
+          ]
+        ],
+        [
+          "3,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Jitex BK",
+          [
+            "/wiki/Jitex_BK"
+          ]
+        ],
+        [
+          "Mölndal",
+          [
+            "/wiki/Mölndal"
+          ]
+        ],
+        [
+          "Åbyvallen",
+          []
+        ],
+        [
+          "2,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Kristianstads DFF",
+          [
+            "/wiki/Kristianstads_DFF"
+          ]
+        ],
+        [
+          "Kristianstad",
+          [
+            "/wiki/Kristianstad"
+          ]
+        ],
+        [
+          "Vilans IP",
+          []
+        ],
+        [
+          "5,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Linköpings FC",
+          [
+            "/wiki/Linköpings_FC"
+          ]
+        ],
+        [
+          "Linköping",
+          [
+            "/wiki/Linköping"
+          ]
+        ],
+        [
+          "Folkungavallen",
+          [
+            "/wiki/Folkungavallen"
+          ]
+        ],
+        [
+          "8,000",
+          []
+        ]
+      ],
+      [
+        [
+          "LdB FC Malmö",
+          [
+            "/wiki/FC_Rosengård"
+          ]
+        ],
+        [
+          "Malmö",
+          [
+            "/wiki/Malmö"
+          ]
+        ],
+        [
+          "Malmö IP",
+          [
+            "/wiki/Malmö_IP"
+          ]
+        ],
+        [
+          "6,800",
+          []
+        ]
+      ],
+      [
+        [
+          "Piteå IF",
+          [
+            "/wiki/Piteå_IF"
+          ]
+        ],
+        [
+          "Piteå",
+          [
+            "/wiki/Piteå"
+          ]
+        ],
+        [
+          "LF Arena",
+          [
+            "/wiki/LF_Arena"
+          ]
+        ],
+        [
+          "3,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Tyresö FF",
+          [
+            "/wiki/Tyresö_FF"
+          ]
+        ],
+        [
+          "Tyresö",
+          [
+            "/wiki/Tyresö_Municipality"
+          ]
+        ],
+        [
+          "Tyresövallen",
+          [
+            "/wiki/Tyresövallen"
+          ]
+        ],
+        [
+          "3,500",
+          []
+        ]
+      ],
+      [
+        [
+          "Umeå IK",
+          [
+            "/wiki/Umeå_IK"
+          ]
+        ],
+        [
+          "Umeå",
+          [
+            "/wiki/Umeå"
+          ]
+        ],
+        [
+          "T3 Arena",
+          [
+            "/wiki/T3_Arena"
+          ]
+        ],
+        [
+          "8,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Vittsjö GIK",
+          [
+            "/wiki/Vittsjö_GIK"
+          ]
+        ],
+        [
+          "Vittsjö",
+          [
+            "/wiki/Vittsjö"
+          ]
+        ],
+        [
+          "Vittsjö IP",
+          []
+        ],
+        [
+          "1,500",
+          []
+        ]
+      ],
+      [
+        [
+          "KIF Örebro DFF",
+          [
+            "/wiki/KIF_Örebro_DFF"
+          ]
+        ],
+        [
+          "Örebro",
+          [
+            "/wiki/Örebro"
+          ]
+        ],
+        [
+          "Behrn Arena",
+          [
+            "/wiki/Behrn_Arena"
+          ]
+        ],
+        [
+          "13,500",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about teams participating in the 2012 Damallsvenskan, a women's football league in Sweden. It includes details about each team's location, home stadium, and the stadium's seating capacity.",
+  "numeric_columns": [
+    "Stadium capacity"
+  ],
+  "categorical_columns": [
+    "Team",
+    "Location",
+    "Stadium"
+  ],
+  "entities": [
+    "Team",
+    "Location",
+    "Stadium"
+  ]
+}

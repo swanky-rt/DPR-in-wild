@@ -1,0 +1,400 @@
+{
+  "table_id": "T1038",
+  "uid": "45d06189-48c6-5e48-b02b-46232c82ed56",
+  "source": "HybridQA",
+  "source_table_id": "45d06189-48c6-5e48-b02b-46232c82ed56",
+  "domain": "HybridQA",
+  "title": "1965 College Baseball All-America Team",
+  "columns": [
+    "Position",
+    "Name",
+    "School"
+  ],
+  "rows": [
+    [
+      [
+        "Pitcher",
+        [
+          "/wiki/Pitcher"
+        ]
+      ],
+      [
+        "Steve Arlin ♦",
+        [
+          "/wiki/Steve_Arlin"
+        ]
+      ],
+      [
+        "Ohio State",
+        [
+          "/wiki/Ohio_State_Buckeyes_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Pitcher",
+        [
+          "/wiki/Pitcher"
+        ]
+      ],
+      [
+        "John Marcum Jr",
+        []
+      ],
+      [
+        "Saint Louis",
+        []
+      ]
+    ],
+    [
+      [
+        "Catcher",
+        [
+          "/wiki/Catcher"
+        ]
+      ],
+      [
+        "John E. Olerud",
+        []
+      ],
+      [
+        "Washington State",
+        [
+          "/wiki/Washington_State_Cougars_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "First baseman",
+        [
+          "/wiki/First_baseman"
+        ]
+      ],
+      [
+        "Pete Middlekauff",
+        []
+      ],
+      [
+        "Stanford",
+        [
+          "/wiki/Stanford_Cardinal_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Second baseman",
+        [
+          "/wiki/Second_baseman"
+        ]
+      ],
+      [
+        "Luis Lagunas",
+        []
+      ],
+      [
+        "Arizona State Sun Devils",
+        [
+          "/wiki/Arizona_State_Sun_Devils_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Third baseman",
+        [
+          "/wiki/Third_baseman"
+        ]
+      ],
+      [
+        "Mike McClure",
+        []
+      ],
+      [
+        "Texas A & M",
+        [
+          "/wiki/Texas_A&M_Aggies_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Shortstop",
+        [
+          "/wiki/Shortstop"
+        ]
+      ],
+      [
+        "Archie Roberts",
+        []
+      ],
+      [
+        "Columbia",
+        [
+          "/wiki/Columbia_Lions_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Outfielder",
+        [
+          "/wiki/Outfielder"
+        ]
+      ],
+      [
+        "Bill Guerrant",
+        []
+      ],
+      [
+        "Western Michigan",
+        [
+          "/wiki/Western_Michigan_Broncos"
+        ]
+      ]
+    ],
+    [
+      [
+        "Outfielder",
+        [
+          "/wiki/Outfielder"
+        ]
+      ],
+      [
+        "Billy Wolff",
+        []
+      ],
+      [
+        "Cincinnati",
+        [
+          "/wiki/Cincinnati_Bearcats"
+        ]
+      ]
+    ],
+    [
+      [
+        "Outfielder",
+        [
+          "/wiki/Outfielder"
+        ]
+      ],
+      [
+        "Rick Monday",
+        [
+          "/wiki/Rick_Monday"
+        ]
+      ],
+      [
+        "Arizona State",
+        [
+          "/wiki/Arizona_State_Sun_Devils_baseball"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "45d06189-48c6-5e48-b02b-46232c82ed56",
+    "table_id": "1965_College_Baseball_All-America_Team_0",
+    "title": "1965 College Baseball All-America Team",
+    "header": [
+      "Position",
+      "Name",
+      "School"
+    ],
+    "value": [
+      [
+        [
+          "Pitcher",
+          [
+            "/wiki/Pitcher"
+          ]
+        ],
+        [
+          "Steve Arlin ♦",
+          [
+            "/wiki/Steve_Arlin"
+          ]
+        ],
+        [
+          "Ohio State",
+          [
+            "/wiki/Ohio_State_Buckeyes_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Pitcher",
+          [
+            "/wiki/Pitcher"
+          ]
+        ],
+        [
+          "John Marcum Jr",
+          []
+        ],
+        [
+          "Saint Louis",
+          []
+        ]
+      ],
+      [
+        [
+          "Catcher",
+          [
+            "/wiki/Catcher"
+          ]
+        ],
+        [
+          "John E. Olerud",
+          []
+        ],
+        [
+          "Washington State",
+          [
+            "/wiki/Washington_State_Cougars_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "First baseman",
+          [
+            "/wiki/First_baseman"
+          ]
+        ],
+        [
+          "Pete Middlekauff",
+          []
+        ],
+        [
+          "Stanford",
+          [
+            "/wiki/Stanford_Cardinal_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Second baseman",
+          [
+            "/wiki/Second_baseman"
+          ]
+        ],
+        [
+          "Luis Lagunas",
+          []
+        ],
+        [
+          "Arizona State Sun Devils",
+          [
+            "/wiki/Arizona_State_Sun_Devils_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Third baseman",
+          [
+            "/wiki/Third_baseman"
+          ]
+        ],
+        [
+          "Mike McClure",
+          []
+        ],
+        [
+          "Texas A & M",
+          [
+            "/wiki/Texas_A&M_Aggies_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Shortstop",
+          [
+            "/wiki/Shortstop"
+          ]
+        ],
+        [
+          "Archie Roberts",
+          []
+        ],
+        [
+          "Columbia",
+          [
+            "/wiki/Columbia_Lions_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Outfielder",
+          [
+            "/wiki/Outfielder"
+          ]
+        ],
+        [
+          "Bill Guerrant",
+          []
+        ],
+        [
+          "Western Michigan",
+          [
+            "/wiki/Western_Michigan_Broncos"
+          ]
+        ]
+      ],
+      [
+        [
+          "Outfielder",
+          [
+            "/wiki/Outfielder"
+          ]
+        ],
+        [
+          "Billy Wolff",
+          []
+        ],
+        [
+          "Cincinnati",
+          [
+            "/wiki/Cincinnati_Bearcats"
+          ]
+        ]
+      ],
+      [
+        [
+          "Outfielder",
+          [
+            "/wiki/Outfielder"
+          ]
+        ],
+        [
+          "Rick Monday",
+          [
+            "/wiki/Rick_Monday"
+          ]
+        ],
+        [
+          "Arizona State",
+          [
+            "/wiki/Arizona_State_Sun_Devils_baseball"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table lists members of the 1965 College Baseball All-America Team, highlighting their positions, names, and affiliated schools. It serves to recognize outstanding college baseball players from that year. The table provides categorical and entity-based information about the players and their institutions.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Position"
+  ],
+  "entities": [
+    "Name",
+    "School"
+  ]
+}

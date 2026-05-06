@@ -1,0 +1,384 @@
+{
+  "table_id": "T2510",
+  "uid": "d8bd4db5-ecfe-50c2-9034-675a84bb61cd",
+  "source": "HybridQA",
+  "source_table_id": "d8bd4db5-ecfe-50c2-9034-675a84bb61cd",
+  "domain": "HybridQA",
+  "title": "2009 A Championship",
+  "columns": [
+    "Team",
+    "Base",
+    "Stadium"
+  ],
+  "rows": [
+    [
+      [
+        "Bohemians A",
+        [
+          "/wiki/Bohemians_F.C."
+        ]
+      ],
+      [
+        "Phibsborough",
+        [
+          "/wiki/Phibsborough"
+        ]
+      ],
+      [
+        "AUL Complex",
+        [
+          "/wiki/AUL_Complex"
+        ]
+      ]
+    ],
+    [
+      [
+        "Bray Wanderers A",
+        [
+          "/wiki/Bray_Wanderers_A.F.C."
+        ]
+      ],
+      [
+        "Bray",
+        [
+          "/wiki/Bray,_County_Wicklow"
+        ]
+      ],
+      [
+        "Jackson Park",
+        [
+          "/wiki/Jackson_Park,_Kilternan"
+        ]
+      ]
+    ],
+    [
+      [
+        "F.C . Carlow",
+        [
+          "/wiki/F.C._Carlow"
+        ]
+      ],
+      [
+        "Ballon",
+        [
+          "/wiki/Ballon,_County_Carlow"
+        ]
+      ],
+      [
+        "The Valley",
+        []
+      ]
+    ],
+    [
+      [
+        "Cobh Ramblers",
+        [
+          "/wiki/Cobh_Ramblers_F.C."
+        ]
+      ],
+      [
+        "Cobh",
+        [
+          "/wiki/Cobh"
+        ]
+      ],
+      [
+        "St Colman 's Park",
+        [
+          "/wiki/St_Colman's_Park"
+        ]
+      ]
+    ],
+    [
+      [
+        "Cork City A",
+        [
+          "/wiki/Cork_City_F.C."
+        ]
+      ],
+      [
+        "Cork",
+        [
+          "/wiki/Cork_(city)"
+        ]
+      ],
+      [
+        "Turner 's Cross",
+        [
+          "/wiki/Turners_Cross_(stadium)"
+        ]
+      ]
+    ],
+    [
+      [
+        "Sporting Fingal A",
+        [
+          "/wiki/Sporting_Fingal_F.C."
+        ]
+      ],
+      [
+        "Fingal",
+        [
+          "/wiki/Fingal"
+        ]
+      ],
+      [
+        "ALSAA Sports Complex",
+        []
+      ]
+    ],
+    [
+      [
+        "St Patrick 's Athletic A",
+        [
+          "/wiki/St_Patrick's_Athletic_F.C."
+        ]
+      ],
+      [
+        "Inchicore",
+        [
+          "/wiki/Inchicore"
+        ]
+      ],
+      [
+        "Richmond Park",
+        [
+          "/wiki/Richmond_Park_(football_ground)"
+        ]
+      ]
+    ],
+    [
+      [
+        "Shamrock Rovers A",
+        [
+          "/wiki/Shamrock_Rovers_F.C._B"
+        ]
+      ],
+      [
+        "Tallaght",
+        [
+          "/wiki/Tallaght"
+        ]
+      ],
+      [
+        "Tallaght Stadium",
+        [
+          "/wiki/Tallaght_Stadium"
+        ]
+      ]
+    ],
+    [
+      [
+        "Tralee Dynamos",
+        [
+          "/wiki/Tralee_Dynamos_A.F.C."
+        ]
+      ],
+      [
+        "Tralee",
+        [
+          "/wiki/Tralee"
+        ]
+      ],
+      [
+        "Cahermoneen",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "d8bd4db5-ecfe-50c2-9034-675a84bb61cd",
+    "table_id": "2009_A_Championship_2",
+    "title": "2009 A Championship",
+    "header": [
+      "Team",
+      "Base",
+      "Stadium"
+    ],
+    "value": [
+      [
+        [
+          "Bohemians A",
+          [
+            "/wiki/Bohemians_F.C."
+          ]
+        ],
+        [
+          "Phibsborough",
+          [
+            "/wiki/Phibsborough"
+          ]
+        ],
+        [
+          "AUL Complex",
+          [
+            "/wiki/AUL_Complex"
+          ]
+        ]
+      ],
+      [
+        [
+          "Bray Wanderers A",
+          [
+            "/wiki/Bray_Wanderers_A.F.C."
+          ]
+        ],
+        [
+          "Bray",
+          [
+            "/wiki/Bray,_County_Wicklow"
+          ]
+        ],
+        [
+          "Jackson Park",
+          [
+            "/wiki/Jackson_Park,_Kilternan"
+          ]
+        ]
+      ],
+      [
+        [
+          "F.C . Carlow",
+          [
+            "/wiki/F.C._Carlow"
+          ]
+        ],
+        [
+          "Ballon",
+          [
+            "/wiki/Ballon,_County_Carlow"
+          ]
+        ],
+        [
+          "The Valley",
+          []
+        ]
+      ],
+      [
+        [
+          "Cobh Ramblers",
+          [
+            "/wiki/Cobh_Ramblers_F.C."
+          ]
+        ],
+        [
+          "Cobh",
+          [
+            "/wiki/Cobh"
+          ]
+        ],
+        [
+          "St Colman 's Park",
+          [
+            "/wiki/St_Colman's_Park"
+          ]
+        ]
+      ],
+      [
+        [
+          "Cork City A",
+          [
+            "/wiki/Cork_City_F.C."
+          ]
+        ],
+        [
+          "Cork",
+          [
+            "/wiki/Cork_(city)"
+          ]
+        ],
+        [
+          "Turner 's Cross",
+          [
+            "/wiki/Turners_Cross_(stadium)"
+          ]
+        ]
+      ],
+      [
+        [
+          "Sporting Fingal A",
+          [
+            "/wiki/Sporting_Fingal_F.C."
+          ]
+        ],
+        [
+          "Fingal",
+          [
+            "/wiki/Fingal"
+          ]
+        ],
+        [
+          "ALSAA Sports Complex",
+          []
+        ]
+      ],
+      [
+        [
+          "St Patrick 's Athletic A",
+          [
+            "/wiki/St_Patrick's_Athletic_F.C."
+          ]
+        ],
+        [
+          "Inchicore",
+          [
+            "/wiki/Inchicore"
+          ]
+        ],
+        [
+          "Richmond Park",
+          [
+            "/wiki/Richmond_Park_(football_ground)"
+          ]
+        ]
+      ],
+      [
+        [
+          "Shamrock Rovers A",
+          [
+            "/wiki/Shamrock_Rovers_F.C._B"
+          ]
+        ],
+        [
+          "Tallaght",
+          [
+            "/wiki/Tallaght"
+          ]
+        ],
+        [
+          "Tallaght Stadium",
+          [
+            "/wiki/Tallaght_Stadium"
+          ]
+        ]
+      ],
+      [
+        [
+          "Tralee Dynamos",
+          [
+            "/wiki/Tralee_Dynamos_A.F.C."
+          ]
+        ],
+        [
+          "Tralee",
+          [
+            "/wiki/Tralee"
+          ]
+        ],
+        [
+          "Cahermoneen",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about teams participating in the 2009 A Championship, including their base locations and stadiums. It is designed to associate teams with their geographical and venue details, likely for organizational or reference purposes.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Base",
+    "Stadium"
+  ],
+  "entities": [
+    "Team"
+  ]
+}

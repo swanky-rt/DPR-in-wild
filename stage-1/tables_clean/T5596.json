@@ -1,0 +1,474 @@
+{
+  "table_id": "T5596",
+  "uid": "b8e5c5cb-45c9-5ac2-babe-d1a83bc7a346",
+  "source": "HybridQA",
+  "source_table_id": "b8e5c5cb-45c9-5ac2-babe-d1a83bc7a346",
+  "domain": "HybridQA",
+  "title": "Suburban League",
+  "columns": [
+    "School",
+    "Nickname",
+    "Location",
+    "Colors",
+    "Tenure"
+  ],
+  "rows": [
+    [
+      [
+        "Cloverleaf",
+        [
+          "/wiki/Cloverleaf_High_School"
+        ]
+      ],
+      [
+        "Colts",
+        []
+      ],
+      [
+        "Lodi , Medina County",
+        [
+          "/wiki/Lodi,_Ohio",
+          "/wiki/Medina_County,_Ohio"
+        ]
+      ],
+      [
+        "Green , White",
+        []
+      ],
+      [
+        "1997-2015",
+        []
+      ]
+    ],
+    [
+      [
+        "Coventry",
+        [
+          "/wiki/Coventry_High_School_(Coventry_Township,_Ohio)"
+        ]
+      ],
+      [
+        "Comets",
+        []
+      ],
+      [
+        "Coventry Twp . , Summit County",
+        [
+          "/wiki/Coventry_Township,_Summit_County,_Ohio",
+          "/wiki/Summit_County,_Ohio"
+        ]
+      ],
+      [
+        "Blue , Gold",
+        []
+      ],
+      [
+        "1969-1983",
+        []
+      ]
+    ],
+    [
+      [
+        "Field",
+        [
+          "/wiki/Field_High_School"
+        ]
+      ],
+      [
+        "Falcons",
+        []
+      ],
+      [
+        "Brimfield , Portage County",
+        [
+          "/wiki/Brimfield_Township,_Portage_County,_Ohio",
+          "/wiki/Portage_County,_Ohio"
+        ]
+      ],
+      [
+        "Red , White , Black",
+        []
+      ],
+      [
+        "1978-1990",
+        []
+      ]
+    ],
+    [
+      [
+        "Green",
+        [
+          "/wiki/Green_High_School_(Green,_Ohio)"
+        ]
+      ],
+      [
+        "Bulldogs",
+        []
+      ],
+      [
+        "Green , Summit County",
+        [
+          "/wiki/Green,_Ohio",
+          "/wiki/Summit_County,_Ohio"
+        ]
+      ],
+      [
+        "Orange , Black",
+        []
+      ],
+      [
+        "1949-2015",
+        []
+      ]
+    ],
+    [
+      [
+        "Manchester",
+        [
+          "/wiki/Manchester_High_School_(Akron,_Ohio)"
+        ]
+      ],
+      [
+        "Panthers",
+        []
+      ],
+      [
+        "New Franklin , Summit County",
+        [
+          "/wiki/New_Franklin,_Ohio",
+          "/wiki/Summit_County,_Ohio"
+        ]
+      ],
+      [
+        "Red , Black",
+        []
+      ],
+      [
+        "1949-1976",
+        []
+      ]
+    ],
+    [
+      [
+        "Mogadore",
+        [
+          "/wiki/Mogadore_High_School"
+        ]
+      ],
+      [
+        "Wildcats",
+        []
+      ],
+      [
+        "Mogadore , Summit County",
+        [
+          "/wiki/Mogadore,_Ohio",
+          "/wiki/Summit_County,_Ohio"
+        ]
+      ],
+      [
+        "Green , White",
+        []
+      ],
+      [
+        "1958-1968",
+        []
+      ]
+    ],
+    [
+      [
+        "Norton",
+        [
+          "/wiki/Norton_High_School_(Ohio)"
+        ]
+      ],
+      [
+        "Panthers",
+        []
+      ],
+      [
+        "Norton , Summit County",
+        [
+          "/wiki/Norton,_Ohio",
+          "/wiki/Summit_County,_Ohio"
+        ]
+      ],
+      [
+        "Red , Black , White",
+        []
+      ],
+      [
+        "1972-2005",
+        []
+      ]
+    ],
+    [
+      [
+        "Woodridge",
+        [
+          "/wiki/Woodridge_High_School"
+        ]
+      ],
+      [
+        "Bulldogs",
+        []
+      ],
+      [
+        "Peninsula , Summit County",
+        [
+          "/wiki/Peninsula,_Ohio",
+          "/wiki/Summit_County,_Ohio"
+        ]
+      ],
+      [
+        "Maroon , Silver",
+        []
+      ],
+      [
+        "1958-1978",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "b8e5c5cb-45c9-5ac2-babe-d1a83bc7a346",
+    "table_id": "Suburban_League_1",
+    "title": "Suburban League",
+    "header": [
+      "School",
+      "Nickname",
+      "Location",
+      "Colors",
+      "Tenure"
+    ],
+    "value": [
+      [
+        [
+          "Cloverleaf",
+          [
+            "/wiki/Cloverleaf_High_School"
+          ]
+        ],
+        [
+          "Colts",
+          []
+        ],
+        [
+          "Lodi , Medina County",
+          [
+            "/wiki/Lodi,_Ohio",
+            "/wiki/Medina_County,_Ohio"
+          ]
+        ],
+        [
+          "Green , White",
+          []
+        ],
+        [
+          "1997-2015",
+          []
+        ]
+      ],
+      [
+        [
+          "Coventry",
+          [
+            "/wiki/Coventry_High_School_(Coventry_Township,_Ohio)"
+          ]
+        ],
+        [
+          "Comets",
+          []
+        ],
+        [
+          "Coventry Twp . , Summit County",
+          [
+            "/wiki/Coventry_Township,_Summit_County,_Ohio",
+            "/wiki/Summit_County,_Ohio"
+          ]
+        ],
+        [
+          "Blue , Gold",
+          []
+        ],
+        [
+          "1969-1983",
+          []
+        ]
+      ],
+      [
+        [
+          "Field",
+          [
+            "/wiki/Field_High_School"
+          ]
+        ],
+        [
+          "Falcons",
+          []
+        ],
+        [
+          "Brimfield , Portage County",
+          [
+            "/wiki/Brimfield_Township,_Portage_County,_Ohio",
+            "/wiki/Portage_County,_Ohio"
+          ]
+        ],
+        [
+          "Red , White , Black",
+          []
+        ],
+        [
+          "1978-1990",
+          []
+        ]
+      ],
+      [
+        [
+          "Green",
+          [
+            "/wiki/Green_High_School_(Green,_Ohio)"
+          ]
+        ],
+        [
+          "Bulldogs",
+          []
+        ],
+        [
+          "Green , Summit County",
+          [
+            "/wiki/Green,_Ohio",
+            "/wiki/Summit_County,_Ohio"
+          ]
+        ],
+        [
+          "Orange , Black",
+          []
+        ],
+        [
+          "1949-2015",
+          []
+        ]
+      ],
+      [
+        [
+          "Manchester",
+          [
+            "/wiki/Manchester_High_School_(Akron,_Ohio)"
+          ]
+        ],
+        [
+          "Panthers",
+          []
+        ],
+        [
+          "New Franklin , Summit County",
+          [
+            "/wiki/New_Franklin,_Ohio",
+            "/wiki/Summit_County,_Ohio"
+          ]
+        ],
+        [
+          "Red , Black",
+          []
+        ],
+        [
+          "1949-1976",
+          []
+        ]
+      ],
+      [
+        [
+          "Mogadore",
+          [
+            "/wiki/Mogadore_High_School"
+          ]
+        ],
+        [
+          "Wildcats",
+          []
+        ],
+        [
+          "Mogadore , Summit County",
+          [
+            "/wiki/Mogadore,_Ohio",
+            "/wiki/Summit_County,_Ohio"
+          ]
+        ],
+        [
+          "Green , White",
+          []
+        ],
+        [
+          "1958-1968",
+          []
+        ]
+      ],
+      [
+        [
+          "Norton",
+          [
+            "/wiki/Norton_High_School_(Ohio)"
+          ]
+        ],
+        [
+          "Panthers",
+          []
+        ],
+        [
+          "Norton , Summit County",
+          [
+            "/wiki/Norton,_Ohio",
+            "/wiki/Summit_County,_Ohio"
+          ]
+        ],
+        [
+          "Red , Black , White",
+          []
+        ],
+        [
+          "1972-2005",
+          []
+        ]
+      ],
+      [
+        [
+          "Woodridge",
+          [
+            "/wiki/Woodridge_High_School"
+          ]
+        ],
+        [
+          "Bulldogs",
+          []
+        ],
+        [
+          "Peninsula , Summit County",
+          [
+            "/wiki/Peninsula,_Ohio",
+            "/wiki/Summit_County,_Ohio"
+          ]
+        ],
+        [
+          "Maroon , Silver",
+          []
+        ],
+        [
+          "1958-1978",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about schools in the Suburban League, including their nicknames, locations, colors, and tenure periods. It appears to document key attributes of each school for reference or historical purposes. The data combines categorical details with specific entities like school names and locations.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Nickname",
+    "Colors",
+    "Tenure"
+  ],
+  "entities": [
+    "School",
+    "Location"
+  ]
+}

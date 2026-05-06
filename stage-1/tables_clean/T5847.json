@@ -1,0 +1,296 @@
+{
+  "table_id": "T5847",
+  "uid": "e15abce7-f769-53c8-8404-c53cbafdd0d5",
+  "source": "HybridQA",
+  "source_table_id": "e15abce7-f769-53c8-8404-c53cbafdd0d5",
+  "domain": "HybridQA",
+  "title": "Redruth transmitting station",
+  "columns": [
+    "Frequency",
+    "kW",
+    "Service"
+  ],
+  "rows": [
+    [
+      [
+        "89.7 MHz",
+        [
+          "/wiki/MHz"
+        ]
+      ],
+      [
+        25,
+        []
+      ],
+      [
+        "BBC Radio 2",
+        [
+          "/wiki/BBC_Radio_2"
+        ]
+      ]
+    ],
+    [
+      [
+        "91.9 MHz",
+        []
+      ],
+      [
+        25,
+        []
+      ],
+      [
+        "BBC Radio 3",
+        [
+          "/wiki/BBC_Radio_3"
+        ]
+      ]
+    ],
+    [
+      [
+        "94.1 MHz",
+        []
+      ],
+      [
+        25,
+        []
+      ],
+      [
+        "BBC Radio 4",
+        [
+          "/wiki/BBC_Radio_4"
+        ]
+      ]
+    ],
+    [
+      [
+        "99.3 MHz",
+        []
+      ],
+      [
+        25,
+        []
+      ],
+      [
+        "BBC Radio 1",
+        [
+          "/wiki/BBC_Radio_1"
+        ]
+      ]
+    ],
+    [
+      [
+        "101.5 MHz",
+        []
+      ],
+      [
+        "2 ( H ) 8 ( V )",
+        []
+      ],
+      [
+        "Classic FM",
+        [
+          "/wiki/Classic_FM_(UK)"
+        ]
+      ]
+    ],
+    [
+      [
+        "102.8 MHz",
+        []
+      ],
+      [
+        10.8,
+        []
+      ],
+      [
+        "Pirate FM",
+        [
+          "/wiki/Pirate_FM"
+        ]
+      ]
+    ],
+    [
+      [
+        "103.9 MHz",
+        []
+      ],
+      [
+        18,
+        []
+      ],
+      [
+        "BBC Radio Cornwall",
+        [
+          "/wiki/BBC_Radio_Cornwall"
+        ]
+      ]
+    ],
+    [
+      [
+        "107.0 MHz",
+        []
+      ],
+      [
+        10.69,
+        []
+      ],
+      [
+        "Heart South West",
+        [
+          "/wiki/Heart_South_West"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "e15abce7-f769-53c8-8404-c53cbafdd0d5",
+    "table_id": "Redruth_transmitting_station_1",
+    "title": "Redruth transmitting station",
+    "header": [
+      "Frequency",
+      "kW",
+      "Service"
+    ],
+    "value": [
+      [
+        [
+          "89.7 MHz",
+          [
+            "/wiki/MHz"
+          ]
+        ],
+        [
+          25,
+          []
+        ],
+        [
+          "BBC Radio 2",
+          [
+            "/wiki/BBC_Radio_2"
+          ]
+        ]
+      ],
+      [
+        [
+          "91.9 MHz",
+          []
+        ],
+        [
+          25,
+          []
+        ],
+        [
+          "BBC Radio 3",
+          [
+            "/wiki/BBC_Radio_3"
+          ]
+        ]
+      ],
+      [
+        [
+          "94.1 MHz",
+          []
+        ],
+        [
+          25,
+          []
+        ],
+        [
+          "BBC Radio 4",
+          [
+            "/wiki/BBC_Radio_4"
+          ]
+        ]
+      ],
+      [
+        [
+          "99.3 MHz",
+          []
+        ],
+        [
+          25,
+          []
+        ],
+        [
+          "BBC Radio 1",
+          [
+            "/wiki/BBC_Radio_1"
+          ]
+        ]
+      ],
+      [
+        [
+          "101.5 MHz",
+          []
+        ],
+        [
+          "2 ( H ) 8 ( V )",
+          []
+        ],
+        [
+          "Classic FM",
+          [
+            "/wiki/Classic_FM_(UK)"
+          ]
+        ]
+      ],
+      [
+        [
+          "102.8 MHz",
+          []
+        ],
+        [
+          10.8,
+          []
+        ],
+        [
+          "Pirate FM",
+          [
+            "/wiki/Pirate_FM"
+          ]
+        ]
+      ],
+      [
+        [
+          "103.9 MHz",
+          []
+        ],
+        [
+          18,
+          []
+        ],
+        [
+          "BBC Radio Cornwall",
+          [
+            "/wiki/BBC_Radio_Cornwall"
+          ]
+        ]
+      ],
+      [
+        [
+          "107.0 MHz",
+          []
+        ],
+        [
+          10.69,
+          []
+        ],
+        [
+          "Heart South West",
+          [
+            "/wiki/Heart_South_West"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the broadcasting details of a transmitting station, including the frequencies, power levels, and services offered. It is likely used to document or manage the technical and service-related aspects of radio transmissions.",
+  "numeric_columns": [
+    "kW"
+  ],
+  "categorical_columns": [
+    "Frequency",
+    "Service"
+  ],
+  "entities": []
+}

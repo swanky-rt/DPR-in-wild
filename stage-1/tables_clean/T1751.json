@@ -1,0 +1,368 @@
+{
+  "table_id": "T1751",
+  "uid": "6711b211-40bf-5baf-95de-aa53831f10a8",
+  "source": "HybridQA",
+  "source_table_id": "6711b211-40bf-5baf-95de-aa53831f10a8",
+  "domain": "HybridQA",
+  "title": "2012 Aerobic Gymnastics World Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Country",
+    "Score"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Sara Moreno",
+        []
+      ],
+      [
+        "Spain",
+        [
+          "/wiki/Spain"
+        ]
+      ],
+      [
+        21.65,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Aurelie Joly",
+        []
+      ],
+      [
+        "France",
+        [
+          "/wiki/France"
+        ]
+      ],
+      [
+        21.35,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Lubov Gazov",
+        [
+          "/wiki/Lubov_Gazov"
+        ]
+      ],
+      [
+        "Austria",
+        [
+          "/wiki/Austria"
+        ]
+      ],
+      [
+        21.25,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Oana Corina Constantin",
+        [
+          "/wiki/Oana_Corina_Constantin"
+        ]
+      ],
+      [
+        "Romania",
+        [
+          "/wiki/Romania"
+        ]
+      ],
+      [
+        21.15,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Giulia Bianchi",
+        []
+      ],
+      [
+        "Italy",
+        [
+          "/wiki/Italy"
+        ]
+      ],
+      [
+        20.85,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Denitsa Parichkova",
+        []
+      ],
+      [
+        "Bulgaria",
+        [
+          "/wiki/Bulgaria"
+        ]
+      ],
+      [
+        20.8,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Hyun Kung Shin",
+        []
+      ],
+      [
+        "South Korea",
+        [
+          "/wiki/South_Korea"
+        ]
+      ],
+      [
+        20.8,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Maria Luisa Pavel",
+        []
+      ],
+      [
+        "Romania",
+        [
+          "/wiki/Romania"
+        ]
+      ],
+      [
+        20.7,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "6711b211-40bf-5baf-95de-aa53831f10a8",
+    "table_id": "2012_Aerobic_Gymnastics_World_Championships_0",
+    "title": "2012 Aerobic Gymnastics World Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Country",
+      "Score"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Sara Moreno",
+          []
+        ],
+        [
+          "Spain",
+          [
+            "/wiki/Spain"
+          ]
+        ],
+        [
+          21.65,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Aurelie Joly",
+          []
+        ],
+        [
+          "France",
+          [
+            "/wiki/France"
+          ]
+        ],
+        [
+          21.35,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Lubov Gazov",
+          [
+            "/wiki/Lubov_Gazov"
+          ]
+        ],
+        [
+          "Austria",
+          [
+            "/wiki/Austria"
+          ]
+        ],
+        [
+          21.25,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Oana Corina Constantin",
+          [
+            "/wiki/Oana_Corina_Constantin"
+          ]
+        ],
+        [
+          "Romania",
+          [
+            "/wiki/Romania"
+          ]
+        ],
+        [
+          21.15,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Giulia Bianchi",
+          []
+        ],
+        [
+          "Italy",
+          [
+            "/wiki/Italy"
+          ]
+        ],
+        [
+          20.85,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Denitsa Parichkova",
+          []
+        ],
+        [
+          "Bulgaria",
+          [
+            "/wiki/Bulgaria"
+          ]
+        ],
+        [
+          20.8,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Hyun Kung Shin",
+          []
+        ],
+        [
+          "South Korea",
+          [
+            "/wiki/South_Korea"
+          ]
+        ],
+        [
+          20.8,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Maria Luisa Pavel",
+          []
+        ],
+        [
+          "Romania",
+          [
+            "/wiki/Romania"
+          ]
+        ],
+        [
+          20.7,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the results of the 2012 Aerobic Gymnastics World Championships, listing rankings, participants, their countries, and scores. It is designed to summarize performance outcomes in the competition. The table includes both numerical scores and categorical details about the gymnasts and their affiliations.",
+  "numeric_columns": [
+    "Score"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast",
+    "Country"
+  ]
+}

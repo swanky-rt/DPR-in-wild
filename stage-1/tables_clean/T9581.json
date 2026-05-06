@@ -1,0 +1,536 @@
+{
+  "table_id": "T9581",
+  "uid": "1a15dd8e-6236-5b5a-b608-4753987287ee",
+  "source": "HybridQA",
+  "source_table_id": "1a15dd8e-6236-5b5a-b608-4753987287ee",
+  "domain": "HybridQA",
+  "title": "Nevada State Prison",
+  "columns": [
+    "Inmate",
+    "Number",
+    "Status",
+    "Description"
+  ],
+  "rows": [
+    [
+      [
+        "Jesse Bishop",
+        [
+          "/wiki/Jesse_Bishop"
+        ]
+      ],
+      [
+        0,
+        []
+      ],
+      [
+        "Executed October 22 , 1979",
+        []
+      ],
+      [
+        "Murder",
+        [
+          "/wiki/Murder"
+        ]
+      ]
+    ],
+    [
+      [
+        "Thomas Lee Bean",
+        [
+          "/wiki/Sonja_McCaskie"
+        ]
+      ],
+      [
+        8630,
+        []
+      ],
+      [
+        "Life imprisonment",
+        [
+          "/wiki/Life_imprisonment"
+        ]
+      ],
+      [
+        "Murder",
+        []
+      ]
+    ],
+    [
+      [
+        "Carroll Cole",
+        [
+          "/wiki/Carroll_Cole"
+        ]
+      ],
+      [
+        20163,
+        []
+      ],
+      [
+        "Executed December 6 , 1985",
+        []
+      ],
+      [
+        "Murder",
+        []
+      ]
+    ],
+    [
+      [
+        "Lawrence Colwell , Jr",
+        []
+      ],
+      [
+        47271,
+        []
+      ],
+      [
+        "Executed March 26 , 2004",
+        []
+      ],
+      [
+        "Murder",
+        []
+      ]
+    ],
+    [
+      [
+        "Terry Jess Dennis",
+        []
+      ],
+      [
+        62144,
+        []
+      ],
+      [
+        "Executed August 12 , 2004",
+        []
+      ],
+      [
+        "Murder",
+        []
+      ]
+    ],
+    [
+      [
+        "Gee Jon",
+        [
+          "/wiki/Gee_Jon"
+        ]
+      ],
+      [
+        2320,
+        []
+      ],
+      [
+        "Executed February 8 , 1924",
+        []
+      ],
+      [
+        "Tong war murder",
+        [
+          "/wiki/Tong_(organization)"
+        ]
+      ]
+    ],
+    [
+      [
+        "Troy Kell",
+        [
+          "/wiki/Troy_Kell"
+        ]
+      ],
+      [
+        24333,
+        []
+      ],
+      [
+        "Transferred to Central Utah Correctional Facility",
+        [
+          "/wiki/Central_Utah_Correctional_Facility"
+        ]
+      ],
+      [
+        "Murder",
+        []
+      ]
+    ],
+    [
+      [
+        "Jimmy Lerner",
+        [
+          "/wiki/Jimmy_Lerner"
+        ]
+      ],
+      [
+        61634,
+        []
+      ],
+      [
+        "Released January 2 , 2002",
+        []
+      ],
+      [
+        "Manslaughter",
+        [
+          "/wiki/Manslaughter"
+        ]
+      ]
+    ],
+    [
+      [
+        "Daryl Linnie Mack",
+        []
+      ],
+      [
+        44532,
+        []
+      ],
+      [
+        "Executed April 26 , 2006",
+        []
+      ],
+      [
+        "Murder",
+        []
+      ]
+    ],
+    [
+      [
+        "Andriza Mircovich",
+        [
+          "/wiki/Andriza_Mircovich"
+        ]
+      ],
+      [
+        1479,
+        []
+      ],
+      [
+        "Executed May 14 , 1913",
+        []
+      ],
+      [
+        "Murder",
+        []
+      ]
+    ],
+    [
+      [
+        "Joseph Mitchell Parsons",
+        [
+          "/wiki/Joseph_Mitchell_Parsons"
+        ]
+      ],
+      [
+        17976,
+        []
+      ],
+      [
+        "Paroled August 1987 , and executed on October 15 , 1999 at Utah State Prison",
+        [
+          "/wiki/Utah_State_Prison"
+        ]
+      ],
+      [
+        "Armed robbery",
+        [
+          "/wiki/Robbery"
+        ]
+      ]
+    ],
+    [
+      [
+        "Alice Maud Hartley",
+        [
+          "/wiki/Alice_Maud_Hartley"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "Pardoned 1897",
+        []
+      ],
+      [
+        "Second-degree murder",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "1a15dd8e-6236-5b5a-b608-4753987287ee",
+    "table_id": "Nevada_State_Prison_0",
+    "title": "Nevada State Prison",
+    "header": [
+      "Inmate",
+      "Number",
+      "Status",
+      "Description"
+    ],
+    "value": [
+      [
+        [
+          "Jesse Bishop",
+          [
+            "/wiki/Jesse_Bishop"
+          ]
+        ],
+        [
+          0,
+          []
+        ],
+        [
+          "Executed October 22 , 1979",
+          []
+        ],
+        [
+          "Murder",
+          [
+            "/wiki/Murder"
+          ]
+        ]
+      ],
+      [
+        [
+          "Thomas Lee Bean",
+          [
+            "/wiki/Sonja_McCaskie"
+          ]
+        ],
+        [
+          8630,
+          []
+        ],
+        [
+          "Life imprisonment",
+          [
+            "/wiki/Life_imprisonment"
+          ]
+        ],
+        [
+          "Murder",
+          []
+        ]
+      ],
+      [
+        [
+          "Carroll Cole",
+          [
+            "/wiki/Carroll_Cole"
+          ]
+        ],
+        [
+          20163,
+          []
+        ],
+        [
+          "Executed December 6 , 1985",
+          []
+        ],
+        [
+          "Murder",
+          []
+        ]
+      ],
+      [
+        [
+          "Lawrence Colwell , Jr",
+          []
+        ],
+        [
+          47271,
+          []
+        ],
+        [
+          "Executed March 26 , 2004",
+          []
+        ],
+        [
+          "Murder",
+          []
+        ]
+      ],
+      [
+        [
+          "Terry Jess Dennis",
+          []
+        ],
+        [
+          62144,
+          []
+        ],
+        [
+          "Executed August 12 , 2004",
+          []
+        ],
+        [
+          "Murder",
+          []
+        ]
+      ],
+      [
+        [
+          "Gee Jon",
+          [
+            "/wiki/Gee_Jon"
+          ]
+        ],
+        [
+          2320,
+          []
+        ],
+        [
+          "Executed February 8 , 1924",
+          []
+        ],
+        [
+          "Tong war murder",
+          [
+            "/wiki/Tong_(organization)"
+          ]
+        ]
+      ],
+      [
+        [
+          "Troy Kell",
+          [
+            "/wiki/Troy_Kell"
+          ]
+        ],
+        [
+          24333,
+          []
+        ],
+        [
+          "Transferred to Central Utah Correctional Facility",
+          [
+            "/wiki/Central_Utah_Correctional_Facility"
+          ]
+        ],
+        [
+          "Murder",
+          []
+        ]
+      ],
+      [
+        [
+          "Jimmy Lerner",
+          [
+            "/wiki/Jimmy_Lerner"
+          ]
+        ],
+        [
+          61634,
+          []
+        ],
+        [
+          "Released January 2 , 2002",
+          []
+        ],
+        [
+          "Manslaughter",
+          [
+            "/wiki/Manslaughter"
+          ]
+        ]
+      ],
+      [
+        [
+          "Daryl Linnie Mack",
+          []
+        ],
+        [
+          44532,
+          []
+        ],
+        [
+          "Executed April 26 , 2006",
+          []
+        ],
+        [
+          "Murder",
+          []
+        ]
+      ],
+      [
+        [
+          "Andriza Mircovich",
+          [
+            "/wiki/Andriza_Mircovich"
+          ]
+        ],
+        [
+          1479,
+          []
+        ],
+        [
+          "Executed May 14 , 1913",
+          []
+        ],
+        [
+          "Murder",
+          []
+        ]
+      ],
+      [
+        [
+          "Joseph Mitchell Parsons",
+          [
+            "/wiki/Joseph_Mitchell_Parsons"
+          ]
+        ],
+        [
+          17976,
+          []
+        ],
+        [
+          "Paroled August 1987 , and executed on October 15 , 1999 at Utah State Prison",
+          [
+            "/wiki/Utah_State_Prison"
+          ]
+        ],
+        [
+          "Armed robbery",
+          [
+            "/wiki/Robbery"
+          ]
+        ]
+      ],
+      [
+        [
+          "Alice Maud Hartley",
+          [
+            "/wiki/Alice_Maud_Hartley"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "Pardoned 1897",
+          []
+        ],
+        [
+          "Second-degree murder",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about inmates associated with the Nevada State Prison, including their identification numbers, current status, and a brief description of their cases. It appears to document key details about individuals and their legal outcomes, likely for historical or record-keeping purposes.",
+  "numeric_columns": [
+    "Number"
+  ],
+  "categorical_columns": [
+    "Status",
+    "Description"
+  ],
+  "entities": [
+    "Inmate"
+  ]
+}

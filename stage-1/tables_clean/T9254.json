@@ -1,0 +1,461 @@
+{
+  "table_id": "T9254",
+  "uid": "55d0f17f-3864-5c08-a845-6e1b1ecd58d8",
+  "source": "HybridQA",
+  "source_table_id": "55d0f17f-3864-5c08-a845-6e1b1ecd58d8",
+  "domain": "HybridQA",
+  "title": "SK Telecom",
+  "columns": [
+    "Frequency",
+    "Frequency band",
+    "Frequency width ( MHz )",
+    "Generation",
+    "Radio interface"
+  ],
+  "rows": [
+    [
+      [
+        "800 MHz ( 824-829 , 869-874 )",
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "2x5",
+        []
+      ],
+      [
+        "2G",
+        [
+          "/wiki/2G"
+        ]
+      ],
+      [
+        "CDMA",
+        [
+          "/wiki/CDMA"
+        ]
+      ]
+    ],
+    [
+      [
+        "850 MHz ( 829-839 , 874-884 )",
+        []
+      ],
+      [
+        5,
+        []
+      ],
+      [
+        "2x10",
+        []
+      ],
+      [
+        "3.9G",
+        [
+          "/wiki/3.9G"
+        ]
+      ],
+      [
+        "LTE",
+        [
+          "/wiki/LTE_(telecommunication)"
+        ]
+      ]
+    ],
+    [
+      [
+        "1800 MHz ( 1715-1725 , 1730-1735 , 1810-1830 )",
+        []
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        35,
+        []
+      ],
+      [
+        "3.9G",
+        [
+          "/wiki/3.9G"
+        ]
+      ],
+      [
+        "LTE",
+        [
+          "/wiki/LTE_(telecommunication)"
+        ]
+      ]
+    ],
+    [
+      [
+        "2100 MHz ( 1930-1940 , 2120-2130 )",
+        []
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "2x10",
+        []
+      ],
+      [
+        "3.9G",
+        [
+          "/wiki/3.9G"
+        ]
+      ],
+      [
+        "LTE",
+        [
+          "/wiki/LTE_(telecommunication)"
+        ]
+      ]
+    ],
+    [
+      [
+        "2100 MHz ( 1940-1960 , 2130-2150 )",
+        []
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "2x20",
+        []
+      ],
+      [
+        "3.5G",
+        [
+          "/wiki/3.5G"
+        ]
+      ],
+      [
+        "UMTS / HSPA",
+        [
+          "/wiki/UMTS",
+          "/wiki/High_Speed_Packet_Access"
+        ]
+      ]
+    ],
+    [
+      [
+        "2300 MHz ( 2300-2327 )",
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        27,
+        []
+      ],
+      [
+        "3.9G",
+        [
+          "/wiki/3.9G"
+        ]
+      ],
+      [
+        "Mobile WiMAX",
+        [
+          "/wiki/WiBro"
+        ]
+      ]
+    ],
+    [
+      [
+        "3500 MHz ( ? ? )",
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        100,
+        []
+      ],
+      [
+        "5G",
+        [
+          "/wiki/5G"
+        ]
+      ],
+      [
+        "NR",
+        [
+          "/wiki/5G_NR"
+        ]
+      ]
+    ],
+    [
+      [
+        "28 GHz ( ? ? )",
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        800,
+        []
+      ],
+      [
+        "5G",
+        [
+          "/wiki/5G"
+        ]
+      ],
+      [
+        "NR",
+        [
+          "/wiki/5G_NR"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "55d0f17f-3864-5c08-a845-6e1b1ecd58d8",
+    "table_id": "SK_Telecom_0",
+    "title": "SK Telecom",
+    "header": [
+      "Frequency",
+      "Frequency band",
+      "Frequency width ( MHz )",
+      "Generation",
+      "Radio interface"
+    ],
+    "value": [
+      [
+        [
+          "800 MHz ( 824-829 , 869-874 )",
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "2x5",
+          []
+        ],
+        [
+          "2G",
+          [
+            "/wiki/2G"
+          ]
+        ],
+        [
+          "CDMA",
+          [
+            "/wiki/CDMA"
+          ]
+        ]
+      ],
+      [
+        [
+          "850 MHz ( 829-839 , 874-884 )",
+          []
+        ],
+        [
+          5,
+          []
+        ],
+        [
+          "2x10",
+          []
+        ],
+        [
+          "3.9G",
+          [
+            "/wiki/3.9G"
+          ]
+        ],
+        [
+          "LTE",
+          [
+            "/wiki/LTE_(telecommunication)"
+          ]
+        ]
+      ],
+      [
+        [
+          "1800 MHz ( 1715-1725 , 1730-1735 , 1810-1830 )",
+          []
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          35,
+          []
+        ],
+        [
+          "3.9G",
+          [
+            "/wiki/3.9G"
+          ]
+        ],
+        [
+          "LTE",
+          [
+            "/wiki/LTE_(telecommunication)"
+          ]
+        ]
+      ],
+      [
+        [
+          "2100 MHz ( 1930-1940 , 2120-2130 )",
+          []
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "2x10",
+          []
+        ],
+        [
+          "3.9G",
+          [
+            "/wiki/3.9G"
+          ]
+        ],
+        [
+          "LTE",
+          [
+            "/wiki/LTE_(telecommunication)"
+          ]
+        ]
+      ],
+      [
+        [
+          "2100 MHz ( 1940-1960 , 2130-2150 )",
+          []
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "2x20",
+          []
+        ],
+        [
+          "3.5G",
+          [
+            "/wiki/3.5G"
+          ]
+        ],
+        [
+          "UMTS / HSPA",
+          [
+            "/wiki/UMTS",
+            "/wiki/High_Speed_Packet_Access"
+          ]
+        ]
+      ],
+      [
+        [
+          "2300 MHz ( 2300-2327 )",
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          27,
+          []
+        ],
+        [
+          "3.9G",
+          [
+            "/wiki/3.9G"
+          ]
+        ],
+        [
+          "Mobile WiMAX",
+          [
+            "/wiki/WiBro"
+          ]
+        ]
+      ],
+      [
+        [
+          "3500 MHz ( ? ? )",
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          100,
+          []
+        ],
+        [
+          "5G",
+          [
+            "/wiki/5G"
+          ]
+        ],
+        [
+          "NR",
+          [
+            "/wiki/5G_NR"
+          ]
+        ]
+      ],
+      [
+        [
+          "28 GHz ( ? ? )",
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          800,
+          []
+        ],
+        [
+          "5G",
+          [
+            "/wiki/5G"
+          ]
+        ],
+        [
+          "NR",
+          [
+            "/wiki/5G_NR"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the frequency bands and technical specifications used by SK Telecom for different generations of mobile communication technologies. It includes details on frequency ranges, bandwidths, radio interfaces, and the associated generation of technology. The table is likely intended for technical reference or analysis in the telecommunications domain.",
+  "numeric_columns": [
+    "Frequency width ( MHz )"
+  ],
+  "categorical_columns": [
+    "Frequency band",
+    "Generation",
+    "Radio interface"
+  ],
+  "entities": [
+    "Frequency"
+  ]
+}

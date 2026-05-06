@@ -1,0 +1,484 @@
+{
+  "table_id": "T9152",
+  "uid": "cc9aee37-72e0-58f3-887d-fa4f38a715fd",
+  "source": "HybridQA",
+  "source_table_id": "cc9aee37-72e0-58f3-887d-fa4f38a715fd",
+  "domain": "HybridQA",
+  "title": "Eduardo Orozco",
+  "columns": [
+    "Year",
+    "Title",
+    "Role"
+  ],
+  "rows": [
+    [
+      [
+        2001,
+        []
+      ],
+      [
+        "A calzón quita ' o",
+        [
+          "/wiki/A_calzón_quita'o"
+        ]
+      ],
+      [
+        "El Chami Novio",
+        []
+      ]
+    ],
+    [
+      [
+        2002,
+        []
+      ],
+      [
+        "Trapos íntimos",
+        [
+          "/wiki/Trapos_íntimos"
+        ]
+      ],
+      [
+        "Juancho Febres",
+        []
+      ]
+    ],
+    [
+      [
+        2002,
+        []
+      ],
+      [
+        "Hoy",
+        [
+          "/wiki/Hoy_(TV_series)"
+        ]
+      ],
+      [
+        "Himself",
+        []
+      ]
+    ],
+    [
+      [
+        2003,
+        []
+      ],
+      [
+        "La Invasora",
+        [
+          "/wiki/La_Invasora"
+        ]
+      ],
+      [
+        "Enrique Cárdenas",
+        []
+      ]
+    ],
+    [
+      [
+        2005,
+        []
+      ],
+      [
+        "Mujer con pantalones",
+        [
+          "/wiki/Mujer_con_pantalones"
+        ]
+      ],
+      [
+        "Vladimir Torrealba Galué",
+        []
+      ]
+    ],
+    [
+      [
+        2006,
+        []
+      ],
+      [
+        "Por todo lo alto",
+        [
+          "/wiki/Por_todo_lo_alto"
+        ]
+      ],
+      [
+        "Humberto Luzardo",
+        []
+      ]
+    ],
+    [
+      [
+        2006,
+        []
+      ],
+      [
+        "Te tengo en salsa",
+        [
+          "/wiki/Te_tengo_en_salsa"
+        ]
+      ],
+      [
+        "César Román Perroni Montiel",
+        []
+      ]
+    ],
+    [
+      [
+        2008,
+        []
+      ],
+      [
+        "Torrente",
+        [
+          "/wiki/Torrente_(telenovela)"
+        ]
+      ],
+      [
+        "Juan Juancho Gabaldón Leal",
+        []
+      ]
+    ],
+    [
+      [
+        2009,
+        []
+      ],
+      [
+        "Los misterios del amor",
+        [
+          "/wiki/Los_misterios_del_amor"
+        ]
+      ],
+      [
+        "Octavio",
+        []
+      ]
+    ],
+    [
+      [
+        2010,
+        []
+      ],
+      [
+        "La mujer perfecta",
+        [
+          "/wiki/La_mujer_perfecta"
+        ]
+      ],
+      [
+        "Larry Corona",
+        []
+      ]
+    ],
+    [
+      [
+        2012,
+        []
+      ],
+      [
+        "Válgame Dios",
+        [
+          "/wiki/Válgame_Dios"
+        ]
+      ],
+      [
+        "Ignacio Nacho Castillo",
+        []
+      ]
+    ],
+    [
+      [
+        "2013-14",
+        []
+      ],
+      [
+        "Santa Diabla",
+        [
+          "/wiki/Santa_Diabla"
+        ]
+      ],
+      [
+        "Arturo Santana",
+        []
+      ]
+    ],
+    [
+      [
+        2015,
+        []
+      ],
+      [
+        "Escándalos",
+        [
+          "/wiki/Escándalos"
+        ]
+      ],
+      [
+        "Aureliano Mendoza / Ángelo",
+        []
+      ]
+    ],
+    [
+      [
+        2018,
+        []
+      ],
+      [
+        "Mi familia perfecta",
+        [
+          "/wiki/Mi_familia_perfecta"
+        ]
+      ],
+      [
+        "Felipe",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "cc9aee37-72e0-58f3-887d-fa4f38a715fd",
+    "table_id": "Eduardo_Orozco_1",
+    "title": "Eduardo Orozco",
+    "header": [
+      "Year",
+      "Title",
+      "Role"
+    ],
+    "value": [
+      [
+        [
+          2001,
+          []
+        ],
+        [
+          "A calzón quita ' o",
+          [
+            "/wiki/A_calzón_quita'o"
+          ]
+        ],
+        [
+          "El Chami Novio",
+          []
+        ]
+      ],
+      [
+        [
+          2002,
+          []
+        ],
+        [
+          "Trapos íntimos",
+          [
+            "/wiki/Trapos_íntimos"
+          ]
+        ],
+        [
+          "Juancho Febres",
+          []
+        ]
+      ],
+      [
+        [
+          2002,
+          []
+        ],
+        [
+          "Hoy",
+          [
+            "/wiki/Hoy_(TV_series)"
+          ]
+        ],
+        [
+          "Himself",
+          []
+        ]
+      ],
+      [
+        [
+          2003,
+          []
+        ],
+        [
+          "La Invasora",
+          [
+            "/wiki/La_Invasora"
+          ]
+        ],
+        [
+          "Enrique Cárdenas",
+          []
+        ]
+      ],
+      [
+        [
+          2005,
+          []
+        ],
+        [
+          "Mujer con pantalones",
+          [
+            "/wiki/Mujer_con_pantalones"
+          ]
+        ],
+        [
+          "Vladimir Torrealba Galué",
+          []
+        ]
+      ],
+      [
+        [
+          2006,
+          []
+        ],
+        [
+          "Por todo lo alto",
+          [
+            "/wiki/Por_todo_lo_alto"
+          ]
+        ],
+        [
+          "Humberto Luzardo",
+          []
+        ]
+      ],
+      [
+        [
+          2006,
+          []
+        ],
+        [
+          "Te tengo en salsa",
+          [
+            "/wiki/Te_tengo_en_salsa"
+          ]
+        ],
+        [
+          "César Román Perroni Montiel",
+          []
+        ]
+      ],
+      [
+        [
+          2008,
+          []
+        ],
+        [
+          "Torrente",
+          [
+            "/wiki/Torrente_(telenovela)"
+          ]
+        ],
+        [
+          "Juan Juancho Gabaldón Leal",
+          []
+        ]
+      ],
+      [
+        [
+          2009,
+          []
+        ],
+        [
+          "Los misterios del amor",
+          [
+            "/wiki/Los_misterios_del_amor"
+          ]
+        ],
+        [
+          "Octavio",
+          []
+        ]
+      ],
+      [
+        [
+          2010,
+          []
+        ],
+        [
+          "La mujer perfecta",
+          [
+            "/wiki/La_mujer_perfecta"
+          ]
+        ],
+        [
+          "Larry Corona",
+          []
+        ]
+      ],
+      [
+        [
+          2012,
+          []
+        ],
+        [
+          "Válgame Dios",
+          [
+            "/wiki/Válgame_Dios"
+          ]
+        ],
+        [
+          "Ignacio Nacho Castillo",
+          []
+        ]
+      ],
+      [
+        [
+          "2013-14",
+          []
+        ],
+        [
+          "Santa Diabla",
+          [
+            "/wiki/Santa_Diabla"
+          ]
+        ],
+        [
+          "Arturo Santana",
+          []
+        ]
+      ],
+      [
+        [
+          2015,
+          []
+        ],
+        [
+          "Escándalos",
+          [
+            "/wiki/Escándalos"
+          ]
+        ],
+        [
+          "Aureliano Mendoza / Ángelo",
+          []
+        ]
+      ],
+      [
+        [
+          2018,
+          []
+        ],
+        [
+          "Mi familia perfecta",
+          [
+            "/wiki/Mi_familia_perfecta"
+          ]
+        ],
+        [
+          "Felipe",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the career of Eduardo Orozco, detailing his roles in various productions over the years. It includes the year of release, the title of the production, and the role he played. The table is useful for understanding his professional timeline and contributions to the entertainment industry.",
+  "numeric_columns": [
+    "Year"
+  ],
+  "categorical_columns": [
+    "Title",
+    "Role"
+  ],
+  "entities": []
+}

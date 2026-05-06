@@ -1,0 +1,481 @@
+{
+  "table_id": "T6433",
+  "uid": "d8984ed8-7e06-5a8f-bfef-671800848b5f",
+  "source": "HybridQA",
+  "source_table_id": "d8984ed8-7e06-5a8f-bfef-671800848b5f",
+  "domain": "HybridQA",
+  "title": "Consumers Energy",
+  "columns": [
+    "Plant",
+    "River",
+    "Power ( MW )"
+  ],
+  "rows": [
+    [
+      [
+        "Alcona Dam",
+        [
+          "/wiki/Alcona_Dam"
+        ]
+      ],
+      [
+        "Au Sable",
+        [
+          "/wiki/Au_Sable_River_(Michigan)"
+        ]
+      ],
+      [
+        8,
+        []
+      ]
+    ],
+    [
+      [
+        "Allegan Hydro",
+        []
+      ],
+      [
+        "Kalamazoo",
+        [
+          "/wiki/Kalamazoo_River"
+        ]
+      ],
+      [
+        3,
+        []
+      ]
+    ],
+    [
+      [
+        "Cooke Dam",
+        [
+          "/wiki/Cooke_Dam"
+        ]
+      ],
+      [
+        "Au Sable",
+        [
+          "/wiki/Au_Sable_River_(Michigan)"
+        ]
+      ],
+      [
+        9,
+        []
+      ]
+    ],
+    [
+      [
+        "Croton Dam",
+        [
+          "/wiki/Croton_Dam_(Michigan)"
+        ]
+      ],
+      [
+        "Muskegon",
+        [
+          "/wiki/Muskegon_River"
+        ]
+      ],
+      [
+        9,
+        []
+      ]
+    ],
+    [
+      [
+        "Five Channels Dam",
+        [
+          "/wiki/Five_Channels_Dam"
+        ]
+      ],
+      [
+        "Au Sable",
+        [
+          "/wiki/Au_Sable_River_(Michigan)"
+        ]
+      ],
+      [
+        6,
+        []
+      ]
+    ],
+    [
+      [
+        "Foote Dam",
+        [
+          "/wiki/Foote_Dam"
+        ]
+      ],
+      [
+        "Au Sable",
+        [
+          "/wiki/Au_Sable_River_(Michigan)"
+        ]
+      ],
+      [
+        9,
+        []
+      ]
+    ],
+    [
+      [
+        "Hardy Dam",
+        [
+          "/wiki/Hardy_Dam"
+        ]
+      ],
+      [
+        "Muskegon",
+        [
+          "/wiki/Muskegon_River"
+        ]
+      ],
+      [
+        30,
+        []
+      ]
+    ],
+    [
+      [
+        "Hodenpyl Hydro",
+        []
+      ],
+      [
+        "Manistee",
+        [
+          "/wiki/Manistee_River"
+        ]
+      ],
+      [
+        18,
+        []
+      ]
+    ],
+    [
+      [
+        "Loud Hydro",
+        []
+      ],
+      [
+        "Au Sable",
+        [
+          "/wiki/Au_Sable_River_(Michigan)"
+        ]
+      ],
+      [
+        4,
+        []
+      ]
+    ],
+    [
+      [
+        "Mio Hydro",
+        []
+      ],
+      [
+        "Au Sable",
+        [
+          "/wiki/Au_Sable_River_(Michigan)"
+        ]
+      ],
+      [
+        5,
+        []
+      ]
+    ],
+    [
+      [
+        "Rogers Hydro",
+        []
+      ],
+      [
+        "Muskegon",
+        [
+          "/wiki/Muskegon_River"
+        ]
+      ],
+      [
+        7,
+        []
+      ]
+    ],
+    [
+      [
+        "Tippy Dam",
+        [
+          "/wiki/Tippy_Dam"
+        ]
+      ],
+      [
+        "Manistee",
+        [
+          "/wiki/Manistee_River"
+        ]
+      ],
+      [
+        20,
+        []
+      ]
+    ],
+    [
+      [
+        "Webber Hydro",
+        []
+      ],
+      [
+        "Grand",
+        [
+          "/wiki/Grand_River_(Michigan)"
+        ]
+      ],
+      [
+        4,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "d8984ed8-7e06-5a8f-bfef-671800848b5f",
+    "table_id": "Consumers_Energy_0",
+    "title": "Consumers Energy",
+    "header": [
+      "Plant",
+      "River",
+      "Power ( MW )"
+    ],
+    "value": [
+      [
+        [
+          "Alcona Dam",
+          [
+            "/wiki/Alcona_Dam"
+          ]
+        ],
+        [
+          "Au Sable",
+          [
+            "/wiki/Au_Sable_River_(Michigan)"
+          ]
+        ],
+        [
+          8,
+          []
+        ]
+      ],
+      [
+        [
+          "Allegan Hydro",
+          []
+        ],
+        [
+          "Kalamazoo",
+          [
+            "/wiki/Kalamazoo_River"
+          ]
+        ],
+        [
+          3,
+          []
+        ]
+      ],
+      [
+        [
+          "Cooke Dam",
+          [
+            "/wiki/Cooke_Dam"
+          ]
+        ],
+        [
+          "Au Sable",
+          [
+            "/wiki/Au_Sable_River_(Michigan)"
+          ]
+        ],
+        [
+          9,
+          []
+        ]
+      ],
+      [
+        [
+          "Croton Dam",
+          [
+            "/wiki/Croton_Dam_(Michigan)"
+          ]
+        ],
+        [
+          "Muskegon",
+          [
+            "/wiki/Muskegon_River"
+          ]
+        ],
+        [
+          9,
+          []
+        ]
+      ],
+      [
+        [
+          "Five Channels Dam",
+          [
+            "/wiki/Five_Channels_Dam"
+          ]
+        ],
+        [
+          "Au Sable",
+          [
+            "/wiki/Au_Sable_River_(Michigan)"
+          ]
+        ],
+        [
+          6,
+          []
+        ]
+      ],
+      [
+        [
+          "Foote Dam",
+          [
+            "/wiki/Foote_Dam"
+          ]
+        ],
+        [
+          "Au Sable",
+          [
+            "/wiki/Au_Sable_River_(Michigan)"
+          ]
+        ],
+        [
+          9,
+          []
+        ]
+      ],
+      [
+        [
+          "Hardy Dam",
+          [
+            "/wiki/Hardy_Dam"
+          ]
+        ],
+        [
+          "Muskegon",
+          [
+            "/wiki/Muskegon_River"
+          ]
+        ],
+        [
+          30,
+          []
+        ]
+      ],
+      [
+        [
+          "Hodenpyl Hydro",
+          []
+        ],
+        [
+          "Manistee",
+          [
+            "/wiki/Manistee_River"
+          ]
+        ],
+        [
+          18,
+          []
+        ]
+      ],
+      [
+        [
+          "Loud Hydro",
+          []
+        ],
+        [
+          "Au Sable",
+          [
+            "/wiki/Au_Sable_River_(Michigan)"
+          ]
+        ],
+        [
+          4,
+          []
+        ]
+      ],
+      [
+        [
+          "Mio Hydro",
+          []
+        ],
+        [
+          "Au Sable",
+          [
+            "/wiki/Au_Sable_River_(Michigan)"
+          ]
+        ],
+        [
+          5,
+          []
+        ]
+      ],
+      [
+        [
+          "Rogers Hydro",
+          []
+        ],
+        [
+          "Muskegon",
+          [
+            "/wiki/Muskegon_River"
+          ]
+        ],
+        [
+          7,
+          []
+        ]
+      ],
+      [
+        [
+          "Tippy Dam",
+          [
+            "/wiki/Tippy_Dam"
+          ]
+        ],
+        [
+          "Manistee",
+          [
+            "/wiki/Manistee_River"
+          ]
+        ],
+        [
+          20,
+          []
+        ]
+      ],
+      [
+        [
+          "Webber Hydro",
+          []
+        ],
+        [
+          "Grand",
+          [
+            "/wiki/Grand_River_(Michigan)"
+          ]
+        ],
+        [
+          4,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about energy production facilities managed by Consumers Energy, including their associated rivers and power generation capacities. It is likely intended to catalog and describe hydroelectric plants and their operational details. The table combines geographic, categorical, and numerical data to give a comprehensive overview of these facilities.",
+  "numeric_columns": [
+    "Power ( MW )"
+  ],
+  "categorical_columns": [
+    "River"
+  ],
+  "entities": [
+    "Plant"
+  ]
+}

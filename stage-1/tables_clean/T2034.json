@@ -1,0 +1,465 @@
+{
+  "table_id": "T2034",
+  "uid": "4494574a-5005-5a42-b38f-4421a792b813",
+  "source": "HybridQA",
+  "source_table_id": "4494574a-5005-5a42-b38f-4421a792b813",
+  "domain": "HybridQA",
+  "title": "1999 UCI Women's Road World Cup",
+  "columns": [
+    "Date",
+    "Event",
+    "Location",
+    "Winner"
+  ],
+  "rows": [
+    [
+      [
+        "7 March",
+        []
+      ],
+      [
+        "Australia World Cup , Canberra",
+        [
+          "/wiki/Australia_World_Cup",
+          "/wiki/Canberra"
+        ]
+      ],
+      [
+        "Australia",
+        [
+          "/wiki/Australia"
+        ]
+      ],
+      [
+        "Anna Wilson ( AUS )",
+        [
+          "/wiki/Anna_Millward"
+        ]
+      ]
+    ],
+    [
+      [
+        "14 March",
+        []
+      ],
+      [
+        "New Zealand World Cup , Hamilton",
+        [
+          "/wiki/Hamilton,_New_Zealand"
+        ]
+      ],
+      [
+        "New Zealand",
+        [
+          "/wiki/New_Zealand"
+        ]
+      ],
+      [
+        "Roberta Bonanomi ( ITA )",
+        [
+          "/wiki/Roberta_Bonanomi"
+        ]
+      ]
+    ],
+    [
+      [
+        "20 March",
+        []
+      ],
+      [
+        "Primavera Rosa",
+        [
+          "/wiki/Primavera_Rosa"
+        ]
+      ],
+      [
+        "Italy",
+        [
+          "/wiki/Italy"
+        ]
+      ],
+      [
+        "Sara Felloni ( ITA )",
+        []
+      ]
+    ],
+    [
+      [
+        "14 April",
+        []
+      ],
+      [
+        "La Flèche Wallonne Féminine",
+        [
+          "/wiki/La_Flèche_Wallonne_Féminine"
+        ]
+      ],
+      [
+        "Belgium",
+        [
+          "/wiki/Belgium"
+        ]
+      ],
+      [
+        "Hanka Kupfernagel ( GER )",
+        [
+          "/wiki/Hanka_Kupfernagel"
+        ]
+      ]
+    ],
+    [
+      [
+        "30 May",
+        []
+      ],
+      [
+        "Coupe du Monde Cycliste Féminine de Montréal",
+        [
+          "/wiki/Coupe_du_Monde_Cycliste_Féminine_de_Montréal"
+        ]
+      ],
+      [
+        "Canada",
+        [
+          "/wiki/Canada"
+        ]
+      ],
+      [
+        "Tracey Gaudry ( AUS )",
+        [
+          "/wiki/Tracey_Gaudry"
+        ]
+      ]
+    ],
+    [
+      [
+        "4 June",
+        []
+      ],
+      [
+        "Liberty Classic",
+        [
+          "/wiki/Liberty_Classic"
+        ]
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Petra Rossner ( GER )",
+        [
+          "/wiki/Petra_Rossner"
+        ]
+      ]
+    ],
+    [
+      [
+        "8 August",
+        []
+      ],
+      [
+        "Trophée International",
+        [
+          "/wiki/Trophée_International"
+        ]
+      ],
+      [
+        "France",
+        [
+          "/wiki/France"
+        ]
+      ],
+      [
+        "Vanja Vonckx ( BEL )",
+        [
+          "/wiki/Vanja_Vonckx"
+        ]
+      ]
+    ],
+    [
+      [
+        "9 September",
+        []
+      ],
+      [
+        "Ladies Tour Beneden-Maas",
+        [
+          "/wiki/Ladies_Tour_Beneden-Maas"
+        ]
+      ],
+      [
+        "Netherlands",
+        [
+          "/wiki/Netherlands"
+        ]
+      ],
+      [
+        "Petra Rossner ( GER )",
+        [
+          "/wiki/Petra_Rossner"
+        ]
+      ]
+    ],
+    [
+      [
+        "26 September",
+        []
+      ],
+      [
+        "UCI World Cup Finale Embrach",
+        []
+      ],
+      [
+        "Switzerland",
+        [
+          "/wiki/Switzerland"
+        ]
+      ],
+      [
+        "Anna Wilson ( AUS )",
+        [
+          "/wiki/Anna_Millward"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "4494574a-5005-5a42-b38f-4421a792b813",
+    "table_id": "1999_UCI_Women's_Road_World_Cup_0",
+    "title": "1999 UCI Women's Road World Cup",
+    "header": [
+      "Date",
+      "Event",
+      "Location",
+      "Winner"
+    ],
+    "value": [
+      [
+        [
+          "7 March",
+          []
+        ],
+        [
+          "Australia World Cup , Canberra",
+          [
+            "/wiki/Australia_World_Cup",
+            "/wiki/Canberra"
+          ]
+        ],
+        [
+          "Australia",
+          [
+            "/wiki/Australia"
+          ]
+        ],
+        [
+          "Anna Wilson ( AUS )",
+          [
+            "/wiki/Anna_Millward"
+          ]
+        ]
+      ],
+      [
+        [
+          "14 March",
+          []
+        ],
+        [
+          "New Zealand World Cup , Hamilton",
+          [
+            "/wiki/Hamilton,_New_Zealand"
+          ]
+        ],
+        [
+          "New Zealand",
+          [
+            "/wiki/New_Zealand"
+          ]
+        ],
+        [
+          "Roberta Bonanomi ( ITA )",
+          [
+            "/wiki/Roberta_Bonanomi"
+          ]
+        ]
+      ],
+      [
+        [
+          "20 March",
+          []
+        ],
+        [
+          "Primavera Rosa",
+          [
+            "/wiki/Primavera_Rosa"
+          ]
+        ],
+        [
+          "Italy",
+          [
+            "/wiki/Italy"
+          ]
+        ],
+        [
+          "Sara Felloni ( ITA )",
+          []
+        ]
+      ],
+      [
+        [
+          "14 April",
+          []
+        ],
+        [
+          "La Flèche Wallonne Féminine",
+          [
+            "/wiki/La_Flèche_Wallonne_Féminine"
+          ]
+        ],
+        [
+          "Belgium",
+          [
+            "/wiki/Belgium"
+          ]
+        ],
+        [
+          "Hanka Kupfernagel ( GER )",
+          [
+            "/wiki/Hanka_Kupfernagel"
+          ]
+        ]
+      ],
+      [
+        [
+          "30 May",
+          []
+        ],
+        [
+          "Coupe du Monde Cycliste Féminine de Montréal",
+          [
+            "/wiki/Coupe_du_Monde_Cycliste_Féminine_de_Montréal"
+          ]
+        ],
+        [
+          "Canada",
+          [
+            "/wiki/Canada"
+          ]
+        ],
+        [
+          "Tracey Gaudry ( AUS )",
+          [
+            "/wiki/Tracey_Gaudry"
+          ]
+        ]
+      ],
+      [
+        [
+          "4 June",
+          []
+        ],
+        [
+          "Liberty Classic",
+          [
+            "/wiki/Liberty_Classic"
+          ]
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Petra Rossner ( GER )",
+          [
+            "/wiki/Petra_Rossner"
+          ]
+        ]
+      ],
+      [
+        [
+          "8 August",
+          []
+        ],
+        [
+          "Trophée International",
+          [
+            "/wiki/Trophée_International"
+          ]
+        ],
+        [
+          "France",
+          [
+            "/wiki/France"
+          ]
+        ],
+        [
+          "Vanja Vonckx ( BEL )",
+          [
+            "/wiki/Vanja_Vonckx"
+          ]
+        ]
+      ],
+      [
+        [
+          "9 September",
+          []
+        ],
+        [
+          "Ladies Tour Beneden-Maas",
+          [
+            "/wiki/Ladies_Tour_Beneden-Maas"
+          ]
+        ],
+        [
+          "Netherlands",
+          [
+            "/wiki/Netherlands"
+          ]
+        ],
+        [
+          "Petra Rossner ( GER )",
+          [
+            "/wiki/Petra_Rossner"
+          ]
+        ]
+      ],
+      [
+        [
+          "26 September",
+          []
+        ],
+        [
+          "UCI World Cup Finale Embrach",
+          []
+        ],
+        [
+          "Switzerland",
+          [
+            "/wiki/Switzerland"
+          ]
+        ],
+        [
+          "Anna Wilson ( AUS )",
+          [
+            "/wiki/Anna_Millward"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of the 1999 UCI Women's Road World Cup, listing details about individual events in the competition. It includes information on the date, event name, location, and the winner for each race. The table serves as a summary of key outcomes and locations in the series.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Date",
+    "Event"
+  ],
+  "entities": [
+    "Location",
+    "Winner"
+  ]
+}

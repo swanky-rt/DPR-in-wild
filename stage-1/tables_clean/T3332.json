@@ -1,0 +1,548 @@
+{
+  "table_id": "T3332",
+  "uid": "2743eb53-5dd0-5fda-9f91-2b3b3f171c13",
+  "source": "HybridQA",
+  "source_table_id": "2743eb53-5dd0-5fda-9f91-2b3b3f171c13",
+  "domain": "HybridQA",
+  "title": "2013 Malaysia FAM League",
+  "columns": [
+    "Team",
+    "Location",
+    "Stadium",
+    "Stadium capacity"
+  ],
+  "rows": [
+    [
+      [
+        "Perak YBU FC",
+        [
+          "/wiki/Perak_YBU_FC"
+        ]
+      ],
+      [
+        "Ipoh",
+        [
+          "/wiki/Ipoh"
+        ]
+      ],
+      [
+        "Perak Stadium",
+        [
+          "/wiki/Perak_Stadium"
+        ]
+      ],
+      [
+        "40,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Kuantan FA",
+        [
+          "/wiki/Kuantan_FA"
+        ]
+      ],
+      [
+        "Kuantan",
+        [
+          "/wiki/Kuantan"
+        ]
+      ],
+      [
+        "Darulmakmur Stadium",
+        [
+          "/wiki/Darulmakmur_Stadium"
+        ]
+      ],
+      [
+        "40,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Cebagoo FC",
+        [
+          "/wiki/Cebagoo_FC"
+        ]
+      ],
+      [
+        "Sepanggar",
+        [
+          "/wiki/Sepanggar"
+        ]
+      ],
+      [
+        "UMS Stadium",
+        []
+      ],
+      [
+        "3,000",
+        []
+      ]
+    ],
+    [
+      [
+        "PB Melayu Kedah",
+        [
+          "/wiki/PB_Melayu_Kedah"
+        ]
+      ],
+      [
+        "Kedah",
+        [
+          "/wiki/Kedah"
+        ]
+      ],
+      [
+        "Jitra Mini Stadium",
+        []
+      ],
+      [
+        300,
+        []
+      ]
+    ],
+    [
+      [
+        "Malacca FA",
+        [
+          "/wiki/Malacca_FA"
+        ]
+      ],
+      [
+        "Malacca",
+        [
+          "/wiki/Malacca"
+        ]
+      ],
+      [
+        "Hang Tuah Stadium",
+        [
+          "/wiki/Hang_Tuah_Stadium"
+        ]
+      ],
+      [
+        "15,000",
+        []
+      ]
+    ],
+    [
+      [
+        "PBAPP FC",
+        [
+          "/wiki/PBAPP_FC"
+        ]
+      ],
+      [
+        "Penang",
+        [
+          "/wiki/Penang"
+        ]
+      ],
+      [
+        "Bandaraya Stadium",
+        [
+          "/wiki/City_Stadium_(Penang)"
+        ]
+      ],
+      [
+        "20,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Penang FA",
+        [
+          "/wiki/Penang_FA"
+        ]
+      ],
+      [
+        "Penang",
+        [
+          "/wiki/Penang"
+        ]
+      ],
+      [
+        "Bandaraya Stadium",
+        [
+          "/wiki/City_Stadium_(Penang)"
+        ]
+      ],
+      [
+        "20,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Shahzan Muda FC",
+        [
+          "/wiki/Shahzan_Muda_FC"
+        ]
+      ],
+      [
+        "Temerloh",
+        [
+          "/wiki/Temerloh"
+        ]
+      ],
+      [
+        "Temerloh Mini Stadium",
+        [
+          "/wiki/Temerloh_Mini_Stadium"
+        ]
+      ],
+      [
+        "4,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Tentera Darat FC",
+        []
+      ],
+      [
+        "Kuala Lumpur",
+        [
+          "/wiki/Kuala_Lumpur"
+        ]
+      ],
+      [
+        "Football Field , Batu Kentomen Camp",
+        []
+      ],
+      [
+        500,
+        []
+      ]
+    ],
+    [
+      [
+        "Tumpat FA",
+        [
+          "/wiki/Tumpat_FA"
+        ]
+      ],
+      [
+        "Tumpat",
+        [
+          "/wiki/Tumpat_District"
+        ]
+      ],
+      [
+        "Sultan Muhammad IV Stadium",
+        [
+          "/wiki/Sultan_Mohammad_IV_Stadium"
+        ]
+      ],
+      [
+        "30,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Harimau Muda C",
+        [
+          "/wiki/Harimau_Muda_C"
+        ]
+      ],
+      [
+        "Kuala Lumpur",
+        [
+          "/wiki/Kuala_Lumpur"
+        ]
+      ],
+      [
+        "various",
+        []
+      ],
+      [
+        100,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "2743eb53-5dd0-5fda-9f91-2b3b3f171c13",
+    "table_id": "2013_Malaysia_FAM_League_0",
+    "title": "2013 Malaysia FAM League",
+    "header": [
+      "Team",
+      "Location",
+      "Stadium",
+      "Stadium capacity"
+    ],
+    "value": [
+      [
+        [
+          "Perak YBU FC",
+          [
+            "/wiki/Perak_YBU_FC"
+          ]
+        ],
+        [
+          "Ipoh",
+          [
+            "/wiki/Ipoh"
+          ]
+        ],
+        [
+          "Perak Stadium",
+          [
+            "/wiki/Perak_Stadium"
+          ]
+        ],
+        [
+          "40,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Kuantan FA",
+          [
+            "/wiki/Kuantan_FA"
+          ]
+        ],
+        [
+          "Kuantan",
+          [
+            "/wiki/Kuantan"
+          ]
+        ],
+        [
+          "Darulmakmur Stadium",
+          [
+            "/wiki/Darulmakmur_Stadium"
+          ]
+        ],
+        [
+          "40,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Cebagoo FC",
+          [
+            "/wiki/Cebagoo_FC"
+          ]
+        ],
+        [
+          "Sepanggar",
+          [
+            "/wiki/Sepanggar"
+          ]
+        ],
+        [
+          "UMS Stadium",
+          []
+        ],
+        [
+          "3,000",
+          []
+        ]
+      ],
+      [
+        [
+          "PB Melayu Kedah",
+          [
+            "/wiki/PB_Melayu_Kedah"
+          ]
+        ],
+        [
+          "Kedah",
+          [
+            "/wiki/Kedah"
+          ]
+        ],
+        [
+          "Jitra Mini Stadium",
+          []
+        ],
+        [
+          300,
+          []
+        ]
+      ],
+      [
+        [
+          "Malacca FA",
+          [
+            "/wiki/Malacca_FA"
+          ]
+        ],
+        [
+          "Malacca",
+          [
+            "/wiki/Malacca"
+          ]
+        ],
+        [
+          "Hang Tuah Stadium",
+          [
+            "/wiki/Hang_Tuah_Stadium"
+          ]
+        ],
+        [
+          "15,000",
+          []
+        ]
+      ],
+      [
+        [
+          "PBAPP FC",
+          [
+            "/wiki/PBAPP_FC"
+          ]
+        ],
+        [
+          "Penang",
+          [
+            "/wiki/Penang"
+          ]
+        ],
+        [
+          "Bandaraya Stadium",
+          [
+            "/wiki/City_Stadium_(Penang)"
+          ]
+        ],
+        [
+          "20,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Penang FA",
+          [
+            "/wiki/Penang_FA"
+          ]
+        ],
+        [
+          "Penang",
+          [
+            "/wiki/Penang"
+          ]
+        ],
+        [
+          "Bandaraya Stadium",
+          [
+            "/wiki/City_Stadium_(Penang)"
+          ]
+        ],
+        [
+          "20,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Shahzan Muda FC",
+          [
+            "/wiki/Shahzan_Muda_FC"
+          ]
+        ],
+        [
+          "Temerloh",
+          [
+            "/wiki/Temerloh"
+          ]
+        ],
+        [
+          "Temerloh Mini Stadium",
+          [
+            "/wiki/Temerloh_Mini_Stadium"
+          ]
+        ],
+        [
+          "4,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Tentera Darat FC",
+          []
+        ],
+        [
+          "Kuala Lumpur",
+          [
+            "/wiki/Kuala_Lumpur"
+          ]
+        ],
+        [
+          "Football Field , Batu Kentomen Camp",
+          []
+        ],
+        [
+          500,
+          []
+        ]
+      ],
+      [
+        [
+          "Tumpat FA",
+          [
+            "/wiki/Tumpat_FA"
+          ]
+        ],
+        [
+          "Tumpat",
+          [
+            "/wiki/Tumpat_District"
+          ]
+        ],
+        [
+          "Sultan Muhammad IV Stadium",
+          [
+            "/wiki/Sultan_Mohammad_IV_Stadium"
+          ]
+        ],
+        [
+          "30,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Harimau Muda C",
+          [
+            "/wiki/Harimau_Muda_C"
+          ]
+        ],
+        [
+          "Kuala Lumpur",
+          [
+            "/wiki/Kuala_Lumpur"
+          ]
+        ],
+        [
+          "various",
+          []
+        ],
+        [
+          100,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about teams participating in the 2013 Malaysia FAM League, including their locations, stadiums, and stadium capacities. It serves as a reference for understanding the geographical and infrastructural aspects of the league's teams.",
+  "numeric_columns": [
+    "Stadium capacity"
+  ],
+  "categorical_columns": [
+    "Location",
+    "Stadium"
+  ],
+  "entities": [
+    "Team"
+  ]
+}

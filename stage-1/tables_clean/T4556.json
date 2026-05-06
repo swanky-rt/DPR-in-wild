@@ -1,0 +1,423 @@
+{
+  "table_id": "T4556",
+  "uid": "07996273-2614-5676-b355-08710c373536",
+  "source": "HybridQA",
+  "source_table_id": "07996273-2614-5676-b355-08710c373536",
+  "domain": "HybridQA",
+  "title": "Carrier Air Wing Eight",
+  "columns": [
+    "Code",
+    "Squadron",
+    "Nickname",
+    "Assigned Aircraft"
+  ],
+  "rows": [
+    [
+      [
+        "VFA-34",
+        []
+      ],
+      [
+        "Strike Fighter Squadron 34",
+        [
+          "/wiki/VFA-34"
+        ]
+      ],
+      [
+        "Blue Blasters",
+        []
+      ],
+      [
+        "F/A-18E Super Hornet",
+        [
+          "/wiki/F/A-18E/F_Super_Hornet"
+        ]
+      ]
+    ],
+    [
+      [
+        "VFA-37",
+        []
+      ],
+      [
+        "Strike Fighter Squadron 37",
+        [
+          "/wiki/VFA-37"
+        ]
+      ],
+      [
+        "Bulls",
+        []
+      ],
+      [
+        "F/A-18E Super Hornet",
+        [
+          "/wiki/F/A-18E/F_Super_Hornet"
+        ]
+      ]
+    ],
+    [
+      [
+        "N/A",
+        []
+      ],
+      [
+        "N/A",
+        []
+      ],
+      [
+        "N/A",
+        []
+      ],
+      [
+        "N/A",
+        []
+      ]
+    ],
+    [
+      [
+        "VFA-213",
+        []
+      ],
+      [
+        "Strike Fighter Squadron 213",
+        [
+          "/wiki/VFA-213"
+        ]
+      ],
+      [
+        "Black Lions",
+        []
+      ],
+      [
+        "F/A-18F Super Hornet",
+        [
+          "/wiki/F/A-18E/F_Super_Hornet"
+        ]
+      ]
+    ],
+    [
+      [
+        "VAW-124",
+        []
+      ],
+      [
+        "Carrier Airborne Early Warning Squadron 124",
+        [
+          "/wiki/VAW-124"
+        ]
+      ],
+      [
+        "Bear Aces",
+        []
+      ],
+      [
+        "E-2C Hawkeye",
+        [
+          "/wiki/E-2_Hawkeye"
+        ]
+      ]
+    ],
+    [
+      [
+        "VAQ-131",
+        []
+      ],
+      [
+        "Electronic Attack Squadron 131",
+        [
+          "/wiki/VAQ-131"
+        ]
+      ],
+      [
+        "Lancers",
+        []
+      ],
+      [
+        "EA-18G Growler",
+        [
+          "/wiki/EA-18G"
+        ]
+      ]
+    ],
+    [
+      [
+        "VRC-40",
+        []
+      ],
+      [
+        "Fleet Logistics Support Squadron 40 Det . 2",
+        [
+          "/wiki/VRC-40"
+        ]
+      ],
+      [
+        "Rawhides",
+        []
+      ],
+      [
+        "C-2A Greyhound",
+        [
+          "/wiki/C-2_Greyhound"
+        ]
+      ]
+    ],
+    [
+      [
+        "HSC-9",
+        []
+      ],
+      [
+        "Helicopter Sea Combat Squadron 9",
+        [
+          "/wiki/HSC-9"
+        ]
+      ],
+      [
+        "Tridents",
+        []
+      ],
+      [
+        "MH-60S Seahawk",
+        [
+          "/wiki/Sikorsky_SH-60_Seahawk"
+        ]
+      ]
+    ],
+    [
+      [
+        "HSM-70",
+        []
+      ],
+      [
+        "Helicopter Maritime Strike Squadron 70",
+        []
+      ],
+      [
+        "Spartans",
+        []
+      ],
+      [
+        "MH-60R Seahawk",
+        [
+          "/wiki/Sikorsky_SH-60_Seahawk"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "07996273-2614-5676-b355-08710c373536",
+    "table_id": "Carrier_Air_Wing_Eight_0",
+    "title": "Carrier Air Wing Eight",
+    "header": [
+      "Code",
+      "Squadron",
+      "Nickname",
+      "Assigned Aircraft"
+    ],
+    "value": [
+      [
+        [
+          "VFA-34",
+          []
+        ],
+        [
+          "Strike Fighter Squadron 34",
+          [
+            "/wiki/VFA-34"
+          ]
+        ],
+        [
+          "Blue Blasters",
+          []
+        ],
+        [
+          "F/A-18E Super Hornet",
+          [
+            "/wiki/F/A-18E/F_Super_Hornet"
+          ]
+        ]
+      ],
+      [
+        [
+          "VFA-37",
+          []
+        ],
+        [
+          "Strike Fighter Squadron 37",
+          [
+            "/wiki/VFA-37"
+          ]
+        ],
+        [
+          "Bulls",
+          []
+        ],
+        [
+          "F/A-18E Super Hornet",
+          [
+            "/wiki/F/A-18E/F_Super_Hornet"
+          ]
+        ]
+      ],
+      [
+        [
+          "N/A",
+          []
+        ],
+        [
+          "N/A",
+          []
+        ],
+        [
+          "N/A",
+          []
+        ],
+        [
+          "N/A",
+          []
+        ]
+      ],
+      [
+        [
+          "VFA-213",
+          []
+        ],
+        [
+          "Strike Fighter Squadron 213",
+          [
+            "/wiki/VFA-213"
+          ]
+        ],
+        [
+          "Black Lions",
+          []
+        ],
+        [
+          "F/A-18F Super Hornet",
+          [
+            "/wiki/F/A-18E/F_Super_Hornet"
+          ]
+        ]
+      ],
+      [
+        [
+          "VAW-124",
+          []
+        ],
+        [
+          "Carrier Airborne Early Warning Squadron 124",
+          [
+            "/wiki/VAW-124"
+          ]
+        ],
+        [
+          "Bear Aces",
+          []
+        ],
+        [
+          "E-2C Hawkeye",
+          [
+            "/wiki/E-2_Hawkeye"
+          ]
+        ]
+      ],
+      [
+        [
+          "VAQ-131",
+          []
+        ],
+        [
+          "Electronic Attack Squadron 131",
+          [
+            "/wiki/VAQ-131"
+          ]
+        ],
+        [
+          "Lancers",
+          []
+        ],
+        [
+          "EA-18G Growler",
+          [
+            "/wiki/EA-18G"
+          ]
+        ]
+      ],
+      [
+        [
+          "VRC-40",
+          []
+        ],
+        [
+          "Fleet Logistics Support Squadron 40 Det . 2",
+          [
+            "/wiki/VRC-40"
+          ]
+        ],
+        [
+          "Rawhides",
+          []
+        ],
+        [
+          "C-2A Greyhound",
+          [
+            "/wiki/C-2_Greyhound"
+          ]
+        ]
+      ],
+      [
+        [
+          "HSC-9",
+          []
+        ],
+        [
+          "Helicopter Sea Combat Squadron 9",
+          [
+            "/wiki/HSC-9"
+          ]
+        ],
+        [
+          "Tridents",
+          []
+        ],
+        [
+          "MH-60S Seahawk",
+          [
+            "/wiki/Sikorsky_SH-60_Seahawk"
+          ]
+        ]
+      ],
+      [
+        [
+          "HSM-70",
+          []
+        ],
+        [
+          "Helicopter Maritime Strike Squadron 70",
+          []
+        ],
+        [
+          "Spartans",
+          []
+        ],
+        [
+          "MH-60R Seahawk",
+          [
+            "/wiki/Sikorsky_SH-60_Seahawk"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the squadrons within Carrier Air Wing Eight, including their codes, official names, nicknames, and the aircraft they are assigned. It is designed to organize and present details about military aviation units and their equipment. The table is likely used for reference or documentation purposes in a military or aviation context.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Code",
+    "Nickname"
+  ],
+  "entities": [
+    "Squadron",
+    "Assigned Aircraft"
+  ]
+}

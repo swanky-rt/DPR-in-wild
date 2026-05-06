@@ -1,0 +1,434 @@
+{
+  "table_id": "T683",
+  "uid": "486093d7-07a4-5387-b8a5-4dc508ecf72d",
+  "source": "HybridQA",
+  "source_table_id": "486093d7-07a4-5387-b8a5-4dc508ecf72d",
+  "domain": "HybridQA",
+  "title": "A1 Team Brazil",
+  "columns": [
+    "Name",
+    "Seasons",
+    "Races ( Starts )",
+    "Points"
+  ],
+  "rows": [
+    [
+      [
+        "Christian Fittipaldi",
+        [
+          "/wiki/Christian_Fittipaldi"
+        ]
+      ],
+      [
+        "2005-06",
+        [
+          "/wiki/2005-06_A1_Grand_Prix_season"
+        ]
+      ],
+      [
+        "4 ( 8 )",
+        []
+      ],
+      [
+        8,
+        []
+      ]
+    ],
+    [
+      [
+        "Felipe Guimarães",
+        [
+          "/wiki/Felipe_Guimarães"
+        ]
+      ],
+      [
+        "2008-09",
+        [
+          "/wiki/2008-09_A1_Grand_Prix_season"
+        ]
+      ],
+      [
+        "7 ( 11 )",
+        []
+      ],
+      [
+        18,
+        []
+      ]
+    ],
+    [
+      [
+        "Sérgio Jimenez",
+        [
+          "/wiki/Sérgio_Jimenez"
+        ]
+      ],
+      [
+        "2007-08",
+        [
+          "/wiki/2007-08_A1_Grand_Prix_season"
+        ]
+      ],
+      [
+        "6 ( 12 )",
+        []
+      ],
+      [
+        38,
+        []
+      ]
+    ],
+    [
+      [
+        "Bruno Junqueira",
+        [
+          "/wiki/Bruno_Junqueira"
+        ]
+      ],
+      [
+        "2006-07 , 2007-08",
+        [
+          "/wiki/2006-07_A1_Grand_Prix_season",
+          "/wiki/2007-08_A1_Grand_Prix_season"
+        ]
+      ],
+      [
+        "5 ( 10 )",
+        []
+      ],
+      [
+        10,
+        []
+      ]
+    ],
+    [
+      [
+        "Raphael Matos",
+        [
+          "/wiki/Raphael_Matos"
+        ]
+      ],
+      [
+        "2006-07",
+        [
+          "/wiki/2006-07_A1_Grand_Prix_season"
+        ]
+      ],
+      [
+        "3 ( 6 )",
+        []
+      ],
+      [
+        5,
+        []
+      ]
+    ],
+    [
+      [
+        "Vitor Meira",
+        [
+          "/wiki/Vitor_Meira"
+        ]
+      ],
+      [
+        "2006-07",
+        [
+          "/wiki/2006-07_A1_Grand_Prix_season"
+        ]
+      ],
+      [
+        "1 ( 2 )",
+        []
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        "Alexandre Negrão",
+        [
+          "/wiki/Alexandre_Negrão"
+        ]
+      ],
+      [
+        "2007-08",
+        [
+          "/wiki/2007-08_A1_Grand_Prix_season"
+        ]
+      ],
+      [
+        "2 ( 4 )",
+        []
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        "Nelson Piquet , Jr",
+        [
+          "/wiki/Nelson_Piquet,_Jr."
+        ]
+      ],
+      [
+        "2005-06",
+        [
+          "/wiki/2005-06_A1_Grand_Prix_season"
+        ]
+      ],
+      [
+        "7 ( 14 )",
+        []
+      ],
+      [
+        63,
+        []
+      ]
+    ],
+    [
+      [
+        "Tuka Rocha",
+        [
+          "/wiki/Tuka_Rocha"
+        ]
+      ],
+      [
+        "2006-07",
+        []
+      ],
+      [
+        "4 ( 8 )",
+        []
+      ],
+      [
+        0,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "486093d7-07a4-5387-b8a5-4dc508ecf72d",
+    "table_id": "A1_Team_Brazil_0",
+    "title": "A1 Team Brazil",
+    "header": [
+      "Name",
+      "Seasons",
+      "Races ( Starts )",
+      "Points"
+    ],
+    "value": [
+      [
+        [
+          "Christian Fittipaldi",
+          [
+            "/wiki/Christian_Fittipaldi"
+          ]
+        ],
+        [
+          "2005-06",
+          [
+            "/wiki/2005-06_A1_Grand_Prix_season"
+          ]
+        ],
+        [
+          "4 ( 8 )",
+          []
+        ],
+        [
+          8,
+          []
+        ]
+      ],
+      [
+        [
+          "Felipe Guimarães",
+          [
+            "/wiki/Felipe_Guimarães"
+          ]
+        ],
+        [
+          "2008-09",
+          [
+            "/wiki/2008-09_A1_Grand_Prix_season"
+          ]
+        ],
+        [
+          "7 ( 11 )",
+          []
+        ],
+        [
+          18,
+          []
+        ]
+      ],
+      [
+        [
+          "Sérgio Jimenez",
+          [
+            "/wiki/Sérgio_Jimenez"
+          ]
+        ],
+        [
+          "2007-08",
+          [
+            "/wiki/2007-08_A1_Grand_Prix_season"
+          ]
+        ],
+        [
+          "6 ( 12 )",
+          []
+        ],
+        [
+          38,
+          []
+        ]
+      ],
+      [
+        [
+          "Bruno Junqueira",
+          [
+            "/wiki/Bruno_Junqueira"
+          ]
+        ],
+        [
+          "2006-07 , 2007-08",
+          [
+            "/wiki/2006-07_A1_Grand_Prix_season",
+            "/wiki/2007-08_A1_Grand_Prix_season"
+          ]
+        ],
+        [
+          "5 ( 10 )",
+          []
+        ],
+        [
+          10,
+          []
+        ]
+      ],
+      [
+        [
+          "Raphael Matos",
+          [
+            "/wiki/Raphael_Matos"
+          ]
+        ],
+        [
+          "2006-07",
+          [
+            "/wiki/2006-07_A1_Grand_Prix_season"
+          ]
+        ],
+        [
+          "3 ( 6 )",
+          []
+        ],
+        [
+          5,
+          []
+        ]
+      ],
+      [
+        [
+          "Vitor Meira",
+          [
+            "/wiki/Vitor_Meira"
+          ]
+        ],
+        [
+          "2006-07",
+          [
+            "/wiki/2006-07_A1_Grand_Prix_season"
+          ]
+        ],
+        [
+          "1 ( 2 )",
+          []
+        ],
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        [
+          "Alexandre Negrão",
+          [
+            "/wiki/Alexandre_Negrão"
+          ]
+        ],
+        [
+          "2007-08",
+          [
+            "/wiki/2007-08_A1_Grand_Prix_season"
+          ]
+        ],
+        [
+          "2 ( 4 )",
+          []
+        ],
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        [
+          "Nelson Piquet , Jr",
+          [
+            "/wiki/Nelson_Piquet,_Jr."
+          ]
+        ],
+        [
+          "2005-06",
+          [
+            "/wiki/2005-06_A1_Grand_Prix_season"
+          ]
+        ],
+        [
+          "7 ( 14 )",
+          []
+        ],
+        [
+          63,
+          []
+        ]
+      ],
+      [
+        [
+          "Tuka Rocha",
+          [
+            "/wiki/Tuka_Rocha"
+          ]
+        ],
+        [
+          "2006-07",
+          []
+        ],
+        [
+          "4 ( 8 )",
+          []
+        ],
+        [
+          0,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the performance of A1 Team Brazil in the A1 Grand Prix series. It includes details about team members, the seasons they participated in, the number of races they started, and the points they scored. The table is useful for analyzing the contributions of individual team members to the team's overall performance.",
+  "numeric_columns": [
+    "Points"
+  ],
+  "categorical_columns": [
+    "Seasons",
+    "Races ( Starts )"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

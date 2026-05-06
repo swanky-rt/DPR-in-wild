@@ -1,0 +1,590 @@
+{
+  "table_id": "T8270",
+  "uid": "6f7f07c9-fc48-5977-b89c-40d94e774c79",
+  "source": "HybridQA",
+  "source_table_id": "6f7f07c9-fc48-5977-b89c-40d94e774c79",
+  "domain": "HybridQA",
+  "title": "List of Providence Grays Opening Day starting pitchers",
+  "columns": [
+    "Season",
+    "Pitcher",
+    "Decision",
+    "Final Score",
+    "Opponent",
+    "Location ( Stadium )"
+  ],
+  "rows": [
+    [
+      [
+        1878,
+        [
+          "/wiki/1878_Providence_Grays_season"
+        ]
+      ],
+      [
+        "Fred Corey",
+        [
+          "/wiki/Fred_Corey"
+        ]
+      ],
+      [
+        "( L )",
+        []
+      ],
+      [
+        "0-1",
+        []
+      ],
+      [
+        "Boston Red Caps",
+        [
+          "/wiki/Boston_Red_Caps"
+        ]
+      ],
+      [
+        "Messer Street Grounds",
+        [
+          "/wiki/Messer_Street_Grounds"
+        ]
+      ]
+    ],
+    [
+      [
+        "1879 **",
+        [
+          "/wiki/1879_Providence_Grays_season"
+        ]
+      ],
+      [
+        "Monte Ward",
+        [
+          "/wiki/Monte_Ward"
+        ]
+      ],
+      [
+        "( W )",
+        []
+      ],
+      [
+        "15-4",
+        []
+      ],
+      [
+        "Cleveland Blues",
+        [
+          "/wiki/Cleveland_Blues_(NL)"
+        ]
+      ],
+      [
+        "National League Park",
+        [
+          "/wiki/National_League_Park"
+        ]
+      ]
+    ],
+    [
+      [
+        1880,
+        [
+          "/wiki/1880_Providence_Grays_season"
+        ]
+      ],
+      [
+        "Monte Ward ( 2 )",
+        [
+          "/wiki/Monte_Ward"
+        ]
+      ],
+      [
+        "( W )",
+        []
+      ],
+      [
+        "8-0",
+        []
+      ],
+      [
+        "Boston Red Caps",
+        [
+          "/wiki/Boston_Red_Caps"
+        ]
+      ],
+      [
+        "Messer Street Grounds",
+        [
+          "/wiki/Messer_Street_Grounds"
+        ]
+      ]
+    ],
+    [
+      [
+        1881,
+        [
+          "/wiki/1881_Providence_Grays_season"
+        ]
+      ],
+      [
+        "Monte Ward ( 3 )",
+        [
+          "/wiki/Monte_Ward"
+        ]
+      ],
+      [
+        "( L )",
+        []
+      ],
+      [
+        "2-4",
+        []
+      ],
+      [
+        "Boston Red Caps",
+        [
+          "/wiki/Boston_Red_Caps"
+        ]
+      ],
+      [
+        "Messer Street Grounds",
+        [
+          "/wiki/Messer_Street_Grounds"
+        ]
+      ]
+    ],
+    [
+      [
+        1882,
+        [
+          "/wiki/1882_Providence_Grays_season"
+        ]
+      ],
+      [
+        "Monte Ward ( 4 )",
+        [
+          "/wiki/Monte_Ward"
+        ]
+      ],
+      [
+        "( W )",
+        []
+      ],
+      [
+        "9-3",
+        []
+      ],
+      [
+        "Troy Trojans",
+        [
+          "/wiki/Troy_Trojans_(MLB_team)"
+        ]
+      ],
+      [
+        "Messer Street Grounds",
+        [
+          "/wiki/Messer_Street_Grounds"
+        ]
+      ]
+    ],
+    [
+      [
+        1883,
+        [
+          "/wiki/1883_Providence_Grays_season"
+        ]
+      ],
+      [
+        "Charles Radbourn",
+        [
+          "/wiki/Charles_Radbourn"
+        ]
+      ],
+      [
+        "( W )",
+        []
+      ],
+      [
+        "4-3",
+        []
+      ],
+      [
+        "Philadelphia Phillies",
+        [
+          "/wiki/Philadelphia_Phillies"
+        ]
+      ],
+      [
+        "Recreation Park",
+        [
+          "/wiki/Recreation_Park_(Philadelphia)"
+        ]
+      ]
+    ],
+    [
+      [
+        "1884 †",
+        [
+          "/wiki/1884_Providence_Grays_season"
+        ]
+      ],
+      [
+        "Charlie Sweeney",
+        [
+          "/wiki/Charlie_Sweeney"
+        ]
+      ],
+      [
+        "( L )",
+        []
+      ],
+      [
+        "1-2",
+        []
+      ],
+      [
+        "Cleveland Blues",
+        [
+          "/wiki/Cleveland_Blues_(NL)"
+        ]
+      ],
+      [
+        "Messer Street Grounds",
+        [
+          "/wiki/Messer_Street_Grounds"
+        ]
+      ]
+    ],
+    [
+      [
+        1885,
+        [
+          "/wiki/1885_Providence_Grays_season"
+        ]
+      ],
+      [
+        "Charles Radbourn ( 2 )",
+        [
+          "/wiki/Charles_Radbourn"
+        ]
+      ],
+      [
+        "( W )",
+        []
+      ],
+      [
+        "8-2",
+        []
+      ],
+      [
+        "Philadelphia Phillies",
+        [
+          "/wiki/Philadelphia_Phillies"
+        ]
+      ],
+      [
+        "Recreation Park",
+        [
+          "/wiki/Recreation_Park_(Philadelphia)"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "6f7f07c9-fc48-5977-b89c-40d94e774c79",
+    "table_id": "List_of_Providence_Grays_Opening_Day_starting_pitchers_0",
+    "title": "List of Providence Grays Opening Day starting pitchers",
+    "header": [
+      "Season",
+      "Pitcher",
+      "Decision",
+      "Final Score",
+      "Opponent",
+      "Location ( Stadium )"
+    ],
+    "value": [
+      [
+        [
+          1878,
+          [
+            "/wiki/1878_Providence_Grays_season"
+          ]
+        ],
+        [
+          "Fred Corey",
+          [
+            "/wiki/Fred_Corey"
+          ]
+        ],
+        [
+          "( L )",
+          []
+        ],
+        [
+          "0-1",
+          []
+        ],
+        [
+          "Boston Red Caps",
+          [
+            "/wiki/Boston_Red_Caps"
+          ]
+        ],
+        [
+          "Messer Street Grounds",
+          [
+            "/wiki/Messer_Street_Grounds"
+          ]
+        ]
+      ],
+      [
+        [
+          "1879 **",
+          [
+            "/wiki/1879_Providence_Grays_season"
+          ]
+        ],
+        [
+          "Monte Ward",
+          [
+            "/wiki/Monte_Ward"
+          ]
+        ],
+        [
+          "( W )",
+          []
+        ],
+        [
+          "15-4",
+          []
+        ],
+        [
+          "Cleveland Blues",
+          [
+            "/wiki/Cleveland_Blues_(NL)"
+          ]
+        ],
+        [
+          "National League Park",
+          [
+            "/wiki/National_League_Park"
+          ]
+        ]
+      ],
+      [
+        [
+          1880,
+          [
+            "/wiki/1880_Providence_Grays_season"
+          ]
+        ],
+        [
+          "Monte Ward ( 2 )",
+          [
+            "/wiki/Monte_Ward"
+          ]
+        ],
+        [
+          "( W )",
+          []
+        ],
+        [
+          "8-0",
+          []
+        ],
+        [
+          "Boston Red Caps",
+          [
+            "/wiki/Boston_Red_Caps"
+          ]
+        ],
+        [
+          "Messer Street Grounds",
+          [
+            "/wiki/Messer_Street_Grounds"
+          ]
+        ]
+      ],
+      [
+        [
+          1881,
+          [
+            "/wiki/1881_Providence_Grays_season"
+          ]
+        ],
+        [
+          "Monte Ward ( 3 )",
+          [
+            "/wiki/Monte_Ward"
+          ]
+        ],
+        [
+          "( L )",
+          []
+        ],
+        [
+          "2-4",
+          []
+        ],
+        [
+          "Boston Red Caps",
+          [
+            "/wiki/Boston_Red_Caps"
+          ]
+        ],
+        [
+          "Messer Street Grounds",
+          [
+            "/wiki/Messer_Street_Grounds"
+          ]
+        ]
+      ],
+      [
+        [
+          1882,
+          [
+            "/wiki/1882_Providence_Grays_season"
+          ]
+        ],
+        [
+          "Monte Ward ( 4 )",
+          [
+            "/wiki/Monte_Ward"
+          ]
+        ],
+        [
+          "( W )",
+          []
+        ],
+        [
+          "9-3",
+          []
+        ],
+        [
+          "Troy Trojans",
+          [
+            "/wiki/Troy_Trojans_(MLB_team)"
+          ]
+        ],
+        [
+          "Messer Street Grounds",
+          [
+            "/wiki/Messer_Street_Grounds"
+          ]
+        ]
+      ],
+      [
+        [
+          1883,
+          [
+            "/wiki/1883_Providence_Grays_season"
+          ]
+        ],
+        [
+          "Charles Radbourn",
+          [
+            "/wiki/Charles_Radbourn"
+          ]
+        ],
+        [
+          "( W )",
+          []
+        ],
+        [
+          "4-3",
+          []
+        ],
+        [
+          "Philadelphia Phillies",
+          [
+            "/wiki/Philadelphia_Phillies"
+          ]
+        ],
+        [
+          "Recreation Park",
+          [
+            "/wiki/Recreation_Park_(Philadelphia)"
+          ]
+        ]
+      ],
+      [
+        [
+          "1884 †",
+          [
+            "/wiki/1884_Providence_Grays_season"
+          ]
+        ],
+        [
+          "Charlie Sweeney",
+          [
+            "/wiki/Charlie_Sweeney"
+          ]
+        ],
+        [
+          "( L )",
+          []
+        ],
+        [
+          "1-2",
+          []
+        ],
+        [
+          "Cleveland Blues",
+          [
+            "/wiki/Cleveland_Blues_(NL)"
+          ]
+        ],
+        [
+          "Messer Street Grounds",
+          [
+            "/wiki/Messer_Street_Grounds"
+          ]
+        ]
+      ],
+      [
+        [
+          1885,
+          [
+            "/wiki/1885_Providence_Grays_season"
+          ]
+        ],
+        [
+          "Charles Radbourn ( 2 )",
+          [
+            "/wiki/Charles_Radbourn"
+          ]
+        ],
+        [
+          "( W )",
+          []
+        ],
+        [
+          "8-2",
+          []
+        ],
+        [
+          "Philadelphia Phillies",
+          [
+            "/wiki/Philadelphia_Phillies"
+          ]
+        ],
+        [
+          "Recreation Park",
+          [
+            "/wiki/Recreation_Park_(Philadelphia)"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the Providence Grays' Opening Day starting pitchers across various seasons. It includes details about the season, the pitcher, the game outcome, the final score, the opponent team, and the stadium location. The table serves as a historical record of the team's Opening Day performances.",
+  "numeric_columns": [
+    "Season",
+    "Final Score"
+  ],
+  "categorical_columns": [
+    "Decision"
+  ],
+  "entities": [
+    "Pitcher",
+    "Opponent",
+    "Location ( Stadium )"
+  ]
+}

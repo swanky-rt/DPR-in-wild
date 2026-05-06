@@ -1,0 +1,396 @@
+{
+  "table_id": "T7137",
+  "uid": "10e10424-2654-52cd-ab28-159ab5ff674e",
+  "source": "HybridQA",
+  "source_table_id": "10e10424-2654-52cd-ab28-159ab5ff674e",
+  "domain": "HybridQA",
+  "title": "Indian Idol",
+  "columns": [
+    "Name",
+    "Hometown",
+    "Elimination"
+  ],
+  "rows": [
+    [
+      [
+        "Anjana Padmanabhan",
+        [
+          "/wiki/Anjana_Padmanabhan"
+        ]
+      ],
+      [
+        "Bengaluru",
+        [
+          "/wiki/Bengaluru"
+        ]
+      ],
+      [
+        "Winner",
+        []
+      ]
+    ],
+    [
+      [
+        "Debanjana Karmakar",
+        [
+          "/wiki/Debanjana_Karmakar"
+        ]
+      ],
+      [
+        "Kolkata",
+        [
+          "/wiki/Kolkata"
+        ]
+      ],
+      [
+        "1st Runner-up",
+        []
+      ]
+    ],
+    [
+      [
+        "Anmol Jaswal",
+        []
+      ],
+      [
+        "Jammu Tawi",
+        [
+          "/wiki/Jammu_Tawi"
+        ]
+      ],
+      [
+        "2nd Runner-up",
+        []
+      ]
+    ],
+    [
+      [
+        "Nirvesh Dave",
+        []
+      ],
+      [
+        "Ahmedabad",
+        [
+          "/wiki/Ahmedabad"
+        ]
+      ],
+      [
+        "3rd Runner-up",
+        []
+      ]
+    ],
+    [
+      [
+        "Akash Sharma",
+        []
+      ],
+      [
+        "Harayana",
+        [
+          "/wiki/Harayana"
+        ]
+      ],
+      [
+        "Eliminated 7th",
+        []
+      ]
+    ],
+    [
+      [
+        "Aryan Das",
+        []
+      ],
+      [
+        "Cuttack",
+        [
+          "/wiki/Cuttack"
+        ]
+      ],
+      [
+        "Eliminated 6th",
+        []
+      ]
+    ],
+    [
+      [
+        "Sonakshi Kar",
+        []
+      ],
+      [
+        "Kolkata",
+        [
+          "/wiki/Kolkata"
+        ]
+      ],
+      [
+        "Eliminated 5th",
+        []
+      ]
+    ],
+    [
+      [
+        "Priyam Borpatragohain",
+        []
+      ],
+      [
+        "Assam",
+        [
+          "/wiki/Assam"
+        ]
+      ],
+      [
+        "Eliminated 4th",
+        []
+      ]
+    ],
+    [
+      [
+        "Eman Chaudhary",
+        []
+      ],
+      [
+        "Assam",
+        [
+          "/wiki/Assam"
+        ]
+      ],
+      [
+        "Eliminated 3rd",
+        []
+      ]
+    ],
+    [
+      [
+        "Sugandha Date",
+        []
+      ],
+      [
+        "Nagpur",
+        [
+          "/wiki/Nagpur"
+        ]
+      ],
+      [
+        "Eliminated 2nd",
+        []
+      ]
+    ],
+    [
+      [
+        "Sankalp Yaduwanshi",
+        []
+      ],
+      [
+        "Moradabad",
+        [
+          "/wiki/Moradabad"
+        ]
+      ],
+      [
+        "Eliminated 1st",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "10e10424-2654-52cd-ab28-159ab5ff674e",
+    "table_id": "Indian_Idol_5_6",
+    "title": "Indian Idol",
+    "header": [
+      "Name",
+      "Hometown",
+      "Elimination"
+    ],
+    "value": [
+      [
+        [
+          "Anjana Padmanabhan",
+          [
+            "/wiki/Anjana_Padmanabhan"
+          ]
+        ],
+        [
+          "Bengaluru",
+          [
+            "/wiki/Bengaluru"
+          ]
+        ],
+        [
+          "Winner",
+          []
+        ]
+      ],
+      [
+        [
+          "Debanjana Karmakar",
+          [
+            "/wiki/Debanjana_Karmakar"
+          ]
+        ],
+        [
+          "Kolkata",
+          [
+            "/wiki/Kolkata"
+          ]
+        ],
+        [
+          "1st Runner-up",
+          []
+        ]
+      ],
+      [
+        [
+          "Anmol Jaswal",
+          []
+        ],
+        [
+          "Jammu Tawi",
+          [
+            "/wiki/Jammu_Tawi"
+          ]
+        ],
+        [
+          "2nd Runner-up",
+          []
+        ]
+      ],
+      [
+        [
+          "Nirvesh Dave",
+          []
+        ],
+        [
+          "Ahmedabad",
+          [
+            "/wiki/Ahmedabad"
+          ]
+        ],
+        [
+          "3rd Runner-up",
+          []
+        ]
+      ],
+      [
+        [
+          "Akash Sharma",
+          []
+        ],
+        [
+          "Harayana",
+          [
+            "/wiki/Harayana"
+          ]
+        ],
+        [
+          "Eliminated 7th",
+          []
+        ]
+      ],
+      [
+        [
+          "Aryan Das",
+          []
+        ],
+        [
+          "Cuttack",
+          [
+            "/wiki/Cuttack"
+          ]
+        ],
+        [
+          "Eliminated 6th",
+          []
+        ]
+      ],
+      [
+        [
+          "Sonakshi Kar",
+          []
+        ],
+        [
+          "Kolkata",
+          [
+            "/wiki/Kolkata"
+          ]
+        ],
+        [
+          "Eliminated 5th",
+          []
+        ]
+      ],
+      [
+        [
+          "Priyam Borpatragohain",
+          []
+        ],
+        [
+          "Assam",
+          [
+            "/wiki/Assam"
+          ]
+        ],
+        [
+          "Eliminated 4th",
+          []
+        ]
+      ],
+      [
+        [
+          "Eman Chaudhary",
+          []
+        ],
+        [
+          "Assam",
+          [
+            "/wiki/Assam"
+          ]
+        ],
+        [
+          "Eliminated 3rd",
+          []
+        ]
+      ],
+      [
+        [
+          "Sugandha Date",
+          []
+        ],
+        [
+          "Nagpur",
+          [
+            "/wiki/Nagpur"
+          ]
+        ],
+        [
+          "Eliminated 2nd",
+          []
+        ]
+      ],
+      [
+        [
+          "Sankalp Yaduwanshi",
+          []
+        ],
+        [
+          "Moradabad",
+          [
+            "/wiki/Moradabad"
+          ]
+        ],
+        [
+          "Eliminated 1st",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about participants in the Indian Idol competition, including their names, hometowns, and elimination statuses. It is designed to summarize key details about contestants and their progression in the competition.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Elimination"
+  ],
+  "entities": [
+    "Name",
+    "Hometown"
+  ]
+}

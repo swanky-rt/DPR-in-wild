@@ -1,0 +1,507 @@
+{
+  "table_id": "T5651",
+  "uid": "2e360fad-2eae-53c7-b8ad-9c8610ed2824",
+  "source": "HybridQA",
+  "source_table_id": "2e360fad-2eae-53c7-b8ad-9c8610ed2824",
+  "domain": "HybridQA",
+  "title": "Wisconsin Public Radio",
+  "columns": [
+    "Location",
+    "Frequency",
+    "Call sign"
+  ],
+  "rows": [
+    [
+      [
+        "Brule ( Superior )",
+        [
+          "/wiki/Brule,_Wisconsin",
+          "/wiki/Superior,_Wisconsin"
+        ]
+      ],
+      [
+        "89.9 FM",
+        []
+      ],
+      [
+        "WHSA",
+        [
+          "/wiki/WHSA"
+        ]
+      ]
+    ],
+    [
+      [
+        "Eau Claire",
+        [
+          "/wiki/Eau_Claire,_Wisconsin"
+        ]
+      ],
+      [
+        "89.7 FM",
+        []
+      ],
+      [
+        "WUEC",
+        [
+          "/wiki/WUEC"
+        ]
+      ]
+    ],
+    [
+      [
+        "Elkhorn",
+        [
+          "/wiki/Elkhorn,_Wisconsin"
+        ]
+      ],
+      [
+        "101.7 FM",
+        []
+      ],
+      [
+        "W269BV",
+        [
+          "/wiki/W269BV"
+        ]
+      ]
+    ],
+    [
+      [
+        "Green Bay",
+        [
+          "/wiki/Green_Bay,_Wisconsin"
+        ]
+      ],
+      [
+        "89.3 FM",
+        []
+      ],
+      [
+        "WPNE",
+        [
+          "/wiki/WPNE_(FM)"
+        ]
+      ]
+    ],
+    [
+      [
+        "Lake Geneva",
+        [
+          "/wiki/Lake_Geneva,_Wisconsin"
+        ]
+      ],
+      [
+        "103.3 FM",
+        []
+      ],
+      [
+        "W277BM",
+        [
+          "/wiki/W277BM"
+        ]
+      ]
+    ],
+    [
+      [
+        "Kenosha",
+        [
+          "/wiki/Kenosha,_Wisconsin"
+        ]
+      ],
+      [
+        "91.1 FM",
+        []
+      ],
+      [
+        "WGTD",
+        [
+          "/wiki/WGTD"
+        ]
+      ]
+    ],
+    [
+      [
+        "La Crosse",
+        [
+          "/wiki/La_Crosse,_Wisconsin"
+        ]
+      ],
+      [
+        "88.9 FM",
+        []
+      ],
+      [
+        "WLSU",
+        [
+          "/wiki/WLSU"
+        ]
+      ]
+    ],
+    [
+      [
+        "Madison",
+        [
+          "/wiki/Madison,_Wisconsin"
+        ]
+      ],
+      [
+        "88.7 FM",
+        []
+      ],
+      [
+        "WERN",
+        [
+          "/wiki/WERN"
+        ]
+      ]
+    ],
+    [
+      [
+        "Menomonie",
+        [
+          "/wiki/Menomonie,_Wisconsin"
+        ]
+      ],
+      [
+        "90.7 FM",
+        []
+      ],
+      [
+        "WVSS",
+        [
+          "/wiki/WVSS"
+        ]
+      ]
+    ],
+    [
+      [
+        "Sister Bay",
+        [
+          "/wiki/Sister_Bay,_Wisconsin"
+        ]
+      ],
+      [
+        "89.7 FM",
+        []
+      ],
+      [
+        "WHND",
+        [
+          "/wiki/WHND"
+        ]
+      ]
+    ],
+    [
+      [
+        "Superior",
+        [
+          "/wiki/Superior,_Wisconsin"
+        ]
+      ],
+      [
+        "88.5 FM",
+        []
+      ],
+      [
+        "WSSU",
+        [
+          "/wiki/WSSU_(FM)"
+        ]
+      ]
+    ],
+    [
+      [
+        "Washburn",
+        [
+          "/wiki/Washburn,_Wisconsin"
+        ]
+      ],
+      [
+        "104.7 FM",
+        []
+      ],
+      [
+        "WHWA",
+        [
+          "/wiki/WHWA"
+        ]
+      ]
+    ],
+    [
+      [
+        "Wausau",
+        [
+          "/wiki/Wausau,_Wisconsin"
+        ]
+      ],
+      [
+        "90.9 FM",
+        []
+      ],
+      [
+        "WHRM",
+        [
+          "/wiki/WHRM_(FM)"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "2e360fad-2eae-53c7-b8ad-9c8610ed2824",
+    "table_id": "Wisconsin_Public_Radio_1",
+    "title": "Wisconsin Public Radio",
+    "header": [
+      "Location",
+      "Frequency",
+      "Call sign"
+    ],
+    "value": [
+      [
+        [
+          "Brule ( Superior )",
+          [
+            "/wiki/Brule,_Wisconsin",
+            "/wiki/Superior,_Wisconsin"
+          ]
+        ],
+        [
+          "89.9 FM",
+          []
+        ],
+        [
+          "WHSA",
+          [
+            "/wiki/WHSA"
+          ]
+        ]
+      ],
+      [
+        [
+          "Eau Claire",
+          [
+            "/wiki/Eau_Claire,_Wisconsin"
+          ]
+        ],
+        [
+          "89.7 FM",
+          []
+        ],
+        [
+          "WUEC",
+          [
+            "/wiki/WUEC"
+          ]
+        ]
+      ],
+      [
+        [
+          "Elkhorn",
+          [
+            "/wiki/Elkhorn,_Wisconsin"
+          ]
+        ],
+        [
+          "101.7 FM",
+          []
+        ],
+        [
+          "W269BV",
+          [
+            "/wiki/W269BV"
+          ]
+        ]
+      ],
+      [
+        [
+          "Green Bay",
+          [
+            "/wiki/Green_Bay,_Wisconsin"
+          ]
+        ],
+        [
+          "89.3 FM",
+          []
+        ],
+        [
+          "WPNE",
+          [
+            "/wiki/WPNE_(FM)"
+          ]
+        ]
+      ],
+      [
+        [
+          "Lake Geneva",
+          [
+            "/wiki/Lake_Geneva,_Wisconsin"
+          ]
+        ],
+        [
+          "103.3 FM",
+          []
+        ],
+        [
+          "W277BM",
+          [
+            "/wiki/W277BM"
+          ]
+        ]
+      ],
+      [
+        [
+          "Kenosha",
+          [
+            "/wiki/Kenosha,_Wisconsin"
+          ]
+        ],
+        [
+          "91.1 FM",
+          []
+        ],
+        [
+          "WGTD",
+          [
+            "/wiki/WGTD"
+          ]
+        ]
+      ],
+      [
+        [
+          "La Crosse",
+          [
+            "/wiki/La_Crosse,_Wisconsin"
+          ]
+        ],
+        [
+          "88.9 FM",
+          []
+        ],
+        [
+          "WLSU",
+          [
+            "/wiki/WLSU"
+          ]
+        ]
+      ],
+      [
+        [
+          "Madison",
+          [
+            "/wiki/Madison,_Wisconsin"
+          ]
+        ],
+        [
+          "88.7 FM",
+          []
+        ],
+        [
+          "WERN",
+          [
+            "/wiki/WERN"
+          ]
+        ]
+      ],
+      [
+        [
+          "Menomonie",
+          [
+            "/wiki/Menomonie,_Wisconsin"
+          ]
+        ],
+        [
+          "90.7 FM",
+          []
+        ],
+        [
+          "WVSS",
+          [
+            "/wiki/WVSS"
+          ]
+        ]
+      ],
+      [
+        [
+          "Sister Bay",
+          [
+            "/wiki/Sister_Bay,_Wisconsin"
+          ]
+        ],
+        [
+          "89.7 FM",
+          []
+        ],
+        [
+          "WHND",
+          [
+            "/wiki/WHND"
+          ]
+        ]
+      ],
+      [
+        [
+          "Superior",
+          [
+            "/wiki/Superior,_Wisconsin"
+          ]
+        ],
+        [
+          "88.5 FM",
+          []
+        ],
+        [
+          "WSSU",
+          [
+            "/wiki/WSSU_(FM)"
+          ]
+        ]
+      ],
+      [
+        [
+          "Washburn",
+          [
+            "/wiki/Washburn,_Wisconsin"
+          ]
+        ],
+        [
+          "104.7 FM",
+          []
+        ],
+        [
+          "WHWA",
+          [
+            "/wiki/WHWA"
+          ]
+        ]
+      ],
+      [
+        [
+          "Wausau",
+          [
+            "/wiki/Wausau,_Wisconsin"
+          ]
+        ],
+        [
+          "90.9 FM",
+          []
+        ],
+        [
+          "WHRM",
+          [
+            "/wiki/WHRM_(FM)"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about Wisconsin Public Radio stations, including their locations, broadcast frequencies, and call signs. It is intended to catalog and identify radio stations within the Wisconsin Public Radio network.",
+  "numeric_columns": [
+    "Frequency"
+  ],
+  "categorical_columns": [
+    "Call sign"
+  ],
+  "entities": [
+    "Location"
+  ]
+}

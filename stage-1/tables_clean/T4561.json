@@ -1,0 +1,435 @@
+{
+  "table_id": "T4561",
+  "uid": "fdb3a77b-03f4-5235-8e29-7d85e8e16b46",
+  "source": "HybridQA",
+  "source_table_id": "fdb3a77b-03f4-5235-8e29-7d85e8e16b46",
+  "domain": "HybridQA",
+  "title": "Carrier Air Wing Seven",
+  "columns": [
+    "Code",
+    "Squadron",
+    "Nickname",
+    "Assigned Aircraft"
+  ],
+  "rows": [
+    [
+      [
+        "VFA-143",
+        []
+      ],
+      [
+        "Strike Fighter Squadron 143",
+        [
+          "/wiki/VFA-143"
+        ]
+      ],
+      [
+        "Pukin Dogs",
+        []
+      ],
+      [
+        "F/A-18E Super Hornet",
+        [
+          "/wiki/F/A-18E/F_Super_Hornet"
+        ]
+      ]
+    ],
+    [
+      [
+        "VFA-103",
+        []
+      ],
+      [
+        "Strike Fighter Squadron 103",
+        [
+          "/wiki/VFA-103"
+        ]
+      ],
+      [
+        "Jolly Rogers",
+        []
+      ],
+      [
+        "F/A-18F Super Hornet",
+        [
+          "/wiki/F/A-18E/F_Super_Hornet"
+        ]
+      ]
+    ],
+    [
+      [
+        "VFA-86",
+        []
+      ],
+      [
+        "Strike Fighter Squadron 86",
+        [
+          "/wiki/VFA-86"
+        ]
+      ],
+      [
+        "Sidewinders",
+        []
+      ],
+      [
+        "F/A-18E Super Hornet",
+        [
+          "/wiki/F/A-18E/F_Super_Hornet"
+        ]
+      ]
+    ],
+    [
+      [
+        "VFA-25",
+        []
+      ],
+      [
+        "Strike Fighter Squadron 25",
+        [
+          "/wiki/VFA-25"
+        ]
+      ],
+      [
+        "Fist of the Fleet",
+        []
+      ],
+      [
+        "F/A-18E Super Hornet",
+        [
+          "/wiki/F/A-18E/F_Super_Hornet"
+        ]
+      ]
+    ],
+    [
+      [
+        "VAQ-140",
+        []
+      ],
+      [
+        "Electronic Attack Squadron 140",
+        [
+          "/wiki/VAQ-140"
+        ]
+      ],
+      [
+        "Patriots",
+        []
+      ],
+      [
+        "EA-18G Growler",
+        [
+          "/wiki/EA-18G_Growler"
+        ]
+      ]
+    ],
+    [
+      [
+        "VAW-121",
+        []
+      ],
+      [
+        "Airborne Early Warning Squadron 121",
+        [
+          "/wiki/VAW-121"
+        ]
+      ],
+      [
+        "Bluetails",
+        []
+      ],
+      [
+        "E2D Advanced Hawkeye",
+        [
+          "/wiki/Northrop_Grumman_E-2_Hawkeye"
+        ]
+      ]
+    ],
+    [
+      [
+        "HSC-5",
+        []
+      ],
+      [
+        "Helicopter Sea Combat Squadron 5",
+        [
+          "/wiki/HS-5"
+        ]
+      ],
+      [
+        "Nightdippers",
+        []
+      ],
+      [
+        "MH-60S Seahawk",
+        [
+          "/wiki/SH-60_Seahawk"
+        ]
+      ]
+    ],
+    [
+      [
+        "HSM-79",
+        []
+      ],
+      [
+        "Helicopter Maritime Strike Squadron 79",
+        [
+          "/wiki/HSM-79"
+        ]
+      ],
+      [
+        "Griffins",
+        []
+      ],
+      [
+        "MH-60R Seahawk",
+        [
+          "/wiki/SH-60_Seahawk"
+        ]
+      ]
+    ],
+    [
+      [
+        "VRC-40",
+        []
+      ],
+      [
+        "Fleet Logistics Support Squadron 40 Det . 3",
+        [
+          "/wiki/VRC-40"
+        ]
+      ],
+      [
+        "Rawhides",
+        []
+      ],
+      [
+        "C-2A Greyhound",
+        [
+          "/wiki/C-2_Greyhound"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "fdb3a77b-03f4-5235-8e29-7d85e8e16b46",
+    "table_id": "Carrier_Air_Wing_Seven_0",
+    "title": "Carrier Air Wing Seven",
+    "header": [
+      "Code",
+      "Squadron",
+      "Nickname",
+      "Assigned Aircraft"
+    ],
+    "value": [
+      [
+        [
+          "VFA-143",
+          []
+        ],
+        [
+          "Strike Fighter Squadron 143",
+          [
+            "/wiki/VFA-143"
+          ]
+        ],
+        [
+          "Pukin Dogs",
+          []
+        ],
+        [
+          "F/A-18E Super Hornet",
+          [
+            "/wiki/F/A-18E/F_Super_Hornet"
+          ]
+        ]
+      ],
+      [
+        [
+          "VFA-103",
+          []
+        ],
+        [
+          "Strike Fighter Squadron 103",
+          [
+            "/wiki/VFA-103"
+          ]
+        ],
+        [
+          "Jolly Rogers",
+          []
+        ],
+        [
+          "F/A-18F Super Hornet",
+          [
+            "/wiki/F/A-18E/F_Super_Hornet"
+          ]
+        ]
+      ],
+      [
+        [
+          "VFA-86",
+          []
+        ],
+        [
+          "Strike Fighter Squadron 86",
+          [
+            "/wiki/VFA-86"
+          ]
+        ],
+        [
+          "Sidewinders",
+          []
+        ],
+        [
+          "F/A-18E Super Hornet",
+          [
+            "/wiki/F/A-18E/F_Super_Hornet"
+          ]
+        ]
+      ],
+      [
+        [
+          "VFA-25",
+          []
+        ],
+        [
+          "Strike Fighter Squadron 25",
+          [
+            "/wiki/VFA-25"
+          ]
+        ],
+        [
+          "Fist of the Fleet",
+          []
+        ],
+        [
+          "F/A-18E Super Hornet",
+          [
+            "/wiki/F/A-18E/F_Super_Hornet"
+          ]
+        ]
+      ],
+      [
+        [
+          "VAQ-140",
+          []
+        ],
+        [
+          "Electronic Attack Squadron 140",
+          [
+            "/wiki/VAQ-140"
+          ]
+        ],
+        [
+          "Patriots",
+          []
+        ],
+        [
+          "EA-18G Growler",
+          [
+            "/wiki/EA-18G_Growler"
+          ]
+        ]
+      ],
+      [
+        [
+          "VAW-121",
+          []
+        ],
+        [
+          "Airborne Early Warning Squadron 121",
+          [
+            "/wiki/VAW-121"
+          ]
+        ],
+        [
+          "Bluetails",
+          []
+        ],
+        [
+          "E2D Advanced Hawkeye",
+          [
+            "/wiki/Northrop_Grumman_E-2_Hawkeye"
+          ]
+        ]
+      ],
+      [
+        [
+          "HSC-5",
+          []
+        ],
+        [
+          "Helicopter Sea Combat Squadron 5",
+          [
+            "/wiki/HS-5"
+          ]
+        ],
+        [
+          "Nightdippers",
+          []
+        ],
+        [
+          "MH-60S Seahawk",
+          [
+            "/wiki/SH-60_Seahawk"
+          ]
+        ]
+      ],
+      [
+        [
+          "HSM-79",
+          []
+        ],
+        [
+          "Helicopter Maritime Strike Squadron 79",
+          [
+            "/wiki/HSM-79"
+          ]
+        ],
+        [
+          "Griffins",
+          []
+        ],
+        [
+          "MH-60R Seahawk",
+          [
+            "/wiki/SH-60_Seahawk"
+          ]
+        ]
+      ],
+      [
+        [
+          "VRC-40",
+          []
+        ],
+        [
+          "Fleet Logistics Support Squadron 40 Det . 3",
+          [
+            "/wiki/VRC-40"
+          ]
+        ],
+        [
+          "Rawhides",
+          []
+        ],
+        [
+          "C-2A Greyhound",
+          [
+            "/wiki/C-2_Greyhound"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the squadrons within Carrier Air Wing Seven, including their codes, nicknames, and assigned aircraft. It serves as a reference for understanding the structure and equipment of the air wing. The table is relevant to military aviation and organizational details.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Code",
+    "Nickname"
+  ],
+  "entities": [
+    "Squadron",
+    "Assigned Aircraft"
+  ]
+}

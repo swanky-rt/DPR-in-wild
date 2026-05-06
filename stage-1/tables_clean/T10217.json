@@ -1,0 +1,293 @@
+{
+  "table_id": "T10217",
+  "uid": "b648a9aa-bea2-50d2-b863-6d76ce2d8d2b",
+  "source": "HybridQA",
+  "source_table_id": "b648a9aa-bea2-50d2-b863-6d76ce2d8d2b",
+  "domain": "HybridQA",
+  "title": "1999 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Svetlana Khorkina ( RUS )",
+        [
+          "/wiki/Svetlana_Khorkina"
+        ]
+      ],
+      [
+        9.837,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Huang Mandan ( CHN )",
+        [
+          "/wiki/Huang_Mandan"
+        ]
+      ],
+      [
+        9.825,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Ling Jie ( CHN )",
+        [
+          "/wiki/Ling_Jie"
+        ]
+      ],
+      [
+        9.812,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Elena Produnova ( RUS )",
+        [
+          "/wiki/Elena_Produnova"
+        ]
+      ],
+      [
+        9.75,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Viktoria Karpenko ( UKR )",
+        [
+          "/wiki/Viktoria_Karpenko"
+        ]
+      ],
+      [
+        9.725,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Maria Olaru ( ROU )",
+        [
+          "/wiki/Maria_Olaru"
+        ]
+      ],
+      [
+        9.712,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Elise Ray ( USA )",
+        [
+          "/wiki/Elise_Ray"
+        ]
+      ],
+      [
+        9.687,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Tatiana Zharganova ( BLR )",
+        [
+          "/wiki/Tatiana_Zharganova"
+        ]
+      ],
+      [
+        9.612,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "b648a9aa-bea2-50d2-b863-6d76ce2d8d2b",
+    "table_id": "1999_World_Artistic_Gymnastics_Championships_9",
+    "title": "1999 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Svetlana Khorkina ( RUS )",
+          [
+            "/wiki/Svetlana_Khorkina"
+          ]
+        ],
+        [
+          9.837,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Huang Mandan ( CHN )",
+          [
+            "/wiki/Huang_Mandan"
+          ]
+        ],
+        [
+          9.825,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Ling Jie ( CHN )",
+          [
+            "/wiki/Ling_Jie"
+          ]
+        ],
+        [
+          9.812,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Elena Produnova ( RUS )",
+          [
+            "/wiki/Elena_Produnova"
+          ]
+        ],
+        [
+          9.75,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Viktoria Karpenko ( UKR )",
+          [
+            "/wiki/Viktoria_Karpenko"
+          ]
+        ],
+        [
+          9.725,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Maria Olaru ( ROU )",
+          [
+            "/wiki/Maria_Olaru"
+          ]
+        ],
+        [
+          9.712,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Elise Ray ( USA )",
+          [
+            "/wiki/Elise_Ray"
+          ]
+        ],
+        [
+          9.687,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Tatiana Zharganova ( BLR )",
+          [
+            "/wiki/Tatiana_Zharganova"
+          ]
+        ],
+        [
+          9.612,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a ranking of gymnasts based on their performance at the 1999 World Artistic Gymnastics Championships. It includes information about the rank, the names of the gymnasts, and their total scores. The table is likely used to summarize and compare the results of the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

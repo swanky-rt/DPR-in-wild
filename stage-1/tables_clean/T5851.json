@@ -1,0 +1,573 @@
+{
+  "table_id": "T5851",
+  "uid": "55cb2548-45ed-5856-8551-d205c43db596",
+  "source": "HybridQA",
+  "source_table_id": "55cb2548-45ed-5856-8551-d205c43db596",
+  "domain": "HybridQA",
+  "title": "WLIR",
+  "columns": [
+    "Call sign in 1995",
+    "Frequency",
+    "Broadcast area",
+    "State",
+    "Current Call sign"
+  ],
+  "rows": [
+    [
+      [
+        "KDRE",
+        []
+      ],
+      [
+        "101.1 FM",
+        []
+      ],
+      [
+        "Little Rock",
+        [
+          "/wiki/Little_Rock,_Arkansas"
+        ]
+      ],
+      [
+        "Arkansas",
+        []
+      ],
+      [
+        "KDXE",
+        [
+          "/wiki/KDXE_(FM)"
+        ]
+      ]
+    ],
+    [
+      [
+        "KFTH",
+        []
+      ],
+      [
+        "107.1 FM",
+        []
+      ],
+      [
+        "Memphis",
+        [
+          "/wiki/Memphis,_Tennessee"
+        ]
+      ],
+      [
+        "Tennessee",
+        []
+      ],
+      [
+        "KXHT",
+        [
+          "/wiki/KXHT"
+        ]
+      ]
+    ],
+    [
+      [
+        "WDRE",
+        []
+      ],
+      [
+        "92.7 FM",
+        []
+      ],
+      [
+        "Garden City / New York City",
+        [
+          "/wiki/Garden_City,_New_York",
+          "/wiki/New_York_City"
+        ]
+      ],
+      [
+        "New York",
+        []
+      ],
+      [
+        "WQBU-FM",
+        [
+          "/wiki/WQBU-FM"
+        ]
+      ]
+    ],
+    [
+      [
+        "WIBF",
+        []
+      ],
+      [
+        "103.9 FM",
+        []
+      ],
+      [
+        "Jenkintown / Philadelphia",
+        [
+          "/wiki/Jenkintown,_Pennsylvania",
+          "/wiki/Philadelphia,_Pennsylvania"
+        ]
+      ],
+      [
+        "Pennsylvania",
+        []
+      ],
+      [
+        "WPHI-FM",
+        [
+          "/wiki/WPHI-FM"
+        ]
+      ]
+    ],
+    [
+      [
+        "WMRW",
+        []
+      ],
+      [
+        "98.5 FM",
+        []
+      ],
+      [
+        "Westhampton /eastern Long Island",
+        [
+          "/wiki/Westhampton,_New_York",
+          "/wiki/Long_Island"
+        ]
+      ],
+      [
+        "New York",
+        []
+      ],
+      [
+        "WBON",
+        [
+          "/wiki/WBON"
+        ]
+      ]
+    ],
+    [
+      [
+        "WRLG",
+        []
+      ],
+      [
+        "94.1 FM",
+        []
+      ],
+      [
+        "Nashville",
+        [
+          "/wiki/Nashville,_Tennessee"
+        ]
+      ],
+      [
+        "Tennessee",
+        []
+      ],
+      [
+        "WFFH",
+        [
+          "/wiki/WFFH"
+        ]
+      ]
+    ],
+    [
+      [
+        "WUNX",
+        []
+      ],
+      [
+        "93.5 FM",
+        []
+      ],
+      [
+        "Mashpee / Cape Cod",
+        [
+          "/wiki/Mashpee,_Massachusetts",
+          "/wiki/Cape_Cod"
+        ]
+      ],
+      [
+        "Massachusetts",
+        []
+      ],
+      [
+        "WFRQ",
+        [
+          "/wiki/WFRQ"
+        ]
+      ]
+    ],
+    [
+      [
+        "WUNZ",
+        []
+      ],
+      [
+        "101.1 FM",
+        []
+      ],
+      [
+        "Mashpee / Cape Cod",
+        [
+          "/wiki/Mashpee,_Massachusetts",
+          "/wiki/Cape_Cod"
+        ]
+      ],
+      [
+        "Massachusetts",
+        []
+      ],
+      [
+        "WHYA",
+        [
+          "/wiki/WHYA"
+        ]
+      ]
+    ],
+    [
+      [
+        "WWCP",
+        []
+      ],
+      [
+        "96.7 FM",
+        []
+      ],
+      [
+        "Albany",
+        [
+          "/wiki/Albany,_New_York"
+        ]
+      ],
+      [
+        "New York",
+        []
+      ],
+      [
+        "WMHH",
+        [
+          "/wiki/WMHH"
+        ]
+      ]
+    ],
+    [
+      [
+        "WYKT",
+        []
+      ],
+      [
+        "105.5 FM",
+        []
+      ],
+      [
+        "Wilmington",
+        [
+          "/wiki/Wilmington,_Will_County,_Illinois"
+        ]
+      ],
+      [
+        "Illinois",
+        []
+      ],
+      [
+        "WYKT",
+        [
+          "/wiki/WYKT"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "55cb2548-45ed-5856-8551-d205c43db596",
+    "table_id": "WLIR_0",
+    "title": "WLIR",
+    "header": [
+      "Call sign in 1995",
+      "Frequency",
+      "Broadcast area",
+      "State",
+      "Current Call sign"
+    ],
+    "value": [
+      [
+        [
+          "KDRE",
+          []
+        ],
+        [
+          "101.1 FM",
+          []
+        ],
+        [
+          "Little Rock",
+          [
+            "/wiki/Little_Rock,_Arkansas"
+          ]
+        ],
+        [
+          "Arkansas",
+          []
+        ],
+        [
+          "KDXE",
+          [
+            "/wiki/KDXE_(FM)"
+          ]
+        ]
+      ],
+      [
+        [
+          "KFTH",
+          []
+        ],
+        [
+          "107.1 FM",
+          []
+        ],
+        [
+          "Memphis",
+          [
+            "/wiki/Memphis,_Tennessee"
+          ]
+        ],
+        [
+          "Tennessee",
+          []
+        ],
+        [
+          "KXHT",
+          [
+            "/wiki/KXHT"
+          ]
+        ]
+      ],
+      [
+        [
+          "WDRE",
+          []
+        ],
+        [
+          "92.7 FM",
+          []
+        ],
+        [
+          "Garden City / New York City",
+          [
+            "/wiki/Garden_City,_New_York",
+            "/wiki/New_York_City"
+          ]
+        ],
+        [
+          "New York",
+          []
+        ],
+        [
+          "WQBU-FM",
+          [
+            "/wiki/WQBU-FM"
+          ]
+        ]
+      ],
+      [
+        [
+          "WIBF",
+          []
+        ],
+        [
+          "103.9 FM",
+          []
+        ],
+        [
+          "Jenkintown / Philadelphia",
+          [
+            "/wiki/Jenkintown,_Pennsylvania",
+            "/wiki/Philadelphia,_Pennsylvania"
+          ]
+        ],
+        [
+          "Pennsylvania",
+          []
+        ],
+        [
+          "WPHI-FM",
+          [
+            "/wiki/WPHI-FM"
+          ]
+        ]
+      ],
+      [
+        [
+          "WMRW",
+          []
+        ],
+        [
+          "98.5 FM",
+          []
+        ],
+        [
+          "Westhampton /eastern Long Island",
+          [
+            "/wiki/Westhampton,_New_York",
+            "/wiki/Long_Island"
+          ]
+        ],
+        [
+          "New York",
+          []
+        ],
+        [
+          "WBON",
+          [
+            "/wiki/WBON"
+          ]
+        ]
+      ],
+      [
+        [
+          "WRLG",
+          []
+        ],
+        [
+          "94.1 FM",
+          []
+        ],
+        [
+          "Nashville",
+          [
+            "/wiki/Nashville,_Tennessee"
+          ]
+        ],
+        [
+          "Tennessee",
+          []
+        ],
+        [
+          "WFFH",
+          [
+            "/wiki/WFFH"
+          ]
+        ]
+      ],
+      [
+        [
+          "WUNX",
+          []
+        ],
+        [
+          "93.5 FM",
+          []
+        ],
+        [
+          "Mashpee / Cape Cod",
+          [
+            "/wiki/Mashpee,_Massachusetts",
+            "/wiki/Cape_Cod"
+          ]
+        ],
+        [
+          "Massachusetts",
+          []
+        ],
+        [
+          "WFRQ",
+          [
+            "/wiki/WFRQ"
+          ]
+        ]
+      ],
+      [
+        [
+          "WUNZ",
+          []
+        ],
+        [
+          "101.1 FM",
+          []
+        ],
+        [
+          "Mashpee / Cape Cod",
+          [
+            "/wiki/Mashpee,_Massachusetts",
+            "/wiki/Cape_Cod"
+          ]
+        ],
+        [
+          "Massachusetts",
+          []
+        ],
+        [
+          "WHYA",
+          [
+            "/wiki/WHYA"
+          ]
+        ]
+      ],
+      [
+        [
+          "WWCP",
+          []
+        ],
+        [
+          "96.7 FM",
+          []
+        ],
+        [
+          "Albany",
+          [
+            "/wiki/Albany,_New_York"
+          ]
+        ],
+        [
+          "New York",
+          []
+        ],
+        [
+          "WMHH",
+          [
+            "/wiki/WMHH"
+          ]
+        ]
+      ],
+      [
+        [
+          "WYKT",
+          []
+        ],
+        [
+          "105.5 FM",
+          []
+        ],
+        [
+          "Wilmington",
+          [
+            "/wiki/Wilmington,_Will_County,_Illinois"
+          ]
+        ],
+        [
+          "Illinois",
+          []
+        ],
+        [
+          "WYKT",
+          [
+            "/wiki/WYKT"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about radio stations, including their call signs in 1995, frequencies, broadcast areas, states, and current call signs. It appears to track changes in station identifiers and locations over time, likely for historical or reference purposes. The data is relevant to the domain of broadcasting and radio station management.",
+  "numeric_columns": [
+    "Frequency"
+  ],
+  "categorical_columns": [
+    "Call sign in 1995",
+    "State",
+    "Current Call sign"
+  ],
+  "entities": [
+    "Broadcast area"
+  ]
+}

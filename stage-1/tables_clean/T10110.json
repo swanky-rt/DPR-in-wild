@@ -1,0 +1,584 @@
+{
+  "table_id": "T10110",
+  "uid": "f32794f6-b0c4-5933-b00a-19a5bf8331be",
+  "source": "HybridQA",
+  "source_table_id": "f32794f6-b0c4-5933-b00a-19a5bf8331be",
+  "domain": "HybridQA",
+  "title": "List of bus transit systems in the United States",
+  "columns": [
+    "System",
+    "Locale",
+    "Major city ( s )"
+  ],
+  "rows": [
+    [
+      [
+        "Belle Urban System",
+        [
+          "/wiki/Belle_Urban_System"
+        ]
+      ],
+      [
+        "Racine County",
+        [
+          "/wiki/Racine_County"
+        ]
+      ],
+      [
+        "Racine",
+        [
+          "/wiki/Racine,_Wisconsin"
+        ]
+      ]
+    ],
+    [
+      [
+        "Central Transit",
+        []
+      ],
+      [
+        "Portage County",
+        [
+          "/wiki/Portage_County,_Wisconsin"
+        ]
+      ],
+      [
+        "Stevens Point",
+        [
+          "/wiki/Stevens_Point"
+        ]
+      ]
+    ],
+    [
+      [
+        "Eau Claire Transit",
+        [
+          "/wiki/Eau_Claire_Transit"
+        ]
+      ],
+      [
+        "Eau Claire",
+        [
+          "/wiki/Eau_Claire,_Wisconsin"
+        ]
+      ],
+      [
+        "Eau Claire , Altoona",
+        []
+      ]
+    ],
+    [
+      [
+        "Fond Du Lac Area Transit",
+        [
+          "/wiki/Fond_Du_Lac,_Wisconsin"
+        ]
+      ],
+      [
+        "Fond Du Lac County",
+        [
+          "/wiki/Fond_du_Lac_County,_Wisconsin"
+        ]
+      ],
+      [
+        "Fond Du Lac",
+        [
+          "/wiki/Fond_Du_Lac,_Wisconsin"
+        ]
+      ]
+    ],
+    [
+      [
+        "GO Transit",
+        [
+          "/wiki/GO_Transit_(Wisconsin)"
+        ]
+      ],
+      [
+        "southern Winnebago County",
+        [
+          "/wiki/Winnebago_County,_Wisconsin"
+        ]
+      ],
+      [
+        "Oshkosh",
+        [
+          "/wiki/Oshkosh,_Wisconsin"
+        ]
+      ]
+    ],
+    [
+      [
+        "Green Bay Metro",
+        [
+          "/wiki/Green_Bay_Metro"
+        ]
+      ],
+      [
+        "Brown County",
+        [
+          "/wiki/Brown_County,_Wisconsin"
+        ]
+      ],
+      [
+        "Green Bay , De Pere",
+        [
+          "/wiki/Green_Bay,_Wisconsin"
+        ]
+      ]
+    ],
+    [
+      [
+        "Kenosha Transit",
+        [
+          "/wiki/Kenosha_Transit"
+        ]
+      ],
+      [
+        "Kenosha County",
+        [
+          "/wiki/Kenosha_County"
+        ]
+      ],
+      [
+        "Kenosha",
+        [
+          "/wiki/Kenosha,_Wisconsin"
+        ]
+      ]
+    ],
+    [
+      [
+        "Madison Metro",
+        [
+          "/wiki/Madison_Metro"
+        ]
+      ],
+      [
+        "Madison",
+        [
+          "/wiki/Madison,_Wisconsin"
+        ]
+      ],
+      [
+        "Madison",
+        []
+      ]
+    ],
+    [
+      [
+        "Maritime Metro Transit",
+        []
+      ],
+      [
+        "Manitowoc County",
+        [
+          "/wiki/Manitowoc_County"
+        ]
+      ],
+      [
+        "Manitowoc , Two Rivers",
+        [
+          "/wiki/Manitowoc,_Wisconsin"
+        ]
+      ]
+    ],
+    [
+      [
+        "Milwaukee County Transit System",
+        [
+          "/wiki/Milwaukee_County_Transit_System"
+        ]
+      ],
+      [
+        "Milwaukee County",
+        [
+          "/wiki/Milwaukee_County,_Wisconsin"
+        ]
+      ],
+      [
+        "Milwaukee",
+        [
+          "/wiki/Milwaukee,_Wisconsin"
+        ]
+      ]
+    ],
+    [
+      [
+        "Metro Ride",
+        [
+          "/wiki/Metro_Ride"
+        ]
+      ],
+      [
+        "Marathon County",
+        [
+          "/wiki/Marathon_County"
+        ]
+      ],
+      [
+        "Wausau",
+        [
+          "/wiki/Wausau,_Wisconsin"
+        ]
+      ]
+    ],
+    [
+      [
+        "Shoreline Metro",
+        [
+          "/wiki/Shoreline_Metro"
+        ]
+      ],
+      [
+        "Sheboygan County",
+        [
+          "/wiki/Sheboygan_County"
+        ]
+      ],
+      [
+        "Sheboygan",
+        [
+          "/wiki/Sheboygan,_Wisconsin"
+        ]
+      ]
+    ],
+    [
+      [
+        "Valley Transit",
+        [
+          "/wiki/Valley_Transit_(Wisconsin)"
+        ]
+      ],
+      [
+        "Outagamie County , Calumet County , northern Winnebago County",
+        [
+          "/wiki/Outagamie_County",
+          "/wiki/Calumet_County",
+          "/wiki/Winnebago_County,_Wisconsin"
+        ]
+      ],
+      [
+        "Appleton",
+        [
+          "/wiki/Appleton,_Wisconsin"
+        ]
+      ]
+    ],
+    [
+      [
+        "Waukesha Metro",
+        [
+          "/wiki/Waukesha_Metro_Transit"
+        ]
+      ],
+      [
+        "Waukesha County",
+        [
+          "/wiki/Waukesha_County"
+        ]
+      ],
+      [
+        "Waukesha",
+        [
+          "/wiki/Waukesha,_Wisconsin"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "f32794f6-b0c4-5933-b00a-19a5bf8331be",
+    "table_id": "List_of_bus_transit_systems_in_the_United_States_49",
+    "title": "List of bus transit systems in the United States",
+    "header": [
+      "System",
+      "Locale",
+      "Major city ( s )"
+    ],
+    "value": [
+      [
+        [
+          "Belle Urban System",
+          [
+            "/wiki/Belle_Urban_System"
+          ]
+        ],
+        [
+          "Racine County",
+          [
+            "/wiki/Racine_County"
+          ]
+        ],
+        [
+          "Racine",
+          [
+            "/wiki/Racine,_Wisconsin"
+          ]
+        ]
+      ],
+      [
+        [
+          "Central Transit",
+          []
+        ],
+        [
+          "Portage County",
+          [
+            "/wiki/Portage_County,_Wisconsin"
+          ]
+        ],
+        [
+          "Stevens Point",
+          [
+            "/wiki/Stevens_Point"
+          ]
+        ]
+      ],
+      [
+        [
+          "Eau Claire Transit",
+          [
+            "/wiki/Eau_Claire_Transit"
+          ]
+        ],
+        [
+          "Eau Claire",
+          [
+            "/wiki/Eau_Claire,_Wisconsin"
+          ]
+        ],
+        [
+          "Eau Claire , Altoona",
+          []
+        ]
+      ],
+      [
+        [
+          "Fond Du Lac Area Transit",
+          [
+            "/wiki/Fond_Du_Lac,_Wisconsin"
+          ]
+        ],
+        [
+          "Fond Du Lac County",
+          [
+            "/wiki/Fond_du_Lac_County,_Wisconsin"
+          ]
+        ],
+        [
+          "Fond Du Lac",
+          [
+            "/wiki/Fond_Du_Lac,_Wisconsin"
+          ]
+        ]
+      ],
+      [
+        [
+          "GO Transit",
+          [
+            "/wiki/GO_Transit_(Wisconsin)"
+          ]
+        ],
+        [
+          "southern Winnebago County",
+          [
+            "/wiki/Winnebago_County,_Wisconsin"
+          ]
+        ],
+        [
+          "Oshkosh",
+          [
+            "/wiki/Oshkosh,_Wisconsin"
+          ]
+        ]
+      ],
+      [
+        [
+          "Green Bay Metro",
+          [
+            "/wiki/Green_Bay_Metro"
+          ]
+        ],
+        [
+          "Brown County",
+          [
+            "/wiki/Brown_County,_Wisconsin"
+          ]
+        ],
+        [
+          "Green Bay , De Pere",
+          [
+            "/wiki/Green_Bay,_Wisconsin"
+          ]
+        ]
+      ],
+      [
+        [
+          "Kenosha Transit",
+          [
+            "/wiki/Kenosha_Transit"
+          ]
+        ],
+        [
+          "Kenosha County",
+          [
+            "/wiki/Kenosha_County"
+          ]
+        ],
+        [
+          "Kenosha",
+          [
+            "/wiki/Kenosha,_Wisconsin"
+          ]
+        ]
+      ],
+      [
+        [
+          "Madison Metro",
+          [
+            "/wiki/Madison_Metro"
+          ]
+        ],
+        [
+          "Madison",
+          [
+            "/wiki/Madison,_Wisconsin"
+          ]
+        ],
+        [
+          "Madison",
+          []
+        ]
+      ],
+      [
+        [
+          "Maritime Metro Transit",
+          []
+        ],
+        [
+          "Manitowoc County",
+          [
+            "/wiki/Manitowoc_County"
+          ]
+        ],
+        [
+          "Manitowoc , Two Rivers",
+          [
+            "/wiki/Manitowoc,_Wisconsin"
+          ]
+        ]
+      ],
+      [
+        [
+          "Milwaukee County Transit System",
+          [
+            "/wiki/Milwaukee_County_Transit_System"
+          ]
+        ],
+        [
+          "Milwaukee County",
+          [
+            "/wiki/Milwaukee_County,_Wisconsin"
+          ]
+        ],
+        [
+          "Milwaukee",
+          [
+            "/wiki/Milwaukee,_Wisconsin"
+          ]
+        ]
+      ],
+      [
+        [
+          "Metro Ride",
+          [
+            "/wiki/Metro_Ride"
+          ]
+        ],
+        [
+          "Marathon County",
+          [
+            "/wiki/Marathon_County"
+          ]
+        ],
+        [
+          "Wausau",
+          [
+            "/wiki/Wausau,_Wisconsin"
+          ]
+        ]
+      ],
+      [
+        [
+          "Shoreline Metro",
+          [
+            "/wiki/Shoreline_Metro"
+          ]
+        ],
+        [
+          "Sheboygan County",
+          [
+            "/wiki/Sheboygan_County"
+          ]
+        ],
+        [
+          "Sheboygan",
+          [
+            "/wiki/Sheboygan,_Wisconsin"
+          ]
+        ]
+      ],
+      [
+        [
+          "Valley Transit",
+          [
+            "/wiki/Valley_Transit_(Wisconsin)"
+          ]
+        ],
+        [
+          "Outagamie County , Calumet County , northern Winnebago County",
+          [
+            "/wiki/Outagamie_County",
+            "/wiki/Calumet_County",
+            "/wiki/Winnebago_County,_Wisconsin"
+          ]
+        ],
+        [
+          "Appleton",
+          [
+            "/wiki/Appleton,_Wisconsin"
+          ]
+        ]
+      ],
+      [
+        [
+          "Waukesha Metro",
+          [
+            "/wiki/Waukesha_Metro_Transit"
+          ]
+        ],
+        [
+          "Waukesha County",
+          [
+            "/wiki/Waukesha_County"
+          ]
+        ],
+        [
+          "Waukesha",
+          [
+            "/wiki/Waukesha,_Wisconsin"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a list of bus transit systems in the United States, detailing their names, the locales they serve, and the major cities associated with them. It is intended to give an overview of public transportation systems and their geographic coverage.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "System",
+    "Locale"
+  ],
+  "entities": [
+    "Major city ( s )"
+  ]
+}

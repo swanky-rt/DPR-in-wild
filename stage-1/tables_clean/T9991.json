@@ -1,0 +1,468 @@
+{
+  "table_id": "T9991",
+  "uid": "fe11c455-2db1-5025-b7d2-67d666e5ca71",
+  "source": "HybridQA",
+  "source_table_id": "fe11c455-2db1-5025-b7d2-67d666e5ca71",
+  "domain": "HybridQA",
+  "title": "WWE Diva Search",
+  "columns": [
+    "Name",
+    "Age",
+    "Hometown",
+    "Eliminated"
+  ],
+  "rows": [
+    [
+      [
+        "Christy Hemme",
+        [
+          "/wiki/Christy_Hemme"
+        ]
+      ],
+      [
+        23,
+        []
+      ],
+      [
+        "Poway , California",
+        [
+          "/wiki/Poway,_California"
+        ]
+      ],
+      [
+        "Winner",
+        []
+      ]
+    ],
+    [
+      [
+        "Carmella DeCesare",
+        [
+          "/wiki/Carmella_DeCesare"
+        ]
+      ],
+      [
+        26,
+        []
+      ],
+      [
+        "Avon Lake , Ohio",
+        [
+          "/wiki/Avon_Lake,_Ohio"
+        ]
+      ],
+      [
+        "Runner-Up",
+        []
+      ]
+    ],
+    [
+      [
+        "Joy Giovanni",
+        [
+          "/wiki/Joy_Giovanni"
+        ]
+      ],
+      [
+        26,
+        []
+      ],
+      [
+        "Boston , Massachusetts",
+        [
+          "/wiki/Boston,_Massachusetts"
+        ]
+      ],
+      [
+        "3rd Place",
+        []
+      ]
+    ],
+    [
+      [
+        "Amy Weber",
+        [
+          "/wiki/Amy_Weber"
+        ]
+      ],
+      [
+        34,
+        []
+      ],
+      [
+        "Mapleton , Illinois",
+        [
+          "/wiki/Mapleton,_Illinois"
+        ]
+      ],
+      [
+        "4th Place",
+        []
+      ]
+    ],
+    [
+      [
+        "Maria Kanellis",
+        [
+          "/wiki/Maria_Kanellis"
+        ]
+      ],
+      [
+        22,
+        []
+      ],
+      [
+        "Ottawa , Illinois",
+        [
+          "/wiki/Ottawa,_Illinois"
+        ]
+      ],
+      [
+        "5th Place",
+        []
+      ]
+    ],
+    [
+      [
+        "Tracie Wright",
+        []
+      ],
+      [
+        24,
+        []
+      ],
+      [
+        "Atlanta , Georgia",
+        [
+          "/wiki/Atlanta,_Georgia"
+        ]
+      ],
+      [
+        "6th Place",
+        []
+      ]
+    ],
+    [
+      [
+        "Michelle McCool",
+        [
+          "/wiki/Michelle_McCool"
+        ]
+      ],
+      [
+        24,
+        []
+      ],
+      [
+        "Palatka , Florida",
+        [
+          "/wiki/Palatka,_Florida"
+        ]
+      ],
+      [
+        "7th Place",
+        []
+      ]
+    ],
+    [
+      [
+        "Chandra Costello",
+        []
+      ],
+      [
+        28,
+        []
+      ],
+      [
+        "Liberty , Kentucky",
+        [
+          "/wiki/Liberty,_Kentucky"
+        ]
+      ],
+      [
+        "8th Place",
+        []
+      ]
+    ],
+    [
+      [
+        "Camille Anderson",
+        [
+          "/wiki/Camille_Anderson"
+        ]
+      ],
+      [
+        26,
+        []
+      ],
+      [
+        "Dallas , Texas",
+        [
+          "/wiki/Dallas,_Texas"
+        ]
+      ],
+      [
+        "9th Place",
+        []
+      ]
+    ],
+    [
+      [
+        "Julia Costello",
+        []
+      ],
+      [
+        28,
+        []
+      ],
+      [
+        "Liberty , Kentucky",
+        [
+          "/wiki/Liberty,_Kentucky"
+        ]
+      ],
+      [
+        "10th Place",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "fe11c455-2db1-5025-b7d2-67d666e5ca71",
+    "table_id": "WWE_Diva_Search_2",
+    "title": "WWE Diva Search",
+    "header": [
+      "Name",
+      "Age",
+      "Hometown",
+      "Eliminated"
+    ],
+    "value": [
+      [
+        [
+          "Christy Hemme",
+          [
+            "/wiki/Christy_Hemme"
+          ]
+        ],
+        [
+          23,
+          []
+        ],
+        [
+          "Poway , California",
+          [
+            "/wiki/Poway,_California"
+          ]
+        ],
+        [
+          "Winner",
+          []
+        ]
+      ],
+      [
+        [
+          "Carmella DeCesare",
+          [
+            "/wiki/Carmella_DeCesare"
+          ]
+        ],
+        [
+          26,
+          []
+        ],
+        [
+          "Avon Lake , Ohio",
+          [
+            "/wiki/Avon_Lake,_Ohio"
+          ]
+        ],
+        [
+          "Runner-Up",
+          []
+        ]
+      ],
+      [
+        [
+          "Joy Giovanni",
+          [
+            "/wiki/Joy_Giovanni"
+          ]
+        ],
+        [
+          26,
+          []
+        ],
+        [
+          "Boston , Massachusetts",
+          [
+            "/wiki/Boston,_Massachusetts"
+          ]
+        ],
+        [
+          "3rd Place",
+          []
+        ]
+      ],
+      [
+        [
+          "Amy Weber",
+          [
+            "/wiki/Amy_Weber"
+          ]
+        ],
+        [
+          34,
+          []
+        ],
+        [
+          "Mapleton , Illinois",
+          [
+            "/wiki/Mapleton,_Illinois"
+          ]
+        ],
+        [
+          "4th Place",
+          []
+        ]
+      ],
+      [
+        [
+          "Maria Kanellis",
+          [
+            "/wiki/Maria_Kanellis"
+          ]
+        ],
+        [
+          22,
+          []
+        ],
+        [
+          "Ottawa , Illinois",
+          [
+            "/wiki/Ottawa,_Illinois"
+          ]
+        ],
+        [
+          "5th Place",
+          []
+        ]
+      ],
+      [
+        [
+          "Tracie Wright",
+          []
+        ],
+        [
+          24,
+          []
+        ],
+        [
+          "Atlanta , Georgia",
+          [
+            "/wiki/Atlanta,_Georgia"
+          ]
+        ],
+        [
+          "6th Place",
+          []
+        ]
+      ],
+      [
+        [
+          "Michelle McCool",
+          [
+            "/wiki/Michelle_McCool"
+          ]
+        ],
+        [
+          24,
+          []
+        ],
+        [
+          "Palatka , Florida",
+          [
+            "/wiki/Palatka,_Florida"
+          ]
+        ],
+        [
+          "7th Place",
+          []
+        ]
+      ],
+      [
+        [
+          "Chandra Costello",
+          []
+        ],
+        [
+          28,
+          []
+        ],
+        [
+          "Liberty , Kentucky",
+          [
+            "/wiki/Liberty,_Kentucky"
+          ]
+        ],
+        [
+          "8th Place",
+          []
+        ]
+      ],
+      [
+        [
+          "Camille Anderson",
+          [
+            "/wiki/Camille_Anderson"
+          ]
+        ],
+        [
+          26,
+          []
+        ],
+        [
+          "Dallas , Texas",
+          [
+            "/wiki/Dallas,_Texas"
+          ]
+        ],
+        [
+          "9th Place",
+          []
+        ]
+      ],
+      [
+        [
+          "Julia Costello",
+          []
+        ],
+        [
+          28,
+          []
+        ],
+        [
+          "Liberty , Kentucky",
+          [
+            "/wiki/Liberty,_Kentucky"
+          ]
+        ],
+        [
+          "10th Place",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about participants in the WWE Diva Search, including their names, ages, hometowns, and elimination status. It appears to document key details about contestants and their outcomes in the competition.",
+  "numeric_columns": [
+    "Age"
+  ],
+  "categorical_columns": [
+    "Eliminated"
+  ],
+  "entities": [
+    "Name",
+    "Hometown"
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "table_id": "T6653",
+  "uid": "f983929d-b0ee-5669-8fa3-dd1e83f325a2",
+  "source": "HybridQA",
+  "source_table_id": "f983929d-b0ee-5669-8fa3-dd1e83f325a2",
+  "domain": "HybridQA",
+  "title": "Listed buildings in Barrow-in-Furness",
+  "columns": [
+    "Name",
+    "Location",
+    "Year Completed",
+    "Year Listed",
+    "Historic England Description"
+  ],
+  "rows": [
+    [
+      [
+        "Dalton Castle",
+        [
+          "/wiki/Dalton_Castle"
+        ]
+      ],
+      [
+        "Dalton South",
+        [
+          "/wiki/Dalton_South"
+        ]
+      ],
+      [
+        "c. 14th century",
+        []
+      ],
+      [
+        1950,
+        []
+      ],
+      [
+        "DALTON CASTLE",
+        []
+      ]
+    ],
+    [
+      [
+        "Furness Abbey",
+        [
+          "/wiki/Furness_Abbey"
+        ]
+      ],
+      [
+        "Newbarns",
+        [
+          "/wiki/Newbarns"
+        ]
+      ],
+      [
+        1127,
+        []
+      ],
+      [
+        1949,
+        []
+      ],
+      [
+        "FURNESS ABBEY , INCLUDING ALL MEDIEVAL REMAINS IN CARE OF ENGLISH HERITAGE",
+        []
+      ]
+    ],
+    [
+      [
+        "Furness Abbey Chapel",
+        [
+          "/wiki/Furness_Abbey"
+        ]
+      ],
+      [
+        "Newbarns",
+        [
+          "/wiki/Newbarns"
+        ]
+      ],
+      [
+        "c. 1300",
+        []
+      ],
+      [
+        1976,
+        []
+      ],
+      [
+        "CAPELLA EXTRA PORTAS WITH ATTACHED WALLS",
+        []
+      ]
+    ],
+    [
+      [
+        "Furness Abbey Main Gateway",
+        [
+          "/wiki/Furness_Abbey"
+        ]
+      ],
+      [
+        "Newbarns",
+        [
+          "/wiki/Newbarns"
+        ]
+      ],
+      [
+        "c. 14th century",
+        []
+      ],
+      [
+        1976,
+        []
+      ],
+      [
+        "GATEWAY ADJOINING CAPELLA EXTRA",
+        []
+      ]
+    ],
+    [
+      [
+        "Furness Abbey Precinct Wall",
+        [
+          "/wiki/Furness_Abbey"
+        ]
+      ],
+      [
+        "Newbarns",
+        [
+          "/wiki/Newbarns"
+        ]
+      ],
+      [
+        1127,
+        []
+      ],
+      [
+        1949,
+        []
+      ],
+      [
+        "FURNESS ABBEY WALL",
+        []
+      ]
+    ],
+    [
+      [
+        "Furness Abbey West Gateway",
+        [
+          "/wiki/Furness_Abbey"
+        ]
+      ],
+      [
+        "Newbarns",
+        [
+          "/wiki/Newbarns"
+        ]
+      ],
+      [
+        "c. 14th century",
+        []
+      ],
+      [
+        1976,
+        []
+      ],
+      [
+        "ST GATE TO FURNESS ABBEY , REMAINS OF",
+        []
+      ]
+    ],
+    [
+      [
+        "Piel Castle",
+        [
+          "/wiki/Piel_Castle"
+        ]
+      ],
+      [
+        "Roose ( Piel Island )",
+        [
+          "/wiki/Roose",
+          "/wiki/Piel_Island"
+        ]
+      ],
+      [
+        1327,
+        []
+      ],
+      [
+        1949,
+        []
+      ],
+      [
+        "PIEL CASTLE",
+        []
+      ]
+    ],
+    [
+      [
+        "Rampside Hall",
+        [
+          "/wiki/Rampside_Hall"
+        ]
+      ],
+      [
+        "Roose ( Rampside )",
+        [
+          "/wiki/Roose",
+          "/wiki/Rampside"
+        ]
+      ],
+      [
+        "c. 17th century",
+        []
+      ],
+      [
+        1949,
+        []
+      ],
+      [
+        "RAMPSIDE HALL 101",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "f983929d-b0ee-5669-8fa3-dd1e83f325a2",
+    "table_id": "Listed_buildings_in_Barrow-in-Furness_0",
+    "title": "Listed buildings in Barrow-in-Furness",
+    "header": [
+      "Name",
+      "Location",
+      "Year Completed",
+      "Year Listed",
+      "Historic England Description"
+    ],
+    "value": [
+      [
+        [
+          "Dalton Castle",
+          [
+            "/wiki/Dalton_Castle"
+          ]
+        ],
+        [
+          "Dalton South",
+          [
+            "/wiki/Dalton_South"
+          ]
+        ],
+        [
+          "c. 14th century",
+          []
+        ],
+        [
+          1950,
+          []
+        ],
+        [
+          "DALTON CASTLE",
+          []
+        ]
+      ],
+      [
+        [
+          "Furness Abbey",
+          [
+            "/wiki/Furness_Abbey"
+          ]
+        ],
+        [
+          "Newbarns",
+          [
+            "/wiki/Newbarns"
+          ]
+        ],
+        [
+          1127,
+          []
+        ],
+        [
+          1949,
+          []
+        ],
+        [
+          "FURNESS ABBEY , INCLUDING ALL MEDIEVAL REMAINS IN CARE OF ENGLISH HERITAGE",
+          []
+        ]
+      ],
+      [
+        [
+          "Furness Abbey Chapel",
+          [
+            "/wiki/Furness_Abbey"
+          ]
+        ],
+        [
+          "Newbarns",
+          [
+            "/wiki/Newbarns"
+          ]
+        ],
+        [
+          "c. 1300",
+          []
+        ],
+        [
+          1976,
+          []
+        ],
+        [
+          "CAPELLA EXTRA PORTAS WITH ATTACHED WALLS",
+          []
+        ]
+      ],
+      [
+        [
+          "Furness Abbey Main Gateway",
+          [
+            "/wiki/Furness_Abbey"
+          ]
+        ],
+        [
+          "Newbarns",
+          [
+            "/wiki/Newbarns"
+          ]
+        ],
+        [
+          "c. 14th century",
+          []
+        ],
+        [
+          1976,
+          []
+        ],
+        [
+          "GATEWAY ADJOINING CAPELLA EXTRA",
+          []
+        ]
+      ],
+      [
+        [
+          "Furness Abbey Precinct Wall",
+          [
+            "/wiki/Furness_Abbey"
+          ]
+        ],
+        [
+          "Newbarns",
+          [
+            "/wiki/Newbarns"
+          ]
+        ],
+        [
+          1127,
+          []
+        ],
+        [
+          1949,
+          []
+        ],
+        [
+          "FURNESS ABBEY WALL",
+          []
+        ]
+      ],
+      [
+        [
+          "Furness Abbey West Gateway",
+          [
+            "/wiki/Furness_Abbey"
+          ]
+        ],
+        [
+          "Newbarns",
+          [
+            "/wiki/Newbarns"
+          ]
+        ],
+        [
+          "c. 14th century",
+          []
+        ],
+        [
+          1976,
+          []
+        ],
+        [
+          "ST GATE TO FURNESS ABBEY , REMAINS OF",
+          []
+        ]
+      ],
+      [
+        [
+          "Piel Castle",
+          [
+            "/wiki/Piel_Castle"
+          ]
+        ],
+        [
+          "Roose ( Piel Island )",
+          [
+            "/wiki/Roose",
+            "/wiki/Piel_Island"
+          ]
+        ],
+        [
+          1327,
+          []
+        ],
+        [
+          1949,
+          []
+        ],
+        [
+          "PIEL CASTLE",
+          []
+        ]
+      ],
+      [
+        [
+          "Rampside Hall",
+          [
+            "/wiki/Rampside_Hall"
+          ]
+        ],
+        [
+          "Roose ( Rampside )",
+          [
+            "/wiki/Roose",
+            "/wiki/Rampside"
+          ]
+        ],
+        [
+          "c. 17th century",
+          []
+        ],
+        [
+          1949,
+          []
+        ],
+        [
+          "RAMPSIDE HALL 101",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about listed buildings in Barrow-in-Furness, including their names, locations, historical completion dates, the years they were officially listed, and descriptions from Historic England. It serves as a reference for understanding the heritage and architectural significance of these structures.",
+  "numeric_columns": [
+    "Year Completed",
+    "Year Listed"
+  ],
+  "categorical_columns": [
+    "Historic England Description"
+  ],
+  "entities": [
+    "Name",
+    "Location"
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "table_id": "T6234",
+  "uid": "6bdf46ee-ba1d-5971-928b-6134d3671495",
+  "source": "HybridQA",
+  "source_table_id": "6bdf46ee-ba1d-5971-928b-6134d3671495",
+  "domain": "HybridQA",
+  "title": "List of NCAA conferences",
+  "columns": [
+    "Conference",
+    "Nickname",
+    "Founded",
+    "Members ( Men/Women )",
+    "Headquarters"
+  ],
+  "rows": [
+    [
+      [
+        "Atlantic Hockey",
+        [
+          "/wiki/Atlantic_Hockey"
+        ]
+      ],
+      [
+        "Atlantic Hockey",
+        []
+      ],
+      [
+        1997,
+        []
+      ],
+      [
+        "11 ( 11/none )",
+        []
+      ],
+      [
+        "Haverhill , Massachusetts",
+        [
+          "/wiki/Haverhill,_Massachusetts"
+        ]
+      ]
+    ],
+    [
+      [
+        "College Hockey America",
+        [
+          "/wiki/College_Hockey_America"
+        ]
+      ],
+      [
+        "CHA",
+        []
+      ],
+      [
+        1999,
+        []
+      ],
+      [
+        "6 ( none/6 )",
+        []
+      ],
+      [
+        "Haverhill , Massachusetts",
+        [
+          "/wiki/Haverhill,_Massachusetts"
+        ]
+      ]
+    ],
+    [
+      [
+        "ECAC Hockey",
+        [
+          "/wiki/ECAC_Hockey"
+        ]
+      ],
+      [
+        "ECAC",
+        []
+      ],
+      [
+        1962,
+        []
+      ],
+      [
+        "12 ( 12/12 )",
+        []
+      ],
+      [
+        "Albany , New York",
+        [
+          "/wiki/Albany,_New_York"
+        ]
+      ]
+    ],
+    [
+      [
+        "Hockey East",
+        [
+          "/wiki/Hockey_East"
+        ]
+      ],
+      [
+        "Hockey East HEA",
+        []
+      ],
+      [
+        1984,
+        []
+      ],
+      [
+        "12 ( 11/10 )",
+        []
+      ],
+      [
+        "Wakefield , Massachusetts",
+        [
+          "/wiki/Wakefield,_Massachusetts"
+        ]
+      ]
+    ],
+    [
+      [
+        "New England Women 's Hockey Alliance",
+        [
+          "/wiki/New_England_Women's_Hockey_Alliance"
+        ]
+      ],
+      [
+        "NEWHA",
+        []
+      ],
+      [
+        2018,
+        []
+      ],
+      [
+        "6 ( none/6 )",
+        []
+      ],
+      [
+        "Winthrop , Massachusetts",
+        [
+          "/wiki/Winthrop,_Massachusetts"
+        ]
+      ]
+    ],
+    [
+      [
+        "National Collegiate Hockey Conference",
+        [
+          "/wiki/National_Collegiate_Hockey_Conference"
+        ]
+      ],
+      [
+        "NCHC",
+        []
+      ],
+      [
+        2011,
+        []
+      ],
+      [
+        "8 ( 8/none )",
+        []
+      ],
+      [
+        "Colorado Springs , Colorado",
+        [
+          "/wiki/Colorado_Springs,_Colorado"
+        ]
+      ]
+    ],
+    [
+      [
+        "Western Collegiate Hockey Association",
+        [
+          "/wiki/Western_Collegiate_Hockey_Association"
+        ]
+      ],
+      [
+        "WCHA",
+        []
+      ],
+      [
+        1951,
+        []
+      ],
+      [
+        "15 ( 10/7 )",
+        []
+      ],
+      [
+        "Edina , Minnesota",
+        [
+          "/wiki/Edina,_Minnesota"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "6bdf46ee-ba1d-5971-928b-6134d3671495",
+    "table_id": "List_of_NCAA_conferences_3",
+    "title": "List of NCAA conferences",
+    "header": [
+      "Conference",
+      "Nickname",
+      "Founded",
+      "Members ( Men/Women )",
+      "Headquarters"
+    ],
+    "value": [
+      [
+        [
+          "Atlantic Hockey",
+          [
+            "/wiki/Atlantic_Hockey"
+          ]
+        ],
+        [
+          "Atlantic Hockey",
+          []
+        ],
+        [
+          1997,
+          []
+        ],
+        [
+          "11 ( 11/none )",
+          []
+        ],
+        [
+          "Haverhill , Massachusetts",
+          [
+            "/wiki/Haverhill,_Massachusetts"
+          ]
+        ]
+      ],
+      [
+        [
+          "College Hockey America",
+          [
+            "/wiki/College_Hockey_America"
+          ]
+        ],
+        [
+          "CHA",
+          []
+        ],
+        [
+          1999,
+          []
+        ],
+        [
+          "6 ( none/6 )",
+          []
+        ],
+        [
+          "Haverhill , Massachusetts",
+          [
+            "/wiki/Haverhill,_Massachusetts"
+          ]
+        ]
+      ],
+      [
+        [
+          "ECAC Hockey",
+          [
+            "/wiki/ECAC_Hockey"
+          ]
+        ],
+        [
+          "ECAC",
+          []
+        ],
+        [
+          1962,
+          []
+        ],
+        [
+          "12 ( 12/12 )",
+          []
+        ],
+        [
+          "Albany , New York",
+          [
+            "/wiki/Albany,_New_York"
+          ]
+        ]
+      ],
+      [
+        [
+          "Hockey East",
+          [
+            "/wiki/Hockey_East"
+          ]
+        ],
+        [
+          "Hockey East HEA",
+          []
+        ],
+        [
+          1984,
+          []
+        ],
+        [
+          "12 ( 11/10 )",
+          []
+        ],
+        [
+          "Wakefield , Massachusetts",
+          [
+            "/wiki/Wakefield,_Massachusetts"
+          ]
+        ]
+      ],
+      [
+        [
+          "New England Women 's Hockey Alliance",
+          [
+            "/wiki/New_England_Women's_Hockey_Alliance"
+          ]
+        ],
+        [
+          "NEWHA",
+          []
+        ],
+        [
+          2018,
+          []
+        ],
+        [
+          "6 ( none/6 )",
+          []
+        ],
+        [
+          "Winthrop , Massachusetts",
+          [
+            "/wiki/Winthrop,_Massachusetts"
+          ]
+        ]
+      ],
+      [
+        [
+          "National Collegiate Hockey Conference",
+          [
+            "/wiki/National_Collegiate_Hockey_Conference"
+          ]
+        ],
+        [
+          "NCHC",
+          []
+        ],
+        [
+          2011,
+          []
+        ],
+        [
+          "8 ( 8/none )",
+          []
+        ],
+        [
+          "Colorado Springs , Colorado",
+          [
+            "/wiki/Colorado_Springs,_Colorado"
+          ]
+        ]
+      ],
+      [
+        [
+          "Western Collegiate Hockey Association",
+          [
+            "/wiki/Western_Collegiate_Hockey_Association"
+          ]
+        ],
+        [
+          "WCHA",
+          []
+        ],
+        [
+          1951,
+          []
+        ],
+        [
+          "15 ( 10/7 )",
+          []
+        ],
+        [
+          "Edina , Minnesota",
+          [
+            "/wiki/Edina,_Minnesota"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about NCAA conferences, including their names, nicknames, founding years, membership composition, and headquarters locations. It is designed to summarize key details about these sports organizations for reference or analysis.",
+  "numeric_columns": [
+    "Founded"
+  ],
+  "categorical_columns": [
+    "Nickname",
+    "Members ( Men/Women )"
+  ],
+  "entities": [
+    "Conference",
+    "Headquarters"
+  ]
+}

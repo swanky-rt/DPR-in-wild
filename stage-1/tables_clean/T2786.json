@@ -1,0 +1,296 @@
+{
+  "table_id": "T2786",
+  "uid": "42de871a-8cda-53cc-8d83-9cb6365391fa",
+  "source": "HybridQA",
+  "source_table_id": "42de871a-8cda-53cc-8d83-9cb6365391fa",
+  "domain": "HybridQA",
+  "title": "List of association football clubs in the Republic of Ireland",
+  "columns": [
+    "Team",
+    "Home town/suburb",
+    "Ground"
+  ],
+  "rows": [
+    [
+      [
+        "Ashford Rovers",
+        []
+      ],
+      [
+        "Ashford , County Wicklow",
+        [
+          "/wiki/Ashford,_County_Wicklow"
+        ]
+      ],
+      [
+        "Ballinalea Park",
+        []
+      ]
+    ],
+    [
+      [
+        "Arklow Town",
+        [
+          "/wiki/Arklow_Town_F.C."
+        ]
+      ],
+      [
+        "Arklow",
+        [
+          "/wiki/Arklow"
+        ]
+      ],
+      [
+        "Bridgewater Centre Park",
+        []
+      ]
+    ],
+    [
+      [
+        "Newtown United",
+        []
+      ],
+      [
+        "Newtownmountkennedy",
+        [
+          "/wiki/Newtownmountkennedy"
+        ]
+      ],
+      [
+        "Newtown Community Sports Field",
+        []
+      ]
+    ],
+    [
+      [
+        "Rathnew A.F.C",
+        []
+      ],
+      [
+        "Rathnew",
+        [
+          "/wiki/Rathnew"
+        ]
+      ],
+      [
+        "Shamrock Park",
+        []
+      ]
+    ],
+    [
+      [
+        "St Anthonys",
+        []
+      ],
+      [
+        "Kilcoole",
+        [
+          "/wiki/Kilcoole"
+        ]
+      ],
+      [
+        "Finn Park",
+        []
+      ]
+    ],
+    [
+      [
+        "St Patricks F.C",
+        []
+      ],
+      [
+        "Arklow",
+        [
+          "/wiki/Arklow"
+        ]
+      ],
+      [
+        "Kilcashel",
+        []
+      ]
+    ],
+    [
+      [
+        "Seaview Wanderers",
+        []
+      ],
+      [
+        "Arklow",
+        [
+          "/wiki/Arklow"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Wicklow Town A.F.C",
+        []
+      ],
+      [
+        "Wicklow",
+        [
+          "/wiki/Wicklow"
+        ]
+      ],
+      [
+        "Finlay Park",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "42de871a-8cda-53cc-8d83-9cb6365391fa",
+    "table_id": "List_of_association_football_clubs_in_the_Republic_of_Ireland_20",
+    "title": "List of association football clubs in the Republic of Ireland",
+    "header": [
+      "Team",
+      "Home town/suburb",
+      "Ground"
+    ],
+    "value": [
+      [
+        [
+          "Ashford Rovers",
+          []
+        ],
+        [
+          "Ashford , County Wicklow",
+          [
+            "/wiki/Ashford,_County_Wicklow"
+          ]
+        ],
+        [
+          "Ballinalea Park",
+          []
+        ]
+      ],
+      [
+        [
+          "Arklow Town",
+          [
+            "/wiki/Arklow_Town_F.C."
+          ]
+        ],
+        [
+          "Arklow",
+          [
+            "/wiki/Arklow"
+          ]
+        ],
+        [
+          "Bridgewater Centre Park",
+          []
+        ]
+      ],
+      [
+        [
+          "Newtown United",
+          []
+        ],
+        [
+          "Newtownmountkennedy",
+          [
+            "/wiki/Newtownmountkennedy"
+          ]
+        ],
+        [
+          "Newtown Community Sports Field",
+          []
+        ]
+      ],
+      [
+        [
+          "Rathnew A.F.C",
+          []
+        ],
+        [
+          "Rathnew",
+          [
+            "/wiki/Rathnew"
+          ]
+        ],
+        [
+          "Shamrock Park",
+          []
+        ]
+      ],
+      [
+        [
+          "St Anthonys",
+          []
+        ],
+        [
+          "Kilcoole",
+          [
+            "/wiki/Kilcoole"
+          ]
+        ],
+        [
+          "Finn Park",
+          []
+        ]
+      ],
+      [
+        [
+          "St Patricks F.C",
+          []
+        ],
+        [
+          "Arklow",
+          [
+            "/wiki/Arklow"
+          ]
+        ],
+        [
+          "Kilcashel",
+          []
+        ]
+      ],
+      [
+        [
+          "Seaview Wanderers",
+          []
+        ],
+        [
+          "Arklow",
+          [
+            "/wiki/Arklow"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Wicklow Town A.F.C",
+          []
+        ],
+        [
+          "Wicklow",
+          [
+            "/wiki/Wicklow"
+          ]
+        ],
+        [
+          "Finlay Park",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a list of association football clubs in the Republic of Ireland, including details about their home locations and playing grounds. It serves as a reference for understanding the geographical and infrastructural aspects of these clubs.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Home town/suburb"
+  ],
+  "entities": [
+    "Team",
+    "Ground"
+  ]
+}

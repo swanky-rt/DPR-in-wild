@@ -1,0 +1,310 @@
+{
+  "table_id": "T2789",
+  "uid": "52d1464e-1c9e-5822-bf2e-12c5dd7f15d5",
+  "source": "HybridQA",
+  "source_table_id": "52d1464e-1c9e-5822-bf2e-12c5dd7f15d5",
+  "domain": "HybridQA",
+  "title": "List of association football clubs in the Republic of Ireland",
+  "columns": [
+    "Team",
+    "Home city/suburb",
+    "Court"
+  ],
+  "rows": [
+    [
+      [
+        "Academic Futsal",
+        []
+      ],
+      [
+        "Dublin",
+        [
+          "/wiki/Dublin"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "B & H United Futsal",
+        []
+      ],
+      [
+        "Dublin",
+        [
+          "/wiki/Dublin"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Blue Magic Futsal",
+        []
+      ],
+      [
+        "Clondalkin",
+        [
+          "/wiki/Clondalkin"
+        ]
+      ],
+      [
+        "Collinstown Park Community College",
+        [
+          "/wiki/Collinstown_Park_Community_College"
+        ]
+      ]
+    ],
+    [
+      [
+        "Crumlin United Futsal",
+        [
+          "/wiki/Crumlin_United_F.C."
+        ]
+      ],
+      [
+        "Crumlin , Dublin",
+        [
+          "/wiki/Crumlin,_Dublin"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Puskas & Hagi Futsal",
+        []
+      ],
+      [
+        "Dublin",
+        [
+          "/wiki/Dublin"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "St Ita 's Futsal",
+        []
+      ],
+      [
+        "Donabate / Portrane",
+        [
+          "/wiki/Donabate",
+          "/wiki/Portrane"
+        ]
+      ],
+      [
+        "Donabate and Portrane Community and Leisure Centre",
+        []
+      ]
+    ],
+    [
+      [
+        "Saints & Scholars Futsal",
+        []
+      ],
+      [
+        "Whitechurch , County Dublin",
+        [
+          "/wiki/Whitechurch,_County_Dublin"
+        ]
+      ],
+      [
+        "St Columba 's College",
+        [
+          "/wiki/St_Columba's_College,_Dublin"
+        ]
+      ]
+    ],
+    [
+      [
+        "Transylvania Futsal",
+        []
+      ],
+      [
+        "Blanchardstown",
+        [
+          "/wiki/Blanchardstown"
+        ]
+      ],
+      [
+        "IT Blanchardstown",
+        [
+          "/wiki/Institute_of_Technology,_Blanchardstown"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "52d1464e-1c9e-5822-bf2e-12c5dd7f15d5",
+    "table_id": "List_of_association_football_clubs_in_the_Republic_of_Ireland_25",
+    "title": "List of association football clubs in the Republic of Ireland",
+    "header": [
+      "Team",
+      "Home city/suburb",
+      "Court"
+    ],
+    "value": [
+      [
+        [
+          "Academic Futsal",
+          []
+        ],
+        [
+          "Dublin",
+          [
+            "/wiki/Dublin"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "B & H United Futsal",
+          []
+        ],
+        [
+          "Dublin",
+          [
+            "/wiki/Dublin"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Blue Magic Futsal",
+          []
+        ],
+        [
+          "Clondalkin",
+          [
+            "/wiki/Clondalkin"
+          ]
+        ],
+        [
+          "Collinstown Park Community College",
+          [
+            "/wiki/Collinstown_Park_Community_College"
+          ]
+        ]
+      ],
+      [
+        [
+          "Crumlin United Futsal",
+          [
+            "/wiki/Crumlin_United_F.C."
+          ]
+        ],
+        [
+          "Crumlin , Dublin",
+          [
+            "/wiki/Crumlin,_Dublin"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Puskas & Hagi Futsal",
+          []
+        ],
+        [
+          "Dublin",
+          [
+            "/wiki/Dublin"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "St Ita 's Futsal",
+          []
+        ],
+        [
+          "Donabate / Portrane",
+          [
+            "/wiki/Donabate",
+            "/wiki/Portrane"
+          ]
+        ],
+        [
+          "Donabate and Portrane Community and Leisure Centre",
+          []
+        ]
+      ],
+      [
+        [
+          "Saints & Scholars Futsal",
+          []
+        ],
+        [
+          "Whitechurch , County Dublin",
+          [
+            "/wiki/Whitechurch,_County_Dublin"
+          ]
+        ],
+        [
+          "St Columba 's College",
+          [
+            "/wiki/St_Columba's_College,_Dublin"
+          ]
+        ]
+      ],
+      [
+        [
+          "Transylvania Futsal",
+          []
+        ],
+        [
+          "Blanchardstown",
+          [
+            "/wiki/Blanchardstown"
+          ]
+        ],
+        [
+          "IT Blanchardstown",
+          [
+            "/wiki/Institute_of_Technology,_Blanchardstown"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table lists association football clubs in the Republic of Ireland, providing information about their names, locations, and associated courts. It serves as a reference for identifying clubs and their geographical or operational context. The table is structured to highlight key details about each club's identity and base of operations.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Court"
+  ],
+  "entities": [
+    "Team",
+    "Home city/suburb"
+  ]
+}

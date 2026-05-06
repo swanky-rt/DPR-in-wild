@@ -1,0 +1,312 @@
+{
+  "table_id": "T2251",
+  "uid": "adea928f-af17-541a-88a4-3a423b6dffa0",
+  "source": "HybridQA",
+  "source_table_id": "adea928f-af17-541a-88a4-3a423b6dffa0",
+  "domain": "HybridQA",
+  "title": "Ukrainian Men's Handball Super League",
+  "columns": [
+    "Team",
+    "City",
+    "Arena"
+  ],
+  "rows": [
+    [
+      [
+        "Motor Zaporizhia",
+        [
+          "/wiki/HC_Motor_Zaporozhye"
+        ]
+      ],
+      [
+        "Zaporizhia",
+        [
+          "/wiki/Zaporizhia"
+        ]
+      ],
+      [
+        "Yunost Sport Hall",
+        []
+      ]
+    ],
+    [
+      [
+        "ZTR Zaporizhia",
+        [
+          "/wiki/ZTR_Zaporizhia"
+        ]
+      ],
+      [
+        "Zaporizhia",
+        [
+          "/wiki/Zaporizhia"
+        ]
+      ],
+      [
+        "Palace of Sports ZTR",
+        []
+      ]
+    ],
+    [
+      [
+        "ZNTU-ZAB Zaporizhia",
+        [
+          "/wiki/HC_ZNTU-ZAB_Zaporozhye"
+        ]
+      ],
+      [
+        "Zaporizhia",
+        [
+          "/wiki/Zaporizhia"
+        ]
+      ],
+      [
+        "Palace of Sports ZAB",
+        []
+      ]
+    ],
+    [
+      [
+        "CSKA Kyiv",
+        [
+          "/wiki/CSKA_Kyiv_(handball)"
+        ]
+      ],
+      [
+        "Kiev",
+        [
+          "/wiki/Kiev"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Shakhtar-Academiya",
+        [
+          "/wiki/Shakhtar-Academiya"
+        ]
+      ],
+      [
+        "Donetsk",
+        [
+          "/wiki/Donetsk"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "NAEC Netishyn",
+        []
+      ],
+      [
+        "Netishyn",
+        [
+          "/wiki/Netishyn"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "ZTR Burevisnyk",
+        []
+      ],
+      [
+        "Zaporizhia",
+        [
+          "/wiki/Zaporizhia"
+        ]
+      ],
+      [
+        "Palace of Sports ZTR",
+        []
+      ]
+    ],
+    [
+      [
+        "Lviv Polytechnic",
+        []
+      ],
+      [
+        "Lviv",
+        [
+          "/wiki/Lviv"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "adea928f-af17-541a-88a4-3a423b6dffa0",
+    "table_id": "Ukrainian_Men's_Handball_Super_League_0",
+    "title": "Ukrainian Men's Handball Super League",
+    "header": [
+      "Team",
+      "City",
+      "Arena"
+    ],
+    "value": [
+      [
+        [
+          "Motor Zaporizhia",
+          [
+            "/wiki/HC_Motor_Zaporozhye"
+          ]
+        ],
+        [
+          "Zaporizhia",
+          [
+            "/wiki/Zaporizhia"
+          ]
+        ],
+        [
+          "Yunost Sport Hall",
+          []
+        ]
+      ],
+      [
+        [
+          "ZTR Zaporizhia",
+          [
+            "/wiki/ZTR_Zaporizhia"
+          ]
+        ],
+        [
+          "Zaporizhia",
+          [
+            "/wiki/Zaporizhia"
+          ]
+        ],
+        [
+          "Palace of Sports ZTR",
+          []
+        ]
+      ],
+      [
+        [
+          "ZNTU-ZAB Zaporizhia",
+          [
+            "/wiki/HC_ZNTU-ZAB_Zaporozhye"
+          ]
+        ],
+        [
+          "Zaporizhia",
+          [
+            "/wiki/Zaporizhia"
+          ]
+        ],
+        [
+          "Palace of Sports ZAB",
+          []
+        ]
+      ],
+      [
+        [
+          "CSKA Kyiv",
+          [
+            "/wiki/CSKA_Kyiv_(handball)"
+          ]
+        ],
+        [
+          "Kiev",
+          [
+            "/wiki/Kiev"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Shakhtar-Academiya",
+          [
+            "/wiki/Shakhtar-Academiya"
+          ]
+        ],
+        [
+          "Donetsk",
+          [
+            "/wiki/Donetsk"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "NAEC Netishyn",
+          []
+        ],
+        [
+          "Netishyn",
+          [
+            "/wiki/Netishyn"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "ZTR Burevisnyk",
+          []
+        ],
+        [
+          "Zaporizhia",
+          [
+            "/wiki/Zaporizhia"
+          ]
+        ],
+        [
+          "Palace of Sports ZTR",
+          []
+        ]
+      ],
+      [
+        [
+          "Lviv Polytechnic",
+          []
+        ],
+        [
+          "Lviv",
+          [
+            "/wiki/Lviv"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about teams in the Ukrainian Men's Handball Super League, including their associated cities and arenas. It serves as a reference for understanding the geographical and venue distribution of the league's teams.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "City",
+    "Arena"
+  ],
+  "entities": [
+    "Team"
+  ]
+}

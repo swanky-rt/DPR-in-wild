@@ -1,0 +1,325 @@
+{
+  "table_id": "T8532",
+  "uid": "ad841dbe-6813-5d67-b265-dbac4ea5e6cd",
+  "source": "HybridQA",
+  "source_table_id": "ad841dbe-6813-5d67-b265-dbac4ea5e6cd",
+  "domain": "HybridQA",
+  "title": "2013 French Road Cycling Cup",
+  "columns": [
+    "Pos",
+    "Team",
+    "Points"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "FDJ.fr",
+        [
+          "/wiki/Groupama–FDJ"
+        ]
+      ],
+      [
+        145,
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Cofidis",
+        [
+          "/wiki/Cofidis_(cycling_team)"
+        ]
+      ],
+      [
+        119,
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Bretagne-Séché Environnement",
+        [
+          "/wiki/Arkéa–Samsic"
+        ]
+      ],
+      [
+        114,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Ag2r-La Mondiale",
+        [
+          "/wiki/AG2R_La_Mondiale_(cycling_team)"
+        ]
+      ],
+      [
+        103,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Sojasun",
+        [
+          "/wiki/Sojasun_(cycling_team)"
+        ]
+      ],
+      [
+        101,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Team Europcar",
+        [
+          "/wiki/Total_Direct_Énergie_(cycling_team)"
+        ]
+      ],
+      [
+        94,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "La Pomme Marseille",
+        [
+          "/wiki/Nippo–Delko–One_Provence"
+        ]
+      ],
+      [
+        67,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "BigMat-Auber 93",
+        [
+          "/wiki/St._Michel–Auber93"
+        ]
+      ],
+      [
+        66,
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Roubaix-Lille Métropole",
+        [
+          "/wiki/Natura4Ever–Roubaix–Lille_Métropole"
+        ]
+      ],
+      [
+        64,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "ad841dbe-6813-5d67-b265-dbac4ea5e6cd",
+    "table_id": "2013_French_Road_Cycling_Cup_3",
+    "title": "2013 French Road Cycling Cup",
+    "header": [
+      "Pos",
+      "Team",
+      "Points"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "FDJ.fr",
+          [
+            "/wiki/Groupama–FDJ"
+          ]
+        ],
+        [
+          145,
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Cofidis",
+          [
+            "/wiki/Cofidis_(cycling_team)"
+          ]
+        ],
+        [
+          119,
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Bretagne-Séché Environnement",
+          [
+            "/wiki/Arkéa–Samsic"
+          ]
+        ],
+        [
+          114,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Ag2r-La Mondiale",
+          [
+            "/wiki/AG2R_La_Mondiale_(cycling_team)"
+          ]
+        ],
+        [
+          103,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Sojasun",
+          [
+            "/wiki/Sojasun_(cycling_team)"
+          ]
+        ],
+        [
+          101,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Team Europcar",
+          [
+            "/wiki/Total_Direct_Énergie_(cycling_team)"
+          ]
+        ],
+        [
+          94,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "La Pomme Marseille",
+          [
+            "/wiki/Nippo–Delko–One_Provence"
+          ]
+        ],
+        [
+          67,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "BigMat-Auber 93",
+          [
+            "/wiki/St._Michel–Auber93"
+          ]
+        ],
+        [
+          66,
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Roubaix-Lille Métropole",
+          [
+            "/wiki/Natura4Ever–Roubaix–Lille_Métropole"
+          ]
+        ],
+        [
+          64,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a ranking of teams in the 2013 French Road Cycling Cup based on their performance, represented by points. It is designed to summarize the standings and achievements of cycling teams in the competition. The table includes positional rankings, team names, and their respective points.",
+  "numeric_columns": [
+    "Points"
+  ],
+  "categorical_columns": [
+    "Pos"
+  ],
+  "entities": [
+    "Team"
+  ]
+}

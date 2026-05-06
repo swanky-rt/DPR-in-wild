@@ -1,0 +1,460 @@
+{
+  "table_id": "T6413",
+  "uid": "7346624b-1f72-5cf6-a900-d215dc28dee4",
+  "source": "HybridQA",
+  "source_table_id": "7346624b-1f72-5cf6-a900-d215dc28dee4",
+  "domain": "HybridQA",
+  "title": "Marine Security Guard",
+  "columns": [
+    "Region",
+    "Headquarters",
+    "Area of responsibility",
+    "Detachments"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Frankfurt , Germany",
+        [
+          "/wiki/Frankfurt_am_Main",
+          "/wiki/Germany"
+        ]
+      ],
+      [
+        "Eastern Europe and Eurasia",
+        [
+          "/wiki/Eastern_Europe",
+          "/wiki/Eurasia"
+        ]
+      ],
+      [
+        20,
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Abu Dhabi , United Arab Emirates",
+        [
+          "/wiki/Abu_Dhabi",
+          "/wiki/United_Arab_Emirates"
+        ]
+      ],
+      [
+        "South Asia and the Middle East",
+        [
+          "/wiki/South_Asia",
+          "/wiki/Middle_East"
+        ]
+      ],
+      [
+        20,
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Bangkok , Thailand",
+        [
+          "/wiki/Bangkok",
+          "/wiki/Thailand"
+        ]
+      ],
+      [
+        "East Asia and Pacific",
+        [
+          "/wiki/East_Asia",
+          "/wiki/Pacific"
+        ]
+      ],
+      [
+        23,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Fort Lauderdale , Florida",
+        [
+          "/wiki/Fort_Lauderdale,_Florida"
+        ]
+      ],
+      [
+        "South America",
+        [
+          "/wiki/South_America"
+        ]
+      ],
+      [
+        13,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Frankfurt , Germany",
+        []
+      ],
+      [
+        "Western Europe and Scandinavia",
+        [
+          "/wiki/Western_Europe",
+          "/wiki/Scandinavia"
+        ]
+      ],
+      [
+        20,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Johannesburg , South Africa",
+        [
+          "/wiki/Johannesburg",
+          "/wiki/South_Africa"
+        ]
+      ],
+      [
+        "East Africa and Southern Africa",
+        [
+          "/wiki/East_Africa",
+          "/wiki/Southern_Africa"
+        ]
+      ],
+      [
+        24,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Frankfurt , Germany",
+        [
+          "/wiki/Frankfurt",
+          "/wiki/Germany"
+        ]
+      ],
+      [
+        "North Africa and West Africa",
+        [
+          "/wiki/North_Africa",
+          "/wiki/West_Africa"
+        ]
+      ],
+      [
+        20,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Frankfurt , Germany",
+        [
+          "/wiki/Frankfurt",
+          "/wiki/Germany"
+        ]
+      ],
+      [
+        "Central Europe",
+        [
+          "/wiki/Central_Europe"
+        ]
+      ],
+      [
+        19,
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Fort Lauderdale , Florida",
+        [
+          "/wiki/Fort_Lauderdale",
+          "/wiki/Florida"
+        ]
+      ],
+      [
+        "North America and the Caribbean",
+        [
+          "/wiki/North_America",
+          "/wiki/Caribbean"
+        ]
+      ],
+      [
+        15,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "7346624b-1f72-5cf6-a900-d215dc28dee4",
+    "table_id": "Marine_Security_Guard_0",
+    "title": "Marine Security Guard",
+    "header": [
+      "Region",
+      "Headquarters",
+      "Area of responsibility",
+      "Detachments"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Frankfurt , Germany",
+          [
+            "/wiki/Frankfurt_am_Main",
+            "/wiki/Germany"
+          ]
+        ],
+        [
+          "Eastern Europe and Eurasia",
+          [
+            "/wiki/Eastern_Europe",
+            "/wiki/Eurasia"
+          ]
+        ],
+        [
+          20,
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Abu Dhabi , United Arab Emirates",
+          [
+            "/wiki/Abu_Dhabi",
+            "/wiki/United_Arab_Emirates"
+          ]
+        ],
+        [
+          "South Asia and the Middle East",
+          [
+            "/wiki/South_Asia",
+            "/wiki/Middle_East"
+          ]
+        ],
+        [
+          20,
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Bangkok , Thailand",
+          [
+            "/wiki/Bangkok",
+            "/wiki/Thailand"
+          ]
+        ],
+        [
+          "East Asia and Pacific",
+          [
+            "/wiki/East_Asia",
+            "/wiki/Pacific"
+          ]
+        ],
+        [
+          23,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Fort Lauderdale , Florida",
+          [
+            "/wiki/Fort_Lauderdale,_Florida"
+          ]
+        ],
+        [
+          "South America",
+          [
+            "/wiki/South_America"
+          ]
+        ],
+        [
+          13,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Frankfurt , Germany",
+          []
+        ],
+        [
+          "Western Europe and Scandinavia",
+          [
+            "/wiki/Western_Europe",
+            "/wiki/Scandinavia"
+          ]
+        ],
+        [
+          20,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Johannesburg , South Africa",
+          [
+            "/wiki/Johannesburg",
+            "/wiki/South_Africa"
+          ]
+        ],
+        [
+          "East Africa and Southern Africa",
+          [
+            "/wiki/East_Africa",
+            "/wiki/Southern_Africa"
+          ]
+        ],
+        [
+          24,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Frankfurt , Germany",
+          [
+            "/wiki/Frankfurt",
+            "/wiki/Germany"
+          ]
+        ],
+        [
+          "North Africa and West Africa",
+          [
+            "/wiki/North_Africa",
+            "/wiki/West_Africa"
+          ]
+        ],
+        [
+          20,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Frankfurt , Germany",
+          [
+            "/wiki/Frankfurt",
+            "/wiki/Germany"
+          ]
+        ],
+        [
+          "Central Europe",
+          [
+            "/wiki/Central_Europe"
+          ]
+        ],
+        [
+          19,
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Fort Lauderdale , Florida",
+          [
+            "/wiki/Fort_Lauderdale",
+            "/wiki/Florida"
+          ]
+        ],
+        [
+          "North America and the Caribbean",
+          [
+            "/wiki/North_America",
+            "/wiki/Caribbean"
+          ]
+        ],
+        [
+          15,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about Marine Security Guard regions, including their headquarters, areas of responsibility, and the number of detachments. It is likely used to organize or analyze the distribution and operational scope of these regions.",
+  "numeric_columns": [
+    "Detachments"
+  ],
+  "categorical_columns": [
+    "Region",
+    "Area of responsibility"
+  ],
+  "entities": [
+    "Headquarters"
+  ]
+}

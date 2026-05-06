@@ -1,0 +1,408 @@
+{
+  "table_id": "T754",
+  "uid": "90221414-0275-5ea8-b97c-c133cb5e7c2c",
+  "source": "HybridQA",
+  "source_table_id": "90221414-0275-5ea8-b97c-c133cb5e7c2c",
+  "domain": "HybridQA",
+  "title": "1953 College Baseball All-America Team",
+  "columns": [
+    "Position",
+    "Name",
+    "School"
+  ],
+  "rows": [
+    [
+      [
+        "Pitcher",
+        [
+          "/wiki/Pitcher"
+        ]
+      ],
+      [
+        "Paul Giel",
+        [
+          "/wiki/Paul_Giel"
+        ]
+      ],
+      [
+        "Minnesota",
+        [
+          "/wiki/Minnesota_Golden_Gophers_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Pitcher",
+        [
+          "/wiki/Pitcher"
+        ]
+      ],
+      [
+        "Warren Neuberger",
+        []
+      ],
+      [
+        "CCNY",
+        [
+          "/wiki/CCNY"
+        ]
+      ]
+    ],
+    [
+      [
+        "Catcher",
+        [
+          "/wiki/Catcher"
+        ]
+      ],
+      [
+        "John Shepard",
+        []
+      ],
+      [
+        "Stanford",
+        [
+          "/wiki/Stanford_Cardinal_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "First baseman",
+        [
+          "/wiki/First_baseman"
+        ]
+      ],
+      [
+        "Ed Simpson",
+        []
+      ],
+      [
+        "USC",
+        [
+          "/wiki/USC_Trojans_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Second baseman",
+        [
+          "/wiki/Second_baseman"
+        ]
+      ],
+      [
+        "Gene Sheets",
+        []
+      ],
+      [
+        "Oklahoma",
+        [
+          "/wiki/Oklahoma_Sooners_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Third baseman",
+        [
+          "/wiki/Third_baseman"
+        ]
+      ],
+      [
+        "B.B . Hopkins",
+        []
+      ],
+      [
+        "Tennessee",
+        [
+          "/wiki/Tennessee_Volunteers_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Shortstop",
+        [
+          "/wiki/Shortstop"
+        ]
+      ],
+      [
+        "Bruce Haynam",
+        [
+          "/wiki/Bruce_Haynam"
+        ]
+      ],
+      [
+        "Michigan",
+        [
+          "/wiki/Michigan_Wolverines_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Outfielder",
+        [
+          "/wiki/Outfielder"
+        ]
+      ],
+      [
+        "Fred Fleming",
+        []
+      ],
+      [
+        "Bowdoin",
+        [
+          "/wiki/Bowdoin_College"
+        ]
+      ]
+    ],
+    [
+      [
+        "Outfielder",
+        [
+          "/wiki/Outfielder"
+        ]
+      ],
+      [
+        "Richard Murphy",
+        []
+      ],
+      [
+        "Ohio",
+        [
+          "/wiki/Ohio_Bobcats"
+        ]
+      ]
+    ],
+    [
+      [
+        "Outfielder",
+        [
+          "/wiki/Outfielder"
+        ]
+      ],
+      [
+        "Mickey Sullivan",
+        [
+          "/wiki/Mickey_Sullivan"
+        ]
+      ],
+      [
+        "Baylor",
+        [
+          "/wiki/Baylor_Bears_baseball"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "90221414-0275-5ea8-b97c-c133cb5e7c2c",
+    "table_id": "1953_College_Baseball_All-America_Team_0",
+    "title": "1953 College Baseball All-America Team",
+    "header": [
+      "Position",
+      "Name",
+      "School"
+    ],
+    "value": [
+      [
+        [
+          "Pitcher",
+          [
+            "/wiki/Pitcher"
+          ]
+        ],
+        [
+          "Paul Giel",
+          [
+            "/wiki/Paul_Giel"
+          ]
+        ],
+        [
+          "Minnesota",
+          [
+            "/wiki/Minnesota_Golden_Gophers_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Pitcher",
+          [
+            "/wiki/Pitcher"
+          ]
+        ],
+        [
+          "Warren Neuberger",
+          []
+        ],
+        [
+          "CCNY",
+          [
+            "/wiki/CCNY"
+          ]
+        ]
+      ],
+      [
+        [
+          "Catcher",
+          [
+            "/wiki/Catcher"
+          ]
+        ],
+        [
+          "John Shepard",
+          []
+        ],
+        [
+          "Stanford",
+          [
+            "/wiki/Stanford_Cardinal_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "First baseman",
+          [
+            "/wiki/First_baseman"
+          ]
+        ],
+        [
+          "Ed Simpson",
+          []
+        ],
+        [
+          "USC",
+          [
+            "/wiki/USC_Trojans_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Second baseman",
+          [
+            "/wiki/Second_baseman"
+          ]
+        ],
+        [
+          "Gene Sheets",
+          []
+        ],
+        [
+          "Oklahoma",
+          [
+            "/wiki/Oklahoma_Sooners_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Third baseman",
+          [
+            "/wiki/Third_baseman"
+          ]
+        ],
+        [
+          "B.B . Hopkins",
+          []
+        ],
+        [
+          "Tennessee",
+          [
+            "/wiki/Tennessee_Volunteers_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Shortstop",
+          [
+            "/wiki/Shortstop"
+          ]
+        ],
+        [
+          "Bruce Haynam",
+          [
+            "/wiki/Bruce_Haynam"
+          ]
+        ],
+        [
+          "Michigan",
+          [
+            "/wiki/Michigan_Wolverines_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Outfielder",
+          [
+            "/wiki/Outfielder"
+          ]
+        ],
+        [
+          "Fred Fleming",
+          []
+        ],
+        [
+          "Bowdoin",
+          [
+            "/wiki/Bowdoin_College"
+          ]
+        ]
+      ],
+      [
+        [
+          "Outfielder",
+          [
+            "/wiki/Outfielder"
+          ]
+        ],
+        [
+          "Richard Murphy",
+          []
+        ],
+        [
+          "Ohio",
+          [
+            "/wiki/Ohio_Bobcats"
+          ]
+        ]
+      ],
+      [
+        [
+          "Outfielder",
+          [
+            "/wiki/Outfielder"
+          ]
+        ],
+        [
+          "Mickey Sullivan",
+          [
+            "/wiki/Mickey_Sullivan"
+          ]
+        ],
+        [
+          "Baylor",
+          [
+            "/wiki/Baylor_Bears_baseball"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table represents the 1953 College Baseball All-America Team, listing players recognized for their exceptional performance in college baseball during that year. It includes information about their playing position, names, and the schools they represented. The table serves as a historical record of distinguished athletes in collegiate baseball.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Position",
+    "School"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

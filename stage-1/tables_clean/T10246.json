@@ -1,0 +1,293 @@
+{
+  "table_id": "T10246",
+  "uid": "b7b58e86-7e93-5ec9-972c-3d29ce01a142",
+  "source": "HybridQA",
+  "source_table_id": "b7b58e86-7e93-5ec9-972c-3d29ce01a142",
+  "domain": "HybridQA",
+  "title": "2003 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Fan Ye ( CHN )",
+        [
+          "/wiki/Fan_Ye_(gymnast)"
+        ]
+      ],
+      [
+        9.812,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Cătălina Ponor ( ROU )",
+        [
+          "/wiki/Cătălina_Ponor"
+        ]
+      ],
+      [
+        9.587,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Ludmila Ezhova ( RUS )",
+        [
+          "/wiki/Ludmila_Ezhova"
+        ]
+      ],
+      [
+        9.55,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Li Ya ( CHN )",
+        [
+          "/wiki/Li_Ya"
+        ]
+      ],
+      [
+        9.45,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Elena Gómez ( ESP )",
+        [
+          "/wiki/Elena_Gómez"
+        ]
+      ],
+      [
+        8.887,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Chellsie Memmel ( USA )",
+        [
+          "/wiki/Chellsie_Memmel"
+        ]
+      ],
+      [
+        8.837,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Irina Krasnyanska ( UKR )",
+        [
+          "/wiki/Irina_Krasnyanska"
+        ]
+      ],
+      [
+        8.55,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Monette Russo ( AUS )",
+        [
+          "/wiki/Monette_Russo"
+        ]
+      ],
+      [
+        8.537,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "b7b58e86-7e93-5ec9-972c-3d29ce01a142",
+    "table_id": "2003_World_Artistic_Gymnastics_Championships_10",
+    "title": "2003 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Fan Ye ( CHN )",
+          [
+            "/wiki/Fan_Ye_(gymnast)"
+          ]
+        ],
+        [
+          9.812,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Cătălina Ponor ( ROU )",
+          [
+            "/wiki/Cătălina_Ponor"
+          ]
+        ],
+        [
+          9.587,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Ludmila Ezhova ( RUS )",
+          [
+            "/wiki/Ludmila_Ezhova"
+          ]
+        ],
+        [
+          9.55,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Li Ya ( CHN )",
+          [
+            "/wiki/Li_Ya"
+          ]
+        ],
+        [
+          9.45,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Elena Gómez ( ESP )",
+          [
+            "/wiki/Elena_Gómez"
+          ]
+        ],
+        [
+          8.887,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Chellsie Memmel ( USA )",
+          [
+            "/wiki/Chellsie_Memmel"
+          ]
+        ],
+        [
+          8.837,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Irina Krasnyanska ( UKR )",
+          [
+            "/wiki/Irina_Krasnyanska"
+          ]
+        ],
+        [
+          8.55,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Monette Russo ( AUS )",
+          [
+            "/wiki/Monette_Russo"
+          ]
+        ],
+        [
+          8.537,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the rankings and scores of gymnasts at the 2003 World Artistic Gymnastics Championships. It includes details on the rank, name of the gymnast, and their total score. The table is designed to summarize performance outcomes in the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "table_id": "T610",
+  "uid": "b77f5421-3cad-5b67-8572-aa1bd708e0bb",
+  "source": "HybridQA",
+  "source_table_id": "b77f5421-3cad-5b67-8572-aa1bd708e0bb",
+  "domain": "HybridQA",
+  "title": "1969 College Baseball All-America Team",
+  "columns": [
+    "Position",
+    "Name",
+    "School"
+  ],
+  "rows": [
+    [
+      [
+        "Pitcher",
+        [
+          "/wiki/Pitcher"
+        ]
+      ],
+      [
+        "Burt Hooton ♦",
+        [
+          "/wiki/Burt_Hooton"
+        ]
+      ],
+      [
+        "Texas",
+        [
+          "/wiki/Texas_Longhorns_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Pitcher",
+        [
+          "/wiki/Pitcher"
+        ]
+      ],
+      [
+        "Larry Gura",
+        [
+          "/wiki/Larry_Gura"
+        ]
+      ],
+      [
+        "Arizona State",
+        [
+          "/wiki/Arizona_State_Sun_Devils_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Catcher",
+        [
+          "/wiki/Catcher"
+        ]
+      ],
+      [
+        "Bob Williams",
+        []
+      ],
+      [
+        "Washington State",
+        [
+          "/wiki/Washington_State_Cougars"
+        ]
+      ]
+    ],
+    [
+      [
+        "First baseman",
+        [
+          "/wiki/First_baseman"
+        ]
+      ],
+      [
+        "Mike Walseth",
+        []
+      ],
+      [
+        "Minnesota",
+        [
+          "/wiki/Minnesota_Golden_Gophers_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Second baseman",
+        [
+          "/wiki/Second_baseman"
+        ]
+      ],
+      [
+        "Dick Gold ( 2 )",
+        []
+      ],
+      [
+        "Florida State",
+        [
+          "/wiki/Florida_State_Seminoles_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Third baseman",
+        [
+          "/wiki/Third_baseman"
+        ]
+      ],
+      [
+        "Les Rogers",
+        []
+      ],
+      [
+        "Tulsa",
+        [
+          "/wiki/Tulsa_Golden_Hurricane"
+        ]
+      ]
+    ],
+    [
+      [
+        "Shortstop",
+        [
+          "/wiki/Shortstop"
+        ]
+      ],
+      [
+        "Bill Stein",
+        [
+          "/wiki/Bill_Stein"
+        ]
+      ],
+      [
+        "Southern Illinois",
+        [
+          "/wiki/Southern_Illinois_Salukis"
+        ]
+      ]
+    ],
+    [
+      [
+        "Outfielder",
+        [
+          "/wiki/Outfielder"
+        ]
+      ],
+      [
+        "Larry Pyle",
+        []
+      ],
+      [
+        "Miami",
+        [
+          "/wiki/Miami_Hurricanes_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Outfielder",
+        [
+          "/wiki/Outfielder"
+        ]
+      ],
+      [
+        "Paul Powell",
+        [
+          "/wiki/Paul_Powell_(baseball)"
+        ]
+      ],
+      [
+        "Arizona State",
+        [
+          "/wiki/Arizona_State_Sun_Devils_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Outfielder",
+        [
+          "/wiki/Outfielder"
+        ]
+      ],
+      [
+        "Bob Long",
+        [
+          "/wiki/Bob_Long_(baseball)"
+        ]
+      ],
+      [
+        "Texas A & M",
+        [
+          "/wiki/Texas_A&M_Aggies_baseball"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "b77f5421-3cad-5b67-8572-aa1bd708e0bb",
+    "table_id": "1969_College_Baseball_All-America_Team_0",
+    "title": "1969 College Baseball All-America Team",
+    "header": [
+      "Position",
+      "Name",
+      "School"
+    ],
+    "value": [
+      [
+        [
+          "Pitcher",
+          [
+            "/wiki/Pitcher"
+          ]
+        ],
+        [
+          "Burt Hooton ♦",
+          [
+            "/wiki/Burt_Hooton"
+          ]
+        ],
+        [
+          "Texas",
+          [
+            "/wiki/Texas_Longhorns_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Pitcher",
+          [
+            "/wiki/Pitcher"
+          ]
+        ],
+        [
+          "Larry Gura",
+          [
+            "/wiki/Larry_Gura"
+          ]
+        ],
+        [
+          "Arizona State",
+          [
+            "/wiki/Arizona_State_Sun_Devils_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Catcher",
+          [
+            "/wiki/Catcher"
+          ]
+        ],
+        [
+          "Bob Williams",
+          []
+        ],
+        [
+          "Washington State",
+          [
+            "/wiki/Washington_State_Cougars"
+          ]
+        ]
+      ],
+      [
+        [
+          "First baseman",
+          [
+            "/wiki/First_baseman"
+          ]
+        ],
+        [
+          "Mike Walseth",
+          []
+        ],
+        [
+          "Minnesota",
+          [
+            "/wiki/Minnesota_Golden_Gophers_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Second baseman",
+          [
+            "/wiki/Second_baseman"
+          ]
+        ],
+        [
+          "Dick Gold ( 2 )",
+          []
+        ],
+        [
+          "Florida State",
+          [
+            "/wiki/Florida_State_Seminoles_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Third baseman",
+          [
+            "/wiki/Third_baseman"
+          ]
+        ],
+        [
+          "Les Rogers",
+          []
+        ],
+        [
+          "Tulsa",
+          [
+            "/wiki/Tulsa_Golden_Hurricane"
+          ]
+        ]
+      ],
+      [
+        [
+          "Shortstop",
+          [
+            "/wiki/Shortstop"
+          ]
+        ],
+        [
+          "Bill Stein",
+          [
+            "/wiki/Bill_Stein"
+          ]
+        ],
+        [
+          "Southern Illinois",
+          [
+            "/wiki/Southern_Illinois_Salukis"
+          ]
+        ]
+      ],
+      [
+        [
+          "Outfielder",
+          [
+            "/wiki/Outfielder"
+          ]
+        ],
+        [
+          "Larry Pyle",
+          []
+        ],
+        [
+          "Miami",
+          [
+            "/wiki/Miami_Hurricanes_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Outfielder",
+          [
+            "/wiki/Outfielder"
+          ]
+        ],
+        [
+          "Paul Powell",
+          [
+            "/wiki/Paul_Powell_(baseball)"
+          ]
+        ],
+        [
+          "Arizona State",
+          [
+            "/wiki/Arizona_State_Sun_Devils_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Outfielder",
+          [
+            "/wiki/Outfielder"
+          ]
+        ],
+        [
+          "Bob Long",
+          [
+            "/wiki/Bob_Long_(baseball)"
+          ]
+        ],
+        [
+          "Texas A & M",
+          [
+            "/wiki/Texas_A&M_Aggies_baseball"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table lists members of the 1969 College Baseball All-America Team, highlighting their positions, names, and associated schools. It serves as a record of outstanding college baseball players from that year, categorized by their roles on the team and their affiliations. The table is intended to provide recognition and historical documentation of these athletes and their contributions to college baseball.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Position",
+    "School"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

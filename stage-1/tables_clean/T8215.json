@@ -1,0 +1,602 @@
+{
+  "table_id": "T8215",
+  "uid": "2e71ddd4-2ece-5d36-9d8c-b4ac25302fdd",
+  "source": "HybridQA",
+  "source_table_id": "2e71ddd4-2ece-5d36-9d8c-b4ac25302fdd",
+  "domain": "HybridQA",
+  "title": "1927 British Lions tour to Argentina",
+  "columns": [
+    "#",
+    "Date",
+    "Rival",
+    "City",
+    "Venue",
+    "Score"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "24 Jul",
+        []
+      ],
+      [
+        "Anglo-Argentinos",
+        []
+      ],
+      [
+        "Hurlingham",
+        [
+          "/wiki/Hurlingham,_Buenos_Aires"
+        ]
+      ],
+      [
+        "Hurlingham Club",
+        [
+          "/wiki/Hurlingham_Club_(Argentina)"
+        ]
+      ],
+      [
+        "27-0",
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "27 Jul",
+        []
+      ],
+      [
+        "San Isidro",
+        [
+          "/wiki/Club_Atlético_San_Isidro"
+        ]
+      ],
+      [
+        "Buenos Aires",
+        [
+          "/wiki/Buenos_Aires"
+        ]
+      ],
+      [
+        "Belgrano A.C",
+        []
+      ],
+      [
+        "14-0",
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "31 Jul",
+        []
+      ],
+      [
+        "Argentina",
+        [
+          "/wiki/Argentina_national_rugby_union_team"
+        ]
+      ],
+      [
+        "Buenos Aires",
+        [
+          "/wiki/Buenos_Aires"
+        ]
+      ],
+      [
+        "Gimnasia y Esgrima",
+        [
+          "/wiki/Estadio_G.E.B.A."
+        ]
+      ],
+      [
+        "37-0",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "3 Aug",
+        []
+      ],
+      [
+        "GEBA / CUBA Combined",
+        [
+          "/wiki/Gimnasia_y_Esgrima_de_Buenos_Aires",
+          "/wiki/Club_Universitario_de_Buenos_Aires"
+        ]
+      ],
+      [
+        "Rosario",
+        [
+          "/wiki/Rosario,_Santa_Fe"
+        ]
+      ],
+      [
+        "Plaza Jewell",
+        [
+          "/wiki/Plaza_Jewell"
+        ]
+      ],
+      [
+        "24-0",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "7 Aug",
+        []
+      ],
+      [
+        "Argentina",
+        [
+          "/wiki/Argentina_national_rugby_union_team"
+        ]
+      ],
+      [
+        "Buenos Aires",
+        [
+          "/wiki/Buenos_Aires"
+        ]
+      ],
+      [
+        "Gimnasia y Esgrima",
+        [
+          "/wiki/Estadio_G.E.B.A."
+        ]
+      ],
+      [
+        "46-0",
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "10 Aug",
+        []
+      ],
+      [
+        "BAC / BAFC Combined",
+        [
+          "/wiki/Belgrano_Athletic_Club",
+          "/wiki/Buenos_Aires_Football_Club_(1886)"
+        ]
+      ],
+      [
+        "Buenos Aires",
+        [
+          "/wiki/Buenos_Aires"
+        ]
+      ],
+      [
+        "Belgrano A.C",
+        []
+      ],
+      [
+        "44-3",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "14 Aug",
+        []
+      ],
+      [
+        "Argentina",
+        [
+          "/wiki/Argentina_national_rugby_union_team"
+        ]
+      ],
+      [
+        "?",
+        []
+      ],
+      [
+        "?",
+        []
+      ],
+      [
+        "34-3",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "15 Aug",
+        []
+      ],
+      [
+        "Combinado de Clubes",
+        []
+      ],
+      [
+        "Buenos Aires",
+        [
+          "/wiki/Buenos_Aires"
+        ]
+      ],
+      [
+        "Gimnasia y Esgrima",
+        [
+          "/wiki/Estadio_G.E.B.A."
+        ]
+      ],
+      [
+        "29-3",
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "21 Aug",
+        []
+      ],
+      [
+        "Argentina",
+        [
+          "/wiki/Argentina_national_rugby_union_team"
+        ]
+      ],
+      [
+        "Buenos Aires",
+        [
+          "/wiki/Buenos_Aires"
+        ]
+      ],
+      [
+        "Gimnasia y Esgrima",
+        [
+          "/wiki/Estadio_G.E.B.A."
+        ]
+      ],
+      [
+        "43-0",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "2e71ddd4-2ece-5d36-9d8c-b4ac25302fdd",
+    "table_id": "1927_British_Lions_tour_to_Argentina_1",
+    "title": "1927 British Lions tour to Argentina",
+    "header": [
+      "#",
+      "Date",
+      "Rival",
+      "City",
+      "Venue",
+      "Score"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "24 Jul",
+          []
+        ],
+        [
+          "Anglo-Argentinos",
+          []
+        ],
+        [
+          "Hurlingham",
+          [
+            "/wiki/Hurlingham,_Buenos_Aires"
+          ]
+        ],
+        [
+          "Hurlingham Club",
+          [
+            "/wiki/Hurlingham_Club_(Argentina)"
+          ]
+        ],
+        [
+          "27-0",
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "27 Jul",
+          []
+        ],
+        [
+          "San Isidro",
+          [
+            "/wiki/Club_Atlético_San_Isidro"
+          ]
+        ],
+        [
+          "Buenos Aires",
+          [
+            "/wiki/Buenos_Aires"
+          ]
+        ],
+        [
+          "Belgrano A.C",
+          []
+        ],
+        [
+          "14-0",
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "31 Jul",
+          []
+        ],
+        [
+          "Argentina",
+          [
+            "/wiki/Argentina_national_rugby_union_team"
+          ]
+        ],
+        [
+          "Buenos Aires",
+          [
+            "/wiki/Buenos_Aires"
+          ]
+        ],
+        [
+          "Gimnasia y Esgrima",
+          [
+            "/wiki/Estadio_G.E.B.A."
+          ]
+        ],
+        [
+          "37-0",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "3 Aug",
+          []
+        ],
+        [
+          "GEBA / CUBA Combined",
+          [
+            "/wiki/Gimnasia_y_Esgrima_de_Buenos_Aires",
+            "/wiki/Club_Universitario_de_Buenos_Aires"
+          ]
+        ],
+        [
+          "Rosario",
+          [
+            "/wiki/Rosario,_Santa_Fe"
+          ]
+        ],
+        [
+          "Plaza Jewell",
+          [
+            "/wiki/Plaza_Jewell"
+          ]
+        ],
+        [
+          "24-0",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "7 Aug",
+          []
+        ],
+        [
+          "Argentina",
+          [
+            "/wiki/Argentina_national_rugby_union_team"
+          ]
+        ],
+        [
+          "Buenos Aires",
+          [
+            "/wiki/Buenos_Aires"
+          ]
+        ],
+        [
+          "Gimnasia y Esgrima",
+          [
+            "/wiki/Estadio_G.E.B.A."
+          ]
+        ],
+        [
+          "46-0",
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "10 Aug",
+          []
+        ],
+        [
+          "BAC / BAFC Combined",
+          [
+            "/wiki/Belgrano_Athletic_Club",
+            "/wiki/Buenos_Aires_Football_Club_(1886)"
+          ]
+        ],
+        [
+          "Buenos Aires",
+          [
+            "/wiki/Buenos_Aires"
+          ]
+        ],
+        [
+          "Belgrano A.C",
+          []
+        ],
+        [
+          "44-3",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "14 Aug",
+          []
+        ],
+        [
+          "Argentina",
+          [
+            "/wiki/Argentina_national_rugby_union_team"
+          ]
+        ],
+        [
+          "?",
+          []
+        ],
+        [
+          "?",
+          []
+        ],
+        [
+          "34-3",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "15 Aug",
+          []
+        ],
+        [
+          "Combinado de Clubes",
+          []
+        ],
+        [
+          "Buenos Aires",
+          [
+            "/wiki/Buenos_Aires"
+          ]
+        ],
+        [
+          "Gimnasia y Esgrima",
+          [
+            "/wiki/Estadio_G.E.B.A."
+          ]
+        ],
+        [
+          "29-3",
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "21 Aug",
+          []
+        ],
+        [
+          "Argentina",
+          [
+            "/wiki/Argentina_national_rugby_union_team"
+          ]
+        ],
+        [
+          "Buenos Aires",
+          [
+            "/wiki/Buenos_Aires"
+          ]
+        ],
+        [
+          "Gimnasia y Esgrima",
+          [
+            "/wiki/Estadio_G.E.B.A."
+          ]
+        ],
+        [
+          "43-0",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of the matches played during the 1927 British Lions rugby tour to Argentina. It includes details such as match dates, opponents, locations, venues, and scores, summarizing the outcomes and context of the tour. The table is useful for understanding the structure and results of the tour events.",
+  "numeric_columns": [
+    "#",
+    "Score"
+  ],
+  "categorical_columns": [
+    "Date",
+    "Rival"
+  ],
+  "entities": [
+    "City",
+    "Venue"
+  ]
+}

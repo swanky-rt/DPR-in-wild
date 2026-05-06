@@ -1,0 +1,559 @@
+{
+  "table_id": "T1087",
+  "uid": "3761a671-6f09-5340-be31-0922d4f2f103",
+  "source": "HybridQA",
+  "source_table_id": "3761a671-6f09-5340-be31-0922d4f2f103",
+  "domain": "HybridQA",
+  "title": "List of football stadiums in Bolivia",
+  "columns": [
+    "#",
+    "Stadium",
+    "Capacity",
+    "City",
+    "Home team"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Estadio Hernando Siles",
+        [
+          "/wiki/Estadio_Hernando_Siles"
+        ]
+      ],
+      [
+        "41,143",
+        []
+      ],
+      [
+        "La Paz",
+        [
+          "/wiki/La_Paz"
+        ]
+      ],
+      [
+        "Bolivia , Club Bolivar , The Strongest",
+        [
+          "/wiki/Bolivia_national_football_team",
+          "/wiki/Club_Bolivar",
+          "/wiki/The_Strongest"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Estadio Ramón Tahuichi Aguilera",
+        [
+          "/wiki/Estadio_Ramón_Tahuichi_Aguilera"
+        ]
+      ],
+      [
+        "35,000",
+        []
+      ],
+      [
+        "Santa Cruz de la Sierra",
+        [
+          "/wiki/Santa_Cruz_de_la_Sierra"
+        ]
+      ],
+      [
+        "Oriente Petrolero , Club Blooming , Club Destroyers",
+        [
+          "/wiki/Oriente_Petrolero",
+          "/wiki/Club_Blooming",
+          "/wiki/Club_Destroyers"
+        ]
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Estadio Jesús Bermúdez",
+        [
+          "/wiki/Estadio_Jesús_Bermúdez"
+        ]
+      ],
+      [
+        "33,795",
+        []
+      ],
+      [
+        "Oruro",
+        [
+          "/wiki/Oruro,_Bolivia"
+        ]
+      ],
+      [
+        "Club San José",
+        [
+          "/wiki/Club_San_José"
+        ]
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Estadio Víctor Agustín Ugarte",
+        [
+          "/wiki/Estadio_Víctor_Agustín_Ugarte"
+        ]
+      ],
+      [
+        "32,105",
+        []
+      ],
+      [
+        "Potosí",
+        [
+          "/wiki/Potosí"
+        ]
+      ],
+      [
+        "Real Potosí , Nacional Potosí",
+        [
+          "/wiki/Real_Potosí",
+          "/wiki/Nacional_Potosí"
+        ]
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Estadio Felix Capriles",
+        [
+          "/wiki/Estadio_Felix_Capriles"
+        ]
+      ],
+      [
+        "32,000",
+        []
+      ],
+      [
+        "Cochabamba",
+        [
+          "/wiki/Cochabamba"
+        ]
+      ],
+      [
+        "Club Jorge Wilstermann , Aurora FC",
+        [
+          "/wiki/Club_Jorge_Wilstermann",
+          "/wiki/Aurora_FC"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Estadio Olímpico Patria",
+        [
+          "/wiki/Estadio_Olímpico_Patria"
+        ]
+      ],
+      [
+        "30,700",
+        []
+      ],
+      [
+        "Sucre",
+        [
+          "/wiki/Sucre"
+        ]
+      ],
+      [
+        "Club Universitario",
+        [
+          "/wiki/Club_Universitario"
+        ]
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Estadio IV Centenario",
+        [
+          "/wiki/Estadio_IV_Centenario"
+        ]
+      ],
+      [
+        "15,000",
+        []
+      ],
+      [
+        "Tarija , Bolivia",
+        [
+          "/wiki/Tarija,_Bolivia"
+        ]
+      ],
+      [
+        "Club Atlético Ciclón",
+        [
+          "/wiki/Club_Atlético_Ciclón"
+        ]
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Estadio Gilberto Parada",
+        [
+          "/wiki/Estadio_Gilberto_Parada"
+        ]
+      ],
+      [
+        "13,000",
+        []
+      ],
+      [
+        "Montero",
+        [
+          "/wiki/Montero"
+        ]
+      ],
+      [
+        "Guabirá",
+        [
+          "/wiki/Guabirá"
+        ]
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Estadio Gran Mamoré",
+        [
+          "/wiki/Estadio_Gran_Mamoré"
+        ]
+      ],
+      [
+        "12,000",
+        []
+      ],
+      [
+        "Trinidad",
+        [
+          "/wiki/Trinidad,_Bolivia"
+        ]
+      ],
+      [
+        "Municipal Real Mamoré",
+        [
+          "/wiki/Municipal_Real_Mamoré"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "3761a671-6f09-5340-be31-0922d4f2f103",
+    "table_id": "List_of_football_stadiums_in_Bolivia_0",
+    "title": "List of football stadiums in Bolivia",
+    "header": [
+      "#",
+      "Stadium",
+      "Capacity",
+      "City",
+      "Home team"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Estadio Hernando Siles",
+          [
+            "/wiki/Estadio_Hernando_Siles"
+          ]
+        ],
+        [
+          "41,143",
+          []
+        ],
+        [
+          "La Paz",
+          [
+            "/wiki/La_Paz"
+          ]
+        ],
+        [
+          "Bolivia , Club Bolivar , The Strongest",
+          [
+            "/wiki/Bolivia_national_football_team",
+            "/wiki/Club_Bolivar",
+            "/wiki/The_Strongest"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Estadio Ramón Tahuichi Aguilera",
+          [
+            "/wiki/Estadio_Ramón_Tahuichi_Aguilera"
+          ]
+        ],
+        [
+          "35,000",
+          []
+        ],
+        [
+          "Santa Cruz de la Sierra",
+          [
+            "/wiki/Santa_Cruz_de_la_Sierra"
+          ]
+        ],
+        [
+          "Oriente Petrolero , Club Blooming , Club Destroyers",
+          [
+            "/wiki/Oriente_Petrolero",
+            "/wiki/Club_Blooming",
+            "/wiki/Club_Destroyers"
+          ]
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Estadio Jesús Bermúdez",
+          [
+            "/wiki/Estadio_Jesús_Bermúdez"
+          ]
+        ],
+        [
+          "33,795",
+          []
+        ],
+        [
+          "Oruro",
+          [
+            "/wiki/Oruro,_Bolivia"
+          ]
+        ],
+        [
+          "Club San José",
+          [
+            "/wiki/Club_San_José"
+          ]
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Estadio Víctor Agustín Ugarte",
+          [
+            "/wiki/Estadio_Víctor_Agustín_Ugarte"
+          ]
+        ],
+        [
+          "32,105",
+          []
+        ],
+        [
+          "Potosí",
+          [
+            "/wiki/Potosí"
+          ]
+        ],
+        [
+          "Real Potosí , Nacional Potosí",
+          [
+            "/wiki/Real_Potosí",
+            "/wiki/Nacional_Potosí"
+          ]
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Estadio Felix Capriles",
+          [
+            "/wiki/Estadio_Felix_Capriles"
+          ]
+        ],
+        [
+          "32,000",
+          []
+        ],
+        [
+          "Cochabamba",
+          [
+            "/wiki/Cochabamba"
+          ]
+        ],
+        [
+          "Club Jorge Wilstermann , Aurora FC",
+          [
+            "/wiki/Club_Jorge_Wilstermann",
+            "/wiki/Aurora_FC"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Estadio Olímpico Patria",
+          [
+            "/wiki/Estadio_Olímpico_Patria"
+          ]
+        ],
+        [
+          "30,700",
+          []
+        ],
+        [
+          "Sucre",
+          [
+            "/wiki/Sucre"
+          ]
+        ],
+        [
+          "Club Universitario",
+          [
+            "/wiki/Club_Universitario"
+          ]
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Estadio IV Centenario",
+          [
+            "/wiki/Estadio_IV_Centenario"
+          ]
+        ],
+        [
+          "15,000",
+          []
+        ],
+        [
+          "Tarija , Bolivia",
+          [
+            "/wiki/Tarija,_Bolivia"
+          ]
+        ],
+        [
+          "Club Atlético Ciclón",
+          [
+            "/wiki/Club_Atlético_Ciclón"
+          ]
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Estadio Gilberto Parada",
+          [
+            "/wiki/Estadio_Gilberto_Parada"
+          ]
+        ],
+        [
+          "13,000",
+          []
+        ],
+        [
+          "Montero",
+          [
+            "/wiki/Montero"
+          ]
+        ],
+        [
+          "Guabirá",
+          [
+            "/wiki/Guabirá"
+          ]
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Estadio Gran Mamoré",
+          [
+            "/wiki/Estadio_Gran_Mamoré"
+          ]
+        ],
+        [
+          "12,000",
+          []
+        ],
+        [
+          "Trinidad",
+          [
+            "/wiki/Trinidad,_Bolivia"
+          ]
+        ],
+        [
+          "Municipal Real Mamoré",
+          [
+            "/wiki/Municipal_Real_Mamoré"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a list of football stadiums in Bolivia, detailing their names, capacities, locations, and associated home teams. It serves as a reference for understanding the major football venues in the country and their affiliations with specific teams or cities.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "#"
+  ],
+  "entities": [
+    "Stadium",
+    "City",
+    "Home team"
+  ]
+}

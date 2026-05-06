@@ -1,0 +1,539 @@
+{
+  "table_id": "T8360",
+  "uid": "b621f09e-8cac-5d9c-aeb3-954f67855a0d",
+  "source": "HybridQA",
+  "source_table_id": "b621f09e-8cac-5d9c-aeb3-954f67855a0d",
+  "domain": "HybridQA",
+  "title": "NHL All-Star Skills Competition",
+  "columns": [
+    "Season",
+    "Team",
+    "Player"
+  ],
+  "rows": [
+    [
+      [
+        1991,
+        [
+          "/wiki/1990–91_NHL_season"
+        ]
+      ],
+      [
+        "Campbell Conference",
+        [
+          "/wiki/Campbell_Conference"
+        ]
+      ],
+      [
+        "Mike Vernon",
+        [
+          "/wiki/Mike_Vernon_(ice_hockey)"
+        ]
+      ]
+    ],
+    [
+      [
+        1992,
+        [
+          "/wiki/1991–92_NHL_season"
+        ]
+      ],
+      [
+        "Wales Conference",
+        [
+          "/wiki/Wales_Conference"
+        ]
+      ],
+      [
+        "Mike Richter Don Beaupre",
+        [
+          "/wiki/Mike_Richter",
+          "/wiki/Don_Beaupre"
+        ]
+      ]
+    ],
+    [
+      [
+        1993,
+        [
+          "/wiki/1992–93_NHL_season"
+        ]
+      ],
+      [
+        "Campbell Conference",
+        []
+      ],
+      [
+        "Jon Casey Mike Vernon Ed Belfour",
+        [
+          "/wiki/Jon_Casey",
+          "/wiki/Ed_Belfour"
+        ]
+      ]
+    ],
+    [
+      [
+        1994,
+        [
+          "/wiki/1993–94_NHL_season"
+        ]
+      ],
+      [
+        "Western Conference",
+        []
+      ],
+      [
+        "Curtis Joseph",
+        [
+          "/wiki/Curtis_Joseph"
+        ]
+      ]
+    ],
+    [
+      [
+        1996,
+        [
+          "/wiki/1995–96_NHL_season"
+        ]
+      ],
+      [
+        "Eastern Conference",
+        []
+      ],
+      [
+        "Dominik Hasek",
+        [
+          "/wiki/Dominik_Hašek"
+        ]
+      ]
+    ],
+    [
+      [
+        1997,
+        [
+          "/wiki/1996–97_NHL_season"
+        ]
+      ],
+      [
+        "World",
+        []
+      ],
+      [
+        "Dominik Hasek Guy Hebert",
+        [
+          "/wiki/Guy_Hebert"
+        ]
+      ]
+    ],
+    [
+      [
+        1998,
+        [
+          "/wiki/1997–98_NHL_season"
+        ]
+      ],
+      [
+        "World North America",
+        []
+      ],
+      [
+        "Dominik Hasek",
+        []
+      ]
+    ],
+    [
+      [
+        1999,
+        [
+          "/wiki/1998–99_NHL_season"
+        ]
+      ],
+      [
+        "World",
+        []
+      ],
+      [
+        "Dominik Hasek Arturs Irbe",
+        [
+          "/wiki/Artūrs_Irbe"
+        ]
+      ]
+    ],
+    [
+      [
+        2000,
+        [
+          "/wiki/1999–2000_NHL_season"
+        ]
+      ],
+      [
+        "World",
+        []
+      ],
+      [
+        "Tommy Salo",
+        [
+          "/wiki/Tommy_Salo"
+        ]
+      ]
+    ],
+    [
+      [
+        2001,
+        [
+          "/wiki/2000–01_NHL_season"
+        ]
+      ],
+      [
+        "World",
+        []
+      ],
+      [
+        "Sean Burke Evgeni Nabokov",
+        [
+          "/wiki/Sean_Burke",
+          "/wiki/Evgeni_Nabokov"
+        ]
+      ]
+    ],
+    [
+      [
+        2002,
+        [
+          "/wiki/2001–02_NHL_season"
+        ]
+      ],
+      [
+        "North America",
+        []
+      ],
+      [
+        "Dominik Hasek Patrick Roy",
+        []
+      ]
+    ],
+    [
+      [
+        2003,
+        [
+          "/wiki/2002–03_NHL_season"
+        ]
+      ],
+      [
+        "Western Conference",
+        []
+      ],
+      [
+        "Patrick Roy",
+        []
+      ]
+    ],
+    [
+      [
+        2004,
+        [
+          "/wiki/2003–04_NHL_season"
+        ]
+      ],
+      [
+        "Eastern Conference",
+        []
+      ],
+      [
+        "Roberto Luongo",
+        [
+          "/wiki/Roberto_Luongo"
+        ]
+      ]
+    ],
+    [
+      [
+        2007,
+        [
+          "/wiki/2006–07_NHL_season"
+        ]
+      ],
+      [
+        "Western Conference",
+        []
+      ],
+      [
+        "Roberto Luongo",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "b621f09e-8cac-5d9c-aeb3-954f67855a0d",
+    "table_id": "NHL_All-Star_Game_SuperSkills_Competition_13",
+    "title": "NHL All-Star Skills Competition",
+    "header": [
+      "Season",
+      "Team",
+      "Player"
+    ],
+    "value": [
+      [
+        [
+          1991,
+          [
+            "/wiki/1990–91_NHL_season"
+          ]
+        ],
+        [
+          "Campbell Conference",
+          [
+            "/wiki/Campbell_Conference"
+          ]
+        ],
+        [
+          "Mike Vernon",
+          [
+            "/wiki/Mike_Vernon_(ice_hockey)"
+          ]
+        ]
+      ],
+      [
+        [
+          1992,
+          [
+            "/wiki/1991–92_NHL_season"
+          ]
+        ],
+        [
+          "Wales Conference",
+          [
+            "/wiki/Wales_Conference"
+          ]
+        ],
+        [
+          "Mike Richter Don Beaupre",
+          [
+            "/wiki/Mike_Richter",
+            "/wiki/Don_Beaupre"
+          ]
+        ]
+      ],
+      [
+        [
+          1993,
+          [
+            "/wiki/1992–93_NHL_season"
+          ]
+        ],
+        [
+          "Campbell Conference",
+          []
+        ],
+        [
+          "Jon Casey Mike Vernon Ed Belfour",
+          [
+            "/wiki/Jon_Casey",
+            "/wiki/Ed_Belfour"
+          ]
+        ]
+      ],
+      [
+        [
+          1994,
+          [
+            "/wiki/1993–94_NHL_season"
+          ]
+        ],
+        [
+          "Western Conference",
+          []
+        ],
+        [
+          "Curtis Joseph",
+          [
+            "/wiki/Curtis_Joseph"
+          ]
+        ]
+      ],
+      [
+        [
+          1996,
+          [
+            "/wiki/1995–96_NHL_season"
+          ]
+        ],
+        [
+          "Eastern Conference",
+          []
+        ],
+        [
+          "Dominik Hasek",
+          [
+            "/wiki/Dominik_Hašek"
+          ]
+        ]
+      ],
+      [
+        [
+          1997,
+          [
+            "/wiki/1996–97_NHL_season"
+          ]
+        ],
+        [
+          "World",
+          []
+        ],
+        [
+          "Dominik Hasek Guy Hebert",
+          [
+            "/wiki/Guy_Hebert"
+          ]
+        ]
+      ],
+      [
+        [
+          1998,
+          [
+            "/wiki/1997–98_NHL_season"
+          ]
+        ],
+        [
+          "World North America",
+          []
+        ],
+        [
+          "Dominik Hasek",
+          []
+        ]
+      ],
+      [
+        [
+          1999,
+          [
+            "/wiki/1998–99_NHL_season"
+          ]
+        ],
+        [
+          "World",
+          []
+        ],
+        [
+          "Dominik Hasek Arturs Irbe",
+          [
+            "/wiki/Artūrs_Irbe"
+          ]
+        ]
+      ],
+      [
+        [
+          2000,
+          [
+            "/wiki/1999–2000_NHL_season"
+          ]
+        ],
+        [
+          "World",
+          []
+        ],
+        [
+          "Tommy Salo",
+          [
+            "/wiki/Tommy_Salo"
+          ]
+        ]
+      ],
+      [
+        [
+          2001,
+          [
+            "/wiki/2000–01_NHL_season"
+          ]
+        ],
+        [
+          "World",
+          []
+        ],
+        [
+          "Sean Burke Evgeni Nabokov",
+          [
+            "/wiki/Sean_Burke",
+            "/wiki/Evgeni_Nabokov"
+          ]
+        ]
+      ],
+      [
+        [
+          2002,
+          [
+            "/wiki/2001–02_NHL_season"
+          ]
+        ],
+        [
+          "North America",
+          []
+        ],
+        [
+          "Dominik Hasek Patrick Roy",
+          []
+        ]
+      ],
+      [
+        [
+          2003,
+          [
+            "/wiki/2002–03_NHL_season"
+          ]
+        ],
+        [
+          "Western Conference",
+          []
+        ],
+        [
+          "Patrick Roy",
+          []
+        ]
+      ],
+      [
+        [
+          2004,
+          [
+            "/wiki/2003–04_NHL_season"
+          ]
+        ],
+        [
+          "Eastern Conference",
+          []
+        ],
+        [
+          "Roberto Luongo",
+          [
+            "/wiki/Roberto_Luongo"
+          ]
+        ]
+      ],
+      [
+        [
+          2007,
+          [
+            "/wiki/2006–07_NHL_season"
+          ]
+        ],
+        [
+          "Western Conference",
+          []
+        ],
+        [
+          "Roberto Luongo",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the NHL All-Star Skills Competition, detailing the seasons, participating teams, and players involved. It serves as a record of historical data related to this event in professional ice hockey.",
+  "numeric_columns": [
+    "Season"
+  ],
+  "categorical_columns": [
+    "Team"
+  ],
+  "entities": [
+    "Player"
+  ]
+}

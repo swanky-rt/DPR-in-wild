@@ -1,0 +1,100 @@
+Rank #1  |  DPR: Q1_C1_v1  |  Combined Score: 0.5778
+============================================================
+  Original DPR:
+    Create a data product that compares and contrasts the career
+    trajectories of actors across the provided tables, analyzing trends in
+    role types, frequency of appearances, and contributions to different
+    media formats over time.
+
+  Coverage               0.9231
+  Complexity             0.2222
+  Diversity              0.0000
+  Surprisal              0.5000
+  Uniqueness             1.0000
+  LLM Quality            0.7500
+  DPR-Summary Rel.       0.5000
+  Query-DPR Rel.         0.0000
+  Query-Summary Rel.     0.0000
+
+  LLM Reasoning:          The DPR demonstrates analytical intent with multi-dimensional goals,
+                          but it is somewhat vague in specifying how to operationalize comparisons
+                          and trends across the schema.
+  DPR-Summary Reasoning:  The summary partially addresses the DPR by listing role types but fails
+                          to analyze trends, frequency of appearances, or contributions to media
+                          formats over time, which are key analytical goals.
+  Query-DPR Reasoning:    The DPR focuses on actors and media formats, which is entirely
+                          unrelated to the user's query about sports events, athletes, teams, and
+                          venues.
+  Query-Summary Reasoning: The summary is completely unrelated to the query, as it discusses roles
+                          of actors rather than historical trends, records, or performance
+                          comparisons in international sports events.
+
+  User Query: What are the historical trends, records, and performance comparisons of athletes, teams, and venues across major international sports events like the Olympics, World Championships, and other tournaments?
+
+  Summary:
+    The data reveals a limited range of roles associated with actors,
+    including "Himself," "Waiter," "The Dollmaker," "Police Station Thug,"
+    and "Himself / Phineaus Cage," with "Himself" being the most frequent.
+    However, the evidence does not provide further details on trends in role
+    types, frequency of appearances over time, or contributions to different
+    media formats, leaving gaps in the analysis of career trajectories.
+
+  Sub-Queries (1 total):
+------------------------------------------------------------
+  [1] SQL:
+        SELECT Role, COUNT(*) AS Frequency
+        FROM (
+            SELECT Role FROM T1
+            UNION ALL
+            SELECT Role FROM T289
+            UNION ALL
+            SELECT Role FROM T308
+            UNION ALL
+            SELECT Role FROM T311
+            UNION ALL
+            SELECT Role FROM T321
+            UNION ALL
+            SELECT Role FROM T322
+            UNION ALL
+            SELECT Role FROM T339
+            UNION ALL
+            SELECT Role FROM T342
+            UNION ALL
+            SELECT Role FROM T3733
+            UNION ALL
+            SELECT Role FROM T3739
+            UNION ALL
+            SELECT Role FROM T3748
+            UNION ALL
+            SELECT Role FROM T3749
+            UNION ALL
+            SELECT Role FROM T3891
+            UNION ALL
+            SELECT Role FROM T4298
+            UNION ALL
+            SELECT Role FROM T4299
+            UNION ALL
+            SELECT Role FROM T4723
+            UNION ALL
+            SELECT Role FROM T4830
+            UNION ALL
+            SELECT Role FROM T4837
+            UNION ALL
+            SELECT Role FROM T5002
+            UNION ALL
+            SELECT Role FROM T6409
+            UNION ALL
+            SELECT Role FROM T6622
+            UNION ALL
+            SELECT Role FROM T6630
+            UNION ALL
+            SELECT Role FROM T6805
+            UNION ALL
+            SELECT Role FROM T8821
+        )
+        GROUP BY Role
+        ORDER BY Frequency DESC;
+
+------------------------------------------------------------
+============================================================
+

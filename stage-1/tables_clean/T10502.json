@@ -1,0 +1,557 @@
+{
+  "table_id": "T10502",
+  "uid": "3ccc564d-1159-5de0-8ae5-9f588f8a0c14",
+  "source": "HybridQA",
+  "source_table_id": "3ccc564d-1159-5de0-8ae5-9f588f8a0c14",
+  "domain": "HybridQA",
+  "title": "CKUA Radio Network",
+  "columns": [
+    "City of licence",
+    "Frequency",
+    "Callsign"
+  ],
+  "rows": [
+    [
+      [
+        "Athabasca",
+        [
+          "/wiki/Athabasca,_Alberta"
+        ]
+      ],
+      [
+        "00 98.3 FM",
+        [
+          "/wiki/FM_radio"
+        ]
+      ],
+      [
+        "CKUA-FM-10",
+        []
+      ]
+    ],
+    [
+      [
+        "Banff / Canmore",
+        [
+          "/wiki/Banff,_Alberta",
+          "/wiki/Canmore,_Alberta"
+        ]
+      ],
+      [
+        "0 104.3 FM",
+        []
+      ],
+      [
+        "CKUA-FM-14",
+        []
+      ]
+    ],
+    [
+      [
+        "Calgary",
+        [
+          "/wiki/Calgary"
+        ]
+      ],
+      [
+        "00 93.7 FM",
+        []
+      ],
+      [
+        "CKUA-FM-1",
+        []
+      ]
+    ],
+    [
+      [
+        "Drumheller / Hanna",
+        [
+          "/wiki/Drumheller",
+          "/wiki/Hanna,_Alberta"
+        ]
+      ],
+      [
+        "00 91.3 FM",
+        []
+      ],
+      [
+        "CKUA-FM-13",
+        []
+      ]
+    ],
+    [
+      [
+        "Edmonton",
+        [
+          "/wiki/Edmonton"
+        ]
+      ],
+      [
+        "00 94.9 FM",
+        []
+      ],
+      [
+        "CKUA-FM ( flagship )",
+        []
+      ]
+    ],
+    [
+      [
+        "Edson",
+        [
+          "/wiki/Edson,_Alberta"
+        ]
+      ],
+      [
+        "0 103.7 FM",
+        []
+      ],
+      [
+        "CKUA-FM-8",
+        []
+      ]
+    ],
+    [
+      [
+        "Fort McMurray",
+        [
+          "/wiki/Fort_McMurray"
+        ]
+      ],
+      [
+        "00 96.7 FM",
+        []
+      ],
+      [
+        "CKUA-FM-11",
+        []
+      ]
+    ],
+    [
+      [
+        "Grande Prairie",
+        [
+          "/wiki/Grande_Prairie"
+        ]
+      ],
+      [
+        "0 100.9 FM",
+        []
+      ],
+      [
+        "CKUA-FM-4",
+        []
+      ]
+    ],
+    [
+      [
+        "Hinton",
+        [
+          "/wiki/Hinton,_Alberta"
+        ]
+      ],
+      [
+        "0 102.5 FM",
+        []
+      ],
+      [
+        "CKUA-FM-7",
+        []
+      ]
+    ],
+    [
+      [
+        "Lethbridge",
+        [
+          "/wiki/Lethbridge"
+        ]
+      ],
+      [
+        "00 99.3 FM",
+        []
+      ],
+      [
+        "CKUA-FM-2",
+        []
+      ]
+    ],
+    [
+      [
+        "Lloydminster",
+        [
+          "/wiki/Lloydminster"
+        ]
+      ],
+      [
+        "00 97.5 FM",
+        []
+      ],
+      [
+        "CKUA-FM-15",
+        []
+      ]
+    ],
+    [
+      [
+        "Medicine Hat",
+        [
+          "/wiki/Medicine_Hat"
+        ]
+      ],
+      [
+        "00 97.3 FM",
+        []
+      ],
+      [
+        "CKUA-FM-3",
+        []
+      ]
+    ],
+    [
+      [
+        "Peace River",
+        [
+          "/wiki/Peace_River,_Alberta"
+        ]
+      ],
+      [
+        "00 96.9 FM",
+        []
+      ],
+      [
+        "CKUA-FM-5",
+        []
+      ]
+    ],
+    [
+      [
+        "Red Deer",
+        [
+          "/wiki/Red_Deer,_Alberta"
+        ]
+      ],
+      [
+        "0 107.7 FM",
+        []
+      ],
+      [
+        "CKUA-FM-6",
+        []
+      ]
+    ],
+    [
+      [
+        "Spirit River",
+        [
+          "/wiki/Spirit_River,_Alberta"
+        ]
+      ],
+      [
+        "00 99.5 FM",
+        []
+      ],
+      [
+        "CKUA-FM-12",
+        []
+      ]
+    ],
+    [
+      [
+        "Whitecourt",
+        [
+          "/wiki/Whitecourt"
+        ]
+      ],
+      [
+        "0 107.1 FM",
+        []
+      ],
+      [
+        "CKUA-FM-9",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "3ccc564d-1159-5de0-8ae5-9f588f8a0c14",
+    "table_id": "CKUA_Radio_Network_0",
+    "title": "CKUA Radio Network",
+    "header": [
+      "City of licence",
+      "Frequency",
+      "Callsign"
+    ],
+    "value": [
+      [
+        [
+          "Athabasca",
+          [
+            "/wiki/Athabasca,_Alberta"
+          ]
+        ],
+        [
+          "00 98.3 FM",
+          [
+            "/wiki/FM_radio"
+          ]
+        ],
+        [
+          "CKUA-FM-10",
+          []
+        ]
+      ],
+      [
+        [
+          "Banff / Canmore",
+          [
+            "/wiki/Banff,_Alberta",
+            "/wiki/Canmore,_Alberta"
+          ]
+        ],
+        [
+          "0 104.3 FM",
+          []
+        ],
+        [
+          "CKUA-FM-14",
+          []
+        ]
+      ],
+      [
+        [
+          "Calgary",
+          [
+            "/wiki/Calgary"
+          ]
+        ],
+        [
+          "00 93.7 FM",
+          []
+        ],
+        [
+          "CKUA-FM-1",
+          []
+        ]
+      ],
+      [
+        [
+          "Drumheller / Hanna",
+          [
+            "/wiki/Drumheller",
+            "/wiki/Hanna,_Alberta"
+          ]
+        ],
+        [
+          "00 91.3 FM",
+          []
+        ],
+        [
+          "CKUA-FM-13",
+          []
+        ]
+      ],
+      [
+        [
+          "Edmonton",
+          [
+            "/wiki/Edmonton"
+          ]
+        ],
+        [
+          "00 94.9 FM",
+          []
+        ],
+        [
+          "CKUA-FM ( flagship )",
+          []
+        ]
+      ],
+      [
+        [
+          "Edson",
+          [
+            "/wiki/Edson,_Alberta"
+          ]
+        ],
+        [
+          "0 103.7 FM",
+          []
+        ],
+        [
+          "CKUA-FM-8",
+          []
+        ]
+      ],
+      [
+        [
+          "Fort McMurray",
+          [
+            "/wiki/Fort_McMurray"
+          ]
+        ],
+        [
+          "00 96.7 FM",
+          []
+        ],
+        [
+          "CKUA-FM-11",
+          []
+        ]
+      ],
+      [
+        [
+          "Grande Prairie",
+          [
+            "/wiki/Grande_Prairie"
+          ]
+        ],
+        [
+          "0 100.9 FM",
+          []
+        ],
+        [
+          "CKUA-FM-4",
+          []
+        ]
+      ],
+      [
+        [
+          "Hinton",
+          [
+            "/wiki/Hinton,_Alberta"
+          ]
+        ],
+        [
+          "0 102.5 FM",
+          []
+        ],
+        [
+          "CKUA-FM-7",
+          []
+        ]
+      ],
+      [
+        [
+          "Lethbridge",
+          [
+            "/wiki/Lethbridge"
+          ]
+        ],
+        [
+          "00 99.3 FM",
+          []
+        ],
+        [
+          "CKUA-FM-2",
+          []
+        ]
+      ],
+      [
+        [
+          "Lloydminster",
+          [
+            "/wiki/Lloydminster"
+          ]
+        ],
+        [
+          "00 97.5 FM",
+          []
+        ],
+        [
+          "CKUA-FM-15",
+          []
+        ]
+      ],
+      [
+        [
+          "Medicine Hat",
+          [
+            "/wiki/Medicine_Hat"
+          ]
+        ],
+        [
+          "00 97.3 FM",
+          []
+        ],
+        [
+          "CKUA-FM-3",
+          []
+        ]
+      ],
+      [
+        [
+          "Peace River",
+          [
+            "/wiki/Peace_River,_Alberta"
+          ]
+        ],
+        [
+          "00 96.9 FM",
+          []
+        ],
+        [
+          "CKUA-FM-5",
+          []
+        ]
+      ],
+      [
+        [
+          "Red Deer",
+          [
+            "/wiki/Red_Deer,_Alberta"
+          ]
+        ],
+        [
+          "0 107.7 FM",
+          []
+        ],
+        [
+          "CKUA-FM-6",
+          []
+        ]
+      ],
+      [
+        [
+          "Spirit River",
+          [
+            "/wiki/Spirit_River,_Alberta"
+          ]
+        ],
+        [
+          "00 99.5 FM",
+          []
+        ],
+        [
+          "CKUA-FM-12",
+          []
+        ]
+      ],
+      [
+        [
+          "Whitecourt",
+          [
+            "/wiki/Whitecourt"
+          ]
+        ],
+        [
+          "0 107.1 FM",
+          []
+        ],
+        [
+          "CKUA-FM-9",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the CKUA Radio Network's broadcast stations, including their city of licence, frequency, and callsign. It is designed to catalog the network's coverage areas and technical details for each station. The table is useful for understanding the geographic and operational scope of the radio network.",
+  "numeric_columns": [
+    "Frequency"
+  ],
+  "categorical_columns": [
+    "Callsign"
+  ],
+  "entities": [
+    "City of licence"
+  ]
+}

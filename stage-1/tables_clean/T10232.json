@@ -1,0 +1,293 @@
+{
+  "table_id": "T10232",
+  "uid": "0d61cb54-4189-56de-9a9c-4c7b537882bc",
+  "source": "HybridQA",
+  "source_table_id": "0d61cb54-4189-56de-9a9c-4c7b537882bc",
+  "domain": "HybridQA",
+  "title": "1995 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Gina Gogean ( ROU )",
+        [
+          "/wiki/Gina_Gogean"
+        ]
+      ],
+      [
+        9.825,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Ji Liya ( CHN )",
+        [
+          "/wiki/Ji_Liya"
+        ]
+      ],
+      [
+        9.675,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Ludivine Furnon ( FRA )",
+        [
+          "/wiki/Ludivine_Furnon"
+        ]
+      ],
+      [
+        9.625,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Mo Huilan ( CHN )",
+        [
+          "/wiki/Mo_Huilan"
+        ]
+      ],
+      [
+        9.6,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Joana Juárez ( ESP )",
+        [
+          "/wiki/Joana_Juárez"
+        ]
+      ],
+      [
+        9.462,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Simona Amânar ( ROU )",
+        [
+          "/wiki/Simona_Amânar"
+        ]
+      ],
+      [
+        9.437,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Lilia Podkopayeva ( UKR )",
+        [
+          "/wiki/Lilia_Podkopayeva"
+        ]
+      ],
+      [
+        9.087,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Dominique Moceanu ( USA )",
+        [
+          "/wiki/Dominique_Moceanu"
+        ]
+      ],
+      [
+        9.087,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "0d61cb54-4189-56de-9a9c-4c7b537882bc",
+    "table_id": "1995_World_Artistic_Gymnastics_Championships_9",
+    "title": "1995 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Gina Gogean ( ROU )",
+          [
+            "/wiki/Gina_Gogean"
+          ]
+        ],
+        [
+          9.825,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Ji Liya ( CHN )",
+          [
+            "/wiki/Ji_Liya"
+          ]
+        ],
+        [
+          9.675,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Ludivine Furnon ( FRA )",
+          [
+            "/wiki/Ludivine_Furnon"
+          ]
+        ],
+        [
+          9.625,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Mo Huilan ( CHN )",
+          [
+            "/wiki/Mo_Huilan"
+          ]
+        ],
+        [
+          9.6,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Joana Juárez ( ESP )",
+          [
+            "/wiki/Joana_Juárez"
+          ]
+        ],
+        [
+          9.462,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Simona Amânar ( ROU )",
+          [
+            "/wiki/Simona_Amânar"
+          ]
+        ],
+        [
+          9.437,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Lilia Podkopayeva ( UKR )",
+          [
+            "/wiki/Lilia_Podkopayeva"
+          ]
+        ],
+        [
+          9.087,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Dominique Moceanu ( USA )",
+          [
+            "/wiki/Dominique_Moceanu"
+          ]
+        ],
+        [
+          9.087,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the rankings and scores of gymnasts who participated in the 1995 World Artistic Gymnastics Championships. It includes details about the rank, the name of the gymnast, and their total score. The table is likely used to summarize performance outcomes in the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

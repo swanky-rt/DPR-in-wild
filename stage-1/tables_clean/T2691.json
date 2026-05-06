@@ -1,0 +1,356 @@
+{
+  "table_id": "T2691",
+  "uid": "d6f4153d-19ba-527c-8b1a-5e9397da1457",
+  "source": "HybridQA",
+  "source_table_id": "d6f4153d-19ba-527c-8b1a-5e9397da1457",
+  "domain": "HybridQA",
+  "title": "Italy national basketball team",
+  "columns": [
+    "Rank",
+    "Player",
+    "Caps"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Pierluigi Marzorati",
+        [
+          "/wiki/Pierluigi_Marzorati"
+        ]
+      ],
+      [
+        278,
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Dino Meneghin",
+        [
+          "/wiki/Dino_Meneghin"
+        ]
+      ],
+      [
+        271,
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Roberto Brunamonti",
+        [
+          "/wiki/Roberto_Brunamonti"
+        ]
+      ],
+      [
+        256,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Giacomo Galanda",
+        [
+          "/wiki/Giacomo_Galanda"
+        ]
+      ],
+      [
+        215,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Walter Magnifico",
+        [
+          "/wiki/Walter_Magnifico"
+        ]
+      ],
+      [
+        214,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Antonello Riva",
+        [
+          "/wiki/Antonello_Riva"
+        ]
+      ],
+      [
+        213,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Gianluca Basile",
+        [
+          "/wiki/Gianluca_Basile"
+        ]
+      ],
+      [
+        209,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Renzo Bariviera",
+        [
+          "/wiki/Renzo_Bariviera"
+        ]
+      ],
+      [
+        208,
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Renato Villalta",
+        [
+          "/wiki/Renato_Villalta"
+        ]
+      ],
+      [
+        206,
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Renzo Vecchiato",
+        [
+          "/wiki/Renzo_Vecchiato"
+        ]
+      ],
+      [
+        202,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "d6f4153d-19ba-527c-8b1a-5e9397da1457",
+    "table_id": "Italy_national_basketball_team_0",
+    "title": "Italy national basketball team",
+    "header": [
+      "Rank",
+      "Player",
+      "Caps"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Pierluigi Marzorati",
+          [
+            "/wiki/Pierluigi_Marzorati"
+          ]
+        ],
+        [
+          278,
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Dino Meneghin",
+          [
+            "/wiki/Dino_Meneghin"
+          ]
+        ],
+        [
+          271,
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Roberto Brunamonti",
+          [
+            "/wiki/Roberto_Brunamonti"
+          ]
+        ],
+        [
+          256,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Giacomo Galanda",
+          [
+            "/wiki/Giacomo_Galanda"
+          ]
+        ],
+        [
+          215,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Walter Magnifico",
+          [
+            "/wiki/Walter_Magnifico"
+          ]
+        ],
+        [
+          214,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Antonello Riva",
+          [
+            "/wiki/Antonello_Riva"
+          ]
+        ],
+        [
+          213,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Gianluca Basile",
+          [
+            "/wiki/Gianluca_Basile"
+          ]
+        ],
+        [
+          209,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Renzo Bariviera",
+          [
+            "/wiki/Renzo_Bariviera"
+          ]
+        ],
+        [
+          208,
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Renato Villalta",
+          [
+            "/wiki/Renato_Villalta"
+          ]
+        ],
+        [
+          206,
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Renzo Vecchiato",
+          [
+            "/wiki/Renzo_Vecchiato"
+          ]
+        ],
+        [
+          202,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about players of the Italy national basketball team, focusing on their rankings, names, and the number of appearances (caps) they have made. It is likely intended to highlight key contributors to the team based on their performance and participation.",
+  "numeric_columns": [
+    "Rank",
+    "Caps"
+  ],
+  "categorical_columns": [],
+  "entities": [
+    "Player"
+  ]
+}

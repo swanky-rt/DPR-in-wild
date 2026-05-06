@@ -1,0 +1,464 @@
+{
+  "table_id": "T1254",
+  "uid": "165a18c1-a5ae-5229-b879-ea97bb4ade3a",
+  "source": "HybridQA",
+  "source_table_id": "165a18c1-a5ae-5229-b879-ea97bb4ade3a",
+  "domain": "HybridQA",
+  "title": "1977 in film",
+  "columns": [
+    "Rank",
+    "Title",
+    "Studio",
+    "Domestic gross"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Star Wars",
+        [
+          "/wiki/Star_Wars_(film)"
+        ]
+      ],
+      [
+        "20th Century Fox",
+        [
+          "/wiki/20th_Century_Fox"
+        ]
+      ],
+      [
+        "$ 221,280,994",
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Smokey and the Bandit",
+        [
+          "/wiki/Smokey_and_the_Bandit"
+        ]
+      ],
+      [
+        "Universal",
+        [
+          "/wiki/Universal_Pictures"
+        ]
+      ],
+      [
+        "$ 126,737,428",
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Close Encounters of the Third Kind",
+        [
+          "/wiki/Close_Encounters_of_the_Third_Kind"
+        ]
+      ],
+      [
+        "Columbia",
+        [
+          "/wiki/Columbia_Pictures"
+        ]
+      ],
+      [
+        "$ 116,395,460",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Saturday Night Fever",
+        [
+          "/wiki/Saturday_Night_Fever"
+        ]
+      ],
+      [
+        "Paramount",
+        [
+          "/wiki/Paramount_Pictures"
+        ]
+      ],
+      [
+        "$ 94,213,184",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "The Goodbye Girl",
+        [
+          "/wiki/The_Goodbye_Girl"
+        ]
+      ],
+      [
+        "Warner Bros",
+        [
+          "/wiki/Warner_Bros."
+        ]
+      ],
+      [
+        "$ 82,000,470",
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "A Bridge Too Far",
+        [
+          "/wiki/A_Bridge_Too_Far_(film)"
+        ]
+      ],
+      [
+        "United Artists",
+        [
+          "/wiki/United_Artists"
+        ]
+      ],
+      [
+        "$ 50,750,000",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "The Deep",
+        [
+          "/wiki/The_Deep_(1977_film)"
+        ]
+      ],
+      [
+        "Columbia",
+        []
+      ],
+      [
+        "$ 47,346,365",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "The Spy Who Loved Me",
+        [
+          "/wiki/The_Spy_Who_Loved_Me_(film)"
+        ]
+      ],
+      [
+        "United Artists",
+        []
+      ],
+      [
+        "$ 46,838,673",
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Oh , God !",
+        [
+          "/wiki/Oh,_God!_(film)"
+        ]
+      ],
+      [
+        "Warner Bros",
+        []
+      ],
+      [
+        "$ 41,687,243",
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Annie Hall",
+        [
+          "/wiki/Annie_Hall"
+        ]
+      ],
+      [
+        "United Artists",
+        []
+      ],
+      [
+        "$ 38,251,425",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "165a18c1-a5ae-5229-b879-ea97bb4ade3a",
+    "table_id": "1977_in_film_0",
+    "title": "1977 in film",
+    "header": [
+      "Rank",
+      "Title",
+      "Studio",
+      "Domestic gross"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Star Wars",
+          [
+            "/wiki/Star_Wars_(film)"
+          ]
+        ],
+        [
+          "20th Century Fox",
+          [
+            "/wiki/20th_Century_Fox"
+          ]
+        ],
+        [
+          "$ 221,280,994",
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Smokey and the Bandit",
+          [
+            "/wiki/Smokey_and_the_Bandit"
+          ]
+        ],
+        [
+          "Universal",
+          [
+            "/wiki/Universal_Pictures"
+          ]
+        ],
+        [
+          "$ 126,737,428",
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Close Encounters of the Third Kind",
+          [
+            "/wiki/Close_Encounters_of_the_Third_Kind"
+          ]
+        ],
+        [
+          "Columbia",
+          [
+            "/wiki/Columbia_Pictures"
+          ]
+        ],
+        [
+          "$ 116,395,460",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Saturday Night Fever",
+          [
+            "/wiki/Saturday_Night_Fever"
+          ]
+        ],
+        [
+          "Paramount",
+          [
+            "/wiki/Paramount_Pictures"
+          ]
+        ],
+        [
+          "$ 94,213,184",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "The Goodbye Girl",
+          [
+            "/wiki/The_Goodbye_Girl"
+          ]
+        ],
+        [
+          "Warner Bros",
+          [
+            "/wiki/Warner_Bros."
+          ]
+        ],
+        [
+          "$ 82,000,470",
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "A Bridge Too Far",
+          [
+            "/wiki/A_Bridge_Too_Far_(film)"
+          ]
+        ],
+        [
+          "United Artists",
+          [
+            "/wiki/United_Artists"
+          ]
+        ],
+        [
+          "$ 50,750,000",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "The Deep",
+          [
+            "/wiki/The_Deep_(1977_film)"
+          ]
+        ],
+        [
+          "Columbia",
+          []
+        ],
+        [
+          "$ 47,346,365",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "The Spy Who Loved Me",
+          [
+            "/wiki/The_Spy_Who_Loved_Me_(film)"
+          ]
+        ],
+        [
+          "United Artists",
+          []
+        ],
+        [
+          "$ 46,838,673",
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Oh , God !",
+          [
+            "/wiki/Oh,_God!_(film)"
+          ]
+        ],
+        [
+          "Warner Bros",
+          []
+        ],
+        [
+          "$ 41,687,243",
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Annie Hall",
+          [
+            "/wiki/Annie_Hall"
+          ]
+        ],
+        [
+          "United Artists",
+          []
+        ],
+        [
+          "$ 38,251,425",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the top films of 1977, focusing on their rankings, titles, production studios, and domestic gross earnings. It is intended to summarize the commercial success of movies released in that year.",
+  "numeric_columns": [
+    "Rank",
+    "Domestic gross"
+  ],
+  "categorical_columns": [
+    "Studio"
+  ],
+  "entities": [
+    "Title"
+  ]
+}

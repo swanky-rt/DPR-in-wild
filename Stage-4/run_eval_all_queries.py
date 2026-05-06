@@ -355,6 +355,40 @@ def build_query_stats(output, stem):
     return q_metrics, q_scores, summary
 
 
+
+def _load_query_lookup(path):
+    """Supports older [{dpr_id,user_query}] files and new ward user report files."""
+    lookup = {}
+    if not path or not os.path.exists(path):
+        return lookup
+    with open(path, encoding="utf-8") as f:
+        text = f.read().strip()
+    if not text:
+        return lookup
+    data = json.loads(text) if text.startswith(("[", "{")) else [line.strip() for line in text.splitlines() if line.strip()]
+
+    if isinstance(data, dict) and "clusters" in data:
+        for i, rec in enumerate(data.get("clusters", []), start=1):
+            q = rec.get("user_query", "")
+            if q:
+                lookup[f"Q{i}"] = q
+                lookup[str(rec.get("cluster_id", f"Q{i}"))] = q
+        return lookup
+
+    if isinstance(data, list) and data and isinstance(data[0], str):
+        for i, q in enumerate(data, start=1):
+            lookup[f"Q{i}"] = q
+        return lookup
+
+    for i, rec in enumerate(data if isinstance(data, list) else [], start=1):
+        q = rec.get("user_query") or rec.get("query_text") or rec.get("query") or ""
+        if not q:
+            continue
+        for key in (rec.get("dpr_id"), rec.get("query_id"), rec.get("cluster_id"), f"Q{i}"):
+            if key is not None:
+                lookup[str(key)] = q
+    return lookup
+
 # ─────────────────────────────────────────────────────────────────────────────
 #  Main
 # ─────────────────────────────────────────────────────────────────────────────
@@ -378,16 +412,13 @@ def main():
     llm_api_base = args.llm_api_base or os.getenv("LLM_API_BASE", "https://api.openai.com/v1")
     llm_model    = args.llm_model    or os.getenv("LLM_MODEL",    "gpt-4")
 
-    # Build query lookup from --queries_file if provided
-    preloaded_lookup = {}
-    if args.queries_file and os.path.exists(args.queries_file):
-        with open(args.queries_file, encoding="utf-8") as f:
-            qs = json.load(f)
-        for q in qs:
-            preloaded_lookup[str(q["dpr_id"])] = q["user_query"]
-        print(f"[INFO] Loaded {len(preloaded_lookup)} queries from {args.queries_file}")
+    # Build query lookup from --queries_file if provided. Supports both the older
+    # [{dpr_id, user_query}] format and the new ward user report format.
+    preloaded_lookup = _load_query_lookup(args.queries_file)
+    if preloaded_lookup:
+        print(f"[INFO] Loaded {len(preloaded_lookup)} query lookup keys from {args.queries_file}")
     else:
-        print("[INFO] No --queries_file — will extract query_text from stage-3 records")
+        print("[INFO] No usable --queries_file — will extract query_text from stage-3 records")
 
     # Find input files
     pattern   = os.path.join(args.input_dir, args.dpr_filename_pattern)
@@ -425,9 +456,15 @@ def main():
 
         print(f"[INFO] Loaded {len(raw_data)} DPRs")
 
-        # Resolve user_query: queries_file → stage-3 embedded query_text → none
-        first_id   = str(raw_data[0].get("dpr_id", ""))
-        user_query = preloaded_lookup.get(first_id, "")
+        # Resolve user_query: queries_file lookup → stage-3 embedded query_text → none
+        first_id = str(raw_data[0].get("dpr_id", ""))
+        first_qid = str(raw_data[0].get("query_id", ""))
+        user_query = (
+            preloaded_lookup.get(first_id)
+            or preloaded_lookup.get(first_qid)
+            or preloaded_lookup.get(stem.split("--")[0])
+            or ""
+        )
         if not user_query:
             for rec in raw_data:
                 qt = rec.get("query_text", "")
@@ -465,6 +502,8 @@ def main():
 
     for output, out_dir, stem in all_output_data:
         user_query = file_query_map.get(stem, "")
+        if not user_query and output.get("ranked_dprs"):
+            user_query = output["ranked_dprs"][0].get("query_text", "") or output["ranked_dprs"][0].get("user_query", "")
         if user_query:
             print(f"\n[INFO] Query-relevance metrics (display-only) for {stem}...")
             output = enrich_with_query_metrics(

@@ -1,0 +1,501 @@
+{
+  "table_id": "T8405",
+  "uid": "926fcd2c-3979-54e7-b407-d2c643f0e94d",
+  "source": "HybridQA",
+  "source_table_id": "926fcd2c-3979-54e7-b407-d2c643f0e94d",
+  "domain": "HybridQA",
+  "title": "Venues of the 1992 Winter Olympics",
+  "columns": [
+    "Venue",
+    "Sports",
+    "Capacity"
+  ],
+  "rows": [
+    [
+      [
+        "L'anneau de vitesse",
+        [
+          "/wiki/L'anneau_de_vitesse"
+        ]
+      ],
+      [
+        "Speed skating",
+        [
+          "/wiki/Speed_skating_at_the_1992_Winter_Olympics"
+        ]
+      ],
+      [
+        "10,000",
+        []
+      ]
+    ],
+    [
+      [
+        "La halle de glace Olympique",
+        [
+          "/wiki/La_halle_de_glace_Olympique"
+        ]
+      ],
+      [
+        "Figure skating , Short track speed skating",
+        [
+          "/wiki/Figure_skating_at_the_1992_Winter_Olympics",
+          "/wiki/Short_track_speed_skating_at_the_1992_Winter_Olympics"
+        ]
+      ],
+      [
+        "9,000",
+        []
+      ]
+    ],
+    [
+      [
+        "La Plagne",
+        [
+          "/wiki/La_Plagne_bobsleigh,_luge,_and_skeleton_track"
+        ]
+      ],
+      [
+        "Bobsleigh , Luge",
+        [
+          "/wiki/Bobsleigh_at_the_1992_Winter_Olympics",
+          "/wiki/Luge_at_the_1992_Winter_Olympics"
+        ]
+      ],
+      [
+        "Not listed",
+        []
+      ]
+    ],
+    [
+      [
+        "Les Arcs",
+        [
+          "/wiki/Les_Arcs"
+        ]
+      ],
+      [
+        "Speed skiing ( demonstration )",
+        [
+          "/wiki/Speed_skiing_at_the_1992_Winter_Olympics"
+        ]
+      ],
+      [
+        "Not listed",
+        []
+      ]
+    ],
+    [
+      [
+        "Les Menuires",
+        [
+          "/wiki/Les_Menuires"
+        ]
+      ],
+      [
+        "Alpine skiing ( men 's slalom )",
+        [
+          "/wiki/Alpine_skiing_at_the_1992_Winter_Olympics"
+        ]
+      ],
+      [
+        "Not listed",
+        []
+      ]
+    ],
+    [
+      [
+        "Les Saisies",
+        [
+          "/wiki/Les_Saisies"
+        ]
+      ],
+      [
+        "Biathlon , Cross-country skiing",
+        [
+          "/wiki/Biathlon_at_the_1992_Winter_Olympics",
+          "/wiki/Cross-country_skiing_at_the_1992_Winter_Olympics"
+        ]
+      ],
+      [
+        "12,500",
+        []
+      ]
+    ],
+    [
+      [
+        "Méribel",
+        [
+          "/wiki/Méribel"
+        ]
+      ],
+      [
+        "Alpine skiing ( women )",
+        []
+      ],
+      [
+        "3,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Méribel Ice Palace",
+        [
+          "/wiki/Méribel_Ice_Palace"
+        ]
+      ],
+      [
+        "Ice hockey",
+        [
+          "/wiki/Ice_hockey_at_the_1992_Winter_Olympics"
+        ]
+      ],
+      [
+        "6,420",
+        []
+      ]
+    ],
+    [
+      [
+        "Patinoire olympique de Pralognan-la-Vanoise",
+        [
+          "/wiki/Patinoire_olympique_de_Pralognan-la-Vanoise"
+        ]
+      ],
+      [
+        "Curling ( demonstration )",
+        [
+          "/wiki/Curling_at_the_1992_Winter_Olympics"
+        ]
+      ],
+      [
+        "2,300",
+        []
+      ]
+    ],
+    [
+      [
+        "Théâtre des Cérémonies",
+        [
+          "/wiki/Théâtre_des_Cérémonies"
+        ]
+      ],
+      [
+        "Ceremonies ( opening/ closing )",
+        []
+      ],
+      [
+        "35,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Tignes",
+        [
+          "/wiki/Tignes"
+        ]
+      ],
+      [
+        "Freestyle skiing",
+        [
+          "/wiki/Freestyle_skiing_at_the_1992_Winter_Olympics"
+        ]
+      ],
+      [
+        "Not listed",
+        []
+      ]
+    ],
+    [
+      [
+        "Tremplin du Praz",
+        [
+          "/wiki/Tremplin_du_Praz"
+        ]
+      ],
+      [
+        "Nordic combined , Ski jumping",
+        [
+          "/wiki/Nordic_combined_at_the_1992_Winter_Olympics",
+          "/wiki/Ski_jumping_at_the_1992_Winter_Olympics"
+        ]
+      ],
+      [
+        "20,000 ( jumping ) 15,000 ( Nordic combined - cross-country skiing )",
+        []
+      ]
+    ],
+    [
+      [
+        "Val-d'Isère",
+        [
+          "/wiki/Val-d'Isère"
+        ]
+      ],
+      [
+        "Alpine skiing ( men 's downhill , super-giant slalom , giant slalom , and combined )",
+        []
+      ],
+      [
+        "Not listed",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "926fcd2c-3979-54e7-b407-d2c643f0e94d",
+    "table_id": "Venues_of_the_1992_Winter_Olympics_0",
+    "title": "Venues of the 1992 Winter Olympics",
+    "header": [
+      "Venue",
+      "Sports",
+      "Capacity"
+    ],
+    "value": [
+      [
+        [
+          "L'anneau de vitesse",
+          [
+            "/wiki/L'anneau_de_vitesse"
+          ]
+        ],
+        [
+          "Speed skating",
+          [
+            "/wiki/Speed_skating_at_the_1992_Winter_Olympics"
+          ]
+        ],
+        [
+          "10,000",
+          []
+        ]
+      ],
+      [
+        [
+          "La halle de glace Olympique",
+          [
+            "/wiki/La_halle_de_glace_Olympique"
+          ]
+        ],
+        [
+          "Figure skating , Short track speed skating",
+          [
+            "/wiki/Figure_skating_at_the_1992_Winter_Olympics",
+            "/wiki/Short_track_speed_skating_at_the_1992_Winter_Olympics"
+          ]
+        ],
+        [
+          "9,000",
+          []
+        ]
+      ],
+      [
+        [
+          "La Plagne",
+          [
+            "/wiki/La_Plagne_bobsleigh,_luge,_and_skeleton_track"
+          ]
+        ],
+        [
+          "Bobsleigh , Luge",
+          [
+            "/wiki/Bobsleigh_at_the_1992_Winter_Olympics",
+            "/wiki/Luge_at_the_1992_Winter_Olympics"
+          ]
+        ],
+        [
+          "Not listed",
+          []
+        ]
+      ],
+      [
+        [
+          "Les Arcs",
+          [
+            "/wiki/Les_Arcs"
+          ]
+        ],
+        [
+          "Speed skiing ( demonstration )",
+          [
+            "/wiki/Speed_skiing_at_the_1992_Winter_Olympics"
+          ]
+        ],
+        [
+          "Not listed",
+          []
+        ]
+      ],
+      [
+        [
+          "Les Menuires",
+          [
+            "/wiki/Les_Menuires"
+          ]
+        ],
+        [
+          "Alpine skiing ( men 's slalom )",
+          [
+            "/wiki/Alpine_skiing_at_the_1992_Winter_Olympics"
+          ]
+        ],
+        [
+          "Not listed",
+          []
+        ]
+      ],
+      [
+        [
+          "Les Saisies",
+          [
+            "/wiki/Les_Saisies"
+          ]
+        ],
+        [
+          "Biathlon , Cross-country skiing",
+          [
+            "/wiki/Biathlon_at_the_1992_Winter_Olympics",
+            "/wiki/Cross-country_skiing_at_the_1992_Winter_Olympics"
+          ]
+        ],
+        [
+          "12,500",
+          []
+        ]
+      ],
+      [
+        [
+          "Méribel",
+          [
+            "/wiki/Méribel"
+          ]
+        ],
+        [
+          "Alpine skiing ( women )",
+          []
+        ],
+        [
+          "3,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Méribel Ice Palace",
+          [
+            "/wiki/Méribel_Ice_Palace"
+          ]
+        ],
+        [
+          "Ice hockey",
+          [
+            "/wiki/Ice_hockey_at_the_1992_Winter_Olympics"
+          ]
+        ],
+        [
+          "6,420",
+          []
+        ]
+      ],
+      [
+        [
+          "Patinoire olympique de Pralognan-la-Vanoise",
+          [
+            "/wiki/Patinoire_olympique_de_Pralognan-la-Vanoise"
+          ]
+        ],
+        [
+          "Curling ( demonstration )",
+          [
+            "/wiki/Curling_at_the_1992_Winter_Olympics"
+          ]
+        ],
+        [
+          "2,300",
+          []
+        ]
+      ],
+      [
+        [
+          "Théâtre des Cérémonies",
+          [
+            "/wiki/Théâtre_des_Cérémonies"
+          ]
+        ],
+        [
+          "Ceremonies ( opening/ closing )",
+          []
+        ],
+        [
+          "35,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Tignes",
+          [
+            "/wiki/Tignes"
+          ]
+        ],
+        [
+          "Freestyle skiing",
+          [
+            "/wiki/Freestyle_skiing_at_the_1992_Winter_Olympics"
+          ]
+        ],
+        [
+          "Not listed",
+          []
+        ]
+      ],
+      [
+        [
+          "Tremplin du Praz",
+          [
+            "/wiki/Tremplin_du_Praz"
+          ]
+        ],
+        [
+          "Nordic combined , Ski jumping",
+          [
+            "/wiki/Nordic_combined_at_the_1992_Winter_Olympics",
+            "/wiki/Ski_jumping_at_the_1992_Winter_Olympics"
+          ]
+        ],
+        [
+          "20,000 ( jumping ) 15,000 ( Nordic combined - cross-country skiing )",
+          []
+        ]
+      ],
+      [
+        [
+          "Val-d'Isère",
+          [
+            "/wiki/Val-d'Isère"
+          ]
+        ],
+        [
+          "Alpine skiing ( men 's downhill , super-giant slalom , giant slalom , and combined )",
+          []
+        ],
+        [
+          "Not listed",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the venues used during the 1992 Winter Olympics, including the sports hosted at each venue and their seating capacities. It serves as a reference for understanding the allocation of sports and audience accommodation across different locations during the event.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "Sports"
+  ],
+  "entities": [
+    "Venue"
+  ]
+}

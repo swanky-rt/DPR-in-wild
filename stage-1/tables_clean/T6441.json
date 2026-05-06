@@ -1,0 +1,313 @@
+{
+  "table_id": "T6441",
+  "uid": "017bd5f7-f941-5d90-9a00-2f0e36231285",
+  "source": "HybridQA",
+  "source_table_id": "017bd5f7-f941-5d90-9a00-2f0e36231285",
+  "domain": "HybridQA",
+  "title": "List of power stations in California",
+  "columns": [
+    "Name",
+    "Location",
+    "Capacity ( MW )"
+  ],
+  "rows": [
+    [
+      [
+        "Alta Wind Energy Center *",
+        [
+          "/wiki/Alta_Wind_Energy_Center"
+        ]
+      ],
+      [
+        "Kern County",
+        [
+          "/wiki/Kern_County,_California"
+        ]
+      ],
+      [
+        "1,320",
+        []
+      ]
+    ],
+    [
+      [
+        "Tehachapi Pass Wind Farm",
+        [
+          "/wiki/Tehachapi_Pass_Wind_Farm"
+        ]
+      ],
+      [
+        "Tehachapi Mountains",
+        [
+          "/wiki/Tehachapi_Mountains"
+        ]
+      ],
+      [
+        705,
+        []
+      ]
+    ],
+    [
+      [
+        "San Gorgonio Pass Wind Farm",
+        [
+          "/wiki/San_Gorgonio_Pass_Wind_Farm"
+        ]
+      ],
+      [
+        "White Water",
+        [
+          "/wiki/White_Water,_California"
+        ]
+      ],
+      [
+        615,
+        []
+      ]
+    ],
+    [
+      [
+        "Altamont Pass Wind Farm",
+        [
+          "/wiki/Altamont_Pass_Wind_Farm"
+        ]
+      ],
+      [
+        "Livermore",
+        [
+          "/wiki/Livermore,_California"
+        ]
+      ],
+      [
+        576,
+        []
+      ]
+    ],
+    [
+      [
+        "Ocotillo Wind Energy Facility *",
+        []
+      ],
+      [
+        "Ocotillo , California",
+        [
+          "/wiki/Ocotillo,_California"
+        ]
+      ],
+      [
+        315,
+        []
+      ]
+    ],
+    [
+      [
+        "Tule Wind Energy Project",
+        []
+      ],
+      [
+        "Eastern San Diego County",
+        [
+          "/wiki/San_Diego_County"
+        ]
+      ],
+      [
+        200,
+        []
+      ]
+    ],
+    [
+      [
+        "Shiloh Wind Power Plant",
+        [
+          "/wiki/Shiloh_Wind_Power_Plant"
+        ]
+      ],
+      [
+        "Bird 's Landing",
+        [
+          "/wiki/Bird's_Landing,_California"
+        ]
+      ],
+      [
+        300,
+        []
+      ]
+    ],
+    [
+      [
+        "Kumeyaay Wind farm",
+        []
+      ],
+      [
+        "Campo Indian Reservation",
+        [
+          "/wiki/Campo_Indian_Reservation"
+        ]
+      ],
+      [
+        50,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "017bd5f7-f941-5d90-9a00-2f0e36231285",
+    "table_id": "List_of_power_stations_in_California_4",
+    "title": "List of power stations in California",
+    "header": [
+      "Name",
+      "Location",
+      "Capacity ( MW )"
+    ],
+    "value": [
+      [
+        [
+          "Alta Wind Energy Center *",
+          [
+            "/wiki/Alta_Wind_Energy_Center"
+          ]
+        ],
+        [
+          "Kern County",
+          [
+            "/wiki/Kern_County,_California"
+          ]
+        ],
+        [
+          "1,320",
+          []
+        ]
+      ],
+      [
+        [
+          "Tehachapi Pass Wind Farm",
+          [
+            "/wiki/Tehachapi_Pass_Wind_Farm"
+          ]
+        ],
+        [
+          "Tehachapi Mountains",
+          [
+            "/wiki/Tehachapi_Mountains"
+          ]
+        ],
+        [
+          705,
+          []
+        ]
+      ],
+      [
+        [
+          "San Gorgonio Pass Wind Farm",
+          [
+            "/wiki/San_Gorgonio_Pass_Wind_Farm"
+          ]
+        ],
+        [
+          "White Water",
+          [
+            "/wiki/White_Water,_California"
+          ]
+        ],
+        [
+          615,
+          []
+        ]
+      ],
+      [
+        [
+          "Altamont Pass Wind Farm",
+          [
+            "/wiki/Altamont_Pass_Wind_Farm"
+          ]
+        ],
+        [
+          "Livermore",
+          [
+            "/wiki/Livermore,_California"
+          ]
+        ],
+        [
+          576,
+          []
+        ]
+      ],
+      [
+        [
+          "Ocotillo Wind Energy Facility *",
+          []
+        ],
+        [
+          "Ocotillo , California",
+          [
+            "/wiki/Ocotillo,_California"
+          ]
+        ],
+        [
+          315,
+          []
+        ]
+      ],
+      [
+        [
+          "Tule Wind Energy Project",
+          []
+        ],
+        [
+          "Eastern San Diego County",
+          [
+            "/wiki/San_Diego_County"
+          ]
+        ],
+        [
+          200,
+          []
+        ]
+      ],
+      [
+        [
+          "Shiloh Wind Power Plant",
+          [
+            "/wiki/Shiloh_Wind_Power_Plant"
+          ]
+        ],
+        [
+          "Bird 's Landing",
+          [
+            "/wiki/Bird's_Landing,_California"
+          ]
+        ],
+        [
+          300,
+          []
+        ]
+      ],
+      [
+        [
+          "Kumeyaay Wind farm",
+          []
+        ],
+        [
+          "Campo Indian Reservation",
+          [
+            "/wiki/Campo_Indian_Reservation"
+          ]
+        ],
+        [
+          50,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about power stations located in California, including their names, locations, and energy production capacities. It serves as a reference for understanding the distribution and scale of energy generation facilities in the state. The data includes both textual and numerical details about each station.",
+  "numeric_columns": [
+    "Capacity ( MW )"
+  ],
+  "categorical_columns": [
+    "Location"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

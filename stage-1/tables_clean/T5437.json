@@ -1,0 +1,550 @@
+{
+  "table_id": "T5437",
+  "uid": "9f857320-d45a-505e-a75c-235901225e95",
+  "source": "HybridQA",
+  "source_table_id": "9f857320-d45a-505e-a75c-235901225e95",
+  "domain": "HybridQA",
+  "title": "Belgrade Nikola Tesla Airport",
+  "columns": [
+    "City",
+    "Airport",
+    "Weekly Departures ( Winter 2019/2020 )",
+    "Airlines"
+  ],
+  "rows": [
+    [
+      [
+        "Podgorica",
+        [
+          "/wiki/Podgorica"
+        ]
+      ],
+      [
+        "Podgorica Airport",
+        [
+          "/wiki/Podgorica_Airport"
+        ]
+      ],
+      [
+        40,
+        []
+      ],
+      [
+        "Air Serbia , Montenegro Airlines ,",
+        [
+          "/wiki/Air_Serbia",
+          "/wiki/Montenegro_Airlines"
+        ]
+      ]
+    ],
+    [
+      [
+        "Vienna",
+        [
+          "/wiki/Vienna"
+        ]
+      ],
+      [
+        "Vienna International Airport",
+        [
+          "/wiki/Vienna_International_Airport"
+        ]
+      ],
+      [
+        34,
+        []
+      ],
+      [
+        "Air Serbia , Austrian Airlines",
+        [
+          "/wiki/Air_Serbia",
+          "/wiki/Austrian_Airlines"
+        ]
+      ]
+    ],
+    [
+      [
+        "Zürich",
+        [
+          "/wiki/Zürich"
+        ]
+      ],
+      [
+        "Zürich Airport",
+        [
+          "/wiki/Zürich_Airport"
+        ]
+      ],
+      [
+        34,
+        []
+      ],
+      [
+        "Air Serbia , Swiss International Air Lines",
+        [
+          "/wiki/Air_Serbia",
+          "/wiki/Swiss_International_Air_Lines"
+        ]
+      ]
+    ],
+    [
+      [
+        "Moscow",
+        [
+          "/wiki/Moscow"
+        ]
+      ],
+      [
+        "Moscow-Sheremetyevo , Moscow-Domodedovo",
+        [
+          "/wiki/Moscow–Sheremetyevo",
+          "/wiki/Moscow–Domodedovo"
+        ]
+      ],
+      [
+        32,
+        []
+      ],
+      [
+        "Air Serbia , Aeroflot , Red Wings Airlines",
+        [
+          "/wiki/Air_Serbia",
+          "/wiki/Aeroflot",
+          "/wiki/Red_Wings_Airlines"
+        ]
+      ]
+    ],
+    [
+      [
+        "Istanbul",
+        [
+          "/wiki/Istanbul"
+        ]
+      ],
+      [
+        "Istanbul Airport , Istanbul Sabiha Gökçen International Airport",
+        [
+          "/wiki/Istanbul_Airport",
+          "/wiki/Istanbul_Sabiha_Gökçen_International_Airport"
+        ]
+      ],
+      [
+        22,
+        []
+      ],
+      [
+        "Air Serbia , Turkish Airlines , Pegasus Airlines",
+        [
+          "/wiki/Air_Serbia",
+          "/wiki/Turkish_Airlines",
+          "/wiki/Pegasus_Airlines"
+        ]
+      ]
+    ],
+    [
+      [
+        "Paris",
+        [
+          "/wiki/Paris"
+        ]
+      ],
+      [
+        "Paris Charles de Gaulle Airport , Beauvais-Tillé Airport",
+        [
+          "/wiki/Paris_Charles_de_Gaulle_Airport",
+          "/wiki/Beauvais–Tillé_Airport"
+        ]
+      ],
+      [
+        22,
+        []
+      ],
+      [
+        "Air Serbia , Air France , Wizz Air",
+        [
+          "/wiki/Air_Serbia",
+          "/wiki/Air_France",
+          "/wiki/Wizz_Air"
+        ]
+      ]
+    ],
+    [
+      [
+        "Tivat",
+        [
+          "/wiki/Tivat"
+        ]
+      ],
+      [
+        "Tivat Airport",
+        [
+          "/wiki/Tivat_Airport"
+        ]
+      ],
+      [
+        19,
+        []
+      ],
+      [
+        "Air Serbia , Montenegro Airlines ,",
+        [
+          "/wiki/Air_Serbia",
+          "/wiki/Montenegro_Airlines"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ljubljana",
+        [
+          "/wiki/Ljubljana"
+        ]
+      ],
+      [
+        "Ljubljana Jože Pučnik Airport",
+        [
+          "/wiki/Ljubljana_Jože_Pučnik_Airport"
+        ]
+      ],
+      [
+        19,
+        []
+      ],
+      [
+        "Air Serbia",
+        [
+          "/wiki/Air_Serbia"
+        ]
+      ]
+    ],
+    [
+      [
+        "Frankfurt",
+        [
+          "/wiki/Frankfurt"
+        ]
+      ],
+      [
+        "Frankfurt Airport",
+        [
+          "/wiki/Frankfurt_Airport"
+        ]
+      ],
+      [
+        18,
+        []
+      ],
+      [
+        "Air Serbia , Lufthansa",
+        [
+          "/wiki/Air_Serbia",
+          "/wiki/Lufthansa"
+        ]
+      ]
+    ],
+    [
+      [
+        "Rome",
+        [
+          "/wiki/Rome"
+        ]
+      ],
+      [
+        "Leonardo da Vinci-Fiumicino Airport",
+        [
+          "/wiki/Leonardo_da_Vinci-Fiumicino_Airport"
+        ]
+      ],
+      [
+        16,
+        []
+      ],
+      [
+        "Air Serbia , Alitalia",
+        [
+          "/wiki/Air_Serbia",
+          "/wiki/Alitalia"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "9f857320-d45a-505e-a75c-235901225e95",
+    "table_id": "Belgrade_Nikola_Tesla_Airport_3",
+    "title": "Belgrade Nikola Tesla Airport",
+    "header": [
+      "City",
+      "Airport",
+      "Weekly Departures ( Winter 2019/2020 )",
+      "Airlines"
+    ],
+    "value": [
+      [
+        [
+          "Podgorica",
+          [
+            "/wiki/Podgorica"
+          ]
+        ],
+        [
+          "Podgorica Airport",
+          [
+            "/wiki/Podgorica_Airport"
+          ]
+        ],
+        [
+          40,
+          []
+        ],
+        [
+          "Air Serbia , Montenegro Airlines ,",
+          [
+            "/wiki/Air_Serbia",
+            "/wiki/Montenegro_Airlines"
+          ]
+        ]
+      ],
+      [
+        [
+          "Vienna",
+          [
+            "/wiki/Vienna"
+          ]
+        ],
+        [
+          "Vienna International Airport",
+          [
+            "/wiki/Vienna_International_Airport"
+          ]
+        ],
+        [
+          34,
+          []
+        ],
+        [
+          "Air Serbia , Austrian Airlines",
+          [
+            "/wiki/Air_Serbia",
+            "/wiki/Austrian_Airlines"
+          ]
+        ]
+      ],
+      [
+        [
+          "Zürich",
+          [
+            "/wiki/Zürich"
+          ]
+        ],
+        [
+          "Zürich Airport",
+          [
+            "/wiki/Zürich_Airport"
+          ]
+        ],
+        [
+          34,
+          []
+        ],
+        [
+          "Air Serbia , Swiss International Air Lines",
+          [
+            "/wiki/Air_Serbia",
+            "/wiki/Swiss_International_Air_Lines"
+          ]
+        ]
+      ],
+      [
+        [
+          "Moscow",
+          [
+            "/wiki/Moscow"
+          ]
+        ],
+        [
+          "Moscow-Sheremetyevo , Moscow-Domodedovo",
+          [
+            "/wiki/Moscow–Sheremetyevo",
+            "/wiki/Moscow–Domodedovo"
+          ]
+        ],
+        [
+          32,
+          []
+        ],
+        [
+          "Air Serbia , Aeroflot , Red Wings Airlines",
+          [
+            "/wiki/Air_Serbia",
+            "/wiki/Aeroflot",
+            "/wiki/Red_Wings_Airlines"
+          ]
+        ]
+      ],
+      [
+        [
+          "Istanbul",
+          [
+            "/wiki/Istanbul"
+          ]
+        ],
+        [
+          "Istanbul Airport , Istanbul Sabiha Gökçen International Airport",
+          [
+            "/wiki/Istanbul_Airport",
+            "/wiki/Istanbul_Sabiha_Gökçen_International_Airport"
+          ]
+        ],
+        [
+          22,
+          []
+        ],
+        [
+          "Air Serbia , Turkish Airlines , Pegasus Airlines",
+          [
+            "/wiki/Air_Serbia",
+            "/wiki/Turkish_Airlines",
+            "/wiki/Pegasus_Airlines"
+          ]
+        ]
+      ],
+      [
+        [
+          "Paris",
+          [
+            "/wiki/Paris"
+          ]
+        ],
+        [
+          "Paris Charles de Gaulle Airport , Beauvais-Tillé Airport",
+          [
+            "/wiki/Paris_Charles_de_Gaulle_Airport",
+            "/wiki/Beauvais–Tillé_Airport"
+          ]
+        ],
+        [
+          22,
+          []
+        ],
+        [
+          "Air Serbia , Air France , Wizz Air",
+          [
+            "/wiki/Air_Serbia",
+            "/wiki/Air_France",
+            "/wiki/Wizz_Air"
+          ]
+        ]
+      ],
+      [
+        [
+          "Tivat",
+          [
+            "/wiki/Tivat"
+          ]
+        ],
+        [
+          "Tivat Airport",
+          [
+            "/wiki/Tivat_Airport"
+          ]
+        ],
+        [
+          19,
+          []
+        ],
+        [
+          "Air Serbia , Montenegro Airlines ,",
+          [
+            "/wiki/Air_Serbia",
+            "/wiki/Montenegro_Airlines"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ljubljana",
+          [
+            "/wiki/Ljubljana"
+          ]
+        ],
+        [
+          "Ljubljana Jože Pučnik Airport",
+          [
+            "/wiki/Ljubljana_Jože_Pučnik_Airport"
+          ]
+        ],
+        [
+          19,
+          []
+        ],
+        [
+          "Air Serbia",
+          [
+            "/wiki/Air_Serbia"
+          ]
+        ]
+      ],
+      [
+        [
+          "Frankfurt",
+          [
+            "/wiki/Frankfurt"
+          ]
+        ],
+        [
+          "Frankfurt Airport",
+          [
+            "/wiki/Frankfurt_Airport"
+          ]
+        ],
+        [
+          18,
+          []
+        ],
+        [
+          "Air Serbia , Lufthansa",
+          [
+            "/wiki/Air_Serbia",
+            "/wiki/Lufthansa"
+          ]
+        ]
+      ],
+      [
+        [
+          "Rome",
+          [
+            "/wiki/Rome"
+          ]
+        ],
+        [
+          "Leonardo da Vinci-Fiumicino Airport",
+          [
+            "/wiki/Leonardo_da_Vinci-Fiumicino_Airport"
+          ]
+        ],
+        [
+          16,
+          []
+        ],
+        [
+          "Air Serbia , Alitalia",
+          [
+            "/wiki/Air_Serbia",
+            "/wiki/Alitalia"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about flights departing from Belgrade Nikola Tesla Airport during the Winter 2019/2020 season. It includes details about destination cities, their respective airports, the number of weekly departures, and the airlines operating these routes. The table is useful for analyzing flight frequency and airline connectivity from this airport.",
+  "numeric_columns": [
+    "Weekly Departures ( Winter 2019/2020 )"
+  ],
+  "categorical_columns": [
+    "Airlines"
+  ],
+  "entities": [
+    "City",
+    "Airport"
+  ]
+}

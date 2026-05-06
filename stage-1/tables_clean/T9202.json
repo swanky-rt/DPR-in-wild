@@ -1,0 +1,464 @@
+{
+  "table_id": "T9202",
+  "uid": "e3c53331-c286-5186-801a-130402d45c5c",
+  "source": "HybridQA",
+  "source_table_id": "e3c53331-c286-5186-801a-130402d45c5c",
+  "domain": "HybridQA",
+  "title": "Goitre",
+  "columns": [
+    "Cause",
+    "Pathophysiology",
+    "Resultant thyroid activity",
+    "Growth pattern"
+  ],
+  "rows": [
+    [
+      [
+        "Iodine deficiency",
+        [
+          "/wiki/Iodine_deficiency"
+        ]
+      ],
+      [
+        "Hyperplasia of thyroid to compensate for decreased efficacy",
+        [
+          "/wiki/Hyperplasia"
+        ]
+      ],
+      [
+        "Can cause hypothyroidism",
+        [
+          "/wiki/Hypothyroidism"
+        ]
+      ],
+      [
+        "Diffuse",
+        []
+      ]
+    ],
+    [
+      [
+        "Congenital hypothyroidism",
+        [
+          "/wiki/Congenital_hypothyroidism"
+        ]
+      ],
+      [
+        "Inborn errors of thyroid hormone synthesis",
+        [
+          "/wiki/Inborn_errors_of_metabolism",
+          "/wiki/Thyroid_hormones"
+        ]
+      ],
+      [
+        "Hypothyroidism",
+        [
+          "/wiki/Hypothyroidism"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Hashimoto 's thyroiditis",
+        [
+          "/wiki/Hashimoto's_thyroiditis"
+        ]
+      ],
+      [
+        "Autoimmune disease in which the thyroid gland is gradually destroyed . Infiltration of lymphocytes",
+        [
+          "/wiki/Autoimmune_disease",
+          "/wiki/Lymphocyte"
+        ]
+      ],
+      [
+        "Hypothyroidism",
+        [
+          "/wiki/Hypothyroidism"
+        ]
+      ],
+      [
+        "Diffuse and lobulated",
+        [
+          "/wiki/Lobulated"
+        ]
+      ]
+    ],
+    [
+      [
+        "Pituitary disease",
+        [
+          "/wiki/Pituitary_disease"
+        ]
+      ],
+      [
+        "Hypersecretion of thyroid stimulating hormone , almost always by a pituitary adenoma",
+        [
+          "/wiki/Thyroid_stimulating_hormone"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "Diffuse",
+        []
+      ]
+    ],
+    [
+      [
+        "Graves ' disease - also called Basedow syndrome",
+        [
+          "/wiki/Graves'_disease"
+        ]
+      ],
+      [
+        "Autoantibodies ( TSHR-Ab ) that activate the TSH -receptor ( TSHR )",
+        [
+          "/wiki/Autoantibodies",
+          "/wiki/Thyroid-stimulating_hormone"
+        ]
+      ],
+      [
+        "Hyperthyroidism",
+        [
+          "/wiki/Hyperthyroidism"
+        ]
+      ],
+      [
+        "Diffuse",
+        []
+      ]
+    ],
+    [
+      [
+        "Thyroiditis",
+        [
+          "/wiki/Thyroiditis"
+        ]
+      ],
+      [
+        "Acute or chronic inflammation",
+        [
+          "/wiki/Inflammation"
+        ]
+      ],
+      [
+        "Can be hyperthyroidism initially , but progress to hypothyroidism",
+        [
+          "/wiki/Hyperthyroidism",
+          "/wiki/Hypothyroidism"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Thyroid cancer",
+        [
+          "/wiki/Thyroid_cancer"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "Usually uninodular",
+        []
+      ]
+    ],
+    [
+      [
+        "Benign thyroid neoplasms",
+        [
+          "/wiki/Thyroid_neoplasm"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "Usually hyperthyroidism",
+        [
+          "/wiki/Hyperthyroidism"
+        ]
+      ],
+      [
+        "Usually uninodular",
+        []
+      ]
+    ],
+    [
+      [
+        "Thyroid hormone insensitivity",
+        [
+          "/wiki/Thyroid_hormone_insensitivity"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "Secretional hyperthyroidism , Symptomatic hypothyroidism",
+        [
+          "/wiki/Hyperthyroidism",
+          "/wiki/Hypothyroidism"
+        ]
+      ],
+      [
+        "Diffuse",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "e3c53331-c286-5186-801a-130402d45c5c",
+    "table_id": "Goitre_0",
+    "title": "Goitre",
+    "header": [
+      "Cause",
+      "Pathophysiology",
+      "Resultant thyroid activity",
+      "Growth pattern"
+    ],
+    "value": [
+      [
+        [
+          "Iodine deficiency",
+          [
+            "/wiki/Iodine_deficiency"
+          ]
+        ],
+        [
+          "Hyperplasia of thyroid to compensate for decreased efficacy",
+          [
+            "/wiki/Hyperplasia"
+          ]
+        ],
+        [
+          "Can cause hypothyroidism",
+          [
+            "/wiki/Hypothyroidism"
+          ]
+        ],
+        [
+          "Diffuse",
+          []
+        ]
+      ],
+      [
+        [
+          "Congenital hypothyroidism",
+          [
+            "/wiki/Congenital_hypothyroidism"
+          ]
+        ],
+        [
+          "Inborn errors of thyroid hormone synthesis",
+          [
+            "/wiki/Inborn_errors_of_metabolism",
+            "/wiki/Thyroid_hormones"
+          ]
+        ],
+        [
+          "Hypothyroidism",
+          [
+            "/wiki/Hypothyroidism"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Hashimoto 's thyroiditis",
+          [
+            "/wiki/Hashimoto's_thyroiditis"
+          ]
+        ],
+        [
+          "Autoimmune disease in which the thyroid gland is gradually destroyed . Infiltration of lymphocytes",
+          [
+            "/wiki/Autoimmune_disease",
+            "/wiki/Lymphocyte"
+          ]
+        ],
+        [
+          "Hypothyroidism",
+          [
+            "/wiki/Hypothyroidism"
+          ]
+        ],
+        [
+          "Diffuse and lobulated",
+          [
+            "/wiki/Lobulated"
+          ]
+        ]
+      ],
+      [
+        [
+          "Pituitary disease",
+          [
+            "/wiki/Pituitary_disease"
+          ]
+        ],
+        [
+          "Hypersecretion of thyroid stimulating hormone , almost always by a pituitary adenoma",
+          [
+            "/wiki/Thyroid_stimulating_hormone"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "Diffuse",
+          []
+        ]
+      ],
+      [
+        [
+          "Graves ' disease - also called Basedow syndrome",
+          [
+            "/wiki/Graves'_disease"
+          ]
+        ],
+        [
+          "Autoantibodies ( TSHR-Ab ) that activate the TSH -receptor ( TSHR )",
+          [
+            "/wiki/Autoantibodies",
+            "/wiki/Thyroid-stimulating_hormone"
+          ]
+        ],
+        [
+          "Hyperthyroidism",
+          [
+            "/wiki/Hyperthyroidism"
+          ]
+        ],
+        [
+          "Diffuse",
+          []
+        ]
+      ],
+      [
+        [
+          "Thyroiditis",
+          [
+            "/wiki/Thyroiditis"
+          ]
+        ],
+        [
+          "Acute or chronic inflammation",
+          [
+            "/wiki/Inflammation"
+          ]
+        ],
+        [
+          "Can be hyperthyroidism initially , but progress to hypothyroidism",
+          [
+            "/wiki/Hyperthyroidism",
+            "/wiki/Hypothyroidism"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Thyroid cancer",
+          [
+            "/wiki/Thyroid_cancer"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "Usually uninodular",
+          []
+        ]
+      ],
+      [
+        [
+          "Benign thyroid neoplasms",
+          [
+            "/wiki/Thyroid_neoplasm"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "Usually hyperthyroidism",
+          [
+            "/wiki/Hyperthyroidism"
+          ]
+        ],
+        [
+          "Usually uninodular",
+          []
+        ]
+      ],
+      [
+        [
+          "Thyroid hormone insensitivity",
+          [
+            "/wiki/Thyroid_hormone_insensitivity"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "Secretional hyperthyroidism , Symptomatic hypothyroidism",
+          [
+            "/wiki/Hyperthyroidism",
+            "/wiki/Hypothyroidism"
+          ]
+        ],
+        [
+          "Diffuse",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of goitre, focusing on its causes, underlying mechanisms, effects on thyroid activity, and growth patterns. It is designed to categorize and explain different aspects of the condition, likely for educational or medical reference purposes.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Cause",
+    "Pathophysiology",
+    "Resultant thyroid activity",
+    "Growth pattern"
+  ],
+  "entities": []
+}

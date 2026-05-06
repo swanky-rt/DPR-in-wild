@@ -1,0 +1,463 @@
+{
+  "table_id": "T6979",
+  "uid": "88233486-fe86-55f7-91db-98931e2be535",
+  "source": "HybridQA",
+  "source_table_id": "88233486-fe86-55f7-91db-98931e2be535",
+  "domain": "HybridQA",
+  "title": "List of high-speed railway lines",
+  "columns": [
+    "Line name",
+    "Start and end points",
+    "Maximum speed",
+    "Opening",
+    "Length"
+  ],
+  "rows": [
+    [
+      [
+        "HSL 1",
+        [
+          "/wiki/HSL_1"
+        ]
+      ],
+      [
+        "LGV Nord - Bruxelles-Sud",
+        [
+          "/wiki/LGV_Nord",
+          "/wiki/Brussels-South_railway_station"
+        ]
+      ],
+      [
+        "300 km/h ( 190 mph )",
+        []
+      ],
+      [
+        "December 14 , 1997",
+        []
+      ],
+      [
+        "88 km ( 55 mi )",
+        []
+      ]
+    ],
+    [
+      [
+        "HSL 2",
+        [
+          "/wiki/HSL_2"
+        ]
+      ],
+      [
+        "Bruxelles-Nord - Liège-Guillemins",
+        [
+          "/wiki/Brussels-North_railway_station",
+          "/wiki/Liège-Guillemins_railway_station"
+        ]
+      ],
+      [
+        "300 km/h ( 190 mph )",
+        []
+      ],
+      [
+        "December 15 , 2002",
+        []
+      ],
+      [
+        "95 km ( 59 mi )",
+        []
+      ]
+    ],
+    [
+      [
+        "HSL 3",
+        [
+          "/wiki/HSL_3"
+        ]
+      ],
+      [
+        "Liège-Guillemins - Cologne-Aachen",
+        [
+          "/wiki/Liège-Guillemins_railway_station",
+          "/wiki/Cologne-Aachen_high-speed_railway"
+        ]
+      ],
+      [
+        "260 km/h ( 160 mph )",
+        []
+      ],
+      [
+        "June 14 , 2009",
+        []
+      ],
+      [
+        "56 km ( 35 mi )",
+        []
+      ]
+    ],
+    [
+      [
+        "HSL 4",
+        [
+          "/wiki/HSL_4"
+        ]
+      ],
+      [
+        "Antwerpen-Centraal - HSL Zuid",
+        [
+          "/wiki/Antwerpen-Centraal_railway_station",
+          "/wiki/HSL_Zuid"
+        ]
+      ],
+      [
+        "300 km/h ( 190 mph )",
+        []
+      ],
+      [
+        2009,
+        []
+      ],
+      [
+        "87 km ( 54 mi )",
+        []
+      ]
+    ],
+    [
+      [
+        "Line 25N",
+        []
+      ],
+      [
+        "Schaarbeek - Mechelen",
+        [
+          "/wiki/Schaarbeek",
+          "/wiki/Mechelen"
+        ]
+      ],
+      [
+        "160 km/h ( 99 mph ) ( now ) 220 km/h ( 140 mph ) ( soon )",
+        []
+      ],
+      [
+        "2019 - 2020",
+        []
+      ],
+      [
+        "20 km ( 12 mi )",
+        []
+      ]
+    ],
+    [
+      [
+        "Line 50A",
+        [
+          "/wiki/Belgian_railway_line_50A"
+        ]
+      ],
+      [
+        "Brussels-South railway station - Ostend",
+        [
+          "/wiki/Brussels-South_railway_station",
+          "/wiki/Ostend"
+        ]
+      ],
+      [
+        "160 km/h ( 99 mph ) ( now ) 200 km/h ( 120 mph ) ( soon )",
+        []
+      ],
+      [
+        "2020+ ( upgrading )",
+        []
+      ],
+      [
+        "114.3 km ( 71.0 mi )",
+        []
+      ]
+    ],
+    [
+      [
+        "Line 36N",
+        []
+      ],
+      [
+        "Brussels-North railway station - Leuven",
+        [
+          "/wiki/Brussels-North_railway_station",
+          "/wiki/Leuven"
+        ]
+      ],
+      [
+        "200 km/h ( 120 mph ) ( after 2012 )",
+        []
+      ],
+      [
+        "2003-2006",
+        []
+      ],
+      [
+        "28.8 km ( 17.9 mi )",
+        []
+      ]
+    ],
+    [
+      [
+        "Line 96N",
+        []
+      ],
+      [
+        "Brussels-South railway station - Halle",
+        [
+          "/wiki/Brussels-South_railway_station",
+          "/wiki/Halle_(B)_railway_station"
+        ]
+      ],
+      [
+        "160 km/h ( 99 mph ) ( now ) 200 km/h ( 120 mph ) ( soon )",
+        []
+      ],
+      [
+        "2020+",
+        []
+      ],
+      [
+        "13.6 km ( 8.5 mi )",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "88233486-fe86-55f7-91db-98931e2be535",
+    "table_id": "High-speed_rail_by_country_4",
+    "title": "List of high-speed railway lines",
+    "header": [
+      "Line name",
+      "Start and end points",
+      "Maximum speed",
+      "Opening",
+      "Length"
+    ],
+    "value": [
+      [
+        [
+          "HSL 1",
+          [
+            "/wiki/HSL_1"
+          ]
+        ],
+        [
+          "LGV Nord - Bruxelles-Sud",
+          [
+            "/wiki/LGV_Nord",
+            "/wiki/Brussels-South_railway_station"
+          ]
+        ],
+        [
+          "300 km/h ( 190 mph )",
+          []
+        ],
+        [
+          "December 14 , 1997",
+          []
+        ],
+        [
+          "88 km ( 55 mi )",
+          []
+        ]
+      ],
+      [
+        [
+          "HSL 2",
+          [
+            "/wiki/HSL_2"
+          ]
+        ],
+        [
+          "Bruxelles-Nord - Liège-Guillemins",
+          [
+            "/wiki/Brussels-North_railway_station",
+            "/wiki/Liège-Guillemins_railway_station"
+          ]
+        ],
+        [
+          "300 km/h ( 190 mph )",
+          []
+        ],
+        [
+          "December 15 , 2002",
+          []
+        ],
+        [
+          "95 km ( 59 mi )",
+          []
+        ]
+      ],
+      [
+        [
+          "HSL 3",
+          [
+            "/wiki/HSL_3"
+          ]
+        ],
+        [
+          "Liège-Guillemins - Cologne-Aachen",
+          [
+            "/wiki/Liège-Guillemins_railway_station",
+            "/wiki/Cologne-Aachen_high-speed_railway"
+          ]
+        ],
+        [
+          "260 km/h ( 160 mph )",
+          []
+        ],
+        [
+          "June 14 , 2009",
+          []
+        ],
+        [
+          "56 km ( 35 mi )",
+          []
+        ]
+      ],
+      [
+        [
+          "HSL 4",
+          [
+            "/wiki/HSL_4"
+          ]
+        ],
+        [
+          "Antwerpen-Centraal - HSL Zuid",
+          [
+            "/wiki/Antwerpen-Centraal_railway_station",
+            "/wiki/HSL_Zuid"
+          ]
+        ],
+        [
+          "300 km/h ( 190 mph )",
+          []
+        ],
+        [
+          2009,
+          []
+        ],
+        [
+          "87 km ( 54 mi )",
+          []
+        ]
+      ],
+      [
+        [
+          "Line 25N",
+          []
+        ],
+        [
+          "Schaarbeek - Mechelen",
+          [
+            "/wiki/Schaarbeek",
+            "/wiki/Mechelen"
+          ]
+        ],
+        [
+          "160 km/h ( 99 mph ) ( now ) 220 km/h ( 140 mph ) ( soon )",
+          []
+        ],
+        [
+          "2019 - 2020",
+          []
+        ],
+        [
+          "20 km ( 12 mi )",
+          []
+        ]
+      ],
+      [
+        [
+          "Line 50A",
+          [
+            "/wiki/Belgian_railway_line_50A"
+          ]
+        ],
+        [
+          "Brussels-South railway station - Ostend",
+          [
+            "/wiki/Brussels-South_railway_station",
+            "/wiki/Ostend"
+          ]
+        ],
+        [
+          "160 km/h ( 99 mph ) ( now ) 200 km/h ( 120 mph ) ( soon )",
+          []
+        ],
+        [
+          "2020+ ( upgrading )",
+          []
+        ],
+        [
+          "114.3 km ( 71.0 mi )",
+          []
+        ]
+      ],
+      [
+        [
+          "Line 36N",
+          []
+        ],
+        [
+          "Brussels-North railway station - Leuven",
+          [
+            "/wiki/Brussels-North_railway_station",
+            "/wiki/Leuven"
+          ]
+        ],
+        [
+          "200 km/h ( 120 mph ) ( after 2012 )",
+          []
+        ],
+        [
+          "2003-2006",
+          []
+        ],
+        [
+          "28.8 km ( 17.9 mi )",
+          []
+        ]
+      ],
+      [
+        [
+          "Line 96N",
+          []
+        ],
+        [
+          "Brussels-South railway station - Halle",
+          [
+            "/wiki/Brussels-South_railway_station",
+            "/wiki/Halle_(B)_railway_station"
+          ]
+        ],
+        [
+          "160 km/h ( 99 mph ) ( now ) 200 km/h ( 120 mph ) ( soon )",
+          []
+        ],
+        [
+          "2020+",
+          []
+        ],
+        [
+          "13.6 km ( 8.5 mi )",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about high-speed railway lines, including their names, routes, maximum speeds, opening dates, and lengths. It serves as a reference for understanding key characteristics and specifications of these railway lines. The data combines technical details with geographic and temporal context.",
+  "numeric_columns": [
+    "Maximum speed",
+    "Length"
+  ],
+  "categorical_columns": [
+    "Opening"
+  ],
+  "entities": [
+    "Line name",
+    "Start and end points"
+  ]
+}

@@ -1,0 +1,563 @@
+{
+  "table_id": "T6119",
+  "uid": "bfac96d7-8312-51dc-af40-be97e093f83e",
+  "source": "HybridQA",
+  "source_table_id": "bfac96d7-8312-51dc-af40-be97e093f83e",
+  "domain": "HybridQA",
+  "title": "Outback (region)",
+  "columns": [
+    "Town",
+    "Type",
+    "Population ( Census 2006 )",
+    "founded",
+    "Local Government Area"
+  ],
+  "rows": [
+    [
+      [
+        "Roxby Downs",
+        [
+          "/wiki/Roxby_Downs,_South_Australia"
+        ]
+      ],
+      [
+        "mining town",
+        []
+      ],
+      [
+        4055,
+        []
+      ],
+      [
+        1988,
+        []
+      ],
+      [
+        "Roxby Downs",
+        [
+          "/wiki/Municipal_Council_of_Roxby_Downs"
+        ]
+      ]
+    ],
+    [
+      [
+        "Coober Pedy",
+        [
+          "/wiki/Coober_Pedy"
+        ]
+      ],
+      [
+        "opal mining town",
+        []
+      ],
+      [
+        1916,
+        []
+      ],
+      [
+        1915,
+        []
+      ],
+      [
+        "Coober Pedy",
+        [
+          "/wiki/District_Council_of_Coober_Pedy"
+        ]
+      ]
+    ],
+    [
+      [
+        "Leigh Creek",
+        [
+          "/wiki/Leigh_Creek,_South_Australia"
+        ]
+      ],
+      [
+        "coal mining town",
+        []
+      ],
+      [
+        548,
+        []
+      ],
+      [
+        1888,
+        []
+      ],
+      [
+        "Outback Areas Community Development Trust",
+        [
+          "/wiki/Outback_Areas_Community_Development_Trust"
+        ]
+      ]
+    ],
+    [
+      [
+        "Andamooka",
+        [
+          "/wiki/Andamooka,_South_Australia"
+        ]
+      ],
+      [
+        "opal mining town",
+        []
+      ],
+      [
+        528,
+        []
+      ],
+      [
+        "1920s",
+        []
+      ],
+      [
+        "Outback Areas Community Development Trust",
+        [
+          "/wiki/Outback_Areas_Community_Development_Trust"
+        ]
+      ]
+    ],
+    [
+      [
+        "Indulkana",
+        [
+          "/wiki/Indulkana,_South_Australia"
+        ]
+      ],
+      [
+        "aboriginal community",
+        []
+      ],
+      [
+        339,
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "Anangu Pitjantjatjara Yankunytjatjara",
+        [
+          "/wiki/Anangu_Pitjantjatjara_Yankunytjatjara"
+        ]
+      ]
+    ],
+    [
+      [
+        "Pukatja ( Ernabella )",
+        [
+          "/wiki/Pukatja,_South_Australia"
+        ]
+      ],
+      [
+        "aboriginal community",
+        []
+      ],
+      [
+        332,
+        []
+      ],
+      [
+        1938,
+        []
+      ],
+      [
+        "Anangu Pitjantjatjara Yankunytjatjara",
+        [
+          "/wiki/Anangu_Pitjantjatjara_Yankunytjatjara"
+        ]
+      ]
+    ],
+    [
+      [
+        "Amata",
+        [
+          "/wiki/Amata,_South_Australia"
+        ]
+      ],
+      [
+        "aboriginal community",
+        []
+      ],
+      [
+        319,
+        []
+      ],
+      [
+        1961,
+        []
+      ],
+      [
+        "Anangu Pitjantjatjara Yankunytjatjara",
+        [
+          "/wiki/Anangu_Pitjantjatjara_Yankunytjatjara"
+        ]
+      ]
+    ],
+    [
+      [
+        "Mimili",
+        [
+          "/wiki/Mimili,_South_Australia"
+        ]
+      ],
+      [
+        "aboriginal community",
+        []
+      ],
+      [
+        303,
+        []
+      ],
+      [
+        1972,
+        []
+      ],
+      [
+        "Anangu Pitjantjatjara Yankunytjatjara",
+        [
+          "/wiki/Anangu_Pitjantjatjara_Yankunytjatjara"
+        ]
+      ]
+    ],
+    [
+      [
+        "Woomera",
+        [
+          "/wiki/Woomera,_South_Australia"
+        ]
+      ],
+      [
+        "military facility",
+        []
+      ],
+      [
+        295,
+        []
+      ],
+      [
+        1947,
+        []
+      ],
+      [
+        "Outback Areas Community Development Trust",
+        [
+          "/wiki/Outback_Areas_Community_Development_Trust"
+        ]
+      ]
+    ],
+    [
+      [
+        "Oodnadatta",
+        [
+          "/wiki/Oodnadatta,_South_Australia"
+        ]
+      ],
+      [
+        "cattle station",
+        []
+      ],
+      [
+        277,
+        []
+      ],
+      [
+        1890,
+        []
+      ],
+      [
+        "Outback Areas Community Development Trust",
+        [
+          "/wiki/Outback_Areas_Community_Development_Trust"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "bfac96d7-8312-51dc-af40-be97e093f83e",
+    "table_id": "Outback_(region)_0",
+    "title": "Outback (region)",
+    "header": [
+      "Town",
+      "Type",
+      "Population ( Census 2006 )",
+      "founded",
+      "Local Government Area"
+    ],
+    "value": [
+      [
+        [
+          "Roxby Downs",
+          [
+            "/wiki/Roxby_Downs,_South_Australia"
+          ]
+        ],
+        [
+          "mining town",
+          []
+        ],
+        [
+          4055,
+          []
+        ],
+        [
+          1988,
+          []
+        ],
+        [
+          "Roxby Downs",
+          [
+            "/wiki/Municipal_Council_of_Roxby_Downs"
+          ]
+        ]
+      ],
+      [
+        [
+          "Coober Pedy",
+          [
+            "/wiki/Coober_Pedy"
+          ]
+        ],
+        [
+          "opal mining town",
+          []
+        ],
+        [
+          1916,
+          []
+        ],
+        [
+          1915,
+          []
+        ],
+        [
+          "Coober Pedy",
+          [
+            "/wiki/District_Council_of_Coober_Pedy"
+          ]
+        ]
+      ],
+      [
+        [
+          "Leigh Creek",
+          [
+            "/wiki/Leigh_Creek,_South_Australia"
+          ]
+        ],
+        [
+          "coal mining town",
+          []
+        ],
+        [
+          548,
+          []
+        ],
+        [
+          1888,
+          []
+        ],
+        [
+          "Outback Areas Community Development Trust",
+          [
+            "/wiki/Outback_Areas_Community_Development_Trust"
+          ]
+        ]
+      ],
+      [
+        [
+          "Andamooka",
+          [
+            "/wiki/Andamooka,_South_Australia"
+          ]
+        ],
+        [
+          "opal mining town",
+          []
+        ],
+        [
+          528,
+          []
+        ],
+        [
+          "1920s",
+          []
+        ],
+        [
+          "Outback Areas Community Development Trust",
+          [
+            "/wiki/Outback_Areas_Community_Development_Trust"
+          ]
+        ]
+      ],
+      [
+        [
+          "Indulkana",
+          [
+            "/wiki/Indulkana,_South_Australia"
+          ]
+        ],
+        [
+          "aboriginal community",
+          []
+        ],
+        [
+          339,
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "Anangu Pitjantjatjara Yankunytjatjara",
+          [
+            "/wiki/Anangu_Pitjantjatjara_Yankunytjatjara"
+          ]
+        ]
+      ],
+      [
+        [
+          "Pukatja ( Ernabella )",
+          [
+            "/wiki/Pukatja,_South_Australia"
+          ]
+        ],
+        [
+          "aboriginal community",
+          []
+        ],
+        [
+          332,
+          []
+        ],
+        [
+          1938,
+          []
+        ],
+        [
+          "Anangu Pitjantjatjara Yankunytjatjara",
+          [
+            "/wiki/Anangu_Pitjantjatjara_Yankunytjatjara"
+          ]
+        ]
+      ],
+      [
+        [
+          "Amata",
+          [
+            "/wiki/Amata,_South_Australia"
+          ]
+        ],
+        [
+          "aboriginal community",
+          []
+        ],
+        [
+          319,
+          []
+        ],
+        [
+          1961,
+          []
+        ],
+        [
+          "Anangu Pitjantjatjara Yankunytjatjara",
+          [
+            "/wiki/Anangu_Pitjantjatjara_Yankunytjatjara"
+          ]
+        ]
+      ],
+      [
+        [
+          "Mimili",
+          [
+            "/wiki/Mimili,_South_Australia"
+          ]
+        ],
+        [
+          "aboriginal community",
+          []
+        ],
+        [
+          303,
+          []
+        ],
+        [
+          1972,
+          []
+        ],
+        [
+          "Anangu Pitjantjatjara Yankunytjatjara",
+          [
+            "/wiki/Anangu_Pitjantjatjara_Yankunytjatjara"
+          ]
+        ]
+      ],
+      [
+        [
+          "Woomera",
+          [
+            "/wiki/Woomera,_South_Australia"
+          ]
+        ],
+        [
+          "military facility",
+          []
+        ],
+        [
+          295,
+          []
+        ],
+        [
+          1947,
+          []
+        ],
+        [
+          "Outback Areas Community Development Trust",
+          [
+            "/wiki/Outback_Areas_Community_Development_Trust"
+          ]
+        ]
+      ],
+      [
+        [
+          "Oodnadatta",
+          [
+            "/wiki/Oodnadatta,_South_Australia"
+          ]
+        ],
+        [
+          "cattle station",
+          []
+        ],
+        [
+          277,
+          []
+        ],
+        [
+          1890,
+          []
+        ],
+        [
+          "Outback Areas Community Development Trust",
+          [
+            "/wiki/Outback_Areas_Community_Development_Trust"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about towns in the Outback region, including their type, population as of the 2006 census, founding year, and associated local government area. It appears to be aimed at categorizing and summarizing key details about these towns for reference or analysis.",
+  "numeric_columns": [
+    "Population ( Census 2006 )",
+    "founded"
+  ],
+  "categorical_columns": [
+    "Type"
+  ],
+  "entities": [
+    "Town",
+    "Local Government Area"
+  ]
+}

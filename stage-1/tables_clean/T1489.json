@@ -1,0 +1,293 @@
+{
+  "table_id": "T1489",
+  "uid": "a79d90b8-79b1-5069-89af-d86359b5eb81",
+  "source": "HybridQA",
+  "source_table_id": "a79d90b8-79b1-5069-89af-d86359b5eb81",
+  "domain": "HybridQA",
+  "title": "1991 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "You Ok-Youl ( KOR )",
+        [
+          "/wiki/You_Ok-Youl"
+        ]
+      ],
+      [
+        9.7,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Vitaly Scherbo ( URS )",
+        [
+          "/wiki/Vitaly_Scherbo"
+        ]
+      ],
+      [
+        9.699,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Yutaka Aihara ( JPN )",
+        [
+          "/wiki/Yutaka_Aihara"
+        ]
+      ],
+      [
+        9.631,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Sylvio Kroll ( GER )",
+        [
+          "/wiki/Sylvio_Kroll"
+        ]
+      ],
+      [
+        9.618,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Mike Inglis ( CAN )",
+        [
+          "/wiki/Mike_Inglis_(gymnast)"
+        ]
+      ],
+      [
+        9.581,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Yukio Iketani ( JPN )",
+        [
+          "/wiki/Yukio_Iketani"
+        ]
+      ],
+      [
+        9.456,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Igor Korobchinsky ( URS )",
+        [
+          "/wiki/Igor_Korobchinsky"
+        ]
+      ],
+      [
+        9.393,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Li Jing ( CHN )",
+        [
+          "/wiki/Li_Jing_(gymnast)"
+        ]
+      ],
+      [
+        9.381,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "a79d90b8-79b1-5069-89af-d86359b5eb81",
+    "table_id": "1991_World_Artistic_Gymnastics_Championships_4",
+    "title": "1991 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "You Ok-Youl ( KOR )",
+          [
+            "/wiki/You_Ok-Youl"
+          ]
+        ],
+        [
+          9.7,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Vitaly Scherbo ( URS )",
+          [
+            "/wiki/Vitaly_Scherbo"
+          ]
+        ],
+        [
+          9.699,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Yutaka Aihara ( JPN )",
+          [
+            "/wiki/Yutaka_Aihara"
+          ]
+        ],
+        [
+          9.631,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Sylvio Kroll ( GER )",
+          [
+            "/wiki/Sylvio_Kroll"
+          ]
+        ],
+        [
+          9.618,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Mike Inglis ( CAN )",
+          [
+            "/wiki/Mike_Inglis_(gymnast)"
+          ]
+        ],
+        [
+          9.581,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Yukio Iketani ( JPN )",
+          [
+            "/wiki/Yukio_Iketani"
+          ]
+        ],
+        [
+          9.456,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Igor Korobchinsky ( URS )",
+          [
+            "/wiki/Igor_Korobchinsky"
+          ]
+        ],
+        [
+          9.393,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Li Jing ( CHN )",
+          [
+            "/wiki/Li_Jing_(gymnast)"
+          ]
+        ],
+        [
+          9.381,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table represents the rankings and scores of gymnasts at the 1991 World Artistic Gymnastics Championships. It includes information about their rank, names, and total scores achieved during the competition. The purpose is to summarize the performance and standings of participants in this event.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

@@ -1,0 +1,554 @@
+{
+  "table_id": "T2247",
+  "uid": "690eb7f8-3117-52f4-9141-3d6861c6e12f",
+  "source": "HybridQA",
+  "source_table_id": "690eb7f8-3117-52f4-9141-3d6861c6e12f",
+  "domain": "HybridQA",
+  "title": "Superliga Femenina de Voleibol",
+  "columns": [
+    "Team",
+    "Stadium",
+    "Capacity",
+    "City/Area"
+  ],
+  "rows": [
+    [
+      [
+        "Minis Arluy VB Logroño",
+        [
+          "/wiki/CV_Murillo"
+        ]
+      ],
+      [
+        "CDM Lobete",
+        []
+      ],
+      [
+        "1,100",
+        []
+      ],
+      [
+        "Logroño",
+        [
+          "/wiki/Logroño"
+        ]
+      ]
+    ],
+    [
+      [
+        "Fachadas Dimurol Libby 's",
+        []
+      ],
+      [
+        "Pablos Abril",
+        []
+      ],
+      [
+        500,
+        []
+      ],
+      [
+        "San Cristóbal de La Laguna",
+        [
+          "/wiki/San_Cristóbal_de_La_Laguna"
+        ]
+      ]
+    ],
+    [
+      [
+        "Haro Rioja Voley",
+        [
+          "/wiki/CV_Haro"
+        ]
+      ],
+      [
+        "El Ferial",
+        []
+      ],
+      [
+        800,
+        []
+      ],
+      [
+        "Haro",
+        [
+          "/wiki/Haro,_La_Rioja"
+        ]
+      ]
+    ],
+    [
+      [
+        "Feel Volley Alcobendas",
+        [
+          "/wiki/CV_Alcobendas"
+        ]
+      ],
+      [
+        "Luis Buñuel",
+        []
+      ],
+      [
+        100,
+        []
+      ],
+      [
+        "Alcobendas",
+        [
+          "/wiki/Alcobendas"
+        ]
+      ]
+    ],
+    [
+      [
+        "Aguere Ciudad de la Laguna",
+        [
+          "/wiki/CV_Aguere"
+        ]
+      ],
+      [
+        "Juan Ríos Tejera",
+        []
+      ],
+      [
+        "3,500",
+        []
+      ],
+      [
+        "San Cristóbal de La Laguna",
+        [
+          "/wiki/San_Cristóbal_de_La_Laguna"
+        ]
+      ]
+    ],
+    [
+      [
+        "CVB-Barça",
+        [
+          "/wiki/CV_Barcelona"
+        ]
+      ],
+      [
+        "L'Hospitalet Nord",
+        []
+      ],
+      [
+        "1,000",
+        []
+      ],
+      [
+        "Barcelona",
+        [
+          "/wiki/Barcelona"
+        ]
+      ]
+    ],
+    [
+      [
+        "Avarca de Menorca",
+        [
+          "/wiki/CV_Ciutadella"
+        ]
+      ],
+      [
+        "Pavelló Municipal",
+        []
+      ],
+      [
+        "2,500",
+        []
+      ],
+      [
+        "Ciutadella , Balearic Islands",
+        [
+          "/wiki/Ciutadella_de_Menorca",
+          "/wiki/Balearic_Islands"
+        ]
+      ]
+    ],
+    [
+      [
+        "CCO 7 Palmas Gran Canaria",
+        []
+      ],
+      [
+        "Centro Insular",
+        [
+          "/wiki/Centro_Insular_de_Deportes"
+        ]
+      ],
+      [
+        "5,200",
+        []
+      ],
+      [
+        "Las Palmas de Gran Canaria",
+        [
+          "/wiki/Las_Palmas_de_Gran_Canaria"
+        ]
+      ]
+    ],
+    [
+      [
+        "DSV Sant Cugat",
+        []
+      ],
+      [
+        "Pavelló Municipal de Valldoreix",
+        []
+      ],
+      [
+        700,
+        []
+      ],
+      [
+        "Sant Cugat del Vallès",
+        [
+          "/wiki/Sant_Cugat_del_Vallès"
+        ]
+      ]
+    ],
+    [
+      [
+        "VP Madrid",
+        []
+      ],
+      [
+        "CDM Entrevías",
+        []
+      ],
+      [
+        700,
+        []
+      ],
+      [
+        "Madrid",
+        [
+          "/wiki/Madrid"
+        ]
+      ]
+    ],
+    [
+      [
+        "Cajasol Juvasa",
+        []
+      ],
+      [
+        "Los Montecillos",
+        []
+      ],
+      [
+        "1,500",
+        []
+      ],
+      [
+        "Dos Hermanas , Andalusia",
+        [
+          "/wiki/Dos_Hermanas",
+          "/wiki/Andalusia"
+        ]
+      ]
+    ],
+    [
+      [
+        "Arona Tenerife Sur",
+        []
+      ],
+      [
+        "Jesús Domínguez Grillo",
+        []
+      ],
+      [
+        "1,000",
+        []
+      ],
+      [
+        "Arona , Canary Islands",
+        [
+          "/wiki/Arona,_Tenerife",
+          "/wiki/Canary_Islands"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "690eb7f8-3117-52f4-9141-3d6861c6e12f",
+    "table_id": "Superliga_Femenina_de_Voleibol_0",
+    "title": "Superliga Femenina de Voleibol",
+    "header": [
+      "Team",
+      "Stadium",
+      "Capacity",
+      "City/Area"
+    ],
+    "value": [
+      [
+        [
+          "Minis Arluy VB Logroño",
+          [
+            "/wiki/CV_Murillo"
+          ]
+        ],
+        [
+          "CDM Lobete",
+          []
+        ],
+        [
+          "1,100",
+          []
+        ],
+        [
+          "Logroño",
+          [
+            "/wiki/Logroño"
+          ]
+        ]
+      ],
+      [
+        [
+          "Fachadas Dimurol Libby 's",
+          []
+        ],
+        [
+          "Pablos Abril",
+          []
+        ],
+        [
+          500,
+          []
+        ],
+        [
+          "San Cristóbal de La Laguna",
+          [
+            "/wiki/San_Cristóbal_de_La_Laguna"
+          ]
+        ]
+      ],
+      [
+        [
+          "Haro Rioja Voley",
+          [
+            "/wiki/CV_Haro"
+          ]
+        ],
+        [
+          "El Ferial",
+          []
+        ],
+        [
+          800,
+          []
+        ],
+        [
+          "Haro",
+          [
+            "/wiki/Haro,_La_Rioja"
+          ]
+        ]
+      ],
+      [
+        [
+          "Feel Volley Alcobendas",
+          [
+            "/wiki/CV_Alcobendas"
+          ]
+        ],
+        [
+          "Luis Buñuel",
+          []
+        ],
+        [
+          100,
+          []
+        ],
+        [
+          "Alcobendas",
+          [
+            "/wiki/Alcobendas"
+          ]
+        ]
+      ],
+      [
+        [
+          "Aguere Ciudad de la Laguna",
+          [
+            "/wiki/CV_Aguere"
+          ]
+        ],
+        [
+          "Juan Ríos Tejera",
+          []
+        ],
+        [
+          "3,500",
+          []
+        ],
+        [
+          "San Cristóbal de La Laguna",
+          [
+            "/wiki/San_Cristóbal_de_La_Laguna"
+          ]
+        ]
+      ],
+      [
+        [
+          "CVB-Barça",
+          [
+            "/wiki/CV_Barcelona"
+          ]
+        ],
+        [
+          "L'Hospitalet Nord",
+          []
+        ],
+        [
+          "1,000",
+          []
+        ],
+        [
+          "Barcelona",
+          [
+            "/wiki/Barcelona"
+          ]
+        ]
+      ],
+      [
+        [
+          "Avarca de Menorca",
+          [
+            "/wiki/CV_Ciutadella"
+          ]
+        ],
+        [
+          "Pavelló Municipal",
+          []
+        ],
+        [
+          "2,500",
+          []
+        ],
+        [
+          "Ciutadella , Balearic Islands",
+          [
+            "/wiki/Ciutadella_de_Menorca",
+            "/wiki/Balearic_Islands"
+          ]
+        ]
+      ],
+      [
+        [
+          "CCO 7 Palmas Gran Canaria",
+          []
+        ],
+        [
+          "Centro Insular",
+          [
+            "/wiki/Centro_Insular_de_Deportes"
+          ]
+        ],
+        [
+          "5,200",
+          []
+        ],
+        [
+          "Las Palmas de Gran Canaria",
+          [
+            "/wiki/Las_Palmas_de_Gran_Canaria"
+          ]
+        ]
+      ],
+      [
+        [
+          "DSV Sant Cugat",
+          []
+        ],
+        [
+          "Pavelló Municipal de Valldoreix",
+          []
+        ],
+        [
+          700,
+          []
+        ],
+        [
+          "Sant Cugat del Vallès",
+          [
+            "/wiki/Sant_Cugat_del_Vallès"
+          ]
+        ]
+      ],
+      [
+        [
+          "VP Madrid",
+          []
+        ],
+        [
+          "CDM Entrevías",
+          []
+        ],
+        [
+          700,
+          []
+        ],
+        [
+          "Madrid",
+          [
+            "/wiki/Madrid"
+          ]
+        ]
+      ],
+      [
+        [
+          "Cajasol Juvasa",
+          []
+        ],
+        [
+          "Los Montecillos",
+          []
+        ],
+        [
+          "1,500",
+          []
+        ],
+        [
+          "Dos Hermanas , Andalusia",
+          [
+            "/wiki/Dos_Hermanas",
+            "/wiki/Andalusia"
+          ]
+        ]
+      ],
+      [
+        [
+          "Arona Tenerife Sur",
+          []
+        ],
+        [
+          "Jesús Domínguez Grillo",
+          []
+        ],
+        [
+          "1,000",
+          []
+        ],
+        [
+          "Arona , Canary Islands",
+          [
+            "/wiki/Arona,_Tenerife",
+            "/wiki/Canary_Islands"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about teams participating in the Superliga Femenina de Voleibol, including their stadiums, seating capacities, and associated cities or areas. It serves as a reference for understanding the venues and geographic distribution of the teams in the league.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "Team",
+    "Stadium"
+  ],
+  "entities": [
+    "City/Area"
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "table_id": "T8871",
+  "uid": "25092909-bcee-53eb-b92b-6aad56204beb",
+  "source": "HybridQA",
+  "source_table_id": "25092909-bcee-53eb-b92b-6aad56204beb",
+  "domain": "HybridQA",
+  "title": "List of lunar features",
+  "columns": [
+    "Name",
+    "Dia",
+    "Name Origin"
+  ],
+  "rows": [
+    [
+      [
+        "Rupes Altai",
+        [
+          "/wiki/Rupes_Altai"
+        ]
+      ],
+      [
+        "427.0 km",
+        []
+      ],
+      [
+        "Altai Mountains",
+        [
+          "/wiki/Altai_Mountains"
+        ]
+      ]
+    ],
+    [
+      [
+        "Rupes Boris",
+        [
+          "/wiki/Rupes_Boris"
+        ]
+      ],
+      [
+        "4.0 km",
+        []
+      ],
+      [
+        "Named from nearby crater Boris",
+        [
+          "/wiki/Boris_(crater)"
+        ]
+      ]
+    ],
+    [
+      [
+        "Rupes Cauchy",
+        [
+          "/wiki/Rupes_Cauchy"
+        ]
+      ],
+      [
+        "120.0 km",
+        []
+      ],
+      [
+        "Named from nearby crater Cauchy",
+        [
+          "/wiki/Cauchy_(crater)"
+        ]
+      ]
+    ],
+    [
+      [
+        "Rupes Kelvin",
+        [
+          "/wiki/Rupes_Kelvin"
+        ]
+      ],
+      [
+        "78.0 km",
+        []
+      ],
+      [
+        "Named from nearby Promontorium Kelvin",
+        []
+      ]
+    ],
+    [
+      [
+        "Rupes Liebig",
+        []
+      ],
+      [
+        "180.0 km",
+        []
+      ],
+      [
+        "Named from nearby crater Liebig",
+        [
+          "/wiki/Liebig_(crater)"
+        ]
+      ]
+    ],
+    [
+      [
+        "Rupes Mercator",
+        []
+      ],
+      [
+        "93.0 km",
+        []
+      ],
+      [
+        "Named from nearby crater Mercator",
+        [
+          "/wiki/Mercator_(crater)"
+        ]
+      ]
+    ],
+    [
+      [
+        "Rupes Recta",
+        [
+          "/wiki/Rupes_Recta"
+        ]
+      ],
+      [
+        "134.0 km",
+        []
+      ],
+      [
+        "Latin for straight cliff",
+        [
+          "/wiki/Latin"
+        ]
+      ]
+    ],
+    [
+      [
+        "Rupes Toscanelli",
+        []
+      ],
+      [
+        "70.0 km",
+        []
+      ],
+      [
+        "Named from nearby crater Toscanelli",
+        [
+          "/wiki/Toscanelli_(crater)"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "25092909-bcee-53eb-b92b-6aad56204beb",
+    "table_id": "List_of_lunar_features_12",
+    "title": "List of lunar features",
+    "header": [
+      "Name",
+      "Dia",
+      "Name Origin"
+    ],
+    "value": [
+      [
+        [
+          "Rupes Altai",
+          [
+            "/wiki/Rupes_Altai"
+          ]
+        ],
+        [
+          "427.0 km",
+          []
+        ],
+        [
+          "Altai Mountains",
+          [
+            "/wiki/Altai_Mountains"
+          ]
+        ]
+      ],
+      [
+        [
+          "Rupes Boris",
+          [
+            "/wiki/Rupes_Boris"
+          ]
+        ],
+        [
+          "4.0 km",
+          []
+        ],
+        [
+          "Named from nearby crater Boris",
+          [
+            "/wiki/Boris_(crater)"
+          ]
+        ]
+      ],
+      [
+        [
+          "Rupes Cauchy",
+          [
+            "/wiki/Rupes_Cauchy"
+          ]
+        ],
+        [
+          "120.0 km",
+          []
+        ],
+        [
+          "Named from nearby crater Cauchy",
+          [
+            "/wiki/Cauchy_(crater)"
+          ]
+        ]
+      ],
+      [
+        [
+          "Rupes Kelvin",
+          [
+            "/wiki/Rupes_Kelvin"
+          ]
+        ],
+        [
+          "78.0 km",
+          []
+        ],
+        [
+          "Named from nearby Promontorium Kelvin",
+          []
+        ]
+      ],
+      [
+        [
+          "Rupes Liebig",
+          []
+        ],
+        [
+          "180.0 km",
+          []
+        ],
+        [
+          "Named from nearby crater Liebig",
+          [
+            "/wiki/Liebig_(crater)"
+          ]
+        ]
+      ],
+      [
+        [
+          "Rupes Mercator",
+          []
+        ],
+        [
+          "93.0 km",
+          []
+        ],
+        [
+          "Named from nearby crater Mercator",
+          [
+            "/wiki/Mercator_(crater)"
+          ]
+        ]
+      ],
+      [
+        [
+          "Rupes Recta",
+          [
+            "/wiki/Rupes_Recta"
+          ]
+        ],
+        [
+          "134.0 km",
+          []
+        ],
+        [
+          "Latin for straight cliff",
+          [
+            "/wiki/Latin"
+          ]
+        ]
+      ],
+      [
+        [
+          "Rupes Toscanelli",
+          []
+        ],
+        [
+          "70.0 km",
+          []
+        ],
+        [
+          "Named from nearby crater Toscanelli",
+          [
+            "/wiki/Toscanelli_(crater)"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about various lunar features, including their names, dimensions, and the origins of their names. It serves as a reference for understanding the characteristics and naming conventions of features on the Moon's surface.",
+  "numeric_columns": [
+    "Dia"
+  ],
+  "categorical_columns": [
+    "Name Origin"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

@@ -1,0 +1,468 @@
+{
+  "table_id": "T10542",
+  "uid": "02755b1c-64ec-562b-99ba-b5fb9027df6d",
+  "source": "HybridQA",
+  "source_table_id": "02755b1c-64ec-562b-99ba-b5fb9027df6d",
+  "domain": "HybridQA",
+  "title": "List of airports in the Calgary area",
+  "columns": [
+    "Airport name",
+    "ICAO / TC LID / IATA",
+    "Location"
+  ],
+  "rows": [
+    [
+      [
+        "Calgary ( Aerial Recon ) Heliport",
+        [
+          "/wiki/List_of_heliports_in_Canada"
+        ]
+      ],
+      [
+        "CAR3",
+        []
+      ],
+      [
+        "Calgary",
+        [
+          "/wiki/Calgary"
+        ]
+      ]
+    ],
+    [
+      [
+        "Calgary ( Alberta Children 's Hospital ) Heliport",
+        [
+          "/wiki/Alberta_Children's_Hospital"
+        ]
+      ],
+      [
+        "CAC6",
+        []
+      ],
+      [
+        "Calgary",
+        [
+          "/wiki/Calgary"
+        ]
+      ]
+    ],
+    [
+      [
+        "Calgary/Blue Con Heliport",
+        [
+          "/wiki/List_of_heliports_in_Canada"
+        ]
+      ],
+      [
+        "CBC6",
+        []
+      ],
+      [
+        "Calgary",
+        [
+          "/wiki/Calgary"
+        ]
+      ]
+    ],
+    [
+      [
+        "Calgary ( Bow Crow ) Heliport",
+        [
+          "/wiki/List_of_heliports_in_Canada"
+        ]
+      ],
+      [
+        "CEP2",
+        []
+      ],
+      [
+        "Calgary",
+        [
+          "/wiki/Calgary"
+        ]
+      ]
+    ],
+    [
+      [
+        "Calgary ( City/Bow River ) Heliport",
+        [
+          "/wiki/List_of_heliports_in_Canada"
+        ]
+      ],
+      [
+        "CEL2",
+        []
+      ],
+      [
+        "Calgary",
+        [
+          "/wiki/Calgary"
+        ]
+      ]
+    ],
+    [
+      [
+        "Calgary ( Eastlake ) Heliport",
+        [
+          "/wiki/List_of_heliports_in_Canada"
+        ]
+      ],
+      [
+        "CEL9",
+        []
+      ],
+      [
+        "Calgary",
+        [
+          "/wiki/Calgary"
+        ]
+      ]
+    ],
+    [
+      [
+        "Calgary ( Foothills Hospital ) Heliport",
+        [
+          "/wiki/Foothills_Medical_Centre"
+        ]
+      ],
+      [
+        "CFP3",
+        []
+      ],
+      [
+        "Calgary",
+        [
+          "/wiki/Calgary"
+        ]
+      ]
+    ],
+    [
+      [
+        "Calgary/K . Coffey Residence Heliport",
+        [
+          "/wiki/List_of_heliports_in_Canada"
+        ]
+      ],
+      [
+        "CKC4",
+        []
+      ],
+      [
+        "Calgary",
+        [
+          "/wiki/Calgary"
+        ]
+      ]
+    ],
+    [
+      [
+        "Calgary ( Peter Lougheed Centre ) Heliport",
+        [
+          "/wiki/Peter_Lougheed_Centre"
+        ]
+      ],
+      [
+        "CLC3",
+        []
+      ],
+      [
+        "Calgary",
+        [
+          "/wiki/Calgary"
+        ]
+      ]
+    ],
+    [
+      [
+        "Calgary ( Rockyview Hospital ) Heliport",
+        [
+          "/wiki/Rockyview_General_Hospital"
+        ]
+      ],
+      [
+        "CEM2",
+        []
+      ],
+      [
+        "Calgary",
+        [
+          "/wiki/Calgary"
+        ]
+      ]
+    ],
+    [
+      [
+        "Calgary/South Health Campus Hospital Heliport",
+        [
+          "/wiki/List_of_heliports_in_Canada"
+        ]
+      ],
+      [
+        "CSH3",
+        []
+      ],
+      [
+        "Seton , Calgary",
+        [
+          "/wiki/Seton,_Calgary"
+        ]
+      ]
+    ],
+    [
+      [
+        "De Winton ( Highwood ) Heliport",
+        [
+          "/wiki/List_of_heliports_in_Canada"
+        ]
+      ],
+      [
+        "CED6",
+        []
+      ],
+      [
+        "De Winton",
+        [
+          "/wiki/De_Winton,_Alberta"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "02755b1c-64ec-562b-99ba-b5fb9027df6d",
+    "table_id": "List_of_airports_in_the_Calgary_area_1",
+    "title": "List of airports in the Calgary area",
+    "header": [
+      "Airport name",
+      "ICAO / TC LID / IATA",
+      "Location"
+    ],
+    "value": [
+      [
+        [
+          "Calgary ( Aerial Recon ) Heliport",
+          [
+            "/wiki/List_of_heliports_in_Canada"
+          ]
+        ],
+        [
+          "CAR3",
+          []
+        ],
+        [
+          "Calgary",
+          [
+            "/wiki/Calgary"
+          ]
+        ]
+      ],
+      [
+        [
+          "Calgary ( Alberta Children 's Hospital ) Heliport",
+          [
+            "/wiki/Alberta_Children's_Hospital"
+          ]
+        ],
+        [
+          "CAC6",
+          []
+        ],
+        [
+          "Calgary",
+          [
+            "/wiki/Calgary"
+          ]
+        ]
+      ],
+      [
+        [
+          "Calgary/Blue Con Heliport",
+          [
+            "/wiki/List_of_heliports_in_Canada"
+          ]
+        ],
+        [
+          "CBC6",
+          []
+        ],
+        [
+          "Calgary",
+          [
+            "/wiki/Calgary"
+          ]
+        ]
+      ],
+      [
+        [
+          "Calgary ( Bow Crow ) Heliport",
+          [
+            "/wiki/List_of_heliports_in_Canada"
+          ]
+        ],
+        [
+          "CEP2",
+          []
+        ],
+        [
+          "Calgary",
+          [
+            "/wiki/Calgary"
+          ]
+        ]
+      ],
+      [
+        [
+          "Calgary ( City/Bow River ) Heliport",
+          [
+            "/wiki/List_of_heliports_in_Canada"
+          ]
+        ],
+        [
+          "CEL2",
+          []
+        ],
+        [
+          "Calgary",
+          [
+            "/wiki/Calgary"
+          ]
+        ]
+      ],
+      [
+        [
+          "Calgary ( Eastlake ) Heliport",
+          [
+            "/wiki/List_of_heliports_in_Canada"
+          ]
+        ],
+        [
+          "CEL9",
+          []
+        ],
+        [
+          "Calgary",
+          [
+            "/wiki/Calgary"
+          ]
+        ]
+      ],
+      [
+        [
+          "Calgary ( Foothills Hospital ) Heliport",
+          [
+            "/wiki/Foothills_Medical_Centre"
+          ]
+        ],
+        [
+          "CFP3",
+          []
+        ],
+        [
+          "Calgary",
+          [
+            "/wiki/Calgary"
+          ]
+        ]
+      ],
+      [
+        [
+          "Calgary/K . Coffey Residence Heliport",
+          [
+            "/wiki/List_of_heliports_in_Canada"
+          ]
+        ],
+        [
+          "CKC4",
+          []
+        ],
+        [
+          "Calgary",
+          [
+            "/wiki/Calgary"
+          ]
+        ]
+      ],
+      [
+        [
+          "Calgary ( Peter Lougheed Centre ) Heliport",
+          [
+            "/wiki/Peter_Lougheed_Centre"
+          ]
+        ],
+        [
+          "CLC3",
+          []
+        ],
+        [
+          "Calgary",
+          [
+            "/wiki/Calgary"
+          ]
+        ]
+      ],
+      [
+        [
+          "Calgary ( Rockyview Hospital ) Heliport",
+          [
+            "/wiki/Rockyview_General_Hospital"
+          ]
+        ],
+        [
+          "CEM2",
+          []
+        ],
+        [
+          "Calgary",
+          [
+            "/wiki/Calgary"
+          ]
+        ]
+      ],
+      [
+        [
+          "Calgary/South Health Campus Hospital Heliport",
+          [
+            "/wiki/List_of_heliports_in_Canada"
+          ]
+        ],
+        [
+          "CSH3",
+          []
+        ],
+        [
+          "Seton , Calgary",
+          [
+            "/wiki/Seton,_Calgary"
+          ]
+        ]
+      ],
+      [
+        [
+          "De Winton ( Highwood ) Heliport",
+          [
+            "/wiki/List_of_heliports_in_Canada"
+          ]
+        ],
+        [
+          "CED6",
+          []
+        ],
+        [
+          "De Winton",
+          [
+            "/wiki/De_Winton,_Alberta"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a list of airports and heliports in the Calgary area, detailing their names, identifiers, and locations. It is intended to catalog aviation facilities in the region, including their official codes and geographical context.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "ICAO / TC LID / IATA"
+  ],
+  "entities": [
+    "Airport name",
+    "Location"
+  ]
+}

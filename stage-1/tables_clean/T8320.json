@@ -1,0 +1,292 @@
+{
+  "table_id": "T8320",
+  "uid": "bd1d53c5-e292-5cd2-b943-85d138993257",
+  "source": "HybridQA",
+  "source_table_id": "bd1d53c5-e292-5cd2-b943-85d138993257",
+  "domain": "HybridQA",
+  "title": "Child's Play (franchise)",
+  "columns": [
+    "Film",
+    "Rotten Tomatoes",
+    "Metacritic"
+  ],
+  "rows": [
+    [
+      [
+        "Child 's Play",
+        [
+          "/wiki/Child's_Play_(1988_film)"
+        ]
+      ],
+      [
+        "68% ( 37 reviews )",
+        []
+      ],
+      [
+        "58 ( 18 reviews )",
+        []
+      ]
+    ],
+    [
+      [
+        "Child 's Play 2",
+        [
+          "/wiki/Child's_Play_2"
+        ]
+      ],
+      [
+        "44% ( 16 reviews )",
+        []
+      ],
+      [
+        "37 ( 16 reviews )",
+        []
+      ]
+    ],
+    [
+      [
+        "Child 's Play 3",
+        [
+          "/wiki/Child's_Play_3"
+        ]
+      ],
+      [
+        "29% ( 14 reviews )",
+        []
+      ],
+      [
+        "27 ( 13 reviews )",
+        []
+      ]
+    ],
+    [
+      [
+        "Bride of Chucky",
+        [
+          "/wiki/Bride_of_Chucky"
+        ]
+      ],
+      [
+        "46% ( 37 reviews )",
+        []
+      ],
+      [
+        "48 ( 17 reviews )",
+        []
+      ]
+    ],
+    [
+      [
+        "Seed of Chucky",
+        [
+          "/wiki/Seed_of_Chucky"
+        ]
+      ],
+      [
+        "33% ( 76 reviews )",
+        []
+      ],
+      [
+        "46 ( 17 reviews )",
+        []
+      ]
+    ],
+    [
+      [
+        "Curse of Chucky",
+        [
+          "/wiki/Curse_of_Chucky"
+        ]
+      ],
+      [
+        "76% ( 21 reviews )",
+        []
+      ],
+      [
+        "58 ( 5 reviews )",
+        []
+      ]
+    ],
+    [
+      [
+        "Cult of Chucky",
+        [
+          "/wiki/Cult_of_Chucky"
+        ]
+      ],
+      [
+        "78% ( 23 reviews )",
+        []
+      ],
+      [
+        "69 ( 5 reviews )",
+        []
+      ]
+    ],
+    [
+      [
+        "Child 's Play",
+        [
+          "/wiki/Child's_Play_(2019_film)"
+        ]
+      ],
+      [
+        "63% ( 192 reviews )",
+        []
+      ],
+      [
+        "48 ( 34 reviews )",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "bd1d53c5-e292-5cd2-b943-85d138993257",
+    "table_id": "Child's_Play_(film_series)_0",
+    "title": "Child's Play (franchise)",
+    "header": [
+      "Film",
+      "Rotten Tomatoes",
+      "Metacritic"
+    ],
+    "value": [
+      [
+        [
+          "Child 's Play",
+          [
+            "/wiki/Child's_Play_(1988_film)"
+          ]
+        ],
+        [
+          "68% ( 37 reviews )",
+          []
+        ],
+        [
+          "58 ( 18 reviews )",
+          []
+        ]
+      ],
+      [
+        [
+          "Child 's Play 2",
+          [
+            "/wiki/Child's_Play_2"
+          ]
+        ],
+        [
+          "44% ( 16 reviews )",
+          []
+        ],
+        [
+          "37 ( 16 reviews )",
+          []
+        ]
+      ],
+      [
+        [
+          "Child 's Play 3",
+          [
+            "/wiki/Child's_Play_3"
+          ]
+        ],
+        [
+          "29% ( 14 reviews )",
+          []
+        ],
+        [
+          "27 ( 13 reviews )",
+          []
+        ]
+      ],
+      [
+        [
+          "Bride of Chucky",
+          [
+            "/wiki/Bride_of_Chucky"
+          ]
+        ],
+        [
+          "46% ( 37 reviews )",
+          []
+        ],
+        [
+          "48 ( 17 reviews )",
+          []
+        ]
+      ],
+      [
+        [
+          "Seed of Chucky",
+          [
+            "/wiki/Seed_of_Chucky"
+          ]
+        ],
+        [
+          "33% ( 76 reviews )",
+          []
+        ],
+        [
+          "46 ( 17 reviews )",
+          []
+        ]
+      ],
+      [
+        [
+          "Curse of Chucky",
+          [
+            "/wiki/Curse_of_Chucky"
+          ]
+        ],
+        [
+          "76% ( 21 reviews )",
+          []
+        ],
+        [
+          "58 ( 5 reviews )",
+          []
+        ]
+      ],
+      [
+        [
+          "Cult of Chucky",
+          [
+            "/wiki/Cult_of_Chucky"
+          ]
+        ],
+        [
+          "78% ( 23 reviews )",
+          []
+        ],
+        [
+          "69 ( 5 reviews )",
+          []
+        ]
+      ],
+      [
+        [
+          "Child 's Play",
+          [
+            "/wiki/Child's_Play_(2019_film)"
+          ]
+        ],
+        [
+          "63% ( 192 reviews )",
+          []
+        ],
+        [
+          "48 ( 34 reviews )",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of the films in the 'Child's Play' franchise, including their titles and critical reception scores. It includes ratings from Rotten Tomatoes and Metacritic, which reflect aggregated reviews and audience opinions. The table is useful for comparing the reception of different films within the franchise.",
+  "numeric_columns": [
+    "Rotten Tomatoes",
+    "Metacritic"
+  ],
+  "categorical_columns": [],
+  "entities": [
+    "Film"
+  ]
+}

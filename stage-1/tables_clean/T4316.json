@@ -1,0 +1,568 @@
+{
+  "table_id": "T4316",
+  "uid": "392420c0-4dd9-51d5-b76a-6cc25809ab08",
+  "source": "HybridQA",
+  "source_table_id": "392420c0-4dd9-51d5-b76a-6cc25809ab08",
+  "domain": "HybridQA",
+  "title": "Republic of Artsakh",
+  "columns": [
+    "#",
+    "Artsakh Division",
+    "Population ( 2005 )",
+    "Azerbaijan Rayon ( s )",
+    "Sahar ( city )",
+    "Former NKAO ?"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Shahumyan Region",
+        [
+          "/wiki/Shahumyan_Region"
+        ]
+      ],
+      [
+        "2,560",
+        []
+      ],
+      [
+        "Southern Goranboy , Western Kalbajar",
+        [
+          "/wiki/Goranboy_Rayon"
+        ]
+      ],
+      [
+        "Kalbajar ( formerly Shahumian )",
+        [
+          "/wiki/Kalbajar",
+          "/wiki/Aşağı_Ağcakənd"
+        ]
+      ],
+      [
+        "No",
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Martakert Region",
+        [
+          "/wiki/Martakert_Region"
+        ]
+      ],
+      [
+        "18,963",
+        []
+      ],
+      [
+        "Eastern Kalbajar , Western Tartar , portion of Agdam",
+        [
+          "/wiki/Kalbajar_Rayon",
+          "/wiki/Tartar_(rayon)"
+        ]
+      ],
+      [
+        "Martakert",
+        [
+          "/wiki/Martakert_(town)"
+        ]
+      ],
+      [
+        "Partially",
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Askeran Region",
+        [
+          "/wiki/Askeran_Region"
+        ]
+      ],
+      [
+        "16,979",
+        []
+      ],
+      [
+        "Khojali , portion of Agdam",
+        [
+          "/wiki/Khojali_Rayon",
+          "/wiki/Agdam_Rayon"
+        ]
+      ],
+      [
+        "Askeran",
+        [
+          "/wiki/Askeran_(town)"
+        ]
+      ],
+      [
+        "Partially",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Martuni Region",
+        [
+          "/wiki/Martuni_Region"
+        ]
+      ],
+      [
+        "23,157",
+        []
+      ],
+      [
+        "Northern Khojavend , portion of Agdam",
+        [
+          "/wiki/Khojavend_Rayon"
+        ]
+      ],
+      [
+        "Martuni",
+        [
+          "/wiki/Khojavend_(town)"
+        ]
+      ],
+      [
+        "Partially",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Hadrut Region",
+        [
+          "/wiki/Hadrut_Region"
+        ]
+      ],
+      [
+        "12,005",
+        []
+      ],
+      [
+        "Southern Khojavend , Jabrayil , portion of Fizuli",
+        [
+          "/wiki/Khojavend_Rayon",
+          "/wiki/Jabrayil_Rayon",
+          "/wiki/Fizuli"
+        ]
+      ],
+      [
+        "Hadrut",
+        [
+          "/wiki/Hadrut_(town)"
+        ]
+      ],
+      [
+        "Partially",
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Shushi Region",
+        [
+          "/wiki/Shushi_Region"
+        ]
+      ],
+      [
+        "4,324",
+        []
+      ],
+      [
+        "Shusha",
+        [
+          "/wiki/Shusha_(rayon)"
+        ]
+      ],
+      [
+        "Shushi",
+        [
+          "/wiki/Shushi"
+        ]
+      ],
+      [
+        "Yes",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Kashatagh Region",
+        [
+          "/wiki/Kashatagh_Region"
+        ]
+      ],
+      [
+        "9,763",
+        []
+      ],
+      [
+        "Lachin , Qubadli , Zangilan",
+        [
+          "/wiki/Lachin_Rayon",
+          "/wiki/Qubadli_Rayon",
+          "/wiki/Zangilan_Rayon"
+        ]
+      ],
+      [
+        "Berdzor",
+        [
+          "/wiki/Berdzor_City"
+        ]
+      ],
+      [
+        "No",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Stepanakert ( capital )",
+        [
+          "/wiki/Stepanakert"
+        ]
+      ],
+      [
+        "49,986",
+        []
+      ],
+      [
+        "Khojali",
+        []
+      ],
+      [
+        "Stepanakert",
+        [
+          "/wiki/Stepanakert"
+        ]
+      ],
+      [
+        "Yes",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "392420c0-4dd9-51d5-b76a-6cc25809ab08",
+    "table_id": "Nagorno-Karabakh_Republic_0",
+    "title": "Republic of Artsakh",
+    "header": [
+      "#",
+      "Artsakh Division",
+      "Population ( 2005 )",
+      "Azerbaijan Rayon ( s )",
+      "Sahar ( city )",
+      "Former NKAO ?"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Shahumyan Region",
+          [
+            "/wiki/Shahumyan_Region"
+          ]
+        ],
+        [
+          "2,560",
+          []
+        ],
+        [
+          "Southern Goranboy , Western Kalbajar",
+          [
+            "/wiki/Goranboy_Rayon"
+          ]
+        ],
+        [
+          "Kalbajar ( formerly Shahumian )",
+          [
+            "/wiki/Kalbajar",
+            "/wiki/Aşağı_Ağcakənd"
+          ]
+        ],
+        [
+          "No",
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Martakert Region",
+          [
+            "/wiki/Martakert_Region"
+          ]
+        ],
+        [
+          "18,963",
+          []
+        ],
+        [
+          "Eastern Kalbajar , Western Tartar , portion of Agdam",
+          [
+            "/wiki/Kalbajar_Rayon",
+            "/wiki/Tartar_(rayon)"
+          ]
+        ],
+        [
+          "Martakert",
+          [
+            "/wiki/Martakert_(town)"
+          ]
+        ],
+        [
+          "Partially",
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Askeran Region",
+          [
+            "/wiki/Askeran_Region"
+          ]
+        ],
+        [
+          "16,979",
+          []
+        ],
+        [
+          "Khojali , portion of Agdam",
+          [
+            "/wiki/Khojali_Rayon",
+            "/wiki/Agdam_Rayon"
+          ]
+        ],
+        [
+          "Askeran",
+          [
+            "/wiki/Askeran_(town)"
+          ]
+        ],
+        [
+          "Partially",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Martuni Region",
+          [
+            "/wiki/Martuni_Region"
+          ]
+        ],
+        [
+          "23,157",
+          []
+        ],
+        [
+          "Northern Khojavend , portion of Agdam",
+          [
+            "/wiki/Khojavend_Rayon"
+          ]
+        ],
+        [
+          "Martuni",
+          [
+            "/wiki/Khojavend_(town)"
+          ]
+        ],
+        [
+          "Partially",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Hadrut Region",
+          [
+            "/wiki/Hadrut_Region"
+          ]
+        ],
+        [
+          "12,005",
+          []
+        ],
+        [
+          "Southern Khojavend , Jabrayil , portion of Fizuli",
+          [
+            "/wiki/Khojavend_Rayon",
+            "/wiki/Jabrayil_Rayon",
+            "/wiki/Fizuli"
+          ]
+        ],
+        [
+          "Hadrut",
+          [
+            "/wiki/Hadrut_(town)"
+          ]
+        ],
+        [
+          "Partially",
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Shushi Region",
+          [
+            "/wiki/Shushi_Region"
+          ]
+        ],
+        [
+          "4,324",
+          []
+        ],
+        [
+          "Shusha",
+          [
+            "/wiki/Shusha_(rayon)"
+          ]
+        ],
+        [
+          "Shushi",
+          [
+            "/wiki/Shushi"
+          ]
+        ],
+        [
+          "Yes",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Kashatagh Region",
+          [
+            "/wiki/Kashatagh_Region"
+          ]
+        ],
+        [
+          "9,763",
+          []
+        ],
+        [
+          "Lachin , Qubadli , Zangilan",
+          [
+            "/wiki/Lachin_Rayon",
+            "/wiki/Qubadli_Rayon",
+            "/wiki/Zangilan_Rayon"
+          ]
+        ],
+        [
+          "Berdzor",
+          [
+            "/wiki/Berdzor_City"
+          ]
+        ],
+        [
+          "No",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Stepanakert ( capital )",
+          [
+            "/wiki/Stepanakert"
+          ]
+        ],
+        [
+          "49,986",
+          []
+        ],
+        [
+          "Khojali",
+          []
+        ],
+        [
+          "Stepanakert",
+          [
+            "/wiki/Stepanakert"
+          ]
+        ],
+        [
+          "Yes",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the administrative divisions of the Republic of Artsakh, including their population, associated regions in Azerbaijan, and whether they were part of the former Nagorno-Karabakh Autonomous Oblast (NKAO). It serves as a reference for understanding the geopolitical and demographic aspects of these divisions.",
+  "numeric_columns": [
+    "Population ( 2005 )"
+  ],
+  "categorical_columns": [
+    "Former NKAO ?"
+  ],
+  "entities": [
+    "#",
+    "Artsakh Division",
+    "Azerbaijan Rayon ( s )",
+    "Sahar ( city )"
+  ]
+}

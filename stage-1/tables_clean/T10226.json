@@ -1,0 +1,293 @@
+{
+  "table_id": "T10226",
+  "uid": "956a026f-26a3-5fef-8d10-094c3762ad9b",
+  "source": "HybridQA",
+  "source_table_id": "956a026f-26a3-5fef-8d10-094c3762ad9b",
+  "domain": "HybridQA",
+  "title": "1995 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Vitaly Scherbo ( BLR )",
+        [
+          "/wiki/Vitaly_Scherbo"
+        ]
+      ],
+      [
+        9.812,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Li Xiaoshuang ( CHN )",
+        [
+          "/wiki/Li_Xiaoshuang"
+        ]
+      ],
+      [
+        9.775,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Grigory Misutin ( UKR )",
+        [
+          "/wiki/Grigory_Misutin"
+        ]
+      ],
+      [
+        9.762,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Ivan Ivankov ( BLR )",
+        [
+          "/wiki/Ivan_Ivankov"
+        ]
+      ],
+      [
+        9.662,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Ivan Ivanov ( BUL )",
+        [
+          "/wiki/Ivan_Ivanov_(gymnast)"
+        ]
+      ],
+      [
+        9.625,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Yordan Yovtchev ( BUL )",
+        [
+          "/wiki/Yordan_Yovtchev"
+        ]
+      ],
+      [
+        9.575,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Alexei Nemov ( RUS )",
+        [
+          "/wiki/Alexei_Nemov"
+        ]
+      ],
+      [
+        9.5,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Evgeni Podgorni ( RUS )",
+        [
+          "/wiki/Evgeni_Podgorni"
+        ]
+      ],
+      [
+        9.4,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "956a026f-26a3-5fef-8d10-094c3762ad9b",
+    "table_id": "1995_World_Artistic_Gymnastics_Championships_1",
+    "title": "1995 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Vitaly Scherbo ( BLR )",
+          [
+            "/wiki/Vitaly_Scherbo"
+          ]
+        ],
+        [
+          9.812,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Li Xiaoshuang ( CHN )",
+          [
+            "/wiki/Li_Xiaoshuang"
+          ]
+        ],
+        [
+          9.775,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Grigory Misutin ( UKR )",
+          [
+            "/wiki/Grigory_Misutin"
+          ]
+        ],
+        [
+          9.762,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Ivan Ivankov ( BLR )",
+          [
+            "/wiki/Ivan_Ivankov"
+          ]
+        ],
+        [
+          9.662,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Ivan Ivanov ( BUL )",
+          [
+            "/wiki/Ivan_Ivanov_(gymnast)"
+          ]
+        ],
+        [
+          9.625,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Yordan Yovtchev ( BUL )",
+          [
+            "/wiki/Yordan_Yovtchev"
+          ]
+        ],
+        [
+          9.575,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Alexei Nemov ( RUS )",
+          [
+            "/wiki/Alexei_Nemov"
+          ]
+        ],
+        [
+          9.5,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Evgeni Podgorni ( RUS )",
+          [
+            "/wiki/Evgeni_Podgorni"
+          ]
+        ],
+        [
+          9.4,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a ranking of gymnasts based on their performance at the 1995 World Artistic Gymnastics Championships. It includes information about the rank, the names of the gymnasts, and their total scores. The table is designed to summarize the results of the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

@@ -1,0 +1,440 @@
+{
+  "table_id": "T7132",
+  "uid": "68e3b75d-440e-561c-bf9b-993efd91df85",
+  "source": "HybridQA",
+  "source_table_id": "68e3b75d-440e-561c-bf9b-993efd91df85",
+  "domain": "HybridQA",
+  "title": "Indian Idol",
+  "columns": [
+    "Name",
+    "Hometown",
+    "Elimination"
+  ],
+  "rows": [
+    [
+      [
+        "Abhijeet Sawant",
+        [
+          "/wiki/Abhijeet_Sawant"
+        ]
+      ],
+      [
+        "Mumbai",
+        [
+          "/wiki/Mumbai"
+        ]
+      ],
+      [
+        "Winner",
+        []
+      ]
+    ],
+    [
+      [
+        "Amit Sana",
+        [
+          "/wiki/Amit_Sana"
+        ]
+      ],
+      [
+        "Bhilai",
+        [
+          "/wiki/Bhilai"
+        ]
+      ],
+      [
+        "Runner-up",
+        []
+      ]
+    ],
+    [
+      [
+        "Rahul Vaidya",
+        [
+          "/wiki/Rahul_Vaidya"
+        ]
+      ],
+      [
+        "New Delhi",
+        [
+          "/wiki/New_Delhi"
+        ]
+      ],
+      [
+        "2nd Runner-up",
+        []
+      ]
+    ],
+    [
+      [
+        "Prajakta Shukre",
+        [
+          "/wiki/Prajakta_Shukre"
+        ]
+      ],
+      [
+        "New Delhi",
+        [
+          "/wiki/New_Delhi"
+        ]
+      ],
+      [
+        "3rd Runner-up",
+        []
+      ]
+    ],
+    [
+      [
+        "Ravinder Ravi",
+        []
+      ],
+      [
+        "Ludhiana",
+        [
+          "/wiki/Ludhiana"
+        ]
+      ],
+      [
+        "Eliminated 8th",
+        []
+      ]
+    ],
+    [
+      [
+        "Aditi Paul",
+        []
+      ],
+      [
+        "Chennai",
+        [
+          "/wiki/Chennai"
+        ]
+      ],
+      [
+        "Eliminated 7th",
+        []
+      ]
+    ],
+    [
+      [
+        "Mukesh Pancholi",
+        []
+      ],
+      [
+        "Faridabad",
+        [
+          "/wiki/Faridabad"
+        ]
+      ],
+      [
+        "Eliminated 6th",
+        []
+      ]
+    ],
+    [
+      [
+        "Harish Moyal",
+        []
+      ],
+      [
+        "Itanagar",
+        [
+          "/wiki/Itanagar"
+        ]
+      ],
+      [
+        "Eliminated 5th",
+        []
+      ]
+    ],
+    [
+      [
+        "Rahul Saxena",
+        []
+      ],
+      [
+        "Ghaziabad",
+        [
+          "/wiki/Ghaziabad,_Uttar_Pradesh"
+        ]
+      ],
+      [
+        "Eliminated 4th",
+        []
+      ]
+    ],
+    [
+      [
+        "Amit Tandon",
+        [
+          "/wiki/Amit_Tandon"
+        ]
+      ],
+      [
+        "Kolkata",
+        [
+          "/wiki/Kolkata"
+        ]
+      ],
+      [
+        "Eliminated 3rd",
+        []
+      ]
+    ],
+    [
+      [
+        "Vishal Kothari",
+        []
+      ],
+      [
+        "Kolkata",
+        [
+          "/wiki/Kolkata"
+        ]
+      ],
+      [
+        "Eliminated 2nd",
+        []
+      ]
+    ],
+    [
+      [
+        "Priyanka Venkateshwara",
+        []
+      ],
+      [
+        "Renukut",
+        [
+          "/wiki/Renukut"
+        ]
+      ],
+      [
+        "Eliminated 1st",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "68e3b75d-440e-561c-bf9b-993efd91df85",
+    "table_id": "Indian_Idol_5_1",
+    "title": "Indian Idol",
+    "header": [
+      "Name",
+      "Hometown",
+      "Elimination"
+    ],
+    "value": [
+      [
+        [
+          "Abhijeet Sawant",
+          [
+            "/wiki/Abhijeet_Sawant"
+          ]
+        ],
+        [
+          "Mumbai",
+          [
+            "/wiki/Mumbai"
+          ]
+        ],
+        [
+          "Winner",
+          []
+        ]
+      ],
+      [
+        [
+          "Amit Sana",
+          [
+            "/wiki/Amit_Sana"
+          ]
+        ],
+        [
+          "Bhilai",
+          [
+            "/wiki/Bhilai"
+          ]
+        ],
+        [
+          "Runner-up",
+          []
+        ]
+      ],
+      [
+        [
+          "Rahul Vaidya",
+          [
+            "/wiki/Rahul_Vaidya"
+          ]
+        ],
+        [
+          "New Delhi",
+          [
+            "/wiki/New_Delhi"
+          ]
+        ],
+        [
+          "2nd Runner-up",
+          []
+        ]
+      ],
+      [
+        [
+          "Prajakta Shukre",
+          [
+            "/wiki/Prajakta_Shukre"
+          ]
+        ],
+        [
+          "New Delhi",
+          [
+            "/wiki/New_Delhi"
+          ]
+        ],
+        [
+          "3rd Runner-up",
+          []
+        ]
+      ],
+      [
+        [
+          "Ravinder Ravi",
+          []
+        ],
+        [
+          "Ludhiana",
+          [
+            "/wiki/Ludhiana"
+          ]
+        ],
+        [
+          "Eliminated 8th",
+          []
+        ]
+      ],
+      [
+        [
+          "Aditi Paul",
+          []
+        ],
+        [
+          "Chennai",
+          [
+            "/wiki/Chennai"
+          ]
+        ],
+        [
+          "Eliminated 7th",
+          []
+        ]
+      ],
+      [
+        [
+          "Mukesh Pancholi",
+          []
+        ],
+        [
+          "Faridabad",
+          [
+            "/wiki/Faridabad"
+          ]
+        ],
+        [
+          "Eliminated 6th",
+          []
+        ]
+      ],
+      [
+        [
+          "Harish Moyal",
+          []
+        ],
+        [
+          "Itanagar",
+          [
+            "/wiki/Itanagar"
+          ]
+        ],
+        [
+          "Eliminated 5th",
+          []
+        ]
+      ],
+      [
+        [
+          "Rahul Saxena",
+          []
+        ],
+        [
+          "Ghaziabad",
+          [
+            "/wiki/Ghaziabad,_Uttar_Pradesh"
+          ]
+        ],
+        [
+          "Eliminated 4th",
+          []
+        ]
+      ],
+      [
+        [
+          "Amit Tandon",
+          [
+            "/wiki/Amit_Tandon"
+          ]
+        ],
+        [
+          "Kolkata",
+          [
+            "/wiki/Kolkata"
+          ]
+        ],
+        [
+          "Eliminated 3rd",
+          []
+        ]
+      ],
+      [
+        [
+          "Vishal Kothari",
+          []
+        ],
+        [
+          "Kolkata",
+          [
+            "/wiki/Kolkata"
+          ]
+        ],
+        [
+          "Eliminated 2nd",
+          []
+        ]
+      ],
+      [
+        [
+          "Priyanka Venkateshwara",
+          []
+        ],
+        [
+          "Renukut",
+          [
+            "/wiki/Renukut"
+          ]
+        ],
+        [
+          "Eliminated 1st",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about contestants from the Indian Idol competition, including their names, hometowns, and elimination statuses. It serves as a summary of key details about participants in the show, highlighting their origins and outcomes in the competition.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Elimination"
+  ],
+  "entities": [
+    "Name",
+    "Hometown"
+  ]
+}

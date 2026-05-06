@@ -1,0 +1,380 @@
+{
+  "table_id": "T2257",
+  "uid": "2128596d-d48a-5144-8334-c7b91cc76cc1",
+  "source": "HybridQA",
+  "source_table_id": "2128596d-d48a-5144-8334-c7b91cc76cc1",
+  "domain": "HybridQA",
+  "title": "College Hockey Mid-America",
+  "columns": [
+    "School",
+    "Home arena",
+    "Location",
+    "Capacity"
+  ],
+  "rows": [
+    [
+      [
+        "Duquesne",
+        []
+      ],
+      [
+        "Alpha Ice Complex",
+        []
+      ],
+      [
+        "Harmarville , Pennsylvania",
+        [
+          "/wiki/Harmarville,_Pennsylvania"
+        ]
+      ],
+      [
+        "1,200",
+        []
+      ]
+    ],
+    [
+      [
+        "IUP",
+        []
+      ],
+      [
+        "S & T Bank Arena",
+        [
+          "/wiki/S&T_Bank_Arena"
+        ]
+      ],
+      [
+        "Indiana , Pennsylvania",
+        [
+          "/wiki/Indiana,_Pennsylvania"
+        ]
+      ],
+      [
+        "1,000",
+        []
+      ]
+    ],
+    [
+      [
+        "John Carroll",
+        []
+      ],
+      [
+        "Gilmour Academy Ice Arena",
+        [
+          "/wiki/Gilmour_Academy"
+        ]
+      ],
+      [
+        "Gates Mills , Ohio",
+        [
+          "/wiki/Gates_Mills,_Ohio"
+        ]
+      ],
+      [
+        800,
+        []
+      ]
+    ],
+    [
+      [
+        "Mercyhurst",
+        []
+      ],
+      [
+        "Mercyhurst Ice Center",
+        [
+          "/wiki/Mercyhurst_Ice_Center"
+        ]
+      ],
+      [
+        "Erie , Pennsylvania",
+        [
+          "/wiki/Erie,_Pennsylvania"
+        ]
+      ],
+      [
+        "1,500",
+        []
+      ]
+    ],
+    [
+      [
+        "Pittsburgh",
+        []
+      ],
+      [
+        "Alpha Ice Complex",
+        []
+      ],
+      [
+        "Harmarville , Pennsylvania",
+        [
+          "/wiki/Harmarville,_Pennsylvania"
+        ]
+      ],
+      [
+        "1,200",
+        []
+      ]
+    ],
+    [
+      [
+        "Robert Morris",
+        []
+      ],
+      [
+        "Colonials Arena",
+        [
+          "/wiki/Colonials_Arena"
+        ]
+      ],
+      [
+        "Neville Township , Pennsylvania",
+        [
+          "/wiki/Neville_Township,_Allegheny_County,_Pennsylvania"
+        ]
+      ],
+      [
+        "1,200",
+        []
+      ]
+    ],
+    [
+      [
+        "Slippery Rock",
+        []
+      ],
+      [
+        "UPMC Lemieux Sports Complex",
+        []
+      ],
+      [
+        "Cranberry Township , Pennsylvania",
+        [
+          "/wiki/Cranberry_Township,_Butler_County,_Pennsylvania"
+        ]
+      ],
+      [
+        "1,000",
+        []
+      ]
+    ],
+    [
+      [
+        "West Virginia",
+        []
+      ],
+      [
+        "Morgantown Municipal Ice Arena",
+        [
+          "/wiki/Morgantown_Municipal_Ice_Arena"
+        ]
+      ],
+      [
+        "Morgantown , West Virginia",
+        [
+          "/wiki/Morgantown,_West_Virginia"
+        ]
+      ],
+      [
+        500,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "2128596d-d48a-5144-8334-c7b91cc76cc1",
+    "table_id": "College_Hockey_Mid-America_1",
+    "title": "College Hockey Mid-America",
+    "header": [
+      "School",
+      "Home arena",
+      "Location",
+      "Capacity"
+    ],
+    "value": [
+      [
+        [
+          "Duquesne",
+          []
+        ],
+        [
+          "Alpha Ice Complex",
+          []
+        ],
+        [
+          "Harmarville , Pennsylvania",
+          [
+            "/wiki/Harmarville,_Pennsylvania"
+          ]
+        ],
+        [
+          "1,200",
+          []
+        ]
+      ],
+      [
+        [
+          "IUP",
+          []
+        ],
+        [
+          "S & T Bank Arena",
+          [
+            "/wiki/S&T_Bank_Arena"
+          ]
+        ],
+        [
+          "Indiana , Pennsylvania",
+          [
+            "/wiki/Indiana,_Pennsylvania"
+          ]
+        ],
+        [
+          "1,000",
+          []
+        ]
+      ],
+      [
+        [
+          "John Carroll",
+          []
+        ],
+        [
+          "Gilmour Academy Ice Arena",
+          [
+            "/wiki/Gilmour_Academy"
+          ]
+        ],
+        [
+          "Gates Mills , Ohio",
+          [
+            "/wiki/Gates_Mills,_Ohio"
+          ]
+        ],
+        [
+          800,
+          []
+        ]
+      ],
+      [
+        [
+          "Mercyhurst",
+          []
+        ],
+        [
+          "Mercyhurst Ice Center",
+          [
+            "/wiki/Mercyhurst_Ice_Center"
+          ]
+        ],
+        [
+          "Erie , Pennsylvania",
+          [
+            "/wiki/Erie,_Pennsylvania"
+          ]
+        ],
+        [
+          "1,500",
+          []
+        ]
+      ],
+      [
+        [
+          "Pittsburgh",
+          []
+        ],
+        [
+          "Alpha Ice Complex",
+          []
+        ],
+        [
+          "Harmarville , Pennsylvania",
+          [
+            "/wiki/Harmarville,_Pennsylvania"
+          ]
+        ],
+        [
+          "1,200",
+          []
+        ]
+      ],
+      [
+        [
+          "Robert Morris",
+          []
+        ],
+        [
+          "Colonials Arena",
+          [
+            "/wiki/Colonials_Arena"
+          ]
+        ],
+        [
+          "Neville Township , Pennsylvania",
+          [
+            "/wiki/Neville_Township,_Allegheny_County,_Pennsylvania"
+          ]
+        ],
+        [
+          "1,200",
+          []
+        ]
+      ],
+      [
+        [
+          "Slippery Rock",
+          []
+        ],
+        [
+          "UPMC Lemieux Sports Complex",
+          []
+        ],
+        [
+          "Cranberry Township , Pennsylvania",
+          [
+            "/wiki/Cranberry_Township,_Butler_County,_Pennsylvania"
+          ]
+        ],
+        [
+          "1,000",
+          []
+        ]
+      ],
+      [
+        [
+          "West Virginia",
+          []
+        ],
+        [
+          "Morgantown Municipal Ice Arena",
+          [
+            "/wiki/Morgantown_Municipal_Ice_Arena"
+          ]
+        ],
+        [
+          "Morgantown , West Virginia",
+          [
+            "/wiki/Morgantown,_West_Virginia"
+          ]
+        ],
+        [
+          500,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about college hockey teams in the Mid-America region, including their associated schools, home arenas, locations, and arena capacities. It is likely intended to offer an overview of the facilities and geographic distribution of these teams.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "Home arena"
+  ],
+  "entities": [
+    "School",
+    "Location"
+  ]
+}

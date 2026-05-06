@@ -1,0 +1,516 @@
+{
+  "table_id": "T10479",
+  "uid": "010f361b-ade3-5bff-876c-c7d7bf38a35d",
+  "source": "HybridQA",
+  "source_table_id": "010f361b-ade3-5bff-876c-c7d7bf38a35d",
+  "domain": "HybridQA",
+  "title": "Penn Badgley",
+  "columns": [
+    "Year",
+    "Title",
+    "Role"
+  ],
+  "rows": [
+    [
+      [
+        2000,
+        []
+      ],
+      [
+        "The Fluffer",
+        [
+          "/wiki/The_Fluffer"
+        ]
+      ],
+      [
+        "Young Sean",
+        []
+      ]
+    ],
+    [
+      [
+        2002,
+        []
+      ],
+      [
+        "Catch Me If You Can",
+        []
+      ],
+      [
+        "Contestant # 1",
+        []
+      ]
+    ],
+    [
+      [
+        2003,
+        []
+      ],
+      [
+        "Debating Robert Lee",
+        [
+          "/wiki/Debating_Robert_Lee"
+        ]
+      ],
+      [
+        "Debator",
+        []
+      ]
+    ],
+    [
+      [
+        2006,
+        []
+      ],
+      [
+        "John Tucker Must Die",
+        [
+          "/wiki/John_Tucker_Must_Die"
+        ]
+      ],
+      [
+        "Scott Tucker",
+        []
+      ]
+    ],
+    [
+      [
+        2007,
+        []
+      ],
+      [
+        "Drive-Thru",
+        [
+          "/wiki/Drive-Thru_(film)"
+        ]
+      ],
+      [
+        "Van",
+        []
+      ]
+    ],
+    [
+      [
+        2008,
+        []
+      ],
+      [
+        "Forever Strong",
+        [
+          "/wiki/Forever_Strong"
+        ]
+      ],
+      [
+        "Lars",
+        []
+      ]
+    ],
+    [
+      [
+        2009,
+        []
+      ],
+      [
+        "The Stepfather",
+        [
+          "/wiki/The_Stepfather_(2009_film)"
+        ]
+      ],
+      [
+        "Michael Harding",
+        []
+      ]
+    ],
+    [
+      [
+        2010,
+        []
+      ],
+      [
+        "Easy A",
+        [
+          "/wiki/Easy_A"
+        ]
+      ],
+      [
+        "Woodchuck Todd",
+        []
+      ]
+    ],
+    [
+      [
+        2011,
+        []
+      ],
+      [
+        "Margin Call",
+        [
+          "/wiki/Margin_Call"
+        ]
+      ],
+      [
+        "Seth Bregman",
+        []
+      ]
+    ],
+    [
+      [
+        2012,
+        []
+      ],
+      [
+        "Greetings from Tim Buckley",
+        [
+          "/wiki/Greetings_from_Tim_Buckley"
+        ]
+      ],
+      [
+        "Jeff Buckley",
+        [
+          "/wiki/Jeff_Buckley"
+        ]
+      ]
+    ],
+    [
+      [
+        2014,
+        []
+      ],
+      [
+        "Parts per Billion",
+        [
+          "/wiki/Parts_per_Billion"
+        ]
+      ],
+      [
+        "Erik",
+        []
+      ]
+    ],
+    [
+      [
+        2015,
+        []
+      ],
+      [
+        "Cymbeline",
+        [
+          "/wiki/Cymbeline_(film)"
+        ]
+      ],
+      [
+        "Posthumus",
+        []
+      ]
+    ],
+    [
+      [
+        2016,
+        []
+      ],
+      [
+        "The Paper Store",
+        [
+          "/wiki/The_Paper_Store"
+        ]
+      ],
+      [
+        "Sigurd Rossdale",
+        []
+      ]
+    ],
+    [
+      [
+        2016,
+        []
+      ],
+      [
+        "Adam Green 's Aladdin",
+        [
+          "/wiki/Adam_Green's_Aladdin"
+        ]
+      ],
+      [
+        "Prince of Monaco",
+        []
+      ]
+    ],
+    [
+      [
+        "TBA",
+        []
+      ],
+      [
+        "Here Today",
+        [
+          "/wiki/Here_Today_(film)"
+        ]
+      ],
+      [
+        "Rex",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "010f361b-ade3-5bff-876c-c7d7bf38a35d",
+    "table_id": "Penn_Badgley_0",
+    "title": "Penn Badgley",
+    "header": [
+      "Year",
+      "Title",
+      "Role"
+    ],
+    "value": [
+      [
+        [
+          2000,
+          []
+        ],
+        [
+          "The Fluffer",
+          [
+            "/wiki/The_Fluffer"
+          ]
+        ],
+        [
+          "Young Sean",
+          []
+        ]
+      ],
+      [
+        [
+          2002,
+          []
+        ],
+        [
+          "Catch Me If You Can",
+          []
+        ],
+        [
+          "Contestant # 1",
+          []
+        ]
+      ],
+      [
+        [
+          2003,
+          []
+        ],
+        [
+          "Debating Robert Lee",
+          [
+            "/wiki/Debating_Robert_Lee"
+          ]
+        ],
+        [
+          "Debator",
+          []
+        ]
+      ],
+      [
+        [
+          2006,
+          []
+        ],
+        [
+          "John Tucker Must Die",
+          [
+            "/wiki/John_Tucker_Must_Die"
+          ]
+        ],
+        [
+          "Scott Tucker",
+          []
+        ]
+      ],
+      [
+        [
+          2007,
+          []
+        ],
+        [
+          "Drive-Thru",
+          [
+            "/wiki/Drive-Thru_(film)"
+          ]
+        ],
+        [
+          "Van",
+          []
+        ]
+      ],
+      [
+        [
+          2008,
+          []
+        ],
+        [
+          "Forever Strong",
+          [
+            "/wiki/Forever_Strong"
+          ]
+        ],
+        [
+          "Lars",
+          []
+        ]
+      ],
+      [
+        [
+          2009,
+          []
+        ],
+        [
+          "The Stepfather",
+          [
+            "/wiki/The_Stepfather_(2009_film)"
+          ]
+        ],
+        [
+          "Michael Harding",
+          []
+        ]
+      ],
+      [
+        [
+          2010,
+          []
+        ],
+        [
+          "Easy A",
+          [
+            "/wiki/Easy_A"
+          ]
+        ],
+        [
+          "Woodchuck Todd",
+          []
+        ]
+      ],
+      [
+        [
+          2011,
+          []
+        ],
+        [
+          "Margin Call",
+          [
+            "/wiki/Margin_Call"
+          ]
+        ],
+        [
+          "Seth Bregman",
+          []
+        ]
+      ],
+      [
+        [
+          2012,
+          []
+        ],
+        [
+          "Greetings from Tim Buckley",
+          [
+            "/wiki/Greetings_from_Tim_Buckley"
+          ]
+        ],
+        [
+          "Jeff Buckley",
+          [
+            "/wiki/Jeff_Buckley"
+          ]
+        ]
+      ],
+      [
+        [
+          2014,
+          []
+        ],
+        [
+          "Parts per Billion",
+          [
+            "/wiki/Parts_per_Billion"
+          ]
+        ],
+        [
+          "Erik",
+          []
+        ]
+      ],
+      [
+        [
+          2015,
+          []
+        ],
+        [
+          "Cymbeline",
+          [
+            "/wiki/Cymbeline_(film)"
+          ]
+        ],
+        [
+          "Posthumus",
+          []
+        ]
+      ],
+      [
+        [
+          2016,
+          []
+        ],
+        [
+          "The Paper Store",
+          [
+            "/wiki/The_Paper_Store"
+          ]
+        ],
+        [
+          "Sigurd Rossdale",
+          []
+        ]
+      ],
+      [
+        [
+          2016,
+          []
+        ],
+        [
+          "Adam Green 's Aladdin",
+          [
+            "/wiki/Adam_Green's_Aladdin"
+          ]
+        ],
+        [
+          "Prince of Monaco",
+          []
+        ]
+      ],
+      [
+        [
+          "TBA",
+          []
+        ],
+        [
+          "Here Today",
+          [
+            "/wiki/Here_Today_(film)"
+          ]
+        ],
+        [
+          "Rex",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of roles played by an individual in various productions over the years. It includes information about the year of release, the title of the production, and the role performed. The table is useful for summarizing the acting career of the person mentioned in the title.",
+  "numeric_columns": [
+    "Year"
+  ],
+  "categorical_columns": [
+    "Title",
+    "Role"
+  ],
+  "entities": []
+}

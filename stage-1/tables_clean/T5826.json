@@ -1,0 +1,688 @@
+{
+  "table_id": "T5826",
+  "uid": "fa10e3e0-3a21-5444-9552-7bf832915db5",
+  "source": "HybridQA",
+  "source_table_id": "fa10e3e0-3a21-5444-9552-7bf832915db5",
+  "domain": "HybridQA",
+  "title": "The World's Billionaires",
+  "columns": [
+    "No",
+    "Name",
+    "Net worth ( USD )",
+    "Age",
+    "Nationality",
+    "Source ( s ) of wealth"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Bill Gates",
+        [
+          "/wiki/Bill_Gates"
+        ]
+      ],
+      [
+        "$ 46.5 billion",
+        []
+      ],
+      [
+        49,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Microsoft",
+        [
+          "/wiki/Microsoft"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Warren Buffett",
+        [
+          "/wiki/Warren_Buffett"
+        ]
+      ],
+      [
+        "$ 44.0 billion",
+        []
+      ],
+      [
+        74,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Berkshire Hathaway",
+        [
+          "/wiki/Berkshire_Hathaway"
+        ]
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Lakshmi Mittal",
+        [
+          "/wiki/Lakshmi_Mittal"
+        ]
+      ],
+      [
+        "$ 25.0 billion",
+        []
+      ],
+      [
+        54,
+        []
+      ],
+      [
+        "India",
+        [
+          "/wiki/India"
+        ]
+      ],
+      [
+        "Mittal Steel Company",
+        [
+          "/wiki/Mittal_Steel_Company"
+        ]
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Carlos Slim",
+        [
+          "/wiki/Carlos_Slim"
+        ]
+      ],
+      [
+        "$ 23.8 billion",
+        []
+      ],
+      [
+        65,
+        []
+      ],
+      [
+        "Mexico",
+        [
+          "/wiki/Mexico"
+        ]
+      ],
+      [
+        "América Móvil , Grupo Carso",
+        [
+          "/wiki/América_Móvil",
+          "/wiki/Grupo_Carso"
+        ]
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Al-Waleed bin Talal",
+        [
+          "/wiki/Al-Waleed_bin_Talal"
+        ]
+      ],
+      [
+        "$ 23.7 billion",
+        []
+      ],
+      [
+        49,
+        []
+      ],
+      [
+        "Saudi Arabia",
+        [
+          "/wiki/Saudi_Arabia"
+        ]
+      ],
+      [
+        "Kingdom Holding Company",
+        [
+          "/wiki/Kingdom_Holding_Company"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Ingvar Kamprad",
+        [
+          "/wiki/Ingvar_Kamprad"
+        ]
+      ],
+      [
+        "$ 23.0 billion",
+        []
+      ],
+      [
+        79,
+        []
+      ],
+      [
+        "Sweden",
+        [
+          "/wiki/Sweden"
+        ]
+      ],
+      [
+        "IKEA",
+        [
+          "/wiki/IKEA"
+        ]
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Paul Allen",
+        [
+          "/wiki/Paul_Allen"
+        ]
+      ],
+      [
+        "$ 21.0 billion",
+        []
+      ],
+      [
+        52,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Microsoft",
+        [
+          "/wiki/Microsoft"
+        ]
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Karl Albrecht",
+        [
+          "/wiki/Karl_Albrecht"
+        ]
+      ],
+      [
+        "$ 18.5 billion",
+        []
+      ],
+      [
+        85,
+        []
+      ],
+      [
+        "Germany",
+        [
+          "/wiki/Germany"
+        ]
+      ],
+      [
+        "Aldi Süd",
+        [
+          "/wiki/Aldi"
+        ]
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Larry Ellison",
+        [
+          "/wiki/Larry_Ellison"
+        ]
+      ],
+      [
+        "$ 18.4 billion",
+        []
+      ],
+      [
+        60,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Oracle Corporation",
+        [
+          "/wiki/Oracle_Corporation"
+        ]
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "S. Robson Walton",
+        [
+          "/wiki/S._Robson_Walton"
+        ]
+      ],
+      [
+        "$ 18.3 billion",
+        []
+      ],
+      [
+        61,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Walmart",
+        [
+          "/wiki/Walmart"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "fa10e3e0-3a21-5444-9552-7bf832915db5",
+    "table_id": "List_of_wealthiest_non-inflated_historical_figures_14",
+    "title": "The World's Billionaires",
+    "header": [
+      "No",
+      "Name",
+      "Net worth ( USD )",
+      "Age",
+      "Nationality",
+      "Source ( s ) of wealth"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Bill Gates",
+          [
+            "/wiki/Bill_Gates"
+          ]
+        ],
+        [
+          "$ 46.5 billion",
+          []
+        ],
+        [
+          49,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Microsoft",
+          [
+            "/wiki/Microsoft"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Warren Buffett",
+          [
+            "/wiki/Warren_Buffett"
+          ]
+        ],
+        [
+          "$ 44.0 billion",
+          []
+        ],
+        [
+          74,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Berkshire Hathaway",
+          [
+            "/wiki/Berkshire_Hathaway"
+          ]
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Lakshmi Mittal",
+          [
+            "/wiki/Lakshmi_Mittal"
+          ]
+        ],
+        [
+          "$ 25.0 billion",
+          []
+        ],
+        [
+          54,
+          []
+        ],
+        [
+          "India",
+          [
+            "/wiki/India"
+          ]
+        ],
+        [
+          "Mittal Steel Company",
+          [
+            "/wiki/Mittal_Steel_Company"
+          ]
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Carlos Slim",
+          [
+            "/wiki/Carlos_Slim"
+          ]
+        ],
+        [
+          "$ 23.8 billion",
+          []
+        ],
+        [
+          65,
+          []
+        ],
+        [
+          "Mexico",
+          [
+            "/wiki/Mexico"
+          ]
+        ],
+        [
+          "América Móvil , Grupo Carso",
+          [
+            "/wiki/América_Móvil",
+            "/wiki/Grupo_Carso"
+          ]
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Al-Waleed bin Talal",
+          [
+            "/wiki/Al-Waleed_bin_Talal"
+          ]
+        ],
+        [
+          "$ 23.7 billion",
+          []
+        ],
+        [
+          49,
+          []
+        ],
+        [
+          "Saudi Arabia",
+          [
+            "/wiki/Saudi_Arabia"
+          ]
+        ],
+        [
+          "Kingdom Holding Company",
+          [
+            "/wiki/Kingdom_Holding_Company"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Ingvar Kamprad",
+          [
+            "/wiki/Ingvar_Kamprad"
+          ]
+        ],
+        [
+          "$ 23.0 billion",
+          []
+        ],
+        [
+          79,
+          []
+        ],
+        [
+          "Sweden",
+          [
+            "/wiki/Sweden"
+          ]
+        ],
+        [
+          "IKEA",
+          [
+            "/wiki/IKEA"
+          ]
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Paul Allen",
+          [
+            "/wiki/Paul_Allen"
+          ]
+        ],
+        [
+          "$ 21.0 billion",
+          []
+        ],
+        [
+          52,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Microsoft",
+          [
+            "/wiki/Microsoft"
+          ]
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Karl Albrecht",
+          [
+            "/wiki/Karl_Albrecht"
+          ]
+        ],
+        [
+          "$ 18.5 billion",
+          []
+        ],
+        [
+          85,
+          []
+        ],
+        [
+          "Germany",
+          [
+            "/wiki/Germany"
+          ]
+        ],
+        [
+          "Aldi Süd",
+          [
+            "/wiki/Aldi"
+          ]
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Larry Ellison",
+          [
+            "/wiki/Larry_Ellison"
+          ]
+        ],
+        [
+          "$ 18.4 billion",
+          []
+        ],
+        [
+          60,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Oracle Corporation",
+          [
+            "/wiki/Oracle_Corporation"
+          ]
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "S. Robson Walton",
+          [
+            "/wiki/S._Robson_Walton"
+          ]
+        ],
+        [
+          "$ 18.3 billion",
+          []
+        ],
+        [
+          61,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Walmart",
+          [
+            "/wiki/Walmart"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about some of the world's billionaires, including their rankings, personal details, and sources of wealth. It is designed to showcase key attributes such as net worth, age, nationality, and the industries or companies associated with their wealth. The table serves as a concise summary of notable individuals in the global financial elite.",
+  "numeric_columns": [
+    "No",
+    "Net worth ( USD )",
+    "Age"
+  ],
+  "categorical_columns": [
+    "Nationality",
+    "Source ( s ) of wealth"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

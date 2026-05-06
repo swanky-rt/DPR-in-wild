@@ -1,0 +1,563 @@
+{
+  "table_id": "T495",
+  "uid": "710e47f1-d192-59b4-ae1f-dbbfe9f968ce",
+  "source": "HybridQA",
+  "source_table_id": "710e47f1-d192-59b4-ae1f-dbbfe9f968ce",
+  "domain": "HybridQA",
+  "title": "California Legislative LGBT Caucus",
+  "columns": [
+    "Name",
+    "Residence",
+    "Party",
+    "Years in Assembly",
+    "Years in Senate"
+  ],
+  "rows": [
+    [
+      [
+        "Sheila Kuehl",
+        [
+          "/wiki/Sheila_Kuehl"
+        ]
+      ],
+      [
+        "Santa Monica",
+        [
+          "/wiki/Santa_Monica,_California"
+        ]
+      ],
+      [
+        "Democratic",
+        []
+      ],
+      [
+        "1994-2000",
+        []
+      ],
+      [
+        "2000-2008",
+        []
+      ]
+    ],
+    [
+      [
+        "Carole Migden",
+        [
+          "/wiki/Carole_Migden"
+        ]
+      ],
+      [
+        "San Francisco",
+        [
+          "/wiki/San_Francisco,_California"
+        ]
+      ],
+      [
+        "Democratic",
+        []
+      ],
+      [
+        "1996-2002",
+        []
+      ],
+      [
+        "2004-2008",
+        []
+      ]
+    ],
+    [
+      [
+        "Christine Kehoe",
+        [
+          "/wiki/Christine_Kehoe"
+        ]
+      ],
+      [
+        "San Diego",
+        [
+          "/wiki/San_Diego,_California"
+        ]
+      ],
+      [
+        "Democratic",
+        []
+      ],
+      [
+        "2000-2004",
+        []
+      ],
+      [
+        "2004-2012",
+        []
+      ]
+    ],
+    [
+      [
+        "Jackie Goldberg",
+        [
+          "/wiki/Jackie_Goldberg"
+        ]
+      ],
+      [
+        "Los Angeles",
+        [
+          "/wiki/Los_Angeles,_California"
+        ]
+      ],
+      [
+        "Democratic",
+        []
+      ],
+      [
+        "2000-2006",
+        []
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        "John Laird",
+        [
+          "/wiki/John_Laird_(California_politician)"
+        ]
+      ],
+      [
+        "Santa Cruz",
+        [
+          "/wiki/Santa_Cruz,_California"
+        ]
+      ],
+      [
+        "Democratic",
+        []
+      ],
+      [
+        "2002-2008",
+        []
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        "Tom Ammiano",
+        [
+          "/wiki/Tom_Ammiano"
+        ]
+      ],
+      [
+        "San Francisco",
+        [
+          "/wiki/San_Francisco,_California"
+        ]
+      ],
+      [
+        "Democratic",
+        []
+      ],
+      [
+        "2008-2014",
+        []
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        "John Pérez",
+        [
+          "/wiki/John_Pérez"
+        ]
+      ],
+      [
+        "Los Angeles",
+        [
+          "/wiki/Los_Angeles,_California"
+        ]
+      ],
+      [
+        "Democratic",
+        []
+      ],
+      [
+        "2008-2014",
+        []
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        "Mark Leno",
+        [
+          "/wiki/Mark_Leno"
+        ]
+      ],
+      [
+        "San Francisco",
+        [
+          "/wiki/San_Francisco,_California"
+        ]
+      ],
+      [
+        "Democratic",
+        []
+      ],
+      [
+        "2002-2008",
+        []
+      ],
+      [
+        "2008-2016",
+        []
+      ]
+    ],
+    [
+      [
+        "Rich Gordon",
+        [
+          "/wiki/Rich_Gordon"
+        ]
+      ],
+      [
+        "Menlo Park",
+        [
+          "/wiki/Menlo_Park,_California"
+        ]
+      ],
+      [
+        "Democratic",
+        []
+      ],
+      [
+        "2010-2016",
+        []
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        "Ricardo Lara",
+        [
+          "/wiki/Ricardo_Lara"
+        ]
+      ],
+      [
+        "Bell Gardens",
+        [
+          "/wiki/Bell_Gardens,_California"
+        ]
+      ],
+      [
+        "Democratic",
+        []
+      ],
+      [
+        "2010-2012",
+        []
+      ],
+      [
+        "2012-2019",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "710e47f1-d192-59b4-ae1f-dbbfe9f968ce",
+    "table_id": "California_Legislative_LGBT_Caucus_1",
+    "title": "California Legislative LGBT Caucus",
+    "header": [
+      "Name",
+      "Residence",
+      "Party",
+      "Years in Assembly",
+      "Years in Senate"
+    ],
+    "value": [
+      [
+        [
+          "Sheila Kuehl",
+          [
+            "/wiki/Sheila_Kuehl"
+          ]
+        ],
+        [
+          "Santa Monica",
+          [
+            "/wiki/Santa_Monica,_California"
+          ]
+        ],
+        [
+          "Democratic",
+          []
+        ],
+        [
+          "1994-2000",
+          []
+        ],
+        [
+          "2000-2008",
+          []
+        ]
+      ],
+      [
+        [
+          "Carole Migden",
+          [
+            "/wiki/Carole_Migden"
+          ]
+        ],
+        [
+          "San Francisco",
+          [
+            "/wiki/San_Francisco,_California"
+          ]
+        ],
+        [
+          "Democratic",
+          []
+        ],
+        [
+          "1996-2002",
+          []
+        ],
+        [
+          "2004-2008",
+          []
+        ]
+      ],
+      [
+        [
+          "Christine Kehoe",
+          [
+            "/wiki/Christine_Kehoe"
+          ]
+        ],
+        [
+          "San Diego",
+          [
+            "/wiki/San_Diego,_California"
+          ]
+        ],
+        [
+          "Democratic",
+          []
+        ],
+        [
+          "2000-2004",
+          []
+        ],
+        [
+          "2004-2012",
+          []
+        ]
+      ],
+      [
+        [
+          "Jackie Goldberg",
+          [
+            "/wiki/Jackie_Goldberg"
+          ]
+        ],
+        [
+          "Los Angeles",
+          [
+            "/wiki/Los_Angeles,_California"
+          ]
+        ],
+        [
+          "Democratic",
+          []
+        ],
+        [
+          "2000-2006",
+          []
+        ],
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        [
+          "John Laird",
+          [
+            "/wiki/John_Laird_(California_politician)"
+          ]
+        ],
+        [
+          "Santa Cruz",
+          [
+            "/wiki/Santa_Cruz,_California"
+          ]
+        ],
+        [
+          "Democratic",
+          []
+        ],
+        [
+          "2002-2008",
+          []
+        ],
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        [
+          "Tom Ammiano",
+          [
+            "/wiki/Tom_Ammiano"
+          ]
+        ],
+        [
+          "San Francisco",
+          [
+            "/wiki/San_Francisco,_California"
+          ]
+        ],
+        [
+          "Democratic",
+          []
+        ],
+        [
+          "2008-2014",
+          []
+        ],
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        [
+          "John Pérez",
+          [
+            "/wiki/John_Pérez"
+          ]
+        ],
+        [
+          "Los Angeles",
+          [
+            "/wiki/Los_Angeles,_California"
+          ]
+        ],
+        [
+          "Democratic",
+          []
+        ],
+        [
+          "2008-2014",
+          []
+        ],
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        [
+          "Mark Leno",
+          [
+            "/wiki/Mark_Leno"
+          ]
+        ],
+        [
+          "San Francisco",
+          [
+            "/wiki/San_Francisco,_California"
+          ]
+        ],
+        [
+          "Democratic",
+          []
+        ],
+        [
+          "2002-2008",
+          []
+        ],
+        [
+          "2008-2016",
+          []
+        ]
+      ],
+      [
+        [
+          "Rich Gordon",
+          [
+            "/wiki/Rich_Gordon"
+          ]
+        ],
+        [
+          "Menlo Park",
+          [
+            "/wiki/Menlo_Park,_California"
+          ]
+        ],
+        [
+          "Democratic",
+          []
+        ],
+        [
+          "2010-2016",
+          []
+        ],
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        [
+          "Ricardo Lara",
+          [
+            "/wiki/Ricardo_Lara"
+          ]
+        ],
+        [
+          "Bell Gardens",
+          [
+            "/wiki/Bell_Gardens,_California"
+          ]
+        ],
+        [
+          "Democratic",
+          []
+        ],
+        [
+          "2010-2012",
+          []
+        ],
+        [
+          "2012-2019",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about members of the California Legislative LGBT Caucus, including their names, places of residence, political party affiliations, and the years they served in the California State Assembly and Senate. It is designed to summarize key details about these individuals and their political careers.",
+  "numeric_columns": [
+    "Years in Assembly",
+    "Years in Senate"
+  ],
+  "categorical_columns": [
+    "Party"
+  ],
+  "entities": [
+    "Name",
+    "Residence"
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "table_id": "T10242",
+  "uid": "47a9a366-c24b-505d-ac52-507f2230de9a",
+  "source": "HybridQA",
+  "source_table_id": "47a9a366-c24b-505d-ac52-507f2230de9a",
+  "domain": "HybridQA",
+  "title": "2002 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Marian Drăgulescu ( ROU )",
+        [
+          "/wiki/Marian_Drăgulescu"
+        ]
+      ],
+      [
+        9.712,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Yordan Yovchev ( BUL )",
+        [
+          "/wiki/Yordan_Yovchev"
+        ]
+      ],
+      [
+        9.675,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Paul Hamm ( USA )",
+        [
+          "/wiki/Paul_Hamm"
+        ]
+      ],
+      [
+        9.625,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Diego Hypólito ( BRA )",
+        [
+          "/wiki/Diego_Hypólito"
+        ]
+      ],
+      [
+        9.575,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Ioan Suciu ( ROU )",
+        [
+          "/wiki/Ioan_Silviu_Suciu"
+        ]
+      ],
+      [
+        9.562,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Roman Zozulya ( UKR )",
+        [
+          "/wiki/Roman_Zozulya_(gymnast)"
+        ]
+      ],
+      [
+        9.562,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Yang Wei ( CHN )",
+        [
+          "/wiki/Yang_Wei_(gymnast)"
+        ]
+      ],
+      [
+        8.55,
+        []
+      ]
+    ],
+    [
+      [
+        "DQ",
+        []
+      ],
+      [
+        "Gervasio Deferr ( ESP ) *",
+        [
+          "/wiki/Gervasio_Deferr"
+        ]
+      ],
+      [
+        9.7,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "47a9a366-c24b-505d-ac52-507f2230de9a",
+    "table_id": "2002_World_Artistic_Gymnastics_Championships_0",
+    "title": "2002 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Marian Drăgulescu ( ROU )",
+          [
+            "/wiki/Marian_Drăgulescu"
+          ]
+        ],
+        [
+          9.712,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Yordan Yovchev ( BUL )",
+          [
+            "/wiki/Yordan_Yovchev"
+          ]
+        ],
+        [
+          9.675,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Paul Hamm ( USA )",
+          [
+            "/wiki/Paul_Hamm"
+          ]
+        ],
+        [
+          9.625,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Diego Hypólito ( BRA )",
+          [
+            "/wiki/Diego_Hypólito"
+          ]
+        ],
+        [
+          9.575,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Ioan Suciu ( ROU )",
+          [
+            "/wiki/Ioan_Silviu_Suciu"
+          ]
+        ],
+        [
+          9.562,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Roman Zozulya ( UKR )",
+          [
+            "/wiki/Roman_Zozulya_(gymnast)"
+          ]
+        ],
+        [
+          9.562,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Yang Wei ( CHN )",
+          [
+            "/wiki/Yang_Wei_(gymnast)"
+          ]
+        ],
+        [
+          8.55,
+          []
+        ]
+      ],
+      [
+        [
+          "DQ",
+          []
+        ],
+        [
+          "Gervasio Deferr ( ESP ) *",
+          [
+            "/wiki/Gervasio_Deferr"
+          ]
+        ],
+        [
+          9.7,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a ranking of gymnasts based on their performance at the 2002 World Artistic Gymnastics Championships. It includes information about the rank, the names of the gymnasts, and their total scores. The table is likely used to summarize and compare the results of the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

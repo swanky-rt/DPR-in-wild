@@ -1,0 +1,688 @@
+{
+  "table_id": "T5836",
+  "uid": "9d40bb1d-ece3-5c70-988f-5ec0a45681c2",
+  "source": "HybridQA",
+  "source_table_id": "9d40bb1d-ece3-5c70-988f-5ec0a45681c2",
+  "domain": "HybridQA",
+  "title": "The World's Billionaires",
+  "columns": [
+    "No",
+    "Name",
+    "Net worth ( USD )",
+    "Age",
+    "Nationality",
+    "Source ( s ) of wealth"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Carlos Slim & family",
+        [
+          "/wiki/Carlos_Slim"
+        ]
+      ],
+      [
+        "$ 73.0 billion",
+        []
+      ],
+      [
+        73,
+        []
+      ],
+      [
+        "Mexico",
+        [
+          "/wiki/Mexico"
+        ]
+      ],
+      [
+        "América Móvil , Grupo Carso",
+        [
+          "/wiki/América_Móvil",
+          "/wiki/Grupo_Carso"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Bill Gates",
+        [
+          "/wiki/Bill_Gates"
+        ]
+      ],
+      [
+        "$ 67.0 billion",
+        []
+      ],
+      [
+        57,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Microsoft",
+        [
+          "/wiki/Microsoft"
+        ]
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Amancio Ortega",
+        [
+          "/wiki/Amancio_Ortega"
+        ]
+      ],
+      [
+        "$ 57.0 billion",
+        []
+      ],
+      [
+        76,
+        []
+      ],
+      [
+        "Spain",
+        [
+          "/wiki/Spain"
+        ]
+      ],
+      [
+        "Inditex Group",
+        [
+          "/wiki/Inditex_Group"
+        ]
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Warren Buffett",
+        [
+          "/wiki/Warren_Buffett"
+        ]
+      ],
+      [
+        "$ 53.5 billion",
+        []
+      ],
+      [
+        82,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Berkshire Hathaway",
+        [
+          "/wiki/Berkshire_Hathaway"
+        ]
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Larry Ellison",
+        [
+          "/wiki/Larry_Ellison"
+        ]
+      ],
+      [
+        "$ 43.0 billion",
+        []
+      ],
+      [
+        68,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Oracle Corporation",
+        [
+          "/wiki/Oracle_Corporation"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Charles Koch",
+        [
+          "/wiki/Charles_Koch"
+        ]
+      ],
+      [
+        "$ 34.0 billion",
+        []
+      ],
+      [
+        77,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Koch Industries",
+        [
+          "/wiki/Koch_Industries"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "David Koch",
+        [
+          "/wiki/David_Koch"
+        ]
+      ],
+      [
+        "$ 34.0 billion",
+        []
+      ],
+      [
+        72,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Koch Industries",
+        [
+          "/wiki/Koch_Industries"
+        ]
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Li Ka-shing",
+        [
+          "/wiki/Li_Ka-shing"
+        ]
+      ],
+      [
+        "$ 31.0 billion",
+        []
+      ],
+      [
+        84,
+        []
+      ],
+      [
+        "Hong Kong",
+        [
+          "/wiki/Hong_Kong"
+        ]
+      ],
+      [
+        "Cheung Kong Holdings",
+        [
+          "/wiki/Cheung_Kong_Holdings"
+        ]
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Liliane Bettencourt & family",
+        [
+          "/wiki/Liliane_Bettencourt"
+        ]
+      ],
+      [
+        "$ 30.0 billion",
+        []
+      ],
+      [
+        90,
+        []
+      ],
+      [
+        "France",
+        [
+          "/wiki/France"
+        ]
+      ],
+      [
+        "L'Oréal",
+        [
+          "/wiki/L'Oréal"
+        ]
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Bernard Arnault",
+        [
+          "/wiki/Bernard_Arnault"
+        ]
+      ],
+      [
+        "$ 29.0 billion",
+        []
+      ],
+      [
+        63,
+        []
+      ],
+      [
+        "France",
+        [
+          "/wiki/France"
+        ]
+      ],
+      [
+        "LVMH",
+        [
+          "/wiki/LVMH"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "9d40bb1d-ece3-5c70-988f-5ec0a45681c2",
+    "table_id": "List_of_wealthiest_non-inflated_historical_figures_6",
+    "title": "The World's Billionaires",
+    "header": [
+      "No",
+      "Name",
+      "Net worth ( USD )",
+      "Age",
+      "Nationality",
+      "Source ( s ) of wealth"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Carlos Slim & family",
+          [
+            "/wiki/Carlos_Slim"
+          ]
+        ],
+        [
+          "$ 73.0 billion",
+          []
+        ],
+        [
+          73,
+          []
+        ],
+        [
+          "Mexico",
+          [
+            "/wiki/Mexico"
+          ]
+        ],
+        [
+          "América Móvil , Grupo Carso",
+          [
+            "/wiki/América_Móvil",
+            "/wiki/Grupo_Carso"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Bill Gates",
+          [
+            "/wiki/Bill_Gates"
+          ]
+        ],
+        [
+          "$ 67.0 billion",
+          []
+        ],
+        [
+          57,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Microsoft",
+          [
+            "/wiki/Microsoft"
+          ]
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Amancio Ortega",
+          [
+            "/wiki/Amancio_Ortega"
+          ]
+        ],
+        [
+          "$ 57.0 billion",
+          []
+        ],
+        [
+          76,
+          []
+        ],
+        [
+          "Spain",
+          [
+            "/wiki/Spain"
+          ]
+        ],
+        [
+          "Inditex Group",
+          [
+            "/wiki/Inditex_Group"
+          ]
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Warren Buffett",
+          [
+            "/wiki/Warren_Buffett"
+          ]
+        ],
+        [
+          "$ 53.5 billion",
+          []
+        ],
+        [
+          82,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Berkshire Hathaway",
+          [
+            "/wiki/Berkshire_Hathaway"
+          ]
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Larry Ellison",
+          [
+            "/wiki/Larry_Ellison"
+          ]
+        ],
+        [
+          "$ 43.0 billion",
+          []
+        ],
+        [
+          68,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Oracle Corporation",
+          [
+            "/wiki/Oracle_Corporation"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Charles Koch",
+          [
+            "/wiki/Charles_Koch"
+          ]
+        ],
+        [
+          "$ 34.0 billion",
+          []
+        ],
+        [
+          77,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Koch Industries",
+          [
+            "/wiki/Koch_Industries"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "David Koch",
+          [
+            "/wiki/David_Koch"
+          ]
+        ],
+        [
+          "$ 34.0 billion",
+          []
+        ],
+        [
+          72,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Koch Industries",
+          [
+            "/wiki/Koch_Industries"
+          ]
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Li Ka-shing",
+          [
+            "/wiki/Li_Ka-shing"
+          ]
+        ],
+        [
+          "$ 31.0 billion",
+          []
+        ],
+        [
+          84,
+          []
+        ],
+        [
+          "Hong Kong",
+          [
+            "/wiki/Hong_Kong"
+          ]
+        ],
+        [
+          "Cheung Kong Holdings",
+          [
+            "/wiki/Cheung_Kong_Holdings"
+          ]
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Liliane Bettencourt & family",
+          [
+            "/wiki/Liliane_Bettencourt"
+          ]
+        ],
+        [
+          "$ 30.0 billion",
+          []
+        ],
+        [
+          90,
+          []
+        ],
+        [
+          "France",
+          [
+            "/wiki/France"
+          ]
+        ],
+        [
+          "L'Oréal",
+          [
+            "/wiki/L'Oréal"
+          ]
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Bernard Arnault",
+          [
+            "/wiki/Bernard_Arnault"
+          ]
+        ],
+        [
+          "$ 29.0 billion",
+          []
+        ],
+        [
+          63,
+          []
+        ],
+        [
+          "France",
+          [
+            "/wiki/France"
+          ]
+        ],
+        [
+          "LVMH",
+          [
+            "/wiki/LVMH"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about the world's billionaires, including their rank, name, net worth, age, nationality, and sources of wealth. It is designed to present a snapshot of prominent individuals and their financial standings globally. The data combines numeric, categorical, and entity-based details to offer a comprehensive overview of these individuals.",
+  "numeric_columns": [
+    "No",
+    "Age"
+  ],
+  "categorical_columns": [
+    "Net worth ( USD )",
+    "Source ( s ) of wealth"
+  ],
+  "entities": [
+    "Name",
+    "Nationality"
+  ]
+}

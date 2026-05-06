@@ -1,0 +1,502 @@
+{
+  "table_id": "T5959",
+  "uid": "1ae85990-8dab-5d1c-9a5b-bad20a9e3457",
+  "source": "HybridQA",
+  "source_table_id": "1ae85990-8dab-5d1c-9a5b-bad20a9e3457",
+  "domain": "HybridQA",
+  "title": "Wenvoe transmitting station",
+  "columns": [
+    "Frequency",
+    "UHF",
+    "kW",
+    "Service",
+    "System"
+  ],
+  "rows": [
+    [
+      [
+        "546.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        30,
+        []
+      ],
+      [
+        5,
+        []
+      ],
+      [
+        "Arqiva ( Mux C )",
+        [
+          "/wiki/Arqiva"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "578.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        34,
+        []
+      ],
+      [
+        5,
+        []
+      ],
+      [
+        "Digital 3 & 4 ( Mux 2 )",
+        [
+          "/wiki/Digital_3&4"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "625.833 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "40-",
+        []
+      ],
+      [
+        5,
+        []
+      ],
+      [
+        "SDN ( Mux A )",
+        [
+          "/wiki/S4C_Digital_Networks"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "634.166 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "41+",
+        []
+      ],
+      [
+        100,
+        []
+      ],
+      [
+        "BBC A",
+        [
+          "/wiki/BBC"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "655.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        44,
+        []
+      ],
+      [
+        500,
+        []
+      ],
+      [
+        "BBC One Wales",
+        [
+          "/wiki/BBC_One_Wales"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "673.833 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "46-",
+        []
+      ],
+      [
+        5,
+        []
+      ],
+      [
+        "Arqiva ( Mux D )",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "679.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        47,
+        []
+      ],
+      [
+        500,
+        []
+      ],
+      [
+        "S4C",
+        [
+          "/wiki/S4C"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "705.833 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "50-",
+        []
+      ],
+      [
+        5,
+        []
+      ],
+      [
+        "BBC ( Mux B )",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "711.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        51,
+        []
+      ],
+      [
+        500,
+        []
+      ],
+      [
+        "ITV1 Wales",
+        [
+          "/wiki/ITV_Wales_&_West"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "1ae85990-8dab-5d1c-9a5b-bad20a9e3457",
+    "table_id": "Wenvoe_transmitting_station_8",
+    "title": "Wenvoe transmitting station",
+    "header": [
+      "Frequency",
+      "UHF",
+      "kW",
+      "Service",
+      "System"
+    ],
+    "value": [
+      [
+        [
+          "546.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          30,
+          []
+        ],
+        [
+          5,
+          []
+        ],
+        [
+          "Arqiva ( Mux C )",
+          [
+            "/wiki/Arqiva"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "578.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          34,
+          []
+        ],
+        [
+          5,
+          []
+        ],
+        [
+          "Digital 3 & 4 ( Mux 2 )",
+          [
+            "/wiki/Digital_3&4"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "625.833 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "40-",
+          []
+        ],
+        [
+          5,
+          []
+        ],
+        [
+          "SDN ( Mux A )",
+          [
+            "/wiki/S4C_Digital_Networks"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "634.166 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "41+",
+          []
+        ],
+        [
+          100,
+          []
+        ],
+        [
+          "BBC A",
+          [
+            "/wiki/BBC"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "655.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          44,
+          []
+        ],
+        [
+          500,
+          []
+        ],
+        [
+          "BBC One Wales",
+          [
+            "/wiki/BBC_One_Wales"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "673.833 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "46-",
+          []
+        ],
+        [
+          5,
+          []
+        ],
+        [
+          "Arqiva ( Mux D )",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "679.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          47,
+          []
+        ],
+        [
+          500,
+          []
+        ],
+        [
+          "S4C",
+          [
+            "/wiki/S4C"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "705.833 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "50-",
+          []
+        ],
+        [
+          5,
+          []
+        ],
+        [
+          "BBC ( Mux B )",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "711.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          51,
+          []
+        ],
+        [
+          500,
+          []
+        ],
+        [
+          "ITV1 Wales",
+          [
+            "/wiki/ITV_Wales_&_West"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the Wenvoe transmitting station, detailing its broadcasting frequencies, power levels, services, and systems used. It appears to be focused on technical specifications and configurations for broadcasting purposes. The table is likely intended for technical or regulatory audiences interested in transmission details.",
+  "numeric_columns": [
+    "UHF",
+    "kW"
+  ],
+  "categorical_columns": [
+    "Frequency",
+    "Service",
+    "System"
+  ],
+  "entities": []
+}

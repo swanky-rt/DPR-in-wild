@@ -1,0 +1,468 @@
+{
+  "table_id": "T2738",
+  "uid": "9a6fa64e-07f8-5836-ae5e-1fd0db8d8a65",
+  "source": "HybridQA",
+  "source_table_id": "9a6fa64e-07f8-5836-ae5e-1fd0db8d8a65",
+  "domain": "HybridQA",
+  "title": "2013 FKF Division One",
+  "columns": [
+    "Club",
+    "Home stadium",
+    "Town / City"
+  ],
+  "rows": [
+    [
+      [
+        "Agrochemical",
+        [
+          "/wiki/Agrochemical_F.C."
+        ]
+      ],
+      [
+        "Muhoroni Stadium",
+        [
+          "/wiki/Muhoroni_Stadium"
+        ]
+      ],
+      [
+        "Muhoroni",
+        [
+          "/wiki/Muhoroni"
+        ]
+      ]
+    ],
+    [
+      [
+        "Busia United Stars",
+        [
+          "/wiki/Busia_United_Stars_F.C."
+        ]
+      ],
+      [
+        "Unknown stadium",
+        []
+      ],
+      [
+        "Busia",
+        [
+          "/wiki/Busia,_Kenya"
+        ]
+      ]
+    ],
+    [
+      [
+        "Field Negroes",
+        []
+      ],
+      [
+        "Unknown stadium",
+        []
+      ],
+      [
+        "Kisumu",
+        [
+          "/wiki/Kisumu"
+        ]
+      ]
+    ],
+    [
+      [
+        "Finlays Horticulture",
+        [
+          "/wiki/Finlays_Horticulture_A.F.C."
+        ]
+      ],
+      [
+        "Kingfisher Grounds",
+        []
+      ],
+      [
+        "Naivasha",
+        [
+          "/wiki/Naivasha"
+        ]
+      ]
+    ],
+    [
+      [
+        "Gusii Raiders",
+        []
+      ],
+      [
+        "Unknown stadium",
+        []
+      ],
+      [
+        "Kisii",
+        [
+          "/wiki/Kisii,_Kenya"
+        ]
+      ]
+    ],
+    [
+      [
+        "Hotsprings",
+        [
+          "/wiki/Hotsprings_F.C."
+        ]
+      ],
+      [
+        "Kipchoge Keino Stadium",
+        [
+          "/wiki/Kipchoge_Keino_Stadium"
+        ]
+      ],
+      [
+        "Eldoret",
+        [
+          "/wiki/Eldoret"
+        ]
+      ]
+    ],
+    [
+      [
+        "Kisumu Municipal",
+        []
+      ],
+      [
+        "Moi Stadium",
+        [
+          "/wiki/Moi_Stadium"
+        ]
+      ],
+      [
+        "Kisumu",
+        [
+          "/wiki/Kisumu"
+        ]
+      ]
+    ],
+    [
+      [
+        "Longonot Horticulture",
+        []
+      ],
+      [
+        "Kingfisher Grounds",
+        []
+      ],
+      [
+        "Naivasha",
+        [
+          "/wiki/Naivasha"
+        ]
+      ]
+    ],
+    [
+      [
+        "Oserian",
+        [
+          "/wiki/Oserian_F.C."
+        ]
+      ],
+      [
+        "Naivasha Stadium",
+        [
+          "/wiki/Naivasha_Stadium"
+        ]
+      ],
+      [
+        "Naivasha",
+        [
+          "/wiki/Naivasha"
+        ]
+      ]
+    ],
+    [
+      [
+        "St. Joseph",
+        [
+          "/wiki/St._Joseph's_F.C."
+        ]
+      ],
+      [
+        "Unknown stadium",
+        []
+      ],
+      [
+        "Nakuru",
+        [
+          "/wiki/Nakuru"
+        ]
+      ]
+    ],
+    [
+      [
+        "Utawala",
+        [
+          "/wiki/Utawala_F.C."
+        ]
+      ],
+      [
+        "Afraha Stadium",
+        [
+          "/wiki/Afraha_Stadium"
+        ]
+      ],
+      [
+        "Nakuru",
+        [
+          "/wiki/Nakuru"
+        ]
+      ]
+    ],
+    [
+      [
+        "Vihiga Stars",
+        []
+      ],
+      [
+        "Unknown stadium",
+        []
+      ],
+      [
+        "Vihiga",
+        [
+          "/wiki/Vihiga"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "9a6fa64e-07f8-5836-ae5e-1fd0db8d8a65",
+    "table_id": "2013_FKF_Division_One_3",
+    "title": "2013 FKF Division One",
+    "header": [
+      "Club",
+      "Home stadium",
+      "Town / City"
+    ],
+    "value": [
+      [
+        [
+          "Agrochemical",
+          [
+            "/wiki/Agrochemical_F.C."
+          ]
+        ],
+        [
+          "Muhoroni Stadium",
+          [
+            "/wiki/Muhoroni_Stadium"
+          ]
+        ],
+        [
+          "Muhoroni",
+          [
+            "/wiki/Muhoroni"
+          ]
+        ]
+      ],
+      [
+        [
+          "Busia United Stars",
+          [
+            "/wiki/Busia_United_Stars_F.C."
+          ]
+        ],
+        [
+          "Unknown stadium",
+          []
+        ],
+        [
+          "Busia",
+          [
+            "/wiki/Busia,_Kenya"
+          ]
+        ]
+      ],
+      [
+        [
+          "Field Negroes",
+          []
+        ],
+        [
+          "Unknown stadium",
+          []
+        ],
+        [
+          "Kisumu",
+          [
+            "/wiki/Kisumu"
+          ]
+        ]
+      ],
+      [
+        [
+          "Finlays Horticulture",
+          [
+            "/wiki/Finlays_Horticulture_A.F.C."
+          ]
+        ],
+        [
+          "Kingfisher Grounds",
+          []
+        ],
+        [
+          "Naivasha",
+          [
+            "/wiki/Naivasha"
+          ]
+        ]
+      ],
+      [
+        [
+          "Gusii Raiders",
+          []
+        ],
+        [
+          "Unknown stadium",
+          []
+        ],
+        [
+          "Kisii",
+          [
+            "/wiki/Kisii,_Kenya"
+          ]
+        ]
+      ],
+      [
+        [
+          "Hotsprings",
+          [
+            "/wiki/Hotsprings_F.C."
+          ]
+        ],
+        [
+          "Kipchoge Keino Stadium",
+          [
+            "/wiki/Kipchoge_Keino_Stadium"
+          ]
+        ],
+        [
+          "Eldoret",
+          [
+            "/wiki/Eldoret"
+          ]
+        ]
+      ],
+      [
+        [
+          "Kisumu Municipal",
+          []
+        ],
+        [
+          "Moi Stadium",
+          [
+            "/wiki/Moi_Stadium"
+          ]
+        ],
+        [
+          "Kisumu",
+          [
+            "/wiki/Kisumu"
+          ]
+        ]
+      ],
+      [
+        [
+          "Longonot Horticulture",
+          []
+        ],
+        [
+          "Kingfisher Grounds",
+          []
+        ],
+        [
+          "Naivasha",
+          [
+            "/wiki/Naivasha"
+          ]
+        ]
+      ],
+      [
+        [
+          "Oserian",
+          [
+            "/wiki/Oserian_F.C."
+          ]
+        ],
+        [
+          "Naivasha Stadium",
+          [
+            "/wiki/Naivasha_Stadium"
+          ]
+        ],
+        [
+          "Naivasha",
+          [
+            "/wiki/Naivasha"
+          ]
+        ]
+      ],
+      [
+        [
+          "St. Joseph",
+          [
+            "/wiki/St._Joseph's_F.C."
+          ]
+        ],
+        [
+          "Unknown stadium",
+          []
+        ],
+        [
+          "Nakuru",
+          [
+            "/wiki/Nakuru"
+          ]
+        ]
+      ],
+      [
+        [
+          "Utawala",
+          [
+            "/wiki/Utawala_F.C."
+          ]
+        ],
+        [
+          "Afraha Stadium",
+          [
+            "/wiki/Afraha_Stadium"
+          ]
+        ],
+        [
+          "Nakuru",
+          [
+            "/wiki/Nakuru"
+          ]
+        ]
+      ],
+      [
+        [
+          "Vihiga Stars",
+          []
+        ],
+        [
+          "Unknown stadium",
+          []
+        ],
+        [
+          "Vihiga",
+          [
+            "/wiki/Vihiga"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about football clubs that participated in the 2013 FKF Division One league, including their home stadiums and associated towns or cities. It serves as a reference for understanding the geographical and infrastructural context of the league's teams.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Home stadium"
+  ],
+  "entities": [
+    "Club",
+    "Town / City"
+  ]
+}

@@ -1,0 +1,498 @@
+{
+  "table_id": "T4926",
+  "uid": "2d635fcc-2370-5d0f-a049-2dcced539594",
+  "source": "HybridQA",
+  "source_table_id": "2d635fcc-2370-5d0f-a049-2dcced539594",
+  "domain": "HybridQA",
+  "title": "Emley Moor transmitting station",
+  "columns": [
+    "frequency",
+    "UHF",
+    "kW",
+    "operator",
+    "system"
+  ],
+  "rows": [
+    [
+      [
+        "570.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        33,
+        []
+      ],
+      [
+        174,
+        []
+      ],
+      [
+        "COM4 ( SDN )",
+        [
+          "/wiki/S4C_Digital_Networks"
+        ]
+      ],
+      [
+        "DVB-T",
+        [
+          "/wiki/DVB-T"
+        ]
+      ]
+    ],
+    [
+      [
+        "594.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        36,
+        []
+      ],
+      [
+        174,
+        []
+      ],
+      [
+        "COM5 ( ARQ A )",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "618.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        39,
+        []
+      ],
+      [
+        5,
+        []
+      ],
+      [
+        "LTVmux",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "634.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        41,
+        []
+      ],
+      [
+        174,
+        []
+      ],
+      [
+        "PSB3 ( BBC B )",
+        [
+          "/wiki/BBC"
+        ]
+      ],
+      [
+        "DVB-T2",
+        [
+          "/wiki/DVB-T2"
+        ]
+      ]
+    ],
+    [
+      [
+        "658.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        44,
+        []
+      ],
+      [
+        174,
+        []
+      ],
+      [
+        "PSB2 ( D3 & 4 )",
+        [
+          "/wiki/Digital_3&4"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "682.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        47,
+        []
+      ],
+      [
+        174,
+        []
+      ],
+      [
+        "PSB1 ( BBC A )",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "690.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        48,
+        []
+      ],
+      [
+        174,
+        []
+      ],
+      [
+        "COM6 ( ARQ B )",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "746.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        55,
+        []
+      ],
+      [
+        54.8,
+        []
+      ],
+      [
+        "COM7 ( ARQ C )",
+        [
+          "/wiki/Arqiva"
+        ]
+      ],
+      [
+        "DVB-T2",
+        []
+      ]
+    ],
+    [
+      [
+        "754.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        56,
+        []
+      ],
+      [
+        47,
+        []
+      ],
+      [
+        "COM8 ( ARQ D )",
+        []
+      ],
+      [
+        "DVB-T2",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "2d635fcc-2370-5d0f-a049-2dcced539594",
+    "table_id": "Emley_Moor_transmitting_station_2",
+    "title": "Emley Moor transmitting station",
+    "header": [
+      "frequency",
+      "UHF",
+      "kW",
+      "operator",
+      "system"
+    ],
+    "value": [
+      [
+        [
+          "570.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          33,
+          []
+        ],
+        [
+          174,
+          []
+        ],
+        [
+          "COM4 ( SDN )",
+          [
+            "/wiki/S4C_Digital_Networks"
+          ]
+        ],
+        [
+          "DVB-T",
+          [
+            "/wiki/DVB-T"
+          ]
+        ]
+      ],
+      [
+        [
+          "594.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          36,
+          []
+        ],
+        [
+          174,
+          []
+        ],
+        [
+          "COM5 ( ARQ A )",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "618.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          39,
+          []
+        ],
+        [
+          5,
+          []
+        ],
+        [
+          "LTVmux",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "634.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          41,
+          []
+        ],
+        [
+          174,
+          []
+        ],
+        [
+          "PSB3 ( BBC B )",
+          [
+            "/wiki/BBC"
+          ]
+        ],
+        [
+          "DVB-T2",
+          [
+            "/wiki/DVB-T2"
+          ]
+        ]
+      ],
+      [
+        [
+          "658.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          44,
+          []
+        ],
+        [
+          174,
+          []
+        ],
+        [
+          "PSB2 ( D3 & 4 )",
+          [
+            "/wiki/Digital_3&4"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "682.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          47,
+          []
+        ],
+        [
+          174,
+          []
+        ],
+        [
+          "PSB1 ( BBC A )",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "690.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          48,
+          []
+        ],
+        [
+          174,
+          []
+        ],
+        [
+          "COM6 ( ARQ B )",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "746.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          55,
+          []
+        ],
+        [
+          54.8,
+          []
+        ],
+        [
+          "COM7 ( ARQ C )",
+          [
+            "/wiki/Arqiva"
+          ]
+        ],
+        [
+          "DVB-T2",
+          []
+        ]
+      ],
+      [
+        [
+          "754.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          56,
+          []
+        ],
+        [
+          47,
+          []
+        ],
+        [
+          "COM8 ( ARQ D )",
+          []
+        ],
+        [
+          "DVB-T2",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the broadcasting details of the Emley Moor transmitting station. It includes data on frequencies, transmission power, operators, and systems used for broadcasting. The table is likely intended for technical or regulatory purposes related to broadcasting operations.",
+  "numeric_columns": [
+    "UHF",
+    "kW"
+  ],
+  "categorical_columns": [
+    "frequency",
+    "operator",
+    "system"
+  ],
+  "entities": []
+}

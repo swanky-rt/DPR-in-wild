@@ -1,0 +1,554 @@
+{
+  "table_id": "T3285",
+  "uid": "4c78b778-c153-56e0-8f2e-bc9fb1db056d",
+  "source": "HybridQA",
+  "source_table_id": "4c78b778-c153-56e0-8f2e-bc9fb1db056d",
+  "domain": "HybridQA",
+  "title": "2012 Champions League Twenty20",
+  "columns": [
+    "Team",
+    "Domestic tournament",
+    "Position",
+    "Appearance",
+    "Qualified"
+  ],
+  "rows": [
+    [
+      [
+        "Perth Scorchers",
+        [
+          "/wiki/Perth_Scorchers"
+        ]
+      ],
+      [
+        "2011-12 Big Bash League",
+        [
+          "/wiki/2011–12_Big_Bash_League_season"
+        ]
+      ],
+      [
+        "Runners-up",
+        []
+      ],
+      [
+        "1st",
+        []
+      ],
+      [
+        "21 January 2012",
+        []
+      ]
+    ],
+    [
+      [
+        "Sydney Sixers",
+        [
+          "/wiki/Sydney_Sixers"
+        ]
+      ],
+      [
+        "2011-12 Big Bash League",
+        [
+          "/wiki/2011–12_Big_Bash_League_season"
+        ]
+      ],
+      [
+        "Winners",
+        []
+      ],
+      [
+        "1st",
+        []
+      ],
+      [
+        "22 January 2012",
+        []
+      ]
+    ],
+    [
+      [
+        "Highveld Lions",
+        [
+          "/wiki/Highveld_Lions_cricket_team"
+        ]
+      ],
+      [
+        "2011-12 MiWay T20 Challenge",
+        [
+          "/wiki/2011–12_MiWay_T20_Challenge"
+        ]
+      ],
+      [
+        "Runners-up",
+        []
+      ],
+      [
+        "2nd",
+        []
+      ],
+      [
+        "18 March 2012",
+        []
+      ]
+    ],
+    [
+      [
+        "Titans",
+        [
+          "/wiki/Titans_cricket_team"
+        ]
+      ],
+      [
+        "2011-12 MiWay T20 Challenge",
+        [
+          "/wiki/2011–12_MiWay_T20_Challenge"
+        ]
+      ],
+      [
+        "Winners",
+        []
+      ],
+      [
+        "1st",
+        []
+      ],
+      [
+        "1 April 2012",
+        []
+      ]
+    ],
+    [
+      [
+        "Delhi Daredevils",
+        [
+          "/wiki/Delhi_Daredevils"
+        ]
+      ],
+      [
+        "2012 Indian Premier League",
+        [
+          "/wiki/2012_Indian_Premier_League"
+        ]
+      ],
+      [
+        "Third place",
+        []
+      ],
+      [
+        "2nd",
+        []
+      ],
+      [
+        "15 May 2012",
+        []
+      ]
+    ],
+    [
+      [
+        "Kolkata Knight Riders",
+        [
+          "/wiki/Kolkata_Knight_Riders"
+        ]
+      ],
+      [
+        "2012 Indian Premier League",
+        [
+          "/wiki/2012_Indian_Premier_League"
+        ]
+      ],
+      [
+        "Winners",
+        []
+      ],
+      [
+        "2nd",
+        []
+      ],
+      [
+        "17 May 2012",
+        []
+      ]
+    ],
+    [
+      [
+        "Mumbai Indians",
+        [
+          "/wiki/Mumbai_Indians"
+        ]
+      ],
+      [
+        "2012 Indian Premier League",
+        [
+          "/wiki/2012_Indian_Premier_League"
+        ]
+      ],
+      [
+        "Fourth place",
+        []
+      ],
+      [
+        "3rd",
+        []
+      ],
+      [
+        "19 May 2012",
+        []
+      ]
+    ],
+    [
+      [
+        "Chennai Super Kings",
+        [
+          "/wiki/Chennai_Super_Kings"
+        ]
+      ],
+      [
+        "2012 Indian Premier League",
+        [
+          "/wiki/2012_Indian_Premier_League"
+        ]
+      ],
+      [
+        "Runners-up",
+        []
+      ],
+      [
+        "3rd",
+        []
+      ],
+      [
+        "20 May 2012",
+        []
+      ]
+    ],
+    [
+      [
+        "Auckland Aces",
+        [
+          "/wiki/Auckland_cricket_team"
+        ]
+      ],
+      [
+        "Qualifying stage",
+        []
+      ],
+      [
+        "Pool 1 winners",
+        []
+      ],
+      [
+        "2nd",
+        []
+      ],
+      [
+        "10 October 2012",
+        []
+      ]
+    ],
+    [
+      [
+        "Yorkshire Carnegie",
+        [
+          "/wiki/Yorkshire_County_Cricket_Club"
+        ]
+      ],
+      [
+        "Qualifying stage",
+        []
+      ],
+      [
+        "Pool 2 winners",
+        []
+      ],
+      [
+        "1st",
+        []
+      ],
+      [
+        "10 October 2012",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "4c78b778-c153-56e0-8f2e-bc9fb1db056d",
+    "table_id": "2012_Champions_League_Twenty20_1",
+    "title": "2012 Champions League Twenty20",
+    "header": [
+      "Team",
+      "Domestic tournament",
+      "Position",
+      "Appearance",
+      "Qualified"
+    ],
+    "value": [
+      [
+        [
+          "Perth Scorchers",
+          [
+            "/wiki/Perth_Scorchers"
+          ]
+        ],
+        [
+          "2011-12 Big Bash League",
+          [
+            "/wiki/2011–12_Big_Bash_League_season"
+          ]
+        ],
+        [
+          "Runners-up",
+          []
+        ],
+        [
+          "1st",
+          []
+        ],
+        [
+          "21 January 2012",
+          []
+        ]
+      ],
+      [
+        [
+          "Sydney Sixers",
+          [
+            "/wiki/Sydney_Sixers"
+          ]
+        ],
+        [
+          "2011-12 Big Bash League",
+          [
+            "/wiki/2011–12_Big_Bash_League_season"
+          ]
+        ],
+        [
+          "Winners",
+          []
+        ],
+        [
+          "1st",
+          []
+        ],
+        [
+          "22 January 2012",
+          []
+        ]
+      ],
+      [
+        [
+          "Highveld Lions",
+          [
+            "/wiki/Highveld_Lions_cricket_team"
+          ]
+        ],
+        [
+          "2011-12 MiWay T20 Challenge",
+          [
+            "/wiki/2011–12_MiWay_T20_Challenge"
+          ]
+        ],
+        [
+          "Runners-up",
+          []
+        ],
+        [
+          "2nd",
+          []
+        ],
+        [
+          "18 March 2012",
+          []
+        ]
+      ],
+      [
+        [
+          "Titans",
+          [
+            "/wiki/Titans_cricket_team"
+          ]
+        ],
+        [
+          "2011-12 MiWay T20 Challenge",
+          [
+            "/wiki/2011–12_MiWay_T20_Challenge"
+          ]
+        ],
+        [
+          "Winners",
+          []
+        ],
+        [
+          "1st",
+          []
+        ],
+        [
+          "1 April 2012",
+          []
+        ]
+      ],
+      [
+        [
+          "Delhi Daredevils",
+          [
+            "/wiki/Delhi_Daredevils"
+          ]
+        ],
+        [
+          "2012 Indian Premier League",
+          [
+            "/wiki/2012_Indian_Premier_League"
+          ]
+        ],
+        [
+          "Third place",
+          []
+        ],
+        [
+          "2nd",
+          []
+        ],
+        [
+          "15 May 2012",
+          []
+        ]
+      ],
+      [
+        [
+          "Kolkata Knight Riders",
+          [
+            "/wiki/Kolkata_Knight_Riders"
+          ]
+        ],
+        [
+          "2012 Indian Premier League",
+          [
+            "/wiki/2012_Indian_Premier_League"
+          ]
+        ],
+        [
+          "Winners",
+          []
+        ],
+        [
+          "2nd",
+          []
+        ],
+        [
+          "17 May 2012",
+          []
+        ]
+      ],
+      [
+        [
+          "Mumbai Indians",
+          [
+            "/wiki/Mumbai_Indians"
+          ]
+        ],
+        [
+          "2012 Indian Premier League",
+          [
+            "/wiki/2012_Indian_Premier_League"
+          ]
+        ],
+        [
+          "Fourth place",
+          []
+        ],
+        [
+          "3rd",
+          []
+        ],
+        [
+          "19 May 2012",
+          []
+        ]
+      ],
+      [
+        [
+          "Chennai Super Kings",
+          [
+            "/wiki/Chennai_Super_Kings"
+          ]
+        ],
+        [
+          "2012 Indian Premier League",
+          [
+            "/wiki/2012_Indian_Premier_League"
+          ]
+        ],
+        [
+          "Runners-up",
+          []
+        ],
+        [
+          "3rd",
+          []
+        ],
+        [
+          "20 May 2012",
+          []
+        ]
+      ],
+      [
+        [
+          "Auckland Aces",
+          [
+            "/wiki/Auckland_cricket_team"
+          ]
+        ],
+        [
+          "Qualifying stage",
+          []
+        ],
+        [
+          "Pool 1 winners",
+          []
+        ],
+        [
+          "2nd",
+          []
+        ],
+        [
+          "10 October 2012",
+          []
+        ]
+      ],
+      [
+        [
+          "Yorkshire Carnegie",
+          [
+            "/wiki/Yorkshire_County_Cricket_Club"
+          ]
+        ],
+        [
+          "Qualifying stage",
+          []
+        ],
+        [
+          "Pool 2 winners",
+          []
+        ],
+        [
+          "1st",
+          []
+        ],
+        [
+          "10 October 2012",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about teams that participated in the 2012 Champions League Twenty20 cricket tournament, including their domestic tournament performance, position, appearance details, and qualification date. It serves to summarize the qualifications and background of the teams in the competition.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Domestic tournament",
+    "Position",
+    "Appearance",
+    "Qualified"
+  ],
+  "entities": [
+    "Team"
+  ]
+}

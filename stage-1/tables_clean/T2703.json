@@ -1,0 +1,490 @@
+{
+  "table_id": "T2703",
+  "uid": "89421ed9-0465-5649-8fb4-2c7724f49833",
+  "source": "HybridQA",
+  "source_table_id": "89421ed9-0465-5649-8fb4-2c7724f49833",
+  "domain": "HybridQA",
+  "title": "2008 Champions League Twenty20",
+  "columns": [
+    "Team",
+    "Country",
+    "Domestic tournament",
+    "Position",
+    "Group"
+  ],
+  "rows": [
+    [
+      [
+        "Rajasthan Royals",
+        [
+          "/wiki/Rajasthan_Royals"
+        ]
+      ],
+      [
+        "India",
+        [
+          "/wiki/India"
+        ]
+      ],
+      [
+        "2008 Indian Premier League",
+        [
+          "/wiki/2008_Indian_Premier_League"
+        ]
+      ],
+      [
+        "Winner",
+        []
+      ],
+      [
+        "B",
+        []
+      ]
+    ],
+    [
+      [
+        "Chennai Super Kings",
+        [
+          "/wiki/Chennai_Super_Kings"
+        ]
+      ],
+      [
+        "India",
+        [
+          "/wiki/India"
+        ]
+      ],
+      [
+        "2008 Indian Premier League",
+        [
+          "/wiki/2008_Indian_Premier_League"
+        ]
+      ],
+      [
+        "Runner-up",
+        []
+      ],
+      [
+        "A",
+        []
+      ]
+    ],
+    [
+      [
+        "Titans",
+        [
+          "/wiki/Titans_cricket_team"
+        ]
+      ],
+      [
+        "South Africa",
+        [
+          "/wiki/South_Africa"
+        ]
+      ],
+      [
+        "2007-08 Standard Bank Pro20",
+        [
+          "/wiki/Standard_Bank_Pro20_Series"
+        ]
+      ],
+      [
+        "Winner",
+        []
+      ],
+      [
+        "A",
+        []
+      ]
+    ],
+    [
+      [
+        "Dolphins",
+        [
+          "/wiki/Dolphins_cricket_team"
+        ]
+      ],
+      [
+        "South Africa",
+        [
+          "/wiki/South_Africa"
+        ]
+      ],
+      [
+        "2007-08 Standard Bank Pro20",
+        [
+          "/wiki/Standard_Bank_Pro20_Series"
+        ]
+      ],
+      [
+        "Runner-up",
+        []
+      ],
+      [
+        "B",
+        []
+      ]
+    ],
+    [
+      [
+        "Victorian Bushrangers",
+        [
+          "/wiki/Victorian_Bushrangers"
+        ]
+      ],
+      [
+        "Australia",
+        [
+          "/wiki/Australia"
+        ]
+      ],
+      [
+        "2007-08 KFC Twenty20 Big Bash",
+        [
+          "/wiki/2007–08_KFC_Twenty20_Big_Bash"
+        ]
+      ],
+      [
+        "Winner",
+        []
+      ],
+      [
+        "A",
+        []
+      ]
+    ],
+    [
+      [
+        "Western Warriors",
+        [
+          "/wiki/Western_Warriors"
+        ]
+      ],
+      [
+        "Australia",
+        [
+          "/wiki/Australia"
+        ]
+      ],
+      [
+        "2007-08 KFC Twenty20 Big Bash",
+        [
+          "/wiki/2007–08_KFC_Twenty20_Big_Bash"
+        ]
+      ],
+      [
+        "Runner-up",
+        []
+      ],
+      [
+        "B",
+        []
+      ]
+    ],
+    [
+      [
+        "Middlesex Crusaders",
+        [
+          "/wiki/Middlesex_County_Cricket_Club"
+        ]
+      ],
+      [
+        "England",
+        [
+          "/wiki/England"
+        ]
+      ],
+      [
+        "2008 Twenty20 Cup",
+        [
+          "/wiki/2008_Twenty20_Cup"
+        ]
+      ],
+      [
+        "Winner",
+        []
+      ],
+      [
+        "A",
+        []
+      ]
+    ],
+    [
+      [
+        "Sialkot Stallions",
+        [
+          "/wiki/Sialkot_Stallions"
+        ]
+      ],
+      [
+        "Pakistan",
+        [
+          "/wiki/Pakistan"
+        ]
+      ],
+      [
+        "2008-09 RBS Twenty-20 Cup",
+        [
+          "/wiki/2008–09_RBS_Twenty-20_Cup"
+        ]
+      ],
+      [
+        "Winner",
+        []
+      ],
+      [
+        "B",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "89421ed9-0465-5649-8fb4-2c7724f49833",
+    "table_id": "2008_Champions_League_Twenty20_0",
+    "title": "2008 Champions League Twenty20",
+    "header": [
+      "Team",
+      "Country",
+      "Domestic tournament",
+      "Position",
+      "Group"
+    ],
+    "value": [
+      [
+        [
+          "Rajasthan Royals",
+          [
+            "/wiki/Rajasthan_Royals"
+          ]
+        ],
+        [
+          "India",
+          [
+            "/wiki/India"
+          ]
+        ],
+        [
+          "2008 Indian Premier League",
+          [
+            "/wiki/2008_Indian_Premier_League"
+          ]
+        ],
+        [
+          "Winner",
+          []
+        ],
+        [
+          "B",
+          []
+        ]
+      ],
+      [
+        [
+          "Chennai Super Kings",
+          [
+            "/wiki/Chennai_Super_Kings"
+          ]
+        ],
+        [
+          "India",
+          [
+            "/wiki/India"
+          ]
+        ],
+        [
+          "2008 Indian Premier League",
+          [
+            "/wiki/2008_Indian_Premier_League"
+          ]
+        ],
+        [
+          "Runner-up",
+          []
+        ],
+        [
+          "A",
+          []
+        ]
+      ],
+      [
+        [
+          "Titans",
+          [
+            "/wiki/Titans_cricket_team"
+          ]
+        ],
+        [
+          "South Africa",
+          [
+            "/wiki/South_Africa"
+          ]
+        ],
+        [
+          "2007-08 Standard Bank Pro20",
+          [
+            "/wiki/Standard_Bank_Pro20_Series"
+          ]
+        ],
+        [
+          "Winner",
+          []
+        ],
+        [
+          "A",
+          []
+        ]
+      ],
+      [
+        [
+          "Dolphins",
+          [
+            "/wiki/Dolphins_cricket_team"
+          ]
+        ],
+        [
+          "South Africa",
+          [
+            "/wiki/South_Africa"
+          ]
+        ],
+        [
+          "2007-08 Standard Bank Pro20",
+          [
+            "/wiki/Standard_Bank_Pro20_Series"
+          ]
+        ],
+        [
+          "Runner-up",
+          []
+        ],
+        [
+          "B",
+          []
+        ]
+      ],
+      [
+        [
+          "Victorian Bushrangers",
+          [
+            "/wiki/Victorian_Bushrangers"
+          ]
+        ],
+        [
+          "Australia",
+          [
+            "/wiki/Australia"
+          ]
+        ],
+        [
+          "2007-08 KFC Twenty20 Big Bash",
+          [
+            "/wiki/2007–08_KFC_Twenty20_Big_Bash"
+          ]
+        ],
+        [
+          "Winner",
+          []
+        ],
+        [
+          "A",
+          []
+        ]
+      ],
+      [
+        [
+          "Western Warriors",
+          [
+            "/wiki/Western_Warriors"
+          ]
+        ],
+        [
+          "Australia",
+          [
+            "/wiki/Australia"
+          ]
+        ],
+        [
+          "2007-08 KFC Twenty20 Big Bash",
+          [
+            "/wiki/2007–08_KFC_Twenty20_Big_Bash"
+          ]
+        ],
+        [
+          "Runner-up",
+          []
+        ],
+        [
+          "B",
+          []
+        ]
+      ],
+      [
+        [
+          "Middlesex Crusaders",
+          [
+            "/wiki/Middlesex_County_Cricket_Club"
+          ]
+        ],
+        [
+          "England",
+          [
+            "/wiki/England"
+          ]
+        ],
+        [
+          "2008 Twenty20 Cup",
+          [
+            "/wiki/2008_Twenty20_Cup"
+          ]
+        ],
+        [
+          "Winner",
+          []
+        ],
+        [
+          "A",
+          []
+        ]
+      ],
+      [
+        [
+          "Sialkot Stallions",
+          [
+            "/wiki/Sialkot_Stallions"
+          ]
+        ],
+        [
+          "Pakistan",
+          [
+            "/wiki/Pakistan"
+          ]
+        ],
+        [
+          "2008-09 RBS Twenty-20 Cup",
+          [
+            "/wiki/2008–09_RBS_Twenty-20_Cup"
+          ]
+        ],
+        [
+          "Winner",
+          []
+        ],
+        [
+          "B",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about teams that participated in the 2008 Champions League Twenty20 cricket tournament. It includes details about their country, the domestic tournament they qualified from, their final position in the domestic tournament, and the group they were assigned to in the Champions League. The table serves to summarize the participating teams and their origins.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Country",
+    "Domestic tournament",
+    "Position",
+    "Group"
+  ],
+  "entities": [
+    "Team"
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "table_id": "T10377",
+  "uid": "c4f48a6c-d700-5177-b64e-88a2335c2df0",
+  "source": "HybridQA",
+  "source_table_id": "c4f48a6c-d700-5177-b64e-88a2335c2df0",
+  "domain": "HybridQA",
+  "title": "Alas de Oro",
+  "columns": [
+    "#",
+    "Eliminated",
+    "Eliminator"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Gato Eveready",
+        [
+          "/wiki/Gato_Eveready"
+        ]
+      ],
+      [
+        "Teddy Hart",
+        [
+          "/wiki/Teddy_Hart"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "El Ángel",
+        [
+          "/wiki/El_Ángel_(wrestler)"
+        ]
+      ],
+      [
+        "Extreme Tiger",
+        [
+          "/wiki/Extreme_Tiger"
+        ]
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Teddy Hart",
+        []
+      ],
+      [
+        "Último Gladiador",
+        [
+          "/wiki/Último_Gladiador"
+        ]
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Último Gladiador",
+        []
+      ],
+      [
+        "Extreme Tiger",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Escoria",
+        [
+          "/wiki/Escoria"
+        ]
+      ],
+      [
+        "Super Fly",
+        [
+          "/wiki/Super_Fly_(wrestler)"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Super Fly",
+        []
+      ],
+      [
+        "Jack Evans",
+        [
+          "/wiki/Jack_Evans_(wrestler)"
+        ]
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Joe Lider",
+        [
+          "/wiki/Joe_Lider"
+        ]
+      ],
+      [
+        "Extreme Tiger",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Extreme Tiger",
+        []
+      ],
+      [
+        "Jack Evans",
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Jack Evans",
+        []
+      ],
+      [
+        "Aero Star",
+        [
+          "/wiki/Aero_Star"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "c4f48a6c-d700-5177-b64e-88a2335c2df0",
+    "table_id": "Alas_de_Oro_1",
+    "title": "Alas de Oro",
+    "header": [
+      "#",
+      "Eliminated",
+      "Eliminator"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Gato Eveready",
+          [
+            "/wiki/Gato_Eveready"
+          ]
+        ],
+        [
+          "Teddy Hart",
+          [
+            "/wiki/Teddy_Hart"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "El Ángel",
+          [
+            "/wiki/El_Ángel_(wrestler)"
+          ]
+        ],
+        [
+          "Extreme Tiger",
+          [
+            "/wiki/Extreme_Tiger"
+          ]
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Teddy Hart",
+          []
+        ],
+        [
+          "Último Gladiador",
+          [
+            "/wiki/Último_Gladiador"
+          ]
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Último Gladiador",
+          []
+        ],
+        [
+          "Extreme Tiger",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Escoria",
+          [
+            "/wiki/Escoria"
+          ]
+        ],
+        [
+          "Super Fly",
+          [
+            "/wiki/Super_Fly_(wrestler)"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Super Fly",
+          []
+        ],
+        [
+          "Jack Evans",
+          [
+            "/wiki/Jack_Evans_(wrestler)"
+          ]
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Joe Lider",
+          [
+            "/wiki/Joe_Lider"
+          ]
+        ],
+        [
+          "Extreme Tiger",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Extreme Tiger",
+          []
+        ],
+        [
+          "Jack Evans",
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Jack Evans",
+          []
+        ],
+        [
+          "Aero Star",
+          [
+            "/wiki/Aero_Star"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about a wrestling event or competition, specifically focusing on eliminations and the individuals involved. It lists the order of eliminations, the eliminated participants, and the eliminators responsible for each elimination.",
+  "numeric_columns": [
+    "#"
+  ],
+  "categorical_columns": [],
+  "entities": [
+    "Eliminated",
+    "Eliminator"
+  ]
+}

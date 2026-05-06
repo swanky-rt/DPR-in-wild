@@ -1,0 +1,293 @@
+{
+  "table_id": "T1497",
+  "uid": "ef487773-3c8f-53d2-bfea-e0f1e7a53d32",
+  "source": "HybridQA",
+  "source_table_id": "ef487773-3c8f-53d2-bfea-e0f1e7a53d32",
+  "domain": "HybridQA",
+  "title": "2003 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Li Xiaopeng ( CHN )",
+        [
+          "/wiki/Li_Xiaopeng_(gymnast)"
+        ]
+      ],
+      [
+        9.825,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Huang Xu ( CHN )",
+        [
+          "/wiki/Huang_Xu"
+        ]
+      ],
+      [
+        9.762,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Alexei Nemov ( RUS )",
+        [
+          "/wiki/Alexei_Nemov"
+        ]
+      ],
+      [
+        9.762,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Naoya Tsukahara ( JPN )",
+        [
+          "/wiki/Naoya_Tsukahara"
+        ]
+      ],
+      [
+        9.675,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Cho Seong-Min ( KOR )",
+        [
+          "/wiki/Cho_Seong-Min"
+        ]
+      ],
+      [
+        9.637,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Blaine Wilson ( USA )",
+        [
+          "/wiki/Blaine_Wilson"
+        ]
+      ],
+      [
+        9.625,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Eric López Ríos ( CUB )",
+        [
+          "/wiki/Eric_López_Ríos"
+        ]
+      ],
+      [
+        9.575,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Mitja Petkovšek ( SLO )",
+        [
+          "/wiki/Mitja_Petkovšek"
+        ]
+      ],
+      [
+        9.562,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "ef487773-3c8f-53d2-bfea-e0f1e7a53d32",
+    "table_id": "2003_World_Artistic_Gymnastics_Championships_5",
+    "title": "2003 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Li Xiaopeng ( CHN )",
+          [
+            "/wiki/Li_Xiaopeng_(gymnast)"
+          ]
+        ],
+        [
+          9.825,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Huang Xu ( CHN )",
+          [
+            "/wiki/Huang_Xu"
+          ]
+        ],
+        [
+          9.762,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Alexei Nemov ( RUS )",
+          [
+            "/wiki/Alexei_Nemov"
+          ]
+        ],
+        [
+          9.762,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Naoya Tsukahara ( JPN )",
+          [
+            "/wiki/Naoya_Tsukahara"
+          ]
+        ],
+        [
+          9.675,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Cho Seong-Min ( KOR )",
+          [
+            "/wiki/Cho_Seong-Min"
+          ]
+        ],
+        [
+          9.637,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Blaine Wilson ( USA )",
+          [
+            "/wiki/Blaine_Wilson"
+          ]
+        ],
+        [
+          9.625,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Eric López Ríos ( CUB )",
+          [
+            "/wiki/Eric_López_Ríos"
+          ]
+        ],
+        [
+          9.575,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Mitja Petkovšek ( SLO )",
+          [
+            "/wiki/Mitja_Petkovšek"
+          ]
+        ],
+        [
+          9.562,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides rankings and scores for gymnasts who participated in the 2003 World Artistic Gymnastics Championships. It includes information about their rank, name, and total score, highlighting performance outcomes in the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

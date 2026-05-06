@@ -1,0 +1,504 @@
+{
+  "table_id": "T10393",
+  "uid": "b1274466-004f-5aae-858d-d6e4ceacfbb7",
+  "source": "HybridQA",
+  "source_table_id": "b1274466-004f-5aae-858d-d6e4ceacfbb7",
+  "domain": "HybridQA",
+  "title": "Air-rail alliance",
+  "columns": [
+    "Train Operating Company",
+    "Airline",
+    "From Airport",
+    "To City",
+    "Marketed As"
+  ],
+  "rows": [
+    [
+      [
+        "Amtrak",
+        [
+          "/wiki/Amtrak"
+        ]
+      ],
+      [
+        "United Airlines",
+        [
+          "/wiki/United_Airlines"
+        ]
+      ],
+      [
+        "Newark Liberty International Airport",
+        [
+          "/wiki/Newark_Liberty_International_Airport"
+        ]
+      ],
+      [
+        "New Haven , CT Philadelphia , PA Stamford , CT Wilmington , DE",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "CRH",
+        [
+          "/wiki/China_Railway_High-speed"
+        ]
+      ],
+      [
+        "China Eastern Airlines",
+        [
+          "/wiki/China_Eastern_Airlines"
+        ]
+      ],
+      [
+        "Shanghai Hongqiao International Airport",
+        [
+          "/wiki/Shanghai_Hongqiao_International_Airport"
+        ]
+      ],
+      [
+        "Shanghai-Hangzhou Shanghai-Wuxi",
+        []
+      ],
+      [
+        "China Eastern Air-Rail Service",
+        []
+      ]
+    ],
+    [
+      [
+        "Deutsche Bahn",
+        [
+          "/wiki/Deutsche_Bahn"
+        ]
+      ],
+      [
+        "Lufthansa American Airlines Emirates",
+        [
+          "/wiki/Lufthansa",
+          "/wiki/American_Airlines",
+          "/wiki/Emirates_(airline)"
+        ]
+      ],
+      [
+        "Frankfurt Airport",
+        [
+          "/wiki/Frankfurt_Airport"
+        ]
+      ],
+      [
+        "Stuttgart Cologne Siegburg/Bonn / Kassel Wilhelmshöhe / Karlsruhe main station",
+        []
+      ],
+      [
+        "AIRail",
+        [
+          "/wiki/AIRail_Service"
+        ]
+      ]
+    ],
+    [
+      [
+        "ÖBB",
+        [
+          "/wiki/ÖBB"
+        ]
+      ],
+      [
+        "Austrian Airlines",
+        [
+          "/wiki/Austrian_Airlines"
+        ]
+      ],
+      [
+        "Vienna International Airport",
+        [
+          "/wiki/Vienna_International_Airport"
+        ]
+      ],
+      [
+        "Linz Salzburg",
+        [
+          "/wiki/Linz",
+          "/wiki/Salzburg"
+        ]
+      ],
+      [
+        "AIRail",
+        []
+      ]
+    ],
+    [
+      [
+        "SBB",
+        [
+          "/wiki/Swiss_Federal_Railways"
+        ]
+      ],
+      [
+        "Swiss International Air Lines",
+        [
+          "/wiki/Swiss_International_Air_Lines"
+        ]
+      ],
+      [
+        "Zurich Airport",
+        [
+          "/wiki/Zurich_Airport"
+        ]
+      ],
+      [
+        "Basel",
+        []
+      ],
+      [
+        "Airtrain",
+        []
+      ]
+    ],
+    [
+      [
+        "SNCF",
+        [
+          "/wiki/SNCF"
+        ]
+      ],
+      [
+        "Air France",
+        [
+          "/wiki/Air_France"
+        ]
+      ],
+      [
+        "Paris-Charles de Gaulle Airport",
+        [
+          "/wiki/Paris-Charles_de_Gaulle_Airport"
+        ]
+      ],
+      [
+        "Brussels-Midi Strasbourg",
+        []
+      ],
+      [
+        "Air & Rail",
+        []
+      ]
+    ],
+    [
+      [
+        "Thalys",
+        [
+          "/wiki/Thalys"
+        ]
+      ],
+      [
+        "KLM",
+        [
+          "/wiki/KLM"
+        ]
+      ],
+      [
+        "Amsterdam-Schiphol Airport",
+        [
+          "/wiki/Amsterdam-Schiphol_Airport"
+        ]
+      ],
+      [
+        "Antwerp Brussels",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Thalys",
+        [
+          "/wiki/Thalys"
+        ]
+      ],
+      [
+        "American Airlines",
+        [
+          "/wiki/American_Airlines"
+        ]
+      ],
+      [
+        "Paris-Charles de Gaulle Airport",
+        [
+          "/wiki/Paris-Charles_de_Gaulle_Airport"
+        ]
+      ],
+      [
+        "Brussels-Midi",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "b1274466-004f-5aae-858d-d6e4ceacfbb7",
+    "table_id": "Air-rail_alliance_0",
+    "title": "Air-rail alliance",
+    "header": [
+      "Train Operating Company",
+      "Airline",
+      "From Airport",
+      "To City",
+      "Marketed As"
+    ],
+    "value": [
+      [
+        [
+          "Amtrak",
+          [
+            "/wiki/Amtrak"
+          ]
+        ],
+        [
+          "United Airlines",
+          [
+            "/wiki/United_Airlines"
+          ]
+        ],
+        [
+          "Newark Liberty International Airport",
+          [
+            "/wiki/Newark_Liberty_International_Airport"
+          ]
+        ],
+        [
+          "New Haven , CT Philadelphia , PA Stamford , CT Wilmington , DE",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "CRH",
+          [
+            "/wiki/China_Railway_High-speed"
+          ]
+        ],
+        [
+          "China Eastern Airlines",
+          [
+            "/wiki/China_Eastern_Airlines"
+          ]
+        ],
+        [
+          "Shanghai Hongqiao International Airport",
+          [
+            "/wiki/Shanghai_Hongqiao_International_Airport"
+          ]
+        ],
+        [
+          "Shanghai-Hangzhou Shanghai-Wuxi",
+          []
+        ],
+        [
+          "China Eastern Air-Rail Service",
+          []
+        ]
+      ],
+      [
+        [
+          "Deutsche Bahn",
+          [
+            "/wiki/Deutsche_Bahn"
+          ]
+        ],
+        [
+          "Lufthansa American Airlines Emirates",
+          [
+            "/wiki/Lufthansa",
+            "/wiki/American_Airlines",
+            "/wiki/Emirates_(airline)"
+          ]
+        ],
+        [
+          "Frankfurt Airport",
+          [
+            "/wiki/Frankfurt_Airport"
+          ]
+        ],
+        [
+          "Stuttgart Cologne Siegburg/Bonn / Kassel Wilhelmshöhe / Karlsruhe main station",
+          []
+        ],
+        [
+          "AIRail",
+          [
+            "/wiki/AIRail_Service"
+          ]
+        ]
+      ],
+      [
+        [
+          "ÖBB",
+          [
+            "/wiki/ÖBB"
+          ]
+        ],
+        [
+          "Austrian Airlines",
+          [
+            "/wiki/Austrian_Airlines"
+          ]
+        ],
+        [
+          "Vienna International Airport",
+          [
+            "/wiki/Vienna_International_Airport"
+          ]
+        ],
+        [
+          "Linz Salzburg",
+          [
+            "/wiki/Linz",
+            "/wiki/Salzburg"
+          ]
+        ],
+        [
+          "AIRail",
+          []
+        ]
+      ],
+      [
+        [
+          "SBB",
+          [
+            "/wiki/Swiss_Federal_Railways"
+          ]
+        ],
+        [
+          "Swiss International Air Lines",
+          [
+            "/wiki/Swiss_International_Air_Lines"
+          ]
+        ],
+        [
+          "Zurich Airport",
+          [
+            "/wiki/Zurich_Airport"
+          ]
+        ],
+        [
+          "Basel",
+          []
+        ],
+        [
+          "Airtrain",
+          []
+        ]
+      ],
+      [
+        [
+          "SNCF",
+          [
+            "/wiki/SNCF"
+          ]
+        ],
+        [
+          "Air France",
+          [
+            "/wiki/Air_France"
+          ]
+        ],
+        [
+          "Paris-Charles de Gaulle Airport",
+          [
+            "/wiki/Paris-Charles_de_Gaulle_Airport"
+          ]
+        ],
+        [
+          "Brussels-Midi Strasbourg",
+          []
+        ],
+        [
+          "Air & Rail",
+          []
+        ]
+      ],
+      [
+        [
+          "Thalys",
+          [
+            "/wiki/Thalys"
+          ]
+        ],
+        [
+          "KLM",
+          [
+            "/wiki/KLM"
+          ]
+        ],
+        [
+          "Amsterdam-Schiphol Airport",
+          [
+            "/wiki/Amsterdam-Schiphol_Airport"
+          ]
+        ],
+        [
+          "Antwerp Brussels",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Thalys",
+          [
+            "/wiki/Thalys"
+          ]
+        ],
+        [
+          "American Airlines",
+          [
+            "/wiki/American_Airlines"
+          ]
+        ],
+        [
+          "Paris-Charles de Gaulle Airport",
+          [
+            "/wiki/Paris-Charles_de_Gaulle_Airport"
+          ]
+        ],
+        [
+          "Brussels-Midi",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about air-rail alliances, which are partnerships between train operating companies and airlines to facilitate seamless travel. It includes details about the train operators, airlines, associated airports, destination cities, and how these services are marketed. The table is useful for understanding collaborative travel services between air and rail networks.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Marketed As"
+  ],
+  "entities": [
+    "Train Operating Company",
+    "Airline",
+    "From Airport",
+    "To City"
+  ]
+}

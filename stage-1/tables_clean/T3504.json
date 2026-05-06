@@ -1,0 +1,528 @@
+{
+  "table_id": "T3504",
+  "uid": "06b5f551-4d01-57f4-9a6e-07dcbaf7cd0c",
+  "source": "HybridQA",
+  "source_table_id": "06b5f551-4d01-57f4-9a6e-07dcbaf7cd0c",
+  "domain": "HybridQA",
+  "title": "Kings Island",
+  "columns": [
+    "Name",
+    "Opened",
+    "Manufacturer",
+    "Model",
+    "Description",
+    "Thrill rating"
+  ],
+  "rows": [
+    [
+      [
+        "Dodgem",
+        []
+      ],
+      [
+        1986,
+        []
+      ],
+      [
+        "Preston & Barbieri",
+        [
+          "/wiki/Preston_&_Barbieri"
+        ]
+      ],
+      [
+        "Majestic Manufacturing ( Azzurra )",
+        []
+      ],
+      [
+        "Italian-made bumper cars that seat two people with fully functional headlights , taillights , rear-view mirrors and hazard flashers . Single car bumper cars with a rectangular floor area previously operated at Coney Island from 1924 to 1971 , and were relocated to Kings Island , but the smaller ride was removed after the 1985 season and replaced with this larger , different shaped version for the 1986 season",
+        [
+          "/wiki/Bumper_car",
+          "/wiki/Coney_Island,_Cincinnati,_Ohio"
+        ]
+      ],
+      [
+        4,
+        []
+      ]
+    ],
+    [
+      [
+        "Kings Mills Antique Autos",
+        []
+      ],
+      [
+        2019,
+        []
+      ],
+      [
+        "Gould Manufacturing",
+        []
+      ],
+      [
+        "Antique car ride",
+        []
+      ],
+      [
+        "An antique car attraction reminiscent of the former Les Taxis ride . Includes a covered bridge , a pond , a faux gas station , and several billboards that reference past Kings Island attractions",
+        []
+      ],
+      [
+        2,
+        []
+      ]
+    ],
+    [
+      [
+        "Monster",
+        []
+      ],
+      [
+        1972,
+        []
+      ],
+      [
+        "Eyerly Aircraft Co",
+        []
+      ],
+      [
+        "Eyerly Monster",
+        []
+      ],
+      [
+        "Traditional Octopus ride that spins in three different circles at the same time . It quickly raises and lowers riders as their cars spin . Operated at Coney Island ( 1969-1971 )",
+        [
+          "/wiki/Octopus_(ride)",
+          "/wiki/Coney_Island,_Cincinnati,_Ohio"
+        ]
+      ],
+      [
+        3,
+        []
+      ]
+    ],
+    [
+      [
+        "Scrambler",
+        []
+      ],
+      [
+        1972,
+        []
+      ],
+      [
+        "Eli Bridge Company",
+        [
+          "/wiki/Eli_Bridge_Company"
+        ]
+      ],
+      [
+        "Scrambler - Traditional Deluxe",
+        []
+      ],
+      [
+        "Traditional amusement park Twist ride . 3 arms spin riders giving them the sensation of almost hitting the wall . Operated at Coney Island ( 1969-1971 )",
+        [
+          "/wiki/Twist_(ride)",
+          "/wiki/Coney_Island,_Cincinnati,_Ohio"
+        ]
+      ],
+      [
+        3,
+        []
+      ]
+    ],
+    [
+      [
+        "Shake , Rattle & Roll",
+        []
+      ],
+      [
+        1975,
+        []
+      ],
+      [
+        "HUSS",
+        [
+          "/wiki/HUSS_Park_Attractions"
+        ]
+      ],
+      [
+        "Troika",
+        [
+          "/wiki/Troika_(ride)"
+        ]
+      ],
+      [
+        "A classic spinning ride . Formerly known as Troika",
+        []
+      ],
+      [
+        3,
+        []
+      ]
+    ],
+    [
+      [
+        "The Racer",
+        [
+          "/wiki/The_Racer_(Kings_Island)"
+        ]
+      ],
+      [
+        1972,
+        []
+      ],
+      [
+        "Philadelphia Toboggan Coasters",
+        [
+          "/wiki/Philadelphia_Toboggan_Coasters"
+        ]
+      ],
+      [
+        "Wooden racing roller coaster",
+        [
+          "/wiki/Racing_roller_coaster"
+        ]
+      ],
+      [
+        "A twin tracked wooden roller coaster designed by the late John Allen . The trains on the south track were changed to ride backward in 1982 , but the original orientation was restored in 2008",
+        []
+      ],
+      [
+        4,
+        []
+      ]
+    ],
+    [
+      [
+        "WindSeeker",
+        [
+          "/wiki/WindSeeker"
+        ]
+      ],
+      [
+        2011,
+        []
+      ],
+      [
+        "Mondial",
+        [
+          "/wiki/Mondial_(amusement_ride_manufacturer)"
+        ]
+      ],
+      [
+        "Wind Seeker",
+        [
+          "/wiki/Wind_Seeker"
+        ]
+      ],
+      [
+        "A flat ride featuring two-person swings that slowly rotate and ascends the 301-foot ( 92 m ) tower until reaching the top where speeds increase up to 30 miles per hour ( 48 km/h ) . After several delays , it opened June 21",
+        []
+      ],
+      [
+        4,
+        []
+      ]
+    ],
+    [
+      [
+        "Zephyr",
+        []
+      ],
+      [
+        1986,
+        []
+      ],
+      [
+        "Zierer",
+        [
+          "/wiki/Zierer"
+        ]
+      ],
+      [
+        "Wave Swinger",
+        []
+      ],
+      [
+        "A suspended swing ride that rotates with a wave motion lifting riders up to 30 feet ( 9.1 m ) in the air",
+        [
+          "/wiki/Swing_ride"
+        ]
+      ],
+      [
+        3,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "06b5f551-4d01-57f4-9a6e-07dcbaf7cd0c",
+    "table_id": "Kings_Island_1",
+    "title": "Kings Island",
+    "header": [
+      "Name",
+      "Opened",
+      "Manufacturer",
+      "Model",
+      "Description",
+      "Thrill rating"
+    ],
+    "value": [
+      [
+        [
+          "Dodgem",
+          []
+        ],
+        [
+          1986,
+          []
+        ],
+        [
+          "Preston & Barbieri",
+          [
+            "/wiki/Preston_&_Barbieri"
+          ]
+        ],
+        [
+          "Majestic Manufacturing ( Azzurra )",
+          []
+        ],
+        [
+          "Italian-made bumper cars that seat two people with fully functional headlights , taillights , rear-view mirrors and hazard flashers . Single car bumper cars with a rectangular floor area previously operated at Coney Island from 1924 to 1971 , and were relocated to Kings Island , but the smaller ride was removed after the 1985 season and replaced with this larger , different shaped version for the 1986 season",
+          [
+            "/wiki/Bumper_car",
+            "/wiki/Coney_Island,_Cincinnati,_Ohio"
+          ]
+        ],
+        [
+          4,
+          []
+        ]
+      ],
+      [
+        [
+          "Kings Mills Antique Autos",
+          []
+        ],
+        [
+          2019,
+          []
+        ],
+        [
+          "Gould Manufacturing",
+          []
+        ],
+        [
+          "Antique car ride",
+          []
+        ],
+        [
+          "An antique car attraction reminiscent of the former Les Taxis ride . Includes a covered bridge , a pond , a faux gas station , and several billboards that reference past Kings Island attractions",
+          []
+        ],
+        [
+          2,
+          []
+        ]
+      ],
+      [
+        [
+          "Monster",
+          []
+        ],
+        [
+          1972,
+          []
+        ],
+        [
+          "Eyerly Aircraft Co",
+          []
+        ],
+        [
+          "Eyerly Monster",
+          []
+        ],
+        [
+          "Traditional Octopus ride that spins in three different circles at the same time . It quickly raises and lowers riders as their cars spin . Operated at Coney Island ( 1969-1971 )",
+          [
+            "/wiki/Octopus_(ride)",
+            "/wiki/Coney_Island,_Cincinnati,_Ohio"
+          ]
+        ],
+        [
+          3,
+          []
+        ]
+      ],
+      [
+        [
+          "Scrambler",
+          []
+        ],
+        [
+          1972,
+          []
+        ],
+        [
+          "Eli Bridge Company",
+          [
+            "/wiki/Eli_Bridge_Company"
+          ]
+        ],
+        [
+          "Scrambler - Traditional Deluxe",
+          []
+        ],
+        [
+          "Traditional amusement park Twist ride . 3 arms spin riders giving them the sensation of almost hitting the wall . Operated at Coney Island ( 1969-1971 )",
+          [
+            "/wiki/Twist_(ride)",
+            "/wiki/Coney_Island,_Cincinnati,_Ohio"
+          ]
+        ],
+        [
+          3,
+          []
+        ]
+      ],
+      [
+        [
+          "Shake , Rattle & Roll",
+          []
+        ],
+        [
+          1975,
+          []
+        ],
+        [
+          "HUSS",
+          [
+            "/wiki/HUSS_Park_Attractions"
+          ]
+        ],
+        [
+          "Troika",
+          [
+            "/wiki/Troika_(ride)"
+          ]
+        ],
+        [
+          "A classic spinning ride . Formerly known as Troika",
+          []
+        ],
+        [
+          3,
+          []
+        ]
+      ],
+      [
+        [
+          "The Racer",
+          [
+            "/wiki/The_Racer_(Kings_Island)"
+          ]
+        ],
+        [
+          1972,
+          []
+        ],
+        [
+          "Philadelphia Toboggan Coasters",
+          [
+            "/wiki/Philadelphia_Toboggan_Coasters"
+          ]
+        ],
+        [
+          "Wooden racing roller coaster",
+          [
+            "/wiki/Racing_roller_coaster"
+          ]
+        ],
+        [
+          "A twin tracked wooden roller coaster designed by the late John Allen . The trains on the south track were changed to ride backward in 1982 , but the original orientation was restored in 2008",
+          []
+        ],
+        [
+          4,
+          []
+        ]
+      ],
+      [
+        [
+          "WindSeeker",
+          [
+            "/wiki/WindSeeker"
+          ]
+        ],
+        [
+          2011,
+          []
+        ],
+        [
+          "Mondial",
+          [
+            "/wiki/Mondial_(amusement_ride_manufacturer)"
+          ]
+        ],
+        [
+          "Wind Seeker",
+          [
+            "/wiki/Wind_Seeker"
+          ]
+        ],
+        [
+          "A flat ride featuring two-person swings that slowly rotate and ascends the 301-foot ( 92 m ) tower until reaching the top where speeds increase up to 30 miles per hour ( 48 km/h ) . After several delays , it opened June 21",
+          []
+        ],
+        [
+          4,
+          []
+        ]
+      ],
+      [
+        [
+          "Zephyr",
+          []
+        ],
+        [
+          1986,
+          []
+        ],
+        [
+          "Zierer",
+          [
+            "/wiki/Zierer"
+          ]
+        ],
+        [
+          "Wave Swinger",
+          []
+        ],
+        [
+          "A suspended swing ride that rotates with a wave motion lifting riders up to 30 feet ( 9.1 m ) in the air",
+          [
+            "/wiki/Swing_ride"
+          ]
+        ],
+        [
+          3,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about attractions at Kings Island, including details such as their opening year, manufacturer, model, description, and thrill rating. It serves as a reference for understanding the features and history of various rides and attractions at the park.",
+  "numeric_columns": [
+    "Thrill rating",
+    "Opened"
+  ],
+  "categorical_columns": [
+    "Description",
+    "Model"
+  ],
+  "entities": [
+    "Name",
+    "Manufacturer"
+  ]
+}

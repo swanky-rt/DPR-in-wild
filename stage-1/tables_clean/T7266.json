@@ -1,0 +1,463 @@
+{
+  "table_id": "T7266",
+  "uid": "098a30a2-f5a5-5804-9290-8e9e3fec3aaf",
+  "source": "HybridQA",
+  "source_table_id": "098a30a2-f5a5-5804-9290-8e9e3fec3aaf",
+  "domain": "HybridQA",
+  "title": "NCSoft",
+  "columns": [
+    "Title",
+    "Developer",
+    "Genre",
+    "Date Closed"
+  ],
+  "rows": [
+    [
+      [
+        "Auto Assault",
+        [
+          "/wiki/Auto_Assault"
+        ]
+      ],
+      [
+        "NetDevil",
+        [
+          "/wiki/NetDevil"
+        ]
+      ],
+      [
+        "MMORPG",
+        []
+      ],
+      [
+        "2007-08-31",
+        []
+      ]
+    ],
+    [
+      [
+        "Dungeon Runners",
+        [
+          "/wiki/Dungeon_Runners"
+        ]
+      ],
+      [
+        "NCSoft",
+        []
+      ],
+      [
+        "MMORPG",
+        []
+      ],
+      [
+        "2010-01-01",
+        []
+      ]
+    ],
+    [
+      [
+        "Dragonica",
+        [
+          "/wiki/Dragonica"
+        ]
+      ],
+      [
+        "Gravity",
+        [
+          "/wiki/Gravity_(company)"
+        ]
+      ],
+      [
+        "Casual MMORPG",
+        []
+      ],
+      [
+        "2011-07-13",
+        []
+      ]
+    ],
+    [
+      [
+        "Exteel",
+        [
+          "/wiki/Exteel"
+        ]
+      ],
+      [
+        "NCSoft ( E & G Studios )",
+        []
+      ],
+      [
+        "TPS",
+        [
+          "/wiki/Third-person_shooter"
+        ]
+      ],
+      [
+        "2010-09-01",
+        []
+      ]
+    ],
+    [
+      [
+        "Point Blank",
+        [
+          "/wiki/Point_Blank_(2008_video_game)"
+        ]
+      ],
+      [
+        "Zepetto",
+        []
+      ],
+      [
+        "FPS",
+        [
+          "/wiki/First-person_shooter"
+        ]
+      ],
+      [
+        "2011-07-13",
+        []
+      ]
+    ],
+    [
+      [
+        "Tabula Rasa",
+        [
+          "/wiki/Tabula_Rasa_(video_game)"
+        ]
+      ],
+      [
+        "Destination Games",
+        [
+          "/wiki/Destination_Games"
+        ]
+      ],
+      [
+        "MMORPG",
+        []
+      ],
+      [
+        "2009-02-28",
+        []
+      ]
+    ],
+    [
+      [
+        "City of Heroes",
+        [
+          "/wiki/City_of_Heroes"
+        ]
+      ],
+      [
+        "Paragon Studios",
+        [
+          "/wiki/Paragon_Studios"
+        ]
+      ],
+      [
+        "MMORPG",
+        []
+      ],
+      [
+        "2012-11-30",
+        []
+      ]
+    ],
+    [
+      [
+        "Trickster",
+        [
+          "/wiki/Trickster_Online"
+        ]
+      ],
+      [
+        "Ntreev Soft",
+        []
+      ],
+      [
+        "MMORPG",
+        []
+      ],
+      [
+        "2013-02-27",
+        []
+      ]
+    ],
+    [
+      [
+        "Master X Master",
+        [
+          "/wiki/Master_X_Master"
+        ]
+      ],
+      [
+        "NCSoft ( Studio MXM )",
+        []
+      ],
+      [
+        "MOBA",
+        []
+      ],
+      [
+        "2018-01-31",
+        []
+      ]
+    ],
+    [
+      [
+        "WildStar",
+        [
+          "/wiki/WildStar_(video_game)"
+        ]
+      ],
+      [
+        "NCSoft ( Carbine )",
+        []
+      ],
+      [
+        "MMORPG",
+        []
+      ],
+      [
+        "2018-11-30",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "098a30a2-f5a5-5804-9290-8e9e3fec3aaf",
+    "table_id": "NCSOFT_3",
+    "title": "NCSoft",
+    "header": [
+      "Title",
+      "Developer",
+      "Genre",
+      "Date Closed"
+    ],
+    "value": [
+      [
+        [
+          "Auto Assault",
+          [
+            "/wiki/Auto_Assault"
+          ]
+        ],
+        [
+          "NetDevil",
+          [
+            "/wiki/NetDevil"
+          ]
+        ],
+        [
+          "MMORPG",
+          []
+        ],
+        [
+          "2007-08-31",
+          []
+        ]
+      ],
+      [
+        [
+          "Dungeon Runners",
+          [
+            "/wiki/Dungeon_Runners"
+          ]
+        ],
+        [
+          "NCSoft",
+          []
+        ],
+        [
+          "MMORPG",
+          []
+        ],
+        [
+          "2010-01-01",
+          []
+        ]
+      ],
+      [
+        [
+          "Dragonica",
+          [
+            "/wiki/Dragonica"
+          ]
+        ],
+        [
+          "Gravity",
+          [
+            "/wiki/Gravity_(company)"
+          ]
+        ],
+        [
+          "Casual MMORPG",
+          []
+        ],
+        [
+          "2011-07-13",
+          []
+        ]
+      ],
+      [
+        [
+          "Exteel",
+          [
+            "/wiki/Exteel"
+          ]
+        ],
+        [
+          "NCSoft ( E & G Studios )",
+          []
+        ],
+        [
+          "TPS",
+          [
+            "/wiki/Third-person_shooter"
+          ]
+        ],
+        [
+          "2010-09-01",
+          []
+        ]
+      ],
+      [
+        [
+          "Point Blank",
+          [
+            "/wiki/Point_Blank_(2008_video_game)"
+          ]
+        ],
+        [
+          "Zepetto",
+          []
+        ],
+        [
+          "FPS",
+          [
+            "/wiki/First-person_shooter"
+          ]
+        ],
+        [
+          "2011-07-13",
+          []
+        ]
+      ],
+      [
+        [
+          "Tabula Rasa",
+          [
+            "/wiki/Tabula_Rasa_(video_game)"
+          ]
+        ],
+        [
+          "Destination Games",
+          [
+            "/wiki/Destination_Games"
+          ]
+        ],
+        [
+          "MMORPG",
+          []
+        ],
+        [
+          "2009-02-28",
+          []
+        ]
+      ],
+      [
+        [
+          "City of Heroes",
+          [
+            "/wiki/City_of_Heroes"
+          ]
+        ],
+        [
+          "Paragon Studios",
+          [
+            "/wiki/Paragon_Studios"
+          ]
+        ],
+        [
+          "MMORPG",
+          []
+        ],
+        [
+          "2012-11-30",
+          []
+        ]
+      ],
+      [
+        [
+          "Trickster",
+          [
+            "/wiki/Trickster_Online"
+          ]
+        ],
+        [
+          "Ntreev Soft",
+          []
+        ],
+        [
+          "MMORPG",
+          []
+        ],
+        [
+          "2013-02-27",
+          []
+        ]
+      ],
+      [
+        [
+          "Master X Master",
+          [
+            "/wiki/Master_X_Master"
+          ]
+        ],
+        [
+          "NCSoft ( Studio MXM )",
+          []
+        ],
+        [
+          "MOBA",
+          []
+        ],
+        [
+          "2018-01-31",
+          []
+        ]
+      ],
+      [
+        [
+          "WildStar",
+          [
+            "/wiki/WildStar_(video_game)"
+          ]
+        ],
+        [
+          "NCSoft ( Carbine )",
+          []
+        ],
+        [
+          "MMORPG",
+          []
+        ],
+        [
+          "2018-11-30",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about video games associated with NCSoft, including their titles, developers, genres, and closure dates. It is likely intended to catalog and summarize key details about these games, particularly focusing on their lifecycle and development background.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Genre",
+    "Date Closed"
+  ],
+  "entities": [
+    "Title",
+    "Developer"
+  ]
+}

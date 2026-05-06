@@ -1,0 +1,517 @@
+{
+  "table_id": "T9830",
+  "uid": "55c2a306-972d-5ea2-8611-d9a1294f42e6",
+  "source": "HybridQA",
+  "source_table_id": "55c2a306-972d-5ea2-8611-d9a1294f42e6",
+  "domain": "HybridQA",
+  "title": "List of Spanish dishes",
+  "columns": [
+    "Name",
+    "Region",
+    "Type",
+    "Description"
+  ],
+  "rows": [
+    [
+      [
+        "Almogrote",
+        [
+          "/wiki/Almogrote"
+        ]
+      ],
+      [
+        "Canary Islands",
+        [
+          "/wiki/Canary_Islands"
+        ]
+      ],
+      [
+        "paste",
+        []
+      ],
+      [
+        "a soft paste made from hard cheese , peppers , olive oil , garlic , and other ingredients , which is typically eaten spread on toast",
+        []
+      ]
+    ],
+    [
+      [
+        "Mojo ( sauce )",
+        [
+          "/wiki/Mojo_(sauce)"
+        ]
+      ],
+      [
+        "Canary Islands",
+        [
+          "/wiki/Canary_Islands"
+        ]
+      ],
+      [
+        "sauce",
+        []
+      ],
+      [
+        "several types of hot sauce that originated in the Canary Islands",
+        [
+          "/wiki/Hot_sauce",
+          "/wiki/Canary_Islands"
+        ]
+      ]
+    ],
+    [
+      [
+        "Palm syrup",
+        [
+          "/wiki/Palm_syrup"
+        ]
+      ],
+      [
+        "Canary Islands",
+        [
+          "/wiki/Canary_Islands"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Paprika",
+        [
+          "/wiki/Paprika"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "spice",
+        []
+      ],
+      [
+        "a spice made from the grinding of many dried sweet red or green bell peppers",
+        []
+      ]
+    ],
+    [
+      [
+        "Allioli",
+        [
+          "/wiki/Aioli"
+        ]
+      ],
+      [
+        "Catalonia",
+        [
+          "/wiki/Catalan_cuisine"
+        ]
+      ],
+      [
+        "sauce",
+        []
+      ],
+      [
+        "a sauce which is made ( and literally means ) garlic and [ olive ] oil . Typically eaten with meat",
+        []
+      ]
+    ],
+    [
+      [
+        "Piquillo pepper",
+        [
+          "/wiki/Piquillo_pepper"
+        ]
+      ],
+      [
+        "Navarre",
+        [
+          "/wiki/Navarre"
+        ]
+      ],
+      [
+        "chili",
+        []
+      ],
+      [
+        "a variety of chili traditionally grown in Navarre , over the town of Lodosa",
+        []
+      ]
+    ],
+    [
+      [
+        "Romesco",
+        [
+          "/wiki/Romesco"
+        ]
+      ],
+      [
+        "Catalonia",
+        [
+          "/wiki/Catalan_cuisine"
+        ]
+      ],
+      [
+        "sauce",
+        []
+      ],
+      [
+        "a sauce made from almonds and/or hazelnuts , roasted garlic , olive oil and nyores - small , dried red peppers",
+        []
+      ]
+    ],
+    [
+      [
+        "Sherry vinegar",
+        [
+          "/wiki/Sherry_vinegar"
+        ]
+      ],
+      [
+        "Andalusia",
+        [
+          "/wiki/Andalusian_cuisine"
+        ]
+      ],
+      [
+        "vinegar",
+        []
+      ],
+      [
+        "a gourmet wine vinegar made from Sherry",
+        []
+      ]
+    ],
+    [
+      [
+        "Sofrito",
+        [
+          "/wiki/Sofrito"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "sauce",
+        []
+      ],
+      [
+        "a well cooked and fragrant sauce consisted of garlic , onions , and tomatoes cooked in olive oil and is used as the base for many dishes",
+        []
+      ]
+    ],
+    [
+      [
+        "Tomate Frito",
+        [
+          "/wiki/Tomate_Frito"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "sauce",
+        []
+      ],
+      [
+        "a pureed tomato sauce with a hint of onion and garlic , that can be used as a base ingredient or enjoyed simply for its own flavor",
+        []
+      ]
+    ],
+    [
+      [
+        "Xató",
+        [
+          "/wiki/Xató"
+        ]
+      ],
+      [
+        "Catalonia",
+        [
+          "/wiki/Catalan_cuisine"
+        ]
+      ],
+      [
+        "sauce",
+        []
+      ],
+      [
+        "a sauce made with almonds , hazelnuts , breadcrumbs , vinegar , garlic , olive oil , salt , and the nyora pepper . Xató is often served with an endive salad prepared with anchovy , tuna and baccala",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "55c2a306-972d-5ea2-8611-d9a1294f42e6",
+    "table_id": "List_of_Spanish_dishes_3",
+    "title": "List of Spanish dishes",
+    "header": [
+      "Name",
+      "Region",
+      "Type",
+      "Description"
+    ],
+    "value": [
+      [
+        [
+          "Almogrote",
+          [
+            "/wiki/Almogrote"
+          ]
+        ],
+        [
+          "Canary Islands",
+          [
+            "/wiki/Canary_Islands"
+          ]
+        ],
+        [
+          "paste",
+          []
+        ],
+        [
+          "a soft paste made from hard cheese , peppers , olive oil , garlic , and other ingredients , which is typically eaten spread on toast",
+          []
+        ]
+      ],
+      [
+        [
+          "Mojo ( sauce )",
+          [
+            "/wiki/Mojo_(sauce)"
+          ]
+        ],
+        [
+          "Canary Islands",
+          [
+            "/wiki/Canary_Islands"
+          ]
+        ],
+        [
+          "sauce",
+          []
+        ],
+        [
+          "several types of hot sauce that originated in the Canary Islands",
+          [
+            "/wiki/Hot_sauce",
+            "/wiki/Canary_Islands"
+          ]
+        ]
+      ],
+      [
+        [
+          "Palm syrup",
+          [
+            "/wiki/Palm_syrup"
+          ]
+        ],
+        [
+          "Canary Islands",
+          [
+            "/wiki/Canary_Islands"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Paprika",
+          [
+            "/wiki/Paprika"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "spice",
+          []
+        ],
+        [
+          "a spice made from the grinding of many dried sweet red or green bell peppers",
+          []
+        ]
+      ],
+      [
+        [
+          "Allioli",
+          [
+            "/wiki/Aioli"
+          ]
+        ],
+        [
+          "Catalonia",
+          [
+            "/wiki/Catalan_cuisine"
+          ]
+        ],
+        [
+          "sauce",
+          []
+        ],
+        [
+          "a sauce which is made ( and literally means ) garlic and [ olive ] oil . Typically eaten with meat",
+          []
+        ]
+      ],
+      [
+        [
+          "Piquillo pepper",
+          [
+            "/wiki/Piquillo_pepper"
+          ]
+        ],
+        [
+          "Navarre",
+          [
+            "/wiki/Navarre"
+          ]
+        ],
+        [
+          "chili",
+          []
+        ],
+        [
+          "a variety of chili traditionally grown in Navarre , over the town of Lodosa",
+          []
+        ]
+      ],
+      [
+        [
+          "Romesco",
+          [
+            "/wiki/Romesco"
+          ]
+        ],
+        [
+          "Catalonia",
+          [
+            "/wiki/Catalan_cuisine"
+          ]
+        ],
+        [
+          "sauce",
+          []
+        ],
+        [
+          "a sauce made from almonds and/or hazelnuts , roasted garlic , olive oil and nyores - small , dried red peppers",
+          []
+        ]
+      ],
+      [
+        [
+          "Sherry vinegar",
+          [
+            "/wiki/Sherry_vinegar"
+          ]
+        ],
+        [
+          "Andalusia",
+          [
+            "/wiki/Andalusian_cuisine"
+          ]
+        ],
+        [
+          "vinegar",
+          []
+        ],
+        [
+          "a gourmet wine vinegar made from Sherry",
+          []
+        ]
+      ],
+      [
+        [
+          "Sofrito",
+          [
+            "/wiki/Sofrito"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "sauce",
+          []
+        ],
+        [
+          "a well cooked and fragrant sauce consisted of garlic , onions , and tomatoes cooked in olive oil and is used as the base for many dishes",
+          []
+        ]
+      ],
+      [
+        [
+          "Tomate Frito",
+          [
+            "/wiki/Tomate_Frito"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "sauce",
+          []
+        ],
+        [
+          "a pureed tomato sauce with a hint of onion and garlic , that can be used as a base ingredient or enjoyed simply for its own flavor",
+          []
+        ]
+      ],
+      [
+        [
+          "Xató",
+          [
+            "/wiki/Xató"
+          ]
+        ],
+        [
+          "Catalonia",
+          [
+            "/wiki/Catalan_cuisine"
+          ]
+        ],
+        [
+          "sauce",
+          []
+        ],
+        [
+          "a sauce made with almonds , hazelnuts , breadcrumbs , vinegar , garlic , olive oil , salt , and the nyora pepper . Xató is often served with an endive salad prepared with anchovy , tuna and baccala",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a list of Spanish dishes, detailing their names, the regions they are associated with, their types (e.g., paste, sauce), and a brief description of each dish. It serves as a reference for understanding the culinary diversity of Spain and the characteristics of its regional cuisines.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Type"
+  ],
+  "entities": [
+    "Name",
+    "Region",
+    "Description"
+  ]
+}

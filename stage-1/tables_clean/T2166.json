@@ -1,0 +1,554 @@
+{
+  "table_id": "T2166",
+  "uid": "e326f18f-f1dc-576d-8412-c501699dfdbc",
+  "source": "HybridQA",
+  "source_table_id": "e326f18f-f1dc-576d-8412-c501699dfdbc",
+  "domain": "HybridQA",
+  "title": "Top Latin Albums Year-End Chart",
+  "columns": [
+    "Rank",
+    "Album",
+    "Artist",
+    "Peak Top Latin Albums",
+    "Peak Billboard 200"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "The Last",
+        [
+          "/wiki/The_Last_(album)"
+        ]
+      ],
+      [
+        "Aventura",
+        [
+          "/wiki/Aventura_(band)"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        5,
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Euphoria",
+        [
+          "/wiki/Euphoria_(Enrique_Iglesias_album)"
+        ]
+      ],
+      [
+        "Enrique Iglesias",
+        [
+          "/wiki/Enrique_Iglesias"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        10,
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Iconos",
+        [
+          "/wiki/Iconos"
+        ]
+      ],
+      [
+        "Marc Anthony",
+        [
+          "/wiki/Marc_Anthony"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        11,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Dejarte de Amar",
+        [
+          "/wiki/Dejarte_de_Amar"
+        ]
+      ],
+      [
+        "Camila",
+        [
+          "/wiki/Camila_(band)"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        64,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "La Revolución",
+        [
+          "/wiki/La_Revolución"
+        ]
+      ],
+      [
+        "Wisin & Yandel",
+        [
+          "/wiki/Wisin_&_Yandel"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        7,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Sale el Sol",
+        [
+          "/wiki/Sale_el_Sol"
+        ]
+      ],
+      [
+        "Shakira",
+        [
+          "/wiki/Shakira"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        7,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "La Gran Señora",
+        [
+          "/wiki/La_Gran_Señora"
+        ]
+      ],
+      [
+        "Jenni Rivera",
+        [
+          "/wiki/Jenni_Rivera"
+        ]
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        171,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "No Hay Imposibles",
+        [
+          "/wiki/No_Hay_Imposibles"
+        ]
+      ],
+      [
+        "Chayanne",
+        [
+          "/wiki/Chayanne"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        23,
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Amarte a la Antigua",
+        [
+          "/wiki/Amarte_a_la_Antigua"
+        ]
+      ],
+      [
+        "Pedro Fernández",
+        [
+          "/wiki/Pedro_Fernández_(singer)"
+        ]
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        141,
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "En Vivo Desde Culiacan",
+        []
+      ],
+      [
+        "Larry Hernandez",
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        0,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "e326f18f-f1dc-576d-8412-c501699dfdbc",
+    "table_id": "Top_Latin_Albums_Year-End_Chart_1",
+    "title": "Top Latin Albums Year-End Chart",
+    "header": [
+      "Rank",
+      "Album",
+      "Artist",
+      "Peak Top Latin Albums",
+      "Peak Billboard 200"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "The Last",
+          [
+            "/wiki/The_Last_(album)"
+          ]
+        ],
+        [
+          "Aventura",
+          [
+            "/wiki/Aventura_(band)"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          5,
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Euphoria",
+          [
+            "/wiki/Euphoria_(Enrique_Iglesias_album)"
+          ]
+        ],
+        [
+          "Enrique Iglesias",
+          [
+            "/wiki/Enrique_Iglesias"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          10,
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Iconos",
+          [
+            "/wiki/Iconos"
+          ]
+        ],
+        [
+          "Marc Anthony",
+          [
+            "/wiki/Marc_Anthony"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          11,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Dejarte de Amar",
+          [
+            "/wiki/Dejarte_de_Amar"
+          ]
+        ],
+        [
+          "Camila",
+          [
+            "/wiki/Camila_(band)"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          64,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "La Revolución",
+          [
+            "/wiki/La_Revolución"
+          ]
+        ],
+        [
+          "Wisin & Yandel",
+          [
+            "/wiki/Wisin_&_Yandel"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          7,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Sale el Sol",
+          [
+            "/wiki/Sale_el_Sol"
+          ]
+        ],
+        [
+          "Shakira",
+          [
+            "/wiki/Shakira"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          7,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "La Gran Señora",
+          [
+            "/wiki/La_Gran_Señora"
+          ]
+        ],
+        [
+          "Jenni Rivera",
+          [
+            "/wiki/Jenni_Rivera"
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          171,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "No Hay Imposibles",
+          [
+            "/wiki/No_Hay_Imposibles"
+          ]
+        ],
+        [
+          "Chayanne",
+          [
+            "/wiki/Chayanne"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          23,
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Amarte a la Antigua",
+          [
+            "/wiki/Amarte_a_la_Antigua"
+          ]
+        ],
+        [
+          "Pedro Fernández",
+          [
+            "/wiki/Pedro_Fernández_(singer)"
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          141,
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "En Vivo Desde Culiacan",
+          []
+        ],
+        [
+          "Larry Hernandez",
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          0,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table represents the Top Latin Albums Year-End Chart, showcasing rankings of Latin music albums based on their performance over the year. It includes information about the album titles, artists, and their peak positions on the Top Latin Albums and Billboard 200 charts. The table is designed to summarize the achievements of Latin music albums in a given year.",
+  "numeric_columns": [
+    "Rank",
+    "Peak Top Latin Albums",
+    "Peak Billboard 200"
+  ],
+  "categorical_columns": [],
+  "entities": [
+    "Album",
+    "Artist"
+  ]
+}

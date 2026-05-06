@@ -1,0 +1,469 @@
+{
+  "table_id": "T1798",
+  "uid": "442f6c0a-bb24-5340-a199-b816cab49388",
+  "source": "HybridQA",
+  "source_table_id": "442f6c0a-bb24-5340-a199-b816cab49388",
+  "domain": "HybridQA",
+  "title": "2003 UCI Women's Road World Cup",
+  "columns": [
+    "Date",
+    "Event",
+    "Country",
+    "Winner"
+  ],
+  "rows": [
+    [
+      [
+        "2 March",
+        []
+      ],
+      [
+        "Australia World Cup , Sydney",
+        [
+          "/wiki/Australia_World_Cup",
+          "/wiki/Sydney"
+        ]
+      ],
+      [
+        "Australia",
+        [
+          "/wiki/Australia"
+        ]
+      ],
+      [
+        "Sara Carrigan ( AUS )",
+        [
+          "/wiki/Sara_Carrigan"
+        ]
+      ]
+    ],
+    [
+      [
+        "22 March",
+        []
+      ],
+      [
+        "Primavera Rosa",
+        [
+          "/wiki/Primavera_Rosa"
+        ]
+      ],
+      [
+        "Italy",
+        [
+          "/wiki/Italy"
+        ]
+      ],
+      [
+        "Zulfiya Zabirova ( RUS )",
+        [
+          "/wiki/Zulfiya_Zabirova"
+        ]
+      ]
+    ],
+    [
+      [
+        "30 March",
+        []
+      ],
+      [
+        "GP Castilla y León",
+        []
+      ],
+      [
+        "Spain",
+        [
+          "/wiki/Spain"
+        ]
+      ],
+      [
+        "Mirjam Melchers ( NED )",
+        [
+          "/wiki/Mirjam_Melchers"
+        ]
+      ]
+    ],
+    [
+      [
+        "20 April",
+        []
+      ],
+      [
+        "Amstel Gold Race",
+        [
+          "/wiki/Amstel_Gold_Race_(women's_race)"
+        ]
+      ],
+      [
+        "Netherlands",
+        [
+          "/wiki/Netherlands"
+        ]
+      ],
+      [
+        "Nicole Cooke ( GBR )",
+        [
+          "/wiki/Nicole_Cooke"
+        ]
+      ]
+    ],
+    [
+      [
+        "23 April",
+        []
+      ],
+      [
+        "La Flèche Wallonne Féminine",
+        [
+          "/wiki/La_Flèche_Wallonne_Féminine"
+        ]
+      ],
+      [
+        "Belgium",
+        [
+          "/wiki/Belgium"
+        ]
+      ],
+      [
+        "Nicole Cooke ( GBR )",
+        [
+          "/wiki/Nicole_Cooke"
+        ]
+      ]
+    ],
+    [
+      [
+        "31 May",
+        []
+      ],
+      [
+        "Coupe du Monde Cycliste Féminine de Montréal",
+        [
+          "/wiki/Coupe_du_Monde_Cycliste_Féminine_de_Montréal"
+        ]
+      ],
+      [
+        "Canada",
+        [
+          "/wiki/Canada"
+        ]
+      ],
+      [
+        "Geneviève Jeanson ( CAN )",
+        [
+          "/wiki/Geneviève_Jeanson"
+        ]
+      ]
+    ],
+    [
+      [
+        "23 August",
+        []
+      ],
+      [
+        "GP de Plouay",
+        [
+          "/wiki/GP_de_Plouay"
+        ]
+      ],
+      [
+        "France",
+        [
+          "/wiki/France"
+        ]
+      ],
+      [
+        "Nicole Cooke ( GBR )",
+        [
+          "/wiki/Nicole_Cooke"
+        ]
+      ]
+    ],
+    [
+      [
+        "31 August",
+        []
+      ],
+      [
+        "Rund um die Nürnberger Altstadt",
+        [
+          "/wiki/Rund_um_die_Nürnberger_Altstadt"
+        ]
+      ],
+      [
+        "Germany",
+        [
+          "/wiki/Germany"
+        ]
+      ],
+      [
+        "Diana Žiliūtė ( LIT )",
+        [
+          "/wiki/Diana_Žiliūtė"
+        ]
+      ]
+    ],
+    [
+      [
+        "7 September",
+        []
+      ],
+      [
+        "Rotterdam Tour",
+        [
+          "/wiki/Rotterdam_Tour"
+        ]
+      ],
+      [
+        "Netherlands",
+        [
+          "/wiki/Netherlands"
+        ]
+      ],
+      [
+        "Chantal Beltman ( NED )",
+        [
+          "/wiki/Chantal_Beltman"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "442f6c0a-bb24-5340-a199-b816cab49388",
+    "table_id": "2003_UCI_Women's_Road_World_Cup_0",
+    "title": "2003 UCI Women's Road World Cup",
+    "header": [
+      "Date",
+      "Event",
+      "Country",
+      "Winner"
+    ],
+    "value": [
+      [
+        [
+          "2 March",
+          []
+        ],
+        [
+          "Australia World Cup , Sydney",
+          [
+            "/wiki/Australia_World_Cup",
+            "/wiki/Sydney"
+          ]
+        ],
+        [
+          "Australia",
+          [
+            "/wiki/Australia"
+          ]
+        ],
+        [
+          "Sara Carrigan ( AUS )",
+          [
+            "/wiki/Sara_Carrigan"
+          ]
+        ]
+      ],
+      [
+        [
+          "22 March",
+          []
+        ],
+        [
+          "Primavera Rosa",
+          [
+            "/wiki/Primavera_Rosa"
+          ]
+        ],
+        [
+          "Italy",
+          [
+            "/wiki/Italy"
+          ]
+        ],
+        [
+          "Zulfiya Zabirova ( RUS )",
+          [
+            "/wiki/Zulfiya_Zabirova"
+          ]
+        ]
+      ],
+      [
+        [
+          "30 March",
+          []
+        ],
+        [
+          "GP Castilla y León",
+          []
+        ],
+        [
+          "Spain",
+          [
+            "/wiki/Spain"
+          ]
+        ],
+        [
+          "Mirjam Melchers ( NED )",
+          [
+            "/wiki/Mirjam_Melchers"
+          ]
+        ]
+      ],
+      [
+        [
+          "20 April",
+          []
+        ],
+        [
+          "Amstel Gold Race",
+          [
+            "/wiki/Amstel_Gold_Race_(women's_race)"
+          ]
+        ],
+        [
+          "Netherlands",
+          [
+            "/wiki/Netherlands"
+          ]
+        ],
+        [
+          "Nicole Cooke ( GBR )",
+          [
+            "/wiki/Nicole_Cooke"
+          ]
+        ]
+      ],
+      [
+        [
+          "23 April",
+          []
+        ],
+        [
+          "La Flèche Wallonne Féminine",
+          [
+            "/wiki/La_Flèche_Wallonne_Féminine"
+          ]
+        ],
+        [
+          "Belgium",
+          [
+            "/wiki/Belgium"
+          ]
+        ],
+        [
+          "Nicole Cooke ( GBR )",
+          [
+            "/wiki/Nicole_Cooke"
+          ]
+        ]
+      ],
+      [
+        [
+          "31 May",
+          []
+        ],
+        [
+          "Coupe du Monde Cycliste Féminine de Montréal",
+          [
+            "/wiki/Coupe_du_Monde_Cycliste_Féminine_de_Montréal"
+          ]
+        ],
+        [
+          "Canada",
+          [
+            "/wiki/Canada"
+          ]
+        ],
+        [
+          "Geneviève Jeanson ( CAN )",
+          [
+            "/wiki/Geneviève_Jeanson"
+          ]
+        ]
+      ],
+      [
+        [
+          "23 August",
+          []
+        ],
+        [
+          "GP de Plouay",
+          [
+            "/wiki/GP_de_Plouay"
+          ]
+        ],
+        [
+          "France",
+          [
+            "/wiki/France"
+          ]
+        ],
+        [
+          "Nicole Cooke ( GBR )",
+          [
+            "/wiki/Nicole_Cooke"
+          ]
+        ]
+      ],
+      [
+        [
+          "31 August",
+          []
+        ],
+        [
+          "Rund um die Nürnberger Altstadt",
+          [
+            "/wiki/Rund_um_die_Nürnberger_Altstadt"
+          ]
+        ],
+        [
+          "Germany",
+          [
+            "/wiki/Germany"
+          ]
+        ],
+        [
+          "Diana Žiliūtė ( LIT )",
+          [
+            "/wiki/Diana_Žiliūtė"
+          ]
+        ]
+      ],
+      [
+        [
+          "7 September",
+          []
+        ],
+        [
+          "Rotterdam Tour",
+          [
+            "/wiki/Rotterdam_Tour"
+          ]
+        ],
+        [
+          "Netherlands",
+          [
+            "/wiki/Netherlands"
+          ]
+        ],
+        [
+          "Chantal Beltman ( NED )",
+          [
+            "/wiki/Chantal_Beltman"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides an overview of the 2003 UCI Women's Road World Cup, listing details about each event in the series. It includes the date, event name, host country, and the winner for each competition. The purpose is to summarize key information about the races and their outcomes during the season.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Date",
+    "Event",
+    "Country"
+  ],
+  "entities": [
+    "Winner"
+  ]
+}

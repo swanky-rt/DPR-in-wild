@@ -1,0 +1,292 @@
+{
+  "table_id": "T2825",
+  "uid": "fe2d4a47-d0a2-529e-8d3d-45b8532db56f",
+  "source": "HybridQA",
+  "source_table_id": "fe2d4a47-d0a2-529e-8d3d-45b8532db56f",
+  "domain": "HybridQA",
+  "title": "Nikki Blonsky",
+  "columns": [
+    "Year",
+    "Title",
+    "Role"
+  ],
+  "rows": [
+    [
+      [
+        2007,
+        []
+      ],
+      [
+        "Hairspray",
+        [
+          "/wiki/Hairspray_(2007_film)"
+        ]
+      ],
+      [
+        "Tracy Turnblad",
+        [
+          "/wiki/Tracy_Turnblad"
+        ]
+      ]
+    ],
+    [
+      [
+        2008,
+        []
+      ],
+      [
+        "Queen Sized",
+        [
+          "/wiki/Queen_Sized"
+        ]
+      ],
+      [
+        "Maggie Baker",
+        []
+      ]
+    ],
+    [
+      [
+        2008,
+        []
+      ],
+      [
+        "Harold",
+        [
+          "/wiki/Harold_(film)"
+        ]
+      ],
+      [
+        "Rhonda Baxter",
+        []
+      ]
+    ],
+    [
+      [
+        2011,
+        []
+      ],
+      [
+        "Waiting For Forever",
+        [
+          "/wiki/Waiting_For_Forever"
+        ]
+      ],
+      [
+        "Dolores",
+        []
+      ]
+    ],
+    [
+      [
+        2012,
+        []
+      ],
+      [
+        "The English Teacher",
+        [
+          "/wiki/The_English_Teacher_(film)"
+        ]
+      ],
+      [
+        "Sheila Nussbaum",
+        []
+      ]
+    ],
+    [
+      [
+        2013,
+        []
+      ],
+      [
+        "Geography Club",
+        [
+          "/wiki/Geography_Club_(film)"
+        ]
+      ],
+      [
+        "Therese",
+        []
+      ]
+    ],
+    [
+      [
+        2016,
+        []
+      ],
+      [
+        "Pup Star",
+        []
+      ],
+      [
+        "Lady Paw Paw",
+        []
+      ]
+    ],
+    [
+      [
+        2017,
+        []
+      ],
+      [
+        "The Last Movie Star",
+        [
+          "/wiki/The_Last_Movie_Star"
+        ]
+      ],
+      [
+        "Faith",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "fe2d4a47-d0a2-529e-8d3d-45b8532db56f",
+    "table_id": "Nikki_Blonsky_0",
+    "title": "Nikki Blonsky",
+    "header": [
+      "Year",
+      "Title",
+      "Role"
+    ],
+    "value": [
+      [
+        [
+          2007,
+          []
+        ],
+        [
+          "Hairspray",
+          [
+            "/wiki/Hairspray_(2007_film)"
+          ]
+        ],
+        [
+          "Tracy Turnblad",
+          [
+            "/wiki/Tracy_Turnblad"
+          ]
+        ]
+      ],
+      [
+        [
+          2008,
+          []
+        ],
+        [
+          "Queen Sized",
+          [
+            "/wiki/Queen_Sized"
+          ]
+        ],
+        [
+          "Maggie Baker",
+          []
+        ]
+      ],
+      [
+        [
+          2008,
+          []
+        ],
+        [
+          "Harold",
+          [
+            "/wiki/Harold_(film)"
+          ]
+        ],
+        [
+          "Rhonda Baxter",
+          []
+        ]
+      ],
+      [
+        [
+          2011,
+          []
+        ],
+        [
+          "Waiting For Forever",
+          [
+            "/wiki/Waiting_For_Forever"
+          ]
+        ],
+        [
+          "Dolores",
+          []
+        ]
+      ],
+      [
+        [
+          2012,
+          []
+        ],
+        [
+          "The English Teacher",
+          [
+            "/wiki/The_English_Teacher_(film)"
+          ]
+        ],
+        [
+          "Sheila Nussbaum",
+          []
+        ]
+      ],
+      [
+        [
+          2013,
+          []
+        ],
+        [
+          "Geography Club",
+          [
+            "/wiki/Geography_Club_(film)"
+          ]
+        ],
+        [
+          "Therese",
+          []
+        ]
+      ],
+      [
+        [
+          2016,
+          []
+        ],
+        [
+          "Pup Star",
+          []
+        ],
+        [
+          "Lady Paw Paw",
+          []
+        ]
+      ],
+      [
+        [
+          2017,
+          []
+        ],
+        [
+          "The Last Movie Star",
+          [
+            "/wiki/The_Last_Movie_Star"
+          ]
+        ],
+        [
+          "Faith",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of Nikki Blonsky's acting career, listing the years of her performances, the titles of the works she appeared in, and the roles she portrayed. It serves as a concise reference to her filmography within the entertainment domain.",
+  "numeric_columns": [
+    "Year"
+  ],
+  "categorical_columns": [
+    "Title",
+    "Role"
+  ],
+  "entities": []
+}

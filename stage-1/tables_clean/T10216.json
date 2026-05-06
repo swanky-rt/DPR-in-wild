@@ -1,0 +1,293 @@
+{
+  "table_id": "T10216",
+  "uid": "97593ff0-b8c5-5476-a8db-9dde135e62cc",
+  "source": "HybridQA",
+  "source_table_id": "97593ff0-b8c5-5476-a8db-9dde135e62cc",
+  "domain": "HybridQA",
+  "title": "1999 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Alexei Nemov ( RUS )",
+        [
+          "/wiki/Alexei_Nemov"
+        ]
+      ],
+      [
+        9.775,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Marius Urzica ( ROU )",
+        [
+          "/wiki/Marius_Urzica"
+        ]
+      ],
+      [
+        9.762,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Nikolai Kryukov ( RUS )",
+        [
+          "/wiki/Nikolai_Kryukov_(gymnast)"
+        ]
+      ],
+      [
+        9.75,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Alexander Beresch ( UKR )",
+        [
+          "/wiki/Alexander_Beresch"
+        ]
+      ],
+      [
+        9.725,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Andreas Wecker ( GER )",
+        [
+          "/wiki/Andreas_Wecker"
+        ]
+      ],
+      [
+        9.712,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Valeri Belenki ( GER )",
+        [
+          "/wiki/Valeri_Belenki"
+        ]
+      ],
+      [
+        9.7,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Xing Aowei ( CHN )",
+        [
+          "/wiki/Xing_Aowei"
+        ]
+      ],
+      [
+        9.662,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Lee Joo-Hyung ( KOR )",
+        [
+          "/wiki/Lee_Joo-Hyung"
+        ]
+      ],
+      [
+        9.65,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "97593ff0-b8c5-5476-a8db-9dde135e62cc",
+    "table_id": "1999_World_Artistic_Gymnastics_Championships_2",
+    "title": "1999 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Alexei Nemov ( RUS )",
+          [
+            "/wiki/Alexei_Nemov"
+          ]
+        ],
+        [
+          9.775,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Marius Urzica ( ROU )",
+          [
+            "/wiki/Marius_Urzica"
+          ]
+        ],
+        [
+          9.762,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Nikolai Kryukov ( RUS )",
+          [
+            "/wiki/Nikolai_Kryukov_(gymnast)"
+          ]
+        ],
+        [
+          9.75,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Alexander Beresch ( UKR )",
+          [
+            "/wiki/Alexander_Beresch"
+          ]
+        ],
+        [
+          9.725,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Andreas Wecker ( GER )",
+          [
+            "/wiki/Andreas_Wecker"
+          ]
+        ],
+        [
+          9.712,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Valeri Belenki ( GER )",
+          [
+            "/wiki/Valeri_Belenki"
+          ]
+        ],
+        [
+          9.7,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Xing Aowei ( CHN )",
+          [
+            "/wiki/Xing_Aowei"
+          ]
+        ],
+        [
+          9.662,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Lee Joo-Hyung ( KOR )",
+          [
+            "/wiki/Lee_Joo-Hyung"
+          ]
+        ],
+        [
+          9.65,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides rankings and scores from the 1999 World Artistic Gymnastics Championships. It lists gymnasts, their ranks, and their total scores, highlighting performance outcomes in the competition. The table is structured to show both numerical scores and associated athlete information.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

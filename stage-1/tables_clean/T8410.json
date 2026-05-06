@@ -1,0 +1,469 @@
+{
+  "table_id": "T8410",
+  "uid": "d44fdfc9-6953-5c3a-a045-8cf098bb14f8",
+  "source": "HybridQA",
+  "source_table_id": "d44fdfc9-6953-5c3a-a045-8cf098bb14f8",
+  "domain": "HybridQA",
+  "title": "2001 UCI Women's Road World Cup",
+  "columns": [
+    "Date",
+    "Event",
+    "Country",
+    "Winner"
+  ],
+  "rows": [
+    [
+      [
+        "10 March",
+        []
+      ],
+      [
+        "Australia World Cup , Canberra",
+        [
+          "/wiki/Australia_World_Cup",
+          "/wiki/Canberra"
+        ]
+      ],
+      [
+        "Australia",
+        [
+          "/wiki/Australia"
+        ]
+      ],
+      [
+        "Anna Millward ( AUS )",
+        [
+          "/wiki/Anna_Millward"
+        ]
+      ]
+    ],
+    [
+      [
+        "18 March",
+        []
+      ],
+      [
+        "New Zealand World Cup , Hamilton City",
+        [
+          "/wiki/Hamilton,_New_Zealand"
+        ]
+      ],
+      [
+        "New Zealand",
+        [
+          "/wiki/New_Zealand"
+        ]
+      ],
+      [
+        "Anna Millward ( AUS )",
+        [
+          "/wiki/Anna_Millward"
+        ]
+      ]
+    ],
+    [
+      [
+        "24 March",
+        []
+      ],
+      [
+        "Primavera Rosa",
+        [
+          "/wiki/Primavera_Rosa"
+        ]
+      ],
+      [
+        "Italy",
+        [
+          "/wiki/Italy"
+        ]
+      ],
+      [
+        "Susanne Ljungskog ( SWE )",
+        [
+          "/wiki/Susanne_Ljungskog"
+        ]
+      ]
+    ],
+    [
+      [
+        "18 April",
+        []
+      ],
+      [
+        "La Flèche Wallonne Féminine",
+        [
+          "/wiki/La_Flèche_Wallonne_Féminine"
+        ]
+      ],
+      [
+        "Belgium",
+        [
+          "/wiki/Belgium"
+        ]
+      ],
+      [
+        "Fabiana Luperini ( ITA )",
+        [
+          "/wiki/Fabiana_Luperini"
+        ]
+      ]
+    ],
+    [
+      [
+        "3 June",
+        []
+      ],
+      [
+        "Coupe du Monde Cycliste Féminine de Montréal",
+        [
+          "/wiki/Coupe_du_Monde_Cycliste_Féminine_de_Montréal"
+        ]
+      ],
+      [
+        "Canada",
+        [
+          "/wiki/Canada"
+        ]
+      ],
+      [
+        "Geneviève Jeanson ( CAN )",
+        [
+          "/wiki/Geneviève_Jeanson"
+        ]
+      ]
+    ],
+    [
+      [
+        "10 June",
+        []
+      ],
+      [
+        "Liberty Classic",
+        [
+          "/wiki/Liberty_Classic"
+        ]
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Petra Rossner ( GER )",
+        [
+          "/wiki/Petra_Rossner"
+        ]
+      ]
+    ],
+    [
+      [
+        "3 August",
+        []
+      ],
+      [
+        "Trophée International",
+        [
+          "/wiki/Trophée_International"
+        ]
+      ],
+      [
+        "France",
+        [
+          "/wiki/France"
+        ]
+      ],
+      [
+        "Olga Slyusareva ( RUS )",
+        [
+          "/wiki/Olga_Slyusareva"
+        ]
+      ]
+    ],
+    [
+      [
+        "8 September",
+        []
+      ],
+      [
+        "GP Suisse Féminin",
+        []
+      ],
+      [
+        "Switzerland",
+        [
+          "/wiki/Switzerland"
+        ]
+      ],
+      [
+        "Susanne Ljungskog ( SWE )",
+        [
+          "/wiki/Susanne_Ljungskog"
+        ]
+      ]
+    ],
+    [
+      [
+        "15 September",
+        []
+      ],
+      [
+        "Rotterdam Tour",
+        [
+          "/wiki/Rotterdam_Tour"
+        ]
+      ],
+      [
+        "Netherlands",
+        [
+          "/wiki/Netherlands"
+        ]
+      ],
+      [
+        "Judith Arndt ( GER )",
+        [
+          "/wiki/Judith_Arndt"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "d44fdfc9-6953-5c3a-a045-8cf098bb14f8",
+    "table_id": "2001_UCI_Women's_Road_World_Cup_0",
+    "title": "2001 UCI Women's Road World Cup",
+    "header": [
+      "Date",
+      "Event",
+      "Country",
+      "Winner"
+    ],
+    "value": [
+      [
+        [
+          "10 March",
+          []
+        ],
+        [
+          "Australia World Cup , Canberra",
+          [
+            "/wiki/Australia_World_Cup",
+            "/wiki/Canberra"
+          ]
+        ],
+        [
+          "Australia",
+          [
+            "/wiki/Australia"
+          ]
+        ],
+        [
+          "Anna Millward ( AUS )",
+          [
+            "/wiki/Anna_Millward"
+          ]
+        ]
+      ],
+      [
+        [
+          "18 March",
+          []
+        ],
+        [
+          "New Zealand World Cup , Hamilton City",
+          [
+            "/wiki/Hamilton,_New_Zealand"
+          ]
+        ],
+        [
+          "New Zealand",
+          [
+            "/wiki/New_Zealand"
+          ]
+        ],
+        [
+          "Anna Millward ( AUS )",
+          [
+            "/wiki/Anna_Millward"
+          ]
+        ]
+      ],
+      [
+        [
+          "24 March",
+          []
+        ],
+        [
+          "Primavera Rosa",
+          [
+            "/wiki/Primavera_Rosa"
+          ]
+        ],
+        [
+          "Italy",
+          [
+            "/wiki/Italy"
+          ]
+        ],
+        [
+          "Susanne Ljungskog ( SWE )",
+          [
+            "/wiki/Susanne_Ljungskog"
+          ]
+        ]
+      ],
+      [
+        [
+          "18 April",
+          []
+        ],
+        [
+          "La Flèche Wallonne Féminine",
+          [
+            "/wiki/La_Flèche_Wallonne_Féminine"
+          ]
+        ],
+        [
+          "Belgium",
+          [
+            "/wiki/Belgium"
+          ]
+        ],
+        [
+          "Fabiana Luperini ( ITA )",
+          [
+            "/wiki/Fabiana_Luperini"
+          ]
+        ]
+      ],
+      [
+        [
+          "3 June",
+          []
+        ],
+        [
+          "Coupe du Monde Cycliste Féminine de Montréal",
+          [
+            "/wiki/Coupe_du_Monde_Cycliste_Féminine_de_Montréal"
+          ]
+        ],
+        [
+          "Canada",
+          [
+            "/wiki/Canada"
+          ]
+        ],
+        [
+          "Geneviève Jeanson ( CAN )",
+          [
+            "/wiki/Geneviève_Jeanson"
+          ]
+        ]
+      ],
+      [
+        [
+          "10 June",
+          []
+        ],
+        [
+          "Liberty Classic",
+          [
+            "/wiki/Liberty_Classic"
+          ]
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Petra Rossner ( GER )",
+          [
+            "/wiki/Petra_Rossner"
+          ]
+        ]
+      ],
+      [
+        [
+          "3 August",
+          []
+        ],
+        [
+          "Trophée International",
+          [
+            "/wiki/Trophée_International"
+          ]
+        ],
+        [
+          "France",
+          [
+            "/wiki/France"
+          ]
+        ],
+        [
+          "Olga Slyusareva ( RUS )",
+          [
+            "/wiki/Olga_Slyusareva"
+          ]
+        ]
+      ],
+      [
+        [
+          "8 September",
+          []
+        ],
+        [
+          "GP Suisse Féminin",
+          []
+        ],
+        [
+          "Switzerland",
+          [
+            "/wiki/Switzerland"
+          ]
+        ],
+        [
+          "Susanne Ljungskog ( SWE )",
+          [
+            "/wiki/Susanne_Ljungskog"
+          ]
+        ]
+      ],
+      [
+        [
+          "15 September",
+          []
+        ],
+        [
+          "Rotterdam Tour",
+          [
+            "/wiki/Rotterdam_Tour"
+          ]
+        ],
+        [
+          "Netherlands",
+          [
+            "/wiki/Netherlands"
+          ]
+        ],
+        [
+          "Judith Arndt ( GER )",
+          [
+            "/wiki/Judith_Arndt"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of the 2001 UCI Women's Road World Cup events, including details about the dates, locations, countries, and winners of each race. It serves as a summary of the competition's key information, highlighting the geographical diversity and individual achievements within the series.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Date",
+    "Event",
+    "Country"
+  ],
+  "entities": [
+    "Winner"
+  ]
+}

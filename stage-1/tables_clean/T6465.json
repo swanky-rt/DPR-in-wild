@@ -1,0 +1,474 @@
+{
+  "table_id": "T6465",
+  "uid": "73b5559d-32b4-5b75-92c3-366334282a1c",
+  "source": "HybridQA",
+  "source_table_id": "73b5559d-32b4-5b75-92c3-366334282a1c",
+  "domain": "HybridQA",
+  "title": "Mainland Premier League",
+  "columns": [
+    "Position ( 2014 )",
+    "Current Position ( 2015 )",
+    "Club",
+    "Location",
+    "Home Ground"
+  ],
+  "rows": [
+    [
+      [
+        "5th",
+        []
+      ],
+      [
+        "3rd",
+        []
+      ],
+      [
+        "Coastal Spirit",
+        [
+          "/wiki/Coastal_Spirit_FC"
+        ]
+      ],
+      [
+        "Bromley , New Zealand",
+        [
+          "/wiki/Linwood,_New_Zealand",
+          "/wiki/New_Zealand"
+        ]
+      ],
+      [
+        "Linfield Park ( 2,000 ) ( Grass )",
+        []
+      ]
+    ],
+    [
+      [
+        "NA ( Promoted from Div 1",
+        []
+      ],
+      [
+        "8th",
+        []
+      ],
+      [
+        "Christchurch United",
+        [
+          "/wiki/Christchurch_United"
+        ]
+      ],
+      [
+        "Spreydon , New Zealand",
+        [
+          "/wiki/Spreydon",
+          "/wiki/New_Zealand"
+        ]
+      ],
+      [
+        "Spreydon Domain ( 1,000 ) ( Grass )",
+        []
+      ]
+    ],
+    [
+      [
+        "3rd",
+        []
+      ],
+      [
+        "1st",
+        []
+      ],
+      [
+        "Ferrymead Bays",
+        [
+          "/wiki/Ferrymead_Bays"
+        ]
+      ],
+      [
+        "Redcliffs , New Zealand",
+        [
+          "/wiki/Redcliffs",
+          "/wiki/New_Zealand"
+        ]
+      ],
+      [
+        "Barnett Park ( 1,000 ) ( Grass )",
+        []
+      ]
+    ],
+    [
+      [
+        "6th",
+        []
+      ],
+      [
+        "7th",
+        []
+      ],
+      [
+        "Halswell United",
+        [
+          "/wiki/Halswell_United"
+        ]
+      ],
+      [
+        "Halswell , New Zealand",
+        [
+          "/wiki/Halswell",
+          "/wiki/New_Zealand"
+        ]
+      ],
+      [
+        "Halswell Domain ( 1,500 ) ( Grass )",
+        []
+      ]
+    ],
+    [
+      [
+        "4th",
+        []
+      ],
+      [
+        "6th",
+        []
+      ],
+      [
+        "Nelson Suburbs",
+        [
+          "/wiki/Nelson_Suburbs"
+        ]
+      ],
+      [
+        "Nelson , New Zealand",
+        [
+          "/wiki/Stoke,_New_Zealand",
+          "/wiki/New_Zealand"
+        ]
+      ],
+      [
+        "Saxton Field ( 2,000 ) ( Grass )",
+        []
+      ]
+    ],
+    [
+      [
+        "7th",
+        []
+      ],
+      [
+        "4th",
+        []
+      ],
+      [
+        "University of Canterbury",
+        [
+          "/wiki/University_of_Canterbury"
+        ]
+      ],
+      [
+        "Ilam , New Zealand",
+        [
+          "/wiki/Ilam,_New_Zealand",
+          "/wiki/New_Zealand"
+        ]
+      ],
+      [
+        "Ilam Fields ( 1,000 ) ( Grass )",
+        []
+      ]
+    ],
+    [
+      [
+        "2nd",
+        []
+      ],
+      [
+        "5th",
+        []
+      ],
+      [
+        "Western AFC",
+        [
+          "/wiki/Western_A.F.C."
+        ]
+      ],
+      [
+        "Mairehau , New Zealand",
+        [
+          "/wiki/Mairehau",
+          "/wiki/New_Zealand"
+        ]
+      ],
+      [
+        "ASB Football Park ( 2,500 ) ( Artificial Turf )",
+        []
+      ]
+    ],
+    [
+      [
+        "1st",
+        []
+      ],
+      [
+        "2nd",
+        []
+      ],
+      [
+        "Cashmere Technical",
+        [
+          "/wiki/Cashmere_Technical"
+        ]
+      ],
+      [
+        "Woolston , New Zealand",
+        [
+          "/wiki/Woolston,_New_Zealand",
+          "/wiki/New_Zealand"
+        ]
+      ],
+      [
+        "Garrick Memorial Park ( 2,000 ) ( Grass )",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "73b5559d-32b4-5b75-92c3-366334282a1c",
+    "table_id": "Mainland_Premier_League_0",
+    "title": "Mainland Premier League",
+    "header": [
+      "Position ( 2014 )",
+      "Current Position ( 2015 )",
+      "Club",
+      "Location",
+      "Home Ground"
+    ],
+    "value": [
+      [
+        [
+          "5th",
+          []
+        ],
+        [
+          "3rd",
+          []
+        ],
+        [
+          "Coastal Spirit",
+          [
+            "/wiki/Coastal_Spirit_FC"
+          ]
+        ],
+        [
+          "Bromley , New Zealand",
+          [
+            "/wiki/Linwood,_New_Zealand",
+            "/wiki/New_Zealand"
+          ]
+        ],
+        [
+          "Linfield Park ( 2,000 ) ( Grass )",
+          []
+        ]
+      ],
+      [
+        [
+          "NA ( Promoted from Div 1",
+          []
+        ],
+        [
+          "8th",
+          []
+        ],
+        [
+          "Christchurch United",
+          [
+            "/wiki/Christchurch_United"
+          ]
+        ],
+        [
+          "Spreydon , New Zealand",
+          [
+            "/wiki/Spreydon",
+            "/wiki/New_Zealand"
+          ]
+        ],
+        [
+          "Spreydon Domain ( 1,000 ) ( Grass )",
+          []
+        ]
+      ],
+      [
+        [
+          "3rd",
+          []
+        ],
+        [
+          "1st",
+          []
+        ],
+        [
+          "Ferrymead Bays",
+          [
+            "/wiki/Ferrymead_Bays"
+          ]
+        ],
+        [
+          "Redcliffs , New Zealand",
+          [
+            "/wiki/Redcliffs",
+            "/wiki/New_Zealand"
+          ]
+        ],
+        [
+          "Barnett Park ( 1,000 ) ( Grass )",
+          []
+        ]
+      ],
+      [
+        [
+          "6th",
+          []
+        ],
+        [
+          "7th",
+          []
+        ],
+        [
+          "Halswell United",
+          [
+            "/wiki/Halswell_United"
+          ]
+        ],
+        [
+          "Halswell , New Zealand",
+          [
+            "/wiki/Halswell",
+            "/wiki/New_Zealand"
+          ]
+        ],
+        [
+          "Halswell Domain ( 1,500 ) ( Grass )",
+          []
+        ]
+      ],
+      [
+        [
+          "4th",
+          []
+        ],
+        [
+          "6th",
+          []
+        ],
+        [
+          "Nelson Suburbs",
+          [
+            "/wiki/Nelson_Suburbs"
+          ]
+        ],
+        [
+          "Nelson , New Zealand",
+          [
+            "/wiki/Stoke,_New_Zealand",
+            "/wiki/New_Zealand"
+          ]
+        ],
+        [
+          "Saxton Field ( 2,000 ) ( Grass )",
+          []
+        ]
+      ],
+      [
+        [
+          "7th",
+          []
+        ],
+        [
+          "4th",
+          []
+        ],
+        [
+          "University of Canterbury",
+          [
+            "/wiki/University_of_Canterbury"
+          ]
+        ],
+        [
+          "Ilam , New Zealand",
+          [
+            "/wiki/Ilam,_New_Zealand",
+            "/wiki/New_Zealand"
+          ]
+        ],
+        [
+          "Ilam Fields ( 1,000 ) ( Grass )",
+          []
+        ]
+      ],
+      [
+        [
+          "2nd",
+          []
+        ],
+        [
+          "5th",
+          []
+        ],
+        [
+          "Western AFC",
+          [
+            "/wiki/Western_A.F.C."
+          ]
+        ],
+        [
+          "Mairehau , New Zealand",
+          [
+            "/wiki/Mairehau",
+            "/wiki/New_Zealand"
+          ]
+        ],
+        [
+          "ASB Football Park ( 2,500 ) ( Artificial Turf )",
+          []
+        ]
+      ],
+      [
+        [
+          "1st",
+          []
+        ],
+        [
+          "2nd",
+          []
+        ],
+        [
+          "Cashmere Technical",
+          [
+            "/wiki/Cashmere_Technical"
+          ]
+        ],
+        [
+          "Woolston , New Zealand",
+          [
+            "/wiki/Woolston,_New_Zealand",
+            "/wiki/New_Zealand"
+          ]
+        ],
+        [
+          "Garrick Memorial Park ( 2,000 ) ( Grass )",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about football clubs participating in the Mainland Premier League, including their positions in the league across two years, their names, locations, and home grounds. It is designed to track changes in standings and provide details about the clubs and their facilities.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Position ( 2014 )",
+    "Current Position ( 2015 )",
+    "Home Ground"
+  ],
+  "entities": [
+    "Club",
+    "Location"
+  ]
+}

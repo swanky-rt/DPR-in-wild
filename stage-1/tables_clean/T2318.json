@@ -1,0 +1,478 @@
+{
+  "table_id": "T2318",
+  "uid": "46588f03-0e99-5130-8993-5562281ea621",
+  "source": "HybridQA",
+  "source_table_id": "46588f03-0e99-5130-8993-5562281ea621",
+  "domain": "HybridQA",
+  "title": "League of Ireland First Division",
+  "columns": [
+    "Team",
+    "Home city/suburb",
+    "Stadium"
+  ],
+  "rows": [
+    [
+      [
+        "Athlone Town",
+        [
+          "/wiki/Athlone_Town_A.F.C."
+        ]
+      ],
+      [
+        "Athlone",
+        [
+          "/wiki/Athlone"
+        ]
+      ],
+      [
+        "Athlone Town Stadium",
+        [
+          "/wiki/Athlone_Town_Stadium"
+        ]
+      ]
+    ],
+    [
+      [
+        "Cabinteely",
+        [
+          "/wiki/Cabinteely_F.C."
+        ]
+      ],
+      [
+        "Cabinteely , Dublin",
+        [
+          "/wiki/Cabinteely",
+          "/wiki/Dublin"
+        ]
+      ],
+      [
+        "Stradbrook Road",
+        [
+          "/wiki/Blackrock_College_RFC"
+        ]
+      ]
+    ],
+    [
+      [
+        "Bray Wanderers",
+        [
+          "/wiki/Bray_Wanderers_F.C."
+        ]
+      ],
+      [
+        "Bray",
+        [
+          "/wiki/Bray,_County_Wicklow"
+        ]
+      ],
+      [
+        "Carlisle Grounds",
+        [
+          "/wiki/Carlisle_Grounds"
+        ]
+      ]
+    ],
+    [
+      [
+        "Cobh Ramblers",
+        [
+          "/wiki/Cobh_Ramblers_F.C."
+        ]
+      ],
+      [
+        "Cobh",
+        [
+          "/wiki/Cobh"
+        ]
+      ],
+      [
+        "St. Colman 's Park",
+        [
+          "/wiki/St._Colman's_Park"
+        ]
+      ]
+    ],
+    [
+      [
+        "Drogheda United",
+        [
+          "/wiki/Drogheda_United_F.C."
+        ]
+      ],
+      [
+        "Drogheda",
+        [
+          "/wiki/Drogheda"
+        ]
+      ],
+      [
+        "United Park",
+        [
+          "/wiki/United_Park"
+        ]
+      ]
+    ],
+    [
+      [
+        "Galway United",
+        [
+          "/wiki/Galway_United_F.C."
+        ]
+      ],
+      [
+        "Galway",
+        [
+          "/wiki/Galway"
+        ]
+      ],
+      [
+        "Eamonn Deacy Park",
+        [
+          "/wiki/Eamonn_Deacy_Park"
+        ]
+      ]
+    ],
+    [
+      [
+        "Shamrock Rovers II",
+        [
+          "/wiki/Shamrock_Rovers_F.C._II"
+        ]
+      ],
+      [
+        "Tallaght , Dublin",
+        [
+          "/wiki/Tallaght",
+          "/wiki/Dublin"
+        ]
+      ],
+      [
+        "Tallaght Stadium",
+        [
+          "/wiki/Tallaght_Stadium"
+        ]
+      ]
+    ],
+    [
+      [
+        "Longford Town",
+        [
+          "/wiki/Longford_Town_F.C."
+        ]
+      ],
+      [
+        "Longford",
+        [
+          "/wiki/Longford"
+        ]
+      ],
+      [
+        "City Calling Stadium",
+        [
+          "/wiki/City_Calling_Stadium"
+        ]
+      ]
+    ],
+    [
+      [
+        "Treaty United",
+        []
+      ],
+      [
+        "Limerick",
+        [
+          "/wiki/Limerick"
+        ]
+      ],
+      [
+        "Markets Field",
+        [
+          "/wiki/Markets_Field"
+        ]
+      ]
+    ],
+    [
+      [
+        "UCD",
+        [
+          "/wiki/University_College_Dublin_A.F.C."
+        ]
+      ],
+      [
+        "Belfield , Dublin",
+        [
+          "/wiki/Belfield,_Dublin",
+          "/wiki/Dublin"
+        ]
+      ],
+      [
+        "UCD Bowl",
+        [
+          "/wiki/UCD_Bowl"
+        ]
+      ]
+    ],
+    [
+      [
+        "Wexford",
+        [
+          "/wiki/Wexford_F.C."
+        ]
+      ],
+      [
+        "Crossabeg",
+        [
+          "/wiki/Crossabeg"
+        ]
+      ],
+      [
+        "Ferrycarrig Park",
+        [
+          "/wiki/Ferrycarrig_Park"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "46588f03-0e99-5130-8993-5562281ea621",
+    "table_id": "League_of_Ireland_First_Division_0",
+    "title": "League of Ireland First Division",
+    "header": [
+      "Team",
+      "Home city/suburb",
+      "Stadium"
+    ],
+    "value": [
+      [
+        [
+          "Athlone Town",
+          [
+            "/wiki/Athlone_Town_A.F.C."
+          ]
+        ],
+        [
+          "Athlone",
+          [
+            "/wiki/Athlone"
+          ]
+        ],
+        [
+          "Athlone Town Stadium",
+          [
+            "/wiki/Athlone_Town_Stadium"
+          ]
+        ]
+      ],
+      [
+        [
+          "Cabinteely",
+          [
+            "/wiki/Cabinteely_F.C."
+          ]
+        ],
+        [
+          "Cabinteely , Dublin",
+          [
+            "/wiki/Cabinteely",
+            "/wiki/Dublin"
+          ]
+        ],
+        [
+          "Stradbrook Road",
+          [
+            "/wiki/Blackrock_College_RFC"
+          ]
+        ]
+      ],
+      [
+        [
+          "Bray Wanderers",
+          [
+            "/wiki/Bray_Wanderers_F.C."
+          ]
+        ],
+        [
+          "Bray",
+          [
+            "/wiki/Bray,_County_Wicklow"
+          ]
+        ],
+        [
+          "Carlisle Grounds",
+          [
+            "/wiki/Carlisle_Grounds"
+          ]
+        ]
+      ],
+      [
+        [
+          "Cobh Ramblers",
+          [
+            "/wiki/Cobh_Ramblers_F.C."
+          ]
+        ],
+        [
+          "Cobh",
+          [
+            "/wiki/Cobh"
+          ]
+        ],
+        [
+          "St. Colman 's Park",
+          [
+            "/wiki/St._Colman's_Park"
+          ]
+        ]
+      ],
+      [
+        [
+          "Drogheda United",
+          [
+            "/wiki/Drogheda_United_F.C."
+          ]
+        ],
+        [
+          "Drogheda",
+          [
+            "/wiki/Drogheda"
+          ]
+        ],
+        [
+          "United Park",
+          [
+            "/wiki/United_Park"
+          ]
+        ]
+      ],
+      [
+        [
+          "Galway United",
+          [
+            "/wiki/Galway_United_F.C."
+          ]
+        ],
+        [
+          "Galway",
+          [
+            "/wiki/Galway"
+          ]
+        ],
+        [
+          "Eamonn Deacy Park",
+          [
+            "/wiki/Eamonn_Deacy_Park"
+          ]
+        ]
+      ],
+      [
+        [
+          "Shamrock Rovers II",
+          [
+            "/wiki/Shamrock_Rovers_F.C._II"
+          ]
+        ],
+        [
+          "Tallaght , Dublin",
+          [
+            "/wiki/Tallaght",
+            "/wiki/Dublin"
+          ]
+        ],
+        [
+          "Tallaght Stadium",
+          [
+            "/wiki/Tallaght_Stadium"
+          ]
+        ]
+      ],
+      [
+        [
+          "Longford Town",
+          [
+            "/wiki/Longford_Town_F.C."
+          ]
+        ],
+        [
+          "Longford",
+          [
+            "/wiki/Longford"
+          ]
+        ],
+        [
+          "City Calling Stadium",
+          [
+            "/wiki/City_Calling_Stadium"
+          ]
+        ]
+      ],
+      [
+        [
+          "Treaty United",
+          []
+        ],
+        [
+          "Limerick",
+          [
+            "/wiki/Limerick"
+          ]
+        ],
+        [
+          "Markets Field",
+          [
+            "/wiki/Markets_Field"
+          ]
+        ]
+      ],
+      [
+        [
+          "UCD",
+          [
+            "/wiki/University_College_Dublin_A.F.C."
+          ]
+        ],
+        [
+          "Belfield , Dublin",
+          [
+            "/wiki/Belfield,_Dublin",
+            "/wiki/Dublin"
+          ]
+        ],
+        [
+          "UCD Bowl",
+          [
+            "/wiki/UCD_Bowl"
+          ]
+        ]
+      ],
+      [
+        [
+          "Wexford",
+          [
+            "/wiki/Wexford_F.C."
+          ]
+        ],
+        [
+          "Crossabeg",
+          [
+            "/wiki/Crossabeg"
+          ]
+        ],
+        [
+          "Ferrycarrig Park",
+          [
+            "/wiki/Ferrycarrig_Park"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about teams in the League of Ireland First Division, including their associated home cities or suburbs and the stadiums they use. It serves as a reference for understanding the geographical and infrastructural aspects of the league's teams.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Home city/suburb"
+  ],
+  "entities": [
+    "Team",
+    "Stadium"
+  ]
+}

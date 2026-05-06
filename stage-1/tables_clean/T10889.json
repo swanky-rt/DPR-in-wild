@@ -1,0 +1,389 @@
+{
+  "table_id": "T10889",
+  "uid": "61d0f53f-1a5c-5a01-9510-c017b2b09e34",
+  "source": "HybridQA",
+  "source_table_id": "61d0f53f-1a5c-5a01-9510-c017b2b09e34",
+  "domain": "HybridQA",
+  "title": "Ebony Shoe",
+  "columns": [
+    "Club",
+    "Number of wins",
+    "Winning years"
+  ],
+  "rows": [
+    [
+      [
+        "Anderlecht",
+        [
+          "/wiki/R.S.C._Anderlecht"
+        ]
+      ],
+      [
+        10,
+        []
+      ],
+      [
+        "1996 , 2003 , 2004 , 2005 , 2007 , 2009 , 2010 , 2011 , 2012 , 2017",
+        []
+      ]
+    ],
+    [
+      [
+        "Club Brugge",
+        [
+          "/wiki/Club_Brugge_KV"
+        ]
+      ],
+      [
+        5,
+        []
+      ],
+      [
+        "1992 , 1994 , 1998 , 2000 , 2018",
+        []
+      ]
+    ],
+    [
+      [
+        "Genk",
+        [
+          "/wiki/K.R.C._Genk"
+        ]
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        "1999 , 2002 , 2019",
+        []
+      ]
+    ],
+    [
+      [
+        "Gent",
+        [
+          "/wiki/K.A.A._Gent"
+        ]
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "2001 , 2006",
+        []
+      ]
+    ],
+    [
+      [
+        "Standard Liège",
+        [
+          "/wiki/Standard_Liège"
+        ]
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "2008 , 2014",
+        []
+      ]
+    ],
+    [
+      [
+        "RFC Liège",
+        [
+          "/wiki/RFC_Liège"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1993,
+        []
+      ]
+    ],
+    [
+      [
+        "Eendracht Aalst",
+        [
+          "/wiki/SC_Eendracht_Aalst"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1995,
+        []
+      ]
+    ],
+    [
+      [
+        "Mouscron",
+        [
+          "/wiki/R.E._Mouscron"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1997,
+        []
+      ]
+    ],
+    [
+      [
+        "Zulte Waregem",
+        [
+          "/wiki/S.V._Zulte_Waregem"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        2013,
+        []
+      ]
+    ],
+    [
+      [
+        "Charleroi",
+        [
+          "/wiki/R._Charleroi_S.C."
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        2015,
+        []
+      ]
+    ],
+    [
+      [
+        "Mechelen",
+        [
+          "/wiki/KV_Mechelen"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        2016,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "61d0f53f-1a5c-5a01-9510-c017b2b09e34",
+    "table_id": "Belgian_Ebony_Shoe_2",
+    "title": "Ebony Shoe",
+    "header": [
+      "Club",
+      "Number of wins",
+      "Winning years"
+    ],
+    "value": [
+      [
+        [
+          "Anderlecht",
+          [
+            "/wiki/R.S.C._Anderlecht"
+          ]
+        ],
+        [
+          10,
+          []
+        ],
+        [
+          "1996 , 2003 , 2004 , 2005 , 2007 , 2009 , 2010 , 2011 , 2012 , 2017",
+          []
+        ]
+      ],
+      [
+        [
+          "Club Brugge",
+          [
+            "/wiki/Club_Brugge_KV"
+          ]
+        ],
+        [
+          5,
+          []
+        ],
+        [
+          "1992 , 1994 , 1998 , 2000 , 2018",
+          []
+        ]
+      ],
+      [
+        [
+          "Genk",
+          [
+            "/wiki/K.R.C._Genk"
+          ]
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          "1999 , 2002 , 2019",
+          []
+        ]
+      ],
+      [
+        [
+          "Gent",
+          [
+            "/wiki/K.A.A._Gent"
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "2001 , 2006",
+          []
+        ]
+      ],
+      [
+        [
+          "Standard Liège",
+          [
+            "/wiki/Standard_Liège"
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "2008 , 2014",
+          []
+        ]
+      ],
+      [
+        [
+          "RFC Liège",
+          [
+            "/wiki/RFC_Liège"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1993,
+          []
+        ]
+      ],
+      [
+        [
+          "Eendracht Aalst",
+          [
+            "/wiki/SC_Eendracht_Aalst"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1995,
+          []
+        ]
+      ],
+      [
+        [
+          "Mouscron",
+          [
+            "/wiki/R.E._Mouscron"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1997,
+          []
+        ]
+      ],
+      [
+        [
+          "Zulte Waregem",
+          [
+            "/wiki/S.V._Zulte_Waregem"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          2013,
+          []
+        ]
+      ],
+      [
+        [
+          "Charleroi",
+          [
+            "/wiki/R._Charleroi_S.C."
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          2015,
+          []
+        ]
+      ],
+      [
+        [
+          "Mechelen",
+          [
+            "/wiki/KV_Mechelen"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          2016,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about clubs associated with the Ebony Shoe award, including the number of times each club has won and the specific years of their victories. It serves to summarize the achievements of various clubs in relation to this award within the domain of HybridQA.",
+  "numeric_columns": [
+    "Number of wins"
+  ],
+  "categorical_columns": [
+    "Winning years"
+  ],
+  "entities": [
+    "Club"
+  ]
+}

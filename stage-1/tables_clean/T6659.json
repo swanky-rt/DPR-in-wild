@@ -1,0 +1,524 @@
+{
+  "table_id": "T6659",
+  "uid": "f6231b18-94d9-5425-9ce0-f9d2286ab7a7",
+  "source": "HybridQA",
+  "source_table_id": "f6231b18-94d9-5425-9ce0-f9d2286ab7a7",
+  "domain": "HybridQA",
+  "title": "List of colleges in Alberta",
+  "columns": [
+    "College",
+    "Location",
+    "Founded",
+    "Enrollment"
+  ],
+  "rows": [
+    [
+      [
+        "Bow Valley College",
+        [
+          "/wiki/Bow_Valley_College"
+        ]
+      ],
+      [
+        "Calgary",
+        [
+          "/wiki/Calgary"
+        ]
+      ],
+      [
+        1964,
+        []
+      ],
+      [
+        "16,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Grande Prairie Regional College",
+        [
+          "/wiki/Grande_Prairie_Regional_College"
+        ]
+      ],
+      [
+        "Grande Prairie",
+        [
+          "/wiki/Grande_Prairie"
+        ]
+      ],
+      [
+        1966,
+        []
+      ],
+      [
+        "2,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Keyano College",
+        [
+          "/wiki/Keyano_College"
+        ]
+      ],
+      [
+        "Fort McMurray",
+        [
+          "/wiki/Fort_McMurray"
+        ]
+      ],
+      [
+        1965,
+        []
+      ],
+      [
+        "10,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Lakeland College",
+        [
+          "/wiki/Lakeland_College_(Alberta)"
+        ]
+      ],
+      [
+        "Vermilion",
+        [
+          "/wiki/Vermilion,_Alberta"
+        ]
+      ],
+      [
+        1913,
+        []
+      ],
+      [
+        "7,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Lethbridge College",
+        [
+          "/wiki/Lethbridge_College"
+        ]
+      ],
+      [
+        "Lethbridge",
+        [
+          "/wiki/Lethbridge"
+        ]
+      ],
+      [
+        1957,
+        []
+      ],
+      [
+        "7,200",
+        []
+      ]
+    ],
+    [
+      [
+        "Medicine Hat College",
+        [
+          "/wiki/Medicine_Hat_College"
+        ]
+      ],
+      [
+        "Medicine Hat",
+        [
+          "/wiki/Medicine_Hat"
+        ]
+      ],
+      [
+        1965,
+        []
+      ],
+      [
+        "2,700",
+        []
+      ]
+    ],
+    [
+      [
+        "NorQuest College",
+        [
+          "/wiki/NorQuest_College"
+        ]
+      ],
+      [
+        "Edmonton",
+        [
+          "/wiki/Edmonton"
+        ]
+      ],
+      [
+        1965,
+        []
+      ],
+      [
+        "10,800",
+        []
+      ]
+    ],
+    [
+      [
+        "Northern Lakes College",
+        [
+          "/wiki/Northern_Lakes_College"
+        ]
+      ],
+      [
+        "Grouard",
+        [
+          "/wiki/Grouard"
+        ]
+      ],
+      [
+        1999,
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Olds College",
+        [
+          "/wiki/Olds_College"
+        ]
+      ],
+      [
+        "Olds",
+        [
+          "/wiki/Olds,_Alberta"
+        ]
+      ],
+      [
+        1913,
+        []
+      ],
+      [
+        "1,288",
+        []
+      ]
+    ],
+    [
+      [
+        "Portage College",
+        [
+          "/wiki/Portage_College"
+        ]
+      ],
+      [
+        "Lac La Biche",
+        [
+          "/wiki/Lac_La_Biche,_Alberta"
+        ]
+      ],
+      [
+        1968,
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Red Deer College",
+        [
+          "/wiki/Red_Deer_College"
+        ]
+      ],
+      [
+        "Red Deer",
+        [
+          "/wiki/Red_Deer,_Alberta"
+        ]
+      ],
+      [
+        1964,
+        []
+      ],
+      [
+        "10,000",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "f6231b18-94d9-5425-9ce0-f9d2286ab7a7",
+    "table_id": "List_of_colleges_in_Alberta_0",
+    "title": "List of colleges in Alberta",
+    "header": [
+      "College",
+      "Location",
+      "Founded",
+      "Enrollment"
+    ],
+    "value": [
+      [
+        [
+          "Bow Valley College",
+          [
+            "/wiki/Bow_Valley_College"
+          ]
+        ],
+        [
+          "Calgary",
+          [
+            "/wiki/Calgary"
+          ]
+        ],
+        [
+          1964,
+          []
+        ],
+        [
+          "16,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Grande Prairie Regional College",
+          [
+            "/wiki/Grande_Prairie_Regional_College"
+          ]
+        ],
+        [
+          "Grande Prairie",
+          [
+            "/wiki/Grande_Prairie"
+          ]
+        ],
+        [
+          1966,
+          []
+        ],
+        [
+          "2,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Keyano College",
+          [
+            "/wiki/Keyano_College"
+          ]
+        ],
+        [
+          "Fort McMurray",
+          [
+            "/wiki/Fort_McMurray"
+          ]
+        ],
+        [
+          1965,
+          []
+        ],
+        [
+          "10,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Lakeland College",
+          [
+            "/wiki/Lakeland_College_(Alberta)"
+          ]
+        ],
+        [
+          "Vermilion",
+          [
+            "/wiki/Vermilion,_Alberta"
+          ]
+        ],
+        [
+          1913,
+          []
+        ],
+        [
+          "7,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Lethbridge College",
+          [
+            "/wiki/Lethbridge_College"
+          ]
+        ],
+        [
+          "Lethbridge",
+          [
+            "/wiki/Lethbridge"
+          ]
+        ],
+        [
+          1957,
+          []
+        ],
+        [
+          "7,200",
+          []
+        ]
+      ],
+      [
+        [
+          "Medicine Hat College",
+          [
+            "/wiki/Medicine_Hat_College"
+          ]
+        ],
+        [
+          "Medicine Hat",
+          [
+            "/wiki/Medicine_Hat"
+          ]
+        ],
+        [
+          1965,
+          []
+        ],
+        [
+          "2,700",
+          []
+        ]
+      ],
+      [
+        [
+          "NorQuest College",
+          [
+            "/wiki/NorQuest_College"
+          ]
+        ],
+        [
+          "Edmonton",
+          [
+            "/wiki/Edmonton"
+          ]
+        ],
+        [
+          1965,
+          []
+        ],
+        [
+          "10,800",
+          []
+        ]
+      ],
+      [
+        [
+          "Northern Lakes College",
+          [
+            "/wiki/Northern_Lakes_College"
+          ]
+        ],
+        [
+          "Grouard",
+          [
+            "/wiki/Grouard"
+          ]
+        ],
+        [
+          1999,
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Olds College",
+          [
+            "/wiki/Olds_College"
+          ]
+        ],
+        [
+          "Olds",
+          [
+            "/wiki/Olds,_Alberta"
+          ]
+        ],
+        [
+          1913,
+          []
+        ],
+        [
+          "1,288",
+          []
+        ]
+      ],
+      [
+        [
+          "Portage College",
+          [
+            "/wiki/Portage_College"
+          ]
+        ],
+        [
+          "Lac La Biche",
+          [
+            "/wiki/Lac_La_Biche,_Alberta"
+          ]
+        ],
+        [
+          1968,
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Red Deer College",
+          [
+            "/wiki/Red_Deer_College"
+          ]
+        ],
+        [
+          "Red Deer",
+          [
+            "/wiki/Red_Deer,_Alberta"
+          ]
+        ],
+        [
+          1964,
+          []
+        ],
+        [
+          "10,000",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a list of colleges in Alberta, including their names, locations, founding years, and enrollment figures. It serves as an overview of educational institutions in the region, highlighting key details about each college.",
+  "numeric_columns": [
+    "Founded",
+    "Enrollment"
+  ],
+  "categorical_columns": [
+    "Location"
+  ],
+  "entities": [
+    "College"
+  ]
+}

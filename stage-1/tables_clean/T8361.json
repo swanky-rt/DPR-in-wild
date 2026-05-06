@@ -1,0 +1,557 @@
+{
+  "table_id": "T8361",
+  "uid": "7af33d30-7c3d-5f46-b2d5-9d590b663e6a",
+  "source": "HybridQA",
+  "source_table_id": "7af33d30-7c3d-5f46-b2d5-9d590b663e6a",
+  "domain": "HybridQA",
+  "title": "NHL All-Star Skills Competition",
+  "columns": [
+    "Season",
+    "Player",
+    "Goals Against , Shots"
+  ],
+  "rows": [
+    [
+      [
+        1990,
+        [
+          "/wiki/1989–90_NHL_season"
+        ]
+      ],
+      [
+        "Kirk McLean",
+        [
+          "/wiki/Kirk_McLean"
+        ]
+      ],
+      [
+        "4 , 27",
+        []
+      ]
+    ],
+    [
+      [
+        1991,
+        [
+          "/wiki/1990–91_NHL_season"
+        ]
+      ],
+      [
+        "Patrick Roy",
+        [
+          "/wiki/Patrick_Roy"
+        ]
+      ],
+      [
+        "2 , 25",
+        []
+      ]
+    ],
+    [
+      [
+        1992,
+        [
+          "/wiki/1991–92_NHL_season"
+        ]
+      ],
+      [
+        "Mike Richter",
+        [
+          "/wiki/Mike_Richter"
+        ]
+      ],
+      [
+        "2 , 25",
+        []
+      ]
+    ],
+    [
+      [
+        1993,
+        [
+          "/wiki/1992–93_NHL_season"
+        ]
+      ],
+      [
+        "Jon Casey",
+        [
+          "/wiki/Jon_Casey"
+        ]
+      ],
+      [
+        "5 , 40",
+        []
+      ]
+    ],
+    [
+      [
+        1994,
+        [
+          "/wiki/1993–94_NHL_season"
+        ]
+      ],
+      [
+        "John Vanbiesbrouck Patrick Roy",
+        [
+          "/wiki/John_Vanbiesbrouck"
+        ]
+      ],
+      [
+        "4 , 16",
+        []
+      ]
+    ],
+    [
+      [
+        1996,
+        [
+          "/wiki/1995–96_NHL_season"
+        ]
+      ],
+      [
+        "Dominik Hasek",
+        [
+          "/wiki/Dominik_Hašek"
+        ]
+      ],
+      [
+        "4 , 16",
+        []
+      ]
+    ],
+    [
+      [
+        1997,
+        [
+          "/wiki/1996–97_NHL_season"
+        ]
+      ],
+      [
+        "John Vanbiesbrouck",
+        []
+      ],
+      [
+        "2 , 16",
+        []
+      ]
+    ],
+    [
+      [
+        1998,
+        [
+          "/wiki/1997–98_NHL_season"
+        ]
+      ],
+      [
+        "Dominik Hasek",
+        []
+      ],
+      [
+        "3 , 16",
+        []
+      ]
+    ],
+    [
+      [
+        1999,
+        [
+          "/wiki/1998–99_NHL_season"
+        ]
+      ],
+      [
+        "Arturs Irbe",
+        [
+          "/wiki/Artūrs_Irbe"
+        ]
+      ],
+      [
+        "2 , 16",
+        []
+      ]
+    ],
+    [
+      [
+        2000,
+        [
+          "/wiki/1999–2000_NHL_season"
+        ]
+      ],
+      [
+        "Mike Richter",
+        []
+      ],
+      [
+        "2 , 16",
+        []
+      ]
+    ],
+    [
+      [
+        2001,
+        [
+          "/wiki/2000–01_NHL_season"
+        ]
+      ],
+      [
+        "Sean Burke",
+        [
+          "/wiki/Sean_Burke"
+        ]
+      ],
+      [
+        "4 , 13",
+        []
+      ]
+    ],
+    [
+      [
+        2002,
+        [
+          "/wiki/2001–02_NHL_season"
+        ]
+      ],
+      [
+        "Dominik Hasek Patrick Roy",
+        []
+      ],
+      [
+        "1 , 9",
+        []
+      ]
+    ],
+    [
+      [
+        2003,
+        [
+          "/wiki/2002–03_NHL_season"
+        ]
+      ],
+      [
+        "Patrick Roy",
+        []
+      ],
+      [
+        "1 , 9",
+        []
+      ]
+    ],
+    [
+      [
+        2004,
+        [
+          "/wiki/2003–04_NHL_season"
+        ]
+      ],
+      [
+        "Roberto Luongo",
+        [
+          "/wiki/Roberto_Luongo"
+        ]
+      ],
+      [
+        "1 , 12",
+        []
+      ]
+    ],
+    [
+      [
+        2007,
+        [
+          "/wiki/2006–07_NHL_season"
+        ]
+      ],
+      [
+        "Roberto Luongo",
+        [
+          "/wiki/Roberto_Luongo"
+        ]
+      ],
+      [
+        "0 , 12",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "7af33d30-7c3d-5f46-b2d5-9d590b663e6a",
+    "table_id": "NHL_All-Star_Game_SuperSkills_Competition_14",
+    "title": "NHL All-Star Skills Competition",
+    "header": [
+      "Season",
+      "Player",
+      "Goals Against , Shots"
+    ],
+    "value": [
+      [
+        [
+          1990,
+          [
+            "/wiki/1989–90_NHL_season"
+          ]
+        ],
+        [
+          "Kirk McLean",
+          [
+            "/wiki/Kirk_McLean"
+          ]
+        ],
+        [
+          "4 , 27",
+          []
+        ]
+      ],
+      [
+        [
+          1991,
+          [
+            "/wiki/1990–91_NHL_season"
+          ]
+        ],
+        [
+          "Patrick Roy",
+          [
+            "/wiki/Patrick_Roy"
+          ]
+        ],
+        [
+          "2 , 25",
+          []
+        ]
+      ],
+      [
+        [
+          1992,
+          [
+            "/wiki/1991–92_NHL_season"
+          ]
+        ],
+        [
+          "Mike Richter",
+          [
+            "/wiki/Mike_Richter"
+          ]
+        ],
+        [
+          "2 , 25",
+          []
+        ]
+      ],
+      [
+        [
+          1993,
+          [
+            "/wiki/1992–93_NHL_season"
+          ]
+        ],
+        [
+          "Jon Casey",
+          [
+            "/wiki/Jon_Casey"
+          ]
+        ],
+        [
+          "5 , 40",
+          []
+        ]
+      ],
+      [
+        [
+          1994,
+          [
+            "/wiki/1993–94_NHL_season"
+          ]
+        ],
+        [
+          "John Vanbiesbrouck Patrick Roy",
+          [
+            "/wiki/John_Vanbiesbrouck"
+          ]
+        ],
+        [
+          "4 , 16",
+          []
+        ]
+      ],
+      [
+        [
+          1996,
+          [
+            "/wiki/1995–96_NHL_season"
+          ]
+        ],
+        [
+          "Dominik Hasek",
+          [
+            "/wiki/Dominik_Hašek"
+          ]
+        ],
+        [
+          "4 , 16",
+          []
+        ]
+      ],
+      [
+        [
+          1997,
+          [
+            "/wiki/1996–97_NHL_season"
+          ]
+        ],
+        [
+          "John Vanbiesbrouck",
+          []
+        ],
+        [
+          "2 , 16",
+          []
+        ]
+      ],
+      [
+        [
+          1998,
+          [
+            "/wiki/1997–98_NHL_season"
+          ]
+        ],
+        [
+          "Dominik Hasek",
+          []
+        ],
+        [
+          "3 , 16",
+          []
+        ]
+      ],
+      [
+        [
+          1999,
+          [
+            "/wiki/1998–99_NHL_season"
+          ]
+        ],
+        [
+          "Arturs Irbe",
+          [
+            "/wiki/Artūrs_Irbe"
+          ]
+        ],
+        [
+          "2 , 16",
+          []
+        ]
+      ],
+      [
+        [
+          2000,
+          [
+            "/wiki/1999–2000_NHL_season"
+          ]
+        ],
+        [
+          "Mike Richter",
+          []
+        ],
+        [
+          "2 , 16",
+          []
+        ]
+      ],
+      [
+        [
+          2001,
+          [
+            "/wiki/2000–01_NHL_season"
+          ]
+        ],
+        [
+          "Sean Burke",
+          [
+            "/wiki/Sean_Burke"
+          ]
+        ],
+        [
+          "4 , 13",
+          []
+        ]
+      ],
+      [
+        [
+          2002,
+          [
+            "/wiki/2001–02_NHL_season"
+          ]
+        ],
+        [
+          "Dominik Hasek Patrick Roy",
+          []
+        ],
+        [
+          "1 , 9",
+          []
+        ]
+      ],
+      [
+        [
+          2003,
+          [
+            "/wiki/2002–03_NHL_season"
+          ]
+        ],
+        [
+          "Patrick Roy",
+          []
+        ],
+        [
+          "1 , 9",
+          []
+        ]
+      ],
+      [
+        [
+          2004,
+          [
+            "/wiki/2003–04_NHL_season"
+          ]
+        ],
+        [
+          "Roberto Luongo",
+          [
+            "/wiki/Roberto_Luongo"
+          ]
+        ],
+        [
+          "1 , 12",
+          []
+        ]
+      ],
+      [
+        [
+          2007,
+          [
+            "/wiki/2006–07_NHL_season"
+          ]
+        ],
+        [
+          "Roberto Luongo",
+          [
+            "/wiki/Roberto_Luongo"
+          ]
+        ],
+        [
+          "0 , 12",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides data from the NHL All-Star Skills Competition, focusing on player performance during specific seasons. It includes information about the season, the participating players, and their performance metrics such as goals against and shots faced. The table is likely used for analyzing player statistics and comparing performances across different seasons.",
+  "numeric_columns": [
+    "Goals Against , Shots"
+  ],
+  "categorical_columns": [
+    "Season"
+  ],
+  "entities": [
+    "Player"
+  ]
+}

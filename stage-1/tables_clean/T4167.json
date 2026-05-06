@@ -1,0 +1,603 @@
+{
+  "table_id": "T4167",
+  "uid": "286ec328-39f4-50e9-813a-16987de142cd",
+  "source": "HybridQA",
+  "source_table_id": "286ec328-39f4-50e9-813a-16987de142cd",
+  "domain": "HybridQA",
+  "title": "List of WWE pay-per-view and WWE Network events",
+  "columns": [
+    "Rank",
+    "Wrestler",
+    "No . of PPV matches",
+    "First PPV match",
+    "Latest PPV match"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Kane",
+        [
+          "/wiki/Kane_(wrestler)"
+        ]
+      ],
+      [
+        174,
+        []
+      ],
+      [
+        "SummerSlam 1995",
+        [
+          "/wiki/SummerSlam_(1995)"
+        ]
+      ],
+      [
+        "Crown Jewel 2018",
+        [
+          "/wiki/Crown_Jewel_(2018)"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "The Undertaker",
+        [
+          "/wiki/The_Undertaker"
+        ]
+      ],
+      [
+        172,
+        []
+      ],
+      [
+        "Survivor Series 1990",
+        [
+          "/wiki/Survivor_Series_(1990)"
+        ]
+      ],
+      [
+        "Extreme Rules 2019",
+        [
+          "/wiki/Extreme_Rules_(2019)"
+        ]
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Triple H",
+        [
+          "/wiki/Triple_H"
+        ]
+      ],
+      [
+        170,
+        []
+      ],
+      [
+        "SummerSlam 1995",
+        [
+          "/wiki/SummerSlam_(1995)"
+        ]
+      ],
+      [
+        "Super ShowDown 2019",
+        [
+          "/wiki/Super_ShowDown_(2019)"
+        ]
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Randy Orton",
+        [
+          "/wiki/Randy_Orton"
+        ]
+      ],
+      [
+        162,
+        []
+      ],
+      [
+        "SummerSlam 2003",
+        [
+          "/wiki/SummerSlam_(2003)"
+        ]
+      ],
+      [
+        "Royal Rumble 2020",
+        [
+          "/wiki/Royal_Rumble_(2020)"
+        ]
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "John Cena",
+        [
+          "/wiki/John_Cena"
+        ]
+      ],
+      [
+        160,
+        []
+      ],
+      [
+        "Vengeance 2002",
+        [
+          "/wiki/Vengeance_(2002)"
+        ]
+      ],
+      [
+        "Super Show-Down 2018",
+        [
+          "/wiki/Super_Show-Down_(2018)"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Big Show",
+        [
+          "/wiki/Big_Show"
+        ]
+      ],
+      [
+        142,
+        []
+      ],
+      [
+        "WrestleMania XV",
+        [
+          "/wiki/WrestleMania_XV"
+        ]
+      ],
+      [
+        "SummerSlam 2017",
+        [
+          "/wiki/SummerSlam_(2017)"
+        ]
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Chris Jericho",
+        [
+          "/wiki/Chris_Jericho"
+        ]
+      ],
+      [
+        141,
+        []
+      ],
+      [
+        "Unforgiven 1999",
+        [
+          "/wiki/Unforgiven_(1999)"
+        ]
+      ],
+      [
+        "WWE Greatest Royal Rumble",
+        [
+          "/wiki/WWE_Greatest_Royal_Rumble"
+        ]
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Edge",
+        [
+          "/wiki/Edge_(wrestler)"
+        ]
+      ],
+      [
+        127,
+        []
+      ],
+      [
+        "SummerSlam 1998",
+        [
+          "/wiki/SummerSlam_(1998)"
+        ]
+      ],
+      [
+        "Royal Rumble 2020",
+        [
+          "/wiki/Royal_Rumble_(2020)"
+        ]
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Shawn Michaels",
+        [
+          "/wiki/Shawn_Michaels"
+        ]
+      ],
+      [
+        116,
+        []
+      ],
+      [
+        "Survivor Series 1988",
+        [
+          "/wiki/Survivor_Series_(1988)"
+        ]
+      ],
+      [
+        "Crown Jewel 2018",
+        [
+          "/wiki/Crown_Jewel_(2018)"
+        ]
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "The Miz",
+        [
+          "/wiki/The_Miz"
+        ]
+      ],
+      [
+        111,
+        []
+      ],
+      [
+        "Armageddon 2004",
+        [
+          "/wiki/Armageddon_(2004)"
+        ]
+      ],
+      [
+        "Royal Rumble 2020",
+        [
+          "/wiki/Royal_Rumble_(2020)"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "286ec328-39f4-50e9-813a-16987de142cd",
+    "table_id": "List_of_WWE_pay-per-view_events_0",
+    "title": "List of WWE pay-per-view and WWE Network events",
+    "header": [
+      "Rank",
+      "Wrestler",
+      "No . of PPV matches",
+      "First PPV match",
+      "Latest PPV match"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Kane",
+          [
+            "/wiki/Kane_(wrestler)"
+          ]
+        ],
+        [
+          174,
+          []
+        ],
+        [
+          "SummerSlam 1995",
+          [
+            "/wiki/SummerSlam_(1995)"
+          ]
+        ],
+        [
+          "Crown Jewel 2018",
+          [
+            "/wiki/Crown_Jewel_(2018)"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "The Undertaker",
+          [
+            "/wiki/The_Undertaker"
+          ]
+        ],
+        [
+          172,
+          []
+        ],
+        [
+          "Survivor Series 1990",
+          [
+            "/wiki/Survivor_Series_(1990)"
+          ]
+        ],
+        [
+          "Extreme Rules 2019",
+          [
+            "/wiki/Extreme_Rules_(2019)"
+          ]
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Triple H",
+          [
+            "/wiki/Triple_H"
+          ]
+        ],
+        [
+          170,
+          []
+        ],
+        [
+          "SummerSlam 1995",
+          [
+            "/wiki/SummerSlam_(1995)"
+          ]
+        ],
+        [
+          "Super ShowDown 2019",
+          [
+            "/wiki/Super_ShowDown_(2019)"
+          ]
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Randy Orton",
+          [
+            "/wiki/Randy_Orton"
+          ]
+        ],
+        [
+          162,
+          []
+        ],
+        [
+          "SummerSlam 2003",
+          [
+            "/wiki/SummerSlam_(2003)"
+          ]
+        ],
+        [
+          "Royal Rumble 2020",
+          [
+            "/wiki/Royal_Rumble_(2020)"
+          ]
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "John Cena",
+          [
+            "/wiki/John_Cena"
+          ]
+        ],
+        [
+          160,
+          []
+        ],
+        [
+          "Vengeance 2002",
+          [
+            "/wiki/Vengeance_(2002)"
+          ]
+        ],
+        [
+          "Super Show-Down 2018",
+          [
+            "/wiki/Super_Show-Down_(2018)"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Big Show",
+          [
+            "/wiki/Big_Show"
+          ]
+        ],
+        [
+          142,
+          []
+        ],
+        [
+          "WrestleMania XV",
+          [
+            "/wiki/WrestleMania_XV"
+          ]
+        ],
+        [
+          "SummerSlam 2017",
+          [
+            "/wiki/SummerSlam_(2017)"
+          ]
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Chris Jericho",
+          [
+            "/wiki/Chris_Jericho"
+          ]
+        ],
+        [
+          141,
+          []
+        ],
+        [
+          "Unforgiven 1999",
+          [
+            "/wiki/Unforgiven_(1999)"
+          ]
+        ],
+        [
+          "WWE Greatest Royal Rumble",
+          [
+            "/wiki/WWE_Greatest_Royal_Rumble"
+          ]
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Edge",
+          [
+            "/wiki/Edge_(wrestler)"
+          ]
+        ],
+        [
+          127,
+          []
+        ],
+        [
+          "SummerSlam 1998",
+          [
+            "/wiki/SummerSlam_(1998)"
+          ]
+        ],
+        [
+          "Royal Rumble 2020",
+          [
+            "/wiki/Royal_Rumble_(2020)"
+          ]
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Shawn Michaels",
+          [
+            "/wiki/Shawn_Michaels"
+          ]
+        ],
+        [
+          116,
+          []
+        ],
+        [
+          "Survivor Series 1988",
+          [
+            "/wiki/Survivor_Series_(1988)"
+          ]
+        ],
+        [
+          "Crown Jewel 2018",
+          [
+            "/wiki/Crown_Jewel_(2018)"
+          ]
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "The Miz",
+          [
+            "/wiki/The_Miz"
+          ]
+        ],
+        [
+          111,
+          []
+        ],
+        [
+          "Armageddon 2004",
+          [
+            "/wiki/Armageddon_(2004)"
+          ]
+        ],
+        [
+          "Royal Rumble 2020",
+          [
+            "/wiki/Royal_Rumble_(2020)"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about WWE pay-per-view and WWE Network events, focusing on wrestlers and their participation in these events. It includes rankings, the number of matches wrestled, and the timeline of their first and latest pay-per-view appearances. The table is useful for analyzing wrestler activity and event history within WWE programming.",
+  "numeric_columns": [
+    "No . of PPV matches"
+  ],
+  "categorical_columns": [
+    "Rank",
+    "First PPV match",
+    "Latest PPV match"
+  ],
+  "entities": [
+    "Wrestler"
+  ]
+}

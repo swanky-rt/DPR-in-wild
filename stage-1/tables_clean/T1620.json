@@ -1,0 +1,467 @@
+{
+  "table_id": "T1620",
+  "uid": "37d1b92a-1a53-5117-8029-7f6b3e637002",
+  "source": "HybridQA",
+  "source_table_id": "37d1b92a-1a53-5117-8029-7f6b3e637002",
+  "domain": "HybridQA",
+  "title": "2013 A Lyga",
+  "columns": [
+    "Club",
+    "Location",
+    "Stadium",
+    "2012 season"
+  ],
+  "rows": [
+    [
+      [
+        "FK Atlantas",
+        [
+          "/wiki/FK_Atlantas"
+        ]
+      ],
+      [
+        "Klaipėda",
+        [
+          "/wiki/Klaipėda"
+        ]
+      ],
+      [
+        "Žalgiris Stadium ( Klaipėda )",
+        [
+          "/wiki/Žalgiris_Stadium_(Klaipėda)"
+        ]
+      ],
+      [
+        "8th",
+        []
+      ]
+    ],
+    [
+      [
+        "FK Banga Gargždai",
+        [
+          "/wiki/FK_Banga_Gargždai"
+        ]
+      ],
+      [
+        "Gargždai",
+        [
+          "/wiki/Gargždai"
+        ]
+      ],
+      [
+        "Gargždai Stadium",
+        [
+          "/wiki/Gargždai_Stadium"
+        ]
+      ],
+      [
+        "6th",
+        []
+      ]
+    ],
+    [
+      [
+        "FK Dainava Alytus",
+        [
+          "/wiki/FK_Dainava_Alytus"
+        ]
+      ],
+      [
+        "Alytus",
+        [
+          "/wiki/Alytus"
+        ]
+      ],
+      [
+        "Alytus Stadium",
+        [
+          "/wiki/Alytus_Stadium"
+        ]
+      ],
+      [
+        "7th",
+        []
+      ]
+    ],
+    [
+      [
+        "FK Ekranas",
+        [
+          "/wiki/FK_Ekranas"
+        ]
+      ],
+      [
+        "Panevėžys",
+        [
+          "/wiki/Panevėžys"
+        ]
+      ],
+      [
+        "Aukštaitija Stadium",
+        [
+          "/wiki/Aukštaitija_Stadium"
+        ]
+      ],
+      [
+        "1st",
+        []
+      ]
+    ],
+    [
+      [
+        "FK Kruoja Pakruojis",
+        [
+          "/wiki/FK_Kruoja_Pakruojis"
+        ]
+      ],
+      [
+        "Pakruojis",
+        [
+          "/wiki/Pakruojis"
+        ]
+      ],
+      [
+        "Pakruojis Stadium",
+        [
+          "/wiki/Pakruojis_Stadium"
+        ]
+      ],
+      [
+        "4th",
+        []
+      ]
+    ],
+    [
+      [
+        "FK Sūduva Marijampolė",
+        [
+          "/wiki/FK_Sūduva_Marijampolė"
+        ]
+      ],
+      [
+        "Marijampolė",
+        [
+          "/wiki/Marijampolė"
+        ]
+      ],
+      [
+        "ARVI Football Arena",
+        [
+          "/wiki/ARVI_Football_Arena"
+        ]
+      ],
+      [
+        "3rd",
+        []
+      ]
+    ],
+    [
+      [
+        "FK Šiauliai",
+        [
+          "/wiki/FK_Šiauliai"
+        ]
+      ],
+      [
+        "Šiauliai",
+        [
+          "/wiki/Šiauliai"
+        ]
+      ],
+      [
+        "Savivaldybė Stadium",
+        [
+          "/wiki/Savivaldybė_Stadium"
+        ]
+      ],
+      [
+        "5th",
+        []
+      ]
+    ],
+    [
+      [
+        "FK Tauras Tauragė",
+        [
+          "/wiki/FK_Tauras_Tauragė"
+        ]
+      ],
+      [
+        "Tauragė",
+        [
+          "/wiki/Tauragė"
+        ]
+      ],
+      [
+        "Vytauto Stadium",
+        []
+      ],
+      [
+        "9th",
+        []
+      ]
+    ],
+    [
+      [
+        "VMFD Žalgiris Vilnius",
+        [
+          "/wiki/VMFD_Žalgiris_Vilnius"
+        ]
+      ],
+      [
+        "Vilnius",
+        [
+          "/wiki/Vilnius"
+        ]
+      ],
+      [
+        "LFF Stadium",
+        [
+          "/wiki/LFF_Stadium"
+        ]
+      ],
+      [
+        "2nd",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "37d1b92a-1a53-5117-8029-7f6b3e637002",
+    "table_id": "2013_A_Lyga_0",
+    "title": "2013 A Lyga",
+    "header": [
+      "Club",
+      "Location",
+      "Stadium",
+      "2012 season"
+    ],
+    "value": [
+      [
+        [
+          "FK Atlantas",
+          [
+            "/wiki/FK_Atlantas"
+          ]
+        ],
+        [
+          "Klaipėda",
+          [
+            "/wiki/Klaipėda"
+          ]
+        ],
+        [
+          "Žalgiris Stadium ( Klaipėda )",
+          [
+            "/wiki/Žalgiris_Stadium_(Klaipėda)"
+          ]
+        ],
+        [
+          "8th",
+          []
+        ]
+      ],
+      [
+        [
+          "FK Banga Gargždai",
+          [
+            "/wiki/FK_Banga_Gargždai"
+          ]
+        ],
+        [
+          "Gargždai",
+          [
+            "/wiki/Gargždai"
+          ]
+        ],
+        [
+          "Gargždai Stadium",
+          [
+            "/wiki/Gargždai_Stadium"
+          ]
+        ],
+        [
+          "6th",
+          []
+        ]
+      ],
+      [
+        [
+          "FK Dainava Alytus",
+          [
+            "/wiki/FK_Dainava_Alytus"
+          ]
+        ],
+        [
+          "Alytus",
+          [
+            "/wiki/Alytus"
+          ]
+        ],
+        [
+          "Alytus Stadium",
+          [
+            "/wiki/Alytus_Stadium"
+          ]
+        ],
+        [
+          "7th",
+          []
+        ]
+      ],
+      [
+        [
+          "FK Ekranas",
+          [
+            "/wiki/FK_Ekranas"
+          ]
+        ],
+        [
+          "Panevėžys",
+          [
+            "/wiki/Panevėžys"
+          ]
+        ],
+        [
+          "Aukštaitija Stadium",
+          [
+            "/wiki/Aukštaitija_Stadium"
+          ]
+        ],
+        [
+          "1st",
+          []
+        ]
+      ],
+      [
+        [
+          "FK Kruoja Pakruojis",
+          [
+            "/wiki/FK_Kruoja_Pakruojis"
+          ]
+        ],
+        [
+          "Pakruojis",
+          [
+            "/wiki/Pakruojis"
+          ]
+        ],
+        [
+          "Pakruojis Stadium",
+          [
+            "/wiki/Pakruojis_Stadium"
+          ]
+        ],
+        [
+          "4th",
+          []
+        ]
+      ],
+      [
+        [
+          "FK Sūduva Marijampolė",
+          [
+            "/wiki/FK_Sūduva_Marijampolė"
+          ]
+        ],
+        [
+          "Marijampolė",
+          [
+            "/wiki/Marijampolė"
+          ]
+        ],
+        [
+          "ARVI Football Arena",
+          [
+            "/wiki/ARVI_Football_Arena"
+          ]
+        ],
+        [
+          "3rd",
+          []
+        ]
+      ],
+      [
+        [
+          "FK Šiauliai",
+          [
+            "/wiki/FK_Šiauliai"
+          ]
+        ],
+        [
+          "Šiauliai",
+          [
+            "/wiki/Šiauliai"
+          ]
+        ],
+        [
+          "Savivaldybė Stadium",
+          [
+            "/wiki/Savivaldybė_Stadium"
+          ]
+        ],
+        [
+          "5th",
+          []
+        ]
+      ],
+      [
+        [
+          "FK Tauras Tauragė",
+          [
+            "/wiki/FK_Tauras_Tauragė"
+          ]
+        ],
+        [
+          "Tauragė",
+          [
+            "/wiki/Tauragė"
+          ]
+        ],
+        [
+          "Vytauto Stadium",
+          []
+        ],
+        [
+          "9th",
+          []
+        ]
+      ],
+      [
+        [
+          "VMFD Žalgiris Vilnius",
+          [
+            "/wiki/VMFD_Žalgiris_Vilnius"
+          ]
+        ],
+        [
+          "Vilnius",
+          [
+            "/wiki/Vilnius"
+          ]
+        ],
+        [
+          "LFF Stadium",
+          [
+            "/wiki/LFF_Stadium"
+          ]
+        ],
+        [
+          "2nd",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about football clubs participating in the 2013 A Lyga, a Lithuanian football league. It includes details about each club's location, stadium, and their performance in the 2012 season. The table serves as a reference for understanding the league's composition and infrastructure during that period.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "2012 season"
+  ],
+  "entities": [
+    "Club",
+    "Location",
+    "Stadium"
+  ]
+}

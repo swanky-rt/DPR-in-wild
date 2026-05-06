@@ -1,0 +1,516 @@
+{
+  "table_id": "T2689",
+  "uid": "aa887b6b-ce95-556a-91bf-0293a2ffeb40",
+  "source": "HybridQA",
+  "source_table_id": "aa887b6b-ce95-556a-91bf-0293a2ffeb40",
+  "domain": "HybridQA",
+  "title": "SSL 1300",
+  "columns": [
+    "Satellite",
+    "Operator",
+    "Detail",
+    "Failure Date"
+  ],
+  "rows": [
+    [
+      [
+        "Echostar 5",
+        [
+          "/wiki/Echostar_5"
+        ]
+      ],
+      [
+        "Echostar",
+        [
+          "/wiki/Echostar"
+        ]
+      ],
+      [
+        "Dual momentum wheel failures",
+        []
+      ],
+      [
+        "2001-07 and 2003-12",
+        []
+      ]
+    ],
+    [
+      [
+        "Echostar 6",
+        [
+          "/wiki/Echostar_6"
+        ]
+      ],
+      [
+        "Echostar",
+        [
+          "/wiki/Echostar"
+        ]
+      ],
+      [
+        "Partial thruster failure",
+        []
+      ],
+      [
+        2001,
+        []
+      ]
+    ],
+    [
+      [
+        "Telstar 14 / Estrela do Sul 1",
+        [
+          "/wiki/Estrela_do_Sul_1"
+        ]
+      ],
+      [
+        "Telesat",
+        [
+          "/wiki/Telesat"
+        ]
+      ],
+      [
+        "Solar panel deployment failure",
+        []
+      ],
+      [
+        "2004-01-11",
+        []
+      ]
+    ],
+    [
+      [
+        "Telstar 14R / Estrela do Sul 2",
+        [
+          "/wiki/Telstar_14R"
+        ]
+      ],
+      [
+        "Telesat",
+        [
+          "/wiki/Telesat"
+        ]
+      ],
+      [
+        "Solar panel deployment failure",
+        []
+      ],
+      [
+        "2011-05-20",
+        []
+      ]
+    ],
+    [
+      [
+        "GOES 9",
+        [
+          "/wiki/GOES_9"
+        ]
+      ],
+      [
+        "NOAA",
+        [
+          "/wiki/NOAA"
+        ]
+      ],
+      [
+        "Momentum wheel problems",
+        []
+      ],
+      [
+        "1998-06-01",
+        []
+      ]
+    ],
+    [
+      [
+        "PAS 6",
+        []
+      ],
+      [
+        "PanAmSat",
+        [
+          "/wiki/PanAmSat"
+        ]
+      ],
+      [
+        "Total power loss",
+        []
+      ],
+      [
+        "2004-03-17 and 2004-04-01",
+        []
+      ]
+    ],
+    [
+      [
+        "Intelsat 7",
+        [
+          "/wiki/Intelsat_7"
+        ]
+      ],
+      [
+        "Intelsat",
+        [
+          "/wiki/Intelsat"
+        ]
+      ],
+      [
+        "Partial power loss",
+        []
+      ],
+      [
+        "2001-09-06",
+        []
+      ]
+    ],
+    [
+      [
+        "Galaxy 26",
+        [
+          "/wiki/Galaxy_26"
+        ]
+      ],
+      [
+        "Intelsat",
+        [
+          "/wiki/Intelsat"
+        ]
+      ],
+      [
+        "Multiple system failures . Control processor failure",
+        []
+      ],
+      [
+        "2001 and 2008-06-28",
+        []
+      ]
+    ],
+    [
+      [
+        "Galaxy 27",
+        [
+          "/wiki/Galaxy_27"
+        ]
+      ],
+      [
+        "Intelsat",
+        [
+          "/wiki/Intelsat"
+        ]
+      ],
+      [
+        "Electrical failure",
+        []
+      ],
+      [
+        "2004-11-28",
+        []
+      ]
+    ],
+    [
+      [
+        "DirecTV 6",
+        []
+      ],
+      [
+        "DirecTV",
+        [
+          "/wiki/DirecTV"
+        ]
+      ],
+      [
+        "Solar flare damage",
+        []
+      ],
+      [
+        "1997-04",
+        []
+      ]
+    ],
+    [
+      [
+        "Intelsat 19",
+        [
+          "/wiki/Intelsat_19"
+        ]
+      ],
+      [
+        "Intelsat",
+        [
+          "/wiki/Intelsat"
+        ]
+      ],
+      [
+        "Solar panel deployment failure",
+        []
+      ],
+      [
+        "2012-06-01",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "aa887b6b-ce95-556a-91bf-0293a2ffeb40",
+    "table_id": "LS-1300_1",
+    "title": "SSL 1300",
+    "header": [
+      "Satellite",
+      "Operator",
+      "Detail",
+      "Failure Date"
+    ],
+    "value": [
+      [
+        [
+          "Echostar 5",
+          [
+            "/wiki/Echostar_5"
+          ]
+        ],
+        [
+          "Echostar",
+          [
+            "/wiki/Echostar"
+          ]
+        ],
+        [
+          "Dual momentum wheel failures",
+          []
+        ],
+        [
+          "2001-07 and 2003-12",
+          []
+        ]
+      ],
+      [
+        [
+          "Echostar 6",
+          [
+            "/wiki/Echostar_6"
+          ]
+        ],
+        [
+          "Echostar",
+          [
+            "/wiki/Echostar"
+          ]
+        ],
+        [
+          "Partial thruster failure",
+          []
+        ],
+        [
+          2001,
+          []
+        ]
+      ],
+      [
+        [
+          "Telstar 14 / Estrela do Sul 1",
+          [
+            "/wiki/Estrela_do_Sul_1"
+          ]
+        ],
+        [
+          "Telesat",
+          [
+            "/wiki/Telesat"
+          ]
+        ],
+        [
+          "Solar panel deployment failure",
+          []
+        ],
+        [
+          "2004-01-11",
+          []
+        ]
+      ],
+      [
+        [
+          "Telstar 14R / Estrela do Sul 2",
+          [
+            "/wiki/Telstar_14R"
+          ]
+        ],
+        [
+          "Telesat",
+          [
+            "/wiki/Telesat"
+          ]
+        ],
+        [
+          "Solar panel deployment failure",
+          []
+        ],
+        [
+          "2011-05-20",
+          []
+        ]
+      ],
+      [
+        [
+          "GOES 9",
+          [
+            "/wiki/GOES_9"
+          ]
+        ],
+        [
+          "NOAA",
+          [
+            "/wiki/NOAA"
+          ]
+        ],
+        [
+          "Momentum wheel problems",
+          []
+        ],
+        [
+          "1998-06-01",
+          []
+        ]
+      ],
+      [
+        [
+          "PAS 6",
+          []
+        ],
+        [
+          "PanAmSat",
+          [
+            "/wiki/PanAmSat"
+          ]
+        ],
+        [
+          "Total power loss",
+          []
+        ],
+        [
+          "2004-03-17 and 2004-04-01",
+          []
+        ]
+      ],
+      [
+        [
+          "Intelsat 7",
+          [
+            "/wiki/Intelsat_7"
+          ]
+        ],
+        [
+          "Intelsat",
+          [
+            "/wiki/Intelsat"
+          ]
+        ],
+        [
+          "Partial power loss",
+          []
+        ],
+        [
+          "2001-09-06",
+          []
+        ]
+      ],
+      [
+        [
+          "Galaxy 26",
+          [
+            "/wiki/Galaxy_26"
+          ]
+        ],
+        [
+          "Intelsat",
+          [
+            "/wiki/Intelsat"
+          ]
+        ],
+        [
+          "Multiple system failures . Control processor failure",
+          []
+        ],
+        [
+          "2001 and 2008-06-28",
+          []
+        ]
+      ],
+      [
+        [
+          "Galaxy 27",
+          [
+            "/wiki/Galaxy_27"
+          ]
+        ],
+        [
+          "Intelsat",
+          [
+            "/wiki/Intelsat"
+          ]
+        ],
+        [
+          "Electrical failure",
+          []
+        ],
+        [
+          "2004-11-28",
+          []
+        ]
+      ],
+      [
+        [
+          "DirecTV 6",
+          []
+        ],
+        [
+          "DirecTV",
+          [
+            "/wiki/DirecTV"
+          ]
+        ],
+        [
+          "Solar flare damage",
+          []
+        ],
+        [
+          "1997-04",
+          []
+        ]
+      ],
+      [
+        [
+          "Intelsat 19",
+          [
+            "/wiki/Intelsat_19"
+          ]
+        ],
+        [
+          "Intelsat",
+          [
+            "/wiki/Intelsat"
+          ]
+        ],
+        [
+          "Solar panel deployment failure",
+          []
+        ],
+        [
+          "2012-06-01",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about satellites based on the SSL 1300 platform, detailing their operators, specific technical issues or failures, and the dates of those failures. It is intended to summarize operational challenges and historical data related to these satellites within the HybridQA domain.",
+  "numeric_columns": [
+    "Failure Date"
+  ],
+  "categorical_columns": [
+    "Detail"
+  ],
+  "entities": [
+    "Satellite",
+    "Operator"
+  ]
+}

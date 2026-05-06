@@ -1,0 +1,293 @@
+{
+  "table_id": "T4840",
+  "uid": "cc1699bb-2511-5cbf-9d50-2e06bbe23673",
+  "source": "HybridQA",
+  "source_table_id": "cc1699bb-2511-5cbf-9d50-2e06bbe23673",
+  "domain": "HybridQA",
+  "title": "John Goodman",
+  "columns": [
+    "Year",
+    "Title",
+    "Role"
+  ],
+  "rows": [
+    [
+      [
+        1994,
+        []
+      ],
+      [
+        "The Flintstones ( pinball )",
+        [
+          "/wiki/The_Flintstones_(pinball)"
+        ]
+      ],
+      [
+        "Fred Flintstone",
+        []
+      ]
+    ],
+    [
+      [
+        1996,
+        []
+      ],
+      [
+        "Pyst",
+        [
+          "/wiki/Pyst"
+        ]
+      ],
+      [
+        "King Mattruss",
+        []
+      ]
+    ],
+    [
+      [
+        2002,
+        []
+      ],
+      [
+        "Monsters , Inc . Scream Arena",
+        [
+          "/wiki/Monsters,_Inc._Scream_Arena"
+        ]
+      ],
+      [
+        "James P. Sulley Sullivan",
+        []
+      ]
+    ],
+    [
+      [
+        2007,
+        []
+      ],
+      [
+        "Bee Movie Game",
+        [
+          "/wiki/Bee_Movie_Game"
+        ]
+      ],
+      [
+        "Layton T. Montgomery",
+        []
+      ]
+    ],
+    [
+      [
+        2007,
+        []
+      ],
+      [
+        "Cars Mater-National Championship",
+        [
+          "/wiki/Cars_Mater-National_Championship"
+        ]
+      ],
+      [
+        "James P. Sulley Sullivan Truck",
+        []
+      ]
+    ],
+    [
+      [
+        2009,
+        []
+      ],
+      [
+        "Cars Race-O-Rama",
+        [
+          "/wiki/Cars_Race-O-Rama"
+        ]
+      ],
+      [
+        "James P. Sulley Sullivan Truck",
+        []
+      ]
+    ],
+    [
+      [
+        2011,
+        []
+      ],
+      [
+        "Rage",
+        [
+          "/wiki/Rage_(video_game)"
+        ]
+      ],
+      [
+        "Dan Hagar",
+        []
+      ]
+    ],
+    [
+      [
+        2018,
+        []
+      ],
+      [
+        "Lego The Incredibles",
+        [
+          "/wiki/Lego_The_Incredibles"
+        ]
+      ],
+      [
+        "James P. Sulley Sullivan",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "cc1699bb-2511-5cbf-9d50-2e06bbe23673",
+    "table_id": "John_Goodman_2",
+    "title": "John Goodman",
+    "header": [
+      "Year",
+      "Title",
+      "Role"
+    ],
+    "value": [
+      [
+        [
+          1994,
+          []
+        ],
+        [
+          "The Flintstones ( pinball )",
+          [
+            "/wiki/The_Flintstones_(pinball)"
+          ]
+        ],
+        [
+          "Fred Flintstone",
+          []
+        ]
+      ],
+      [
+        [
+          1996,
+          []
+        ],
+        [
+          "Pyst",
+          [
+            "/wiki/Pyst"
+          ]
+        ],
+        [
+          "King Mattruss",
+          []
+        ]
+      ],
+      [
+        [
+          2002,
+          []
+        ],
+        [
+          "Monsters , Inc . Scream Arena",
+          [
+            "/wiki/Monsters,_Inc._Scream_Arena"
+          ]
+        ],
+        [
+          "James P. Sulley Sullivan",
+          []
+        ]
+      ],
+      [
+        [
+          2007,
+          []
+        ],
+        [
+          "Bee Movie Game",
+          [
+            "/wiki/Bee_Movie_Game"
+          ]
+        ],
+        [
+          "Layton T. Montgomery",
+          []
+        ]
+      ],
+      [
+        [
+          2007,
+          []
+        ],
+        [
+          "Cars Mater-National Championship",
+          [
+            "/wiki/Cars_Mater-National_Championship"
+          ]
+        ],
+        [
+          "James P. Sulley Sullivan Truck",
+          []
+        ]
+      ],
+      [
+        [
+          2009,
+          []
+        ],
+        [
+          "Cars Race-O-Rama",
+          [
+            "/wiki/Cars_Race-O-Rama"
+          ]
+        ],
+        [
+          "James P. Sulley Sullivan Truck",
+          []
+        ]
+      ],
+      [
+        [
+          2011,
+          []
+        ],
+        [
+          "Rage",
+          [
+            "/wiki/Rage_(video_game)"
+          ]
+        ],
+        [
+          "Dan Hagar",
+          []
+        ]
+      ],
+      [
+        [
+          2018,
+          []
+        ],
+        [
+          "Lego The Incredibles",
+          [
+            "/wiki/Lego_The_Incredibles"
+          ]
+        ],
+        [
+          "James P. Sulley Sullivan",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of roles played by an individual in various productions, including the year of release and the title of the work. It is designed to catalog contributions in the entertainment industry, highlighting the connection between roles and their respective projects. The table is structured to facilitate understanding of the timeline and scope of the person's career.",
+  "numeric_columns": [
+    "Year"
+  ],
+  "categorical_columns": [
+    "Role"
+  ],
+  "entities": [
+    "Title"
+  ]
+}

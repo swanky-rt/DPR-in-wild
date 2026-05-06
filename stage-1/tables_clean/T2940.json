@@ -1,0 +1,472 @@
+{
+  "table_id": "T2940",
+  "uid": "404a3162-bc8c-596c-bfe6-6c6abf6e78e0",
+  "source": "HybridQA",
+  "source_table_id": "404a3162-bc8c-596c-bfe6-6c6abf6e78e0",
+  "domain": "HybridQA",
+  "title": "List of number-one singles of 2003 (France)",
+  "columns": [
+    "Pos",
+    "Artist",
+    "Title",
+    "Sales*"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Norah Jones",
+        [
+          "/wiki/Norah_Jones"
+        ]
+      ],
+      [
+        "Come Away with Me",
+        [
+          "/wiki/Come_Away_with_Me"
+        ]
+      ],
+      [
+        "1,776,000",
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Florent Pagny",
+        [
+          "/wiki/Florent_Pagny"
+        ]
+      ],
+      [
+        "Ailleurs land",
+        [
+          "/wiki/Ailleurs_land"
+        ]
+      ],
+      [
+        "975,300",
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Carla Bruni",
+        [
+          "/wiki/Carla_Bruni"
+        ]
+      ],
+      [
+        "Quelqu'un m ' a dit",
+        [
+          "/wiki/Quelqu'un_m'a_dit"
+        ]
+      ],
+      [
+        "1,039,400",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Kyo",
+        [
+          "/wiki/Kyo_(band)"
+        ]
+      ],
+      [
+        "Le Chemin",
+        [
+          "/wiki/Le_chemin_(Kyo_album)"
+        ]
+      ],
+      [
+        "1,365,700",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Céline Dion",
+        [
+          "/wiki/Céline_Dion"
+        ]
+      ],
+      [
+        "1 fille & 4 types",
+        [
+          "/wiki/1_fille_&_4_types"
+        ]
+      ],
+      [
+        "588,000",
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Les Enfoirés",
+        [
+          "/wiki/Les_Enfoirés"
+        ]
+      ],
+      [
+        "La Foire aux Enfoirés",
+        []
+      ],
+      [
+        "460,500",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Dido",
+        [
+          "/wiki/Dido_(singer)"
+        ]
+      ],
+      [
+        "Life for Rent",
+        []
+      ],
+      [
+        "622,400",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Calogero",
+        [
+          "/wiki/Calogero_(singer)"
+        ]
+      ],
+      [
+        "Calogero",
+        [
+          "/wiki/Calogero_(album)"
+        ]
+      ],
+      [
+        "959,300",
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Hélène Ségara",
+        [
+          "/wiki/Hélène_Ségara"
+        ]
+      ],
+      [
+        "Humaine",
+        [
+          "/wiki/Humaine"
+        ]
+      ],
+      [
+        "436,800",
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Evanescence",
+        [
+          "/wiki/Evanescence"
+        ]
+      ],
+      [
+        "Fallen",
+        [
+          "/wiki/Fallen_(Evanescence_album)"
+        ]
+      ],
+      [
+        "657,700",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "404a3162-bc8c-596c-bfe6-6c6abf6e78e0",
+    "table_id": "List_of_number-one_hits_of_2003_(France)_1",
+    "title": "List of number-one singles of 2003 (France)",
+    "header": [
+      "Pos",
+      "Artist",
+      "Title",
+      "Sales*"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Norah Jones",
+          [
+            "/wiki/Norah_Jones"
+          ]
+        ],
+        [
+          "Come Away with Me",
+          [
+            "/wiki/Come_Away_with_Me"
+          ]
+        ],
+        [
+          "1,776,000",
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Florent Pagny",
+          [
+            "/wiki/Florent_Pagny"
+          ]
+        ],
+        [
+          "Ailleurs land",
+          [
+            "/wiki/Ailleurs_land"
+          ]
+        ],
+        [
+          "975,300",
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Carla Bruni",
+          [
+            "/wiki/Carla_Bruni"
+          ]
+        ],
+        [
+          "Quelqu'un m ' a dit",
+          [
+            "/wiki/Quelqu'un_m'a_dit"
+          ]
+        ],
+        [
+          "1,039,400",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Kyo",
+          [
+            "/wiki/Kyo_(band)"
+          ]
+        ],
+        [
+          "Le Chemin",
+          [
+            "/wiki/Le_chemin_(Kyo_album)"
+          ]
+        ],
+        [
+          "1,365,700",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Céline Dion",
+          [
+            "/wiki/Céline_Dion"
+          ]
+        ],
+        [
+          "1 fille & 4 types",
+          [
+            "/wiki/1_fille_&_4_types"
+          ]
+        ],
+        [
+          "588,000",
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Les Enfoirés",
+          [
+            "/wiki/Les_Enfoirés"
+          ]
+        ],
+        [
+          "La Foire aux Enfoirés",
+          []
+        ],
+        [
+          "460,500",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Dido",
+          [
+            "/wiki/Dido_(singer)"
+          ]
+        ],
+        [
+          "Life for Rent",
+          []
+        ],
+        [
+          "622,400",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Calogero",
+          [
+            "/wiki/Calogero_(singer)"
+          ]
+        ],
+        [
+          "Calogero",
+          [
+            "/wiki/Calogero_(album)"
+          ]
+        ],
+        [
+          "959,300",
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Hélène Ségara",
+          [
+            "/wiki/Hélène_Ségara"
+          ]
+        ],
+        [
+          "Humaine",
+          [
+            "/wiki/Humaine"
+          ]
+        ],
+        [
+          "436,800",
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Evanescence",
+          [
+            "/wiki/Evanescence"
+          ]
+        ],
+        [
+          "Fallen",
+          [
+            "/wiki/Fallen_(Evanescence_album)"
+          ]
+        ],
+        [
+          "657,700",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table lists the number-one singles in France for the year 2003, including information about their ranking, the artist, the title of the single, and its sales figures. It provides a snapshot of popular music trends and commercial success during that year. The table is likely used for historical reference or analysis of music chart performance.",
+  "numeric_columns": [
+    "Sales*"
+  ],
+  "categorical_columns": [
+    "Pos",
+    "Title"
+  ],
+  "entities": [
+    "Artist"
+  ]
+}

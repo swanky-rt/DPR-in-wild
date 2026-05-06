@@ -1,0 +1,392 @@
+{
+  "table_id": "T3086",
+  "uid": "39b128da-2d70-57c7-b1d3-6a59328fa361",
+  "source": "HybridQA",
+  "source_table_id": "39b128da-2d70-57c7-b1d3-6a59328fa361",
+  "domain": "HybridQA",
+  "title": "2010 ITU Triathlon World Cup",
+  "columns": [
+    "Date",
+    "City",
+    "County",
+    "Prize purse ( US $ )"
+  ],
+  "rows": [
+    [
+      [
+        "Mar 27 - 28",
+        []
+      ],
+      [
+        "Mooloolaba",
+        [
+          "/wiki/Mooloolaba"
+        ]
+      ],
+      [
+        "Australia",
+        [
+          "/wiki/Australia"
+        ]
+      ],
+      [
+        "50,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Apr 18",
+        []
+      ],
+      [
+        "Monterrey",
+        [
+          "/wiki/Monterrey"
+        ]
+      ],
+      [
+        "Mexico",
+        [
+          "/wiki/Mexico"
+        ]
+      ],
+      [
+        "50,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Apr 25",
+        []
+      ],
+      [
+        "Ishigaki",
+        [
+          "/wiki/Ishigaki,_Okinawa"
+        ]
+      ],
+      [
+        "Japan",
+        [
+          "/wiki/Japan"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Jun 13",
+        []
+      ],
+      [
+        "Des Moines",
+        [
+          "/wiki/Des_Moines"
+        ]
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "1,000,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Jul 10",
+        []
+      ],
+      [
+        "Holten",
+        [
+          "/wiki/Holten"
+        ]
+      ],
+      [
+        "Netherlands",
+        [
+          "/wiki/Netherlands"
+        ]
+      ],
+      [
+        "50,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Aug 8",
+        []
+      ],
+      [
+        "Tiszaújváros",
+        [
+          "/wiki/Tiszaújváros"
+        ]
+      ],
+      [
+        "Hungary",
+        [
+          "/wiki/Hungary"
+        ]
+      ],
+      [
+        "50,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Oct 10",
+        []
+      ],
+      [
+        "Huatulco",
+        [
+          "/wiki/Huatulco"
+        ]
+      ],
+      [
+        "Mexico",
+        [
+          "/wiki/Mexico"
+        ]
+      ],
+      [
+        "50,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Oct 16",
+        []
+      ],
+      [
+        "Tongyeong",
+        [
+          "/wiki/Tongyeong"
+        ]
+      ],
+      [
+        "South Korea",
+        [
+          "/wiki/South_Korea"
+        ]
+      ],
+      [
+        "50,000",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "39b128da-2d70-57c7-b1d3-6a59328fa361",
+    "table_id": "2010_ITU_Triathlon_World_Cup_0",
+    "title": "2010 ITU Triathlon World Cup",
+    "header": [
+      "Date",
+      "City",
+      "County",
+      "Prize purse ( US $ )"
+    ],
+    "value": [
+      [
+        [
+          "Mar 27 - 28",
+          []
+        ],
+        [
+          "Mooloolaba",
+          [
+            "/wiki/Mooloolaba"
+          ]
+        ],
+        [
+          "Australia",
+          [
+            "/wiki/Australia"
+          ]
+        ],
+        [
+          "50,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Apr 18",
+          []
+        ],
+        [
+          "Monterrey",
+          [
+            "/wiki/Monterrey"
+          ]
+        ],
+        [
+          "Mexico",
+          [
+            "/wiki/Mexico"
+          ]
+        ],
+        [
+          "50,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Apr 25",
+          []
+        ],
+        [
+          "Ishigaki",
+          [
+            "/wiki/Ishigaki,_Okinawa"
+          ]
+        ],
+        [
+          "Japan",
+          [
+            "/wiki/Japan"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Jun 13",
+          []
+        ],
+        [
+          "Des Moines",
+          [
+            "/wiki/Des_Moines"
+          ]
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "1,000,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Jul 10",
+          []
+        ],
+        [
+          "Holten",
+          [
+            "/wiki/Holten"
+          ]
+        ],
+        [
+          "Netherlands",
+          [
+            "/wiki/Netherlands"
+          ]
+        ],
+        [
+          "50,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Aug 8",
+          []
+        ],
+        [
+          "Tiszaújváros",
+          [
+            "/wiki/Tiszaújváros"
+          ]
+        ],
+        [
+          "Hungary",
+          [
+            "/wiki/Hungary"
+          ]
+        ],
+        [
+          "50,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Oct 10",
+          []
+        ],
+        [
+          "Huatulco",
+          [
+            "/wiki/Huatulco"
+          ]
+        ],
+        [
+          "Mexico",
+          [
+            "/wiki/Mexico"
+          ]
+        ],
+        [
+          "50,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Oct 16",
+          []
+        ],
+        [
+          "Tongyeong",
+          [
+            "/wiki/Tongyeong"
+          ]
+        ],
+        [
+          "South Korea",
+          [
+            "/wiki/South_Korea"
+          ]
+        ],
+        [
+          "50,000",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of the 2010 ITU Triathlon World Cup events, including details about the dates, locations, and prize purses for each event. It is intended to summarize key information about the competition's schedule and financial aspects.",
+  "numeric_columns": [
+    "Prize purse ( US $ )"
+  ],
+  "categorical_columns": [
+    "Date"
+  ],
+  "entities": [
+    "City",
+    "County"
+  ]
+}

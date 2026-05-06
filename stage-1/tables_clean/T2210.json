@@ -1,0 +1,431 @@
+{
+  "table_id": "T2210",
+  "uid": "2268ef2c-cb6a-51d1-bbcc-577eb8e020c1",
+  "source": "HybridQA",
+  "source_table_id": "2268ef2c-cb6a-51d1-bbcc-577eb8e020c1",
+  "domain": "HybridQA",
+  "title": "2013 Canadian Soccer League season",
+  "columns": [
+    "Team",
+    "City",
+    "Stadium",
+    "Manager"
+  ],
+  "rows": [
+    [
+      [
+        "Brampton City United B",
+        []
+      ],
+      [
+        "Brampton , Ontario",
+        [
+          "/wiki/Brampton,_Ontario"
+        ]
+      ],
+      [
+        "Victoria Park Stadium",
+        [
+          "/wiki/Victoria_Park_Stadium"
+        ]
+      ],
+      [
+        "Juan Barreto",
+        []
+      ]
+    ],
+    [
+      [
+        "Kingston FC B",
+        []
+      ],
+      [
+        "Kingston , Ontario",
+        [
+          "/wiki/Kingston,_Ontario"
+        ]
+      ],
+      [
+        "CaraCo Home Field Invista Centre",
+        []
+      ],
+      [
+        "Gabriel Cassis",
+        []
+      ]
+    ],
+    [
+      [
+        "London City B",
+        []
+      ],
+      [
+        "London , Ontario",
+        [
+          "/wiki/London,_Ontario"
+        ]
+      ],
+      [
+        "Cove Road Stadium",
+        [
+          "/wiki/Cove_Road_Stadium"
+        ]
+      ],
+      [
+        "Jasmin Halkic",
+        []
+      ]
+    ],
+    [
+      [
+        "Niagara United B",
+        []
+      ],
+      [
+        "Niagara , Ontario",
+        [
+          "/wiki/Niagara,_Ontario"
+        ]
+      ],
+      [
+        "Kalar Sports Park",
+        [
+          "/wiki/Kalar_Sports_Park"
+        ]
+      ],
+      [
+        "James McGillivray",
+        []
+      ]
+    ],
+    [
+      [
+        "SC Waterloo B",
+        []
+      ],
+      [
+        "Waterloo , Ontario",
+        [
+          "/wiki/Waterloo,_Ontario"
+        ]
+      ],
+      [
+        "Seagram Stadium",
+        [
+          "/wiki/Seagram_Stadium"
+        ]
+      ],
+      [
+        "Lazo Dzepina",
+        [
+          "/wiki/Lazo_Dzepina"
+        ]
+      ]
+    ],
+    [
+      [
+        "Serbian White Eagles B",
+        []
+      ],
+      [
+        "Toronto , Ontario",
+        [
+          "/wiki/Toronto"
+        ]
+      ],
+      [
+        "Centennial Park Stadium",
+        [
+          "/wiki/Centennial_Park_Stadium"
+        ]
+      ],
+      [
+        "Sasa Vukovic",
+        []
+      ]
+    ],
+    [
+      [
+        "St. Catharines Wolves B",
+        []
+      ],
+      [
+        "St. Catharines , Ontario",
+        [
+          "/wiki/St._Catharines,_Ontario"
+        ]
+      ],
+      [
+        "Club Roma Stadium",
+        []
+      ],
+      [
+        "Chris Kijak",
+        []
+      ]
+    ],
+    [
+      [
+        "Toronto Croatia B",
+        []
+      ],
+      [
+        "Toronto , Ontario",
+        [
+          "/wiki/Toronto"
+        ]
+      ],
+      [
+        "Centennial Park Stadium",
+        [
+          "/wiki/Centennial_Park_Stadium"
+        ]
+      ],
+      [
+        "George Jenkins",
+        []
+      ]
+    ],
+    [
+      [
+        "York Region Shooters B",
+        []
+      ],
+      [
+        "Vaughan , Ontario",
+        [
+          "/wiki/Vaughan,_Ontario"
+        ]
+      ],
+      [
+        "St. Joan Of Arc Turf Field",
+        [
+          "/wiki/St._Joan_of_Arc_Catholic_High_School"
+        ]
+      ],
+      [
+        "Sam Medeiros",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "2268ef2c-cb6a-51d1-bbcc-577eb8e020c1",
+    "table_id": "2013_Canadian_Soccer_League_season_1",
+    "title": "2013 Canadian Soccer League season",
+    "header": [
+      "Team",
+      "City",
+      "Stadium",
+      "Manager"
+    ],
+    "value": [
+      [
+        [
+          "Brampton City United B",
+          []
+        ],
+        [
+          "Brampton , Ontario",
+          [
+            "/wiki/Brampton,_Ontario"
+          ]
+        ],
+        [
+          "Victoria Park Stadium",
+          [
+            "/wiki/Victoria_Park_Stadium"
+          ]
+        ],
+        [
+          "Juan Barreto",
+          []
+        ]
+      ],
+      [
+        [
+          "Kingston FC B",
+          []
+        ],
+        [
+          "Kingston , Ontario",
+          [
+            "/wiki/Kingston,_Ontario"
+          ]
+        ],
+        [
+          "CaraCo Home Field Invista Centre",
+          []
+        ],
+        [
+          "Gabriel Cassis",
+          []
+        ]
+      ],
+      [
+        [
+          "London City B",
+          []
+        ],
+        [
+          "London , Ontario",
+          [
+            "/wiki/London,_Ontario"
+          ]
+        ],
+        [
+          "Cove Road Stadium",
+          [
+            "/wiki/Cove_Road_Stadium"
+          ]
+        ],
+        [
+          "Jasmin Halkic",
+          []
+        ]
+      ],
+      [
+        [
+          "Niagara United B",
+          []
+        ],
+        [
+          "Niagara , Ontario",
+          [
+            "/wiki/Niagara,_Ontario"
+          ]
+        ],
+        [
+          "Kalar Sports Park",
+          [
+            "/wiki/Kalar_Sports_Park"
+          ]
+        ],
+        [
+          "James McGillivray",
+          []
+        ]
+      ],
+      [
+        [
+          "SC Waterloo B",
+          []
+        ],
+        [
+          "Waterloo , Ontario",
+          [
+            "/wiki/Waterloo,_Ontario"
+          ]
+        ],
+        [
+          "Seagram Stadium",
+          [
+            "/wiki/Seagram_Stadium"
+          ]
+        ],
+        [
+          "Lazo Dzepina",
+          [
+            "/wiki/Lazo_Dzepina"
+          ]
+        ]
+      ],
+      [
+        [
+          "Serbian White Eagles B",
+          []
+        ],
+        [
+          "Toronto , Ontario",
+          [
+            "/wiki/Toronto"
+          ]
+        ],
+        [
+          "Centennial Park Stadium",
+          [
+            "/wiki/Centennial_Park_Stadium"
+          ]
+        ],
+        [
+          "Sasa Vukovic",
+          []
+        ]
+      ],
+      [
+        [
+          "St. Catharines Wolves B",
+          []
+        ],
+        [
+          "St. Catharines , Ontario",
+          [
+            "/wiki/St._Catharines,_Ontario"
+          ]
+        ],
+        [
+          "Club Roma Stadium",
+          []
+        ],
+        [
+          "Chris Kijak",
+          []
+        ]
+      ],
+      [
+        [
+          "Toronto Croatia B",
+          []
+        ],
+        [
+          "Toronto , Ontario",
+          [
+            "/wiki/Toronto"
+          ]
+        ],
+        [
+          "Centennial Park Stadium",
+          [
+            "/wiki/Centennial_Park_Stadium"
+          ]
+        ],
+        [
+          "George Jenkins",
+          []
+        ]
+      ],
+      [
+        [
+          "York Region Shooters B",
+          []
+        ],
+        [
+          "Vaughan , Ontario",
+          [
+            "/wiki/Vaughan,_Ontario"
+          ]
+        ],
+        [
+          "St. Joan Of Arc Turf Field",
+          [
+            "/wiki/St._Joan_of_Arc_Catholic_High_School"
+          ]
+        ],
+        [
+          "Sam Medeiros",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about teams participating in the 2013 Canadian Soccer League season. It includes details such as the team names, their associated cities, the stadiums they play in, and the managers leading them. The table is likely intended to summarize key organizational and locational aspects of the league's teams.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Team",
+    "City",
+    "Stadium"
+  ],
+  "entities": [
+    "Manager"
+  ]
+}

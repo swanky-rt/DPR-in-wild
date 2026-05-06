@@ -1,0 +1,468 @@
+{
+  "table_id": "T7135",
+  "uid": "3d569505-0a4d-55a6-9c35-cb817de9ce56",
+  "source": "HybridQA",
+  "source_table_id": "3d569505-0a4d-55a6-9c35-cb817de9ce56",
+  "domain": "HybridQA",
+  "title": "Indian Idol",
+  "columns": [
+    "Name",
+    "Hometown",
+    "Elimination"
+  ],
+  "rows": [
+    [
+      [
+        "Prashant Tamang",
+        [
+          "/wiki/Prashant_Tamang"
+        ]
+      ],
+      [
+        "Darjeeling",
+        [
+          "/wiki/Darjeeling"
+        ]
+      ],
+      [
+        "Winner",
+        []
+      ]
+    ],
+    [
+      [
+        "Amit Paul",
+        [
+          "/wiki/Amit_Paul"
+        ]
+      ],
+      [
+        "Shillong",
+        [
+          "/wiki/Shillong"
+        ]
+      ],
+      [
+        "1st Runner-up",
+        []
+      ]
+    ],
+    [
+      [
+        "Emon Chatterjee",
+        []
+      ],
+      [
+        "Kolkata",
+        [
+          "/wiki/Kolkata"
+        ]
+      ],
+      [
+        "2nd Runner-up",
+        []
+      ]
+    ],
+    [
+      [
+        "Ankita Mishra",
+        []
+      ],
+      [
+        "New Delhi",
+        [
+          "/wiki/New_Delhi"
+        ]
+      ],
+      [
+        "3rd Runner-up",
+        []
+      ]
+    ],
+    [
+      [
+        "Meiyang Chang",
+        [
+          "/wiki/Meiyang_Chang"
+        ]
+      ],
+      [
+        "Dhanbad",
+        [
+          "/wiki/Dhanbad"
+        ]
+      ],
+      [
+        "Eliminated 9th",
+        []
+      ]
+    ],
+    [
+      [
+        "Deepali Kishore",
+        [
+          "/wiki/Deepali_Kishore"
+        ]
+      ],
+      [
+        "Patna",
+        [
+          "/wiki/Patna"
+        ]
+      ],
+      [
+        "Eliminated 8th",
+        []
+      ]
+    ],
+    [
+      [
+        "Pooja Chatterjee",
+        []
+      ],
+      [
+        "Dhanbad",
+        [
+          "/wiki/Dhanbad"
+        ]
+      ],
+      [
+        "Eliminated 7th",
+        []
+      ]
+    ],
+    [
+      [
+        "Abhishek Kumar",
+        []
+      ],
+      [
+        "Mumbai",
+        [
+          "/wiki/Mumbai"
+        ]
+      ],
+      [
+        "Eliminated 6th",
+        []
+      ]
+    ],
+    [
+      [
+        "Parleen Singh Gill",
+        []
+      ],
+      [
+        "Ambala",
+        [
+          "/wiki/Ambala"
+        ]
+      ],
+      [
+        "Eliminated 5th",
+        []
+      ]
+    ],
+    [
+      [
+        "Charu Semwal",
+        []
+      ],
+      [
+        "Dehradun",
+        [
+          "/wiki/Dehradun"
+        ]
+      ],
+      [
+        "Eliminated 4th",
+        []
+      ]
+    ],
+    [
+      [
+        "Smita Adhikari",
+        []
+      ],
+      [
+        "Kolkata",
+        [
+          "/wiki/Kolkata"
+        ]
+      ],
+      [
+        "Eliminated 3rd",
+        []
+      ]
+    ],
+    [
+      [
+        "Jolly Das",
+        []
+      ],
+      [
+        "Kolkata",
+        [
+          "/wiki/Kolkata"
+        ]
+      ],
+      [
+        "Eliminated 2nd",
+        []
+      ]
+    ],
+    [
+      [
+        "Richa Aneja",
+        []
+      ],
+      [
+        "Punjab",
+        [
+          "/wiki/Punjab"
+        ]
+      ],
+      [
+        "Eliminated 1st",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "3d569505-0a4d-55a6-9c35-cb817de9ce56",
+    "table_id": "Indian_Idol_5_3",
+    "title": "Indian Idol",
+    "header": [
+      "Name",
+      "Hometown",
+      "Elimination"
+    ],
+    "value": [
+      [
+        [
+          "Prashant Tamang",
+          [
+            "/wiki/Prashant_Tamang"
+          ]
+        ],
+        [
+          "Darjeeling",
+          [
+            "/wiki/Darjeeling"
+          ]
+        ],
+        [
+          "Winner",
+          []
+        ]
+      ],
+      [
+        [
+          "Amit Paul",
+          [
+            "/wiki/Amit_Paul"
+          ]
+        ],
+        [
+          "Shillong",
+          [
+            "/wiki/Shillong"
+          ]
+        ],
+        [
+          "1st Runner-up",
+          []
+        ]
+      ],
+      [
+        [
+          "Emon Chatterjee",
+          []
+        ],
+        [
+          "Kolkata",
+          [
+            "/wiki/Kolkata"
+          ]
+        ],
+        [
+          "2nd Runner-up",
+          []
+        ]
+      ],
+      [
+        [
+          "Ankita Mishra",
+          []
+        ],
+        [
+          "New Delhi",
+          [
+            "/wiki/New_Delhi"
+          ]
+        ],
+        [
+          "3rd Runner-up",
+          []
+        ]
+      ],
+      [
+        [
+          "Meiyang Chang",
+          [
+            "/wiki/Meiyang_Chang"
+          ]
+        ],
+        [
+          "Dhanbad",
+          [
+            "/wiki/Dhanbad"
+          ]
+        ],
+        [
+          "Eliminated 9th",
+          []
+        ]
+      ],
+      [
+        [
+          "Deepali Kishore",
+          [
+            "/wiki/Deepali_Kishore"
+          ]
+        ],
+        [
+          "Patna",
+          [
+            "/wiki/Patna"
+          ]
+        ],
+        [
+          "Eliminated 8th",
+          []
+        ]
+      ],
+      [
+        [
+          "Pooja Chatterjee",
+          []
+        ],
+        [
+          "Dhanbad",
+          [
+            "/wiki/Dhanbad"
+          ]
+        ],
+        [
+          "Eliminated 7th",
+          []
+        ]
+      ],
+      [
+        [
+          "Abhishek Kumar",
+          []
+        ],
+        [
+          "Mumbai",
+          [
+            "/wiki/Mumbai"
+          ]
+        ],
+        [
+          "Eliminated 6th",
+          []
+        ]
+      ],
+      [
+        [
+          "Parleen Singh Gill",
+          []
+        ],
+        [
+          "Ambala",
+          [
+            "/wiki/Ambala"
+          ]
+        ],
+        [
+          "Eliminated 5th",
+          []
+        ]
+      ],
+      [
+        [
+          "Charu Semwal",
+          []
+        ],
+        [
+          "Dehradun",
+          [
+            "/wiki/Dehradun"
+          ]
+        ],
+        [
+          "Eliminated 4th",
+          []
+        ]
+      ],
+      [
+        [
+          "Smita Adhikari",
+          []
+        ],
+        [
+          "Kolkata",
+          [
+            "/wiki/Kolkata"
+          ]
+        ],
+        [
+          "Eliminated 3rd",
+          []
+        ]
+      ],
+      [
+        [
+          "Jolly Das",
+          []
+        ],
+        [
+          "Kolkata",
+          [
+            "/wiki/Kolkata"
+          ]
+        ],
+        [
+          "Eliminated 2nd",
+          []
+        ]
+      ],
+      [
+        [
+          "Richa Aneja",
+          []
+        ],
+        [
+          "Punjab",
+          [
+            "/wiki/Punjab"
+          ]
+        ],
+        [
+          "Eliminated 1st",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about contestants from the Indian Idol competition, including their names, hometowns, and elimination status. It is designed to summarize key details about participants and their outcomes in the show. The table is part of the HybridQA domain, which integrates structured data with external knowledge sources.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Elimination"
+  ],
+  "entities": [
+    "Name",
+    "Hometown"
+  ]
+}

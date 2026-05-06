@@ -1,0 +1,463 @@
+{
+  "table_id": "T8394",
+  "uid": "dede20ea-3323-5f6b-aa7e-6b27feb5b1f1",
+  "source": "HybridQA",
+  "source_table_id": "dede20ea-3323-5f6b-aa7e-6b27feb5b1f1",
+  "domain": "HybridQA",
+  "title": "2012 Calgary Stampeders season",
+  "columns": [
+    "Round",
+    "Pick",
+    "Player",
+    "Position",
+    "School/Club Team"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        5,
+        []
+      ],
+      [
+        "Ameet Pall",
+        [
+          "/wiki/Ameet_Pall"
+        ]
+      ],
+      [
+        "DL",
+        [
+          "/wiki/Defensive_lineman"
+        ]
+      ],
+      [
+        "Wofford",
+        [
+          "/wiki/Wofford_Terriers"
+        ]
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        15,
+        []
+      ],
+      [
+        "Keenan MacDougall",
+        [
+          "/wiki/Keenan_MacDougall"
+        ]
+      ],
+      [
+        "DB",
+        [
+          "/wiki/Defensive_back"
+        ]
+      ],
+      [
+        "Saskatchewan",
+        [
+          "/wiki/Saskatchewan_Huskies_football"
+        ]
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        19,
+        []
+      ],
+      [
+        "Billy Peach",
+        [
+          "/wiki/Billy_Peach"
+        ]
+      ],
+      [
+        "OL",
+        [
+          "/wiki/Offensive_lineman"
+        ]
+      ],
+      [
+        "Jacksonville",
+        [
+          "/wiki/Jacksonville_Dolphins"
+        ]
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        27,
+        []
+      ],
+      [
+        "Bradley Erdos",
+        [
+          "/wiki/Bradley_Erdos"
+        ]
+      ],
+      [
+        "OL",
+        []
+      ],
+      [
+        "Simon Fraser",
+        [
+          "/wiki/Simon_Fraser_Clan"
+        ]
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        30,
+        []
+      ],
+      [
+        "Adam Berger",
+        [
+          "/wiki/Adam_Berger"
+        ]
+      ],
+      [
+        "DB",
+        []
+      ],
+      [
+        "Simon Fraser",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        31,
+        []
+      ],
+      [
+        "Mike Filer",
+        [
+          "/wiki/Mike_Filer"
+        ]
+      ],
+      [
+        "OL",
+        []
+      ],
+      [
+        "Mount Allison",
+        [
+          "/wiki/Mount_Allison_Mounties"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        43,
+        []
+      ],
+      [
+        "Jordan Spence",
+        []
+      ],
+      [
+        "DL",
+        []
+      ],
+      [
+        "Eastern Oregon",
+        [
+          "/wiki/Eastern_Oregon_University"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        45,
+        []
+      ],
+      [
+        "Wilkerson Desouza",
+        []
+      ],
+      [
+        "LB",
+        [
+          "/wiki/Linebacker"
+        ]
+      ],
+      [
+        "Toronto Varsity Blues",
+        [
+          "/wiki/Toronto_Varsity_Blues"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "dede20ea-3323-5f6b-aa7e-6b27feb5b1f1",
+    "table_id": "2012_Calgary_Stampeders_season_0",
+    "title": "2012 Calgary Stampeders season",
+    "header": [
+      "Round",
+      "Pick",
+      "Player",
+      "Position",
+      "School/Club Team"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          5,
+          []
+        ],
+        [
+          "Ameet Pall",
+          [
+            "/wiki/Ameet_Pall"
+          ]
+        ],
+        [
+          "DL",
+          [
+            "/wiki/Defensive_lineman"
+          ]
+        ],
+        [
+          "Wofford",
+          [
+            "/wiki/Wofford_Terriers"
+          ]
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          15,
+          []
+        ],
+        [
+          "Keenan MacDougall",
+          [
+            "/wiki/Keenan_MacDougall"
+          ]
+        ],
+        [
+          "DB",
+          [
+            "/wiki/Defensive_back"
+          ]
+        ],
+        [
+          "Saskatchewan",
+          [
+            "/wiki/Saskatchewan_Huskies_football"
+          ]
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          19,
+          []
+        ],
+        [
+          "Billy Peach",
+          [
+            "/wiki/Billy_Peach"
+          ]
+        ],
+        [
+          "OL",
+          [
+            "/wiki/Offensive_lineman"
+          ]
+        ],
+        [
+          "Jacksonville",
+          [
+            "/wiki/Jacksonville_Dolphins"
+          ]
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          27,
+          []
+        ],
+        [
+          "Bradley Erdos",
+          [
+            "/wiki/Bradley_Erdos"
+          ]
+        ],
+        [
+          "OL",
+          []
+        ],
+        [
+          "Simon Fraser",
+          [
+            "/wiki/Simon_Fraser_Clan"
+          ]
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          30,
+          []
+        ],
+        [
+          "Adam Berger",
+          [
+            "/wiki/Adam_Berger"
+          ]
+        ],
+        [
+          "DB",
+          []
+        ],
+        [
+          "Simon Fraser",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          31,
+          []
+        ],
+        [
+          "Mike Filer",
+          [
+            "/wiki/Mike_Filer"
+          ]
+        ],
+        [
+          "OL",
+          []
+        ],
+        [
+          "Mount Allison",
+          [
+            "/wiki/Mount_Allison_Mounties"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          43,
+          []
+        ],
+        [
+          "Jordan Spence",
+          []
+        ],
+        [
+          "DL",
+          []
+        ],
+        [
+          "Eastern Oregon",
+          [
+            "/wiki/Eastern_Oregon_University"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          45,
+          []
+        ],
+        [
+          "Wilkerson Desouza",
+          []
+        ],
+        [
+          "LB",
+          [
+            "/wiki/Linebacker"
+          ]
+        ],
+        [
+          "Toronto Varsity Blues",
+          [
+            "/wiki/Toronto_Varsity_Blues"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the 2012 Calgary Stampeders season, specifically focusing on their draft picks. It includes details about the draft round, pick number, player selected, their position, and the school or club team they were associated with.",
+  "numeric_columns": [
+    "Round",
+    "Pick"
+  ],
+  "categorical_columns": [
+    "Position"
+  ],
+  "entities": [
+    "Player",
+    "School/Club Team"
+  ]
+}

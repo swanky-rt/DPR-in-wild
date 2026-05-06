@@ -1,0 +1,292 @@
+{
+  "table_id": "T316",
+  "uid": "d8d75567-42a0-56b6-8c38-d12a5ad6c77f",
+  "source": "HybridQA",
+  "source_table_id": "d8d75567-42a0-56b6-8c38-d12a5ad6c77f",
+  "domain": "HybridQA",
+  "title": "List of programs broadcast by Showtime",
+  "columns": [
+    "Title",
+    "First Broadcast",
+    "Last Broadcast"
+  ],
+  "rows": [
+    [
+      [
+        "Dead Man 's Gun",
+        [
+          "/wiki/Dead_Man's_Gun"
+        ]
+      ],
+      [
+        1997,
+        []
+      ],
+      [
+        1999,
+        []
+      ]
+    ],
+    [
+      [
+        "Jeremiah",
+        [
+          "/wiki/Jeremiah_(TV_series)"
+        ]
+      ],
+      [
+        2002,
+        []
+      ],
+      [
+        2004,
+        []
+      ]
+    ],
+    [
+      [
+        "Lexx",
+        [
+          "/wiki/Lexx"
+        ]
+      ],
+      [
+        1997,
+        []
+      ],
+      [
+        2002,
+        []
+      ]
+    ],
+    [
+      [
+        "Odyssey 5",
+        [
+          "/wiki/Odyssey_5"
+        ]
+      ],
+      [
+        2002,
+        []
+      ],
+      [
+        2002,
+        []
+      ]
+    ],
+    [
+      [
+        "Poltergeist : The Legacy",
+        [
+          "/wiki/Poltergeist:_The_Legacy"
+        ]
+      ],
+      [
+        1996,
+        []
+      ],
+      [
+        1999,
+        []
+      ]
+    ],
+    [
+      [
+        "Stargate SG-1",
+        [
+          "/wiki/Stargate_SG-1"
+        ]
+      ],
+      [
+        1997,
+        []
+      ],
+      [
+        2002,
+        []
+      ]
+    ],
+    [
+      [
+        "The Outer Limits",
+        [
+          "/wiki/The_Outer_Limits_(1995_TV_series)"
+        ]
+      ],
+      [
+        1995,
+        []
+      ],
+      [
+        2000,
+        []
+      ]
+    ],
+    [
+      [
+        "Total Recall 2070",
+        [
+          "/wiki/Total_Recall_2070"
+        ]
+      ],
+      [
+        1999,
+        []
+      ],
+      [
+        1999,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "d8d75567-42a0-56b6-8c38-d12a5ad6c77f",
+    "table_id": "List_of_programs_broadcast_by_Showtime_8",
+    "title": "List of programs broadcast by Showtime",
+    "header": [
+      "Title",
+      "First Broadcast",
+      "Last Broadcast"
+    ],
+    "value": [
+      [
+        [
+          "Dead Man 's Gun",
+          [
+            "/wiki/Dead_Man's_Gun"
+          ]
+        ],
+        [
+          1997,
+          []
+        ],
+        [
+          1999,
+          []
+        ]
+      ],
+      [
+        [
+          "Jeremiah",
+          [
+            "/wiki/Jeremiah_(TV_series)"
+          ]
+        ],
+        [
+          2002,
+          []
+        ],
+        [
+          2004,
+          []
+        ]
+      ],
+      [
+        [
+          "Lexx",
+          [
+            "/wiki/Lexx"
+          ]
+        ],
+        [
+          1997,
+          []
+        ],
+        [
+          2002,
+          []
+        ]
+      ],
+      [
+        [
+          "Odyssey 5",
+          [
+            "/wiki/Odyssey_5"
+          ]
+        ],
+        [
+          2002,
+          []
+        ],
+        [
+          2002,
+          []
+        ]
+      ],
+      [
+        [
+          "Poltergeist : The Legacy",
+          [
+            "/wiki/Poltergeist:_The_Legacy"
+          ]
+        ],
+        [
+          1996,
+          []
+        ],
+        [
+          1999,
+          []
+        ]
+      ],
+      [
+        [
+          "Stargate SG-1",
+          [
+            "/wiki/Stargate_SG-1"
+          ]
+        ],
+        [
+          1997,
+          []
+        ],
+        [
+          2002,
+          []
+        ]
+      ],
+      [
+        [
+          "The Outer Limits",
+          [
+            "/wiki/The_Outer_Limits_(1995_TV_series)"
+          ]
+        ],
+        [
+          1995,
+          []
+        ],
+        [
+          2000,
+          []
+        ]
+      ],
+      [
+        [
+          "Total Recall 2070",
+          [
+            "/wiki/Total_Recall_2070"
+          ]
+        ],
+        [
+          1999,
+          []
+        ],
+        [
+          1999,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table lists television programs broadcast by Showtime, including their titles and the years they were first and last broadcast. It provides an overview of the programming history of the network.",
+  "numeric_columns": [
+    "First Broadcast",
+    "Last Broadcast"
+  ],
+  "categorical_columns": [],
+  "entities": [
+    "Title"
+  ]
+}

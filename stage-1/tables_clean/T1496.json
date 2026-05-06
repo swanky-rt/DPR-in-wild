@@ -1,0 +1,293 @@
+{
+  "table_id": "T1496",
+  "uid": "5bb75bab-0753-5084-83c3-6a2cda88e626",
+  "source": "HybridQA",
+  "source_table_id": "5bb75bab-0753-5084-83c3-6a2cda88e626",
+  "domain": "HybridQA",
+  "title": "2003 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Daiane Dos Santos ( BRA )",
+        [
+          "/wiki/Daiane_Dos_Santos"
+        ]
+      ],
+      [
+        9.737,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Cătălina Ponor ( ROU )",
+        [
+          "/wiki/Cătălina_Ponor"
+        ]
+      ],
+      [
+        9.7,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Elena Gómez ( ESP )",
+        [
+          "/wiki/Elena_Gómez"
+        ]
+      ],
+      [
+        9.675,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Andreea Munteanu ( ROU )",
+        [
+          "/wiki/Aura_Andreea_Munteanu"
+        ]
+      ],
+      [
+        9.4,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Émilie Le Pennec ( FRA )",
+        [
+          "/wiki/Émilie_Le_Pennec"
+        ]
+      ],
+      [
+        9.387,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Suzanne Harmes ( NED )",
+        [
+          "/wiki/Suzanne_Harmes"
+        ]
+      ],
+      [
+        9.287,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Anna Pavlova ( RUS )",
+        [
+          "/wiki/Anna_Pavlova_(gymnast)"
+        ]
+      ],
+      [
+        9.237,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Alona Kvasha ( UKR )",
+        [
+          "/wiki/Alona_Kvasha"
+        ]
+      ],
+      [
+        7.687,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "5bb75bab-0753-5084-83c3-6a2cda88e626",
+    "table_id": "2003_World_Artistic_Gymnastics_Championships_11",
+    "title": "2003 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Daiane Dos Santos ( BRA )",
+          [
+            "/wiki/Daiane_Dos_Santos"
+          ]
+        ],
+        [
+          9.737,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Cătălina Ponor ( ROU )",
+          [
+            "/wiki/Cătălina_Ponor"
+          ]
+        ],
+        [
+          9.7,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Elena Gómez ( ESP )",
+          [
+            "/wiki/Elena_Gómez"
+          ]
+        ],
+        [
+          9.675,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Andreea Munteanu ( ROU )",
+          [
+            "/wiki/Aura_Andreea_Munteanu"
+          ]
+        ],
+        [
+          9.4,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Émilie Le Pennec ( FRA )",
+          [
+            "/wiki/Émilie_Le_Pennec"
+          ]
+        ],
+        [
+          9.387,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Suzanne Harmes ( NED )",
+          [
+            "/wiki/Suzanne_Harmes"
+          ]
+        ],
+        [
+          9.287,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Anna Pavlova ( RUS )",
+          [
+            "/wiki/Anna_Pavlova_(gymnast)"
+          ]
+        ],
+        [
+          9.237,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Alona Kvasha ( UKR )",
+          [
+            "/wiki/Alona_Kvasha"
+          ]
+        ],
+        [
+          7.687,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides rankings from the 2003 World Artistic Gymnastics Championships, listing gymnasts along with their total scores. It serves to document performance outcomes in the competition, highlighting individual achievements in the sport.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

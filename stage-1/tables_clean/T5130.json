@@ -1,0 +1,312 @@
+{
+  "table_id": "T5130",
+  "uid": "c91062f7-4849-5579-a818-631dac786c6b",
+  "source": "HybridQA",
+  "source_table_id": "c91062f7-4849-5579-a818-631dac786c6b",
+  "domain": "HybridQA",
+  "title": "Toxin-antitoxin system",
+  "columns": [
+    "Toxin",
+    "Antitoxin",
+    "Notes"
+  ],
+  "rows": [
+    [
+      [
+        "ccdB",
+        [
+          "/wiki/CcdA/CcdB_Type_II_Toxin-antitoxin_system"
+        ]
+      ],
+      [
+        "ccdA",
+        [
+          "/wiki/CcdA/CcdB_Type_II_Toxin-antitoxin_system"
+        ]
+      ],
+      [
+        "Found on the F plasmid of Escherichia coli",
+        [
+          "/wiki/Escherichia_coli"
+        ]
+      ]
+    ],
+    [
+      [
+        "parE",
+        [
+          "/wiki/ParDE_type_II_toxin-antitoxin_system"
+        ]
+      ],
+      [
+        "parD",
+        [
+          "/wiki/ParDE_type_II_toxin-antitoxin_system"
+        ]
+      ],
+      [
+        "Found in multiple copies in Caulobacter crescentus",
+        [
+          "/wiki/Copy-number_variation",
+          "/wiki/Caulobacter_crescentus"
+        ]
+      ]
+    ],
+    [
+      [
+        "mazF",
+        []
+      ],
+      [
+        "mazE",
+        []
+      ],
+      [
+        "Found in E. coli and in chromosomes of other bacteria",
+        [
+          "/wiki/Chromosome"
+        ]
+      ]
+    ],
+    [
+      [
+        "yafO",
+        []
+      ],
+      [
+        "yafN",
+        []
+      ],
+      [
+        "A system induced by the SOS response to DNA damage in E. coli",
+        []
+      ]
+    ],
+    [
+      [
+        "hicA",
+        []
+      ],
+      [
+        "hicB",
+        []
+      ],
+      [
+        "Found in archaea and bacteria",
+        [
+          "/wiki/Archaea"
+        ]
+      ]
+    ],
+    [
+      [
+        "kid",
+        []
+      ],
+      [
+        "kis",
+        []
+      ],
+      [
+        "Stabilises the R1 plasmid and is related to the CcdB/A system",
+        [
+          "/wiki/R1_plasmid"
+        ]
+      ]
+    ],
+    [
+      [
+        "ζ",
+        [
+          "/wiki/Zeta_toxin_protein_domain"
+        ]
+      ],
+      [
+        "ε",
+        []
+      ],
+      [
+        "Found mostly in Gram-positive bacteria",
+        [
+          "/wiki/Gram-positive_bacteria"
+        ]
+      ]
+    ],
+    [
+      [
+        "ataT",
+        []
+      ],
+      [
+        "ataR",
+        []
+      ],
+      [
+        "Found in enterohemorragic E. coli and Klebsiella spp",
+        [
+          "/wiki/Shigatoxigenic_and_verotoxigenic_Escherichia_coli",
+          "/wiki/Klebsiella"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "c91062f7-4849-5579-a818-631dac786c6b",
+    "table_id": "Toxin-antitoxin_system_1",
+    "title": "Toxin-antitoxin system",
+    "header": [
+      "Toxin",
+      "Antitoxin",
+      "Notes"
+    ],
+    "value": [
+      [
+        [
+          "ccdB",
+          [
+            "/wiki/CcdA/CcdB_Type_II_Toxin-antitoxin_system"
+          ]
+        ],
+        [
+          "ccdA",
+          [
+            "/wiki/CcdA/CcdB_Type_II_Toxin-antitoxin_system"
+          ]
+        ],
+        [
+          "Found on the F plasmid of Escherichia coli",
+          [
+            "/wiki/Escherichia_coli"
+          ]
+        ]
+      ],
+      [
+        [
+          "parE",
+          [
+            "/wiki/ParDE_type_II_toxin-antitoxin_system"
+          ]
+        ],
+        [
+          "parD",
+          [
+            "/wiki/ParDE_type_II_toxin-antitoxin_system"
+          ]
+        ],
+        [
+          "Found in multiple copies in Caulobacter crescentus",
+          [
+            "/wiki/Copy-number_variation",
+            "/wiki/Caulobacter_crescentus"
+          ]
+        ]
+      ],
+      [
+        [
+          "mazF",
+          []
+        ],
+        [
+          "mazE",
+          []
+        ],
+        [
+          "Found in E. coli and in chromosomes of other bacteria",
+          [
+            "/wiki/Chromosome"
+          ]
+        ]
+      ],
+      [
+        [
+          "yafO",
+          []
+        ],
+        [
+          "yafN",
+          []
+        ],
+        [
+          "A system induced by the SOS response to DNA damage in E. coli",
+          []
+        ]
+      ],
+      [
+        [
+          "hicA",
+          []
+        ],
+        [
+          "hicB",
+          []
+        ],
+        [
+          "Found in archaea and bacteria",
+          [
+            "/wiki/Archaea"
+          ]
+        ]
+      ],
+      [
+        [
+          "kid",
+          []
+        ],
+        [
+          "kis",
+          []
+        ],
+        [
+          "Stabilises the R1 plasmid and is related to the CcdB/A system",
+          [
+            "/wiki/R1_plasmid"
+          ]
+        ]
+      ],
+      [
+        [
+          "ζ",
+          [
+            "/wiki/Zeta_toxin_protein_domain"
+          ]
+        ],
+        [
+          "ε",
+          []
+        ],
+        [
+          "Found mostly in Gram-positive bacteria",
+          [
+            "/wiki/Gram-positive_bacteria"
+          ]
+        ]
+      ],
+      [
+        [
+          "ataT",
+          []
+        ],
+        [
+          "ataR",
+          []
+        ],
+        [
+          "Found in enterohemorragic E. coli and Klebsiella spp",
+          [
+            "/wiki/Shigatoxigenic_and_verotoxigenic_Escherichia_coli",
+            "/wiki/Klebsiella"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about toxin-antitoxin systems, which are genetic modules found in various organisms. It lists specific toxins and their corresponding antitoxins, along with additional notes that may describe their characteristics or occurrences. The table is useful for understanding the relationships and functions of these systems in biological contexts.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Notes"
+  ],
+  "entities": [
+    "Toxin",
+    "Antitoxin"
+  ]
+}

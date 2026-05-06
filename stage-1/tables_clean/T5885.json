@@ -1,0 +1,376 @@
+{
+  "table_id": "T5885",
+  "uid": "48d4fdd6-d5d8-5cf7-9a50-a890606b6968",
+  "source": "HybridQA",
+  "source_table_id": "48d4fdd6-d5d8-5cf7-9a50-a890606b6968",
+  "domain": "HybridQA",
+  "title": "Flavan-3-ol",
+  "columns": [
+    "Name",
+    "Formula",
+    "Oligomers"
+  ],
+  "rows": [
+    [
+      [
+        "Catechin , C , ( + ) -Catechin",
+        [
+          "/wiki/Catechin"
+        ]
+      ],
+      [
+        "C 15 H 14 O 6",
+        []
+      ],
+      [
+        "Procyanidins",
+        [
+          "/wiki/Procyanidin"
+        ]
+      ]
+    ],
+    [
+      [
+        "Epicatechin , EC , ( - ) -Epicatechin ( cis )",
+        [
+          "/wiki/Epicatechin"
+        ]
+      ],
+      [
+        "C 15 H 14 O 6",
+        []
+      ],
+      [
+        "Procyanidins",
+        [
+          "/wiki/Procyanidin"
+        ]
+      ]
+    ],
+    [
+      [
+        "Epigallocatechin , EGC",
+        [
+          "/wiki/Epigallocatechin"
+        ]
+      ],
+      [
+        "C 15 H 14 O 7",
+        []
+      ],
+      [
+        "Prodelphinidins",
+        [
+          "/wiki/Prodelphinidin"
+        ]
+      ]
+    ],
+    [
+      [
+        "Epicatechin gallate , ECG",
+        [
+          "/wiki/Epicatechin_gallate"
+        ]
+      ],
+      [
+        "C 22 H 18 O 10",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Epigallocatechin gallate , EGCG , ( - ) -Epigallocatechin gallate",
+        [
+          "/wiki/Epigallocatechin_gallate"
+        ]
+      ],
+      [
+        "C 22 H 18 O 11",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Epiafzelechin",
+        [
+          "/wiki/Epiafzelechin"
+        ]
+      ],
+      [
+        "C 15 H 14 O 5",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Fisetinidol",
+        [
+          "/wiki/Fisetinidol"
+        ]
+      ],
+      [
+        "C 15 H 14 O 5",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Guibourtinidol",
+        [
+          "/wiki/Guibourtinidol"
+        ]
+      ],
+      [
+        "C 15 H 14 O 4",
+        []
+      ],
+      [
+        "Proguibourtinidins",
+        [
+          "/wiki/Proguibourtinidin"
+        ]
+      ]
+    ],
+    [
+      [
+        "Mesquitol",
+        [
+          "/wiki/Mesquitol"
+        ]
+      ],
+      [
+        "C 15 H 14 O 6",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Robinetinidol",
+        [
+          "/wiki/Robinetinidol"
+        ]
+      ],
+      [
+        "C 15 H 14 O 6",
+        []
+      ],
+      [
+        "Prorobinetinidins",
+        [
+          "/wiki/Prorobinetinidin"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "48d4fdd6-d5d8-5cf7-9a50-a890606b6968",
+    "table_id": "Flavan-3-ol_0",
+    "title": "Flavan-3-ol",
+    "header": [
+      "Name",
+      "Formula",
+      "Oligomers"
+    ],
+    "value": [
+      [
+        [
+          "Catechin , C , ( + ) -Catechin",
+          [
+            "/wiki/Catechin"
+          ]
+        ],
+        [
+          "C 15 H 14 O 6",
+          []
+        ],
+        [
+          "Procyanidins",
+          [
+            "/wiki/Procyanidin"
+          ]
+        ]
+      ],
+      [
+        [
+          "Epicatechin , EC , ( - ) -Epicatechin ( cis )",
+          [
+            "/wiki/Epicatechin"
+          ]
+        ],
+        [
+          "C 15 H 14 O 6",
+          []
+        ],
+        [
+          "Procyanidins",
+          [
+            "/wiki/Procyanidin"
+          ]
+        ]
+      ],
+      [
+        [
+          "Epigallocatechin , EGC",
+          [
+            "/wiki/Epigallocatechin"
+          ]
+        ],
+        [
+          "C 15 H 14 O 7",
+          []
+        ],
+        [
+          "Prodelphinidins",
+          [
+            "/wiki/Prodelphinidin"
+          ]
+        ]
+      ],
+      [
+        [
+          "Epicatechin gallate , ECG",
+          [
+            "/wiki/Epicatechin_gallate"
+          ]
+        ],
+        [
+          "C 22 H 18 O 10",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Epigallocatechin gallate , EGCG , ( - ) -Epigallocatechin gallate",
+          [
+            "/wiki/Epigallocatechin_gallate"
+          ]
+        ],
+        [
+          "C 22 H 18 O 11",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Epiafzelechin",
+          [
+            "/wiki/Epiafzelechin"
+          ]
+        ],
+        [
+          "C 15 H 14 O 5",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Fisetinidol",
+          [
+            "/wiki/Fisetinidol"
+          ]
+        ],
+        [
+          "C 15 H 14 O 5",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Guibourtinidol",
+          [
+            "/wiki/Guibourtinidol"
+          ]
+        ],
+        [
+          "C 15 H 14 O 4",
+          []
+        ],
+        [
+          "Proguibourtinidins",
+          [
+            "/wiki/Proguibourtinidin"
+          ]
+        ]
+      ],
+      [
+        [
+          "Mesquitol",
+          [
+            "/wiki/Mesquitol"
+          ]
+        ],
+        [
+          "C 15 H 14 O 6",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Robinetinidol",
+          [
+            "/wiki/Robinetinidol"
+          ]
+        ],
+        [
+          "C 15 H 14 O 6",
+          []
+        ],
+        [
+          "Prorobinetinidins",
+          [
+            "/wiki/Prorobinetinidin"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about flavan-3-ol compounds, including their names, chemical formulas, and associated oligomers. It is intended to categorize and describe these chemical entities, likely for scientific or educational purposes within the domain of hybrid knowledge representation.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Formula",
+    "Oligomers"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

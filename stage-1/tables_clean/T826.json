@@ -1,0 +1,464 @@
+{
+  "table_id": "T826",
+  "uid": "aa8b2a3c-9e52-51e3-b2f4-c2e3f1ba1a0d",
+  "source": "HybridQA",
+  "source_table_id": "aa8b2a3c-9e52-51e3-b2f4-c2e3f1ba1a0d",
+  "domain": "HybridQA",
+  "title": "1988 in film",
+  "columns": [
+    "Rank",
+    "Title",
+    "Distributor",
+    "Domestic gross"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Rain Man",
+        [
+          "/wiki/Rain_Man"
+        ]
+      ],
+      [
+        "MGM",
+        [
+          "/wiki/Metro-Goldwyn-Mayer"
+        ]
+      ],
+      [
+        "$ 172,825,435",
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Who Framed Roger Rabbit",
+        [
+          "/wiki/Who_Framed_Roger_Rabbit"
+        ]
+      ],
+      [
+        "Disney",
+        [
+          "/wiki/Walt_Disney_Studios_Motion_Pictures"
+        ]
+      ],
+      [
+        "$ 156,452,370",
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Coming to America",
+        [
+          "/wiki/Coming_to_America"
+        ]
+      ],
+      [
+        "Paramount",
+        [
+          "/wiki/Paramount_Pictures"
+        ]
+      ],
+      [
+        "$ 128,152,301",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Big",
+        [
+          "/wiki/Big_(film)"
+        ]
+      ],
+      [
+        "20th Century Fox",
+        []
+      ],
+      [
+        "$ 114,968,774",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Twins",
+        [
+          "/wiki/Twins_(1988_film)"
+        ]
+      ],
+      [
+        "Universal",
+        [
+          "/wiki/Universal_Pictures"
+        ]
+      ],
+      [
+        "$ 111,938,388",
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Crocodile Dundee II",
+        [
+          "/wiki/Crocodile_Dundee_II"
+        ]
+      ],
+      [
+        "Paramount",
+        []
+      ],
+      [
+        "$ 109,306,210",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Die Hard",
+        [
+          "/wiki/Die_Hard"
+        ]
+      ],
+      [
+        "20th Century Fox",
+        [
+          "/wiki/20th_Century_Fox"
+        ]
+      ],
+      [
+        "$ 83,008,852",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "The Naked Gun : From the Files of Police Squad !",
+        [
+          "/wiki/The_Naked_Gun:_From_the_Files_of_Police_Squad!"
+        ]
+      ],
+      [
+        "Paramount",
+        []
+      ],
+      [
+        "$ 78,756,177",
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Cocktail",
+        [
+          "/wiki/Cocktail_(1988_film)"
+        ]
+      ],
+      [
+        "Disney",
+        []
+      ],
+      [
+        "$ 78,222,753",
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Beetlejuice",
+        [
+          "/wiki/Beetlejuice"
+        ]
+      ],
+      [
+        "Warner Bros",
+        [
+          "/wiki/Warner_Bros."
+        ]
+      ],
+      [
+        "$ 73,707,461",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "aa8b2a3c-9e52-51e3-b2f4-c2e3f1ba1a0d",
+    "table_id": "1988_in_film_0",
+    "title": "1988 in film",
+    "header": [
+      "Rank",
+      "Title",
+      "Distributor",
+      "Domestic gross"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Rain Man",
+          [
+            "/wiki/Rain_Man"
+          ]
+        ],
+        [
+          "MGM",
+          [
+            "/wiki/Metro-Goldwyn-Mayer"
+          ]
+        ],
+        [
+          "$ 172,825,435",
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Who Framed Roger Rabbit",
+          [
+            "/wiki/Who_Framed_Roger_Rabbit"
+          ]
+        ],
+        [
+          "Disney",
+          [
+            "/wiki/Walt_Disney_Studios_Motion_Pictures"
+          ]
+        ],
+        [
+          "$ 156,452,370",
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Coming to America",
+          [
+            "/wiki/Coming_to_America"
+          ]
+        ],
+        [
+          "Paramount",
+          [
+            "/wiki/Paramount_Pictures"
+          ]
+        ],
+        [
+          "$ 128,152,301",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Big",
+          [
+            "/wiki/Big_(film)"
+          ]
+        ],
+        [
+          "20th Century Fox",
+          []
+        ],
+        [
+          "$ 114,968,774",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Twins",
+          [
+            "/wiki/Twins_(1988_film)"
+          ]
+        ],
+        [
+          "Universal",
+          [
+            "/wiki/Universal_Pictures"
+          ]
+        ],
+        [
+          "$ 111,938,388",
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Crocodile Dundee II",
+          [
+            "/wiki/Crocodile_Dundee_II"
+          ]
+        ],
+        [
+          "Paramount",
+          []
+        ],
+        [
+          "$ 109,306,210",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Die Hard",
+          [
+            "/wiki/Die_Hard"
+          ]
+        ],
+        [
+          "20th Century Fox",
+          [
+            "/wiki/20th_Century_Fox"
+          ]
+        ],
+        [
+          "$ 83,008,852",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "The Naked Gun : From the Files of Police Squad !",
+          [
+            "/wiki/The_Naked_Gun:_From_the_Files_of_Police_Squad!"
+          ]
+        ],
+        [
+          "Paramount",
+          []
+        ],
+        [
+          "$ 78,756,177",
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Cocktail",
+          [
+            "/wiki/Cocktail_(1988_film)"
+          ]
+        ],
+        [
+          "Disney",
+          []
+        ],
+        [
+          "$ 78,222,753",
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Beetlejuice",
+          [
+            "/wiki/Beetlejuice"
+          ]
+        ],
+        [
+          "Warner Bros",
+          [
+            "/wiki/Warner_Bros."
+          ]
+        ],
+        [
+          "$ 73,707,461",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the top films of 1988, focusing on their rankings, titles, distributors, and domestic gross earnings. It is intended to summarize the commercial success of movies released in that year. The data highlights key metrics for evaluating the performance of films in the entertainment industry.",
+  "numeric_columns": [
+    "Rank",
+    "Domestic gross"
+  ],
+  "categorical_columns": [
+    "Distributor"
+  ],
+  "entities": [
+    "Title"
+  ]
+}

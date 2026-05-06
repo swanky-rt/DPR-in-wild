@@ -1,0 +1,688 @@
+{
+  "table_id": "T5829",
+  "uid": "e5a752b3-ede7-56cd-93f5-fd5dd631a6cc",
+  "source": "HybridQA",
+  "source_table_id": "e5a752b3-ede7-56cd-93f5-fd5dd631a6cc",
+  "domain": "HybridQA",
+  "title": "The World's Billionaires",
+  "columns": [
+    "No",
+    "Name",
+    "Net worth ( USD )",
+    "Age",
+    "Nationality",
+    "Source ( s ) of wealth"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Bill Gates",
+        [
+          "/wiki/Bill_Gates"
+        ]
+      ],
+      [
+        "$ 52.8 billion",
+        []
+      ],
+      [
+        46,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Microsoft",
+        [
+          "/wiki/Microsoft"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Warren Buffett",
+        [
+          "/wiki/Warren_Buffett"
+        ]
+      ],
+      [
+        "$ 35.0 billion",
+        []
+      ],
+      [
+        71,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Berkshire Hathaway",
+        [
+          "/wiki/Berkshire_Hathaway"
+        ]
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Karl and Theo Albrecht",
+        [
+          "/wiki/Karl_Albrecht",
+          "/wiki/Theo_Albrecht"
+        ]
+      ],
+      [
+        "$ 26.8 billion",
+        []
+      ],
+      [
+        82,
+        []
+      ],
+      [
+        "Germany",
+        [
+          "/wiki/Germany"
+        ]
+      ],
+      [
+        "Aldi Süd",
+        [
+          "/wiki/Aldi"
+        ]
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Paul Allen",
+        [
+          "/wiki/Paul_Allen"
+        ]
+      ],
+      [
+        "$ 25.2 billion",
+        []
+      ],
+      [
+        49,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Microsoft",
+        [
+          "/wiki/Microsoft"
+        ]
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Larry Ellison",
+        [
+          "/wiki/Larry_Ellison"
+        ]
+      ],
+      [
+        "$ 23.5 billion",
+        []
+      ],
+      [
+        57,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Oracle Corporation",
+        [
+          "/wiki/Oracle_Corporation"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Jim Walton *",
+        [
+          "/wiki/Jim_Walton"
+        ]
+      ],
+      [
+        "$ 20.8 billion",
+        []
+      ],
+      [
+        54,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Wal-Mart",
+        [
+          "/wiki/Wal-Mart"
+        ]
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "John Walton *",
+        [
+          "/wiki/John_T._Walton"
+        ]
+      ],
+      [
+        "$ 20.7 billion",
+        []
+      ],
+      [
+        56,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Wal-Mart",
+        [
+          "/wiki/Wal-Mart"
+        ]
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Alice Walton *",
+        [
+          "/wiki/Alice_Walton"
+        ]
+      ],
+      [
+        "$ 20.5 billion",
+        []
+      ],
+      [
+        53,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Wal-Mart",
+        [
+          "/wiki/Wal-Mart"
+        ]
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "S. Robson Walton *",
+        [
+          "/wiki/S._Robson_Walton"
+        ]
+      ],
+      [
+        "$ 20.5 billion",
+        []
+      ],
+      [
+        58,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Wal-Mart",
+        [
+          "/wiki/Wal-Mart"
+        ]
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Helen Walton *",
+        [
+          "/wiki/Helen_Walton"
+        ]
+      ],
+      [
+        "$ 20.5 billion",
+        []
+      ],
+      [
+        82,
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        "Wal-Mart",
+        [
+          "/wiki/Wal-Mart"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "e5a752b3-ede7-56cd-93f5-fd5dd631a6cc",
+    "table_id": "List_of_wealthiest_non-inflated_historical_figures_17",
+    "title": "The World's Billionaires",
+    "header": [
+      "No",
+      "Name",
+      "Net worth ( USD )",
+      "Age",
+      "Nationality",
+      "Source ( s ) of wealth"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Bill Gates",
+          [
+            "/wiki/Bill_Gates"
+          ]
+        ],
+        [
+          "$ 52.8 billion",
+          []
+        ],
+        [
+          46,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Microsoft",
+          [
+            "/wiki/Microsoft"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Warren Buffett",
+          [
+            "/wiki/Warren_Buffett"
+          ]
+        ],
+        [
+          "$ 35.0 billion",
+          []
+        ],
+        [
+          71,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Berkshire Hathaway",
+          [
+            "/wiki/Berkshire_Hathaway"
+          ]
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Karl and Theo Albrecht",
+          [
+            "/wiki/Karl_Albrecht",
+            "/wiki/Theo_Albrecht"
+          ]
+        ],
+        [
+          "$ 26.8 billion",
+          []
+        ],
+        [
+          82,
+          []
+        ],
+        [
+          "Germany",
+          [
+            "/wiki/Germany"
+          ]
+        ],
+        [
+          "Aldi Süd",
+          [
+            "/wiki/Aldi"
+          ]
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Paul Allen",
+          [
+            "/wiki/Paul_Allen"
+          ]
+        ],
+        [
+          "$ 25.2 billion",
+          []
+        ],
+        [
+          49,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Microsoft",
+          [
+            "/wiki/Microsoft"
+          ]
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Larry Ellison",
+          [
+            "/wiki/Larry_Ellison"
+          ]
+        ],
+        [
+          "$ 23.5 billion",
+          []
+        ],
+        [
+          57,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Oracle Corporation",
+          [
+            "/wiki/Oracle_Corporation"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Jim Walton *",
+          [
+            "/wiki/Jim_Walton"
+          ]
+        ],
+        [
+          "$ 20.8 billion",
+          []
+        ],
+        [
+          54,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Wal-Mart",
+          [
+            "/wiki/Wal-Mart"
+          ]
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "John Walton *",
+          [
+            "/wiki/John_T._Walton"
+          ]
+        ],
+        [
+          "$ 20.7 billion",
+          []
+        ],
+        [
+          56,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Wal-Mart",
+          [
+            "/wiki/Wal-Mart"
+          ]
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Alice Walton *",
+          [
+            "/wiki/Alice_Walton"
+          ]
+        ],
+        [
+          "$ 20.5 billion",
+          []
+        ],
+        [
+          53,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Wal-Mart",
+          [
+            "/wiki/Wal-Mart"
+          ]
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "S. Robson Walton *",
+          [
+            "/wiki/S._Robson_Walton"
+          ]
+        ],
+        [
+          "$ 20.5 billion",
+          []
+        ],
+        [
+          58,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Wal-Mart",
+          [
+            "/wiki/Wal-Mart"
+          ]
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Helen Walton *",
+          [
+            "/wiki/Helen_Walton"
+          ]
+        ],
+        [
+          "$ 20.5 billion",
+          []
+        ],
+        [
+          82,
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          "Wal-Mart",
+          [
+            "/wiki/Wal-Mart"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the world's billionaires, including their rankings, personal details, and sources of wealth. It is designed to showcase the financial status, age, nationality, and business affiliations of prominent individuals. The data serves as a snapshot of global wealth distribution among notable figures.",
+  "numeric_columns": [
+    "No",
+    "Age"
+  ],
+  "categorical_columns": [
+    "Net worth ( USD )",
+    "Nationality",
+    "Source ( s ) of wealth"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

@@ -1,0 +1,601 @@
+{
+  "table_id": "T8217",
+  "uid": "fe7107be-e73d-5435-809d-96e8e5eb1352",
+  "source": "HybridQA",
+  "source_table_id": "fe7107be-e73d-5435-809d-96e8e5eb1352",
+  "domain": "HybridQA",
+  "title": "1987 Australia rugby union tour of Argentina",
+  "columns": [
+    "#",
+    "Date",
+    "Rival",
+    "City",
+    "Venue",
+    "Score"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "10 Oct",
+        []
+      ],
+      [
+        "San Isidro Club",
+        [
+          "/wiki/San_Isidro_Club"
+        ]
+      ],
+      [
+        "Buenos Aires",
+        [
+          "/wiki/Buenos_Aires"
+        ]
+      ],
+      [
+        "Vélez Sarsfield",
+        [
+          "/wiki/José_Amalfitani_Stadium"
+        ]
+      ],
+      [
+        "22-22",
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "14 Oct",
+        []
+      ],
+      [
+        "Provincias Argentinas",
+        []
+      ],
+      [
+        "Cipolletti",
+        [
+          "/wiki/Cipolletti"
+        ]
+      ],
+      [
+        "Marabunta RC",
+        []
+      ],
+      [
+        "47-0",
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "17 Oct",
+        []
+      ],
+      [
+        "Cuyo RU",
+        [
+          "/wiki/Unión_de_Rugby_de_Cuyo"
+        ]
+      ],
+      [
+        "Mendoza",
+        [
+          "/wiki/Mendoza,_Argentina"
+        ]
+      ],
+      [
+        "Malvinas Argentinas",
+        [
+          "/wiki/Estadio_Malvinas_Argentinas"
+        ]
+      ],
+      [
+        "40-3",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "20 Oct",
+        []
+      ],
+      [
+        "Santa Fe RU",
+        [
+          "/wiki/Unión_Santafesina_de_Rugby"
+        ]
+      ],
+      [
+        "Santa Fe",
+        [
+          "/wiki/Santa_Fe,_Argentina"
+        ]
+      ],
+      [
+        "Colón",
+        [
+          "/wiki/Estadio_Brigadier_General_Estanislao_López"
+        ]
+      ],
+      [
+        "37-18",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "24 Oct",
+        []
+      ],
+      [
+        "Invitación XV",
+        []
+      ],
+      [
+        "Buenos Aires",
+        [
+          "/wiki/Buenos_Aires"
+        ]
+      ],
+      [
+        "Vélez Sarsfield",
+        [
+          "/wiki/José_Amalfitani_Stadium"
+        ]
+      ],
+      [
+        "36-15",
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "27 Oct",
+        []
+      ],
+      [
+        "Selección XV",
+        []
+      ],
+      [
+        "Asunción",
+        [
+          "/wiki/Asunción"
+        ]
+      ],
+      [
+        "?",
+        []
+      ],
+      [
+        "45-9",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "31 Oct",
+        []
+      ],
+      [
+        "Argentina",
+        [
+          "/wiki/Argentina_national_rugby_union_team"
+        ]
+      ],
+      [
+        "Buenos Aires",
+        [
+          "/wiki/Buenos_Aires"
+        ]
+      ],
+      [
+        "Vélez Sarsfield",
+        [
+          "/wiki/José_Amalfitani_Stadium"
+        ]
+      ],
+      [
+        "19-19",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "3 Nov",
+        []
+      ],
+      [
+        "Rosario RU",
+        [
+          "/wiki/Unión_de_Rugby_de_Rosario"
+        ]
+      ],
+      [
+        "Rosario",
+        [
+          "/wiki/Rosario,_Santa_Fe"
+        ]
+      ],
+      [
+        "?",
+        []
+      ],
+      [
+        "35 - 15",
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "7 Nov",
+        []
+      ],
+      [
+        "Argentina",
+        [
+          "/wiki/Argentina_national_rugby_union_team"
+        ]
+      ],
+      [
+        "Buenos Aires",
+        [
+          "/wiki/Buenos_Aires"
+        ]
+      ],
+      [
+        "Vélez Sarsfield",
+        [
+          "/wiki/José_Amalfitani_Stadium"
+        ]
+      ],
+      [
+        "27-19",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "fe7107be-e73d-5435-809d-96e8e5eb1352",
+    "table_id": "1987_Australia_rugby_union_tour_of_Argentina_0",
+    "title": "1987 Australia rugby union tour of Argentina",
+    "header": [
+      "#",
+      "Date",
+      "Rival",
+      "City",
+      "Venue",
+      "Score"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "10 Oct",
+          []
+        ],
+        [
+          "San Isidro Club",
+          [
+            "/wiki/San_Isidro_Club"
+          ]
+        ],
+        [
+          "Buenos Aires",
+          [
+            "/wiki/Buenos_Aires"
+          ]
+        ],
+        [
+          "Vélez Sarsfield",
+          [
+            "/wiki/José_Amalfitani_Stadium"
+          ]
+        ],
+        [
+          "22-22",
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "14 Oct",
+          []
+        ],
+        [
+          "Provincias Argentinas",
+          []
+        ],
+        [
+          "Cipolletti",
+          [
+            "/wiki/Cipolletti"
+          ]
+        ],
+        [
+          "Marabunta RC",
+          []
+        ],
+        [
+          "47-0",
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "17 Oct",
+          []
+        ],
+        [
+          "Cuyo RU",
+          [
+            "/wiki/Unión_de_Rugby_de_Cuyo"
+          ]
+        ],
+        [
+          "Mendoza",
+          [
+            "/wiki/Mendoza,_Argentina"
+          ]
+        ],
+        [
+          "Malvinas Argentinas",
+          [
+            "/wiki/Estadio_Malvinas_Argentinas"
+          ]
+        ],
+        [
+          "40-3",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "20 Oct",
+          []
+        ],
+        [
+          "Santa Fe RU",
+          [
+            "/wiki/Unión_Santafesina_de_Rugby"
+          ]
+        ],
+        [
+          "Santa Fe",
+          [
+            "/wiki/Santa_Fe,_Argentina"
+          ]
+        ],
+        [
+          "Colón",
+          [
+            "/wiki/Estadio_Brigadier_General_Estanislao_López"
+          ]
+        ],
+        [
+          "37-18",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "24 Oct",
+          []
+        ],
+        [
+          "Invitación XV",
+          []
+        ],
+        [
+          "Buenos Aires",
+          [
+            "/wiki/Buenos_Aires"
+          ]
+        ],
+        [
+          "Vélez Sarsfield",
+          [
+            "/wiki/José_Amalfitani_Stadium"
+          ]
+        ],
+        [
+          "36-15",
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "27 Oct",
+          []
+        ],
+        [
+          "Selección XV",
+          []
+        ],
+        [
+          "Asunción",
+          [
+            "/wiki/Asunción"
+          ]
+        ],
+        [
+          "?",
+          []
+        ],
+        [
+          "45-9",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "31 Oct",
+          []
+        ],
+        [
+          "Argentina",
+          [
+            "/wiki/Argentina_national_rugby_union_team"
+          ]
+        ],
+        [
+          "Buenos Aires",
+          [
+            "/wiki/Buenos_Aires"
+          ]
+        ],
+        [
+          "Vélez Sarsfield",
+          [
+            "/wiki/José_Amalfitani_Stadium"
+          ]
+        ],
+        [
+          "19-19",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "3 Nov",
+          []
+        ],
+        [
+          "Rosario RU",
+          [
+            "/wiki/Unión_de_Rugby_de_Rosario"
+          ]
+        ],
+        [
+          "Rosario",
+          [
+            "/wiki/Rosario,_Santa_Fe"
+          ]
+        ],
+        [
+          "?",
+          []
+        ],
+        [
+          "35 - 15",
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "7 Nov",
+          []
+        ],
+        [
+          "Argentina",
+          [
+            "/wiki/Argentina_national_rugby_union_team"
+          ]
+        ],
+        [
+          "Buenos Aires",
+          [
+            "/wiki/Buenos_Aires"
+          ]
+        ],
+        [
+          "Vélez Sarsfield",
+          [
+            "/wiki/José_Amalfitani_Stadium"
+          ]
+        ],
+        [
+          "27-19",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of the matches played during the 1987 Australia rugby union tour of Argentina. It includes details such as the match date, opposing team, city, venue, and final score. The table serves as a record of the tour's events and outcomes.",
+  "numeric_columns": [
+    "#"
+  ],
+  "categorical_columns": [
+    "Date",
+    "Rival",
+    "City",
+    "Venue",
+    "Score"
+  ],
+  "entities": [
+    "Rival",
+    "City",
+    "Venue"
+  ]
+}

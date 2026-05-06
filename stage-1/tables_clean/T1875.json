@@ -1,0 +1,293 @@
+{
+  "table_id": "T1875",
+  "uid": "ccc64312-a435-5238-96f7-a527069bfbf5",
+  "source": "HybridQA",
+  "source_table_id": "ccc64312-a435-5238-96f7-a527069bfbf5",
+  "domain": "HybridQA",
+  "title": "List of Philadelphia Flyers award winners",
+  "columns": [
+    "Individual",
+    "Year inducted",
+    "Years with Flyers"
+  ],
+  "rows": [
+    [
+      [
+        "Tony Amonte",
+        [
+          "/wiki/Tony_Amonte"
+        ]
+      ],
+      [
+        2009,
+        []
+      ],
+      [
+        "2002-2004",
+        []
+      ]
+    ],
+    [
+      [
+        "Mike Emrick",
+        [
+          "/wiki/Mike_Emrick"
+        ]
+      ],
+      [
+        2011,
+        []
+      ],
+      [
+        "1983-1993",
+        []
+      ]
+    ],
+    [
+      [
+        "Derian Hatcher",
+        [
+          "/wiki/Derian_Hatcher"
+        ]
+      ],
+      [
+        2010,
+        []
+      ],
+      [
+        "2005-2008",
+        []
+      ]
+    ],
+    [
+      [
+        "Mark Howe",
+        [
+          "/wiki/Mark_Howe"
+        ]
+      ],
+      [
+        2003,
+        []
+      ],
+      [
+        "1982-1992",
+        []
+      ]
+    ],
+    [
+      [
+        "John LeClair",
+        [
+          "/wiki/John_LeClair"
+        ]
+      ],
+      [
+        2009,
+        []
+      ],
+      [
+        "1995-2004",
+        []
+      ]
+    ],
+    [
+      [
+        "Jeremy Roenick",
+        [
+          "/wiki/Jeremy_Roenick"
+        ]
+      ],
+      [
+        2010,
+        []
+      ],
+      [
+        "2001-2004",
+        []
+      ]
+    ],
+    [
+      [
+        "Ed Snider",
+        [
+          "/wiki/Ed_Snider"
+        ]
+      ],
+      [
+        2011,
+        []
+      ],
+      [
+        "1967-2016",
+        []
+      ]
+    ],
+    [
+      [
+        "John Vanbiesbrouck",
+        [
+          "/wiki/John_Vanbiesbrouck"
+        ]
+      ],
+      [
+        2007,
+        []
+      ],
+      [
+        "1998-2000",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "ccc64312-a435-5238-96f7-a527069bfbf5",
+    "table_id": "List_of_Philadelphia_Flyers_award_winners_8",
+    "title": "List of Philadelphia Flyers award winners",
+    "header": [
+      "Individual",
+      "Year inducted",
+      "Years with Flyers"
+    ],
+    "value": [
+      [
+        [
+          "Tony Amonte",
+          [
+            "/wiki/Tony_Amonte"
+          ]
+        ],
+        [
+          2009,
+          []
+        ],
+        [
+          "2002-2004",
+          []
+        ]
+      ],
+      [
+        [
+          "Mike Emrick",
+          [
+            "/wiki/Mike_Emrick"
+          ]
+        ],
+        [
+          2011,
+          []
+        ],
+        [
+          "1983-1993",
+          []
+        ]
+      ],
+      [
+        [
+          "Derian Hatcher",
+          [
+            "/wiki/Derian_Hatcher"
+          ]
+        ],
+        [
+          2010,
+          []
+        ],
+        [
+          "2005-2008",
+          []
+        ]
+      ],
+      [
+        [
+          "Mark Howe",
+          [
+            "/wiki/Mark_Howe"
+          ]
+        ],
+        [
+          2003,
+          []
+        ],
+        [
+          "1982-1992",
+          []
+        ]
+      ],
+      [
+        [
+          "John LeClair",
+          [
+            "/wiki/John_LeClair"
+          ]
+        ],
+        [
+          2009,
+          []
+        ],
+        [
+          "1995-2004",
+          []
+        ]
+      ],
+      [
+        [
+          "Jeremy Roenick",
+          [
+            "/wiki/Jeremy_Roenick"
+          ]
+        ],
+        [
+          2010,
+          []
+        ],
+        [
+          "2001-2004",
+          []
+        ]
+      ],
+      [
+        [
+          "Ed Snider",
+          [
+            "/wiki/Ed_Snider"
+          ]
+        ],
+        [
+          2011,
+          []
+        ],
+        [
+          "1967-2016",
+          []
+        ]
+      ],
+      [
+        [
+          "John Vanbiesbrouck",
+          [
+            "/wiki/John_Vanbiesbrouck"
+          ]
+        ],
+        [
+          2007,
+          []
+        ],
+        [
+          "1998-2000",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table lists individuals associated with the Philadelphia Flyers who have received awards or honors, along with the year they were inducted and their tenure with the team. It provides an overview of notable figures and their contributions to the team's history.",
+  "numeric_columns": [
+    "Year inducted"
+  ],
+  "categorical_columns": [
+    "Years with Flyers"
+  ],
+  "entities": [
+    "Individual"
+  ]
+}

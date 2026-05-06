@@ -1,0 +1,355 @@
+{
+  "table_id": "T2491",
+  "uid": "63fefffd-c227-5af3-948a-ed7568c06e9a",
+  "source": "HybridQA",
+  "source_table_id": "63fefffd-c227-5af3-948a-ed7568c06e9a",
+  "domain": "HybridQA",
+  "title": "KF Tirana",
+  "columns": [
+    "",
+    "Player",
+    "Apps"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Elvis Sina",
+        [
+          "/wiki/Elvis_Sina"
+        ]
+      ],
+      [
+        392,
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Arben Minga",
+        [
+          "/wiki/Arben_Minga"
+        ]
+      ],
+      [
+        387,
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Blendi Nallbani",
+        [
+          "/wiki/Blendi_Nallbani"
+        ]
+      ],
+      [
+        310,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Nevil Dede",
+        [
+          "/wiki/Nevil_Dede"
+        ]
+      ],
+      [
+        299,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Agustin Kola",
+        [
+          "/wiki/Agustin_Kola"
+        ]
+      ],
+      [
+        298,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Erando Karabeci",
+        [
+          "/wiki/Erando_Karabeci"
+        ]
+      ],
+      [
+        264,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Rezart Dabulla",
+        [
+          "/wiki/Rezart_Dabulla"
+        ]
+      ],
+      [
+        245,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Ervin Bulku",
+        [
+          "/wiki/Ervin_Bulku"
+        ]
+      ],
+      [
+        235,
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Eldorado Merkoçi",
+        [
+          "/wiki/Eldorado_Merkoçi"
+        ]
+      ],
+      [
+        222,
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Indrit Fortuzi",
+        [
+          "/wiki/Indrit_Fortuzi"
+        ]
+      ],
+      [
+        214,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "63fefffd-c227-5af3-948a-ed7568c06e9a",
+    "table_id": "KF_Tirana_Presidents_0",
+    "title": "KF Tirana",
+    "header": [
+      "",
+      "Player",
+      "Apps"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Elvis Sina",
+          [
+            "/wiki/Elvis_Sina"
+          ]
+        ],
+        [
+          392,
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Arben Minga",
+          [
+            "/wiki/Arben_Minga"
+          ]
+        ],
+        [
+          387,
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Blendi Nallbani",
+          [
+            "/wiki/Blendi_Nallbani"
+          ]
+        ],
+        [
+          310,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Nevil Dede",
+          [
+            "/wiki/Nevil_Dede"
+          ]
+        ],
+        [
+          299,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Agustin Kola",
+          [
+            "/wiki/Agustin_Kola"
+          ]
+        ],
+        [
+          298,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Erando Karabeci",
+          [
+            "/wiki/Erando_Karabeci"
+          ]
+        ],
+        [
+          264,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Rezart Dabulla",
+          [
+            "/wiki/Rezart_Dabulla"
+          ]
+        ],
+        [
+          245,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Ervin Bulku",
+          [
+            "/wiki/Ervin_Bulku"
+          ]
+        ],
+        [
+          235,
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Eldorado Merkoçi",
+          [
+            "/wiki/Eldorado_Merkoçi"
+          ]
+        ],
+        [
+          222,
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Indrit Fortuzi",
+          [
+            "/wiki/Indrit_Fortuzi"
+          ]
+        ],
+        [
+          214,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about players associated with KF Tirana, including their names and the number of appearances they have made. It is likely intended to summarize player statistics for the football club.",
+  "numeric_columns": [
+    "Apps"
+  ],
+  "categorical_columns": [],
+  "entities": [
+    "Player"
+  ]
+}

@@ -1,0 +1,671 @@
+{
+  "table_id": "T3553",
+  "uid": "3d83bdac-1dd5-52a1-be4d-a5a1cbcc4e6f",
+  "source": "HybridQA",
+  "source_table_id": "3d83bdac-1dd5-52a1-be4d-a5a1cbcc4e6f",
+  "domain": "HybridQA",
+  "title": "Canadian Championship",
+  "columns": [
+    "Year",
+    "Player",
+    "Nationality",
+    "Team",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        2008,
+        [
+          "/wiki/2008_Canadian_Championship"
+        ]
+      ],
+      [
+        "Roberto Brown",
+        [
+          "/wiki/Roberto_Brown"
+        ]
+      ],
+      [
+        "Panama",
+        []
+      ],
+      [
+        "Montreal Impact",
+        [
+          "/wiki/Montreal_Impact_(1992–2011)"
+        ]
+      ],
+      [
+        "2 goals ( 0 assists , 157 minutes )",
+        []
+      ]
+    ],
+    [
+      [
+        2009,
+        [
+          "/wiki/2009_Canadian_Championship"
+        ]
+      ],
+      [
+        "Dwayne De Rosario",
+        [
+          "/wiki/Dwayne_De_Rosario"
+        ]
+      ],
+      [
+        "Canada",
+        []
+      ],
+      [
+        "Toronto FC",
+        [
+          "/wiki/Toronto_FC"
+        ]
+      ],
+      [
+        "3 goals",
+        []
+      ]
+    ],
+    [
+      [
+        2010,
+        [
+          "/wiki/2010_Canadian_Championship"
+        ]
+      ],
+      [
+        "Dwayne De Rosario",
+        []
+      ],
+      [
+        "Canada",
+        []
+      ],
+      [
+        "Toronto FC",
+        []
+      ],
+      [
+        "1 goal ( 1 assist )",
+        []
+      ]
+    ],
+    [
+      [
+        2011,
+        [
+          "/wiki/2011_Canadian_Championship"
+        ]
+      ],
+      [
+        "Maicon Santos",
+        [
+          "/wiki/Maicon_Santos"
+        ]
+      ],
+      [
+        "Brazil",
+        []
+      ],
+      [
+        "Toronto FC",
+        []
+      ],
+      [
+        "3 goals",
+        []
+      ]
+    ],
+    [
+      [
+        2012,
+        [
+          "/wiki/2012_Canadian_Championship"
+        ]
+      ],
+      [
+        "Sebastien Le Toux",
+        [
+          "/wiki/Sebastien_Le_Toux"
+        ]
+      ],
+      [
+        "France",
+        []
+      ],
+      [
+        "Vancouver Whitecaps FC",
+        []
+      ],
+      [
+        "2 goals ( 0 assists , 168 minutes )",
+        []
+      ]
+    ],
+    [
+      [
+        2013,
+        [
+          "/wiki/2013_Canadian_Championship"
+        ]
+      ],
+      [
+        "Camilo Sanvezzo",
+        [
+          "/wiki/Camilo_Sanvezzo"
+        ]
+      ],
+      [
+        "Brazil",
+        []
+      ],
+      [
+        "Vancouver Whitecaps FC",
+        []
+      ],
+      [
+        "3 goals",
+        []
+      ]
+    ],
+    [
+      [
+        2014,
+        [
+          "/wiki/2014_Canadian_Championship"
+        ]
+      ],
+      [
+        "Jack McInerney",
+        [
+          "/wiki/Jack_McInerney"
+        ]
+      ],
+      [
+        "United States",
+        []
+      ],
+      [
+        "Montreal Impact",
+        []
+      ],
+      [
+        "3 goals",
+        []
+      ]
+    ],
+    [
+      [
+        2015,
+        [
+          "/wiki/2015_Canadian_Championship"
+        ]
+      ],
+      [
+        "Tomi Ameobi",
+        [
+          "/wiki/Tomi_Ameobi"
+        ]
+      ],
+      [
+        "England",
+        []
+      ],
+      [
+        "FC Edmonton",
+        []
+      ],
+      [
+        "4 goals",
+        []
+      ]
+    ],
+    [
+      [
+        2016,
+        [
+          "/wiki/2016_Canadian_Championship"
+        ]
+      ],
+      [
+        "Jordan Hamilton",
+        [
+          "/wiki/Jordan_Hamilton_(soccer)"
+        ]
+      ],
+      [
+        "Canada",
+        []
+      ],
+      [
+        "Toronto FC",
+        []
+      ],
+      [
+        "2 goals ( 1 assist )",
+        []
+      ]
+    ],
+    [
+      [
+        2017,
+        [
+          "/wiki/2017_Canadian_Championship"
+        ]
+      ],
+      [
+        "Sebastian Giovinco",
+        [
+          "/wiki/Sebastian_Giovinco"
+        ]
+      ],
+      [
+        "Italy",
+        []
+      ],
+      [
+        "Toronto FC",
+        []
+      ],
+      [
+        "3 goals",
+        []
+      ]
+    ],
+    [
+      [
+        2018,
+        [
+          "/wiki/2018_Canadian_Championship"
+        ]
+      ],
+      [
+        "Jonathan Osorio",
+        [
+          "/wiki/Jonathan_Osorio"
+        ]
+      ],
+      [
+        "Canada",
+        []
+      ],
+      [
+        "Toronto FC",
+        []
+      ],
+      [
+        "3 goals ( 1 assist )",
+        []
+      ]
+    ],
+    [
+      [
+        2019,
+        [
+          "/wiki/2019_Canadian_Championship"
+        ]
+      ],
+      [
+        "Ignacio Piatti",
+        [
+          "/wiki/Ignacio_Piatti"
+        ]
+      ],
+      [
+        "Argentina",
+        []
+      ],
+      [
+        "Montreal Impact",
+        []
+      ],
+      [
+        "4 goals",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "3d83bdac-1dd5-52a1-be4d-a5a1cbcc4e6f",
+    "table_id": "Canadian_Championship_7",
+    "title": "Canadian Championship",
+    "header": [
+      "Year",
+      "Player",
+      "Nationality",
+      "Team",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          2008,
+          [
+            "/wiki/2008_Canadian_Championship"
+          ]
+        ],
+        [
+          "Roberto Brown",
+          [
+            "/wiki/Roberto_Brown"
+          ]
+        ],
+        [
+          "Panama",
+          []
+        ],
+        [
+          "Montreal Impact",
+          [
+            "/wiki/Montreal_Impact_(1992–2011)"
+          ]
+        ],
+        [
+          "2 goals ( 0 assists , 157 minutes )",
+          []
+        ]
+      ],
+      [
+        [
+          2009,
+          [
+            "/wiki/2009_Canadian_Championship"
+          ]
+        ],
+        [
+          "Dwayne De Rosario",
+          [
+            "/wiki/Dwayne_De_Rosario"
+          ]
+        ],
+        [
+          "Canada",
+          []
+        ],
+        [
+          "Toronto FC",
+          [
+            "/wiki/Toronto_FC"
+          ]
+        ],
+        [
+          "3 goals",
+          []
+        ]
+      ],
+      [
+        [
+          2010,
+          [
+            "/wiki/2010_Canadian_Championship"
+          ]
+        ],
+        [
+          "Dwayne De Rosario",
+          []
+        ],
+        [
+          "Canada",
+          []
+        ],
+        [
+          "Toronto FC",
+          []
+        ],
+        [
+          "1 goal ( 1 assist )",
+          []
+        ]
+      ],
+      [
+        [
+          2011,
+          [
+            "/wiki/2011_Canadian_Championship"
+          ]
+        ],
+        [
+          "Maicon Santos",
+          [
+            "/wiki/Maicon_Santos"
+          ]
+        ],
+        [
+          "Brazil",
+          []
+        ],
+        [
+          "Toronto FC",
+          []
+        ],
+        [
+          "3 goals",
+          []
+        ]
+      ],
+      [
+        [
+          2012,
+          [
+            "/wiki/2012_Canadian_Championship"
+          ]
+        ],
+        [
+          "Sebastien Le Toux",
+          [
+            "/wiki/Sebastien_Le_Toux"
+          ]
+        ],
+        [
+          "France",
+          []
+        ],
+        [
+          "Vancouver Whitecaps FC",
+          []
+        ],
+        [
+          "2 goals ( 0 assists , 168 minutes )",
+          []
+        ]
+      ],
+      [
+        [
+          2013,
+          [
+            "/wiki/2013_Canadian_Championship"
+          ]
+        ],
+        [
+          "Camilo Sanvezzo",
+          [
+            "/wiki/Camilo_Sanvezzo"
+          ]
+        ],
+        [
+          "Brazil",
+          []
+        ],
+        [
+          "Vancouver Whitecaps FC",
+          []
+        ],
+        [
+          "3 goals",
+          []
+        ]
+      ],
+      [
+        [
+          2014,
+          [
+            "/wiki/2014_Canadian_Championship"
+          ]
+        ],
+        [
+          "Jack McInerney",
+          [
+            "/wiki/Jack_McInerney"
+          ]
+        ],
+        [
+          "United States",
+          []
+        ],
+        [
+          "Montreal Impact",
+          []
+        ],
+        [
+          "3 goals",
+          []
+        ]
+      ],
+      [
+        [
+          2015,
+          [
+            "/wiki/2015_Canadian_Championship"
+          ]
+        ],
+        [
+          "Tomi Ameobi",
+          [
+            "/wiki/Tomi_Ameobi"
+          ]
+        ],
+        [
+          "England",
+          []
+        ],
+        [
+          "FC Edmonton",
+          []
+        ],
+        [
+          "4 goals",
+          []
+        ]
+      ],
+      [
+        [
+          2016,
+          [
+            "/wiki/2016_Canadian_Championship"
+          ]
+        ],
+        [
+          "Jordan Hamilton",
+          [
+            "/wiki/Jordan_Hamilton_(soccer)"
+          ]
+        ],
+        [
+          "Canada",
+          []
+        ],
+        [
+          "Toronto FC",
+          []
+        ],
+        [
+          "2 goals ( 1 assist )",
+          []
+        ]
+      ],
+      [
+        [
+          2017,
+          [
+            "/wiki/2017_Canadian_Championship"
+          ]
+        ],
+        [
+          "Sebastian Giovinco",
+          [
+            "/wiki/Sebastian_Giovinco"
+          ]
+        ],
+        [
+          "Italy",
+          []
+        ],
+        [
+          "Toronto FC",
+          []
+        ],
+        [
+          "3 goals",
+          []
+        ]
+      ],
+      [
+        [
+          2018,
+          [
+            "/wiki/2018_Canadian_Championship"
+          ]
+        ],
+        [
+          "Jonathan Osorio",
+          [
+            "/wiki/Jonathan_Osorio"
+          ]
+        ],
+        [
+          "Canada",
+          []
+        ],
+        [
+          "Toronto FC",
+          []
+        ],
+        [
+          "3 goals ( 1 assist )",
+          []
+        ]
+      ],
+      [
+        [
+          2019,
+          [
+            "/wiki/2019_Canadian_Championship"
+          ]
+        ],
+        [
+          "Ignacio Piatti",
+          [
+            "/wiki/Ignacio_Piatti"
+          ]
+        ],
+        [
+          "Argentina",
+          []
+        ],
+        [
+          "Montreal Impact",
+          []
+        ],
+        [
+          "4 goals",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table represents data from the Canadian Championship, detailing player performance and associated information for various years. It includes statistics such as goals and assists, as well as contextual details like player nationality and team affiliation. The purpose is to summarize individual contributions to the championship over time.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Year",
+    "Nationality"
+  ],
+  "entities": [
+    "Player",
+    "Team"
+  ]
+}

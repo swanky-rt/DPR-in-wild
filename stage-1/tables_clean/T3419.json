@@ -1,0 +1,346 @@
+{
+  "table_id": "T3419",
+  "uid": "b77c13ac-128b-5955-a846-dffad193cdaf",
+  "source": "HybridQA",
+  "source_table_id": "b77c13ac-128b-5955-a846-dffad193cdaf",
+  "domain": "HybridQA",
+  "title": "Paadal Petra Sthalam",
+  "columns": [
+    "Temple",
+    "Location",
+    "District"
+  ],
+  "rows": [
+    [
+      [
+        "Tiruvadigai Veerattaaneswarar Temple",
+        [
+          "/wiki/Thiruvadigai_Temple,_Panruti"
+        ]
+      ],
+      [
+        "Tiruvadigai , Panruti",
+        [
+          "/wiki/Panruti"
+        ]
+      ],
+      [
+        "Cuddalore district",
+        [
+          "/wiki/Cuddalore_district"
+        ]
+      ]
+    ],
+    [
+      [
+        "Korukkai Veeratteswarar Temple",
+        [
+          "/wiki/Korukkai_Veeratteswarar_Temple"
+        ]
+      ],
+      [
+        "Tirukurukkai",
+        []
+      ],
+      [
+        "Nagapattinam district",
+        [
+          "/wiki/Nagapattinam_district"
+        ]
+      ]
+    ],
+    [
+      [
+        "Tirukkovilur Veerateshwarar Temple",
+        [
+          "/wiki/Veerateeswarar_Temple"
+        ]
+      ],
+      [
+        "Tirukoilur",
+        [
+          "/wiki/Tirukoilur"
+        ]
+      ],
+      [
+        "Tiruvannamalai district",
+        [
+          "/wiki/Tiruvannamalai_district"
+        ]
+      ]
+    ],
+    [
+      [
+        "Amirtagateswarar Temple",
+        [
+          "/wiki/Amritaghateswarar-Abirami_Temple,Thirukkadaiyur"
+        ]
+      ],
+      [
+        "Thirukadaiyur",
+        [
+          "/wiki/Thirukadaiyur"
+        ]
+      ],
+      [
+        "Nagapattinam district",
+        [
+          "/wiki/Nagapattinam_district"
+        ]
+      ]
+    ],
+    [
+      [
+        "Vazhuvur Verateswarar Temple",
+        [
+          "/wiki/Viratteswara_Temple,_Vazhuvur"
+        ]
+      ],
+      [
+        "Vazhuvoor , Mayiladuthurai",
+        [
+          "/wiki/Vazhuvoor",
+          "/wiki/Mayiladuthurai"
+        ]
+      ],
+      [
+        "Nagapattinam district",
+        [
+          "/wiki/Nagapattinam_district"
+        ]
+      ]
+    ],
+    [
+      [
+        "Keelaparasalur Veerateswarar Temple",
+        [
+          "/wiki/Keelaparasalur_Veerateswarar_Temple"
+        ]
+      ],
+      [
+        "Tirupariyalur",
+        []
+      ],
+      [
+        "Nagapattinam district",
+        [
+          "/wiki/Nagapattinam_district"
+        ]
+      ]
+    ],
+    [
+      [
+        "Kandeeswarar Temple",
+        [
+          "/wiki/Kandeeswarar_Temple"
+        ]
+      ],
+      [
+        "Thirukkandiyur",
+        [
+          "/wiki/Thirukkandiyur"
+        ]
+      ],
+      [
+        "Thanjavur district",
+        [
+          "/wiki/Thanjavur_district"
+        ]
+      ]
+    ],
+    [
+      [
+        "Tiruvirkudi Veerataneswarar Temple",
+        [
+          "/wiki/Tiruvirkudi_Veerataneswarar_Temple"
+        ]
+      ],
+      [
+        "Thiruvirkudi",
+        []
+      ],
+      [
+        "Thiruvarur district",
+        [
+          "/wiki/Thiruvarur_district"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "b77c13ac-128b-5955-a846-dffad193cdaf",
+    "table_id": "Paadal_Petra_Sthalam_2",
+    "title": "Paadal Petra Sthalam",
+    "header": [
+      "Temple",
+      "Location",
+      "District"
+    ],
+    "value": [
+      [
+        [
+          "Tiruvadigai Veerattaaneswarar Temple",
+          [
+            "/wiki/Thiruvadigai_Temple,_Panruti"
+          ]
+        ],
+        [
+          "Tiruvadigai , Panruti",
+          [
+            "/wiki/Panruti"
+          ]
+        ],
+        [
+          "Cuddalore district",
+          [
+            "/wiki/Cuddalore_district"
+          ]
+        ]
+      ],
+      [
+        [
+          "Korukkai Veeratteswarar Temple",
+          [
+            "/wiki/Korukkai_Veeratteswarar_Temple"
+          ]
+        ],
+        [
+          "Tirukurukkai",
+          []
+        ],
+        [
+          "Nagapattinam district",
+          [
+            "/wiki/Nagapattinam_district"
+          ]
+        ]
+      ],
+      [
+        [
+          "Tirukkovilur Veerateshwarar Temple",
+          [
+            "/wiki/Veerateeswarar_Temple"
+          ]
+        ],
+        [
+          "Tirukoilur",
+          [
+            "/wiki/Tirukoilur"
+          ]
+        ],
+        [
+          "Tiruvannamalai district",
+          [
+            "/wiki/Tiruvannamalai_district"
+          ]
+        ]
+      ],
+      [
+        [
+          "Amirtagateswarar Temple",
+          [
+            "/wiki/Amritaghateswarar-Abirami_Temple,Thirukkadaiyur"
+          ]
+        ],
+        [
+          "Thirukadaiyur",
+          [
+            "/wiki/Thirukadaiyur"
+          ]
+        ],
+        [
+          "Nagapattinam district",
+          [
+            "/wiki/Nagapattinam_district"
+          ]
+        ]
+      ],
+      [
+        [
+          "Vazhuvur Verateswarar Temple",
+          [
+            "/wiki/Viratteswara_Temple,_Vazhuvur"
+          ]
+        ],
+        [
+          "Vazhuvoor , Mayiladuthurai",
+          [
+            "/wiki/Vazhuvoor",
+            "/wiki/Mayiladuthurai"
+          ]
+        ],
+        [
+          "Nagapattinam district",
+          [
+            "/wiki/Nagapattinam_district"
+          ]
+        ]
+      ],
+      [
+        [
+          "Keelaparasalur Veerateswarar Temple",
+          [
+            "/wiki/Keelaparasalur_Veerateswarar_Temple"
+          ]
+        ],
+        [
+          "Tirupariyalur",
+          []
+        ],
+        [
+          "Nagapattinam district",
+          [
+            "/wiki/Nagapattinam_district"
+          ]
+        ]
+      ],
+      [
+        [
+          "Kandeeswarar Temple",
+          [
+            "/wiki/Kandeeswarar_Temple"
+          ]
+        ],
+        [
+          "Thirukkandiyur",
+          [
+            "/wiki/Thirukkandiyur"
+          ]
+        ],
+        [
+          "Thanjavur district",
+          [
+            "/wiki/Thanjavur_district"
+          ]
+        ]
+      ],
+      [
+        [
+          "Tiruvirkudi Veerataneswarar Temple",
+          [
+            "/wiki/Tiruvirkudi_Veerataneswarar_Temple"
+          ]
+        ],
+        [
+          "Thiruvirkudi",
+          []
+        ],
+        [
+          "Thiruvarur district",
+          [
+            "/wiki/Thiruvarur_district"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about Paadal Petra Sthalam, which are significant temples in Tamil Nadu, India, mentioned in Tamil Saiva literature. It includes details about the temple names, their locations, and the districts they are situated in. The purpose is to catalog these culturally and historically important sites.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Location",
+    "District"
+  ],
+  "entities": [
+    "Temple"
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "table_id": "T6098",
+  "uid": "3c671a7a-932b-5eb7-808b-8331edb6e31a",
+  "source": "HybridQA",
+  "source_table_id": "3c671a7a-932b-5eb7-808b-8331edb6e31a",
+  "domain": "HybridQA",
+  "title": "Celebrity Bainisteoir",
+  "columns": [
+    "Contestant",
+    "County",
+    "Club",
+    "Notes"
+  ],
+  "rows": [
+    [
+      [
+        "Baz Ashmawy",
+        [
+          "/wiki/Baz_Ashmawy"
+        ]
+      ],
+      [
+        "Wicklow",
+        [
+          "/wiki/Wicklow_GAA"
+        ]
+      ],
+      [
+        "Ballymanus",
+        []
+      ],
+      [
+        "TV Presenter",
+        []
+      ]
+    ],
+    [
+      [
+        "Glenda Gilson",
+        [
+          "/wiki/Glenda_Gilson"
+        ]
+      ],
+      [
+        "Dublin",
+        [
+          "/wiki/Dublin_GAA"
+        ]
+      ],
+      [
+        "Crumlin",
+        [
+          "/wiki/Crumlin_GAA"
+        ]
+      ],
+      [
+        "TV Presenter and Model",
+        []
+      ]
+    ],
+    [
+      [
+        "Jon Kenny",
+        [
+          "/wiki/Jon_Kenny"
+        ]
+      ],
+      [
+        "Limerick",
+        [
+          "/wiki/Limerick_GAA"
+        ]
+      ],
+      [
+        "Galtee Gaels",
+        []
+      ],
+      [
+        "Comedian , Actor and Musician",
+        []
+      ]
+    ],
+    [
+      [
+        "Gerald Kean",
+        [
+          "/wiki/Gerald_Kean"
+        ]
+      ],
+      [
+        "Cork",
+        [
+          "/wiki/Cork_GAA"
+        ]
+      ],
+      [
+        "Mayfield",
+        [
+          "/wiki/Mayfield_GAA"
+        ]
+      ],
+      [
+        "Solicitor and Bon Vivant",
+        []
+      ]
+    ],
+    [
+      [
+        "Nell McCafferty",
+        [
+          "/wiki/Nell_McCafferty"
+        ]
+      ],
+      [
+        "Derry",
+        [
+          "/wiki/Derry_GAA"
+        ]
+      ],
+      [
+        "St. Mary 's , Faughanvale",
+        [
+          "/wiki/Faughanvale_GAC"
+        ]
+      ],
+      [
+        "Journalist , Playwright , Civil Rights Campaigner and Feminist",
+        []
+      ]
+    ],
+    [
+      [
+        "Aoibhinn Ní Shúilleabháin",
+        [
+          "/wiki/Aoibhinn_Ní_Shúilleabháin"
+        ]
+      ],
+      [
+        "Mayo",
+        [
+          "/wiki/Mayo_GAA"
+        ]
+      ],
+      [
+        "Kiltimagh",
+        []
+      ],
+      [
+        "Ex-Rose of Tralee and TV Presenter",
+        []
+      ]
+    ],
+    [
+      [
+        "Mary O'Rourke / Marty Whelan",
+        [
+          "/wiki/Mary_O'Rourke",
+          "/wiki/Marty_Whelan"
+        ]
+      ],
+      [
+        "Westmeath",
+        [
+          "/wiki/Westmeath_GAA"
+        ]
+      ],
+      [
+        "Maryland",
+        [
+          "/wiki/Maryland_GAA"
+        ]
+      ],
+      [
+        "Former TD and Government Minister",
+        []
+      ]
+    ],
+    [
+      [
+        "Ivan Yates",
+        [
+          "/wiki/Ivan_Yates"
+        ]
+      ],
+      [
+        "Wexford",
+        [
+          "/wiki/Wexford_GAA"
+        ]
+      ],
+      [
+        "Taghmon-Camross",
+        []
+      ],
+      [
+        "Bookmaker and Radio Presenter",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "3c671a7a-932b-5eb7-808b-8331edb6e31a",
+    "table_id": "Celebrity_Bainisteoir_0",
+    "title": "Celebrity Bainisteoir",
+    "header": [
+      "Contestant",
+      "County",
+      "Club",
+      "Notes"
+    ],
+    "value": [
+      [
+        [
+          "Baz Ashmawy",
+          [
+            "/wiki/Baz_Ashmawy"
+          ]
+        ],
+        [
+          "Wicklow",
+          [
+            "/wiki/Wicklow_GAA"
+          ]
+        ],
+        [
+          "Ballymanus",
+          []
+        ],
+        [
+          "TV Presenter",
+          []
+        ]
+      ],
+      [
+        [
+          "Glenda Gilson",
+          [
+            "/wiki/Glenda_Gilson"
+          ]
+        ],
+        [
+          "Dublin",
+          [
+            "/wiki/Dublin_GAA"
+          ]
+        ],
+        [
+          "Crumlin",
+          [
+            "/wiki/Crumlin_GAA"
+          ]
+        ],
+        [
+          "TV Presenter and Model",
+          []
+        ]
+      ],
+      [
+        [
+          "Jon Kenny",
+          [
+            "/wiki/Jon_Kenny"
+          ]
+        ],
+        [
+          "Limerick",
+          [
+            "/wiki/Limerick_GAA"
+          ]
+        ],
+        [
+          "Galtee Gaels",
+          []
+        ],
+        [
+          "Comedian , Actor and Musician",
+          []
+        ]
+      ],
+      [
+        [
+          "Gerald Kean",
+          [
+            "/wiki/Gerald_Kean"
+          ]
+        ],
+        [
+          "Cork",
+          [
+            "/wiki/Cork_GAA"
+          ]
+        ],
+        [
+          "Mayfield",
+          [
+            "/wiki/Mayfield_GAA"
+          ]
+        ],
+        [
+          "Solicitor and Bon Vivant",
+          []
+        ]
+      ],
+      [
+        [
+          "Nell McCafferty",
+          [
+            "/wiki/Nell_McCafferty"
+          ]
+        ],
+        [
+          "Derry",
+          [
+            "/wiki/Derry_GAA"
+          ]
+        ],
+        [
+          "St. Mary 's , Faughanvale",
+          [
+            "/wiki/Faughanvale_GAC"
+          ]
+        ],
+        [
+          "Journalist , Playwright , Civil Rights Campaigner and Feminist",
+          []
+        ]
+      ],
+      [
+        [
+          "Aoibhinn Ní Shúilleabháin",
+          [
+            "/wiki/Aoibhinn_Ní_Shúilleabháin"
+          ]
+        ],
+        [
+          "Mayo",
+          [
+            "/wiki/Mayo_GAA"
+          ]
+        ],
+        [
+          "Kiltimagh",
+          []
+        ],
+        [
+          "Ex-Rose of Tralee and TV Presenter",
+          []
+        ]
+      ],
+      [
+        [
+          "Mary O'Rourke / Marty Whelan",
+          [
+            "/wiki/Mary_O'Rourke",
+            "/wiki/Marty_Whelan"
+          ]
+        ],
+        [
+          "Westmeath",
+          [
+            "/wiki/Westmeath_GAA"
+          ]
+        ],
+        [
+          "Maryland",
+          [
+            "/wiki/Maryland_GAA"
+          ]
+        ],
+        [
+          "Former TD and Government Minister",
+          []
+        ]
+      ],
+      [
+        [
+          "Ivan Yates",
+          [
+            "/wiki/Ivan_Yates"
+          ]
+        ],
+        [
+          "Wexford",
+          [
+            "/wiki/Wexford_GAA"
+          ]
+        ],
+        [
+          "Taghmon-Camross",
+          []
+        ],
+        [
+          "Bookmaker and Radio Presenter",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about contestants in the TV show 'Celebrity Bainisteoir,' including their associated counties, clubs, and additional notes about their professions or roles. It appears to document participants and their affiliations within the context of the show, which combines celebrity involvement with Gaelic sports management.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "County",
+    "Club",
+    "Notes"
+  ],
+  "entities": [
+    "Contestant"
+  ]
+}

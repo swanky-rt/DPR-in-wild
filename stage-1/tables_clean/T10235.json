@@ -1,0 +1,293 @@
+{
+  "table_id": "T10235",
+  "uid": "adb0d2c3-69e9-579c-bc1d-c770c1322909",
+  "source": "HybridQA",
+  "source_table_id": "adb0d2c3-69e9-579c-bc1d-c770c1322909",
+  "domain": "HybridQA",
+  "title": "1997 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Gina Gogean ( ROU )",
+        [
+          "/wiki/Gina_Gogean"
+        ]
+      ],
+      [
+        9.8,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Svetlana Khorkina ( RUS )",
+        [
+          "/wiki/Svetlana_Khorkina"
+        ]
+      ],
+      [
+        9.787,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Kui Yuanyuan ( CHN )",
+        [
+          "/wiki/Kui_Yuanyuan"
+        ]
+      ],
+      [
+        9.787,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Ludivine Furnon ( FRA )",
+        [
+          "/wiki/Ludivine_Furnon"
+        ]
+      ],
+      [
+        9.725,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Olga Teslenko ( UKR )",
+        [
+          "/wiki/Olga_Teslenko"
+        ]
+      ],
+      [
+        9.662,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Elvire Teza ( FRA )",
+        [
+          "/wiki/Elvire_Teza"
+        ]
+      ],
+      [
+        9.65,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Kristen Maloney ( USA )",
+        [
+          "/wiki/Kristen_Maloney"
+        ]
+      ],
+      [
+        9.512,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Elena Produnova ( RUS )",
+        [
+          "/wiki/Elena_Produnova"
+        ]
+      ],
+      [
+        9.412,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "adb0d2c3-69e9-579c-bc1d-c770c1322909",
+    "table_id": "1997_World_Artistic_Gymnastics_Championships_10",
+    "title": "1997 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Gina Gogean ( ROU )",
+          [
+            "/wiki/Gina_Gogean"
+          ]
+        ],
+        [
+          9.8,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Svetlana Khorkina ( RUS )",
+          [
+            "/wiki/Svetlana_Khorkina"
+          ]
+        ],
+        [
+          9.787,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Kui Yuanyuan ( CHN )",
+          [
+            "/wiki/Kui_Yuanyuan"
+          ]
+        ],
+        [
+          9.787,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Ludivine Furnon ( FRA )",
+          [
+            "/wiki/Ludivine_Furnon"
+          ]
+        ],
+        [
+          9.725,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Olga Teslenko ( UKR )",
+          [
+            "/wiki/Olga_Teslenko"
+          ]
+        ],
+        [
+          9.662,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Elvire Teza ( FRA )",
+          [
+            "/wiki/Elvire_Teza"
+          ]
+        ],
+        [
+          9.65,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Kristen Maloney ( USA )",
+          [
+            "/wiki/Kristen_Maloney"
+          ]
+        ],
+        [
+          9.512,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Elena Produnova ( RUS )",
+          [
+            "/wiki/Elena_Produnova"
+          ]
+        ],
+        [
+          9.412,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the rankings and scores of gymnasts at the 1997 World Artistic Gymnastics Championships. It includes the rank, name of the gymnast, and their total score. The table is likely used to summarize performance outcomes in the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

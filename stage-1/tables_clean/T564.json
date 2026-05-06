@@ -1,0 +1,309 @@
+{
+  "table_id": "T564",
+  "uid": "88593165-cefb-5ccf-82b8-f811fbab758d",
+  "source": "HybridQA",
+  "source_table_id": "88593165-cefb-5ccf-82b8-f811fbab758d",
+  "domain": "HybridQA",
+  "title": "Athletics at the 2007 Games of the Small States of Europe",
+  "columns": [
+    "Name",
+    "Nationality",
+    "Time"
+  ],
+  "rows": [
+    [
+      [
+        "Daniel Abenzoar-Foulé",
+        [
+          "/wiki/Daniel_Abenzoar-Foulé"
+        ]
+      ],
+      [
+        "Luxembourg",
+        [
+          "/wiki/Luxembourg"
+        ]
+      ],
+      [
+        21.42,
+        []
+      ]
+    ],
+    [
+      [
+        "Ioannis Giorgallis",
+        []
+      ],
+      [
+        "Cyprus",
+        [
+          "/wiki/Cyprus"
+        ]
+      ],
+      [
+        21.66,
+        []
+      ]
+    ],
+    [
+      [
+        "Sveinn Elías Elíasson",
+        []
+      ],
+      [
+        "Iceland",
+        [
+          "/wiki/Iceland"
+        ]
+      ],
+      [
+        21.83,
+        []
+      ]
+    ],
+    [
+      [
+        "José Aguilera",
+        [
+          "/wiki/José_Aguilera"
+        ]
+      ],
+      [
+        "Andorra",
+        [
+          "/wiki/Andorra"
+        ]
+      ],
+      [
+        21.91,
+        []
+      ]
+    ],
+    [
+      [
+        "Darren Gilford",
+        [
+          "/wiki/Darren_Gilford"
+        ]
+      ],
+      [
+        "Malta",
+        [
+          "/wiki/Malta"
+        ]
+      ],
+      [
+        22.11,
+        []
+      ]
+    ],
+    [
+      [
+        "Arnór Jónsson",
+        []
+      ],
+      [
+        "Iceland",
+        [
+          "/wiki/Iceland"
+        ]
+      ],
+      [
+        22.87,
+        []
+      ]
+    ],
+    [
+      [
+        "Mario Bonello",
+        [
+          "/wiki/Mario_Bonello"
+        ]
+      ],
+      [
+        "Malta",
+        [
+          "/wiki/Malta"
+        ]
+      ],
+      [
+        "DQ",
+        []
+      ]
+    ],
+    [
+      [
+        "Andreas Pafitis",
+        []
+      ],
+      [
+        "Cyprus",
+        [
+          "/wiki/Cyprus"
+        ]
+      ],
+      [
+        "DNS",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "88593165-cefb-5ccf-82b8-f811fbab758d",
+    "table_id": "Athletics_at_the_2007_Games_of_the_Small_States_of_Europe_2",
+    "title": "Athletics at the 2007 Games of the Small States of Europe",
+    "header": [
+      "Name",
+      "Nationality",
+      "Time"
+    ],
+    "value": [
+      [
+        [
+          "Daniel Abenzoar-Foulé",
+          [
+            "/wiki/Daniel_Abenzoar-Foulé"
+          ]
+        ],
+        [
+          "Luxembourg",
+          [
+            "/wiki/Luxembourg"
+          ]
+        ],
+        [
+          21.42,
+          []
+        ]
+      ],
+      [
+        [
+          "Ioannis Giorgallis",
+          []
+        ],
+        [
+          "Cyprus",
+          [
+            "/wiki/Cyprus"
+          ]
+        ],
+        [
+          21.66,
+          []
+        ]
+      ],
+      [
+        [
+          "Sveinn Elías Elíasson",
+          []
+        ],
+        [
+          "Iceland",
+          [
+            "/wiki/Iceland"
+          ]
+        ],
+        [
+          21.83,
+          []
+        ]
+      ],
+      [
+        [
+          "José Aguilera",
+          [
+            "/wiki/José_Aguilera"
+          ]
+        ],
+        [
+          "Andorra",
+          [
+            "/wiki/Andorra"
+          ]
+        ],
+        [
+          21.91,
+          []
+        ]
+      ],
+      [
+        [
+          "Darren Gilford",
+          [
+            "/wiki/Darren_Gilford"
+          ]
+        ],
+        [
+          "Malta",
+          [
+            "/wiki/Malta"
+          ]
+        ],
+        [
+          22.11,
+          []
+        ]
+      ],
+      [
+        [
+          "Arnór Jónsson",
+          []
+        ],
+        [
+          "Iceland",
+          [
+            "/wiki/Iceland"
+          ]
+        ],
+        [
+          22.87,
+          []
+        ]
+      ],
+      [
+        [
+          "Mario Bonello",
+          [
+            "/wiki/Mario_Bonello"
+          ]
+        ],
+        [
+          "Malta",
+          [
+            "/wiki/Malta"
+          ]
+        ],
+        [
+          "DQ",
+          []
+        ]
+      ],
+      [
+        [
+          "Andreas Pafitis",
+          []
+        ],
+        [
+          "Cyprus",
+          [
+            "/wiki/Cyprus"
+          ]
+        ],
+        [
+          "DNS",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about athletes who participated in the athletics events at the 2007 Games of the Small States of Europe. It includes details about their names, nationalities, and their recorded times in specific events. The table is likely used to document and analyze performance results for this competition.",
+  "numeric_columns": [
+    "Time"
+  ],
+  "categorical_columns": [
+    "Nationality"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

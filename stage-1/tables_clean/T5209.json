@@ -1,0 +1,463 @@
+{
+  "table_id": "T5209",
+  "uid": "13457528-8c78-55df-aa34-3a3af4423756",
+  "source": "HybridQA",
+  "source_table_id": "13457528-8c78-55df-aa34-3a3af4423756",
+  "domain": "HybridQA",
+  "title": "Baloncesto Superior Nacional",
+  "columns": [
+    "Team",
+    "Home city",
+    "Arena",
+    "Capacity"
+  ],
+  "rows": [
+    [
+      [
+        "Cariduros de Fajardo",
+        [
+          "/wiki/Cariduros_de_Fajardo"
+        ]
+      ],
+      [
+        "Fajardo , Puerto Rico",
+        [
+          "/wiki/Fajardo,_Puerto_Rico"
+        ]
+      ],
+      [
+        "Tomas Dones Coliseum",
+        []
+      ],
+      [
+        "6,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Leones de Ponce",
+        [
+          "/wiki/Leones_de_Ponce_(basketball)"
+        ]
+      ],
+      [
+        "Ponce , Puerto Rico",
+        [
+          "/wiki/Ponce,_Puerto_Rico"
+        ]
+      ],
+      [
+        "Juan Pachín Vicéns Auditorium",
+        [
+          "/wiki/Juan_Pachín_Vicéns_Auditorium"
+        ]
+      ],
+      [
+        "8,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Atléticos de San Germán",
+        [
+          "/wiki/Atléticos_de_San_Germán"
+        ]
+      ],
+      [
+        "San Germán , Puerto Rico",
+        [
+          "/wiki/San_Germán,_Puerto_Rico"
+        ]
+      ],
+      [
+        "Arquelio Torres Ramírez Coliseum",
+        [
+          "/wiki/Arquelio_Torres_Ramírez_Coliseum"
+        ]
+      ],
+      [
+        "5,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Vaqueros de Bayamón",
+        [
+          "/wiki/Vaqueros_de_Bayamón"
+        ]
+      ],
+      [
+        "Bayamón , Puerto Rico",
+        [
+          "/wiki/Bayamón,_Puerto_Rico"
+        ]
+      ],
+      [
+        "Ruben Rodriguez Coliseum",
+        [
+          "/wiki/Ruben_Rodriguez_Coliseum"
+        ]
+      ],
+      [
+        "9,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Santeros de Aguada",
+        [
+          "/wiki/Santeros_de_Aguada"
+        ]
+      ],
+      [
+        "Aguada , Puerto Rico",
+        [
+          "/wiki/Aguada,_Puerto_Rico"
+        ]
+      ],
+      [
+        "Ismael Delgado Coliseum",
+        []
+      ],
+      [
+        "7,500",
+        []
+      ]
+    ],
+    [
+      [
+        "Piratas de Quebradillas",
+        [
+          "/wiki/Piratas_de_Quebradillas"
+        ]
+      ],
+      [
+        "Quebradillas , Puerto Rico",
+        [
+          "/wiki/Quebradillas,_Puerto_Rico"
+        ]
+      ],
+      [
+        "Raymond Dalmau Coliseum",
+        [
+          "/wiki/Raymond_Dalmau_Coliseum"
+        ]
+      ],
+      [
+        "5,500",
+        []
+      ]
+    ],
+    [
+      [
+        "Capitanes de Arecibo",
+        [
+          "/wiki/Capitanes_de_Arecibo"
+        ]
+      ],
+      [
+        "Arecibo , Puerto Rico",
+        [
+          "/wiki/Arecibo,_Puerto_Rico"
+        ]
+      ],
+      [
+        "Manuel Iguina Coliseum",
+        [
+          "/wiki/Manuel_Iguina_Coliseum"
+        ]
+      ],
+      [
+        "12,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Indios de Mayagüez",
+        [
+          "/wiki/Indios_de_Mayagüez_(basketball)"
+        ]
+      ],
+      [
+        "Mayagüez , Puerto Rico",
+        [
+          "/wiki/Mayagüez,_Puerto_Rico"
+        ]
+      ],
+      [
+        "Palacio de Recreación y Deportes",
+        [
+          "/wiki/Palacio_de_Recreación_y_Deportes"
+        ]
+      ],
+      [
+        "5,500",
+        []
+      ]
+    ],
+    [
+      [
+        "Brujos de Guayama",
+        [
+          "/wiki/Brujos_de_Guayama"
+        ]
+      ],
+      [
+        "Guayama , Puerto Rico",
+        [
+          "/wiki/Guayama,_Puerto_Rico"
+        ]
+      ],
+      [
+        "Dr. Roque Nido Stella Coliseum",
+        []
+      ],
+      [
+        "3,500",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "13457528-8c78-55df-aa34-3a3af4423756",
+    "table_id": "Baloncesto_Superior_Nacional_0",
+    "title": "Baloncesto Superior Nacional",
+    "header": [
+      "Team",
+      "Home city",
+      "Arena",
+      "Capacity"
+    ],
+    "value": [
+      [
+        [
+          "Cariduros de Fajardo",
+          [
+            "/wiki/Cariduros_de_Fajardo"
+          ]
+        ],
+        [
+          "Fajardo , Puerto Rico",
+          [
+            "/wiki/Fajardo,_Puerto_Rico"
+          ]
+        ],
+        [
+          "Tomas Dones Coliseum",
+          []
+        ],
+        [
+          "6,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Leones de Ponce",
+          [
+            "/wiki/Leones_de_Ponce_(basketball)"
+          ]
+        ],
+        [
+          "Ponce , Puerto Rico",
+          [
+            "/wiki/Ponce,_Puerto_Rico"
+          ]
+        ],
+        [
+          "Juan Pachín Vicéns Auditorium",
+          [
+            "/wiki/Juan_Pachín_Vicéns_Auditorium"
+          ]
+        ],
+        [
+          "8,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Atléticos de San Germán",
+          [
+            "/wiki/Atléticos_de_San_Germán"
+          ]
+        ],
+        [
+          "San Germán , Puerto Rico",
+          [
+            "/wiki/San_Germán,_Puerto_Rico"
+          ]
+        ],
+        [
+          "Arquelio Torres Ramírez Coliseum",
+          [
+            "/wiki/Arquelio_Torres_Ramírez_Coliseum"
+          ]
+        ],
+        [
+          "5,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Vaqueros de Bayamón",
+          [
+            "/wiki/Vaqueros_de_Bayamón"
+          ]
+        ],
+        [
+          "Bayamón , Puerto Rico",
+          [
+            "/wiki/Bayamón,_Puerto_Rico"
+          ]
+        ],
+        [
+          "Ruben Rodriguez Coliseum",
+          [
+            "/wiki/Ruben_Rodriguez_Coliseum"
+          ]
+        ],
+        [
+          "9,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Santeros de Aguada",
+          [
+            "/wiki/Santeros_de_Aguada"
+          ]
+        ],
+        [
+          "Aguada , Puerto Rico",
+          [
+            "/wiki/Aguada,_Puerto_Rico"
+          ]
+        ],
+        [
+          "Ismael Delgado Coliseum",
+          []
+        ],
+        [
+          "7,500",
+          []
+        ]
+      ],
+      [
+        [
+          "Piratas de Quebradillas",
+          [
+            "/wiki/Piratas_de_Quebradillas"
+          ]
+        ],
+        [
+          "Quebradillas , Puerto Rico",
+          [
+            "/wiki/Quebradillas,_Puerto_Rico"
+          ]
+        ],
+        [
+          "Raymond Dalmau Coliseum",
+          [
+            "/wiki/Raymond_Dalmau_Coliseum"
+          ]
+        ],
+        [
+          "5,500",
+          []
+        ]
+      ],
+      [
+        [
+          "Capitanes de Arecibo",
+          [
+            "/wiki/Capitanes_de_Arecibo"
+          ]
+        ],
+        [
+          "Arecibo , Puerto Rico",
+          [
+            "/wiki/Arecibo,_Puerto_Rico"
+          ]
+        ],
+        [
+          "Manuel Iguina Coliseum",
+          [
+            "/wiki/Manuel_Iguina_Coliseum"
+          ]
+        ],
+        [
+          "12,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Indios de Mayagüez",
+          [
+            "/wiki/Indios_de_Mayagüez_(basketball)"
+          ]
+        ],
+        [
+          "Mayagüez , Puerto Rico",
+          [
+            "/wiki/Mayagüez,_Puerto_Rico"
+          ]
+        ],
+        [
+          "Palacio de Recreación y Deportes",
+          [
+            "/wiki/Palacio_de_Recreación_y_Deportes"
+          ]
+        ],
+        [
+          "5,500",
+          []
+        ]
+      ],
+      [
+        [
+          "Brujos de Guayama",
+          [
+            "/wiki/Brujos_de_Guayama"
+          ]
+        ],
+        [
+          "Guayama , Puerto Rico",
+          [
+            "/wiki/Guayama,_Puerto_Rico"
+          ]
+        ],
+        [
+          "Dr. Roque Nido Stella Coliseum",
+          []
+        ],
+        [
+          "3,500",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about teams in the Baloncesto Superior Nacional, a basketball league. It includes details about each team's home city, arena, and the seating capacity of the arena. The table serves as a reference for understanding the geographical and infrastructural aspects of the league's teams.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "Team",
+    "Home city",
+    "Arena"
+  ],
+  "entities": [
+    "Team",
+    "Home city",
+    "Arena"
+  ]
+}

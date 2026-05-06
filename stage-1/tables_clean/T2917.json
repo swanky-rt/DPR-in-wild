@@ -1,0 +1,459 @@
+{
+  "table_id": "T2917",
+  "uid": "447bf40a-a328-51d3-8ae7-b834dd9c62a5",
+  "source": "HybridQA",
+  "source_table_id": "447bf40a-a328-51d3-8ae7-b834dd9c62a5",
+  "domain": "HybridQA",
+  "title": "2013 K League Challenge",
+  "columns": [
+    "Team",
+    "City",
+    "State",
+    "Home venue",
+    "Capacity"
+  ],
+  "rows": [
+    [
+      [
+        "FC Anyang",
+        [
+          "/wiki/FC_Anyang"
+        ]
+      ],
+      [
+        "Anyang",
+        [
+          "/wiki/Anyang,_Gyeonggi"
+        ]
+      ],
+      [
+        "Gyeonggi",
+        [
+          "/wiki/Gyeonggi_Province"
+        ]
+      ],
+      [
+        "Anyang Stadium",
+        [
+          "/wiki/Anyang_Sports_Complex"
+        ]
+      ],
+      [
+        "18,216",
+        []
+      ]
+    ],
+    [
+      [
+        "Bucheon FC 1995",
+        [
+          "/wiki/Bucheon_FC_1995"
+        ]
+      ],
+      [
+        "Bucheon",
+        [
+          "/wiki/Bucheon"
+        ]
+      ],
+      [
+        "Gyeonggi",
+        [
+          "/wiki/Gyeonggi_Province"
+        ]
+      ],
+      [
+        "Bucheon Stadium",
+        [
+          "/wiki/Bucheon_Sports_Complex"
+        ]
+      ],
+      [
+        "34,545",
+        []
+      ]
+    ],
+    [
+      [
+        "Chungju Hummel FC",
+        [
+          "/wiki/Chungju_Hummel_FC"
+        ]
+      ],
+      [
+        "Chungju",
+        [
+          "/wiki/Chungju"
+        ]
+      ],
+      [
+        "Chungbuk",
+        [
+          "/wiki/North_Chungcheong_Province"
+        ]
+      ],
+      [
+        "Chungju Stadium",
+        [
+          "/wiki/Chungju_Stadium"
+        ]
+      ],
+      [
+        "15,000",
+        []
+      ]
+    ],
+    [
+      [
+        "Goyang Hi FC",
+        [
+          "/wiki/Goyang_Hi_FC"
+        ]
+      ],
+      [
+        "Goyang",
+        [
+          "/wiki/Goyang"
+        ]
+      ],
+      [
+        "Gyeonggi",
+        [
+          "/wiki/Gyeonggi_Province"
+        ]
+      ],
+      [
+        "Goyang Stadium",
+        [
+          "/wiki/Goyang_Stadium"
+        ]
+      ],
+      [
+        "41,311",
+        []
+      ]
+    ],
+    [
+      [
+        "Gwangju FC",
+        [
+          "/wiki/Gwangju_FC"
+        ]
+      ],
+      [
+        "Gwangju",
+        [
+          "/wiki/Gwangju"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "Gwangju World Cup Stadium",
+        [
+          "/wiki/Gwangju_World_Cup_Stadium"
+        ]
+      ],
+      [
+        "44,118",
+        []
+      ]
+    ],
+    [
+      [
+        "Sangju Sangmu",
+        [
+          "/wiki/Sangju_Sangmu_FC"
+        ]
+      ],
+      [
+        "Sangju",
+        [
+          "/wiki/Sangju"
+        ]
+      ],
+      [
+        "Gyeongbuk",
+        [
+          "/wiki/North_Gyeongsang_Province"
+        ]
+      ],
+      [
+        "Sangju Civic Stadium",
+        [
+          "/wiki/Sangju_Civic_Stadium"
+        ]
+      ],
+      [
+        "15,042",
+        []
+      ]
+    ],
+    [
+      [
+        "Suwon FC",
+        [
+          "/wiki/Suwon_FC"
+        ]
+      ],
+      [
+        "Suwon",
+        [
+          "/wiki/Suwon"
+        ]
+      ],
+      [
+        "Gyeonggi",
+        [
+          "/wiki/Gyeonggi_Province"
+        ]
+      ],
+      [
+        "Suwon Stadium",
+        [
+          "/wiki/Suwon_Sports_Complex"
+        ]
+      ],
+      [
+        "24,670",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "447bf40a-a328-51d3-8ae7-b834dd9c62a5",
+    "table_id": "2013_K_League_Challenge_0",
+    "title": "2013 K League Challenge",
+    "header": [
+      "Team",
+      "City",
+      "State",
+      "Home venue",
+      "Capacity"
+    ],
+    "value": [
+      [
+        [
+          "FC Anyang",
+          [
+            "/wiki/FC_Anyang"
+          ]
+        ],
+        [
+          "Anyang",
+          [
+            "/wiki/Anyang,_Gyeonggi"
+          ]
+        ],
+        [
+          "Gyeonggi",
+          [
+            "/wiki/Gyeonggi_Province"
+          ]
+        ],
+        [
+          "Anyang Stadium",
+          [
+            "/wiki/Anyang_Sports_Complex"
+          ]
+        ],
+        [
+          "18,216",
+          []
+        ]
+      ],
+      [
+        [
+          "Bucheon FC 1995",
+          [
+            "/wiki/Bucheon_FC_1995"
+          ]
+        ],
+        [
+          "Bucheon",
+          [
+            "/wiki/Bucheon"
+          ]
+        ],
+        [
+          "Gyeonggi",
+          [
+            "/wiki/Gyeonggi_Province"
+          ]
+        ],
+        [
+          "Bucheon Stadium",
+          [
+            "/wiki/Bucheon_Sports_Complex"
+          ]
+        ],
+        [
+          "34,545",
+          []
+        ]
+      ],
+      [
+        [
+          "Chungju Hummel FC",
+          [
+            "/wiki/Chungju_Hummel_FC"
+          ]
+        ],
+        [
+          "Chungju",
+          [
+            "/wiki/Chungju"
+          ]
+        ],
+        [
+          "Chungbuk",
+          [
+            "/wiki/North_Chungcheong_Province"
+          ]
+        ],
+        [
+          "Chungju Stadium",
+          [
+            "/wiki/Chungju_Stadium"
+          ]
+        ],
+        [
+          "15,000",
+          []
+        ]
+      ],
+      [
+        [
+          "Goyang Hi FC",
+          [
+            "/wiki/Goyang_Hi_FC"
+          ]
+        ],
+        [
+          "Goyang",
+          [
+            "/wiki/Goyang"
+          ]
+        ],
+        [
+          "Gyeonggi",
+          [
+            "/wiki/Gyeonggi_Province"
+          ]
+        ],
+        [
+          "Goyang Stadium",
+          [
+            "/wiki/Goyang_Stadium"
+          ]
+        ],
+        [
+          "41,311",
+          []
+        ]
+      ],
+      [
+        [
+          "Gwangju FC",
+          [
+            "/wiki/Gwangju_FC"
+          ]
+        ],
+        [
+          "Gwangju",
+          [
+            "/wiki/Gwangju"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "Gwangju World Cup Stadium",
+          [
+            "/wiki/Gwangju_World_Cup_Stadium"
+          ]
+        ],
+        [
+          "44,118",
+          []
+        ]
+      ],
+      [
+        [
+          "Sangju Sangmu",
+          [
+            "/wiki/Sangju_Sangmu_FC"
+          ]
+        ],
+        [
+          "Sangju",
+          [
+            "/wiki/Sangju"
+          ]
+        ],
+        [
+          "Gyeongbuk",
+          [
+            "/wiki/North_Gyeongsang_Province"
+          ]
+        ],
+        [
+          "Sangju Civic Stadium",
+          [
+            "/wiki/Sangju_Civic_Stadium"
+          ]
+        ],
+        [
+          "15,042",
+          []
+        ]
+      ],
+      [
+        [
+          "Suwon FC",
+          [
+            "/wiki/Suwon_FC"
+          ]
+        ],
+        [
+          "Suwon",
+          [
+            "/wiki/Suwon"
+          ]
+        ],
+        [
+          "Gyeonggi",
+          [
+            "/wiki/Gyeonggi_Province"
+          ]
+        ],
+        [
+          "Suwon Stadium",
+          [
+            "/wiki/Suwon_Sports_Complex"
+          ]
+        ],
+        [
+          "24,670",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about teams participating in the 2013 K League Challenge, including their locations, home venues, and stadium capacities. It serves as an overview of the league's teams and their associated details. The data combines geographic, organizational, and infrastructural aspects of the league.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "State"
+  ],
+  "entities": [
+    "Team",
+    "City",
+    "Home venue"
+  ]
+}

@@ -1,0 +1,519 @@
+{
+  "table_id": "T1337",
+  "uid": "a57fb147-c583-5474-9706-1671708b60be",
+  "source": "HybridQA",
+  "source_table_id": "a57fb147-c583-5474-9706-1671708b60be",
+  "domain": "HybridQA",
+  "title": "List of sponsored sports venues",
+  "columns": [
+    "Name",
+    "Location",
+    "Type",
+    "Main occupant"
+  ],
+  "rows": [
+    [
+      [
+        "Estadio Akron",
+        [
+          "/wiki/Estadio_Akron"
+        ]
+      ],
+      [
+        "Guadalajara",
+        [
+          "/wiki/Guadalajara"
+        ]
+      ],
+      [
+        "Football stadium",
+        []
+      ],
+      [
+        "Guadalajara",
+        [
+          "/wiki/C.D._Guadalajara"
+        ]
+      ]
+    ],
+    [
+      [
+        "Estadio Azul",
+        [
+          "/wiki/Estadio_Azul"
+        ]
+      ],
+      [
+        "Mexico City",
+        [
+          "/wiki/Mexico_City"
+        ]
+      ],
+      [
+        "Football stadium",
+        []
+      ],
+      [
+        "Cruz Azul",
+        [
+          "/wiki/Cruz_Azul"
+        ]
+      ]
+    ],
+    [
+      [
+        "Estadio Banorte",
+        [
+          "/wiki/Estadio_Banorte"
+        ]
+      ],
+      [
+        "Culiacán",
+        [
+          "/wiki/Culiacán"
+        ]
+      ],
+      [
+        "Football stadium",
+        []
+      ],
+      [
+        "Dorados de Sinaloa",
+        [
+          "/wiki/Dorados_de_Sinaloa"
+        ]
+      ]
+    ],
+    [
+      [
+        "Estadio Caliente",
+        [
+          "/wiki/Estadio_Caliente"
+        ]
+      ],
+      [
+        "Tijuana",
+        [
+          "/wiki/Tijuana"
+        ]
+      ],
+      [
+        "Football stadium",
+        []
+      ],
+      [
+        "Tijuana",
+        [
+          "/wiki/Club_Tijuana"
+        ]
+      ]
+    ],
+    [
+      [
+        "Estadio de Beisbol Calimax",
+        [
+          "/wiki/Estadio_de_Beisbol_Calimax"
+        ]
+      ],
+      [
+        "Tijuana",
+        [
+          "/wiki/Tijuana"
+        ]
+      ],
+      [
+        "Baseball park",
+        []
+      ],
+      [
+        "Tijuana Potros",
+        [
+          "/wiki/Tijuana_Cimarrones"
+        ]
+      ]
+    ],
+    [
+      [
+        "Estadio Casas GEO",
+        [
+          "/wiki/Estadio_Casas_GEO"
+        ]
+      ],
+      [
+        "Mexicali",
+        [
+          "/wiki/Mexicali"
+        ]
+      ],
+      [
+        "Baseball park",
+        []
+      ],
+      [
+        "Águilas de Mexicali",
+        [
+          "/wiki/Águilas_de_Mexicali"
+        ]
+      ]
+    ],
+    [
+      [
+        "Estadio Corona",
+        [
+          "/wiki/Estadio_Corona"
+        ]
+      ],
+      [
+        "Torreón",
+        [
+          "/wiki/Torreón"
+        ]
+      ],
+      [
+        "Football stadium",
+        []
+      ],
+      [
+        "Santos Laguna",
+        [
+          "/wiki/Santos_Laguna"
+        ]
+      ]
+    ],
+    [
+      [
+        "Estadio Cuauhtémoc",
+        [
+          "/wiki/Estadio_Cuauhtémoc"
+        ]
+      ],
+      [
+        "Puebla",
+        [
+          "/wiki/Puebla_(city)"
+        ]
+      ],
+      [
+        "Football stadium",
+        []
+      ],
+      [
+        "Puebla",
+        [
+          "/wiki/Puebla_F.C."
+        ]
+      ]
+    ],
+    [
+      [
+        "Estadio Victoria",
+        [
+          "/wiki/Estadio_Victoria"
+        ]
+      ],
+      [
+        "Aguascalientes",
+        [
+          "/wiki/Aguascalientes_City"
+        ]
+      ],
+      [
+        "Football stadium",
+        []
+      ],
+      [
+        "Necaxa",
+        [
+          "/wiki/Club_Necaxa"
+        ]
+      ]
+    ],
+    [
+      [
+        "Foro Sol",
+        [
+          "/wiki/Foro_Sol"
+        ]
+      ],
+      [
+        "Mexico City",
+        [
+          "/wiki/Mexico_City"
+        ]
+      ],
+      [
+        "Baseball park",
+        []
+      ],
+      [
+        "Diablos Rojos del México",
+        [
+          "/wiki/Diablos_Rojos_del_México"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "a57fb147-c583-5474-9706-1671708b60be",
+    "table_id": "List_of_sports_venues_with_sole_naming_rights_21",
+    "title": "List of sponsored sports venues",
+    "header": [
+      "Name",
+      "Location",
+      "Type",
+      "Main occupant"
+    ],
+    "value": [
+      [
+        [
+          "Estadio Akron",
+          [
+            "/wiki/Estadio_Akron"
+          ]
+        ],
+        [
+          "Guadalajara",
+          [
+            "/wiki/Guadalajara"
+          ]
+        ],
+        [
+          "Football stadium",
+          []
+        ],
+        [
+          "Guadalajara",
+          [
+            "/wiki/C.D._Guadalajara"
+          ]
+        ]
+      ],
+      [
+        [
+          "Estadio Azul",
+          [
+            "/wiki/Estadio_Azul"
+          ]
+        ],
+        [
+          "Mexico City",
+          [
+            "/wiki/Mexico_City"
+          ]
+        ],
+        [
+          "Football stadium",
+          []
+        ],
+        [
+          "Cruz Azul",
+          [
+            "/wiki/Cruz_Azul"
+          ]
+        ]
+      ],
+      [
+        [
+          "Estadio Banorte",
+          [
+            "/wiki/Estadio_Banorte"
+          ]
+        ],
+        [
+          "Culiacán",
+          [
+            "/wiki/Culiacán"
+          ]
+        ],
+        [
+          "Football stadium",
+          []
+        ],
+        [
+          "Dorados de Sinaloa",
+          [
+            "/wiki/Dorados_de_Sinaloa"
+          ]
+        ]
+      ],
+      [
+        [
+          "Estadio Caliente",
+          [
+            "/wiki/Estadio_Caliente"
+          ]
+        ],
+        [
+          "Tijuana",
+          [
+            "/wiki/Tijuana"
+          ]
+        ],
+        [
+          "Football stadium",
+          []
+        ],
+        [
+          "Tijuana",
+          [
+            "/wiki/Club_Tijuana"
+          ]
+        ]
+      ],
+      [
+        [
+          "Estadio de Beisbol Calimax",
+          [
+            "/wiki/Estadio_de_Beisbol_Calimax"
+          ]
+        ],
+        [
+          "Tijuana",
+          [
+            "/wiki/Tijuana"
+          ]
+        ],
+        [
+          "Baseball park",
+          []
+        ],
+        [
+          "Tijuana Potros",
+          [
+            "/wiki/Tijuana_Cimarrones"
+          ]
+        ]
+      ],
+      [
+        [
+          "Estadio Casas GEO",
+          [
+            "/wiki/Estadio_Casas_GEO"
+          ]
+        ],
+        [
+          "Mexicali",
+          [
+            "/wiki/Mexicali"
+          ]
+        ],
+        [
+          "Baseball park",
+          []
+        ],
+        [
+          "Águilas de Mexicali",
+          [
+            "/wiki/Águilas_de_Mexicali"
+          ]
+        ]
+      ],
+      [
+        [
+          "Estadio Corona",
+          [
+            "/wiki/Estadio_Corona"
+          ]
+        ],
+        [
+          "Torreón",
+          [
+            "/wiki/Torreón"
+          ]
+        ],
+        [
+          "Football stadium",
+          []
+        ],
+        [
+          "Santos Laguna",
+          [
+            "/wiki/Santos_Laguna"
+          ]
+        ]
+      ],
+      [
+        [
+          "Estadio Cuauhtémoc",
+          [
+            "/wiki/Estadio_Cuauhtémoc"
+          ]
+        ],
+        [
+          "Puebla",
+          [
+            "/wiki/Puebla_(city)"
+          ]
+        ],
+        [
+          "Football stadium",
+          []
+        ],
+        [
+          "Puebla",
+          [
+            "/wiki/Puebla_F.C."
+          ]
+        ]
+      ],
+      [
+        [
+          "Estadio Victoria",
+          [
+            "/wiki/Estadio_Victoria"
+          ]
+        ],
+        [
+          "Aguascalientes",
+          [
+            "/wiki/Aguascalientes_City"
+          ]
+        ],
+        [
+          "Football stadium",
+          []
+        ],
+        [
+          "Necaxa",
+          [
+            "/wiki/Club_Necaxa"
+          ]
+        ]
+      ],
+      [
+        [
+          "Foro Sol",
+          [
+            "/wiki/Foro_Sol"
+          ]
+        ],
+        [
+          "Mexico City",
+          [
+            "/wiki/Mexico_City"
+          ]
+        ],
+        [
+          "Baseball park",
+          []
+        ],
+        [
+          "Diablos Rojos del México",
+          [
+            "/wiki/Diablos_Rojos_del_México"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table lists sponsored sports venues, providing information about their names, locations, types, and main occupants. It is intended to catalog venues associated with specific sponsors and their primary uses or affiliations. The table is useful for understanding the relationship between sports venues and their occupants or sponsors.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Type"
+  ],
+  "entities": [
+    "Name",
+    "Location",
+    "Main occupant"
+  ]
+}

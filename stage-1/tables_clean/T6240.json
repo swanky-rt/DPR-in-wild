@@ -1,0 +1,567 @@
+{
+  "table_id": "T6240",
+  "uid": "3ec4c8f3-5f70-5d9b-b2d7-9331f05edf98",
+  "source": "HybridQA",
+  "source_table_id": "3ec4c8f3-5f70-5d9b-b2d7-9331f05edf98",
+  "domain": "HybridQA",
+  "title": "Preseli transmitting station",
+  "columns": [
+    "Frequency",
+    "UHF",
+    "kW",
+    "Service",
+    "System"
+  ],
+  "rows": [
+    [
+      [
+        "599.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        37,
+        []
+      ],
+      [
+        100,
+        []
+      ],
+      [
+        "Channel 5",
+        [
+          "/wiki/Channel_5_(UK)"
+        ]
+      ],
+      [
+        "PAL System I",
+        [
+          "/wiki/PAL"
+        ]
+      ]
+    ],
+    [
+      [
+        "618.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        39,
+        []
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "SDN ( Mux A )",
+        [
+          "/wiki/S4C_Digital_Networks"
+        ]
+      ],
+      [
+        "DVB-T",
+        [
+          "/wiki/DVB-T"
+        ]
+      ]
+    ],
+    [
+      [
+        "623.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        40,
+        []
+      ],
+      [
+        100,
+        []
+      ],
+      [
+        "ITV1 Wales",
+        [
+          "/wiki/ITV_Wales_&_West"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "641.833 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "42-",
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "BBC ( Mux B )",
+        [
+          "/wiki/BBC"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "650.166 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "43+",
+        []
+      ],
+      [
+        20,
+        []
+      ],
+      [
+        "BBC A",
+        [
+          "/wiki/BBC"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "665.833 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "45-",
+        []
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "Arqiva ( Mux C )",
+        [
+          "/wiki/Arqiva"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "671.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        46,
+        []
+      ],
+      [
+        100,
+        []
+      ],
+      [
+        "BBC One Wales",
+        [
+          "/wiki/BBC_One_Wales"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "697.833 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "49-",
+        []
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "Arqiva ( Mux D )",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "703.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        50,
+        []
+      ],
+      [
+        100,
+        []
+      ],
+      [
+        "S4C",
+        [
+          "/wiki/S4C"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "714.166 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "51+",
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "Digital 3 & 4 ( Mux 2 )",
+        [
+          "/wiki/Digital_3&4"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "3ec4c8f3-5f70-5d9b-b2d7-9331f05edf98",
+    "table_id": "Preseli_transmitting_station_6",
+    "title": "Preseli transmitting station",
+    "header": [
+      "Frequency",
+      "UHF",
+      "kW",
+      "Service",
+      "System"
+    ],
+    "value": [
+      [
+        [
+          "599.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          37,
+          []
+        ],
+        [
+          100,
+          []
+        ],
+        [
+          "Channel 5",
+          [
+            "/wiki/Channel_5_(UK)"
+          ]
+        ],
+        [
+          "PAL System I",
+          [
+            "/wiki/PAL"
+          ]
+        ]
+      ],
+      [
+        [
+          "618.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          39,
+          []
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "SDN ( Mux A )",
+          [
+            "/wiki/S4C_Digital_Networks"
+          ]
+        ],
+        [
+          "DVB-T",
+          [
+            "/wiki/DVB-T"
+          ]
+        ]
+      ],
+      [
+        [
+          "623.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          40,
+          []
+        ],
+        [
+          100,
+          []
+        ],
+        [
+          "ITV1 Wales",
+          [
+            "/wiki/ITV_Wales_&_West"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "641.833 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "42-",
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "BBC ( Mux B )",
+          [
+            "/wiki/BBC"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "650.166 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "43+",
+          []
+        ],
+        [
+          20,
+          []
+        ],
+        [
+          "BBC A",
+          [
+            "/wiki/BBC"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "665.833 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "45-",
+          []
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "Arqiva ( Mux C )",
+          [
+            "/wiki/Arqiva"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "671.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          46,
+          []
+        ],
+        [
+          100,
+          []
+        ],
+        [
+          "BBC One Wales",
+          [
+            "/wiki/BBC_One_Wales"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "697.833 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "49-",
+          []
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "Arqiva ( Mux D )",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "703.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          50,
+          []
+        ],
+        [
+          100,
+          []
+        ],
+        [
+          "S4C",
+          [
+            "/wiki/S4C"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "714.166 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "51+",
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "Digital 3 & 4 ( Mux 2 )",
+          [
+            "/wiki/Digital_3&4"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides technical details about the Preseli transmitting station, focusing on broadcast frequencies, power levels, and associated services. It is likely intended for understanding or managing transmission parameters and systems used for broadcasting. The table includes both numerical data and categorical classifications related to transmission technology and services.",
+  "numeric_columns": [
+    "UHF",
+    "kW"
+  ],
+  "categorical_columns": [
+    "Service",
+    "System"
+  ],
+  "entities": [
+    "Frequency"
+  ]
+}

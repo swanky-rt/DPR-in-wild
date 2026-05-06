@@ -1,0 +1,515 @@
+{
+  "table_id": "T3466",
+  "uid": "b907e24b-07c3-5d10-9f31-651730dad400",
+  "source": "HybridQA",
+  "source_table_id": "b907e24b-07c3-5d10-9f31-651730dad400",
+  "domain": "HybridQA",
+  "title": "Cedar Fair",
+  "columns": [
+    "Name",
+    "Location",
+    "Year Opened",
+    "Year Acquired",
+    "Notes"
+  ],
+  "rows": [
+    [
+      [
+        "Boomerang Bay",
+        [
+          "/wiki/Boomerang_Bay_(water_park)"
+        ]
+      ],
+      [
+        "California 's Great America",
+        [
+          "/wiki/California's_Great_America"
+        ]
+      ],
+      [
+        2004,
+        []
+      ],
+      [
+        2006,
+        []
+      ],
+      [
+        "Located within California 's Great America , acquired in Paramount Parks deal",
+        [
+          "/wiki/Paramount_Parks"
+        ]
+      ]
+    ],
+    [
+      [
+        "Carolina Harbor",
+        [
+          "/wiki/Carolina_Harbor"
+        ]
+      ],
+      [
+        "Carowinds",
+        [
+          "/wiki/Carowinds"
+        ]
+      ],
+      [
+        1989,
+        []
+      ],
+      [
+        2006,
+        []
+      ],
+      [
+        "Located within Carowinds , acquired in Paramount Parks deal",
+        []
+      ]
+    ],
+    [
+      [
+        "Oceans of Fun",
+        [
+          "/wiki/Oceans_of_Fun"
+        ]
+      ],
+      [
+        "Worlds of Fun",
+        [
+          "/wiki/Worlds_of_Fun"
+        ]
+      ],
+      [
+        1982,
+        []
+      ],
+      [
+        1995,
+        []
+      ],
+      [
+        "Located adjacent to Worlds of Fun . In 2013 , the water park became included with admission to Worlds of Fun",
+        []
+      ]
+    ],
+    [
+      [
+        "Soak City",
+        [
+          "/wiki/Soak_City_(Kings_Dominion)"
+        ]
+      ],
+      [
+        "Kings Dominion",
+        [
+          "/wiki/Kings_Dominion"
+        ]
+      ],
+      [
+        1992,
+        []
+      ],
+      [
+        2006,
+        []
+      ],
+      [
+        "Located within Kings Dominion , acquired in Paramount Parks deal",
+        []
+      ]
+    ],
+    [
+      [
+        "Soak City",
+        [
+          "/wiki/Soak_City_(Kings_Island)"
+        ]
+      ],
+      [
+        "Kings Island",
+        [
+          "/wiki/Kings_Island"
+        ]
+      ],
+      [
+        1989,
+        []
+      ],
+      [
+        2006,
+        []
+      ],
+      [
+        "Located within Kings Island , acquired in Paramount Parks deal",
+        []
+      ]
+    ],
+    [
+      [
+        "Soak City",
+        [
+          "/wiki/Soak_City_(Valleyfair)"
+        ]
+      ],
+      [
+        "Valleyfair",
+        [
+          "/wiki/Valleyfair"
+        ]
+      ],
+      [
+        1983,
+        []
+      ],
+      [
+        "Built by Cedar Fair",
+        []
+      ],
+      [
+        "Located within Valleyfair",
+        []
+      ]
+    ],
+    [
+      [
+        "Splash Works",
+        [
+          "/wiki/Splash_Works"
+        ]
+      ],
+      [
+        "Canada 's Wonderland",
+        [
+          "/wiki/Canada's_Wonderland"
+        ]
+      ],
+      [
+        1992,
+        []
+      ],
+      [
+        2006,
+        []
+      ],
+      [
+        "Located within Canada 's Wonderland , acquired in Paramount Parks deal",
+        []
+      ]
+    ],
+    [
+      [
+        "WildWater Adventure",
+        [
+          "/wiki/WildWater_Adventure"
+        ]
+      ],
+      [
+        "Michigan 's Adventure",
+        [
+          "/wiki/Michigan's_Adventure"
+        ]
+      ],
+      [
+        1991,
+        []
+      ],
+      [
+        2001,
+        []
+      ],
+      [
+        "Located within Michigan 's Adventure",
+        []
+      ]
+    ],
+    [
+      [
+        "Wildwater Kingdom",
+        [
+          "/wiki/Dorney_Park_&_Wildwater_Kingdom"
+        ]
+      ],
+      [
+        "Dorney Park",
+        [
+          "/wiki/Dorney_Park_&_Wildwater_Kingdom"
+        ]
+      ],
+      [
+        1985,
+        []
+      ],
+      [
+        1992,
+        []
+      ],
+      [
+        "Located within Dorney Park",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "b907e24b-07c3-5d10-9f31-651730dad400",
+    "table_id": "Cedar_Fair_1",
+    "title": "Cedar Fair",
+    "header": [
+      "Name",
+      "Location",
+      "Year Opened",
+      "Year Acquired",
+      "Notes"
+    ],
+    "value": [
+      [
+        [
+          "Boomerang Bay",
+          [
+            "/wiki/Boomerang_Bay_(water_park)"
+          ]
+        ],
+        [
+          "California 's Great America",
+          [
+            "/wiki/California's_Great_America"
+          ]
+        ],
+        [
+          2004,
+          []
+        ],
+        [
+          2006,
+          []
+        ],
+        [
+          "Located within California 's Great America , acquired in Paramount Parks deal",
+          [
+            "/wiki/Paramount_Parks"
+          ]
+        ]
+      ],
+      [
+        [
+          "Carolina Harbor",
+          [
+            "/wiki/Carolina_Harbor"
+          ]
+        ],
+        [
+          "Carowinds",
+          [
+            "/wiki/Carowinds"
+          ]
+        ],
+        [
+          1989,
+          []
+        ],
+        [
+          2006,
+          []
+        ],
+        [
+          "Located within Carowinds , acquired in Paramount Parks deal",
+          []
+        ]
+      ],
+      [
+        [
+          "Oceans of Fun",
+          [
+            "/wiki/Oceans_of_Fun"
+          ]
+        ],
+        [
+          "Worlds of Fun",
+          [
+            "/wiki/Worlds_of_Fun"
+          ]
+        ],
+        [
+          1982,
+          []
+        ],
+        [
+          1995,
+          []
+        ],
+        [
+          "Located adjacent to Worlds of Fun . In 2013 , the water park became included with admission to Worlds of Fun",
+          []
+        ]
+      ],
+      [
+        [
+          "Soak City",
+          [
+            "/wiki/Soak_City_(Kings_Dominion)"
+          ]
+        ],
+        [
+          "Kings Dominion",
+          [
+            "/wiki/Kings_Dominion"
+          ]
+        ],
+        [
+          1992,
+          []
+        ],
+        [
+          2006,
+          []
+        ],
+        [
+          "Located within Kings Dominion , acquired in Paramount Parks deal",
+          []
+        ]
+      ],
+      [
+        [
+          "Soak City",
+          [
+            "/wiki/Soak_City_(Kings_Island)"
+          ]
+        ],
+        [
+          "Kings Island",
+          [
+            "/wiki/Kings_Island"
+          ]
+        ],
+        [
+          1989,
+          []
+        ],
+        [
+          2006,
+          []
+        ],
+        [
+          "Located within Kings Island , acquired in Paramount Parks deal",
+          []
+        ]
+      ],
+      [
+        [
+          "Soak City",
+          [
+            "/wiki/Soak_City_(Valleyfair)"
+          ]
+        ],
+        [
+          "Valleyfair",
+          [
+            "/wiki/Valleyfair"
+          ]
+        ],
+        [
+          1983,
+          []
+        ],
+        [
+          "Built by Cedar Fair",
+          []
+        ],
+        [
+          "Located within Valleyfair",
+          []
+        ]
+      ],
+      [
+        [
+          "Splash Works",
+          [
+            "/wiki/Splash_Works"
+          ]
+        ],
+        [
+          "Canada 's Wonderland",
+          [
+            "/wiki/Canada's_Wonderland"
+          ]
+        ],
+        [
+          1992,
+          []
+        ],
+        [
+          2006,
+          []
+        ],
+        [
+          "Located within Canada 's Wonderland , acquired in Paramount Parks deal",
+          []
+        ]
+      ],
+      [
+        [
+          "WildWater Adventure",
+          [
+            "/wiki/WildWater_Adventure"
+          ]
+        ],
+        [
+          "Michigan 's Adventure",
+          [
+            "/wiki/Michigan's_Adventure"
+          ]
+        ],
+        [
+          1991,
+          []
+        ],
+        [
+          2001,
+          []
+        ],
+        [
+          "Located within Michigan 's Adventure",
+          []
+        ]
+      ],
+      [
+        [
+          "Wildwater Kingdom",
+          [
+            "/wiki/Dorney_Park_&_Wildwater_Kingdom"
+          ]
+        ],
+        [
+          "Dorney Park",
+          [
+            "/wiki/Dorney_Park_&_Wildwater_Kingdom"
+          ]
+        ],
+        [
+          1985,
+          []
+        ],
+        [
+          1992,
+          []
+        ],
+        [
+          "Located within Dorney Park",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about various attractions or facilities associated with Cedar Fair, including their names, locations, opening years, acquisition years, and additional notes. It appears to document historical and operational details related to these entities, likely for reference or organizational purposes.",
+  "numeric_columns": [
+    "Year Opened",
+    "Year Acquired"
+  ],
+  "categorical_columns": [
+    "Notes"
+  ],
+  "entities": [
+    "Name",
+    "Location"
+  ]
+}

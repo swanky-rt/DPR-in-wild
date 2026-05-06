@@ -1,0 +1,293 @@
+{
+  "table_id": "T3410",
+  "uid": "828f4aeb-d949-5fdf-a6c2-116cd8cfd50d",
+  "source": "HybridQA",
+  "source_table_id": "828f4aeb-d949-5fdf-a6c2-116cd8cfd50d",
+  "domain": "HybridQA",
+  "title": "Administrative divisions of India",
+  "columns": [
+    "Union Territory",
+    "Subdistrict title",
+    "Number of subdistricts"
+  ],
+  "rows": [
+    [
+      [
+        "Andaman and Nicobar Islands",
+        [
+          "/wiki/Andaman_and_Nicobar_Islands"
+        ]
+      ],
+      [
+        "Tehsil",
+        []
+      ],
+      [
+        7,
+        []
+      ]
+    ],
+    [
+      [
+        "Chandigarh",
+        [
+          "/wiki/Chandigarh"
+        ]
+      ],
+      [
+        "Tehsil",
+        []
+      ],
+      [
+        1,
+        []
+      ]
+    ],
+    [
+      [
+        "Dadra and Nagar Haveli and Daman and Diu",
+        [
+          "/wiki/Dadra_and_Nagar_Haveli_and_Daman_and_Diu"
+        ]
+      ],
+      [
+        "Taluka",
+        []
+      ],
+      [
+        3,
+        []
+      ]
+    ],
+    [
+      [
+        "Delhi",
+        [
+          "/wiki/Delhi"
+        ]
+      ],
+      [
+        "Tehsil",
+        []
+      ],
+      [
+        34,
+        []
+      ]
+    ],
+    [
+      [
+        "Jammu and Kashmir",
+        [
+          "/wiki/Jammu_and_Kashmir_(union_territory)"
+        ]
+      ],
+      [
+        "Tehsil",
+        []
+      ],
+      [
+        55,
+        []
+      ]
+    ],
+    [
+      [
+        "Ladakh",
+        [
+          "/wiki/Ladakh"
+        ]
+      ],
+      [
+        "Tehsil",
+        []
+      ],
+      [
+        4,
+        []
+      ]
+    ],
+    [
+      [
+        "Lakshadweep",
+        [
+          "/wiki/Lakshadweep"
+        ]
+      ],
+      [
+        "Subdivision",
+        []
+      ],
+      [
+        4,
+        []
+      ]
+    ],
+    [
+      [
+        "Puducherry",
+        [
+          "/wiki/Puducherry"
+        ]
+      ],
+      [
+        "Commune Panchayat",
+        []
+      ],
+      [
+        10,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "828f4aeb-d949-5fdf-a6c2-116cd8cfd50d",
+    "table_id": "Administrative_divisions_of_India_5",
+    "title": "Administrative divisions of India",
+    "header": [
+      "Union Territory",
+      "Subdistrict title",
+      "Number of subdistricts"
+    ],
+    "value": [
+      [
+        [
+          "Andaman and Nicobar Islands",
+          [
+            "/wiki/Andaman_and_Nicobar_Islands"
+          ]
+        ],
+        [
+          "Tehsil",
+          []
+        ],
+        [
+          7,
+          []
+        ]
+      ],
+      [
+        [
+          "Chandigarh",
+          [
+            "/wiki/Chandigarh"
+          ]
+        ],
+        [
+          "Tehsil",
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        [
+          "Dadra and Nagar Haveli and Daman and Diu",
+          [
+            "/wiki/Dadra_and_Nagar_Haveli_and_Daman_and_Diu"
+          ]
+        ],
+        [
+          "Taluka",
+          []
+        ],
+        [
+          3,
+          []
+        ]
+      ],
+      [
+        [
+          "Delhi",
+          [
+            "/wiki/Delhi"
+          ]
+        ],
+        [
+          "Tehsil",
+          []
+        ],
+        [
+          34,
+          []
+        ]
+      ],
+      [
+        [
+          "Jammu and Kashmir",
+          [
+            "/wiki/Jammu_and_Kashmir_(union_territory)"
+          ]
+        ],
+        [
+          "Tehsil",
+          []
+        ],
+        [
+          55,
+          []
+        ]
+      ],
+      [
+        [
+          "Ladakh",
+          [
+            "/wiki/Ladakh"
+          ]
+        ],
+        [
+          "Tehsil",
+          []
+        ],
+        [
+          4,
+          []
+        ]
+      ],
+      [
+        [
+          "Lakshadweep",
+          [
+            "/wiki/Lakshadweep"
+          ]
+        ],
+        [
+          "Subdivision",
+          []
+        ],
+        [
+          4,
+          []
+        ]
+      ],
+      [
+        [
+          "Puducherry",
+          [
+            "/wiki/Puducherry"
+          ]
+        ],
+        [
+          "Commune Panchayat",
+          []
+        ],
+        [
+          10,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the administrative divisions of India, specifically focusing on Union Territories. It includes details about the titles of subdistricts within these territories and the number of subdistricts in each. The table is useful for understanding the administrative structure and subdivision levels in Indian Union Territories.",
+  "numeric_columns": [
+    "Number of subdistricts"
+  ],
+  "categorical_columns": [
+    "Subdistrict title"
+  ],
+  "entities": [
+    "Union Territory"
+  ]
+}

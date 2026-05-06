@@ -1,0 +1,614 @@
+{
+  "table_id": "T7094",
+  "uid": "d7f55223-0af2-5c96-a8bf-9db0339ee92e",
+  "source": "HybridQA",
+  "source_table_id": "d7f55223-0af2-5c96-a8bf-9db0339ee92e",
+  "domain": "HybridQA",
+  "title": "Madeira",
+  "columns": [
+    "Municipality",
+    "Population ( 2011 )",
+    "Area",
+    "Main settlement",
+    "Parishes"
+  ],
+  "rows": [
+    [
+      [
+        "Funchal",
+        [
+          "/wiki/Funchal"
+        ]
+      ],
+      [
+        "111,892",
+        []
+      ],
+      [
+        "75.7 km ( 29.2 sq mi )",
+        []
+      ],
+      [
+        "Funchal",
+        [
+          "/wiki/Funchal"
+        ]
+      ],
+      [
+        10,
+        []
+      ]
+    ],
+    [
+      [
+        "Santa Cruz",
+        [
+          "/wiki/Santa_Cruz,_Madeira"
+        ]
+      ],
+      [
+        "43,005",
+        []
+      ],
+      [
+        "68.0 km ( 26.3 sq mi )",
+        []
+      ],
+      [
+        "Santa Cruz",
+        [
+          "/wiki/Santa_Cruz,_Madeira"
+        ]
+      ],
+      [
+        5,
+        []
+      ]
+    ],
+    [
+      [
+        "Câmara de Lobos",
+        [
+          "/wiki/Câmara_de_Lobos"
+        ]
+      ],
+      [
+        "35,666",
+        []
+      ],
+      [
+        "52.6 km ( 20.3 sq mi )",
+        []
+      ],
+      [
+        "Câmara de Lobos",
+        [
+          "/wiki/Câmara_de_Lobos"
+        ]
+      ],
+      [
+        5,
+        []
+      ]
+    ],
+    [
+      [
+        "Machico",
+        [
+          "/wiki/Machico"
+        ]
+      ],
+      [
+        "21,828",
+        []
+      ],
+      [
+        "67.6 km ( 26.1 sq mi )",
+        []
+      ],
+      [
+        "Machico",
+        [
+          "/wiki/Machico"
+        ]
+      ],
+      [
+        5,
+        []
+      ]
+    ],
+    [
+      [
+        "Ribeira Brava",
+        [
+          "/wiki/Ribeira_Brava,_Madeira"
+        ]
+      ],
+      [
+        "13,375",
+        []
+      ],
+      [
+        "64.9 km ( 25.1 sq mi )",
+        []
+      ],
+      [
+        "Ribeira Brava",
+        [
+          "/wiki/Ribeira_Brava,_Madeira"
+        ]
+      ],
+      [
+        4,
+        []
+      ]
+    ],
+    [
+      [
+        "Calheta",
+        [
+          "/wiki/Calheta_(Madeira)"
+        ]
+      ],
+      [
+        "11,521",
+        []
+      ],
+      [
+        "110.3 km ( 42.6 sq mi )",
+        []
+      ],
+      [
+        "Calheta",
+        [
+          "/wiki/Calheta_(Madeira)"
+        ]
+      ],
+      [
+        8,
+        []
+      ]
+    ],
+    [
+      [
+        "Ponta do Sol",
+        [
+          "/wiki/Ponta_do_Sol"
+        ]
+      ],
+      [
+        "8,862",
+        []
+      ],
+      [
+        "46.8 km ( 18.1 sq mi )",
+        []
+      ],
+      [
+        "Ponta do Sol",
+        [
+          "/wiki/Ponta_do_Sol"
+        ]
+      ],
+      [
+        3,
+        []
+      ]
+    ],
+    [
+      [
+        "Santana",
+        [
+          "/wiki/Santana,_Madeira"
+        ]
+      ],
+      [
+        "7,719",
+        []
+      ],
+      [
+        "93.1 km ( 35.9 sq mi )",
+        []
+      ],
+      [
+        "Santana",
+        [
+          "/wiki/Santana,_Madeira"
+        ]
+      ],
+      [
+        6,
+        []
+      ]
+    ],
+    [
+      [
+        "São Vicente",
+        [
+          "/wiki/São_Vicente,_Madeira"
+        ]
+      ],
+      [
+        "5,723",
+        []
+      ],
+      [
+        "80.8 km ( 31.2 sq mi )",
+        []
+      ],
+      [
+        "São Vicente",
+        [
+          "/wiki/São_Vicente,_Madeira"
+        ]
+      ],
+      [
+        3,
+        []
+      ]
+    ],
+    [
+      [
+        "Porto Santo",
+        [
+          "/wiki/Porto_Santo_(Madeira)"
+        ]
+      ],
+      [
+        "5,483",
+        []
+      ],
+      [
+        "42.4 km ( 16.4 sq mi )",
+        []
+      ],
+      [
+        "Vila Baleira",
+        [
+          "/wiki/Vila_Baleira"
+        ]
+      ],
+      [
+        1,
+        []
+      ]
+    ],
+    [
+      [
+        "Porto Moniz",
+        [
+          "/wiki/Porto_Moniz"
+        ]
+      ],
+      [
+        "2,711",
+        []
+      ],
+      [
+        "82.6 km ( 31.9 sq mi )",
+        []
+      ],
+      [
+        "Porto Moniz",
+        [
+          "/wiki/Porto_Moniz"
+        ]
+      ],
+      [
+        4,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "d7f55223-0af2-5c96-a8bf-9db0339ee92e",
+    "table_id": "Madeira_0",
+    "title": "Madeira",
+    "header": [
+      "Municipality",
+      "Population ( 2011 )",
+      "Area",
+      "Main settlement",
+      "Parishes"
+    ],
+    "value": [
+      [
+        [
+          "Funchal",
+          [
+            "/wiki/Funchal"
+          ]
+        ],
+        [
+          "111,892",
+          []
+        ],
+        [
+          "75.7 km ( 29.2 sq mi )",
+          []
+        ],
+        [
+          "Funchal",
+          [
+            "/wiki/Funchal"
+          ]
+        ],
+        [
+          10,
+          []
+        ]
+      ],
+      [
+        [
+          "Santa Cruz",
+          [
+            "/wiki/Santa_Cruz,_Madeira"
+          ]
+        ],
+        [
+          "43,005",
+          []
+        ],
+        [
+          "68.0 km ( 26.3 sq mi )",
+          []
+        ],
+        [
+          "Santa Cruz",
+          [
+            "/wiki/Santa_Cruz,_Madeira"
+          ]
+        ],
+        [
+          5,
+          []
+        ]
+      ],
+      [
+        [
+          "Câmara de Lobos",
+          [
+            "/wiki/Câmara_de_Lobos"
+          ]
+        ],
+        [
+          "35,666",
+          []
+        ],
+        [
+          "52.6 km ( 20.3 sq mi )",
+          []
+        ],
+        [
+          "Câmara de Lobos",
+          [
+            "/wiki/Câmara_de_Lobos"
+          ]
+        ],
+        [
+          5,
+          []
+        ]
+      ],
+      [
+        [
+          "Machico",
+          [
+            "/wiki/Machico"
+          ]
+        ],
+        [
+          "21,828",
+          []
+        ],
+        [
+          "67.6 km ( 26.1 sq mi )",
+          []
+        ],
+        [
+          "Machico",
+          [
+            "/wiki/Machico"
+          ]
+        ],
+        [
+          5,
+          []
+        ]
+      ],
+      [
+        [
+          "Ribeira Brava",
+          [
+            "/wiki/Ribeira_Brava,_Madeira"
+          ]
+        ],
+        [
+          "13,375",
+          []
+        ],
+        [
+          "64.9 km ( 25.1 sq mi )",
+          []
+        ],
+        [
+          "Ribeira Brava",
+          [
+            "/wiki/Ribeira_Brava,_Madeira"
+          ]
+        ],
+        [
+          4,
+          []
+        ]
+      ],
+      [
+        [
+          "Calheta",
+          [
+            "/wiki/Calheta_(Madeira)"
+          ]
+        ],
+        [
+          "11,521",
+          []
+        ],
+        [
+          "110.3 km ( 42.6 sq mi )",
+          []
+        ],
+        [
+          "Calheta",
+          [
+            "/wiki/Calheta_(Madeira)"
+          ]
+        ],
+        [
+          8,
+          []
+        ]
+      ],
+      [
+        [
+          "Ponta do Sol",
+          [
+            "/wiki/Ponta_do_Sol"
+          ]
+        ],
+        [
+          "8,862",
+          []
+        ],
+        [
+          "46.8 km ( 18.1 sq mi )",
+          []
+        ],
+        [
+          "Ponta do Sol",
+          [
+            "/wiki/Ponta_do_Sol"
+          ]
+        ],
+        [
+          3,
+          []
+        ]
+      ],
+      [
+        [
+          "Santana",
+          [
+            "/wiki/Santana,_Madeira"
+          ]
+        ],
+        [
+          "7,719",
+          []
+        ],
+        [
+          "93.1 km ( 35.9 sq mi )",
+          []
+        ],
+        [
+          "Santana",
+          [
+            "/wiki/Santana,_Madeira"
+          ]
+        ],
+        [
+          6,
+          []
+        ]
+      ],
+      [
+        [
+          "São Vicente",
+          [
+            "/wiki/São_Vicente,_Madeira"
+          ]
+        ],
+        [
+          "5,723",
+          []
+        ],
+        [
+          "80.8 km ( 31.2 sq mi )",
+          []
+        ],
+        [
+          "São Vicente",
+          [
+            "/wiki/São_Vicente,_Madeira"
+          ]
+        ],
+        [
+          3,
+          []
+        ]
+      ],
+      [
+        [
+          "Porto Santo",
+          [
+            "/wiki/Porto_Santo_(Madeira)"
+          ]
+        ],
+        [
+          "5,483",
+          []
+        ],
+        [
+          "42.4 km ( 16.4 sq mi )",
+          []
+        ],
+        [
+          "Vila Baleira",
+          [
+            "/wiki/Vila_Baleira"
+          ]
+        ],
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        [
+          "Porto Moniz",
+          [
+            "/wiki/Porto_Moniz"
+          ]
+        ],
+        [
+          "2,711",
+          []
+        ],
+        [
+          "82.6 km ( 31.9 sq mi )",
+          []
+        ],
+        [
+          "Porto Moniz",
+          [
+            "/wiki/Porto_Moniz"
+          ]
+        ],
+        [
+          4,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about municipalities in Madeira, including their population, area, main settlements, and the number of parishes. It serves as a reference for understanding the geographic and demographic characteristics of the region.",
+  "numeric_columns": [
+    "Population ( 2011 )",
+    "Area",
+    "Parishes"
+  ],
+  "categorical_columns": [],
+  "entities": [
+    "Municipality",
+    "Main settlement"
+  ]
+}

@@ -1,0 +1,625 @@
+{
+  "table_id": "T2563",
+  "uid": "578689d2-dd2b-5bf9-8cba-7aa7fd5a8486",
+  "source": "HybridQA",
+  "source_table_id": "578689d2-dd2b-5bf9-8cba-7aa7fd5a8486",
+  "domain": "HybridQA",
+  "title": "List of NBA franchise post-season droughts",
+  "columns": [
+    "Team",
+    "Conference Quarter-Final appearances",
+    "Conference Semi-Final appearances",
+    "Conference Final appearances",
+    "Fewest wins short of NBA Championship"
+  ],
+  "rows": [
+    [
+      [
+        "Brooklyn Nets",
+        [
+          "/wiki/List_of_Brooklyn_Nets_seasons"
+        ]
+      ],
+      [
+        20,
+        []
+      ],
+      [
+        7,
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "0 2 wins short : 2003",
+        [
+          "/wiki/2003_NBA_Playoffs"
+        ]
+      ]
+    ],
+    [
+      [
+        "Indiana Pacers",
+        [
+          "/wiki/List_of_Indiana_Pacers_seasons"
+        ]
+      ],
+      [
+        26,
+        []
+      ],
+      [
+        10,
+        []
+      ],
+      [
+        8,
+        []
+      ],
+      [
+        "0 2 wins short : 2000",
+        [
+          "/wiki/2000_NBA_Playoffs"
+        ]
+      ]
+    ],
+    [
+      [
+        "Phoenix Suns",
+        [
+          "/wiki/List_of_Phoenix_Suns_seasons"
+        ]
+      ],
+      [
+        26,
+        []
+      ],
+      [
+        18,
+        []
+      ],
+      [
+        9,
+        []
+      ],
+      [
+        "0 2 wins short : 1976 , 1993",
+        [
+          "/wiki/1976_NBA_Playoffs",
+          "/wiki/1993_NBA_Playoffs"
+        ]
+      ]
+    ],
+    [
+      [
+        "Utah Jazz",
+        [
+          "/wiki/List_of_Utah_Jazz_seasons"
+        ]
+      ],
+      [
+        28,
+        []
+      ],
+      [
+        16,
+        []
+      ],
+      [
+        6,
+        []
+      ],
+      [
+        "0 2 wins short : 1997 , 1998",
+        [
+          "/wiki/1997_NBA_Playoffs",
+          "/wiki/1998_NBA_Playoffs"
+        ]
+      ]
+    ],
+    [
+      [
+        "Orlando Magic",
+        [
+          "/wiki/List_of_Orlando_Magic_seasons"
+        ]
+      ],
+      [
+        15,
+        []
+      ],
+      [
+        5,
+        []
+      ],
+      [
+        4,
+        []
+      ],
+      [
+        "0 3 wins short : 2009",
+        [
+          "/wiki/2009_NBA_Playoffs"
+        ]
+      ]
+    ],
+    [
+      [
+        "Denver Nuggets",
+        [
+          "/wiki/List_of_Denver_Nuggets_seasons"
+        ]
+      ],
+      [
+        23,
+        []
+      ],
+      [
+        9,
+        []
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        "0 6 wins short : 1978 , 2009",
+        [
+          "/wiki/1978_NBA_Playoffs",
+          "/wiki/2009_NBA_Playoffs"
+        ]
+      ]
+    ],
+    [
+      [
+        "Minnesota Timberwolves",
+        [
+          "/wiki/List_of_Minnesota_Timberwolves_seasons"
+        ]
+      ],
+      [
+        9,
+        []
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "0 6 wins short : 2004",
+        [
+          "/wiki/2004_NBA_Playoffs"
+        ]
+      ]
+    ],
+    [
+      [
+        "Memphis Grizzlies",
+        [
+          "/wiki/List_of_Memphis_Grizzlies_seasons"
+        ]
+      ],
+      [
+        10,
+        []
+      ],
+      [
+        3,
+        []
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "0 8 wins short : 2013",
+        [
+          "/wiki/2013_NBA_Playoffs"
+        ]
+      ]
+    ],
+    [
+      [
+        "Los Angeles Clippers",
+        [
+          "/wiki/List_of_Los_Angeles_Clippers_seasons"
+        ]
+      ],
+      [
+        12,
+        []
+      ],
+      [
+        7,
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "9 wins short : 1975 , 2006 , 2015",
+        [
+          "/wiki/1975_NBA_playoffs",
+          "/wiki/2006_NBA_Playoffs",
+          "/wiki/2015_NBA_Playoffs"
+        ]
+      ]
+    ],
+    [
+      [
+        "New Orleans Pelicans",
+        [
+          "/wiki/List_of_New_Orleans_Pelicans_seasons"
+        ]
+      ],
+      [
+        7,
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "9 wins short : 2008",
+        [
+          "/wiki/2008_NBA_Playoffs"
+        ]
+      ]
+    ],
+    [
+      [
+        "Charlotte Hornets",
+        [
+          "/wiki/List_of_Charlotte_Hornets_seasons"
+        ]
+      ],
+      [
+        10,
+        []
+      ],
+      [
+        4,
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "9 wins short : 2001",
+        [
+          "/wiki/2001_NBA_Playoffs"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "578689d2-dd2b-5bf9-8cba-7aa7fd5a8486",
+    "table_id": "List_of_NBA_franchise_post-season_droughts_5",
+    "title": "List of NBA franchise post-season droughts",
+    "header": [
+      "Team",
+      "Conference Quarter-Final appearances",
+      "Conference Semi-Final appearances",
+      "Conference Final appearances",
+      "Fewest wins short of NBA Championship"
+    ],
+    "value": [
+      [
+        [
+          "Brooklyn Nets",
+          [
+            "/wiki/List_of_Brooklyn_Nets_seasons"
+          ]
+        ],
+        [
+          20,
+          []
+        ],
+        [
+          7,
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "0 2 wins short : 2003",
+          [
+            "/wiki/2003_NBA_Playoffs"
+          ]
+        ]
+      ],
+      [
+        [
+          "Indiana Pacers",
+          [
+            "/wiki/List_of_Indiana_Pacers_seasons"
+          ]
+        ],
+        [
+          26,
+          []
+        ],
+        [
+          10,
+          []
+        ],
+        [
+          8,
+          []
+        ],
+        [
+          "0 2 wins short : 2000",
+          [
+            "/wiki/2000_NBA_Playoffs"
+          ]
+        ]
+      ],
+      [
+        [
+          "Phoenix Suns",
+          [
+            "/wiki/List_of_Phoenix_Suns_seasons"
+          ]
+        ],
+        [
+          26,
+          []
+        ],
+        [
+          18,
+          []
+        ],
+        [
+          9,
+          []
+        ],
+        [
+          "0 2 wins short : 1976 , 1993",
+          [
+            "/wiki/1976_NBA_Playoffs",
+            "/wiki/1993_NBA_Playoffs"
+          ]
+        ]
+      ],
+      [
+        [
+          "Utah Jazz",
+          [
+            "/wiki/List_of_Utah_Jazz_seasons"
+          ]
+        ],
+        [
+          28,
+          []
+        ],
+        [
+          16,
+          []
+        ],
+        [
+          6,
+          []
+        ],
+        [
+          "0 2 wins short : 1997 , 1998",
+          [
+            "/wiki/1997_NBA_Playoffs",
+            "/wiki/1998_NBA_Playoffs"
+          ]
+        ]
+      ],
+      [
+        [
+          "Orlando Magic",
+          [
+            "/wiki/List_of_Orlando_Magic_seasons"
+          ]
+        ],
+        [
+          15,
+          []
+        ],
+        [
+          5,
+          []
+        ],
+        [
+          4,
+          []
+        ],
+        [
+          "0 3 wins short : 2009",
+          [
+            "/wiki/2009_NBA_Playoffs"
+          ]
+        ]
+      ],
+      [
+        [
+          "Denver Nuggets",
+          [
+            "/wiki/List_of_Denver_Nuggets_seasons"
+          ]
+        ],
+        [
+          23,
+          []
+        ],
+        [
+          9,
+          []
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          "0 6 wins short : 1978 , 2009",
+          [
+            "/wiki/1978_NBA_Playoffs",
+            "/wiki/2009_NBA_Playoffs"
+          ]
+        ]
+      ],
+      [
+        [
+          "Minnesota Timberwolves",
+          [
+            "/wiki/List_of_Minnesota_Timberwolves_seasons"
+          ]
+        ],
+        [
+          9,
+          []
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "0 6 wins short : 2004",
+          [
+            "/wiki/2004_NBA_Playoffs"
+          ]
+        ]
+      ],
+      [
+        [
+          "Memphis Grizzlies",
+          [
+            "/wiki/List_of_Memphis_Grizzlies_seasons"
+          ]
+        ],
+        [
+          10,
+          []
+        ],
+        [
+          3,
+          []
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "0 8 wins short : 2013",
+          [
+            "/wiki/2013_NBA_Playoffs"
+          ]
+        ]
+      ],
+      [
+        [
+          "Los Angeles Clippers",
+          [
+            "/wiki/List_of_Los_Angeles_Clippers_seasons"
+          ]
+        ],
+        [
+          12,
+          []
+        ],
+        [
+          7,
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "9 wins short : 1975 , 2006 , 2015",
+          [
+            "/wiki/1975_NBA_playoffs",
+            "/wiki/2006_NBA_Playoffs",
+            "/wiki/2015_NBA_Playoffs"
+          ]
+        ]
+      ],
+      [
+        [
+          "New Orleans Pelicans",
+          [
+            "/wiki/List_of_New_Orleans_Pelicans_seasons"
+          ]
+        ],
+        [
+          7,
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "9 wins short : 2008",
+          [
+            "/wiki/2008_NBA_Playoffs"
+          ]
+        ]
+      ],
+      [
+        [
+          "Charlotte Hornets",
+          [
+            "/wiki/List_of_Charlotte_Hornets_seasons"
+          ]
+        ],
+        [
+          10,
+          []
+        ],
+        [
+          4,
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "9 wins short : 2001",
+          [
+            "/wiki/2001_NBA_Playoffs"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about NBA franchises and their historical post-season performance, focusing on their appearances in various playoff stages and their closest attempts at winning an NBA Championship. It is designed to summarize the playoff success and droughts of different teams. The data includes counts of appearances in specific playoff rounds and textual descriptions of their nearest championship attempts.",
+  "numeric_columns": [
+    "Conference Quarter-Final appearances",
+    "Conference Semi-Final appearances",
+    "Conference Final appearances"
+  ],
+  "categorical_columns": [
+    "Fewest wins short of NBA Championship"
+  ],
+  "entities": [
+    "Team"
+  ]
+}

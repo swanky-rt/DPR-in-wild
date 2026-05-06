@@ -1,0 +1,563 @@
+{
+  "table_id": "T6961",
+  "uid": "9ac1ed20-ae73-5611-b266-61639551e5e5",
+  "source": "HybridQA",
+  "source_table_id": "9ac1ed20-ae73-5611-b266-61639551e5e5",
+  "domain": "HybridQA",
+  "title": "List of highest-grossing films in Malaysia",
+  "columns": [
+    "Rank",
+    "Release Date",
+    "Film Title",
+    "Studio",
+    "Gross ( RM )"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "30 Jun",
+        []
+      ],
+      [
+        "Transformers : Dark of the Moon",
+        [
+          "/wiki/Transformers:_Dark_of_the_Moon"
+        ]
+      ],
+      [
+        "United International Pictures",
+        [
+          "/wiki/United_International_Pictures"
+        ]
+      ],
+      [
+        "34,661,020*",
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "26 May",
+        []
+      ],
+      [
+        "Kung Fu Panda 2",
+        [
+          "/wiki/Kung_Fu_Panda_2"
+        ]
+      ],
+      [
+        "United International Pictures",
+        [
+          "/wiki/United_International_Pictures"
+        ]
+      ],
+      [
+        "18,048,666",
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "15 Dec",
+        []
+      ],
+      [
+        "Mission : Impossible - Ghost Protocol",
+        [
+          "/wiki/Mission:_Impossible_–_Ghost_Protocol"
+        ]
+      ],
+      [
+        "United International Pictures",
+        [
+          "/wiki/United_International_Pictures"
+        ]
+      ],
+      [
+        "17,297,093",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "19 May",
+        []
+      ],
+      [
+        "Pirates of the Caribbean : On Stranger Tides",
+        [
+          "/wiki/Pirates_of_the_Caribbean:_On_Stranger_Tides"
+        ]
+      ],
+      [
+        "Walt Disney Pictures",
+        [
+          "/wiki/Walt_Disney_Pictures"
+        ]
+      ],
+      [
+        "16,566,061",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "5 May",
+        []
+      ],
+      [
+        "Fast Five",
+        [
+          "/wiki/Fast_Five"
+        ]
+      ],
+      [
+        "United International Pictures",
+        [
+          "/wiki/United_International_Pictures"
+        ]
+      ],
+      [
+        "16,535,815",
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "15 Sep",
+        []
+      ],
+      [
+        "Johnny English Reborn",
+        [
+          "/wiki/Johnny_English_Reborn"
+        ]
+      ],
+      [
+        "United International Pictures",
+        [
+          "/wiki/United_International_Pictures"
+        ]
+      ],
+      [
+        "16,430,754",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "13 Oct",
+        []
+      ],
+      [
+        "Real Steel",
+        [
+          "/wiki/Real_Steel"
+        ]
+      ],
+      [
+        "Walt Disney Pictures",
+        [
+          "/wiki/Walt_Disney_Pictures"
+        ]
+      ],
+      [
+        "15,112,861",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "14 Jul",
+        []
+      ],
+      [
+        "Harry Potter and the Deathly Hallows - Part 2",
+        [
+          "/wiki/Harry_Potter_and_the_Deathly_Hallows_–_Part_2"
+        ]
+      ],
+      [
+        "Warner Brothers",
+        [
+          "/wiki/Warner_Brothers"
+        ]
+      ],
+      [
+        "13,681,954",
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "18 Apr",
+        []
+      ],
+      [
+        "Thor",
+        [
+          "/wiki/Thor_(film)"
+        ]
+      ],
+      [
+        "United International Pictures",
+        [
+          "/wiki/United_International_Pictures"
+        ]
+      ],
+      [
+        "11,198,842",
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "2 Jun",
+        []
+      ],
+      [
+        "X-Men : First Class",
+        [
+          "/wiki/X-Men:_First_Class"
+        ]
+      ],
+      [
+        "20th Century Fox",
+        [
+          "/wiki/20th_Century_Fox"
+        ]
+      ],
+      [
+        "10,628,635",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "9ac1ed20-ae73-5611-b266-61639551e5e5",
+    "table_id": "Malaysia_Yearly_Box_Office_4",
+    "title": "List of highest-grossing films in Malaysia",
+    "header": [
+      "Rank",
+      "Release Date",
+      "Film Title",
+      "Studio",
+      "Gross ( RM )"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "30 Jun",
+          []
+        ],
+        [
+          "Transformers : Dark of the Moon",
+          [
+            "/wiki/Transformers:_Dark_of_the_Moon"
+          ]
+        ],
+        [
+          "United International Pictures",
+          [
+            "/wiki/United_International_Pictures"
+          ]
+        ],
+        [
+          "34,661,020*",
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "26 May",
+          []
+        ],
+        [
+          "Kung Fu Panda 2",
+          [
+            "/wiki/Kung_Fu_Panda_2"
+          ]
+        ],
+        [
+          "United International Pictures",
+          [
+            "/wiki/United_International_Pictures"
+          ]
+        ],
+        [
+          "18,048,666",
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "15 Dec",
+          []
+        ],
+        [
+          "Mission : Impossible - Ghost Protocol",
+          [
+            "/wiki/Mission:_Impossible_–_Ghost_Protocol"
+          ]
+        ],
+        [
+          "United International Pictures",
+          [
+            "/wiki/United_International_Pictures"
+          ]
+        ],
+        [
+          "17,297,093",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "19 May",
+          []
+        ],
+        [
+          "Pirates of the Caribbean : On Stranger Tides",
+          [
+            "/wiki/Pirates_of_the_Caribbean:_On_Stranger_Tides"
+          ]
+        ],
+        [
+          "Walt Disney Pictures",
+          [
+            "/wiki/Walt_Disney_Pictures"
+          ]
+        ],
+        [
+          "16,566,061",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "5 May",
+          []
+        ],
+        [
+          "Fast Five",
+          [
+            "/wiki/Fast_Five"
+          ]
+        ],
+        [
+          "United International Pictures",
+          [
+            "/wiki/United_International_Pictures"
+          ]
+        ],
+        [
+          "16,535,815",
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "15 Sep",
+          []
+        ],
+        [
+          "Johnny English Reborn",
+          [
+            "/wiki/Johnny_English_Reborn"
+          ]
+        ],
+        [
+          "United International Pictures",
+          [
+            "/wiki/United_International_Pictures"
+          ]
+        ],
+        [
+          "16,430,754",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "13 Oct",
+          []
+        ],
+        [
+          "Real Steel",
+          [
+            "/wiki/Real_Steel"
+          ]
+        ],
+        [
+          "Walt Disney Pictures",
+          [
+            "/wiki/Walt_Disney_Pictures"
+          ]
+        ],
+        [
+          "15,112,861",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "14 Jul",
+          []
+        ],
+        [
+          "Harry Potter and the Deathly Hallows - Part 2",
+          [
+            "/wiki/Harry_Potter_and_the_Deathly_Hallows_–_Part_2"
+          ]
+        ],
+        [
+          "Warner Brothers",
+          [
+            "/wiki/Warner_Brothers"
+          ]
+        ],
+        [
+          "13,681,954",
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "18 Apr",
+          []
+        ],
+        [
+          "Thor",
+          [
+            "/wiki/Thor_(film)"
+          ]
+        ],
+        [
+          "United International Pictures",
+          [
+            "/wiki/United_International_Pictures"
+          ]
+        ],
+        [
+          "11,198,842",
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "2 Jun",
+          []
+        ],
+        [
+          "X-Men : First Class",
+          [
+            "/wiki/X-Men:_First_Class"
+          ]
+        ],
+        [
+          "20th Century Fox",
+          [
+            "/wiki/20th_Century_Fox"
+          ]
+        ],
+        [
+          "10,628,635",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table lists the highest-grossing films in Malaysia, providing information about their rank, release date, title, studio, and gross earnings in Malaysian Ringgit. It serves as a reference for understanding the commercial success of films in the Malaysian market.",
+  "numeric_columns": [
+    "Gross ( RM )"
+  ],
+  "categorical_columns": [
+    "Rank",
+    "Release Date",
+    "Studio"
+  ],
+  "entities": [
+    "Film Title"
+  ]
+}

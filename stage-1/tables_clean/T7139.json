@@ -1,0 +1,488 @@
+{
+  "table_id": "T7139",
+  "uid": "d4d71c1f-e84b-5fcb-940d-1df316249d05",
+  "source": "HybridQA",
+  "source_table_id": "d4d71c1f-e84b-5fcb-940d-1df316249d05",
+  "domain": "HybridQA",
+  "title": "Indian Idol",
+  "columns": [
+    "Name",
+    "Hometown",
+    "Elimination"
+  ],
+  "rows": [
+    [
+      [
+        "LV Revanth",
+        [
+          "/wiki/LV_Revanth"
+        ]
+      ],
+      [
+        "Hyderabad",
+        [
+          "/wiki/Hyderabad"
+        ]
+      ],
+      [
+        "Winner",
+        []
+      ]
+    ],
+    [
+      [
+        "Khuda Baksh",
+        []
+      ],
+      [
+        "Punjab",
+        [
+          "/wiki/Punjab"
+        ]
+      ],
+      [
+        "Runner-up",
+        []
+      ]
+    ],
+    [
+      [
+        "PVNS Rohit",
+        []
+      ],
+      [
+        "Hyderabad",
+        [
+          "/wiki/Hyderabad"
+        ]
+      ],
+      [
+        "2nd Runner-up",
+        []
+      ]
+    ],
+    [
+      [
+        "Malvika Sunder",
+        []
+      ],
+      [
+        "Chennai",
+        [
+          "/wiki/Chennai"
+        ]
+      ],
+      [
+        "Eliminated 11th",
+        []
+      ]
+    ],
+    [
+      [
+        "Mohit Chopra",
+        []
+      ],
+      [
+        "New Delhi",
+        [
+          "/wiki/New_Delhi"
+        ]
+      ],
+      [
+        "Eliminated 10th",
+        []
+      ]
+    ],
+    [
+      [
+        "Manya Narang",
+        []
+      ],
+      [
+        "New Delhi",
+        [
+          "/wiki/New_Delhi"
+        ]
+      ],
+      [
+        "Eliminated 9th",
+        []
+      ]
+    ],
+    [
+      [
+        "Hardeep Singh",
+        []
+      ],
+      [
+        "Ludhiana",
+        [
+          "/wiki/Ludhiana"
+        ]
+      ],
+      [
+        "Eliminated 8th",
+        []
+      ]
+    ],
+    [
+      [
+        "R P Shravan",
+        []
+      ],
+      [
+        "Chennai",
+        [
+          "/wiki/Chennai"
+        ]
+      ],
+      [
+        "Eliminated 7th",
+        []
+      ]
+    ],
+    [
+      [
+        "Tajinder Singh",
+        []
+      ],
+      [
+        "Faridabad",
+        [
+          "/wiki/Faridabad"
+        ]
+      ],
+      [
+        "Eliminated 6th",
+        []
+      ]
+    ],
+    [
+      [
+        "Jeli Kayi",
+        []
+      ],
+      [
+        "Itanagar",
+        [
+          "/wiki/Itanagar"
+        ]
+      ],
+      [
+        "Eliminated 5th",
+        []
+      ]
+    ],
+    [
+      [
+        "Bharti Gupta",
+        []
+      ],
+      [
+        "Ghaziabad",
+        [
+          "/wiki/Ghaziabad,_Uttar_Pradesh"
+        ]
+      ],
+      [
+        "Eliminated 4th",
+        []
+      ]
+    ],
+    [
+      [
+        "Mansi Bhardwaj",
+        []
+      ],
+      [
+        "Kolkata",
+        [
+          "/wiki/Kolkata"
+        ]
+      ],
+      [
+        "Eliminated 3rd",
+        []
+      ]
+    ],
+    [
+      [
+        "Stuti Tiwari",
+        []
+      ],
+      [
+        "Kolkata",
+        [
+          "/wiki/Kolkata"
+        ]
+      ],
+      [
+        "Eliminated 2nd",
+        []
+      ]
+    ],
+    [
+      [
+        "Saumya Mishra",
+        []
+      ],
+      [
+        "Renukut",
+        [
+          "/wiki/Renukut"
+        ]
+      ],
+      [
+        "Eliminated 1st",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "d4d71c1f-e84b-5fcb-940d-1df316249d05",
+    "table_id": "Indian_Idol_5_8",
+    "title": "Indian Idol",
+    "header": [
+      "Name",
+      "Hometown",
+      "Elimination"
+    ],
+    "value": [
+      [
+        [
+          "LV Revanth",
+          [
+            "/wiki/LV_Revanth"
+          ]
+        ],
+        [
+          "Hyderabad",
+          [
+            "/wiki/Hyderabad"
+          ]
+        ],
+        [
+          "Winner",
+          []
+        ]
+      ],
+      [
+        [
+          "Khuda Baksh",
+          []
+        ],
+        [
+          "Punjab",
+          [
+            "/wiki/Punjab"
+          ]
+        ],
+        [
+          "Runner-up",
+          []
+        ]
+      ],
+      [
+        [
+          "PVNS Rohit",
+          []
+        ],
+        [
+          "Hyderabad",
+          [
+            "/wiki/Hyderabad"
+          ]
+        ],
+        [
+          "2nd Runner-up",
+          []
+        ]
+      ],
+      [
+        [
+          "Malvika Sunder",
+          []
+        ],
+        [
+          "Chennai",
+          [
+            "/wiki/Chennai"
+          ]
+        ],
+        [
+          "Eliminated 11th",
+          []
+        ]
+      ],
+      [
+        [
+          "Mohit Chopra",
+          []
+        ],
+        [
+          "New Delhi",
+          [
+            "/wiki/New_Delhi"
+          ]
+        ],
+        [
+          "Eliminated 10th",
+          []
+        ]
+      ],
+      [
+        [
+          "Manya Narang",
+          []
+        ],
+        [
+          "New Delhi",
+          [
+            "/wiki/New_Delhi"
+          ]
+        ],
+        [
+          "Eliminated 9th",
+          []
+        ]
+      ],
+      [
+        [
+          "Hardeep Singh",
+          []
+        ],
+        [
+          "Ludhiana",
+          [
+            "/wiki/Ludhiana"
+          ]
+        ],
+        [
+          "Eliminated 8th",
+          []
+        ]
+      ],
+      [
+        [
+          "R P Shravan",
+          []
+        ],
+        [
+          "Chennai",
+          [
+            "/wiki/Chennai"
+          ]
+        ],
+        [
+          "Eliminated 7th",
+          []
+        ]
+      ],
+      [
+        [
+          "Tajinder Singh",
+          []
+        ],
+        [
+          "Faridabad",
+          [
+            "/wiki/Faridabad"
+          ]
+        ],
+        [
+          "Eliminated 6th",
+          []
+        ]
+      ],
+      [
+        [
+          "Jeli Kayi",
+          []
+        ],
+        [
+          "Itanagar",
+          [
+            "/wiki/Itanagar"
+          ]
+        ],
+        [
+          "Eliminated 5th",
+          []
+        ]
+      ],
+      [
+        [
+          "Bharti Gupta",
+          []
+        ],
+        [
+          "Ghaziabad",
+          [
+            "/wiki/Ghaziabad,_Uttar_Pradesh"
+          ]
+        ],
+        [
+          "Eliminated 4th",
+          []
+        ]
+      ],
+      [
+        [
+          "Mansi Bhardwaj",
+          []
+        ],
+        [
+          "Kolkata",
+          [
+            "/wiki/Kolkata"
+          ]
+        ],
+        [
+          "Eliminated 3rd",
+          []
+        ]
+      ],
+      [
+        [
+          "Stuti Tiwari",
+          []
+        ],
+        [
+          "Kolkata",
+          [
+            "/wiki/Kolkata"
+          ]
+        ],
+        [
+          "Eliminated 2nd",
+          []
+        ]
+      ],
+      [
+        [
+          "Saumya Mishra",
+          []
+        ],
+        [
+          "Renukut",
+          [
+            "/wiki/Renukut"
+          ]
+        ],
+        [
+          "Eliminated 1st",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about participants in the Indian Idol competition, including their names, hometowns, and elimination status. It appears to document key details about contestants and their progress in the show. The purpose is likely to summarize or analyze the outcomes of the competition.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Elimination"
+  ],
+  "entities": [
+    "Name",
+    "Hometown"
+  ]
+}

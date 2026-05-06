@@ -1,0 +1,480 @@
+{
+  "table_id": "T3511",
+  "uid": "b5625cf1-ed19-5ddf-9e3d-818bebe8e930",
+  "source": "HybridQA",
+  "source_table_id": "b5625cf1-ed19-5ddf-9e3d-818bebe8e930",
+  "domain": "HybridQA",
+  "title": "2013 French Road Cycling Cup",
+  "columns": [
+    "Pos",
+    "Rider",
+    "Team",
+    "Points"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Samuel Dumoulin ( FRA )",
+        [
+          "/wiki/Samuel_Dumoulin"
+        ]
+      ],
+      [
+        "Ag2r-La Mondiale",
+        [
+          "/wiki/AG2R_La_Mondiale_(cycling_team)"
+        ]
+      ],
+      [
+        155,
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Bryan Coquard ( FRA )",
+        [
+          "/wiki/Bryan_Coquard"
+        ]
+      ],
+      [
+        "Team Europcar",
+        [
+          "/wiki/Total_Direct_Énergie_(cycling_team)"
+        ]
+      ],
+      [
+        149,
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Anthony Geslin ( FRA )",
+        [
+          "/wiki/Anthony_Geslin"
+        ]
+      ],
+      [
+        "FDJ.fr",
+        [
+          "/wiki/Groupama–FDJ"
+        ]
+      ],
+      [
+        128,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Yannick Martinez ( FRA )",
+        [
+          "/wiki/Yannick_Martinez"
+        ]
+      ],
+      [
+        "La Pomme Marseille",
+        [
+          "/wiki/Nippo–Delko–One_Provence"
+        ]
+      ],
+      [
+        111,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Arnaud Démare ( FRA )",
+        [
+          "/wiki/Arnaud_Démare"
+        ]
+      ],
+      [
+        "FDJ.fr",
+        [
+          "/wiki/Groupama–FDJ"
+        ]
+      ],
+      [
+        100,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Justin Jules ( FRA )",
+        [
+          "/wiki/Justin_Jules"
+        ]
+      ],
+      [
+        "La Pomme Marseille",
+        [
+          "/wiki/Nippo–Delko–One_Provence"
+        ]
+      ],
+      [
+        93,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Julien Simon ( FRA )",
+        [
+          "/wiki/Julien_Simon"
+        ]
+      ],
+      [
+        "Sojasun",
+        [
+          "/wiki/Sojasun_(cycling_team)"
+        ]
+      ],
+      [
+        93,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Nacer Bouhanni ( FRA )",
+        [
+          "/wiki/Nacer_Bouhanni"
+        ]
+      ],
+      [
+        "FDJ.fr",
+        [
+          "/wiki/Groupama–FDJ"
+        ]
+      ],
+      [
+        75,
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Yauheni Hutarovich ( BLR )",
+        [
+          "/wiki/Yauheni_Hutarovich"
+        ]
+      ],
+      [
+        "Ag2r-La Mondiale",
+        [
+          "/wiki/AG2R_La_Mondiale_(cycling_team)"
+        ]
+      ],
+      [
+        73,
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Francis Mourey ( FRA )",
+        [
+          "/wiki/Francis_Mourey"
+        ]
+      ],
+      [
+        "FDJ.fr",
+        [
+          "/wiki/Groupama–FDJ"
+        ]
+      ],
+      [
+        68,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "b5625cf1-ed19-5ddf-9e3d-818bebe8e930",
+    "table_id": "2013_French_Road_Cycling_Cup_1",
+    "title": "2013 French Road Cycling Cup",
+    "header": [
+      "Pos",
+      "Rider",
+      "Team",
+      "Points"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Samuel Dumoulin ( FRA )",
+          [
+            "/wiki/Samuel_Dumoulin"
+          ]
+        ],
+        [
+          "Ag2r-La Mondiale",
+          [
+            "/wiki/AG2R_La_Mondiale_(cycling_team)"
+          ]
+        ],
+        [
+          155,
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Bryan Coquard ( FRA )",
+          [
+            "/wiki/Bryan_Coquard"
+          ]
+        ],
+        [
+          "Team Europcar",
+          [
+            "/wiki/Total_Direct_Énergie_(cycling_team)"
+          ]
+        ],
+        [
+          149,
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Anthony Geslin ( FRA )",
+          [
+            "/wiki/Anthony_Geslin"
+          ]
+        ],
+        [
+          "FDJ.fr",
+          [
+            "/wiki/Groupama–FDJ"
+          ]
+        ],
+        [
+          128,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Yannick Martinez ( FRA )",
+          [
+            "/wiki/Yannick_Martinez"
+          ]
+        ],
+        [
+          "La Pomme Marseille",
+          [
+            "/wiki/Nippo–Delko–One_Provence"
+          ]
+        ],
+        [
+          111,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Arnaud Démare ( FRA )",
+          [
+            "/wiki/Arnaud_Démare"
+          ]
+        ],
+        [
+          "FDJ.fr",
+          [
+            "/wiki/Groupama–FDJ"
+          ]
+        ],
+        [
+          100,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Justin Jules ( FRA )",
+          [
+            "/wiki/Justin_Jules"
+          ]
+        ],
+        [
+          "La Pomme Marseille",
+          [
+            "/wiki/Nippo–Delko–One_Provence"
+          ]
+        ],
+        [
+          93,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Julien Simon ( FRA )",
+          [
+            "/wiki/Julien_Simon"
+          ]
+        ],
+        [
+          "Sojasun",
+          [
+            "/wiki/Sojasun_(cycling_team)"
+          ]
+        ],
+        [
+          93,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Nacer Bouhanni ( FRA )",
+          [
+            "/wiki/Nacer_Bouhanni"
+          ]
+        ],
+        [
+          "FDJ.fr",
+          [
+            "/wiki/Groupama–FDJ"
+          ]
+        ],
+        [
+          75,
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Yauheni Hutarovich ( BLR )",
+          [
+            "/wiki/Yauheni_Hutarovich"
+          ]
+        ],
+        [
+          "Ag2r-La Mondiale",
+          [
+            "/wiki/AG2R_La_Mondiale_(cycling_team)"
+          ]
+        ],
+        [
+          73,
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Francis Mourey ( FRA )",
+          [
+            "/wiki/Francis_Mourey"
+          ]
+        ],
+        [
+          "FDJ.fr",
+          [
+            "/wiki/Groupama–FDJ"
+          ]
+        ],
+        [
+          68,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of the standings in the 2013 French Road Cycling Cup, listing the positions, riders, their teams, and points scored. It is intended to summarize the performance of cyclists and their associated teams in the competition. The table combines numeric rankings and scores with categorical and entity-based information about participants and teams.",
+  "numeric_columns": [
+    "Pos",
+    "Points"
+  ],
+  "categorical_columns": [
+    "Team"
+  ],
+  "entities": [
+    "Rider"
+  ]
+}

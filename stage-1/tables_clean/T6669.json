@@ -1,0 +1,391 @@
+{
+  "table_id": "T6669",
+  "uid": "786dec82-9f9e-590b-9258-781fa33905b2",
+  "source": "HybridQA",
+  "source_table_id": "786dec82-9f9e-590b-9258-781fa33905b2",
+  "domain": "HybridQA",
+  "title": "List of airports in Spain",
+  "columns": [
+    "Location",
+    "ICAO",
+    "IATA",
+    "Airport name"
+  ],
+  "rows": [
+    [
+      [
+        "El Hierro",
+        [
+          "/wiki/El_Hierro"
+        ]
+      ],
+      [
+        "GCHI",
+        []
+      ],
+      [
+        "VDE",
+        []
+      ],
+      [
+        "El Hierro Airport [ 42 ]",
+        [
+          "/wiki/El_Hierro_Airport"
+        ]
+      ]
+    ],
+    [
+      [
+        "Fuerteventura",
+        [
+          "/wiki/Fuerteventura"
+        ]
+      ],
+      [
+        "GCFV",
+        []
+      ],
+      [
+        "FUE",
+        []
+      ],
+      [
+        "Fuerteventura Airport ( El Matorral Airport ) [ 43 ]",
+        [
+          "/wiki/Fuerteventura_Airport"
+        ]
+      ]
+    ],
+    [
+      [
+        "Gran Canaria",
+        [
+          "/wiki/Gran_Canaria"
+        ]
+      ],
+      [
+        "GCLP",
+        []
+      ],
+      [
+        "LPA",
+        []
+      ],
+      [
+        "Gran Canaria Airport ( Las Palmas ) [ 44 ]",
+        [
+          "/wiki/Gran_Canaria_Airport"
+        ]
+      ]
+    ],
+    [
+      [
+        "La Gomera",
+        [
+          "/wiki/La_Gomera"
+        ]
+      ],
+      [
+        "GCGM",
+        []
+      ],
+      [
+        "GMZ",
+        []
+      ],
+      [
+        "La Gomera Airport [ 45 ]",
+        [
+          "/wiki/La_Gomera_Airport"
+        ]
+      ]
+    ],
+    [
+      [
+        "La Palma",
+        [
+          "/wiki/La_Palma"
+        ]
+      ],
+      [
+        "GCLA",
+        []
+      ],
+      [
+        "SPC",
+        []
+      ],
+      [
+        "La Palma Airport [ 46 ]",
+        [
+          "/wiki/La_Palma_Airport"
+        ]
+      ]
+    ],
+    [
+      [
+        "Lanzarote",
+        [
+          "/wiki/Lanzarote"
+        ]
+      ],
+      [
+        "GCRR",
+        []
+      ],
+      [
+        "ACE",
+        []
+      ],
+      [
+        "Lanzarote Airport ( Arrecife Airport ) [ 47 ]",
+        [
+          "/wiki/Lanzarote_Airport"
+        ]
+      ]
+    ],
+    [
+      [
+        "Tenerife",
+        [
+          "/wiki/Tenerife"
+        ]
+      ],
+      [
+        "GCXO",
+        []
+      ],
+      [
+        "TFN",
+        []
+      ],
+      [
+        "Tenerife North Airport ( Los Rodeos Airport ) [ 48 ]",
+        [
+          "/wiki/Tenerife_North_Airport"
+        ]
+      ]
+    ],
+    [
+      [
+        "Tenerife",
+        [
+          "/wiki/Tenerife"
+        ]
+      ],
+      [
+        "GCTS",
+        []
+      ],
+      [
+        "TFS",
+        []
+      ],
+      [
+        "Tenerife South Airport ( Reina Sofía Airport ) [ 49 ]",
+        [
+          "/wiki/Tenerife_South_Airport"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "786dec82-9f9e-590b-9258-781fa33905b2",
+    "table_id": "List_of_airports_in_Spain_2",
+    "title": "List of airports in Spain",
+    "header": [
+      "Location",
+      "ICAO",
+      "IATA",
+      "Airport name"
+    ],
+    "value": [
+      [
+        [
+          "El Hierro",
+          [
+            "/wiki/El_Hierro"
+          ]
+        ],
+        [
+          "GCHI",
+          []
+        ],
+        [
+          "VDE",
+          []
+        ],
+        [
+          "El Hierro Airport [ 42 ]",
+          [
+            "/wiki/El_Hierro_Airport"
+          ]
+        ]
+      ],
+      [
+        [
+          "Fuerteventura",
+          [
+            "/wiki/Fuerteventura"
+          ]
+        ],
+        [
+          "GCFV",
+          []
+        ],
+        [
+          "FUE",
+          []
+        ],
+        [
+          "Fuerteventura Airport ( El Matorral Airport ) [ 43 ]",
+          [
+            "/wiki/Fuerteventura_Airport"
+          ]
+        ]
+      ],
+      [
+        [
+          "Gran Canaria",
+          [
+            "/wiki/Gran_Canaria"
+          ]
+        ],
+        [
+          "GCLP",
+          []
+        ],
+        [
+          "LPA",
+          []
+        ],
+        [
+          "Gran Canaria Airport ( Las Palmas ) [ 44 ]",
+          [
+            "/wiki/Gran_Canaria_Airport"
+          ]
+        ]
+      ],
+      [
+        [
+          "La Gomera",
+          [
+            "/wiki/La_Gomera"
+          ]
+        ],
+        [
+          "GCGM",
+          []
+        ],
+        [
+          "GMZ",
+          []
+        ],
+        [
+          "La Gomera Airport [ 45 ]",
+          [
+            "/wiki/La_Gomera_Airport"
+          ]
+        ]
+      ],
+      [
+        [
+          "La Palma",
+          [
+            "/wiki/La_Palma"
+          ]
+        ],
+        [
+          "GCLA",
+          []
+        ],
+        [
+          "SPC",
+          []
+        ],
+        [
+          "La Palma Airport [ 46 ]",
+          [
+            "/wiki/La_Palma_Airport"
+          ]
+        ]
+      ],
+      [
+        [
+          "Lanzarote",
+          [
+            "/wiki/Lanzarote"
+          ]
+        ],
+        [
+          "GCRR",
+          []
+        ],
+        [
+          "ACE",
+          []
+        ],
+        [
+          "Lanzarote Airport ( Arrecife Airport ) [ 47 ]",
+          [
+            "/wiki/Lanzarote_Airport"
+          ]
+        ]
+      ],
+      [
+        [
+          "Tenerife",
+          [
+            "/wiki/Tenerife"
+          ]
+        ],
+        [
+          "GCXO",
+          []
+        ],
+        [
+          "TFN",
+          []
+        ],
+        [
+          "Tenerife North Airport ( Los Rodeos Airport ) [ 48 ]",
+          [
+            "/wiki/Tenerife_North_Airport"
+          ]
+        ]
+      ],
+      [
+        [
+          "Tenerife",
+          [
+            "/wiki/Tenerife"
+          ]
+        ],
+        [
+          "GCTS",
+          []
+        ],
+        [
+          "TFS",
+          []
+        ],
+        [
+          "Tenerife South Airport ( Reina Sofía Airport ) [ 49 ]",
+          [
+            "/wiki/Tenerife_South_Airport"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a list of airports in Spain, including their locations, ICAO and IATA codes, and official airport names. It serves as a reference for identifying and categorizing airports within the country.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "ICAO",
+    "IATA"
+  ],
+  "entities": [
+    "Location",
+    "Airport name"
+  ]
+}

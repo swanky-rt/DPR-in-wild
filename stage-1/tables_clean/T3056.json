@@ -1,0 +1,368 @@
+{
+  "table_id": "T3056",
+  "uid": "076d72f1-285a-5522-bbdb-5305240a924a",
+  "source": "HybridQA",
+  "source_table_id": "076d72f1-285a-5522-bbdb-5305240a924a",
+  "domain": "HybridQA",
+  "title": "Russian Women's Football Championship",
+  "columns": [
+    "Team",
+    "Location",
+    "Ground"
+  ],
+  "rows": [
+    [
+      [
+        "Chertanovo Moscow",
+        [
+          "/wiki/FC_Chertanovo_Moscow"
+        ]
+      ],
+      [
+        "Moscow",
+        [
+          "/wiki/Moscow"
+        ]
+      ],
+      [
+        "Arena Chertanovo",
+        []
+      ]
+    ],
+    [
+      [
+        "Kubanochka Krasnodar",
+        [
+          "/wiki/Kubanochka_Krasnodar"
+        ]
+      ],
+      [
+        "Krasnodar",
+        [
+          "/wiki/Krasnodar"
+        ]
+      ],
+      [
+        "Kuban Stadium",
+        [
+          "/wiki/Kuban_Stadium"
+        ]
+      ]
+    ],
+    [
+      [
+        "CSKA Moscow",
+        [
+          "/wiki/ZFK_CSKA_Moscow"
+        ]
+      ],
+      [
+        "Moscow",
+        [
+          "/wiki/Moscow"
+        ]
+      ],
+      [
+        "Novye Khimki Stadium",
+        [
+          "/wiki/Novye_Khimki_Stadium"
+        ]
+      ]
+    ],
+    [
+      [
+        "Zenit Saint Petersburg",
+        [
+          "/wiki/ZFK_Zenit_Saint_Petersburg"
+        ]
+      ],
+      [
+        "Saint Petersburg",
+        [
+          "/wiki/Saint_Petersburg"
+        ]
+      ],
+      [
+        "Smena Stadium",
+        []
+      ]
+    ],
+    [
+      [
+        "Ryazan-VDV",
+        [
+          "/wiki/Ryazan-VDV"
+        ]
+      ],
+      [
+        "Ryazan",
+        [
+          "/wiki/Ryazan"
+        ]
+      ],
+      [
+        "Central'nyj Sportivn'yj Kompleks",
+        []
+      ]
+    ],
+    [
+      [
+        "Lokomotiv Moscow",
+        [
+          "/wiki/WFC_Lokomotiv_Moscow"
+        ]
+      ],
+      [
+        "Moscow",
+        [
+          "/wiki/Moscow"
+        ]
+      ],
+      [
+        "Sapsan Arena",
+        [
+          "/wiki/Sapsan_Arena"
+        ]
+      ]
+    ],
+    [
+      [
+        "Zvezda-2005 Perm",
+        [
+          "/wiki/Zvezda-2005_Perm"
+        ]
+      ],
+      [
+        "Perm",
+        [
+          "/wiki/Perm"
+        ]
+      ],
+      [
+        "Zvezda Stadium",
+        [
+          "/wiki/Zvezda_Stadium"
+        ]
+      ]
+    ],
+    [
+      [
+        "Yenisey Krasnoyarsk",
+        []
+      ],
+      [
+        "Krasnoyarsk",
+        [
+          "/wiki/Krasnoyarsk"
+        ]
+      ],
+      [
+        "Futbol-arena Enisey",
+        []
+      ]
+    ],
+    [
+      [
+        "Torpedo Izhevsk",
+        []
+      ],
+      [
+        "Izhevsk",
+        [
+          "/wiki/Izhevsk"
+        ]
+      ],
+      [
+        "Kupol Stadium",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "076d72f1-285a-5522-bbdb-5305240a924a",
+    "table_id": "Russian_Women's_Football_Championship_0",
+    "title": "Russian Women's Football Championship",
+    "header": [
+      "Team",
+      "Location",
+      "Ground"
+    ],
+    "value": [
+      [
+        [
+          "Chertanovo Moscow",
+          [
+            "/wiki/FC_Chertanovo_Moscow"
+          ]
+        ],
+        [
+          "Moscow",
+          [
+            "/wiki/Moscow"
+          ]
+        ],
+        [
+          "Arena Chertanovo",
+          []
+        ]
+      ],
+      [
+        [
+          "Kubanochka Krasnodar",
+          [
+            "/wiki/Kubanochka_Krasnodar"
+          ]
+        ],
+        [
+          "Krasnodar",
+          [
+            "/wiki/Krasnodar"
+          ]
+        ],
+        [
+          "Kuban Stadium",
+          [
+            "/wiki/Kuban_Stadium"
+          ]
+        ]
+      ],
+      [
+        [
+          "CSKA Moscow",
+          [
+            "/wiki/ZFK_CSKA_Moscow"
+          ]
+        ],
+        [
+          "Moscow",
+          [
+            "/wiki/Moscow"
+          ]
+        ],
+        [
+          "Novye Khimki Stadium",
+          [
+            "/wiki/Novye_Khimki_Stadium"
+          ]
+        ]
+      ],
+      [
+        [
+          "Zenit Saint Petersburg",
+          [
+            "/wiki/ZFK_Zenit_Saint_Petersburg"
+          ]
+        ],
+        [
+          "Saint Petersburg",
+          [
+            "/wiki/Saint_Petersburg"
+          ]
+        ],
+        [
+          "Smena Stadium",
+          []
+        ]
+      ],
+      [
+        [
+          "Ryazan-VDV",
+          [
+            "/wiki/Ryazan-VDV"
+          ]
+        ],
+        [
+          "Ryazan",
+          [
+            "/wiki/Ryazan"
+          ]
+        ],
+        [
+          "Central'nyj Sportivn'yj Kompleks",
+          []
+        ]
+      ],
+      [
+        [
+          "Lokomotiv Moscow",
+          [
+            "/wiki/WFC_Lokomotiv_Moscow"
+          ]
+        ],
+        [
+          "Moscow",
+          [
+            "/wiki/Moscow"
+          ]
+        ],
+        [
+          "Sapsan Arena",
+          [
+            "/wiki/Sapsan_Arena"
+          ]
+        ]
+      ],
+      [
+        [
+          "Zvezda-2005 Perm",
+          [
+            "/wiki/Zvezda-2005_Perm"
+          ]
+        ],
+        [
+          "Perm",
+          [
+            "/wiki/Perm"
+          ]
+        ],
+        [
+          "Zvezda Stadium",
+          [
+            "/wiki/Zvezda_Stadium"
+          ]
+        ]
+      ],
+      [
+        [
+          "Yenisey Krasnoyarsk",
+          []
+        ],
+        [
+          "Krasnoyarsk",
+          [
+            "/wiki/Krasnoyarsk"
+          ]
+        ],
+        [
+          "Futbol-arena Enisey",
+          []
+        ]
+      ],
+      [
+        [
+          "Torpedo Izhevsk",
+          []
+        ],
+        [
+          "Izhevsk",
+          [
+            "/wiki/Izhevsk"
+          ]
+        ],
+        [
+          "Kupol Stadium",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about teams participating in the Russian Women's Football Championship, including their names, locations, and home grounds. It serves as a reference for understanding the geographical and infrastructural aspects of the championship teams.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Location",
+    "Ground"
+  ],
+  "entities": [
+    "Team"
+  ]
+}

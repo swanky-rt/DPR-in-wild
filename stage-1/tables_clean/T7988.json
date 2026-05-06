@@ -1,0 +1,558 @@
+{
+  "table_id": "T7988",
+  "uid": "d95616bb-60e7-5f10-a3c9-c1963b26965b",
+  "source": "HybridQA",
+  "source_table_id": "d95616bb-60e7-5f10-a3c9-c1963b26965b",
+  "domain": "HybridQA",
+  "title": "List of World War II films",
+  "columns": [
+    "Country",
+    "Main title ( Alternative titles )",
+    "Original title ( Original script )",
+    "Director",
+    "Battles , campaigns , events depicted"
+  ],
+  "rows": [
+    [
+      [
+        "Japan",
+        []
+      ],
+      [
+        "Chocolate and Soldiers",
+        [
+          "/wiki/Chocolate_and_Soldiers"
+        ]
+      ],
+      [
+        "Chocolate to heitai ( チョコレートと兵隊 )",
+        []
+      ],
+      [
+        "Takeshi Sato",
+        []
+      ],
+      [
+        "Japanese Army soldier 's battlefield letters with chocolate wrappers sent to son while fighting in China",
+        [
+          "/wiki/Imperial_Japanese_Army"
+        ]
+      ]
+    ],
+    [
+      [
+        "Soviet Union",
+        []
+      ],
+      [
+        "Concentration Camp ( Bog Soldiers / Soldiers of the Swamp )",
+        []
+      ],
+      [
+        "Bolotnye soldaty ( Болотные солдаты )",
+        []
+      ],
+      [
+        "Aleksandr Macheret",
+        []
+      ],
+      [
+        "Nazi concentration camp guards attempt to break spirits of Communists",
+        [
+          "/wiki/Communists"
+        ]
+      ]
+    ],
+    [
+      [
+        "China",
+        []
+      ],
+      [
+        "The Eight Hundred Heroes",
+        [
+          "/wiki/Defense_of_Sihang_Warehouse"
+        ]
+      ],
+      [
+        "Bā bǎi zhuàngshì ( 八百壮士 )",
+        []
+      ],
+      [
+        "Ying Yunwei",
+        [
+          "/wiki/Ying_Yunwei"
+        ]
+      ],
+      [
+        "Defense of Sihang Warehouse",
+        [
+          "/wiki/Defense_of_Sihang_Warehouse"
+        ]
+      ]
+    ],
+    [
+      [
+        "France",
+        []
+      ],
+      [
+        "It Happened in Gibraltar",
+        [
+          "/wiki/Gibraltar_(1938_film)"
+        ]
+      ],
+      [
+        "Gibraltar",
+        []
+      ],
+      [
+        "Fedor Ozep",
+        [
+          "/wiki/Fedor_Ozep"
+        ]
+      ],
+      [
+        "British officer in Gibraltar pretends to be traitor",
+        [
+          "/wiki/Gibraltar"
+        ]
+      ]
+    ],
+    [
+      [
+        "Japan",
+        []
+      ],
+      [
+        "Invisible Invader",
+        []
+      ],
+      [
+        "Sugata-naki shinnyūsha ( 姿無き侵入者 )",
+        []
+      ],
+      [
+        "Shuzo Fukuda",
+        []
+      ],
+      [
+        "Foreign spies in Japan pretend to be travelers",
+        []
+      ]
+    ],
+    [
+      [
+        "Italy",
+        []
+      ],
+      [
+        "Luciano Serra , Pilot",
+        [
+          "/wiki/Luciano_Serra,_Pilot"
+        ]
+      ],
+      [
+        "Luciano Serra pilota",
+        []
+      ],
+      [
+        "Goffredo Alessandrini",
+        [
+          "/wiki/Goffredo_Alessandrini"
+        ]
+      ],
+      [
+        "Italo-Abyssinian War",
+        [
+          "/wiki/Second_Italo-Abyssinian_War"
+        ]
+      ]
+    ],
+    [
+      [
+        "Korea",
+        []
+      ],
+      [
+        "Military Train",
+        []
+      ],
+      [
+        "Gun'yō ressha ( 軍用列車 ) Gun-yong-yeolcha ( 군용열차 )",
+        []
+      ],
+      [
+        "Gwang-je Seo",
+        []
+      ],
+      [
+        "A Korean train conductor is involved in espionage on a Japanese military train",
+        []
+      ]
+    ],
+    [
+      [
+        "Japan",
+        []
+      ],
+      [
+        "A Pay by the Wayside ( Five Scouts )",
+        [
+          "/wiki/A_Pay_by_the_Wayside"
+        ]
+      ],
+      [
+        "Gonin no sekkôhei ( 五人の斥候兵 )",
+        []
+      ],
+      [
+        "Tomotaka Tasaka",
+        [
+          "/wiki/Tomotaka_Tasaka"
+        ]
+      ],
+      [
+        "Five Japanese Army soldiers on reconnaissance mission behind Chinese lines",
+        []
+      ]
+    ],
+    [
+      [
+        "Japan",
+        []
+      ],
+      [
+        "The Road to Peace in the Orient",
+        []
+      ],
+      [
+        "Tōyō heiwa no michi ( 東洋平和の道 )",
+        []
+      ],
+      [
+        "Shigeyoshi Suzuki",
+        [
+          "/wiki/Shigeyoshi_Suzuki_(film_director)"
+        ]
+      ],
+      [
+        "Chinese farmers overcame their distrust of Japan after being helped by Japanese soldiers",
+        []
+      ]
+    ],
+    [
+      [
+        "France",
+        []
+      ],
+      [
+        "The Shanghai Drama",
+        [
+          "/wiki/The_Shanghai_Drama"
+        ]
+      ],
+      [
+        "Le drame de Shanghaï",
+        []
+      ],
+      [
+        "Georg Wilhelm Pabst",
+        [
+          "/wiki/Georg_Wilhelm_Pabst"
+        ]
+      ],
+      [
+        "Japanese Black Dragon agents in Shanghai",
+        [
+          "/wiki/Black_Dragon_Society",
+          "/wiki/Shanghai"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "d95616bb-60e7-5f10-a3c9-c1963b26965b",
+    "table_id": "List_of_World_War_II_films_2",
+    "title": "List of World War II films",
+    "header": [
+      "Country",
+      "Main title ( Alternative titles )",
+      "Original title ( Original script )",
+      "Director",
+      "Battles , campaigns , events depicted"
+    ],
+    "value": [
+      [
+        [
+          "Japan",
+          []
+        ],
+        [
+          "Chocolate and Soldiers",
+          [
+            "/wiki/Chocolate_and_Soldiers"
+          ]
+        ],
+        [
+          "Chocolate to heitai ( チョコレートと兵隊 )",
+          []
+        ],
+        [
+          "Takeshi Sato",
+          []
+        ],
+        [
+          "Japanese Army soldier 's battlefield letters with chocolate wrappers sent to son while fighting in China",
+          [
+            "/wiki/Imperial_Japanese_Army"
+          ]
+        ]
+      ],
+      [
+        [
+          "Soviet Union",
+          []
+        ],
+        [
+          "Concentration Camp ( Bog Soldiers / Soldiers of the Swamp )",
+          []
+        ],
+        [
+          "Bolotnye soldaty ( Болотные солдаты )",
+          []
+        ],
+        [
+          "Aleksandr Macheret",
+          []
+        ],
+        [
+          "Nazi concentration camp guards attempt to break spirits of Communists",
+          [
+            "/wiki/Communists"
+          ]
+        ]
+      ],
+      [
+        [
+          "China",
+          []
+        ],
+        [
+          "The Eight Hundred Heroes",
+          [
+            "/wiki/Defense_of_Sihang_Warehouse"
+          ]
+        ],
+        [
+          "Bā bǎi zhuàngshì ( 八百壮士 )",
+          []
+        ],
+        [
+          "Ying Yunwei",
+          [
+            "/wiki/Ying_Yunwei"
+          ]
+        ],
+        [
+          "Defense of Sihang Warehouse",
+          [
+            "/wiki/Defense_of_Sihang_Warehouse"
+          ]
+        ]
+      ],
+      [
+        [
+          "France",
+          []
+        ],
+        [
+          "It Happened in Gibraltar",
+          [
+            "/wiki/Gibraltar_(1938_film)"
+          ]
+        ],
+        [
+          "Gibraltar",
+          []
+        ],
+        [
+          "Fedor Ozep",
+          [
+            "/wiki/Fedor_Ozep"
+          ]
+        ],
+        [
+          "British officer in Gibraltar pretends to be traitor",
+          [
+            "/wiki/Gibraltar"
+          ]
+        ]
+      ],
+      [
+        [
+          "Japan",
+          []
+        ],
+        [
+          "Invisible Invader",
+          []
+        ],
+        [
+          "Sugata-naki shinnyūsha ( 姿無き侵入者 )",
+          []
+        ],
+        [
+          "Shuzo Fukuda",
+          []
+        ],
+        [
+          "Foreign spies in Japan pretend to be travelers",
+          []
+        ]
+      ],
+      [
+        [
+          "Italy",
+          []
+        ],
+        [
+          "Luciano Serra , Pilot",
+          [
+            "/wiki/Luciano_Serra,_Pilot"
+          ]
+        ],
+        [
+          "Luciano Serra pilota",
+          []
+        ],
+        [
+          "Goffredo Alessandrini",
+          [
+            "/wiki/Goffredo_Alessandrini"
+          ]
+        ],
+        [
+          "Italo-Abyssinian War",
+          [
+            "/wiki/Second_Italo-Abyssinian_War"
+          ]
+        ]
+      ],
+      [
+        [
+          "Korea",
+          []
+        ],
+        [
+          "Military Train",
+          []
+        ],
+        [
+          "Gun'yō ressha ( 軍用列車 ) Gun-yong-yeolcha ( 군용열차 )",
+          []
+        ],
+        [
+          "Gwang-je Seo",
+          []
+        ],
+        [
+          "A Korean train conductor is involved in espionage on a Japanese military train",
+          []
+        ]
+      ],
+      [
+        [
+          "Japan",
+          []
+        ],
+        [
+          "A Pay by the Wayside ( Five Scouts )",
+          [
+            "/wiki/A_Pay_by_the_Wayside"
+          ]
+        ],
+        [
+          "Gonin no sekkôhei ( 五人の斥候兵 )",
+          []
+        ],
+        [
+          "Tomotaka Tasaka",
+          [
+            "/wiki/Tomotaka_Tasaka"
+          ]
+        ],
+        [
+          "Five Japanese Army soldiers on reconnaissance mission behind Chinese lines",
+          []
+        ]
+      ],
+      [
+        [
+          "Japan",
+          []
+        ],
+        [
+          "The Road to Peace in the Orient",
+          []
+        ],
+        [
+          "Tōyō heiwa no michi ( 東洋平和の道 )",
+          []
+        ],
+        [
+          "Shigeyoshi Suzuki",
+          [
+            "/wiki/Shigeyoshi_Suzuki_(film_director)"
+          ]
+        ],
+        [
+          "Chinese farmers overcame their distrust of Japan after being helped by Japanese soldiers",
+          []
+        ]
+      ],
+      [
+        [
+          "France",
+          []
+        ],
+        [
+          "The Shanghai Drama",
+          [
+            "/wiki/The_Shanghai_Drama"
+          ]
+        ],
+        [
+          "Le drame de Shanghaï",
+          []
+        ],
+        [
+          "Georg Wilhelm Pabst",
+          [
+            "/wiki/Georg_Wilhelm_Pabst"
+          ]
+        ],
+        [
+          "Japanese Black Dragon agents in Shanghai",
+          [
+            "/wiki/Black_Dragon_Society",
+            "/wiki/Shanghai"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a list of World War II films, detailing their country of origin, titles (including alternative and original titles), directors, and the historical battles, campaigns, or events they depict. It serves as a reference for exploring cinematic portrayals of World War II across different nations and perspectives.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Country",
+    "Main title ( Alternative titles )",
+    "Original title ( Original script )",
+    "Director",
+    "Battles , campaigns , events depicted"
+  ],
+  "entities": [
+    "Country",
+    "Director"
+  ]
+}

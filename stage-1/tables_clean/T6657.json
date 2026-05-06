@@ -1,0 +1,463 @@
+{
+  "table_id": "T6657",
+  "uid": "d79f709b-9f86-5ebf-a68c-57e22b4ee610",
+  "source": "HybridQA",
+  "source_table_id": "d79f709b-9f86-5ebf-a68c-57e22b4ee610",
+  "domain": "HybridQA",
+  "title": "Rodney Square",
+  "columns": [
+    "Name",
+    "Built",
+    "Architect",
+    "Style",
+    "Current Use"
+  ],
+  "rows": [
+    [
+      [
+        "I. M. Pei Building",
+        [
+          "/wiki/I._M._Pei_Building"
+        ]
+      ],
+      [
+        1971,
+        []
+      ],
+      [
+        "I.M . Pei",
+        [
+          "/wiki/I.M._Pei"
+        ]
+      ],
+      [
+        "Brutalist",
+        [
+          "/wiki/Brutalist_architecture"
+        ]
+      ],
+      [
+        "Multi-tenant office",
+        []
+      ]
+    ],
+    [
+      [
+        "MBNA Bracebridge I",
+        [
+          "/wiki/MBNA"
+        ]
+      ],
+      [
+        1995,
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "BofA credit card headquarters",
+        [
+          "/wiki/Bank_of_America"
+        ]
+      ]
+    ],
+    [
+      [
+        "Delaware Trust Building",
+        [
+          "/wiki/Delaware_Trust_Building"
+        ]
+      ],
+      [
+        1930,
+        []
+      ],
+      [
+        "Dennison & Hirons",
+        []
+      ],
+      [
+        "Classical Revival",
+        [
+          "/wiki/Neoclassical_architecture"
+        ]
+      ],
+      [
+        "Condos and restaurants , listed on the National Register of Historic Places in 2003",
+        []
+      ]
+    ],
+    [
+      [
+        "DuPont Building",
+        [
+          "/wiki/DuPont_Building"
+        ]
+      ],
+      [
+        1908,
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "DuPont headquarters",
+        [
+          "/wiki/DuPont"
+        ]
+      ]
+    ],
+    [
+      [
+        "Public Building",
+        []
+      ],
+      [
+        1916,
+        []
+      ],
+      [
+        "Henry Hornbostel",
+        [
+          "/wiki/Henry_Hornbostel"
+        ]
+      ],
+      [
+        "Classical Revival",
+        [
+          "/wiki/Neoclassical_architecture"
+        ]
+      ],
+      [
+        "Law firm",
+        []
+      ]
+    ],
+    [
+      [
+        "Wilmington Mansion",
+        []
+      ],
+      [
+        "1860s",
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "Wilmington Club , listed on the National Register of Historic Places in 2006",
+        [
+          "/wiki/Wilmington_Club"
+        ]
+      ]
+    ],
+    [
+      [
+        "Wilmington Post Office",
+        [
+          "/wiki/United_States_Post_Office,_Courthouse,_and_Customhouse_(Wilmington,_Delaware)"
+        ]
+      ],
+      [
+        1937,
+        []
+      ],
+      [
+        "Associated Federal Architects",
+        []
+      ],
+      [
+        "Classical Revival",
+        [
+          "/wiki/Neoclassical_architecture"
+        ]
+      ],
+      [
+        "Wilmington Trust headquarters , listed on the National Register of Historic Places in 1979",
+        [
+          "/wiki/Wilmington_Trust"
+        ]
+      ]
+    ],
+    [
+      [
+        "Wilmington Public Library",
+        []
+      ],
+      [
+        1922,
+        []
+      ],
+      [
+        "Edward Lippincott Tilton",
+        [
+          "/wiki/Edward_Lippincott_Tilton"
+        ]
+      ],
+      [
+        "Beaux-Arts",
+        [
+          "/wiki/Beaux-Arts_architecture"
+        ]
+      ],
+      [
+        "Library",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "d79f709b-9f86-5ebf-a68c-57e22b4ee610",
+    "table_id": "Rodney_Square_0",
+    "title": "Rodney Square",
+    "header": [
+      "Name",
+      "Built",
+      "Architect",
+      "Style",
+      "Current Use"
+    ],
+    "value": [
+      [
+        [
+          "I. M. Pei Building",
+          [
+            "/wiki/I._M._Pei_Building"
+          ]
+        ],
+        [
+          1971,
+          []
+        ],
+        [
+          "I.M . Pei",
+          [
+            "/wiki/I.M._Pei"
+          ]
+        ],
+        [
+          "Brutalist",
+          [
+            "/wiki/Brutalist_architecture"
+          ]
+        ],
+        [
+          "Multi-tenant office",
+          []
+        ]
+      ],
+      [
+        [
+          "MBNA Bracebridge I",
+          [
+            "/wiki/MBNA"
+          ]
+        ],
+        [
+          1995,
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "BofA credit card headquarters",
+          [
+            "/wiki/Bank_of_America"
+          ]
+        ]
+      ],
+      [
+        [
+          "Delaware Trust Building",
+          [
+            "/wiki/Delaware_Trust_Building"
+          ]
+        ],
+        [
+          1930,
+          []
+        ],
+        [
+          "Dennison & Hirons",
+          []
+        ],
+        [
+          "Classical Revival",
+          [
+            "/wiki/Neoclassical_architecture"
+          ]
+        ],
+        [
+          "Condos and restaurants , listed on the National Register of Historic Places in 2003",
+          []
+        ]
+      ],
+      [
+        [
+          "DuPont Building",
+          [
+            "/wiki/DuPont_Building"
+          ]
+        ],
+        [
+          1908,
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "DuPont headquarters",
+          [
+            "/wiki/DuPont"
+          ]
+        ]
+      ],
+      [
+        [
+          "Public Building",
+          []
+        ],
+        [
+          1916,
+          []
+        ],
+        [
+          "Henry Hornbostel",
+          [
+            "/wiki/Henry_Hornbostel"
+          ]
+        ],
+        [
+          "Classical Revival",
+          [
+            "/wiki/Neoclassical_architecture"
+          ]
+        ],
+        [
+          "Law firm",
+          []
+        ]
+      ],
+      [
+        [
+          "Wilmington Mansion",
+          []
+        ],
+        [
+          "1860s",
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "Wilmington Club , listed on the National Register of Historic Places in 2006",
+          [
+            "/wiki/Wilmington_Club"
+          ]
+        ]
+      ],
+      [
+        [
+          "Wilmington Post Office",
+          [
+            "/wiki/United_States_Post_Office,_Courthouse,_and_Customhouse_(Wilmington,_Delaware)"
+          ]
+        ],
+        [
+          1937,
+          []
+        ],
+        [
+          "Associated Federal Architects",
+          []
+        ],
+        [
+          "Classical Revival",
+          [
+            "/wiki/Neoclassical_architecture"
+          ]
+        ],
+        [
+          "Wilmington Trust headquarters , listed on the National Register of Historic Places in 1979",
+          [
+            "/wiki/Wilmington_Trust"
+          ]
+        ]
+      ],
+      [
+        [
+          "Wilmington Public Library",
+          []
+        ],
+        [
+          1922,
+          []
+        ],
+        [
+          "Edward Lippincott Tilton",
+          [
+            "/wiki/Edward_Lippincott_Tilton"
+          ]
+        ],
+        [
+          "Beaux-Arts",
+          [
+            "/wiki/Beaux-Arts_architecture"
+          ]
+        ],
+        [
+          "Library",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about various buildings, including their names, construction years, architects, architectural styles, and current uses. It appears to be a reference for architectural or urban studies, focusing on key attributes of notable structures.",
+  "numeric_columns": [
+    "Built"
+  ],
+  "categorical_columns": [
+    "Style",
+    "Current Use"
+  ],
+  "entities": [
+    "Name",
+    "Architect"
+  ]
+}

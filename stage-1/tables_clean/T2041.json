@@ -1,0 +1,292 @@
+{
+  "table_id": "T2041",
+  "uid": "dec9a20a-f0fd-53d4-94d0-fa28c6f09a48",
+  "source": "HybridQA",
+  "source_table_id": "dec9a20a-f0fd-53d4-94d0-fa28c6f09a48",
+  "domain": "HybridQA",
+  "title": "World Series of Poker",
+  "columns": [
+    "Bracelets",
+    "Player",
+    "Main Event wins"
+  ],
+  "rows": [
+    [
+      [
+        15,
+        []
+      ],
+      [
+        "Phil Hellmuth",
+        [
+          "/wiki/Phil_Hellmuth"
+        ]
+      ],
+      [
+        2,
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Doyle Brunson",
+        [
+          "/wiki/Doyle_Brunson"
+        ]
+      ],
+      [
+        2,
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Johnny Chan",
+        [
+          "/wiki/Johnny_Chan"
+        ]
+      ],
+      [
+        2,
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Phil Ivey",
+        [
+          "/wiki/Phil_Ivey"
+        ]
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Johnny Moss",
+        [
+          "/wiki/Johnny_Moss"
+        ]
+      ],
+      [
+        3,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Erik Seidel",
+        [
+          "/wiki/Erik_Seidel"
+        ]
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Billy Baxter",
+        [
+          "/wiki/Billy_Baxter_(poker_player)"
+        ]
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Men Nguyen",
+        [
+          "/wiki/Men_Nguyen"
+        ]
+      ],
+      [
+        0,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "dec9a20a-f0fd-53d4-94d0-fa28c6f09a48",
+    "table_id": "World_Series_of_Poker_1",
+    "title": "World Series of Poker",
+    "header": [
+      "Bracelets",
+      "Player",
+      "Main Event wins"
+    ],
+    "value": [
+      [
+        [
+          15,
+          []
+        ],
+        [
+          "Phil Hellmuth",
+          [
+            "/wiki/Phil_Hellmuth"
+          ]
+        ],
+        [
+          2,
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Doyle Brunson",
+          [
+            "/wiki/Doyle_Brunson"
+          ]
+        ],
+        [
+          2,
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Johnny Chan",
+          [
+            "/wiki/Johnny_Chan"
+          ]
+        ],
+        [
+          2,
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Phil Ivey",
+          [
+            "/wiki/Phil_Ivey"
+          ]
+        ],
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Johnny Moss",
+          [
+            "/wiki/Johnny_Moss"
+          ]
+        ],
+        [
+          3,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Erik Seidel",
+          [
+            "/wiki/Erik_Seidel"
+          ]
+        ],
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Billy Baxter",
+          [
+            "/wiki/Billy_Baxter_(poker_player)"
+          ]
+        ],
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Men Nguyen",
+          [
+            "/wiki/Men_Nguyen"
+          ]
+        ],
+        [
+          0,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about players in the World Series of Poker, including their achievements in terms of bracelets won and Main Event victories. It highlights notable individuals in the poker world and their success in major tournaments. The table serves as a summary of accomplishments in professional poker.",
+  "numeric_columns": [
+    "Bracelets",
+    "Main Event wins"
+  ],
+  "categorical_columns": [],
+  "entities": [
+    "Player"
+  ]
+}

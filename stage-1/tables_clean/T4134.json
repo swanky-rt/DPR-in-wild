@@ -1,0 +1,607 @@
+{
+  "table_id": "T4134",
+  "uid": "1845e4ef-4c9e-57e9-be9b-9af5a3f36bc7",
+  "source": "HybridQA",
+  "source_table_id": "1845e4ef-4c9e-57e9-be9b-9af5a3f36bc7",
+  "domain": "HybridQA",
+  "title": "Dancing with the Stars (American season 5)",
+  "columns": [
+    "Dance",
+    "Highest scored dancer ( s )",
+    "Highest score",
+    "Lowest scored dancer ( s )",
+    "Lowest score"
+  ],
+  "rows": [
+    [
+      [
+        "Cha-cha-cha",
+        [
+          "/wiki/Cha-cha-cha_(dance)"
+        ]
+      ],
+      [
+        "Jennie Garth Hélio Castroneves",
+        [
+          "/wiki/Jennie_Garth",
+          "/wiki/Hélio_Castroneves"
+        ]
+      ],
+      [
+        30,
+        []
+      ],
+      [
+        "Floyd Mayweather Jr",
+        [
+          "/wiki/Floyd_Mayweather_Jr."
+        ]
+      ],
+      [
+        18,
+        []
+      ]
+    ],
+    [
+      [
+        "Foxtrot",
+        [
+          "/wiki/Foxtrot"
+        ]
+      ],
+      [
+        "Hélio Castroneves",
+        []
+      ],
+      [
+        30,
+        []
+      ],
+      [
+        "Josie Maran",
+        [
+          "/wiki/Josie_Maran"
+        ]
+      ],
+      [
+        16,
+        []
+      ]
+    ],
+    [
+      [
+        "Quickstep",
+        [
+          "/wiki/Quickstep"
+        ]
+      ],
+      [
+        "Hélio Castroneves",
+        []
+      ],
+      [
+        30,
+        []
+      ],
+      [
+        "Wayne Newton",
+        [
+          "/wiki/Wayne_Newton"
+        ]
+      ],
+      [
+        15,
+        []
+      ]
+    ],
+    [
+      [
+        "Mambo",
+        [
+          "/wiki/Mambo_(dance)"
+        ]
+      ],
+      [
+        "Mel B",
+        [
+          "/wiki/Mel_B"
+        ]
+      ],
+      [
+        30,
+        []
+      ],
+      [
+        "Mark Cuban",
+        [
+          "/wiki/Mark_Cuban"
+        ]
+      ],
+      [
+        18,
+        []
+      ]
+    ],
+    [
+      [
+        "Jive",
+        [
+          "/wiki/Jive_(dance)"
+        ]
+      ],
+      [
+        "Mel B Sabrina Bryan Cameron Mathison",
+        [
+          "/wiki/Sabrina_Bryan",
+          "/wiki/Cameron_Mathison"
+        ]
+      ],
+      [
+        27,
+        []
+      ],
+      [
+        "Mark Cuban",
+        []
+      ],
+      [
+        20,
+        []
+      ]
+    ],
+    [
+      [
+        "Tango",
+        [
+          "/wiki/Ballroom_tango"
+        ]
+      ],
+      [
+        "Jennie Garth",
+        []
+      ],
+      [
+        28,
+        []
+      ],
+      [
+        "Wayne Newton",
+        []
+      ],
+      [
+        18,
+        []
+      ]
+    ],
+    [
+      [
+        "Viennese waltz",
+        [
+          "/wiki/Viennese_waltz"
+        ]
+      ],
+      [
+        "Mel B",
+        []
+      ],
+      [
+        30,
+        []
+      ],
+      [
+        "Mark Cuban",
+        []
+      ],
+      [
+        22,
+        []
+      ]
+    ],
+    [
+      [
+        "Paso doble",
+        [
+          "/wiki/Paso_doble"
+        ]
+      ],
+      [
+        "Sabrina Bryan Mel B",
+        []
+      ],
+      [
+        30,
+        []
+      ],
+      [
+        "Marie Osmond Floyd Mayweather Jr",
+        [
+          "/wiki/Marie_Osmond"
+        ]
+      ],
+      [
+        23,
+        []
+      ]
+    ],
+    [
+      [
+        "Rumba",
+        [
+          "/wiki/Rhumba"
+        ]
+      ],
+      [
+        "Mel B",
+        []
+      ],
+      [
+        30,
+        []
+      ],
+      [
+        "Hélio Castroneves",
+        []
+      ],
+      [
+        23,
+        []
+      ]
+    ],
+    [
+      [
+        "Samba",
+        [
+          "/wiki/Samba_(ballroom_dance)"
+        ]
+      ],
+      [
+        "Mel B",
+        []
+      ],
+      [
+        29,
+        []
+      ],
+      [
+        "Mark Cuban Marie Osmond",
+        []
+      ],
+      [
+        21,
+        []
+      ]
+    ],
+    [
+      [
+        "Freestyle",
+        [
+          "/wiki/Street_dance"
+        ]
+      ],
+      [
+        "Hélio Castroneves",
+        []
+      ],
+      [
+        29,
+        []
+      ],
+      [
+        "Marie Osmond",
+        []
+      ],
+      [
+        22,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "1845e4ef-4c9e-57e9-be9b-9af5a3f36bc7",
+    "table_id": "Dancing_with_the_Stars_(U.S._season_5)_3",
+    "title": "Dancing with the Stars (American season 5)",
+    "header": [
+      "Dance",
+      "Highest scored dancer ( s )",
+      "Highest score",
+      "Lowest scored dancer ( s )",
+      "Lowest score"
+    ],
+    "value": [
+      [
+        [
+          "Cha-cha-cha",
+          [
+            "/wiki/Cha-cha-cha_(dance)"
+          ]
+        ],
+        [
+          "Jennie Garth Hélio Castroneves",
+          [
+            "/wiki/Jennie_Garth",
+            "/wiki/Hélio_Castroneves"
+          ]
+        ],
+        [
+          30,
+          []
+        ],
+        [
+          "Floyd Mayweather Jr",
+          [
+            "/wiki/Floyd_Mayweather_Jr."
+          ]
+        ],
+        [
+          18,
+          []
+        ]
+      ],
+      [
+        [
+          "Foxtrot",
+          [
+            "/wiki/Foxtrot"
+          ]
+        ],
+        [
+          "Hélio Castroneves",
+          []
+        ],
+        [
+          30,
+          []
+        ],
+        [
+          "Josie Maran",
+          [
+            "/wiki/Josie_Maran"
+          ]
+        ],
+        [
+          16,
+          []
+        ]
+      ],
+      [
+        [
+          "Quickstep",
+          [
+            "/wiki/Quickstep"
+          ]
+        ],
+        [
+          "Hélio Castroneves",
+          []
+        ],
+        [
+          30,
+          []
+        ],
+        [
+          "Wayne Newton",
+          [
+            "/wiki/Wayne_Newton"
+          ]
+        ],
+        [
+          15,
+          []
+        ]
+      ],
+      [
+        [
+          "Mambo",
+          [
+            "/wiki/Mambo_(dance)"
+          ]
+        ],
+        [
+          "Mel B",
+          [
+            "/wiki/Mel_B"
+          ]
+        ],
+        [
+          30,
+          []
+        ],
+        [
+          "Mark Cuban",
+          [
+            "/wiki/Mark_Cuban"
+          ]
+        ],
+        [
+          18,
+          []
+        ]
+      ],
+      [
+        [
+          "Jive",
+          [
+            "/wiki/Jive_(dance)"
+          ]
+        ],
+        [
+          "Mel B Sabrina Bryan Cameron Mathison",
+          [
+            "/wiki/Sabrina_Bryan",
+            "/wiki/Cameron_Mathison"
+          ]
+        ],
+        [
+          27,
+          []
+        ],
+        [
+          "Mark Cuban",
+          []
+        ],
+        [
+          20,
+          []
+        ]
+      ],
+      [
+        [
+          "Tango",
+          [
+            "/wiki/Ballroom_tango"
+          ]
+        ],
+        [
+          "Jennie Garth",
+          []
+        ],
+        [
+          28,
+          []
+        ],
+        [
+          "Wayne Newton",
+          []
+        ],
+        [
+          18,
+          []
+        ]
+      ],
+      [
+        [
+          "Viennese waltz",
+          [
+            "/wiki/Viennese_waltz"
+          ]
+        ],
+        [
+          "Mel B",
+          []
+        ],
+        [
+          30,
+          []
+        ],
+        [
+          "Mark Cuban",
+          []
+        ],
+        [
+          22,
+          []
+        ]
+      ],
+      [
+        [
+          "Paso doble",
+          [
+            "/wiki/Paso_doble"
+          ]
+        ],
+        [
+          "Sabrina Bryan Mel B",
+          []
+        ],
+        [
+          30,
+          []
+        ],
+        [
+          "Marie Osmond Floyd Mayweather Jr",
+          [
+            "/wiki/Marie_Osmond"
+          ]
+        ],
+        [
+          23,
+          []
+        ]
+      ],
+      [
+        [
+          "Rumba",
+          [
+            "/wiki/Rhumba"
+          ]
+        ],
+        [
+          "Mel B",
+          []
+        ],
+        [
+          30,
+          []
+        ],
+        [
+          "Hélio Castroneves",
+          []
+        ],
+        [
+          23,
+          []
+        ]
+      ],
+      [
+        [
+          "Samba",
+          [
+            "/wiki/Samba_(ballroom_dance)"
+          ]
+        ],
+        [
+          "Mel B",
+          []
+        ],
+        [
+          29,
+          []
+        ],
+        [
+          "Mark Cuban Marie Osmond",
+          []
+        ],
+        [
+          21,
+          []
+        ]
+      ],
+      [
+        [
+          "Freestyle",
+          [
+            "/wiki/Street_dance"
+          ]
+        ],
+        [
+          "Hélio Castroneves",
+          []
+        ],
+        [
+          29,
+          []
+        ],
+        [
+          "Marie Osmond",
+          []
+        ],
+        [
+          22,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of dances performed during the fifth season of the American television show 'Dancing with the Stars.' It includes information about the highest and lowest scored dancers for each dance, along with their respective scores. The table highlights the performance outcomes for different dance styles in the competition.",
+  "numeric_columns": [
+    "Highest score",
+    "Lowest score"
+  ],
+  "categorical_columns": [
+    "Dance"
+  ],
+  "entities": [
+    "Highest scored dancer ( s )",
+    "Lowest scored dancer ( s )"
+  ]
+}

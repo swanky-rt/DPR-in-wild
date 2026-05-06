@@ -1,0 +1,293 @@
+{
+  "table_id": "T7313",
+  "uid": "8cf2747c-b28f-50a4-8620-6c17f3db4498",
+  "source": "HybridQA",
+  "source_table_id": "8cf2747c-b28f-50a4-8620-6c17f3db4498",
+  "domain": "HybridQA",
+  "title": "Korean Music Awards",
+  "columns": [
+    "Bout",
+    "Year",
+    "Winner"
+  ],
+  "rows": [
+    [
+      [
+        "13th",
+        []
+      ],
+      [
+        2016,
+        []
+      ],
+      [
+        "IU",
+        [
+          "/wiki/IU_(singer)"
+        ]
+      ]
+    ],
+    [
+      [
+        "12th",
+        []
+      ],
+      [
+        2015,
+        []
+      ],
+      [
+        "HA : TFELT",
+        [
+          "/wiki/Yenny"
+        ]
+      ]
+    ],
+    [
+      [
+        "11th",
+        []
+      ],
+      [
+        2014,
+        []
+      ],
+      [
+        "Lee Hi",
+        [
+          "/wiki/Lee_Hi"
+        ]
+      ]
+    ],
+    [
+      [
+        "10th",
+        []
+      ],
+      [
+        2013,
+        []
+      ],
+      [
+        "Lena Park",
+        [
+          "/wiki/Lena_Park"
+        ]
+      ]
+    ],
+    [
+      [
+        "9th",
+        []
+      ],
+      [
+        2012,
+        []
+      ],
+      [
+        "IU",
+        [
+          "/wiki/IU_(singer)"
+        ]
+      ]
+    ],
+    [
+      [
+        "8th",
+        []
+      ],
+      [
+        2011,
+        []
+      ],
+      [
+        "Kim Yoon-ah",
+        [
+          "/wiki/Jaurim"
+        ]
+      ]
+    ],
+    [
+      [
+        "7th",
+        []
+      ],
+      [
+        2010,
+        []
+      ],
+      [
+        "Baek Ji-young",
+        [
+          "/wiki/Baek_Ji-young"
+        ]
+      ]
+    ],
+    [
+      [
+        "6th",
+        []
+      ],
+      [
+        2009,
+        []
+      ],
+      [
+        "Younha",
+        [
+          "/wiki/Younha"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "8cf2747c-b28f-50a4-8620-6c17f3db4498",
+    "table_id": "Korean_Music_Awards_24",
+    "title": "Korean Music Awards",
+    "header": [
+      "Bout",
+      "Year",
+      "Winner"
+    ],
+    "value": [
+      [
+        [
+          "13th",
+          []
+        ],
+        [
+          2016,
+          []
+        ],
+        [
+          "IU",
+          [
+            "/wiki/IU_(singer)"
+          ]
+        ]
+      ],
+      [
+        [
+          "12th",
+          []
+        ],
+        [
+          2015,
+          []
+        ],
+        [
+          "HA : TFELT",
+          [
+            "/wiki/Yenny"
+          ]
+        ]
+      ],
+      [
+        [
+          "11th",
+          []
+        ],
+        [
+          2014,
+          []
+        ],
+        [
+          "Lee Hi",
+          [
+            "/wiki/Lee_Hi"
+          ]
+        ]
+      ],
+      [
+        [
+          "10th",
+          []
+        ],
+        [
+          2013,
+          []
+        ],
+        [
+          "Lena Park",
+          [
+            "/wiki/Lena_Park"
+          ]
+        ]
+      ],
+      [
+        [
+          "9th",
+          []
+        ],
+        [
+          2012,
+          []
+        ],
+        [
+          "IU",
+          [
+            "/wiki/IU_(singer)"
+          ]
+        ]
+      ],
+      [
+        [
+          "8th",
+          []
+        ],
+        [
+          2011,
+          []
+        ],
+        [
+          "Kim Yoon-ah",
+          [
+            "/wiki/Jaurim"
+          ]
+        ]
+      ],
+      [
+        [
+          "7th",
+          []
+        ],
+        [
+          2010,
+          []
+        ],
+        [
+          "Baek Ji-young",
+          [
+            "/wiki/Baek_Ji-young"
+          ]
+        ]
+      ],
+      [
+        [
+          "6th",
+          []
+        ],
+        [
+          2009,
+          []
+        ],
+        [
+          "Younha",
+          [
+            "/wiki/Younha"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the Korean Music Awards, including the edition of the event, the year it took place, and the winner of the award. It serves as a record of notable achievements in the Korean music industry over different years.",
+  "numeric_columns": [
+    "Year"
+  ],
+  "categorical_columns": [
+    "Bout"
+  ],
+  "entities": [
+    "Winner"
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "table_id": "T4819",
+  "uid": "1d2892a6-06d6-57e6-a2e6-d56677d5d433",
+  "source": "HybridQA",
+  "source_table_id": "1d2892a6-06d6-57e6-a2e6-d56677d5d433",
+  "domain": "HybridQA",
+  "title": "America's Finest City Half Marathon",
+  "columns": [
+    "Athlete",
+    "Country",
+    "Wins",
+    "Years"
+  ],
+  "rows": [
+    [
+      [
+        "Patrick Muturi",
+        []
+      ],
+      [
+        "Kenya",
+        [
+          "/wiki/Kenya"
+        ]
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "1994 , 1997",
+        []
+      ]
+    ],
+    [
+      [
+        "Maria Trujillo",
+        [
+          "/wiki/Maria_Trujillo"
+        ]
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        4,
+        []
+      ],
+      [
+        "1987 , 1989 , 1993 , 1997",
+        []
+      ]
+    ],
+    [
+      [
+        "Laurie Binder",
+        [
+          "/wiki/Laurie_Binder"
+        ]
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "1980 , 1985",
+        []
+      ]
+    ],
+    [
+      [
+        "Laura LaMena",
+        []
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "1990 , 1992",
+        []
+      ]
+    ],
+    [
+      [
+        "Sylvia Mosqueda",
+        [
+          "/wiki/Sylvia_Mosqueda"
+        ]
+      ],
+      [
+        "United States",
+        [
+          "/wiki/United_States"
+        ]
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "1988 , 2002",
+        []
+      ]
+    ],
+    [
+      [
+        "Tatyana Chulakh",
+        []
+      ],
+      [
+        "Russia",
+        [
+          "/wiki/Russia"
+        ]
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "2005 , 2006",
+        []
+      ]
+    ],
+    [
+      [
+        "Hiromi Ominami",
+        [
+          "/wiki/Hiromi_Ominami"
+        ]
+      ],
+      [
+        "Japan",
+        [
+          "/wiki/Japan"
+        ]
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "2007 , 2008",
+        []
+      ]
+    ],
+    [
+      [
+        "Belaynesh Zemedkun",
+        []
+      ],
+      [
+        "Ethiopia",
+        [
+          "/wiki/Ethiopia"
+        ]
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "2009 , 2010",
+        []
+      ]
+    ],
+    [
+      [
+        "Nelson Oyugi",
+        []
+      ],
+      [
+        "Kenya",
+        [
+          "/wiki/Kenya"
+        ]
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "2013 , 2014",
+        []
+      ]
+    ],
+    [
+      [
+        "Jane Kibii",
+        []
+      ],
+      [
+        "Kenya",
+        [
+          "/wiki/Kenya"
+        ]
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "2017 , 2018",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "1d2892a6-06d6-57e6-a2e6-d56677d5d433",
+    "table_id": "America's_Finest_City_Half_Marathon_2",
+    "title": "America's Finest City Half Marathon",
+    "header": [
+      "Athlete",
+      "Country",
+      "Wins",
+      "Years"
+    ],
+    "value": [
+      [
+        [
+          "Patrick Muturi",
+          []
+        ],
+        [
+          "Kenya",
+          [
+            "/wiki/Kenya"
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "1994 , 1997",
+          []
+        ]
+      ],
+      [
+        [
+          "Maria Trujillo",
+          [
+            "/wiki/Maria_Trujillo"
+          ]
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          4,
+          []
+        ],
+        [
+          "1987 , 1989 , 1993 , 1997",
+          []
+        ]
+      ],
+      [
+        [
+          "Laurie Binder",
+          [
+            "/wiki/Laurie_Binder"
+          ]
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "1980 , 1985",
+          []
+        ]
+      ],
+      [
+        [
+          "Laura LaMena",
+          []
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "1990 , 1992",
+          []
+        ]
+      ],
+      [
+        [
+          "Sylvia Mosqueda",
+          [
+            "/wiki/Sylvia_Mosqueda"
+          ]
+        ],
+        [
+          "United States",
+          [
+            "/wiki/United_States"
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "1988 , 2002",
+          []
+        ]
+      ],
+      [
+        [
+          "Tatyana Chulakh",
+          []
+        ],
+        [
+          "Russia",
+          [
+            "/wiki/Russia"
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "2005 , 2006",
+          []
+        ]
+      ],
+      [
+        [
+          "Hiromi Ominami",
+          [
+            "/wiki/Hiromi_Ominami"
+          ]
+        ],
+        [
+          "Japan",
+          [
+            "/wiki/Japan"
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "2007 , 2008",
+          []
+        ]
+      ],
+      [
+        [
+          "Belaynesh Zemedkun",
+          []
+        ],
+        [
+          "Ethiopia",
+          [
+            "/wiki/Ethiopia"
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "2009 , 2010",
+          []
+        ]
+      ],
+      [
+        [
+          "Nelson Oyugi",
+          []
+        ],
+        [
+          "Kenya",
+          [
+            "/wiki/Kenya"
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "2013 , 2014",
+          []
+        ]
+      ],
+      [
+        [
+          "Jane Kibii",
+          []
+        ],
+        [
+          "Kenya",
+          [
+            "/wiki/Kenya"
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "2017 , 2018",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about winners of the America's Finest City Half Marathon, including their names, countries of origin, the number of wins they achieved, and the years in which they won. It is designed to summarize key details about the athletes and their accomplishments in the event.",
+  "numeric_columns": [
+    "Wins"
+  ],
+  "categorical_columns": [
+    "Country",
+    "Years"
+  ],
+  "entities": [
+    "Athlete"
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "table_id": "T2828",
+  "uid": "96e322f8-927f-5365-b1ac-066ab8ad8034",
+  "source": "HybridQA",
+  "source_table_id": "96e322f8-927f-5365-b1ac-066ab8ad8034",
+  "domain": "HybridQA",
+  "title": "Rebecca Rigg",
+  "columns": [
+    "Year",
+    "Title",
+    "Role"
+  ],
+  "rows": [
+    [
+      [
+        1980,
+        []
+      ],
+      [
+        "Fatty Finn",
+        [
+          "/wiki/Fatty_Finn_(film)"
+        ]
+      ],
+      [
+        "Tilly",
+        []
+      ]
+    ],
+    [
+      [
+        1989,
+        []
+      ],
+      [
+        "Flynn",
+        [
+          "/wiki/Flynn_(film)"
+        ]
+      ],
+      [
+        "Penelope Watts",
+        []
+      ]
+    ],
+    [
+      [
+        1991,
+        []
+      ],
+      [
+        "Hunting",
+        [
+          "/wiki/Hunting_(film)"
+        ]
+      ],
+      [
+        "Debbie McCormick",
+        []
+      ]
+    ],
+    [
+      [
+        1992,
+        []
+      ],
+      [
+        "Spotswood",
+        [
+          "/wiki/Spotswood_(film)"
+        ]
+      ],
+      [
+        "Cheryl Ball",
+        []
+      ]
+    ],
+    [
+      [
+        1995,
+        []
+      ],
+      [
+        "Tunnel Vision",
+        [
+          "/wiki/Tunnel_Vision_(1995_film)"
+        ]
+      ],
+      [
+        "Helena Martinelli",
+        []
+      ]
+    ],
+    [
+      [
+        1996,
+        []
+      ],
+      [
+        "Jerry Maguire",
+        [
+          "/wiki/Jerry_Maguire"
+        ]
+      ],
+      [
+        "Former Girlfriend",
+        []
+      ]
+    ],
+    [
+      [
+        2001,
+        []
+      ],
+      [
+        "Ellie Parker",
+        [
+          "/wiki/Ellie_Parker"
+        ]
+      ],
+      [
+        "Sam",
+        []
+      ]
+    ],
+    [
+      [
+        2005,
+        []
+      ],
+      [
+        "Ellie Parker",
+        [
+          "/wiki/Ellie_Parker"
+        ]
+      ],
+      [
+        "Sam",
+        []
+      ]
+    ],
+    [
+      [
+        2010,
+        []
+      ],
+      [
+        "Fair Game",
+        [
+          "/wiki/Fair_Game_(2010_film)"
+        ]
+      ],
+      [
+        "Lisa",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "96e322f8-927f-5365-b1ac-066ab8ad8034",
+    "table_id": "Rebecca_Rigg_0",
+    "title": "Rebecca Rigg",
+    "header": [
+      "Year",
+      "Title",
+      "Role"
+    ],
+    "value": [
+      [
+        [
+          1980,
+          []
+        ],
+        [
+          "Fatty Finn",
+          [
+            "/wiki/Fatty_Finn_(film)"
+          ]
+        ],
+        [
+          "Tilly",
+          []
+        ]
+      ],
+      [
+        [
+          1989,
+          []
+        ],
+        [
+          "Flynn",
+          [
+            "/wiki/Flynn_(film)"
+          ]
+        ],
+        [
+          "Penelope Watts",
+          []
+        ]
+      ],
+      [
+        [
+          1991,
+          []
+        ],
+        [
+          "Hunting",
+          [
+            "/wiki/Hunting_(film)"
+          ]
+        ],
+        [
+          "Debbie McCormick",
+          []
+        ]
+      ],
+      [
+        [
+          1992,
+          []
+        ],
+        [
+          "Spotswood",
+          [
+            "/wiki/Spotswood_(film)"
+          ]
+        ],
+        [
+          "Cheryl Ball",
+          []
+        ]
+      ],
+      [
+        [
+          1995,
+          []
+        ],
+        [
+          "Tunnel Vision",
+          [
+            "/wiki/Tunnel_Vision_(1995_film)"
+          ]
+        ],
+        [
+          "Helena Martinelli",
+          []
+        ]
+      ],
+      [
+        [
+          1996,
+          []
+        ],
+        [
+          "Jerry Maguire",
+          [
+            "/wiki/Jerry_Maguire"
+          ]
+        ],
+        [
+          "Former Girlfriend",
+          []
+        ]
+      ],
+      [
+        [
+          2001,
+          []
+        ],
+        [
+          "Ellie Parker",
+          [
+            "/wiki/Ellie_Parker"
+          ]
+        ],
+        [
+          "Sam",
+          []
+        ]
+      ],
+      [
+        [
+          2005,
+          []
+        ],
+        [
+          "Ellie Parker",
+          [
+            "/wiki/Ellie_Parker"
+          ]
+        ],
+        [
+          "Sam",
+          []
+        ]
+      ],
+      [
+        [
+          2010,
+          []
+        ],
+        [
+          "Fair Game",
+          [
+            "/wiki/Fair_Game_(2010_film)"
+          ]
+        ],
+        [
+          "Lisa",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of roles played by an individual in various productions over the years. It includes information about the year of release, the title of the production, and the role performed. The table is likely used to summarize a career or filmography in the entertainment domain.",
+  "numeric_columns": [
+    "Year"
+  ],
+  "categorical_columns": [
+    "Role"
+  ],
+  "entities": [
+    "Title"
+  ]
+}

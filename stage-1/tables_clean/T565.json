@@ -1,0 +1,297 @@
+{
+  "table_id": "T565",
+  "uid": "479f3ac9-d4f8-540c-a17d-575449fd283b",
+  "source": "HybridQA",
+  "source_table_id": "479f3ac9-d4f8-540c-a17d-575449fd283b",
+  "domain": "HybridQA",
+  "title": "Athletics at the 2009 Games of the Small States of Europe",
+  "columns": [
+    "Name",
+    "Nationality",
+    "Time"
+  ],
+  "rows": [
+    [
+      [
+        "Kári Steinn Karlsson",
+        [
+          "/wiki/Kári_Steinn_Karlsson"
+        ]
+      ],
+      [
+        "Iceland",
+        [
+          "/wiki/Iceland"
+        ]
+      ],
+      [
+        "14:45.71",
+        []
+      ]
+    ],
+    [
+      [
+        "Marcos Sanza",
+        []
+      ],
+      [
+        "Andorra",
+        [
+          "/wiki/Andorra"
+        ]
+      ],
+      [
+        "15:06.59",
+        []
+      ]
+    ],
+    [
+      [
+        "Jean-Marc Léandro",
+        []
+      ],
+      [
+        "Monaco",
+        [
+          "/wiki/Monaco"
+        ]
+      ],
+      [
+        "15:22.07",
+        []
+      ]
+    ],
+    [
+      [
+        "Antoine Berlin",
+        []
+      ],
+      [
+        "Monaco",
+        [
+          "/wiki/Monaco"
+        ]
+      ],
+      [
+        "15:54.22",
+        []
+      ]
+    ],
+    [
+      [
+        "Pol Mellina",
+        []
+      ],
+      [
+        "Luxembourg",
+        [
+          "/wiki/Luxembourg"
+        ]
+      ],
+      [
+        "16:04.02",
+        []
+      ]
+    ],
+    [
+      [
+        "Christofer Boast",
+        []
+      ],
+      [
+        "Cyprus",
+        [
+          "/wiki/Cyprus"
+        ]
+      ],
+      [
+        "DNF",
+        []
+      ]
+    ],
+    [
+      [
+        "Chrysanthos Chrysanthou",
+        []
+      ],
+      [
+        "Cyprus",
+        [
+          "/wiki/Cyprus"
+        ]
+      ],
+      [
+        "DNF",
+        []
+      ]
+    ],
+    [
+      [
+        "Stefan Gudmundsson",
+        []
+      ],
+      [
+        "Iceland",
+        [
+          "/wiki/Iceland"
+        ]
+      ],
+      [
+        "DNS",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "479f3ac9-d4f8-540c-a17d-575449fd283b",
+    "table_id": "Athletics_at_the_2009_Games_of_the_Small_States_of_Europe_6",
+    "title": "Athletics at the 2009 Games of the Small States of Europe",
+    "header": [
+      "Name",
+      "Nationality",
+      "Time"
+    ],
+    "value": [
+      [
+        [
+          "Kári Steinn Karlsson",
+          [
+            "/wiki/Kári_Steinn_Karlsson"
+          ]
+        ],
+        [
+          "Iceland",
+          [
+            "/wiki/Iceland"
+          ]
+        ],
+        [
+          "14:45.71",
+          []
+        ]
+      ],
+      [
+        [
+          "Marcos Sanza",
+          []
+        ],
+        [
+          "Andorra",
+          [
+            "/wiki/Andorra"
+          ]
+        ],
+        [
+          "15:06.59",
+          []
+        ]
+      ],
+      [
+        [
+          "Jean-Marc Léandro",
+          []
+        ],
+        [
+          "Monaco",
+          [
+            "/wiki/Monaco"
+          ]
+        ],
+        [
+          "15:22.07",
+          []
+        ]
+      ],
+      [
+        [
+          "Antoine Berlin",
+          []
+        ],
+        [
+          "Monaco",
+          [
+            "/wiki/Monaco"
+          ]
+        ],
+        [
+          "15:54.22",
+          []
+        ]
+      ],
+      [
+        [
+          "Pol Mellina",
+          []
+        ],
+        [
+          "Luxembourg",
+          [
+            "/wiki/Luxembourg"
+          ]
+        ],
+        [
+          "16:04.02",
+          []
+        ]
+      ],
+      [
+        [
+          "Christofer Boast",
+          []
+        ],
+        [
+          "Cyprus",
+          [
+            "/wiki/Cyprus"
+          ]
+        ],
+        [
+          "DNF",
+          []
+        ]
+      ],
+      [
+        [
+          "Chrysanthos Chrysanthou",
+          []
+        ],
+        [
+          "Cyprus",
+          [
+            "/wiki/Cyprus"
+          ]
+        ],
+        [
+          "DNF",
+          []
+        ]
+      ],
+      [
+        [
+          "Stefan Gudmundsson",
+          []
+        ],
+        [
+          "Iceland",
+          [
+            "/wiki/Iceland"
+          ]
+        ],
+        [
+          "DNS",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about athletics events at the 2009 Games of the Small States of Europe, focusing on individual performances. It includes athlete names, their nationalities, and their recorded times in specific events.",
+  "numeric_columns": [
+    "Time"
+  ],
+  "categorical_columns": [
+    "Nationality"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

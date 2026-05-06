@@ -1,0 +1,505 @@
+{
+  "table_id": "T4928",
+  "uid": "e5eb9e91-47ca-5b2b-ae4d-c8c96ff17979",
+  "source": "HybridQA",
+  "source_table_id": "e5eb9e91-47ca-5b2b-ae4d-c8c96ff17979",
+  "domain": "HybridQA",
+  "title": "Midhurst transmitting station",
+  "columns": [
+    "Frequency",
+    "UHF",
+    "kW",
+    "Operator",
+    "System"
+  ],
+  "rows": [
+    [
+      [
+        "746.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        55,
+        []
+      ],
+      [
+        20,
+        []
+      ],
+      [
+        "BBC A",
+        [
+          "/wiki/BBC"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "767.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        58,
+        []
+      ],
+      [
+        100,
+        []
+      ],
+      [
+        "ITV1 ( Meridian until 2002 )",
+        [
+          "/wiki/ITV1",
+          "/wiki/ITV_Meridian"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "778.166 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "59+",
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "BBC ( Mux B )",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "786.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        60,
+        []
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "Arqiva ( Mux D )",
+        [
+          "/wiki/Arqiva"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "791.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        61,
+        []
+      ],
+      [
+        100,
+        []
+      ],
+      [
+        "BBC One",
+        [
+          "/wiki/BBC_One"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ],
+    [
+      [
+        "802.166 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "62+",
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "SDN ( Mux A )",
+        [
+          "/wiki/S4C_Digital_Networks"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "817.833 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "64-",
+        []
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "Arqiva ( Mux C )",
+        []
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "826.166 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        "65+",
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "Digital 3 & 4 ( Mux 2 )",
+        [
+          "/wiki/Digital_3&4"
+        ]
+      ],
+      [
+        "DVB-T",
+        []
+      ]
+    ],
+    [
+      [
+        "847.25 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        68,
+        []
+      ],
+      [
+        100,
+        []
+      ],
+      [
+        "Channel 4",
+        [
+          "/wiki/Channel_4"
+        ]
+      ],
+      [
+        "PAL System I",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "e5eb9e91-47ca-5b2b-ae4d-c8c96ff17979",
+    "table_id": "Midhurst_transmitting_station_6",
+    "title": "Midhurst transmitting station",
+    "header": [
+      "Frequency",
+      "UHF",
+      "kW",
+      "Operator",
+      "System"
+    ],
+    "value": [
+      [
+        [
+          "746.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          55,
+          []
+        ],
+        [
+          20,
+          []
+        ],
+        [
+          "BBC A",
+          [
+            "/wiki/BBC"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "767.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          58,
+          []
+        ],
+        [
+          100,
+          []
+        ],
+        [
+          "ITV1 ( Meridian until 2002 )",
+          [
+            "/wiki/ITV1",
+            "/wiki/ITV_Meridian"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "778.166 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "59+",
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "BBC ( Mux B )",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "786.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          60,
+          []
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "Arqiva ( Mux D )",
+          [
+            "/wiki/Arqiva"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "791.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          61,
+          []
+        ],
+        [
+          100,
+          []
+        ],
+        [
+          "BBC One",
+          [
+            "/wiki/BBC_One"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ],
+      [
+        [
+          "802.166 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "62+",
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "SDN ( Mux A )",
+          [
+            "/wiki/S4C_Digital_Networks"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "817.833 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "64-",
+          []
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "Arqiva ( Mux C )",
+          []
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "826.166 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          "65+",
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "Digital 3 & 4 ( Mux 2 )",
+          [
+            "/wiki/Digital_3&4"
+          ]
+        ],
+        [
+          "DVB-T",
+          []
+        ]
+      ],
+      [
+        [
+          "847.25 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          68,
+          []
+        ],
+        [
+          100,
+          []
+        ],
+        [
+          "Channel 4",
+          [
+            "/wiki/Channel_4"
+          ]
+        ],
+        [
+          "PAL System I",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about the Midhurst transmitting station, detailing its broadcast frequencies, power levels, operators, and transmission systems. It appears to document technical and operational details relevant to broadcasting services. The purpose is likely to catalog or analyze the station's transmission capabilities and configurations.",
+  "numeric_columns": [
+    "UHF",
+    "kW"
+  ],
+  "categorical_columns": [
+    "Frequency",
+    "System"
+  ],
+  "entities": [
+    "Operator"
+  ]
+}

@@ -1,0 +1,205 @@
+[
+  {
+    "dpr_id": "1",
+    "cluster_key": "Q1",
+    "query_text": "Who won the 1913 International Cross-Country Championships?",
+    "tables": [
+      {
+        "table_id": "T6",
+        "title": "1913 International Cross Country Championships",
+        "domain": "",
+        "columns": [
+          "Rank",
+          "Athlete",
+          "Nationality",
+          "Time"
+        ],
+        "description": "This table lists results from the 1913 International Cross Country Championships, including athlete rankings, names, nationalities, and race times."
+      },
+      {
+        "table_id": "T77",
+        "title": "1921 International Cross Country Championships",
+        "domain": "",
+        "columns": [
+          "Rank",
+          "Athlete",
+          "Nationality",
+          "Time"
+        ],
+        "description": "This table lists the results of the 1921 International Cross Country Championships, including the rank, athlete name, nationality, and race time for participants."
+      },
+      {
+        "table_id": "T78",
+        "title": "1923 International Cross Country Championships",
+        "domain": "",
+        "columns": [
+          "Rank",
+          "Athlete",
+          "Nationality",
+          "Time"
+        ],
+        "description": "This table lists the results of the 1923 International Cross Country Championships, including the rank, athlete name, nationality, and time for each participant."
+      },
+      {
+        "table_id": "T80",
+        "title": "1926 International Cross Country Championships",
+        "domain": "",
+        "columns": [
+          "Rank",
+          "Athlete",
+          "Nationality",
+          "Time"
+        ],
+        "description": "This table lists athletes from the 1926 International Cross Country Championships, including their rank, nationality, and race time. It highlights competitors like Ernie Harper, an English athlete who participated in multiple Olympics."
+      },
+      {
+        "table_id": "T7",
+        "title": "1920 International Cross Country Championships",
+        "domain": "",
+        "columns": [
+          "Rank",
+          "Athlete",
+          "Nationality",
+          "Time"
+        ],
+        "description": "This table lists the results of the 1920 International Cross Country Championships, including athlete rankings, names, nationalities, and race times. Sample data highlights Scottish athlete Jim Wilson."
+      }
+    ]
+  },
+  {
+    "dpr_id": "2",
+    "cluster_key": "Q2",
+    "query_text": "Show which athletes or race records appear across championship result tables and yearly performance tables, and summarize their rankings, times, and event context.",
+    "tables": [
+      {
+        "table_id": "T85",
+        "title": "1933 International Cross Country Championships",
+        "domain": "",
+        "columns": [
+          "Rank",
+          "Athlete",
+          "Nationality",
+          "Time"
+        ],
+        "description": "This table lists results from the 1933 International Cross Country Championships, showing athlete rankings, names, nationalities, and race times. It captures competitive sports data with participant details and performance metrics."
+      },
+      {
+        "table_id": "T22",
+        "title": "10,000 metres",
+        "domain": "",
+        "columns": [
+          "Year",
+          "Time",
+          "Athlete",
+          "Location"
+        ],
+        "description": "This table records results from 10,000 metres track and field events, including the year of the event, race time, athlete name, and competition location. It contains 80 rows of historical race data with associated metadata."
+      },
+      {
+        "table_id": "T53",
+        "title": "1500 metres",
+        "domain": "",
+        "columns": [
+          "Year",
+          "Time",
+          "Athlete",
+          "Location"
+        ],
+        "description": "This table records 1500 metres race results, including the year of the event, the recorded time, the athlete's name, and the location where the race took place. It contains 64 entries spanning multiple years with associated performance data."
+      },
+      {
+        "table_id": "T82",
+        "title": "1929 International Cross Country Championships",
+        "domain": "",
+        "columns": [
+          "Rank",
+          "Athlete",
+          "Nationality",
+          "Time"
+        ],
+        "description": "This table lists results from the 1929 International Cross Country Championships, showing athlete rankings, their nationalities, and competition times."
+      },
+      {
+        "table_id": "T52",
+        "title": "1500 metres",
+        "domain": "",
+        "columns": [
+          "Year",
+          "Time",
+          "Athlete",
+          "Location"
+        ],
+        "description": "This table records 1500 meters race results, including the year of the event, the athlete's time, the competitor's name, and the location where the race took place. It spans 80 entries with data from various years and locations."
+      }
+    ]
+  },
+  {
+    "dpr_id": "3",
+    "cluster_key": "Q3",
+    "query_text": "Compare how success is measured in the sports tables and the movie tables, using rankings and times for athletes and revenue, admissions, or gross for films.",
+    "tables": [
+      {
+        "table_id": "T85",
+        "title": "1933 International Cross Country Championships",
+        "domain": "",
+        "columns": [
+          "Rank",
+          "Athlete",
+          "Nationality",
+          "Time"
+        ],
+        "description": "This table lists results from the 1933 International Cross Country Championships, showing athlete rankings, names, nationalities, and race times. It captures competitive sports data with participant details and performance metrics."
+      },
+      {
+        "table_id": "T13",
+        "title": "1974 in film",
+        "domain": "",
+        "columns": [
+          "Rank",
+          "Title",
+          "Studio",
+          "Domestic gross"
+        ],
+        "description": "This table lists 40 films from 1974 with their rankings, titles, production studios, and domestic box office earnings. It includes notable entries like 'Blazing Saddles' and provides financial data alongside studio information."
+      },
+      {
+        "table_id": "T82",
+        "title": "1929 International Cross Country Championships",
+        "domain": "",
+        "columns": [
+          "Rank",
+          "Athlete",
+          "Nationality",
+          "Time"
+        ],
+        "description": "This table lists results from the 1929 International Cross Country Championships, showing athlete rankings, their nationalities, and competition times."
+      },
+      {
+        "table_id": "T79",
+        "title": "1924 International Cross Country Championships",
+        "domain": "",
+        "columns": [
+          "Rank",
+          "Athlete",
+          "Nationality",
+          "Time"
+        ],
+        "description": "This table lists results from the 1924 International Cross Country Championships, showing athletes' ranks, names, nationalities, and race times."
+      },
+      {
+        "table_id": "T10",
+        "title": "1957 in film",
+        "domain": "",
+        "columns": [
+          "Country",
+          "Title",
+          "Director",
+          "Studio",
+          "Revenue",
+          "Admissions"
+        ],
+        "description": "This table lists films from 1957, including their country of origin, title, director, studio, revenue, and admissions data. It provides information on the financial and cultural impact of films released that year."
+      }
+    ]
+  }
+]

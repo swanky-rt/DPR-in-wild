@@ -1,0 +1,589 @@
+{
+  "table_id": "T5071",
+  "uid": "9ad2b993-9172-55aa-8438-b9bdb6e183d5",
+  "source": "HybridQA",
+  "source_table_id": "9ad2b993-9172-55aa-8438-b9bdb6e183d5",
+  "domain": "HybridQA",
+  "title": "List of county routes in Sullivan County, New York",
+  "columns": [
+    "Route",
+    "Length ( mi )",
+    "Length ( km )",
+    "From",
+    "Via",
+    "To"
+  ],
+  "rows": [
+    [
+      [
+        "CR 41",
+        []
+      ],
+      [
+        2.92,
+        []
+      ],
+      [
+        4.7,
+        []
+      ],
+      [
+        "Pennsylvania state line",
+        [
+          "/wiki/New_York–Pennsylvania_border"
+        ]
+      ],
+      [
+        "High Road in Lumberland",
+        [
+          "/wiki/Lumberland,_New_York"
+        ]
+      ],
+      [
+        "CR 32 / CR 42",
+        []
+      ]
+    ],
+    [
+      [
+        "CR 42",
+        []
+      ],
+      [
+        3.31,
+        []
+      ],
+      [
+        5.33,
+        []
+      ],
+      [
+        "CR 32 / CR 41",
+        []
+      ],
+      [
+        "Forestburgh Road in Lumberland",
+        [
+          "/wiki/Lumberland,_New_York"
+        ]
+      ],
+      [
+        "CR 43 at Leers Road",
+        []
+      ]
+    ],
+    [
+      [
+        "CR 43",
+        []
+      ],
+      [
+        5.05,
+        []
+      ],
+      [
+        8.13,
+        []
+      ],
+      [
+        "CR 42 at Leers Road in Lumberland",
+        [
+          "/wiki/Lumberland,_New_York"
+        ]
+      ],
+      [
+        "Forestburgh Road",
+        []
+      ],
+      [
+        "NY 42 / CR 48 in Forestburgh",
+        [
+          "/wiki/NY_42",
+          "/wiki/Forestburgh,_New_York"
+        ]
+      ]
+    ],
+    [
+      [
+        "CR 44",
+        []
+      ],
+      [
+        3.48,
+        []
+      ],
+      [
+        5.6,
+        []
+      ],
+      [
+        "CR 43",
+        []
+      ],
+      [
+        "Plank and Sackett Lake roads in Forestburgh",
+        [
+          "/wiki/Forestburgh,_New_York"
+        ]
+      ],
+      [
+        "CR 45 at Thompson town line",
+        [
+          "/wiki/Thompson,_New_York"
+        ]
+      ]
+    ],
+    [
+      [
+        "CR 45",
+        []
+      ],
+      [
+        3.9699999999999998,
+        []
+      ],
+      [
+        6.39,
+        []
+      ],
+      [
+        "CR 44 at Forestburgh town line",
+        [
+          "/wiki/Forestburgh,_New_York"
+        ]
+      ],
+      [
+        "Sackett Lake Road in Thompson",
+        [
+          "/wiki/Thompson,_New_York"
+        ]
+      ],
+      [
+        "NY 42",
+        [
+          "/wiki/NY_42"
+        ]
+      ]
+    ],
+    [
+      [
+        "CR 45A",
+        []
+      ],
+      [
+        0.1,
+        []
+      ],
+      [
+        0.16,
+        []
+      ],
+      [
+        "CR 45",
+        []
+      ],
+      [
+        "Sackett Lake Road in Thompson",
+        [
+          "/wiki/Thompson,_New_York"
+        ]
+      ],
+      [
+        "NY 42",
+        [
+          "/wiki/NY_42"
+        ]
+      ]
+    ],
+    [
+      [
+        "CR 47",
+        []
+      ],
+      [
+        2.03,
+        []
+      ],
+      [
+        3.27,
+        []
+      ],
+      [
+        "CR 32",
+        []
+      ],
+      [
+        "Highland Lake Road in Highland",
+        [
+          "/wiki/Highland,_Sullivan_County,_New_York"
+        ]
+      ],
+      [
+        "Lakeview Drive",
+        []
+      ]
+    ],
+    [
+      [
+        "CR 48",
+        []
+      ],
+      [
+        3.71,
+        []
+      ],
+      [
+        5.97,
+        []
+      ],
+      [
+        "NY 42 / CR 43",
+        [
+          "/wiki/NY_42"
+        ]
+      ],
+      [
+        "Hartwood Road in Forestburgh",
+        [
+          "/wiki/Forestburgh,_New_York"
+        ]
+      ],
+      [
+        "CR 49 / CR 101",
+        []
+      ]
+    ],
+    [
+      [
+        "CR 49",
+        []
+      ],
+      [
+        3.45,
+        []
+      ],
+      [
+        5.55,
+        []
+      ],
+      [
+        "Orange County line ( becomes CR 7 )",
+        [
+          "/wiki/Orange_County,_New_York",
+          "/wiki/County_Route_7_(Orange_County,_New_York)"
+        ]
+      ],
+      [
+        "Oakland Valley Road in Forestburgh",
+        [
+          "/wiki/Forestburgh,_New_York"
+        ]
+      ],
+      [
+        "CR 48 / CR 101",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "9ad2b993-9172-55aa-8438-b9bdb6e183d5",
+    "table_id": "List_of_county_routes_in_Sullivan_County,_New_York_3",
+    "title": "List of county routes in Sullivan County, New York",
+    "header": [
+      "Route",
+      "Length ( mi )",
+      "Length ( km )",
+      "From",
+      "Via",
+      "To"
+    ],
+    "value": [
+      [
+        [
+          "CR 41",
+          []
+        ],
+        [
+          2.92,
+          []
+        ],
+        [
+          4.7,
+          []
+        ],
+        [
+          "Pennsylvania state line",
+          [
+            "/wiki/New_York–Pennsylvania_border"
+          ]
+        ],
+        [
+          "High Road in Lumberland",
+          [
+            "/wiki/Lumberland,_New_York"
+          ]
+        ],
+        [
+          "CR 32 / CR 42",
+          []
+        ]
+      ],
+      [
+        [
+          "CR 42",
+          []
+        ],
+        [
+          3.31,
+          []
+        ],
+        [
+          5.33,
+          []
+        ],
+        [
+          "CR 32 / CR 41",
+          []
+        ],
+        [
+          "Forestburgh Road in Lumberland",
+          [
+            "/wiki/Lumberland,_New_York"
+          ]
+        ],
+        [
+          "CR 43 at Leers Road",
+          []
+        ]
+      ],
+      [
+        [
+          "CR 43",
+          []
+        ],
+        [
+          5.05,
+          []
+        ],
+        [
+          8.13,
+          []
+        ],
+        [
+          "CR 42 at Leers Road in Lumberland",
+          [
+            "/wiki/Lumberland,_New_York"
+          ]
+        ],
+        [
+          "Forestburgh Road",
+          []
+        ],
+        [
+          "NY 42 / CR 48 in Forestburgh",
+          [
+            "/wiki/NY_42",
+            "/wiki/Forestburgh,_New_York"
+          ]
+        ]
+      ],
+      [
+        [
+          "CR 44",
+          []
+        ],
+        [
+          3.48,
+          []
+        ],
+        [
+          5.6,
+          []
+        ],
+        [
+          "CR 43",
+          []
+        ],
+        [
+          "Plank and Sackett Lake roads in Forestburgh",
+          [
+            "/wiki/Forestburgh,_New_York"
+          ]
+        ],
+        [
+          "CR 45 at Thompson town line",
+          [
+            "/wiki/Thompson,_New_York"
+          ]
+        ]
+      ],
+      [
+        [
+          "CR 45",
+          []
+        ],
+        [
+          3.9699999999999998,
+          []
+        ],
+        [
+          6.39,
+          []
+        ],
+        [
+          "CR 44 at Forestburgh town line",
+          [
+            "/wiki/Forestburgh,_New_York"
+          ]
+        ],
+        [
+          "Sackett Lake Road in Thompson",
+          [
+            "/wiki/Thompson,_New_York"
+          ]
+        ],
+        [
+          "NY 42",
+          [
+            "/wiki/NY_42"
+          ]
+        ]
+      ],
+      [
+        [
+          "CR 45A",
+          []
+        ],
+        [
+          0.1,
+          []
+        ],
+        [
+          0.16,
+          []
+        ],
+        [
+          "CR 45",
+          []
+        ],
+        [
+          "Sackett Lake Road in Thompson",
+          [
+            "/wiki/Thompson,_New_York"
+          ]
+        ],
+        [
+          "NY 42",
+          [
+            "/wiki/NY_42"
+          ]
+        ]
+      ],
+      [
+        [
+          "CR 47",
+          []
+        ],
+        [
+          2.03,
+          []
+        ],
+        [
+          3.27,
+          []
+        ],
+        [
+          "CR 32",
+          []
+        ],
+        [
+          "Highland Lake Road in Highland",
+          [
+            "/wiki/Highland,_Sullivan_County,_New_York"
+          ]
+        ],
+        [
+          "Lakeview Drive",
+          []
+        ]
+      ],
+      [
+        [
+          "CR 48",
+          []
+        ],
+        [
+          3.71,
+          []
+        ],
+        [
+          5.97,
+          []
+        ],
+        [
+          "NY 42 / CR 43",
+          [
+            "/wiki/NY_42"
+          ]
+        ],
+        [
+          "Hartwood Road in Forestburgh",
+          [
+            "/wiki/Forestburgh,_New_York"
+          ]
+        ],
+        [
+          "CR 49 / CR 101",
+          []
+        ]
+      ],
+      [
+        [
+          "CR 49",
+          []
+        ],
+        [
+          3.45,
+          []
+        ],
+        [
+          5.55,
+          []
+        ],
+        [
+          "Orange County line ( becomes CR 7 )",
+          [
+            "/wiki/Orange_County,_New_York",
+            "/wiki/County_Route_7_(Orange_County,_New_York)"
+          ]
+        ],
+        [
+          "Oakland Valley Road in Forestburgh",
+          [
+            "/wiki/Forestburgh,_New_York"
+          ]
+        ],
+        [
+          "CR 48 / CR 101",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about county routes in Sullivan County, New York, including their identifiers, lengths, and connections. It is designed to outline the routes' starting points, paths, and destinations, along with their distances in miles and kilometers. The table serves as a reference for understanding the layout and connectivity of these routes within the county.",
+  "numeric_columns": [
+    "Length ( mi )",
+    "Length ( km )"
+  ],
+  "categorical_columns": [
+    "Route",
+    "From",
+    "Via",
+    "To"
+  ],
+  "entities": [
+    "From",
+    "Via",
+    "To"
+  ]
+}

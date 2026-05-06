@@ -1,0 +1,293 @@
+{
+  "table_id": "T10219",
+  "uid": "1c301048-122f-5fe2-827f-a6d9b36ed2d1",
+  "source": "HybridQA",
+  "source_table_id": "1c301048-122f-5fe2-827f-a6d9b36ed2d1",
+  "domain": "HybridQA",
+  "title": "2003 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Chellsie Memmel ( USA )",
+        [
+          "/wiki/Chellsie_Memmel"
+        ]
+      ],
+      [
+        9.612,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Hollie Vise ( USA )",
+        [
+          "/wiki/Hollie_Vise"
+        ]
+      ],
+      [
+        9.612,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Elizabeth Tweddle ( GBR )",
+        [
+          "/wiki/Elizabeth_Tweddle"
+        ]
+      ],
+      [
+        9.512,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Pyon Kwang-sun ( PRK )",
+        [
+          "/wiki/Pyon_Kwang-sun"
+        ]
+      ],
+      [
+        9.5,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Lin Li ( CHN )",
+        [
+          "/wiki/Lin_Li_(gymnast)"
+        ]
+      ],
+      [
+        9.35,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Irina Yarotska ( UKR )",
+        [
+          "/wiki/Irina_Yarotska"
+        ]
+      ],
+      [
+        9.3,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Irina Krasnyanska ( UKR )",
+        [
+          "/wiki/Irina_Krasnyanska"
+        ]
+      ],
+      [
+        8.875,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Fan Ye ( CHN )",
+        [
+          "/wiki/Fan_Ye_(gymnast)"
+        ]
+      ],
+      [
+        8.525,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "1c301048-122f-5fe2-827f-a6d9b36ed2d1",
+    "table_id": "2003_World_Artistic_Gymnastics_Championships_9",
+    "title": "2003 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Chellsie Memmel ( USA )",
+          [
+            "/wiki/Chellsie_Memmel"
+          ]
+        ],
+        [
+          9.612,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Hollie Vise ( USA )",
+          [
+            "/wiki/Hollie_Vise"
+          ]
+        ],
+        [
+          9.612,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Elizabeth Tweddle ( GBR )",
+          [
+            "/wiki/Elizabeth_Tweddle"
+          ]
+        ],
+        [
+          9.512,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Pyon Kwang-sun ( PRK )",
+          [
+            "/wiki/Pyon_Kwang-sun"
+          ]
+        ],
+        [
+          9.5,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Lin Li ( CHN )",
+          [
+            "/wiki/Lin_Li_(gymnast)"
+          ]
+        ],
+        [
+          9.35,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Irina Yarotska ( UKR )",
+          [
+            "/wiki/Irina_Yarotska"
+          ]
+        ],
+        [
+          9.3,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Irina Krasnyanska ( UKR )",
+          [
+            "/wiki/Irina_Krasnyanska"
+          ]
+        ],
+        [
+          8.875,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Fan Ye ( CHN )",
+          [
+            "/wiki/Fan_Ye_(gymnast)"
+          ]
+        ],
+        [
+          8.525,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the rankings and scores of gymnasts at the 2003 World Artistic Gymnastics Championships. It includes details about the rank, the names of the gymnasts, and their total scores. The table is likely used to summarize performance outcomes in the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

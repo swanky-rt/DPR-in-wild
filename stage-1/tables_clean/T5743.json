@@ -1,0 +1,320 @@
+{
+  "table_id": "T5743",
+  "uid": "df57e9fd-13d7-570c-9a5e-9bf84858650b",
+  "source": "HybridQA",
+  "source_table_id": "df57e9fd-13d7-570c-9a5e-9bf84858650b",
+  "domain": "HybridQA",
+  "title": "CMLL Super Viernes (September 2012)",
+  "columns": [
+    "Order",
+    "Wrestler",
+    "Eliminated by"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Namajague",
+        [
+          "/wiki/Kyosuke_Mikami"
+        ]
+      ],
+      [
+        "Valiente",
+        [
+          "/wiki/Valiente_(wrestler)"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Black Warrior",
+        [
+          "/wiki/Black_Warrior_(wrestler)"
+        ]
+      ],
+      [
+        "Taichi",
+        [
+          "/wiki/Taichi_Ishikari"
+        ]
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Valiente",
+        [
+          "/wiki/Valiente_(wrestler)"
+        ]
+      ],
+      [
+        "Okumura",
+        [
+          "/wiki/Shigeo_Okumura"
+        ]
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Okumura",
+        [
+          "/wiki/Shigeo_Okumura"
+        ]
+      ],
+      [
+        "Negro Casas",
+        [
+          "/wiki/Negro_Casas"
+        ]
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Negro Casas",
+        [
+          "/wiki/Negro_Casas"
+        ]
+      ],
+      [
+        "Hiroshi Tanahashi",
+        [
+          "/wiki/Hiroshi_Tanahashi"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Taichi",
+        [
+          "/wiki/Taichi_Ishikari"
+        ]
+      ],
+      [
+        "La Mascara",
+        [
+          "/wiki/La_Mascara_(wrestler)"
+        ]
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "La Mascara",
+        [
+          "/wiki/La_Mascara_(wrestler)"
+        ]
+      ],
+      [
+        "Hiroshi Tanahashi",
+        [
+          "/wiki/Hiroshi_Tanahashi"
+        ]
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Hiroshi Tanahashi",
+        [
+          "/wiki/Hiroshi_Tanahashi"
+        ]
+      ],
+      [
+        "Winner",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "df57e9fd-13d7-570c-9a5e-9bf84858650b",
+    "table_id": "CMLL_Super_Viernes_(September_2012)_1",
+    "title": "CMLL Super Viernes (September 2012)",
+    "header": [
+      "Order",
+      "Wrestler",
+      "Eliminated by"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Namajague",
+          [
+            "/wiki/Kyosuke_Mikami"
+          ]
+        ],
+        [
+          "Valiente",
+          [
+            "/wiki/Valiente_(wrestler)"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Black Warrior",
+          [
+            "/wiki/Black_Warrior_(wrestler)"
+          ]
+        ],
+        [
+          "Taichi",
+          [
+            "/wiki/Taichi_Ishikari"
+          ]
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Valiente",
+          [
+            "/wiki/Valiente_(wrestler)"
+          ]
+        ],
+        [
+          "Okumura",
+          [
+            "/wiki/Shigeo_Okumura"
+          ]
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Okumura",
+          [
+            "/wiki/Shigeo_Okumura"
+          ]
+        ],
+        [
+          "Negro Casas",
+          [
+            "/wiki/Negro_Casas"
+          ]
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Negro Casas",
+          [
+            "/wiki/Negro_Casas"
+          ]
+        ],
+        [
+          "Hiroshi Tanahashi",
+          [
+            "/wiki/Hiroshi_Tanahashi"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Taichi",
+          [
+            "/wiki/Taichi_Ishikari"
+          ]
+        ],
+        [
+          "La Mascara",
+          [
+            "/wiki/La_Mascara_(wrestler)"
+          ]
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "La Mascara",
+          [
+            "/wiki/La_Mascara_(wrestler)"
+          ]
+        ],
+        [
+          "Hiroshi Tanahashi",
+          [
+            "/wiki/Hiroshi_Tanahashi"
+          ]
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Hiroshi Tanahashi",
+          [
+            "/wiki/Hiroshi_Tanahashi"
+          ]
+        ],
+        [
+          "Winner",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table documents the results of a wrestling event, specifically focusing on the order of eliminations, the wrestlers involved, and who eliminated them. It provides a structured overview of the matches and outcomes during the event. The table is likely used for record-keeping or analysis of the event's progression.",
+  "numeric_columns": [
+    "Order"
+  ],
+  "categorical_columns": [],
+  "entities": [
+    "Wrestler",
+    "Eliminated by"
+  ]
+}

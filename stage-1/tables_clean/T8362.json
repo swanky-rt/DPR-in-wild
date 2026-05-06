@@ -1,0 +1,657 @@
+{
+  "table_id": "T8362",
+  "uid": "ec6cb2d3-5892-5ab2-b9d8-b521acaa8f04",
+  "source": "HybridQA",
+  "source_table_id": "ec6cb2d3-5892-5ab2-b9d8-b521acaa8f04",
+  "domain": "HybridQA",
+  "title": "NHL All-Star Skills Competition",
+  "columns": [
+    "Season",
+    "Team",
+    "Player"
+  ],
+  "rows": [
+    [
+      [
+        1990,
+        [
+          "/wiki/1989–90_NHL_season"
+        ]
+      ],
+      [
+        "Campbell Conference",
+        [
+          "/wiki/Campbell_Conference"
+        ]
+      ],
+      [
+        "none",
+        []
+      ]
+    ],
+    [
+      [
+        1991,
+        [
+          "/wiki/1990–91_NHL_season"
+        ]
+      ],
+      [
+        "Campbell Conference",
+        []
+      ],
+      [
+        "none",
+        []
+      ]
+    ],
+    [
+      [
+        1992,
+        [
+          "/wiki/1991–92_NHL_season"
+        ]
+      ],
+      [
+        "Campbell Conference",
+        []
+      ],
+      [
+        "none",
+        []
+      ]
+    ],
+    [
+      [
+        1993,
+        [
+          "/wiki/1992–93_NHL_season"
+        ]
+      ],
+      [
+        "Wales Conference",
+        [
+          "/wiki/Wales_Conference"
+        ]
+      ],
+      [
+        "none",
+        []
+      ]
+    ],
+    [
+      [
+        1994,
+        [
+          "/wiki/1993–94_NHL_season"
+        ]
+      ],
+      [
+        "Eastern Conference",
+        []
+      ],
+      [
+        "Russ Courtnall",
+        [
+          "/wiki/Russ_Courtnall"
+        ]
+      ]
+    ],
+    [
+      [
+        1996,
+        [
+          "/wiki/1995–96_NHL_season"
+        ]
+      ],
+      [
+        "Western Conference",
+        []
+      ],
+      [
+        "Pierre Turgeon",
+        [
+          "/wiki/Pierre_Turgeon"
+        ]
+      ]
+    ],
+    [
+      [
+        1997,
+        [
+          "/wiki/1996–97_NHL_season"
+        ]
+      ],
+      [
+        "Western Conference",
+        []
+      ],
+      [
+        "Geoff Sanderson",
+        [
+          "/wiki/Geoff_Sanderson"
+        ]
+      ]
+    ],
+    [
+      [
+        1998,
+        [
+          "/wiki/1997–98_NHL_season"
+        ]
+      ],
+      [
+        "World",
+        []
+      ],
+      [
+        "Teemu Selanne",
+        [
+          "/wiki/Teemu_Selänne"
+        ]
+      ]
+    ],
+    [
+      [
+        1999,
+        [
+          "/wiki/1998–99_NHL_season"
+        ]
+      ],
+      [
+        "North America",
+        []
+      ],
+      [
+        "Paul Kariya",
+        [
+          "/wiki/Paul_Kariya"
+        ]
+      ]
+    ],
+    [
+      [
+        2000,
+        [
+          "/wiki/1999–2000_NHL_season"
+        ]
+      ],
+      [
+        "North America",
+        []
+      ],
+      [
+        "Paul Kariya",
+        []
+      ]
+    ],
+    [
+      [
+        2001,
+        [
+          "/wiki/2000–01_NHL_season"
+        ]
+      ],
+      [
+        "North America",
+        []
+      ],
+      [
+        "Paul Kariya",
+        []
+      ]
+    ],
+    [
+      [
+        2002,
+        [
+          "/wiki/2001–02_NHL_season"
+        ]
+      ],
+      [
+        "North America",
+        []
+      ],
+      [
+        "Paul Kariya",
+        []
+      ]
+    ],
+    [
+      [
+        2003,
+        [
+          "/wiki/2002–03_NHL_season"
+        ]
+      ],
+      [
+        "Eastern Conference",
+        []
+      ],
+      [
+        "Martin St. Louis",
+        [
+          "/wiki/Martin_St._Louis"
+        ]
+      ]
+    ],
+    [
+      [
+        2004,
+        [
+          "/wiki/2003–04_NHL_season"
+        ]
+      ],
+      [
+        "Western Conference",
+        []
+      ],
+      [
+        "Rick Nash",
+        [
+          "/wiki/Rick_Nash"
+        ]
+      ]
+    ],
+    [
+      [
+        2007,
+        [
+          "/wiki/2006–07_NHL_season"
+        ]
+      ],
+      [
+        "Western Conference",
+        []
+      ],
+      [
+        "Rick Nash",
+        []
+      ]
+    ],
+    [
+      [
+        2008,
+        [
+          "/wiki/2007–08_NHL_season"
+        ]
+      ],
+      [
+        "Western Conference",
+        []
+      ],
+      [
+        "Shawn Horcoff",
+        [
+          "/wiki/Shawn_Horcoff"
+        ]
+      ]
+    ],
+    [
+      [
+        2018,
+        [
+          "/wiki/2017–18_NHL_season"
+        ]
+      ],
+      [
+        "Pacific Division",
+        []
+      ],
+      [
+        "Johnny Gaudreau",
+        [
+          "/wiki/Johnny_Gaudreau"
+        ]
+      ]
+    ],
+    [
+      [
+        2019,
+        [
+          "/wiki/2018–19_NHL_season"
+        ]
+      ],
+      [
+        "Pacific Division",
+        []
+      ],
+      [
+        "Johnny Gaudreau",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "ec6cb2d3-5892-5ab2-b9d8-b521acaa8f04",
+    "table_id": "NHL_All-Star_Game_SuperSkills_Competition_9",
+    "title": "NHL All-Star Skills Competition",
+    "header": [
+      "Season",
+      "Team",
+      "Player"
+    ],
+    "value": [
+      [
+        [
+          1990,
+          [
+            "/wiki/1989–90_NHL_season"
+          ]
+        ],
+        [
+          "Campbell Conference",
+          [
+            "/wiki/Campbell_Conference"
+          ]
+        ],
+        [
+          "none",
+          []
+        ]
+      ],
+      [
+        [
+          1991,
+          [
+            "/wiki/1990–91_NHL_season"
+          ]
+        ],
+        [
+          "Campbell Conference",
+          []
+        ],
+        [
+          "none",
+          []
+        ]
+      ],
+      [
+        [
+          1992,
+          [
+            "/wiki/1991–92_NHL_season"
+          ]
+        ],
+        [
+          "Campbell Conference",
+          []
+        ],
+        [
+          "none",
+          []
+        ]
+      ],
+      [
+        [
+          1993,
+          [
+            "/wiki/1992–93_NHL_season"
+          ]
+        ],
+        [
+          "Wales Conference",
+          [
+            "/wiki/Wales_Conference"
+          ]
+        ],
+        [
+          "none",
+          []
+        ]
+      ],
+      [
+        [
+          1994,
+          [
+            "/wiki/1993–94_NHL_season"
+          ]
+        ],
+        [
+          "Eastern Conference",
+          []
+        ],
+        [
+          "Russ Courtnall",
+          [
+            "/wiki/Russ_Courtnall"
+          ]
+        ]
+      ],
+      [
+        [
+          1996,
+          [
+            "/wiki/1995–96_NHL_season"
+          ]
+        ],
+        [
+          "Western Conference",
+          []
+        ],
+        [
+          "Pierre Turgeon",
+          [
+            "/wiki/Pierre_Turgeon"
+          ]
+        ]
+      ],
+      [
+        [
+          1997,
+          [
+            "/wiki/1996–97_NHL_season"
+          ]
+        ],
+        [
+          "Western Conference",
+          []
+        ],
+        [
+          "Geoff Sanderson",
+          [
+            "/wiki/Geoff_Sanderson"
+          ]
+        ]
+      ],
+      [
+        [
+          1998,
+          [
+            "/wiki/1997–98_NHL_season"
+          ]
+        ],
+        [
+          "World",
+          []
+        ],
+        [
+          "Teemu Selanne",
+          [
+            "/wiki/Teemu_Selänne"
+          ]
+        ]
+      ],
+      [
+        [
+          1999,
+          [
+            "/wiki/1998–99_NHL_season"
+          ]
+        ],
+        [
+          "North America",
+          []
+        ],
+        [
+          "Paul Kariya",
+          [
+            "/wiki/Paul_Kariya"
+          ]
+        ]
+      ],
+      [
+        [
+          2000,
+          [
+            "/wiki/1999–2000_NHL_season"
+          ]
+        ],
+        [
+          "North America",
+          []
+        ],
+        [
+          "Paul Kariya",
+          []
+        ]
+      ],
+      [
+        [
+          2001,
+          [
+            "/wiki/2000–01_NHL_season"
+          ]
+        ],
+        [
+          "North America",
+          []
+        ],
+        [
+          "Paul Kariya",
+          []
+        ]
+      ],
+      [
+        [
+          2002,
+          [
+            "/wiki/2001–02_NHL_season"
+          ]
+        ],
+        [
+          "North America",
+          []
+        ],
+        [
+          "Paul Kariya",
+          []
+        ]
+      ],
+      [
+        [
+          2003,
+          [
+            "/wiki/2002–03_NHL_season"
+          ]
+        ],
+        [
+          "Eastern Conference",
+          []
+        ],
+        [
+          "Martin St. Louis",
+          [
+            "/wiki/Martin_St._Louis"
+          ]
+        ]
+      ],
+      [
+        [
+          2004,
+          [
+            "/wiki/2003–04_NHL_season"
+          ]
+        ],
+        [
+          "Western Conference",
+          []
+        ],
+        [
+          "Rick Nash",
+          [
+            "/wiki/Rick_Nash"
+          ]
+        ]
+      ],
+      [
+        [
+          2007,
+          [
+            "/wiki/2006–07_NHL_season"
+          ]
+        ],
+        [
+          "Western Conference",
+          []
+        ],
+        [
+          "Rick Nash",
+          []
+        ]
+      ],
+      [
+        [
+          2008,
+          [
+            "/wiki/2007–08_NHL_season"
+          ]
+        ],
+        [
+          "Western Conference",
+          []
+        ],
+        [
+          "Shawn Horcoff",
+          [
+            "/wiki/Shawn_Horcoff"
+          ]
+        ]
+      ],
+      [
+        [
+          2018,
+          [
+            "/wiki/2017–18_NHL_season"
+          ]
+        ],
+        [
+          "Pacific Division",
+          []
+        ],
+        [
+          "Johnny Gaudreau",
+          [
+            "/wiki/Johnny_Gaudreau"
+          ]
+        ]
+      ],
+      [
+        [
+          2019,
+          [
+            "/wiki/2018–19_NHL_season"
+          ]
+        ],
+        [
+          "Pacific Division",
+          []
+        ],
+        [
+          "Johnny Gaudreau",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the NHL All-Star Skills Competition, detailing the season, participating teams, and players involved. It is designed to track and categorize participants and their affiliations during the event across different seasons.",
+  "numeric_columns": [
+    "Season"
+  ],
+  "categorical_columns": [
+    "Team"
+  ],
+  "entities": [
+    "Player"
+  ]
+}

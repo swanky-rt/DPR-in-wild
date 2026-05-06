@@ -1,0 +1,468 @@
+{
+  "table_id": "T2371",
+  "uid": "15352622-dfa1-5a3f-a09f-268139910275",
+  "source": "HybridQA",
+  "source_table_id": "15352622-dfa1-5a3f-a09f-268139910275",
+  "domain": "HybridQA",
+  "title": "Television in Turkey",
+  "columns": [
+    "Rank",
+    "Channel",
+    "Group",
+    "Share of total viewing (% )"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "ATV",
+        [
+          "/wiki/ATV_(Turkey)"
+        ]
+      ],
+      [
+        "Çalık Holding",
+        [
+          "/wiki/Çalık_Holding"
+        ]
+      ],
+      [
+        "9.74%",
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "FOX",
+        [
+          "/wiki/Fox_(Turkey)"
+        ]
+      ],
+      [
+        "Fox International Channels",
+        [
+          "/wiki/Fox_International_Channels"
+        ]
+      ],
+      [
+        "9.48%",
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Kanal D",
+        [
+          "/wiki/Kanal_D"
+        ]
+      ],
+      [
+        "Demirören Group",
+        [
+          "/wiki/Demirören_Group"
+        ]
+      ],
+      [
+        "8.40%",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "STAR TV",
+        [
+          "/wiki/Star_TV_(Turkey)"
+        ]
+      ],
+      [
+        "Doğuş Media Group",
+        [
+          "/wiki/Doğuş_Media_Group"
+        ]
+      ],
+      [
+        "8.29%",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "SHOW",
+        [
+          "/wiki/Show_TV"
+        ]
+      ],
+      [
+        "Ciner Media Group",
+        [
+          "/wiki/Ciner_Media_Group"
+        ]
+      ],
+      [
+        "6.86%",
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "TRT 1",
+        [
+          "/wiki/TRT_1"
+        ]
+      ],
+      [
+        "TRT",
+        [
+          "/wiki/Turkish_Radio_and_Television_Corporation"
+        ]
+      ],
+      [
+        "5.27%",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "TV8",
+        [
+          "/wiki/Tv8_(Turkey)"
+        ]
+      ],
+      [
+        "Acun Media & Doğuş Holding",
+        [
+          "/wiki/Doğuş_Holding"
+        ]
+      ],
+      [
+        "5.17%",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Kanal 7",
+        [
+          "/wiki/Kanal_7"
+        ]
+      ],
+      [
+        "New World Media Group",
+        []
+      ],
+      [
+        "4.13%",
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "TRT Çocuk",
+        [
+          "/wiki/TRT_Çocuk"
+        ]
+      ],
+      [
+        "TRT",
+        [
+          "/wiki/Turkish_Radio_and_Television_Corporation"
+        ]
+      ],
+      [
+        "3.27%",
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Other",
+        []
+      ],
+      [
+        0,
+        []
+      ],
+      [
+        "39.10%",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "15352622-dfa1-5a3f-a09f-268139910275",
+    "table_id": "Television_in_Turkey_0",
+    "title": "Television in Turkey",
+    "header": [
+      "Rank",
+      "Channel",
+      "Group",
+      "Share of total viewing (% )"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "ATV",
+          [
+            "/wiki/ATV_(Turkey)"
+          ]
+        ],
+        [
+          "Çalık Holding",
+          [
+            "/wiki/Çalık_Holding"
+          ]
+        ],
+        [
+          "9.74%",
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "FOX",
+          [
+            "/wiki/Fox_(Turkey)"
+          ]
+        ],
+        [
+          "Fox International Channels",
+          [
+            "/wiki/Fox_International_Channels"
+          ]
+        ],
+        [
+          "9.48%",
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Kanal D",
+          [
+            "/wiki/Kanal_D"
+          ]
+        ],
+        [
+          "Demirören Group",
+          [
+            "/wiki/Demirören_Group"
+          ]
+        ],
+        [
+          "8.40%",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "STAR TV",
+          [
+            "/wiki/Star_TV_(Turkey)"
+          ]
+        ],
+        [
+          "Doğuş Media Group",
+          [
+            "/wiki/Doğuş_Media_Group"
+          ]
+        ],
+        [
+          "8.29%",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "SHOW",
+          [
+            "/wiki/Show_TV"
+          ]
+        ],
+        [
+          "Ciner Media Group",
+          [
+            "/wiki/Ciner_Media_Group"
+          ]
+        ],
+        [
+          "6.86%",
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "TRT 1",
+          [
+            "/wiki/TRT_1"
+          ]
+        ],
+        [
+          "TRT",
+          [
+            "/wiki/Turkish_Radio_and_Television_Corporation"
+          ]
+        ],
+        [
+          "5.27%",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "TV8",
+          [
+            "/wiki/Tv8_(Turkey)"
+          ]
+        ],
+        [
+          "Acun Media & Doğuş Holding",
+          [
+            "/wiki/Doğuş_Holding"
+          ]
+        ],
+        [
+          "5.17%",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Kanal 7",
+          [
+            "/wiki/Kanal_7"
+          ]
+        ],
+        [
+          "New World Media Group",
+          []
+        ],
+        [
+          "4.13%",
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "TRT Çocuk",
+          [
+            "/wiki/TRT_Çocuk"
+          ]
+        ],
+        [
+          "TRT",
+          [
+            "/wiki/Turkish_Radio_and_Television_Corporation"
+          ]
+        ],
+        [
+          "3.27%",
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Other",
+          []
+        ],
+        [
+          0,
+          []
+        ],
+        [
+          "39.10%",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of television channels in Turkey, ranking them based on their share of total viewing. It includes information about the channel names, their associated groups, and their percentage share of viewership, offering insights into the television market in Turkey.",
+  "numeric_columns": [
+    "Share of total viewing (% )"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Channel",
+    "Group"
+  ]
+}

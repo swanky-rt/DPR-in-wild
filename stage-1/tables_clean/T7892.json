@@ -1,0 +1,309 @@
+{
+  "table_id": "T7892",
+  "uid": "81220211-42aa-5cc7-a891-b739bbf970d7",
+  "source": "HybridQA",
+  "source_table_id": "81220211-42aa-5cc7-a891-b739bbf970d7",
+  "domain": "HybridQA",
+  "title": "List of plantations in the United States",
+  "columns": [
+    "NRHP reference number",
+    "Name",
+    "Locality"
+  ],
+  "rows": [
+    [
+      [
+        81000089,
+        []
+      ],
+      [
+        "Brown Bay Plantation Historic District",
+        [
+          "/wiki/Brown_Bay_Plantation_Historic_District"
+        ]
+      ],
+      [
+        "Brown Bay",
+        [
+          "/wiki/Brown_Bay,_U.S._Virgin_Islands"
+        ]
+      ]
+    ],
+    [
+      [
+        78000269,
+        []
+      ],
+      [
+        "Cinnamon Bay Plantation",
+        [
+          "/wiki/Cinnamon_Bay_Plantation"
+        ]
+      ],
+      [
+        "Cruz Bay",
+        [
+          "/wiki/Cruz_Bay,_United_States_Virgin_Islands"
+        ]
+      ]
+    ],
+    [
+      [
+        78000270,
+        []
+      ],
+      [
+        "Catherineberg Sugar Mill Ruins",
+        [
+          "/wiki/Catherineberg_Sugar_Mill_Ruins"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        76002217,
+        []
+      ],
+      [
+        "Estate Carolina Sugar Plantation",
+        [
+          "/wiki/Estate_Carolina_Sugar_Plantation"
+        ]
+      ],
+      [
+        "Coral Bay",
+        [
+          "/wiki/Coral_Bay,_United_States_Virgin_Islands"
+        ]
+      ]
+    ],
+    [
+      [
+        81000094,
+        []
+      ],
+      [
+        "Hermitage Plantation Historic District",
+        []
+      ],
+      [
+        "Hurricane Hole",
+        []
+      ]
+    ],
+    [
+      [
+        78000271,
+        []
+      ],
+      [
+        "Lameshur Plantation",
+        [
+          "/wiki/Lameshur_Plantation"
+        ]
+      ],
+      [
+        "Cruz Bay",
+        [
+          "/wiki/Cruz_Bay"
+        ]
+      ]
+    ],
+    [
+      [
+        81000093,
+        []
+      ],
+      [
+        "Rustenberg Plantation South Historic District",
+        []
+      ],
+      [
+        "Cinnamon Bay",
+        [
+          "/wiki/Cinnamon_Bay"
+        ]
+      ]
+    ],
+    [
+      [
+        76001867,
+        []
+      ],
+      [
+        "Tutu Plantation House",
+        [
+          "/wiki/Tutu_Plantation_House"
+        ]
+      ],
+      [
+        "Charlotte Amalie",
+        [
+          "/wiki/Charlotte_Amalie,_U.S._Virgin_Islands"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "81220211-42aa-5cc7-a891-b739bbf970d7",
+    "table_id": "List_of_plantations_in_the_United_States_9",
+    "title": "List of plantations in the United States",
+    "header": [
+      "NRHP reference number",
+      "Name",
+      "Locality"
+    ],
+    "value": [
+      [
+        [
+          81000089,
+          []
+        ],
+        [
+          "Brown Bay Plantation Historic District",
+          [
+            "/wiki/Brown_Bay_Plantation_Historic_District"
+          ]
+        ],
+        [
+          "Brown Bay",
+          [
+            "/wiki/Brown_Bay,_U.S._Virgin_Islands"
+          ]
+        ]
+      ],
+      [
+        [
+          78000269,
+          []
+        ],
+        [
+          "Cinnamon Bay Plantation",
+          [
+            "/wiki/Cinnamon_Bay_Plantation"
+          ]
+        ],
+        [
+          "Cruz Bay",
+          [
+            "/wiki/Cruz_Bay,_United_States_Virgin_Islands"
+          ]
+        ]
+      ],
+      [
+        [
+          78000270,
+          []
+        ],
+        [
+          "Catherineberg Sugar Mill Ruins",
+          [
+            "/wiki/Catherineberg_Sugar_Mill_Ruins"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          76002217,
+          []
+        ],
+        [
+          "Estate Carolina Sugar Plantation",
+          [
+            "/wiki/Estate_Carolina_Sugar_Plantation"
+          ]
+        ],
+        [
+          "Coral Bay",
+          [
+            "/wiki/Coral_Bay,_United_States_Virgin_Islands"
+          ]
+        ]
+      ],
+      [
+        [
+          81000094,
+          []
+        ],
+        [
+          "Hermitage Plantation Historic District",
+          []
+        ],
+        [
+          "Hurricane Hole",
+          []
+        ]
+      ],
+      [
+        [
+          78000271,
+          []
+        ],
+        [
+          "Lameshur Plantation",
+          [
+            "/wiki/Lameshur_Plantation"
+          ]
+        ],
+        [
+          "Cruz Bay",
+          [
+            "/wiki/Cruz_Bay"
+          ]
+        ]
+      ],
+      [
+        [
+          81000093,
+          []
+        ],
+        [
+          "Rustenberg Plantation South Historic District",
+          []
+        ],
+        [
+          "Cinnamon Bay",
+          [
+            "/wiki/Cinnamon_Bay"
+          ]
+        ]
+      ],
+      [
+        [
+          76001867,
+          []
+        ],
+        [
+          "Tutu Plantation House",
+          [
+            "/wiki/Tutu_Plantation_House"
+          ]
+        ],
+        [
+          "Charlotte Amalie",
+          [
+            "/wiki/Charlotte_Amalie,_U.S._Virgin_Islands"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about plantations in the United States, including their names, locations, and reference numbers for historical preservation. It serves as a catalog of historically significant sites, likely for research or heritage purposes.",
+  "numeric_columns": [
+    "NRHP reference number"
+  ],
+  "categorical_columns": [
+    "Name"
+  ],
+  "entities": [
+    "Locality"
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "table_id": "T10237",
+  "uid": "1fc7b582-acb4-5cf2-9914-4e1d306dfebf",
+  "source": "HybridQA",
+  "source_table_id": "1fc7b582-acb4-5cf2-9914-4e1d306dfebf",
+  "domain": "HybridQA",
+  "title": "1997 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Valeri Belenki ( GER )",
+        [
+          "/wiki/Valeri_Belenki"
+        ]
+      ],
+      [
+        9.7,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Eric Poujade ( FRA )",
+        [
+          "/wiki/Eric_Poujade"
+        ]
+      ],
+      [
+        9.7,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Pae Gil Su ( PRK )",
+        [
+          "/wiki/Pae_Gil_Su"
+        ]
+      ],
+      [
+        9.7,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Zhang Jinjing ( CHN )",
+        [
+          "/wiki/Zhang_Jinjing"
+        ]
+      ],
+      [
+        9.662,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Nikolai Kryukov ( RUS )",
+        [
+          "/wiki/Nikolai_Kryukov_(gymnast)"
+        ]
+      ],
+      [
+        9.612,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Zoltán Supola ( HUN )",
+        [
+          "/wiki/Zoltán_Supola_(gymnast)"
+        ]
+      ],
+      [
+        9.6,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Adrian Ianculescu ( ROU )",
+        [
+          "/wiki/Adrian_Ianculescu"
+        ]
+      ],
+      [
+        9.487,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Marius Urzica ( ROU )",
+        [
+          "/wiki/Marius_Urzica"
+        ]
+      ],
+      [
+        9.112,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "1fc7b582-acb4-5cf2-9914-4e1d306dfebf",
+    "table_id": "1997_World_Artistic_Gymnastics_Championships_2",
+    "title": "1997 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Valeri Belenki ( GER )",
+          [
+            "/wiki/Valeri_Belenki"
+          ]
+        ],
+        [
+          9.7,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Eric Poujade ( FRA )",
+          [
+            "/wiki/Eric_Poujade"
+          ]
+        ],
+        [
+          9.7,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Pae Gil Su ( PRK )",
+          [
+            "/wiki/Pae_Gil_Su"
+          ]
+        ],
+        [
+          9.7,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Zhang Jinjing ( CHN )",
+          [
+            "/wiki/Zhang_Jinjing"
+          ]
+        ],
+        [
+          9.662,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Nikolai Kryukov ( RUS )",
+          [
+            "/wiki/Nikolai_Kryukov_(gymnast)"
+          ]
+        ],
+        [
+          9.612,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Zoltán Supola ( HUN )",
+          [
+            "/wiki/Zoltán_Supola_(gymnast)"
+          ]
+        ],
+        [
+          9.6,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Adrian Ianculescu ( ROU )",
+          [
+            "/wiki/Adrian_Ianculescu"
+          ]
+        ],
+        [
+          9.487,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Marius Urzica ( ROU )",
+          [
+            "/wiki/Marius_Urzica"
+          ]
+        ],
+        [
+          9.112,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the rankings and scores of gymnasts at the 1997 World Artistic Gymnastics Championships. It includes details on the rank, the names of the gymnasts, and their total scores. The purpose is to summarize performance outcomes in the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

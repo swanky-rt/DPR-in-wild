@@ -1,0 +1,325 @@
+{
+  "table_id": "T8253",
+  "uid": "0b54acfb-418e-5a2e-976a-677cbaaf023f",
+  "source": "HybridQA",
+  "source_table_id": "0b54acfb-418e-5a2e-976a-677cbaaf023f",
+  "domain": "HybridQA",
+  "title": "1997 Cleveland Indians season",
+  "columns": [
+    "Position",
+    "Name",
+    "# of Starts"
+  ],
+  "rows": [
+    [
+      [
+        "C",
+        []
+      ],
+      [
+        "Sandy Alomar , Jr",
+        [
+          "/wiki/Sandy_Alomar,_Jr."
+        ]
+      ],
+      [
+        119,
+        []
+      ]
+    ],
+    [
+      [
+        "1B",
+        []
+      ],
+      [
+        "Jim Thome",
+        [
+          "/wiki/Jim_Thome"
+        ]
+      ],
+      [
+        145,
+        []
+      ]
+    ],
+    [
+      [
+        "2B",
+        []
+      ],
+      [
+        "Tony Fernández",
+        [
+          "/wiki/Tony_Fernández"
+        ]
+      ],
+      [
+        109,
+        []
+      ]
+    ],
+    [
+      [
+        "3B",
+        []
+      ],
+      [
+        "Matt Williams",
+        [
+          "/wiki/Matt_Williams_(third_baseman)"
+        ]
+      ],
+      [
+        151,
+        []
+      ]
+    ],
+    [
+      [
+        "SS",
+        []
+      ],
+      [
+        "Omar Vizquel",
+        [
+          "/wiki/Omar_Vizquel"
+        ]
+      ],
+      [
+        152,
+        []
+      ]
+    ],
+    [
+      [
+        "LF",
+        []
+      ],
+      [
+        "Bip Roberts",
+        [
+          "/wiki/Bip_Roberts"
+        ]
+      ],
+      [
+        92,
+        []
+      ]
+    ],
+    [
+      [
+        "CF",
+        []
+      ],
+      [
+        "Marquis Grissom",
+        [
+          "/wiki/Marquis_Grissom"
+        ]
+      ],
+      [
+        144,
+        []
+      ]
+    ],
+    [
+      [
+        "RF",
+        []
+      ],
+      [
+        "Manny Ramírez",
+        [
+          "/wiki/Manny_Ramírez"
+        ]
+      ],
+      [
+        146,
+        []
+      ]
+    ],
+    [
+      [
+        "DH",
+        []
+      ],
+      [
+        "David Justice",
+        [
+          "/wiki/David_Justice"
+        ]
+      ],
+      [
+        61,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "0b54acfb-418e-5a2e-976a-677cbaaf023f",
+    "table_id": "1997_Cleveland_Indians_season_0",
+    "title": "1997 Cleveland Indians season",
+    "header": [
+      "Position",
+      "Name",
+      "# of Starts"
+    ],
+    "value": [
+      [
+        [
+          "C",
+          []
+        ],
+        [
+          "Sandy Alomar , Jr",
+          [
+            "/wiki/Sandy_Alomar,_Jr."
+          ]
+        ],
+        [
+          119,
+          []
+        ]
+      ],
+      [
+        [
+          "1B",
+          []
+        ],
+        [
+          "Jim Thome",
+          [
+            "/wiki/Jim_Thome"
+          ]
+        ],
+        [
+          145,
+          []
+        ]
+      ],
+      [
+        [
+          "2B",
+          []
+        ],
+        [
+          "Tony Fernández",
+          [
+            "/wiki/Tony_Fernández"
+          ]
+        ],
+        [
+          109,
+          []
+        ]
+      ],
+      [
+        [
+          "3B",
+          []
+        ],
+        [
+          "Matt Williams",
+          [
+            "/wiki/Matt_Williams_(third_baseman)"
+          ]
+        ],
+        [
+          151,
+          []
+        ]
+      ],
+      [
+        [
+          "SS",
+          []
+        ],
+        [
+          "Omar Vizquel",
+          [
+            "/wiki/Omar_Vizquel"
+          ]
+        ],
+        [
+          152,
+          []
+        ]
+      ],
+      [
+        [
+          "LF",
+          []
+        ],
+        [
+          "Bip Roberts",
+          [
+            "/wiki/Bip_Roberts"
+          ]
+        ],
+        [
+          92,
+          []
+        ]
+      ],
+      [
+        [
+          "CF",
+          []
+        ],
+        [
+          "Marquis Grissom",
+          [
+            "/wiki/Marquis_Grissom"
+          ]
+        ],
+        [
+          144,
+          []
+        ]
+      ],
+      [
+        [
+          "RF",
+          []
+        ],
+        [
+          "Manny Ramírez",
+          [
+            "/wiki/Manny_Ramírez"
+          ]
+        ],
+        [
+          146,
+          []
+        ]
+      ],
+      [
+        [
+          "DH",
+          []
+        ],
+        [
+          "David Justice",
+          [
+            "/wiki/David_Justice"
+          ]
+        ],
+        [
+          61,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of the 1997 Cleveland Indians baseball season, focusing on player positions, names, and the number of starts they made. It serves as a summary of player contributions based on their roles and participation during the season.",
+  "numeric_columns": [
+    "# of Starts"
+  ],
+  "categorical_columns": [
+    "Position"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

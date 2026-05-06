@@ -1,0 +1,293 @@
+{
+  "table_id": "T1485",
+  "uid": "0c15e364-f759-5902-9c87-adad4f99ce00",
+  "source": "HybridQA",
+  "source_table_id": "0c15e364-f759-5902-9c87-adad4f99ce00",
+  "domain": "HybridQA",
+  "title": "1991 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Igor Korobchinsky ( URS )",
+        [
+          "/wiki/Igor_Korobchinsky"
+        ]
+      ],
+      [
+        9.875,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Vitaly Scherbo ( URS )",
+        [
+          "/wiki/Vitaly_Scherbo"
+        ]
+      ],
+      [
+        9.8,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Daisuke Nishikawa ( JPN )",
+        [
+          "/wiki/Daisuke_Nishikawa"
+        ]
+      ],
+      [
+        9.787,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Yuri Chechi ( ITA )",
+        [
+          "/wiki/Yuri_Chechi"
+        ]
+      ],
+      [
+        9.762,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Andreas Wecker ( GER )",
+        [
+          "/wiki/Andreas_Wecker"
+        ]
+      ],
+      [
+        9.7,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Neil Thomas ( GBR )",
+        [
+          "/wiki/Neil_Thomas_(gymnast)"
+        ]
+      ],
+      [
+        9.675,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Sylvio Kroll ( GER )",
+        [
+          "/wiki/Sylvio_Kroll"
+        ]
+      ],
+      [
+        9.65,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Li Chunyang ( CHN )",
+        [
+          "/wiki/Li_Chunyang"
+        ]
+      ],
+      [
+        9.15,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "0c15e364-f759-5902-9c87-adad4f99ce00",
+    "table_id": "1991_World_Artistic_Gymnastics_Championships_1",
+    "title": "1991 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Igor Korobchinsky ( URS )",
+          [
+            "/wiki/Igor_Korobchinsky"
+          ]
+        ],
+        [
+          9.875,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Vitaly Scherbo ( URS )",
+          [
+            "/wiki/Vitaly_Scherbo"
+          ]
+        ],
+        [
+          9.8,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Daisuke Nishikawa ( JPN )",
+          [
+            "/wiki/Daisuke_Nishikawa"
+          ]
+        ],
+        [
+          9.787,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Yuri Chechi ( ITA )",
+          [
+            "/wiki/Yuri_Chechi"
+          ]
+        ],
+        [
+          9.762,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Andreas Wecker ( GER )",
+          [
+            "/wiki/Andreas_Wecker"
+          ]
+        ],
+        [
+          9.7,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Neil Thomas ( GBR )",
+          [
+            "/wiki/Neil_Thomas_(gymnast)"
+          ]
+        ],
+        [
+          9.675,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Sylvio Kroll ( GER )",
+          [
+            "/wiki/Sylvio_Kroll"
+          ]
+        ],
+        [
+          9.65,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Li Chunyang ( CHN )",
+          [
+            "/wiki/Li_Chunyang"
+          ]
+        ],
+        [
+          9.15,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides rankings and scores for gymnasts who participated in the 1991 World Artistic Gymnastics Championships. It includes information about their rank, name, and total score, serving as a summary of performance outcomes for the event. The table is likely intended for historical or analytical purposes related to gymnastics competitions.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

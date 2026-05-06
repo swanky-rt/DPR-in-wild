@@ -1,0 +1,509 @@
+{
+  "table_id": "T4257",
+  "uid": "89bbe80c-6494-56ef-84e4-ffe994178866",
+  "source": "HybridQA",
+  "source_table_id": "89bbe80c-6494-56ef-84e4-ffe994178866",
+  "domain": "HybridQA",
+  "title": "List of airports in Moldova",
+  "columns": [
+    "Location",
+    "ICAO",
+    "Airport name",
+    "Usage"
+  ],
+  "rows": [
+    [
+      [
+        "Bălți",
+        [
+          "/wiki/Bălți"
+        ]
+      ],
+      [
+        "LUBL",
+        []
+      ],
+      [
+        "Bălți International Airport",
+        [
+          "/wiki/Bălți_International_Airport"
+        ]
+      ],
+      [
+        "Certified , occasional flights",
+        []
+      ]
+    ],
+    [
+      [
+        "Bălți",
+        [
+          "/wiki/Bălți"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "Bălți City Airport",
+        [
+          "/wiki/Bălți_City_Airport"
+        ]
+      ],
+      [
+        "Unclear",
+        []
+      ]
+    ],
+    [
+      [
+        "Cahul",
+        [
+          "/wiki/Cahul"
+        ]
+      ],
+      [
+        "LUCH",
+        []
+      ],
+      [
+        "Cahul International Airport",
+        [
+          "/wiki/Cahul_International_Airport"
+        ]
+      ],
+      [
+        "Not certified",
+        []
+      ]
+    ],
+    [
+      [
+        "Camenca",
+        [
+          "/wiki/Camenca"
+        ]
+      ],
+      [
+        "LUCM",
+        []
+      ],
+      [
+        "Camenca Airport",
+        []
+      ],
+      [
+        "Not operational",
+        []
+      ]
+    ],
+    [
+      [
+        "Ceadîr-Lunga",
+        [
+          "/wiki/Ceadîr-Lunga"
+        ]
+      ],
+      [
+        "LUCL",
+        []
+      ],
+      [
+        "Chadyr Lunga Airport",
+        [
+          "/wiki/Chadyr_Lunga_Airport"
+        ]
+      ],
+      [
+        "Unclear",
+        []
+      ]
+    ],
+    [
+      [
+        "Chișinău",
+        [
+          "/wiki/Chișinău"
+        ]
+      ],
+      [
+        "LUKK",
+        []
+      ],
+      [
+        "Chișinău International Airport",
+        [
+          "/wiki/Chișinău_International_Airport"
+        ]
+      ],
+      [
+        "Moldova 's sole international gateway",
+        []
+      ]
+    ],
+    [
+      [
+        "Mărculeşti",
+        [
+          "/wiki/Mărculeşti"
+        ]
+      ],
+      [
+        "LUBM",
+        []
+      ],
+      [
+        "Mărculeşti International Airport",
+        [
+          "/wiki/Mărculeşti_International_Airport"
+        ]
+      ],
+      [
+        "Certified for daylight flights only",
+        []
+      ]
+    ],
+    [
+      [
+        "Soroca",
+        [
+          "/wiki/Soroca"
+        ]
+      ],
+      [
+        "LUSR",
+        []
+      ],
+      [
+        "Soroca Airport",
+        []
+      ],
+      [
+        "Not operational",
+        []
+      ]
+    ],
+    [
+      [
+        "Tighina ( Bender )",
+        [
+          "/wiki/Bender,_Moldova"
+        ]
+      ],
+      [
+        "LUTG",
+        []
+      ],
+      [
+        "Tighina Airport",
+        []
+      ],
+      [
+        "Not operational",
+        []
+      ]
+    ],
+    [
+      [
+        "Tiraspol",
+        [
+          "/wiki/Tiraspol"
+        ]
+      ],
+      [
+        "LUTR",
+        []
+      ],
+      [
+        "Tiraspol Airport",
+        [
+          "/wiki/Tiraspol_Airport"
+        ]
+      ],
+      [
+        "Not operational",
+        []
+      ]
+    ],
+    [
+      [
+        "Vadul lui Vodă / Durleşti",
+        [
+          "/wiki/Vadul_lui_Vodă",
+          "/wiki/Durleşti"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "Vadul lui Vodă Airfield",
+        []
+      ],
+      [
+        "Unclear",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "89bbe80c-6494-56ef-84e4-ffe994178866",
+    "table_id": "List_of_airports_in_Moldova_0",
+    "title": "List of airports in Moldova",
+    "header": [
+      "Location",
+      "ICAO",
+      "Airport name",
+      "Usage"
+    ],
+    "value": [
+      [
+        [
+          "Bălți",
+          [
+            "/wiki/Bălți"
+          ]
+        ],
+        [
+          "LUBL",
+          []
+        ],
+        [
+          "Bălți International Airport",
+          [
+            "/wiki/Bălți_International_Airport"
+          ]
+        ],
+        [
+          "Certified , occasional flights",
+          []
+        ]
+      ],
+      [
+        [
+          "Bălți",
+          [
+            "/wiki/Bălți"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "Bălți City Airport",
+          [
+            "/wiki/Bălți_City_Airport"
+          ]
+        ],
+        [
+          "Unclear",
+          []
+        ]
+      ],
+      [
+        [
+          "Cahul",
+          [
+            "/wiki/Cahul"
+          ]
+        ],
+        [
+          "LUCH",
+          []
+        ],
+        [
+          "Cahul International Airport",
+          [
+            "/wiki/Cahul_International_Airport"
+          ]
+        ],
+        [
+          "Not certified",
+          []
+        ]
+      ],
+      [
+        [
+          "Camenca",
+          [
+            "/wiki/Camenca"
+          ]
+        ],
+        [
+          "LUCM",
+          []
+        ],
+        [
+          "Camenca Airport",
+          []
+        ],
+        [
+          "Not operational",
+          []
+        ]
+      ],
+      [
+        [
+          "Ceadîr-Lunga",
+          [
+            "/wiki/Ceadîr-Lunga"
+          ]
+        ],
+        [
+          "LUCL",
+          []
+        ],
+        [
+          "Chadyr Lunga Airport",
+          [
+            "/wiki/Chadyr_Lunga_Airport"
+          ]
+        ],
+        [
+          "Unclear",
+          []
+        ]
+      ],
+      [
+        [
+          "Chișinău",
+          [
+            "/wiki/Chișinău"
+          ]
+        ],
+        [
+          "LUKK",
+          []
+        ],
+        [
+          "Chișinău International Airport",
+          [
+            "/wiki/Chișinău_International_Airport"
+          ]
+        ],
+        [
+          "Moldova 's sole international gateway",
+          []
+        ]
+      ],
+      [
+        [
+          "Mărculeşti",
+          [
+            "/wiki/Mărculeşti"
+          ]
+        ],
+        [
+          "LUBM",
+          []
+        ],
+        [
+          "Mărculeşti International Airport",
+          [
+            "/wiki/Mărculeşti_International_Airport"
+          ]
+        ],
+        [
+          "Certified for daylight flights only",
+          []
+        ]
+      ],
+      [
+        [
+          "Soroca",
+          [
+            "/wiki/Soroca"
+          ]
+        ],
+        [
+          "LUSR",
+          []
+        ],
+        [
+          "Soroca Airport",
+          []
+        ],
+        [
+          "Not operational",
+          []
+        ]
+      ],
+      [
+        [
+          "Tighina ( Bender )",
+          [
+            "/wiki/Bender,_Moldova"
+          ]
+        ],
+        [
+          "LUTG",
+          []
+        ],
+        [
+          "Tighina Airport",
+          []
+        ],
+        [
+          "Not operational",
+          []
+        ]
+      ],
+      [
+        [
+          "Tiraspol",
+          [
+            "/wiki/Tiraspol"
+          ]
+        ],
+        [
+          "LUTR",
+          []
+        ],
+        [
+          "Tiraspol Airport",
+          [
+            "/wiki/Tiraspol_Airport"
+          ]
+        ],
+        [
+          "Not operational",
+          []
+        ]
+      ],
+      [
+        [
+          "Vadul lui Vodă / Durleşti",
+          [
+            "/wiki/Vadul_lui_Vodă",
+            "/wiki/Durleşti"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "Vadul lui Vodă Airfield",
+          []
+        ],
+        [
+          "Unclear",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about airports in Moldova, including their locations, ICAO codes, names, and usage types. It serves as a reference for identifying and categorizing airports within the country, highlighting their operational status and certification details.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Usage"
+  ],
+  "entities": [
+    "Location",
+    "ICAO",
+    "Airport name"
+  ]
+}

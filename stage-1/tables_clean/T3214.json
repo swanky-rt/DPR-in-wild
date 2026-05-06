@@ -1,0 +1,465 @@
+{
+  "table_id": "T3214",
+  "uid": "d4947e42-24b9-56e0-a900-35e67416f81c",
+  "source": "HybridQA",
+  "source_table_id": "d4947e42-24b9-56e0-a900-35e67416f81c",
+  "domain": "HybridQA",
+  "title": "2011 Premier League Darts",
+  "columns": [
+    "Player",
+    "Appearance in Premier League",
+    "Consecutive Streak",
+    "Previous best performance",
+    "Order of Merit Ranking"
+  ],
+  "rows": [
+    [
+      [
+        "Phil Taylor",
+        [
+          "/wiki/Phil_Taylor_(darts_player)"
+        ]
+      ],
+      [
+        "7th",
+        []
+      ],
+      [
+        7,
+        []
+      ],
+      [
+        "Winner ( 2005 , 2006 , 2007 , 2008 , 2010 )",
+        [
+          "/wiki/2005_Premier_League_Darts",
+          "/wiki/2006_Premier_League_Darts",
+          "/wiki/2007_Premier_League_Darts",
+          "/wiki/2008_Premier_League_Darts",
+          "/wiki/2010_Premier_League_Darts"
+        ]
+      ],
+      [
+        1,
+        []
+      ]
+    ],
+    [
+      [
+        "Adrian Lewis",
+        [
+          "/wiki/Adrian_Lewis"
+        ]
+      ],
+      [
+        "4th",
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "Semi-finals ( 2008 )",
+        [
+          "/wiki/2008_Premier_League_Darts"
+        ]
+      ],
+      [
+        2,
+        []
+      ]
+    ],
+    [
+      [
+        "James Wade",
+        [
+          "/wiki/James_Wade"
+        ]
+      ],
+      [
+        "4th",
+        []
+      ],
+      [
+        4,
+        []
+      ],
+      [
+        "Winner ( 2009 )",
+        [
+          "/wiki/2009_Premier_League_Darts"
+        ]
+      ],
+      [
+        3,
+        []
+      ]
+    ],
+    [
+      [
+        "Gary Anderson",
+        [
+          "/wiki/Gary_Anderson_(darts_player)"
+        ]
+      ],
+      [
+        "1st",
+        []
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        0,
+        []
+      ],
+      [
+        4,
+        []
+      ]
+    ],
+    [
+      [
+        "Raymond van Barneveld WC",
+        [
+          "/wiki/Raymond_van_Barneveld"
+        ]
+      ],
+      [
+        "6th",
+        []
+      ],
+      [
+        6,
+        []
+      ],
+      [
+        "Semi-finals ( 2006 , 2007 , 2008 , 2009 )",
+        [
+          "/wiki/2006_Premier_League_Darts",
+          "/wiki/2007_Premier_League_Darts",
+          "/wiki/2008_Premier_League_Darts",
+          "/wiki/2009_Premier_League_Darts"
+        ]
+      ],
+      [
+        5,
+        []
+      ]
+    ],
+    [
+      [
+        "Terry Jenkins WC",
+        [
+          "/wiki/Terry_Jenkins"
+        ]
+      ],
+      [
+        "5th",
+        []
+      ],
+      [
+        5,
+        []
+      ],
+      [
+        "Runner-up ( 2007 )",
+        [
+          "/wiki/2007_Premier_League_Darts"
+        ]
+      ],
+      [
+        6,
+        []
+      ]
+    ],
+    [
+      [
+        "Simon Whitlock WC",
+        [
+          "/wiki/Simon_Whitlock"
+        ]
+      ],
+      [
+        "2nd",
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "Semi-finals ( 2010 )",
+        [
+          "/wiki/2010_Premier_League_Darts"
+        ]
+      ],
+      [
+        7,
+        []
+      ]
+    ],
+    [
+      [
+        "Mark Webster WC",
+        [
+          "/wiki/Mark_Webster_(darts_player)"
+        ]
+      ],
+      [
+        "1st",
+        []
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        0,
+        []
+      ],
+      [
+        13,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "d4947e42-24b9-56e0-a900-35e67416f81c",
+    "table_id": "2011_Premier_League_Darts_0",
+    "title": "2011 Premier League Darts",
+    "header": [
+      "Player",
+      "Appearance in Premier League",
+      "Consecutive Streak",
+      "Previous best performance",
+      "Order of Merit Ranking"
+    ],
+    "value": [
+      [
+        [
+          "Phil Taylor",
+          [
+            "/wiki/Phil_Taylor_(darts_player)"
+          ]
+        ],
+        [
+          "7th",
+          []
+        ],
+        [
+          7,
+          []
+        ],
+        [
+          "Winner ( 2005 , 2006 , 2007 , 2008 , 2010 )",
+          [
+            "/wiki/2005_Premier_League_Darts",
+            "/wiki/2006_Premier_League_Darts",
+            "/wiki/2007_Premier_League_Darts",
+            "/wiki/2008_Premier_League_Darts",
+            "/wiki/2010_Premier_League_Darts"
+          ]
+        ],
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        [
+          "Adrian Lewis",
+          [
+            "/wiki/Adrian_Lewis"
+          ]
+        ],
+        [
+          "4th",
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "Semi-finals ( 2008 )",
+          [
+            "/wiki/2008_Premier_League_Darts"
+          ]
+        ],
+        [
+          2,
+          []
+        ]
+      ],
+      [
+        [
+          "James Wade",
+          [
+            "/wiki/James_Wade"
+          ]
+        ],
+        [
+          "4th",
+          []
+        ],
+        [
+          4,
+          []
+        ],
+        [
+          "Winner ( 2009 )",
+          [
+            "/wiki/2009_Premier_League_Darts"
+          ]
+        ],
+        [
+          3,
+          []
+        ]
+      ],
+      [
+        [
+          "Gary Anderson",
+          [
+            "/wiki/Gary_Anderson_(darts_player)"
+          ]
+        ],
+        [
+          "1st",
+          []
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          0,
+          []
+        ],
+        [
+          4,
+          []
+        ]
+      ],
+      [
+        [
+          "Raymond van Barneveld WC",
+          [
+            "/wiki/Raymond_van_Barneveld"
+          ]
+        ],
+        [
+          "6th",
+          []
+        ],
+        [
+          6,
+          []
+        ],
+        [
+          "Semi-finals ( 2006 , 2007 , 2008 , 2009 )",
+          [
+            "/wiki/2006_Premier_League_Darts",
+            "/wiki/2007_Premier_League_Darts",
+            "/wiki/2008_Premier_League_Darts",
+            "/wiki/2009_Premier_League_Darts"
+          ]
+        ],
+        [
+          5,
+          []
+        ]
+      ],
+      [
+        [
+          "Terry Jenkins WC",
+          [
+            "/wiki/Terry_Jenkins"
+          ]
+        ],
+        [
+          "5th",
+          []
+        ],
+        [
+          5,
+          []
+        ],
+        [
+          "Runner-up ( 2007 )",
+          [
+            "/wiki/2007_Premier_League_Darts"
+          ]
+        ],
+        [
+          6,
+          []
+        ]
+      ],
+      [
+        [
+          "Simon Whitlock WC",
+          [
+            "/wiki/Simon_Whitlock"
+          ]
+        ],
+        [
+          "2nd",
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "Semi-finals ( 2010 )",
+          [
+            "/wiki/2010_Premier_League_Darts"
+          ]
+        ],
+        [
+          7,
+          []
+        ]
+      ],
+      [
+        [
+          "Mark Webster WC",
+          [
+            "/wiki/Mark_Webster_(darts_player)"
+          ]
+        ],
+        [
+          "1st",
+          []
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          0,
+          []
+        ],
+        [
+          13,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the players who participated in the 2011 Premier League Darts, including their experience in the league, performance history, and rankings. It is designed to summarize key details about each player's background and achievements in the context of this tournament.",
+  "numeric_columns": [
+    "Consecutive Streak",
+    "Order of Merit Ranking"
+  ],
+  "categorical_columns": [
+    "Appearance in Premier League",
+    "Previous best performance"
+  ],
+  "entities": [
+    "Player"
+  ]
+}

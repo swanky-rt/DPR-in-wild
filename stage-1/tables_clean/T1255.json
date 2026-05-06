@@ -1,0 +1,456 @@
+{
+  "table_id": "T1255",
+  "uid": "6bdd20b4-c9e3-531e-90f4-09dd039ab85d",
+  "source": "HybridQA",
+  "source_table_id": "6bdd20b4-c9e3-531e-90f4-09dd039ab85d",
+  "domain": "HybridQA",
+  "title": "1984 in film",
+  "columns": [
+    "Rank",
+    "Title",
+    "Distributor",
+    "Domestic gross"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Beverly Hills Cop",
+        [
+          "/wiki/Beverly_Hills_Cop"
+        ]
+      ],
+      [
+        "Paramount",
+        [
+          "/wiki/Paramount_Pictures"
+        ]
+      ],
+      [
+        "$ 234,760,478",
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Ghostbusters",
+        [
+          "/wiki/Ghostbusters"
+        ]
+      ],
+      [
+        "Columbia",
+        [
+          "/wiki/Columbia_Pictures"
+        ]
+      ],
+      [
+        "$ 229,242,989",
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Indiana Jones and the Temple of Doom",
+        [
+          "/wiki/Indiana_Jones_and_the_Temple_of_Doom"
+        ]
+      ],
+      [
+        "Paramount",
+        []
+      ],
+      [
+        "$ 179,870,271",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Gremlins",
+        [
+          "/wiki/Gremlins"
+        ]
+      ],
+      [
+        "Warner Bros",
+        [
+          "/wiki/Warner_Bros."
+        ]
+      ],
+      [
+        "$ 153,083,102",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "The Karate Kid",
+        [
+          "/wiki/The_Karate_Kid"
+        ]
+      ],
+      [
+        "Columbia",
+        []
+      ],
+      [
+        "$ 90,815,558",
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Police Academy",
+        [
+          "/wiki/Police_Academy_(film)"
+        ]
+      ],
+      [
+        "Warner Bros",
+        []
+      ],
+      [
+        "$ 81,198,894",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Footloose",
+        [
+          "/wiki/Footloose_(1984_film)"
+        ]
+      ],
+      [
+        "Paramount",
+        []
+      ],
+      [
+        "$ 80,035,402",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Romancing the Stone",
+        [
+          "/wiki/Romancing_the_Stone"
+        ]
+      ],
+      [
+        "20th Century Fox",
+        [
+          "/wiki/20th_Century_Fox"
+        ]
+      ],
+      [
+        "$ 76,572,238",
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Star Trek III : The Search for Spock",
+        [
+          "/wiki/Star_Trek_III:_The_Search_for_Spock"
+        ]
+      ],
+      [
+        "Paramount",
+        []
+      ],
+      [
+        "$ 76,471,076",
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Splash",
+        [
+          "/wiki/Splash_(film)"
+        ]
+      ],
+      [
+        "Disney",
+        []
+      ],
+      [
+        "$ 69,821,334",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "6bdd20b4-c9e3-531e-90f4-09dd039ab85d",
+    "table_id": "1984_in_film_0",
+    "title": "1984 in film",
+    "header": [
+      "Rank",
+      "Title",
+      "Distributor",
+      "Domestic gross"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Beverly Hills Cop",
+          [
+            "/wiki/Beverly_Hills_Cop"
+          ]
+        ],
+        [
+          "Paramount",
+          [
+            "/wiki/Paramount_Pictures"
+          ]
+        ],
+        [
+          "$ 234,760,478",
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Ghostbusters",
+          [
+            "/wiki/Ghostbusters"
+          ]
+        ],
+        [
+          "Columbia",
+          [
+            "/wiki/Columbia_Pictures"
+          ]
+        ],
+        [
+          "$ 229,242,989",
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Indiana Jones and the Temple of Doom",
+          [
+            "/wiki/Indiana_Jones_and_the_Temple_of_Doom"
+          ]
+        ],
+        [
+          "Paramount",
+          []
+        ],
+        [
+          "$ 179,870,271",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Gremlins",
+          [
+            "/wiki/Gremlins"
+          ]
+        ],
+        [
+          "Warner Bros",
+          [
+            "/wiki/Warner_Bros."
+          ]
+        ],
+        [
+          "$ 153,083,102",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "The Karate Kid",
+          [
+            "/wiki/The_Karate_Kid"
+          ]
+        ],
+        [
+          "Columbia",
+          []
+        ],
+        [
+          "$ 90,815,558",
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Police Academy",
+          [
+            "/wiki/Police_Academy_(film)"
+          ]
+        ],
+        [
+          "Warner Bros",
+          []
+        ],
+        [
+          "$ 81,198,894",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Footloose",
+          [
+            "/wiki/Footloose_(1984_film)"
+          ]
+        ],
+        [
+          "Paramount",
+          []
+        ],
+        [
+          "$ 80,035,402",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Romancing the Stone",
+          [
+            "/wiki/Romancing_the_Stone"
+          ]
+        ],
+        [
+          "20th Century Fox",
+          [
+            "/wiki/20th_Century_Fox"
+          ]
+        ],
+        [
+          "$ 76,572,238",
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Star Trek III : The Search for Spock",
+          [
+            "/wiki/Star_Trek_III:_The_Search_for_Spock"
+          ]
+        ],
+        [
+          "Paramount",
+          []
+        ],
+        [
+          "$ 76,471,076",
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Splash",
+          [
+            "/wiki/Splash_(film)"
+          ]
+        ],
+        [
+          "Disney",
+          []
+        ],
+        [
+          "$ 69,821,334",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the top films of 1984, focusing on their rankings, titles, distributors, and domestic gross earnings. It is intended to highlight the commercial success of movies released in that year, categorized by their performance in the domestic market.",
+  "numeric_columns": [
+    "Rank",
+    "Domestic gross"
+  ],
+  "categorical_columns": [
+    "Distributor"
+  ],
+  "entities": [
+    "Title"
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "table_id": "T4273",
+  "uid": "f5a72763-00bc-52d8-bcfc-2cbc242b843f",
+  "source": "HybridQA",
+  "source_table_id": "f5a72763-00bc-52d8-bcfc-2cbc242b843f",
+  "domain": "HybridQA",
+  "title": "St. Louis Aircraft Corporation",
+  "columns": [
+    "Model name",
+    "First flight",
+    "Number built",
+    "Type"
+  ],
+  "rows": [
+    [
+      [
+        "Curtiss JN-4D ( license built )",
+        [
+          "/wiki/Curtiss_JN-4"
+        ]
+      ],
+      [
+        1918,
+        [
+          "/wiki/1918_in_aviation"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "Scout plane",
+        []
+      ]
+    ],
+    [
+      [
+        "St. Louis Cardinal",
+        [
+          "/wiki/St._Louis_Cardinal_C-2-110"
+        ]
+      ],
+      [
+        1928,
+        [
+          "/wiki/1928_in_aviation"
+        ]
+      ],
+      [
+        21,
+        []
+      ],
+      [
+        "Sport monoplane",
+        []
+      ]
+    ],
+    [
+      [
+        "St. Louis PT-35",
+        []
+      ],
+      [
+        1935,
+        [
+          "/wiki/1935_in_aviation"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "Biplane primary trainer",
+        []
+      ]
+    ],
+    [
+      [
+        "St. Louis YPT-15",
+        [
+          "/wiki/St._Louis_YPT-15"
+        ]
+      ],
+      [
+        1940,
+        [
+          "/wiki/1940_in_aviation"
+        ]
+      ],
+      [
+        14,
+        []
+      ],
+      [
+        "Primary Trainer",
+        []
+      ]
+    ],
+    [
+      [
+        "St. Louis PT-LM-4",
+        [
+          "/wiki/St._Louis_PT-LM-4"
+        ]
+      ],
+      [
+        1940,
+        [
+          "/wiki/1940_in_aviation"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "Primary Trainer",
+        []
+      ]
+    ],
+    [
+      [
+        "St Louis CG-5",
+        [
+          "/wiki/St_Louis_CG-5"
+        ]
+      ],
+      [
+        1941,
+        [
+          "/wiki/1941_in_aviation"
+        ]
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "Combat glider",
+        []
+      ]
+    ],
+    [
+      [
+        "PT-19 ( License built )",
+        [
+          "/wiki/Fairchild_PT-19"
+        ]
+      ],
+      [
+        1941,
+        [
+          "/wiki/1941_in_aviation"
+        ]
+      ],
+      [
+        44,
+        []
+      ],
+      [
+        "Primary trainer",
+        []
+      ]
+    ],
+    [
+      [
+        "PT-23 ( License built )",
+        [
+          "/wiki/Fairchild_PT-23"
+        ]
+      ],
+      [
+        1941,
+        [
+          "/wiki/1941_in_aviation"
+        ]
+      ],
+      [
+        306,
+        []
+      ],
+      [
+        "Primary trainer",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "f5a72763-00bc-52d8-bcfc-2cbc242b843f",
+    "table_id": "St._Louis_Aircraft_Corporation_0",
+    "title": "St. Louis Aircraft Corporation",
+    "header": [
+      "Model name",
+      "First flight",
+      "Number built",
+      "Type"
+    ],
+    "value": [
+      [
+        [
+          "Curtiss JN-4D ( license built )",
+          [
+            "/wiki/Curtiss_JN-4"
+          ]
+        ],
+        [
+          1918,
+          [
+            "/wiki/1918_in_aviation"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "Scout plane",
+          []
+        ]
+      ],
+      [
+        [
+          "St. Louis Cardinal",
+          [
+            "/wiki/St._Louis_Cardinal_C-2-110"
+          ]
+        ],
+        [
+          1928,
+          [
+            "/wiki/1928_in_aviation"
+          ]
+        ],
+        [
+          21,
+          []
+        ],
+        [
+          "Sport monoplane",
+          []
+        ]
+      ],
+      [
+        [
+          "St. Louis PT-35",
+          []
+        ],
+        [
+          1935,
+          [
+            "/wiki/1935_in_aviation"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "Biplane primary trainer",
+          []
+        ]
+      ],
+      [
+        [
+          "St. Louis YPT-15",
+          [
+            "/wiki/St._Louis_YPT-15"
+          ]
+        ],
+        [
+          1940,
+          [
+            "/wiki/1940_in_aviation"
+          ]
+        ],
+        [
+          14,
+          []
+        ],
+        [
+          "Primary Trainer",
+          []
+        ]
+      ],
+      [
+        [
+          "St. Louis PT-LM-4",
+          [
+            "/wiki/St._Louis_PT-LM-4"
+          ]
+        ],
+        [
+          1940,
+          [
+            "/wiki/1940_in_aviation"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "Primary Trainer",
+          []
+        ]
+      ],
+      [
+        [
+          "St Louis CG-5",
+          [
+            "/wiki/St_Louis_CG-5"
+          ]
+        ],
+        [
+          1941,
+          [
+            "/wiki/1941_in_aviation"
+          ]
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "Combat glider",
+          []
+        ]
+      ],
+      [
+        [
+          "PT-19 ( License built )",
+          [
+            "/wiki/Fairchild_PT-19"
+          ]
+        ],
+        [
+          1941,
+          [
+            "/wiki/1941_in_aviation"
+          ]
+        ],
+        [
+          44,
+          []
+        ],
+        [
+          "Primary trainer",
+          []
+        ]
+      ],
+      [
+        [
+          "PT-23 ( License built )",
+          [
+            "/wiki/Fairchild_PT-23"
+          ]
+        ],
+        [
+          1941,
+          [
+            "/wiki/1941_in_aviation"
+          ]
+        ],
+        [
+          306,
+          []
+        ],
+        [
+          "Primary trainer",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about aircraft models associated with the St. Louis Aircraft Corporation, including details about their first flights, production numbers, and types. It serves as a historical reference for aviation enthusiasts or researchers interested in the company's contributions to aircraft development.",
+  "numeric_columns": [
+    "Number built"
+  ],
+  "categorical_columns": [
+    "Type"
+  ],
+  "entities": [
+    "Model name",
+    "First flight"
+  ]
+}

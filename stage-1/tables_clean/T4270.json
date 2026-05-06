@@ -1,0 +1,482 @@
+{
+  "table_id": "T4270",
+  "uid": "8216cf91-bbff-5bdc-ba4c-47a969e3993a",
+  "source": "HybridQA",
+  "source_table_id": "8216cf91-bbff-5bdc-ba4c-47a969e3993a",
+  "domain": "HybridQA",
+  "title": "Northwest Airlines fleet",
+  "columns": [
+    "Aircraft",
+    "Year Retired",
+    "Replacement",
+    "Notes"
+  ],
+  "rows": [
+    [
+      [
+        "Boeing 727-100",
+        [
+          "/wiki/Boeing_727-100"
+        ]
+      ],
+      [
+        1991,
+        []
+      ],
+      [
+        "McDonnell Douglas DC-9",
+        [
+          "/wiki/McDonnell_Douglas_DC-9"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Boeing 727-200",
+        [
+          "/wiki/Boeing_727-200"
+        ]
+      ],
+      [
+        2003,
+        []
+      ],
+      [
+        "Airbus A320",
+        [
+          "/wiki/Airbus_A320_family"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Boeing 747-100",
+        [
+          "/wiki/Boeing_747"
+        ]
+      ],
+      [
+        2000,
+        []
+      ],
+      [
+        "Boeing 747-400",
+        [
+          "/wiki/Boeing_747-400"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Boeing 747-200",
+        [
+          "/wiki/Boeing_747"
+        ]
+      ],
+      [
+        2009,
+        []
+      ],
+      [
+        "Airbus A330 Family",
+        [
+          "/wiki/Airbus_A330"
+        ]
+      ],
+      [
+        "Passenger retired 2007 , charter retired 2009",
+        []
+      ]
+    ],
+    [
+      [
+        "Boeing 747-200F",
+        [
+          "/wiki/Boeing_747"
+        ]
+      ],
+      [
+        2009,
+        []
+      ],
+      [
+        "None",
+        []
+      ],
+      [
+        "Cargo fleet",
+        []
+      ]
+    ],
+    [
+      [
+        "Convair CV-580",
+        [
+          "/wiki/Convair_CV-240"
+        ]
+      ],
+      [
+        1988,
+        []
+      ],
+      [
+        "None",
+        []
+      ],
+      [
+        "Acquired during the merger with Republic Airlines in 1986",
+        [
+          "/wiki/Republic_Airlines_(1979-1986)"
+        ]
+      ]
+    ],
+    [
+      [
+        "McDonnell Douglas DC-9-10",
+        [
+          "/wiki/McDonnell_Douglas_DC-9"
+        ]
+      ],
+      [
+        2005,
+        []
+      ],
+      [
+        "Airbus A319",
+        [
+          "/wiki/Airbus_A320"
+        ]
+      ],
+      [
+        "Acquired during the merger with Republic Airlines in 1986",
+        []
+      ]
+    ],
+    [
+      [
+        "McDonnell Douglas MD-80",
+        [
+          "/wiki/McDonnell_Douglas_MD-80"
+        ]
+      ],
+      [
+        1999,
+        []
+      ],
+      [
+        "Airbus A320",
+        [
+          "/wiki/Airbus_A320_family"
+        ]
+      ],
+      [
+        "Acquired during the merger with Republic Airlines in 1986",
+        []
+      ]
+    ],
+    [
+      [
+        "McDonnell Douglas DC-10-30",
+        [
+          "/wiki/McDonnell_Douglas_DC-10"
+        ]
+      ],
+      [
+        2007,
+        []
+      ],
+      [
+        "Airbus A330 Family",
+        [
+          "/wiki/Airbus_A330"
+        ]
+      ],
+      [
+        "Sold to ATA Airlines and Omni Air International",
+        [
+          "/wiki/ATA_Airlines",
+          "/wiki/Omni_Air_International"
+        ]
+      ]
+    ],
+    [
+      [
+        "McDonnell Douglas DC-10-40",
+        [
+          "/wiki/McDonnell_Douglas_DC-10"
+        ]
+      ],
+      [
+        2002,
+        []
+      ],
+      [
+        "Boeing 757-300",
+        [
+          "/wiki/Boeing_757"
+        ]
+      ],
+      [
+        "",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "8216cf91-bbff-5bdc-ba4c-47a969e3993a",
+    "table_id": "Northwest_Airlines_fleet_0",
+    "title": "Northwest Airlines fleet",
+    "header": [
+      "Aircraft",
+      "Year Retired",
+      "Replacement",
+      "Notes"
+    ],
+    "value": [
+      [
+        [
+          "Boeing 727-100",
+          [
+            "/wiki/Boeing_727-100"
+          ]
+        ],
+        [
+          1991,
+          []
+        ],
+        [
+          "McDonnell Douglas DC-9",
+          [
+            "/wiki/McDonnell_Douglas_DC-9"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Boeing 727-200",
+          [
+            "/wiki/Boeing_727-200"
+          ]
+        ],
+        [
+          2003,
+          []
+        ],
+        [
+          "Airbus A320",
+          [
+            "/wiki/Airbus_A320_family"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Boeing 747-100",
+          [
+            "/wiki/Boeing_747"
+          ]
+        ],
+        [
+          2000,
+          []
+        ],
+        [
+          "Boeing 747-400",
+          [
+            "/wiki/Boeing_747-400"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Boeing 747-200",
+          [
+            "/wiki/Boeing_747"
+          ]
+        ],
+        [
+          2009,
+          []
+        ],
+        [
+          "Airbus A330 Family",
+          [
+            "/wiki/Airbus_A330"
+          ]
+        ],
+        [
+          "Passenger retired 2007 , charter retired 2009",
+          []
+        ]
+      ],
+      [
+        [
+          "Boeing 747-200F",
+          [
+            "/wiki/Boeing_747"
+          ]
+        ],
+        [
+          2009,
+          []
+        ],
+        [
+          "None",
+          []
+        ],
+        [
+          "Cargo fleet",
+          []
+        ]
+      ],
+      [
+        [
+          "Convair CV-580",
+          [
+            "/wiki/Convair_CV-240"
+          ]
+        ],
+        [
+          1988,
+          []
+        ],
+        [
+          "None",
+          []
+        ],
+        [
+          "Acquired during the merger with Republic Airlines in 1986",
+          [
+            "/wiki/Republic_Airlines_(1979-1986)"
+          ]
+        ]
+      ],
+      [
+        [
+          "McDonnell Douglas DC-9-10",
+          [
+            "/wiki/McDonnell_Douglas_DC-9"
+          ]
+        ],
+        [
+          2005,
+          []
+        ],
+        [
+          "Airbus A319",
+          [
+            "/wiki/Airbus_A320"
+          ]
+        ],
+        [
+          "Acquired during the merger with Republic Airlines in 1986",
+          []
+        ]
+      ],
+      [
+        [
+          "McDonnell Douglas MD-80",
+          [
+            "/wiki/McDonnell_Douglas_MD-80"
+          ]
+        ],
+        [
+          1999,
+          []
+        ],
+        [
+          "Airbus A320",
+          [
+            "/wiki/Airbus_A320_family"
+          ]
+        ],
+        [
+          "Acquired during the merger with Republic Airlines in 1986",
+          []
+        ]
+      ],
+      [
+        [
+          "McDonnell Douglas DC-10-30",
+          [
+            "/wiki/McDonnell_Douglas_DC-10"
+          ]
+        ],
+        [
+          2007,
+          []
+        ],
+        [
+          "Airbus A330 Family",
+          [
+            "/wiki/Airbus_A330"
+          ]
+        ],
+        [
+          "Sold to ATA Airlines and Omni Air International",
+          [
+            "/wiki/ATA_Airlines",
+            "/wiki/Omni_Air_International"
+          ]
+        ]
+      ],
+      [
+        [
+          "McDonnell Douglas DC-10-40",
+          [
+            "/wiki/McDonnell_Douglas_DC-10"
+          ]
+        ],
+        [
+          2002,
+          []
+        ],
+        [
+          "Boeing 757-300",
+          [
+            "/wiki/Boeing_757"
+          ]
+        ],
+        [
+          "",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about the fleet of Northwest Airlines, including details about specific aircraft models, the years they were retired, their replacements, and additional notes. It serves to document the transition and updates in the airline's fleet over time.",
+  "numeric_columns": [
+    "Year Retired"
+  ],
+  "categorical_columns": [
+    "Notes"
+  ],
+  "entities": [
+    "Aircraft",
+    "Replacement"
+  ]
+}

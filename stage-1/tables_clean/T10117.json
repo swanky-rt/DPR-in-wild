@@ -1,0 +1,305 @@
+{
+  "table_id": "T10117",
+  "uid": "2a0bcc86-cbb9-53fa-b621-c7c5e1c9a286",
+  "source": "HybridQA",
+  "source_table_id": "2a0bcc86-cbb9-53fa-b621-c7c5e1c9a286",
+  "domain": "HybridQA",
+  "title": "List of plantations in the United States",
+  "columns": [
+    "NRHP reference number",
+    "Name",
+    "Locality"
+  ],
+  "rows": [
+    [
+      [
+        80004081,
+        []
+      ],
+      [
+        "Durazno Plantation",
+        [
+          "/wiki/Durazno_Plantation"
+        ]
+      ],
+      [
+        "Jones Creek",
+        []
+      ]
+    ],
+    [
+      [
+        69000209,
+        []
+      ],
+      [
+        "Freeman Plantation House",
+        [
+          "/wiki/Freeman_Plantation_House"
+        ]
+      ],
+      [
+        "Jefferson",
+        []
+      ]
+    ],
+    [
+      [
+        77001474,
+        []
+      ],
+      [
+        "William Garrett Plantation House",
+        [
+          "/wiki/William_Garrett_Plantation_House"
+        ]
+      ],
+      [
+        "San Augustine",
+        []
+      ]
+    ],
+    [
+      [
+        71000971,
+        []
+      ],
+      [
+        "Hatfield Plantation",
+        [
+          "/wiki/Hatfield_Plantation"
+        ]
+      ],
+      [
+        "Brenham",
+        [
+          "/wiki/Brenham,_Texas"
+        ]
+      ]
+    ],
+    [
+      [
+        71000970,
+        []
+      ],
+      [
+        "Liendo Plantation",
+        [
+          "/wiki/Liendo_Plantation"
+        ]
+      ],
+      [
+        "Hempstead",
+        [
+          "/wiki/Hempstead,_Texas"
+        ]
+      ]
+    ],
+    [
+      [
+        75001961,
+        []
+      ],
+      [
+        "Old Brulay Plantation",
+        [
+          "/wiki/Old_Brulay_Plantation"
+        ]
+      ],
+      [
+        "Brownsville",
+        []
+      ]
+    ],
+    [
+      [
+        83003084,
+        []
+      ],
+      [
+        "Col. Elijah Sterling Clack Robertson Plantation",
+        [
+          "/wiki/Col._Elijah_Sterling_Clack_Robertson_Plantation"
+        ]
+      ],
+      [
+        "Salado",
+        []
+      ]
+    ],
+    [
+      [
+        80004082,
+        []
+      ],
+      [
+        "Varner-Hogg Plantation",
+        [
+          "/wiki/Varner-Hogg_Plantation"
+        ]
+      ],
+      [
+        "West Columbia",
+        [
+          "/wiki/West_Columbia,_Texas"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "2a0bcc86-cbb9-53fa-b621-c7c5e1c9a286",
+    "table_id": "List_of_plantations_in_the_United_States_8",
+    "title": "List of plantations in the United States",
+    "header": [
+      "NRHP reference number",
+      "Name",
+      "Locality"
+    ],
+    "value": [
+      [
+        [
+          80004081,
+          []
+        ],
+        [
+          "Durazno Plantation",
+          [
+            "/wiki/Durazno_Plantation"
+          ]
+        ],
+        [
+          "Jones Creek",
+          []
+        ]
+      ],
+      [
+        [
+          69000209,
+          []
+        ],
+        [
+          "Freeman Plantation House",
+          [
+            "/wiki/Freeman_Plantation_House"
+          ]
+        ],
+        [
+          "Jefferson",
+          []
+        ]
+      ],
+      [
+        [
+          77001474,
+          []
+        ],
+        [
+          "William Garrett Plantation House",
+          [
+            "/wiki/William_Garrett_Plantation_House"
+          ]
+        ],
+        [
+          "San Augustine",
+          []
+        ]
+      ],
+      [
+        [
+          71000971,
+          []
+        ],
+        [
+          "Hatfield Plantation",
+          [
+            "/wiki/Hatfield_Plantation"
+          ]
+        ],
+        [
+          "Brenham",
+          [
+            "/wiki/Brenham,_Texas"
+          ]
+        ]
+      ],
+      [
+        [
+          71000970,
+          []
+        ],
+        [
+          "Liendo Plantation",
+          [
+            "/wiki/Liendo_Plantation"
+          ]
+        ],
+        [
+          "Hempstead",
+          [
+            "/wiki/Hempstead,_Texas"
+          ]
+        ]
+      ],
+      [
+        [
+          75001961,
+          []
+        ],
+        [
+          "Old Brulay Plantation",
+          [
+            "/wiki/Old_Brulay_Plantation"
+          ]
+        ],
+        [
+          "Brownsville",
+          []
+        ]
+      ],
+      [
+        [
+          83003084,
+          []
+        ],
+        [
+          "Col. Elijah Sterling Clack Robertson Plantation",
+          [
+            "/wiki/Col._Elijah_Sterling_Clack_Robertson_Plantation"
+          ]
+        ],
+        [
+          "Salado",
+          []
+        ]
+      ],
+      [
+        [
+          80004082,
+          []
+        ],
+        [
+          "Varner-Hogg Plantation",
+          [
+            "/wiki/Varner-Hogg_Plantation"
+          ]
+        ],
+        [
+          "West Columbia",
+          [
+            "/wiki/West_Columbia,_Texas"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about plantations in the United States, including their names, locations, and reference numbers associated with the National Register of Historic Places (NRHP). It serves as a historical record and reference for identifying and categorizing these sites.",
+  "numeric_columns": [
+    "NRHP reference number"
+  ],
+  "categorical_columns": [
+    "Locality"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

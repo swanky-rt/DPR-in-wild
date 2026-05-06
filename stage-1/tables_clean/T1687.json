@@ -1,0 +1,325 @@
+{
+  "table_id": "T1687",
+  "uid": "e155afe3-2ad4-5e8f-8a90-a4fa07891596",
+  "source": "HybridQA",
+  "source_table_id": "e155afe3-2ad4-5e8f-8a90-a4fa07891596",
+  "domain": "HybridQA",
+  "title": "1992 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Grigory Misutin ( CIS )",
+        [
+          "/wiki/Grigory_Misutin"
+        ]
+      ],
+      [
+        9.862,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Li Jing ( CHN )",
+        [
+          "/wiki/Li_Jing_(gymnast)"
+        ]
+      ],
+      [
+        9.825,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Igor Korobchinsky ( CIS )",
+        [
+          "/wiki/Igor_Korobchinsky"
+        ]
+      ],
+      [
+        9.787,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Johan Jonasson ( SWE )",
+        [
+          "/wiki/Johan_Jonasson"
+        ]
+      ],
+      [
+        9.737,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Yukio Iketani ( JPN )",
+        [
+          "/wiki/Yukio_Iketani"
+        ]
+      ],
+      [
+        9.7,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Curtis Hibbert ( CAN )",
+        [
+          "/wiki/Curtis_Hibbert"
+        ]
+      ],
+      [
+        9.65,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Rob Doyle ( CAN )",
+        [
+          "/wiki/Rob_Doyle"
+        ]
+      ],
+      [
+        9.475,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Li Chunyang ( CHN )",
+        [
+          "/wiki/Li_Chunyang"
+        ]
+      ],
+      [
+        9.4,
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Daisuke Nishikawa ( JPN )",
+        [
+          "/wiki/Daisuke_Nishikawa"
+        ]
+      ],
+      [
+        9.125,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "e155afe3-2ad4-5e8f-8a90-a4fa07891596",
+    "table_id": "1992_World_Artistic_Gymnastics_Championships_5",
+    "title": "1992 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Grigory Misutin ( CIS )",
+          [
+            "/wiki/Grigory_Misutin"
+          ]
+        ],
+        [
+          9.862,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Li Jing ( CHN )",
+          [
+            "/wiki/Li_Jing_(gymnast)"
+          ]
+        ],
+        [
+          9.825,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Igor Korobchinsky ( CIS )",
+          [
+            "/wiki/Igor_Korobchinsky"
+          ]
+        ],
+        [
+          9.787,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Johan Jonasson ( SWE )",
+          [
+            "/wiki/Johan_Jonasson"
+          ]
+        ],
+        [
+          9.737,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Yukio Iketani ( JPN )",
+          [
+            "/wiki/Yukio_Iketani"
+          ]
+        ],
+        [
+          9.7,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Curtis Hibbert ( CAN )",
+          [
+            "/wiki/Curtis_Hibbert"
+          ]
+        ],
+        [
+          9.65,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Rob Doyle ( CAN )",
+          [
+            "/wiki/Rob_Doyle"
+          ]
+        ],
+        [
+          9.475,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Li Chunyang ( CHN )",
+          [
+            "/wiki/Li_Chunyang"
+          ]
+        ],
+        [
+          9.4,
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Daisuke Nishikawa ( JPN )",
+          [
+            "/wiki/Daisuke_Nishikawa"
+          ]
+        ],
+        [
+          9.125,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides rankings and scores from the 1992 World Artistic Gymnastics Championships, showcasing individual gymnasts and their total scores. It serves to summarize performance outcomes in a competitive gymnastics event.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

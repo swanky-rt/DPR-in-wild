@@ -1,0 +1,520 @@
+{
+  "table_id": "T6268",
+  "uid": "039a0db4-b926-5297-b870-39b18fd49567",
+  "source": "HybridQA",
+  "source_table_id": "039a0db4-b926-5297-b870-39b18fd49567",
+  "domain": "HybridQA",
+  "title": "Comparison of assemblers",
+  "columns": [
+    "Assembler",
+    "Operating system",
+    "Open source",
+    "License",
+    "Development active"
+  ],
+  "rows": [
+    [
+      [
+        "FASM",
+        [
+          "/wiki/FASM"
+        ]
+      ],
+      [
+        "Windows , DOS , Unix-like",
+        [
+          "/wiki/Microsoft_Windows",
+          "/wiki/DOS",
+          "/wiki/Unix-like"
+        ]
+      ],
+      [
+        "Yes",
+        []
+      ],
+      [
+        "BSD",
+        [
+          "/wiki/BSD_licenses"
+        ]
+      ],
+      [
+        "Yes",
+        []
+      ]
+    ],
+    [
+      [
+        "GAS",
+        [
+          "/wiki/GNU_Assembler"
+        ]
+      ],
+      [
+        "Unix-like , Windows , DOS , OS/2",
+        [
+          "/wiki/Unix-like",
+          "/wiki/Microsoft_Windows",
+          "/wiki/DOS",
+          "/wiki/OS/2"
+        ]
+      ],
+      [
+        "Yes",
+        []
+      ],
+      [
+        "GNU GPL",
+        [
+          "/wiki/GNU_General_Public_License"
+        ]
+      ],
+      [
+        "Yes",
+        []
+      ]
+    ],
+    [
+      [
+        "MASM",
+        [
+          "/wiki/Microsoft_Macro_Assembler"
+        ]
+      ],
+      [
+        "Windows , DOS , OS/2",
+        [
+          "/wiki/Microsoft_Windows",
+          "/wiki/DOS",
+          "/wiki/OS/2"
+        ]
+      ],
+      [
+        "No",
+        []
+      ],
+      [
+        "Commercial",
+        [
+          "/wiki/Commercial_software"
+        ]
+      ],
+      [
+        "Yes",
+        []
+      ]
+    ],
+    [
+      [
+        "NASM",
+        [
+          "/wiki/Netwide_Assembler"
+        ]
+      ],
+      [
+        "Windows , Linux , macOS , DOS , OS/2",
+        [
+          "/wiki/Microsoft_Windows",
+          "/wiki/Linux",
+          "/wiki/MacOS",
+          "/wiki/DOS",
+          "/wiki/OS/2"
+        ]
+      ],
+      [
+        "Yes",
+        []
+      ],
+      [
+        "BSD",
+        [
+          "/wiki/BSD_licenses"
+        ]
+      ],
+      [
+        "Yes",
+        []
+      ]
+    ],
+    [
+      [
+        "Open Watcom Assembler",
+        [
+          "/wiki/Open_Watcom_Assembler"
+        ]
+      ],
+      [
+        "Windows , DOS , Linux , FreeBSD , OS/2",
+        [
+          "/wiki/Microsoft_Windows",
+          "/wiki/DOS",
+          "/wiki/Linux",
+          "/wiki/FreeBSD",
+          "/wiki/OS/2"
+        ]
+      ],
+      [
+        "Yes",
+        []
+      ],
+      [
+        "Sybase Open Watcom Public",
+        [
+          "/wiki/Sybase_Open_Watcom_Public_License"
+        ]
+      ],
+      [
+        "Yes",
+        []
+      ]
+    ],
+    [
+      [
+        "POASM",
+        []
+      ],
+      [
+        "Windows , Windows Mobile",
+        [
+          "/wiki/Microsoft_Windows",
+          "/wiki/Windows_Mobile"
+        ]
+      ],
+      [
+        "No",
+        []
+      ],
+      [
+        "Freeware",
+        [
+          "/wiki/Freeware"
+        ]
+      ],
+      [
+        "Yes",
+        []
+      ]
+    ],
+    [
+      [
+        "TCCASM",
+        [
+          "/wiki/Tiny_C_Compiler"
+        ]
+      ],
+      [
+        "Unix-like , Windows",
+        [
+          "/wiki/Unix-like",
+          "/wiki/Microsoft_Windows"
+        ]
+      ],
+      [
+        "Yes",
+        []
+      ],
+      [
+        "GNU LGPL",
+        [
+          "/wiki/GNU_Lesser_General_Public_License"
+        ]
+      ],
+      [
+        "Yes",
+        []
+      ]
+    ],
+    [
+      [
+        "Yasm",
+        []
+      ],
+      [
+        "Windows , DOS , Unix-like",
+        [
+          "/wiki/Microsoft_Windows",
+          "/wiki/DOS",
+          "/wiki/Unix-like"
+        ]
+      ],
+      [
+        "Yes",
+        []
+      ],
+      [
+        "BSD",
+        [
+          "/wiki/BSD_licenses"
+        ]
+      ],
+      [
+        "No",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "039a0db4-b926-5297-b870-39b18fd49567",
+    "table_id": "Comparison_of_assemblers_6",
+    "title": "Comparison of assemblers",
+    "header": [
+      "Assembler",
+      "Operating system",
+      "Open source",
+      "License",
+      "Development active"
+    ],
+    "value": [
+      [
+        [
+          "FASM",
+          [
+            "/wiki/FASM"
+          ]
+        ],
+        [
+          "Windows , DOS , Unix-like",
+          [
+            "/wiki/Microsoft_Windows",
+            "/wiki/DOS",
+            "/wiki/Unix-like"
+          ]
+        ],
+        [
+          "Yes",
+          []
+        ],
+        [
+          "BSD",
+          [
+            "/wiki/BSD_licenses"
+          ]
+        ],
+        [
+          "Yes",
+          []
+        ]
+      ],
+      [
+        [
+          "GAS",
+          [
+            "/wiki/GNU_Assembler"
+          ]
+        ],
+        [
+          "Unix-like , Windows , DOS , OS/2",
+          [
+            "/wiki/Unix-like",
+            "/wiki/Microsoft_Windows",
+            "/wiki/DOS",
+            "/wiki/OS/2"
+          ]
+        ],
+        [
+          "Yes",
+          []
+        ],
+        [
+          "GNU GPL",
+          [
+            "/wiki/GNU_General_Public_License"
+          ]
+        ],
+        [
+          "Yes",
+          []
+        ]
+      ],
+      [
+        [
+          "MASM",
+          [
+            "/wiki/Microsoft_Macro_Assembler"
+          ]
+        ],
+        [
+          "Windows , DOS , OS/2",
+          [
+            "/wiki/Microsoft_Windows",
+            "/wiki/DOS",
+            "/wiki/OS/2"
+          ]
+        ],
+        [
+          "No",
+          []
+        ],
+        [
+          "Commercial",
+          [
+            "/wiki/Commercial_software"
+          ]
+        ],
+        [
+          "Yes",
+          []
+        ]
+      ],
+      [
+        [
+          "NASM",
+          [
+            "/wiki/Netwide_Assembler"
+          ]
+        ],
+        [
+          "Windows , Linux , macOS , DOS , OS/2",
+          [
+            "/wiki/Microsoft_Windows",
+            "/wiki/Linux",
+            "/wiki/MacOS",
+            "/wiki/DOS",
+            "/wiki/OS/2"
+          ]
+        ],
+        [
+          "Yes",
+          []
+        ],
+        [
+          "BSD",
+          [
+            "/wiki/BSD_licenses"
+          ]
+        ],
+        [
+          "Yes",
+          []
+        ]
+      ],
+      [
+        [
+          "Open Watcom Assembler",
+          [
+            "/wiki/Open_Watcom_Assembler"
+          ]
+        ],
+        [
+          "Windows , DOS , Linux , FreeBSD , OS/2",
+          [
+            "/wiki/Microsoft_Windows",
+            "/wiki/DOS",
+            "/wiki/Linux",
+            "/wiki/FreeBSD",
+            "/wiki/OS/2"
+          ]
+        ],
+        [
+          "Yes",
+          []
+        ],
+        [
+          "Sybase Open Watcom Public",
+          [
+            "/wiki/Sybase_Open_Watcom_Public_License"
+          ]
+        ],
+        [
+          "Yes",
+          []
+        ]
+      ],
+      [
+        [
+          "POASM",
+          []
+        ],
+        [
+          "Windows , Windows Mobile",
+          [
+            "/wiki/Microsoft_Windows",
+            "/wiki/Windows_Mobile"
+          ]
+        ],
+        [
+          "No",
+          []
+        ],
+        [
+          "Freeware",
+          [
+            "/wiki/Freeware"
+          ]
+        ],
+        [
+          "Yes",
+          []
+        ]
+      ],
+      [
+        [
+          "TCCASM",
+          [
+            "/wiki/Tiny_C_Compiler"
+          ]
+        ],
+        [
+          "Unix-like , Windows",
+          [
+            "/wiki/Unix-like",
+            "/wiki/Microsoft_Windows"
+          ]
+        ],
+        [
+          "Yes",
+          []
+        ],
+        [
+          "GNU LGPL",
+          [
+            "/wiki/GNU_Lesser_General_Public_License"
+          ]
+        ],
+        [
+          "Yes",
+          []
+        ]
+      ],
+      [
+        [
+          "Yasm",
+          []
+        ],
+        [
+          "Windows , DOS , Unix-like",
+          [
+            "/wiki/Microsoft_Windows",
+            "/wiki/DOS",
+            "/wiki/Unix-like"
+          ]
+        ],
+        [
+          "Yes",
+          []
+        ],
+        [
+          "BSD",
+          [
+            "/wiki/BSD_licenses"
+          ]
+        ],
+        [
+          "No",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides a comparison of different assemblers, focusing on their operating systems, open-source status, licensing, and whether they are actively developed. It is intended to help users understand the features and characteristics of various assembler tools in a technical context.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Operating system",
+    "Open source",
+    "License",
+    "Development active"
+  ],
+  "entities": [
+    "Assembler"
+  ]
+}

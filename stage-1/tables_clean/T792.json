@@ -1,0 +1,512 @@
+{
+  "table_id": "T792",
+  "uid": "55e41dcf-0ed0-5923-b9bc-74587f623323",
+  "source": "HybridQA",
+  "source_table_id": "55e41dcf-0ed0-5923-b9bc-74587f623323",
+  "domain": "HybridQA",
+  "title": "I-League",
+  "columns": [
+    "Name",
+    "Club",
+    "Appointed",
+    "Time in charge"
+  ],
+  "rows": [
+    [
+      [
+        "David Robertson",
+        [
+          "/wiki/David_Robertson_(footballer,_born_1968)"
+        ]
+      ],
+      [
+        "Real Kashmir",
+        [
+          "/wiki/Real_Kashmir_F.C."
+        ]
+      ],
+      [
+        "2 January 2017",
+        []
+      ],
+      [
+        "3 years , 36 days",
+        []
+      ]
+    ],
+    [
+      [
+        "Akbar Nawas",
+        [
+          "/wiki/Akbar_Nawas"
+        ]
+      ],
+      [
+        "Chennai City",
+        [
+          "/wiki/Chennai_City_F.C."
+        ]
+      ],
+      [
+        "19 March 2018",
+        []
+      ],
+      [
+        "1 year , 325 days",
+        []
+      ]
+    ],
+    [
+      [
+        "Stanley Rozario",
+        [
+          "/wiki/Stanley_Rozario"
+        ]
+      ],
+      [
+        "Aizawl",
+        [
+          "/wiki/Aizawl_F.C."
+        ]
+      ],
+      [
+        "9 January 2019",
+        []
+      ],
+      [
+        "1 year , 29 days",
+        []
+      ]
+    ],
+    [
+      [
+        "Kibu Vicuña",
+        [
+          "/wiki/Kibu_Vicuña"
+        ]
+      ],
+      [
+        "Mohun Bagan",
+        [
+          "/wiki/Mohun_Bagan_A.C."
+        ]
+      ],
+      [
+        "10 May 2019",
+        []
+      ],
+      [
+        "273 days",
+        []
+      ]
+    ],
+    [
+      [
+        "Fernando Valera",
+        []
+      ],
+      [
+        "Gokulam Kerala FC",
+        [
+          "/wiki/Gokulam_Kerala_F.C."
+        ]
+      ],
+      [
+        "1 June 2019",
+        []
+      ],
+      [
+        "251 days",
+        []
+      ]
+    ],
+    [
+      [
+        "Gift Raikhan",
+        [
+          "/wiki/Gift_Raikhan"
+        ]
+      ],
+      [
+        "NEROCA",
+        [
+          "/wiki/NEROCA_F.C."
+        ]
+      ],
+      [
+        "1 June 2019",
+        []
+      ],
+      [
+        "251 days",
+        []
+      ]
+    ],
+    [
+      [
+        "Chun Yan Law",
+        []
+      ],
+      [
+        "Punjab F.C",
+        [
+          "/wiki/Punjab_F.C."
+        ]
+      ],
+      [
+        "19 July 2019",
+        []
+      ],
+      [
+        "203 days",
+        []
+      ]
+    ],
+    [
+      [
+        "Bernardo Tavares",
+        [
+          "/wiki/Bernardo_Tavares"
+        ]
+      ],
+      [
+        "Churchill Brothers",
+        [
+          "/wiki/Churchill_Brothers_S.C."
+        ]
+      ],
+      [
+        "28 November 2019",
+        []
+      ],
+      [
+        "71 days",
+        []
+      ]
+    ],
+    [
+      [
+        "Shanmugam Venkatesh",
+        [
+          "/wiki/Shanmugam_Venkatesh"
+        ]
+      ],
+      [
+        "Indian Arrows",
+        [
+          "/wiki/Indian_Arrows"
+        ]
+      ],
+      [
+        "29 November 2019",
+        []
+      ],
+      [
+        "70 days",
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "TRAU",
+        [
+          "/wiki/TRAU_F.C."
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "0 days",
+        []
+      ]
+    ],
+    [
+      [
+        "Mario Rivera",
+        [
+          "/wiki/Mario_Rivera_(coach)"
+        ]
+      ],
+      [
+        "East Bengal FC",
+        [
+          "/wiki/East_Bengal_F.C."
+        ]
+      ],
+      [
+        "23 January 2020",
+        []
+      ],
+      [
+        "15 days",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "55e41dcf-0ed0-5923-b9bc-74587f623323",
+    "table_id": "I-League_3",
+    "title": "I-League",
+    "header": [
+      "Name",
+      "Club",
+      "Appointed",
+      "Time in charge"
+    ],
+    "value": [
+      [
+        [
+          "David Robertson",
+          [
+            "/wiki/David_Robertson_(footballer,_born_1968)"
+          ]
+        ],
+        [
+          "Real Kashmir",
+          [
+            "/wiki/Real_Kashmir_F.C."
+          ]
+        ],
+        [
+          "2 January 2017",
+          []
+        ],
+        [
+          "3 years , 36 days",
+          []
+        ]
+      ],
+      [
+        [
+          "Akbar Nawas",
+          [
+            "/wiki/Akbar_Nawas"
+          ]
+        ],
+        [
+          "Chennai City",
+          [
+            "/wiki/Chennai_City_F.C."
+          ]
+        ],
+        [
+          "19 March 2018",
+          []
+        ],
+        [
+          "1 year , 325 days",
+          []
+        ]
+      ],
+      [
+        [
+          "Stanley Rozario",
+          [
+            "/wiki/Stanley_Rozario"
+          ]
+        ],
+        [
+          "Aizawl",
+          [
+            "/wiki/Aizawl_F.C."
+          ]
+        ],
+        [
+          "9 January 2019",
+          []
+        ],
+        [
+          "1 year , 29 days",
+          []
+        ]
+      ],
+      [
+        [
+          "Kibu Vicuña",
+          [
+            "/wiki/Kibu_Vicuña"
+          ]
+        ],
+        [
+          "Mohun Bagan",
+          [
+            "/wiki/Mohun_Bagan_A.C."
+          ]
+        ],
+        [
+          "10 May 2019",
+          []
+        ],
+        [
+          "273 days",
+          []
+        ]
+      ],
+      [
+        [
+          "Fernando Valera",
+          []
+        ],
+        [
+          "Gokulam Kerala FC",
+          [
+            "/wiki/Gokulam_Kerala_F.C."
+          ]
+        ],
+        [
+          "1 June 2019",
+          []
+        ],
+        [
+          "251 days",
+          []
+        ]
+      ],
+      [
+        [
+          "Gift Raikhan",
+          [
+            "/wiki/Gift_Raikhan"
+          ]
+        ],
+        [
+          "NEROCA",
+          [
+            "/wiki/NEROCA_F.C."
+          ]
+        ],
+        [
+          "1 June 2019",
+          []
+        ],
+        [
+          "251 days",
+          []
+        ]
+      ],
+      [
+        [
+          "Chun Yan Law",
+          []
+        ],
+        [
+          "Punjab F.C",
+          [
+            "/wiki/Punjab_F.C."
+          ]
+        ],
+        [
+          "19 July 2019",
+          []
+        ],
+        [
+          "203 days",
+          []
+        ]
+      ],
+      [
+        [
+          "Bernardo Tavares",
+          [
+            "/wiki/Bernardo_Tavares"
+          ]
+        ],
+        [
+          "Churchill Brothers",
+          [
+            "/wiki/Churchill_Brothers_S.C."
+          ]
+        ],
+        [
+          "28 November 2019",
+          []
+        ],
+        [
+          "71 days",
+          []
+        ]
+      ],
+      [
+        [
+          "Shanmugam Venkatesh",
+          [
+            "/wiki/Shanmugam_Venkatesh"
+          ]
+        ],
+        [
+          "Indian Arrows",
+          [
+            "/wiki/Indian_Arrows"
+          ]
+        ],
+        [
+          "29 November 2019",
+          []
+        ],
+        [
+          "70 days",
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "TRAU",
+          [
+            "/wiki/TRAU_F.C."
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "0 days",
+          []
+        ]
+      ],
+      [
+        [
+          "Mario Rivera",
+          [
+            "/wiki/Mario_Rivera_(coach)"
+          ]
+        ],
+        [
+          "East Bengal FC",
+          [
+            "/wiki/East_Bengal_F.C."
+          ]
+        ],
+        [
+          "23 January 2020",
+          []
+        ],
+        [
+          "15 days",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about coaches in the I-League, including their names, associated clubs, appointment dates, and duration of their tenure. It is designed to summarize key details about coaching leadership within the league.",
+  "numeric_columns": [
+    "Time in charge"
+  ],
+  "categorical_columns": [
+    "Club",
+    "Appointed"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

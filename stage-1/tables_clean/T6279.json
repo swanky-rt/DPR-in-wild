@@ -1,0 +1,464 @@
+{
+  "table_id": "T6279",
+  "uid": "540f685f-f908-5c99-8c5a-f91de3b5ac2c",
+  "source": "HybridQA",
+  "source_table_id": "540f685f-f908-5c99-8c5a-f91de3b5ac2c",
+  "domain": "HybridQA",
+  "title": "List of Olympic venues in badminton",
+  "columns": [
+    "Games",
+    "Venue",
+    "Other sports hosted at venue for games",
+    "Capacity"
+  ],
+  "rows": [
+    [
+      [
+        "1988 Seoul",
+        [
+          "/wiki/1988_Summer_Olympics"
+        ]
+      ],
+      [
+        "Seoul National University Gymnasium ( demonstration )",
+        [
+          "/wiki/Seoul_National_University_Gymnasium"
+        ]
+      ],
+      [
+        "Table tennis",
+        [
+          "/wiki/Table_tennis_at_the_1988_Summer_Olympics"
+        ]
+      ],
+      [
+        "5,000",
+        []
+      ]
+    ],
+    [
+      [
+        "1992 Barcelona",
+        [
+          "/wiki/1992_Summer_Olympics"
+        ]
+      ],
+      [
+        "Pavelló de la Mar Bella",
+        [
+          "/wiki/Pavelló_de_la_Mar_Bella"
+        ]
+      ],
+      [
+        "None",
+        []
+      ],
+      [
+        "4,000",
+        []
+      ]
+    ],
+    [
+      [
+        "1996 Atlanta",
+        [
+          "/wiki/1996_Summer_Olympics"
+        ]
+      ],
+      [
+        "Georgia State University Gymnasium",
+        [
+          "/wiki/GSU_Sports_Arena"
+        ]
+      ],
+      [
+        "None",
+        []
+      ],
+      [
+        "3,500",
+        []
+      ]
+    ],
+    [
+      [
+        "2000 Sydney",
+        [
+          "/wiki/2000_Summer_Olympics"
+        ]
+      ],
+      [
+        "The Dome and Exhibition Complex",
+        [
+          "/wiki/The_Dome_(Sydney)"
+        ]
+      ],
+      [
+        "Basketball , Gymnastics ( rhythmic ) , Handball , Modern pentathlon ( fencing , shooting ) , Volleyball ( indoor )",
+        [
+          "/wiki/Basketball_at_the_2000_Summer_Olympics",
+          "/wiki/Gymnastics_at_the_2000_Summer_Olympics",
+          "/wiki/Handball_at_the_2000_Summer_Olympics",
+          "/wiki/Modern_pentathlon_at_the_2000_Summer_Olympics",
+          "/wiki/Volleyball_at_the_2000_Summer_Olympics"
+        ]
+      ],
+      [
+        "6,000",
+        []
+      ]
+    ],
+    [
+      [
+        "2004 Athens",
+        [
+          "/wiki/2004_Summer_Olympics"
+        ]
+      ],
+      [
+        "Goudi Olympic Hall",
+        [
+          "/wiki/Goudi_Olympic_Hall"
+        ]
+      ],
+      [
+        "None",
+        []
+      ],
+      [
+        "8,000",
+        []
+      ]
+    ],
+    [
+      [
+        "2008 Beijing",
+        [
+          "/wiki/2008_Summer_Olympics"
+        ]
+      ],
+      [
+        "Beijing University of Technology Gymnasium",
+        [
+          "/wiki/Beijing_University_of_Technology_Gymnasium"
+        ]
+      ],
+      [
+        "Gymnastics ( rhythmic )",
+        [
+          "/wiki/Gymnastics_at_the_2008_Summer_Olympics"
+        ]
+      ],
+      [
+        "7,500",
+        []
+      ]
+    ],
+    [
+      [
+        "2012 London",
+        [
+          "/wiki/2012_Summer_Olympics"
+        ]
+      ],
+      [
+        "Wembley Arena",
+        [
+          "/wiki/Wembley_Arena"
+        ]
+      ],
+      [
+        "Gymnastics ( rhythmic )",
+        [
+          "/wiki/Gymnastics_at_the_Summer_Olympics"
+        ]
+      ],
+      [
+        "6,000",
+        []
+      ]
+    ],
+    [
+      [
+        "2016 Rio de Janeiro",
+        [
+          "/wiki/2016_Summer_Olympics"
+        ]
+      ],
+      [
+        "Riocentro - Pavilion 4",
+        [
+          "/wiki/Riocentro"
+        ]
+      ],
+      [
+        "None",
+        []
+      ],
+      [
+        "6,500",
+        []
+      ]
+    ],
+    [
+      [
+        "2020 Tokyo",
+        [
+          "/wiki/2020_Summer_Olympics"
+        ]
+      ],
+      [
+        "Musashino Forest Sport Plaza",
+        [
+          "/wiki/Musashino_Forest_Sports_Plaza"
+        ]
+      ],
+      [
+        "Modern pentathlon ( fencing )",
+        [
+          "/wiki/Modern_pentathlon_at_the_Summer_Olympics"
+        ]
+      ],
+      [
+        "7,200",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "540f685f-f908-5c99-8c5a-f91de3b5ac2c",
+    "table_id": "List_of_Olympic_venues_in_badminton_0",
+    "title": "List of Olympic venues in badminton",
+    "header": [
+      "Games",
+      "Venue",
+      "Other sports hosted at venue for games",
+      "Capacity"
+    ],
+    "value": [
+      [
+        [
+          "1988 Seoul",
+          [
+            "/wiki/1988_Summer_Olympics"
+          ]
+        ],
+        [
+          "Seoul National University Gymnasium ( demonstration )",
+          [
+            "/wiki/Seoul_National_University_Gymnasium"
+          ]
+        ],
+        [
+          "Table tennis",
+          [
+            "/wiki/Table_tennis_at_the_1988_Summer_Olympics"
+          ]
+        ],
+        [
+          "5,000",
+          []
+        ]
+      ],
+      [
+        [
+          "1992 Barcelona",
+          [
+            "/wiki/1992_Summer_Olympics"
+          ]
+        ],
+        [
+          "Pavelló de la Mar Bella",
+          [
+            "/wiki/Pavelló_de_la_Mar_Bella"
+          ]
+        ],
+        [
+          "None",
+          []
+        ],
+        [
+          "4,000",
+          []
+        ]
+      ],
+      [
+        [
+          "1996 Atlanta",
+          [
+            "/wiki/1996_Summer_Olympics"
+          ]
+        ],
+        [
+          "Georgia State University Gymnasium",
+          [
+            "/wiki/GSU_Sports_Arena"
+          ]
+        ],
+        [
+          "None",
+          []
+        ],
+        [
+          "3,500",
+          []
+        ]
+      ],
+      [
+        [
+          "2000 Sydney",
+          [
+            "/wiki/2000_Summer_Olympics"
+          ]
+        ],
+        [
+          "The Dome and Exhibition Complex",
+          [
+            "/wiki/The_Dome_(Sydney)"
+          ]
+        ],
+        [
+          "Basketball , Gymnastics ( rhythmic ) , Handball , Modern pentathlon ( fencing , shooting ) , Volleyball ( indoor )",
+          [
+            "/wiki/Basketball_at_the_2000_Summer_Olympics",
+            "/wiki/Gymnastics_at_the_2000_Summer_Olympics",
+            "/wiki/Handball_at_the_2000_Summer_Olympics",
+            "/wiki/Modern_pentathlon_at_the_2000_Summer_Olympics",
+            "/wiki/Volleyball_at_the_2000_Summer_Olympics"
+          ]
+        ],
+        [
+          "6,000",
+          []
+        ]
+      ],
+      [
+        [
+          "2004 Athens",
+          [
+            "/wiki/2004_Summer_Olympics"
+          ]
+        ],
+        [
+          "Goudi Olympic Hall",
+          [
+            "/wiki/Goudi_Olympic_Hall"
+          ]
+        ],
+        [
+          "None",
+          []
+        ],
+        [
+          "8,000",
+          []
+        ]
+      ],
+      [
+        [
+          "2008 Beijing",
+          [
+            "/wiki/2008_Summer_Olympics"
+          ]
+        ],
+        [
+          "Beijing University of Technology Gymnasium",
+          [
+            "/wiki/Beijing_University_of_Technology_Gymnasium"
+          ]
+        ],
+        [
+          "Gymnastics ( rhythmic )",
+          [
+            "/wiki/Gymnastics_at_the_2008_Summer_Olympics"
+          ]
+        ],
+        [
+          "7,500",
+          []
+        ]
+      ],
+      [
+        [
+          "2012 London",
+          [
+            "/wiki/2012_Summer_Olympics"
+          ]
+        ],
+        [
+          "Wembley Arena",
+          [
+            "/wiki/Wembley_Arena"
+          ]
+        ],
+        [
+          "Gymnastics ( rhythmic )",
+          [
+            "/wiki/Gymnastics_at_the_Summer_Olympics"
+          ]
+        ],
+        [
+          "6,000",
+          []
+        ]
+      ],
+      [
+        [
+          "2016 Rio de Janeiro",
+          [
+            "/wiki/2016_Summer_Olympics"
+          ]
+        ],
+        [
+          "Riocentro - Pavilion 4",
+          [
+            "/wiki/Riocentro"
+          ]
+        ],
+        [
+          "None",
+          []
+        ],
+        [
+          "6,500",
+          []
+        ]
+      ],
+      [
+        [
+          "2020 Tokyo",
+          [
+            "/wiki/2020_Summer_Olympics"
+          ]
+        ],
+        [
+          "Musashino Forest Sport Plaza",
+          [
+            "/wiki/Musashino_Forest_Sports_Plaza"
+          ]
+        ],
+        [
+          "Modern pentathlon ( fencing )",
+          [
+            "/wiki/Modern_pentathlon_at_the_Summer_Olympics"
+          ]
+        ],
+        [
+          "7,200",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about venues used for badminton events during the Olympic Games. It includes details about the specific games, the venue names, other sports hosted at the venues during those games, and the seating capacity of each venue. The table serves as a reference for understanding the locations and facilities associated with Olympic badminton competitions.",
+  "numeric_columns": [
+    "Capacity"
+  ],
+  "categorical_columns": [
+    "Games",
+    "Other sports hosted at venue for games"
+  ],
+  "entities": [
+    "Venue"
+  ]
+}

@@ -1,0 +1,420 @@
+{
+  "table_id": "T8273",
+  "uid": "c3d761ff-1207-5d46-9858-13c530fa6c73",
+  "source": "HybridQA",
+  "source_table_id": "c3d761ff-1207-5d46-9858-13c530fa6c73",
+  "domain": "HybridQA",
+  "title": "1964 College Baseball All-America Team",
+  "columns": [
+    "Position",
+    "Name",
+    "School"
+  ],
+  "rows": [
+    [
+      [
+        "Pitcher",
+        [
+          "/wiki/Pitcher"
+        ]
+      ],
+      [
+        "Walt Peterson",
+        []
+      ],
+      [
+        "USC",
+        [
+          "/wiki/USC_Trojans_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Pitcher",
+        [
+          "/wiki/Pitcher"
+        ]
+      ],
+      [
+        "Keith Weber",
+        [
+          "/wiki/Keith_Weber"
+        ]
+      ],
+      [
+        "Missouri",
+        [
+          "/wiki/Missouri_Tigers_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Catcher",
+        [
+          "/wiki/Catcher"
+        ]
+      ],
+      [
+        "Ken Suarez",
+        [
+          "/wiki/Ken_Suarez"
+        ]
+      ],
+      [
+        "Florida State",
+        [
+          "/wiki/Florida_State_Seminoles_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "First baseman",
+        [
+          "/wiki/First_baseman"
+        ]
+      ],
+      [
+        "Randy Schwartz",
+        [
+          "/wiki/Randy_Schwartz"
+        ]
+      ],
+      [
+        "UCLA",
+        [
+          "/wiki/UCLA_Bruins_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Second baseman",
+        [
+          "/wiki/Second_baseman"
+        ]
+      ],
+      [
+        "Al Coutts",
+        []
+      ],
+      [
+        "Cal State Los Angeles",
+        [
+          "/wiki/California_State_University,_Los_Angeles"
+        ]
+      ]
+    ],
+    [
+      [
+        "Third baseman",
+        [
+          "/wiki/Third_baseman"
+        ]
+      ],
+      [
+        "Dave Harvey",
+        []
+      ],
+      [
+        "Missouri",
+        [
+          "/wiki/Missouri_Tigers_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Shortstop",
+        [
+          "/wiki/Shortstop"
+        ]
+      ],
+      [
+        "Don Kessinger",
+        [
+          "/wiki/Don_Kessinger"
+        ]
+      ],
+      [
+        "Mississippi",
+        [
+          "/wiki/Ole_Miss_Rebels_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Outfielder",
+        [
+          "/wiki/Outfielder"
+        ]
+      ],
+      [
+        "Fred Reichardt",
+        [
+          "/wiki/Fred_Reichardt"
+        ]
+      ],
+      [
+        "Wisconsin",
+        [
+          "/wiki/Wisconsin_Badgers"
+        ]
+      ]
+    ],
+    [
+      [
+        "Outfielder",
+        [
+          "/wiki/Outfielder"
+        ]
+      ],
+      [
+        "Bill Scripture ( 2 )",
+        [
+          "/wiki/Bill_Scripture"
+        ]
+      ],
+      [
+        "Wake Forest",
+        [
+          "/wiki/Wake_Forest_Demon_Deacons_baseball"
+        ]
+      ]
+    ],
+    [
+      [
+        "Outfielder",
+        [
+          "/wiki/Outfielder"
+        ]
+      ],
+      [
+        "Bill Marovic",
+        []
+      ],
+      [
+        "West Virginia",
+        [
+          "/wiki/West_Virginia_Mountaineers_baseball"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "c3d761ff-1207-5d46-9858-13c530fa6c73",
+    "table_id": "1964_College_Baseball_All-America_Team_0",
+    "title": "1964 College Baseball All-America Team",
+    "header": [
+      "Position",
+      "Name",
+      "School"
+    ],
+    "value": [
+      [
+        [
+          "Pitcher",
+          [
+            "/wiki/Pitcher"
+          ]
+        ],
+        [
+          "Walt Peterson",
+          []
+        ],
+        [
+          "USC",
+          [
+            "/wiki/USC_Trojans_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Pitcher",
+          [
+            "/wiki/Pitcher"
+          ]
+        ],
+        [
+          "Keith Weber",
+          [
+            "/wiki/Keith_Weber"
+          ]
+        ],
+        [
+          "Missouri",
+          [
+            "/wiki/Missouri_Tigers_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Catcher",
+          [
+            "/wiki/Catcher"
+          ]
+        ],
+        [
+          "Ken Suarez",
+          [
+            "/wiki/Ken_Suarez"
+          ]
+        ],
+        [
+          "Florida State",
+          [
+            "/wiki/Florida_State_Seminoles_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "First baseman",
+          [
+            "/wiki/First_baseman"
+          ]
+        ],
+        [
+          "Randy Schwartz",
+          [
+            "/wiki/Randy_Schwartz"
+          ]
+        ],
+        [
+          "UCLA",
+          [
+            "/wiki/UCLA_Bruins_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Second baseman",
+          [
+            "/wiki/Second_baseman"
+          ]
+        ],
+        [
+          "Al Coutts",
+          []
+        ],
+        [
+          "Cal State Los Angeles",
+          [
+            "/wiki/California_State_University,_Los_Angeles"
+          ]
+        ]
+      ],
+      [
+        [
+          "Third baseman",
+          [
+            "/wiki/Third_baseman"
+          ]
+        ],
+        [
+          "Dave Harvey",
+          []
+        ],
+        [
+          "Missouri",
+          [
+            "/wiki/Missouri_Tigers_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Shortstop",
+          [
+            "/wiki/Shortstop"
+          ]
+        ],
+        [
+          "Don Kessinger",
+          [
+            "/wiki/Don_Kessinger"
+          ]
+        ],
+        [
+          "Mississippi",
+          [
+            "/wiki/Ole_Miss_Rebels_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Outfielder",
+          [
+            "/wiki/Outfielder"
+          ]
+        ],
+        [
+          "Fred Reichardt",
+          [
+            "/wiki/Fred_Reichardt"
+          ]
+        ],
+        [
+          "Wisconsin",
+          [
+            "/wiki/Wisconsin_Badgers"
+          ]
+        ]
+      ],
+      [
+        [
+          "Outfielder",
+          [
+            "/wiki/Outfielder"
+          ]
+        ],
+        [
+          "Bill Scripture ( 2 )",
+          [
+            "/wiki/Bill_Scripture"
+          ]
+        ],
+        [
+          "Wake Forest",
+          [
+            "/wiki/Wake_Forest_Demon_Deacons_baseball"
+          ]
+        ]
+      ],
+      [
+        [
+          "Outfielder",
+          [
+            "/wiki/Outfielder"
+          ]
+        ],
+        [
+          "Bill Marovic",
+          []
+        ],
+        [
+          "West Virginia",
+          [
+            "/wiki/West_Virginia_Mountaineers_baseball"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table lists members of the 1964 College Baseball All-America Team, highlighting their positions, names, and associated schools. It serves as a record of notable college baseball players from that year, categorized by their roles on the team and their affiliations. The table is useful for historical reference and sports analysis.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Position",
+    "School"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

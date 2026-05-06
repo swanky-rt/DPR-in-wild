@@ -1,0 +1,305 @@
+{
+  "table_id": "T408",
+  "uid": "223aef39-0db5-5f11-a5be-01a252948aa6",
+  "source": "HybridQA",
+  "source_table_id": "223aef39-0db5-5f11-a5be-01a252948aa6",
+  "domain": "HybridQA",
+  "title": "Athletics at the 2007 Games of the Small States of Europe",
+  "columns": [
+    "Name",
+    "Nationality",
+    "Time"
+  ],
+  "rows": [
+    [
+      [
+        "Toni Bernadó",
+        [
+          "/wiki/Toni_Bernadó"
+        ]
+      ],
+      [
+        "Andorra",
+        [
+          "/wiki/Andorra"
+        ]
+      ],
+      [
+        "14:17.08",
+        []
+      ]
+    ],
+    [
+      [
+        "Kári Steinn Karlsson",
+        [
+          "/wiki/Kári_Steinn_Karlsson"
+        ]
+      ],
+      [
+        "Iceland",
+        [
+          "/wiki/Iceland"
+        ]
+      ],
+      [
+        "14:22.29",
+        []
+      ]
+    ],
+    [
+      [
+        "Marcos Sanza",
+        []
+      ],
+      [
+        "Andorra",
+        [
+          "/wiki/Andorra"
+        ]
+      ],
+      [
+        "14:32.71",
+        []
+      ]
+    ],
+    [
+      [
+        "Vincent Nothum",
+        []
+      ],
+      [
+        "Luxembourg",
+        [
+          "/wiki/Luxembourg"
+        ]
+      ],
+      [
+        "15:29.06",
+        []
+      ]
+    ],
+    [
+      [
+        "Marcel Tschopp",
+        [
+          "/wiki/Marcel_Tschopp"
+        ]
+      ],
+      [
+        "Liechtenstein",
+        [
+          "/wiki/Liechtenstein"
+        ]
+      ],
+      [
+        "15:41.58",
+        []
+      ]
+    ],
+    [
+      [
+        "Antoine Berlin",
+        []
+      ],
+      [
+        "Monaco",
+        [
+          "/wiki/Monaco"
+        ]
+      ],
+      [
+        "16:45.62",
+        []
+      ]
+    ],
+    [
+      [
+        "Jean-Marc Léandro",
+        []
+      ],
+      [
+        "Monaco",
+        [
+          "/wiki/Monaco"
+        ]
+      ],
+      [
+        "DNF",
+        []
+      ]
+    ],
+    [
+      [
+        "Panagiotis Kyprianou",
+        []
+      ],
+      [
+        "Cyprus",
+        [
+          "/wiki/Cyprus"
+        ]
+      ],
+      [
+        "DNF",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "223aef39-0db5-5f11-a5be-01a252948aa6",
+    "table_id": "Athletics_at_the_2007_Games_of_the_Small_States_of_Europe_7",
+    "title": "Athletics at the 2007 Games of the Small States of Europe",
+    "header": [
+      "Name",
+      "Nationality",
+      "Time"
+    ],
+    "value": [
+      [
+        [
+          "Toni Bernadó",
+          [
+            "/wiki/Toni_Bernadó"
+          ]
+        ],
+        [
+          "Andorra",
+          [
+            "/wiki/Andorra"
+          ]
+        ],
+        [
+          "14:17.08",
+          []
+        ]
+      ],
+      [
+        [
+          "Kári Steinn Karlsson",
+          [
+            "/wiki/Kári_Steinn_Karlsson"
+          ]
+        ],
+        [
+          "Iceland",
+          [
+            "/wiki/Iceland"
+          ]
+        ],
+        [
+          "14:22.29",
+          []
+        ]
+      ],
+      [
+        [
+          "Marcos Sanza",
+          []
+        ],
+        [
+          "Andorra",
+          [
+            "/wiki/Andorra"
+          ]
+        ],
+        [
+          "14:32.71",
+          []
+        ]
+      ],
+      [
+        [
+          "Vincent Nothum",
+          []
+        ],
+        [
+          "Luxembourg",
+          [
+            "/wiki/Luxembourg"
+          ]
+        ],
+        [
+          "15:29.06",
+          []
+        ]
+      ],
+      [
+        [
+          "Marcel Tschopp",
+          [
+            "/wiki/Marcel_Tschopp"
+          ]
+        ],
+        [
+          "Liechtenstein",
+          [
+            "/wiki/Liechtenstein"
+          ]
+        ],
+        [
+          "15:41.58",
+          []
+        ]
+      ],
+      [
+        [
+          "Antoine Berlin",
+          []
+        ],
+        [
+          "Monaco",
+          [
+            "/wiki/Monaco"
+          ]
+        ],
+        [
+          "16:45.62",
+          []
+        ]
+      ],
+      [
+        [
+          "Jean-Marc Léandro",
+          []
+        ],
+        [
+          "Monaco",
+          [
+            "/wiki/Monaco"
+          ]
+        ],
+        [
+          "DNF",
+          []
+        ]
+      ],
+      [
+        [
+          "Panagiotis Kyprianou",
+          []
+        ],
+        [
+          "Cyprus",
+          [
+            "/wiki/Cyprus"
+          ]
+        ],
+        [
+          "DNF",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about athletes who participated in the athletics events at the 2007 Games of the Small States of Europe. It includes details about their names, nationalities, and recorded times, likely for specific races or events. The purpose is to document performance results and participant details for this sporting competition.",
+  "numeric_columns": [
+    "Time"
+  ],
+  "categorical_columns": [
+    "Nationality"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

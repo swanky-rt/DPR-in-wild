@@ -1,0 +1,546 @@
+{
+  "table_id": "T3503",
+  "uid": "cd497db0-1bcd-525e-be6e-61a880801007",
+  "source": "HybridQA",
+  "source_table_id": "cd497db0-1bcd-525e-be6e-61a880801007",
+  "domain": "HybridQA",
+  "title": "Kings Island",
+  "columns": [
+    "Name",
+    "Opened",
+    "Manufacturer",
+    "Model",
+    "Description",
+    "Thrill rating"
+  ],
+  "rows": [
+    [
+      [
+        "Banshee",
+        [
+          "/wiki/Banshee_(roller_coaster)"
+        ]
+      ],
+      [
+        2014,
+        []
+      ],
+      [
+        "Bolliger & Mabillard",
+        [
+          "/wiki/Bolliger_&_Mabillard"
+        ]
+      ],
+      [
+        "Inverted Coaster",
+        []
+      ],
+      [
+        "An inverted roller coaster with seven inversions located in the former location of Thunder Alley and Son of Beast . It is the longest of its kind in the world",
+        [
+          "/wiki/Inverted_roller_coaster",
+          "/wiki/Son_of_Beast"
+        ]
+      ],
+      [
+        5,
+        []
+      ]
+    ],
+    [
+      [
+        "The Bat",
+        [
+          "/wiki/The_Bat_(Kings_Island;_opened_1993)"
+        ]
+      ],
+      [
+        1993,
+        []
+      ],
+      [
+        "Arrow Dynamics",
+        [
+          "/wiki/Arrow_Dynamics"
+        ]
+      ],
+      [
+        "Suspended",
+        []
+      ],
+      [
+        "A suspended roller coaster in which free-swinging cars are suspended below the track . Formerly known as Top Gun ( 1993-2007 ) ; Flight Deck ( 2008-2013 )",
+        [
+          "/wiki/Suspended_roller_coaster"
+        ]
+      ],
+      [
+        5,
+        []
+      ]
+    ],
+    [
+      [
+        "Congo Falls",
+        []
+      ],
+      [
+        1988,
+        []
+      ],
+      [
+        "Intamin",
+        [
+          "/wiki/Intamin"
+        ]
+      ],
+      [
+        "Shoot-the-Chute",
+        []
+      ],
+      [
+        "A Shoot-the-Chute water ride with a 34 ' drop . The ride opened as Amazon Falls ( 1988-1998 ) and was later renamed Congo Falls after the Paramount film Congo",
+        [
+          "/wiki/Shoot-the-Chute",
+          "/wiki/Congo_(film)"
+        ]
+      ],
+      [
+        4,
+        []
+      ]
+    ],
+    [
+      [
+        "Delirium",
+        [
+          "/wiki/Delirium_(ride)"
+        ]
+      ],
+      [
+        2003,
+        []
+      ],
+      [
+        "HUSS",
+        [
+          "/wiki/HUSS_Park_Attractions"
+        ]
+      ],
+      [
+        "Giant Frisbee",
+        []
+      ],
+      [
+        "A Giant Frisbee ride that swings riders at an angle of 120° creating a maximum arc of 240° , lifting riders 137 feet ( 42 m ) into the air . Riders reach speeds up to 76 miles per hour ( 122 km/h )",
+        [
+          "/wiki/Frisbee_(ride)"
+        ]
+      ],
+      [
+        5,
+        []
+      ]
+    ],
+    [
+      [
+        "Drop Tower",
+        [
+          "/wiki/Drop_Tower_(Cedar_Fair)"
+        ]
+      ],
+      [
+        1999,
+        []
+      ],
+      [
+        "Intamin",
+        [
+          "/wiki/Intamin"
+        ]
+      ],
+      [
+        "Gyro Drop",
+        []
+      ],
+      [
+        "A rotating drop tower ride which at 315 feet ( 96 m ) is the tallest of its kind in the world ( although sister park Kings Dominion has one with a longer drop that does not rotate ) . Formerly known as Drop Tower : Scream Zone and Drop Zone : Stunt Tower ( 1999-2007 )",
+        [
+          "/wiki/Drop_tower_(ride)"
+        ]
+      ],
+      [
+        4,
+        []
+      ]
+    ],
+    [
+      [
+        "Invertigo",
+        [
+          "/wiki/Invertigo_(roller_coaster)"
+        ]
+      ],
+      [
+        1999,
+        []
+      ],
+      [
+        "Vekoma",
+        [
+          "/wiki/Vekoma"
+        ]
+      ],
+      [
+        "Invertigo",
+        [
+          "/wiki/Invertigo_(roller_coaster)"
+        ]
+      ],
+      [
+        "An inverted Boomerang roller coaster . Formerly known as FACE/OFF ( 1999-2007 )",
+        [
+          "/wiki/Boomerang_(roller_coaster)"
+        ]
+      ],
+      [
+        5,
+        []
+      ]
+    ],
+    [
+      [
+        "Timberwolf Amphitheatre",
+        []
+      ],
+      [
+        1982,
+        []
+      ],
+      [
+        "N/A",
+        []
+      ],
+      [
+        "N/A",
+        []
+      ],
+      [
+        "Concert venue built to replace Stadium of the Stars",
+        []
+      ],
+      [
+        "",
+        []
+      ]
+    ],
+    [
+      [
+        "Xtreme Skyflyer",
+        [
+          "/wiki/Xtreme_Skyflyer"
+        ]
+      ],
+      [
+        1995,
+        []
+      ],
+      [
+        "Sky Fun 1 Inc",
+        []
+      ],
+      [
+        "Dual Swing",
+        []
+      ],
+      [
+        "Pay-per-ride Double Skycoaster with a dive of 153 feet ( 47 m )",
+        [
+          "/wiki/Skycoaster"
+        ]
+      ],
+      [
+        5,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "cd497db0-1bcd-525e-be6e-61a880801007",
+    "table_id": "Kings_Island_0",
+    "title": "Kings Island",
+    "header": [
+      "Name",
+      "Opened",
+      "Manufacturer",
+      "Model",
+      "Description",
+      "Thrill rating"
+    ],
+    "value": [
+      [
+        [
+          "Banshee",
+          [
+            "/wiki/Banshee_(roller_coaster)"
+          ]
+        ],
+        [
+          2014,
+          []
+        ],
+        [
+          "Bolliger & Mabillard",
+          [
+            "/wiki/Bolliger_&_Mabillard"
+          ]
+        ],
+        [
+          "Inverted Coaster",
+          []
+        ],
+        [
+          "An inverted roller coaster with seven inversions located in the former location of Thunder Alley and Son of Beast . It is the longest of its kind in the world",
+          [
+            "/wiki/Inverted_roller_coaster",
+            "/wiki/Son_of_Beast"
+          ]
+        ],
+        [
+          5,
+          []
+        ]
+      ],
+      [
+        [
+          "The Bat",
+          [
+            "/wiki/The_Bat_(Kings_Island;_opened_1993)"
+          ]
+        ],
+        [
+          1993,
+          []
+        ],
+        [
+          "Arrow Dynamics",
+          [
+            "/wiki/Arrow_Dynamics"
+          ]
+        ],
+        [
+          "Suspended",
+          []
+        ],
+        [
+          "A suspended roller coaster in which free-swinging cars are suspended below the track . Formerly known as Top Gun ( 1993-2007 ) ; Flight Deck ( 2008-2013 )",
+          [
+            "/wiki/Suspended_roller_coaster"
+          ]
+        ],
+        [
+          5,
+          []
+        ]
+      ],
+      [
+        [
+          "Congo Falls",
+          []
+        ],
+        [
+          1988,
+          []
+        ],
+        [
+          "Intamin",
+          [
+            "/wiki/Intamin"
+          ]
+        ],
+        [
+          "Shoot-the-Chute",
+          []
+        ],
+        [
+          "A Shoot-the-Chute water ride with a 34 ' drop . The ride opened as Amazon Falls ( 1988-1998 ) and was later renamed Congo Falls after the Paramount film Congo",
+          [
+            "/wiki/Shoot-the-Chute",
+            "/wiki/Congo_(film)"
+          ]
+        ],
+        [
+          4,
+          []
+        ]
+      ],
+      [
+        [
+          "Delirium",
+          [
+            "/wiki/Delirium_(ride)"
+          ]
+        ],
+        [
+          2003,
+          []
+        ],
+        [
+          "HUSS",
+          [
+            "/wiki/HUSS_Park_Attractions"
+          ]
+        ],
+        [
+          "Giant Frisbee",
+          []
+        ],
+        [
+          "A Giant Frisbee ride that swings riders at an angle of 120° creating a maximum arc of 240° , lifting riders 137 feet ( 42 m ) into the air . Riders reach speeds up to 76 miles per hour ( 122 km/h )",
+          [
+            "/wiki/Frisbee_(ride)"
+          ]
+        ],
+        [
+          5,
+          []
+        ]
+      ],
+      [
+        [
+          "Drop Tower",
+          [
+            "/wiki/Drop_Tower_(Cedar_Fair)"
+          ]
+        ],
+        [
+          1999,
+          []
+        ],
+        [
+          "Intamin",
+          [
+            "/wiki/Intamin"
+          ]
+        ],
+        [
+          "Gyro Drop",
+          []
+        ],
+        [
+          "A rotating drop tower ride which at 315 feet ( 96 m ) is the tallest of its kind in the world ( although sister park Kings Dominion has one with a longer drop that does not rotate ) . Formerly known as Drop Tower : Scream Zone and Drop Zone : Stunt Tower ( 1999-2007 )",
+          [
+            "/wiki/Drop_tower_(ride)"
+          ]
+        ],
+        [
+          4,
+          []
+        ]
+      ],
+      [
+        [
+          "Invertigo",
+          [
+            "/wiki/Invertigo_(roller_coaster)"
+          ]
+        ],
+        [
+          1999,
+          []
+        ],
+        [
+          "Vekoma",
+          [
+            "/wiki/Vekoma"
+          ]
+        ],
+        [
+          "Invertigo",
+          [
+            "/wiki/Invertigo_(roller_coaster)"
+          ]
+        ],
+        [
+          "An inverted Boomerang roller coaster . Formerly known as FACE/OFF ( 1999-2007 )",
+          [
+            "/wiki/Boomerang_(roller_coaster)"
+          ]
+        ],
+        [
+          5,
+          []
+        ]
+      ],
+      [
+        [
+          "Timberwolf Amphitheatre",
+          []
+        ],
+        [
+          1982,
+          []
+        ],
+        [
+          "N/A",
+          []
+        ],
+        [
+          "N/A",
+          []
+        ],
+        [
+          "Concert venue built to replace Stadium of the Stars",
+          []
+        ],
+        [
+          "",
+          []
+        ]
+      ],
+      [
+        [
+          "Xtreme Skyflyer",
+          [
+            "/wiki/Xtreme_Skyflyer"
+          ]
+        ],
+        [
+          1995,
+          []
+        ],
+        [
+          "Sky Fun 1 Inc",
+          []
+        ],
+        [
+          "Dual Swing",
+          []
+        ],
+        [
+          "Pay-per-ride Double Skycoaster with a dive of 153 feet ( 47 m )",
+          [
+            "/wiki/Skycoaster"
+          ]
+        ],
+        [
+          5,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about roller coasters at Kings Island, including their names, opening years, manufacturers, models, descriptions, and thrill ratings. It is designed to catalog key details about each ride for reference or analysis.",
+  "numeric_columns": [
+    "Opened",
+    "Thrill rating"
+  ],
+  "categorical_columns": [
+    "Manufacturer",
+    "Model",
+    "Description"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

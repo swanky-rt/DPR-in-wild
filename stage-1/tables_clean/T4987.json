@@ -1,0 +1,416 @@
+{
+  "table_id": "T4987",
+  "uid": "021f3598-e196-5d85-aef8-9f2d867f77ff",
+  "source": "HybridQA",
+  "source_table_id": "021f3598-e196-5d85-aef8-9f2d867f77ff",
+  "domain": "HybridQA",
+  "title": "Dover transmitting station",
+  "columns": [
+    "Frequency",
+    "UHF",
+    "kW",
+    "Operator"
+  ],
+  "rows": [
+    [
+      [
+        "618.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        39,
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "Arqiva ( Mux C ) †",
+        [
+          "/wiki/Arqiva"
+        ]
+      ]
+    ],
+    [
+      [
+        "642.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        42,
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "Digital 3 & 4 ( Mux 2 ) †",
+        [
+          "/wiki/Digital_3&4"
+        ]
+      ]
+    ],
+    [
+      [
+        "666.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        45,
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "BBC ( Mux 1 ) †",
+        [
+          "/wiki/BBC"
+        ]
+      ]
+    ],
+    [
+      [
+        "746.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        55,
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "Arqiva ( Mux D )",
+        []
+      ]
+    ],
+    [
+      [
+        "770.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        58,
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "BBC ( Mux B )",
+        []
+      ]
+    ],
+    [
+      [
+        "786.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        60,
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "SDN ( Mux A )",
+        [
+          "/wiki/S4C_Digital_Networks"
+        ]
+      ]
+    ],
+    [
+      [
+        "794.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        61,
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "Digital 3 & 4 ( Mux 2 )",
+        []
+      ]
+    ],
+    [
+      [
+        "802.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        62,
+        []
+      ],
+      [
+        2,
+        []
+      ],
+      [
+        "Arqiva ( Mux C )",
+        []
+      ]
+    ],
+    [
+      [
+        "850.000 MHz",
+        [
+          "/wiki/Hertz"
+        ]
+      ],
+      [
+        68,
+        []
+      ],
+      [
+        1,
+        []
+      ],
+      [
+        "BBC ( Mux 1 )",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "021f3598-e196-5d85-aef8-9f2d867f77ff",
+    "table_id": "Dover_transmitting_station_3",
+    "title": "Dover transmitting station",
+    "header": [
+      "Frequency",
+      "UHF",
+      "kW",
+      "Operator"
+    ],
+    "value": [
+      [
+        [
+          "618.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          39,
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "Arqiva ( Mux C ) †",
+          [
+            "/wiki/Arqiva"
+          ]
+        ]
+      ],
+      [
+        [
+          "642.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          42,
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "Digital 3 & 4 ( Mux 2 ) †",
+          [
+            "/wiki/Digital_3&4"
+          ]
+        ]
+      ],
+      [
+        [
+          "666.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          45,
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "BBC ( Mux 1 ) †",
+          [
+            "/wiki/BBC"
+          ]
+        ]
+      ],
+      [
+        [
+          "746.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          55,
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "Arqiva ( Mux D )",
+          []
+        ]
+      ],
+      [
+        [
+          "770.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          58,
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "BBC ( Mux B )",
+          []
+        ]
+      ],
+      [
+        [
+          "786.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          60,
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "SDN ( Mux A )",
+          [
+            "/wiki/S4C_Digital_Networks"
+          ]
+        ]
+      ],
+      [
+        [
+          "794.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          61,
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "Digital 3 & 4 ( Mux 2 )",
+          []
+        ]
+      ],
+      [
+        [
+          "802.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          62,
+          []
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          "Arqiva ( Mux C )",
+          []
+        ]
+      ],
+      [
+        [
+          "850.000 MHz",
+          [
+            "/wiki/Hertz"
+          ]
+        ],
+        [
+          68,
+          []
+        ],
+        [
+          1,
+          []
+        ],
+        [
+          "BBC ( Mux 1 )",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides information about the Dover transmitting station, detailing specific frequencies, transmission power, and operators for various UHF channels. It appears to serve as a reference for technical and operational details related to broadcasting at this station.",
+  "numeric_columns": [
+    "UHF",
+    "kW"
+  ],
+  "categorical_columns": [
+    "Frequency"
+  ],
+  "entities": [
+    "Operator"
+  ]
+}

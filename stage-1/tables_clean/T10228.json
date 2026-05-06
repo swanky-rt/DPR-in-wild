@@ -1,0 +1,293 @@
+{
+  "table_id": "T10228",
+  "uid": "d8778021-32af-5dd7-8590-00a580af1f23",
+  "source": "HybridQA",
+  "source_table_id": "d8778021-32af-5dd7-8590-00a580af1f23",
+  "domain": "HybridQA",
+  "title": "1995 World Artistic Gymnastics Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Total"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Yuri Chechi ( ITA )",
+        [
+          "/wiki/Yuri_Chechi"
+        ]
+      ],
+      [
+        9.85,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Dan Burinca ( ROU )",
+        [
+          "/wiki/Dan_Burinca"
+        ]
+      ],
+      [
+        9.762,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Yordan Yovtchev ( BUL )",
+        [
+          "/wiki/Yordan_Yovtchev"
+        ]
+      ],
+      [
+        9.75,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Marius Toba ( GER )",
+        [
+          "/wiki/Marius_Toba"
+        ]
+      ],
+      [
+        9.7,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Andreas Wecker ( GER )",
+        [
+          "/wiki/Andreas_Wecker"
+        ]
+      ],
+      [
+        9.687,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Li Xiaoshuang ( CHN )",
+        [
+          "/wiki/Li_Xiaoshuang"
+        ]
+      ],
+      [
+        9.65,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Hikaru Tanaka ( JPN )",
+        [
+          "/wiki/Hikaru_Tanaka"
+        ]
+      ],
+      [
+        9.562,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "John Roethlisberger ( USA )",
+        [
+          "/wiki/John_Roethlisberger"
+        ]
+      ],
+      [
+        9.55,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "d8778021-32af-5dd7-8590-00a580af1f23",
+    "table_id": "1995_World_Artistic_Gymnastics_Championships_3",
+    "title": "1995 World Artistic Gymnastics Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Total"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Yuri Chechi ( ITA )",
+          [
+            "/wiki/Yuri_Chechi"
+          ]
+        ],
+        [
+          9.85,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Dan Burinca ( ROU )",
+          [
+            "/wiki/Dan_Burinca"
+          ]
+        ],
+        [
+          9.762,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Yordan Yovtchev ( BUL )",
+          [
+            "/wiki/Yordan_Yovtchev"
+          ]
+        ],
+        [
+          9.75,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Marius Toba ( GER )",
+          [
+            "/wiki/Marius_Toba"
+          ]
+        ],
+        [
+          9.7,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Andreas Wecker ( GER )",
+          [
+            "/wiki/Andreas_Wecker"
+          ]
+        ],
+        [
+          9.687,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Li Xiaoshuang ( CHN )",
+          [
+            "/wiki/Li_Xiaoshuang"
+          ]
+        ],
+        [
+          9.65,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Hikaru Tanaka ( JPN )",
+          [
+            "/wiki/Hikaru_Tanaka"
+          ]
+        ],
+        [
+          9.562,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "John Roethlisberger ( USA )",
+          [
+            "/wiki/John_Roethlisberger"
+          ]
+        ],
+        [
+          9.55,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the rankings and scores of gymnasts at the 1995 World Artistic Gymnastics Championships. It includes details about the rank, names of the gymnasts, and their total scores. The table is likely used to summarize performance outcomes in the competition.",
+  "numeric_columns": [
+    "Total"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast"
+  ]
+}

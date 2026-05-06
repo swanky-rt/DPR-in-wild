@@ -1,0 +1,472 @@
+{
+  "table_id": "T1642",
+  "uid": "27b0c548-bfe6-54c2-978a-d8a35aa36c87",
+  "source": "HybridQA",
+  "source_table_id": "27b0c548-bfe6-54c2-978a-d8a35aa36c87",
+  "domain": "HybridQA",
+  "title": "1990 in film",
+  "columns": [
+    "Rank",
+    "Title",
+    "Studio",
+    "Worldwide gross"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Ghost",
+        [
+          "/wiki/Ghost_(1990_film)"
+        ]
+      ],
+      [
+        "Paramount",
+        [
+          "/wiki/Paramount_Pictures"
+        ]
+      ],
+      [
+        "$ 505,702,588",
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Home Alone",
+        [
+          "/wiki/Home_Alone"
+        ]
+      ],
+      [
+        "20th Century Fox",
+        [
+          "/wiki/20th_Century_Fox"
+        ]
+      ],
+      [
+        "$ 476,684,675",
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Pretty Woman",
+        [
+          "/wiki/Pretty_Woman"
+        ]
+      ],
+      [
+        "Touchstone Pictures",
+        [
+          "/wiki/Touchstone_Pictures"
+        ]
+      ],
+      [
+        "$ 463,406,268",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Dances with Wolves",
+        [
+          "/wiki/Dances_with_Wolves"
+        ]
+      ],
+      [
+        "Orion Pictures",
+        [
+          "/wiki/Orion_Pictures"
+        ]
+      ],
+      [
+        "$ 424,208,848",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Total Recall",
+        [
+          "/wiki/Total_Recall_(1990_film)"
+        ]
+      ],
+      [
+        "TriStar",
+        [
+          "/wiki/TriStar_Pictures"
+        ]
+      ],
+      [
+        "$ 261,317,921",
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Back to the Future Part III",
+        [
+          "/wiki/Back_to_the_Future_Part_III"
+        ]
+      ],
+      [
+        "Universal",
+        [
+          "/wiki/Universal_Pictures"
+        ]
+      ],
+      [
+        "$ 244,527,583",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Die Hard 2",
+        [
+          "/wiki/Die_Hard_2"
+        ]
+      ],
+      [
+        "20th Century Fox",
+        []
+      ],
+      [
+        "$ 240,031,094",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Presumed Innocent",
+        [
+          "/wiki/Presumed_Innocent_(film)"
+        ]
+      ],
+      [
+        "Warner Bros",
+        [
+          "/wiki/Warner_Bros."
+        ]
+      ],
+      [
+        "$ 221,303,188",
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Teenage Mutant Ninja Turtles",
+        [
+          "/wiki/Teenage_Mutant_Ninja_Turtles_(1990_film)"
+        ]
+      ],
+      [
+        "New Line Cinema",
+        [
+          "/wiki/New_Line_Cinema"
+        ]
+      ],
+      [
+        "$ 201,965,915",
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Kindergarten Cop",
+        [
+          "/wiki/Kindergarten_Cop"
+        ]
+      ],
+      [
+        "Universal",
+        []
+      ],
+      [
+        "$ 201,957,688",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "27b0c548-bfe6-54c2-978a-d8a35aa36c87",
+    "table_id": "1990_in_film_0",
+    "title": "1990 in film",
+    "header": [
+      "Rank",
+      "Title",
+      "Studio",
+      "Worldwide gross"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Ghost",
+          [
+            "/wiki/Ghost_(1990_film)"
+          ]
+        ],
+        [
+          "Paramount",
+          [
+            "/wiki/Paramount_Pictures"
+          ]
+        ],
+        [
+          "$ 505,702,588",
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Home Alone",
+          [
+            "/wiki/Home_Alone"
+          ]
+        ],
+        [
+          "20th Century Fox",
+          [
+            "/wiki/20th_Century_Fox"
+          ]
+        ],
+        [
+          "$ 476,684,675",
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Pretty Woman",
+          [
+            "/wiki/Pretty_Woman"
+          ]
+        ],
+        [
+          "Touchstone Pictures",
+          [
+            "/wiki/Touchstone_Pictures"
+          ]
+        ],
+        [
+          "$ 463,406,268",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Dances with Wolves",
+          [
+            "/wiki/Dances_with_Wolves"
+          ]
+        ],
+        [
+          "Orion Pictures",
+          [
+            "/wiki/Orion_Pictures"
+          ]
+        ],
+        [
+          "$ 424,208,848",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Total Recall",
+          [
+            "/wiki/Total_Recall_(1990_film)"
+          ]
+        ],
+        [
+          "TriStar",
+          [
+            "/wiki/TriStar_Pictures"
+          ]
+        ],
+        [
+          "$ 261,317,921",
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Back to the Future Part III",
+          [
+            "/wiki/Back_to_the_Future_Part_III"
+          ]
+        ],
+        [
+          "Universal",
+          [
+            "/wiki/Universal_Pictures"
+          ]
+        ],
+        [
+          "$ 244,527,583",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Die Hard 2",
+          [
+            "/wiki/Die_Hard_2"
+          ]
+        ],
+        [
+          "20th Century Fox",
+          []
+        ],
+        [
+          "$ 240,031,094",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Presumed Innocent",
+          [
+            "/wiki/Presumed_Innocent_(film)"
+          ]
+        ],
+        [
+          "Warner Bros",
+          [
+            "/wiki/Warner_Bros."
+          ]
+        ],
+        [
+          "$ 221,303,188",
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Teenage Mutant Ninja Turtles",
+          [
+            "/wiki/Teenage_Mutant_Ninja_Turtles_(1990_film)"
+          ]
+        ],
+        [
+          "New Line Cinema",
+          [
+            "/wiki/New_Line_Cinema"
+          ]
+        ],
+        [
+          "$ 201,965,915",
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Kindergarten Cop",
+          [
+            "/wiki/Kindergarten_Cop"
+          ]
+        ],
+        [
+          "Universal",
+          []
+        ],
+        [
+          "$ 201,957,688",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the top-ranking films of 1990, including their rank, titles, production studios, and worldwide gross earnings. It is designed to summarize the commercial success of movies released in that year. The data highlights key metrics and entities related to the film industry during 1990.",
+  "numeric_columns": [
+    "Rank"
+  ],
+  "categorical_columns": [
+    "Studio"
+  ],
+  "entities": [
+    "Title",
+    "Worldwide gross"
+  ]
+}

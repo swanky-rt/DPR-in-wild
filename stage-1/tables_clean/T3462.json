@@ -1,0 +1,494 @@
+{
+  "table_id": "T3462",
+  "uid": "65a65b6d-0eb5-526d-b655-29787c91d1f9",
+  "source": "HybridQA",
+  "source_table_id": "65a65b6d-0eb5-526d-b655-29787c91d1f9",
+  "domain": "HybridQA",
+  "title": "Amusement Today",
+  "columns": [
+    "Category",
+    "1999 Recipient",
+    "Location"
+  ],
+  "rows": [
+    [
+      [
+        "Best Amusement/Theme Park",
+        []
+      ],
+      [
+        "Cedar Point",
+        [
+          "/wiki/Cedar_Point"
+        ]
+      ],
+      [
+        "Sandusky , Ohio",
+        []
+      ]
+    ],
+    [
+      [
+        "Best Waterpark",
+        []
+      ],
+      [
+        "Schlitterbahn",
+        [
+          "/wiki/Schlitterbahn"
+        ]
+      ],
+      [
+        "New Baunfels , Texas",
+        []
+      ]
+    ],
+    [
+      [
+        "Best Wooden Coaster",
+        []
+      ],
+      [
+        "Texas Giant , Six Flags Over Texas",
+        [
+          "/wiki/New_Texas_Giant",
+          "/wiki/Six_Flags_Over_Texas"
+        ]
+      ],
+      [
+        "Arlington , Texas",
+        []
+      ]
+    ],
+    [
+      [
+        "Best Steel Coaster",
+        []
+      ],
+      [
+        "Magnum XL-200 , Cedar Point",
+        [
+          "/wiki/Magnum_XL-200",
+          "/wiki/Cedar_Point"
+        ]
+      ],
+      [
+        "Sandusky , Ohio",
+        []
+      ]
+    ],
+    [
+      [
+        "Friendliest Park",
+        []
+      ],
+      [
+        "Holiday World & Splashin ' Safari",
+        [
+          "/wiki/Holiday_World_&_Splashin'_Safari"
+        ]
+      ],
+      [
+        "Santa Claus , Ind",
+        []
+      ]
+    ],
+    [
+      [
+        "Cleanest Park",
+        []
+      ],
+      [
+        "Busch Gardens Williamsburg",
+        [
+          "/wiki/Busch_Gardens_Williamsburg"
+        ]
+      ],
+      [
+        "Williamsburg , Virginia",
+        []
+      ]
+    ],
+    [
+      [
+        "Best Landscaping",
+        []
+      ],
+      [
+        "Busch Gardens Williamsburg",
+        [
+          "/wiki/Busch_Gardens_Williamsburg"
+        ]
+      ],
+      [
+        "Williamsburg , Virginia",
+        []
+      ]
+    ],
+    [
+      [
+        "Best Food",
+        []
+      ],
+      [
+        "Busch Gardens Williamsburg",
+        [
+          "/wiki/Busch_Gardens_Williamsburg"
+        ]
+      ],
+      [
+        "Williamsburg , Virginia",
+        []
+      ]
+    ],
+    [
+      [
+        "Best Shows",
+        []
+      ],
+      [
+        "Six Flags Fiesta Texas",
+        [
+          "/wiki/Six_Flags_Fiesta_Texas"
+        ]
+      ],
+      [
+        "San Antonio , Texas",
+        []
+      ]
+    ],
+    [
+      [
+        "Best Ride Theming ( ride , attraction or queue )",
+        []
+      ],
+      [
+        "Dueling Dragons , Universal 's Islands of Adventure",
+        [
+          "/wiki/Dragon_Challenge",
+          "/wiki/Islands_of_Adventure"
+        ]
+      ],
+      [
+        "Orlando , Florida",
+        []
+      ]
+    ],
+    [
+      [
+        "Best Waterpark Ride",
+        []
+      ],
+      [
+        "Master Blaster , Schlitterbahn",
+        [
+          "/wiki/Master_Blaster_(Schlitterbahn)",
+          "/wiki/Schlitterbahn"
+        ]
+      ],
+      [
+        "New Branfels , Texas",
+        []
+      ]
+    ],
+    [
+      [
+        "Best Park Capacity",
+        []
+      ],
+      [
+        "Cedar Point",
+        [
+          "/wiki/Cedar_Point"
+        ]
+      ],
+      [
+        "Sandusky , Ohio",
+        []
+      ]
+    ],
+    [
+      [
+        "Best Indoor Attraction ( noncoaster )",
+        []
+      ],
+      [
+        "The Amazing Adventures of Spider-Man , Universal 's Islands of Adventure",
+        [
+          "/wiki/The_Amazing_Adventures_of_Spider-Man",
+          "/wiki/Islands_of_Adventure"
+        ]
+      ],
+      [
+        "Orlando , Florida",
+        []
+      ]
+    ],
+    [
+      [
+        "Best Non-coaster Ride",
+        []
+      ],
+      [
+        "Giant Drops",
+        [
+          "/wiki/List_of_Intamin_rides"
+        ]
+      ],
+      [
+        "Multiple locations",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "65a65b6d-0eb5-526d-b655-29787c91d1f9",
+    "table_id": "Amusement_Today_20",
+    "title": "Amusement Today",
+    "header": [
+      "Category",
+      "1999 Recipient",
+      "Location"
+    ],
+    "value": [
+      [
+        [
+          "Best Amusement/Theme Park",
+          []
+        ],
+        [
+          "Cedar Point",
+          [
+            "/wiki/Cedar_Point"
+          ]
+        ],
+        [
+          "Sandusky , Ohio",
+          []
+        ]
+      ],
+      [
+        [
+          "Best Waterpark",
+          []
+        ],
+        [
+          "Schlitterbahn",
+          [
+            "/wiki/Schlitterbahn"
+          ]
+        ],
+        [
+          "New Baunfels , Texas",
+          []
+        ]
+      ],
+      [
+        [
+          "Best Wooden Coaster",
+          []
+        ],
+        [
+          "Texas Giant , Six Flags Over Texas",
+          [
+            "/wiki/New_Texas_Giant",
+            "/wiki/Six_Flags_Over_Texas"
+          ]
+        ],
+        [
+          "Arlington , Texas",
+          []
+        ]
+      ],
+      [
+        [
+          "Best Steel Coaster",
+          []
+        ],
+        [
+          "Magnum XL-200 , Cedar Point",
+          [
+            "/wiki/Magnum_XL-200",
+            "/wiki/Cedar_Point"
+          ]
+        ],
+        [
+          "Sandusky , Ohio",
+          []
+        ]
+      ],
+      [
+        [
+          "Friendliest Park",
+          []
+        ],
+        [
+          "Holiday World & Splashin ' Safari",
+          [
+            "/wiki/Holiday_World_&_Splashin'_Safari"
+          ]
+        ],
+        [
+          "Santa Claus , Ind",
+          []
+        ]
+      ],
+      [
+        [
+          "Cleanest Park",
+          []
+        ],
+        [
+          "Busch Gardens Williamsburg",
+          [
+            "/wiki/Busch_Gardens_Williamsburg"
+          ]
+        ],
+        [
+          "Williamsburg , Virginia",
+          []
+        ]
+      ],
+      [
+        [
+          "Best Landscaping",
+          []
+        ],
+        [
+          "Busch Gardens Williamsburg",
+          [
+            "/wiki/Busch_Gardens_Williamsburg"
+          ]
+        ],
+        [
+          "Williamsburg , Virginia",
+          []
+        ]
+      ],
+      [
+        [
+          "Best Food",
+          []
+        ],
+        [
+          "Busch Gardens Williamsburg",
+          [
+            "/wiki/Busch_Gardens_Williamsburg"
+          ]
+        ],
+        [
+          "Williamsburg , Virginia",
+          []
+        ]
+      ],
+      [
+        [
+          "Best Shows",
+          []
+        ],
+        [
+          "Six Flags Fiesta Texas",
+          [
+            "/wiki/Six_Flags_Fiesta_Texas"
+          ]
+        ],
+        [
+          "San Antonio , Texas",
+          []
+        ]
+      ],
+      [
+        [
+          "Best Ride Theming ( ride , attraction or queue )",
+          []
+        ],
+        [
+          "Dueling Dragons , Universal 's Islands of Adventure",
+          [
+            "/wiki/Dragon_Challenge",
+            "/wiki/Islands_of_Adventure"
+          ]
+        ],
+        [
+          "Orlando , Florida",
+          []
+        ]
+      ],
+      [
+        [
+          "Best Waterpark Ride",
+          []
+        ],
+        [
+          "Master Blaster , Schlitterbahn",
+          [
+            "/wiki/Master_Blaster_(Schlitterbahn)",
+            "/wiki/Schlitterbahn"
+          ]
+        ],
+        [
+          "New Branfels , Texas",
+          []
+        ]
+      ],
+      [
+        [
+          "Best Park Capacity",
+          []
+        ],
+        [
+          "Cedar Point",
+          [
+            "/wiki/Cedar_Point"
+          ]
+        ],
+        [
+          "Sandusky , Ohio",
+          []
+        ]
+      ],
+      [
+        [
+          "Best Indoor Attraction ( noncoaster )",
+          []
+        ],
+        [
+          "The Amazing Adventures of Spider-Man , Universal 's Islands of Adventure",
+          [
+            "/wiki/The_Amazing_Adventures_of_Spider-Man",
+            "/wiki/Islands_of_Adventure"
+          ]
+        ],
+        [
+          "Orlando , Florida",
+          []
+        ]
+      ],
+      [
+        [
+          "Best Non-coaster Ride",
+          []
+        ],
+        [
+          "Giant Drops",
+          [
+            "/wiki/List_of_Intamin_rides"
+          ]
+        ],
+        [
+          "Multiple locations",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table represents awards given by Amusement Today, highlighting recipients in various categories related to amusement parks and waterparks. It includes information about the award category, the recipient, and the location associated with the recipient. The table serves to document recognition in the amusement industry.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Category"
+  ],
+  "entities": [
+    "1999 Recipient",
+    "Location"
+  ]
+}

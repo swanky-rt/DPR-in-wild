@@ -1,0 +1,496 @@
+{
+  "table_id": "T7846",
+  "uid": "8b9b1bd7-6d3a-5200-b10f-ae1e358a8acf",
+  "source": "HybridQA",
+  "source_table_id": "8b9b1bd7-6d3a-5200-b10f-ae1e358a8acf",
+  "domain": "HybridQA",
+  "title": "List of forests in Denmark",
+  "columns": [
+    "Rank",
+    "Forest",
+    "Area ( km² )",
+    "Location"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Silkeborgskovene",
+        [
+          "/wiki/Silkeborg_Forests"
+        ]
+      ],
+      [
+        224.0,
+        []
+      ],
+      [
+        "Central Jutland",
+        [
+          "/wiki/Jutland"
+        ]
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Rold Skov",
+        [
+          "/wiki/Rold_Skov"
+        ]
+      ],
+      [
+        80.0,
+        []
+      ],
+      [
+        "Himmerland",
+        [
+          "/wiki/Himmerland"
+        ]
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Klosterheden",
+        []
+      ],
+      [
+        64.0,
+        []
+      ],
+      [
+        "Western Jutland",
+        [
+          "/wiki/Jutland"
+        ]
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Gribskov",
+        [
+          "/wiki/Gribskov"
+        ]
+      ],
+      [
+        55.0,
+        []
+      ],
+      [
+        "Northern Zealand",
+        [
+          "/wiki/Zealand"
+        ]
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Almindingen",
+        [
+          "/wiki/Almindingen"
+        ]
+      ],
+      [
+        50.0,
+        []
+      ],
+      [
+        "Bornholm",
+        [
+          "/wiki/Bornholm"
+        ]
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Kompedal Plantage - Alhedens Skov",
+        []
+      ],
+      [
+        46.0,
+        []
+      ],
+      [
+        "Central Jutland",
+        [
+          "/wiki/Jutland"
+        ]
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Løvenholm , Fjeld , Ramten and others",
+        []
+      ],
+      [
+        43.0,
+        []
+      ],
+      [
+        "Central Jutland",
+        [
+          "/wiki/Jutland"
+        ]
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Vesterskov , Thorsø , Sønderskov , Rye Nørreskov and others",
+        []
+      ],
+      [
+        41.0,
+        []
+      ],
+      [
+        "Central Jutland",
+        [
+          "/wiki/Jutland"
+        ]
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Skramsø , Skærsø , Lyngsbæk and others",
+        []
+      ],
+      [
+        40.0,
+        []
+      ],
+      [
+        "Djursland",
+        [
+          "/wiki/Djursland"
+        ]
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Slagelseskovene",
+        []
+      ],
+      [
+        39.0,
+        []
+      ],
+      [
+        "Central Zealand",
+        [
+          "/wiki/Zealand"
+        ]
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Tvorup , Nystrup , Vandet plantager",
+        []
+      ],
+      [
+        39.0,
+        []
+      ],
+      [
+        "Thy",
+        [
+          "/wiki/Thy_(district)"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "8b9b1bd7-6d3a-5200-b10f-ae1e358a8acf",
+    "table_id": "List_of_forests_in_Denmark_0",
+    "title": "List of forests in Denmark",
+    "header": [
+      "Rank",
+      "Forest",
+      "Area ( km² )",
+      "Location"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Silkeborgskovene",
+          [
+            "/wiki/Silkeborg_Forests"
+          ]
+        ],
+        [
+          224.0,
+          []
+        ],
+        [
+          "Central Jutland",
+          [
+            "/wiki/Jutland"
+          ]
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Rold Skov",
+          [
+            "/wiki/Rold_Skov"
+          ]
+        ],
+        [
+          80.0,
+          []
+        ],
+        [
+          "Himmerland",
+          [
+            "/wiki/Himmerland"
+          ]
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Klosterheden",
+          []
+        ],
+        [
+          64.0,
+          []
+        ],
+        [
+          "Western Jutland",
+          [
+            "/wiki/Jutland"
+          ]
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Gribskov",
+          [
+            "/wiki/Gribskov"
+          ]
+        ],
+        [
+          55.0,
+          []
+        ],
+        [
+          "Northern Zealand",
+          [
+            "/wiki/Zealand"
+          ]
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Almindingen",
+          [
+            "/wiki/Almindingen"
+          ]
+        ],
+        [
+          50.0,
+          []
+        ],
+        [
+          "Bornholm",
+          [
+            "/wiki/Bornholm"
+          ]
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Kompedal Plantage - Alhedens Skov",
+          []
+        ],
+        [
+          46.0,
+          []
+        ],
+        [
+          "Central Jutland",
+          [
+            "/wiki/Jutland"
+          ]
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Løvenholm , Fjeld , Ramten and others",
+          []
+        ],
+        [
+          43.0,
+          []
+        ],
+        [
+          "Central Jutland",
+          [
+            "/wiki/Jutland"
+          ]
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Vesterskov , Thorsø , Sønderskov , Rye Nørreskov and others",
+          []
+        ],
+        [
+          41.0,
+          []
+        ],
+        [
+          "Central Jutland",
+          [
+            "/wiki/Jutland"
+          ]
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Skramsø , Skærsø , Lyngsbæk and others",
+          []
+        ],
+        [
+          40.0,
+          []
+        ],
+        [
+          "Djursland",
+          [
+            "/wiki/Djursland"
+          ]
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Slagelseskovene",
+          []
+        ],
+        [
+          39.0,
+          []
+        ],
+        [
+          "Central Zealand",
+          [
+            "/wiki/Zealand"
+          ]
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Tvorup , Nystrup , Vandet plantager",
+          []
+        ],
+        [
+          39.0,
+          []
+        ],
+        [
+          "Thy",
+          [
+            "/wiki/Thy_(district)"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "The table provides a ranked list of forests in Denmark, detailing their names, sizes in square kilometers, and locations. It serves as an informational resource for understanding the distribution and scale of forests within the country.",
+  "numeric_columns": [
+    "Area ( km² )"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Forest",
+    "Location"
+  ]
+}

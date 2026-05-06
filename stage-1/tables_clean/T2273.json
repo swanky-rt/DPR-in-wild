@@ -1,0 +1,609 @@
+{
+  "table_id": "T2273",
+  "uid": "176498d3-bf99-56fc-b246-6d58f7ce7be5",
+  "source": "HybridQA",
+  "source_table_id": "176498d3-bf99-56fc-b246-6d58f7ce7be5",
+  "domain": "HybridQA",
+  "title": "Sports in Houston",
+  "columns": [
+    "Event",
+    "Month",
+    "Sport",
+    "Venue",
+    "Established"
+  ],
+  "rows": [
+    [
+      [
+        "Houston Marathon",
+        [
+          "/wiki/Houston_Marathon"
+        ]
+      ],
+      [
+        "January",
+        []
+      ],
+      [
+        "Running",
+        [
+          "/wiki/Running"
+        ]
+      ],
+      [
+        "Convention Center and streets of Houston",
+        [
+          "/wiki/George_R._Brown_Convention_Center"
+        ]
+      ],
+      [
+        1972,
+        []
+      ]
+    ],
+    [
+      [
+        "Houston College Classic",
+        [
+          "/wiki/Houston_College_Classic"
+        ]
+      ],
+      [
+        "February",
+        []
+      ],
+      [
+        "Baseball",
+        [
+          "/wiki/Baseball"
+        ]
+      ],
+      [
+        "Minute Maid Park",
+        [
+          "/wiki/Minute_Maid_Park"
+        ]
+      ],
+      [
+        2001,
+        []
+      ]
+    ],
+    [
+      [
+        "Houston Livestock Show and Rodeo",
+        [
+          "/wiki/Houston_Livestock_Show_and_Rodeo"
+        ]
+      ],
+      [
+        "February / March",
+        []
+      ],
+      [
+        "Rodeo",
+        [
+          "/wiki/Rodeo"
+        ]
+      ],
+      [
+        "NRG Park",
+        [
+          "/wiki/NRG_Park"
+        ]
+      ],
+      [
+        1932,
+        []
+      ]
+    ],
+    [
+      [
+        "Shell Houston Open",
+        [
+          "/wiki/Shell_Houston_Open"
+        ]
+      ],
+      [
+        "March",
+        []
+      ],
+      [
+        "PGA golf",
+        [
+          "/wiki/PGA_Tour",
+          "/wiki/Golf"
+        ]
+      ],
+      [
+        "Golf Club of Houston",
+        [
+          "/wiki/Golf_Club_of_Houston"
+        ]
+      ],
+      [
+        1946,
+        []
+      ]
+    ],
+    [
+      [
+        "U.S. Men 's Clay Court Championships",
+        [
+          "/wiki/U.S._Men's_Clay_Court_Championships"
+        ]
+      ],
+      [
+        "April",
+        []
+      ],
+      [
+        "Tennis",
+        [
+          "/wiki/Tennis"
+        ]
+      ],
+      [
+        "River Oaks Country Club",
+        [
+          "/wiki/River_Oaks_Country_Club"
+        ]
+      ],
+      [
+        2001,
+        []
+      ]
+    ],
+    [
+      [
+        "U.S. international rugby match",
+        [
+          "/wiki/United_States_national_rugby_union_team"
+        ]
+      ],
+      [
+        "June",
+        []
+      ],
+      [
+        "Rugby",
+        [
+          "/wiki/Rugby_union_in_the_United_States"
+        ]
+      ],
+      [
+        "BBVA Compass Stadium",
+        [
+          "/wiki/BBVA_Compass_Stadium"
+        ]
+      ],
+      [
+        2012,
+        []
+      ]
+    ],
+    [
+      [
+        "Texas Bowl",
+        [
+          "/wiki/Texas_Bowl"
+        ]
+      ],
+      [
+        "December",
+        []
+      ],
+      [
+        "Football",
+        [
+          "/wiki/American_football"
+        ]
+      ],
+      [
+        "NRG Stadium",
+        [
+          "/wiki/NRG_Stadium"
+        ]
+      ],
+      [
+        2006,
+        []
+      ]
+    ],
+    [
+      [
+        "Bayou Bucket Classic",
+        [
+          "/wiki/Bayou_Bucket_Classic"
+        ]
+      ],
+      [
+        "Varies",
+        []
+      ],
+      [
+        "Football",
+        [
+          "/wiki/American_football"
+        ]
+      ],
+      [
+        "Rice Stadium , TDECU Stadium , or NRG Stadium",
+        [
+          "/wiki/Rice_Stadium_(Rice_University)",
+          "/wiki/TDECU_Stadium",
+          "/wiki/NRG_Stadium"
+        ]
+      ],
+      [
+        1971,
+        []
+      ]
+    ],
+    [
+      [
+        "SWAC Championship Game",
+        [
+          "/wiki/SWAC_Championship_Game"
+        ]
+      ],
+      [
+        "December",
+        []
+      ],
+      [
+        "Football",
+        [
+          "/wiki/American_football"
+        ]
+      ],
+      [
+        "NRG Stadium",
+        [
+          "/wiki/NRG_Stadium"
+        ]
+      ],
+      [
+        2013,
+        []
+      ]
+    ],
+    [
+      [
+        "SWAC Basketball Tournament",
+        [
+          "/wiki/Southwestern_Athletic_Conference"
+        ]
+      ],
+      [
+        "March",
+        []
+      ],
+      [
+        "Basketball",
+        [
+          "/wiki/Basketball"
+        ]
+      ],
+      [
+        "Toyota Center",
+        [
+          "/wiki/Toyota_Center"
+        ]
+      ],
+      [
+        2013,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "176498d3-bf99-56fc-b246-6d58f7ce7be5",
+    "table_id": "Sports_in_Houston_1",
+    "title": "Sports in Houston",
+    "header": [
+      "Event",
+      "Month",
+      "Sport",
+      "Venue",
+      "Established"
+    ],
+    "value": [
+      [
+        [
+          "Houston Marathon",
+          [
+            "/wiki/Houston_Marathon"
+          ]
+        ],
+        [
+          "January",
+          []
+        ],
+        [
+          "Running",
+          [
+            "/wiki/Running"
+          ]
+        ],
+        [
+          "Convention Center and streets of Houston",
+          [
+            "/wiki/George_R._Brown_Convention_Center"
+          ]
+        ],
+        [
+          1972,
+          []
+        ]
+      ],
+      [
+        [
+          "Houston College Classic",
+          [
+            "/wiki/Houston_College_Classic"
+          ]
+        ],
+        [
+          "February",
+          []
+        ],
+        [
+          "Baseball",
+          [
+            "/wiki/Baseball"
+          ]
+        ],
+        [
+          "Minute Maid Park",
+          [
+            "/wiki/Minute_Maid_Park"
+          ]
+        ],
+        [
+          2001,
+          []
+        ]
+      ],
+      [
+        [
+          "Houston Livestock Show and Rodeo",
+          [
+            "/wiki/Houston_Livestock_Show_and_Rodeo"
+          ]
+        ],
+        [
+          "February / March",
+          []
+        ],
+        [
+          "Rodeo",
+          [
+            "/wiki/Rodeo"
+          ]
+        ],
+        [
+          "NRG Park",
+          [
+            "/wiki/NRG_Park"
+          ]
+        ],
+        [
+          1932,
+          []
+        ]
+      ],
+      [
+        [
+          "Shell Houston Open",
+          [
+            "/wiki/Shell_Houston_Open"
+          ]
+        ],
+        [
+          "March",
+          []
+        ],
+        [
+          "PGA golf",
+          [
+            "/wiki/PGA_Tour",
+            "/wiki/Golf"
+          ]
+        ],
+        [
+          "Golf Club of Houston",
+          [
+            "/wiki/Golf_Club_of_Houston"
+          ]
+        ],
+        [
+          1946,
+          []
+        ]
+      ],
+      [
+        [
+          "U.S. Men 's Clay Court Championships",
+          [
+            "/wiki/U.S._Men's_Clay_Court_Championships"
+          ]
+        ],
+        [
+          "April",
+          []
+        ],
+        [
+          "Tennis",
+          [
+            "/wiki/Tennis"
+          ]
+        ],
+        [
+          "River Oaks Country Club",
+          [
+            "/wiki/River_Oaks_Country_Club"
+          ]
+        ],
+        [
+          2001,
+          []
+        ]
+      ],
+      [
+        [
+          "U.S. international rugby match",
+          [
+            "/wiki/United_States_national_rugby_union_team"
+          ]
+        ],
+        [
+          "June",
+          []
+        ],
+        [
+          "Rugby",
+          [
+            "/wiki/Rugby_union_in_the_United_States"
+          ]
+        ],
+        [
+          "BBVA Compass Stadium",
+          [
+            "/wiki/BBVA_Compass_Stadium"
+          ]
+        ],
+        [
+          2012,
+          []
+        ]
+      ],
+      [
+        [
+          "Texas Bowl",
+          [
+            "/wiki/Texas_Bowl"
+          ]
+        ],
+        [
+          "December",
+          []
+        ],
+        [
+          "Football",
+          [
+            "/wiki/American_football"
+          ]
+        ],
+        [
+          "NRG Stadium",
+          [
+            "/wiki/NRG_Stadium"
+          ]
+        ],
+        [
+          2006,
+          []
+        ]
+      ],
+      [
+        [
+          "Bayou Bucket Classic",
+          [
+            "/wiki/Bayou_Bucket_Classic"
+          ]
+        ],
+        [
+          "Varies",
+          []
+        ],
+        [
+          "Football",
+          [
+            "/wiki/American_football"
+          ]
+        ],
+        [
+          "Rice Stadium , TDECU Stadium , or NRG Stadium",
+          [
+            "/wiki/Rice_Stadium_(Rice_University)",
+            "/wiki/TDECU_Stadium",
+            "/wiki/NRG_Stadium"
+          ]
+        ],
+        [
+          1971,
+          []
+        ]
+      ],
+      [
+        [
+          "SWAC Championship Game",
+          [
+            "/wiki/SWAC_Championship_Game"
+          ]
+        ],
+        [
+          "December",
+          []
+        ],
+        [
+          "Football",
+          [
+            "/wiki/American_football"
+          ]
+        ],
+        [
+          "NRG Stadium",
+          [
+            "/wiki/NRG_Stadium"
+          ]
+        ],
+        [
+          2013,
+          []
+        ]
+      ],
+      [
+        [
+          "SWAC Basketball Tournament",
+          [
+            "/wiki/Southwestern_Athletic_Conference"
+          ]
+        ],
+        [
+          "March",
+          []
+        ],
+        [
+          "Basketball",
+          [
+            "/wiki/Basketball"
+          ]
+        ],
+        [
+          "Toyota Center",
+          [
+            "/wiki/Toyota_Center"
+          ]
+        ],
+        [
+          2013,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about various sports events held in Houston, including their names, the months they occur, the type of sport, the venues where they take place, and the year they were established. It is designed to give an overview of Houston's sports culture and history.",
+  "numeric_columns": [
+    "Established"
+  ],
+  "categorical_columns": [
+    "Month",
+    "Sport"
+  ],
+  "entities": [
+    "Event",
+    "Venue"
+  ]
+}

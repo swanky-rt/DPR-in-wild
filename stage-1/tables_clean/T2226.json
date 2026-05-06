@@ -1,0 +1,489 @@
+{
+  "table_id": "T2226",
+  "uid": "c8aaf06a-bc73-58c8-8d9c-19c02a6716b8",
+  "source": "HybridQA",
+  "source_table_id": "c8aaf06a-bc73-58c8-8d9c-19c02a6716b8",
+  "domain": "HybridQA",
+  "title": "2005 FIFA Confederations Cup",
+  "columns": [
+    "Team",
+    "Confederation",
+    "Qualification method",
+    "Date qualification secured",
+    "Participation no"
+  ],
+  "rows": [
+    [
+      [
+        "Germany",
+        [
+          "/wiki/Germany_national_football_team"
+        ]
+      ],
+      [
+        "UEFA",
+        [
+          "/wiki/UEFA"
+        ]
+      ],
+      [
+        "Hosts",
+        []
+      ],
+      [
+        "7 July 2000",
+        []
+      ],
+      [
+        "2nd",
+        []
+      ]
+    ],
+    [
+      [
+        "Brazil",
+        [
+          "/wiki/Brazil_national_football_team"
+        ]
+      ],
+      [
+        "CONMEBOL",
+        [
+          "/wiki/CONMEBOL"
+        ]
+      ],
+      [
+        "2002 FIFA World Cup and 2004 Copa América winners",
+        [
+          "/wiki/2002_FIFA_World_Cup",
+          "/wiki/2004_Copa_América"
+        ]
+      ],
+      [
+        "30 June 2002",
+        []
+      ],
+      [
+        "5th",
+        []
+      ]
+    ],
+    [
+      [
+        "Mexico",
+        [
+          "/wiki/Mexico_national_football_team"
+        ]
+      ],
+      [
+        "CONCACAF",
+        [
+          "/wiki/CONCACAF"
+        ]
+      ],
+      [
+        "2003 CONCACAF Gold Cup winners",
+        [
+          "/wiki/2003_CONCACAF_Gold_Cup"
+        ]
+      ],
+      [
+        "27 July 2003",
+        []
+      ],
+      [
+        "5th",
+        []
+      ]
+    ],
+    [
+      [
+        "Tunisia",
+        [
+          "/wiki/Tunisia_national_football_team"
+        ]
+      ],
+      [
+        "CAF",
+        [
+          "/wiki/Confederation_of_African_Football"
+        ]
+      ],
+      [
+        "2004 African Cup of Nations winners",
+        [
+          "/wiki/2004_African_Cup_of_Nations"
+        ]
+      ],
+      [
+        "14 February 2004",
+        []
+      ],
+      [
+        "1st",
+        []
+      ]
+    ],
+    [
+      [
+        "Greece",
+        [
+          "/wiki/Greece_national_football_team"
+        ]
+      ],
+      [
+        "UEFA",
+        [
+          "/wiki/UEFA"
+        ]
+      ],
+      [
+        "UEFA Euro 2004 winners",
+        [
+          "/wiki/UEFA_Euro_2004"
+        ]
+      ],
+      [
+        "4 July 2004",
+        []
+      ],
+      [
+        "1st",
+        []
+      ]
+    ],
+    [
+      [
+        "Argentina",
+        [
+          "/wiki/Argentina_national_football_team"
+        ]
+      ],
+      [
+        "CONMEBOL",
+        [
+          "/wiki/CONMEBOL"
+        ]
+      ],
+      [
+        "2004 Copa América runners-up",
+        [
+          "/wiki/2004_Copa_América"
+        ]
+      ],
+      [
+        "20 July 2004",
+        []
+      ],
+      [
+        "3rd",
+        []
+      ]
+    ],
+    [
+      [
+        "Japan",
+        [
+          "/wiki/Japan_national_football_team"
+        ]
+      ],
+      [
+        "AFC",
+        [
+          "/wiki/Asian_Football_Confederation"
+        ]
+      ],
+      [
+        "2004 AFC Asian Cup winners",
+        [
+          "/wiki/2004_AFC_Asian_Cup"
+        ]
+      ],
+      [
+        "7 August 2004",
+        []
+      ],
+      [
+        "4th",
+        []
+      ]
+    ],
+    [
+      [
+        "Australia",
+        [
+          "/wiki/Australia_national_soccer_team"
+        ]
+      ],
+      [
+        "OFC",
+        [
+          "/wiki/Oceania_Football_Confederation"
+        ]
+      ],
+      [
+        "2004 OFC Nations Cup winners",
+        [
+          "/wiki/2004_OFC_Nations_Cup"
+        ]
+      ],
+      [
+        "12 October 2004",
+        []
+      ],
+      [
+        "3rd",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "c8aaf06a-bc73-58c8-8d9c-19c02a6716b8",
+    "table_id": "2005_FIFA_Confederations_Cup_0",
+    "title": "2005 FIFA Confederations Cup",
+    "header": [
+      "Team",
+      "Confederation",
+      "Qualification method",
+      "Date qualification secured",
+      "Participation no"
+    ],
+    "value": [
+      [
+        [
+          "Germany",
+          [
+            "/wiki/Germany_national_football_team"
+          ]
+        ],
+        [
+          "UEFA",
+          [
+            "/wiki/UEFA"
+          ]
+        ],
+        [
+          "Hosts",
+          []
+        ],
+        [
+          "7 July 2000",
+          []
+        ],
+        [
+          "2nd",
+          []
+        ]
+      ],
+      [
+        [
+          "Brazil",
+          [
+            "/wiki/Brazil_national_football_team"
+          ]
+        ],
+        [
+          "CONMEBOL",
+          [
+            "/wiki/CONMEBOL"
+          ]
+        ],
+        [
+          "2002 FIFA World Cup and 2004 Copa América winners",
+          [
+            "/wiki/2002_FIFA_World_Cup",
+            "/wiki/2004_Copa_América"
+          ]
+        ],
+        [
+          "30 June 2002",
+          []
+        ],
+        [
+          "5th",
+          []
+        ]
+      ],
+      [
+        [
+          "Mexico",
+          [
+            "/wiki/Mexico_national_football_team"
+          ]
+        ],
+        [
+          "CONCACAF",
+          [
+            "/wiki/CONCACAF"
+          ]
+        ],
+        [
+          "2003 CONCACAF Gold Cup winners",
+          [
+            "/wiki/2003_CONCACAF_Gold_Cup"
+          ]
+        ],
+        [
+          "27 July 2003",
+          []
+        ],
+        [
+          "5th",
+          []
+        ]
+      ],
+      [
+        [
+          "Tunisia",
+          [
+            "/wiki/Tunisia_national_football_team"
+          ]
+        ],
+        [
+          "CAF",
+          [
+            "/wiki/Confederation_of_African_Football"
+          ]
+        ],
+        [
+          "2004 African Cup of Nations winners",
+          [
+            "/wiki/2004_African_Cup_of_Nations"
+          ]
+        ],
+        [
+          "14 February 2004",
+          []
+        ],
+        [
+          "1st",
+          []
+        ]
+      ],
+      [
+        [
+          "Greece",
+          [
+            "/wiki/Greece_national_football_team"
+          ]
+        ],
+        [
+          "UEFA",
+          [
+            "/wiki/UEFA"
+          ]
+        ],
+        [
+          "UEFA Euro 2004 winners",
+          [
+            "/wiki/UEFA_Euro_2004"
+          ]
+        ],
+        [
+          "4 July 2004",
+          []
+        ],
+        [
+          "1st",
+          []
+        ]
+      ],
+      [
+        [
+          "Argentina",
+          [
+            "/wiki/Argentina_national_football_team"
+          ]
+        ],
+        [
+          "CONMEBOL",
+          [
+            "/wiki/CONMEBOL"
+          ]
+        ],
+        [
+          "2004 Copa América runners-up",
+          [
+            "/wiki/2004_Copa_América"
+          ]
+        ],
+        [
+          "20 July 2004",
+          []
+        ],
+        [
+          "3rd",
+          []
+        ]
+      ],
+      [
+        [
+          "Japan",
+          [
+            "/wiki/Japan_national_football_team"
+          ]
+        ],
+        [
+          "AFC",
+          [
+            "/wiki/Asian_Football_Confederation"
+          ]
+        ],
+        [
+          "2004 AFC Asian Cup winners",
+          [
+            "/wiki/2004_AFC_Asian_Cup"
+          ]
+        ],
+        [
+          "7 August 2004",
+          []
+        ],
+        [
+          "4th",
+          []
+        ]
+      ],
+      [
+        [
+          "Australia",
+          [
+            "/wiki/Australia_national_soccer_team"
+          ]
+        ],
+        [
+          "OFC",
+          [
+            "/wiki/Oceania_Football_Confederation"
+          ]
+        ],
+        [
+          "2004 OFC Nations Cup winners",
+          [
+            "/wiki/2004_OFC_Nations_Cup"
+          ]
+        ],
+        [
+          "12 October 2004",
+          []
+        ],
+        [
+          "3rd",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the teams that participated in the 2005 FIFA Confederations Cup, including their confederation, qualification method, and participation details. It serves to summarize key attributes of the teams and their eligibility for the tournament.",
+  "numeric_columns": [
+    "Participation no"
+  ],
+  "categorical_columns": [
+    "Confederation",
+    "Qualification method"
+  ],
+  "entities": [
+    "Team",
+    "Date qualification secured"
+  ]
+}

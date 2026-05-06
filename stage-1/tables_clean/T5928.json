@@ -1,0 +1,436 @@
+{
+  "table_id": "T5928",
+  "uid": "5e15c8d9-ac46-5135-81d4-0a3373d666f8",
+  "source": "HybridQA",
+  "source_table_id": "5e15c8d9-ac46-5135-81d4-0a3373d666f8",
+  "domain": "HybridQA",
+  "title": "Pardubice Region",
+  "columns": [
+    "Name",
+    "Population",
+    "Area ( km² )",
+    "District"
+  ],
+  "rows": [
+    [
+      [
+        "Pardubice",
+        [
+          "/wiki/Pardubice"
+        ]
+      ],
+      [
+        "90,668",
+        []
+      ],
+      [
+        78,
+        []
+      ],
+      [
+        "Pardubice District",
+        [
+          "/wiki/Pardubice_District"
+        ]
+      ]
+    ],
+    [
+      [
+        "Chrudim",
+        [
+          "/wiki/Chrudim"
+        ]
+      ],
+      [
+        "23,151",
+        []
+      ],
+      [
+        33,
+        []
+      ],
+      [
+        "Chrudim District",
+        [
+          "/wiki/Chrudim_District"
+        ]
+      ]
+    ],
+    [
+      [
+        "Svitavy",
+        [
+          "/wiki/Svitavy"
+        ]
+      ],
+      [
+        "16,838",
+        []
+      ],
+      [
+        31,
+        []
+      ],
+      [
+        "Svitavy District",
+        [
+          "/wiki/Svitavy_District"
+        ]
+      ]
+    ],
+    [
+      [
+        "Česká Třebová",
+        [
+          "/wiki/Česká_Třebová"
+        ]
+      ],
+      [
+        "15,508",
+        []
+      ],
+      [
+        41,
+        []
+      ],
+      [
+        "Ústí nad Orlicí District",
+        [
+          "/wiki/Ústí_nad_Orlicí_District"
+        ]
+      ]
+    ],
+    [
+      [
+        "Ústí nad Orlicí",
+        [
+          "/wiki/Ústí_nad_Orlicí"
+        ]
+      ],
+      [
+        "14,196",
+        []
+      ],
+      [
+        36,
+        []
+      ],
+      [
+        "Ústí nad Orlicí District",
+        [
+          "/wiki/Ústí_nad_Orlicí_District"
+        ]
+      ]
+    ],
+    [
+      [
+        "Vysoké Mýto",
+        [
+          "/wiki/Vysoké_Mýto"
+        ]
+      ],
+      [
+        "12,335",
+        []
+      ],
+      [
+        42,
+        []
+      ],
+      [
+        "Ústí nad Orlicí District",
+        [
+          "/wiki/Ústí_nad_Orlicí_District"
+        ]
+      ]
+    ],
+    [
+      [
+        "Litomyšl",
+        [
+          "/wiki/Litomyšl"
+        ]
+      ],
+      [
+        "10,429",
+        []
+      ],
+      [
+        33,
+        []
+      ],
+      [
+        "Svitavy District",
+        [
+          "/wiki/Svitavy_District"
+        ]
+      ]
+    ],
+    [
+      [
+        "Moravská Třebová",
+        [
+          "/wiki/Moravská_Třebová"
+        ]
+      ],
+      [
+        "10,070",
+        []
+      ],
+      [
+        42,
+        []
+      ],
+      [
+        "Svitavy District",
+        [
+          "/wiki/Svitavy_District"
+        ]
+      ]
+    ],
+    [
+      [
+        "Lanškroun",
+        [
+          "/wiki/Lanškroun"
+        ]
+      ],
+      [
+        "9,991",
+        []
+      ],
+      [
+        21,
+        []
+      ],
+      [
+        "Ústí nad Orlicí District",
+        [
+          "/wiki/Ústí_nad_Orlicí_District"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "5e15c8d9-ac46-5135-81d4-0a3373d666f8",
+    "table_id": "Pardubice_Region_0",
+    "title": "Pardubice Region",
+    "header": [
+      "Name",
+      "Population",
+      "Area ( km² )",
+      "District"
+    ],
+    "value": [
+      [
+        [
+          "Pardubice",
+          [
+            "/wiki/Pardubice"
+          ]
+        ],
+        [
+          "90,668",
+          []
+        ],
+        [
+          78,
+          []
+        ],
+        [
+          "Pardubice District",
+          [
+            "/wiki/Pardubice_District"
+          ]
+        ]
+      ],
+      [
+        [
+          "Chrudim",
+          [
+            "/wiki/Chrudim"
+          ]
+        ],
+        [
+          "23,151",
+          []
+        ],
+        [
+          33,
+          []
+        ],
+        [
+          "Chrudim District",
+          [
+            "/wiki/Chrudim_District"
+          ]
+        ]
+      ],
+      [
+        [
+          "Svitavy",
+          [
+            "/wiki/Svitavy"
+          ]
+        ],
+        [
+          "16,838",
+          []
+        ],
+        [
+          31,
+          []
+        ],
+        [
+          "Svitavy District",
+          [
+            "/wiki/Svitavy_District"
+          ]
+        ]
+      ],
+      [
+        [
+          "Česká Třebová",
+          [
+            "/wiki/Česká_Třebová"
+          ]
+        ],
+        [
+          "15,508",
+          []
+        ],
+        [
+          41,
+          []
+        ],
+        [
+          "Ústí nad Orlicí District",
+          [
+            "/wiki/Ústí_nad_Orlicí_District"
+          ]
+        ]
+      ],
+      [
+        [
+          "Ústí nad Orlicí",
+          [
+            "/wiki/Ústí_nad_Orlicí"
+          ]
+        ],
+        [
+          "14,196",
+          []
+        ],
+        [
+          36,
+          []
+        ],
+        [
+          "Ústí nad Orlicí District",
+          [
+            "/wiki/Ústí_nad_Orlicí_District"
+          ]
+        ]
+      ],
+      [
+        [
+          "Vysoké Mýto",
+          [
+            "/wiki/Vysoké_Mýto"
+          ]
+        ],
+        [
+          "12,335",
+          []
+        ],
+        [
+          42,
+          []
+        ],
+        [
+          "Ústí nad Orlicí District",
+          [
+            "/wiki/Ústí_nad_Orlicí_District"
+          ]
+        ]
+      ],
+      [
+        [
+          "Litomyšl",
+          [
+            "/wiki/Litomyšl"
+          ]
+        ],
+        [
+          "10,429",
+          []
+        ],
+        [
+          33,
+          []
+        ],
+        [
+          "Svitavy District",
+          [
+            "/wiki/Svitavy_District"
+          ]
+        ]
+      ],
+      [
+        [
+          "Moravská Třebová",
+          [
+            "/wiki/Moravská_Třebová"
+          ]
+        ],
+        [
+          "10,070",
+          []
+        ],
+        [
+          42,
+          []
+        ],
+        [
+          "Svitavy District",
+          [
+            "/wiki/Svitavy_District"
+          ]
+        ]
+      ],
+      [
+        [
+          "Lanškroun",
+          [
+            "/wiki/Lanškroun"
+          ]
+        ],
+        [
+          "9,991",
+          []
+        ],
+        [
+          21,
+          []
+        ],
+        [
+          "Ústí nad Orlicí District",
+          [
+            "/wiki/Ústí_nad_Orlicí_District"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of key information about locations in the Pardubice Region, including their names, populations, areas, and associated districts. It is likely intended for informational or comparative purposes within a regional or geographic context.",
+  "numeric_columns": [
+    "Population",
+    "Area ( km² )"
+  ],
+  "categorical_columns": [
+    "District"
+  ],
+  "entities": [
+    "Name"
+  ]
+}

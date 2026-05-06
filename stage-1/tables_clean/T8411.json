@@ -1,0 +1,441 @@
+{
+  "table_id": "T8411",
+  "uid": "989534ba-cac1-5541-9bf3-f95f7a07caf0",
+  "source": "HybridQA",
+  "source_table_id": "989534ba-cac1-5541-9bf3-f95f7a07caf0",
+  "domain": "HybridQA",
+  "title": "2004 UCI Women's Road World Cup",
+  "columns": [
+    "Date",
+    "Event",
+    "Country",
+    "Winner"
+  ],
+  "rows": [
+    [
+      [
+        "29 February",
+        []
+      ],
+      [
+        "Australia World Cup , Geelong",
+        [
+          "/wiki/Australia_World_Cup",
+          "/wiki/Geelong"
+        ]
+      ],
+      [
+        "Australia",
+        []
+      ],
+      [
+        "Oenone Wood ( AUS )",
+        [
+          "/wiki/Oenone_Wood"
+        ]
+      ]
+    ],
+    [
+      [
+        "20 March",
+        []
+      ],
+      [
+        "Primavera Rosa",
+        [
+          "/wiki/Primavera_Rosa"
+        ]
+      ],
+      [
+        "Italy",
+        []
+      ],
+      [
+        "Zulfiya Zabirova ( RUS )",
+        [
+          "/wiki/Zulfiya_Zabirova"
+        ]
+      ]
+    ],
+    [
+      [
+        "28 March",
+        []
+      ],
+      [
+        "GP Castilla y León",
+        []
+      ],
+      [
+        "Spain",
+        []
+      ],
+      [
+        "Angela Brodtka ( GER )",
+        [
+          "/wiki/Angela_Brodtka"
+        ]
+      ]
+    ],
+    [
+      [
+        "4 April",
+        []
+      ],
+      [
+        "Tour of Flanders for Women",
+        [
+          "/wiki/Tour_of_Flanders_for_Women"
+        ]
+      ],
+      [
+        "Belgium",
+        [
+          "/wiki/Belgium"
+        ]
+      ],
+      [
+        "Zulfiya Zabirova ( RUS )",
+        [
+          "/wiki/Zulfiya_Zabirova"
+        ]
+      ]
+    ],
+    [
+      [
+        "21 April",
+        []
+      ],
+      [
+        "La Flèche Wallonne Féminine",
+        [
+          "/wiki/La_Flèche_Wallonne_Féminine"
+        ]
+      ],
+      [
+        "Belgium",
+        [
+          "/wiki/Belgium"
+        ]
+      ],
+      [
+        "Sonia Huguet ( FRA )",
+        [
+          "/wiki/Sonia_Huguet"
+        ]
+      ]
+    ],
+    [
+      [
+        "29 May",
+        []
+      ],
+      [
+        "Coupe du Monde Cycliste Féminine de Montréal",
+        [
+          "/wiki/Coupe_du_Monde_Cycliste_Féminine_de_Montréal"
+        ]
+      ],
+      [
+        "Canada",
+        []
+      ],
+      [
+        "Geneviève Jeanson ( CAN )",
+        [
+          "/wiki/Geneviève_Jeanson"
+        ]
+      ]
+    ],
+    [
+      [
+        "29 August",
+        []
+      ],
+      [
+        "GP de Plouay",
+        [
+          "/wiki/GP_de_Plouay"
+        ]
+      ],
+      [
+        "France",
+        []
+      ],
+      [
+        "Edita Pučinskaitė ( LIT )",
+        [
+          "/wiki/Edita_Pučinskaitė"
+        ]
+      ]
+    ],
+    [
+      [
+        "5 September",
+        []
+      ],
+      [
+        "Lowland International Rotterdam Tour",
+        [
+          "/wiki/Lowland_International_Rotterdam_Tour"
+        ]
+      ],
+      [
+        "Netherlands",
+        []
+      ],
+      [
+        "Petra Rossner ( GER )",
+        [
+          "/wiki/Petra_Rossner"
+        ]
+      ]
+    ],
+    [
+      [
+        "11 September",
+        []
+      ],
+      [
+        "Rund um die Nürnberger Altstadt",
+        [
+          "/wiki/Rund_um_die_Nürnberger_Altstadt"
+        ]
+      ],
+      [
+        "Germany",
+        []
+      ],
+      [
+        "Petra Rossner ( GER )",
+        [
+          "/wiki/Petra_Rossner"
+        ]
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "989534ba-cac1-5541-9bf3-f95f7a07caf0",
+    "table_id": "2004_UCI_Women's_Road_World_Cup_0",
+    "title": "2004 UCI Women's Road World Cup",
+    "header": [
+      "Date",
+      "Event",
+      "Country",
+      "Winner"
+    ],
+    "value": [
+      [
+        [
+          "29 February",
+          []
+        ],
+        [
+          "Australia World Cup , Geelong",
+          [
+            "/wiki/Australia_World_Cup",
+            "/wiki/Geelong"
+          ]
+        ],
+        [
+          "Australia",
+          []
+        ],
+        [
+          "Oenone Wood ( AUS )",
+          [
+            "/wiki/Oenone_Wood"
+          ]
+        ]
+      ],
+      [
+        [
+          "20 March",
+          []
+        ],
+        [
+          "Primavera Rosa",
+          [
+            "/wiki/Primavera_Rosa"
+          ]
+        ],
+        [
+          "Italy",
+          []
+        ],
+        [
+          "Zulfiya Zabirova ( RUS )",
+          [
+            "/wiki/Zulfiya_Zabirova"
+          ]
+        ]
+      ],
+      [
+        [
+          "28 March",
+          []
+        ],
+        [
+          "GP Castilla y León",
+          []
+        ],
+        [
+          "Spain",
+          []
+        ],
+        [
+          "Angela Brodtka ( GER )",
+          [
+            "/wiki/Angela_Brodtka"
+          ]
+        ]
+      ],
+      [
+        [
+          "4 April",
+          []
+        ],
+        [
+          "Tour of Flanders for Women",
+          [
+            "/wiki/Tour_of_Flanders_for_Women"
+          ]
+        ],
+        [
+          "Belgium",
+          [
+            "/wiki/Belgium"
+          ]
+        ],
+        [
+          "Zulfiya Zabirova ( RUS )",
+          [
+            "/wiki/Zulfiya_Zabirova"
+          ]
+        ]
+      ],
+      [
+        [
+          "21 April",
+          []
+        ],
+        [
+          "La Flèche Wallonne Féminine",
+          [
+            "/wiki/La_Flèche_Wallonne_Féminine"
+          ]
+        ],
+        [
+          "Belgium",
+          [
+            "/wiki/Belgium"
+          ]
+        ],
+        [
+          "Sonia Huguet ( FRA )",
+          [
+            "/wiki/Sonia_Huguet"
+          ]
+        ]
+      ],
+      [
+        [
+          "29 May",
+          []
+        ],
+        [
+          "Coupe du Monde Cycliste Féminine de Montréal",
+          [
+            "/wiki/Coupe_du_Monde_Cycliste_Féminine_de_Montréal"
+          ]
+        ],
+        [
+          "Canada",
+          []
+        ],
+        [
+          "Geneviève Jeanson ( CAN )",
+          [
+            "/wiki/Geneviève_Jeanson"
+          ]
+        ]
+      ],
+      [
+        [
+          "29 August",
+          []
+        ],
+        [
+          "GP de Plouay",
+          [
+            "/wiki/GP_de_Plouay"
+          ]
+        ],
+        [
+          "France",
+          []
+        ],
+        [
+          "Edita Pučinskaitė ( LIT )",
+          [
+            "/wiki/Edita_Pučinskaitė"
+          ]
+        ]
+      ],
+      [
+        [
+          "5 September",
+          []
+        ],
+        [
+          "Lowland International Rotterdam Tour",
+          [
+            "/wiki/Lowland_International_Rotterdam_Tour"
+          ]
+        ],
+        [
+          "Netherlands",
+          []
+        ],
+        [
+          "Petra Rossner ( GER )",
+          [
+            "/wiki/Petra_Rossner"
+          ]
+        ]
+      ],
+      [
+        [
+          "11 September",
+          []
+        ],
+        [
+          "Rund um die Nürnberger Altstadt",
+          [
+            "/wiki/Rund_um_die_Nürnberger_Altstadt"
+          ]
+        ],
+        [
+          "Germany",
+          []
+        ],
+        [
+          "Petra Rossner ( GER )",
+          [
+            "/wiki/Petra_Rossner"
+          ]
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides an overview of the 2004 UCI Women's Road World Cup events, listing the dates, event names, host countries, and winners. It serves as a summary of key details from the competition series, highlighting the geographic and competitive aspects of the events.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Date",
+    "Event",
+    "Country"
+  ],
+  "entities": [
+    "Winner"
+  ]
+}

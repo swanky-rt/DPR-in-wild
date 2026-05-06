@@ -1,0 +1,480 @@
+{
+  "table_id": "T4551",
+  "uid": "1e509350-8ce2-5243-99c5-646fa21bc17c",
+  "source": "HybridQA",
+  "source_table_id": "1e509350-8ce2-5243-99c5-646fa21bc17c",
+  "domain": "HybridQA",
+  "title": "List of busiest passenger air routes",
+  "columns": [
+    "Rank",
+    "Airport 1",
+    "Airport 2",
+    "Passengers ( 2017 )"
+  ],
+  "rows": [
+    [
+      [
+        1,
+        []
+      ],
+      [
+        "Buenos Aires",
+        [
+          "/wiki/Buenos_Aires"
+        ]
+      ],
+      [
+        "Córdoba",
+        [
+          "/wiki/Ingeniero_Aeronáutico_Ambrosio_L.V._Taravella_International_Airport"
+        ]
+      ],
+      [
+        "1,368,000",
+        []
+      ]
+    ],
+    [
+      [
+        2,
+        []
+      ],
+      [
+        "Buenos Aires - Aeroparque",
+        [
+          "/wiki/Aeroparque_Jorge_Newbery"
+        ]
+      ],
+      [
+        "Bariloche",
+        [
+          "/wiki/San_Carlos_de_Bariloche_Airport"
+        ]
+      ],
+      [
+        "1,005,000",
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        "Buenos Aires - Aeroparque",
+        [
+          "/wiki/Aeroparque_Jorge_Newbery"
+        ]
+      ],
+      [
+        "Mendoza",
+        [
+          "/wiki/Governor_Francisco_Gabrielli_International_Airport"
+        ]
+      ],
+      [
+        "880,000",
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Buenos Aires - Aeroparque",
+        [
+          "/wiki/Aeroparque_Jorge_Newbery"
+        ]
+      ],
+      [
+        "Iguazú",
+        [
+          "/wiki/Cataratas_del_Iguazú_International_Airport"
+        ]
+      ],
+      [
+        "841,000",
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Buenos Aires - Aeroparque",
+        [
+          "/wiki/Aeroparque_Jorge_Newbery"
+        ]
+      ],
+      [
+        "Salta",
+        [
+          "/wiki/Martín_Miguel_de_Güemes_International_Airport"
+        ]
+      ],
+      [
+        "828,000",
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Buenos Aires - Aeroparque",
+        [
+          "/wiki/Aeroparque_Jorge_Newbery"
+        ]
+      ],
+      [
+        "Neuquén",
+        [
+          "/wiki/Presidente_Perón_International_Airport"
+        ]
+      ],
+      [
+        "722,000",
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Buenos Aires - Aeroparque",
+        [
+          "/wiki/Aeroparque_Jorge_Newbery"
+        ]
+      ],
+      [
+        "Tucumán",
+        [
+          "/wiki/Teniente_General_Benjamín_Matienzo_International_Airport"
+        ]
+      ],
+      [
+        "501,000",
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Buenos Aires - Aeroparque",
+        [
+          "/wiki/Aeroparque_Jorge_Newbery"
+        ]
+      ],
+      [
+        "Ushuaia",
+        [
+          "/wiki/Ushuaia_–_Malvinas_Argentinas_International_Airport"
+        ]
+      ],
+      [
+        "490,000",
+        []
+      ]
+    ],
+    [
+      [
+        9,
+        []
+      ],
+      [
+        "Buenos Aires - Aeroparque",
+        [
+          "/wiki/Aeroparque_Jorge_Newbery"
+        ]
+      ],
+      [
+        "Comodoro Rivadavia",
+        [
+          "/wiki/General_Enrique_Mosconi_International_Airport"
+        ]
+      ],
+      [
+        "462,000",
+        []
+      ]
+    ],
+    [
+      [
+        10,
+        []
+      ],
+      [
+        "Buenos Aires - Aeroparque",
+        [
+          "/wiki/Aeroparque_Jorge_Newbery"
+        ]
+      ],
+      [
+        "El Calafate",
+        [
+          "/wiki/Comandante_Armando_Tola_International_Airport"
+        ]
+      ],
+      [
+        "383,000",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "1e509350-8ce2-5243-99c5-646fa21bc17c",
+    "table_id": "World's_busiest_passenger_air_routes_12",
+    "title": "List of busiest passenger air routes",
+    "header": [
+      "Rank",
+      "Airport 1",
+      "Airport 2",
+      "Passengers ( 2017 )"
+    ],
+    "value": [
+      [
+        [
+          1,
+          []
+        ],
+        [
+          "Buenos Aires",
+          [
+            "/wiki/Buenos_Aires"
+          ]
+        ],
+        [
+          "Córdoba",
+          [
+            "/wiki/Ingeniero_Aeronáutico_Ambrosio_L.V._Taravella_International_Airport"
+          ]
+        ],
+        [
+          "1,368,000",
+          []
+        ]
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        [
+          "Buenos Aires - Aeroparque",
+          [
+            "/wiki/Aeroparque_Jorge_Newbery"
+          ]
+        ],
+        [
+          "Bariloche",
+          [
+            "/wiki/San_Carlos_de_Bariloche_Airport"
+          ]
+        ],
+        [
+          "1,005,000",
+          []
+        ]
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        [
+          "Buenos Aires - Aeroparque",
+          [
+            "/wiki/Aeroparque_Jorge_Newbery"
+          ]
+        ],
+        [
+          "Mendoza",
+          [
+            "/wiki/Governor_Francisco_Gabrielli_International_Airport"
+          ]
+        ],
+        [
+          "880,000",
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Buenos Aires - Aeroparque",
+          [
+            "/wiki/Aeroparque_Jorge_Newbery"
+          ]
+        ],
+        [
+          "Iguazú",
+          [
+            "/wiki/Cataratas_del_Iguazú_International_Airport"
+          ]
+        ],
+        [
+          "841,000",
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Buenos Aires - Aeroparque",
+          [
+            "/wiki/Aeroparque_Jorge_Newbery"
+          ]
+        ],
+        [
+          "Salta",
+          [
+            "/wiki/Martín_Miguel_de_Güemes_International_Airport"
+          ]
+        ],
+        [
+          "828,000",
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Buenos Aires - Aeroparque",
+          [
+            "/wiki/Aeroparque_Jorge_Newbery"
+          ]
+        ],
+        [
+          "Neuquén",
+          [
+            "/wiki/Presidente_Perón_International_Airport"
+          ]
+        ],
+        [
+          "722,000",
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Buenos Aires - Aeroparque",
+          [
+            "/wiki/Aeroparque_Jorge_Newbery"
+          ]
+        ],
+        [
+          "Tucumán",
+          [
+            "/wiki/Teniente_General_Benjamín_Matienzo_International_Airport"
+          ]
+        ],
+        [
+          "501,000",
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Buenos Aires - Aeroparque",
+          [
+            "/wiki/Aeroparque_Jorge_Newbery"
+          ]
+        ],
+        [
+          "Ushuaia",
+          [
+            "/wiki/Ushuaia_–_Malvinas_Argentinas_International_Airport"
+          ]
+        ],
+        [
+          "490,000",
+          []
+        ]
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        [
+          "Buenos Aires - Aeroparque",
+          [
+            "/wiki/Aeroparque_Jorge_Newbery"
+          ]
+        ],
+        [
+          "Comodoro Rivadavia",
+          [
+            "/wiki/General_Enrique_Mosconi_International_Airport"
+          ]
+        ],
+        [
+          "462,000",
+          []
+        ]
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        [
+          "Buenos Aires - Aeroparque",
+          [
+            "/wiki/Aeroparque_Jorge_Newbery"
+          ]
+        ],
+        [
+          "El Calafate",
+          [
+            "/wiki/Comandante_Armando_Tola_International_Airport"
+          ]
+        ],
+        [
+          "383,000",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table lists the busiest passenger air routes, providing information on the ranking of routes, the airports involved, and the number of passengers for each route in a specific year. It is intended to highlight major air travel connections and their relative passenger volumes.",
+  "numeric_columns": [
+    "Passengers ( 2017 )"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Airport 1",
+    "Airport 2"
+  ]
+}

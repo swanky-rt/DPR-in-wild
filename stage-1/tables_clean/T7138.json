@@ -1,0 +1,464 @@
+{
+  "table_id": "T7138",
+  "uid": "1414956a-3a7e-5fc2-ae87-318865cb1b65",
+  "source": "HybridQA",
+  "source_table_id": "1414956a-3a7e-5fc2-ae87-318865cb1b65",
+  "domain": "HybridQA",
+  "title": "Indian Idol",
+  "columns": [
+    "Name",
+    "Hometown",
+    "Elimination"
+  ],
+  "rows": [
+    [
+      [
+        "Ananya Nanda",
+        [
+          "/wiki/Ananya_Nanda"
+        ]
+      ],
+      [
+        "Odisha",
+        [
+          "/wiki/Odisha"
+        ]
+      ],
+      [
+        "Winner",
+        []
+      ]
+    ],
+    [
+      [
+        "Nahid Afrin",
+        [
+          "/wiki/Nahid_Afrin"
+        ]
+      ],
+      [
+        "Assam",
+        [
+          "/wiki/Assam"
+        ]
+      ],
+      [
+        "1st Runner-up",
+        []
+      ]
+    ],
+    [
+      [
+        "Nithyashree Venkataramanan",
+        []
+      ],
+      [
+        "Chennai",
+        [
+          "/wiki/Chennai"
+        ]
+      ],
+      [
+        "2nd Runner-up",
+        []
+      ]
+    ],
+    [
+      [
+        "Vaishnav Girish",
+        [
+          "/wiki/Vaishnav_Girish"
+        ]
+      ],
+      [
+        "Kerala",
+        [
+          "/wiki/Kerala"
+        ]
+      ],
+      [
+        "Eliminated 10th",
+        []
+      ]
+    ],
+    [
+      [
+        "Moti Khan",
+        []
+      ],
+      [
+        "Rajasthan",
+        [
+          "/wiki/Rajasthan"
+        ]
+      ],
+      [
+        "Eliminated 9th",
+        []
+      ]
+    ],
+    [
+      [
+        "Niharika Nath",
+        []
+      ],
+      [
+        "Agartala",
+        [
+          "/wiki/Agartala"
+        ]
+      ],
+      [
+        "Eliminated 8th",
+        []
+      ]
+    ],
+    [
+      [
+        "Ranita Banerjee",
+        []
+      ],
+      [
+        "Kolkata",
+        [
+          "/wiki/Kolkata"
+        ]
+      ],
+      [
+        "Eliminated 7th",
+        []
+      ]
+    ],
+    [
+      [
+        "Sreelakshmi Belmannu",
+        []
+      ],
+      [
+        "Bangalore",
+        [
+          "/wiki/Bangalore"
+        ]
+      ],
+      [
+        "Eliminated 6th",
+        []
+      ]
+    ],
+    [
+      [
+        "Ajay Brijwasi",
+        []
+      ],
+      [
+        "Mathura",
+        [
+          "/wiki/Mathura"
+        ]
+      ],
+      [
+        "Eliminated 5th",
+        []
+      ]
+    ],
+    [
+      [
+        "Yumna Ajin",
+        []
+      ],
+      [
+        "Kerala",
+        [
+          "/wiki/Kerala"
+        ]
+      ],
+      [
+        "Eliminated 4th",
+        []
+      ]
+    ],
+    [
+      [
+        "Surendra Singh Panwar",
+        []
+      ],
+      [
+        "Rajasthan",
+        [
+          "/wiki/Rajasthan"
+        ]
+      ],
+      [
+        "Eliminated 3rd",
+        []
+      ]
+    ],
+    [
+      [
+        "Vidhi Jaswal",
+        []
+      ],
+      [
+        "Jammu and Kashmir",
+        [
+          "/wiki/Jammu_and_Kashmir"
+        ]
+      ],
+      [
+        "Eliminated 2nd",
+        []
+      ]
+    ],
+    [
+      [
+        "Shubhankar",
+        []
+      ],
+      [
+        "Kolkata",
+        [
+          "/wiki/Kolkata"
+        ]
+      ],
+      [
+        "Eliminated 1st",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "1414956a-3a7e-5fc2-ae87-318865cb1b65",
+    "table_id": "Indian_Idol_5_7",
+    "title": "Indian Idol",
+    "header": [
+      "Name",
+      "Hometown",
+      "Elimination"
+    ],
+    "value": [
+      [
+        [
+          "Ananya Nanda",
+          [
+            "/wiki/Ananya_Nanda"
+          ]
+        ],
+        [
+          "Odisha",
+          [
+            "/wiki/Odisha"
+          ]
+        ],
+        [
+          "Winner",
+          []
+        ]
+      ],
+      [
+        [
+          "Nahid Afrin",
+          [
+            "/wiki/Nahid_Afrin"
+          ]
+        ],
+        [
+          "Assam",
+          [
+            "/wiki/Assam"
+          ]
+        ],
+        [
+          "1st Runner-up",
+          []
+        ]
+      ],
+      [
+        [
+          "Nithyashree Venkataramanan",
+          []
+        ],
+        [
+          "Chennai",
+          [
+            "/wiki/Chennai"
+          ]
+        ],
+        [
+          "2nd Runner-up",
+          []
+        ]
+      ],
+      [
+        [
+          "Vaishnav Girish",
+          [
+            "/wiki/Vaishnav_Girish"
+          ]
+        ],
+        [
+          "Kerala",
+          [
+            "/wiki/Kerala"
+          ]
+        ],
+        [
+          "Eliminated 10th",
+          []
+        ]
+      ],
+      [
+        [
+          "Moti Khan",
+          []
+        ],
+        [
+          "Rajasthan",
+          [
+            "/wiki/Rajasthan"
+          ]
+        ],
+        [
+          "Eliminated 9th",
+          []
+        ]
+      ],
+      [
+        [
+          "Niharika Nath",
+          []
+        ],
+        [
+          "Agartala",
+          [
+            "/wiki/Agartala"
+          ]
+        ],
+        [
+          "Eliminated 8th",
+          []
+        ]
+      ],
+      [
+        [
+          "Ranita Banerjee",
+          []
+        ],
+        [
+          "Kolkata",
+          [
+            "/wiki/Kolkata"
+          ]
+        ],
+        [
+          "Eliminated 7th",
+          []
+        ]
+      ],
+      [
+        [
+          "Sreelakshmi Belmannu",
+          []
+        ],
+        [
+          "Bangalore",
+          [
+            "/wiki/Bangalore"
+          ]
+        ],
+        [
+          "Eliminated 6th",
+          []
+        ]
+      ],
+      [
+        [
+          "Ajay Brijwasi",
+          []
+        ],
+        [
+          "Mathura",
+          [
+            "/wiki/Mathura"
+          ]
+        ],
+        [
+          "Eliminated 5th",
+          []
+        ]
+      ],
+      [
+        [
+          "Yumna Ajin",
+          []
+        ],
+        [
+          "Kerala",
+          [
+            "/wiki/Kerala"
+          ]
+        ],
+        [
+          "Eliminated 4th",
+          []
+        ]
+      ],
+      [
+        [
+          "Surendra Singh Panwar",
+          []
+        ],
+        [
+          "Rajasthan",
+          [
+            "/wiki/Rajasthan"
+          ]
+        ],
+        [
+          "Eliminated 3rd",
+          []
+        ]
+      ],
+      [
+        [
+          "Vidhi Jaswal",
+          []
+        ],
+        [
+          "Jammu and Kashmir",
+          [
+            "/wiki/Jammu_and_Kashmir"
+          ]
+        ],
+        [
+          "Eliminated 2nd",
+          []
+        ]
+      ],
+      [
+        [
+          "Shubhankar",
+          []
+        ],
+        [
+          "Kolkata",
+          [
+            "/wiki/Kolkata"
+          ]
+        ],
+        [
+          "Eliminated 1st",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about participants in the Indian Idol competition, including their names, hometowns, and elimination statuses. It serves to summarize key details about contestants and their progress in the show.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Elimination"
+  ],
+  "entities": [
+    "Name",
+    "Hometown"
+  ]
+}

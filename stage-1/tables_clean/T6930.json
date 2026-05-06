@@ -1,0 +1,325 @@
+{
+  "table_id": "T6930",
+  "uid": "acd36d24-2df8-55d9-9392-771712ca6446",
+  "source": "HybridQA",
+  "source_table_id": "acd36d24-2df8-55d9-9392-771712ca6446",
+  "domain": "HybridQA",
+  "title": "List of U.S. state dogs",
+  "columns": [
+    "State",
+    "Dog breed",
+    "Year proposed"
+  ],
+  "rows": [
+    [
+      [
+        "Georgia",
+        [
+          "/wiki/Georgia_(U.S._state)"
+        ]
+      ],
+      [
+        "Golden Retriever",
+        [
+          "/wiki/Golden_Retriever"
+        ]
+      ],
+      [
+        1991,
+        []
+      ]
+    ],
+    [
+      [
+        "Georgia",
+        [
+          "/wiki/Georgia_(U.S._state)"
+        ]
+      ],
+      [
+        "English bulldog",
+        [
+          "/wiki/English_bulldog"
+        ]
+      ],
+      [
+        2016,
+        []
+      ]
+    ],
+    [
+      [
+        "Kansas",
+        [
+          "/wiki/Kansas"
+        ]
+      ],
+      [
+        "Cairn Terrier",
+        [
+          "/wiki/Cairn_Terrier"
+        ]
+      ],
+      [
+        2012,
+        []
+      ]
+    ],
+    [
+      [
+        "Maine",
+        [
+          "/wiki/Maine"
+        ]
+      ],
+      [
+        "Labrador Retriever",
+        [
+          "/wiki/Labrador_Retriever"
+        ]
+      ],
+      [
+        2015,
+        []
+      ]
+    ],
+    [
+      [
+        "New Jersey",
+        [
+          "/wiki/New_Jersey"
+        ]
+      ],
+      [
+        "The Seeing Eye Dog",
+        [
+          "/wiki/The_Seeing_Eye"
+        ]
+      ],
+      [
+        2019,
+        []
+      ]
+    ],
+    [
+      [
+        "Ohio",
+        [
+          "/wiki/Ohio"
+        ]
+      ],
+      [
+        "Labrador Retriever",
+        [
+          "/wiki/Labrador_Retriever"
+        ]
+      ],
+      [
+        2015,
+        []
+      ]
+    ],
+    [
+      [
+        "Oregon",
+        [
+          "/wiki/Oregon"
+        ]
+      ],
+      [
+        "Newfoundland",
+        [
+          "/wiki/Newfoundland_(dog)"
+        ]
+      ],
+      [
+        2015,
+        []
+      ]
+    ],
+    [
+      [
+        "Washington",
+        [
+          "/wiki/Washington_(U.S._state)"
+        ]
+      ],
+      [
+        "Siberian Husky",
+        [
+          "/wiki/Siberian_Husky"
+        ]
+      ],
+      [
+        2004,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "acd36d24-2df8-55d9-9392-771712ca6446",
+    "table_id": "U.S._state_dogs_1",
+    "title": "List of U.S. state dogs",
+    "header": [
+      "State",
+      "Dog breed",
+      "Year proposed"
+    ],
+    "value": [
+      [
+        [
+          "Georgia",
+          [
+            "/wiki/Georgia_(U.S._state)"
+          ]
+        ],
+        [
+          "Golden Retriever",
+          [
+            "/wiki/Golden_Retriever"
+          ]
+        ],
+        [
+          1991,
+          []
+        ]
+      ],
+      [
+        [
+          "Georgia",
+          [
+            "/wiki/Georgia_(U.S._state)"
+          ]
+        ],
+        [
+          "English bulldog",
+          [
+            "/wiki/English_bulldog"
+          ]
+        ],
+        [
+          2016,
+          []
+        ]
+      ],
+      [
+        [
+          "Kansas",
+          [
+            "/wiki/Kansas"
+          ]
+        ],
+        [
+          "Cairn Terrier",
+          [
+            "/wiki/Cairn_Terrier"
+          ]
+        ],
+        [
+          2012,
+          []
+        ]
+      ],
+      [
+        [
+          "Maine",
+          [
+            "/wiki/Maine"
+          ]
+        ],
+        [
+          "Labrador Retriever",
+          [
+            "/wiki/Labrador_Retriever"
+          ]
+        ],
+        [
+          2015,
+          []
+        ]
+      ],
+      [
+        [
+          "New Jersey",
+          [
+            "/wiki/New_Jersey"
+          ]
+        ],
+        [
+          "The Seeing Eye Dog",
+          [
+            "/wiki/The_Seeing_Eye"
+          ]
+        ],
+        [
+          2019,
+          []
+        ]
+      ],
+      [
+        [
+          "Ohio",
+          [
+            "/wiki/Ohio"
+          ]
+        ],
+        [
+          "Labrador Retriever",
+          [
+            "/wiki/Labrador_Retriever"
+          ]
+        ],
+        [
+          2015,
+          []
+        ]
+      ],
+      [
+        [
+          "Oregon",
+          [
+            "/wiki/Oregon"
+          ]
+        ],
+        [
+          "Newfoundland",
+          [
+            "/wiki/Newfoundland_(dog)"
+          ]
+        ],
+        [
+          2015,
+          []
+        ]
+      ],
+      [
+        [
+          "Washington",
+          [
+            "/wiki/Washington_(U.S._state)"
+          ]
+        ],
+        [
+          "Siberian Husky",
+          [
+            "/wiki/Siberian_Husky"
+          ]
+        ],
+        [
+          2004,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about official or proposed state dogs in the United States, including the associated state, the dog breed, and the year the designation was proposed. It serves to document the relationship between U.S. states and their symbolic dog breeds.",
+  "numeric_columns": [
+    "Year proposed"
+  ],
+  "categorical_columns": [
+    "Dog breed"
+  ],
+  "entities": [
+    "State"
+  ]
+}

@@ -1,0 +1,472 @@
+{
+  "table_id": "T7136",
+  "uid": "a3a5ca9b-4c12-51c6-8c89-d5430d0e0202",
+  "source": "HybridQA",
+  "source_table_id": "a3a5ca9b-4c12-51c6-8c89-d5430d0e0202",
+  "domain": "HybridQA",
+  "title": "Indian Idol",
+  "columns": [
+    "Name",
+    "Hometown",
+    "Elimination"
+  ],
+  "rows": [
+    [
+      [
+        "Sreerama Chandra Mynampati",
+        [
+          "/wiki/Sreerama_Chandra_Mynampati"
+        ]
+      ],
+      [
+        "Hyderabad",
+        [
+          "/wiki/Hyderabad"
+        ]
+      ],
+      [
+        "Winner",
+        []
+      ]
+    ],
+    [
+      [
+        "Rakesh Maini",
+        []
+      ],
+      [
+        "Mumbai",
+        [
+          "/wiki/Mumbai"
+        ]
+      ],
+      [
+        "1st Runner-up",
+        []
+      ]
+    ],
+    [
+      [
+        "Bhoomi Trivedi",
+        [
+          "/wiki/Bhoomi_Trivedi"
+        ]
+      ],
+      [
+        "Gujarat",
+        [
+          "/wiki/Gujarat"
+        ]
+      ],
+      [
+        "2nd Runner-up",
+        []
+      ]
+    ],
+    [
+      [
+        "Swaroop Khan",
+        [
+          "/wiki/Swaroop_Khan"
+        ]
+      ],
+      [
+        "Rajasthan",
+        [
+          "/wiki/Rajasthan"
+        ]
+      ],
+      [
+        "Eliminated 10th",
+        []
+      ]
+    ],
+    [
+      [
+        "Shivam Pathak",
+        [
+          "/wiki/Shivam_Pathak"
+        ]
+      ],
+      [
+        "Gujarat",
+        [
+          "/wiki/Gujarat"
+        ]
+      ],
+      [
+        "Eliminated 9th",
+        []
+      ]
+    ],
+    [
+      [
+        "Tia Kar",
+        [
+          "/wiki/Tia_Kar"
+        ]
+      ],
+      [
+        "Mumbai",
+        [
+          "/wiki/Mumbai"
+        ]
+      ],
+      [
+        "Eliminated 8th",
+        []
+      ]
+    ],
+    [
+      [
+        "Naushad Ali",
+        []
+      ],
+      [
+        "Rajasthan",
+        [
+          "/wiki/Rajasthan"
+        ]
+      ],
+      [
+        "Eliminated 7th",
+        []
+      ]
+    ],
+    [
+      [
+        "Shashi Suman",
+        []
+      ],
+      [
+        "Patna",
+        [
+          "/wiki/Patna"
+        ]
+      ],
+      [
+        "Eliminated 6th",
+        []
+      ]
+    ],
+    [
+      [
+        "Arpita Khan",
+        []
+      ],
+      [
+        "West Bengal",
+        [
+          "/wiki/West_Bengal"
+        ]
+      ],
+      [
+        "Eliminated 5th",
+        []
+      ]
+    ],
+    [
+      [
+        "Yashraj Kapil",
+        []
+      ],
+      [
+        "Faridabad",
+        [
+          "/wiki/Faridabad"
+        ]
+      ],
+      [
+        "Eliminated 4th",
+        []
+      ]
+    ],
+    [
+      [
+        "Manisha Karmakar",
+        []
+      ],
+      [
+        "Kolkata",
+        [
+          "/wiki/Kolkata"
+        ]
+      ],
+      [
+        "Eliminated 3rd",
+        []
+      ]
+    ],
+    [
+      [
+        "Meghna Kumar",
+        []
+      ],
+      [
+        "Jhansi",
+        [
+          "/wiki/Jhansi"
+        ]
+      ],
+      [
+        "Eliminated 2nd",
+        []
+      ]
+    ],
+    [
+      [
+        "Vishwas Rai",
+        []
+      ],
+      [
+        "Allahabad",
+        [
+          "/wiki/Allahabad"
+        ]
+      ],
+      [
+        "Eliminated 1st",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "a3a5ca9b-4c12-51c6-8c89-d5430d0e0202",
+    "table_id": "Indian_Idol_5_4",
+    "title": "Indian Idol",
+    "header": [
+      "Name",
+      "Hometown",
+      "Elimination"
+    ],
+    "value": [
+      [
+        [
+          "Sreerama Chandra Mynampati",
+          [
+            "/wiki/Sreerama_Chandra_Mynampati"
+          ]
+        ],
+        [
+          "Hyderabad",
+          [
+            "/wiki/Hyderabad"
+          ]
+        ],
+        [
+          "Winner",
+          []
+        ]
+      ],
+      [
+        [
+          "Rakesh Maini",
+          []
+        ],
+        [
+          "Mumbai",
+          [
+            "/wiki/Mumbai"
+          ]
+        ],
+        [
+          "1st Runner-up",
+          []
+        ]
+      ],
+      [
+        [
+          "Bhoomi Trivedi",
+          [
+            "/wiki/Bhoomi_Trivedi"
+          ]
+        ],
+        [
+          "Gujarat",
+          [
+            "/wiki/Gujarat"
+          ]
+        ],
+        [
+          "2nd Runner-up",
+          []
+        ]
+      ],
+      [
+        [
+          "Swaroop Khan",
+          [
+            "/wiki/Swaroop_Khan"
+          ]
+        ],
+        [
+          "Rajasthan",
+          [
+            "/wiki/Rajasthan"
+          ]
+        ],
+        [
+          "Eliminated 10th",
+          []
+        ]
+      ],
+      [
+        [
+          "Shivam Pathak",
+          [
+            "/wiki/Shivam_Pathak"
+          ]
+        ],
+        [
+          "Gujarat",
+          [
+            "/wiki/Gujarat"
+          ]
+        ],
+        [
+          "Eliminated 9th",
+          []
+        ]
+      ],
+      [
+        [
+          "Tia Kar",
+          [
+            "/wiki/Tia_Kar"
+          ]
+        ],
+        [
+          "Mumbai",
+          [
+            "/wiki/Mumbai"
+          ]
+        ],
+        [
+          "Eliminated 8th",
+          []
+        ]
+      ],
+      [
+        [
+          "Naushad Ali",
+          []
+        ],
+        [
+          "Rajasthan",
+          [
+            "/wiki/Rajasthan"
+          ]
+        ],
+        [
+          "Eliminated 7th",
+          []
+        ]
+      ],
+      [
+        [
+          "Shashi Suman",
+          []
+        ],
+        [
+          "Patna",
+          [
+            "/wiki/Patna"
+          ]
+        ],
+        [
+          "Eliminated 6th",
+          []
+        ]
+      ],
+      [
+        [
+          "Arpita Khan",
+          []
+        ],
+        [
+          "West Bengal",
+          [
+            "/wiki/West_Bengal"
+          ]
+        ],
+        [
+          "Eliminated 5th",
+          []
+        ]
+      ],
+      [
+        [
+          "Yashraj Kapil",
+          []
+        ],
+        [
+          "Faridabad",
+          [
+            "/wiki/Faridabad"
+          ]
+        ],
+        [
+          "Eliminated 4th",
+          []
+        ]
+      ],
+      [
+        [
+          "Manisha Karmakar",
+          []
+        ],
+        [
+          "Kolkata",
+          [
+            "/wiki/Kolkata"
+          ]
+        ],
+        [
+          "Eliminated 3rd",
+          []
+        ]
+      ],
+      [
+        [
+          "Meghna Kumar",
+          []
+        ],
+        [
+          "Jhansi",
+          [
+            "/wiki/Jhansi"
+          ]
+        ],
+        [
+          "Eliminated 2nd",
+          []
+        ]
+      ],
+      [
+        [
+          "Vishwas Rai",
+          []
+        ],
+        [
+          "Allahabad",
+          [
+            "/wiki/Allahabad"
+          ]
+        ],
+        [
+          "Eliminated 1st",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about participants in the Indian Idol competition, including their names, hometowns, and elimination statuses. It is designed to summarize key details about contestants and their outcomes in the show.",
+  "numeric_columns": [],
+  "categorical_columns": [
+    "Elimination"
+  ],
+  "entities": [
+    "Name",
+    "Hometown"
+  ]
+}

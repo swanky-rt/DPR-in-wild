@@ -1,0 +1,612 @@
+{
+  "table_id": "T3566",
+  "uid": "ff97460a-9aa5-5ade-9cd5-fe20088673b2",
+  "source": "HybridQA",
+  "source_table_id": "ff97460a-9aa5-5ade-9cd5-fe20088673b2",
+  "domain": "HybridQA",
+  "title": "Miami metropolitan area",
+  "columns": [
+    "Club",
+    "Sport",
+    "League",
+    "Venue ( Capacity )",
+    "Attendance",
+    "League Championships"
+  ],
+  "rows": [
+    [
+      [
+        "Miami Dolphins",
+        [
+          "/wiki/Miami_Dolphins"
+        ]
+      ],
+      [
+        "Football",
+        [
+          "/wiki/American_football"
+        ]
+      ],
+      [
+        "National Football League",
+        [
+          "/wiki/National_Football_League"
+        ]
+      ],
+      [
+        "Hard Rock Stadium ( 64,767 )",
+        [
+          "/wiki/Hard_Rock_Stadium"
+        ]
+      ],
+      [
+        "70,035",
+        []
+      ],
+      [
+        "Super Bowl ( 2 ) - 1972 , 1973",
+        [
+          "/wiki/Super_Bowl"
+        ]
+      ]
+    ],
+    [
+      [
+        "Miami Hurricanes",
+        [
+          "/wiki/Miami_Hurricanes_football"
+        ]
+      ],
+      [
+        "Football",
+        [
+          "/wiki/American_football"
+        ]
+      ],
+      [
+        "NCAA D-I ( ACC )",
+        [
+          "/wiki/NCAA_Division_I",
+          "/wiki/Atlantic_Coast_Conference"
+        ]
+      ],
+      [
+        "Hard Rock Stadium ( 64,767 )",
+        [
+          "/wiki/Hard_Rock_Stadium"
+        ]
+      ],
+      [
+        "53,837",
+        []
+      ],
+      [
+        "National titles ( 5 ) - 1983 , 1987 , 1989 , 1991 , 2001",
+        []
+      ]
+    ],
+    [
+      [
+        "Miami Marlins",
+        [
+          "/wiki/Miami_Marlins"
+        ]
+      ],
+      [
+        "Baseball",
+        [
+          "/wiki/Baseball"
+        ]
+      ],
+      [
+        "Major League Baseball",
+        [
+          "/wiki/Major_League_Baseball"
+        ]
+      ],
+      [
+        "Marlins Park ( 36,742 )",
+        [
+          "/wiki/Marlins_Park"
+        ]
+      ],
+      [
+        "21,386",
+        []
+      ],
+      [
+        "World Series ( 2 ) - 1997 , 2003",
+        [
+          "/wiki/World_Series"
+        ]
+      ]
+    ],
+    [
+      [
+        "Miami Heat",
+        [
+          "/wiki/Miami_Heat"
+        ]
+      ],
+      [
+        "Basketball",
+        [
+          "/wiki/Basketball"
+        ]
+      ],
+      [
+        "National Basketball Association",
+        [
+          "/wiki/National_Basketball_Association"
+        ]
+      ],
+      [
+        "American Airlines Arena ( 19,600 )",
+        [
+          "/wiki/American_Airlines_Arena"
+        ]
+      ],
+      [
+        "19,710",
+        []
+      ],
+      [
+        "NBA Finals ( 3 ) - 2006 , 2012 , 2013",
+        [
+          "/wiki/NBA_Finals"
+        ]
+      ]
+    ],
+    [
+      [
+        "Inter Miami CF",
+        [
+          "/wiki/Inter_Miami_CF"
+        ]
+      ],
+      [
+        "Soccer",
+        [
+          "/wiki/Soccer"
+        ]
+      ],
+      [
+        "Major League Soccer",
+        [
+          "/wiki/Major_League_Soccer"
+        ]
+      ],
+      [
+        "Lockhart Stadium ( 18,000 )",
+        [
+          "/wiki/Lockhart_Stadium_(2020)"
+        ]
+      ],
+      [
+        "",
+        []
+      ],
+      [
+        "MLS Cup - None",
+        [
+          "/wiki/MLS_Cup"
+        ]
+      ]
+    ],
+    [
+      [
+        "FIU Panthers",
+        [
+          "/wiki/FIU_Panthers_football"
+        ]
+      ],
+      [
+        "Football",
+        [
+          "/wiki/American_football"
+        ]
+      ],
+      [
+        "NCAA D-I ( Conference USA )",
+        [
+          "/wiki/NCAA_Division_I",
+          "/wiki/Conference_USA"
+        ]
+      ],
+      [
+        "FIU Stadium ( 23,500 )",
+        [
+          "/wiki/FIU_Stadium"
+        ]
+      ],
+      [
+        "15,453",
+        []
+      ],
+      [
+        "None",
+        []
+      ]
+    ],
+    [
+      [
+        "Florida Panthers",
+        [
+          "/wiki/Florida_Panthers"
+        ]
+      ],
+      [
+        "Hockey",
+        [
+          "/wiki/Ice_hockey"
+        ]
+      ],
+      [
+        "National Hockey League",
+        [
+          "/wiki/National_Hockey_League"
+        ]
+      ],
+      [
+        "BB & T Center ( 19,250 )",
+        [
+          "/wiki/BB&T_Center_(Sunrise)"
+        ]
+      ],
+      [
+        "10,250",
+        []
+      ],
+      [
+        "None",
+        []
+      ]
+    ],
+    [
+      [
+        "FAU Owls",
+        [
+          "/wiki/Florida_Atlantic_Owls_football"
+        ]
+      ],
+      [
+        "Football",
+        [
+          "/wiki/American_football"
+        ]
+      ],
+      [
+        "NCAA D-1 ( Conference USA )",
+        [
+          "/wiki/NCAA_Division_I",
+          "/wiki/Conference_USA"
+        ]
+      ],
+      [
+        "FAU Stadium ( 29,419 )",
+        [
+          "/wiki/FAU_Stadium"
+        ]
+      ],
+      [
+        "18,948",
+        []
+      ],
+      [
+        "None",
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "ff97460a-9aa5-5ade-9cd5-fe20088673b2",
+    "table_id": "Miami_metropolitan_area_1",
+    "title": "Miami metropolitan area",
+    "header": [
+      "Club",
+      "Sport",
+      "League",
+      "Venue ( Capacity )",
+      "Attendance",
+      "League Championships"
+    ],
+    "value": [
+      [
+        [
+          "Miami Dolphins",
+          [
+            "/wiki/Miami_Dolphins"
+          ]
+        ],
+        [
+          "Football",
+          [
+            "/wiki/American_football"
+          ]
+        ],
+        [
+          "National Football League",
+          [
+            "/wiki/National_Football_League"
+          ]
+        ],
+        [
+          "Hard Rock Stadium ( 64,767 )",
+          [
+            "/wiki/Hard_Rock_Stadium"
+          ]
+        ],
+        [
+          "70,035",
+          []
+        ],
+        [
+          "Super Bowl ( 2 ) - 1972 , 1973",
+          [
+            "/wiki/Super_Bowl"
+          ]
+        ]
+      ],
+      [
+        [
+          "Miami Hurricanes",
+          [
+            "/wiki/Miami_Hurricanes_football"
+          ]
+        ],
+        [
+          "Football",
+          [
+            "/wiki/American_football"
+          ]
+        ],
+        [
+          "NCAA D-I ( ACC )",
+          [
+            "/wiki/NCAA_Division_I",
+            "/wiki/Atlantic_Coast_Conference"
+          ]
+        ],
+        [
+          "Hard Rock Stadium ( 64,767 )",
+          [
+            "/wiki/Hard_Rock_Stadium"
+          ]
+        ],
+        [
+          "53,837",
+          []
+        ],
+        [
+          "National titles ( 5 ) - 1983 , 1987 , 1989 , 1991 , 2001",
+          []
+        ]
+      ],
+      [
+        [
+          "Miami Marlins",
+          [
+            "/wiki/Miami_Marlins"
+          ]
+        ],
+        [
+          "Baseball",
+          [
+            "/wiki/Baseball"
+          ]
+        ],
+        [
+          "Major League Baseball",
+          [
+            "/wiki/Major_League_Baseball"
+          ]
+        ],
+        [
+          "Marlins Park ( 36,742 )",
+          [
+            "/wiki/Marlins_Park"
+          ]
+        ],
+        [
+          "21,386",
+          []
+        ],
+        [
+          "World Series ( 2 ) - 1997 , 2003",
+          [
+            "/wiki/World_Series"
+          ]
+        ]
+      ],
+      [
+        [
+          "Miami Heat",
+          [
+            "/wiki/Miami_Heat"
+          ]
+        ],
+        [
+          "Basketball",
+          [
+            "/wiki/Basketball"
+          ]
+        ],
+        [
+          "National Basketball Association",
+          [
+            "/wiki/National_Basketball_Association"
+          ]
+        ],
+        [
+          "American Airlines Arena ( 19,600 )",
+          [
+            "/wiki/American_Airlines_Arena"
+          ]
+        ],
+        [
+          "19,710",
+          []
+        ],
+        [
+          "NBA Finals ( 3 ) - 2006 , 2012 , 2013",
+          [
+            "/wiki/NBA_Finals"
+          ]
+        ]
+      ],
+      [
+        [
+          "Inter Miami CF",
+          [
+            "/wiki/Inter_Miami_CF"
+          ]
+        ],
+        [
+          "Soccer",
+          [
+            "/wiki/Soccer"
+          ]
+        ],
+        [
+          "Major League Soccer",
+          [
+            "/wiki/Major_League_Soccer"
+          ]
+        ],
+        [
+          "Lockhart Stadium ( 18,000 )",
+          [
+            "/wiki/Lockhart_Stadium_(2020)"
+          ]
+        ],
+        [
+          "",
+          []
+        ],
+        [
+          "MLS Cup - None",
+          [
+            "/wiki/MLS_Cup"
+          ]
+        ]
+      ],
+      [
+        [
+          "FIU Panthers",
+          [
+            "/wiki/FIU_Panthers_football"
+          ]
+        ],
+        [
+          "Football",
+          [
+            "/wiki/American_football"
+          ]
+        ],
+        [
+          "NCAA D-I ( Conference USA )",
+          [
+            "/wiki/NCAA_Division_I",
+            "/wiki/Conference_USA"
+          ]
+        ],
+        [
+          "FIU Stadium ( 23,500 )",
+          [
+            "/wiki/FIU_Stadium"
+          ]
+        ],
+        [
+          "15,453",
+          []
+        ],
+        [
+          "None",
+          []
+        ]
+      ],
+      [
+        [
+          "Florida Panthers",
+          [
+            "/wiki/Florida_Panthers"
+          ]
+        ],
+        [
+          "Hockey",
+          [
+            "/wiki/Ice_hockey"
+          ]
+        ],
+        [
+          "National Hockey League",
+          [
+            "/wiki/National_Hockey_League"
+          ]
+        ],
+        [
+          "BB & T Center ( 19,250 )",
+          [
+            "/wiki/BB&T_Center_(Sunrise)"
+          ]
+        ],
+        [
+          "10,250",
+          []
+        ],
+        [
+          "None",
+          []
+        ]
+      ],
+      [
+        [
+          "FAU Owls",
+          [
+            "/wiki/Florida_Atlantic_Owls_football"
+          ]
+        ],
+        [
+          "Football",
+          [
+            "/wiki/American_football"
+          ]
+        ],
+        [
+          "NCAA D-1 ( Conference USA )",
+          [
+            "/wiki/NCAA_Division_I",
+            "/wiki/Conference_USA"
+          ]
+        ],
+        [
+          "FAU Stadium ( 29,419 )",
+          [
+            "/wiki/FAU_Stadium"
+          ]
+        ],
+        [
+          "18,948",
+          []
+        ],
+        [
+          "None",
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about sports clubs in the Miami metropolitan area, detailing their associated sports, leagues, venues, attendance figures, and championship achievements. It serves as an overview of the region's sports scene, highlighting key attributes of each club.",
+  "numeric_columns": [
+    "Attendance",
+    "League Championships"
+  ],
+  "categorical_columns": [
+    "Sport",
+    "League"
+  ],
+  "entities": [
+    "Club",
+    "Venue ( Capacity )"
+  ]
+}

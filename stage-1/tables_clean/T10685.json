@@ -1,0 +1,368 @@
+{
+  "table_id": "T10685",
+  "uid": "0c9a715f-3f5b-5119-81c1-83e8ae376001",
+  "source": "HybridQA",
+  "source_table_id": "0c9a715f-3f5b-5119-81c1-83e8ae376001",
+  "domain": "HybridQA",
+  "title": "2009 Aerobic Gymnastics European Championships",
+  "columns": [
+    "Rank",
+    "Gymnast",
+    "Country",
+    "Point"
+  ],
+  "rows": [
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Ivan Parejo",
+        [
+          "/wiki/Ivan_Parejo"
+        ]
+      ],
+      [
+        "Spain",
+        [
+          "/wiki/Spain"
+        ]
+      ],
+      [
+        21.35,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Alexander Kondratichev",
+        []
+      ],
+      [
+        "Russia",
+        [
+          "/wiki/Russia"
+        ]
+      ],
+      [
+        20.8,
+        []
+      ]
+    ],
+    [
+      [
+        "",
+        []
+      ],
+      [
+        "Mircea Zamfir",
+        [
+          "/wiki/Mircea_Zamfir"
+        ]
+      ],
+      [
+        "Romania",
+        [
+          "/wiki/Romania"
+        ]
+      ],
+      [
+        20.5,
+        []
+      ]
+    ],
+    [
+      [
+        4,
+        []
+      ],
+      [
+        "Morgan Jaquemin",
+        []
+      ],
+      [
+        "France",
+        [
+          "/wiki/France"
+        ]
+      ],
+      [
+        20.3,
+        []
+      ]
+    ],
+    [
+      [
+        5,
+        []
+      ],
+      [
+        "Emanuele Pagliuca",
+        []
+      ],
+      [
+        "Italy",
+        [
+          "/wiki/Italy"
+        ]
+      ],
+      [
+        20.3,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        "Zsolt Roik",
+        []
+      ],
+      [
+        "Hungary",
+        [
+          "/wiki/Hungary"
+        ]
+      ],
+      [
+        20.2,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        "Rámon Tyeklár",
+        []
+      ],
+      [
+        "Hungary",
+        [
+          "/wiki/Hungary"
+        ]
+      ],
+      [
+        19.85,
+        []
+      ]
+    ],
+    [
+      [
+        8,
+        []
+      ],
+      [
+        "Antonio Caforio",
+        []
+      ],
+      [
+        "Italy",
+        [
+          "/wiki/Italy"
+        ]
+      ],
+      [
+        19.3,
+        []
+      ]
+    ]
+  ],
+  "corpus_table": {
+    "uid": "0c9a715f-3f5b-5119-81c1-83e8ae376001",
+    "table_id": "2009_Aerobic_Gymnastics_European_Championships_1",
+    "title": "2009 Aerobic Gymnastics European Championships",
+    "header": [
+      "Rank",
+      "Gymnast",
+      "Country",
+      "Point"
+    ],
+    "value": [
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Ivan Parejo",
+          [
+            "/wiki/Ivan_Parejo"
+          ]
+        ],
+        [
+          "Spain",
+          [
+            "/wiki/Spain"
+          ]
+        ],
+        [
+          21.35,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Alexander Kondratichev",
+          []
+        ],
+        [
+          "Russia",
+          [
+            "/wiki/Russia"
+          ]
+        ],
+        [
+          20.8,
+          []
+        ]
+      ],
+      [
+        [
+          "",
+          []
+        ],
+        [
+          "Mircea Zamfir",
+          [
+            "/wiki/Mircea_Zamfir"
+          ]
+        ],
+        [
+          "Romania",
+          [
+            "/wiki/Romania"
+          ]
+        ],
+        [
+          20.5,
+          []
+        ]
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        [
+          "Morgan Jaquemin",
+          []
+        ],
+        [
+          "France",
+          [
+            "/wiki/France"
+          ]
+        ],
+        [
+          20.3,
+          []
+        ]
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        [
+          "Emanuele Pagliuca",
+          []
+        ],
+        [
+          "Italy",
+          [
+            "/wiki/Italy"
+          ]
+        ],
+        [
+          20.3,
+          []
+        ]
+      ],
+      [
+        [
+          6,
+          []
+        ],
+        [
+          "Zsolt Roik",
+          []
+        ],
+        [
+          "Hungary",
+          [
+            "/wiki/Hungary"
+          ]
+        ],
+        [
+          20.2,
+          []
+        ]
+      ],
+      [
+        [
+          7,
+          []
+        ],
+        [
+          "Rámon Tyeklár",
+          []
+        ],
+        [
+          "Hungary",
+          [
+            "/wiki/Hungary"
+          ]
+        ],
+        [
+          19.85,
+          []
+        ]
+      ],
+      [
+        [
+          8,
+          []
+        ],
+        [
+          "Antonio Caforio",
+          []
+        ],
+        [
+          "Italy",
+          [
+            "/wiki/Italy"
+          ]
+        ],
+        [
+          19.3,
+          []
+        ]
+      ]
+    ]
+  },
+  "description": "This table provides information about the rankings and scores of gymnasts who participated in the 2009 Aerobic Gymnastics European Championships. It includes details about the gymnasts, their countries, and their performance scores. The table is likely used to summarize competition results and highlight top performers.",
+  "numeric_columns": [
+    "Point"
+  ],
+  "categorical_columns": [
+    "Rank"
+  ],
+  "entities": [
+    "Gymnast",
+    "Country"
+  ]
+}
